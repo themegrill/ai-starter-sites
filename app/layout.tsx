@@ -1,0 +1,12 @@
+export const metadata = {
+	title: 'ThemeGrill AI Site Generator API',
+	robots: { index: false },
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+	return (
+		<html lang="en">
+			<body style={{ fontFamily: 'system-ui, sans-serif', margin: 40 }}>{children}</body>
+		</html>
+	);
+}
