@@ -51,11 +51,13 @@ export const createGroqClient = (apiKey: string, model: string): LlmClient => {
 
 		const body = (await response.json().catch(() => ({}))) as GroqResponse;
 
-		// Provider rate limits and outages: one retry, then give up.
+		// Provider rate limits and outages: one retry, then give up. Token limits
+		// reset within a minute, so waiting up to 30s usually gets through.
 		if (response.status === 429 || response.status >= 500) {
 			if (attempt === 0) {
 				const wait = Number(response.headers.get('retry-after')) || 2;
-				await sleep(Math.min(wait, 10) * 1000);
+				console.warn(`[groq] ${request.name} ${response.status}, retrying in ${Math.min(wait, 30)}s`);
+				await sleep(Math.min(wait, 30) * 1000);
 				return call(request, 1);
 			}
 			throw new ApiError('GENERATION_FAILED', 'The AI service is busy right now. Please try again in a minute.', 60);
