@@ -205,6 +205,7 @@
 						{
 							"id": "715dd37b:text",
 							"blockId": "715dd37b",
+							"path": "0.0.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -220,6 +221,7 @@
 						{
 							"id": "1ad4af93:text",
 							"blockId": "1ad4af93",
+							"path": "0.0.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -234,6 +236,7 @@
 						{
 							"id": "73e2d9d7:text",
 							"blockId": "73e2d9d7",
+							"path": "0.0.2.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -250,6 +253,7 @@
 						{
 							"id": "6f3ae846:image.url",
 							"blockId": "6f3ae846",
+							"path": "0.1.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -270,6 +274,7 @@
 						{
 							"id": "2276db7c:text",
 							"blockId": "2276db7c",
+							"path": "1.0.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -285,6 +290,7 @@
 						{
 							"id": "7762735e:text",
 							"blockId": "7762735e",
+							"path": "1.1.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -300,6 +306,7 @@
 						{
 							"id": "e868582c:text",
 							"blockId": "e868582c",
+							"path": "1.2.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -315,6 +322,7 @@
 						{
 							"id": "e08baca8:text",
 							"blockId": "e08baca8",
+							"path": "1.3.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -330,6 +338,7 @@
 						{
 							"id": "e126d413:text",
 							"blockId": "e126d413",
+							"path": "1.4.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -345,6 +354,7 @@
 						{
 							"id": "caca05f3:text",
 							"blockId": "caca05f3",
+							"path": "1.5.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -362,6 +372,7 @@
 						{
 							"id": "9a37870e:image.url",
 							"blockId": "9a37870e",
+							"path": "1.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -374,6 +385,7 @@
 						{
 							"id": "4b27d419:image.url",
 							"blockId": "4b27d419",
+							"path": "1.1.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -386,6 +398,7 @@
 						{
 							"id": "1db335ff:image.url",
 							"blockId": "1db335ff",
+							"path": "1.2.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -398,6 +411,7 @@
 						{
 							"id": "1460ab37:image.url",
 							"blockId": "1460ab37",
+							"path": "1.3.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -410,6 +424,7 @@
 						{
 							"id": "fe57d899:image.url",
 							"blockId": "fe57d899",
+							"path": "1.4.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -422,6 +437,7 @@
 						{
 							"id": "1886d445:image.url",
 							"blockId": "1886d445",
+							"path": "1.5.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -442,6 +458,7 @@
 						{
 							"id": "f75800de:text",
 							"blockId": "f75800de",
+							"path": "2.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -457,6 +474,7 @@
 						{
 							"id": "89caf5ae:text",
 							"blockId": "89caf5ae",
+							"path": "2.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -471,6 +489,7 @@
 						{
 							"id": "5884ef8b:text",
 							"blockId": "5884ef8b",
+							"path": "2.1.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -487,6 +506,7 @@
 						{
 							"id": "22183819:image.url",
 							"blockId": "22183819",
+							"path": "2.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -507,6 +527,7 @@
 						{
 							"id": "26a93908:text",
 							"blockId": "26a93908",
+							"path": "3.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -522,6 +543,7 @@
 						{
 							"id": "971d61ae:text",
 							"blockId": "971d61ae",
+							"path": "3.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -545,6 +567,7 @@
 						{
 							"id": "7ce3a6fc:image.url",
 							"blockId": "7ce3a6fc",
+							"path": "4.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -557,6 +580,7 @@
 						{
 							"id": "043d5184:image.url",
 							"blockId": "043d5184",
+							"path": "4.1.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -569,6 +593,7 @@
 						{
 							"id": "945e1eee:image.url",
 							"blockId": "945e1eee",
+							"path": "4.2.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -581,6 +606,7 @@
 						{
 							"id": "4cf51b56:image.url",
 							"blockId": "4cf51b56",
+							"path": "4.3.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -601,6 +627,7 @@
 						{
 							"id": "e5744859:image.url",
 							"blockId": "e5744859",
+							"path": "5.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -613,6 +640,7 @@
 						{
 							"id": "6fe2131a:image.url",
 							"blockId": "6fe2131a",
+							"path": "5.1.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -625,6 +653,7 @@
 						{
 							"id": "9b40cd6d:image.url",
 							"blockId": "9b40cd6d",
+							"path": "5.2.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -637,6 +666,7 @@
 						{
 							"id": "8b4044ea:image.url",
 							"blockId": "8b4044ea",
+							"path": "5.3.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -657,6 +687,7 @@
 						{
 							"id": "01787a42:text",
 							"blockId": "01787a42",
+							"path": "6.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -672,6 +703,7 @@
 						{
 							"id": "77e0d6bc:text",
 							"blockId": "77e0d6bc",
+							"path": "6.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -695,6 +727,7 @@
 						{
 							"id": "1a876ffe:text",
 							"blockId": "1a876ffe",
+							"path": "7.0.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -710,6 +743,7 @@
 						{
 							"id": "33c83007:text",
 							"blockId": "33c83007",
+							"path": "7.0.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -725,6 +759,7 @@
 						{
 							"id": "1c772c3e:text",
 							"blockId": "1c772c3e",
+							"path": "7.0.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -739,6 +774,7 @@
 						{
 							"id": "7bc59668:text",
 							"blockId": "7bc59668",
+							"path": "7.0.3",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -753,6 +789,7 @@
 						{
 							"id": "f55ef4ec:text",
 							"blockId": "f55ef4ec",
+							"path": "7.0.4",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -767,6 +804,7 @@
 						{
 							"id": "8e0504a1:text",
 							"blockId": "8e0504a1",
+							"path": "7.0.5",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -781,6 +819,7 @@
 						{
 							"id": "41f5c930:text",
 							"blockId": "41f5c930",
+							"path": "7.0.6",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -795,6 +834,7 @@
 						{
 							"id": "e3836ea2:text",
 							"blockId": "e3836ea2",
+							"path": "7.0.7",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -809,6 +849,7 @@
 						{
 							"id": "ea8523fe:text",
 							"blockId": "ea8523fe",
+							"path": "7.0.8",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -823,6 +864,7 @@
 						{
 							"id": "64d1a867:text",
 							"blockId": "64d1a867",
+							"path": "7.0.9.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -837,6 +879,7 @@
 						{
 							"id": "5d5a0150:text",
 							"blockId": "5d5a0150",
+							"path": "7.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -852,6 +895,7 @@
 						{
 							"id": "e3d50522:text",
 							"blockId": "e3d50522",
+							"path": "7.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -867,6 +911,7 @@
 						{
 							"id": "4064de70:text",
 							"blockId": "4064de70",
+							"path": "7.1.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -881,6 +926,7 @@
 						{
 							"id": "c5515988:text",
 							"blockId": "c5515988",
+							"path": "7.1.3",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -895,6 +941,7 @@
 						{
 							"id": "5fd2ae6a:text",
 							"blockId": "5fd2ae6a",
+							"path": "7.1.4",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -909,6 +956,7 @@
 						{
 							"id": "8cf2e83f:text",
 							"blockId": "8cf2e83f",
+							"path": "7.1.5",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -923,6 +971,7 @@
 						{
 							"id": "8e2edc47:text",
 							"blockId": "8e2edc47",
+							"path": "7.1.6",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -937,6 +986,7 @@
 						{
 							"id": "7dc789c0:text",
 							"blockId": "7dc789c0",
+							"path": "7.1.7",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -951,6 +1001,7 @@
 						{
 							"id": "8022d600:text",
 							"blockId": "8022d600",
+							"path": "7.1.8",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -965,6 +1016,7 @@
 						{
 							"id": "deb96322:text",
 							"blockId": "deb96322",
+							"path": "7.1.9.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -979,6 +1031,7 @@
 						{
 							"id": "00b93203:text",
 							"blockId": "00b93203",
+							"path": "7.2.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -994,6 +1047,7 @@
 						{
 							"id": "06baef1f:text",
 							"blockId": "06baef1f",
+							"path": "7.2.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1009,6 +1063,7 @@
 						{
 							"id": "836a1c36:text",
 							"blockId": "836a1c36",
+							"path": "7.2.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1023,6 +1078,7 @@
 						{
 							"id": "686b4a3c:text",
 							"blockId": "686b4a3c",
+							"path": "7.2.3",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1037,6 +1093,7 @@
 						{
 							"id": "5abacf52:text",
 							"blockId": "5abacf52",
+							"path": "7.2.4",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1051,6 +1108,7 @@
 						{
 							"id": "2aa5905a:text",
 							"blockId": "2aa5905a",
+							"path": "7.2.5",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1065,6 +1123,7 @@
 						{
 							"id": "b730b9be:text",
 							"blockId": "b730b9be",
+							"path": "7.2.6",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1079,6 +1138,7 @@
 						{
 							"id": "bd1f27cc:text",
 							"blockId": "bd1f27cc",
+							"path": "7.2.7",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1093,6 +1153,7 @@
 						{
 							"id": "28667c48:text",
 							"blockId": "28667c48",
+							"path": "7.2.8",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1107,6 +1168,7 @@
 						{
 							"id": "57d62c5e:text",
 							"blockId": "57d62c5e",
+							"path": "7.2.9.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -1130,6 +1192,7 @@
 						{
 							"id": "25386736:text",
 							"blockId": "25386736",
+							"path": "8.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1145,6 +1208,7 @@
 						{
 							"id": "6d68128a:text",
 							"blockId": "6d68128a",
+							"path": "8.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1168,6 +1232,7 @@
 						{
 							"id": "677a3ece:text",
 							"blockId": "677a3ece",
+							"path": "9.0.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1183,6 +1248,7 @@
 						{
 							"id": "c43ec13c:text",
 							"blockId": "c43ec13c",
+							"path": "9.0.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1197,6 +1263,7 @@
 						{
 							"id": "396d4571:text",
 							"blockId": "396d4571",
+							"path": "9.1.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1212,6 +1279,7 @@
 						{
 							"id": "36c6f521:text",
 							"blockId": "36c6f521",
+							"path": "9.1.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1226,6 +1294,7 @@
 						{
 							"id": "f698fd58:text",
 							"blockId": "f698fd58",
+							"path": "9.2.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1241,6 +1310,7 @@
 						{
 							"id": "600c7a77:text",
 							"blockId": "600c7a77",
+							"path": "9.2.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1255,6 +1325,7 @@
 						{
 							"id": "67710e37:text",
 							"blockId": "67710e37",
+							"path": "9.3.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1270,6 +1341,7 @@
 						{
 							"id": "96defc93:text",
 							"blockId": "96defc93",
+							"path": "9.3.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1286,6 +1358,7 @@
 						{
 							"id": "fea78d82:image.url",
 							"blockId": "fea78d82",
+							"path": "9.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1298,6 +1371,7 @@
 						{
 							"id": "0737a8cb:image.url",
 							"blockId": "0737a8cb",
+							"path": "9.1.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1310,6 +1384,7 @@
 						{
 							"id": "ed4ecf40:image.url",
 							"blockId": "ed4ecf40",
+							"path": "9.2.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1322,6 +1397,7 @@
 						{
 							"id": "1af5d084:image.url",
 							"blockId": "1af5d084",
+							"path": "9.3.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1342,6 +1418,7 @@
 						{
 							"id": "c7b45dbd:text",
 							"blockId": "c7b45dbd",
+							"path": "10.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1357,6 +1434,7 @@
 						{
 							"id": "cc5aa091:text",
 							"blockId": "cc5aa091",
+							"path": "10.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1380,6 +1458,7 @@
 						{
 							"id": "f7a8f0e2:text",
 							"blockId": "f7a8f0e2",
+							"path": "11.0.0",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1394,6 +1473,7 @@
 						{
 							"id": "8b8446b9:text",
 							"blockId": "8b8446b9",
+							"path": "11.0.1.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1409,6 +1489,7 @@
 						{
 							"id": "ac3eba2a:text",
 							"blockId": "ac3eba2a",
+							"path": "11.0.1.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1423,6 +1504,7 @@
 						{
 							"id": "c4ade2e9:text",
 							"blockId": "c4ade2e9",
+							"path": "11.1.0",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1437,6 +1519,7 @@
 						{
 							"id": "4723333c:text",
 							"blockId": "4723333c",
+							"path": "11.1.1.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1452,6 +1535,7 @@
 						{
 							"id": "b8da539e:text",
 							"blockId": "b8da539e",
+							"path": "11.1.1.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1468,6 +1552,7 @@
 						{
 							"id": "df0dca40:image.url",
 							"blockId": "df0dca40",
+							"path": "11.0.1.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1480,6 +1565,7 @@
 						{
 							"id": "d9a44951:image.url",
 							"blockId": "d9a44951",
+							"path": "11.1.1.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1500,6 +1586,7 @@
 						{
 							"id": "9f52e275:text",
 							"blockId": "9f52e275",
+							"path": "12.0.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1515,6 +1602,7 @@
 						{
 							"id": "3f25da05:text",
 							"blockId": "3f25da05",
+							"path": "12.0.2",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1530,6 +1618,7 @@
 						{
 							"id": "57db1a41:text",
 							"blockId": "57db1a41",
+							"path": "12.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1545,6 +1634,7 @@
 						{
 							"id": "39cc876a:text",
 							"blockId": "39cc876a",
+							"path": "12.1.2",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1560,6 +1650,7 @@
 						{
 							"id": "1e378cec:text",
 							"blockId": "1e378cec",
+							"path": "12.2.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1575,6 +1666,7 @@
 						{
 							"id": "305457fc:text",
 							"blockId": "305457fc",
+							"path": "12.2.2",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1590,6 +1682,7 @@
 						{
 							"id": "34a731b4:text",
 							"blockId": "34a731b4",
+							"path": "12.3.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1605,6 +1698,7 @@
 						{
 							"id": "8a173d89:text",
 							"blockId": "8a173d89",
+							"path": "12.3.2",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1622,6 +1716,7 @@
 						{
 							"id": "bbe8b125:image.url",
 							"blockId": "bbe8b125",
+							"path": "12.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1634,6 +1729,7 @@
 						{
 							"id": "47c0a3ed:image.url",
 							"blockId": "47c0a3ed",
+							"path": "12.1.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1646,6 +1742,7 @@
 						{
 							"id": "0193bab7:image.url",
 							"blockId": "0193bab7",
+							"path": "12.2.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1658,6 +1755,7 @@
 						{
 							"id": "b6e6c89a:image.url",
 							"blockId": "b6e6c89a",
+							"path": "12.3.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1678,6 +1776,7 @@
 						{
 							"id": "19bfe100:text",
 							"blockId": "19bfe100",
+							"path": "13.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1693,6 +1792,7 @@
 						{
 							"id": "9e7a7909:text",
 							"blockId": "9e7a7909",
+							"path": "13.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1716,6 +1816,7 @@
 						{
 							"id": "82de95e0:text",
 							"blockId": "82de95e0",
+							"path": "14.0.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1731,6 +1832,7 @@
 						{
 							"id": "89de8e9c:text",
 							"blockId": "89de8e9c",
+							"path": "14.0.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1745,6 +1847,7 @@
 						{
 							"id": "4ee76936:text",
 							"blockId": "4ee76936",
+							"path": "14.0.3.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -1759,6 +1862,7 @@
 						{
 							"id": "8adc2600:text",
 							"blockId": "8adc2600",
+							"path": "14.1.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1774,6 +1878,7 @@
 						{
 							"id": "c78e73ab:text",
 							"blockId": "c78e73ab",
+							"path": "14.1.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1788,6 +1893,7 @@
 						{
 							"id": "a8cf12e8:text",
 							"blockId": "a8cf12e8",
+							"path": "14.1.3.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -1802,6 +1908,7 @@
 						{
 							"id": "2031de75:text",
 							"blockId": "2031de75",
+							"path": "14.2.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1817,6 +1924,7 @@
 						{
 							"id": "8e5c5c5f:text",
 							"blockId": "8e5c5c5f",
+							"path": "14.2.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1831,6 +1939,7 @@
 						{
 							"id": "b9397a12:text",
 							"blockId": "b9397a12",
+							"path": "14.2.3.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -1845,6 +1954,7 @@
 						{
 							"id": "ae1e7206:text",
 							"blockId": "ae1e7206",
+							"path": "14.3.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1860,6 +1970,7 @@
 						{
 							"id": "ee23469c:text",
 							"blockId": "ee23469c",
+							"path": "14.3.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1874,6 +1985,7 @@
 						{
 							"id": "853be24e:text",
 							"blockId": "853be24e",
+							"path": "14.3.3.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -1890,6 +2002,7 @@
 						{
 							"id": "53b3484e:image.url",
 							"blockId": "53b3484e",
+							"path": "14.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1902,6 +2015,7 @@
 						{
 							"id": "e64f8e77:image.url",
 							"blockId": "e64f8e77",
+							"path": "14.1.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1914,6 +2028,7 @@
 						{
 							"id": "a35a53e4:image.url",
 							"blockId": "a35a53e4",
+							"path": "14.2.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1926,6 +2041,7 @@
 						{
 							"id": "73ad3e15:image.url",
 							"blockId": "73ad3e15",
+							"path": "14.3.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -1946,6 +2062,7 @@
 						{
 							"id": "0a1747ef:text",
 							"blockId": "0a1747ef",
+							"path": "15.0.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -1961,6 +2078,7 @@
 						{
 							"id": "98be4072:text",
 							"blockId": "98be4072",
+							"path": "15.0.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -1975,6 +2093,7 @@
 						{
 							"id": "5c80f038:text",
 							"blockId": "5c80f038",
+							"path": "15.1.0.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -2013,6 +2132,7 @@
 						{
 							"id": "248d44f0:text",
 							"blockId": "248d44f0",
+							"path": "0.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2028,6 +2148,7 @@
 						{
 							"id": "30975424:text",
 							"blockId": "30975424",
+							"path": "0.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2042,6 +2163,7 @@
 						{
 							"id": "d15c6136:text",
 							"blockId": "d15c6136",
+							"path": "0.1.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2058,6 +2180,7 @@
 						{
 							"id": "06dcbea6:image.url",
 							"blockId": "06dcbea6",
+							"path": "0.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -2077,6 +2200,7 @@
 						{
 							"id": "88105bb6:text",
 							"blockId": "88105bb6",
+							"path": "1.0.0",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2100,6 +2224,7 @@
 						{
 							"id": "3b0ddb89:text",
 							"blockId": "3b0ddb89",
+							"path": "2.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2115,6 +2240,7 @@
 						{
 							"id": "573d3261:text",
 							"blockId": "573d3261",
+							"path": "2.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2138,6 +2264,7 @@
 						{
 							"id": "aa9f2df7:text",
 							"blockId": "aa9f2df7",
+							"path": "3.0.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2153,6 +2280,7 @@
 						{
 							"id": "4bbf359f:text",
 							"blockId": "4bbf359f",
+							"path": "3.0.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2167,6 +2295,7 @@
 						{
 							"id": "b3380f3a:text",
 							"blockId": "b3380f3a",
+							"path": "3.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2182,6 +2311,7 @@
 						{
 							"id": "bdb7bf36:text",
 							"blockId": "bdb7bf36",
+							"path": "3.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2205,6 +2335,7 @@
 						{
 							"id": "3c58fe65:text",
 							"blockId": "3c58fe65",
+							"path": "4.0.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2220,6 +2351,7 @@
 						{
 							"id": "a29c7121:text",
 							"blockId": "a29c7121",
+							"path": "4.0.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2234,6 +2366,7 @@
 						{
 							"id": "bf956345:text",
 							"blockId": "bf956345",
+							"path": "4.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2249,6 +2382,7 @@
 						{
 							"id": "8ce2a8e3:text",
 							"blockId": "8ce2a8e3",
+							"path": "4.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2272,6 +2406,7 @@
 						{
 							"id": "4d52da07:text",
 							"blockId": "4d52da07",
+							"path": "5.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2287,6 +2422,7 @@
 						{
 							"id": "3b27db7b:text",
 							"blockId": "3b27db7b",
+							"path": "5.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2310,6 +2446,7 @@
 						{
 							"id": "677a3ece:text",
 							"blockId": "677a3ece",
+							"path": "6.0.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2325,6 +2462,7 @@
 						{
 							"id": "c43ec13c:text",
 							"blockId": "c43ec13c",
+							"path": "6.0.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2339,6 +2477,7 @@
 						{
 							"id": "396d4571:text",
 							"blockId": "396d4571",
+							"path": "6.1.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2354,6 +2493,7 @@
 						{
 							"id": "36c6f521:text",
 							"blockId": "36c6f521",
+							"path": "6.1.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2368,6 +2508,7 @@
 						{
 							"id": "f698fd58:text",
 							"blockId": "f698fd58",
+							"path": "6.2.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2383,6 +2524,7 @@
 						{
 							"id": "600c7a77:text",
 							"blockId": "600c7a77",
+							"path": "6.2.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2397,6 +2539,7 @@
 						{
 							"id": "67710e37:text",
 							"blockId": "67710e37",
+							"path": "6.3.1",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2412,6 +2555,7 @@
 						{
 							"id": "96defc93:text",
 							"blockId": "96defc93",
+							"path": "6.3.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2428,6 +2572,7 @@
 						{
 							"id": "fea78d82:image.url",
 							"blockId": "fea78d82",
+							"path": "6.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -2440,6 +2585,7 @@
 						{
 							"id": "0737a8cb:image.url",
 							"blockId": "0737a8cb",
+							"path": "6.1.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -2452,6 +2598,7 @@
 						{
 							"id": "ed4ecf40:image.url",
 							"blockId": "ed4ecf40",
+							"path": "6.2.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -2464,6 +2611,7 @@
 						{
 							"id": "1af5d084:image.url",
 							"blockId": "1af5d084",
+							"path": "6.3.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -2484,6 +2632,7 @@
 						{
 							"id": "2627c2f8:text",
 							"blockId": "2627c2f8",
+							"path": "7.0.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2499,6 +2648,7 @@
 						{
 							"id": "56ab1d8a:text",
 							"blockId": "56ab1d8a",
+							"path": "7.0.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2513,6 +2663,7 @@
 						{
 							"id": "8586a099:text",
 							"blockId": "8586a099",
+							"path": "7.1.0.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -2544,6 +2695,7 @@
 						{
 							"id": "ed8ed03b:text",
 							"blockId": "ed8ed03b",
+							"path": "0.0.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2559,6 +2711,7 @@
 						{
 							"id": "d195d6a0:text",
 							"blockId": "d195d6a0",
+							"path": "0.0.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2573,6 +2726,7 @@
 						{
 							"id": "2c4d95c6:text",
 							"blockId": "2c4d95c6",
+							"path": "0.0.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2588,6 +2742,7 @@
 						{
 							"id": "4a35044c:text",
 							"blockId": "4a35044c",
+							"path": "0.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2603,6 +2758,7 @@
 						{
 							"id": "d266bdad:text",
 							"blockId": "d266bdad",
+							"path": "0.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2618,6 +2774,7 @@
 						{
 							"id": "30309db5:text",
 							"blockId": "30309db5",
+							"path": "0.1.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2633,6 +2790,7 @@
 						{
 							"id": "79dd122c:text",
 							"blockId": "79dd122c",
+							"path": "0.2.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2648,6 +2806,7 @@
 						{
 							"id": "9badcfde:text",
 							"blockId": "9badcfde",
+							"path": "0.2.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2663,6 +2822,7 @@
 						{
 							"id": "e9af344f:text",
 							"blockId": "e9af344f",
+							"path": "0.2.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2678,6 +2838,7 @@
 						{
 							"id": "851087b5:text",
 							"blockId": "851087b5",
+							"path": "0.3.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2693,6 +2854,7 @@
 						{
 							"id": "42904d24:text",
 							"blockId": "42904d24",
+							"path": "0.3.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2707,6 +2869,7 @@
 						{
 							"id": "33984ffa:text",
 							"blockId": "33984ffa",
+							"path": "0.3.2",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2730,6 +2893,7 @@
 						{
 							"id": "cb9e1b82:image.url",
 							"blockId": "cb9e1b82",
+							"path": "1.0.0",
 							"block": "blockart/image",
 							"attr": "image.url",
 							"kind": "image",
@@ -2750,6 +2914,7 @@
 						{
 							"id": "4d52da07:text",
 							"blockId": "4d52da07",
+							"path": "2.1.0",
 							"block": "blockart/heading",
 							"attr": "text",
 							"kind": "heading",
@@ -2765,6 +2930,7 @@
 						{
 							"id": "3b27db7b:text",
 							"blockId": "3b27db7b",
+							"path": "2.1.1",
 							"block": "blockart/paragraph",
 							"attr": "text",
 							"kind": "paragraph",
@@ -2779,6 +2945,7 @@
 						{
 							"id": "b387f7b1:text",
 							"blockId": "b387f7b1",
+							"path": "2.1.2.0",
 							"block": "blockart/button-inner",
 							"attr": "text",
 							"kind": "button",
@@ -2811,5 +2978,5 @@
 		"swappableImages": 26,
 		"words": 933
 	},
-	"builtAt": "2026-10-04T12:33:26.977Z"
+	"builtAt": "2026-10-04T12:45:43.956Z"
 }

@@ -49,9 +49,22 @@ const attrsOf = (block: Block) => (block.attrs ?? {}) as Record<string, unknown>
 const getPath = (obj: unknown, path: string): unknown =>
 	path.split('.').reduce<unknown>((value, key) => (value && typeof value === 'object' ? (value as Record<string, unknown>)[key] : undefined), obj);
 
-const walk = (block: Block, visit: (block: Block) => void) => {
-	if (block.blockName) visit(block);
-	block.innerBlocks.forEach((inner) => walk(inner, visit));
+// `path` is the block's position in the page (e.g. "3.0.2"); core blocks have
+// no clientId, so it gives them a stable id.
+const walk = (block: Block, visit: (block: Block, path: string) => void, path: string) => {
+	if (block.blockName) visit(block, path);
+	block.innerBlocks.forEach((inner, i) => walk(inner, visit, `${path}.${i}`));
+};
+
+const blockIdOf = (block: Block, path: string) => (attrsOf(block).clientId as string | undefined) ?? `core-${path}`;
+
+// Core blocks keep their text only in the saved HTML: the inner HTML of this element.
+const CORE_TEXT: Record<string, { element: string; kind: TextSlotKind }> = {
+	'core/paragraph': { element: 'p', kind: 'paragraph' },
+	'core/heading': { element: 'h[1-6]', kind: 'heading' },
+	'core/button': { element: 'a', kind: 'button' },
+	'core/list-item': { element: 'li', kind: 'list-item' },
+	'core/details': { element: 'summary', kind: 'question' },
 };
 
 export const pageTypeOf = (slug: string): PageType => {
@@ -59,7 +72,7 @@ export const pageTypeOf = (slug: string): PageType => {
 	if (/about/.test(slug)) return 'about';
 	if (/contact/.test(slug)) return 'contact';
 	if (/blog|news/.test(slug)) return 'blog';
-	if (/service|class|course|propert|program|menu|treatment|offer|portfolio|project/.test(slug)) return 'services';
+	if (/service|class|course|lesson|package|propert|program|menu|treatment|offer|practi[cs]e|area|portfolio|project/.test(slug)) return 'services';
 	return 'other';
 };
 
@@ -72,12 +85,21 @@ export type PageScan = {
 	warnings: string[];
 };
 
-const textSlotsOf = (block: Block): TextSlot[] => {
-	const blockId = attrsOf(block).clientId as string;
+const textSlotsOf = (block: Block, blockId: string, path: string): TextSlot[] => {
 	const slots: TextSlot[] = [];
+	const sources: { attr: string; kind: TextSlotKind; raw: unknown; tag?: string }[] = (
+		TEXT_ATTRS[block.blockName ?? ''] ?? []
+	).map(({ attr, kind }) => ({ attr, kind, raw: getPath(attrsOf(block), attr), tag: attrsOf(block).markup as string }));
 
-	for (const { attr, kind } of TEXT_ATTRS[block.blockName ?? ''] ?? []) {
-		const raw = getPath(attrsOf(block), attr);
+	const core = CORE_TEXT[block.blockName ?? ''];
+	if (core) {
+		const match = block.innerHTML.match(new RegExp(`<(${core.element})\\b[^>]*>([\\s\\S]*?)</\\1>`, 'i'));
+		if (match?.[2]) {
+			sources.push({ attr: `@html:${core.element === 'h[1-6]' ? 'h' : core.element}`, kind: core.kind, raw: match[2], tag: match[1]?.toLowerCase() });
+		}
+	}
+
+	for (const { attr, kind, raw, tag } of sources) {
 		if (typeof raw !== 'string' || !raw.trim()) continue;
 
 		const text = toPlainText(raw);
@@ -88,10 +110,11 @@ const textSlotsOf = (block: Block): TextSlot[] => {
 		slots.push({
 			id: `${blockId}:${attr}`,
 			blockId,
+			path,
 			block: block.blockName!,
 			attr,
 			kind,
-			...(kind === 'heading' ? { tag: (attrsOf(block).markup as string) || 'h2' } : {}),
+			...(kind === 'heading' ? { tag: tag || 'h2' } : {}),
 			text,
 			rich: hasMarkup(raw),
 			words,
@@ -104,8 +127,7 @@ const textSlotsOf = (block: Block): TextSlot[] => {
 	return slots;
 };
 
-const imageSlotsOf = (block: Block): ImageSlot[] => {
-	const blockId = attrsOf(block).clientId as string;
+const imageSlotsOf = (block: Block, blockId: string, path: string): ImageSlot[] => {
 	const found: { attr: string; kind: ImageSlot['kind']; url: string }[] = [];
 
 	for (const attr of IMAGE_ATTRS[block.blockName ?? ''] ?? []) {
@@ -123,8 +145,9 @@ const imageSlotsOf = (block: Block): ImageSlot[] => {
 	}
 
 	return found.map(({ attr, kind, url }) => ({
-		id: `${blockId ?? block.blockName}:${attr}`,
-		blockId: blockId ?? '',
+		id: `${blockId}:${attr}`,
+		blockId,
+		path,
 		block: block.blockName!,
 		attr,
 		kind,
@@ -177,6 +200,8 @@ const roleOf = (section: ManifestSection, blocks: Set<string>, previous?: Manife
 
 export const scanPage = (content: string, pageSlug: string): PageScan => {
 	const scan: PageScan = { sections: [], sectionBlocks: new Map(), colors: [], fonts: [], warnings: [] };
+	// Copy-pasted BlockArt blocks can share a clientId; later copies get a suffix.
+	const seenIds = new Map<string, number>();
 
 	parse(content)
 		.filter((block) => block.blockName)
@@ -186,7 +211,7 @@ export const scanPage = (content: string, pageSlug: string): PageScan => {
 			const blockNames = new Set<string>();
 			const dynamicBlocks = new Set<string>();
 
-			walk(top, (block) => {
+			walk(top, (block, path) => {
 				const name = block.blockName!;
 				blockNames.add(name);
 				if (DYNAMIC_BLOCK.test(name)) dynamicBlocks.add(name);
@@ -201,8 +226,13 @@ export const scanPage = (content: string, pageSlug: string): PageScan => {
 					scan.warnings.push(`${pageSlug}: ${name} has no clientId, skipped`);
 					return;
 				}
-				slots.push(...textSlotsOf(block));
-				images.push(...imageSlotsOf(block));
+				let blockId = blockIdOf(block, path);
+				const copies = seenIds.get(blockId) ?? 0;
+				seenIds.set(blockId, copies + 1);
+				if (copies) blockId = `${blockId}~${copies}`;
+
+				slots.push(...textSlotsOf(block, blockId, path));
+				images.push(...imageSlotsOf(block, blockId, path));
 
 				// Flag prose-like attributes on blocks we don't map yet.
 				if (name.startsWith('blockart/') && !TEXT_ATTRS[name]) {
@@ -212,7 +242,7 @@ export const scanPage = (content: string, pageSlug: string): PageScan => {
 						}
 					}
 				}
-			});
+			}, String(index));
 
 			if (!slots.length && !images.length && !dynamicBlocks.size) return;
 

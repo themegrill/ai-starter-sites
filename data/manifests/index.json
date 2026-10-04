@@ -38,80 +38,77 @@
 		]
 	},
 	{
-		"slug": "coffee-shop",
-		"name": "Coffee Shop",
-		"premium": true,
-		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Coffee_Shop_Thumbnail-image.jpg",
+		"slug": "construction-02",
+		"name": "Construction 02",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-construction-02/screenshot.jpg",
 		"niches": [
-			"cafe",
-			"coffee",
-			"bakery",
-			"food",
-			"restaurant"
+			"construction",
+			"architecture",
+			"real-estate"
 		],
 		"keywords": [
-			"coffee",
-			"cafe",
-			"espresso",
-			"barista",
-			"roastery",
-			"tea",
-			"bakery",
-			"pastry",
-			"brunch",
-			"dessert"
+			"construction",
+			"builder",
+			"contractor",
+			"architecture",
+			"architect",
+			"renovation",
+			"interior design",
+			"real estate",
+			"property",
+			"engineering"
 		],
 		"stats": {
-			"sections": 14,
-			"textSlots": 84,
-			"editableSlots": 79,
-			"images": 55,
-			"swappableImages": 27,
-			"words": 808
-		},
-		"pageTypes": [
-			"home",
-			"blog",
-			"about"
-		]
-	},
-	{
-		"slug": "dentico",
-		"name": "Dentico",
-		"premium": true,
-		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Dentico-Thumnail-Image.jpg",
-		"niches": [
-			"dental",
-			"medical",
-			"clinic",
-			"health"
-		],
-		"keywords": [
-			"dentist",
-			"dental",
-			"teeth",
-			"orthodontic",
-			"clinic",
-			"doctor",
-			"medical",
-			"healthcare",
-			"hospital",
-			"physician"
-		],
-		"stats": {
-			"sections": 16,
-			"textSlots": 119,
-			"editableSlots": 111,
-			"images": 39,
-			"swappableImages": 20,
-			"words": 910
+			"sections": 18,
+			"textSlots": 151,
+			"editableSlots": 142,
+			"images": 68,
+			"swappableImages": 28,
+			"words": 1239
 		},
 		"pageTypes": [
 			"home",
 			"blog",
 			"about",
-			"services",
-			"contact"
+			"services"
+		]
+	},
+	{
+		"slug": "eduskill",
+		"name": "Zakra EduSkill",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-eduskill/screenshot.jpg",
+		"niches": [
+			"education",
+			"courses",
+			"lms"
+		],
+		"keywords": [
+			"course",
+			"courses",
+			"online learning",
+			"academy",
+			"tutor",
+			"tutoring",
+			"teaching",
+			"school",
+			"classes",
+			"e-learning",
+			"training center"
+		],
+		"stats": {
+			"sections": 14,
+			"textSlots": 50,
+			"editableSlots": 46,
+			"images": 26,
+			"swappableImages": 8,
+			"words": 500
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"services"
 		]
 	},
 	{
@@ -153,74 +150,193 @@
 		]
 	},
 	{
-		"slug": "online-course-02",
-		"name": "Zakra Online Course",
-		"premium": true,
-		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-online-course-02/screenshot.jpg",
+		"slug": "lawyer-v2",
+		"name": "Lawyer V2",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-lawyer-v2/screenshot.jpg",
 		"niches": [
-			"education",
-			"courses",
-			"lms"
+			"legal",
+			"professional-services",
+			"consulting",
+			"finance"
 		],
 		"keywords": [
-			"course",
-			"courses",
-			"online learning",
-			"academy",
-			"tutor",
-			"tutoring",
-			"teaching",
-			"school",
-			"classes",
-			"e-learning"
+			"lawyer",
+			"law firm",
+			"attorney",
+			"legal",
+			"solicitor",
+			"notary",
+			"accountant",
+			"accounting",
+			"tax",
+			"finance",
+			"insurance"
 		],
 		"stats": {
 			"sections": 13,
-			"textSlots": 62,
-			"editableSlots": 58,
-			"images": 22,
-			"swappableImages": 11,
-			"words": 465
-		},
-		"pageTypes": [
-			"home",
-			"blog",
-			"services"
-		]
-	},
-	{
-		"slug": "real-estate-v2",
-		"name": "Real Estate V2",
-		"premium": true,
-		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-real-estate-v2/screenshot.jpg",
-		"niches": [
-			"real-estate",
-			"property"
-		],
-		"keywords": [
-			"real estate",
-			"realtor",
-			"property",
-			"properties",
-			"homes",
-			"apartments",
-			"rental",
-			"broker",
-			"housing",
-			"listings"
-		],
-		"stats": {
-			"sections": 23,
-			"textSlots": 181,
-			"editableSlots": 151,
-			"images": 64,
-			"swappableImages": 51,
-			"words": 1169
+			"textSlots": 194,
+			"editableSlots": 188,
+			"images": 23,
+			"swappableImages": 15,
+			"words": 1739
 		},
 		"pageTypes": [
 			"home",
 			"blog",
 			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "plumber-v2",
+		"name": "Plumber V2",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-plumber-v2/screenshot.jpg",
+		"niches": [
+			"home-services",
+			"trades",
+			"repair"
+		],
+		"keywords": [
+			"plumber",
+			"plumbing",
+			"electrician",
+			"hvac",
+			"repair",
+			"cleaning",
+			"handyman",
+			"maintenance",
+			"heating",
+			"roofing"
+		],
+		"stats": {
+			"sections": 19,
+			"textSlots": 122,
+			"editableSlots": 113,
+			"images": 49,
+			"swappableImages": 23,
+			"words": 1250
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "restaurant-v2",
+		"name": "Restaurant V2",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-restaurant-v2/screenshot.jpg",
+		"niches": [
+			"restaurant",
+			"food",
+			"cafe",
+			"bakery"
+		],
+		"keywords": [
+			"restaurant",
+			"food",
+			"cafe",
+			"coffee",
+			"bakery",
+			"bistro",
+			"diner",
+			"pizza",
+			"menu",
+			"catering",
+			"dining",
+			"kitchen",
+			"bar",
+			"grill"
+		],
+		"stats": {
+			"sections": 36,
+			"textSlots": 198,
+			"editableSlots": 155,
+			"images": 119,
+			"swappableImages": 52,
+			"words": 863
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"services",
+			"blog"
+		]
+	},
+	{
+		"slug": "spa-02",
+		"name": "Zakra Spa",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-spa-02/screenshot.jpg",
+		"niches": [
+			"spa",
+			"beauty",
+			"wellness",
+			"salon"
+		],
+		"keywords": [
+			"spa",
+			"massage",
+			"beauty",
+			"salon",
+			"skincare",
+			"facial",
+			"nails",
+			"hair",
+			"wellness",
+			"therapy"
+		],
+		"stats": {
+			"sections": 10,
+			"textSlots": 54,
+			"editableSlots": 51,
+			"images": 11,
+			"swappableImages": 8,
+			"words": 486
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"services",
+			"about"
+		]
+	},
+	{
+		"slug": "yoga-02",
+		"name": "Yoga 02",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-yoga-02/screenshot.jpg",
+		"niches": [
+			"yoga",
+			"wellness",
+			"meditation"
+		],
+		"keywords": [
+			"yoga",
+			"meditation",
+			"pilates",
+			"mindfulness",
+			"wellness",
+			"retreat",
+			"breathwork",
+			"studio classes"
+		],
+		"stats": {
+			"sections": 10,
+			"textSlots": 74,
+			"editableSlots": 72,
+			"images": 20,
+			"swappableImages": 15,
+			"words": 496
+		},
+		"pageTypes": [
+			"contact",
+			"home",
+			"blog",
 			"services"
 		]
 	}

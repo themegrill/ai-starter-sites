@@ -1,35 +1,193 @@
 {
-	"$comment": "Demos the AI flow can build from. The demo API has no useful niche tags, so niches and keywords are maintained here and drive demo picking. Run `pnpm manifests` after editing.",
+	"$comment": "Free demos the AI flow can build from. The demo API has no useful niche tags, so niches and keywords are maintained here and drive demo picking. Premium demos are skipped by the pipeline. Run `pnpm manifests` after editing.",
 	"demos": [
 		{
-			"slug": "coffee-shop",
-			"niches": ["cafe", "coffee", "bakery", "food", "restaurant"],
-			"keywords": ["coffee", "cafe", "espresso", "barista", "roastery", "tea", "bakery", "pastry", "brunch", "dessert"]
+			"slug": "restaurant-v2",
+			"niches": [
+				"restaurant",
+				"food",
+				"cafe",
+				"bakery"
+			],
+			"keywords": [
+				"restaurant",
+				"food",
+				"cafe",
+				"coffee",
+				"bakery",
+				"bistro",
+				"diner",
+				"pizza",
+				"menu",
+				"catering",
+				"dining",
+				"kitchen",
+				"bar",
+				"grill"
+			]
 		},
 		{
 			"slug": "fitclub",
-			"niches": ["fitness", "gym", "sports"],
-			"keywords": ["gym", "fitness", "workout", "trainer", "training", "crossfit", "boxing", "kickboxing", "bodybuilding", "health club"]
+			"niches": [
+				"fitness",
+				"gym",
+				"sports"
+			],
+			"keywords": [
+				"gym",
+				"fitness",
+				"workout",
+				"trainer",
+				"training",
+				"crossfit",
+				"boxing",
+				"kickboxing",
+				"bodybuilding",
+				"health club"
+			]
+		},
+		{
+			"slug": "yoga-02",
+			"niches": [
+				"yoga",
+				"wellness",
+				"meditation"
+			],
+			"keywords": [
+				"yoga",
+				"meditation",
+				"pilates",
+				"mindfulness",
+				"wellness",
+				"retreat",
+				"breathwork",
+				"studio classes"
+			]
+		},
+		{
+			"slug": "spa-02",
+			"niches": [
+				"spa",
+				"beauty",
+				"wellness",
+				"salon"
+			],
+			"keywords": [
+				"spa",
+				"massage",
+				"beauty",
+				"salon",
+				"skincare",
+				"facial",
+				"nails",
+				"hair",
+				"wellness",
+				"therapy"
+			]
 		},
 		{
 			"slug": "agency-03",
-			"niches": ["agency", "business", "marketing", "consulting"],
-			"keywords": ["agency", "marketing", "design", "branding", "consulting", "consultancy", "startup", "digital", "seo", "studio"]
+			"niches": [
+				"agency",
+				"business",
+				"marketing",
+				"consulting"
+			],
+			"keywords": [
+				"agency",
+				"marketing",
+				"design",
+				"branding",
+				"consulting",
+				"consultancy",
+				"startup",
+				"digital",
+				"seo",
+				"studio"
+			]
 		},
 		{
-			"slug": "dentico",
-			"niches": ["dental", "medical", "clinic", "health"],
-			"keywords": ["dentist", "dental", "teeth", "orthodontic", "clinic", "doctor", "medical", "healthcare", "hospital", "physician"]
+			"slug": "lawyer-v2",
+			"niches": [
+				"legal",
+				"professional-services",
+				"consulting",
+				"finance"
+			],
+			"keywords": [
+				"lawyer",
+				"law firm",
+				"attorney",
+				"legal",
+				"solicitor",
+				"notary",
+				"accountant",
+				"accounting",
+				"tax",
+				"finance",
+				"insurance"
+			]
 		},
 		{
-			"slug": "real-estate-v2",
-			"niches": ["real-estate", "property"],
-			"keywords": ["real estate", "realtor", "property", "properties", "homes", "apartments", "rental", "broker", "housing", "listings"]
+			"slug": "plumber-v2",
+			"niches": [
+				"home-services",
+				"trades",
+				"repair"
+			],
+			"keywords": [
+				"plumber",
+				"plumbing",
+				"electrician",
+				"hvac",
+				"repair",
+				"cleaning",
+				"handyman",
+				"maintenance",
+				"heating",
+				"roofing"
+			]
 		},
 		{
-			"slug": "online-course-02",
-			"niches": ["education", "courses", "lms"],
-			"keywords": ["course", "courses", "online learning", "academy", "tutor", "tutoring", "teaching", "school", "classes", "e-learning"]
+			"slug": "construction-02",
+			"niches": [
+				"construction",
+				"architecture",
+				"real-estate"
+			],
+			"keywords": [
+				"construction",
+				"builder",
+				"contractor",
+				"architecture",
+				"architect",
+				"renovation",
+				"interior design",
+				"real estate",
+				"property",
+				"engineering"
+			]
+		},
+		{
+			"slug": "eduskill",
+			"niches": [
+				"education",
+				"courses",
+				"lms"
+			],
+			"keywords": [
+				"course",
+				"courses",
+				"online learning",
+				"academy",
+				"tutor",
+				"tutoring",
+				"teaching",
+				"school",
+				"classes",
+				"e-learning",
+				"training center"
+			]
 		}
 	]
 }

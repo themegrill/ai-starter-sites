@@ -1,0 +1,1419 @@
+{
+	"version": 1,
+	"slug": "eduskill",
+	"name": "Zakra EduSkill",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-eduskill/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/eduskill",
+	"niches": [
+		"education",
+		"courses",
+		"lms"
+	],
+	"keywords": [
+		"course",
+		"courses",
+		"online learning",
+		"academy",
+		"tutor",
+		"tutoring",
+		"teaching",
+		"school",
+		"classes",
+		"e-learning",
+		"training center"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"learning-management-system/lms.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 23,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fdc800",
+				"count": 21,
+				"group": "brand",
+				"role": "primary",
+				"base": "#fdc800",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#1f1f1f",
+				"count": 16,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#ffff00",
+				"count": 9,
+				"group": "brand",
+				"role": "primary",
+				"base": "#fdc800",
+				"lightnessDelta": 0.004
+			},
+			{
+				"hex": "#fafafa",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fffffc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#0f0f0f",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0
+			}
+		],
+		"fonts": {
+			"heading": "Lato",
+			"body": "Lato",
+			"map": {
+				"Lato": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "63a6e058",
+					"index": 0,
+					"role": "hero",
+					"title": "Enhance Your Skill With Best Online Courses",
+					"slots": [
+						{
+							"id": "f6c8fdb6:text",
+							"blockId": "f6c8fdb6",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Enhance Your Skill With Best Online Courses",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8eebe75e:text",
+							"blockId": "8eebe75e",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor lectus nibhsit. Lorem ipsum dolor sit amet, consectetur adipiscing elit ectus nibh. Ipsum dolor amet dolor sit amet, consectetur adipiscin.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c20db6f6:text",
+							"blockId": "c20db6f6",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Enroll Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "63a6e058:background.image.image.url",
+							"blockId": "63a6e058",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/02/bg.jpg",
+							"decorative": false,
+							"width": 1257,
+							"height": 700,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "3eef9b97",
+					"index": 1,
+					"role": "features",
+					"title": "Unlimited Materials",
+					"slots": [
+						{
+							"id": "45a2f785:text",
+							"blockId": "45a2f785",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Unlimited Materials",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "49a8f218:text",
+							"blockId": "49a8f218",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vivamus suscipit tortor eget felis porttitor volutpat. Sed porttitor at lectus nibh.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b1d64656:text",
+							"blockId": "b1d64656",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Expert Instructor",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9bbfd3ab:text",
+							"blockId": "9bbfd3ab",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Suscipit tortor eget felis porttitor volutpat. Sed porttitor at lectus nibh. Lorem ipsum dolor si amet.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8d662cb4:text",
+							"blockId": "8d662cb4",
+							"path": "1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Online Learning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bcb7377d:text",
+							"blockId": "bcb7377d",
+							"path": "1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tortor eget felis porttitor volutpat. Sed porttitor at lectus nibh. Lorem ipsum dolor si amet, consectetu.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "82d4232a:text",
+							"blockId": "82d4232a",
+							"path": "1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Interactive Quiz",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b22b9089:text",
+							"blockId": "b22b9089",
+							"path": "1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Eget felis porttitor volutpat. Sed porttitor at lectus nibh. Lorem ipsum dolor si amet, consectetu.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "fba69e68:image.url",
+							"blockId": "fba69e68",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_book.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "6610a944:image.url",
+							"blockId": "6610a944",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_expert.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "1767a263:image.url",
+							"blockId": "1767a263",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_laptop.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "0a2137a8:image.url",
+							"blockId": "0a2137a8",
+							"path": "1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_quiz.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "7c0b2d5d",
+					"index": 2,
+					"role": "dynamic",
+					"title": "Popular Courses",
+					"slots": [
+						{
+							"id": "d454515e:text",
+							"blockId": "d454515e",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Popular Courses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4edd27ed:text",
+							"blockId": "4edd27ed",
+							"path": "2.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Courses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"masteriyo/courses"
+					]
+				},
+				{
+					"id": "91dae4ac",
+					"index": 3,
+					"role": "features",
+					"title": "Benefits From EduSKill",
+					"slots": [
+						{
+							"id": "4cdeb2ad:text",
+							"blockId": "4cdeb2ad",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Benefits From EduSKill",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "05226302:text",
+							"blockId": "05226302",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sematof. Tesque in ipsum id orci porta dapibus. Nulla quis lorem ut liberosde arcu erat, accumsan id imperdiet et, porttitor at sem.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6ff15925:text",
+							"blockId": "6ff15925",
+							"path": "3.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Get Certificates",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f0dcf302:text",
+							"blockId": "f0dcf302",
+							"path": "3.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vurabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "38b5466b:text",
+							"blockId": "38b5466b",
+							"path": "3.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Communicate",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "837d22c6:text",
+							"blockId": "837d22c6",
+							"path": "3.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "47cfea82:text",
+							"blockId": "47cfea82",
+							"path": "3.0.4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Assignments",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae5f0985:text",
+							"blockId": "ae5f0985",
+							"path": "3.0.4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Wurabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "eb87be22:image.url",
+							"blockId": "eb87be22",
+							"path": "3.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_certificate.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "5840e62b:image.url",
+							"blockId": "5840e62b",
+							"path": "3.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_communicate.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "0615acdb:image.url",
+							"blockId": "0615acdb",
+							"path": "3.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_assignment.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "2875847c:image.url",
+							"blockId": "2875847c",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/benefits.jpg",
+							"decorative": false,
+							"width": 712,
+							"height": 750,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "39dc5124",
+					"index": 4,
+					"role": "cta",
+					"title": "Engage Every Student And Transform Your Class",
+					"slots": [
+						{
+							"id": "5b69eb86:text",
+							"blockId": "5b69eb86",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Engage Every Student And Transform Your Class",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "440d2cd4:text",
+							"blockId": "440d2cd4",
+							"path": "4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Urabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Tesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero arcu erat, atec accumsan id dlaw ifds imperdiet et, porttitor at sem. Tesque in ipsum id orcieds porta dapibus. Nulla ifds quis lorem ut libero.",
+							"rich": false,
+							"words": 47,
+							"minWords": 28,
+							"maxWords": 59,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ce12d84f:text",
+							"blockId": "ce12d84f",
+							"path": "4.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nulla quis lorem ut libero arcu erat, atec accumsan id imperdiet etad, porttitor at sem. Tesque in ipsum id orcieds porta dapibus. Nulla quis lorem ut libero.Urabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Tesque in ipsum id orci porta dapibus.",
+							"rich": false,
+							"words": 43,
+							"minWords": 26,
+							"maxWords": 54,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ba5ea4d5:text",
+							"blockId": "ba5ea4d5",
+							"path": "4.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Start Teaching",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b1e74f8a:image.url",
+							"blockId": "b1e74f8a",
+							"path": "4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/engage-students.jpg",
+							"decorative": false,
+							"width": 761,
+							"height": 801,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "224b3b9a",
+					"index": 5,
+					"role": "cta",
+					"title": "Learn Anything To Build Your Career With EduSkill",
+					"slots": [
+						{
+							"id": "9acf5534:text",
+							"blockId": "9acf5534",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Learn Anything To Build Your Career With EduSkill",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0365a347:text",
+							"blockId": "0365a347",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Tesque in ipsum id orci porta isdf dapibus. Nulla quis lorem ut libero arcu erat, accumsan id imperdiet et, porttitor is at sem. Tesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero.",
+							"rich": false,
+							"words": 57,
+							"minWords": 34,
+							"maxWords": 72,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f046f6ae:text",
+							"blockId": "f046f6ae",
+							"path": "5.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Tesque in ipsum id orci porta dapibus. quis lorem ut libero arcu erat, accumsan id imperdiet et, scdcs porttitor at sem. Tesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero.",
+							"rich": false,
+							"words": 43,
+							"minWords": 26,
+							"maxWords": 54,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "65988c8b:text",
+							"blockId": "65988c8b",
+							"path": "5.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Start Learning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "695a003c:image.url",
+							"blockId": "695a003c",
+							"path": "5.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/learn-anything.jpg",
+							"decorative": false,
+							"width": 761,
+							"height": 801,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "9b1b5847",
+					"index": 6,
+					"role": "dynamic",
+					"title": "Popular Categories",
+					"slots": [
+						{
+							"id": "21e9a37f:text",
+							"blockId": "21e9a37f",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Popular Categories",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a5966450:text",
+							"blockId": "a5966450",
+							"path": "6.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Categories",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"masteriyo/course-categories"
+					]
+				},
+				{
+					"id": "e621a036",
+					"index": 7,
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "1c2c759f:background.image.image.url",
+							"blockId": "1c2c759f",
+							"path": "7.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/video_bg.jpg",
+							"decorative": false,
+							"width": 1545,
+							"height": 850,
+							"orientation": "landscape"
+						},
+						{
+							"id": "455a14f0:image.url",
+							"blockId": "455a14f0",
+							"path": "7.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_play.png",
+							"decorative": true,
+							"width": 74,
+							"height": 70,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "58c656f7",
+					"index": 8,
+					"role": "features",
+					"slots": [
+						{
+							"id": "a7af2930:text",
+							"blockId": "a7af2930",
+							"path": "8.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "27M",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "3b135ca0:text",
+							"blockId": "3b135ca0",
+							"path": "8.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Learners",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "19b7a51a:text",
+							"blockId": "19b7a51a",
+							"path": "8.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "10K",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "9672ed25:text",
+							"blockId": "9672ed25",
+							"path": "8.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Courses",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f45cf25:text",
+							"blockId": "3f45cf25",
+							"path": "8.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "175",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "a3118387:text",
+							"blockId": "a3118387",
+							"path": "8.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Countries",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fa14dabe:text",
+							"blockId": "fa14dabe",
+							"path": "8.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "80",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "1a85acc4:text",
+							"blockId": "1a85acc4",
+							"path": "8.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Awards",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f9084ffc:image.url",
+							"blockId": "f9084ffc",
+							"path": "8.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_learners.png",
+							"decorative": true,
+							"width": 151,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "26322e08:image.url",
+							"blockId": "26322e08",
+							"path": "8.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_courses.png",
+							"decorative": true,
+							"width": 151,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "2bce7ce8:image.url",
+							"blockId": "2bce7ce8",
+							"path": "8.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_countries.png",
+							"decorative": true,
+							"width": 151,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "6571835b:image.url",
+							"blockId": "6571835b",
+							"path": "8.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_award.png",
+							"decorative": true,
+							"width": 151,
+							"height": 151,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "e2ebd4db",
+					"index": 9,
+					"role": "content",
+					"title": "Student’s Feedback",
+					"slots": [
+						{
+							"id": "70fcc6f3:text",
+							"blockId": "70fcc6f3",
+							"path": "9.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Student’s Feedback",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7caf4f33:text",
+							"blockId": "7caf4f33",
+							"path": "9.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Tesque in ipsum id orci porta dapibus. Nulla quissad lorem ut libero malesuada feugiat. Cras ultricies ligulasda sed magna dictum porta.",
+							"rich": true,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e8907ea6:text",
+							"blockId": "e8907ea6",
+							"path": "9.0.1.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Noah Johnson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "249710fd:text",
+							"blockId": "249710fd",
+							"path": "9.0.1.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Software Developer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1580b20c:text",
+							"blockId": "1580b20c",
+							"path": "9.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Aurabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Tesque in ipsum id orci porta dapibus. Nulla quissad lorem ut libero malesuada feugiat. Cras ultricies ligulasda sed magna dictum porta.",
+							"rich": true,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c2c25935:text",
+							"blockId": "c2c25935",
+							"path": "9.0.1.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Sarah Wilson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "efbf51f0:text",
+							"blockId": "efbf51f0",
+							"path": "9.0.1.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Financial Analyst",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e2d3708a:image.url",
+							"blockId": "e2d3708a",
+							"path": "9.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_quotes.png",
+							"decorative": true,
+							"width": 134,
+							"height": 134,
+							"orientation": "square"
+						},
+						{
+							"id": "341ffe3e:image.url",
+							"blockId": "341ffe3e",
+							"path": "9.0.1.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/testimonial_1.jpg",
+							"decorative": false,
+							"width": 451,
+							"height": 451,
+							"orientation": "square"
+						},
+						{
+							"id": "71268b04:image.url",
+							"blockId": "71268b04",
+							"path": "9.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_quotes.png",
+							"decorative": true,
+							"width": 134,
+							"height": 134,
+							"orientation": "square"
+						},
+						{
+							"id": "4fa32bbb:image.url",
+							"blockId": "4fa32bbb",
+							"path": "9.0.1.1.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/testimonial_2.jpg",
+							"decorative": false,
+							"width": 451,
+							"height": 451,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "4532ab80",
+					"index": 10,
+					"role": "cta",
+					"title": "Start Learning Today!!",
+					"slots": [
+						{
+							"id": "5626e9c6:text",
+							"blockId": "5626e9c6",
+							"path": "10.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Start Learning Today!!",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad06b8b0:text",
+							"blockId": "ad06b8b0",
+							"path": "10.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Tesque in ipsum id orci porta dapibus. Nulla quis lorem porta accumsan id imperdi.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c28c6ad3:text",
+							"blockId": "c28c6ad3",
+							"path": "10.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4532ab80:background.image.image.url",
+							"blockId": "4532ab80",
+							"path": "10",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/CTA_bg.jpg",
+							"decorative": false,
+							"width": 2187,
+							"height": 714,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "78cbc6d8",
+					"index": 11,
+					"role": "content",
+					"title": "Trusted By The Renowned Company",
+					"slots": [
+						{
+							"id": "0ef21bcf:text",
+							"blockId": "0ef21bcf",
+							"path": "11.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Trusted By The Renowned Company",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "2a675d35:image.url",
+							"blockId": "2a675d35",
+							"path": "11.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/02/logo_company1.png",
+							"decorative": true,
+							"width": 201,
+							"height": 59,
+							"orientation": "landscape"
+						},
+						{
+							"id": "326748fb:image.url",
+							"blockId": "326748fb",
+							"path": "11.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/02/logo_company2.png",
+							"decorative": true,
+							"width": 227,
+							"height": 62,
+							"orientation": "landscape"
+						},
+						{
+							"id": "5b5280e0:image.url",
+							"blockId": "5b5280e0",
+							"path": "11.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/02/logo_company3.png",
+							"decorative": true,
+							"width": 202,
+							"height": 73,
+							"orientation": "landscape"
+						},
+						{
+							"id": "438c3bc2:image.url",
+							"blockId": "438c3bc2",
+							"path": "11.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/02/logo_company4.png",
+							"decorative": true,
+							"width": 229,
+							"height": 62,
+							"orientation": "landscape"
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/themegrill-demos/blog-content.xml",
+			"sections": []
+		},
+		{
+			"slug": "courses",
+			"title": "Courses",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/themegrill-demos/courses-content.xml",
+			"sections": []
+		},
+		{
+			"slug": "account",
+			"title": "Account",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/themegrill-demos/account-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			]
+		},
+		{
+			"slug": "checkout",
+			"title": "Checkout",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/themegrill-demos/checkout-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 14,
+		"textSlots": 50,
+		"editableSlots": 46,
+		"images": 26,
+		"swappableImages": 8,
+		"words": 500
+	},
+	"builtAt": "2026-10-04T12:45:43.973Z"
+}

@@ -23,9 +23,16 @@ export type LockReason = 'symbol' | 'contact' | 'number';
 
 export type TextSlot = {
 	id: string; // `${blockId}:${attr}`, unique within a page.
-	blockId: string; // BlockArt clientId.
+	// BlockArt clientId, or `core-<path>` for core blocks (which have none).
+	// Copy-pasted blocks can share a clientId, so repeats get a ~n suffix.
+	blockId: string;
+	// The block's index among named blocks at each level, e.g. "3.0.2". Always
+	// unique in a page; the importer finds blocks by this.
+	path: string;
 	block: string; // e.g. blockart/heading
-	attr: string; // Attribute path holding the text, e.g. "text" or "teamName".
+	// Attribute path holding the text, e.g. "text" or "teamName". "@html:<el>"
+	// means the text is the inner HTML of that element in the saved markup.
+	attr: string;
 	kind: TextSlotKind;
 	tag?: string; // h1-h6 for headings.
 	text: string; // Plain text: tags stripped, entities decoded.
@@ -45,6 +52,7 @@ export type Orientation = 'landscape' | 'portrait' | 'square';
 export type ImageSlot = {
 	id: string;
 	blockId: string;
+	path: string;
 	block: string;
 	attr: string; // e.g. image.url or background.image.image.url
 	kind: 'image' | 'background';

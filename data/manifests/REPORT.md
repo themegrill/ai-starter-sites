@@ -52,81 +52,83 @@ Colors: `#ffffff` background ×67, `#23ab70` primary ×22, `#111111` text ×20, 
 ### Shop — `shop` → other
 
 
-## Coffee Shop (`coffee-shop`) · premium
+## Construction 02 (`construction-02`)
 
-14 sections · 79/84 editable text slots · 808 words · 27/55 swappable images
+18 sections · 142/151 editable text slots · 1239 words · 28/68 swappable images
 
-Fonts: heading **Elsie**, body **DM Sans** (Elsie → heading, DM Sans → body, Roboto → heading)
+Fonts: heading **Roboto**, body **Roboto** (Roboto → body)
 
-Colors: `#ffffff` background ×70, `#61493e` primary ×50, `#261f1f` text ×35, `#af9375` primary (+0.261) ×22, `#666666` muted ×14, `#e9ecef` background ×9, `#fcfcfc` background ×7, `#fafafa` background ×3, `#000000` text ×2, `#e4e4e7` background ×2, `#9d8e8e` muted ×1, `#af9e9e` muted ×1, `#e8e4e2` muted ×1, `#b4b4b4` muted ×1, `#efecea` background ×1, `#16181a` text ×1, `#3f3f46` text ×1, `#2fc8d6` accent ×1, `#027abb` accent (-0.141) ×1
+Colors: `#ffb716` primary ×82, `#ffffff` background ×66, `#000000` text ×46, `#7a7a7a` muted ×23, `#54595f` muted ×18, `#afa6a6` muted ×15, `#6ec1e4` secondary ×8, `#e9ecef` background ×5, `#e4e4e7` background ×3, `#baa6a6` muted ×2, `#535252` muted ×2, `#5b5b5b` muted ×2, `#fafafa` background ×2, `#eaf6fa` secondary (+0.286) ×2, `#027abb` secondary (-0.292) ×2, `#484c54` muted ×1, `#fff9f9` background ×1, `#d4d4d8` muted ×1, `#cccccc` muted ×1, `#16181a` text ×1, `#3f3f46` text ×1, `#fcb900` primary (-0.049) ×1, `#1f7ba5` secondary (-0.278) ×1
 
 ### Home — `home` → home
 
-- **hero** “Taste the Difference in Every Sip” — 6 text, 2 photos · lorem
-- **cta** “We connect our customer with best solution” — 3 text, 1 photos · lorem
-- **dynamic** “Best Seller Product” — 3 text, 1 photos · lorem · dynamic: woocommerce/product-tag
-- **testimonials** “What our customer says” — 13 text, 5 photos · lorem
-- **cta** “What Happens Here” — 3 text, 1 photos
-- **gallery** “Our Sweet gallery” — 2 text, 6 photos · lorem
-- **features** “We Produce Delicious Natural Coffee For you” — 14 text, 2 photos · lorem
-- **features** “Explore Our Blog” — 11 text, 3 photos · lorem
+- **hero** “7 YEARS OF FIELD EXPERIENCE” — 5 text, 1 photos
+- **content** “CONSTRUCTION” — 6 text, 0 photos
+- **content** “RENOVATION” — 6 text, 0 photos
+- **gallery** “Our projects” — 7 text, 5 photos
+- **team** “PROFESSIONALS BEHIND” — 11 text, 3 photos
+- **testimonials** “WHAT OUR CLIENTS SAY” — 8 text, 2 photos
+- **pricing** “OUR PRICING” — 23 text, 0 photos
+- **content** “OUR HAPPY CLIENTS” — 1 text, 1 photos
+- **content** “Achievements” — 5 text, 0 photos
 
 ### Blog — `blog` → blog
 
 
-### Shop — `shop` → other
+### About — `about` → about
+
+- **hero** “Introduction” — 4 text, 1 photos
+- **content** “OUR HAPPY CLIENTS” — 1 text, 1 photos
+- **team** “Our team” — 11 text, 3 photos
+- **content** “Achievements” — 5 text, 0 photos
+
+### Single Project — `single-project` → services
+
+- **hero** (untitled) — 0 text, 1 photos
+- **features** “Project Description” — 16 text, 1 photos
+
+### Our Team — `our-team` → other
+
+- **hero** “ARCHITECT TEAM” — 11 text, 3 photos
+- **team** “OFFICE TEAM” — 11 text, 3 photos
+- **team** “FIELD TEAM” — 11 text, 3 photos
+
+## Zakra EduSkill (`eduskill`)
+
+14 sections · 46/50 editable text slots · 500 words · 8/26 swappable images
+
+Fonts: heading **Lato**, body **Lato** (Lato → body)
+
+Colors: `#ffffff` background ×23, `#fdc800` primary ×21, `#1f1f1f` text ×16, `#ffff00` primary (+0.004) ×9, `#fafafa` background ×6, `#e9ecef` background ×5, `#e4e4e7` background ×3, `#3f3f46` text ×2, `#fffffc` background ×1, `#0f0f0f` text ×1, `#027abb` accent ×1
+
+### Home — `home` → home
+
+- **hero** “Enhance Your Skill With Best Online Courses” — 3 text, 1 photos · lorem
+- **features** “Unlimited Materials” — 8 text, 0 photos · lorem
+- **dynamic** “Popular Courses” — 2 text, 0 photos · dynamic: masteriyo/courses
+- **features** “Benefits From EduSKill” — 8 text, 1 photos · lorem
+- **cta** “Engage Every Student And Transform Your Class” — 4 text, 1 photos · lorem
+- **cta** “Learn Anything To Build Your Career With EduSkill” — 4 text, 1 photos · lorem
+- **dynamic** “Popular Categories” — 2 text, 0 photos · dynamic: masteriyo/course-categories
+- **content** (untitled) — 0 text, 1 photos
+- **features** (untitled) — 4 text, 0 photos
+- **content** “Student’s Feedback” — 7 text, 2 photos · lorem
+- **cta** “Start Learning Today!!” — 3 text, 1 photos · lorem
+- **content** “Trusted By The Renowned Company” — 1 text, 0 photos
+
+### Blog — `blog` → blog
 
 
-### My account — `my-account` → other
+### Courses — `courses` → services
+
+
+### Account — `account` → other
 
 - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
 
-### About Us — `about-us` → about
+### Checkout — `checkout` → other
 
-- **hero** “We connect our customer with best solution” — 2 text, 1 photos · lorem
-- **features** “Free Delivery” — 4 text, 1 photos
-- **features** “We Produce Delicious Natural Coffee For you” — 14 text, 2 photos · lorem
-- **testimonials** “What our customer says” — 3 text, 1 photos · lorem
-- **dynamic** “Your favourite coffees, delivered to your door every month” — 1 text, 1 photos · dynamic: everest-forms/form-selector
-
-## Dentico (`dentico`) · premium
-
-16 sections · 111/119 editable text slots · 910 words · 20/39 swappable images
-
-Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
-
-Colors: `#ffffff` background ×63, `#00509e` primary ×38, `#757575` muted ×37, `#000000` text ×14, `#d9d9d9` muted ×12, `#f6f6f6` background ×10, `#363636` text ×9, `#065099` primary (+0.002) ×9, `#00abcd` primary (+0.092) ×8, `#e9ecef` background ×6, `#029ab9` primary (+0.057) ×6, `#110c2e` secondary ×5, `#2563eb` primary (+0.224) ×4, `#027abb` primary (+0.061) ×4, `#e4e4e7` background ×3, `#16181a` text ×3, `#fafafa` background ×3, `#ebf7fe` primary (+0.649) ×3, `#f1f2f2` background ×2, `#3f3f46` text ×2, `#cccccc` muted ×1, `#fffffe` background ×1, `#00ccf4` primary (+0.169) ×1, `#0071a5` primary (+0.014) ×1, `#1e7ba6` primary (+0.075) ×1
-
-### Home — `home` → home
-
-- **hero** “Caring for your Smile” — 3 text, 1 photos
-- **content** “Dental care service that you can trust.” — 5 text, 1 photos
-- **features** “Get breakthrough dental and oral health care.” — 18 text, 0 photos
-- **team** “Holding collective experience over years of dental expertise.” — 7 text, 2 photos
-- **content** (untitled) — 3 text, 0 photos
-- **cta** “Book a consultation and start your journey toward a pain-free life.” — 2 text, 1 photos
-- **testimonials** “See what our patients talk about our services.” — 11 text, 1 photos
-
-### Blog — `blog` → blog
-
-
-### About Us — `about-us` → about
-
-- **hero** “Dental care service that you can trust.” — 5 text, 1 photos
-- **team** “Holding collective experience over years of dental expertise.” — 12 text, 5 photos
-- **content** (untitled) — 3 text, 0 photos
-- **cta** “Book a consultation and start your journey toward a pain-free life.” — 2 text, 1 photos
-
-### Services — `services` → services
-
-- **hero** “Get breakthrough dental and oral health care.” — 5 text, 1 photos
-- **features** “Endodontics” — 16 text, 4 photos
-- **testimonials** “See what our patients talk about our services.” — 14 text, 1 photos
-
-### Contact Us — `contact-us` → contact
-
-- **hero** “Need to know all about our treatments, services, locations, and prices, or do you just need some counseling?” — 5 text, 0 photos
-- **content** (untitled) — 0 text, 1 photos
+- **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
 
 ## FitClub (`fitclub`)
 
@@ -169,84 +171,205 @@ Colors: `#f67a45` primary ×99, `#ffffff` background ×93, `#222222` text ×51, 
 
 - **dynamic** “Contact Information” — 5 text, 0 photos · lorem · dynamic: everest-forms/form-selector
 
-## Zakra Online Course (`online-course-02`) · premium
+## Lawyer V2 (`lawyer-v2`)
 
-13 sections · 58/62 editable text slots · 465 words · 11/22 swappable images
+13 sections · 188/194 editable text slots · 1739 words · 15/23 swappable images
 
-Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+Fonts: heading **Playfair Display**, body **Lato** (Lato → body, Playfair Display → heading, Seaweed Script → heading)
 
-Colors: `#ffffff` background ×44, `#f5b417` primary ×33, `#212121` text ×13, `#f9f9f9` background ×11, `#321184` secondary ×11, `#000000` text ×10, `#e9ecef` background ×5, `#e4e4e7` background ×3, `#fafafa` background ×3, `#3f3f46` text ×1, `#1f2391` secondary (+0.053) ×1, `#451fa4` secondary (+0.09) ×1, `#1f0366` secondary (-0.086) ×1, `#027abb` accent ×1
+Colors: `#ffffff` background ×114, `#b89b5e` primary ×83, `#868e96` muted ×37, `#343a40` text ×35, `#000000` text ×16, `#191c23` text ×10, `#e9ecef` background ×5, `#fafafa` background ×3, `#027abb` accent ×3, `#1d2027` text ×2, `#e4e4e7` background ×2, `#212329` text ×1, `#f7f7f7` background ×1, `#3f3f46` text ×1, `#191c24` accent ×1, `#1e7ba6` accent (+0.014) ×1, `#dd3333` accent ×1
 
 ### Home — `home` → home
 
-- **hero** “Committed to Excellence in Teaching and Learning.” — 3 text, 1 photos · lorem
-- **features** “What We Offer” — 8 text, 0 photos · lorem
-- **dynamic** “Featured Courses” — 3 text, 0 photos · lorem · dynamic: masteriyo/courses
-- **cta** “Education is about academic excellence and cultural diversity.” — 3 text, 1 photos · lorem
-- **content** “Our Trusted Partners” — 1 text, 0 photos
-- **cta** “An excellent foundation for future success.” — 3 text, 1 photos · lorem
-- **dynamic** “Popular Categories” — 3 text, 0 photos · lorem · dynamic: masteriyo/course-categories
-- **features** “Welcoming everyone in an experience that’s more than an education.” — 7 text, 2 photos · lorem
-- **cta** “Education is about helping students with learning differences.” — 3 text, 2 photos · lorem
-- **team** “Our Instructors” — 11 text, 4 photos · lorem
-- **testimonials** “Our Testimonials” — 13 text, 0 photos · lorem
+- **hero** “We're In This Together. Your Team and Ours.” — 4 text, 1 photos · lorem
+- **features** “BUSINESS LAW” — 16 text, 2 photos · lorem
+- **content** “Practise Area” — 27 text, 0 photos · lorem
+- **content** “Consultant” — 7 text, 1 photos · lorem
+- **content** “What client's say?” — 8 text, 2 photos · lorem
+- **content** “Why choose our firm?” — 11 text, 1 photos · lorem
+- **dynamic** “Newsletter” — 3 text, 1 photos · lorem · dynamic: core/shortcode
 
 ### Blog — `blog` → blog
 
 
-### Courses — `courses` → services
+### About — `about` → about
 
+- **hero** “Who are we?” — 7 text, 1 photos · lorem
+- **content** “Need Legal Help? Get in Touch with Our Lawyers!” — 14 text, 1 photos · lorem
+- **team** “Our team” — 10 text, 4 photos
+- **cta** “Want to be an intern with us and you are a student?” — 3 text, 1 photos · lorem
 
-### Account — `account` → other
+### Practise Areas — `practise-areas` → services
 
-- **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+- **hero** “Practise Area” — 50 text, 0 photos · lorem
 
-### Checkout — `checkout` → other
+### FAQ — `faq` → other
 
-- **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+- **hero** “FAQ's” — 28 text, 0 photos · lorem
 
-## Real Estate V2 (`real-estate-v2`) · premium
+## Plumber V2 (`plumber-v2`)
 
-23 sections · 151/181 editable text slots · 1169 words · 51/64 swappable images
+19 sections · 113/122 editable text slots · 1250 words · 23/49 swappable images
 
-Fonts: heading **Playfair Display**, body **Raleway** (Playfair Display → heading, Raleway → body)
+Fonts: heading **Montserrat**, body **Montserrat** (Montserrat → body)
 
-Colors: `#343a40` text ×66, `#ffffff` background ×57, `#000000` text ×31, `#078169` primary ×26, `#cccccc` muted ×10, `#16181a` text ×8, `#f1f0f0` background ×6, `#e9ecef` background ×5, `#fafafa` background ×4, `#ececec` background ×3, `#e4e4e7` background ×3, `#027abb` accent ×3, `#3f3f46` text ×2, `#fffdfd` background ×1, `#f9f8fa` background ×1, `#fffffc` background ×1, `#d4d4d8` muted ×1
+Colors: `#ffffff` background ×59, `#212529` text ×54, `#f76707` primary ×32, `#e97527` primary (+0.035) ×18, `#7a7a7a` muted ×15, `#0d54e5` secondary ×11, `#f8f9fa` background ×9, `#000000` text ×6, `#e9ecef` background ×6, `#fafafa` background ×4, `#207dff` secondary (+0.088) ×4, `#676f76` muted ×3, `#e4e4e7` background ×3, `#ff7f29` primary (+0.082) ×3, `#027abb` secondary (-0.104) ×3, `#54595f` muted ×2, `#cccccc` muted ×2, `#3f3f46` text ×2, `#0e56e6` secondary (+0.004) ×2, `#16181a` text ×1, `#d4d4d8` muted ×1, `#f00b0b` accent ×1
 
 ### Home — `home` → home
 
-- **hero** “YOUR GATEWAY TO A RICHER LIFE” — 3 text, 1 photos · lorem
-- **cta** “Featured Properties” — 3 text, 0 photos · lorem
-- **features** “Presidential Villa” — 8 text, 4 photos
-- **features** “Bourton la Manor” — 8 text, 4 photos
-- **content** “Don’t buy from me unless you are ready for success.” — 5 text, 1 photos · lorem
-- **gallery** “Our Awesome Gallery” — 2 text, 6 photos · lorem
-- **content** “Committed To Getting The Colorful places.” — 8 text, 1 photos · lorem
-- **cta** “Our Dedicated Agents” — 3 text, 0 photos · lorem
-- **team** “Eric Wilson” — 8 text, 4 photos
-- **content** “Latest News and Events” — 2 text, 0 photos · lorem
-- **content** “How to Be Successful in Real Estate Investment” — 9 text, 6 photos · lorem
-- **contact** “Get In Touch” — 4 text, 1 photos
+- **dynamic** “Drain Cleaning & Repairs” — 5 text, 1 photos · lorem · dynamic: everest-forms/form-selector
+- **content** “Who We Are” — 6 text, 1 photos · lorem
+- **testimonials** “What Others Say?” — 8 text, 3 photos · lorem
+- **content** “Experts” — 2 text, 0 photos
+- **team** “JACOB ELORDI” — 6 text, 3 photos
+- **features** “Real Statistics” — 6 text, 1 photos
+- **content** “Reliable and Trusted” — 2 text, 0 photos
+- **gallery** (untitled) — 0 text, 4 photos
+- **cta** “Please Feel Free to Call Us” — 2 text, 1 photos · lorem
 
 ### Blog — `blog` → blog
 
 
 ### About Us — `about-us` → about
 
-- **hero** “Awards and Recognition” — 2 text, 0 photos · lorem
-- **content** “Going Above and Beyond To Find Your Next Home” — 4 text, 1 photos · lorem
-- **content** “Committed To Getting The Colorful places.” — 8 text, 1 photos · lorem
-- **cta** “Our Dedicated Agents” — 3 text, 0 photos · lorem
-- **team** “Eric Wilson” — 8 text, 4 photos
-- **contact** “Get In Touch” — 4 text, 1 photos
+- **hero** “We have over 25 years experience in the plumbing and dry sanitation industry.” — 3 text, 1 photos · lorem
+- **features** “OUR MISSION” — 8 text, 1 photos · lorem
+- **faq** “WHY CHOOSE US” — 9 text, 2 photos · lorem
+- **features** “WHO WE ARE” — 8 text, 1 photos · lorem
+- **pricing** “Get in touch with us and we will let you know about our current pricing plans” — 4 text, 1 photos · lorem
+- **cta** “Please Feel Free to Call Us” — 2 text, 1 photos · lorem
 
-### Properties — `properties` → services
+### Services — `services` → services
 
-- **hero** “Presidential Villa” — 8 text, 4 photos
-- **features** “Bourton la Manor” — 8 text, 4 photos
-- **features** “Presidential Villa” — 8 text, 4 photos
-- **features** “Bourton la Manor” — 8 text, 4 photos
+- **hero** “Water Tank Fitting” — 18 text, 0 photos · lorem
+- **cta** “Please Feel Free to Call Us” — 2 text, 1 photos · lorem
 
-### Testimonial — `testimonial` → other
+### Faqs — `faqs` → other
 
-- **hero** “Jack Williams” — 27 text, 0 photos · lorem
+- **hero** (untitled) — 20 text, 0 photos · lorem
+- **cta** “Please Feel Free to Call Us” — 2 text, 1 photos · lorem
+
+## Restaurant V2 (`restaurant-v2`)
+
+36 sections · 155/198 editable text slots · 863 words · 52/119 swappable images
+
+Fonts: heading **Cormorant Garamond**, body **Lato** (Cormorant Garamond → heading, Lato → body, Sacramento → heading)
+
+Colors: `#000000` text ×83, `#e67700` primary ×74, `#ffffff` background ×72, `#212529` text ×59, `#4c4b44` text ×40, `#e9ecef` background ×6, `#0b0b0b` text ×5, `#121212` text ×4, `#868e96` muted ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#e89623` primary (+0.073) ×3, `#3f3f46` text ×2, `#dd9933` primary (+0.082) ×2, `#027abb` accent ×2, `#0d0c0c` text ×1, `#f8f8f8` background ×1, `#fffcf7` background ×1, `#16181a` text ×1, `#e88326` primary (+0.078) ×1, `#fb911f` primary (+0.102) ×1, `#1e73be` accent (+0.061) ×1, `#1e7ba6` accent (+0.014) ×1
+
+### Home — `home` → home
+
+- **hero** “ZAKRA RESTURA” — 3 text, 3 photos · lorem
+- **cta** “About us” — 4 text, 1 photos · lorem
+- **cta** “WHY US” — 4 text, 1 photos · lorem
+- **content** “OUR SPECIALITY” — 1 text, 3 photos
+- **content** “FRENCH FRIES AND SAUSAGES” — 9 text, 3 photos · lorem
+- **content** “MENU” — 10 text, 1 photos
+- **content** “LUNCH” — 9 text, 1 photos
+- **cta** (untitled) — 1 text, 0 photos
+- **testimonials** “TESTIMONIAL” — 1 text, 3 photos
+- **features** “GEORGE CLOONEY” — 9 text, 0 photos · lorem
+- **gallery** “GALLERY” — 2 text, 8 photos
+- **content** “SUBSCRIPTION” — 1 text, 3 photos
+- **dynamic** “Want to receive regular news and updates to your inbox?” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+### About — `about` → about
+
+- **hero** “ABOUT US” — 7 text, 1 photos · lorem
+- **features** “OUR VALUES” — 7 text, 0 photos · lorem
+- **team** “OUR TEAM” — 7 text, 3 photos
+- **content** (untitled) — 0 text, 1 photos
+- **cta** “Reservation” — 4 text, 0 photos · lorem
+- **content** “SUBSCRIPTION” — 1 text, 3 photos
+- **dynamic** “Want to receive regular news and updates to your inbox?” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+### Menus — `menus` → services
+
+- **hero** “SIGNATURE DISHES” — 1 text, 0 photos
+- **content** “Black Pasta” — 16 text, 0 photos
+- **content** (untitled) — 0 text, 1 photos
+- **content** “BREAKFAST” — 1 text, 0 photos
+- **content** “Black Pasta” — 16 text, 0 photos
+- **content** (untitled) — 0 text, 1 photos
+- **content** “LUNCH” — 1 text, 0 photos
+- **content** “Black Pasta” — 16 text, 0 photos
+- **content** (untitled) — 0 text, 1 photos
+- **content** “DRINKS” — 1 text, 0 photos
+- **content** “Black Pasta” — 16 text, 0 photos
+- **content** “SUBSCRIPTION” — 1 text, 3 photos
+- **dynamic** “Want to receive regular news and updates to your inbox?” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+### Blog — `blog` → blog
+
+
+### Gallery — `gallery` → other
+
+- **hero** “GALLERY” — 1 text, 8 photos
+- **content** “SUBSCRIPTION” — 1 text, 3 photos
+- **dynamic** “Want to receive regular news and updates to your inbox?” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+## Zakra Spa (`spa-02`)
+
+10 sections · 51/54 editable text slots · 486 words · 8/11 swappable images
+
+Fonts: heading **Open Sans**, body **Open Sans** (Open Sans → body)
+
+Colors: `#ffffff` background ×38, `#16181a` text ×20, `#abb2ee` primary ×18, `#ede4f8` secondary ×14, `#000000` text ×12, `#e9ecef` background ×6, `#fafafa` background ×4, `#027abb` accent ×4, `#e4e4e7` background ×3, `#3f3f46` text ×2, `#363b40` text ×1, `#d4d4d8` muted ×1, `#1e7ba6` accent (+0.014) ×1
+
+### Home — `home` → home
+
+- **hero** “MAKE TIME FOR YOURSELF” — 4 text, 1 photos · lorem
+- **content** “What we do?” — 10 text, 0 photos · lorem
+- **content** “Our community” — 5 text, 2 photos · lorem
+- **cta** “Be part of us” — 4 text, 3 photos · lorem
+- **cta** “Book an appointment” — 3 text, 2 photos · lorem
+- **cta** “Join us to get more info” — 4 text, 0 photos · lorem
+
+### Blog — `blog` → blog
+
+
+### Service — `service` → services
+
+- **hero** (untitled) — 6 text, 0 photos · lorem
+- **content** (untitled) — 6 text, 0 photos · lorem
+
+### Gallery — `gallery` → other
+
+
+### About — `about` → about
+
+- **hero** “Lash extention package” — 6 text, 0 photos · lorem
+- **content** “About detoxifying” — 3 text, 0 photos · lorem
+
+## Yoga 02 (`yoga-02`)
+
+10 sections · 72/74 editable text slots · 496 words · 15/20 swappable images
+
+Fonts: heading **Heebo**, body **Roboto** (Heebo → heading, Roboto → body, Kaushan Script → heading)
+
+Colors: `#ffffff` background ×40, `#16181a` text ×23, `#42b3c4` primary ×16, `#7a7a7a` muted ×13, `#000000` text ×6, `#e9ecef` background ×6, `#12565d` primary (-0.296) ×6, `#c4eaee` primary (+0.337) ×6, `#6ec1e4` primary (+0.149) ×6, `#fafafa` background ×4, `#f2f9fa` background ×3, `#e4e4e7` background ×3, `#596172` muted ×2, `#3f3f46` text ×2, `#027abb` primary (-0.143) ×2, `#0f1012` text ×1, `#9aa2b2` muted ×1, `#fff9f9` background ×1, `#0a0a0a` text ×1, `#43b3c4` primary (+0.002) ×1, `#2664eb` accent ×1, `#eaeef2` accent (+0.398) ×1
+
+### Contact Us — `contact-us` → contact
+
+- **dynamic** “Contact Details” — 3 text, 0 photos · dynamic: everest-forms/form-selector
+
+### Home — `home` → home
+
+- **hero** “Flexibility & Yoga” — 3 text, 1 photos
+- **content** “Welcome to Yoga Studio” — 8 text, 1 photos
+- **features** “Our Packages” — 11 text, 3 photos
+- **cta** “Small progress is also a progress” — 3 text, 1 photos
+- **features** “Our Lessons” — 14 text, 3 photos
+- **content** “Yoga Studio are doing some great work. I met the Studio in February and by the September I had already lost 20 pounds.” — 3 text, 0 photos
+- **dynamic** “Don’t get missed out.​” — 2 text, 0 photos · dynamic: core/shortcode
+
+### News — `news` → blog
+
+
+### Packages — `packages` → services
+
+- **hero** “Find Your Best Fit” — 11 text, 3 photos
+
+### Lessons — `lessons` → services
+
+- **hero** “Our Lessons” — 14 text, 3 photos

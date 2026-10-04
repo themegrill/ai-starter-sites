@@ -2,19 +2,25 @@
 import type { DemoCatalogEntry, DemoManifest } from '../../lib/demos/types';
 import catalog from './index.json';
 import m0 from './agency-03.json';
-import m1 from './coffee-shop.json';
-import m2 from './dentico.json';
+import m1 from './construction-02.json';
+import m2 from './eduskill.json';
 import m3 from './fitclub.json';
-import m4 from './online-course-02.json';
-import m5 from './real-estate-v2.json';
+import m4 from './lawyer-v2.json';
+import m5 from './plumber-v2.json';
+import m6 from './restaurant-v2.json';
+import m7 from './spa-02.json';
+import m8 from './yoga-02.json';
 
 export const DEMO_CATALOG = catalog as unknown as DemoCatalogEntry[];
 
 export const DEMO_MANIFESTS: Record<string, DemoManifest> = {
 	'agency-03': m0 as unknown as DemoManifest,
-	'coffee-shop': m1 as unknown as DemoManifest,
-	'dentico': m2 as unknown as DemoManifest,
+	'construction-02': m1 as unknown as DemoManifest,
+	'eduskill': m2 as unknown as DemoManifest,
 	'fitclub': m3 as unknown as DemoManifest,
-	'online-course-02': m4 as unknown as DemoManifest,
-	'real-estate-v2': m5 as unknown as DemoManifest,
+	'lawyer-v2': m4 as unknown as DemoManifest,
+	'plumber-v2': m5 as unknown as DemoManifest,
+	'restaurant-v2': m6 as unknown as DemoManifest,
+	'spa-02': m7 as unknown as DemoManifest,
+	'yoga-02': m8 as unknown as DemoManifest,
 };
