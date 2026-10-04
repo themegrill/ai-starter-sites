@@ -1,0 +1,227 @@
+[
+	{
+		"slug": "agency-03",
+		"name": "Zakra Agency",
+		"premium": false,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Zakra_Agency_Thumbnail.jpg",
+		"niches": [
+			"agency",
+			"business",
+			"marketing",
+			"consulting"
+		],
+		"keywords": [
+			"agency",
+			"marketing",
+			"design",
+			"branding",
+			"consulting",
+			"consultancy",
+			"startup",
+			"digital",
+			"seo",
+			"studio"
+		],
+		"stats": {
+			"sections": 27,
+			"textSlots": 131,
+			"editableSlots": 119,
+			"images": 36,
+			"swappableImages": 26,
+			"words": 933
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "coffee-shop",
+		"name": "Coffee Shop",
+		"premium": true,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Coffee_Shop_Thumbnail-image.jpg",
+		"niches": [
+			"cafe",
+			"coffee",
+			"bakery",
+			"food",
+			"restaurant"
+		],
+		"keywords": [
+			"coffee",
+			"cafe",
+			"espresso",
+			"barista",
+			"roastery",
+			"tea",
+			"bakery",
+			"pastry",
+			"brunch",
+			"dessert"
+		],
+		"stats": {
+			"sections": 14,
+			"textSlots": 84,
+			"editableSlots": 79,
+			"images": 55,
+			"swappableImages": 27,
+			"words": 808
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about"
+		]
+	},
+	{
+		"slug": "dentico",
+		"name": "Dentico",
+		"premium": true,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Dentico-Thumnail-Image.jpg",
+		"niches": [
+			"dental",
+			"medical",
+			"clinic",
+			"health"
+		],
+		"keywords": [
+			"dentist",
+			"dental",
+			"teeth",
+			"orthodontic",
+			"clinic",
+			"doctor",
+			"medical",
+			"healthcare",
+			"hospital",
+			"physician"
+		],
+		"stats": {
+			"sections": 16,
+			"textSlots": 119,
+			"editableSlots": 111,
+			"images": 39,
+			"swappableImages": 20,
+			"words": 910
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services",
+			"contact"
+		]
+	},
+	{
+		"slug": "fitclub",
+		"name": "FitClub",
+		"premium": false,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/FitClub-Thumbnail.jpg",
+		"niches": [
+			"fitness",
+			"gym",
+			"sports"
+		],
+		"keywords": [
+			"gym",
+			"fitness",
+			"workout",
+			"trainer",
+			"training",
+			"crossfit",
+			"boxing",
+			"kickboxing",
+			"bodybuilding",
+			"health club"
+		],
+		"stats": {
+			"sections": 18,
+			"textSlots": 220,
+			"editableSlots": 196,
+			"images": 68,
+			"swappableImages": 34,
+			"words": 1013
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"services",
+			"blog",
+			"contact"
+		]
+	},
+	{
+		"slug": "online-course-02",
+		"name": "Zakra Online Course",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-online-course-02/screenshot.jpg",
+		"niches": [
+			"education",
+			"courses",
+			"lms"
+		],
+		"keywords": [
+			"course",
+			"courses",
+			"online learning",
+			"academy",
+			"tutor",
+			"tutoring",
+			"teaching",
+			"school",
+			"classes",
+			"e-learning"
+		],
+		"stats": {
+			"sections": 13,
+			"textSlots": 62,
+			"editableSlots": 58,
+			"images": 22,
+			"swappableImages": 11,
+			"words": 465
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"services"
+		]
+	},
+	{
+		"slug": "real-estate-v2",
+		"name": "Real Estate V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-real-estate-v2/screenshot.jpg",
+		"niches": [
+			"real-estate",
+			"property"
+		],
+		"keywords": [
+			"real estate",
+			"realtor",
+			"property",
+			"properties",
+			"homes",
+			"apartments",
+			"rental",
+			"broker",
+			"housing",
+			"listings"
+		],
+		"stats": {
+			"sections": 23,
+			"textSlots": 181,
+			"editableSlots": 151,
+			"images": 64,
+			"swappableImages": 51,
+			"words": 1169
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	}
+]

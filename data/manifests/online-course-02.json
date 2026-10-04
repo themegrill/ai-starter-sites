@@ -1,0 +1,1487 @@
+{
+	"version": 1,
+	"slug": "online-course-02",
+	"name": "Zakra Online Course",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-online-course-02/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/online-course-02",
+	"niches": [
+		"education",
+		"courses",
+		"lms"
+	],
+	"keywords": [
+		"course",
+		"courses",
+		"online learning",
+		"academy",
+		"tutor",
+		"tutoring",
+		"teaching",
+		"school",
+		"classes",
+		"e-learning"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"learning-management-system/lms.php",
+		"zakra-pro/zakra-pro.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 44,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f5b417",
+				"count": 33,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f5b417",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#212121",
+				"count": 13,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#f9f9f9",
+				"count": 11,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#321184",
+				"count": 11,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#321184",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#000000",
+				"count": 10,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#1f2391",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#321184",
+				"lightnessDelta": 0.053
+			},
+			{
+				"hex": "#451fa4",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#321184",
+				"lightnessDelta": 0.09
+			},
+			{
+				"hex": "#1f0366",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#321184",
+				"lightnessDelta": -0.086
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "7a0010b3",
+					"index": 0,
+					"role": "hero",
+					"title": "Committed to Excellence in Teaching and Learning.",
+					"slots": [
+						{
+							"id": "086bf5f1:text",
+							"blockId": "086bf5f1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Committed to Excellence in Teaching and Learning.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a3548875:text",
+							"blockId": "a3548875",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, velit vitae consequat congue, turpis leo hendrerit erat, sed gravida tellus dolor a velit scelerisque nulla.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "024d7100:text",
+							"blockId": "024d7100",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN FOR FREE",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7a0010b3:background.image.image.url",
+							"blockId": "7a0010b3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/girl-study-banner.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 696,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "8f865841",
+					"index": 1,
+					"role": "features",
+					"title": "What We Offer",
+					"slots": [
+						{
+							"id": "77e5a009:text",
+							"blockId": "77e5a009",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What We Offer",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b35bb711:text",
+							"blockId": "b35bb711",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Praesent egestas justo sit amet.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2fc78cac:text",
+							"blockId": "2fc78cac",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "7k+ Online Course",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb56904e:text",
+							"blockId": "fb56904e",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet elit praesent egestas.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fae1cdfb:text",
+							"blockId": "fae1cdfb",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Expert Instructors",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fa22ecb9:text",
+							"blockId": "fa22ecb9",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Consectetur adipos lorem ipsum dolor sit amet elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "78c896a3:text",
+							"blockId": "78c896a3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Lifetime Access",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e3f2b413:text",
+							"blockId": "e3f2b413",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Amet varius auctor lorem ipsum dolor sit felis din.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "1d0a900a:image.url",
+							"blockId": "1d0a900a",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/online-course-1.png",
+							"decorative": true,
+							"width": 59,
+							"height": 59,
+							"orientation": "square"
+						},
+						{
+							"id": "eb1a9fb5:image.url",
+							"blockId": "eb1a9fb5",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/instructors.png",
+							"decorative": true,
+							"width": 60,
+							"height": 59,
+							"orientation": "square"
+						},
+						{
+							"id": "30b0eec7:image.url",
+							"blockId": "30b0eec7",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/lifetime-access-1.png",
+							"decorative": true,
+							"width": 60,
+							"height": 59,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "865072a6",
+					"index": 2,
+					"role": "dynamic",
+					"title": "Featured Courses",
+					"slots": [
+						{
+							"id": "40618aec:text",
+							"blockId": "40618aec",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Featured Courses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ed0c944a:text",
+							"blockId": "ed0c944a",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egestas justo sit amet varius auctor aliquam sit amet felis din.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4039bc4e:text",
+							"blockId": "4039bc4e",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW ALL COURSES",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"masteriyo/courses"
+					]
+				},
+				{
+					"id": "aea6011c",
+					"index": 3,
+					"role": "cta",
+					"title": "Education is about academic excellence and cultural diversity.",
+					"slots": [
+						{
+							"id": "0323927d:text",
+							"blockId": "0323927d",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Education is about academic excellence and cultural diversity.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "48125781:text",
+							"blockId": "48125781",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, velit vitae consequat congue, turpis leo hendrerit erat, sed gravida tellus dolor a velit scelerisque nulla.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4a3781c4:text",
+							"blockId": "4a3781c4",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "GET STARTED NOW",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "06a2854a:background.image.image.url",
+							"blockId": "06a2854a",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/banner-second-overlay.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 700,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "50125f92",
+					"index": 4,
+					"role": "content",
+					"title": "Our Trusted Partners",
+					"slots": [
+						{
+							"id": "34ebdc58:text",
+							"blockId": "34ebdc58",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Trusted Partners",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "44903bb0:image.url",
+							"blockId": "44903bb0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/logo-robox.png",
+							"decorative": true,
+							"width": 160,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "33b037aa:image.url",
+							"blockId": "33b037aa",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/logo-mascat.png",
+							"decorative": true,
+							"width": 160,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "b8e1848b:image.url",
+							"blockId": "b8e1848b",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/logo-sony.png",
+							"decorative": true,
+							"width": 160,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2fd39240:image.url",
+							"blockId": "2fd39240",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/logo-forbes.png",
+							"decorative": true,
+							"width": 160,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "59080f55:image.url",
+							"blockId": "59080f55",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/logo-spectrum.png",
+							"decorative": true,
+							"width": 160,
+							"height": 70,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "8882c8a0",
+					"index": 5,
+					"role": "cta",
+					"title": "An excellent foundation for future success.",
+					"slots": [
+						{
+							"id": "1cd8eed5:text",
+							"blockId": "1cd8eed5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "An excellent foundation for future success.",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bee0628e:text",
+							"blockId": "bee0628e",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus egestas urna, ac gravida ante. In efficitur, justo nec ullamcorper fermentum, lacus erat imperdiet odio, nec tristique diam urna vel nibh. Aliquam vel est neque. Aliquam in pellentesque sapien. Quisque quam enim, blandit non diam at.",
+							"rich": false,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fab93c95:text",
+							"blockId": "fab93c95",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "KNOW MORE ABOUT US",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "82e30433:image.url",
+							"blockId": "82e30433",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/home-abt2-img.png",
+							"decorative": false,
+							"width": 674,
+							"height": 619,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "79f91394",
+					"index": 6,
+					"role": "dynamic",
+					"title": "Popular Categories",
+					"slots": [
+						{
+							"id": "51ca5d27:text",
+							"blockId": "51ca5d27",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Popular Categories",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bf7ff1c2:text",
+							"blockId": "bf7ff1c2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egestas justo sit amet varius auctor aliquam sit amet felis din.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7f4173ee:text",
+							"blockId": "7f4173ee",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW ALL CATEGORIES",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"masteriyo/course-categories"
+					]
+				},
+				{
+					"id": "7727326f",
+					"index": 7,
+					"role": "features",
+					"title": "Welcoming everyone in an experience that’s more than an education.",
+					"slots": [
+						{
+							"id": "75786256:text",
+							"blockId": "75786256",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Welcoming everyone in an experience that’s more than an education.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7039fda3:text",
+							"blockId": "7039fda3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, velit vitae consequat congue, turpis leo hendrerit erat, sed gravida tellus dolor a velit scelerisque nulla.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e10ea8d5:text",
+							"blockId": "e10ea8d5",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "TAKE A TOUR WITH US",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "24bec46a:text",
+							"blockId": "24bec46a",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "46",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "dec54188:text",
+							"blockId": "dec54188",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Awards Won",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "157d4325:text",
+							"blockId": "157d4325",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "12",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "77daa472:text",
+							"blockId": "77daa472",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Experience",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c1f8fe26:text",
+							"blockId": "c1f8fe26",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "98",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "969aadb0:text",
+							"blockId": "969aadb0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Professors",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "12c729d4:text",
+							"blockId": "12c729d4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "133",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "19bf971a:text",
+							"blockId": "19bf971a",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Courses",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7727326f:background.image.image.url",
+							"blockId": "7727326f",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/video-section-bg.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 971,
+							"orientation": "landscape"
+						},
+						{
+							"id": "f98dff25:image.url",
+							"blockId": "f98dff25",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/video-section-.jpg",
+							"decorative": false,
+							"width": 970,
+							"height": 578,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "7e8c0338",
+					"index": 8,
+					"role": "cta",
+					"title": "Education is about helping students with learning differences.",
+					"slots": [
+						{
+							"id": "59bed126:text",
+							"blockId": "59bed126",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Education is about helping students with learning differences.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8c9c04d3:text",
+							"blockId": "8c9c04d3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, velit vitae consequat congue, turpis leo hendrerit erat, sed gravida tellus dolor a velit scelerisque nulla.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "855e878b:text",
+							"blockId": "855e878b",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN FOR FREE",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "5907204b:background.image.image.url",
+							"blockId": "5907204b",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/background-box.png",
+							"decorative": false,
+							"width": 737,
+							"height": 487,
+							"orientation": "landscape"
+						},
+						{
+							"id": "33faa76c:image.url",
+							"blockId": "33faa76c",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/yellow-study-1.jpg",
+							"decorative": false,
+							"width": 1010,
+							"height": 1188,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "64013aa3",
+					"index": 9,
+					"role": "team",
+					"title": "Our Instructors",
+					"slots": [
+						{
+							"id": "9ccffb14:text",
+							"blockId": "9ccffb14",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Instructors",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d23633f3:text",
+							"blockId": "d23633f3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egestas justo sit amet varius auctor aliquam sit amet felis din.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "227169c9:text",
+							"blockId": "227169c9",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "FIND OUR TEACHERS",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ffa07e73:text",
+							"blockId": "ffa07e73",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Jayden Ray",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3db86f84:text",
+							"blockId": "3db86f84",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "IT Instructor",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "31143ae3:text",
+							"blockId": "31143ae3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Kiara Allen",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a05e533a:text",
+							"blockId": "a05e533a",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Data Instructor",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7ec2b34f:text",
+							"blockId": "7ec2b34f",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Bobbie Phillips",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "26571554:text",
+							"blockId": "26571554",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Graphics Instructor",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0ccff0cf:text",
+							"blockId": "0ccff0cf",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Jimmy Melton",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b885e015:text",
+							"blockId": "b885e015",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Networking Instructor",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "d07806f7:image.url",
+							"blockId": "d07806f7",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/jayden-instructor-e1641894692452.jpg",
+							"decorative": false,
+							"width": 1020,
+							"height": 1021,
+							"orientation": "square"
+						},
+						{
+							"id": "0587e43d:image.url",
+							"blockId": "0587e43d",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/data-instructor.jpg",
+							"decorative": false,
+							"width": 1020,
+							"height": 1020,
+							"orientation": "square"
+						},
+						{
+							"id": "e6585ab3:image.url",
+							"blockId": "e6585ab3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/graphics-instructor.jpg",
+							"decorative": false,
+							"width": 1020,
+							"height": 1020,
+							"orientation": "square"
+						},
+						{
+							"id": "e0f02bba:image.url",
+							"blockId": "e0f02bba",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/it-instructor.jpg",
+							"decorative": false,
+							"width": 1020,
+							"height": 1020,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "d24a9948",
+					"index": 10,
+					"role": "testimonials",
+					"title": "Our Testimonials",
+					"slots": [
+						{
+							"id": "9d7c5885:text",
+							"blockId": "9d7c5885",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Testimonials",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3c6ab0d2:text",
+							"blockId": "3c6ab0d2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent egestas justo sit amet varius auctor aliquam sit amet felis din.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e3e2531d:text",
+							"blockId": "e3e2531d",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Education is discipline.",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b4871add:text",
+							"blockId": "b4871add",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Tom Watts - CEO, HelpOverSeas Ltd.",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9eee98b6:text",
+							"blockId": "9eee98b6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, cons ecte tur adipiscing elit. Maecenas ullam corper venenatis mattis.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c66eada5:text",
+							"blockId": "c66eada5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Learn at ease.",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "85cf38af:text",
+							"blockId": "85cf38af",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "John Mayer- CEO, Mega Pvt. Ltd.",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "86869497:text",
+							"blockId": "86869497",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed quis accumsan libero. Nunc porta mauris at ipsum convallis sodales. Sed vel dictum urna, sit amet est.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7cbc811b:text",
+							"blockId": "7cbc811b",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Made affordable for you.",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "00b88bf8:text",
+							"blockId": "00b88bf8",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Brock Austin - CEO, myteacher.com",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b20c9025:text",
+							"blockId": "b20c9025",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nunc porta mauris at ipsum convallis sodales. Sed vel dictum urna, sit amet est. Lorem ipsum dolor sit amet.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6e09ae11:text",
+							"blockId": "6e09ae11",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Why Settle For Good When You Can Have Outstanding?",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "323f5bfa:text",
+							"blockId": "323f5bfa",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a4413e07:image.url",
+							"blockId": "a4413e07",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/tom-watts.png",
+							"decorative": true,
+							"width": 59,
+							"height": 59,
+							"orientation": "square"
+						},
+						{
+							"id": "020b977e:image.url",
+							"blockId": "020b977e",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/john-mayer.png",
+							"decorative": true,
+							"width": 59,
+							"height": 59,
+							"orientation": "square"
+						},
+						{
+							"id": "332ec50d:image.url",
+							"blockId": "332ec50d",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/brock-austin.png",
+							"decorative": true,
+							"width": 59,
+							"height": 59,
+							"orientation": "square"
+						}
+					]
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/themegrill-demos/blog-content.xml",
+			"sections": []
+		},
+		{
+			"slug": "courses",
+			"title": "Courses",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/themegrill-demos/courses-content.xml",
+			"sections": []
+		},
+		{
+			"slug": "account",
+			"title": "Account",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/themegrill-demos/account-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			]
+		},
+		{
+			"slug": "checkout",
+			"title": "Checkout",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/themegrill-demos/checkout-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 13,
+		"textSlots": 62,
+		"editableSlots": 58,
+		"images": 22,
+		"swappableImages": 11,
+		"words": 465
+	},
+	"builtAt": "2026-10-04T12:33:26.985Z"
+}
