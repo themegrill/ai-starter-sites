@@ -52,9 +52,11 @@ export const buildSection = (
 			kinds[image.id] = image.kind;
 		}
 	}
+	const fixed = section.slots.filter((s) => s.locked && s.locked !== 'symbol').map((s) => s.text);
 	return {
 		id: section.id,
 		type: section.role,
+		...(fixed.length ? { fixed } : {}),
 		...(section.title ? { title: copy[section.slots.find((s) => s.text === section.title)?.id ?? ''] ?? section.title } : {}),
 		slots,
 		kinds,

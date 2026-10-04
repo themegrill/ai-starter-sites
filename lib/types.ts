@@ -53,6 +53,8 @@ export type Section = {
 	// what each text slot is (heading level, paragraph, button...).
 	title?: string;
 	kinds?: Record<string, string>;
+	// Text kept as designed (stats, prices, contact details), for context.
+	fixed?: string[];
 };
 
 export type GeneratedPage = {

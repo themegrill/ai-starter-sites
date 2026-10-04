@@ -78,7 +78,11 @@ const buildPrompt = (ctx: CopyContext, jobs: Job[], keys: Map<TextSlot, string>,
 			if (key) lines.push(slotLine(key, slot));
 		}
 		const fixed = section.slots.filter((s) => s.locked).map((s) => `"${s.text}"`);
-		if (fixed.length) lines.push(`Fixed text in this section, stay consistent with it: ${fixed.slice(0, 8).join(', ')}`);
+		if (fixed.length) {
+			lines.push(
+				`Fixed text already shown in this section (numbers, contact details): ${fixed.slice(0, 8).join(', ')}. Stay consistent with it but never repeat it in a slot; a short slot next to a number is that number's label (e.g. "Happy members").`,
+			);
+		}
 		lines.push('');
 	});
 	if (instruction) lines.push(`Extra instruction from the site owner: ${instruction}`);
@@ -155,6 +159,13 @@ const runBatch = async (ctx: CopyContext, jobs: Job[], totals: Totals, instructi
 	const slots = jobs.flatMap((j) => editableSlots(j.section));
 	const keys = new Map(slots.map((slot, i) => [slot, `k${i + 1}`]));
 	const values = new Map<TextSlot, string>();
+	// A slot that just repeats a locked stat ("200K+") would show it twice on the page.
+	const fixedText = new Map(
+		jobs.flatMap(({ section }) => {
+			const fixed = new Set(section.slots.filter((s) => s.locked).map((s) => s.text.toLowerCase()));
+			return editableSlots(section).map((slot) => [slot, fixed] as const);
+		}),
+	);
 
 	const ask = async (pending: TextSlot[], pendingJobs: Job[]) => {
 		const pendingKeys = new Map(pending.map((s) => [s, keys.get(s)!]));
@@ -174,7 +185,7 @@ const runBatch = async (ctx: CopyContext, jobs: Job[], totals: Totals, instructi
 		totals.usage.ms = Math.max(totals.usage.ms, usage.ms);
 		for (const slot of pending) {
 			const text = clean(data[pendingKeys.get(slot)!], slot);
-			if (text) values.set(slot, text);
+			if (text && !fixedText.get(slot)?.has(text.toLowerCase())) values.set(slot, text);
 		}
 	};
 
