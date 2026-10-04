@@ -7,16 +7,12 @@ import { NicheFixture } from './helpers';
 
 export const FIXTURES: NicheFixture[] = [bakery, agency, fitness];
 
-// Plugin niche dropdown values that map onto a fixture with a different name.
-const NICHE_ALIASES: Record<string, string> = { food: 'bakery' };
-
 /**
  * Mimics the real pipeline's demo picking: an explicit niche wins, otherwise the
  * fixture with the most keyword hits in the description, defaulting to agency.
  */
 export const pickFixture = (request: GenerateRequest): NicheFixture => {
-	const niche = NICHE_ALIASES[request.niche] ?? request.niche;
-	const explicit = FIXTURES.find((f) => f.niche === niche);
+	const explicit = FIXTURES.find((f) => f.niche === request.niche);
 	if (explicit) {
 		return explicit;
 	}
