@@ -11,7 +11,7 @@ export const config = {
 		const flag = process.env.MOCK?.toLowerCase();
 		if (flag === 'true') return true;
 		if (flag === 'false') return false;
-		return !process.env.GROQ_API_KEY;
+		return !process.env.GROQ_API_KEY && process.env.LLM !== 'fake';
 	},
 	get mockDelayMs() {
 		const ms = Number(process.env.MOCK_DELAY_MS ?? 1500);

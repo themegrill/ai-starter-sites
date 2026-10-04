@@ -49,6 +49,10 @@ export type Section = {
 	id: string;
 	type: string;
 	slots: Record<string, SlotValue>;
+	// Optional extras for the preview UI: the section's first heading, and
+	// what each text slot is (heading level, paragraph, button...).
+	title?: string;
+	kinds?: Record<string, string>;
 };
 
 export type GeneratedPage = {
@@ -64,6 +68,8 @@ export type GenerationPackage = {
 	brand: BrandKit;
 	pages: GeneratedPage[];
 	importPackage: Record<string, unknown>;
+	// Things the user should know, e.g. a requested page the design lacks.
+	notes?: string[];
 };
 
 export type RegenerateSectionRequest = {

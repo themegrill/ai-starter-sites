@@ -18,6 +18,8 @@ const corsHeaders = (request: Request): Record<string, string> => {
 	};
 };
 
+export const corsHeadersFor = (request: Request) => corsHeaders(request);
+
 export const json = (request: Request, body: unknown, status = 200, extra: Record<string, string> = {}) =>
 	Response.json(body, { status, headers: { ...corsHeaders(request), ...extra } });
 
@@ -72,6 +74,81 @@ export const postRoute =
 			console.error(error);
 			return errorResponse(request, new ApiError('GENERATION_FAILED', 'Something went wrong while generating your site.'));
 		}
+	};
+
+type StreamEvent =
+	| { type: 'progress'; step: string; progress: number }
+	| { type: 'result'; package: unknown }
+	| AiErrorPayload & { type: 'error' };
+
+const toApiError = (error: unknown) => {
+	if (error instanceof ApiError) return error;
+	console.error(error);
+	return new ApiError('GENERATION_FAILED', 'Something went wrong while generating your site.');
+};
+
+/**
+ * POST route that can stream progress. With `Accept: application/x-ndjson`
+ * the response is one JSON event per line: progress events, then a final
+ * `result` or `error` event. Without it, it behaves like postRoute.
+ * Auth and validation errors are returned before streaming starts, as
+ * normal JSON errors with their HTTP status.
+ */
+export const streamingPostRoute =
+	<T>(
+		validate: (body: unknown) => T,
+		handler: (body: T, emit: (event: { step: string; progress: number }) => void, signal: AbortSignal) => Promise<unknown>,
+	) =>
+	async (request: Request) => {
+		let body: T;
+		try {
+			authorize(request);
+			body = validate(await readBody(request));
+		} catch (error) {
+			return errorResponse(request, toApiError(error));
+		}
+
+		if (!request.headers.get('accept')?.includes('application/x-ndjson')) {
+			try {
+				return json(request, await handler(body, () => undefined, request.signal));
+			} catch (error) {
+				return errorResponse(request, toApiError(error));
+			}
+		}
+
+		const encoder = new TextEncoder();
+		const stream = new ReadableStream<Uint8Array>({
+			async start(controller) {
+				const send = (event: StreamEvent) => controller.enqueue(encoder.encode(JSON.stringify(event) + '\n'));
+				try {
+					const result = await handler(body, (p) => send({ type: 'progress', ...p }), request.signal);
+					send({ type: 'result', package: result });
+				} catch (error) {
+					if (!request.signal.aborted) {
+						const apiError = toApiError(error);
+						send({
+							type: 'error',
+							error: {
+								code: apiError.code,
+								message: apiError.message,
+								...(apiError.retryAfter ? { retryAfter: apiError.retryAfter } : {}),
+							},
+						});
+					}
+				} finally {
+					controller.close();
+				}
+			},
+		});
+
+		return new Response(stream, {
+			headers: {
+				...corsHeadersFor(request),
+				'Content-Type': 'application/x-ndjson; charset=utf-8',
+				'Cache-Control': 'no-cache, no-transform',
+				'X-Accel-Buffering': 'no',
+			},
+		});
 	};
 
 export const getRoute =

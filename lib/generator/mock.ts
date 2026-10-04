@@ -4,7 +4,7 @@
 import { ApiError } from '../errors';
 import { buildPackage, fillSection, findFixtureByDemo, pickFixture } from '../fixtures';
 import { config } from '../config';
-import { GenerateRequest, Section, SlotValue } from '../types';
+import { GenerateRequest, GenerationProgress, Section, SlotValue } from '../types';
 import { Generator } from './types';
 
 const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
@@ -55,9 +55,13 @@ const rewrite = (value: SlotValue, instruction: string, variant: number): SlotVa
 };
 
 export const mockGenerator: Generator = {
-	async generate(request) {
+	async generate(request, { onProgress } = {}) {
 		throwForTag(request.description);
-		await sleep(config.mockDelayMs);
+		const steps: GenerationProgress['step'][] = ['understanding_brand', 'picking_design', 'writing_copy', 'finding_images', 'assembling'];
+		for (const [i, step] of steps.entries()) {
+			onProgress?.({ step, progress: i / steps.length });
+			await sleep(config.mockDelayMs / steps.length);
+		}
 		return buildPackage(encodeId(request), pickFixture(request), request);
 	},
 
