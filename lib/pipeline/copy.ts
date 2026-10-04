@@ -164,9 +164,9 @@ const runBatch = async (ctx: CopyContext, jobs: Job[], totals: Totals, instructi
 			system: system(ctx),
 			user: buildPrompt(ctx, pendingJobs, pendingKeys, instruction),
 			schema: schemaFor([...pendingKeys.values()]),
-			// Output runs ~1.5 tokens per word plus some reasoning; a tight budget
-			// matters because providers count it against per-minute token limits.
-			maxTokens: Math.min(4000, 600 + maxWords * 2),
+			// ~1.5 tokens per word plus reasoning. Not much more: providers count the
+			// budget against per-minute limits. A cut-off reply is retried larger.
+			maxTokens: Math.min(6000, 1500 + maxWords * 3),
 			signal,
 		});
 		totals.usage.inputTokens += usage.inputTokens;

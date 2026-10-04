@@ -10,7 +10,7 @@ const TIMEOUT_MS = 45_000;
 type GroqResponse = {
 	choices?: { message?: { content?: string }; finish_reason?: string }[];
 	usage?: { prompt_tokens?: number; completion_tokens?: number };
-	error?: { message?: string };
+	error?: { message?: string; code?: string };
 };
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -61,6 +61,11 @@ export const createGroqClient = (apiKey: string, model: string): LlmClient => {
 				return call(request, 1);
 			}
 			throw new ApiError('GENERATION_FAILED', 'The AI service is busy right now. Please try again in a minute.', 60);
+		}
+		// A reply cut off by the token budget fails schema validation: retry with more room.
+		if (body.error?.code === 'json_validate_failed' && attempt === 0) {
+			console.warn(`[groq] ${request.name} invalid JSON (likely truncated), retrying with a larger budget`);
+			return call({ ...request, maxTokens: Math.min((request.maxTokens ?? 4096) * 2, 12000) }, 1);
 		}
 		if (!response.ok) {
 			console.error(`[groq] ${request.name} ${response.status}:`, body.error?.message);
