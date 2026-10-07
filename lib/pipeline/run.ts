@@ -3,13 +3,14 @@
 import { randomUUID } from 'node:crypto';
 import { ApiError } from '../errors';
 import { LlmUsage } from '../llm';
-import { GenerateRequest, GenerationPackage, GenerationProgress, Section } from '../types';
+import { AiPageSlug, GenerateRequest, GenerationPackage, GenerationProgress, Section } from '../types';
 import { assemblePackage, buildSection, selectPages } from './assemble';
 import { pickBrandKit } from './brand-kit';
 import { Brief, parseBrief } from './brief';
 import { writeCopy, writeSectionCopy } from './copy';
 import { getImageProvider } from './images';
 import { availableDemos, getManifest, pickDemo, rankDemos } from './pick-demo';
+import { decideGroups, GroupDecision, repurposeNote } from './sections';
 import { getGeneration, saveGeneration } from './store';
 
 export type RunOptions = { onProgress?: (p: GenerationProgress) => void; signal?: AbortSignal };
@@ -37,11 +38,36 @@ const buildFromDemo = async (
 
 	onProgress?.({ step: 'writing_copy', progress: 0.3 });
 	const { pages } = selectPages(demo, request.pages);
+
+	// Sections that don't fit the business: dropped ones get no copy (restoring
+	// one writes it then), repurposed ones get a note for the copywriter.
+	const decisions = new Map<AiPageSlug, GroupDecision[]>();
+	const skip = new Set<string>();
+	const notes = new Map<string, string>();
+	for (const { type, page } of pages) {
+		const pageDecisions = decideGroups(page, brief);
+		decisions.set(type, pageDecisions);
+		for (const { group, action } of pageDecisions) {
+			if (action === 'keep') continue;
+			for (const sectionId of group.sectionIds) {
+				notes.set(`${page.slug}/${sectionId}`, repurposeNote(group, brief));
+				if (action === 'drop') skip.add(`${page.slug}/${sectionId}`);
+			}
+		}
+	}
+	const summary = [...decisions.values()]
+		.flat()
+		.filter((d) => d.action !== 'keep')
+		.map((d) => `${d.action} ${d.group.role}`);
+	if (summary.length) console.log(`[generate] ${id} sections (${demo.slug}): ${summary.join(', ')}`);
+
 	const { copy, usage, fallbacks } = await writeCopy(
 		{ request, brief, demo },
 		pages.map((p) => p.page),
 		{
 			signal,
+			skip,
+			notes,
 			onBatchDone: (done, total) => onProgress?.({ step: 'writing_copy', progress: 0.3 + (done / total) * 0.5 }),
 		},
 	);
@@ -61,8 +87,9 @@ const buildFromDemo = async (
 		copy,
 		images,
 		imageProvider: provider.name,
+		decisions,
 	});
-	saveGeneration(id, { request, brief, demo, pkg });
+	saveGeneration(id, { request, brief, demo, pkg, notes, images });
 	return pkg;
 };
 
@@ -120,18 +147,13 @@ export const runRegenerateSection = async (
 		section,
 		instruction,
 		options.signal,
+		stored.notes.get(`${page.slug}/${sectionId}`),
 	);
 	log(generationId, `regenerate ${pageSlug}/${sectionId}`, usage);
 
-	// Images are unchanged; reuse what the package already has for this section.
+	// Images are unchanged. Removed sections being restored aren't in the package yet.
 	const current = stored.pkg.pages.find((p) => p.slug === pageSlug)?.sections.find((s) => s.id === sectionId);
-	const images = new Map(
-		section.images.flatMap((image) => {
-			const value = current?.slots[image.id];
-			return value && typeof value === 'object' ? [[image, value] as const] : [];
-		}),
-	);
-	const updated = buildSection(section, copy, images);
+	const updated = buildSection(section, copy, stored.images);
 
 	if (current) Object.assign(current, updated);
 	return { section: updated };

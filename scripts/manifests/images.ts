@@ -63,7 +63,7 @@ const orientationOf = (width: number, height: number): Orientation => {
 	return ratio > 1.15 ? 'landscape' : ratio < 0.87 ? 'portrait' : 'square';
 };
 
-const DECORATIVE_NAME = /logo|icon|signature|badge|pattern|shape|vector|arrow|dots?[-_.]|quote/i;
+const DECORATIVE_NAME = /logo|icon|signature|badge|pattern|shape|vector|arrow|dots?[-_.]|quote|partner|sponsor|client-?\d/i;
 
 // Icons, logos and small artwork stay as designed; only photo-sized images
 // get stock replacements.

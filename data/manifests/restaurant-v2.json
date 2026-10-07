@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"slug": "restaurant-v2",
 	"name": "Restaurant V2",
 	"theme": "zakra",
@@ -130,7 +130,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			},
 			{
 				"hex": "#0d0c0c",
@@ -178,7 +180,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0.061
+				"lightnessDelta": 0.061,
+				"locked": true,
+				"lockReason": "accent"
 			},
 			{
 				"hex": "#1e7ba6",
@@ -186,7 +190,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0.014
+				"lightnessDelta": 0.014,
+				"locked": true,
+				"lockReason": "accent"
 			}
 		],
 		"fonts": {
@@ -209,6 +215,8 @@
 				{
 					"id": "95dfa7b9",
 					"index": 0,
+					"path": "0",
+					"group": "95dfa7b9",
 					"role": "hero",
 					"title": "ZAKRA RESTURA",
 					"slots": [
@@ -304,6 +312,8 @@
 				{
 					"id": "7b7d72d2",
 					"index": 1,
+					"path": "1",
+					"group": "7b7d72d2",
 					"role": "cta",
 					"title": "About us",
 					"slots": [
@@ -414,6 +424,8 @@
 				{
 					"id": "a76f8cf6",
 					"index": 2,
+					"path": "2",
+					"group": "a76f8cf6",
 					"role": "cta",
 					"title": "WHY US",
 					"slots": [
@@ -524,6 +536,8 @@
 				{
 					"id": "5ede797c",
 					"index": 3,
+					"path": "3",
+					"group": "5ede797c",
 					"role": "content",
 					"title": "OUR SPECIALITY",
 					"slots": [
@@ -589,6 +603,8 @@
 				{
 					"id": "242bdd39",
 					"index": 4,
+					"path": "4",
+					"group": "242bdd39",
 					"role": "content",
 					"title": "FRENCH FRIES AND SAUSAGES",
 					"slots": [
@@ -830,6 +846,8 @@
 				{
 					"id": "4ffd78bb",
 					"index": 5,
+					"path": "5",
+					"group": "4ffd78bb",
 					"role": "content",
 					"title": "MENU",
 					"slots": [
@@ -1159,6 +1177,8 @@
 				{
 					"id": "eca15bdb",
 					"index": 6,
+					"path": "6",
+					"group": "eca15bdb",
 					"role": "content",
 					"title": "LUNCH",
 					"slots": [
@@ -1446,6 +1466,8 @@
 				{
 					"id": "6a0c4bec",
 					"index": 7,
+					"path": "7",
+					"group": "6a0c4bec",
 					"role": "cta",
 					"slots": [
 						{
@@ -1469,6 +1491,8 @@
 				{
 					"id": "47dd9f9c",
 					"index": 8,
+					"path": "8",
+					"group": "47dd9f9c",
 					"role": "testimonials",
 					"title": "TESTIMONIAL",
 					"slots": [
@@ -1534,6 +1558,8 @@
 				{
 					"id": "75e2bab7",
 					"index": 9,
+					"path": "9",
+					"group": "75e2bab7",
 					"role": "features",
 					"title": "GEORGE CLOONEY",
 					"slots": [
@@ -1721,6 +1747,8 @@
 				{
 					"id": "4c55c3f3",
 					"index": 10,
+					"path": "10",
+					"group": "4c55c3f3",
 					"role": "gallery",
 					"title": "GALLERY",
 					"slots": [
@@ -1892,6 +1920,8 @@
 				{
 					"id": "7fb86ff1",
 					"index": 11,
+					"path": "11",
+					"group": "7fb86ff1",
 					"role": "content",
 					"title": "SUBSCRIPTION",
 					"slots": [
@@ -1957,6 +1987,8 @@
 				{
 					"id": "8d75fe31",
 					"index": 12,
+					"path": "12",
+					"group": "8d75fe31",
 					"role": "dynamic",
 					"title": "Want to receive regular news and updates to your inbox?",
 					"slots": [
@@ -1982,6 +2014,189 @@
 						"everest-forms/form-selector"
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "95dfa7b9",
+					"role": "hero",
+					"title": "ZAKRA RESTURA",
+					"sectionIds": [
+						"95dfa7b9"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7b7d72d2",
+					"role": "cta",
+					"title": "About us",
+					"sectionIds": [
+						"7b7d72d2"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a76f8cf6",
+					"role": "cta",
+					"title": "WHY US",
+					"sectionIds": [
+						"a76f8cf6"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5ede797c",
+					"role": "content",
+					"title": "OUR SPECIALITY",
+					"sectionIds": [
+						"5ede797c"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "242bdd39",
+					"role": "content",
+					"title": "FRENCH FRIES AND SAUSAGES",
+					"sectionIds": [
+						"242bdd39"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4ffd78bb",
+					"role": "content",
+					"title": "MENU",
+					"sectionIds": [
+						"4ffd78bb"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "eca15bdb",
+					"role": "content",
+					"title": "LUNCH",
+					"sectionIds": [
+						"eca15bdb"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6a0c4bec",
+					"role": "cta",
+					"sectionIds": [
+						"6a0c4bec"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "47dd9f9c",
+					"role": "testimonials",
+					"title": "TESTIMONIAL",
+					"sectionIds": [
+						"47dd9f9c"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "75e2bab7",
+					"role": "features",
+					"title": "GEORGE CLOONEY",
+					"sectionIds": [
+						"75e2bab7"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4c55c3f3",
+					"role": "gallery",
+					"title": "GALLERY",
+					"sectionIds": [
+						"4c55c3f3"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7fb86ff1",
+					"role": "content",
+					"title": "SUBSCRIPTION",
+					"sectionIds": [
+						"7fb86ff1"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "8d75fe31",
+					"role": "dynamic",
+					"title": "Want to receive regular news and updates to your inbox?",
+					"sectionIds": [
+						"8d75fe31"
+					],
+					"paths": [
+						"12"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -1993,6 +2208,8 @@
 				{
 					"id": "d0efbdbf",
 					"index": 0,
+					"path": "0",
+					"group": "d0efbdbf",
 					"role": "hero",
 					"title": "ABOUT US",
 					"slots": [
@@ -2150,6 +2367,8 @@
 				{
 					"id": "4a350fee",
 					"index": 1,
+					"path": "1",
+					"group": "4a350fee",
 					"role": "features",
 					"title": "OUR VALUES",
 					"slots": [
@@ -2295,6 +2514,8 @@
 				{
 					"id": "4311432e",
 					"index": 2,
+					"path": "2",
+					"group": "4311432e",
 					"role": "team",
 					"title": "OUR TEAM",
 					"slots": [
@@ -2482,6 +2703,8 @@
 				{
 					"id": "ee92cc17",
 					"index": 3,
+					"path": "3",
+					"group": "ee92cc17",
 					"role": "content",
 					"slots": [],
 					"images": [
@@ -2503,6 +2726,8 @@
 				{
 					"id": "88a65a10",
 					"index": 4,
+					"path": "4",
+					"group": "88a65a10",
 					"role": "cta",
 					"title": "Reservation",
 					"slots": [
@@ -2574,6 +2799,8 @@
 				{
 					"id": "c4700229",
 					"index": 5,
+					"path": "5",
+					"group": "c4700229",
 					"role": "content",
 					"title": "SUBSCRIPTION",
 					"slots": [
@@ -2639,6 +2866,8 @@
 				{
 					"id": "0704dc85",
 					"index": 6,
+					"path": "6",
+					"group": "0704dc85",
 					"role": "dynamic",
 					"title": "Want to receive regular news and updates to your inbox?",
 					"slots": [
@@ -2664,6 +2893,108 @@
 						"everest-forms/form-selector"
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "d0efbdbf",
+					"role": "hero",
+					"title": "ABOUT US",
+					"sectionIds": [
+						"d0efbdbf"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4a350fee",
+					"role": "features",
+					"title": "OUR VALUES",
+					"sectionIds": [
+						"4a350fee"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4311432e",
+					"role": "team",
+					"title": "OUR TEAM",
+					"sectionIds": [
+						"4311432e"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "ee92cc17",
+					"role": "content",
+					"sectionIds": [
+						"ee92cc17"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "88a65a10",
+					"role": "cta",
+					"title": "Reservation",
+					"sectionIds": [
+						"88a65a10"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c4700229",
+					"role": "content",
+					"title": "SUBSCRIPTION",
+					"sectionIds": [
+						"c4700229"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0704dc85",
+					"role": "dynamic",
+					"title": "Want to receive regular news and updates to your inbox?",
+					"sectionIds": [
+						"0704dc85"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -2675,6 +3006,8 @@
 				{
 					"id": "ba651174",
 					"index": 0,
+					"path": "0",
+					"group": "ba651174",
 					"role": "hero",
 					"title": "SIGNATURE DISHES",
 					"slots": [
@@ -2727,6 +3060,8 @@
 				{
 					"id": "1841d98c",
 					"index": 1,
+					"path": "1",
+					"group": "1841d98c",
 					"role": "content",
 					"title": "Black Pasta",
 					"slots": [
@@ -3233,6 +3568,8 @@
 				{
 					"id": "62c226f4",
 					"index": 2,
+					"path": "2",
+					"group": "62c226f4",
 					"role": "content",
 					"slots": [],
 					"images": [
@@ -3254,6 +3591,8 @@
 				{
 					"id": "40103d44",
 					"index": 3,
+					"path": "3",
+					"group": "40103d44",
 					"role": "content",
 					"title": "BREAKFAST",
 					"slots": [
@@ -3306,6 +3645,8 @@
 				{
 					"id": "34558a40",
 					"index": 4,
+					"path": "4",
+					"group": "34558a40",
 					"role": "content",
 					"title": "Black Pasta",
 					"slots": [
@@ -3812,6 +4153,8 @@
 				{
 					"id": "8aa3c8d8",
 					"index": 5,
+					"path": "5",
+					"group": "8aa3c8d8",
 					"role": "content",
 					"slots": [],
 					"images": [
@@ -3833,6 +4176,8 @@
 				{
 					"id": "49a9ec56",
 					"index": 6,
+					"path": "6",
+					"group": "49a9ec56",
 					"role": "content",
 					"title": "LUNCH",
 					"slots": [
@@ -3885,6 +4230,8 @@
 				{
 					"id": "f9697b0b",
 					"index": 7,
+					"path": "7",
+					"group": "f9697b0b",
 					"role": "content",
 					"title": "Black Pasta",
 					"slots": [
@@ -4391,6 +4738,8 @@
 				{
 					"id": "e18b9ca8",
 					"index": 8,
+					"path": "8",
+					"group": "e18b9ca8",
 					"role": "content",
 					"slots": [],
 					"images": [
@@ -4412,6 +4761,8 @@
 				{
 					"id": "7b5b25df",
 					"index": 9,
+					"path": "9",
+					"group": "7b5b25df",
 					"role": "content",
 					"title": "DRINKS",
 					"slots": [
@@ -4464,6 +4815,8 @@
 				{
 					"id": "f2a1fd38",
 					"index": 10,
+					"path": "10",
+					"group": "f2a1fd38",
 					"role": "content",
 					"title": "Black Pasta",
 					"slots": [
@@ -4970,6 +5323,8 @@
 				{
 					"id": "7723bd88",
 					"index": 11,
+					"path": "11",
+					"group": "7723bd88",
 					"role": "content",
 					"title": "SUBSCRIPTION",
 					"slots": [
@@ -5035,6 +5390,8 @@
 				{
 					"id": "c768ee1f",
 					"index": 12,
+					"path": "12",
+					"group": "c768ee1f",
 					"role": "dynamic",
 					"title": "Want to receive regular news and updates to your inbox?",
 					"slots": [
@@ -5060,6 +5417,187 @@
 						"everest-forms/form-selector"
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "ba651174",
+					"role": "hero",
+					"title": "SIGNATURE DISHES",
+					"sectionIds": [
+						"ba651174"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1841d98c",
+					"role": "content",
+					"title": "Black Pasta",
+					"sectionIds": [
+						"1841d98c"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "62c226f4",
+					"role": "content",
+					"sectionIds": [
+						"62c226f4"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "40103d44",
+					"role": "content",
+					"title": "BREAKFAST",
+					"sectionIds": [
+						"40103d44"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "34558a40",
+					"role": "content",
+					"title": "Black Pasta",
+					"sectionIds": [
+						"34558a40"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "8aa3c8d8",
+					"role": "content",
+					"sectionIds": [
+						"8aa3c8d8"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "49a9ec56",
+					"role": "content",
+					"title": "LUNCH",
+					"sectionIds": [
+						"49a9ec56"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f9697b0b",
+					"role": "content",
+					"title": "Black Pasta",
+					"sectionIds": [
+						"f9697b0b"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e18b9ca8",
+					"role": "content",
+					"sectionIds": [
+						"e18b9ca8"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7b5b25df",
+					"role": "content",
+					"title": "DRINKS",
+					"sectionIds": [
+						"7b5b25df"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f2a1fd38",
+					"role": "content",
+					"title": "Black Pasta",
+					"sectionIds": [
+						"f2a1fd38"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7723bd88",
+					"role": "content",
+					"title": "SUBSCRIPTION",
+					"sectionIds": [
+						"7723bd88"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c768ee1f",
+					"role": "dynamic",
+					"title": "Want to receive regular news and updates to your inbox?",
+					"sectionIds": [
+						"c768ee1f"
+					],
+					"paths": [
+						"12"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -5067,7 +5605,8 @@
 			"title": "Blog",
 			"type": "blog",
 			"sourceUrl": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/themegrill-demos/blog-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "gallery",
@@ -5078,6 +5617,8 @@
 				{
 					"id": "0341a293",
 					"index": 0,
+					"path": "0",
+					"group": "0341a293",
 					"role": "hero",
 					"title": "GALLERY",
 					"slots": [
@@ -5234,6 +5775,8 @@
 				{
 					"id": "a981b227",
 					"index": 1,
+					"path": "1",
+					"group": "a981b227",
 					"role": "content",
 					"title": "SUBSCRIPTION",
 					"slots": [
@@ -5299,6 +5842,8 @@
 				{
 					"id": "ac1f503c",
 					"index": 2,
+					"path": "2",
+					"group": "ac1f503c",
 					"role": "dynamic",
 					"title": "Want to receive regular news and updates to your inbox?",
 					"slots": [
@@ -5324,6 +5869,50 @@
 						"everest-forms/form-selector"
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "0341a293",
+					"role": "hero",
+					"title": "GALLERY",
+					"sectionIds": [
+						"0341a293"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a981b227",
+					"role": "content",
+					"title": "SUBSCRIPTION",
+					"sectionIds": [
+						"a981b227"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ac1f503c",
+					"role": "dynamic",
+					"title": "Want to receive regular news and updates to your inbox?",
+					"sectionIds": [
+						"ac1f503c"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		}
 	],
@@ -5335,5 +5924,5 @@
 		"swappableImages": 52,
 		"words": 863
 	},
-	"builtAt": "2026-10-04T12:45:43.928Z"
+	"builtAt": "2026-10-07T12:37:53.036Z"
 }

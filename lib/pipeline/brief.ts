@@ -1,6 +1,7 @@
 // Step 1: turn the user's free-text description into a structured brief that
 // drives demo picking and every copywriting call.
 import { DEMO_CATALOG } from '../../data/manifests';
+import { Capability } from '../demos/types';
 import { getLlm, LlmUsage } from '../llm';
 import { GenerateRequest } from '../types';
 import { languageName } from './language';
@@ -14,6 +15,20 @@ export type Brief = {
 	offerings: string[];
 	tagline: string; // In the site language.
 	imageKeywords: string[]; // English stock-photo search terms.
+	// Whether a business like this plausibly has each thing; null when unclear.
+	capabilities: Partial<Record<Capability, boolean | null>>;
+};
+
+const CAPABILITIES: Record<Capability, string> = {
+	pricing_plans: 'published plans, packages or tiers with a set price (Basic/Pro, Silver/Gold, memberships)',
+	portfolio: 'a portfolio or gallery of past projects or client work',
+	team: 'a team of people worth introducing by name (staff, trainers, experts)',
+	client_logos: 'well-known client or partner companies whose logos it would show',
+	products: 'products or courses sold online from the site',
+	menu: 'a food or drinks menu',
+	classes_schedule: 'scheduled classes or sessions people sign up for',
+	blog: 'a blog with regular articles or news',
+	stats: 'impressive numbers worth showing as counters (customers served, years, projects)',
 };
 
 export const catalogNiches = () => [...new Set(DEMO_CATALOG.flatMap((d) => d.niches))].sort();
@@ -29,8 +44,16 @@ const schema = () => ({
 		offerings: { type: 'array', items: { type: 'string' } },
 		tagline: { type: 'string' },
 		imageKeywords: { type: 'array', items: { type: 'string' } },
+		capabilities: {
+			type: 'object',
+			properties: Object.fromEntries(
+				Object.entries(CAPABILITIES).map(([key, description]) => [key, { type: ['boolean', 'null'], description }]),
+			),
+			required: Object.keys(CAPABILITIES),
+			additionalProperties: false,
+		},
 	},
-	required: ['businessType', 'niche', 'summary', 'audience', 'location', 'offerings', 'tagline', 'imageKeywords'],
+	required: ['businessType', 'niche', 'summary', 'audience', 'location', 'offerings', 'tagline', 'imageKeywords', 'capabilities'],
 	additionalProperties: false,
 });
 
@@ -42,7 +65,8 @@ Extract only what the description states or clearly implies. Never invent names,
 - location: city/region/country if mentioned, else null.
 - offerings: 3-6 short items the business provides (inferred from the type of business if not listed).
 - tagline: a short, memorable site tagline (max 7 words) in the requested language and tone.
-- imageKeywords: 4-6 concrete English photo search terms (subjects you could photograph).`;
+- imageKeywords: 4-6 concrete English photo search terms (subjects you could photograph).
+- capabilities: for each item, true only if a business of this type plausibly has it, false if it clearly does not, null if it could go either way. Most local businesses have staff, so team is usually true. Examples: a camera shop: products true, team true, pricing_plans false, portfolio false, client_logos false. A marketing agency: pricing_plans true, portfolio true, client_logos true, team true, blog true.`;
 
 export const parseBrief = async (request: GenerateRequest, signal?: AbortSignal): Promise<{ brief: Brief; usage: LlmUsage }> => {
 	const { data, usage } = await getLlm().json<Brief>({
@@ -69,6 +93,7 @@ export const parseBrief = async (request: GenerateRequest, signal?: AbortSignal)
 			offerings: data.offerings.slice(0, 6),
 			imageKeywords: data.imageKeywords.slice(0, 6),
 			location: data.location?.trim() || null,
+			capabilities: data.capabilities ?? {},
 		},
 		usage,
 	};

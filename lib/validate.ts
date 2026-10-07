@@ -2,6 +2,8 @@ import { ApiError } from './errors';
 import {
 	AiPageSlug,
 	AiTone,
+	BrandPalette,
+	ColorMapRequest,
 	GenerateRequest,
 	RegenerateSectionRequest,
 	SwitchDemoRequest,
@@ -81,5 +83,22 @@ export const validateSwitchDemo = (body: unknown): SwitchDemoRequest => {
 	return {
 		generationId: str(body, 'generationId'),
 		demoSlug: str(body, 'demoSlug'),
+	};
+};
+
+const PALETTE_KEYS: (keyof BrandPalette)[] = ['primary', 'secondary', 'accent', 'text', 'background'];
+
+export const validateColorMap = (body: unknown): ColorMapRequest => {
+	if (!isObject(body)) return invalid('Request body must be an object.');
+	const palette = body.palette;
+	if (!isObject(palette)) return invalid('"palette" must be an object.');
+	for (const key of PALETTE_KEYS) {
+		if (typeof palette[key] !== 'string' || !/^#[0-9a-f]{6}$/i.test(palette[key] as string)) {
+			invalid(`"palette.${key}" must be a #rrggbb color.`);
+		}
+	}
+	return {
+		demoSlug: str(body, 'demoSlug'),
+		palette: Object.fromEntries(PALETTE_KEYS.map((k) => [k, (palette[k] as string).toLowerCase()])) as BrandPalette,
 	};
 };

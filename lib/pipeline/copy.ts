@@ -11,7 +11,8 @@ export type CopyContext = { request: GenerateRequest; brief: Brief; demo: DemoMa
 // Slot id -> new text, per page slug.
 export type CopyResult = Record<string, Record<string, string>>;
 
-type Job = { page: ManifestPage; section: ManifestSection };
+// `note` tells the model how to adapt a section that doesn't fit the business as designed.
+type Job = { page: ManifestPage; section: ManifestSection; note?: string };
 
 const MAX_SLOTS_PER_CALL = 45;
 const CONCURRENCY = 4;
@@ -67,12 +68,13 @@ const slotLine = (key: string, slot: TextSlot) => {
 const buildPrompt = (ctx: CopyContext, jobs: Job[], keys: Map<TextSlot, string>, instruction?: string) => {
 	const lines = [businessBlock(ctx), ''];
 	let currentPage = '';
-	jobs.forEach(({ page, section }, i) => {
+	jobs.forEach(({ page, section, note }, i) => {
 		if (page.slug !== currentPage) {
 			currentPage = page.slug;
 			lines.push(`Page: ${page.title} (${page.type} page)`, '');
 		}
 		lines.push(`Section ${i + 1} (${section.role}):`);
+		if (note) lines.push(`Note: ${note}`);
 		for (const slot of section.slots) {
 			const key = keys.get(slot);
 			if (key) lines.push(slotLine(key, slot));
@@ -151,7 +153,7 @@ const batch = (jobs: Job[]) => {
 
 // Two sections with identical template text get identical copy (demos reuse
 // home sections on the about page); only the first is sent to the model.
-const signature = (section: ManifestSection) => section.slots.map((s) => `${s.kind}:${s.text}`).join('|');
+const signature = (section: ManifestSection, note = '') => note + section.slots.map((s) => `${s.kind}:${s.text}`).join('|');
 
 type Totals = { usage: LlmUsage; fallbacks: number };
 
@@ -211,7 +213,13 @@ const runBatch = async (ctx: CopyContext, jobs: Job[], totals: Totals, instructi
 export const writeCopy = async (
 	ctx: CopyContext,
 	pages: ManifestPage[],
-	options: { onBatchDone?: (done: number, total: number) => void; signal?: AbortSignal } = {},
+	options: {
+		onBatchDone?: (done: number, total: number) => void;
+		signal?: AbortSignal;
+		// Keyed by `${pageSlug}/${sectionId}`: section ids repeat across pages.
+		skip?: Set<string>; // Left out (dropped groups).
+		notes?: Map<string, string>; // Repurpose notes.
+	} = {},
 ) => {
 	const totals: Totals = { usage: { inputTokens: 0, outputTokens: 0, ms: 0 }, fallbacks: 0 };
 	const jobs: Job[] = [];
@@ -220,14 +228,16 @@ export const writeCopy = async (
 
 	for (const page of pages) {
 		for (const section of page.sections) {
-			if (!editableSlots(section).length) continue;
-			const sig = signature(section);
+			const key = `${page.slug}/${section.id}`;
+			if (!editableSlots(section).length || options.skip?.has(key)) continue;
+			const note = options.notes?.get(key);
+			const sig = signature(section, note);
 			const source = firstBySignature.get(sig);
 			if (source) {
 				copies.push({ section, source, page });
 			} else {
 				firstBySignature.set(sig, section);
-				jobs.push({ page, section });
+				jobs.push({ page, section, note });
 			}
 		}
 	}
@@ -261,9 +271,11 @@ export const writeSectionCopy = async (
 	section: ManifestSection,
 	instruction?: string,
 	signal?: AbortSignal,
+	note?: string,
 ) => {
 	const totals: Totals = { usage: { inputTokens: 0, outputTokens: 0, ms: 0 }, fallbacks: 0 };
-	const values = await runBatch(ctx, [{ page, section }], totals, instruction, signal);
+	if (!editableSlots(section).length) return { copy: {}, usage: totals.usage };
+	const values = await runBatch(ctx, [{ page, section, note }], totals, instruction, signal);
 	return {
 		copy: Object.fromEntries(editableSlots(section).map((s) => [s.id, values.get(s)!])),
 		usage: totals.usage,

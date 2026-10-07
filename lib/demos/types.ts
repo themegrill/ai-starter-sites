@@ -2,7 +2,7 @@
 // Zakra + BlockArt demo. Built offline by `pnpm manifests` from the live demo
 // exports, committed under data/manifests/, and read by the generate pipeline.
 
-export const MANIFEST_VERSION = 1;
+export const MANIFEST_VERSION = 2;
 
 export type PageType = 'home' | 'about' | 'services' | 'contact' | 'blog' | 'other';
 
@@ -75,11 +75,48 @@ export type SectionRole =
 	| 'cta'
 	| 'contact'
 	| 'pricing'
+	| 'logos' // Client or partner logo strip.
+	| 'stats' // Achievement counters.
+	| 'posts' // Blog or news cards, static or dynamic.
 	| 'dynamic';
+
+// What a business must have for an optional section to make sense.
+export type Capability =
+	| 'pricing_plans'
+	| 'portfolio'
+	| 'team'
+	| 'client_logos'
+	| 'products'
+	| 'menu'
+	| 'classes_schedule'
+	| 'blog'
+	| 'stats';
+
+// Core groups are always kept; conditional ones only when the business has
+// every capability in `requires`.
+export type SectionFit = {
+	kind: 'core' | 'conditional';
+	requires?: Capability[];
+};
+
+// Sections kept or dropped together: usually one top-level block, or an intro
+// block (heading and text) plus the body block(s) it introduces.
+export type ManifestGroup = {
+	id: string; // The first section's id.
+	role: SectionRole;
+	title?: string;
+	sectionIds: string[];
+	// Every top-level block path the group covers, including spacers between
+	// its sections. The importer deletes these when the group is dropped.
+	paths: string[];
+	fit: SectionFit;
+};
 
 export type ManifestSection = {
 	id: string; // clientId of the top-level block.
 	index: number;
+	path: string; // Index among the page's top-level blocks, e.g. "3".
+	group: string; // ManifestGroup id.
 	role: SectionRole; // Heuristic hint for prompts and the preview UI.
 	title?: string; // First heading, for humans and prompts.
 	slots: TextSlot[];
@@ -94,9 +131,14 @@ export type ManifestPage = {
 	type: PageType;
 	sourceUrl: string;
 	sections: ManifestSection[];
+	groups: ManifestGroup[];
 };
 
 export type ColorRole = 'primary' | 'secondary' | 'accent' | 'text' | 'background' | 'muted';
+
+// Why a brand color keeps its demo value: accents by default, designer
+// overrides in data/demo-catalog.json, or a failed contrast check.
+export type ColorLockReason = 'accent' | 'designer' | 'contrast';
 
 export type DemoColor = {
 	hex: string; // Normalised #rrggbb.
@@ -104,9 +146,18 @@ export type DemoColor = {
 	group: 'brand' | 'neutral';
 	role: ColorRole;
 	// For brand colors: the most-used color in the same hue cluster. A new
-	// palette maps base -> palette[role] and shifts shades by the same lightness.
+	// palette maps base -> palette[role]; shades keep their own lightness.
 	base?: string;
 	lightnessDelta?: number;
+	locked?: boolean;
+	lockReason?: ColorLockReason;
+};
+
+// Per-demo color overrides from data/demo-catalog.json. A listed hex stands
+// for its whole hue cluster, so its shades follow.
+export type ColorOverrides = {
+	lock?: string[];
+	roles?: Record<string, 'primary' | 'secondary' | 'accent'>;
 };
 
 export type DemoManifest = {

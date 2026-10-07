@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"slug": "yoga-02",
 	"name": "Yoga 02",
 	"theme": "zakra",
@@ -165,7 +165,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#2664eb",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			},
 			{
 				"hex": "#eaeef2",
@@ -173,7 +175,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#2664eb",
-				"lightnessDelta": 0.398
+				"lightnessDelta": 0.398,
+				"locked": true,
+				"lockReason": "accent"
 			}
 		],
 		"fonts": {
@@ -196,6 +200,8 @@
 				{
 					"id": "05fd1f57",
 					"index": 0,
+					"path": "1",
+					"group": "05fd1f57",
 					"role": "dynamic",
 					"title": "Contact Details",
 					"slots": [
@@ -283,6 +289,22 @@
 						"everest-forms/form-selector"
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "05fd1f57",
+					"role": "dynamic",
+					"title": "Contact Details",
+					"sectionIds": [
+						"05fd1f57"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -294,6 +316,8 @@
 				{
 					"id": "443b0514",
 					"index": 0,
+					"path": "0",
+					"group": "443b0514",
 					"role": "hero",
 					"title": "Flexibility & Yoga",
 					"slots": [
@@ -363,6 +387,8 @@
 				{
 					"id": "ff7afb81",
 					"index": 1,
+					"path": "1",
+					"group": "ff7afb81",
 					"role": "content",
 					"title": "Welcome to Yoga Studio",
 					"slots": [
@@ -550,6 +576,8 @@
 				{
 					"id": "ede847f5",
 					"index": 2,
+					"path": "2",
+					"group": "ede847f5",
 					"role": "features",
 					"title": "Our Packages",
 					"slots": [
@@ -771,6 +799,8 @@
 				{
 					"id": "3a551ba2",
 					"index": 3,
+					"path": "3",
+					"group": "3a551ba2",
 					"role": "cta",
 					"title": "Small progress is also a progress",
 					"slots": [
@@ -840,6 +870,8 @@
 				{
 					"id": "91ef4078",
 					"index": 4,
+					"path": "4",
+					"group": "91ef4078",
 					"role": "features",
 					"title": "Our Lessons",
 					"slots": [
@@ -1109,6 +1141,8 @@
 				{
 					"id": "304585cb",
 					"index": 5,
+					"path": "5",
+					"group": "304585cb",
 					"role": "content",
 					"title": "Yoga Studio are doing some great work. I met the Studio in February and by the September I had already lost 20 pounds.",
 					"slots": [
@@ -1193,6 +1227,8 @@
 				{
 					"id": "efb7e045",
 					"index": 6,
+					"path": "6",
+					"group": "304585cb",
 					"role": "dynamic",
 					"title": "Don’t get missed out.​",
 					"slots": [
@@ -1233,6 +1269,94 @@
 						"core/shortcode"
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "443b0514",
+					"role": "hero",
+					"title": "Flexibility & Yoga",
+					"sectionIds": [
+						"443b0514"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ff7afb81",
+					"role": "content",
+					"title": "Welcome to Yoga Studio",
+					"sectionIds": [
+						"ff7afb81"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ede847f5",
+					"role": "features",
+					"title": "Our Packages",
+					"sectionIds": [
+						"ede847f5"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3a551ba2",
+					"role": "cta",
+					"title": "Small progress is also a progress",
+					"sectionIds": [
+						"3a551ba2"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "91ef4078",
+					"role": "features",
+					"title": "Our Lessons",
+					"sectionIds": [
+						"91ef4078"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "304585cb",
+					"role": "dynamic",
+					"title": "Yoga Studio are doing some great work. I met the Studio in February and by the September I had already lost 20 pounds.",
+					"sectionIds": [
+						"304585cb",
+						"efb7e045"
+					],
+					"paths": [
+						"5",
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -1240,7 +1364,8 @@
 			"title": "News",
 			"type": "blog",
 			"sourceUrl": "https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/themegrill-demos/news-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "packages",
@@ -1251,6 +1376,8 @@
 				{
 					"id": "8ea4beb2",
 					"index": 0,
+					"path": "0",
+					"group": "8ea4beb2",
 					"role": "hero",
 					"title": "Find Your Best Fit",
 					"slots": [
@@ -1469,6 +1596,22 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "8ea4beb2",
+					"role": "hero",
+					"title": "Find Your Best Fit",
+					"sectionIds": [
+						"8ea4beb2"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -1480,6 +1623,8 @@
 				{
 					"id": "91ef4078",
 					"index": 0,
+					"path": "0",
+					"group": "91ef4078",
 					"role": "hero",
 					"title": "Our Lessons",
 					"slots": [
@@ -1746,6 +1891,22 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "91ef4078",
+					"role": "hero",
+					"title": "Our Lessons",
+					"sectionIds": [
+						"91ef4078"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		}
 	],
@@ -1757,5 +1918,5 @@
 		"swappableImages": 15,
 		"words": 496
 	},
-	"builtAt": "2026-10-04T12:45:43.946Z"
+	"builtAt": "2026-10-07T12:37:53.056Z"
 }

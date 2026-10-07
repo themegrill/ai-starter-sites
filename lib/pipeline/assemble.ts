@@ -2,9 +2,11 @@
 // edits; `importPackage` tells the WordPress importer where each slot lives
 // in the demo, so it can apply the final (edited) values.
 import { DemoCatalogEntry, DemoManifest, ImageSlot as ManifestImage, ManifestPage, ManifestSection, PageType } from '../demos/types';
-import { AiPageSlug, BrandKit, DemoSummary, GeneratedPage, GenerationPackage, ImageSlot, Section } from '../types';
-import { buildColorMap, buildFontMap } from './brand-kit';
+import { AiPageSlug, BrandKit, DemoSummary, GeneratedPage, GenerationPackage, ImageSlot, RemovedGroup, Section } from '../types';
+import { buildFontMap } from './brand-kit';
+import { buildColorMap } from './color-map';
 import { CopyResult, editableSlots } from './copy';
+import { GroupDecision, groupLabel } from './sections';
 
 export const IMPORT_PACKAGE_VERSION = 1;
 
@@ -56,6 +58,7 @@ export const buildSection = (
 	return {
 		id: section.id,
 		type: section.role,
+		index: section.index,
 		...(fixed.length ? { fixed } : {}),
 		...(section.title ? { title: copy[section.slots.find((s) => s.text === section.title)?.id ?? ''] ?? section.title } : {}),
 		slots,
@@ -78,17 +81,30 @@ export const assemblePackage = (args: {
 	copy: CopyResult;
 	images: Map<ManifestImage, ImageSlot>;
 	imageProvider: string;
+	decisions: Map<AiPageSlug, GroupDecision[]>;
 }): GenerationPackage => {
 	const { demo, brand, copy, images } = args;
 	const { pages: selected, missing } = selectPages(demo, args.requestedPages);
+	const droppedOn = (type: AiPageSlug) => (args.decisions.get(type) ?? []).filter((d) => d.action === 'drop');
+	const shown = (s: ManifestSection) => editableSlots(s).length > 0 || s.images.some((i) => !i.decorative);
 
-	const pages: GeneratedPage[] = selected.map(({ type, page }) => ({
-		slug: type,
-		title: PAGE_LABELS[type],
-		sections: page.sections
-			.filter((s) => editableSlots(s).length || s.images.some((i) => !i.decorative))
-			.map((s) => buildSection(s, copy[page.slug] ?? {}, images)),
-	}));
+	const pages: GeneratedPage[] = selected.map(({ type, page }) => {
+		const dropped = droppedOn(type);
+		const droppedIds = new Set(dropped.flatMap((d) => d.group.sectionIds));
+		const build = (s: ManifestSection) => buildSection(s, copy[page.slug] ?? {}, images);
+		const removed: RemovedGroup[] = dropped.map(({ group, reason }) => ({
+			groupId: group.id,
+			title: groupLabel(group),
+			reason: reason ?? '',
+			sections: page.sections.filter((s) => group.sectionIds.includes(s.id) && shown(s)).map(build),
+		}));
+		return {
+			slug: type,
+			title: PAGE_LABELS[type],
+			sections: page.sections.filter((s) => shown(s) && !droppedIds.has(s.id)).map(build),
+			...(removed.length ? { removed } : {}),
+		};
+	});
 
 	return {
 		id: args.id,
@@ -107,11 +123,14 @@ export const assemblePackage = (args: {
 				demoPageSlug: page.slug,
 				sourceUrl: page.sourceUrl,
 				slots: Object.assign({}, ...page.sections.map(slotLocations)),
+				// Top-level blocks of each removed group. The importer deletes the
+				// blocks of groups still removed at import (the user may restore some).
+				groups: Object.fromEntries(droppedOn(type).map(({ group }) => [group.id, group.paths])),
+				removeBlocks: droppedOn(type).flatMap(({ group }) => group.paths),
 			})),
-			// Demo colors/fonts by role; the importer recomputes these maps from the
-			// final (possibly edited) palette and fonts. Precomputed values below
-			// match the generated brand kit.
-			demoColors: demo.brand.colors.filter((c) => c.group === 'brand').map(({ hex, role }) => ({ hex, role })),
+			// Maps for the generated brand kit. If the user edits the palette, the
+			// plugin fetches a new colorMap from /api/color-map; it rebuilds the
+			// font map itself from demoFonts.
 			demoFonts: demo.brand.fonts.map,
 			colorMap: buildColorMap(demo, brand.palette),
 			fontMap: buildFontMap(demo, brand.fonts),

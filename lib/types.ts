@@ -55,12 +55,24 @@ export type Section = {
 	kinds?: Record<string, string>;
 	// Text kept as designed (stats, prices, contact details), for context.
 	fixed?: string[];
+	index?: number; // Position on the demo page, for putting restored sections back in order.
+};
+
+// A section group left out because it doesn't fit the business. `sections`
+// still hold the template copy; restoring one regenerates its text first.
+export type RemovedGroup = {
+	groupId: string;
+	title: string;
+	reason: string;
+	sections: Section[];
+	restored?: boolean; // Set by the plugin when the user brings it back.
 };
 
 export type GeneratedPage = {
 	slug: string;
 	title: string;
 	sections: Section[];
+	removed?: RemovedGroup[];
 };
 
 export type GenerationPackage = {
@@ -84,6 +96,11 @@ export type RegenerateSectionRequest = {
 export type SwitchDemoRequest = {
 	generationId: string;
 	demoSlug: string;
+};
+
+export type ColorMapRequest = {
+	demoSlug: string;
+	palette: BrandPalette;
 };
 
 export type GenerationStep =

@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"slug": "lawyer-v2",
 	"name": "Lawyer V2",
 	"theme": "zakra",
@@ -87,7 +87,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			},
 			{
 				"hex": "#1d2027",
@@ -125,7 +127,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#191c24",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			},
 			{
 				"hex": "#1e7ba6",
@@ -133,7 +137,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0.014
+				"lightnessDelta": 0.014,
+				"locked": true,
+				"lockReason": "accent"
 			},
 			{
 				"hex": "#dd3333",
@@ -141,7 +147,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#dd3333",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			}
 		],
 		"fonts": {
@@ -164,6 +172,8 @@
 				{
 					"id": "19834f40",
 					"index": 0,
+					"path": "0",
+					"group": "19834f40",
 					"role": "hero",
 					"title": "We're In This Together. Your Team and Ours.",
 					"slots": [
@@ -248,6 +258,8 @@
 				{
 					"id": "fc5f6c45",
 					"index": 1,
+					"path": "1",
+					"group": "fc5f6c45",
 					"role": "features",
 					"title": "BUSINESS LAW",
 					"slots": [
@@ -600,6 +612,8 @@
 				{
 					"id": "f3258ff1",
 					"index": 2,
+					"path": "2",
+					"group": "f3258ff1",
 					"role": "content",
 					"title": "Practise Area",
 					"slots": [
@@ -1023,7 +1037,9 @@
 				{
 					"id": "4e8ffa71",
 					"index": 3,
-					"role": "content",
+					"path": "3",
+					"group": "4e8ffa71",
+					"role": "stats",
 					"title": "Consultant",
 					"slots": [
 						{
@@ -1236,6 +1252,8 @@
 				{
 					"id": "4152a2f1",
 					"index": 4,
+					"path": "4",
+					"group": "4152a2f1",
 					"role": "content",
 					"title": "What client's say?",
 					"slots": [
@@ -1395,6 +1413,8 @@
 				{
 					"id": "75457d49",
 					"index": 5,
+					"path": "5",
+					"group": "75457d49",
 					"role": "content",
 					"title": "Why choose our firm?",
 					"slots": [
@@ -1585,6 +1605,8 @@
 				{
 					"id": "3fb353d0",
 					"index": 6,
+					"path": "6",
+					"group": "3fb353d0",
 					"role": "dynamic",
 					"title": "Newsletter",
 					"slots": [
@@ -1653,6 +1675,213 @@
 					"dynamicBlocks": [
 						"core/shortcode"
 					]
+				},
+				{
+					"id": "551bcca7",
+					"index": 7,
+					"path": "7",
+					"group": "551bcca7",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "3b2df1b8:image.url",
+							"blockId": "3b2df1b8",
+							"path": "7.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						},
+						{
+							"id": "af476ffc:image.url",
+							"blockId": "af476ffc",
+							"path": "7.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l5.png",
+							"decorative": true,
+							"width": 40,
+							"height": 54,
+							"orientation": "portrait"
+						},
+						{
+							"id": "e054a276:image.url",
+							"blockId": "e054a276",
+							"path": "7.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l4.png",
+							"decorative": true,
+							"width": 54,
+							"height": 51,
+							"orientation": "square"
+						},
+						{
+							"id": "ae77faad:image.url",
+							"blockId": "ae77faad",
+							"path": "7.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l3.png",
+							"decorative": true,
+							"width": 53,
+							"height": 57,
+							"orientation": "square"
+						},
+						{
+							"id": "4d431419:image.url",
+							"blockId": "4d431419",
+							"path": "7.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l2.png",
+							"decorative": true,
+							"width": 90,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "24355310:image.url",
+							"blockId": "24355310",
+							"path": "7.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "19834f40",
+					"role": "hero",
+					"title": "We're In This Together. Your Team and Ours.",
+					"sectionIds": [
+						"19834f40"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "fc5f6c45",
+					"role": "features",
+					"title": "BUSINESS LAW",
+					"sectionIds": [
+						"fc5f6c45"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f3258ff1",
+					"role": "content",
+					"title": "Practise Area",
+					"sectionIds": [
+						"f3258ff1"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4e8ffa71",
+					"role": "stats",
+					"title": "Consultant",
+					"sectionIds": [
+						"4e8ffa71"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "4152a2f1",
+					"role": "content",
+					"title": "What client's say?",
+					"sectionIds": [
+						"4152a2f1"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "75457d49",
+					"role": "content",
+					"title": "Why choose our firm?",
+					"sectionIds": [
+						"75457d49"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3fb353d0",
+					"role": "dynamic",
+					"title": "Newsletter",
+					"sectionIds": [
+						"3fb353d0"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "551bcca7",
+					"role": "logos",
+					"sectionIds": [
+						"551bcca7"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
 				}
 			]
 		},
@@ -1661,7 +1890,8 @@
 			"title": "Blog",
 			"type": "blog",
 			"sourceUrl": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/themegrill-demos/blog-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "about",
@@ -1672,6 +1902,8 @@
 				{
 					"id": "894572fe",
 					"index": 0,
+					"path": "0",
+					"group": "894572fe",
 					"role": "hero",
 					"title": "Who are we?",
 					"slots": [
@@ -1802,6 +2034,8 @@
 				{
 					"id": "9ab9e6bc",
 					"index": 1,
+					"path": "1",
+					"group": "9ab9e6bc",
 					"role": "content",
 					"title": "Need Legal Help? Get in Touch with Our Lawyers!",
 					"slots": [
@@ -2093,6 +2327,8 @@
 				{
 					"id": "733f3774",
 					"index": 2,
+					"path": "2",
+					"group": "733f3774",
 					"role": "team",
 					"title": "Our team",
 					"slots": [
@@ -2310,6 +2546,8 @@
 				{
 					"id": "479ba3cf",
 					"index": 3,
+					"path": "3",
+					"group": "479ba3cf",
 					"role": "cta",
 					"title": "Want to be an intern with us and you are a student?",
 					"slots": [
@@ -2375,6 +2613,171 @@
 							"orientation": "landscape"
 						}
 					]
+				},
+				{
+					"id": "551bcca7",
+					"index": 4,
+					"path": "4",
+					"group": "551bcca7",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "3b2df1b8:image.url",
+							"blockId": "3b2df1b8",
+							"path": "4.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						},
+						{
+							"id": "af476ffc:image.url",
+							"blockId": "af476ffc",
+							"path": "4.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l5.png",
+							"decorative": true,
+							"width": 40,
+							"height": 54,
+							"orientation": "portrait"
+						},
+						{
+							"id": "e054a276:image.url",
+							"blockId": "e054a276",
+							"path": "4.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l4.png",
+							"decorative": true,
+							"width": 54,
+							"height": 51,
+							"orientation": "square"
+						},
+						{
+							"id": "ae77faad:image.url",
+							"blockId": "ae77faad",
+							"path": "4.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l3.png",
+							"decorative": true,
+							"width": 53,
+							"height": 57,
+							"orientation": "square"
+						},
+						{
+							"id": "4d431419:image.url",
+							"blockId": "4d431419",
+							"path": "4.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l2.png",
+							"decorative": true,
+							"width": 90,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "24355310:image.url",
+							"blockId": "24355310",
+							"path": "4.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "894572fe",
+					"role": "hero",
+					"title": "Who are we?",
+					"sectionIds": [
+						"894572fe"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9ab9e6bc",
+					"role": "content",
+					"title": "Need Legal Help? Get in Touch with Our Lawyers!",
+					"sectionIds": [
+						"9ab9e6bc"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "733f3774",
+					"role": "team",
+					"title": "Our team",
+					"sectionIds": [
+						"733f3774"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "479ba3cf",
+					"role": "cta",
+					"title": "Want to be an intern with us and you are a student?",
+					"sectionIds": [
+						"479ba3cf"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "551bcca7",
+					"role": "logos",
+					"sectionIds": [
+						"551bcca7"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
 				}
 			]
 		},
@@ -2387,6 +2790,8 @@
 				{
 					"id": "f3258ff1",
 					"index": 0,
+					"path": "0",
+					"group": "f3258ff1",
 					"role": "hero",
 					"title": "Practise Area",
 					"slots": [
@@ -3159,6 +3564,126 @@
 						}
 					],
 					"images": []
+				},
+				{
+					"id": "551bcca7",
+					"index": 1,
+					"path": "1",
+					"group": "551bcca7",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "3b2df1b8:image.url",
+							"blockId": "3b2df1b8",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						},
+						{
+							"id": "af476ffc:image.url",
+							"blockId": "af476ffc",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l5.png",
+							"decorative": true,
+							"width": 40,
+							"height": 54,
+							"orientation": "portrait"
+						},
+						{
+							"id": "e054a276:image.url",
+							"blockId": "e054a276",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l4.png",
+							"decorative": true,
+							"width": 54,
+							"height": 51,
+							"orientation": "square"
+						},
+						{
+							"id": "ae77faad:image.url",
+							"blockId": "ae77faad",
+							"path": "1.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l3.png",
+							"decorative": true,
+							"width": 53,
+							"height": 57,
+							"orientation": "square"
+						},
+						{
+							"id": "4d431419:image.url",
+							"blockId": "4d431419",
+							"path": "1.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l2.png",
+							"decorative": true,
+							"width": 90,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "24355310:image.url",
+							"blockId": "24355310",
+							"path": "1.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "f3258ff1",
+					"role": "hero",
+					"title": "Practise Area",
+					"sectionIds": [
+						"f3258ff1"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "551bcca7",
+					"role": "logos",
+					"sectionIds": [
+						"551bcca7"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
 				}
 			]
 		},
@@ -3171,6 +3696,8 @@
 				{
 					"id": "f3258ff1",
 					"index": 0,
+					"path": "0",
+					"group": "f3258ff1",
 					"role": "hero",
 					"title": "FAQ's",
 					"slots": [
@@ -3597,17 +4124,137 @@
 						}
 					],
 					"images": []
+				},
+				{
+					"id": "551bcca7",
+					"index": 1,
+					"path": "1",
+					"group": "551bcca7",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "3b2df1b8:image.url",
+							"blockId": "3b2df1b8",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						},
+						{
+							"id": "af476ffc:image.url",
+							"blockId": "af476ffc",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l5.png",
+							"decorative": true,
+							"width": 40,
+							"height": 54,
+							"orientation": "portrait"
+						},
+						{
+							"id": "e054a276:image.url",
+							"blockId": "e054a276",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l4.png",
+							"decorative": true,
+							"width": 54,
+							"height": 51,
+							"orientation": "square"
+						},
+						{
+							"id": "ae77faad:image.url",
+							"blockId": "ae77faad",
+							"path": "1.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l3.png",
+							"decorative": true,
+							"width": 53,
+							"height": 57,
+							"orientation": "square"
+						},
+						{
+							"id": "4d431419:image.url",
+							"blockId": "4d431419",
+							"path": "1.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l2.png",
+							"decorative": true,
+							"width": 90,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "24355310:image.url",
+							"blockId": "24355310",
+							"path": "1.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/com-l1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "f3258ff1",
+					"role": "hero",
+					"title": "FAQ's",
+					"sectionIds": [
+						"f3258ff1"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "551bcca7",
+					"role": "logos",
+					"sectionIds": [
+						"551bcca7"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
 				}
 			]
 		}
 	],
 	"stats": {
-		"sections": 13,
+		"sections": 17,
 		"textSlots": 194,
 		"editableSlots": 188,
-		"images": 23,
+		"images": 47,
 		"swappableImages": 15,
 		"words": 1739
 	},
-	"builtAt": "2026-10-04T12:45:43.961Z"
+	"builtAt": "2026-10-07T12:37:53.080Z"
 }

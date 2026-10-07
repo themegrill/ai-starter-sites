@@ -1,48 +1,7 @@
-import { ColorRole, DemoColor } from '../../lib/demos/types';
+import { ColorOverrides, ColorRole, DemoColor } from '../../lib/demos/types';
+import { normalizeColor, toHsl } from '../../lib/colors';
 
-const clamp255 = (n: number) => Math.max(0, Math.min(255, Math.round(n)));
-const hex2 = (n: number) => clamp255(n).toString(16).padStart(2, '0');
-
-// Accepts #rgb, #rgba, #rrggbb, #rrggbbaa, rgb() and rgba(); alpha is dropped.
-export const normalizeColor = (value: string): string | undefined => {
-	const v = value.trim().toLowerCase();
-
-	const hex = v.match(/^#([0-9a-f]{3,8})$/);
-	if (hex?.[1]) {
-		const h = hex[1];
-		if (h.length === 3 || h.length === 4) {
-			return '#' + h.slice(0, 3).split('').map((c) => c + c).join('');
-		}
-		if (h.length === 6 || h.length === 8) {
-			return '#' + h.slice(0, 6);
-		}
-		return undefined;
-	}
-
-	const rgb = v.match(/^rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
-	if (rgb) {
-		return '#' + hex2(Number(rgb[1])) + hex2(Number(rgb[2])) + hex2(Number(rgb[3]));
-	}
-	return undefined;
-};
-
-export const toHsl = (hex: string) => {
-	const n = parseInt(hex.slice(1), 16);
-	const r = ((n >> 16) & 255) / 255;
-	const g = ((n >> 8) & 255) / 255;
-	const b = (n & 255) / 255;
-	const max = Math.max(r, g, b);
-	const min = Math.min(r, g, b);
-	const l = (max + min) / 2;
-	const d = max - min;
-	if (d === 0) {
-		return { h: 0, s: 0, l };
-	}
-	const s = d / (1 - Math.abs(2 * l - 1));
-	let h = max === r ? ((g - b) / d) % 6 : max === g ? (b - r) / d + 2 : (r - g) / d + 4;
-	h = (h * 60 + 360) % 360;
-	return { h, s, l };
-};
+export { normalizeColor, toHsl };
 
 const isNeutral = ({ s, l }: { s: number; l: number }) => s < 0.18 || l > 0.96 || l < 0.06;
 
@@ -54,14 +13,17 @@ const hueDistance = (a: number, b: number) => {
 const round = (n: number) => Math.round(n * 1000) / 1000;
 
 /**
- * Splits a demo's colors into neutrals (kept, or mapped to text/background)
- * and brand hue clusters. The cluster holding the theme's primary color (or
- * the most-used one) becomes primary, the next secondary, the rest accent.
+ * Splits a demo's colors into neutrals (left as they are) and brand hue
+ * clusters. The cluster holding the theme's primary color (or the most-used
+ * one) becomes primary, the next secondary, the rest accent. Only primary and
+ * secondary are remapped to a new palette; accents stay locked. Catalog
+ * overrides win over this classification.
  */
 export const classifyColors = (
 	blockCounts: Map<string, number>,
 	themeCounts: Map<string, number>,
 	themePrimary?: string,
+	overrides: ColorOverrides = {},
 ): DemoColor[] => {
 	const counts = new Map(blockCounts);
 	themeCounts.forEach((n, hex) => counts.set(hex, (counts.get(hex) ?? 0) + n));
@@ -96,10 +58,16 @@ export const classifyColors = (
 		clusters.unshift(...clusters.splice(primaryIndex, 1));
 	}
 
+	const listed = (hexes: string[] | undefined, cluster: { members: string[] }) =>
+		(hexes ?? []).some((hex) => cluster.members.includes(normalizeColor(hex) ?? ''));
+
 	clusters.forEach((cluster, index) => {
 		// A one-off color isn't a design's secondary; it needs a few uses.
-		const role: ColorRole =
+		const auto: ColorRole =
 			index === 0 && cluster.total > 0 ? 'primary' : index === 1 && cluster.total >= 3 ? 'secondary' : 'accent';
+		const override = Object.entries(overrides.roles ?? {}).find(([hex]) => listed([hex], cluster))?.[1];
+		const role = override ?? auto;
+		const designerLock = listed(overrides.lock, cluster);
 		const baseL = toHsl(cluster.base).l;
 		for (const hex of cluster.members) {
 			colors.push({
@@ -109,6 +77,11 @@ export const classifyColors = (
 				role,
 				base: cluster.base,
 				lightnessDelta: round(toHsl(hex).l - baseL),
+				...(designerLock
+					? { locked: true, lockReason: 'designer' as const }
+					: role === 'accent'
+						? { locked: true, lockReason: 'accent' as const }
+						: {}),
 			});
 		}
 	});

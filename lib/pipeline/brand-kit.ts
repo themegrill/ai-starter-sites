@@ -87,45 +87,5 @@ export const pickBrandKit = (demo: DemoManifest, tone: AiTone, brandName: string
 	return { siteTitle: brandName, tagline: brief.tagline, palette, fonts };
 };
 
-// ---- Color mapping -------------------------------------------------------
-
-const toHsl = (hex: string) => {
-	const n = parseInt(hex.slice(1), 16);
-	const [r, g, b] = [(n >> 16) & 255, (n >> 8) & 255, n & 255].map((v) => v / 255) as [number, number, number];
-	const max = Math.max(r, g, b);
-	const min = Math.min(r, g, b);
-	const l = (max + min) / 2;
-	const d = max - min;
-	if (!d) return { h: 0, s: 0, l };
-	const s = d / (1 - Math.abs(2 * l - 1));
-	const h = ((max === r ? ((g - b) / d) % 6 : max === g ? (b - r) / d + 2 : (r - g) / d + 4) * 60 + 360) % 360;
-	return { h, s, l };
-};
-
-const toHex = ({ h, s, l }: { h: number; s: number; l: number }) => {
-	const c = (1 - Math.abs(2 * l - 1)) * s;
-	const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
-	const m = l - c / 2;
-	const [r, g, b] =
-		h < 60 ? [c, x, 0] : h < 120 ? [x, c, 0] : h < 180 ? [0, c, x] : h < 240 ? [0, x, c] : h < 300 ? [x, 0, c] : [c, 0, x];
-	return '#' + [r, g, b].map((v) => Math.round((v + m) * 255).toString(16).padStart(2, '0')).join('');
-};
-
-/**
- * Maps each demo brand color to the new palette: hue and saturation from the
- * palette color for its role, lightness kept from the demo. The demo's
- * light/dark contrast survives any palette. Neutrals are left alone.
- */
-export const buildColorMap = (demo: DemoManifest, palette: BrandPalette): Record<string, string> => {
-	const map: Record<string, string> = {};
-	for (const color of demo.brand.colors) {
-		if (color.group !== 'brand') continue;
-		const target = palette[color.role === 'secondary' ? 'secondary' : color.role === 'accent' ? 'accent' : 'primary'];
-		const { h, s } = toHsl(target);
-		map[color.hex] = toHex({ h, s, l: toHsl(color.hex).l });
-	}
-	return map;
-};
-
 export const buildFontMap = (demo: DemoManifest, fonts: BrandKit['fonts']): Record<string, string> =>
 	Object.fromEntries(Object.entries(demo.brand.fonts.map).map(([family, role]) => [family, fonts[role]]));

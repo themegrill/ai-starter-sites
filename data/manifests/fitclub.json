@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"slug": "fitclub",
 	"name": "FitClub",
 	"theme": "zakra",
@@ -199,7 +199,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			}
 		],
 		"fonts": {
@@ -221,6 +223,8 @@
 				{
 					"id": "ceec9e66",
 					"index": 0,
+					"path": "0",
+					"group": "ceec9e66",
 					"role": "hero",
 					"title": "Elevate your Workout",
 					"slots": [
@@ -386,6 +390,8 @@
 				{
 					"id": "d39f833f",
 					"index": 1,
+					"path": "1",
+					"group": "d39f833f",
 					"role": "content",
 					"title": "Transform Sweat Into Strength!",
 					"slots": [
@@ -567,6 +573,8 @@
 				{
 					"id": "93fd7661",
 					"index": 2,
+					"path": "2",
+					"group": "93fd7661",
 					"role": "features",
 					"title": "Push Your limits forward",
 					"slots": [
@@ -784,6 +792,8 @@
 				{
 					"id": "318b10aa",
 					"index": 3,
+					"path": "3",
+					"group": "318b10aa",
 					"role": "gallery",
 					"title": "Our Classes",
 					"slots": [
@@ -1083,6 +1093,8 @@
 				{
 					"id": "a953527d",
 					"index": 4,
+					"path": "4",
+					"group": "a953527d",
 					"role": "features",
 					"title": "Book Your Trainings",
 					"slots": [
@@ -1540,6 +1552,8 @@
 				{
 					"id": "9c7c9361",
 					"index": 5,
+					"path": "5",
+					"group": "9c7c9361",
 					"role": "team",
 					"title": "Our Trainer",
 					"slots": [
@@ -1710,6 +1724,8 @@
 				{
 					"id": "80808c40",
 					"index": 6,
+					"path": "6",
+					"group": "80808c40",
 					"role": "gallery",
 					"slots": [],
 					"images": [
@@ -1783,6 +1799,8 @@
 				{
 					"id": "55ac6841",
 					"index": 7,
+					"path": "7",
+					"group": "55ac6841",
 					"role": "testimonials",
 					"title": "What our Customers says",
 					"slots": [
@@ -2178,6 +2196,8 @@
 				{
 					"id": "36538067",
 					"index": 8,
+					"path": "8",
+					"group": "36538067",
 					"role": "features",
 					"title": "Popular Articles",
 					"slots": [
@@ -2442,6 +2462,8 @@
 				{
 					"id": "667892f8",
 					"index": 9,
+					"path": "9",
+					"group": "667892f8",
 					"role": "faq",
 					"title": "Faqs",
 					"slots": [
@@ -2601,6 +2623,8 @@
 				{
 					"id": "0fa5ea5c",
 					"index": 10,
+					"path": "10",
+					"group": "0fa5ea5c",
 					"role": "dynamic",
 					"title": "Contact Information",
 					"slots": [
@@ -2772,6 +2796,167 @@
 						"everest-forms/form-selector"
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "ceec9e66",
+					"role": "hero",
+					"title": "Elevate your Workout",
+					"sectionIds": [
+						"ceec9e66"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d39f833f",
+					"role": "content",
+					"title": "Transform Sweat Into Strength!",
+					"sectionIds": [
+						"d39f833f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "93fd7661",
+					"role": "features",
+					"title": "Push Your limits forward",
+					"sectionIds": [
+						"93fd7661"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "318b10aa",
+					"role": "gallery",
+					"title": "Our Classes",
+					"sectionIds": [
+						"318b10aa"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"classes_schedule"
+						]
+					}
+				},
+				{
+					"id": "a953527d",
+					"role": "features",
+					"title": "Book Your Trainings",
+					"sectionIds": [
+						"a953527d"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9c7c9361",
+					"role": "team",
+					"title": "Our Trainer",
+					"sectionIds": [
+						"9c7c9361"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "80808c40",
+					"role": "gallery",
+					"sectionIds": [
+						"80808c40"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "55ac6841",
+					"role": "testimonials",
+					"title": "What our Customers says",
+					"sectionIds": [
+						"55ac6841"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "36538067",
+					"role": "features",
+					"title": "Popular Articles",
+					"sectionIds": [
+						"36538067"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "667892f8",
+					"role": "faq",
+					"title": "Faqs",
+					"sectionIds": [
+						"667892f8"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0fa5ea5c",
+					"role": "dynamic",
+					"title": "Contact Information",
+					"sectionIds": [
+						"0fa5ea5c"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -2783,6 +2968,8 @@
 				{
 					"id": "33a82dd0",
 					"index": 0,
+					"path": "0",
+					"group": "33a82dd0",
 					"role": "hero",
 					"title": "Transform Sweat Into Strength!",
 					"slots": [
@@ -2964,6 +3151,8 @@
 				{
 					"id": "93fd7661",
 					"index": 1,
+					"path": "1",
+					"group": "93fd7661",
 					"role": "features",
 					"title": "Push Your limits forward",
 					"slots": [
@@ -3181,6 +3370,8 @@
 				{
 					"id": "12eb1b90",
 					"index": 2,
+					"path": "2",
+					"group": "12eb1b90",
 					"role": "features",
 					"title": "Book Your Trainings",
 					"slots": [
@@ -3638,6 +3829,8 @@
 				{
 					"id": "55ac6841",
 					"index": 3,
+					"path": "3",
+					"group": "55ac6841",
 					"role": "testimonials",
 					"title": "What our Customers says",
 					"slots": [
@@ -4030,6 +4223,64 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "33a82dd0",
+					"role": "hero",
+					"title": "Transform Sweat Into Strength!",
+					"sectionIds": [
+						"33a82dd0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "93fd7661",
+					"role": "features",
+					"title": "Push Your limits forward",
+					"sectionIds": [
+						"93fd7661"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "12eb1b90",
+					"role": "features",
+					"title": "Book Your Trainings",
+					"sectionIds": [
+						"12eb1b90"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "55ac6841",
+					"role": "testimonials",
+					"title": "What our Customers says",
+					"sectionIds": [
+						"55ac6841"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -4041,6 +4292,8 @@
 				{
 					"id": "318b10aa",
 					"index": 0,
+					"path": "0",
+					"group": "318b10aa",
 					"role": "hero",
 					"title": "Our Classes",
 					"slots": [
@@ -4340,6 +4593,8 @@
 				{
 					"id": "9c7c9361",
 					"index": 1,
+					"path": "1",
+					"group": "9c7c9361",
 					"role": "team",
 					"title": "Our Trainer",
 					"slots": [
@@ -4507,6 +4762,39 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "318b10aa",
+					"role": "hero",
+					"title": "Our Classes",
+					"sectionIds": [
+						"318b10aa"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9c7c9361",
+					"role": "team",
+					"title": "Our Trainer",
+					"sectionIds": [
+						"9c7c9361"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				}
 			]
 		},
 		{
@@ -4514,7 +4802,8 @@
 			"title": "Blog",
 			"type": "blog",
 			"sourceUrl": "https://zakrademos.com/fitclub/wp-content/uploads/sites/192/themegrill-demos/blog-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "contact",
@@ -4525,6 +4814,8 @@
 				{
 					"id": "fc12d54e",
 					"index": 0,
+					"path": "0",
+					"group": "fc12d54e",
 					"role": "dynamic",
 					"title": "Contact Information",
 					"slots": [
@@ -4696,6 +4987,22 @@
 						"everest-forms/form-selector"
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "fc12d54e",
+					"role": "dynamic",
+					"title": "Contact Information",
+					"sectionIds": [
+						"fc12d54e"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		}
 	],
@@ -4707,5 +5014,5 @@
 		"swappableImages": 34,
 		"words": 1013
 	},
-	"builtAt": "2026-10-04T12:45:43.942Z"
+	"builtAt": "2026-10-07T12:37:53.050Z"
 }

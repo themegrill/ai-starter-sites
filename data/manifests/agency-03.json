@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"slug": "agency-03",
 	"name": "Zakra Agency",
 	"theme": "zakra",
@@ -169,7 +169,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#2563eb",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			},
 			{
 				"hex": "#027abb",
@@ -177,7 +179,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#2563eb",
-				"lightnessDelta": -0.163
+				"lightnessDelta": -0.163,
+				"locked": true,
+				"lockReason": "accent"
 			}
 		],
 		"fonts": {
@@ -199,6 +203,8 @@
 				{
 					"id": "3274e693",
 					"index": 0,
+					"path": "0",
+					"group": "3274e693",
 					"role": "hero",
 					"title": "Think Different. Make Different.",
 					"slots": [
@@ -268,6 +274,8 @@
 				{
 					"id": "ca3b7b9f",
 					"index": 1,
+					"path": "1",
+					"group": "ca3b7b9f",
 					"role": "content",
 					"title": "IDEAs",
 					"slots": [
@@ -452,6 +460,8 @@
 				{
 					"id": "2636e827",
 					"index": 2,
+					"path": "2",
+					"group": "2636e827",
 					"role": "content",
 					"title": "Zakra Invites You To Build Your Next Site",
 					"slots": [
@@ -521,6 +531,8 @@
 				{
 					"id": "f972e8b1",
 					"index": 3,
+					"path": "3",
+					"group": "f972e8b1",
 					"role": "content",
 					"title": "Our Awesome Portfolio",
 					"slots": [
@@ -561,6 +573,8 @@
 				{
 					"id": "23db8207",
 					"index": 4,
+					"path": "4",
+					"group": "f972e8b1",
 					"role": "gallery",
 					"slots": [],
 					"images": [
@@ -621,6 +635,8 @@
 				{
 					"id": "d125d5f9",
 					"index": 5,
+					"path": "5",
+					"group": "f972e8b1",
 					"role": "gallery",
 					"slots": [],
 					"images": [
@@ -681,6 +697,8 @@
 				{
 					"id": "04c7a3e4",
 					"index": 6,
+					"path": "6",
+					"group": "04c7a3e4",
 					"role": "pricing",
 					"title": "Plan & Pricing",
 					"slots": [
@@ -721,6 +739,8 @@
 				{
 					"id": "7adcb576",
 					"index": 7,
+					"path": "7",
+					"group": "04c7a3e4",
 					"role": "pricing",
 					"title": "Silver",
 					"slots": [
@@ -1186,6 +1206,8 @@
 				{
 					"id": "5b24aee6",
 					"index": 8,
+					"path": "8",
+					"group": "5b24aee6",
 					"role": "content",
 					"title": "Meet Our Team",
 					"slots": [
@@ -1226,6 +1248,8 @@
 				{
 					"id": "93b237fb",
 					"index": 9,
+					"path": "9",
+					"group": "5b24aee6",
 					"role": "team",
 					"title": "Desirae Dias",
 					"slots": [
@@ -1412,6 +1436,8 @@
 				{
 					"id": "1cf290e2",
 					"index": 10,
+					"path": "10",
+					"group": "1cf290e2",
 					"role": "testimonials",
 					"title": "Client Reviews",
 					"slots": [
@@ -1452,6 +1478,8 @@
 				{
 					"id": "c3d7ca4d",
 					"index": 11,
+					"path": "11",
+					"group": "1cf290e2",
 					"role": "testimonials",
 					"title": "Amelia Abelo",
 					"slots": [
@@ -1580,7 +1608,9 @@
 				{
 					"id": "aa970efe",
 					"index": 12,
-					"role": "content",
+					"path": "12",
+					"group": "aa970efe",
+					"role": "stats",
 					"title": "CLIENT TRUST",
 					"slots": [
 						{
@@ -1770,7 +1800,9 @@
 				{
 					"id": "cd33f423",
 					"index": 13,
-					"role": "content",
+					"path": "13",
+					"group": "cd33f423",
+					"role": "posts",
 					"title": "Latest Posts & Articles",
 					"slots": [
 						{
@@ -1810,6 +1842,8 @@
 				{
 					"id": "1b4fd585",
 					"index": 14,
+					"path": "14",
+					"group": "cd33f423",
 					"role": "features",
 					"title": "Successful Marketing Ads for Your Business",
 					"slots": [
@@ -2056,6 +2090,8 @@
 				{
 					"id": "6cffd591",
 					"index": 15,
+					"path": "15",
+					"group": "6cffd591",
 					"role": "cta",
 					"title": "Have Any Questions?",
 					"slots": [
@@ -2107,6 +2143,343 @@
 						}
 					],
 					"images": []
+				},
+				{
+					"id": "f453ba62",
+					"index": 16,
+					"path": "16",
+					"group": "f453ba62",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "d94df48e:image.url",
+							"blockId": "d94df48e",
+							"path": "16.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-wegmans-d.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						},
+						{
+							"id": "3393d5de:image.url",
+							"blockId": "3393d5de",
+							"path": "16.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-warehouse-c.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						},
+						{
+							"id": "f1202d10:image.url",
+							"blockId": "f1202d10",
+							"path": "16.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-neuhaus-e.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						},
+						{
+							"id": "468b23e6:image.url",
+							"blockId": "468b23e6",
+							"path": "16.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-kiehls-f.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2df15e3d:image.url",
+							"blockId": "2df15e3d",
+							"path": "16.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-coast-b.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "d8bb7b25",
+					"index": 17,
+					"path": "17",
+					"group": "f453ba62",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "41c122c1:image.url",
+							"blockId": "41c122c1",
+							"path": "17.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/fav_icon1.png",
+							"decorative": true,
+							"width": 33,
+							"height": 40,
+							"orientation": "portrait"
+						},
+						{
+							"id": "9ad0c8b0:image.url",
+							"blockId": "9ad0c8b0",
+							"path": "17.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon2.png",
+							"decorative": true,
+							"width": 33,
+							"height": 34,
+							"orientation": "square"
+						},
+						{
+							"id": "e8b7db51:image.url",
+							"blockId": "e8b7db51",
+							"path": "17.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/fav_icon5.png",
+							"decorative": true,
+							"width": 33,
+							"height": 33,
+							"orientation": "square"
+						},
+						{
+							"id": "8b2e1c55:image.url",
+							"blockId": "8b2e1c55",
+							"path": "17.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon4.png",
+							"decorative": true,
+							"width": 36,
+							"height": 33,
+							"orientation": "square"
+						},
+						{
+							"id": "ef4893ac:image.url",
+							"blockId": "ef4893ac",
+							"path": "17.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon5.png",
+							"decorative": true,
+							"width": 35,
+							"height": 36,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "3274e693",
+					"role": "hero",
+					"title": "Think Different. Make Different.",
+					"sectionIds": [
+						"3274e693"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ca3b7b9f",
+					"role": "content",
+					"title": "IDEAs",
+					"sectionIds": [
+						"ca3b7b9f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2636e827",
+					"role": "content",
+					"title": "Zakra Invites You To Build Your Next Site",
+					"sectionIds": [
+						"2636e827"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f972e8b1",
+					"role": "gallery",
+					"title": "Our Awesome Portfolio",
+					"sectionIds": [
+						"f972e8b1",
+						"23db8207",
+						"d125d5f9"
+					],
+					"paths": [
+						"3",
+						"4",
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"portfolio"
+						]
+					}
+				},
+				{
+					"id": "04c7a3e4",
+					"role": "pricing",
+					"title": "Plan & Pricing",
+					"sectionIds": [
+						"04c7a3e4",
+						"7adcb576"
+					],
+					"paths": [
+						"6",
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "5b24aee6",
+					"role": "team",
+					"title": "Meet Our Team",
+					"sectionIds": [
+						"5b24aee6",
+						"93b237fb"
+					],
+					"paths": [
+						"8",
+						"9"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "1cf290e2",
+					"role": "testimonials",
+					"title": "Client Reviews",
+					"sectionIds": [
+						"1cf290e2",
+						"c3d7ca4d"
+					],
+					"paths": [
+						"10",
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "aa970efe",
+					"role": "stats",
+					"title": "CLIENT TRUST",
+					"sectionIds": [
+						"aa970efe"
+					],
+					"paths": [
+						"12"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "cd33f423",
+					"role": "posts",
+					"title": "Latest Posts & Articles",
+					"sectionIds": [
+						"cd33f423",
+						"1b4fd585"
+					],
+					"paths": [
+						"13",
+						"14"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "6cffd591",
+					"role": "cta",
+					"title": "Have Any Questions?",
+					"sectionIds": [
+						"6cffd591"
+					],
+					"paths": [
+						"15"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f453ba62",
+					"role": "logos",
+					"sectionIds": [
+						"f453ba62",
+						"d8bb7b25"
+					],
+					"paths": [
+						"16",
+						"17"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
 				}
 			]
 		},
@@ -2115,7 +2488,8 @@
 			"title": "Blog",
 			"type": "blog",
 			"sourceUrl": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/themegrill-demos/blog-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "about",
@@ -2126,6 +2500,8 @@
 				{
 					"id": "05875b6b",
 					"index": 0,
+					"path": "0",
+					"group": "05875b6b",
 					"role": "hero",
 					"title": "Our Story",
 					"slots": [
@@ -2195,6 +2571,8 @@
 				{
 					"id": "566c8f4b",
 					"index": 1,
+					"path": "1",
+					"group": "566c8f4b",
 					"role": "content",
 					"slots": [
 						{
@@ -2218,6 +2596,8 @@
 				{
 					"id": "2e69ecbb",
 					"index": 2,
+					"path": "2",
+					"group": "2e69ecbb",
 					"role": "content",
 					"title": "Our Mission",
 					"slots": [
@@ -2258,6 +2638,8 @@
 				{
 					"id": "c6ea6a51",
 					"index": 3,
+					"path": "3",
+					"group": "c6ea6a51",
 					"role": "content",
 					"title": "Business",
 					"slots": [
@@ -2329,6 +2711,8 @@
 				{
 					"id": "9ade65a0",
 					"index": 4,
+					"path": "4",
+					"group": "9ade65a0",
 					"role": "content",
 					"title": "Higher Sales",
 					"slots": [
@@ -2400,6 +2784,8 @@
 				{
 					"id": "a8c7c151",
 					"index": 5,
+					"path": "5",
+					"group": "a8c7c151",
 					"role": "content",
 					"title": "Meet Our Team",
 					"slots": [
@@ -2440,6 +2826,8 @@
 				{
 					"id": "93b237fb",
 					"index": 6,
+					"path": "6",
+					"group": "a8c7c151",
 					"role": "team",
 					"title": "Desirae Dias",
 					"slots": [
@@ -2626,6 +3014,8 @@
 				{
 					"id": "d8a31c46",
 					"index": 7,
+					"path": "7",
+					"group": "d8a31c46",
 					"role": "cta",
 					"title": "Have Any Questions?",
 					"slots": [
@@ -2677,6 +3067,278 @@
 						}
 					],
 					"images": []
+				},
+				{
+					"id": "f453ba62",
+					"index": 8,
+					"path": "8",
+					"group": "f453ba62",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "d94df48e:image.url",
+							"blockId": "d94df48e",
+							"path": "8.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-wegmans-d.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						},
+						{
+							"id": "3393d5de:image.url",
+							"blockId": "3393d5de",
+							"path": "8.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-warehouse-c.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						},
+						{
+							"id": "f1202d10:image.url",
+							"blockId": "f1202d10",
+							"path": "8.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-neuhaus-e.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						},
+						{
+							"id": "468b23e6:image.url",
+							"blockId": "468b23e6",
+							"path": "8.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-kiehls-f.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2df15e3d:image.url",
+							"blockId": "2df15e3d",
+							"path": "8.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-coast-b.png",
+							"decorative": true,
+							"width": 200,
+							"height": 135,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "d8bb7b25",
+					"index": 9,
+					"path": "9",
+					"group": "f453ba62",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "41c122c1:image.url",
+							"blockId": "41c122c1",
+							"path": "9.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/fav_icon1.png",
+							"decorative": true,
+							"width": 33,
+							"height": 40,
+							"orientation": "portrait"
+						},
+						{
+							"id": "9ad0c8b0:image.url",
+							"blockId": "9ad0c8b0",
+							"path": "9.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon2.png",
+							"decorative": true,
+							"width": 33,
+							"height": 34,
+							"orientation": "square"
+						},
+						{
+							"id": "e8b7db51:image.url",
+							"blockId": "e8b7db51",
+							"path": "9.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/fav_icon5.png",
+							"decorative": true,
+							"width": 33,
+							"height": 33,
+							"orientation": "square"
+						},
+						{
+							"id": "8b2e1c55:image.url",
+							"blockId": "8b2e1c55",
+							"path": "9.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon4.png",
+							"decorative": true,
+							"width": 36,
+							"height": 33,
+							"orientation": "square"
+						},
+						{
+							"id": "ef4893ac:image.url",
+							"blockId": "ef4893ac",
+							"path": "9.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon5.png",
+							"decorative": true,
+							"width": 35,
+							"height": 36,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "05875b6b",
+					"role": "hero",
+					"title": "Our Story",
+					"sectionIds": [
+						"05875b6b"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "566c8f4b",
+					"role": "content",
+					"sectionIds": [
+						"566c8f4b"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2e69ecbb",
+					"role": "content",
+					"title": "Our Mission",
+					"sectionIds": [
+						"2e69ecbb"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c6ea6a51",
+					"role": "content",
+					"title": "Business",
+					"sectionIds": [
+						"c6ea6a51"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9ade65a0",
+					"role": "content",
+					"title": "Higher Sales",
+					"sectionIds": [
+						"9ade65a0"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a8c7c151",
+					"role": "team",
+					"title": "Meet Our Team",
+					"sectionIds": [
+						"a8c7c151",
+						"93b237fb"
+					],
+					"paths": [
+						"5",
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "d8a31c46",
+					"role": "cta",
+					"title": "Have Any Questions?",
+					"sectionIds": [
+						"d8a31c46"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f453ba62",
+					"role": "logos",
+					"sectionIds": [
+						"f453ba62",
+						"d8bb7b25"
+					],
+					"paths": [
+						"8",
+						"9"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
 				}
 			]
 		},
@@ -2689,6 +3351,8 @@
 				{
 					"id": "73441fc0",
 					"index": 0,
+					"path": "0",
+					"group": "73441fc0",
 					"role": "hero",
 					"title": "Address",
 					"slots": [
@@ -2887,6 +3551,8 @@
 				{
 					"id": "6d9887c3",
 					"index": 1,
+					"path": "1",
+					"group": "6d9887c3",
 					"role": "content",
 					"slots": [],
 					"images": [
@@ -2908,6 +3574,8 @@
 				{
 					"id": "a8c7c151",
 					"index": 2,
+					"path": "2",
+					"group": "a8c7c151",
 					"role": "cta",
 					"title": "Let's talk",
 					"slots": [
@@ -2959,6 +3627,140 @@
 						}
 					],
 					"images": []
+				},
+				{
+					"id": "d8bb7b25",
+					"index": 3,
+					"path": "4",
+					"group": "d8bb7b25",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "41c122c1:image.url",
+							"blockId": "41c122c1",
+							"path": "4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/fav_icon1.png",
+							"decorative": true,
+							"width": 33,
+							"height": 40,
+							"orientation": "portrait"
+						},
+						{
+							"id": "9ad0c8b0:image.url",
+							"blockId": "9ad0c8b0",
+							"path": "4.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon2.png",
+							"decorative": true,
+							"width": 33,
+							"height": 34,
+							"orientation": "square"
+						},
+						{
+							"id": "e8b7db51:image.url",
+							"blockId": "e8b7db51",
+							"path": "4.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/fav_icon5.png",
+							"decorative": true,
+							"width": 33,
+							"height": 33,
+							"orientation": "square"
+						},
+						{
+							"id": "8b2e1c55:image.url",
+							"blockId": "8b2e1c55",
+							"path": "4.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon4.png",
+							"decorative": true,
+							"width": 36,
+							"height": 33,
+							"orientation": "square"
+						},
+						{
+							"id": "ef4893ac:image.url",
+							"blockId": "ef4893ac",
+							"path": "4.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon5.png",
+							"decorative": true,
+							"width": 35,
+							"height": 36,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "73441fc0",
+					"role": "hero",
+					"title": "Address",
+					"sectionIds": [
+						"73441fc0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6d9887c3",
+					"role": "content",
+					"sectionIds": [
+						"6d9887c3"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a8c7c151",
+					"role": "cta",
+					"title": "Let's talk",
+					"sectionIds": [
+						"a8c7c151"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d8bb7b25",
+					"role": "logos",
+					"sectionIds": [
+						"d8bb7b25"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
 				}
 			]
 		},
@@ -2967,16 +3769,17 @@
 			"title": "Shop",
 			"type": "other",
 			"sourceUrl": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/themegrill-demos/shop-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		}
 	],
 	"stats": {
-		"sections": 27,
+		"sections": 32,
 		"textSlots": 131,
 		"editableSlots": 119,
-		"images": 36,
+		"images": 61,
 		"swappableImages": 26,
 		"words": 933
 	},
-	"builtAt": "2026-10-04T12:45:43.956Z"
+	"builtAt": "2026-10-07T12:37:53.071Z"
 }

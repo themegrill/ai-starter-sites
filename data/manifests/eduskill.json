@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"slug": "eduskill",
 	"name": "Zakra EduSkill",
 	"theme": "zakra",
@@ -101,7 +101,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			}
 		],
 		"fonts": {
@@ -122,6 +124,8 @@
 				{
 					"id": "63a6e058",
 					"index": 0,
+					"path": "0",
+					"group": "63a6e058",
 					"role": "hero",
 					"title": "Enhance Your Skill With Best Online Courses",
 					"slots": [
@@ -191,6 +195,8 @@
 				{
 					"id": "3eef9b97",
 					"index": 1,
+					"path": "1",
+					"group": "3eef9b97",
 					"role": "features",
 					"title": "Unlimited Materials",
 					"slots": [
@@ -377,6 +383,8 @@
 				{
 					"id": "7c0b2d5d",
 					"index": 2,
+					"path": "2",
+					"group": "7c0b2d5d",
 					"role": "dynamic",
 					"title": "Popular Courses",
 					"slots": [
@@ -420,6 +428,8 @@
 				{
 					"id": "91dae4ac",
 					"index": 3,
+					"path": "3",
+					"group": "91dae4ac",
 					"role": "features",
 					"title": "Benefits From EduSKill",
 					"slots": [
@@ -606,6 +616,8 @@
 				{
 					"id": "39dc5124",
 					"index": 4,
+					"path": "4",
+					"group": "39dc5124",
 					"role": "cta",
 					"title": "Engage Every Student And Transform Your Class",
 					"slots": [
@@ -690,6 +702,8 @@
 				{
 					"id": "224b3b9a",
 					"index": 5,
+					"path": "5",
+					"group": "224b3b9a",
 					"role": "cta",
 					"title": "Learn Anything To Build Your Career With EduSkill",
 					"slots": [
@@ -774,6 +788,8 @@
 				{
 					"id": "9b1b5847",
 					"index": 6,
+					"path": "6",
+					"group": "9b1b5847",
 					"role": "dynamic",
 					"title": "Popular Categories",
 					"slots": [
@@ -817,6 +833,8 @@
 				{
 					"id": "e621a036",
 					"index": 7,
+					"path": "7",
+					"group": "e621a036",
 					"role": "content",
 					"slots": [],
 					"images": [
@@ -851,7 +869,9 @@
 				{
 					"id": "58c656f7",
 					"index": 8,
-					"role": "features",
+					"path": "8",
+					"group": "58c656f7",
+					"role": "stats",
 					"slots": [
 						{
 							"id": "a7af2930:text",
@@ -1040,6 +1060,8 @@
 				{
 					"id": "e2ebd4db",
 					"index": 9,
+					"path": "9",
+					"group": "e2ebd4db",
 					"role": "content",
 					"title": "Student’s Feedback",
 					"slots": [
@@ -1210,6 +1232,8 @@
 				{
 					"id": "4532ab80",
 					"index": 10,
+					"path": "10",
+					"group": "4532ab80",
 					"role": "cta",
 					"title": "Start Learning Today!!",
 					"slots": [
@@ -1279,7 +1303,9 @@
 				{
 					"id": "78cbc6d8",
 					"index": 11,
-					"role": "content",
+					"path": "11",
+					"group": "78cbc6d8",
+					"role": "logos",
 					"title": "Trusted By The Renowned Company",
 					"slots": [
 						{
@@ -1354,6 +1380,186 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "63a6e058",
+					"role": "hero",
+					"title": "Enhance Your Skill With Best Online Courses",
+					"sectionIds": [
+						"63a6e058"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3eef9b97",
+					"role": "features",
+					"title": "Unlimited Materials",
+					"sectionIds": [
+						"3eef9b97"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7c0b2d5d",
+					"role": "dynamic",
+					"title": "Popular Courses",
+					"sectionIds": [
+						"7c0b2d5d"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "91dae4ac",
+					"role": "features",
+					"title": "Benefits From EduSKill",
+					"sectionIds": [
+						"91dae4ac"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "39dc5124",
+					"role": "cta",
+					"title": "Engage Every Student And Transform Your Class",
+					"sectionIds": [
+						"39dc5124"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "224b3b9a",
+					"role": "cta",
+					"title": "Learn Anything To Build Your Career With EduSkill",
+					"sectionIds": [
+						"224b3b9a"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9b1b5847",
+					"role": "dynamic",
+					"title": "Popular Categories",
+					"sectionIds": [
+						"9b1b5847"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "e621a036",
+					"role": "content",
+					"sectionIds": [
+						"e621a036"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "58c656f7",
+					"role": "stats",
+					"sectionIds": [
+						"58c656f7"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "e2ebd4db",
+					"role": "content",
+					"title": "Student’s Feedback",
+					"sectionIds": [
+						"e2ebd4db"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4532ab80",
+					"role": "cta",
+					"title": "Start Learning Today!!",
+					"sectionIds": [
+						"4532ab80"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "78cbc6d8",
+					"role": "logos",
+					"title": "Trusted By The Renowned Company",
+					"sectionIds": [
+						"78cbc6d8"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				}
 			]
 		},
 		{
@@ -1361,14 +1567,16 @@
 			"title": "Blog",
 			"type": "blog",
 			"sourceUrl": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/themegrill-demos/blog-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "courses",
 			"title": "Courses",
 			"type": "services",
 			"sourceUrl": "https://zakrademos.com/eduskill/wp-content/uploads/sites/113/themegrill-demos/courses-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "account",
@@ -1379,12 +1587,29 @@
 				{
 					"id": "top-0",
 					"index": 0,
+					"path": "0",
+					"group": "top-0",
 					"role": "dynamic",
 					"slots": [],
 					"images": [],
 					"dynamicBlocks": [
 						"core/shortcode"
 					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
 				}
 			]
 		},
@@ -1397,12 +1622,29 @@
 				{
 					"id": "top-0",
 					"index": 0,
+					"path": "0",
+					"group": "top-0",
 					"role": "dynamic",
 					"slots": [],
 					"images": [],
 					"dynamicBlocks": [
 						"core/shortcode"
 					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
 				}
 			]
 		}
@@ -1415,5 +1657,5 @@
 		"swappableImages": 8,
 		"words": 500
 	},
-	"builtAt": "2026-10-04T12:45:43.973Z"
+	"builtAt": "2026-10-07T12:37:53.096Z"
 }

@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"slug": "construction-02",
 	"name": "Construction 02",
 	"theme": "zakra",
@@ -198,6 +198,8 @@
 				{
 					"id": "f4657852",
 					"index": 0,
+					"path": "0",
+					"group": "f4657852",
 					"role": "hero",
 					"title": "7 YEARS OF FIELD EXPERIENCE",
 					"slots": [
@@ -299,6 +301,8 @@
 				{
 					"id": "ecdefdc0",
 					"index": 1,
+					"path": "1",
+					"group": "ecdefdc0",
 					"role": "content",
 					"title": "CONSTRUCTION",
 					"slots": [
@@ -441,6 +445,8 @@
 				{
 					"id": "c9fcdcb3",
 					"index": 2,
+					"path": "2",
+					"group": "c9fcdcb3",
 					"role": "content",
 					"title": "RENOVATION",
 					"slots": [
@@ -583,6 +589,8 @@
 				{
 					"id": "ff18a691",
 					"index": 3,
+					"path": "3",
+					"group": "ff18a691",
 					"role": "gallery",
 					"title": "Our projects",
 					"slots": [
@@ -769,6 +777,8 @@
 				{
 					"id": "f4d20d91",
 					"index": 4,
+					"path": "4",
+					"group": "f4d20d91",
 					"role": "team",
 					"title": "PROFESSIONALS BEHIND",
 					"slots": [
@@ -987,6 +997,8 @@
 				{
 					"id": "dd2447dc",
 					"index": 5,
+					"path": "5",
+					"group": "dd2447dc",
 					"role": "testimonials",
 					"title": "WHAT OUR CLIENTS SAY",
 					"slots": [
@@ -1146,6 +1158,8 @@
 				{
 					"id": "a9e3f455",
 					"index": 6,
+					"path": "6",
+					"group": "a9e3f455",
 					"role": "pricing",
 					"title": "OUR PRICING",
 					"slots": [
@@ -1712,7 +1726,9 @@
 				{
 					"id": "db0c0e52",
 					"index": 7,
-					"role": "content",
+					"path": "7",
+					"group": "db0c0e52",
+					"role": "logos",
 					"title": "OUR HAPPY CLIENTS",
 					"slots": [
 						{
@@ -1829,7 +1845,9 @@
 				{
 					"id": "d271cb69",
 					"index": 8,
-					"role": "content",
+					"path": "8",
+					"group": "d271cb69",
+					"role": "stats",
 					"title": "Achievements",
 					"slots": [
 						{
@@ -1962,6 +1980,149 @@
 					],
 					"images": []
 				}
+			],
+			"groups": [
+				{
+					"id": "f4657852",
+					"role": "hero",
+					"title": "7 YEARS OF FIELD EXPERIENCE",
+					"sectionIds": [
+						"f4657852"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ecdefdc0",
+					"role": "content",
+					"title": "CONSTRUCTION",
+					"sectionIds": [
+						"ecdefdc0"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c9fcdcb3",
+					"role": "content",
+					"title": "RENOVATION",
+					"sectionIds": [
+						"c9fcdcb3"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ff18a691",
+					"role": "gallery",
+					"title": "Our projects",
+					"sectionIds": [
+						"ff18a691"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"portfolio"
+						]
+					}
+				},
+				{
+					"id": "f4d20d91",
+					"role": "team",
+					"title": "PROFESSIONALS BEHIND",
+					"sectionIds": [
+						"f4d20d91"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "dd2447dc",
+					"role": "testimonials",
+					"title": "WHAT OUR CLIENTS SAY",
+					"sectionIds": [
+						"dd2447dc"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a9e3f455",
+					"role": "pricing",
+					"title": "OUR PRICING",
+					"sectionIds": [
+						"a9e3f455"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "db0c0e52",
+					"role": "logos",
+					"title": "OUR HAPPY CLIENTS",
+					"sectionIds": [
+						"db0c0e52"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "d271cb69",
+					"role": "stats",
+					"title": "Achievements",
+					"sectionIds": [
+						"d271cb69"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				}
 			]
 		},
 		{
@@ -1969,7 +2130,8 @@
 			"title": "Blog",
 			"type": "blog",
 			"sourceUrl": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/themegrill-demos/blog-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "about",
@@ -1980,6 +2142,8 @@
 				{
 					"id": "f4657852",
 					"index": 0,
+					"path": "0",
+					"group": "f4657852",
 					"role": "hero",
 					"title": "Introduction",
 					"slots": [
@@ -2064,7 +2228,9 @@
 				{
 					"id": "db0c0e52",
 					"index": 1,
-					"role": "content",
+					"path": "1",
+					"group": "db0c0e52",
+					"role": "logos",
 					"title": "OUR HAPPY CLIENTS",
 					"slots": [
 						{
@@ -2181,6 +2347,8 @@
 				{
 					"id": "f4d20d91",
 					"index": 2,
+					"path": "2",
+					"group": "f4d20d91",
 					"role": "team",
 					"title": "Our team",
 					"slots": [
@@ -2399,7 +2567,9 @@
 				{
 					"id": "d271cb69",
 					"index": 3,
-					"role": "content",
+					"path": "3",
+					"group": "d271cb69",
+					"role": "stats",
 					"title": "Achievements",
 					"slots": [
 						{
@@ -2532,6 +2702,73 @@
 					],
 					"images": []
 				}
+			],
+			"groups": [
+				{
+					"id": "f4657852",
+					"role": "hero",
+					"title": "Introduction",
+					"sectionIds": [
+						"f4657852"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "db0c0e52",
+					"role": "logos",
+					"title": "OUR HAPPY CLIENTS",
+					"sectionIds": [
+						"db0c0e52"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "f4d20d91",
+					"role": "team",
+					"title": "Our team",
+					"sectionIds": [
+						"f4d20d91"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "d271cb69",
+					"role": "stats",
+					"title": "Achievements",
+					"sectionIds": [
+						"d271cb69"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				}
 			]
 		},
 		{
@@ -2543,6 +2780,8 @@
 				{
 					"id": "a31e8e35",
 					"index": 0,
+					"path": "0",
+					"group": "a31e8e35",
 					"role": "hero",
 					"slots": [],
 					"images": [
@@ -2564,6 +2803,8 @@
 				{
 					"id": "d6dba376",
 					"index": 1,
+					"path": "1",
+					"group": "d6dba376",
 					"role": "features",
 					"title": "Project Description",
 					"slots": [
@@ -2957,6 +3198,35 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "a31e8e35",
+					"role": "hero",
+					"sectionIds": [
+						"a31e8e35"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d6dba376",
+					"role": "features",
+					"title": "Project Description",
+					"sectionIds": [
+						"d6dba376"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -2968,6 +3238,8 @@
 				{
 					"id": "f4d20d91",
 					"index": 0,
+					"path": "0",
+					"group": "f4d20d91",
 					"role": "hero",
 					"title": "ARCHITECT TEAM",
 					"slots": [
@@ -3186,6 +3458,8 @@
 				{
 					"id": "563d2afa",
 					"index": 1,
+					"path": "1",
+					"group": "563d2afa",
 					"role": "team",
 					"title": "OFFICE TEAM",
 					"slots": [
@@ -3404,6 +3678,8 @@
 				{
 					"id": "74fdd7d4",
 					"index": 2,
+					"path": "2",
+					"group": "74fdd7d4",
 					"role": "team",
 					"title": "FIELD TEAM",
 					"slots": [
@@ -3619,6 +3895,56 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "f4d20d91",
+					"role": "hero",
+					"title": "ARCHITECT TEAM",
+					"sectionIds": [
+						"f4d20d91"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "563d2afa",
+					"role": "team",
+					"title": "OFFICE TEAM",
+					"sectionIds": [
+						"563d2afa"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "74fdd7d4",
+					"role": "team",
+					"title": "FIELD TEAM",
+					"sectionIds": [
+						"74fdd7d4"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				}
 			]
 		}
 	],
@@ -3630,5 +3956,5 @@
 		"swappableImages": 28,
 		"words": 1239
 	},
-	"builtAt": "2026-10-04T12:45:43.970Z"
+	"builtAt": "2026-10-07T12:37:53.091Z"
 }

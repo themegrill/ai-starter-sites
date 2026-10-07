@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"slug": "plumber-v2",
 	"name": "Plumber V2",
 	"theme": "zakra",
@@ -175,7 +175,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#f00b0b",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			}
 		],
 		"fonts": {
@@ -196,6 +198,8 @@
 				{
 					"id": "353d25f0",
 					"index": 0,
+					"path": "0",
+					"group": "353d25f0",
 					"role": "dynamic",
 					"title": "Drain Cleaning & Repairs",
 					"slots": [
@@ -300,6 +304,8 @@
 				{
 					"id": "f4a8c971",
 					"index": 1,
+					"path": "1",
+					"group": "f4a8c971",
 					"role": "content",
 					"title": "Who We Are",
 					"slots": [
@@ -415,6 +421,8 @@
 				{
 					"id": "53876182",
 					"index": 2,
+					"path": "2",
+					"group": "53876182",
 					"role": "testimonials",
 					"title": "What Others Say?",
 					"slots": [
@@ -642,6 +650,8 @@
 				{
 					"id": "1fbb9a65",
 					"index": 3,
+					"path": "3",
+					"group": "1fbb9a65",
 					"role": "content",
 					"title": "Experts",
 					"slots": [
@@ -683,6 +693,8 @@
 				{
 					"id": "740ff7ef",
 					"index": 4,
+					"path": "4",
+					"group": "1fbb9a65",
 					"role": "team",
 					"title": "JACOB ELORDI",
 					"slots": [
@@ -828,7 +840,9 @@
 				{
 					"id": "3c2c7a02",
 					"index": 5,
-					"role": "features",
+					"path": "5",
+					"group": "3c2c7a02",
+					"role": "stats",
 					"title": "Real Statistics",
 					"slots": [
 						{
@@ -1067,6 +1081,8 @@
 				{
 					"id": "5bff72d7",
 					"index": 6,
+					"path": "6",
+					"group": "5bff72d7",
 					"role": "content",
 					"title": "Reliable and Trusted",
 					"slots": [
@@ -1108,7 +1124,9 @@
 				{
 					"id": "192a009a",
 					"index": 7,
-					"role": "gallery",
+					"path": "7",
+					"group": "5bff72d7",
+					"role": "logos",
 					"slots": [],
 					"images": [
 						{
@@ -1119,7 +1137,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/partner-three.jpg",
-							"decorative": false,
+							"decorative": true,
 							"width": 130,
 							"height": 90,
 							"orientation": "landscape"
@@ -1132,7 +1150,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/partner-one.jpg",
-							"decorative": false,
+							"decorative": true,
 							"width": 130,
 							"height": 90,
 							"orientation": "landscape"
@@ -1145,7 +1163,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/partner-four.jpg",
-							"decorative": false,
+							"decorative": true,
 							"width": 130,
 							"height": 90,
 							"orientation": "landscape"
@@ -1158,7 +1176,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/partner-two.jpg",
-							"decorative": false,
+							"decorative": true,
 							"width": 130,
 							"height": 90,
 							"orientation": "landscape"
@@ -1168,6 +1186,8 @@
 				{
 					"id": "c2f249c8",
 					"index": 8,
+					"path": "8",
+					"group": "c2f249c8",
 					"role": "cta",
 					"title": "Please Feel Free to Call Us",
 					"slots": [
@@ -1235,6 +1255,119 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "353d25f0",
+					"role": "dynamic",
+					"title": "Drain Cleaning & Repairs",
+					"sectionIds": [
+						"353d25f0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f4a8c971",
+					"role": "content",
+					"title": "Who We Are",
+					"sectionIds": [
+						"f4a8c971"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "53876182",
+					"role": "testimonials",
+					"title": "What Others Say?",
+					"sectionIds": [
+						"53876182"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1fbb9a65",
+					"role": "team",
+					"title": "Experts",
+					"sectionIds": [
+						"1fbb9a65",
+						"740ff7ef"
+					],
+					"paths": [
+						"3",
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "3c2c7a02",
+					"role": "stats",
+					"title": "Real Statistics",
+					"sectionIds": [
+						"3c2c7a02"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "5bff72d7",
+					"role": "logos",
+					"title": "Reliable and Trusted",
+					"sectionIds": [
+						"5bff72d7",
+						"192a009a"
+					],
+					"paths": [
+						"6",
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "c2f249c8",
+					"role": "cta",
+					"title": "Please Feel Free to Call Us",
+					"sectionIds": [
+						"c2f249c8"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -1242,7 +1375,8 @@
 			"title": "Blog",
 			"type": "blog",
 			"sourceUrl": "https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/themegrill-demos/blog-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "about-us",
@@ -1253,6 +1387,8 @@
 				{
 					"id": "d113f8d5",
 					"index": 0,
+					"path": "0",
+					"group": "d113f8d5",
 					"role": "hero",
 					"title": "We have over 25 years experience in the plumbing and dry sanitation industry.",
 					"slots": [
@@ -1338,6 +1474,8 @@
 				{
 					"id": "85d7fa4e",
 					"index": 1,
+					"path": "1",
+					"group": "85d7fa4e",
 					"role": "features",
 					"title": "OUR MISSION",
 					"slots": [
@@ -1566,6 +1704,8 @@
 				{
 					"id": "ccdcaf74",
 					"index": 2,
+					"path": "2",
+					"group": "ccdcaf74",
 					"role": "faq",
 					"title": "WHY CHOOSE US",
 					"slots": [
@@ -1738,6 +1878,8 @@
 				{
 					"id": "ec7201fc",
 					"index": 3,
+					"path": "3",
+					"group": "ec7201fc",
 					"role": "features",
 					"title": "WHO WE ARE",
 					"slots": [
@@ -1966,6 +2108,8 @@
 				{
 					"id": "144f2e2e",
 					"index": 4,
+					"path": "4",
+					"group": "144f2e2e",
 					"role": "pricing",
 					"title": "Get in touch with us and we will let you know about our current pricing plans",
 					"slots": [
@@ -2050,6 +2194,8 @@
 				{
 					"id": "fb5475c3",
 					"index": 5,
+					"path": "5",
+					"group": "fb5475c3",
 					"role": "cta",
 					"title": "Please Feel Free to Call Us",
 					"slots": [
@@ -2117,6 +2263,95 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "d113f8d5",
+					"role": "hero",
+					"title": "We have over 25 years experience in the plumbing and dry sanitation industry.",
+					"sectionIds": [
+						"d113f8d5"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "85d7fa4e",
+					"role": "features",
+					"title": "OUR MISSION",
+					"sectionIds": [
+						"85d7fa4e"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ccdcaf74",
+					"role": "faq",
+					"title": "WHY CHOOSE US",
+					"sectionIds": [
+						"ccdcaf74"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ec7201fc",
+					"role": "features",
+					"title": "WHO WE ARE",
+					"sectionIds": [
+						"ec7201fc"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "144f2e2e",
+					"role": "pricing",
+					"title": "Get in touch with us and we will let you know about our current pricing plans",
+					"sectionIds": [
+						"144f2e2e"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "fb5475c3",
+					"role": "cta",
+					"title": "Please Feel Free to Call Us",
+					"sectionIds": [
+						"fb5475c3"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -2128,6 +2363,8 @@
 				{
 					"id": "608a1abb",
 					"index": 0,
+					"path": "0",
+					"group": "608a1abb",
 					"role": "hero",
 					"title": "Water Tank Fitting",
 					"slots": [
@@ -2492,6 +2729,8 @@
 				{
 					"id": "79790c8e",
 					"index": 1,
+					"path": "1",
+					"group": "79790c8e",
 					"role": "cta",
 					"title": "Please Feel Free to Call Us",
 					"slots": [
@@ -2559,6 +2798,36 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "608a1abb",
+					"role": "hero",
+					"title": "Water Tank Fitting",
+					"sectionIds": [
+						"608a1abb"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "79790c8e",
+					"role": "cta",
+					"title": "Please Feel Free to Call Us",
+					"sectionIds": [
+						"79790c8e"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -2570,6 +2839,8 @@
 				{
 					"id": "c26e3877",
 					"index": 0,
+					"path": "0",
+					"group": "c26e3877",
 					"role": "hero",
 					"slots": [
 						{
@@ -2878,6 +3149,8 @@
 				{
 					"id": "94cd0465",
 					"index": 1,
+					"path": "1",
+					"group": "94cd0465",
 					"role": "cta",
 					"title": "Please Feel Free to Call Us",
 					"slots": [
@@ -2945,6 +3218,35 @@
 						}
 					]
 				}
+			],
+			"groups": [
+				{
+					"id": "c26e3877",
+					"role": "hero",
+					"sectionIds": [
+						"c26e3877"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "94cd0465",
+					"role": "cta",
+					"title": "Please Feel Free to Call Us",
+					"sectionIds": [
+						"94cd0465"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		}
 	],
@@ -2953,8 +3255,8 @@
 		"textSlots": 122,
 		"editableSlots": 113,
 		"images": 49,
-		"swappableImages": 23,
+		"swappableImages": 19,
 		"words": 1250
 	},
-	"builtAt": "2026-10-04T12:45:43.965Z"
+	"builtAt": "2026-10-07T12:37:53.086Z"
 }

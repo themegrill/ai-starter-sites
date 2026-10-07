@@ -23,10 +23,10 @@
 			"studio"
 		],
 		"stats": {
-			"sections": 27,
+			"sections": 32,
 			"textSlots": 131,
 			"editableSlots": 119,
-			"images": 36,
+			"images": 61,
 			"swappableImages": 26,
 			"words": 933
 		},
@@ -174,10 +174,10 @@
 			"insurance"
 		],
 		"stats": {
-			"sections": 13,
+			"sections": 17,
 			"textSlots": 194,
 			"editableSlots": 188,
-			"images": 23,
+			"images": 47,
 			"swappableImages": 15,
 			"words": 1739
 		},
@@ -215,7 +215,7 @@
 			"textSlots": 122,
 			"editableSlots": 113,
 			"images": 49,
-			"swappableImages": 23,
+			"swappableImages": 19,
 			"words": 1250
 		},
 		"pageTypes": [

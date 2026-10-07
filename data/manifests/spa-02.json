@@ -1,5 +1,5 @@
 {
-	"version": 1,
+	"version": 2,
 	"slug": "spa-02",
 	"name": "Zakra Spa",
 	"theme": "zakra",
@@ -82,7 +82,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
 			},
 			{
 				"hex": "#e4e4e7",
@@ -114,7 +116,9 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0.014
+				"lightnessDelta": 0.014,
+				"locked": true,
+				"lockReason": "accent"
 			}
 		],
 		"fonts": {
@@ -135,6 +139,8 @@
 				{
 					"id": "f171ee12",
 					"index": 0,
+					"path": "0",
+					"group": "f171ee12",
 					"role": "hero",
 					"title": "MAKE TIME FOR YOURSELF",
 					"slots": [
@@ -219,6 +225,8 @@
 				{
 					"id": "158bb687",
 					"index": 1,
+					"path": "1",
+					"group": "158bb687",
 					"role": "content",
 					"title": "What we do?",
 					"slots": [
@@ -419,6 +427,8 @@
 				{
 					"id": "895b5115",
 					"index": 2,
+					"path": "2",
+					"group": "895b5115",
 					"role": "content",
 					"title": "Our community",
 					"slots": [
@@ -579,6 +589,8 @@
 				{
 					"id": "b6df7d69",
 					"index": 3,
+					"path": "3",
+					"group": "b6df7d69",
 					"role": "cta",
 					"title": "Be part of us",
 					"slots": [
@@ -689,6 +701,8 @@
 				{
 					"id": "05edcc50",
 					"index": 4,
+					"path": "4",
+					"group": "05edcc50",
 					"role": "cta",
 					"title": "Book an appointment",
 					"slots": [
@@ -771,6 +785,8 @@
 				{
 					"id": "ed5d1806",
 					"index": 5,
+					"path": "5",
+					"group": "ed5d1806",
 					"role": "cta",
 					"title": "Join us to get more info",
 					"slots": [
@@ -838,6 +854,92 @@
 					],
 					"images": []
 				}
+			],
+			"groups": [
+				{
+					"id": "f171ee12",
+					"role": "hero",
+					"title": "MAKE TIME FOR YOURSELF",
+					"sectionIds": [
+						"f171ee12"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "158bb687",
+					"role": "content",
+					"title": "What we do?",
+					"sectionIds": [
+						"158bb687"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "895b5115",
+					"role": "content",
+					"title": "Our community",
+					"sectionIds": [
+						"895b5115"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b6df7d69",
+					"role": "cta",
+					"title": "Be part of us",
+					"sectionIds": [
+						"b6df7d69"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "05edcc50",
+					"role": "cta",
+					"title": "Book an appointment",
+					"sectionIds": [
+						"05edcc50"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ed5d1806",
+					"role": "cta",
+					"title": "Join us to get more info",
+					"sectionIds": [
+						"ed5d1806"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -845,7 +947,8 @@
 			"title": "Blog",
 			"type": "blog",
 			"sourceUrl": "https://zakrademos.com/spa-02/wp-content/uploads/sites/108/themegrill-demos/blog-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "service",
@@ -856,6 +959,8 @@
 				{
 					"id": "158bb687",
 					"index": 0,
+					"path": "0",
+					"group": "158bb687",
 					"role": "hero",
 					"slots": [
 						{
@@ -954,6 +1059,8 @@
 				{
 					"id": "4f97fbbd",
 					"index": 1,
+					"path": "1",
+					"group": "4f97fbbd",
 					"role": "content",
 					"slots": [
 						{
@@ -1049,6 +1156,34 @@
 					],
 					"images": []
 				}
+			],
+			"groups": [
+				{
+					"id": "158bb687",
+					"role": "hero",
+					"sectionIds": [
+						"158bb687"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4f97fbbd",
+					"role": "content",
+					"sectionIds": [
+						"4f97fbbd"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		},
 		{
@@ -1056,7 +1191,8 @@
 			"title": "Gallery",
 			"type": "other",
 			"sourceUrl": "https://zakrademos.com/spa-02/wp-content/uploads/sites/108/themegrill-demos/gallery-content.xml",
-			"sections": []
+			"sections": [],
+			"groups": []
 		},
 		{
 			"slug": "about",
@@ -1067,6 +1203,8 @@
 				{
 					"id": "a7098f8d",
 					"index": 0,
+					"path": "0",
+					"group": "a7098f8d",
 					"role": "hero",
 					"title": "Lash extention package",
 					"slots": [
@@ -1168,6 +1306,8 @@
 				{
 					"id": "895b5115",
 					"index": 1,
+					"path": "1",
+					"group": "895b5115",
 					"role": "content",
 					"title": "About detoxifying",
 					"slots": [
@@ -1220,6 +1360,36 @@
 					],
 					"images": []
 				}
+			],
+			"groups": [
+				{
+					"id": "a7098f8d",
+					"role": "hero",
+					"title": "Lash extention package",
+					"sectionIds": [
+						"a7098f8d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "895b5115",
+					"role": "content",
+					"title": "About detoxifying",
+					"sectionIds": [
+						"895b5115"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
 			]
 		}
 	],
@@ -1231,5 +1401,5 @@
 		"swappableImages": 8,
 		"words": 486
 	},
-	"builtAt": "2026-10-04T12:45:43.949Z"
+	"builtAt": "2026-10-07T12:37:53.061Z"
 }

@@ -1,8 +1,11 @@
 import { parse } from '@wordpress/block-serialization-default-parser';
 import {
+	Capability,
 	ImageSlot,
+	ManifestGroup,
 	ManifestSection,
 	PageType,
+	SectionFit,
 	SectionRole,
 	TextSlot,
 	TextSlotKind,
@@ -174,6 +177,20 @@ const isHeaderOnly = (section: ManifestSection) =>
 
 const TEAM = /\b(team|agents?|trainers?|coaches|instructors?|experts?|staff|doctors?|dentists?|teachers?)\b/;
 
+// Titles of blog/news teasers; "Want regular news and updates" (a newsletter form) must not match.
+const POSTS_TITLE = /^(our |the )?(blog|posts?|articles?|news)\b|\b(latest|recent) (posts?|articles?|news|blogs?)\b|\bblog\b/i;
+
+const editableWords = (section: ManifestSection) =>
+	section.slots.filter((s) => !s.locked).reduce((sum, s) => sum + s.words, 0);
+
+// A row of logos with at most a heading and a line of text. Icon features
+// and counters also use small images, but carry text for each one.
+const isLogoStrip = (section: ManifestSection) =>
+	section.images.filter((i) => i.decorative).length >= 3 &&
+	section.slots.length <= 2 &&
+	section.images.filter((i) => !i.decorative).length <= 1 &&
+	editableWords(section) < 15;
+
 const roleOf = (section: ManifestSection, blocks: Set<string>, previous?: ManifestSection): SectionRole => {
 	const { slots, images, index, dynamicBlocks } = section;
 	const dynamic = !!dynamicBlocks?.length;
@@ -184,13 +201,20 @@ const roleOf = (section: ManifestSection, blocks: Set<string>, previous?: Manife
 	const headings = slots.filter((s) => s.kind === 'heading');
 
 	if (index === 0 && !dynamic) return 'hero';
+	if (isLogoStrip(section)) return 'logos';
 	if (blocks.has('blockart/faq')) return 'faq';
 	if (blocks.has('blockart/team')) return 'team';
+	if (POSTS_TITLE.test(section.title ?? '') || (dynamic && dynamicBlocks!.every((b) => /latest-posts|query/.test(b))))
+		return 'posts';
 	if (dynamic && words < 40) return 'dynamic';
 	if (/testimonial|what (our|people|clients|customers|patients)|(customers?|clients?|patients?) (say|talk)|reviews?\b/.test(text) || headings.some((h) => h.locked === 'symbol' && /["“”]/.test(h.text)))
 		return 'testimonials';
 	if (TEAM.test(text.slice(0, 80)) && photos >= 2) return 'team';
 	if (/pricing|per month|\/\s?mo\b|membership plan|choose (a|your) plan/.test(text)) return 'pricing';
+	// Counters ("310k", "27M+"), not prices: a menu or price list is not stats.
+	const counters = slots.filter((s) => s.locked === 'number' && !/[$€£¥₹]/.test(s.text));
+	if (counters.length >= 2 && !slots.some((s) => /[$€£¥₹]/.test(s.text)) && editableWords(section) < 40 && photos < 2)
+		return 'stats';
 	if (/contact|get in touch|reach us|visit us/.test(text) && slots.some((s) => s.locked === 'contact')) return 'contact';
 	if (photos >= 4 && words < 30) return 'gallery';
 	if (slots.some((s) => s.kind === 'button') && slots.length <= 4) return 'cta';
@@ -252,6 +276,8 @@ export const scanPage = (content: string, pageSlug: string): PageScan => {
 			scan.sections.push({
 				id,
 				index: scan.sections.length,
+				path: String(index),
+				group: id, // Set by buildGroups().
 				role: 'content', // Set by assignRoles() once images are measured.
 				...(firstHeading ? { title: firstHeading.text } : {}),
 				slots,
@@ -264,13 +290,88 @@ export const scanPage = (content: string, pageSlug: string): PageScan => {
 };
 
 // Runs once image sizes are known: drops sections with nothing to rewrite or
-// swap (logo rows, spacers), then labels the rest.
+// swap (spacers, dividers), then labels the rest. Logo strips stay so they
+// can be dropped for businesses that have no clients to show.
 export const assignRoles = (scan: PageScan) => {
 	scan.sections = scan.sections.filter(
-		(s) => s.slots.some((slot) => !slot.locked) || s.images.some((i) => !i.decorative) || s.dynamicBlocks,
+		(s) => s.slots.some((slot) => !slot.locked) || s.images.some((i) => !i.decorative) || s.dynamicBlocks || isLogoStrip(s),
 	);
 	scan.sections.forEach((section, index) => {
 		section.index = index;
 		section.role = roleOf(section, scan.sectionBlocks.get(section.id) ?? new Set(), scan.sections[index - 1]);
 	});
+};
+
+// Body blocks an intro (heading + text only) can introduce.
+const BODY_ROLES = new Set<SectionRole>(['pricing', 'gallery', 'team', 'testimonials', 'features', 'logos', 'stats', 'posts', 'dynamic']);
+
+const isIntro = (section: ManifestSection) =>
+	!!section.title &&
+	section.slots.length <= 3 &&
+	section.slots.every((s) => s.kind === 'heading' || s.kind === 'paragraph') &&
+	!section.images.some((i) => !i.decorative) &&
+	!section.dynamicBlocks;
+
+const REQUIRES: Partial<Record<SectionRole, Capability[]>> = {
+	pricing: ['pricing_plans'],
+	team: ['team'],
+	logos: ['client_logos'],
+	stats: ['stats'],
+	posts: ['blog'],
+};
+
+const fitOf = (role: SectionRole, sections: ManifestSection[], title = ''): SectionFit => {
+	let requires = REQUIRES[role];
+	// Only a gallery of past work is a portfolio; dish, venue or class photos suit most businesses.
+	if (role === 'gallery') {
+		requires = /portfolio|projects?|our work|case stud|showcase/i.test(title)
+			? ['portfolio']
+			: /class|course|program|session|lesson/i.test(title)
+				? ['classes_schedule']
+				: undefined;
+	}
+	if (role === 'dynamic') {
+		const blocks = sections.flatMap((s) => s.dynamicBlocks ?? []);
+		requires = blocks.some((b) => /^(woocommerce|masteriyo)\//.test(b)) ? ['products'] : undefined;
+	}
+	return requires ? { kind: 'conditional', requires } : { kind: 'core' };
+};
+
+/**
+ * Groups a page's sections into the units the pipeline keeps or drops: an
+ * intro followed by the body block(s) it introduces, or a single section.
+ * Catalog `sectionFit` overrides replace the derived fit by group id.
+ */
+export const buildGroups = (sections: ManifestSection[], overrides: Record<string, SectionFit> = {}): ManifestGroup[] => {
+	const groups: ManifestGroup[] = [];
+	for (let i = 0; i < sections.length; ) {
+		const first = sections[i]!;
+		const members = [first];
+		const body = sections[i + 1];
+		if (i > 0 && isIntro(first) && body && BODY_ROLES.has(body.role) && !isIntro(body)) {
+			members.push(body);
+		}
+		// Untitled rows of the same kind continue the group (a gallery or logo strip split in two rows).
+		const last = members[members.length - 1]!;
+		while (BODY_ROLES.has(last.role) && sections[i + members.length]?.role === last.role && !sections[i + members.length]!.title) {
+			members.push(sections[i + members.length]!);
+		}
+		i += members.length;
+
+		const role: SectionRole =
+			first.role === 'hero' ? 'hero' : POSTS_TITLE.test(first.title ?? '') ? 'posts' : (members[1] ?? first).role;
+		const from = Number(first.path);
+		const to = Number(members[members.length - 1]!.path);
+		const group: ManifestGroup = {
+			id: first.id,
+			role,
+			...(first.title ? { title: first.title } : {}),
+			sectionIds: members.map((s) => s.id),
+			paths: Array.from({ length: to - from + 1 }, (_, k) => String(from + k)),
+			fit: overrides[first.id] ?? fitOf(role, members, first.title),
+		};
+		members.forEach((s) => (s.group = group.id));
+		groups.push(group);
+	}
+	return groups;
 };
