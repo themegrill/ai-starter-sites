@@ -29,10 +29,22 @@ In mock mode, put `#ratelimit`, `#invalid`, `#unauthorized`, `#fail` or
 
 `pnpm manifests` groups each demo's colors into neutrals and brand hue
 clusters. Only the **primary** and **secondary** clusters are recolored to the
-brand palette (palette hue, saturation scaled relative to the cluster base,
-demo lightness). **Accent** clusters and neutrals keep their demo values. The
-mapping lives in `lib/colors.ts` and `lib/pipeline/color-map.ts` only; the
-plugin asks `/api/color-map` for it.
+brand palette, in OKLCH: palette hue, chroma scaled relative to the cluster
+base, and the demo's perceptual lightness. Colors the demo uses as
+backgrounds never get more vivid than they were. **Accent** clusters and
+neutrals keep their demo values.
+
+It also records every foreground/background pair the demo uses (text on its
+section, button text on the button, icons, hover states, and theme settings
+such as the footer). After mapping, each recolored pair must be at least as
+readable as in the demo, then moves on to WCAG (4.5:1, or 3:1 for headings,
+buttons and icons) wherever that doesn't break another pair. Lightness is
+nudged 0.02 at a time; a color that can't pass keeps its demo value. Page
+blocks and theme settings get separate maps (`colorMap`, `themeColorMap`),
+so a color can darken in the content and stay light in the footer.
+
+The mapping lives in `lib/colors.ts` and `lib/pipeline/color-map.ts` only;
+the plugin asks `/api/color-map` for it.
 
 Overrides per demo go in `data/demo-catalog.json` and win over the automatic
 classification. A listed hex stands for its whole hue cluster, so its shades

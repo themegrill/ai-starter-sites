@@ -2,7 +2,7 @@
 // Zakra + BlockArt demo. Built offline by `pnpm manifests` from the live demo
 // exports, committed under data/manifests/, and read by the generate pipeline.
 
-export const MANIFEST_VERSION = 2;
+export const MANIFEST_VERSION = 3;
 
 export type PageType = 'home' | 'about' | 'services' | 'contact' | 'blog' | 'other';
 
@@ -140,6 +140,15 @@ export type ColorRole = 'primary' | 'secondary' | 'accent' | 'text' | 'backgroun
 // overrides in data/demo-catalog.json, or a failed contrast check.
 export type ColorLockReason = 'accent' | 'designer' | 'contrast';
 
+// What a color paints in the blocks.
+export type ColorUse = 'text' | 'background' | 'icon' | 'border';
+
+// A foreground and the background it sits on, as used in the demo. `large`
+// pairs (headings, buttons, icons) need 3:1 contrast, the rest 4.5:1. Page
+// blocks and theme settings (header, footer, buttons) are recolored with
+// separate maps, so a color can go dark in one and stay light in the other.
+export type ContrastPair = { fg: string; bg: string; large: boolean; count: number; scope: 'blocks' | 'theme' };
+
 export type DemoColor = {
 	hex: string; // Normalised #rrggbb.
 	count: number;
@@ -151,6 +160,7 @@ export type DemoColor = {
 	lightnessDelta?: number;
 	locked?: boolean;
 	lockReason?: ColorLockReason;
+	usage?: Partial<Record<ColorUse, number>>;
 };
 
 // Per-demo color overrides from data/demo-catalog.json. A listed hex stands
@@ -173,6 +183,8 @@ export type DemoManifest = {
 	plugins: string[];
 	brand: {
 		colors: DemoColor[];
+		// Pairs involving at least one brand color; checked after recoloring.
+		contrastPairs: ContrastPair[];
 		fonts: {
 			heading: string;
 			body: string;

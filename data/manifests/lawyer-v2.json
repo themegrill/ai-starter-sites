@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 3,
 	"slug": "lawyer-v2",
 	"name": "Lawyer V2",
 	"theme": "zakra",
@@ -35,7 +35,12 @@
 				"hex": "#ffffff",
 				"count": 114,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"text": 57,
+					"background": 38,
+					"border": 1
+				}
 			},
 			{
 				"hex": "#b89b5e",
@@ -43,31 +48,48 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#b89b5e",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 10,
+					"border": 40,
+					"text": 26
+				}
 			},
 			{
 				"hex": "#868e96",
 				"count": 37,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 37
+				}
 			},
 			{
 				"hex": "#343a40",
 				"count": 35,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 32
+				}
 			},
 			{
 				"hex": "#000000",
 				"count": 16,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 10
+				}
 			},
 			{
 				"hex": "#191c23",
 				"count": 10,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"background": 9
+				}
 			},
 			{
 				"hex": "#e9ecef",
@@ -95,7 +117,10 @@
 				"hex": "#1d2027",
 				"count": 2,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"background": 2
+				}
 			},
 			{
 				"hex": "#e4e4e7",
@@ -107,7 +132,10 @@
 				"hex": "#212329",
 				"count": 1,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
 			},
 			{
 				"hex": "#f7f7f7",
@@ -129,7 +157,10 @@
 				"base": "#191c24",
 				"lightnessDelta": 0,
 				"locked": true,
-				"lockReason": "accent"
+				"lockReason": "accent",
+				"usage": {
+					"background": 1
+				}
 			},
 			{
 				"hex": "#1e7ba6",
@@ -150,6 +181,71 @@
 				"lightnessDelta": 0,
 				"locked": true,
 				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#b89b5e",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 24,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#b89b5e",
+				"large": true,
+				"count": 11,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#b89b5e",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#b89b5e",
+				"bg": "#1d2027",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#b89b5e",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#b89b5e",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#b89b5e",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
 			}
 		],
 		"fonts": {
@@ -4256,5 +4352,5 @@
 		"swappableImages": 15,
 		"words": 1739
 	},
-	"builtAt": "2026-10-07T12:37:53.080Z"
+	"builtAt": "2026-10-07T13:48:43.399Z"
 }

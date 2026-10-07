@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 3,
 	"slug": "spa-02",
 	"name": "Zakra Spa",
 	"theme": "zakra",
@@ -34,13 +34,22 @@
 				"hex": "#ffffff",
 				"count": 38,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"text": 11,
+					"background": 3
+				}
 			},
 			{
 				"hex": "#16181a",
 				"count": 20,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"background": 5,
+					"border": 6,
+					"text": 9
+				}
 			},
 			{
 				"hex": "#abb2ee",
@@ -48,7 +57,12 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#abb2ee",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 6,
+					"border": 6,
+					"text": 5
+				}
 			},
 			{
 				"hex": "#ede4f8",
@@ -56,7 +70,11 @@
 				"group": "brand",
 				"role": "secondary",
 				"base": "#ede4f8",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 13,
+					"border": 1
+				}
 			},
 			{
 				"hex": "#000000",
@@ -119,6 +137,64 @@
 				"lightnessDelta": 0.014,
 				"locked": true,
 				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#363b40",
+				"bg": "#ede4f8",
+				"large": false,
+				"count": 25,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#abb2ee",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#abb2ee",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#abb2ee",
+				"bg": "#ede4f8",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#16181a",
+				"bg": "#ede4f8",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
 			}
 		],
 		"fonts": {
@@ -1401,5 +1477,5 @@
 		"swappableImages": 8,
 		"words": 486
 	},
-	"builtAt": "2026-10-07T12:37:53.061Z"
+	"builtAt": "2026-10-07T13:48:43.382Z"
 }

@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 3,
 	"slug": "agency-03",
 	"name": "Zakra Agency",
 	"theme": "zakra",
@@ -35,7 +35,12 @@
 				"hex": "#ffffff",
 				"count": 67,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"text": 34,
+					"background": 3,
+					"border": 3
+				}
 			},
 			{
 				"hex": "#23ab70",
@@ -43,25 +48,39 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#23ab70",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 2,
+					"border": 4,
+					"text": 15
+				}
 			},
 			{
 				"hex": "#111111",
 				"count": 20,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 16
+				}
 			},
 			{
 				"hex": "#f2f2f2",
 				"count": 14,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"background": 14
+				}
 			},
 			{
 				"hex": "#000000",
 				"count": 10,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 4
+				}
 			},
 			{
 				"hex": "#17965f",
@@ -69,7 +88,10 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#23ab70",
-				"lightnessDelta": -0.065
+				"lightnessDelta": -0.065,
+				"usage": {
+					"background": 7
+				}
 			},
 			{
 				"hex": "#e9ecef",
@@ -83,7 +105,10 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#23ab70",
-				"lightnessDelta": -0.092
+				"lightnessDelta": -0.092,
+				"usage": {
+					"background": 5
+				}
 			},
 			{
 				"hex": "#16181a",
@@ -123,7 +148,10 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#23ab70",
-				"lightnessDelta": -0.19
+				"lightnessDelta": -0.19,
+				"usage": {
+					"background": 2
+				}
 			},
 			{
 				"hex": "#118b57",
@@ -131,7 +159,11 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#23ab70",
-				"lightnessDelta": -0.098
+				"lightnessDelta": -0.098,
+				"usage": {
+					"background": 1,
+					"border": 1
+				}
 			},
 			{
 				"hex": "#097c4a",
@@ -139,13 +171,19 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#23ab70",
-				"lightnessDelta": -0.143
+				"lightnessDelta": -0.143,
+				"usage": {
+					"background": 2
+				}
 			},
 			{
 				"hex": "#ececec",
 				"count": 1,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
 			},
 			{
 				"hex": "#00723e",
@@ -171,7 +209,10 @@
 				"base": "#2563eb",
 				"lightnessDelta": 0,
 				"locked": true,
-				"lockReason": "accent"
+				"lockReason": "accent",
+				"usage": {
+					"border": 1
+				}
 			},
 			{
 				"hex": "#027abb",
@@ -182,6 +223,120 @@
 				"lightnessDelta": -0.163,
 				"locked": true,
 				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#118b57",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#17965f",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#23ab70",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#128d57",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#128d57",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#23ab70",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#23ab70",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#17965f",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#097c4a",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#097c4a",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#118b57",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#23ab70",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#06965c",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#06965c",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#006d3e",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
 			}
 		],
 		"fonts": {
@@ -3781,5 +3936,5 @@
 		"swappableImages": 26,
 		"words": 933
 	},
-	"builtAt": "2026-10-07T12:37:53.071Z"
+	"builtAt": "2026-10-07T13:48:43.392Z"
 }

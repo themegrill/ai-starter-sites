@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 3,
 	"slug": "plumber-v2",
 	"name": "Plumber V2",
 	"theme": "zakra",
@@ -33,13 +33,22 @@
 				"hex": "#ffffff",
 				"count": 59,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"text": 42,
+					"border": 1,
+					"background": 7
+				}
 			},
 			{
 				"hex": "#212529",
 				"count": 54,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 43,
+					"icon": 9
+				}
 			},
 			{
 				"hex": "#f76707",
@@ -47,7 +56,12 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#f76707",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 8,
+					"border": 7,
+					"text": 9
+				}
 			},
 			{
 				"hex": "#e97527",
@@ -55,13 +69,21 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#f76707",
-				"lightnessDelta": 0.035
+				"lightnessDelta": 0.035,
+				"usage": {
+					"text": 6,
+					"background": 6,
+					"border": 6
+				}
 			},
 			{
 				"hex": "#7a7a7a",
 				"count": 15,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 12
+				}
 			},
 			{
 				"hex": "#0d54e5",
@@ -69,13 +91,21 @@
 				"group": "brand",
 				"role": "secondary",
 				"base": "#0d54e5",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 4,
+					"text": 2,
+					"border": 2
+				}
 			},
 			{
 				"hex": "#f8f9fa",
 				"count": 9,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"background": 9
+				}
 			},
 			{
 				"hex": "#000000",
@@ -101,13 +131,19 @@
 				"group": "brand",
 				"role": "secondary",
 				"base": "#0d54e5",
-				"lightnessDelta": 0.088
+				"lightnessDelta": 0.088,
+				"usage": {
+					"background": 4
+				}
 			},
 			{
 				"hex": "#676f76",
 				"count": 3,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
 			},
 			{
 				"hex": "#e4e4e7",
@@ -121,7 +157,12 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#f76707",
-				"lightnessDelta": 0.082
+				"lightnessDelta": 0.082,
+				"usage": {
+					"background": 1,
+					"border": 1,
+					"text": 1
+				}
 			},
 			{
 				"hex": "#027abb",
@@ -135,13 +176,19 @@
 				"hex": "#54595f",
 				"count": 2,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 2
+				}
 			},
 			{
 				"hex": "#cccccc",
 				"count": 2,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"border": 2
+				}
 			},
 			{
 				"hex": "#3f3f46",
@@ -155,7 +202,10 @@
 				"group": "brand",
 				"role": "secondary",
 				"base": "#0d54e5",
-				"lightnessDelta": 0.004
+				"lightnessDelta": 0.004,
+				"usage": {
+					"background": 2
+				}
 			},
 			{
 				"hex": "#16181a",
@@ -177,7 +227,124 @@
 				"base": "#f00b0b",
 				"lightnessDelta": 0,
 				"locked": true,
-				"lockReason": "accent"
+				"lockReason": "accent",
+				"usage": {
+					"border": 1
+				}
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#f76707",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#e97527",
+				"bg": "#f8f9fa",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#e97527",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f76707",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#207dff",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#207dff",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f76707",
+				"bg": "#fef0e6",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f76707",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#f76707",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ff7f29",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ff7f29",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#0d54e5",
+				"bg": "#e6eefc",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#0d54e5",
+				"bg": "#d0defa",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f76707",
+				"bg": "#18181b",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
 			}
 		],
 		"fonts": {
@@ -3258,5 +3425,5 @@
 		"swappableImages": 19,
 		"words": 1250
 	},
-	"builtAt": "2026-10-07T12:37:53.086Z"
+	"builtAt": "2026-10-07T13:48:43.405Z"
 }

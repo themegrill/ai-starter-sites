@@ -11,6 +11,7 @@ import {
 	TextSlotKind,
 } from '../../lib/demos/types';
 import { normalizeColor } from './colors';
+import { ColorContext, scanColorContext } from './contrast';
 import { countWords, hasMarkup, isPlaceholderCopy, lockReason, toPlainText, wordLimits } from './text';
 
 type Block = ReturnType<typeof parse>[number];
@@ -222,12 +223,14 @@ const roleOf = (section: ManifestSection, blocks: Set<string>, previous?: Manife
 	return 'content';
 };
 
-export const scanPage = (content: string, pageSlug: string): PageScan => {
+export const scanPage = (content: string, pageSlug: string, colors?: { ctx: ColorContext; ink?: string }): PageScan => {
 	const scan: PageScan = { sections: [], sectionBlocks: new Map(), colors: [], fonts: [], warnings: [] };
 	// Copy-pasted BlockArt blocks can share a clientId; later copies get a suffix.
 	const seenIds = new Map<string, number>();
 
-	parse(content)
+	const blocks = parse(content);
+	if (colors) scanColorContext(blocks, colors.ctx, colors.ink);
+	blocks
 		.filter((block) => block.blockName)
 		.forEach((top, index) => {
 			const slots: TextSlot[] = [];

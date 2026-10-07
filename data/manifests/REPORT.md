@@ -10,6 +10,8 @@ Fonts: heading **Lora**, body **Raleway** (Lora → heading, Raleway → body)
 
 Colors: `#ffffff` background ×67, `#23ab70` primary ×22, `#111111` text ×20, `#f2f2f2` background ×14, `#000000` text ×10, `#17965f` primary (-0.065) ×7, `#e9ecef` background ×5, `#128d57` primary (-0.092) ×5, `#16181a` text ×4, `#06965c` primary (-0.098) ×4, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#006d3a` primary (-0.19) ×2, `#118b57` primary (-0.098) ×2, `#097c4a` primary (-0.143) ×2, `#ececec` background ×1, `#00723e` primary (-0.18) ×1, `#006d3e` primary (-0.19) ×1, `#2563eb` accent [locked: accent] ×1, `#027abb` accent (-0.163) [locked: accent] ×1
 
+Contrast pairs checked after recoloring: 16
+
 ### Home — `home` → home
 
 - Group **hero** (core) `3274e693`, blocks 0
@@ -88,6 +90,8 @@ Fonts: heading **Roboto**, body **Roboto** (Roboto → body)
 
 Colors: `#ffb716` primary ×82, `#ffffff` background ×66, `#000000` text ×46, `#7a7a7a` muted ×23, `#54595f` muted ×18, `#afa6a6` muted ×15, `#6ec1e4` secondary ×8, `#e9ecef` background ×5, `#e4e4e7` background ×3, `#baa6a6` muted ×2, `#535252` muted ×2, `#5b5b5b` muted ×2, `#fafafa` background ×2, `#eaf6fa` secondary (+0.286) ×2, `#027abb` secondary (-0.292) ×2, `#484c54` muted ×1, `#fff9f9` background ×1, `#d4d4d8` muted ×1, `#cccccc` muted ×1, `#16181a` text ×1, `#3f3f46` text ×1, `#fcb900` primary (-0.049) ×1, `#1f7ba5` secondary (-0.278) ×1
 
+Contrast pairs checked after recoloring: 17
+
 ### Home — `home` → home
 
 - Group **hero** (core) `f4657852`, blocks 0
@@ -147,6 +151,8 @@ Fonts: heading **Lato**, body **Lato** (Lato → body)
 
 Colors: `#ffffff` background ×23, `#fdc800` primary ×21, `#1f1f1f` text ×16, `#ffff00` primary (+0.004) ×9, `#fafafa` background ×6, `#e9ecef` background ×5, `#e4e4e7` background ×3, `#3f3f46` text ×2, `#fffffc` background ×1, `#0f0f0f` text ×1, `#027abb` accent [locked: accent] ×1
 
+Contrast pairs checked after recoloring: 10
+
 ### Home — `home` → home
 
 - Group **hero** (core) `63a6e058`, blocks 0
@@ -197,6 +203,8 @@ Colors: `#ffffff` background ×23, `#fdc800` primary ×21, `#1f1f1f` text ×16, 
 Fonts: heading **Montserrat**, body **Poppins** (Montserrat → heading, Poppins → body)
 
 Colors: `#f67a45` primary ×99, `#ffffff` background ×93, `#222222` text ×51, `#666666` muted ×46, `#bbbbbb` muted ×38, `#333333` text ×26, `#f9f9f9` background ×19, `#f1f1f1` background ×12, `#727272` muted ×12, `#858585` muted ×10, `#d35732` primary (-0.106) ×10, `#111118` text ×8, `#e9ecef` background ×6, `#d01d1d` primary (-0.153) ×6, `#ed1b1b` primary (-0.1) ×6, `#0f0f0f` text ×4, `#202020` text ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#16181a` text ×2, `#3f3f46` text ×2, `#f0f0f0` background ×1, `#eeeeee` background ×1, `#464646` text ×1, `#3e4653` text ×1, `#d4d4d8` muted ×1, `#027abb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 14
 
 ### Home — `home` → home
 
@@ -257,6 +265,8 @@ Fonts: heading **Playfair Display**, body **Lato** (Lato → body, Playfair Disp
 
 Colors: `#ffffff` background ×114, `#b89b5e` primary ×83, `#868e96` muted ×37, `#343a40` text ×35, `#000000` text ×16, `#191c23` text ×10, `#e9ecef` background ×5, `#fafafa` background ×3, `#027abb` accent [locked: accent] ×3, `#1d2027` text ×2, `#e4e4e7` background ×2, `#212329` text ×1, `#f7f7f7` background ×1, `#3f3f46` text ×1, `#191c24` accent [locked: accent] ×1, `#1e7ba6` accent (+0.014) [locked: accent] ×1, `#dd3333` accent [locked: accent] ×1
 
+Contrast pairs checked after recoloring: 9
+
 ### Home — `home` → home
 
 - Group **hero** (core) `19834f40`, blocks 0
@@ -313,6 +323,8 @@ Colors: `#ffffff` background ×114, `#b89b5e` primary ×83, `#868e96` muted ×37
 Fonts: heading **Montserrat**, body **Montserrat** (Montserrat → body)
 
 Colors: `#ffffff` background ×59, `#212529` text ×54, `#f76707` primary ×32, `#e97527` primary (+0.035) ×18, `#7a7a7a` muted ×15, `#0d54e5` secondary ×11, `#f8f9fa` background ×9, `#000000` text ×6, `#e9ecef` background ×6, `#fafafa` background ×4, `#207dff` secondary (+0.088) ×4, `#676f76` muted ×3, `#e4e4e7` background ×3, `#ff7f29` primary (+0.082) ×3, `#027abb` secondary (-0.104) ×3, `#54595f` muted ×2, `#cccccc` muted ×2, `#3f3f46` text ×2, `#0e56e6` secondary (+0.004) ×2, `#16181a` text ×1, `#d4d4d8` muted ×1, `#f00b0b` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 16
 
 ### Home — `home` → home
 
@@ -372,6 +384,8 @@ Colors: `#ffffff` background ×59, `#212529` text ×54, `#f76707` primary ×32, 
 Fonts: heading **Cormorant Garamond**, body **Lato** (Cormorant Garamond → heading, Lato → body, Sacramento → heading)
 
 Colors: `#000000` text ×83, `#e67700` primary ×74, `#ffffff` background ×72, `#212529` text ×59, `#4c4b44` text ×40, `#e9ecef` background ×6, `#0b0b0b` text ×5, `#121212` text ×4, `#868e96` muted ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#e89623` primary (+0.073) ×3, `#3f3f46` text ×2, `#dd9933` primary (+0.082) ×2, `#027abb` accent [locked: accent] ×2, `#0d0c0c` text ×1, `#f8f8f8` background ×1, `#fffcf7` background ×1, `#16181a` text ×1, `#e88326` primary (+0.078) ×1, `#fb911f` primary (+0.102) ×1, `#1e73be` accent (+0.061) [locked: accent] ×1, `#1e7ba6` accent (+0.014) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 11
 
 ### Home — `home` → home
 
@@ -468,6 +482,8 @@ Fonts: heading **Open Sans**, body **Open Sans** (Open Sans → body)
 
 Colors: `#ffffff` background ×38, `#16181a` text ×20, `#abb2ee` primary ×18, `#ede4f8` secondary ×14, `#000000` text ×12, `#e9ecef` background ×6, `#fafafa` background ×4, `#027abb` accent [locked: accent] ×4, `#e4e4e7` background ×3, `#3f3f46` text ×2, `#363b40` text ×1, `#d4d4d8` muted ×1, `#1e7ba6` accent (+0.014) [locked: accent] ×1
 
+Contrast pairs checked after recoloring: 8
+
 ### Home — `home` → home
 
 - Group **hero** (core) `f171ee12`, blocks 0
@@ -510,6 +526,8 @@ Colors: `#ffffff` background ×38, `#16181a` text ×20, `#abb2ee` primary ×18, 
 Fonts: heading **Heebo**, body **Roboto** (Heebo → heading, Roboto → body, Kaushan Script → heading)
 
 Colors: `#ffffff` background ×40, `#16181a` text ×23, `#42b3c4` primary ×16, `#7a7a7a` muted ×13, `#000000` text ×6, `#e9ecef` background ×6, `#12565d` primary (-0.296) ×6, `#c4eaee` primary (+0.337) ×6, `#6ec1e4` primary (+0.149) ×6, `#fafafa` background ×4, `#f2f9fa` background ×3, `#e4e4e7` background ×3, `#596172` muted ×2, `#3f3f46` text ×2, `#027abb` primary (-0.143) ×2, `#0f1012` text ×1, `#9aa2b2` muted ×1, `#fff9f9` background ×1, `#0a0a0a` text ×1, `#43b3c4` primary (+0.002) ×1, `#2664eb` accent [locked: accent] ×1, `#eaeef2` accent (+0.398) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 5
 
 ### Contact Us — `contact-us` → contact
 

@@ -47,24 +47,87 @@ export const toHsl = (hex: string): Hsl => {
 	return { h, s, l };
 };
 
-export const toHex = ({ h, s, l }: Hsl): string => {
-	const c = (1 - Math.abs(2 * l - 1)) * s;
-	const x = c * (1 - Math.abs(((h / 60) % 2) - 1));
-	const m = l - c / 2;
-	const [r, g, b] =
-		h < 60 ? [c, x, 0] : h < 120 ? [x, c, 0] : h < 180 ? [0, c, x] : h < 240 ? [0, x, c] : h < 300 ? [x, 0, c] : [c, 0, x];
-	return '#' + [r, g, b].map((v) => hex2((v + m) * 255)).join('');
+// ---- OKLCH: perceptual lightness, so a hue swap keeps how light a color looks ----
+
+export type Oklch = { l: number; c: number; h: number };
+
+const toLinear = (v: number) => (v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4);
+const fromLinear = (v: number) => (v <= 0.0031308 ? 12.92 * v : 1.055 * v ** (1 / 2.4) - 0.055);
+
+const linearRgb = (hex: string) => {
+	const n = parseInt(hex.slice(1, 7), 16);
+	return [(n >> 16) & 255, (n >> 8) & 255, n & 255].map((v) => toLinear(v / 255)) as [number, number, number];
+};
+
+export const toOklch = (hex: string): Oklch => {
+	const [r, g, b] = linearRgb(hex);
+	const l = Math.cbrt(0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b);
+	const m = Math.cbrt(0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b);
+	const s = Math.cbrt(0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b);
+	const L = 0.2104542553 * l + 0.793617785 * m - 0.0040720468 * s;
+	const A = 1.9779984951 * l - 2.428592205 * m + 0.4505937099 * s;
+	const B = 0.0259040371 * l + 0.7827717662 * m - 0.808675766 * s;
+	return { l: L, c: Math.hypot(A, B), h: ((Math.atan2(B, A) * 180) / Math.PI + 360) % 360 };
+};
+
+// Linear sRGB for an OKLCH color; may fall outside 0..1 when out of gamut.
+const oklchToLinear = ({ l: L, c, h }: Oklch) => {
+	const A = c * Math.cos((h * Math.PI) / 180);
+	const B = c * Math.sin((h * Math.PI) / 180);
+	const l = (L + 0.3963377774 * A + 0.2158037573 * B) ** 3;
+	const m = (L - 0.1055613458 * A - 0.0638541728 * B) ** 3;
+	const s = (L - 0.0894841775 * A - 1.291485548 * B) ** 3;
+	return [
+		4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s,
+		-1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s,
+		-0.0041960863 * l - 0.7034186147 * m + 1.707614701 * s,
+	];
+};
+
+const inGamut = (rgb: number[]) => rgb.every((v) => v >= -1e-4 && v <= 1 + 1e-4);
+
+// Out-of-gamut colors keep their lightness and hue and lose chroma until they fit.
+export const fromOklch = (color: Oklch): string => {
+	const l = clamp(color.l);
+	let rgb = oklchToLinear({ ...color, l });
+	if (!inGamut(rgb)) {
+		let lo = 0;
+		let hi = color.c;
+		for (let i = 0; i < 20; i++) {
+			const mid = (lo + hi) / 2;
+			if (inGamut(oklchToLinear({ l, c: mid, h: color.h }))) lo = mid;
+			else hi = mid;
+		}
+		rgb = oklchToLinear({ l, c: lo, h: color.h });
+	}
+	return '#' + rgb.map((v) => hex2(fromLinear(clamp(v)) * 255)).join('');
+};
+
+// ---- WCAG contrast ----
+
+export const luminance = (hex: string) => {
+	const [r, g, b] = linearRgb(hex);
+	return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+};
+
+export const contrast = (a: string, b: string) => {
+	const [hi, lo] = [luminance(a), luminance(b)].sort((x, y) => y - x) as [number, number];
+	return (hi + 0.05) / (lo + 0.05);
 };
 
 /**
- * One demo shade recolored to a palette color: the palette's hue, saturation
- * scaled by how saturated the shade is relative to its cluster base (so light
- * tints stay soft), and the shade's own lightness (so contrast survives).
+ * One demo shade recolored to a palette color, in OKLCH: the palette's hue,
+ * chroma scaled by how vivid the shade is relative to its cluster base (light
+ * tints stay soft), and the shade's own perceptual lightness (so contrast
+ * with the neutrals around it survives). `calm` caps chroma at the shade's
+ * own, for colors used as backgrounds: a bright yellow band must not turn
+ * into a neon green one.
  */
-export const mapShade = (shade: string, base: string, target: string): string => {
-	const from = toHsl(shade);
-	const baseS = toHsl(base).s;
-	const to = toHsl(target);
-	const s = baseS > 0 ? clamp(to.s * (from.s / baseS)) : to.s;
-	return toHex({ h: to.h, s, l: from.l });
+export const mapShade = (shade: string, base: string, target: string, calm = false): string => {
+	const from = toOklch(shade);
+	const baseC = toOklch(base).c;
+	const to = toOklch(target);
+	let c = baseC > 0 ? to.c * (from.c / baseC) : to.c;
+	if (calm) c = Math.min(c, from.c);
+	return fromOklch({ l: from.l, c, h: to.h });
 };

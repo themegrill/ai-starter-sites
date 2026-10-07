@@ -4,7 +4,7 @@
 import { DemoCatalogEntry, DemoManifest, ImageSlot as ManifestImage, ManifestPage, ManifestSection, PageType } from '../demos/types';
 import { AiPageSlug, BrandKit, DemoSummary, GeneratedPage, GenerationPackage, ImageSlot, RemovedGroup, Section } from '../types';
 import { buildFontMap } from './brand-kit';
-import { buildColorMap } from './color-map';
+import { colorMapFor } from './color-map';
 import { CopyResult, editableSlots } from './copy';
 import { GroupDecision, groupLabel } from './sections';
 
@@ -85,6 +85,7 @@ export const assemblePackage = (args: {
 }): GenerationPackage => {
 	const { demo, brand, copy, images } = args;
 	const { pages: selected, missing } = selectPages(demo, args.requestedPages);
+	const colors = colorMapFor(demo, brand.palette);
 	const droppedOn = (type: AiPageSlug) => (args.decisions.get(type) ?? []).filter((d) => d.action === 'drop');
 	const shown = (s: ManifestSection) => editableSlots(s).length > 0 || s.images.some((i) => !i.decorative);
 
@@ -128,11 +129,13 @@ export const assemblePackage = (args: {
 				groups: Object.fromEntries(droppedOn(type).map(({ group }) => [group.id, group.paths])),
 				removeBlocks: droppedOn(type).flatMap(({ group }) => group.paths),
 			})),
-			// Maps for the generated brand kit. If the user edits the palette, the
-			// plugin fetches a new colorMap from /api/color-map; it rebuilds the
-			// font map itself from demoFonts.
+			// Maps for the generated brand kit: colorMap for page blocks,
+			// themeColorMap for theme settings. If the user edits the palette, the
+			// plugin fetches new ones from /api/color-map; it rebuilds the font map
+			// itself from demoFonts.
 			demoFonts: demo.brand.fonts.map,
-			colorMap: buildColorMap(demo, brand.palette),
+			colorMap: colors.map,
+			themeColorMap: colors.themeMap,
 			fontMap: buildFontMap(demo, brand.fonts),
 		},
 	};

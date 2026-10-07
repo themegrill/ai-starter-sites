@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 3,
 	"slug": "eduskill",
 	"name": "Zakra EduSkill",
 	"theme": "zakra",
@@ -35,7 +35,12 @@
 				"hex": "#ffffff",
 				"count": 23,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"text": 4,
+					"border": 2,
+					"background": 2
+				}
 			},
 			{
 				"hex": "#fdc800",
@@ -43,13 +48,20 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#fdc800",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 6,
+					"border": 6
+				}
 			},
 			{
 				"hex": "#1f1f1f",
 				"count": 16,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 12
+				}
 			},
 			{
 				"hex": "#ffff00",
@@ -57,13 +69,19 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#fdc800",
-				"lightnessDelta": 0.004
+				"lightnessDelta": 0.004,
+				"usage": {
+					"background": 6
+				}
 			},
 			{
 				"hex": "#fafafa",
 				"count": 6,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"background": 3
+				}
 			},
 			{
 				"hex": "#e9ecef",
@@ -104,6 +122,78 @@
 				"lightnessDelta": 0,
 				"locked": true,
 				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#1f1f1f",
+				"bg": "#fdc800",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1f1f1f",
+				"bg": "#ffff00",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fdc800",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1f1f1f",
+				"bg": "#fdc800",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fdc800",
+				"bg": "#020509",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffff00",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffff00",
+				"bg": "#020509",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#0f0f0f",
+				"bg": "#fdc800",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1f1f1f",
+				"bg": "#ffff00",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
 			}
 		],
 		"fonts": {
@@ -1657,5 +1747,5 @@
 		"swappableImages": 8,
 		"words": 500
 	},
-	"builtAt": "2026-10-07T12:37:53.096Z"
+	"builtAt": "2026-10-07T13:48:43.415Z"
 }

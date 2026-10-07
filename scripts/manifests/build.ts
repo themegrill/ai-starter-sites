@@ -19,6 +19,7 @@ import {
 	SectionFit,
 } from '../../lib/demos/types';
 import { classifyColors, normalizeColor } from './colors';
+import { newColorContext, scanThemeMods } from './contrast';
 import { assignRoles, buildGroups, pageTypeOf, scanPage } from './extract';
 import { describeImage, mapLimit, saveImageCache } from './images';
 import { fetchDemoData, fetchDemoList, fetchPageExport } from './source';
@@ -57,6 +58,8 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 	const themeColorCounts = new Map<string, number>();
 	const fonts: { family: string; block: string }[] = [];
 	const pages: ManifestPage[] = [];
+	const colorContext = newColorContext();
+	const ink = typeof themeMods.zakra_base_color === 'string' ? normalizeColor(themeMods.zakra_base_color) : undefined;
 
 	for (const page of data.pages ?? []) {
 		let exported: { title: string; content: string };
@@ -67,7 +70,7 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 			continue;
 		}
 
-		const scan = scanPage(exported.content, page.slug);
+		const scan = scanPage(exported.content, page.slug, { ctx: colorContext, ink });
 		const images = scan.sections.flatMap((s) => s.images);
 		await mapLimit(images, 8, async (image: ImageSlot) => Object.assign(image, await describeImage(image.url)));
 		assignRoles(scan);
@@ -92,6 +95,7 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 		const hex = normalizeColor(value);
 		if (hex) themeColorCounts.set(hex, (themeColorCounts.get(hex) ?? 0) + 1);
 	}
+	scanThemeMods(themeMods, colorContext);
 	const themePrimary =
 		typeof themeMods.zakra_primary_color === 'string' ? normalizeColor(themeMods.zakra_primary_color) : undefined;
 
@@ -120,6 +124,12 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 	const slots = sections.flatMap((s) => s.slots);
 	const images = sections.flatMap((s) => s.images);
 
+	const colors = classifyColors(colorCounts, themeColorCounts, themePrimary, item.colors).map((c) => {
+		const usage = colorContext.usage.get(c.hex);
+		return usage ? { ...c, usage } : c;
+	});
+	const brandHexes = new Set(colors.filter((c) => c.group === 'brand').map((c) => c.hex));
+
 	const manifest: DemoManifest = {
 		version: MANIFEST_VERSION,
 		slug: item.slug,
@@ -132,7 +142,10 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 		keywords: item.keywords,
 		plugins: Object.keys(data.plugins ?? {}),
 		brand: {
-			colors: classifyColors(colorCounts, themeColorCounts, themePrimary, item.colors),
+			colors,
+			contrastPairs: [...colorContext.pairs.values()]
+				.filter((p) => brandHexes.has(p.fg) || brandHexes.has(p.bg))
+				.sort((a, b) => b.count - a.count),
 			fonts: {
 				heading: displayFont ?? headingFont ?? bodyFont ?? 'Inter',
 				body: bodyFont ?? headingFont ?? 'Inter',
@@ -178,6 +191,8 @@ const reportFor = (m: DemoManifest, warnings: string[]) => {
 		`Colors: ${m.brand.colors
 			.map((c) => `\`${c.hex}\` ${c.role}${c.lightnessDelta ? ` (${c.lightnessDelta > 0 ? '+' : ''}${c.lightnessDelta})` : ''}${c.locked ? ` [locked: ${c.lockReason}]` : ''} ×${c.count}`)
 			.join(', ')}`,
+		'',
+		`Contrast pairs checked after recoloring: ${m.brand.contrastPairs.length}`,
 		'',
 	];
 

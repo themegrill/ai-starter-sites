@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 3,
 	"slug": "yoga-02",
 	"name": "Yoga 02",
 	"theme": "zakra",
@@ -31,13 +31,22 @@
 				"hex": "#ffffff",
 				"count": 40,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"text": 19,
+					"border": 1,
+					"background": 7
+				}
 			},
 			{
 				"hex": "#16181a",
 				"count": 23,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 20,
+					"background": 3
+				}
 			},
 			{
 				"hex": "#42b3c4",
@@ -45,13 +54,21 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#42b3c4",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"icon": 1,
+					"background": 2,
+					"text": 8
+				}
 			},
 			{
 				"hex": "#7a7a7a",
 				"count": 13,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 13
+				}
 			},
 			{
 				"hex": "#000000",
@@ -79,7 +96,10 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#42b3c4",
-				"lightnessDelta": 0.337
+				"lightnessDelta": 0.337,
+				"usage": {
+					"text": 6
+				}
 			},
 			{
 				"hex": "#6ec1e4",
@@ -87,7 +107,10 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#42b3c4",
-				"lightnessDelta": 0.149
+				"lightnessDelta": 0.149,
+				"usage": {
+					"text": 6
+				}
 			},
 			{
 				"hex": "#fafafa",
@@ -99,7 +122,10 @@
 				"hex": "#f2f9fa",
 				"count": 3,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"background": 3
+				}
 			},
 			{
 				"hex": "#e4e4e7",
@@ -111,7 +137,10 @@
 				"hex": "#596172",
 				"count": 2,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 1
+				}
 			},
 			{
 				"hex": "#3f3f46",
@@ -131,13 +160,19 @@
 				"hex": "#0f1012",
 				"count": 1,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 1
+				}
 			},
 			{
 				"hex": "#9aa2b2",
 				"count": 1,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 1
+				}
 			},
 			{
 				"hex": "#fff9f9",
@@ -177,7 +212,47 @@
 				"base": "#2664eb",
 				"lightnessDelta": 0.398,
 				"locked": true,
-				"lockReason": "accent"
+				"lockReason": "accent",
+				"usage": {
+					"border": 1
+				}
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#42b3c4",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#42b3c4",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 3,
+				"scope": "theme"
+			},
+			{
+				"fg": "#42b3c4",
+				"bg": "#f2f9fa",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#42b3c4",
+				"bg": "#18181b",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
 			}
 		],
 		"fonts": {
@@ -1918,5 +1993,5 @@
 		"swappableImages": 15,
 		"words": 496
 	},
-	"builtAt": "2026-10-07T12:37:53.056Z"
+	"builtAt": "2026-10-07T13:48:43.377Z"
 }

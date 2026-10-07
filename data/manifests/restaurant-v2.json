@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 3,
 	"slug": "restaurant-v2",
 	"name": "Restaurant V2",
 	"theme": "zakra",
@@ -38,7 +38,11 @@
 				"hex": "#000000",
 				"count": 83,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 37,
+					"border": 10
+				}
 			},
 			{
 				"hex": "#e67700",
@@ -46,25 +50,41 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#e67700",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 13,
+					"border": 10,
+					"text": 41,
+					"icon": 6
+				}
 			},
 			{
 				"hex": "#ffffff",
 				"count": 72,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"text": 24,
+					"background": 37
+				}
 			},
 			{
 				"hex": "#212529",
 				"count": 59,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 58
+				}
 			},
 			{
 				"hex": "#4c4b44",
 				"count": 40,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 40
+				}
 			},
 			{
 				"hex": "#e9ecef",
@@ -82,13 +102,19 @@
 				"hex": "#121212",
 				"count": 4,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"background": 4
+				}
 			},
 			{
 				"hex": "#868e96",
 				"count": 3,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
 			},
 			{
 				"hex": "#e4e4e7",
@@ -108,7 +134,10 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#e67700",
-				"lightnessDelta": 0.073
+				"lightnessDelta": 0.073,
+				"usage": {
+					"text": 3
+				}
 			},
 			{
 				"hex": "#3f3f46",
@@ -144,7 +173,10 @@
 				"hex": "#f8f8f8",
 				"count": 1,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
 			},
 			{
 				"hex": "#fffcf7",
@@ -164,7 +196,10 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#e67700",
-				"lightnessDelta": 0.078
+				"lightnessDelta": 0.078,
+				"usage": {
+					"text": 1
+				}
 			},
 			{
 				"hex": "#fb911f",
@@ -193,6 +228,85 @@
 				"lightnessDelta": 0.014,
 				"locked": true,
 				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#e67700",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 46,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#e67700",
+				"large": true,
+				"count": 16,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#e89623",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#e67700",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#e88326",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fffcf7",
+				"bg": "#fb911f",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#e67700",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#dd9933",
+				"bg": "#121212",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e73be",
+				"bg": "#121212",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
 			}
 		],
 		"fonts": {
@@ -5924,5 +6038,5 @@
 		"swappableImages": 52,
 		"words": 863
 	},
-	"builtAt": "2026-10-07T12:37:53.036Z"
+	"builtAt": "2026-10-07T13:48:43.348Z"
 }

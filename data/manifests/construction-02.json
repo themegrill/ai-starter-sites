@@ -1,5 +1,5 @@
 {
-	"version": 2,
+	"version": 3,
 	"slug": "construction-02",
 	"name": "Construction 02",
 	"theme": "zakra",
@@ -35,37 +35,60 @@
 				"group": "brand",
 				"role": "primary",
 				"base": "#ffb716",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 28,
+					"background": 39,
+					"border": 8
+				}
 			},
 			{
 				"hex": "#ffffff",
 				"count": 66,
 				"group": "neutral",
-				"role": "background"
+				"role": "background",
+				"usage": {
+					"background": 7,
+					"text": 35,
+					"icon": 15,
+					"border": 1
+				}
 			},
 			{
 				"hex": "#000000",
 				"count": 46,
 				"group": "neutral",
-				"role": "text"
+				"role": "text",
+				"usage": {
+					"text": 26
+				}
 			},
 			{
 				"hex": "#7a7a7a",
 				"count": 23,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 21
+				}
 			},
 			{
 				"hex": "#54595f",
 				"count": 18,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 18
+				}
 			},
 			{
 				"hex": "#afa6a6",
 				"count": 15,
 				"group": "neutral",
-				"role": "muted"
+				"role": "muted",
+				"usage": {
+					"text": 15
+				}
 			},
 			{
 				"hex": "#6ec1e4",
@@ -73,7 +96,10 @@
 				"group": "brand",
 				"role": "secondary",
 				"base": "#6ec1e4",
-				"lightnessDelta": 0
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 8
+				}
 			},
 			{
 				"hex": "#e9ecef",
@@ -117,7 +143,10 @@
 				"group": "brand",
 				"role": "secondary",
 				"base": "#6ec1e4",
-				"lightnessDelta": 0.286
+				"lightnessDelta": 0.286,
+				"usage": {
+					"background": 2
+				}
 			},
 			{
 				"hex": "#027abb",
@@ -178,6 +207,127 @@
 				"role": "secondary",
 				"base": "#6ec1e4",
 				"lightnessDelta": -0.278
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#ffb716",
+				"large": true,
+				"count": 33,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ffb716",
+				"large": false,
+				"count": 15,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffb716",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 15,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffb716",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#6ec1e4",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#7a7a7a",
+				"bg": "#eaf6fa",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffb716",
+				"bg": "#eaf6fa",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#6ec1e4",
+				"bg": "#eaf6fa",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffb716",
+				"bg": "#081726",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#6ec1e4",
+				"bg": "#eaf6fa",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#eaf6fa",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffb716",
+				"bg": "#eaf6fa",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ffb716",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fcb900",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffb716",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1f7ba5",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
 			}
 		],
 		"fonts": {
@@ -3956,5 +4106,5 @@
 		"swappableImages": 28,
 		"words": 1239
 	},
-	"builtAt": "2026-10-07T12:37:53.091Z"
+	"builtAt": "2026-10-07T13:48:43.411Z"
 }
