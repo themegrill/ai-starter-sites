@@ -112,6 +112,16 @@ export type SwitchDemoRequest = {
 	demoSlug: string;
 };
 
+// The generated page to render on the live demo page. `removed`: group ids
+// left out.
+export type PreviewRequest = {
+	demoSlug: string;
+	page: string;
+	brand: BrandKit;
+	sections: { id: string; slots: Record<string, SlotValue> }[];
+	removed: string[];
+};
+
 export type ColorMapRequest = {
 	demoSlug: string;
 	palette: BrandPalette;

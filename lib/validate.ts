@@ -5,6 +5,7 @@ import {
 	BrandPalette,
 	ColorMapRequest,
 	GenerateRequest,
+	PreviewRequest,
 	RegenerateSectionRequest,
 	SwitchDemoRequest,
 } from './types';
@@ -102,5 +103,37 @@ export const validateColorMap = (body: unknown): ColorMapRequest => {
 	return {
 		demoSlug: str(body, 'demoSlug'),
 		palette: Object.fromEntries(PALETTE_KEYS.map((k) => [k, (palette[k] as string).toLowerCase()])) as BrandPalette,
+	};
+};
+
+const FONT_NAME = /^[\w \-]{1,60}$/;
+
+export const validatePreview = (body: unknown): PreviewRequest => {
+	if (!isObject(body)) return invalid('Request body must be an object.');
+	const brand = body.brand;
+	if (!isObject(brand) || !isObject(brand.fonts)) return invalid('"brand" must be an object.');
+	const { palette } = validateColorMap({ demoSlug: body.demoSlug, palette: brand.palette });
+	const fonts = brand.fonts as Record<string, unknown>;
+	for (const key of ['heading', 'body']) {
+		if (typeof fonts[key] !== 'string' || !FONT_NAME.test(fonts[key] as string)) invalid(`"brand.fonts.${key}" is invalid.`);
+	}
+	if (!Array.isArray(body.sections) || !body.sections.every((s) => isObject(s) && isObject(s.slots))) {
+		return invalid('"sections" must be a list of sections.');
+	}
+	const removed = Array.isArray(body.removed) ? body.removed.filter((r): r is string => typeof r === 'string') : [];
+	return {
+		demoSlug: str(body, 'demoSlug'),
+		page: str(body, 'page'),
+		brand: {
+			siteTitle: str(brand, 'siteTitle').slice(0, BRAND_NAME_MAX),
+			tagline: str(brand, 'tagline', false).slice(0, 200),
+			palette,
+			fonts: { heading: fonts.heading as string, body: fonts.body as string },
+		},
+		sections: (body.sections as Record<string, unknown>[]).map((s) => ({
+			id: String(s.id ?? ''),
+			slots: s.slots as PreviewRequest['sections'][number]['slots'],
+		})),
+		removed,
 	};
 };
