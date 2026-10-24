@@ -1,0 +1,4646 @@
+{
+	"version": 4,
+	"slug": "portfolio-v2",
+	"name": "Portfolio V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-portfolio-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/portfolio-v2",
+	"niches": [
+		"portfolio",
+		"creative"
+	],
+	"keywords": [
+		"portfolio",
+		"ux designer",
+		"developer",
+		"freelancer",
+		"creative",
+		"case study",
+		"designer"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#573dff",
+				"count": 118,
+				"group": "brand",
+				"role": "primary",
+				"base": "#573dff",
+				"lightnessDelta": 0,
+				"usage": {
+					"border": 45,
+					"text": 38,
+					"background": 12
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 76,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 50,
+					"text": 20
+				}
+			},
+			{
+				"hex": "#111111",
+				"count": 32,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 23
+				}
+			},
+			{
+				"hex": "#3e3e3e",
+				"count": 26,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 24
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 22,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 21
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 8,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 2
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 7,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#6c6c6c",
+				"count": 6,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#7b84fc",
+				"count": 5,
+				"group": "brand",
+				"role": "primary",
+				"base": "#573dff",
+				"lightnessDelta": 0.116,
+				"usage": {
+					"background": 5
+				}
+			},
+			{
+				"hex": "#828282",
+				"count": 4,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#f0eeff",
+				"count": 4,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 4
+				}
+			},
+			{
+				"hex": "#eeeeee",
+				"count": 3,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#e0e0e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#2563eb",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#2563eb",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#2563eb",
+				"lightnessDelta": -0.163
+			},
+			{
+				"hex": "#dddddd",
+				"count": 2,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#f8f8ff",
+				"count": 2,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#7b69ff",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#573dff",
+				"lightnessDelta": 0.086
+			},
+			{
+				"hex": "#f8f8fe",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#f6f5ff",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#7c84fc",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#573dff",
+				"lightnessDelta": 0.118
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#573dff",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 20,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#573dff",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#573dff",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#7b84fc",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#573dff",
+				"bg": "#f8f8ff",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#573dff",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#573dff",
+				"bg": "#f6f5ff",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#573dff",
+				"bg": "#f8f8fe",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#573dff",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Playfair Display",
+			"body": "Nunito Sans",
+			"map": {
+				"Nunito Sans": "body",
+				"Playfair Display": "heading"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "b6c89446",
+					"index": 0,
+					"path": "0",
+					"group": "b6c89446",
+					"role": "hero",
+					"title": "I'm Kamren Terry",
+					"slots": [
+						{
+							"id": "2934dab3:text",
+							"blockId": "2934dab3",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I'm Kamren Terry",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad6a051e:text",
+							"blockId": "ad6a051e",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Product Designer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4fbc47d3:text",
+							"blockId": "4fbc47d3",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e55badfa:text",
+							"blockId": "e55badfa",
+							"path": "0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "GET IN TOUCH",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a396013f:image.url",
+							"blockId": "a396013f",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/kamren-terry-picture.png",
+							"decorative": false,
+							"width": 598,
+							"height": 629,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in a pink blouse with hand on chin posing",
+							"tone": {
+								"grid": [
+									0.58,
+									0.44,
+									0.6,
+									0.71,
+									0.58,
+									0.55,
+									0.76,
+									0.78,
+									0.89
+								],
+								"color": "#b39fd1"
+							}
+						}
+					]
+				},
+				{
+					"id": "7be73dce",
+					"index": 1,
+					"path": "1",
+					"group": "7be73dce",
+					"role": "content",
+					"title": "MY STORY",
+					"slots": [
+						{
+							"id": "a048757e:text",
+							"blockId": "a048757e",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "MY STORY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09a770d7:text",
+							"blockId": "09a770d7",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Why to Hire Me?",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a3c380e1:text",
+							"blockId": "a3c380e1",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Stet clita kasd gubergren, no sea takimata sanctus est ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": true,
+							"words": 41,
+							"minWords": 25,
+							"maxWords": 52,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d1bfe820:text",
+							"blockId": "d1bfe820",
+							"path": "1.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Skills",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e55badfa~1:text",
+							"blockId": "e55badfa~1",
+							"path": "1.1.8.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "KNOW MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "08677358:background.image.image.url",
+							"blockId": "08677358",
+							"path": "1.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/shape-1.png",
+							"decorative": true,
+							"width": 638,
+							"height": 638,
+							"orientation": "square"
+						},
+						{
+							"id": "b92c2f12:image.url",
+							"blockId": "b92c2f12",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/video.jpg",
+							"decorative": false,
+							"width": 595,
+							"height": 728,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman in a pink blouse with hand on chin posing",
+							"tone": {
+								"grid": [
+									0.42,
+									0.37,
+									0.37,
+									0.43,
+									0.48,
+									0.4,
+									0.51,
+									0.67,
+									0.55
+								],
+								"color": "#83709d"
+							}
+						}
+					]
+				},
+				{
+					"id": "5d2fb043",
+					"index": 2,
+					"path": "2",
+					"group": "5d2fb043",
+					"role": "content",
+					"title": "SERVICES",
+					"slots": [
+						{
+							"id": "4bcb0b8f:text",
+							"blockId": "4bcb0b8f",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "SERVICES",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f64c039:text",
+							"blockId": "3f64c039",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Specialized In",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "abb265ff:text",
+							"blockId": "abb265ff",
+							"path": "2.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Web Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7614356f:text",
+							"blockId": "7614356f",
+							"path": "2.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e86ca83c:text",
+							"blockId": "e86ca83c",
+							"path": "2.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Graphic Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6c5df190:text",
+							"blockId": "6c5df190",
+							"path": "2.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e5cc92ba:text",
+							"blockId": "e5cc92ba",
+							"path": "2.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "UI/UX Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1385431b:text",
+							"blockId": "1385431b",
+							"path": "2.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7e14943c:text",
+							"blockId": "7e14943c",
+							"path": "2.0.2.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Mobile App Design",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a36a11a9:text",
+							"blockId": "a36a11a9",
+							"path": "2.0.2.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "8fd6f4d9:image.url",
+							"blockId": "8fd6f4d9",
+							"path": "2.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-22.png",
+							"decorative": true,
+							"width": 76,
+							"height": 73,
+							"orientation": "square"
+						},
+						{
+							"id": "c0d64734:image.url",
+							"blockId": "c0d64734",
+							"path": "2.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon2.png",
+							"decorative": true,
+							"width": 81,
+							"height": 73,
+							"orientation": "square"
+						},
+						{
+							"id": "16a7349d:image.url",
+							"blockId": "16a7349d",
+							"path": "2.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon3.png",
+							"decorative": true,
+							"width": 81,
+							"height": 73,
+							"orientation": "square"
+						},
+						{
+							"id": "88bb4d6e:image.url",
+							"blockId": "88bb4d6e",
+							"path": "2.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-22.png",
+							"decorative": true,
+							"width": 76,
+							"height": 73,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "8f315bc8",
+					"index": 3,
+					"path": "3",
+					"group": "8f315bc8",
+					"role": "gallery",
+					"title": "PROJECTS",
+					"slots": [
+						{
+							"id": "b3fdec1a:text",
+							"blockId": "b3fdec1a",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "PROJECTS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80ffb34f:text",
+							"blockId": "80ffb34f",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "See My Works",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "8f315bc8:background.image.image.url",
+							"blockId": "8f315bc8",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/background-7.png",
+							"decorative": true,
+							"width": 1921,
+							"height": 963,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.0:@html:img",
+							"blockId": "core-3.0.2.0",
+							"path": "3.0.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/portfolio-1.jpg",
+							"decorative": false,
+							"width": 446,
+							"height": 446,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Colorful abstract acrylic painting",
+							"tone": {
+								"grid": [
+									0.45,
+									0.34,
+									0.36,
+									0.58,
+									0.55,
+									0.64,
+									0.51,
+									0.34,
+									0.51
+								],
+								"color": "#b06b60"
+							}
+						},
+						{
+							"id": "core-3.0.2.1:@html:img",
+							"blockId": "core-3.0.2.1",
+							"path": "3.0.2.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/portfolio-2.jpg",
+							"decorative": false,
+							"width": 446,
+							"height": 446,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Popcorn arranged in a heart shape",
+							"tone": {
+								"grid": [
+									0.84,
+									0.84,
+									0.84,
+									0.82,
+									0.8,
+									0.82,
+									0.8,
+									0.78,
+									0.8
+								],
+								"color": "#ecdb0d"
+							}
+						},
+						{
+							"id": "core-3.0.2.2:@html:img",
+							"blockId": "core-3.0.2.2",
+							"path": "3.0.2.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/portfolio-3.jpg",
+							"decorative": false,
+							"width": 446,
+							"height": 446,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Silhouette of a person surrounded by red light trails",
+							"tone": {
+								"grid": [
+									0.12,
+									0.18,
+									0.12,
+									0.14,
+									0.11,
+									0.27,
+									0.15,
+									0.18,
+									0.16
+								],
+								"color": "#58183c"
+							}
+						},
+						{
+							"id": "core-3.0.2.3:@html:img",
+							"blockId": "core-3.0.2.3",
+							"path": "3.0.2.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/portfolio-4.jpg",
+							"decorative": false,
+							"width": 446,
+							"height": 446,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Pink ink swirling in water",
+							"tone": {
+								"grid": [
+									0.51,
+									0.71,
+									0.82,
+									0.2,
+									0.15,
+									0.26,
+									0.07,
+									0.08,
+									0.1
+								],
+								"color": "#87406a"
+							}
+						},
+						{
+							"id": "core-3.0.2.4:@html:img",
+							"blockId": "core-3.0.2.4",
+							"path": "3.0.2.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/blur-image.jpg",
+							"decorative": false,
+							"width": 446,
+							"height": 446,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Alarm clock on a split pink and mint background",
+							"tone": {
+								"grid": [
+									0.82,
+									0.85,
+									0.89,
+									0.81,
+									0.81,
+									0.88,
+									0.79,
+									0.82,
+									0.86
+								],
+								"color": "#e0d3ce"
+							}
+						},
+						{
+							"id": "core-3.0.2.5:@html:img",
+							"blockId": "core-3.0.2.5",
+							"path": "3.0.2.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/portfolio-6.png",
+							"decorative": false,
+							"width": 446,
+							"height": 446,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Website wireframe sketches on paper",
+							"tone": {
+								"grid": [
+									0.88,
+									0.89,
+									0.88,
+									0.86,
+									0.85,
+									0.89,
+									0.88,
+									0.91,
+									0.9
+								],
+								"color": "#e1e1e1"
+							}
+						}
+					]
+				},
+				{
+					"id": "0eb971b7",
+					"index": 4,
+					"path": "4",
+					"group": "0eb971b7",
+					"role": "logos",
+					"title": "ORGANIZATION",
+					"slots": [
+						{
+							"id": "298e994a:text",
+							"blockId": "298e994a",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "ORGANIZATION",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7c92c8b8:text",
+							"blockId": "7c92c8b8",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Previously Worked With",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "9cae4a5f:image.url",
+							"blockId": "9cae4a5f",
+							"path": "4.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/img1-1.png",
+							"decorative": true,
+							"width": 331,
+							"height": 184,
+							"orientation": "landscape"
+						},
+						{
+							"id": "5723cb9f:image.url",
+							"blockId": "5723cb9f",
+							"path": "4.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/img2-1.png",
+							"decorative": true,
+							"width": 339,
+							"height": 184,
+							"orientation": "landscape"
+						},
+						{
+							"id": "3b9ad7b6:image.url",
+							"blockId": "3b9ad7b6",
+							"path": "4.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/img4-1.png",
+							"decorative": true,
+							"width": 329,
+							"height": 184,
+							"orientation": "landscape"
+						},
+						{
+							"id": "11c53c43:image.url",
+							"blockId": "11c53c43",
+							"path": "4.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/img1-1.png",
+							"decorative": true,
+							"width": 331,
+							"height": 184,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "58173e51",
+					"index": 5,
+					"path": "5",
+					"group": "0eb971b7",
+					"role": "testimonials",
+					"title": "TESTIMONIALS",
+					"slots": [
+						{
+							"id": "fed58d14:text",
+							"blockId": "fed58d14",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "TESTIMONIALS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "139c750e:text",
+							"blockId": "139c750e",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Happy Client Says",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a5a91a7:text",
+							"blockId": "2a5a91a7",
+							"path": "5.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "46cc433b:text",
+							"blockId": "46cc433b",
+							"path": "5.0.2.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Joe Hunter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4f3eae1:text",
+							"blockId": "f4f3eae1",
+							"path": "5.0.2.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61cfa103:text",
+							"blockId": "61cfa103",
+							"path": "5.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fe55a1db:text",
+							"blockId": "fe55a1db",
+							"path": "5.0.2.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Jack Water",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6cf662a1:text",
+							"blockId": "6cf662a1",
+							"path": "5.0.2.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f36ad8be:image.url",
+							"blockId": "f36ad8be",
+							"path": "5.0.2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/avatar.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						},
+						{
+							"id": "27718068:image.url",
+							"blockId": "27718068",
+							"path": "5.0.2.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/client.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "feede381",
+					"index": 6,
+					"path": "6",
+					"group": "feede381",
+					"role": "cta",
+					"title": "GOT PROJECT",
+					"slots": [
+						{
+							"id": "d1cee5a8:text",
+							"blockId": "d1cee5a8",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "GOT PROJECT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0316b871:text",
+							"blockId": "0316b871",
+							"path": "6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Let's Work Together",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bc4edc61:text",
+							"blockId": "bc4edc61",
+							"path": "6.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy .",
+							"rich": false,
+							"words": 61,
+							"minWords": 37,
+							"maxWords": 77,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ed908d4f:text",
+							"blockId": "ed908d4f",
+							"path": "6.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "HIRE ME",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "bc7452da",
+					"index": 7,
+					"path": "7",
+					"group": "bc7452da",
+					"role": "posts",
+					"title": "BLOG",
+					"slots": [
+						{
+							"id": "4576210a:text",
+							"blockId": "4576210a",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "BLOG",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "70a04c21:text",
+							"blockId": "70a04c21",
+							"path": "7.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest Blog",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e3830d6d:text",
+							"blockId": "e3830d6d",
+							"path": "7.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Which tools should I use as a UX Designer",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ea7eafd9:text",
+							"blockId": "ea7eafd9",
+							"path": "7.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "February 21, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bde4a3d3:text",
+							"blockId": "bde4a3d3",
+							"path": "7.0.2.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam …",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9cd1c89d:text",
+							"blockId": "9cd1c89d",
+							"path": "7.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "How do you work as a full time freelancer?",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c14dc97a:text",
+							"blockId": "c14dc97a",
+							"path": "7.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "February 21, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09bd4fff:text",
+							"blockId": "09bd4fff",
+							"path": "7.0.2.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam …",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f9633b45:text",
+							"blockId": "f9633b45",
+							"path": "7.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "5 Digital Marketplaces for UX/UI Designers",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fbd407f1:text",
+							"blockId": "fbd407f1",
+							"path": "7.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "February 21, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5922c05d:text",
+							"blockId": "5922c05d",
+							"path": "7.0.2.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam …",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "cc7a1be6:image.url",
+							"blockId": "cc7a1be6",
+							"path": "7.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/blog-1.jpg",
+							"decorative": false,
+							"width": 923,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Desk with two computer monitors in a bright office",
+							"tone": {
+								"grid": [
+									0.84,
+									0.47,
+									0.42,
+									0.86,
+									0.4,
+									0.3,
+									0.86,
+									0.67,
+									0.65
+								],
+								"color": "#9d9b9b"
+							}
+						},
+						{
+							"id": "58d820ba:image.url",
+							"blockId": "58d820ba",
+							"path": "7.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/blog-2.jpg",
+							"decorative": false,
+							"width": 923,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling woman in a hat using a laptop on a flower balcony",
+							"tone": {
+								"grid": [
+									0.69,
+									0.45,
+									0.38,
+									0.47,
+									0.3,
+									0.42,
+									0.39,
+									0.44,
+									0.53
+								],
+								"color": "#7a7174"
+							}
+						},
+						{
+							"id": "b8c6da45:image.url",
+							"blockId": "b8c6da45",
+							"path": "7.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/blog-3.jpg",
+							"decorative": false,
+							"width": 923,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Smartphone screen with social media app icons",
+							"tone": {
+								"grid": [
+									0.24,
+									0.35,
+									0.2,
+									0.22,
+									0.23,
+									0.25,
+									0.23,
+									0.27,
+									0.16
+								],
+								"color": "#433857"
+							}
+						}
+					]
+				},
+				{
+					"id": "adfab55c",
+					"index": 8,
+					"path": "8",
+					"group": "adfab55c",
+					"role": "contact",
+					"title": "GET IN TOUCH",
+					"slots": [
+						{
+							"id": "116a28d9:text",
+							"blockId": "116a28d9",
+							"path": "8.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "GET IN TOUCH",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ec103720:text",
+							"blockId": "ec103720",
+							"path": "8.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Find Me On",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3595f317:text",
+							"blockId": "3595f317",
+							"path": "8.0.2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Linkedin",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "46bc5519:text",
+							"blockId": "46bc5519",
+							"path": "8.0.2.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Professional profile",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a87e6c80:text",
+							"blockId": "a87e6c80",
+							"path": "8.0.2.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Behance",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e3e81fc9:text",
+							"blockId": "e3e81fc9",
+							"path": "8.0.2.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Design profile",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "44fd1c05:text",
+							"blockId": "44fd1c05",
+							"path": "8.0.2.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Twitter",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0fe79d62:text",
+							"blockId": "0fe79d62",
+							"path": "8.0.2.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Random thoughts",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b1f6a1d2:text",
+							"blockId": "b1f6a1d2",
+							"path": "8.0.3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Instagram",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5e216769:text",
+							"blockId": "5e216769",
+							"path": "8.0.3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Image social communication",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ec29cb76:text",
+							"blockId": "ec29cb76",
+							"path": "8.0.3.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Gitlab",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ce46aa8f:text",
+							"blockId": "ce46aa8f",
+							"path": "8.0.3.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Program source code",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5d270d7c:text",
+							"blockId": "5d270d7c",
+							"path": "8.0.3.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Email",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "71c6fa50:text",
+							"blockId": "71c6fa50",
+							"path": "8.0.3.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "hello@portfolio.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "8eac3f7e:image.url",
+							"blockId": "8eac3f7e",
+							"path": "8.0.2.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/linkedin-in.png",
+							"decorative": true,
+							"width": 448,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "f0b4939b:image.url",
+							"blockId": "f0b4939b",
+							"path": "8.0.2.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/behance.png",
+							"decorative": true,
+							"width": 576,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "8094b5b9:image.url",
+							"blockId": "8094b5b9",
+							"path": "8.0.2.2.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/twitter.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "e1c4d33f:image.url",
+							"blockId": "e1c4d33f",
+							"path": "8.0.3.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/envelope-regular.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "6be0ec69:image.url",
+							"blockId": "6be0ec69",
+							"path": "8.0.3.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/gitlab.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "a1c38660:image.url",
+							"blockId": "a1c38660",
+							"path": "8.0.3.2.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/envelope-regular.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "b6c89446",
+					"role": "hero",
+					"title": "I'm Kamren Terry",
+					"sectionIds": [
+						"b6c89446"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7be73dce",
+					"role": "content",
+					"title": "MY STORY",
+					"sectionIds": [
+						"7be73dce"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5d2fb043",
+					"role": "content",
+					"title": "SERVICES",
+					"sectionIds": [
+						"5d2fb043"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "8f315bc8",
+					"role": "gallery",
+					"title": "PROJECTS",
+					"sectionIds": [
+						"8f315bc8"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"portfolio"
+						]
+					}
+				},
+				{
+					"id": "0eb971b7",
+					"role": "testimonials",
+					"title": "ORGANIZATION",
+					"sectionIds": [
+						"0eb971b7",
+						"58173e51"
+					],
+					"paths": [
+						"4",
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "feede381",
+					"role": "cta",
+					"title": "GOT PROJECT",
+					"sectionIds": [
+						"feede381"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "bc7452da",
+					"role": "posts",
+					"title": "BLOG",
+					"sectionIds": [
+						"bc7452da"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "adfab55c",
+					"role": "contact",
+					"title": "GET IN TOUCH",
+					"sectionIds": [
+						"adfab55c"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "projects",
+			"title": "Projects",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/themegrill-demos/projects-content.xml",
+			"sections": [
+				{
+					"id": "b6c89446",
+					"index": 0,
+					"path": "0",
+					"group": "b6c89446",
+					"role": "hero",
+					"title": "Awesome Projects",
+					"slots": [
+						{
+							"id": "ad6a051e:text",
+							"blockId": "ad6a051e",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Awesome Projects",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.1:@html:p",
+							"blockId": "core-0.0.1",
+							"path": "0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e55badfa:text",
+							"blockId": "e55badfa",
+							"path": "0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "HIRE ME",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a396013f:image.url",
+							"blockId": "a396013f",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/awesome-watch-project.png",
+							"decorative": false,
+							"width": 643,
+							"height": 625,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Smartwatch with a blue strap",
+							"tone": {
+								"grid": [
+									0.49,
+									0.41,
+									0.71,
+									0.17,
+									0.33,
+									0.66,
+									0.76,
+									0.7,
+									0.9
+								],
+								"color": "#8490c6"
+							}
+						}
+					]
+				},
+				{
+					"id": "58173e51",
+					"index": 1,
+					"path": "1",
+					"group": "58173e51",
+					"role": "features",
+					"title": "PORTFOLIO",
+					"slots": [
+						{
+							"id": "fed58d14:text",
+							"blockId": "fed58d14",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "PORTFOLIO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "139c750e:text",
+							"blockId": "139c750e",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Project I Have Worked With",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb6540ac:text",
+							"blockId": "bb6540ac",
+							"path": "1.0.2.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Medical Web Design",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3207150:text",
+							"blockId": "d3207150",
+							"path": "1.0.2.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "UX/UI Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3aa901ea:text",
+							"blockId": "3aa901ea",
+							"path": "1.0.2.0.1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "DETAILS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9352d6b0:text",
+							"blockId": "9352d6b0",
+							"path": "1.0.2.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "TravelWeb Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c08ce67:text",
+							"blockId": "4c08ce67",
+							"path": "1.0.2.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "UX/UI Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3aa901ea~1:text",
+							"blockId": "3aa901ea~1",
+							"path": "1.0.2.1.1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "DETAILS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c84f40d0:text",
+							"blockId": "c84f40d0",
+							"path": "1.0.3.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Character Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dcb886c8:text",
+							"blockId": "dcb886c8",
+							"path": "1.0.3.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Doodles",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3aa901ea~2:text",
+							"blockId": "3aa901ea~2",
+							"path": "1.0.3.0.1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "DETAILS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "964e49f0:text",
+							"blockId": "964e49f0",
+							"path": "1.0.3.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Medical Web Design",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "20bec3c7:text",
+							"blockId": "20bec3c7",
+							"path": "1.0.3.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "UX/UI Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3aa901ea~3:text",
+							"blockId": "3aa901ea~3",
+							"path": "1.0.3.1.1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "DETAILS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2032a772:text",
+							"blockId": "2032a772",
+							"path": "1.0.4.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "James and sons",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cc6f6761:text",
+							"blockId": "cc6f6761",
+							"path": "1.0.4.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Logo Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3aa901ea~4:text",
+							"blockId": "3aa901ea~4",
+							"path": "1.0.4.0.1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "DETAILS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7373c591:text",
+							"blockId": "7373c591",
+							"path": "1.0.4.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Medical Web Design",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "292b8126:text",
+							"blockId": "292b8126",
+							"path": "1.0.4.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "UX/UI Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3aa901ea~5:text",
+							"blockId": "3aa901ea~5",
+							"path": "1.0.4.1.1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "DETAILS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e55badfa~1:text",
+							"blockId": "e55badfa~1",
+							"path": "1.0.5.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW ON DRIBBBLE",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0ebfa2b5:image.url",
+							"blockId": "0ebfa2b5",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/project-1.jpg",
+							"decorative": false,
+							"width": 669,
+							"height": 470,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Laptop mockup showing a medical website",
+							"tone": {
+								"grid": [
+									0.74,
+									0.89,
+									0.87,
+									0.64,
+									0.55,
+									0.71,
+									0.61,
+									0.53,
+									0.51
+								],
+								"color": "#7bb4e7"
+							}
+						},
+						{
+							"id": "e542e64d:image.url",
+							"blockId": "e542e64d",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/project-2.jpg",
+							"decorative": false,
+							"width": 669,
+							"height": 470,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Travel website homepage mockup",
+							"tone": {
+								"grid": [
+									0.94,
+									0.84,
+									0.78,
+									0.68,
+									0.5,
+									0.55,
+									0.95,
+									0.97,
+									0.94
+								],
+								"color": "#d3c9b9"
+							}
+						},
+						{
+							"id": "c97cd058:image.url",
+							"blockId": "c97cd058",
+							"path": "1.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/project-3.png",
+							"decorative": false,
+							"width": 669,
+							"height": 470,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Illustration of people dancing and jumping",
+							"tone": {
+								"grid": [
+									0.83,
+									0.96,
+									0.9,
+									0.89,
+									0.83,
+									0.64,
+									0.78,
+									0.95,
+									0.88
+								],
+								"color": "#dfd7d9"
+							}
+						},
+						{
+							"id": "68101c92:image.url",
+							"blockId": "68101c92",
+							"path": "1.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/project-4.jpg",
+							"decorative": false,
+							"width": 669,
+							"height": 470,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Healthcare website page mockup",
+							"tone": {
+								"grid": [
+									0.75,
+									0.81,
+									0.82,
+									0.76,
+									0.8,
+									0.8,
+									0.83,
+									0.83,
+									0.73
+								],
+								"color": "#c3cebb"
+							}
+						},
+						{
+							"id": "a011ac79:image.url",
+							"blockId": "a011ac79",
+							"path": "1.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/project-5.png",
+							"decorative": true,
+							"width": 669,
+							"height": 470,
+							"orientation": "landscape"
+						},
+						{
+							"id": "715645d5:image.url",
+							"blockId": "715645d5",
+							"path": "1.0.4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/project-6.png",
+							"decorative": true,
+							"width": 669,
+							"height": 470,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "7be73dce",
+					"index": 2,
+					"path": "2",
+					"group": "7be73dce",
+					"role": "cta",
+					"title": "YOUTUBE",
+					"slots": [
+						{
+							"id": "a048757e:text",
+							"blockId": "a048757e",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "YOUTUBE",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09a770d7:text",
+							"blockId": "09a770d7",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Subscribe Channel",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a3c380e1:text",
+							"blockId": "a3c380e1",
+							"path": "2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.",
+							"rich": false,
+							"words": 40,
+							"minWords": 24,
+							"maxWords": 50,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e55badfa~2:text",
+							"blockId": "e55badfa~2",
+							"path": "2.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "YOUTUBE",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b92c2f12:image.url",
+							"blockId": "b92c2f12",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/image-1-1.png",
+							"decorative": false,
+							"width": 849,
+							"height": 847,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Smartwatch design promotional graphic",
+							"tone": {
+								"grid": [
+									0.45,
+									0.36,
+									0.65,
+									0.33,
+									0.16,
+									0.6,
+									0.69,
+									0.65,
+									0.79
+								],
+								"color": "#6e899b"
+							}
+						}
+					]
+				},
+				{
+					"id": "a7b4ff2a",
+					"index": 3,
+					"path": "3",
+					"group": "a7b4ff2a",
+					"role": "testimonials",
+					"title": "TESTIMONIALS",
+					"slots": [
+						{
+							"id": "abff4805:text",
+							"blockId": "abff4805",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "TESTIMONIALS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3555ed9d:text",
+							"blockId": "3555ed9d",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Happy Client Says",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a5a91a7:text",
+							"blockId": "2a5a91a7",
+							"path": "3.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "46cc433b:text",
+							"blockId": "46cc433b",
+							"path": "3.0.2.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Joe Hunter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4f3eae1:text",
+							"blockId": "f4f3eae1",
+							"path": "3.0.2.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61cfa103:text",
+							"blockId": "61cfa103",
+							"path": "3.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fe55a1db:text",
+							"blockId": "fe55a1db",
+							"path": "3.0.2.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Jack Water",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6cf662a1:text",
+							"blockId": "6cf662a1",
+							"path": "3.0.2.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f36ad8be:image.url",
+							"blockId": "f36ad8be",
+							"path": "3.0.2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/avatar.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						},
+						{
+							"id": "27718068:image.url",
+							"blockId": "27718068",
+							"path": "3.0.2.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/client.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "de745c57",
+					"index": 4,
+					"path": "4",
+					"group": "de745c57",
+					"role": "cta",
+					"title": "GOT PROJECT",
+					"slots": [
+						{
+							"id": "4d83e6c3:text",
+							"blockId": "4d83e6c3",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "GOT PROJECT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36672664:text",
+							"blockId": "36672664",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Let's Work Together",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dd7e4d6d:text",
+							"blockId": "dd7e4d6d",
+							"path": "4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy .",
+							"rich": false,
+							"words": 61,
+							"minWords": 37,
+							"maxWords": 77,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ed908d4f:text",
+							"blockId": "ed908d4f",
+							"path": "4.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "HIRE ME",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "b6c89446",
+					"role": "hero",
+					"title": "Awesome Projects",
+					"sectionIds": [
+						"b6c89446"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "58173e51",
+					"role": "features",
+					"title": "PORTFOLIO",
+					"sectionIds": [
+						"58173e51"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7be73dce",
+					"role": "cta",
+					"title": "YOUTUBE",
+					"sectionIds": [
+						"7be73dce"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a7b4ff2a",
+					"role": "testimonials",
+					"title": "TESTIMONIALS",
+					"sectionIds": [
+						"a7b4ff2a"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "de745c57",
+					"role": "cta",
+					"title": "GOT PROJECT",
+					"sectionIds": [
+						"de745c57"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "a7b4ff2a",
+					"index": 0,
+					"path": "0",
+					"group": "a7b4ff2a",
+					"role": "dynamic",
+					"title": "DON'T BE SHY",
+					"slots": [
+						{
+							"id": "abff4805:text",
+							"blockId": "abff4805",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "DON'T BE SHY",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3555ed9d:text",
+							"blockId": "3555ed9d",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Have Any Question?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "46cc433b:text",
+							"blockId": "46cc433b",
+							"path": "0.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Address",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4f3eae1:text",
+							"blockId": "f4f3eae1",
+							"path": "0.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "123 North Street, Toronto Ontario, M45 7H2",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cecb4458:text",
+							"blockId": "cecb4458",
+							"path": "0.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "EMAIL",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e72e9fe3:text",
+							"blockId": "e72e9fe3",
+							"path": "0.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "hello@portfolio.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "010b45ab:text",
+							"blockId": "010b45ab",
+							"path": "0.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "PHONE",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "abbd7c28:text",
+							"blockId": "abbd7c28",
+							"path": "0.1.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "(+1) 689 568 6548 (+2) 689 568 6549",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						}
+					],
+					"images": [
+						{
+							"id": "a7b4ff2a:background.image.image.url",
+							"blockId": "a7b4ff2a",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/shape-1.png",
+							"decorative": true,
+							"width": 638,
+							"height": 638,
+							"orientation": "square"
+						},
+						{
+							"id": "f36ad8be:image.url",
+							"blockId": "f36ad8be",
+							"path": "0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon.png",
+							"decorative": true,
+							"width": 46,
+							"height": 46,
+							"orientation": "square"
+						},
+						{
+							"id": "8d1b0ba2:image.url",
+							"blockId": "8d1b0ba2",
+							"path": "0.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon-1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 42,
+							"orientation": "landscape"
+						},
+						{
+							"id": "8caf2db5:image.url",
+							"blockId": "8caf2db5",
+							"path": "0.1.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon-2.png",
+							"decorative": true,
+							"width": 45,
+							"height": 49,
+							"orientation": "square"
+						}
+					],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "a7b4ff2a",
+					"role": "dynamic",
+					"title": "DON'T BE SHY",
+					"sectionIds": [
+						"a7b4ff2a"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "project-casestudy",
+			"title": "Project Casestudy",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/themegrill-demos/project-casestudy-content.xml",
+			"sections": [
+				{
+					"id": "b6c89446",
+					"index": 0,
+					"path": "0",
+					"group": "b6c89446",
+					"role": "hero",
+					"title": "Illustration Case Study",
+					"slots": [
+						{
+							"id": "2934dab3:text",
+							"blockId": "2934dab3",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Illustration Case Study",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad6a051e:text",
+							"blockId": "ad6a051e",
+							"path": "0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Product Designer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4fbc47d3:text",
+							"blockId": "4fbc47d3",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "a396013f:image.url",
+							"blockId": "a396013f",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/doodle-image-1.png",
+							"decorative": false,
+							"width": 1058,
+							"height": 843,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Illustration of various people in different poses",
+							"tone": {
+								"grid": [
+									1,
+									0.95,
+									0.96,
+									0.96,
+									0.84,
+									0.87,
+									0.94,
+									0.86,
+									0.97
+								],
+								"color": "#efecee"
+							}
+						}
+					]
+				},
+				{
+					"id": "3ed8938b",
+					"index": 1,
+					"path": "1",
+					"group": "3ed8938b",
+					"role": "content",
+					"slots": [
+						{
+							"id": "3fa28cc9:text",
+							"blockId": "3fa28cc9",
+							"path": "1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1ff6a7cd:text",
+							"blockId": "1ff6a7cd",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.",
+							"rich": false,
+							"words": 59,
+							"minWords": 35,
+							"maxWords": 74,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "47bb0994:text",
+							"blockId": "47bb0994",
+							"path": "1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.",
+							"rich": false,
+							"words": 59,
+							"minWords": 35,
+							"maxWords": 74,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fa5c2711:text",
+							"blockId": "fa5c2711",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua erat. At vero eos et accusam rebum erat et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "feede381",
+					"index": 2,
+					"path": "2",
+					"group": "feede381",
+					"role": "gallery",
+					"title": "CHARACTER ILLUSTRATION",
+					"slots": [
+						{
+							"id": "d1cee5a8:text",
+							"blockId": "d1cee5a8",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "CHARACTER ILLUSTRATION",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0316b871:text",
+							"blockId": "0316b871",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Doodles",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "feede381:background.image.image.url",
+							"blockId": "feede381",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/wave.png",
+							"decorative": true,
+							"width": 945,
+							"height": 768,
+							"orientation": "landscape"
+						},
+						{
+							"id": "9cae4a5f:image.url",
+							"blockId": "9cae4a5f",
+							"path": "2.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/SelfieDoodle.png",
+							"decorative": false,
+							"width": 327,
+							"height": 323,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Illustration of a man taking a selfie with a phone",
+							"tone": {
+								"grid": [
+									0.99,
+									0.88,
+									0.95,
+									0.91,
+									0.52,
+									0.99,
+									0.99,
+									0.9,
+									1
+								],
+								"color": "#e9e6e6"
+							}
+						},
+						{
+							"id": "5723cb9f:image.url",
+							"blockId": "5723cb9f",
+							"path": "2.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/MoshingDoodle.png",
+							"decorative": false,
+							"width": 327,
+							"height": 323,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Illustration of a person dancing",
+							"tone": {
+								"grid": [
+									0.99,
+									0.81,
+									0.97,
+									0.9,
+									0.5,
+									0.92,
+									0.98,
+									0.89,
+									0.94
+								],
+								"color": "#e5dfdf"
+							}
+						},
+						{
+							"id": "3b9ad7b6:image.url",
+							"blockId": "3b9ad7b6",
+							"path": "2.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/CoffeeDoddle.png",
+							"decorative": false,
+							"width": 327,
+							"height": 323,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Illustration of a person spilling from a giant coffee cup",
+							"tone": {
+								"grid": [
+									0.87,
+									0.8,
+									0.99,
+									0.88,
+									0.54,
+									0.94,
+									1,
+									0.97,
+									1
+								],
+								"color": "#e4e2e2"
+							}
+						},
+						{
+							"id": "11c53c43:image.url",
+							"blockId": "11c53c43",
+							"path": "2.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/RollerSkatingDoodle.png",
+							"decorative": false,
+							"width": 327,
+							"height": 323,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Illustration of a woman roller skating",
+							"tone": {
+								"grid": [
+									0.96,
+									0.89,
+									1,
+									0.93,
+									0.79,
+									0.93,
+									1,
+									0.93,
+									1
+								],
+								"color": "#efeeee"
+							}
+						}
+					]
+				},
+				{
+					"id": "fb814562",
+					"index": 3,
+					"path": "3",
+					"group": "fb814562",
+					"role": "content",
+					"title": "My Role",
+					"slots": [
+						{
+							"id": "5bf2e9d9:text",
+							"blockId": "5bf2e9d9",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "01",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e475fa47:text",
+							"blockId": "e475fa47",
+							"path": "3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "My Role",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36d2baf4:text",
+							"blockId": "36d2baf4",
+							"path": "3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "36f58889:text",
+							"blockId": "36f58889",
+							"path": "3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+							"rich": false,
+							"words": 44,
+							"minWords": 26,
+							"maxWords": 55,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0b099e8b:text",
+							"blockId": "0b099e8b",
+							"path": "3.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Responsibility",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.4.0:@html:li",
+							"blockId": "core-3.1.4.0",
+							"path": "3.1.4.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.1.4.1:@html:li",
+							"blockId": "core-3.1.4.1",
+							"path": "3.1.4.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Magna aliquyam erat, sed diam voluptua.",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.4.2:@html:li",
+							"blockId": "core-3.1.4.2",
+							"path": "3.1.4.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "At vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.4.3:@html:li",
+							"blockId": "core-3.1.4.3",
+							"path": "3.1.4.3",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.1.4.4:@html:li",
+							"blockId": "core-3.1.4.4",
+							"path": "3.1.4.4",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "fb814562:background.image.image.url",
+							"blockId": "fb814562",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/shape-1.png",
+							"decorative": true,
+							"width": 638,
+							"height": 638,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "a6a54ec5",
+					"index": 4,
+					"path": "4",
+					"group": "a6a54ec5",
+					"role": "content",
+					"title": "My Process",
+					"slots": [
+						{
+							"id": "5c6379a6:text",
+							"blockId": "5c6379a6",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "My Process",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "07d27e43:text",
+							"blockId": "07d27e43",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c38b6908:text",
+							"blockId": "c38b6908",
+							"path": "4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+							"rich": false,
+							"words": 44,
+							"minWords": 26,
+							"maxWords": 55,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8e594c8c:text",
+							"blockId": "8e594c8c",
+							"path": "4.0.3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "- Interviews - Surveys - Analysis",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f81463b3:text",
+							"blockId": "f81463b3",
+							"path": "4.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "- Sketching Ideas - Wireframing - UI Mockups",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11d44dce:text",
+							"blockId": "11d44dce",
+							"path": "4.0.3.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "- Prototyping - Interaction - Animation",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "20aa5546:text",
+							"blockId": "20aa5546",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "02",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						}
+					],
+					"images": [
+						{
+							"id": "a6a54ec5:background.image.image.url",
+							"blockId": "a6a54ec5",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/shape-1.png",
+							"decorative": true,
+							"width": 638,
+							"height": 638,
+							"orientation": "square"
+						},
+						{
+							"id": "caf5a76c:image.url",
+							"blockId": "caf5a76c",
+							"path": "4.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-19-1.png",
+							"decorative": true,
+							"width": 155,
+							"height": 40,
+							"orientation": "landscape"
+						},
+						{
+							"id": "eaa33596:image.url",
+							"blockId": "eaa33596",
+							"path": "4.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-18.png",
+							"decorative": true,
+							"width": 144,
+							"height": 40,
+							"orientation": "landscape"
+						},
+						{
+							"id": "6eba1beb:image.url",
+							"blockId": "6eba1beb",
+							"path": "4.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-20.png",
+							"decorative": true,
+							"width": 265,
+							"height": 40,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "3ab99550",
+					"index": 5,
+					"path": "5",
+					"group": "3ab99550",
+					"role": "content",
+					"title": "My Problems",
+					"slots": [
+						{
+							"id": "bb30a18f:text",
+							"blockId": "bb30a18f",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "03",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "14805a4e:text",
+							"blockId": "14805a4e",
+							"path": "5.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "My Problems",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a7cf8b65:text",
+							"blockId": "a7cf8b65",
+							"path": "5.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "05f97c39:text",
+							"blockId": "05f97c39",
+							"path": "5.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+							"rich": false,
+							"words": 44,
+							"minWords": 26,
+							"maxWords": 55,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3ca28ede:text",
+							"blockId": "3ca28ede",
+							"path": "5.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "My Solutions",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4d36aa17:text",
+							"blockId": "4d36aa17",
+							"path": "5.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.",
+							"rich": false,
+							"words": 44,
+							"minWords": 26,
+							"maxWords": 55,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "3ab99550:background.image.image.url",
+							"blockId": "3ab99550",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/shape-1.png",
+							"decorative": true,
+							"width": 638,
+							"height": 638,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "58173e51",
+					"index": 6,
+					"path": "6",
+					"group": "58173e51",
+					"role": "testimonials",
+					"title": "TESTIMONIALS",
+					"slots": [
+						{
+							"id": "fed58d14:text",
+							"blockId": "fed58d14",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "TESTIMONIALS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "139c750e:text",
+							"blockId": "139c750e",
+							"path": "6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Happy Client Says",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0eb971b7",
+					"index": 7,
+					"path": "7",
+					"group": "58173e51",
+					"role": "testimonials",
+					"title": "FIRST STEP",
+					"slots": [
+						{
+							"id": "298e994a:text",
+							"blockId": "298e994a",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "FIRST STEP",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7c92c8b8:text",
+							"blockId": "7c92c8b8",
+							"path": "7.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Wireframe",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cb13d98e:text",
+							"blockId": "cb13d98e",
+							"path": "7.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "87a89d47:image.url",
+							"blockId": "87a89d47",
+							"path": "7.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/ZombieingDoodle.png",
+							"decorative": false,
+							"width": 387,
+							"height": 322,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Illustration of a man jumping with shapes around him",
+							"tone": {
+								"grid": [
+									0.99,
+									0.88,
+									0.99,
+									0.95,
+									0.65,
+									0.95,
+									1,
+									0.96,
+									1
+								],
+								"color": "#ededed"
+							}
+						},
+						{
+							"id": "4ea93c0e:image.url",
+							"blockId": "4ea93c0e",
+							"path": "7.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/SelfieDoodle-1.png",
+							"decorative": false,
+							"width": 387,
+							"height": 322,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Illustration of a man taking a selfie with a phone",
+							"tone": {
+								"grid": [
+									1,
+									0.87,
+									0.99,
+									0.99,
+									0.66,
+									1,
+									1,
+									0.97,
+									1
+								],
+								"color": "#f0f0f1"
+							}
+						},
+						{
+							"id": "07845a11:image.url",
+							"blockId": "07845a11",
+							"path": "7.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/MessyDoodle.png",
+							"decorative": false,
+							"width": 387,
+							"height": 322,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Illustration of a man juggling papers",
+							"tone": {
+								"grid": [
+									0.97,
+									0.93,
+									0.96,
+									0.92,
+									0.83,
+									0.92,
+									0.97,
+									0.96,
+									1
+								],
+								"color": "#efeff0"
+							}
+						},
+						{
+							"id": "358bfb01:image.url",
+							"blockId": "358bfb01",
+							"path": "7.0.3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/PettingDoodle.png",
+							"decorative": false,
+							"width": 387,
+							"height": 322,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Illustration of a woman kneeling with her dog",
+							"tone": {
+								"grid": [
+									1,
+									0.82,
+									1,
+									0.93,
+									0.7,
+									0.98,
+									0.97,
+									0.88,
+									0.97
+								],
+								"color": "#eaeaea"
+							}
+						},
+						{
+							"id": "d00a4b8a:image.url",
+							"blockId": "d00a4b8a",
+							"path": "7.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/ReadingDoodle.png",
+							"decorative": false,
+							"width": 387,
+							"height": 322,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Illustration of a person sitting cross-legged reading a book",
+							"tone": {
+								"grid": [
+									1,
+									0.88,
+									1,
+									0.97,
+									0.62,
+									0.97,
+									0.98,
+									0.93,
+									0.99
+								],
+								"color": "#ececed"
+							}
+						},
+						{
+							"id": "394d239d:image.url",
+							"blockId": "394d239d",
+							"path": "7.0.4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/background-1.png",
+							"decorative": false,
+							"width": 387,
+							"height": 322,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Illustration of a man dancing",
+							"tone": {
+								"grid": [
+									1,
+									0.91,
+									0.96,
+									0.93,
+									0.75,
+									0.99,
+									0.99,
+									0.93,
+									1
+								],
+								"color": "#f0f0f1"
+							}
+						},
+						{
+							"id": "19982e59:image.url",
+							"blockId": "19982e59",
+							"path": "7.0.4.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/SwingingDoodle.png",
+							"decorative": false,
+							"width": 387,
+							"height": 322,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Illustration of a woman on a swing",
+							"tone": {
+								"grid": [
+									0.94,
+									0.81,
+									1,
+									0.96,
+									0.77,
+									0.97,
+									0.99,
+									0.92,
+									0.99
+								],
+								"color": "#ededed"
+							}
+						},
+						{
+							"id": "27fb1d48:image.url",
+							"blockId": "27fb1d48",
+							"path": "7.0.4.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/DoogieDoodle.png",
+							"decorative": false,
+							"width": 387,
+							"height": 322,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Illustration of a man sitting with his dog",
+							"tone": {
+								"grid": [
+									0.99,
+									0.91,
+									1,
+									0.89,
+									0.76,
+									0.95,
+									0.99,
+									0.98,
+									0.99
+								],
+								"color": "#f0eff0"
+							}
+						}
+					]
+				},
+				{
+					"id": "479441b0",
+					"index": 8,
+					"path": "8",
+					"group": "479441b0",
+					"role": "content",
+					"title": "See Prev Project",
+					"slots": [
+						{
+							"id": "46cc433b:text",
+							"blockId": "46cc433b",
+							"path": "8.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "See Prev Project",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4f3eae1:text",
+							"blockId": "f4f3eae1",
+							"path": "8.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Previous",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3dff3dcd:text",
+							"blockId": "3dff3dcd",
+							"path": "8.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "See Prev Project",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "18caa1b2:text",
+							"blockId": "18caa1b2",
+							"path": "8.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Previous",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f36ad8be:image.url",
+							"blockId": "f36ad8be",
+							"path": "8.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/navigation1.png",
+							"decorative": false,
+							"width": 320,
+							"height": 253,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Travel website homepage mockup",
+							"tone": {
+								"grid": [
+									0.91,
+									0.83,
+									0.8,
+									0.59,
+									0.5,
+									0.55,
+									0.95,
+									0.96,
+									0.94
+								],
+								"color": "#cec7ba"
+							}
+						},
+						{
+							"id": "662d46c3:image.url",
+							"blockId": "662d46c3",
+							"path": "8.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/navigation2.png",
+							"decorative": true,
+							"width": 287,
+							"height": 253,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "b6c89446",
+					"role": "hero",
+					"title": "Illustration Case Study",
+					"sectionIds": [
+						"b6c89446"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3ed8938b",
+					"role": "content",
+					"sectionIds": [
+						"3ed8938b"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "feede381",
+					"role": "gallery",
+					"title": "CHARACTER ILLUSTRATION",
+					"sectionIds": [
+						"feede381"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "fb814562",
+					"role": "content",
+					"title": "My Role",
+					"sectionIds": [
+						"fb814562"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a6a54ec5",
+					"role": "content",
+					"title": "My Process",
+					"sectionIds": [
+						"a6a54ec5"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3ab99550",
+					"role": "content",
+					"title": "My Problems",
+					"sectionIds": [
+						"3ab99550"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "58173e51",
+					"role": "testimonials",
+					"title": "TESTIMONIALS",
+					"sectionIds": [
+						"58173e51",
+						"0eb971b7"
+					],
+					"paths": [
+						"6",
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "479441b0",
+					"role": "content",
+					"title": "See Prev Project",
+					"sectionIds": [
+						"479441b0"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 24,
+		"textSlots": 149,
+		"editableSlots": 143,
+		"images": 65,
+		"swappableImages": 31,
+		"words": 1300
+	},
+	"builtAt": "2026-10-24T11:35:07.967Z"
+}

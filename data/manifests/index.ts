@@ -2,25 +2,151 @@
 import type { DemoCatalogEntry, DemoManifest } from '../../lib/demos/types';
 import catalog from './index.json';
 import m0 from './agency-03.json';
-import m1 from './construction-02.json';
-import m2 from './eduskill.json';
-import m3 from './fitclub.json';
-import m4 from './lawyer-v2.json';
-import m5 from './plumber-v2.json';
-import m6 from './restaurant-v2.json';
-import m7 from './spa-02.json';
-import m8 from './yoga-02.json';
+import m1 from './antique-store.json';
+import m2 from './applyjobs-v2.json';
+import m3 from './bizness-v2.json';
+import m4 from './book-author-02.json';
+import m5 from './business-firm-v2.json';
+import m6 from './business-v3.json';
+import m7 from './care-03.json';
+import m8 from './chapel-v2.json';
+import m9 from './charity-02.json';
+import m10 from './cleaner-v2.json';
+import m11 from './coffee-shop.json';
+import m12 from './construction-02.json';
+import m13 from './construction-v3.json';
+import m14 from './counselling-v2.json';
+import m15 from './dentico.json';
+import m16 from './digital-diary.json';
+import m17 from './digital-marketing-02.json';
+import m18 from './drone-02.json';
+import m19 from './education-02.json';
+import m20 from './eduskill.json';
+import m21 from './eguru.json';
+import m22 from './event-marketing.json';
+import m23 from './fitclub.json';
+import m24 from './flora.json';
+import m25 from './foundation-v2.json';
+import m26 from './furniture-v2.json';
+import m27 from './gamer.json';
+import m28 from './gift-shop-v2.json';
+import m29 from './gym-v2.json';
+import m30 from './happiness-coach.json';
+import m31 from './kidz.json';
+import m32 from './law-firm-v2.json';
+import m33 from './lawyer-v2.json';
+import m34 from './megadrone-v2.json';
+import m35 from './member-read.json';
+import m36 from './minimal-portfolio-02.json';
+import m37 from './musicband-v2.json';
+import m38 from './nutricoach.json';
+import m39 from './nutrition-coach.json';
+import m40 from './one-page-v3.json';
+import m41 from './online-course-02.json';
+import m42 from './online-learning.json';
+import m43 from './online-lms.json';
+import m44 from './online-shop.json';
+import m45 from './online-store-v2.json';
+import m46 from './optigo.json';
+import m47 from './organic-farm-v2.json';
+import m48 from './petcare.json';
+import m49 from './pictography-v2.json';
+import m50 from './plumber-v2.json';
+import m51 from './plumbing-services-v2.json';
+import m52 from './portfolio-v2.json';
+import m53 from './professional-02.json';
+import m54 from './real-estate-v2.json';
+import m55 from './restaurant-blog.json';
+import m56 from './restaurant-v2.json';
+import m57 from './restro-v2.json';
+import m58 from './spa-02.json';
+import m59 from './spa-center-v2.json';
+import m60 from './startup-business-v2.json';
+import m61 from './suffice.json';
+import m62 from './therapycoach.json';
+import m63 from './travel-agency.json';
+import m64 from './travel-blog.json';
+import m65 from './travel-v2.json';
+import m66 from './university-v2.json';
+import m67 from './webhost-v2.json';
+import m68 from './wedding-02.json';
+import m69 from './wedding-v3.json';
+import m70 from './writer-v2.json';
+import m71 from './yoga-02.json';
 
 export const DEMO_CATALOG = catalog as unknown as DemoCatalogEntry[];
 
 export const DEMO_MANIFESTS: Record<string, DemoManifest> = {
 	'agency-03': m0 as unknown as DemoManifest,
-	'construction-02': m1 as unknown as DemoManifest,
-	'eduskill': m2 as unknown as DemoManifest,
-	'fitclub': m3 as unknown as DemoManifest,
-	'lawyer-v2': m4 as unknown as DemoManifest,
-	'plumber-v2': m5 as unknown as DemoManifest,
-	'restaurant-v2': m6 as unknown as DemoManifest,
-	'spa-02': m7 as unknown as DemoManifest,
-	'yoga-02': m8 as unknown as DemoManifest,
+	'antique-store': m1 as unknown as DemoManifest,
+	'applyjobs-v2': m2 as unknown as DemoManifest,
+	'bizness-v2': m3 as unknown as DemoManifest,
+	'book-author-02': m4 as unknown as DemoManifest,
+	'business-firm-v2': m5 as unknown as DemoManifest,
+	'business-v3': m6 as unknown as DemoManifest,
+	'care-03': m7 as unknown as DemoManifest,
+	'chapel-v2': m8 as unknown as DemoManifest,
+	'charity-02': m9 as unknown as DemoManifest,
+	'cleaner-v2': m10 as unknown as DemoManifest,
+	'coffee-shop': m11 as unknown as DemoManifest,
+	'construction-02': m12 as unknown as DemoManifest,
+	'construction-v3': m13 as unknown as DemoManifest,
+	'counselling-v2': m14 as unknown as DemoManifest,
+	'dentico': m15 as unknown as DemoManifest,
+	'digital-diary': m16 as unknown as DemoManifest,
+	'digital-marketing-02': m17 as unknown as DemoManifest,
+	'drone-02': m18 as unknown as DemoManifest,
+	'education-02': m19 as unknown as DemoManifest,
+	'eduskill': m20 as unknown as DemoManifest,
+	'eguru': m21 as unknown as DemoManifest,
+	'event-marketing': m22 as unknown as DemoManifest,
+	'fitclub': m23 as unknown as DemoManifest,
+	'flora': m24 as unknown as DemoManifest,
+	'foundation-v2': m25 as unknown as DemoManifest,
+	'furniture-v2': m26 as unknown as DemoManifest,
+	'gamer': m27 as unknown as DemoManifest,
+	'gift-shop-v2': m28 as unknown as DemoManifest,
+	'gym-v2': m29 as unknown as DemoManifest,
+	'happiness-coach': m30 as unknown as DemoManifest,
+	'kidz': m31 as unknown as DemoManifest,
+	'law-firm-v2': m32 as unknown as DemoManifest,
+	'lawyer-v2': m33 as unknown as DemoManifest,
+	'megadrone-v2': m34 as unknown as DemoManifest,
+	'member-read': m35 as unknown as DemoManifest,
+	'minimal-portfolio-02': m36 as unknown as DemoManifest,
+	'musicband-v2': m37 as unknown as DemoManifest,
+	'nutricoach': m38 as unknown as DemoManifest,
+	'nutrition-coach': m39 as unknown as DemoManifest,
+	'one-page-v3': m40 as unknown as DemoManifest,
+	'online-course-02': m41 as unknown as DemoManifest,
+	'online-learning': m42 as unknown as DemoManifest,
+	'online-lms': m43 as unknown as DemoManifest,
+	'online-shop': m44 as unknown as DemoManifest,
+	'online-store-v2': m45 as unknown as DemoManifest,
+	'optigo': m46 as unknown as DemoManifest,
+	'organic-farm-v2': m47 as unknown as DemoManifest,
+	'petcare': m48 as unknown as DemoManifest,
+	'pictography-v2': m49 as unknown as DemoManifest,
+	'plumber-v2': m50 as unknown as DemoManifest,
+	'plumbing-services-v2': m51 as unknown as DemoManifest,
+	'portfolio-v2': m52 as unknown as DemoManifest,
+	'professional-02': m53 as unknown as DemoManifest,
+	'real-estate-v2': m54 as unknown as DemoManifest,
+	'restaurant-blog': m55 as unknown as DemoManifest,
+	'restaurant-v2': m56 as unknown as DemoManifest,
+	'restro-v2': m57 as unknown as DemoManifest,
+	'spa-02': m58 as unknown as DemoManifest,
+	'spa-center-v2': m59 as unknown as DemoManifest,
+	'startup-business-v2': m60 as unknown as DemoManifest,
+	'suffice': m61 as unknown as DemoManifest,
+	'therapycoach': m62 as unknown as DemoManifest,
+	'travel-agency': m63 as unknown as DemoManifest,
+	'travel-blog': m64 as unknown as DemoManifest,
+	'travel-v2': m65 as unknown as DemoManifest,
+	'university-v2': m66 as unknown as DemoManifest,
+	'webhost-v2': m67 as unknown as DemoManifest,
+	'wedding-02': m68 as unknown as DemoManifest,
+	'wedding-v3': m69 as unknown as DemoManifest,
+	'writer-v2': m70 as unknown as DemoManifest,
+	'yoga-02': m71 as unknown as DemoManifest,
 };

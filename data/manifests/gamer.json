@@ -1,0 +1,3905 @@
+{
+	"version": 4,
+	"slug": "gamer",
+	"name": "Gamer",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-gamer/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/gamer",
+	"niches": [
+		"gaming",
+		"entertainment"
+	],
+	"keywords": [
+		"gaming",
+		"esports",
+		"gamer",
+		"tournament",
+		"game studio",
+		"streamer",
+		"streaming"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms-pro/everest-forms-pro.php",
+		"everest-forms-style-customizer/everest-forms-style-customizer.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 152,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 107,
+					"background": 12,
+					"border": 9,
+					"icon": 12
+				}
+			},
+			{
+				"hex": "#17c82e",
+				"count": 45,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#17c82e",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 8,
+					"border": 6,
+					"background": 9,
+					"icon": 6
+				}
+			},
+			{
+				"hex": "#eeeeee",
+				"count": 20,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 20
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 19,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 13,
+					"border": 3
+				}
+			},
+			{
+				"hex": "#1ac430",
+				"count": 19,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#17c82e",
+				"lightnessDelta": -0.002,
+				"usage": {
+					"text": 9,
+					"border": 4,
+					"icon": 6
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 9,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#898989",
+				"count": 4,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#1c140f",
+				"count": 4,
+				"group": "brand",
+				"role": "accent",
+				"base": "#1c140f",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#adadad",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#999999",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#868686",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#2563eb",
+				"lightnessDelta": -0.163
+			},
+			{
+				"hex": "#deffe2",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#17c82e",
+				"lightnessDelta": 0.498,
+				"usage": {
+					"icon": 3
+				}
+			},
+			{
+				"hex": "#1bc330",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#17c82e",
+				"lightnessDelta": -0.002,
+				"usage": {
+					"icon": 3
+				}
+			},
+			{
+				"hex": "#0b0702",
+				"count": 2,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#222222",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#2563eb",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#2563eb",
+				"lightnessDelta": 0
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#17c82e",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#1c140f",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1ac430",
+				"bg": "#000000",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#17c82e",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1bc330",
+				"bg": "#000000",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1ac430",
+				"bg": "#000000",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#17c82e",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#17c82e",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#17c82e",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#17c82e",
+				"bg": "#000000",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Zen Dots",
+			"body": "Jost",
+			"map": {
+				"Zen Dots": "heading",
+				"Jost": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "748253c2",
+					"index": 0,
+					"path": "0",
+					"group": "748253c2",
+					"role": "hero",
+					"title": "Experience the Best gaming experience",
+					"slots": [
+						{
+							"id": "161032d3:text",
+							"blockId": "161032d3",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Experience the Best gaming experience",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "981b498c:text",
+							"blockId": "981b498c",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Indulge in an unforgettable dining experience like never before at our exquisite restaurant.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c1e5473d:text",
+							"blockId": "c1e5473d",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Join Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "748253c2:background.image.image.url",
+							"blockId": "748253c2",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Group-107269.png",
+							"decorative": true,
+							"width": 1440,
+							"height": 818,
+							"orientation": "landscape"
+						},
+						{
+							"id": "02d3d055:image.url",
+							"blockId": "02d3d055",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/favpng_dota-2-defense-of-the-ancients-cheating-in-video-games-electronic-sports-1.png",
+							"decorative": false,
+							"width": 1617,
+							"height": 1264,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Illustration of a green winged dragon creature from a fantasy game",
+							"tone": {
+								"grid": [
+									0.95,
+									0.75,
+									0.89,
+									0.69,
+									0.48,
+									0.67,
+									0.88,
+									0.83,
+									1
+								],
+								"color": "#c1cdc6"
+							}
+						}
+					]
+				},
+				{
+					"id": "df133ed7",
+					"index": 1,
+					"path": "1",
+					"group": "df133ed7",
+					"role": "content",
+					"title": "Grab The Best Gaming Experience",
+					"slots": [
+						{
+							"id": "346ccd22:text",
+							"blockId": "346ccd22",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Grab The Best Gaming Experience",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bdf533d6:text",
+							"blockId": "bdf533d6",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "507743c3:image.url",
+							"blockId": "507743c3",
+							"path": "1.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Group-107270-1.png",
+							"decorative": false,
+							"width": 1025,
+							"height": 538,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Laptop screen showing silhouettes of soldiers at sunset with helicopters",
+							"tone": {
+								"grid": [
+									0.78,
+									0.66,
+									0.8,
+									0.79,
+									0.61,
+									0.7,
+									0.64,
+									0.43,
+									0.58
+								],
+								"color": "#d3a46e"
+							}
+						}
+					]
+				},
+				{
+					"id": "7b28001a",
+					"index": 2,
+					"path": "2",
+					"group": "7b28001a",
+					"role": "content",
+					"title": "Amazing Online Tournaments",
+					"slots": [
+						{
+							"id": "4b36c264:text",
+							"blockId": "4b36c264",
+							"path": "2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "You will never walk alone",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f54c85ae:text",
+							"blockId": "f54c85ae",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Amazing Online Tournaments",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8d7ba22:text",
+							"blockId": "d8d7ba22",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "India's first consumer-centric real estate buying platform",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0697199b:text",
+							"blockId": "0697199b",
+							"path": "2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Join Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "799d6201:text",
+							"blockId": "799d6201",
+							"path": "2.0.3.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Register Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "d172a7e8:image.url",
+							"blockId": "d172a7e8",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/gaming-img-1-1.png",
+							"decorative": false,
+							"width": 710,
+							"height": 710,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Illustration of soldiers with rifles advancing through a battlefield",
+							"tone": {
+								"grid": [
+									0.65,
+									0.27,
+									0.25,
+									0.28,
+									0.16,
+									0.19,
+									0.36,
+									0.2,
+									0.26
+								],
+								"color": "#5a473b"
+							}
+						}
+					]
+				},
+				{
+					"id": "5b9a8c76",
+					"index": 3,
+					"path": "3",
+					"group": "5b9a8c76",
+					"role": "stats",
+					"title": "Recent Played Tournaments",
+					"slots": [
+						{
+							"id": "5d48082f:text",
+							"blockId": "5d48082f",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Recent Played Tournaments",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ec50e0ce:text",
+							"blockId": "ec50e0ce",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0be18307:text",
+							"blockId": "0be18307",
+							"path": "3.0.2.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "12-09-1999",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "be8513d7:text",
+							"blockId": "be8513d7",
+							"path": "3.0.2.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Valorant",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7a14c899:text",
+							"blockId": "7a14c899",
+							"path": "3.0.2.0.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Previous Winner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3e84d46:text",
+							"blockId": "b3e84d46",
+							"path": "3.0.2.0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "RB_Gamers",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2629b15d:text",
+							"blockId": "2629b15d",
+							"path": "3.0.2.1.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "12-09-1999",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "b3fcc03e:text",
+							"blockId": "b3fcc03e",
+							"path": "3.0.2.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Valorant",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ee07e2f9:text",
+							"blockId": "ee07e2f9",
+							"path": "3.0.2.1.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Previous Winner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "135c0eaf:text",
+							"blockId": "135c0eaf",
+							"path": "3.0.2.1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "RB_Gamers",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7c9eb4fc:text",
+							"blockId": "7c9eb4fc",
+							"path": "3.0.2.2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "12-09-1999",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "194131ef:text",
+							"blockId": "194131ef",
+							"path": "3.0.2.2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Valorant",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f7b5a0d:text",
+							"blockId": "3f7b5a0d",
+							"path": "3.0.2.2.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Previous Winner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0afcabf2:text",
+							"blockId": "0afcabf2",
+							"path": "3.0.2.2.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "RB_Gamers",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "706c0f87:text",
+							"blockId": "706c0f87",
+							"path": "3.0.3.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "12-09-1999",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "cf2a4a7a:text",
+							"blockId": "cf2a4a7a",
+							"path": "3.0.3.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Valorant",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a2ea5ab:text",
+							"blockId": "2a2ea5ab",
+							"path": "3.0.3.0.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Previous Winner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f6911f61:text",
+							"blockId": "f6911f61",
+							"path": "3.0.3.0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "RB_Gamers",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9038e8db:text",
+							"blockId": "9038e8db",
+							"path": "3.0.3.1.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "12-09-1999",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "edb468fd:text",
+							"blockId": "edb468fd",
+							"path": "3.0.3.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Valorant",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6bcb0f14:text",
+							"blockId": "6bcb0f14",
+							"path": "3.0.3.1.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Previous Winner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "16405fb3:text",
+							"blockId": "16405fb3",
+							"path": "3.0.3.1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "RB_Gamers",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e15655b:text",
+							"blockId": "3e15655b",
+							"path": "3.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Register Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "8b351606",
+					"index": 4,
+					"path": "4",
+					"group": "8b351606",
+					"role": "features",
+					"title": "Get All top gaming news & information",
+					"slots": [
+						{
+							"id": "606c8a76:text",
+							"blockId": "606c8a76",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get All top gaming news & information",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "363e8ae9:text",
+							"blockId": "363e8ae9",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9582e209:text",
+							"blockId": "9582e209",
+							"path": "4.0.2.0.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "DOTA 2",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5110a6f8:text",
+							"blockId": "5110a6f8",
+							"path": "4.0.2.0.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5mins Ago",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "876494c5:text",
+							"blockId": "876494c5",
+							"path": "4.0.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dota 2 top team has not been qualified for this upcoming tournament",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2520eca2:text",
+							"blockId": "2520eca2",
+							"path": "4.0.2.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+							"rich": false,
+							"words": 50,
+							"minWords": 30,
+							"maxWords": 63,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8a7ca301:text",
+							"blockId": "8a7ca301",
+							"path": "4.0.2.0.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5f8932aa:text",
+							"blockId": "5f8932aa",
+							"path": "4.0.2.0.2.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "DOTA 2",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2ed205fd:text",
+							"blockId": "2ed205fd",
+							"path": "4.0.2.0.2.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5mins Ago",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61940fd6:text",
+							"blockId": "61940fd6",
+							"path": "4.0.2.0.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dota 2 top team has not been qualified for this upcoming tournament",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ea95a27d:text",
+							"blockId": "ea95a27d",
+							"path": "4.0.2.0.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+							"rich": false,
+							"words": 50,
+							"minWords": 30,
+							"maxWords": 63,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5cf59edd:text",
+							"blockId": "5cf59edd",
+							"path": "4.0.2.0.2.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3f419ef2:text",
+							"blockId": "3f419ef2",
+							"path": "4.0.2.1.0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Hay When You Need It",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d7e59748:text",
+							"blockId": "d7e59748",
+							"path": "4.0.2.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"Agriculture is the most healthful, most useful and most noble employment of man.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a316fa0a:text",
+							"blockId": "a316fa0a",
+							"path": "4.0.2.1.0.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "George Washington",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0d6a21b5:text",
+							"blockId": "0d6a21b5",
+							"path": "4.0.2.1.0.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Thurday 09 2022",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "57d92e35:text",
+							"blockId": "57d92e35",
+							"path": "4.0.2.1.1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Hay When You Need It",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ae72493:text",
+							"blockId": "5ae72493",
+							"path": "4.0.2.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"Agriculture is the most healthful, most useful and most noble employment of man.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "19134d92:text",
+							"blockId": "19134d92",
+							"path": "4.0.2.1.1.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "George Washington",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f33289e:text",
+							"blockId": "3f33289e",
+							"path": "4.0.2.1.1.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Thurday 09 2022",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7451775:text",
+							"blockId": "c7451775",
+							"path": "4.0.2.1.2.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Hay When You Need It",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6fb16d5d:text",
+							"blockId": "6fb16d5d",
+							"path": "4.0.2.1.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"Agriculture is the most healthful, most useful and most noble employment of man.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6c1ea02c:text",
+							"blockId": "6c1ea02c",
+							"path": "4.0.2.1.2.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "George Washington",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "35b35abd:text",
+							"blockId": "35b35abd",
+							"path": "4.0.2.1.2.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Thurday 09 2022",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "59b5b13c:text",
+							"blockId": "59b5b13c",
+							"path": "4.0.2.1.3.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Hay When You Need It",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "63d8d85e:text",
+							"blockId": "63d8d85e",
+							"path": "4.0.2.1.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"Agriculture is the most healthful, most useful and most noble employment of man.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4d1518c4:text",
+							"blockId": "4d1518c4",
+							"path": "4.0.2.1.3.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "George Washington",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f668425d:text",
+							"blockId": "f668425d",
+							"path": "4.0.2.1.3.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Thurday 09 2022",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "88ba852a:text",
+							"blockId": "88ba852a",
+							"path": "4.0.2.1.4.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Hay When You Need It",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1213f888:text",
+							"blockId": "1213f888",
+							"path": "4.0.2.1.4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"Agriculture is the most healthful, most useful and most noble employment of man.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "659e83f5:text",
+							"blockId": "659e83f5",
+							"path": "4.0.2.1.4.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "George Washington",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f412a72:text",
+							"blockId": "3f412a72",
+							"path": "4.0.2.1.4.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Thurday 09 2022",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8593b9d:text",
+							"blockId": "d8593b9d",
+							"path": "4.0.2.1.5.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Hay When You Need It",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aab03b5d:text",
+							"blockId": "aab03b5d",
+							"path": "4.0.2.1.5.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"Agriculture is the most healthful, most useful and most noble employment of man.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "66a8891b:text",
+							"blockId": "66a8891b",
+							"path": "4.0.2.1.5.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "George Washington",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d06b9594:text",
+							"blockId": "d06b9594",
+							"path": "4.0.2.1.5.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Thurday 09 2022",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-4.0.2.0.0.0:@html:img",
+							"blockId": "core-4.0.2.0.0.0",
+							"path": "4.0.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/wp2698503.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 1080,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.0.2.0.2.0:@html:img",
+							"blockId": "core-4.0.2.0.2.0",
+							"path": "4.0.2.0.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/wp2532627.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1080,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Illustration of fantasy game heroes posed around a Dota 2 logo",
+							"tone": {
+								"grid": [
+									0.29,
+									0.49,
+									0.3,
+									0.19,
+									0.27,
+									0.15,
+									0.06,
+									0.06,
+									0.05
+								],
+								"color": "#4c3022"
+							}
+						},
+						{
+							"id": "53812117:image.url",
+							"blockId": "53812117",
+							"path": "4.0.2.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/ae29ef88cbe775a0152a0e65e1f0683c-1.jpg",
+							"decorative": false,
+							"width": 564,
+							"height": 936,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Illustration of a fiery fantasy warrior leaping with a glowing sword",
+							"tone": {
+								"grid": [
+									0.42,
+									0.53,
+									0.39,
+									0.32,
+									0.23,
+									0.3,
+									0.27,
+									0.37,
+									0.3
+								],
+								"color": "#74533d"
+							}
+						},
+						{
+							"id": "97683b2c:image.url",
+							"blockId": "97683b2c",
+							"path": "4.0.2.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/ae29ef88cbe775a0152a0e65e1f0683c-1.jpg",
+							"decorative": false,
+							"width": 564,
+							"height": 936,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Illustration of a fiery fantasy warrior leaping with a glowing sword",
+							"tone": {
+								"grid": [
+									0.42,
+									0.53,
+									0.39,
+									0.32,
+									0.23,
+									0.3,
+									0.27,
+									0.37,
+									0.3
+								],
+								"color": "#74533d"
+							}
+						},
+						{
+							"id": "03d79610:image.url",
+							"blockId": "03d79610",
+							"path": "4.0.2.1.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/ae29ef88cbe775a0152a0e65e1f0683c-1.jpg",
+							"decorative": false,
+							"width": 564,
+							"height": 936,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Illustration of a fiery fantasy warrior leaping with a glowing sword",
+							"tone": {
+								"grid": [
+									0.42,
+									0.53,
+									0.39,
+									0.32,
+									0.23,
+									0.3,
+									0.27,
+									0.37,
+									0.3
+								],
+								"color": "#74533d"
+							}
+						},
+						{
+							"id": "d0222515:image.url",
+							"blockId": "d0222515",
+							"path": "4.0.2.1.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/ae29ef88cbe775a0152a0e65e1f0683c-1.jpg",
+							"decorative": false,
+							"width": 564,
+							"height": 936,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Illustration of a fiery fantasy warrior leaping with a glowing sword",
+							"tone": {
+								"grid": [
+									0.42,
+									0.53,
+									0.39,
+									0.32,
+									0.23,
+									0.3,
+									0.27,
+									0.37,
+									0.3
+								],
+								"color": "#74533d"
+							}
+						},
+						{
+							"id": "6c23b3f9:image.url",
+							"blockId": "6c23b3f9",
+							"path": "4.0.2.1.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/ae29ef88cbe775a0152a0e65e1f0683c-1.jpg",
+							"decorative": false,
+							"width": 564,
+							"height": 936,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Illustration of a fiery fantasy warrior leaping with a glowing sword",
+							"tone": {
+								"grid": [
+									0.42,
+									0.53,
+									0.39,
+									0.32,
+									0.23,
+									0.3,
+									0.27,
+									0.37,
+									0.3
+								],
+								"color": "#74533d"
+							}
+						},
+						{
+							"id": "aec4eb4d:image.url",
+							"blockId": "aec4eb4d",
+							"path": "4.0.2.1.5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/ae29ef88cbe775a0152a0e65e1f0683c-1.jpg",
+							"decorative": false,
+							"width": 564,
+							"height": 936,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Illustration of a fiery fantasy warrior leaping with a glowing sword",
+							"tone": {
+								"grid": [
+									0.42,
+									0.53,
+									0.39,
+									0.32,
+									0.23,
+									0.3,
+									0.27,
+									0.37,
+									0.3
+								],
+								"color": "#74533d"
+							}
+						}
+					]
+				},
+				{
+					"id": "46d7591b",
+					"index": 5,
+					"path": "5",
+					"group": "46d7591b",
+					"role": "contact",
+					"title": "Lets Get in Touch!",
+					"slots": [
+						{
+							"id": "da60ad53:text",
+							"blockId": "da60ad53",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lets Get in Touch!",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad00f810:text",
+							"blockId": "ad00f810",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Have a question or need assistance? Reach out to us via email, phone, or the contact form below. We're eager to assist you.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6443c173:text",
+							"blockId": "6443c173",
+							"path": "5.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nice hearing from you!",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "52cd16f2:text",
+							"blockId": "52cd16f2",
+							"path": "5.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Head Office:",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "65753916:text",
+							"blockId": "65753916",
+							"path": "5.1.1.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+447473997191",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fd1e7379:text",
+							"blockId": "fd1e7379",
+							"path": "5.1.1.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "sybexdesigns@gmail.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "02ae9e44:text",
+							"blockId": "02ae9e44",
+							"path": "5.1.1.0.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "2068 Boulevard Henri -Bourassa Est",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "078e45a2:text",
+							"blockId": "078e45a2",
+							"path": "5.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Brach Office",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1a8907d3:text",
+							"blockId": "1a8907d3",
+							"path": "5.1.1.1.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+447473997191",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "63607b93:text",
+							"blockId": "63607b93",
+							"path": "5.1.1.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "sybexdesigns@gmail.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "a6aba631:text",
+							"blockId": "a6aba631",
+							"path": "5.1.1.1.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "2068 Boulevard Henri -Bourassa Est",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "46d7591b:background.image.image.url",
+							"blockId": "46d7591b",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Group-107273-2.png",
+							"decorative": true,
+							"width": 1489,
+							"height": 1151,
+							"orientation": "landscape"
+						},
+						{
+							"id": "9cec7fdd:image.url",
+							"blockId": "9cec7fdd",
+							"path": "5.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/2150804317-1.png",
+							"decorative": false,
+							"width": 613,
+							"height": 613,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Illustration of soldiers walking through a battlefield with explosions",
+							"tone": {
+								"grid": [
+									0.65,
+									0.6,
+									0.77,
+									0.48,
+									0.38,
+									0.36,
+									0.57,
+									0.26,
+									0.63
+								],
+								"color": "#8d8473"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "63170e53",
+					"index": 6,
+					"path": "6",
+					"group": "63170e53",
+					"role": "cta",
+					"title": "Stay updated with us",
+					"slots": [
+						{
+							"id": "cc605b3e:text",
+							"blockId": "cc605b3e",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Stay updated with us",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d849ada1:text",
+							"blockId": "d849ada1",
+							"path": "6.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Subscribe to receive the latest news and updates about TDA. We promise not to spam you!",
+							"rich": true,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ea3136f4:text",
+							"blockId": "ea3136f4",
+							"path": "6.0.0.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Enter email address",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "37e747a4:text",
+							"blockId": "37e747a4",
+							"path": "6.0.0.1.0.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Continue",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "748253c2",
+					"role": "hero",
+					"title": "Experience the Best gaming experience",
+					"sectionIds": [
+						"748253c2"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "df133ed7",
+					"role": "content",
+					"title": "Grab The Best Gaming Experience",
+					"sectionIds": [
+						"df133ed7"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7b28001a",
+					"role": "content",
+					"title": "Amazing Online Tournaments",
+					"sectionIds": [
+						"7b28001a"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5b9a8c76",
+					"role": "stats",
+					"title": "Recent Played Tournaments",
+					"sectionIds": [
+						"5b9a8c76"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "8b351606",
+					"role": "features",
+					"title": "Get All top gaming news & information",
+					"sectionIds": [
+						"8b351606"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "46d7591b",
+					"role": "contact",
+					"title": "Lets Get in Touch!",
+					"sectionIds": [
+						"46d7591b"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "63170e53",
+					"role": "cta",
+					"title": "Stay updated with us",
+					"sectionIds": [
+						"63170e53"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "729c791d",
+					"index": 0,
+					"path": "0",
+					"group": "729c791d",
+					"role": "hero",
+					"title": "About Us",
+					"slots": [
+						{
+							"id": "96db322c:text",
+							"blockId": "96db322c",
+							"path": "0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b2575337:text",
+							"blockId": "b2575337",
+							"path": "0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Indulge in an unforgettable dining experience like never before at our exquisite restaurant.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "729c791d:background.image.image.url",
+							"blockId": "729c791d",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/cosmic-background-with-colorful-laser-lights-perfect-digital-wallpaper-1.png",
+							"decorative": true,
+							"width": 1440,
+							"height": 469,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "108e3286",
+					"index": 1,
+					"path": "1",
+					"group": "108e3286",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "0dbde6ec:text",
+							"blockId": "0dbde6ec",
+							"path": "1.0.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Happy Customers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4f5ecf1e:text",
+							"blockId": "4f5ecf1e",
+							"path": "1.1.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Monthly Visitors",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6c34c471:text",
+							"blockId": "6c34c471",
+							"path": "1.2.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Countries Worldwide",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ff464109:text",
+							"blockId": "ff464109",
+							"path": "1.3.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Top Partners",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "289c805f",
+					"index": 2,
+					"path": "2",
+					"group": "289c805f",
+					"role": "features",
+					"title": "Every Gamers Matters",
+					"slots": [
+						{
+							"id": "9577ac8c:text",
+							"blockId": "9577ac8c",
+							"path": "2.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Every Gamers Matters",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a10c636:text",
+							"blockId": "2a10c636",
+							"path": "2.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics",
+							"rich": true,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "04adbdde:text",
+							"blockId": "04adbdde",
+							"path": "2.0.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e419ad33:text",
+							"blockId": "e419ad33",
+							"path": "2.0.0.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Academic Excellence",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2dbc4e45:text",
+							"blockId": "2dbc4e45",
+							"path": "2.0.0.1.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "The gradual accumulation of information about",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c96f16e9:text",
+							"blockId": "c96f16e9",
+							"path": "2.0.0.1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Advanced technology",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d73ada91:text",
+							"blockId": "d73ada91",
+							"path": "2.0.0.1.0.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "The gradual accumulation of information about",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c8fb6f93:text",
+							"blockId": "c8fb6f93",
+							"path": "2.0.0.1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Vibrant Campuses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5a4ee61b:text",
+							"blockId": "5a4ee61b",
+							"path": "2.0.0.1.0.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "The gradual accumulation of information about",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "23f28a09:background.image.image.url",
+							"blockId": "23f28a09",
+							"path": "2.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Vector.png",
+							"decorative": true,
+							"width": 1440,
+							"height": 1023,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "388ea00d",
+					"index": 3,
+					"path": "3",
+					"group": "388ea00d",
+					"role": "content",
+					"title": "OUR TEAM",
+					"slots": [
+						{
+							"id": "4ca1998b:text",
+							"blockId": "4ca1998b",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "OUR TEAM",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8116ce11:text",
+							"blockId": "8116ce11",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5e201b5d:text",
+							"blockId": "5e201b5d",
+							"path": "3.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Schedule a meeting",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3fb2bd3b:text",
+							"blockId": "3fb2bd3b",
+							"path": "3.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Robby Jhony",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e64e1bbf:text",
+							"blockId": "e64e1bbf",
+							"path": "3.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Founder",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c127a8a0:text",
+							"blockId": "c127a8a0",
+							"path": "3.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Erlina Angel",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e69f5cfd:text",
+							"blockId": "e69f5cfd",
+							"path": "3.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "beec6240:text",
+							"blockId": "beec6240",
+							"path": "3.1.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Ellisa Maryah",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "506f37e9:text",
+							"blockId": "506f37e9",
+							"path": "3.1.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Manager",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6cb137e4:text",
+							"blockId": "6cb137e4",
+							"path": "3.1.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Richo Night",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9566d4bd:text",
+							"blockId": "9566d4bd",
+							"path": "3.1.0.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Consultation",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1b75ae62:image.url",
+							"blockId": "1b75ae62",
+							"path": "3.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Image-Placeholder.png",
+							"decorative": true,
+							"width": 261,
+							"height": 145,
+							"orientation": "landscape"
+						},
+						{
+							"id": "dc14dc1e:image.url",
+							"blockId": "dc14dc1e",
+							"path": "3.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Image-Placeholder-1-1.png",
+							"decorative": true,
+							"width": 261,
+							"height": 145,
+							"orientation": "landscape"
+						},
+						{
+							"id": "01fdf8c8:image.url",
+							"blockId": "01fdf8c8",
+							"path": "3.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Image-Placeholder-2.png",
+							"decorative": true,
+							"width": 261,
+							"height": 145,
+							"orientation": "landscape"
+						},
+						{
+							"id": "364e44a0:image.url",
+							"blockId": "364e44a0",
+							"path": "3.1.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Image-Placeholder-3.png",
+							"decorative": true,
+							"width": 261,
+							"height": 145,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "417230cf",
+					"index": 4,
+					"path": "4",
+					"group": "417230cf",
+					"role": "testimonials",
+					"title": "Client Testimonials",
+					"slots": [
+						{
+							"id": "3eff1d9b:text",
+							"blockId": "3eff1d9b",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Client Testimonials",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad389624:text",
+							"blockId": "ad389624",
+							"path": "4.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f2ccf8ef:textContent",
+							"blockId": "f2ccf8ef",
+							"path": "4.0.1.0",
+							"block": "blockart/testimonial-slide",
+							"attr": "textContent",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0234595c:textContent",
+							"blockId": "0234595c",
+							"path": "4.0.1.1",
+							"block": "blockart/testimonial-slide",
+							"attr": "textContent",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8dae4b72:textContent",
+							"blockId": "8dae4b72",
+							"path": "4.0.1.2",
+							"block": "blockart/testimonial-slide",
+							"attr": "textContent",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "6a224ba0",
+					"index": 5,
+					"path": "5",
+					"group": "6a224ba0",
+					"role": "cta",
+					"title": "Stay updated with us",
+					"slots": [
+						{
+							"id": "f30a2dfc:text",
+							"blockId": "f30a2dfc",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Stay updated with us",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "beb1c414:text",
+							"blockId": "beb1c414",
+							"path": "5.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Subscribe to receive the latest news and updates about TDA. We promise not to spam you!",
+							"rich": true,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "08db3461:text",
+							"blockId": "08db3461",
+							"path": "5.0.0.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Enter email address",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "df570eb2:text",
+							"blockId": "df570eb2",
+							"path": "5.0.0.1.0.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Continue",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "729c791d",
+					"role": "hero",
+					"title": "About Us",
+					"sectionIds": [
+						"729c791d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "108e3286",
+					"role": "stats",
+					"sectionIds": [
+						"108e3286"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "289c805f",
+					"role": "features",
+					"title": "Every Gamers Matters",
+					"sectionIds": [
+						"289c805f"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "388ea00d",
+					"role": "content",
+					"title": "OUR TEAM",
+					"sectionIds": [
+						"388ea00d"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "417230cf",
+					"role": "testimonials",
+					"title": "Client Testimonials",
+					"sectionIds": [
+						"417230cf"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6a224ba0",
+					"role": "cta",
+					"title": "Stay updated with us",
+					"sectionIds": [
+						"6a224ba0"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "07a3a87a",
+					"index": 0,
+					"path": "0",
+					"group": "07a3a87a",
+					"role": "hero",
+					"title": "Services",
+					"slots": [
+						{
+							"id": "c3f010c2:text",
+							"blockId": "c3f010c2",
+							"path": "0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Services",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "94bf89e8:text",
+							"blockId": "94bf89e8",
+							"path": "0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Indulge in an unforgettable dining experience like never before at our exquisite restaurant.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "07a3a87a:background.image.image.url",
+							"blockId": "07a3a87a",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/cosmic-background-with-colorful-laser-lights-perfect-digital-wallpaper-1.png",
+							"decorative": true,
+							"width": 1440,
+							"height": 469,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "0e30b770",
+					"index": 1,
+					"path": "1",
+					"group": "0e30b770",
+					"role": "features",
+					"title": "What We Provide",
+					"slots": [
+						{
+							"id": "e6a764f3:text",
+							"blockId": "e6a764f3",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What We Provide",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2d97040b:text",
+							"blockId": "2d97040b",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Enjoy different experiences in every place you visit and discover new and affordable adventures of course.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f74cc1ca:text",
+							"blockId": "f74cc1ca",
+							"path": "1.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "PC games",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f61e244e:text",
+							"blockId": "f61e244e",
+							"path": "1.1.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vitae donec pellentesque a aliquam et ultricies auctor.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "062cbb58:text",
+							"blockId": "062cbb58",
+							"path": "1.1.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "PC games",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "68d50b95:text",
+							"blockId": "68d50b95",
+							"path": "1.1.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vitae donec pellentesque a aliquam et ultricies auctor.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "292e76d2:text",
+							"blockId": "292e76d2",
+							"path": "1.1.4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "PC games",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "901659c8:text",
+							"blockId": "901659c8",
+							"path": "1.1.4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vitae donec pellentesque a aliquam et ultricies auctor.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "6d57ce5b:image.url",
+							"blockId": "6d57ce5b",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Hero-Video.png",
+							"decorative": false,
+							"width": 513,
+							"height": 513,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Soldiers with rifles running through a dusty battlefield at sunset",
+							"tone": {
+								"grid": [
+									0.32,
+									0.27,
+									0.26,
+									0.31,
+									0.2,
+									0.2,
+									0.3,
+									0.22,
+									0.27
+								],
+								"color": "#573e2f"
+							}
+						}
+					]
+				},
+				{
+					"id": "3ad490e6",
+					"index": 2,
+					"path": "2",
+					"group": "3ad490e6",
+					"role": "features",
+					"title": "Covering both the mobile and computer games",
+					"slots": [
+						{
+							"id": "d16663dd:text",
+							"blockId": "d16663dd",
+							"path": "2.0.0.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum dummy text",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "10945429:text",
+							"blockId": "10945429",
+							"path": "2.0.0.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0e523def:text",
+							"blockId": "0e523def",
+							"path": "2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Covering both the mobile and computer games",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a4f67e66:text",
+							"blockId": "a4f67e66",
+							"path": "2.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android & IOS.",
+							"rich": false,
+							"words": 34,
+							"minWords": 20,
+							"maxWords": 43,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d143cdf7:text",
+							"blockId": "d143cdf7",
+							"path": "2.0.1.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum dummy text",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d4636f17:text",
+							"blockId": "d4636f17",
+							"path": "2.0.1.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7f9f509b:text",
+							"blockId": "7f9f509b",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Gathering the best and competitive players",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "19805643:text",
+							"blockId": "19805643",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android & IOS.",
+							"rich": false,
+							"words": 34,
+							"minWords": 20,
+							"maxWords": 43,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b81e30fa:text",
+							"blockId": "b81e30fa",
+							"path": "2.0.2.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum dummy text",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "86ef8de4:text",
+							"blockId": "86ef8de4",
+							"path": "2.0.2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e3ec69c5:text",
+							"blockId": "e3ec69c5",
+							"path": "2.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Choosing best gaming experience for players",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5e0a4cb2:text",
+							"blockId": "5e0a4cb2",
+							"path": "2.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android & IOS.",
+							"rich": false,
+							"words": 34,
+							"minWords": 20,
+							"maxWords": 43,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "05777fbf:image.url",
+							"blockId": "05777fbf",
+							"path": "2.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Group-107234.png",
+							"decorative": false,
+							"width": 739,
+							"height": 549,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Smartphone displaying a mobile app interface",
+							"tone": {
+								"grid": [
+									0.97,
+									0.86,
+									0.87,
+									0.91,
+									0.84,
+									0.7,
+									1,
+									0.77,
+									0.78
+								],
+								"color": "#d3ddd5"
+							}
+						},
+						{
+							"id": "458775b8:image.url",
+							"blockId": "458775b8",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Group-107252.png",
+							"decorative": false,
+							"width": 477,
+							"height": 608,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Basketball player leaping to dunk a ball",
+							"tone": {
+								"grid": [
+									0.96,
+									0.66,
+									0.89,
+									0.72,
+									0.46,
+									0.71,
+									0.84,
+									0.67,
+									0.84
+								],
+								"color": "#b1c5b1"
+							}
+						},
+						{
+							"id": "f19f807e:image.url",
+							"blockId": "f19f807e",
+							"path": "2.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Group-107270-1.png",
+							"decorative": false,
+							"width": 513,
+							"height": 506,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man wearing a VR headset reaching out with his hands",
+							"tone": {
+								"grid": [
+									0.86,
+									0.7,
+									0.86,
+									0.71,
+									0.55,
+									0.72,
+									0.86,
+									0.63,
+									0.8
+								],
+								"color": "#b2c2b0"
+							}
+						}
+					]
+				},
+				{
+					"id": "85f55603",
+					"index": 3,
+					"path": "3",
+					"group": "85f55603",
+					"role": "cta",
+					"title": "Stay updated with us",
+					"slots": [
+						{
+							"id": "8c4dc105:text",
+							"blockId": "8c4dc105",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Stay updated with us",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1df88fc8:text",
+							"blockId": "1df88fc8",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Subscribe to receive the latest news and updates about TDA. We promise not to spam you!",
+							"rich": true,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "79fa2498:text",
+							"blockId": "79fa2498",
+							"path": "3.0.0.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Enter email address",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6de09f88:text",
+							"blockId": "6de09f88",
+							"path": "3.0.0.1.0.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Continue",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "07a3a87a",
+					"role": "hero",
+					"title": "Services",
+					"sectionIds": [
+						"07a3a87a"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0e30b770",
+					"role": "features",
+					"title": "What We Provide",
+					"sectionIds": [
+						"0e30b770"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3ad490e6",
+					"role": "features",
+					"title": "Covering both the mobile and computer games",
+					"sectionIds": [
+						"3ad490e6"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "85f55603",
+					"role": "cta",
+					"title": "Stay updated with us",
+					"sectionIds": [
+						"85f55603"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact-us",
+			"title": "Contact Us",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/themegrill-demos/contact-us-content.xml",
+			"sections": [
+				{
+					"id": "a9f147f8",
+					"index": 0,
+					"path": "0",
+					"group": "a9f147f8",
+					"role": "hero",
+					"title": "Contact Us",
+					"slots": [
+						{
+							"id": "7d94e3a9:text",
+							"blockId": "7d94e3a9",
+							"path": "0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "360c7e47:text",
+							"blockId": "360c7e47",
+							"path": "0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Indulge in an unforgettable dining experience like never before at our exquisite restaurant.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a9f147f8:background.image.image.url",
+							"blockId": "a9f147f8",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/cosmic-background-with-colorful-laser-lights-perfect-digital-wallpaper-1.png",
+							"decorative": true,
+							"width": 1440,
+							"height": 469,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "ec16d12f",
+					"index": 1,
+					"path": "1",
+					"group": "ec16d12f",
+					"role": "dynamic",
+					"title": "Contact Us",
+					"slots": [
+						{
+							"id": "1d882e23:text",
+							"blockId": "1d882e23",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8da94441:text",
+							"blockId": "8da94441",
+							"path": "1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "ADDRESS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0258a627:text",
+							"blockId": "0258a627",
+							"path": "1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "234 Hai Trieu, Ho Chi Minh City, Viet Nam",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "58e472b6:text",
+							"blockId": "58e472b6",
+							"path": "1.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "ADDRESS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7120c332:text",
+							"blockId": "7120c332",
+							"path": "1.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "234 Hai Trieu, Ho Chi Minh City, Viet Nam",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4da0d268:text",
+							"blockId": "4da0d268",
+							"path": "1.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "ADDRESS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a74c5c4:text",
+							"blockId": "0a74c5c4",
+							"path": "1.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "234 Hai Trieu, Ho Chi Minh City, Viet Nam",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "cd11df9d",
+					"index": 2,
+					"path": "2",
+					"group": "cd11df9d",
+					"role": "cta",
+					"title": "Stay updated with us",
+					"slots": [
+						{
+							"id": "beb3d07b:text",
+							"blockId": "beb3d07b",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Stay updated with us",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e45cdd1a:text",
+							"blockId": "e45cdd1a",
+							"path": "2.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Subscribe to receive the latest news and updates about TDA. We promise not to spam you!",
+							"rich": true,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2272c93e:text",
+							"blockId": "2272c93e",
+							"path": "2.0.0.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Enter email address",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c55976b8:text",
+							"blockId": "c55976b8",
+							"path": "2.0.0.1.0.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Continue",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "a9f147f8",
+					"role": "hero",
+					"title": "Contact Us",
+					"sectionIds": [
+						"a9f147f8"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ec16d12f",
+					"role": "dynamic",
+					"title": "Contact Us",
+					"sectionIds": [
+						"ec16d12f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "cd11df9d",
+					"role": "cta",
+					"title": "Stay updated with us",
+					"sectionIds": [
+						"cd11df9d"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 20,
+		"textSlots": 158,
+		"editableSlots": 149,
+		"images": 26,
+		"swappableImages": 15,
+		"words": 1025
+	},
+	"builtAt": "2026-10-24T11:35:08.118Z"
+}

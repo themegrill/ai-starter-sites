@@ -1,0 +1,7329 @@
+{
+	"version": 4,
+	"slug": "online-lms",
+	"name": "Online LMS",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://zakrademos.com/wp-content/uploads/2026/08/online-lms-screenshot.png",
+	"demoUrl": "https://zakrademos.com/online-lms",
+	"niches": [
+		"education",
+		"courses",
+		"lms"
+	],
+	"keywords": [
+		"lms",
+		"online courses",
+		"e-learning",
+		"academy",
+		"training",
+		"tutor"
+	],
+	"plugins": [
+		"learning-management-system/lms.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 54,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 30,
+					"background": 6
+				}
+			},
+			{
+				"hex": "#1a1a1a",
+				"count": 22,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 21,
+					"icon": 1
+				}
+			},
+			{
+				"hex": "#777777",
+				"count": 19,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 19
+				}
+			},
+			{
+				"hex": "#118b57",
+				"count": 15,
+				"group": "brand",
+				"role": "primary",
+				"base": "#118b57",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 7,
+					"text": 6,
+					"border": 2
+				}
+			},
+			{
+				"hex": "#888888",
+				"count": 11,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 11
+				}
+			},
+			{
+				"hex": "#bdbdbd",
+				"count": 10,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 10
+				}
+			},
+			{
+				"hex": "#999999",
+				"count": 8,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 8
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 5,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 5
+				}
+			},
+			{
+				"hex": "#eeeef1",
+				"count": 5,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 5
+				}
+			},
+			{
+				"hex": "#ececec",
+				"count": 4,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 2,
+					"border": 2
+				}
+			},
+			{
+				"hex": "#d9d9d9",
+				"count": 4,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#f4f4f4",
+				"count": 4,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#f7f7f7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#eeeeee",
+				"count": 2,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 2
+				}
+			},
+			{
+				"hex": "#22a06b",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#118b57",
+				"lightnessDelta": 0.075,
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#0a0340",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0a0340",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#2b2b2b",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#5c5c5c",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#666666",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#0a0a0a",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e2f0",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0a0340",
+				"lightnessDelta": 0.782,
+				"usage": {
+					"border": 1
+				}
+			},
+			{
+				"hex": "#14133a",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0a0340",
+				"lightnessDelta": 0.02,
+				"usage": {
+					"background": 1
+				}
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#118b57",
+				"large": false,
+				"count": 21,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1f1f32",
+				"bg": "#0a0340",
+				"large": true,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#118b57",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#dbeee6",
+				"bg": "#118b57",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f4f4f4",
+				"bg": "#0a0340",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#a9a7bc",
+				"bg": "#0a0340",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#118b57",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#cfe8dd",
+				"bg": "#118b57",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1f1f32",
+				"bg": "#22a06b",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#118b57",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1f1f32",
+				"bg": "#14133a",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1f1f32",
+				"bg": "#14133a",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			}
+		],
+		"fonts": {
+			"heading": "Plus Jakarta Sans",
+			"body": "Inter",
+			"map": {}
+		}
+	},
+	"pages": [
+		{
+			"slug": "sample-page-2",
+			"title": "Sample Page",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/themegrill-demos/sample-page-2-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "core-0:@html:p",
+							"blockId": "core-0",
+							"path": "0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:",
+							"rich": false,
+							"words": 49,
+							"minWords": 29,
+							"maxWords": 62,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-1.0:@html:p",
+							"blockId": "core-1.0",
+							"path": "1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like piña coladas. (And gettin' caught in the rain.)",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-2:@html:p",
+							"blockId": "core-2",
+							"path": "2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "...or something like this:",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-3.0:@html:p",
+							"blockId": "core-3.0",
+							"path": "3.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-4:@html:p",
+							"blockId": "core-4",
+							"path": "4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "As a new WordPress user, you should go to your dashboard to delete this page and create new pages for your content. Have fun!",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "content",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "content",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "content",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "content",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "core-0.0.1.2.0:@html:a",
+							"blockId": "core-0.0.1.2.0",
+							"path": "0.0.1.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Download",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.0.0:@html:img",
+							"blockId": "core-0.0.0",
+							"path": "0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/logo.png",
+							"decorative": true,
+							"width": 121,
+							"height": 49,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "cta",
+					"title": "Think Different. Make Different.",
+					"slots": [
+						{
+							"id": "core-1.0.0.0:@html:h",
+							"blockId": "core-1.0.0.0",
+							"path": "1.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Think Different. Make Different.",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.1:@html:p",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed proin eget eu sit nec risus. Sed ut quam integer a nisl amet. Ed ut quam integer a nisl amet",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.0.0.2.0:@html:a",
+							"blockId": "core-1.0.0.2.0",
+							"path": "1.0.0.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-1.0.1.0:@html:img",
+							"blockId": "core-1.0.1.0",
+							"path": "1.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/home-hero-image.png",
+							"decorative": false,
+							"width": 1158,
+							"height": 1006,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Illustration of a person holding a book beside a website wireframe",
+							"tone": {
+								"grid": [
+									0.98,
+									0.97,
+									0.98,
+									0.72,
+									0.9,
+									0.95,
+									0.73,
+									0.97,
+									0.95
+								],
+								"color": "#e0e9e6"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-2.0.0.0.1:@html:p",
+							"blockId": "core-2.0.0.0.1",
+							"path": "2.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Ideas",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.0.1:@html:p",
+							"blockId": "core-2.0.1.0.1",
+							"path": "2.0.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Research",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.2.0.1:@html:p",
+							"blockId": "core-2.0.2.0.1",
+							"path": "2.0.2.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Pixel Perfect",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.3.0.1:@html:p",
+							"blockId": "core-2.0.3.0.1",
+							"path": "2.0.3.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "SEO Friendly",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.0.1:@html:p",
+							"blockId": "core-2.0.4.0.1",
+							"path": "2.0.4.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Design",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.5.0.1:@html:p",
+							"blockId": "core-2.0.5.0.1",
+							"path": "2.0.5.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Support",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.0.0.0:@html:img",
+							"blockId": "core-2.0.0.0.0",
+							"path": "2.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-idea.png",
+							"decorative": true,
+							"width": 64,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.1.0.0:@html:img",
+							"blockId": "core-2.0.1.0.0",
+							"path": "2.0.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-research.png",
+							"decorative": true,
+							"width": 65,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.2.0.0:@html:img",
+							"blockId": "core-2.0.2.0.0",
+							"path": "2.0.2.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-pixel-perfect.png",
+							"decorative": true,
+							"width": 66,
+							"height": 67,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.3.0.0:@html:img",
+							"blockId": "core-2.0.3.0.0",
+							"path": "2.0.3.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-seo-friendly.png",
+							"decorative": true,
+							"width": 64,
+							"height": 66,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.4.0.0:@html:img",
+							"blockId": "core-2.0.4.0.0",
+							"path": "2.0.4.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-design.png",
+							"decorative": true,
+							"width": 67,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.5.0.0:@html:img",
+							"blockId": "core-2.0.5.0.0",
+							"path": "2.0.5.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-support.png",
+							"decorative": true,
+							"width": 66,
+							"height": 64,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "content",
+					"title": "Zakra Invites You To Build Your Next Site",
+					"slots": [
+						{
+							"id": "core-3.0.1.0:@html:h",
+							"blockId": "core-3.0.1.0",
+							"path": "3.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Zakra Invites You To Build Your Next Site",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.1.1:@html:p",
+							"blockId": "core-3.0.1.1",
+							"path": "3.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in proin lacus, sed morbi pulvinar malesuada duis.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.1.2:@html:p",
+							"blockId": "core-3.0.1.2",
+							"path": "3.0.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Viverra pellentesque enim mattis cursus lorem cras est augue. Sit lectus nisl velit rutrum. In quis quis vitae vitae. Sollicitudin rhoncus sit sed odio tristique id. Nisl turpis sed fames sed egestas et. Massa, id platea elit diam scelerisque.",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "core-3.0.0.0:@html:img",
+							"blockId": "core-3.0.0.0",
+							"path": "3.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/zakra-invite.jpg",
+							"decorative": false,
+							"width": 1525,
+							"height": 1039,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling man talking on the phone at a desk with a laptop",
+							"tone": {
+								"grid": [
+									0.62,
+									0.64,
+									0.62,
+									0.57,
+									0.77,
+									0.56,
+									0.56,
+									0.58,
+									0.61
+								],
+								"color": "#ac9b86"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "gallery",
+					"title": "Our Awesome Portfolio",
+					"slots": [
+						{
+							"id": "core-4.0.0:@html:h",
+							"blockId": "core-4.0.0",
+							"path": "4.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Awesome Portfolio",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.1:@html:p",
+							"blockId": "core-4.0.1",
+							"path": "4.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "core-4.1.0:@html:img",
+							"blockId": "core-4.1.0",
+							"path": "4.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-A.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman sitting in front of a doodle wall holding a lightbulb sign",
+							"tone": {
+								"grid": [
+									0.79,
+									0.84,
+									0.86,
+									0.73,
+									0.67,
+									0.86,
+									0.71,
+									0.5,
+									0.78
+								],
+								"color": "#bcc0c2"
+							}
+						},
+						{
+							"id": "core-4.1.1:@html:img",
+							"blockId": "core-4.1.1",
+							"path": "4.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-E.jpg",
+							"decorative": true,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.1.2:@html:img",
+							"blockId": "core-4.1.2",
+							"path": "4.1.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-F.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Notebook with website wireframe sketches, pens and phone",
+							"tone": {
+								"grid": [
+									0.69,
+									0.88,
+									0.73,
+									0.41,
+									0.85,
+									0.84,
+									0.33,
+									0.63,
+									0.72
+								],
+								"color": "#bda7ab"
+							}
+						},
+						{
+							"id": "core-4.1.3:@html:img",
+							"blockId": "core-4.1.3",
+							"path": "4.1.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-C.jpg",
+							"decorative": true,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.1.4:@html:img",
+							"blockId": "core-4.1.4",
+							"path": "4.1.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-H.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Flat lay of speaker, phone, watch and accessories on black",
+							"tone": {
+								"grid": [
+									0.1,
+									0.08,
+									0.08,
+									0.1,
+									0.17,
+									0.11,
+									0.05,
+									0.14,
+									0.07
+								],
+								"color": "#1a1919"
+							}
+						},
+						{
+							"id": "core-4.1.5:@html:img",
+							"blockId": "core-4.1.5",
+							"path": "4.1.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-B.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Desk with two monitors displaying design work",
+							"tone": {
+								"grid": [
+									0.65,
+									0.62,
+									0.6,
+									0.65,
+									0.48,
+									0.3,
+									0.67,
+									0.65,
+									0.63
+								],
+								"color": "#989491"
+							}
+						},
+						{
+							"id": "core-4.1.6:@html:img",
+							"blockId": "core-4.1.6",
+							"path": "4.1.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-D.jpg",
+							"decorative": true,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.1.7:@html:img",
+							"blockId": "core-4.1.7",
+							"path": "4.1.7",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-G.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Hands typing on a keyboard on a desk with posters",
+							"tone": {
+								"grid": [
+									0.83,
+									0.86,
+									0.76,
+									0.75,
+									0.57,
+									0.6,
+									0.76,
+									0.44,
+									0.7
+								],
+								"color": "#b9afaf"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-5",
+					"index": 5,
+					"path": "5",
+					"group": "top-5",
+					"role": "pricing",
+					"title": "Plan & Pricing",
+					"slots": [
+						{
+							"id": "core-5.0.0:@html:h",
+							"blockId": "core-5.0.0",
+							"path": "5.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Plan & Pricing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.0.1:@html:p",
+							"blockId": "core-5.0.1",
+							"path": "5.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Aorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-5.1.0.0:@html:p",
+							"blockId": "core-5.1.0.0",
+							"path": "5.1.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Silver",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.1:@html:p",
+							"blockId": "core-5.1.0.1",
+							"path": "5.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "$39",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-5.1.0.2:@html:p",
+							"blockId": "core-5.1.0.2",
+							"path": "5.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "per month",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.4:@html:p",
+							"blockId": "core-5.1.0.4",
+							"path": "5.1.0.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "1 User",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.5:@html:p",
+							"blockId": "core-5.1.0.5",
+							"path": "5.1.0.5",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "3 Projects",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.6:@html:p",
+							"blockId": "core-5.1.0.6",
+							"path": "5.1.0.6",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Download Prototypes",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.7:@html:p",
+							"blockId": "core-5.1.0.7",
+							"path": "5.1.0.7",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "1 Year Repair Coverage",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.8:@html:p",
+							"blockId": "core-5.1.0.8",
+							"path": "5.1.0.8",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Monthly Reports",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.9:@html:p",
+							"blockId": "core-5.1.0.9",
+							"path": "5.1.0.9",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "7/24 Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.10.0:@html:a",
+							"blockId": "core-5.1.0.10.0",
+							"path": "5.1.0.10.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.0:@html:p",
+							"blockId": "core-5.1.1.0",
+							"path": "5.1.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Gold",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.1:@html:p",
+							"blockId": "core-5.1.1.1",
+							"path": "5.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "$49",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-5.1.1.2:@html:p",
+							"blockId": "core-5.1.1.2",
+							"path": "5.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "per month",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.4:@html:p",
+							"blockId": "core-5.1.1.4",
+							"path": "5.1.1.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "3 User",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.5:@html:p",
+							"blockId": "core-5.1.1.5",
+							"path": "5.1.1.5",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "10 Projects",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.6:@html:p",
+							"blockId": "core-5.1.1.6",
+							"path": "5.1.1.6",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Download Prototypes",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.7:@html:p",
+							"blockId": "core-5.1.1.7",
+							"path": "5.1.1.7",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "3 Year Repair Coverage",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.8:@html:p",
+							"blockId": "core-5.1.1.8",
+							"path": "5.1.1.8",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Weekly Reports",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.9:@html:p",
+							"blockId": "core-5.1.1.9",
+							"path": "5.1.1.9",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "7/24 Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.10.0:@html:a",
+							"blockId": "core-5.1.1.10.0",
+							"path": "5.1.1.10.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.0:@html:p",
+							"blockId": "core-5.1.2.0",
+							"path": "5.1.2.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Platinum",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.1:@html:p",
+							"blockId": "core-5.1.2.1",
+							"path": "5.1.2.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "$59",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-5.1.2.2:@html:p",
+							"blockId": "core-5.1.2.2",
+							"path": "5.1.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "per month",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.4:@html:p",
+							"blockId": "core-5.1.2.4",
+							"path": "5.1.2.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Unlimited User",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.5:@html:p",
+							"blockId": "core-5.1.2.5",
+							"path": "5.1.2.5",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Unlimited Projects",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.6:@html:p",
+							"blockId": "core-5.1.2.6",
+							"path": "5.1.2.6",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Download Prototypes",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.7:@html:p",
+							"blockId": "core-5.1.2.7",
+							"path": "5.1.2.7",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "5 Repair Coverage",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.8:@html:p",
+							"blockId": "core-5.1.2.8",
+							"path": "5.1.2.8",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Daily Reports",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.9:@html:p",
+							"blockId": "core-5.1.2.9",
+							"path": "5.1.2.9",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "7/24 Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.10.0:@html:a",
+							"blockId": "core-5.1.2.10.0",
+							"path": "5.1.2.10.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-6",
+					"index": 6,
+					"path": "6",
+					"group": "top-6",
+					"role": "team",
+					"title": "Meet Our Team",
+					"slots": [
+						{
+							"id": "core-6.0.0:@html:h",
+							"blockId": "core-6.0.0",
+							"path": "6.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Meet Our Team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.1:@html:p",
+							"blockId": "core-6.0.1",
+							"path": "6.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-6.1.0.1:@html:p",
+							"blockId": "core-6.1.0.1",
+							"path": "6.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Desirae Dias",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.1.0.2:@html:p",
+							"blockId": "core-6.1.0.2",
+							"path": "6.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.1.1.1:@html:p",
+							"blockId": "core-6.1.1.1",
+							"path": "6.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Madelyn Torff",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.1.1.2:@html:p",
+							"blockId": "core-6.1.1.2",
+							"path": "6.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Marketing Head",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.1.2.1:@html:p",
+							"blockId": "core-6.1.2.1",
+							"path": "6.1.2.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Tiana Gouse",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.1.2.2:@html:p",
+							"blockId": "core-6.1.2.2",
+							"path": "6.1.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.1.3.1:@html:p",
+							"blockId": "core-6.1.3.1",
+							"path": "6.1.3.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Livia Passaquin",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.1.3.2:@html:p",
+							"blockId": "core-6.1.3.2",
+							"path": "6.1.3.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Director",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-6.1.0.0:@html:img",
+							"blockId": "core-6.1.0.0",
+							"path": "6.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/team-A.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 963,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young Black man thoughtfully posing with hand on chin",
+							"tone": {
+								"grid": [
+									0.26,
+									0.36,
+									0.22,
+									0.36,
+									0.51,
+									0.27,
+									0.42,
+									0.28,
+									0.36
+								],
+								"color": "#635351"
+							}
+						},
+						{
+							"id": "core-6.1.1.0:@html:img",
+							"blockId": "core-6.1.1.0",
+							"path": "6.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/team-B.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 963,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young woman with glasses and wavy hair portrait",
+							"tone": {
+								"grid": [
+									0.14,
+									0.45,
+									0.25,
+									0.18,
+									0.62,
+									0.23,
+									0.33,
+									0.52,
+									0.27
+								],
+								"color": "#704f43"
+							}
+						},
+						{
+							"id": "core-6.1.2.0:@html:img",
+							"blockId": "core-6.1.2.0",
+							"path": "6.1.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/team-C.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 963,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man with curly hair in a red jacket portrait",
+							"tone": {
+								"grid": [
+									0.12,
+									0.22,
+									0.58,
+									0.18,
+									0.42,
+									0.62,
+									0.26,
+									0.25,
+									0.57
+								],
+								"color": "#72564d"
+							}
+						},
+						{
+							"id": "core-6.1.3.0:@html:img",
+							"blockId": "core-6.1.3.0",
+							"path": "6.1.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/team-D.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 963,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling woman with glasses resting her chin on her hand",
+							"tone": {
+								"grid": [
+									0.54,
+									0.35,
+									0.54,
+									0.51,
+									0.38,
+									0.32,
+									0.25,
+									0.39,
+									0.16
+								],
+								"color": "#686061"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-7",
+					"index": 7,
+					"path": "7",
+					"group": "top-7",
+					"role": "testimonials",
+					"title": "Client Reviews",
+					"slots": [
+						{
+							"id": "core-7.0.0:@html:h",
+							"blockId": "core-7.0.0",
+							"path": "7.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Client Reviews",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.1:@html:p",
+							"blockId": "core-7.0.1",
+							"path": "7.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Pirem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-7.1.0.0:@html:p",
+							"blockId": "core-7.1.0.0",
+							"path": "7.1.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-7.1.0.1.1.0:@html:p",
+							"blockId": "core-7.1.0.1.1.0",
+							"path": "7.1.0.1.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Amelia Abelo",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.1.0.1.1.1:@html:p",
+							"blockId": "core-7.1.0.1.1.1",
+							"path": "7.1.0.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Manager",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.1.1.0:@html:p",
+							"blockId": "core-7.1.1.0",
+							"path": "7.1.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Proin eget tortor risus.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-7.1.1.1.1.0:@html:p",
+							"blockId": "core-7.1.1.1.1.0",
+							"path": "7.1.1.1.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Noah Johnson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.1.1.1.1.1:@html:p",
+							"blockId": "core-7.1.1.1.1.1",
+							"path": "7.1.1.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-7.1.0.1.0:@html:img",
+							"blockId": "core-7.1.0.1.0",
+							"path": "7.1.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/team-D.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 963,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling woman with glasses resting her chin on her hand",
+							"tone": {
+								"grid": [
+									0.54,
+									0.35,
+									0.54,
+									0.51,
+									0.38,
+									0.32,
+									0.25,
+									0.39,
+									0.16
+								],
+								"color": "#686061"
+							}
+						},
+						{
+							"id": "core-7.1.1.1.0:@html:img",
+							"blockId": "core-7.1.1.1.0",
+							"path": "7.1.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/team-C.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 963,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man with curly hair in a red jacket portrait",
+							"tone": {
+								"grid": [
+									0.12,
+									0.22,
+									0.58,
+									0.18,
+									0.42,
+									0.62,
+									0.26,
+									0.25,
+									0.57
+								],
+								"color": "#72564d"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-8",
+					"index": 8,
+					"path": "8",
+					"group": "top-8",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "core-8.0.0.1:@html:p",
+							"blockId": "core-8.0.0.1",
+							"path": "8.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "310k",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-8.0.0.2:@html:p",
+							"blockId": "core-8.0.0.2",
+							"path": "8.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Client Trust",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.1:@html:p",
+							"blockId": "core-8.0.1.1",
+							"path": "8.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "150",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-8.0.1.2:@html:p",
+							"blockId": "core-8.0.1.2",
+							"path": "8.0.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Experts",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.2.1:@html:p",
+							"blockId": "core-8.0.2.1",
+							"path": "8.0.2.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "15",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-8.0.2.2:@html:p",
+							"blockId": "core-8.0.2.2",
+							"path": "8.0.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Experience",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.3.1:@html:p",
+							"blockId": "core-8.0.3.1",
+							"path": "8.0.3.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "120",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-8.0.3.2:@html:p",
+							"blockId": "core-8.0.3.2",
+							"path": "8.0.3.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Award",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-9",
+					"index": 9,
+					"path": "9",
+					"group": "top-9",
+					"role": "posts",
+					"title": "Latest Posts & Articles",
+					"slots": [
+						{
+							"id": "core-9.0.0:@html:h",
+							"blockId": "core-9.0.0",
+							"path": "9.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest Posts & Articles",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-9.0.1:@html:p",
+							"blockId": "core-9.0.1",
+							"path": "9.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Mirem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-9.1.0.1:@html:h",
+							"blockId": "core-9.1.0.1",
+							"path": "9.1.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Successful Marketing Ads for Your Business",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-9.1.0.2:@html:p",
+							"blockId": "core-9.1.0.2",
+							"path": "9.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Porem orem ipsum dolor sit amet, Tetur adipiscing elit. Atempor scelerisque olor sit mauris",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-9.1.0.3:@html:p",
+							"blockId": "core-9.1.0.3",
+							"path": "9.1.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-9.1.1.1:@html:h",
+							"blockId": "core-9.1.1.1",
+							"path": "9.1.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Let’s Build Your Business from Scratch",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-9.1.1.2:@html:p",
+							"blockId": "core-9.1.1.2",
+							"path": "9.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Sorem orem ipsum dolor sit amet, Tetur adipiscing elit. Atempor scelerisque olor sit mauris",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-9.1.1.3:@html:p",
+							"blockId": "core-9.1.1.3",
+							"path": "9.1.1.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-9.1.2.1:@html:h",
+							"blockId": "core-9.1.2.1",
+							"path": "9.1.2.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "The Best Place to Invest Your Money",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-9.1.2.2:@html:p",
+							"blockId": "core-9.1.2.2",
+							"path": "9.1.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Torem orem ipsum dolor sit amet, Tetur adipiscing elit. Atempor scelerisque olor sit mauris",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-9.1.2.3:@html:p",
+							"blockId": "core-9.1.2.3",
+							"path": "9.1.2.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-9.1.3.1:@html:h",
+							"blockId": "core-9.1.3.1",
+							"path": "9.1.3.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "The Big Seminar for Your Right Investment",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-9.1.3.2:@html:p",
+							"blockId": "core-9.1.3.2",
+							"path": "9.1.3.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Borem orem ipsum dolor sit amet, Tetur adipiscing elit. Atempor scelerisque olor sit mauris",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-9.1.3.3:@html:p",
+							"blockId": "core-9.1.3.3",
+							"path": "9.1.3.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-9.1.0.0:@html:img",
+							"blockId": "core-9.1.0.0",
+							"path": "9.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-A.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman sitting in front of a doodle wall holding a lightbulb sign",
+							"tone": {
+								"grid": [
+									0.79,
+									0.84,
+									0.86,
+									0.73,
+									0.67,
+									0.86,
+									0.71,
+									0.5,
+									0.78
+								],
+								"color": "#bcc0c2"
+							}
+						},
+						{
+							"id": "core-9.1.1.0:@html:img",
+							"blockId": "core-9.1.1.0",
+							"path": "9.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-B.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Desk with two monitors displaying design work",
+							"tone": {
+								"grid": [
+									0.65,
+									0.62,
+									0.6,
+									0.65,
+									0.48,
+									0.3,
+									0.67,
+									0.65,
+									0.63
+								],
+								"color": "#989491"
+							}
+						},
+						{
+							"id": "core-9.1.2.0:@html:img",
+							"blockId": "core-9.1.2.0",
+							"path": "9.1.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-F.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Notebook with website wireframe sketches, pens and phone",
+							"tone": {
+								"grid": [
+									0.69,
+									0.88,
+									0.73,
+									0.41,
+									0.85,
+									0.84,
+									0.33,
+									0.63,
+									0.72
+								],
+								"color": "#bda7ab"
+							}
+						},
+						{
+							"id": "core-9.1.3.0:@html:img",
+							"blockId": "core-9.1.3.0",
+							"path": "9.1.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-G.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Hands typing on a keyboard on a desk with posters",
+							"tone": {
+								"grid": [
+									0.83,
+									0.86,
+									0.76,
+									0.75,
+									0.57,
+									0.6,
+									0.76,
+									0.44,
+									0.7
+								],
+								"color": "#b9afaf"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-10",
+					"index": 10,
+					"path": "10",
+					"group": "top-10",
+					"role": "cta",
+					"title": "Have Any Questions?",
+					"slots": [
+						{
+							"id": "core-10.0.0.0:@html:h",
+							"blockId": "core-10.0.0.0",
+							"path": "10.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Have Any Questions?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-10.0.0.1:@html:p",
+							"blockId": "core-10.0.0.1",
+							"path": "10.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit massa condimentum enim, nisl vitae. Ultricies aliquet proin egestas donec viverra turpis luctus gravida ipsum.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-10.0.1.0.0:@html:a",
+							"blockId": "core-10.0.1.0.0",
+							"path": "10.0.1.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-11",
+					"index": 11,
+					"path": "11",
+					"group": "top-11",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-11.0.0.0:@html:p",
+							"blockId": "core-11.0.0.0",
+							"path": "11.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Wegmans",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-11.0.1.0:@html:p",
+							"blockId": "core-11.0.1.0",
+							"path": "11.0.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Warehouse",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-11.0.2.0:@html:p",
+							"blockId": "core-11.0.2.0",
+							"path": "11.0.2.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Neuhaus",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-11.0.3.0:@html:p",
+							"blockId": "core-11.0.3.0",
+							"path": "11.0.3.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kiehl's",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-11.0.4.0:@html:p",
+							"blockId": "core-11.0.4.0",
+							"path": "11.0.4.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Coast",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-12",
+					"index": 12,
+					"path": "12",
+					"group": "top-12",
+					"role": "contact",
+					"slots": [
+						{
+							"id": "core-12.0.0.1:@html:p",
+							"blockId": "core-12.0.0.1",
+							"path": "12.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit feugiat sit purus varius. Non in turpis tincidunt nulla. Condimentum ultrices nunc odio ante.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-12.0.1.0:@html:p",
+							"blockId": "core-12.0.1.0",
+							"path": "12.0.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Quick Links",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-12.0.2.0:@html:p",
+							"blockId": "core-12.0.2.0",
+							"path": "12.0.2.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Latest Posts",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-12.0.3.0:@html:p",
+							"blockId": "core-12.0.3.0",
+							"path": "12.0.3.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-12.0.3.1:@html:p",
+							"blockId": "core-12.0.3.1",
+							"path": "12.0.3.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Ph. : +(123) 456-7890",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "core-12.0.3.2:@html:p",
+							"blockId": "core-12.0.3.2",
+							"path": "12.0.3.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Email : first.last@demos.com",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "core-12.0.3.3:@html:p",
+							"blockId": "core-12.0.3.3",
+							"path": "12.0.3.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Loc : Moon Street , 446 Jupiter",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-12.0.3.4:@html:p",
+							"blockId": "core-12.0.3.4",
+							"path": "12.0.3.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Open : 9AM – 6PM (Mon – Fri)",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-12.2:@html:p",
+							"blockId": "core-12.2",
+							"path": "12.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Copyright © 2026 Zakra Agency. Powered by Zakra and BlockArt",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "cta",
+					"title": "Think Different. Make Different.",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "content",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "content",
+					"title": "Zakra Invites You To Build Your Next Site",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "gallery",
+					"title": "Our Awesome Portfolio",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"portfolio"
+						]
+					}
+				},
+				{
+					"id": "top-5",
+					"role": "pricing",
+					"title": "Plan & Pricing",
+					"sectionIds": [
+						"top-5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "top-6",
+					"role": "team",
+					"title": "Meet Our Team",
+					"sectionIds": [
+						"top-6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "top-7",
+					"role": "testimonials",
+					"title": "Client Reviews",
+					"sectionIds": [
+						"top-7"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-8",
+					"role": "stats",
+					"sectionIds": [
+						"top-8"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "top-9",
+					"role": "posts",
+					"title": "Latest Posts & Articles",
+					"sectionIds": [
+						"top-9"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "top-10",
+					"role": "cta",
+					"title": "Have Any Questions?",
+					"sectionIds": [
+						"top-10"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-11",
+					"role": "content",
+					"sectionIds": [
+						"top-11"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-12",
+					"role": "contact",
+					"sectionIds": [
+						"top-12"
+					],
+					"paths": [
+						"12"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "home-page",
+			"title": "Home Page",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/themegrill-demos/home-page-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Learning, Delivered With Clarity",
+					"slots": [
+						{
+							"id": "core-0.0.0.1:@html:p",
+							"blockId": "core-0.0.0.1",
+							"path": "0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "New cohort — enrollment open",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1:@html:h",
+							"blockId": "core-0.1",
+							"path": "0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Learning, Delivered With Clarity",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2:@html:p",
+							"blockId": "core-0.2",
+							"path": "0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "A quiet, focused platform for online courses. Structured lessons, progress you can see, and the tools teachers actually need.",
+							"rich": true,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.3.0:@html:a",
+							"blockId": "core-0.3.0",
+							"path": "0.3.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Start Learning Free",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.3.1:@html:a",
+							"blockId": "core-0.3.1",
+							"path": "0.3.1",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Browse Courses",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.5.0.0.0.1.0:@html:h",
+							"blockId": "core-0.5.0.0.0.1.0",
+							"path": "0.5.0.0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "820+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.5.0.0.0.1.1:@html:p",
+							"blockId": "core-0.5.0.0.0.1.1",
+							"path": "0.5.0.0.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Courses",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.5.0.1.0.1.0:@html:h",
+							"blockId": "core-0.5.0.1.0.1.0",
+							"path": "0.5.0.1.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "150+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.5.0.1.0.1.1:@html:p",
+							"blockId": "core-0.5.0.1.0.1.1",
+							"path": "0.5.0.1.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Instructors",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.5.0.2.0.1.0:@html:h",
+							"blockId": "core-0.5.0.2.0.1.0",
+							"path": "0.5.0.2.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "98%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.5.0.2.0.1.1:@html:p",
+							"blockId": "core-0.5.0.2.0.1.1",
+							"path": "0.5.0.2.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Completion",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.5.0.3.0.1.0:@html:h",
+							"blockId": "core-0.5.0.3.0.1.0",
+							"path": "0.5.0.3.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "24/7",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.5.0.3.0.1.1:@html:p",
+							"blockId": "core-0.5.0.3.0.1.1",
+							"path": "0.5.0.3.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Support",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.0.0.0:@html:img",
+							"blockId": "core-0.0.0.0",
+							"path": "0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/onlinelms-star-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.4.0:@html:img",
+							"blockId": "core-0.4.0",
+							"path": "0.4.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/onlinelms-hero-section-image.png",
+							"decorative": false,
+							"width": 1575,
+							"height": 1007,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Online course page screenshot with a video of a presenter",
+							"tone": {
+								"grid": [
+									0.94,
+									0.83,
+									0.85,
+									0.91,
+									0.64,
+									0.6,
+									0.96,
+									0.81,
+									0.9
+								],
+								"color": "#e0d0c8"
+							}
+						},
+						{
+							"id": "core-0.5.0.0.0.0.0:@html:img",
+							"blockId": "core-0.5.0.0.0.0.0",
+							"path": "0.5.0.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/bubble-tick-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.5.0.1.0.0.0:@html:img",
+							"blockId": "core-0.5.0.1.0.0.0",
+							"path": "0.5.0.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/instructor-icon.png",
+							"decorative": true,
+							"width": 18,
+							"height": 24,
+							"orientation": "portrait"
+						},
+						{
+							"id": "core-0.5.0.2.0.0.0:@html:img",
+							"blockId": "core-0.5.0.2.0.0.0",
+							"path": "0.5.0.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/book-open-completion-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.5.0.3.0.0.0:@html:img",
+							"blockId": "core-0.5.0.3.0.0.0",
+							"path": "0.5.0.3.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/support-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "features",
+					"title": "Everything An LMS Needs. Nothing It Doesn't.",
+					"slots": [
+						{
+							"id": "core-1.0.0.1:@html:p",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Why choose us",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1:@html:h",
+							"blockId": "core-1.1",
+							"path": "1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Everything An LMS Needs. Nothing It Doesn't.",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.0.0.1.0:@html:p",
+							"blockId": "core-1.2.0.0.1.0",
+							"path": "1.2.0.0.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "NEW",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.0.1:@html:h",
+							"blockId": "core-1.2.0.1",
+							"path": "1.2.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "AI study assistant",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.0.2:@html:p",
+							"blockId": "core-1.2.0.2",
+							"path": "1.2.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Personalized guidance that adapts to your pace, goals, and learning style — like a tutor on call.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.0.4.0:@html:a",
+							"blockId": "core-1.2.0.4.0",
+							"path": "1.2.0.4.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.0.0.1:@html:h",
+							"blockId": "core-1.2.1.0.0.1",
+							"path": "1.2.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Practitioner teachers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.0.0.2:@html:p",
+							"blockId": "core-1.2.1.0.0.2",
+							"path": "1.2.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Courses taught by people who do the work — not career lecturers.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.0.1.1:@html:h",
+							"blockId": "core-1.2.1.0.1.1",
+							"path": "1.2.1.0.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Clear progress",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.0.1.2:@html:p",
+							"blockId": "core-1.2.1.0.1.2",
+							"path": "1.2.1.0.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Streaks, milestones and a gentle next-step nudge. No gamification theatre.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.1.0.1:@html:h",
+							"blockId": "core-1.2.1.1.0.1",
+							"path": "1.2.1.1.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Structured paths",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.1.0.2:@html:p",
+							"blockId": "core-1.2.1.1.0.2",
+							"path": "1.2.1.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Not a content dump. Each topic is a deliberate sequence with prerequisites.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.1.1.1:@html:h",
+							"blockId": "core-1.2.1.1.1.1",
+							"path": "1.2.1.1.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Verified certificates",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.1.1.2:@html:p",
+							"blockId": "core-1.2.1.1.1.2",
+							"path": "1.2.1.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "A signed, citable certificate when you finish — recognised by our partners.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-1.0.0.0:@html:img",
+							"blockId": "core-1.0.0.0",
+							"path": "1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/check-circle-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.0.0.0.0:@html:img",
+							"blockId": "core-1.2.0.0.0.0",
+							"path": "1.2.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/star-white-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.0.3:@html:img",
+							"blockId": "core-1.2.0.3",
+							"path": "1.2.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/assistant-study.png",
+							"decorative": true,
+							"width": 758,
+							"height": 262,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-1.2.1.0.0.0.0.0:@html:img",
+							"blockId": "core-1.2.1.0.0.0.0.0",
+							"path": "1.2.1.0.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/teacher-icons.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.1.0.1.0.0.0:@html:img",
+							"blockId": "core-1.2.1.0.1.0.0.0",
+							"path": "1.2.1.0.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/progress-onlinelms.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.1.1.0.0.0.0:@html:img",
+							"blockId": "core-1.2.1.1.0.0.0.0",
+							"path": "1.2.1.1.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/path-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.1.1.1.0.0.0:@html:img",
+							"blockId": "core-1.2.1.1.1.0.0.0",
+							"path": "1.2.1.1.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/ribbon-certificate-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "dynamic",
+					"title": "Learners' Favourites",
+					"slots": [
+						{
+							"id": "core-2.0.0.0.0.1:@html:p",
+							"blockId": "core-2.0.0.0.0.1",
+							"path": "2.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Popular Courses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.1:@html:h",
+							"blockId": "core-2.0.0.1",
+							"path": "2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Learners' Favourites",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.2:@html:p",
+							"blockId": "core-2.0.0.2",
+							"path": "2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Plans that are carefully crafted to suit your business.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.0.0:@html:a",
+							"blockId": "core-2.0.1.0.0",
+							"path": "2.0.1.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "View All Courses",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.0.0.0.0:@html:img",
+							"blockId": "core-2.0.0.0.0.0",
+							"path": "2.0.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/book-open-onlinelms.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					],
+					"dynamicBlocks": [
+						"masteriyo/courses"
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "logos",
+					"title": "Trusted By Leading Companies",
+					"slots": [
+						{
+							"id": "core-3.0.0.0.0.1:@html:p",
+							"blockId": "core-3.0.0.0.0.1",
+							"path": "3.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Our Partners",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.1:@html:h",
+							"blockId": "core-3.0.0.1",
+							"path": "3.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Trusted By Leading Companies",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-3.0.0.0.0.0:@html:img",
+							"blockId": "core-3.0.0.0.0.0",
+							"path": "3.0.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/handshake-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.0.1.0.0.0.0:@html:img",
+							"blockId": "core-3.0.1.0.0.0.0",
+							"path": "3.0.1.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/celanese-corporation-logo.png",
+							"decorative": true,
+							"width": 140,
+							"height": 28,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.1.0.1.0.0:@html:img",
+							"blockId": "core-3.0.1.0.1.0.0",
+							"path": "3.0.1.0.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/microsoft-logos.png",
+							"decorative": true,
+							"width": 100,
+							"height": 30,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.1.0.2.0.0:@html:img",
+							"blockId": "core-3.0.1.0.2.0.0",
+							"path": "3.0.1.0.2.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/meta-logos.png",
+							"decorative": true,
+							"width": 100,
+							"height": 21,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.1.1.0.0.0:@html:img",
+							"blockId": "core-3.0.1.1.0.0.0",
+							"path": "3.0.1.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/elastic-logos.png",
+							"decorative": true,
+							"width": 100,
+							"height": 38,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.1.1.1.0.0:@html:img",
+							"blockId": "core-3.0.1.1.1.0.0",
+							"path": "3.0.1.1.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/google-logos.png",
+							"decorative": true,
+							"width": 93,
+							"height": 40,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.1.1.2.0.0:@html:img",
+							"blockId": "core-3.0.1.1.2.0.0",
+							"path": "3.0.1.1.2.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/airbnb-logos.png",
+							"decorative": true,
+							"width": 100,
+							"height": 38,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "content",
+					"title": "Explore By Categories",
+					"slots": [
+						{
+							"id": "core-4.0.0.1:@html:p",
+							"blockId": "core-4.0.0.1",
+							"path": "4.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Categories",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.1:@html:h",
+							"blockId": "core-4.1",
+							"path": "4.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Explore By Categories",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.2:@html:p",
+							"blockId": "core-4.2",
+							"path": "4.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Plans that are carefully crafted to suit your business.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.3.0.0:@html:p",
+							"blockId": "core-4.3.0.0",
+							"path": "4.3.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Web Development (24)",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.3.1.0:@html:p",
+							"blockId": "core-4.3.1.0",
+							"path": "4.3.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Javascript (18)",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.3.2.0:@html:p",
+							"blockId": "core-4.3.2.0",
+							"path": "4.3.2.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Framer (9)",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.3.3.0:@html:p",
+							"blockId": "core-4.3.3.0",
+							"path": "4.3.3.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Web Design (15)",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.3.4.0:@html:p",
+							"blockId": "core-4.3.4.0",
+							"path": "4.3.4.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Web Flow (11)",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.3.5.0:@html:p",
+							"blockId": "core-4.3.5.0",
+							"path": "4.3.5.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "CSS (22)",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.4.0.0:@html:p",
+							"blockId": "core-4.4.0.0",
+							"path": "4.4.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "UI/UX Design (16)",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.4.1.0:@html:p",
+							"blockId": "core-4.4.1.0",
+							"path": "4.4.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Angular (8)",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.4.2.0:@html:p",
+							"blockId": "core-4.4.2.0",
+							"path": "4.4.2.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Graphic Design (12)",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.4.3.0:@html:p",
+							"blockId": "core-4.4.3.0",
+							"path": "4.4.3.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Typescript (19)",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.4.4.0:@html:p",
+							"blockId": "core-4.4.4.0",
+							"path": "4.4.4.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Node.js (14)",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.5.0.0:@html:p",
+							"blockId": "core-4.5.0.0",
+							"path": "4.5.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Branding (6)",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.5.1.0:@html:p",
+							"blockId": "core-4.5.1.0",
+							"path": "4.5.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "React (27)",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.5.2.0:@html:p",
+							"blockId": "core-4.5.2.0",
+							"path": "4.5.2.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Illustration (5)",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-4.0.0.0:@html:img",
+							"blockId": "core-4.0.0.0",
+							"path": "4.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/categories-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-5",
+					"index": 5,
+					"path": "5",
+					"group": "top-5",
+					"role": "pricing",
+					"title": "Affordable Learning For Everyone",
+					"slots": [
+						{
+							"id": "core-5.0.0.1:@html:p",
+							"blockId": "core-5.0.0.1",
+							"path": "5.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Pricing",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1:@html:h",
+							"blockId": "core-5.1",
+							"path": "5.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Affordable Learning For Everyone",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.2:@html:p",
+							"blockId": "core-5.2",
+							"path": "5.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Plans that are carefully crafted to suit your business.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.0.0:@html:p",
+							"blockId": "core-5.3.0.0.0",
+							"path": "5.3.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Single Course",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.0.1:@html:h",
+							"blockId": "core-5.3.0.0.1",
+							"path": "5.3.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Free",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.0.2.0:@html:a",
+							"blockId": "core-5.3.0.0.2.0",
+							"path": "5.3.0.0.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.0.3:@html:p",
+							"blockId": "core-5.3.0.0.3",
+							"path": "5.3.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Features:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.0.4.0:@html:p",
+							"blockId": "core-5.3.0.0.4.0",
+							"path": "5.3.0.0.4.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Interactive design sprints",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.0.4.1:@html:p",
+							"blockId": "core-5.3.0.0.4.1",
+							"path": "5.3.0.0.4.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Collaborative brainstorming sessions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.0.4.2:@html:p",
+							"blockId": "core-5.3.0.0.4.2",
+							"path": "5.3.0.0.4.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Real-world project experiences",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.0.4.3:@html:p",
+							"blockId": "core-5.3.0.0.4.3",
+							"path": "5.3.0.0.4.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Mentorship from industry experts",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.0.4.4:@html:p",
+							"blockId": "core-5.3.0.0.4.4",
+							"path": "5.3.0.0.4.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Networking opportunities with peers",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.0.0:@html:p",
+							"blockId": "core-5.3.0.1.0.0",
+							"path": "5.3.0.1.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "All-Access",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.0.1.0:@html:p",
+							"blockId": "core-5.3.0.1.0.1.0",
+							"path": "5.3.0.1.0.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "RECOMMENDED",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.1.0:@html:h",
+							"blockId": "core-5.3.0.1.1.0",
+							"path": "5.3.0.1.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "$50.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-5.3.0.1.1.1:@html:p",
+							"blockId": "core-5.3.0.1.1.1",
+							"path": "5.3.0.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "/ lifetime",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.2.0:@html:a",
+							"blockId": "core-5.3.0.1.2.0",
+							"path": "5.3.0.1.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.3:@html:p",
+							"blockId": "core-5.3.0.1.3",
+							"path": "5.3.0.1.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Features:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.4.0:@html:p",
+							"blockId": "core-5.3.0.1.4.0",
+							"path": "5.3.0.1.4.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Full access to all courses",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.4.1:@html:p",
+							"blockId": "core-5.3.0.1.4.1",
+							"path": "5.3.0.1.4.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Unlimited course downloads",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.4.2:@html:p",
+							"blockId": "core-5.3.0.1.4.2",
+							"path": "5.3.0.1.4.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Dedicated Q&A support",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.4.3:@html:p",
+							"blockId": "core-5.3.0.1.4.3",
+							"path": "5.3.0.1.4.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Certificate of completion for each course",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.3.0.1.4.4:@html:p",
+							"blockId": "core-5.3.0.1.4.4",
+							"path": "5.3.0.1.4.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Access to exclusive webinars and events",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-5.0.0.0:@html:img",
+							"blockId": "core-5.0.0.0",
+							"path": "5.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/pricing-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-6",
+					"index": 6,
+					"path": "6",
+					"group": "top-6",
+					"role": "testimonials",
+					"title": "What Our Learners Has To Say",
+					"slots": [
+						{
+							"id": "core-6.0.0.1:@html:p",
+							"blockId": "core-6.0.0.1",
+							"path": "6.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "450+ Reviews",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.1:@html:h",
+							"blockId": "core-6.1",
+							"path": "6.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What Our Learners Has To Say",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.2.0.0.0.1.0:@html:p",
+							"blockId": "core-6.2.0.0.0.1.0",
+							"path": "6.2.0.0.0.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Phoebe journey with Online LMS",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.2.0.0.0.1.1:@html:p",
+							"blockId": "core-6.2.0.0.0.1.1",
+							"path": "6.2.0.0.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "1:23 min",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-6.2.1.0.0.0:@html:p",
+							"blockId": "core-6.2.1.0.0.0",
+							"path": "6.2.1.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "★★★★★",
+							"rich": true,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "core-6.2.1.0.0.1:@html:p",
+							"blockId": "core-6.2.1.0.0.1",
+							"path": "6.2.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The Marketing course completely changed how I work. Lessons are clear, exercises are meaningful, and instructors actually respond quickly, supportively, and with helpful feedback.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.2.1.0.1.1.0:@html:p",
+							"blockId": "core-6.2.1.0.1.1.0",
+							"path": "6.2.1.0.1.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jenny Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.2.1.0.1.1.1:@html:p",
+							"blockId": "core-6.2.1.0.1.1.1",
+							"path": "6.2.1.0.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Volunteer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.2.2.0.0.0:@html:p",
+							"blockId": "core-6.2.2.0.0.0",
+							"path": "6.2.2.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "★★★★★",
+							"rich": true,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "core-6.2.2.0.0.1:@html:p",
+							"blockId": "core-6.2.2.0.0.1",
+							"path": "6.2.2.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Got my first web developer role six months after starting the track. The projects gave me something real to show, helped me build confidence. It felt like a real step toward my career.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.2.2.0.1.1.0:@html:p",
+							"blockId": "core-6.2.2.0.1.1.0",
+							"path": "6.2.2.0.1.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Sara Martin",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.2.2.0.1.1.1:@html:p",
+							"blockId": "core-6.2.2.0.1.1.1",
+							"path": "6.2.2.0.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Student",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.3.0:@html:a",
+							"blockId": "core-6.3.0",
+							"path": "6.3.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Get Started Now",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-6.0.0.0:@html:img",
+							"blockId": "core-6.0.0.0",
+							"path": "6.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/reviews-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-6.2.0.0.0.0.0:@html:img",
+							"blockId": "core-6.2.0.0.0.0.0",
+							"path": "6.2.0.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/play-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-6.2.1.0.1.0:@html:img",
+							"blockId": "core-6.2.1.0.1.0",
+							"path": "6.2.1.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/review-1.png",
+							"decorative": true,
+							"width": 46,
+							"height": 46,
+							"orientation": "square"
+						},
+						{
+							"id": "core-6.2.2.0.1.0:@html:img",
+							"blockId": "core-6.2.2.0.1.0",
+							"path": "6.2.2.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/review-2.png",
+							"decorative": true,
+							"width": 46,
+							"height": 46,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-7",
+					"index": 7,
+					"path": "7",
+					"group": "top-7",
+					"role": "content",
+					"title": "Our Awesome Instructors",
+					"slots": [
+						{
+							"id": "core-7.0.0.0.0.1:@html:p",
+							"blockId": "core-7.0.0.0.0.1",
+							"path": "7.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Instructors",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.0.1:@html:h",
+							"blockId": "core-7.0.0.1",
+							"path": "7.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Awesome Instructors",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.0.2:@html:p",
+							"blockId": "core-7.0.0.2",
+							"path": "7.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We empower our instructors to create engaging and effective learning experiences for all students.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.0.3.0:@html:p",
+							"blockId": "core-7.0.0.3.0",
+							"path": "7.0.0.3.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Expert guidance across devices",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.0.3.1:@html:p",
+							"blockId": "core-7.0.0.3.1",
+							"path": "7.0.0.3.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Dynamic content for an enhanced experience",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.0.3.2:@html:p",
+							"blockId": "core-7.0.0.3.2",
+							"path": "7.0.0.3.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Consistent support to help you succeed",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.0.4.0:@html:a",
+							"blockId": "core-7.0.0.4.0",
+							"path": "7.0.0.4.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Know More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-7.0.0.0.0.0:@html:img",
+							"blockId": "core-7.0.0.0.0.0",
+							"path": "7.0.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/instructors-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-7.0.1.0.0.0:@html:img",
+							"blockId": "core-7.0.1.0.0.0",
+							"path": "7.0.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-1.png",
+							"decorative": true,
+							"width": 260,
+							"height": 240,
+							"orientation": "square"
+						},
+						{
+							"id": "core-7.0.1.0.1.0:@html:img",
+							"blockId": "core-7.0.1.0.1.0",
+							"path": "7.0.1.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-2.png",
+							"decorative": true,
+							"width": 260,
+							"height": 240,
+							"orientation": "square"
+						},
+						{
+							"id": "core-7.0.1.1.0.0:@html:img",
+							"blockId": "core-7.0.1.1.0.0",
+							"path": "7.0.1.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-3.png",
+							"decorative": true,
+							"width": 259,
+							"height": 251,
+							"orientation": "square"
+						},
+						{
+							"id": "core-7.0.1.1.1.0:@html:img",
+							"blockId": "core-7.0.1.1.1.0",
+							"path": "7.0.1.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-4.png",
+							"decorative": true,
+							"width": 259,
+							"height": 251,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-8",
+					"index": 8,
+					"path": "8",
+					"group": "top-8",
+					"role": "content",
+					"title": "Common Questions",
+					"slots": [
+						{
+							"id": "core-8.0.0.0.0.1:@html:p",
+							"blockId": "core-8.0.0.0.0.1",
+							"path": "8.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "FAQs",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.0.1:@html:h",
+							"blockId": "core-8.0.0.1",
+							"path": "8.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Common Questions",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.0.2:@html:p",
+							"blockId": "core-8.0.0.2",
+							"path": "8.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Enhance your skills with knowledgeable instructors who ensure every lesson is both clear and engaging.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.0.3.0:@html:h",
+							"blockId": "core-8.0.0.3.0",
+							"path": "8.0.0.3.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Still Have Questions?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.0.3.1:@html:p",
+							"blockId": "core-8.0.0.3.1",
+							"path": "8.0.0.3.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We will help you in every step.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.0.3.2.0.1.0:@html:a",
+							"blockId": "core-8.0.0.3.2.0.1.0",
+							"path": "8.0.0.3.2.0.1.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Contact Us Now",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.0.0:@html:summary",
+							"blockId": "core-8.0.1.0.0",
+							"path": "8.0.1.0.0",
+							"block": "core/details",
+							"attr": "@html:summary",
+							"kind": "question",
+							"text": "How do I enroll in a course?",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.0.0.0:@html:p",
+							"blockId": "core-8.0.1.0.0.0",
+							"path": "8.0.1.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Browse the course catalogue, click Enroll on any course page, and complete checkout. Your course will appear in your dashboard immediately.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.1.0:@html:summary",
+							"blockId": "core-8.0.1.1.0",
+							"path": "8.0.1.1.0",
+							"block": "core/details",
+							"attr": "@html:summary",
+							"kind": "question",
+							"text": "How long does a typical course take?",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.1.0.0:@html:p",
+							"blockId": "core-8.0.1.1.0.0",
+							"path": "8.0.1.1.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Yes, every course comes with a 14-day no-questions-asked refund policy. Just reach out to support and we’ll process it right away.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.2.0:@html:summary",
+							"blockId": "core-8.0.1.2.0",
+							"path": "8.0.1.2.0",
+							"block": "core/details",
+							"attr": "@html:summary",
+							"kind": "question",
+							"text": "Is the community supportive?",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.2.0.0:@html:p",
+							"blockId": "core-8.0.1.2.0.0",
+							"path": "8.0.1.2.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Absolutely. Every course includes a dedicated discussion forum where instructors and fellow students actively engage, share projects, and give feedback.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.3.0:@html:summary",
+							"blockId": "core-8.0.1.3.0",
+							"path": "8.0.1.3.0",
+							"block": "core/details",
+							"attr": "@html:summary",
+							"kind": "question",
+							"text": "Are there live classes or just recorded content?",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.3.0.0:@html:p",
+							"blockId": "core-8.0.1.3.0.0",
+							"path": "8.0.1.3.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Both. All courses include on-demand video lessons you can watch anytime, plus monthly live Q&A sessions with instructors for All-Access members.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.4.0:@html:summary",
+							"blockId": "core-8.0.1.4.0",
+							"path": "8.0.1.4.0",
+							"block": "core/details",
+							"attr": "@html:summary",
+							"kind": "question",
+							"text": "Do I get a certificate when I finish?",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.4.0.0:@html:p",
+							"blockId": "core-8.0.1.4.0.0",
+							"path": "8.0.1.4.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Yes. Every completed course earns you a signed, shareable certificate of completion that you can add directly to your LinkedIn profile.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-8.0.0.0.0.0:@html:img",
+							"blockId": "core-8.0.0.0.0.0",
+							"path": "8.0.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/faqs-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-8.0.0.3.2.0.0.0:@html:img",
+							"blockId": "core-8.0.0.3.2.0.0.0",
+							"path": "8.0.0.3.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-1-150x150.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-8.0.0.3.2.0.0.1:@html:img",
+							"blockId": "core-8.0.0.3.2.0.0.1",
+							"path": "8.0.0.3.2.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-2-150x150.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-8.0.0.3.2.0.0.2:@html:img",
+							"blockId": "core-8.0.0.3.2.0.0.2",
+							"path": "8.0.0.3.2.0.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-4-150x150.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-8.0.0.3.2.0.0.3:@html:img",
+							"blockId": "core-8.0.0.3.2.0.0.3",
+							"path": "8.0.0.3.2.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-3-150x150.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Learning, Delivered With Clarity",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "features",
+					"title": "Everything An LMS Needs. Nothing It Doesn't.",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "dynamic",
+					"title": "Learners' Favourites",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "logos",
+					"title": "Trusted By Leading Companies",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "content",
+					"title": "Explore By Categories",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-5",
+					"role": "pricing",
+					"title": "Affordable Learning For Everyone",
+					"sectionIds": [
+						"top-5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "top-6",
+					"role": "testimonials",
+					"title": "What Our Learners Has To Say",
+					"sectionIds": [
+						"top-6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-7",
+					"role": "content",
+					"title": "Our Awesome Instructors",
+					"sectionIds": [
+						"top-7"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-8",
+					"role": "content",
+					"title": "Common Questions",
+					"sectionIds": [
+						"top-8"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Learning, Delivered With Clarity",
+					"slots": [
+						{
+							"id": "core-0.0.0.1:@html:p",
+							"blockId": "core-0.0.0.1",
+							"path": "0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "About Online LMS",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1:@html:h",
+							"blockId": "core-0.1",
+							"path": "0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Learning, Delivered With Clarity",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2:@html:p",
+							"blockId": "core-0.2",
+							"path": "0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We build a quiet, focused platform for online learning — structured lessons, visible progress, and tools teachers actually need.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.0.0.0:@html:img",
+							"blockId": "core-0.0.0.0",
+							"path": "0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/onlinelms-star-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "core-1.0.0.0.0:@html:h",
+							"blockId": "core-1.0.0.0.0",
+							"path": "1.0.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "820+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-1.0.0.0.1:@html:p",
+							"blockId": "core-1.0.0.0.1",
+							"path": "1.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Courses published",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.1.0:@html:h",
+							"blockId": "core-1.0.0.1.0",
+							"path": "1.0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "46,000+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-1.0.0.1.1:@html:p",
+							"blockId": "core-1.0.0.1.1",
+							"path": "1.0.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Students enrolled",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.2.0:@html:h",
+							"blockId": "core-1.0.0.2.0",
+							"path": "1.0.0.2.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "310+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-1.0.0.2.1:@html:p",
+							"blockId": "core-1.0.0.2.1",
+							"path": "1.0.0.2.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Working instructors",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.3.0:@html:h",
+							"blockId": "core-1.0.0.3.0",
+							"path": "1.0.0.3.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "94%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-1.0.0.3.1:@html:p",
+							"blockId": "core-1.0.0.3.1",
+							"path": "1.0.0.3.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Course completion rate",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "content",
+					"title": "Built by teachers who were tired of clunky course tools",
+					"slots": [
+						{
+							"id": "core-2.0.1.0.0.1:@html:p",
+							"blockId": "core-2.0.1.0.0.1",
+							"path": "2.0.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Our Story",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1:@html:h",
+							"blockId": "core-2.0.1.1",
+							"path": "2.0.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Built by teachers who were tired of clunky course tools",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.2:@html:p",
+							"blockId": "core-2.0.1.2",
+							"path": "2.0.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Online LMS started in 2019 as an internal tool for a small group of instructors who wanted a calmer way to publish structured lessons. Today more than 40,000 learners study here every month, across 820+ courses in design, development, marketing, finance and data.",
+							"rich": false,
+							"words": 43,
+							"minWords": 26,
+							"maxWords": 54,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.3:@html:p",
+							"blockId": "core-2.0.1.3",
+							"path": "2.0.1.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We have stayed deliberately small in scope: publish a course, learn a course, track progress. Everything else is optional.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.4.0:@html:p",
+							"blockId": "core-2.0.1.4.0",
+							"path": "2.0.1.4.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Course authoring that takes minutes, not weekends",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.4.1:@html:p",
+							"blockId": "core-2.0.1.4.1",
+							"path": "2.0.1.4.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Progress tracking learners genuinely use",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.4.2:@html:p",
+							"blockId": "core-2.0.1.4.2",
+							"path": "2.0.1.4.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Certificates recognized by our partner companies",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.4.3:@html:p",
+							"blockId": "core-2.0.1.4.3",
+							"path": "2.0.1.4.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Human support, seven days a week",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.5.0:@html:a",
+							"blockId": "core-2.0.1.5.0",
+							"path": "2.0.1.5.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Browse Courses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.0.0:@html:img",
+							"blockId": "core-2.0.0.0",
+							"path": "2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/onlinelms-about-image.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Team working on laptops around a wooden table",
+							"tone": {
+								"grid": [
+									0.39,
+									0.4,
+									0.4,
+									0.27,
+									0.3,
+									0.31,
+									0.2,
+									0.18,
+									0.24
+								],
+								"color": "#514c47"
+							}
+						},
+						{
+							"id": "core-2.0.1.0.0.0:@html:img",
+							"blockId": "core-2.0.1.0.0.0",
+							"path": "2.0.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/book-open-onlinelms.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "pricing",
+					"title": "The Principles Behind Every Feature",
+					"slots": [
+						{
+							"id": "core-3.0.0.1:@html:p",
+							"blockId": "core-3.0.0.1",
+							"path": "3.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "What We Value",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1:@html:h",
+							"blockId": "core-3.1",
+							"path": "3.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "The Principles Behind Every Feature",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.2.0.1:@html:h",
+							"blockId": "core-3.2.0.1",
+							"path": "3.2.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Clarity first",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.2.0.2:@html:p",
+							"blockId": "core-3.2.0.2",
+							"path": "3.2.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Every lesson has one job. No filler modules, no padded runtimes.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.2.1.1:@html:h",
+							"blockId": "core-3.2.1.1",
+							"path": "3.2.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Progress you can see",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.2.1.2:@html:p",
+							"blockId": "core-3.2.1.2",
+							"path": "3.2.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Learners always know what is finished, what is next, and what it unlocks.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.2.2.1:@html:h",
+							"blockId": "core-3.2.2.1",
+							"path": "3.2.2.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Teachers in control",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.2.2.2:@html:p",
+							"blockId": "core-3.2.2.2",
+							"path": "3.2.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Instructors own their structure, pricing and pace — we stay out of the way.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.3.0.1:@html:h",
+							"blockId": "core-3.3.0.1",
+							"path": "3.3.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Accessible by default",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.3.0.2:@html:p",
+							"blockId": "core-3.3.0.2",
+							"path": "3.3.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Captions, transcripts and keyboard navigation ship with every course.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.3.1.1:@html:h",
+							"blockId": "core-3.3.1.1",
+							"path": "3.3.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Fair pricing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.3.1.2:@html:p",
+							"blockId": "core-3.3.1.2",
+							"path": "3.3.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "One free tier, one paid tier. No hidden seats, no surprise renewals.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.3.2.1:@html:h",
+							"blockId": "core-3.3.2.1",
+							"path": "3.3.2.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Built to last",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.3.2.2:@html:p",
+							"blockId": "core-3.3.2.2",
+							"path": "3.3.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "A calm, stable platform that behaves the same on day one and day one thousand.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-3.0.0.0:@html:img",
+							"blockId": "core-3.0.0.0",
+							"path": "3.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/check-circle-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.2.0.0.0.0:@html:img",
+							"blockId": "core-3.2.0.0.0.0",
+							"path": "3.2.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/check-circle-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.2.1.0.0.0:@html:img",
+							"blockId": "core-3.2.1.0.0.0",
+							"path": "3.2.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/progress-onlinelms.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.2.2.0.0.0:@html:img",
+							"blockId": "core-3.2.2.0.0.0",
+							"path": "3.2.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/instructors-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.3.0.0.0.0:@html:img",
+							"blockId": "core-3.3.0.0.0.0",
+							"path": "3.3.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/accessible-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.3.1.0.0.0:@html:img",
+							"blockId": "core-3.3.1.0.0.0",
+							"path": "3.3.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/pricing-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.3.2.0.0.0:@html:img",
+							"blockId": "core-3.3.2.0.0.0",
+							"path": "3.3.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/infinite-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "content",
+					"title": "Our Awesome Instructors",
+					"slots": [
+						{
+							"id": "core-4.0.0.0.0.1:@html:p",
+							"blockId": "core-4.0.0.0.0.1",
+							"path": "4.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Instructors",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.1:@html:h",
+							"blockId": "core-4.0.0.1",
+							"path": "4.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Awesome Instructors",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.2:@html:p",
+							"blockId": "core-4.0.0.2",
+							"path": "4.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We empower our instructors to create engaging and effective learning experiences for all students.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.3.0:@html:p",
+							"blockId": "core-4.0.0.3.0",
+							"path": "4.0.0.3.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Expert guidance across devices",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.3.1:@html:p",
+							"blockId": "core-4.0.0.3.1",
+							"path": "4.0.0.3.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Dynamic content for an enhanced experience",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.3.2:@html:p",
+							"blockId": "core-4.0.0.3.2",
+							"path": "4.0.0.3.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "✓ Consistent support to help you succeed",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-4.0.0.0.0.0:@html:img",
+							"blockId": "core-4.0.0.0.0.0",
+							"path": "4.0.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/instructors-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-4.0.1.0.0.0:@html:img",
+							"blockId": "core-4.0.1.0.0.0",
+							"path": "4.0.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-1.png",
+							"decorative": true,
+							"width": 260,
+							"height": 240,
+							"orientation": "square"
+						},
+						{
+							"id": "core-4.0.1.0.1.0:@html:img",
+							"blockId": "core-4.0.1.0.1.0",
+							"path": "4.0.1.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-2.png",
+							"decorative": true,
+							"width": 260,
+							"height": 240,
+							"orientation": "square"
+						},
+						{
+							"id": "core-4.0.1.1.0.0:@html:img",
+							"blockId": "core-4.0.1.1.0.0",
+							"path": "4.0.1.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-3.png",
+							"decorative": true,
+							"width": 259,
+							"height": 251,
+							"orientation": "square"
+						},
+						{
+							"id": "core-4.0.1.1.1.0:@html:img",
+							"blockId": "core-4.0.1.1.1.0",
+							"path": "4.0.1.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-4.png",
+							"decorative": true,
+							"width": 259,
+							"height": 251,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-5",
+					"index": 5,
+					"path": "5",
+					"group": "top-5",
+					"role": "logos",
+					"title": "Trusted By Leading Companies",
+					"slots": [
+						{
+							"id": "core-5.0.0.0.0.1:@html:p",
+							"blockId": "core-5.0.0.0.0.1",
+							"path": "5.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Our Partners",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.0.0.1:@html:h",
+							"blockId": "core-5.0.0.1",
+							"path": "5.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Trusted By Leading Companies",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-5.0.0.0.0.0:@html:img",
+							"blockId": "core-5.0.0.0.0.0",
+							"path": "5.0.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/handshake-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "core-5.0.1.0.0.0.0:@html:img",
+							"blockId": "core-5.0.1.0.0.0.0",
+							"path": "5.0.1.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/celanese-corporation-logo.png",
+							"decorative": true,
+							"width": 140,
+							"height": 28,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-5.0.1.0.1.0.0:@html:img",
+							"blockId": "core-5.0.1.0.1.0.0",
+							"path": "5.0.1.0.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/microsoft-logos.png",
+							"decorative": true,
+							"width": 100,
+							"height": 30,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-5.0.1.0.2.0.0:@html:img",
+							"blockId": "core-5.0.1.0.2.0.0",
+							"path": "5.0.1.0.2.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/meta-logos.png",
+							"decorative": true,
+							"width": 100,
+							"height": 21,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-5.0.1.1.0.0.0:@html:img",
+							"blockId": "core-5.0.1.1.0.0.0",
+							"path": "5.0.1.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/elastic-logos.png",
+							"decorative": true,
+							"width": 100,
+							"height": 38,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-5.0.1.1.1.0.0:@html:img",
+							"blockId": "core-5.0.1.1.1.0.0",
+							"path": "5.0.1.1.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/google-logos.png",
+							"decorative": true,
+							"width": 93,
+							"height": 40,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-5.0.1.1.2.0.0:@html:img",
+							"blockId": "core-5.0.1.1.2.0.0",
+							"path": "5.0.1.1.2.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/airbnb-logos.png",
+							"decorative": true,
+							"width": 100,
+							"height": 38,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "top-6",
+					"index": 6,
+					"path": "6",
+					"group": "top-6",
+					"role": "cta",
+					"title": "Ready to Start Learning?",
+					"slots": [
+						{
+							"id": "core-6.0.0:@html:h",
+							"blockId": "core-6.0.0",
+							"path": "6.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Ready to Start Learning?",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.1:@html:p",
+							"blockId": "core-6.0.1",
+							"path": "6.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Join thousands of students already building real skills on Online LMS.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.2.0:@html:a",
+							"blockId": "core-6.0.2.0",
+							"path": "6.0.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Browse Courses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Learning, Delivered With Clarity",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "stats",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "content",
+					"title": "Built by teachers who were tired of clunky course tools",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "pricing",
+					"title": "The Principles Behind Every Feature",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "content",
+					"title": "Our Awesome Instructors",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-5",
+					"role": "logos",
+					"title": "Trusted By Leading Companies",
+					"sectionIds": [
+						"top-5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "top-6",
+					"role": "cta",
+					"title": "Ready to Start Learning?",
+					"sectionIds": [
+						"top-6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "terms-conditions",
+			"title": "Terms & Conditions",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/themegrill-demos/terms-conditions-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Terms & Conditions",
+					"slots": [
+						{
+							"id": "core-0.0.0.1:@html:p",
+							"blockId": "core-0.0.0.1",
+							"path": "0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Legal",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1:@html:h",
+							"blockId": "core-0.1",
+							"path": "0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Terms & Conditions",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2:@html:p",
+							"blockId": "core-0.2",
+							"path": "0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Last updated: July 1, 2026",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.0.0.0:@html:img",
+							"blockId": "core-0.0.0.0",
+							"path": "0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/handshake-icon.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "contact",
+					"title": "1. Acceptance Of Terms",
+					"slots": [
+						{
+							"id": "core-1.0.0:@html:p",
+							"blockId": "core-1.0.0",
+							"path": "1.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "These Terms & Conditions (\"Terms\") govern your use of Online LMS (\"we\", \"our\", \"us\") and the courses, content, and services available on our platform. By creating an account or purchasing a course, you agree to these Terms.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1:@html:h",
+							"blockId": "core-1.0.1",
+							"path": "1.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "1. Acceptance Of Terms",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.2:@html:p",
+							"blockId": "core-1.0.2",
+							"path": "1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "By accessing or using onlinelms.test, you confirm that you are at least 16 years old and that you have the legal capacity to enter into this agreement. If you do not agree to these Terms, please do not use the platform.",
+							"rich": false,
+							"words": 41,
+							"minWords": 25,
+							"maxWords": 52,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.3:@html:h",
+							"blockId": "core-1.0.3",
+							"path": "1.0.3",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "2. Course Access & License",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.4:@html:p",
+							"blockId": "core-1.0.4",
+							"path": "1.0.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "When you purchase a single course, you receive a lifetime, non-transferable license to access that course for personal, non-commercial learning. When you subscribe to All-Access or Team, your access to the course library continues only while your subscription remains active.",
+							"rich": false,
+							"words": 40,
+							"minWords": 24,
+							"maxWords": 50,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.5.0:@html:li",
+							"blockId": "core-1.0.5.0",
+							"path": "1.0.5.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Course materials, videos, and downloads remain the intellectual property of Online LMS and its instructors",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.5.1:@html:li",
+							"blockId": "core-1.0.5.1",
+							"path": "1.0.5.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "You may not resell, redistribute, or publicly share course content",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.5.2:@html:li",
+							"blockId": "core-1.0.5.2",
+							"path": "1.0.5.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Certificates of completion are personal to the account that earned them",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.6:@html:h",
+							"blockId": "core-1.0.6",
+							"path": "1.0.6",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "3. User Accounts & Responsibilities",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.7:@html:p",
+							"blockId": "core-1.0.7",
+							"path": "1.0.7",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "You're responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account. Notify us immediately at the contact below if you suspect unauthorized use.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.8:@html:h",
+							"blockId": "core-1.0.8",
+							"path": "1.0.8",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "4. Payments & Refunds",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.9:@html:p",
+							"blockId": "core-1.0.9",
+							"path": "1.0.9",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "All prices are listed in US dollars unless otherwise stated. Payments are processed securely by our third-party payment provider.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.10.0:@html:li",
+							"blockId": "core-1.0.10.0",
+							"path": "1.0.10.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Single-course purchases are refundable within 14 days of purchase if less than 20% of the course has been completed",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.10.1:@html:li",
+							"blockId": "core-1.0.10.1",
+							"path": "1.0.10.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "All-Access and Team subscriptions are refundable within 7 days of the first charge",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.10.2:@html:li",
+							"blockId": "core-1.0.10.2",
+							"path": "1.0.10.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Subscriptions renew automatically until cancelled; you can cancel any time from your account billing page",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.11:@html:h",
+							"blockId": "core-1.0.11",
+							"path": "1.0.11",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "5. Instructor Content & Intellectual Property",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.12:@html:p",
+							"blockId": "core-1.0.12",
+							"path": "1.0.12",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Instructors retain ownership of the courses they create and grant Online LMS a license to host, distribute, and promote that content on the platform. All trademarks, logos, and platform content not created by instructors belong to Online LMS.",
+							"rich": false,
+							"words": 38,
+							"minWords": 23,
+							"maxWords": 48,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.13:@html:h",
+							"blockId": "core-1.0.13",
+							"path": "1.0.13",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "6. Prohibited Conduct",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.14:@html:p",
+							"blockId": "core-1.0.14",
+							"path": "1.0.14",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "You agree not to:",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.15.0:@html:li",
+							"blockId": "core-1.0.15.0",
+							"path": "1.0.15.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Share your account or course access with anyone else",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.15.1:@html:li",
+							"blockId": "core-1.0.15.1",
+							"path": "1.0.15.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Copy, record, or redistribute course videos or materials",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.15.2:@html:li",
+							"blockId": "core-1.0.15.2",
+							"path": "1.0.15.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Upload harmful, infringing, or unlawful content",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.15.3:@html:li",
+							"blockId": "core-1.0.15.3",
+							"path": "1.0.15.3",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Attempt to disrupt, reverse-engineer, or gain unauthorized access to the platform",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.16:@html:h",
+							"blockId": "core-1.0.16",
+							"path": "1.0.16",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "7. Termination",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.17:@html:p",
+							"blockId": "core-1.0.17",
+							"path": "1.0.17",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We may suspend or terminate your account if you violate these Terms. You may close your account at any time; purchased single-course licenses remain available for download of your certificate for 30 days after account closure.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.18:@html:h",
+							"blockId": "core-1.0.18",
+							"path": "1.0.18",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "8. Disclaimers & Limitation Of Liability",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.19:@html:p",
+							"blockId": "core-1.0.19",
+							"path": "1.0.19",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Courses are provided \"as is\" for educational purposes and do not guarantee any particular outcome, job placement, or certification recognition. To the fullest extent permitted by law, Online LMS is not liable for indirect, incidental, or consequential damages arising from your use of the platform.",
+							"rich": false,
+							"words": 45,
+							"minWords": 27,
+							"maxWords": 57,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.20:@html:h",
+							"blockId": "core-1.0.20",
+							"path": "1.0.20",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "9. Governing Law",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.21:@html:p",
+							"blockId": "core-1.0.21",
+							"path": "1.0.21",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "These Terms are governed by the laws of the jurisdiction in which Online LMS is registered, without regard to conflict-of-law principles.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.22:@html:h",
+							"blockId": "core-1.0.22",
+							"path": "1.0.22",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "10. Changes To These Terms",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.23:@html:p",
+							"blockId": "core-1.0.23",
+							"path": "1.0.23",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We may update these Terms from time to time. If we make material changes, we'll notify you by email or through a notice on the platform before the changes take effect.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.24:@html:h",
+							"blockId": "core-1.0.24",
+							"path": "1.0.24",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "11. Contact Us",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.25:@html:p",
+							"blockId": "core-1.0.25",
+							"path": "1.0.25",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Questions about these Terms? Email us at legal@onlinelms.test.",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Terms & Conditions",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "contact",
+					"title": "1. Acceptance Of Terms",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 36,
+		"textSlots": 299,
+		"editableSlots": 277,
+		"images": 87,
+		"swappableImages": 19,
+		"words": 2011
+	},
+	"builtAt": "2026-10-24T11:35:08.155Z"
+}

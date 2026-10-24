@@ -69,8 +69,14 @@ export const buildSection = (
 const slotLocations = (section: ManifestSection) =>
 	Object.fromEntries([
 		...editableSlots(section).map((s) => [s.id, { path: s.path, block: s.block, attr: s.attr, inHtml: s.inHtml, rich: s.rich }]),
-		...section.images.filter((i) => !i.decorative).map((i) => [i.id, { path: i.path, block: i.block, attr: i.attr }]),
+		...section.images.filter((i) => !i.decorative).map((i) => [i.id, { path: i.path, block: i.block, attr: i.attr, url: i.url }]),
 	]);
+
+const keepImages = (demo: DemoManifest, selected: ManifestPage[]) => {
+	const swappable = new Set(selected.flatMap((p) => p.sections.flatMap((s) => s.images.filter((i) => !i.decorative))));
+	const all = demo.pages.flatMap((p) => p.sections.flatMap((s) => s.images));
+	return [...new Set(all.filter((i) => !swappable.has(i)).map((i) => i.url))];
+};
 
 export const assemblePackage = (args: {
 	id: string;
@@ -133,6 +139,9 @@ export const assemblePackage = (args: {
 			// themeColorMap for theme settings. If the user edits the palette, the
 			// plugin fetches new ones from /api/color-map; it rebuilds the font map
 			// itself from demoFonts.
+			// Demo images used anywhere but a swappable slot on the pages above. The
+			// importer may skip downloading a replaced photo only if it isn't one of these.
+			keepImages: keepImages(demo, selected.map((s) => s.page)),
 			demoFonts: demo.brand.fonts.map,
 			colorMap: colors.map,
 			themeColorMap: colors.themeMap,

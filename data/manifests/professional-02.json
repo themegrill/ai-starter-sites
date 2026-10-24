@@ -1,0 +1,3139 @@
+{
+	"version": 4,
+	"slug": "professional-02",
+	"name": "Zakra Professional",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-professional-02/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/professional-02",
+	"niches": [
+		"business",
+		"consulting",
+		"professional-services"
+	],
+	"keywords": [
+		"professional services",
+		"consultant",
+		"freelancer",
+		"firm",
+		"business services",
+		"advisor"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 107,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 69,
+					"background": 4,
+					"border": 3
+				}
+			},
+			{
+				"hex": "#2b2b2b",
+				"count": 37,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 36
+				}
+			},
+			{
+				"hex": "#d90a2c",
+				"count": 25,
+				"group": "brand",
+				"role": "primary",
+				"base": "#d90a2c",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 6,
+					"text": 13
+				}
+			},
+			{
+				"hex": "#123458",
+				"count": 12,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#123458",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 11
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 11,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 11
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#143b64",
+				"count": 4,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#123458",
+				"lightnessDelta": 0.027,
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f3f5f6",
+				"count": 2,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#2563eb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#123458",
+				"lightnessDelta": 0.325,
+				"usage": {
+					"border": 2
+				}
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#123458",
+				"lightnessDelta": 0.163
+			},
+			{
+				"hex": "#fafbfc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#123458",
+				"large": false,
+				"count": 16,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#123458",
+				"large": true,
+				"count": 13,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#3f3f46",
+				"bg": "#123458",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#143b64",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#d90a2c",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#d90a2c",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#3f3f46",
+				"bg": "#d90a2c",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#143b64",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#d90a2c",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#d90a2c",
+				"bg": "#fafbfc",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#123458",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#d90a2c",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#d90a2c",
+				"bg": "#123458",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#d4d4d8",
+				"bg": "#123458",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Montserrat",
+			"body": "Roboto",
+			"map": {
+				"Montserrat": "heading",
+				"Roboto": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "986f8da7",
+					"index": 0,
+					"path": "0",
+					"group": "986f8da7",
+					"role": "hero",
+					"title": "ZAKRA",
+					"slots": [
+						{
+							"id": "6a0665f6:text",
+							"blockId": "6a0665f6",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "ZAKRA",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c13f7e83:text",
+							"blockId": "c13f7e83",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "PROFESSIONAL",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6b6d1c96:text",
+							"blockId": "6b6d1c96",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nulla leo nisl purus ullamcorper ullamcorper varius nunc mollis phasellus.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2effe9de:text",
+							"blockId": "2effe9de",
+							"path": "0.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Zakra",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "986f8da7:background.image.image.url",
+							"blockId": "986f8da7",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/hero.jpg",
+							"decorative": false,
+							"width": 1440,
+							"height": 774,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Looking up at a glass skyscraper at dusk",
+							"tone": {
+								"grid": [
+									0.13,
+									0.15,
+									0.21,
+									0.25,
+									0.22,
+									0.33,
+									0.07,
+									0.06,
+									0.1
+								],
+								"color": "#362640"
+							}
+						}
+					]
+				},
+				{
+					"id": "6627d7e6",
+					"index": 1,
+					"path": "1",
+					"group": "6627d7e6",
+					"role": "content",
+					"title": "We Are Zakra",
+					"slots": [
+						{
+							"id": "3dd3587e:text",
+							"blockId": "3dd3587e",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Are Zakra",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e410f6b1:text",
+							"blockId": "e410f6b1",
+							"path": "1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices amet amet a. Pellentesque posuere non interdum morbi volutpat neque fermentum.Tempor faucibus aliquam dictum in neque orci mattis sit.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d162327a:text",
+							"blockId": "d162327a",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Orci ut risus arcu sed orci varius sit. Nare nisl viverra sem in dolor. Nunc, pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus. Rnare nisl viverra sem in dolor. Nunc, pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus. pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus.",
+							"rich": false,
+							"words": 58,
+							"minWords": 35,
+							"maxWords": 73,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "6b8b406c",
+					"index": 2,
+					"path": "2",
+					"group": "6627d7e6",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "e98d6db9:text",
+							"blockId": "e98d6db9",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "334",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "dd077bf8:text",
+							"blockId": "dd077bf8",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Satisfied Clients",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f8c577ef:text",
+							"blockId": "f8c577ef",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "356",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "16993218:text",
+							"blockId": "16993218",
+							"path": "2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Completed",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4edbfe8a:text",
+							"blockId": "4edbfe8a",
+							"path": "2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "9,561",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f66752f9:text",
+							"blockId": "f66752f9",
+							"path": "2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Working Hour",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6e691b09:text",
+							"blockId": "6e691b09",
+							"path": "2.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "29",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "9d5e063a:text",
+							"blockId": "9d5e063a",
+							"path": "2.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Award Winning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "eed47925",
+					"index": 3,
+					"path": "3",
+					"group": "eed47925",
+					"role": "content",
+					"title": "Services",
+					"slots": [
+						{
+							"id": "ef18b8c0:text",
+							"blockId": "ef18b8c0",
+							"path": "3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Services",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "55f2bf39:text",
+							"blockId": "55f2bf39",
+							"path": "3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices amet amet a. Pellentesque posuere non interdum morbi volutpat neque fermentum.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "ace61d7d",
+					"index": 4,
+					"path": "4",
+					"group": "eed47925",
+					"role": "features",
+					"title": "Future Mission & Vision.",
+					"slots": [
+						{
+							"id": "e984a0f7:text",
+							"blockId": "e984a0f7",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Future Mission & Vision.",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bd1aff72:text",
+							"blockId": "bd1aff72",
+							"path": "4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices amet amet posuere ultrices amet amet posuer.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8102c553:text",
+							"blockId": "8102c553",
+							"path": "4.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "No Coding Required.",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0c1c9821:text",
+							"blockId": "0c1c9821",
+							"path": "4.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices amet amet posuere ultrices amet amet posuer.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1b8e7f3d:text",
+							"blockId": "1b8e7f3d",
+							"path": "4.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Innovation Solutions.",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a619c24:text",
+							"blockId": "0a619c24",
+							"path": "4.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices amet amet posuere ultrices amet amet posuer.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "5ef8aa92:image.url",
+							"blockId": "5ef8aa92",
+							"path": "4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/icon_1.png",
+							"decorative": true,
+							"width": 83,
+							"height": 71,
+							"orientation": "landscape"
+						},
+						{
+							"id": "43903124:image.url",
+							"blockId": "43903124",
+							"path": "4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/icon_2.png",
+							"decorative": true,
+							"width": 77,
+							"height": 72,
+							"orientation": "square"
+						},
+						{
+							"id": "2ba5ffce:image.url",
+							"blockId": "2ba5ffce",
+							"path": "4.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/icon3.png",
+							"decorative": true,
+							"width": 81,
+							"height": 72,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "4ca2e81c",
+					"index": 5,
+					"path": "5",
+					"group": "4ca2e81c",
+					"role": "cta",
+					"title": "Get In Touch",
+					"slots": [
+						{
+							"id": "8c1f8cc0:text",
+							"blockId": "8c1f8cc0",
+							"path": "5.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "READY TO COLLABORATE ?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2b8c0d51:text",
+							"blockId": "2b8c0d51",
+							"path": "5.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get In Touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "20e3ec18:text",
+							"blockId": "20e3ec18",
+							"path": "5.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In blandit eu sem nibh iaculis. Orem odio varius ut et elementum pellentesque diam tellus. Rem odio varius ut et elementum.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "215c9bce:text",
+							"blockId": "215c9bce",
+							"path": "5.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Contact Zakra",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4ca2e81c:background.image.image.url",
+							"blockId": "4ca2e81c",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/getintouch-bg.jpg",
+							"decorative": false,
+							"width": 1440,
+							"height": 762,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "City skyline at dusk",
+							"tone": {
+								"grid": [
+									0.46,
+									0.51,
+									0.52,
+									0.19,
+									0.18,
+									0.22,
+									0.08,
+									0.09,
+									0.1
+								],
+								"color": "#483f4f"
+							}
+						}
+					]
+				},
+				{
+					"id": "01d52e8f",
+					"index": 6,
+					"path": "6",
+					"group": "01d52e8f",
+					"role": "pricing",
+					"title": "Amazing Pricing Plan",
+					"slots": [
+						{
+							"id": "65e4838b:text",
+							"blockId": "65e4838b",
+							"path": "6.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Amazing Pricing Plan",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b8ae62e7:text",
+							"blockId": "b8ae62e7",
+							"path": "6.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices amet amet a. Pellentesque posuere non interdum morbi volutpat neque fermentum.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "fc1f5da9",
+					"index": 7,
+					"path": "7",
+					"group": "01d52e8f",
+					"role": "pricing",
+					"title": "Personal",
+					"slots": [
+						{
+							"id": "d3738a31:text",
+							"blockId": "d3738a31",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Personal",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7599f3b2:text",
+							"blockId": "7599f3b2",
+							"path": "7.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "$19/month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.2.0:@html:li",
+							"blockId": "core-7.0.2.0",
+							"path": "7.0.2.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Tempor tristique elit quis",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-7.0.2.1:@html:li",
+							"blockId": "core-7.0.2.1",
+							"path": "7.0.2.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Tristique elit quis",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.2.2:@html:li",
+							"blockId": "core-7.0.2.2",
+							"path": "7.0.2.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Purus ultrices amet",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.2.3:@html:li",
+							"blockId": "core-7.0.2.3",
+							"path": "7.0.2.3",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Elit quis tempor tristiq",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "77715fcf:text",
+							"blockId": "77715fcf",
+							"path": "7.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1d7b237b:text",
+							"blockId": "1d7b237b",
+							"path": "7.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Professional",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a7a2502b:text",
+							"blockId": "a7a2502b",
+							"path": "7.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "$49/month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.1.2.0:@html:li",
+							"blockId": "core-7.1.2.0",
+							"path": "7.1.2.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Tempor tristique elit quis",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-7.1.2.1:@html:li",
+							"blockId": "core-7.1.2.1",
+							"path": "7.1.2.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Tristique elit quis",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.1.2.2:@html:li",
+							"blockId": "core-7.1.2.2",
+							"path": "7.1.2.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Purus ultrices amet",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.1.2.3:@html:li",
+							"blockId": "core-7.1.2.3",
+							"path": "7.1.2.3",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Elit quis tempor tristiq",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "aa4a6fd2:text",
+							"blockId": "aa4a6fd2",
+							"path": "7.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5549d8e1:text",
+							"blockId": "5549d8e1",
+							"path": "7.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Enterprise",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f8d0649d:text",
+							"blockId": "f8d0649d",
+							"path": "7.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "$99/month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.2.2.0:@html:li",
+							"blockId": "core-7.2.2.0",
+							"path": "7.2.2.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Tempor tristique elit quis",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-7.2.2.1:@html:li",
+							"blockId": "core-7.2.2.1",
+							"path": "7.2.2.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Tristique elit quis",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.2.2.2:@html:li",
+							"blockId": "core-7.2.2.2",
+							"path": "7.2.2.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Purus ultrices amet",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.2.2.3:@html:li",
+							"blockId": "core-7.2.2.3",
+							"path": "7.2.2.3",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Elit quis tempor tristiq",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "39a97e6c:text",
+							"blockId": "39a97e6c",
+							"path": "7.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "b4feb9ca",
+					"index": 8,
+					"path": "8",
+					"group": "b4feb9ca",
+					"role": "content",
+					"title": "Our Teams",
+					"slots": [
+						{
+							"id": "7d65e948:text",
+							"blockId": "7d65e948",
+							"path": "8.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Teams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c963c376:text",
+							"blockId": "c963c376",
+							"path": "8.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices amet amet a. Pellentesque posuere non interdum morbi volutpat neque fermentum.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "1313e6f0",
+					"index": 9,
+					"path": "9",
+					"group": "b4feb9ca",
+					"role": "features",
+					"title": "Wilson Septimus",
+					"slots": [
+						{
+							"id": "4be1eb37:text",
+							"blockId": "4be1eb37",
+							"path": "9.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Wilson Septimus",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61e4fa0f:text",
+							"blockId": "61e4fa0f",
+							"path": "9.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "MANAGER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "88ce22cc:text",
+							"blockId": "88ce22cc",
+							"path": "9.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3fd5c840:text",
+							"blockId": "3fd5c840",
+							"path": "9.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Ruben Lubin",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "800077d1:text",
+							"blockId": "800077d1",
+							"path": "9.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "SEO EXPERT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "95abd4bc:text",
+							"blockId": "95abd4bc",
+							"path": "9.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a6862ddf:text",
+							"blockId": "a6862ddf",
+							"path": "9.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Leo Lubin",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e33e1e7:text",
+							"blockId": "3e33e1e7",
+							"path": "9.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "MANAGER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d055d616:text",
+							"blockId": "d055d616",
+							"path": "9.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "df337369:image.url",
+							"blockId": "df337369",
+							"path": "9.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/team1.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 370,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a suit and red tie portrait",
+							"tone": {
+								"grid": [
+									0.13,
+									0.2,
+									0.15,
+									0.14,
+									0.28,
+									0.09,
+									0.1,
+									0.09,
+									0.1
+								],
+								"color": "#2c2220"
+							}
+						},
+						{
+							"id": "8bfb9c00:image.url",
+							"blockId": "8bfb9c00",
+							"path": "9.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/team2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 370,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Stylish man in a suit with hand on chin",
+							"tone": {
+								"grid": [
+									0.14,
+									0.29,
+									0.11,
+									0.11,
+									0.37,
+									0.15,
+									0.12,
+									0.24,
+									0.13
+								],
+								"color": "#203335"
+							}
+						},
+						{
+							"id": "7a8e6427:image.url",
+							"blockId": "7a8e6427",
+							"path": "9.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/team3.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 370,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling man in a blazer and turtleneck",
+							"tone": {
+								"grid": [
+									0.77,
+									0.58,
+									0.7,
+									0.78,
+									0.4,
+									0.69,
+									0.58,
+									0.21,
+									0.42
+								],
+								"color": "#998f91"
+							}
+						}
+					]
+				},
+				{
+					"id": "86de1461",
+					"index": 10,
+					"path": "10",
+					"group": "86de1461",
+					"role": "testimonials",
+					"title": "Reviews",
+					"slots": [
+						{
+							"id": "44c569f8:text",
+							"blockId": "44c569f8",
+							"path": "10.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "TESTIMONIALS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "06896cea:text",
+							"blockId": "06896cea",
+							"path": "10.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Reviews",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e614dbdb:text",
+							"blockId": "e614dbdb",
+							"path": "10.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "bd1dfd34:text",
+							"blockId": "bd1dfd34",
+							"path": "10.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Leo Geidt",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "86de1461:background.image.image.url",
+							"blockId": "86de1461",
+							"path": "10",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/review.jpg",
+							"decorative": false,
+							"width": 1440,
+							"height": 892,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Looking up at skyscrapers against the sky",
+							"tone": {
+								"grid": [
+									0.41,
+									0.78,
+									0.46,
+									0.38,
+									0.8,
+									0.45,
+									0.26,
+									0.72,
+									0.44
+								],
+								"color": "#698aa4"
+							}
+						}
+					]
+				},
+				{
+					"id": "73186512",
+					"index": 11,
+					"path": "11",
+					"group": "73186512",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "f9f6ba88:image.url",
+							"blockId": "f9f6ba88",
+							"path": "11.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/creative-agency.png",
+							"decorative": true,
+							"width": 270,
+							"height": 76,
+							"orientation": "landscape"
+						},
+						{
+							"id": "555bc2a1:image.url",
+							"blockId": "555bc2a1",
+							"path": "11.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/webtechnology.png",
+							"decorative": true,
+							"width": 270,
+							"height": 76,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d07a8afc:image.url",
+							"blockId": "d07a8afc",
+							"path": "11.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/tlagency.png",
+							"decorative": true,
+							"width": 270,
+							"height": 76,
+							"orientation": "landscape"
+						},
+						{
+							"id": "fb1eb5ff:image.url",
+							"blockId": "fb1eb5ff",
+							"path": "11.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/trueagency.png",
+							"decorative": true,
+							"width": 270,
+							"height": 76,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "4fdc629e",
+					"index": 12,
+					"path": "12",
+					"group": "4fdc629e",
+					"role": "stats",
+					"title": "Let's Talk",
+					"slots": [
+						{
+							"id": "4c459141:text",
+							"blockId": "4c459141",
+							"path": "12.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Let's Talk",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0b37e288:text",
+							"blockId": "0b37e288",
+							"path": "12.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+88 546-584-5944",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "1d33add0:text",
+							"blockId": "1d33add0",
+							"path": "12.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "sayhello@zakra.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "78862260:text",
+							"blockId": "78862260",
+							"path": "12.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Join Our Team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c3cbd1d:text",
+							"blockId": "1c3cbd1d",
+							"path": "12.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+88 546-584-5944",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "84ae232d:text",
+							"blockId": "84ae232d",
+							"path": "12.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "work@zakra.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "986f8da7",
+					"role": "hero",
+					"title": "ZAKRA",
+					"sectionIds": [
+						"986f8da7"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6627d7e6",
+					"role": "stats",
+					"title": "We Are Zakra",
+					"sectionIds": [
+						"6627d7e6",
+						"6b8b406c"
+					],
+					"paths": [
+						"1",
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "eed47925",
+					"role": "features",
+					"title": "Services",
+					"sectionIds": [
+						"eed47925",
+						"ace61d7d"
+					],
+					"paths": [
+						"3",
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4ca2e81c",
+					"role": "cta",
+					"title": "Get In Touch",
+					"sectionIds": [
+						"4ca2e81c"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "01d52e8f",
+					"role": "pricing",
+					"title": "Amazing Pricing Plan",
+					"sectionIds": [
+						"01d52e8f",
+						"fc1f5da9"
+					],
+					"paths": [
+						"6",
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "b4feb9ca",
+					"role": "features",
+					"title": "Our Teams",
+					"sectionIds": [
+						"b4feb9ca",
+						"1313e6f0"
+					],
+					"paths": [
+						"8",
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "86de1461",
+					"role": "testimonials",
+					"title": "Reviews",
+					"sectionIds": [
+						"86de1461"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "73186512",
+					"role": "logos",
+					"sectionIds": [
+						"73186512"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "4fdc629e",
+					"role": "stats",
+					"title": "Let's Talk",
+					"sectionIds": [
+						"4fdc629e"
+					],
+					"paths": [
+						"12"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "6627d7e6",
+					"index": 0,
+					"path": "0",
+					"group": "6627d7e6",
+					"role": "hero",
+					"title": "We Are Zakra",
+					"slots": [
+						{
+							"id": "3dd3587e:text",
+							"blockId": "3dd3587e",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Are Zakra",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e410f6b1:text",
+							"blockId": "e410f6b1",
+							"path": "0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices amet amet a. Pellentesque posuere non interdum morbi volutpat neque fermentum.Tempor faucibus aliquam dictum in neque orci mattis sit.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d162327a:text",
+							"blockId": "d162327a",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Orci ut risus arcu sed orci varius sit. Nare nisl viverra sem in dolor. Nunc, pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus. Rnare nisl viverra sem in dolor. Nunc, pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus. pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus.",
+							"rich": false,
+							"words": 58,
+							"minWords": 35,
+							"maxWords": 73,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "2790535f",
+					"index": 1,
+					"path": "1",
+					"group": "2790535f",
+					"role": "cta",
+					"title": "What We Do",
+					"slots": [
+						{
+							"id": "84a3d27b:text",
+							"blockId": "84a3d27b",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What We Do",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0f1f6134:text",
+							"blockId": "0f1f6134",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor faucibus aliquam dictum in neque orci mattis sit. Orci ut risus arcu sed orci varius sit. Nare nisl viverra sem in dolor. Nunc, pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus. Pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "251a2fb1:text",
+							"blockId": "251a2fb1",
+							"path": "1.1.2",
+							"block": "blockart/button",
+							"attr": "text",
+							"kind": "button",
+							"text": "LET'S TALK",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "741c1c3f",
+					"index": 2,
+					"path": "2",
+					"group": "741c1c3f",
+					"role": "content",
+					"title": "Our Philoshophy",
+					"slots": [
+						{
+							"id": "9a029d20:text",
+							"blockId": "9a029d20",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Philoshophy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b2509ed8:text",
+							"blockId": "b2509ed8",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Empor faucibus aliquam dictum in neque orci mattis sit. Orci ut risus arcu sed orci varius sit.Av aucibus aliquam dictum in neque orci mattis sit risus arcu sed orci varius sit.Av aucibus aliquam.V mattis sit risus arcu sed orci varius sit.Av aucibus aliquam.",
+							"rich": false,
+							"words": 43,
+							"minWords": 26,
+							"maxWords": 54,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "8d6f761d",
+					"index": 3,
+					"path": "3",
+					"group": "741c1c3f",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "d4bf5e77:text",
+							"blockId": "d4bf5e77",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "334",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "924bf533:text",
+							"blockId": "924bf533",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Satisfied Clients",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8814ec8:text",
+							"blockId": "d8814ec8",
+							"path": "3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "356",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "8ec8d6c3:text",
+							"blockId": "8ec8d6c3",
+							"path": "3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Completed",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8feac64e:text",
+							"blockId": "8feac64e",
+							"path": "3.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "9,561",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "d16ec107:text",
+							"blockId": "d16ec107",
+							"path": "3.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Working Hour",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f198dbb2:text",
+							"blockId": "f198dbb2",
+							"path": "3.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "29",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "78cf1c59:text",
+							"blockId": "78cf1c59",
+							"path": "3.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Award Winning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "4fdc629e",
+					"index": 4,
+					"path": "5",
+					"group": "4fdc629e",
+					"role": "stats",
+					"title": "Let's Talk",
+					"slots": [
+						{
+							"id": "4c459141:text",
+							"blockId": "4c459141",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Let's Talk",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0b37e288:text",
+							"blockId": "0b37e288",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+88 546-584-5944",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "1d33add0:text",
+							"blockId": "1d33add0",
+							"path": "5.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "sayhello@zakra.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "78862260:text",
+							"blockId": "78862260",
+							"path": "5.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Join Our Team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c3cbd1d:text",
+							"blockId": "1c3cbd1d",
+							"path": "5.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+88 546-584-5944",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "84ae232d:text",
+							"blockId": "84ae232d",
+							"path": "5.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "work@zakra.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "6627d7e6",
+					"role": "hero",
+					"title": "We Are Zakra",
+					"sectionIds": [
+						"6627d7e6"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2790535f",
+					"role": "cta",
+					"title": "What We Do",
+					"sectionIds": [
+						"2790535f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "741c1c3f",
+					"role": "stats",
+					"title": "Our Philoshophy",
+					"sectionIds": [
+						"741c1c3f",
+						"8d6f761d"
+					],
+					"paths": [
+						"2",
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "4fdc629e",
+					"role": "stats",
+					"title": "Let's Talk",
+					"sectionIds": [
+						"4fdc629e"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "portfolio",
+			"title": "Portfolio",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/themegrill-demos/portfolio-content.xml",
+			"sections": [
+				{
+					"id": "98b5e206",
+					"index": 0,
+					"path": "0",
+					"group": "98b5e206",
+					"role": "hero",
+					"title": "What We Do",
+					"slots": [
+						{
+							"id": "03d8e1c5:text",
+							"blockId": "03d8e1c5",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What We Do",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2d0dd13d:text",
+							"blockId": "2d0dd13d",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor faucibus aliquam dictum in neque orci mattis sit.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ebee6c16:text",
+							"blockId": "ebee6c16",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Orci ut risus arcu sed orci varius sit. Nare nisl viverra sem in dolor. Nunc, pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus. Pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus.",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0edbe4e1:text",
+							"blockId": "0edbe4e1",
+							"path": "0.1.3",
+							"block": "blockart/button",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW DETAILS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "77edf41f",
+					"index": 1,
+					"path": "1",
+					"group": "77edf41f",
+					"role": "cta",
+					"title": "Startup Seminar",
+					"slots": [
+						{
+							"id": "2047ad70:text",
+							"blockId": "2047ad70",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Startup Seminar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b5e1c1c3:text",
+							"blockId": "b5e1c1c3",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor faucibus aliquam dictum in neque orci mattis sit.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2cb492f4:text",
+							"blockId": "2cb492f4",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Orci ut risus arcu sed orci varius sit. Nare nisl viverra sem in dolor. Nunc, pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus. Pretium fermentum feugiat integer posuere. Turpis faucibus posuere risus aliquam ut lectus.",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ccd725df:text",
+							"blockId": "ccd725df",
+							"path": "1.0.3",
+							"block": "blockart/button",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW DETAILS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "1e17f3f2",
+					"index": 2,
+					"path": "2",
+					"group": "1e17f3f2",
+					"role": "features",
+					"title": "Project Presentation",
+					"slots": [
+						{
+							"id": "fb7b8daf:text",
+							"blockId": "fb7b8daf",
+							"path": "2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Project Presentation",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b648adaa:text",
+							"blockId": "b648adaa",
+							"path": "2.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "48b5460a:text",
+							"blockId": "48b5460a",
+							"path": "2.0.0.0.3",
+							"block": "blockart/button",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "13628489:text",
+							"blockId": "13628489",
+							"path": "2.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Business Meeting",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "02e6c626:text",
+							"blockId": "02e6c626",
+							"path": "2.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a42bb5db:text",
+							"blockId": "a42bb5db",
+							"path": "2.0.0.1.3",
+							"block": "blockart/button",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "990114b3:text",
+							"blockId": "990114b3",
+							"path": "2.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Education Seminar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "39bc3961:text",
+							"blockId": "39bc3961",
+							"path": "2.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tempor tristique elit quis gravida purus ultrices",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0f386665:text",
+							"blockId": "0f386665",
+							"path": "2.0.0.2.3",
+							"block": "blockart/button",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "4fdc629e",
+					"index": 3,
+					"path": "4",
+					"group": "4fdc629e",
+					"role": "stats",
+					"title": "Let's Talk",
+					"slots": [
+						{
+							"id": "4c459141:text",
+							"blockId": "4c459141",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Let's Talk",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0b37e288:text",
+							"blockId": "0b37e288",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+88 546-584-5944",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "1d33add0:text",
+							"blockId": "1d33add0",
+							"path": "4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "sayhello@zakra.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "78862260:text",
+							"blockId": "78862260",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Join Our Team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c3cbd1d:text",
+							"blockId": "1c3cbd1d",
+							"path": "4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+88 546-584-5944",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "84ae232d:text",
+							"blockId": "84ae232d",
+							"path": "4.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "work@zakra.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "98b5e206",
+					"role": "hero",
+					"title": "What We Do",
+					"sectionIds": [
+						"98b5e206"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "77edf41f",
+					"role": "cta",
+					"title": "Startup Seminar",
+					"sectionIds": [
+						"77edf41f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1e17f3f2",
+					"role": "features",
+					"title": "Project Presentation",
+					"sectionIds": [
+						"1e17f3f2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4fdc629e",
+					"role": "stats",
+					"title": "Let's Talk",
+					"sectionIds": [
+						"4fdc629e"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "6359308a",
+					"index": 0,
+					"path": "0",
+					"group": "6359308a",
+					"role": "hero",
+					"title": "ZAKRA PROFESSIONAL",
+					"slots": [
+						{
+							"id": "3153b1e8:text",
+							"blockId": "3153b1e8",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ZAKRA PROFESSIONAL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80e870a3:text",
+							"blockId": "80e870a3",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "456 City Street NY, New York",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d683d975:text",
+							"blockId": "d683d975",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "NY 14127, United States of America",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ee277138:text",
+							"blockId": "ee277138",
+							"path": "0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Phone: +88 5466-584-5544​",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "b186e33c:text",
+							"blockId": "b186e33c",
+							"path": "0.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Email: support@zakra.com",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "4fdc629e",
+					"index": 1,
+					"path": "2",
+					"group": "4fdc629e",
+					"role": "stats",
+					"title": "Let's Talk",
+					"slots": [
+						{
+							"id": "4c459141:text",
+							"blockId": "4c459141",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Let's Talk",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0b37e288:text",
+							"blockId": "0b37e288",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+88 546-584-5944",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "1d33add0:text",
+							"blockId": "1d33add0",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "sayhello@zakra.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "78862260:text",
+							"blockId": "78862260",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Join Our Team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c3cbd1d:text",
+							"blockId": "1c3cbd1d",
+							"path": "2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+88 546-584-5944",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "84ae232d:text",
+							"blockId": "84ae232d",
+							"path": "2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "work@zakra.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "6359308a",
+					"role": "hero",
+					"title": "ZAKRA PROFESSIONAL",
+					"sectionIds": [
+						"6359308a"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4fdc629e",
+					"role": "stats",
+					"title": "Let's Talk",
+					"sectionIds": [
+						"4fdc629e"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/professional-02/wp-content/uploads/sites/104/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		}
+	],
+	"stats": {
+		"sections": 24,
+		"textSlots": 127,
+		"editableSlots": 101,
+		"images": 13,
+		"swappableImages": 6,
+		"words": 720
+	},
+	"builtAt": "2026-10-24T11:35:07.880Z"
+}

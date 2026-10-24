@@ -1,0 +1,3379 @@
+{
+	"version": 4,
+	"slug": "wedding-02",
+	"name": "Zakra Wedding",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-wedding-02/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/wedding-02",
+	"niches": [
+		"wedding",
+		"events"
+	],
+	"keywords": [
+		"wedding",
+		"couple",
+		"marriage",
+		"save the date",
+		"engagement",
+		"bride",
+		"groom",
+		"photographer"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"everest-forms-style-customizer/everest-forms-style-customizer.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#dba08b",
+				"count": 34,
+				"group": "brand",
+				"role": "primary",
+				"base": "#dba08b",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 22,
+					"border": 10
+				}
+			},
+			{
+				"hex": "#42474a",
+				"count": 31,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 31
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 31,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 12,
+					"background": 7
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 8,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#f2f2f2",
+				"count": 6,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 6
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "accent",
+				"base": "#073674",
+				"lightnessDelta": 0.129,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#db8e72",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#dba08b",
+				"lightnessDelta": -0.049
+			},
+			{
+				"hex": "#073674",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#073674",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#2563eb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#073674",
+				"lightnessDelta": 0.292,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#dba08b",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 22,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#dba08b",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#db8e72",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Playfair Display",
+			"body": "Work Sans",
+			"map": {
+				"Playfair Display": "heading",
+				"Work Sans": "body",
+				"Seaweed Script": "heading"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "4035395d",
+					"index": 0,
+					"path": "0",
+					"group": "4035395d",
+					"role": "hero",
+					"title": "Jennifer & Micheal",
+					"slots": [
+						{
+							"id": "2a2c8920:text",
+							"blockId": "2a2c8920",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Jennifer & Micheal",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c9729972:text",
+							"blockId": "c9729972",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We are getting married on April 19, 2022",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4035395d:background.image.image.url",
+							"blockId": "4035395d",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/banner-BG.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Couple holding hands walking on a hilltop at sunset",
+							"tone": {
+								"grid": [
+									0.75,
+									0.74,
+									0.58,
+									0.9,
+									0.84,
+									0.74,
+									0.38,
+									0.5,
+									0.41
+								],
+								"color": "#a6a59f"
+							}
+						}
+					]
+				},
+				{
+					"id": "576385b7",
+					"index": 1,
+					"path": "1",
+					"group": "576385b7",
+					"role": "content",
+					"title": "Groom & Bride",
+					"slots": [
+						{
+							"id": "ebedb899:text",
+							"blockId": "ebedb899",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Groom & Bride",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e5018010:text",
+							"blockId": "e5018010",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "32508e0f",
+					"index": 2,
+					"path": "2",
+					"group": "32508e0f",
+					"role": "content",
+					"title": "Micheal Watts",
+					"slots": [
+						{
+							"id": "138f2ffc:text",
+							"blockId": "138f2ffc",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Micheal Watts",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2ae12c2f:text",
+							"blockId": "2ae12c2f",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "24d08fb3:text",
+							"blockId": "24d08fb3",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Jeniffer Hugoris",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c5a83e93:text",
+							"blockId": "c5a83e93",
+							"path": "2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "9604c4c8:image.url",
+							"blockId": "9604c4c8",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/groom.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling groom in a tuxedo and bow tie outdoors",
+							"tone": {
+								"grid": [
+									0.24,
+									0.56,
+									0.52,
+									0.2,
+									0.48,
+									0.47,
+									0.17,
+									0.25,
+									0.33
+								],
+								"color": "#575f4d"
+							}
+						},
+						{
+							"id": "e48638aa:image.url",
+							"blockId": "e48638aa",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/bride.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling bride in a strapless gown looking over her shoulder",
+							"tone": {
+								"grid": [
+									0.82,
+									0.29,
+									0.11,
+									0.67,
+									0.47,
+									0.11,
+									0.61,
+									0.75,
+									0.21
+								],
+								"color": "#6d756c"
+							}
+						}
+					]
+				},
+				{
+					"id": "cb52af4f",
+					"index": 3,
+					"path": "3",
+					"group": "cb52af4f",
+					"role": "features",
+					"title": "Our Story",
+					"slots": [
+						{
+							"id": "f6ac7d9b:text",
+							"blockId": "f6ac7d9b",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Story",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3cbf8632:text",
+							"blockId": "3cbf8632",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d48efae8:text",
+							"blockId": "d48efae8",
+							"path": "3.0.2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "23rd July, 2016",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ed2f9e6e:text",
+							"blockId": "ed2f9e6e",
+							"path": "3.0.2.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "First time we met",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "53be2f18:text",
+							"blockId": "53be2f18",
+							"path": "3.0.2.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "90d24771:text",
+							"blockId": "90d24771",
+							"path": "3.0.2.0.0.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f70a653f:text",
+							"blockId": "f70a653f",
+							"path": "3.0.3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "21st June, 2016",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8bc16d51:text",
+							"blockId": "8bc16d51",
+							"path": "3.0.3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "First we felt in love​",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a1cfe162:text",
+							"blockId": "a1cfe162",
+							"path": "3.0.3.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62a61404:text",
+							"blockId": "62a61404",
+							"path": "3.0.3.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d2762e16:text",
+							"blockId": "d2762e16",
+							"path": "3.0.4.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "2nd April, 2017",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c8dadca:text",
+							"blockId": "1c8dadca",
+							"path": "3.0.4.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "She said \"Yes\"​",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b14b0a74:text",
+							"blockId": "b14b0a74",
+							"path": "3.0.4.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11da9753:text",
+							"blockId": "11da9753",
+							"path": "3.0.4.0.0.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2c64552c:text",
+							"blockId": "2c64552c",
+							"path": "3.0.5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "19th April, 2019",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "53ae2595:text",
+							"blockId": "53ae2595",
+							"path": "3.0.5.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "We are getting married",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0b46801d:text",
+							"blockId": "0b46801d",
+							"path": "3.0.5.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "145ac8c7:text",
+							"blockId": "145ac8c7",
+							"path": "3.0.5.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "da740bb3:image.url",
+							"blockId": "da740bb3",
+							"path": "3.0.2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/meet.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Bride and groom smiling at each other outdoors",
+							"tone": {
+								"grid": [
+									0.15,
+									0.24,
+									0.16,
+									0.38,
+									0.41,
+									0.17,
+									0.58,
+									0.65,
+									0.16
+								],
+								"color": "#575244"
+							}
+						},
+						{
+							"id": "99fac247:image.url",
+							"blockId": "99fac247",
+							"path": "3.0.3.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/holding-hands.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Two hands with pinky fingers about to link",
+							"tone": {
+								"grid": [
+									0.54,
+									0.62,
+									0.49,
+									0.6,
+									0.45,
+									0.81,
+									0.73,
+									0.82,
+									0.81
+								],
+								"color": "#b3a49c"
+							}
+						},
+						{
+							"id": "9a693e9a:image.url",
+							"blockId": "9a693e9a",
+							"path": "3.0.4.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/ring.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Silhouette of a man proposing on the beach behind a ring in the sand",
+							"tone": {
+								"grid": [
+									0.85,
+									0.85,
+									0.84,
+									0.64,
+									0.45,
+									0.62,
+									0.1,
+									0.08,
+									0.11
+								],
+								"color": "#828277"
+							}
+						},
+						{
+							"id": "7b21cc62:image.url",
+							"blockId": "7b21cc62",
+							"path": "3.0.5.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/together-1-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Bride and groom embracing on a garden path",
+							"tone": {
+								"grid": [
+									0.12,
+									0.35,
+									0.56,
+									0.27,
+									0.41,
+									0.61,
+									0.43,
+									0.7,
+									0.68
+								],
+								"color": "#847454"
+							}
+						}
+					]
+				},
+				{
+					"id": "100dcd35",
+					"index": 4,
+					"path": "4",
+					"group": "100dcd35",
+					"role": "content",
+					"title": "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible",
+					"slots": [
+						{
+							"id": "42f90a3f:text",
+							"blockId": "42f90a3f",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d944fb50:text",
+							"blockId": "d944fb50",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "When Harry Met Sally",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "100dcd35:background.image.image.url",
+							"blockId": "100dcd35",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/gallery-2-a-1.jpg",
+							"decorative": false,
+							"width": 1080,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Bride and groom standing among trees in a forest",
+							"tone": {
+								"grid": [
+									0.12,
+									0.27,
+									0.13,
+									0.18,
+									0.29,
+									0.14,
+									0.13,
+									0.4,
+									0.26
+								],
+								"color": "#333a27"
+							}
+						}
+					]
+				},
+				{
+					"id": "c3468c96",
+					"index": 5,
+					"path": "5",
+					"group": "c3468c96",
+					"role": "posts",
+					"title": "Blog Post",
+					"slots": [
+						{
+							"id": "fc769e80:text",
+							"blockId": "fc769e80",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Blog Post",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "362482a7:text",
+							"blockId": "362482a7",
+							"path": "5.0.1.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Engagement on 1st April 2019",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d624a604:text",
+							"blockId": "d624a604",
+							"path": "5.0.1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ab5fdef:text",
+							"blockId": "8ab5fdef",
+							"path": "5.0.1.0.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "54df8d66:text",
+							"blockId": "54df8d66",
+							"path": "5.0.1.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Marriage on 19th April 2019",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c1d7cf2c:text",
+							"blockId": "c1d7cf2c",
+							"path": "5.0.1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1cd6434b:text",
+							"blockId": "1cd6434b",
+							"path": "5.0.1.1.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2ced001a:text",
+							"blockId": "2ced001a",
+							"path": "5.0.1.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Reception on 20th April,2019",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c29deb81:text",
+							"blockId": "c29deb81",
+							"path": "5.0.1.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fdfbdd68:text",
+							"blockId": "fdfbdd68",
+							"path": "5.0.1.2.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "43b4f2e3:image.url",
+							"blockId": "43b4f2e3",
+							"path": "5.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/11/01.png",
+							"decorative": true,
+							"width": 139,
+							"height": 170,
+							"orientation": "portrait"
+						},
+						{
+							"id": "b1f749da:image.url",
+							"blockId": "b1f749da",
+							"path": "5.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/11/02.png",
+							"decorative": true,
+							"width": 156,
+							"height": 170,
+							"orientation": "square"
+						},
+						{
+							"id": "93312034:image.url",
+							"blockId": "93312034",
+							"path": "5.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/11/03.png",
+							"decorative": true,
+							"width": 160,
+							"height": 170,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "85c0daed",
+					"index": 6,
+					"path": "6",
+					"group": "85c0daed",
+					"role": "content",
+					"title": "Moments",
+					"slots": [
+						{
+							"id": "cfa2cd27:text",
+							"blockId": "cfa2cd27",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Moments",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bfdb08ff:text",
+							"blockId": "bfdb08ff",
+							"path": "6.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In recent years, an alligator is an anthony’s event. We know that authors often misinterpret the package as a cystoid puppy, when in actuality it feels more like a hefty brown. The nervy doll reveals itself as an endless colony to those who look. ships are licensed ashtraies.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "f09bd47f",
+					"index": 7,
+					"path": "7",
+					"group": "85c0daed",
+					"role": "gallery",
+					"slots": [],
+					"images": [
+						{
+							"id": "72646154:image.url",
+							"blockId": "72646154",
+							"path": "7.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/11/allef-vinicius.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Bride throwing the bouquet to cheering women at a wedding",
+							"tone": {
+								"grid": [
+									0.15,
+									0.33,
+									0.14,
+									0.19,
+									0.42,
+									0.18,
+									0.27,
+									0.54,
+									0.32
+								],
+								"color": "#5a4536"
+							}
+						},
+						{
+							"id": "e1c63475:image.url",
+							"blockId": "e1c63475",
+							"path": "7.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/11/people-enjoying.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Wedding guests toasting at a long flower-decorated table",
+							"tone": {
+								"grid": [
+									0.08,
+									0.48,
+									0.08,
+									0.42,
+									0.5,
+									0.39,
+									0.56,
+									0.43,
+									0.55
+								],
+								"color": "#676356"
+							}
+						},
+						{
+							"id": "249ef707:image.url",
+							"blockId": "249ef707",
+							"path": "7.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/11/photos-by-lanty.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Couple cutting a tiered white wedding cake",
+							"tone": {
+								"grid": [
+									0.7,
+									0.47,
+									0.36,
+									0.56,
+									0.45,
+									0.53,
+									0.82,
+									0.75,
+									0.64
+								],
+								"color": "#9a9492"
+							}
+						},
+						{
+							"id": "6f8af54e:image.url",
+							"blockId": "6f8af54e",
+							"path": "7.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/gallery.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Groom kissing the bride's forehead outdoors",
+							"tone": {
+								"grid": [
+									0.8,
+									0.53,
+									0.14,
+									0.66,
+									0.54,
+									0.16,
+									0.41,
+									0.49,
+									0.05
+								],
+								"color": "#7d6a45"
+							}
+						}
+					]
+				},
+				{
+					"id": "03d46b12",
+					"index": 8,
+					"path": "8",
+					"group": "85c0daed",
+					"role": "gallery",
+					"slots": [],
+					"images": [
+						{
+							"id": "d74167ec:image.url",
+							"blockId": "d74167ec",
+							"path": "8.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/moment5.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Bride smiling at the groom in a park, groom seen from behind",
+							"tone": {
+								"grid": [
+									0.31,
+									0.25,
+									0.47,
+									0.48,
+									0.48,
+									0.61,
+									0.26,
+									0.31,
+									0.49
+								],
+								"color": "#686a4e"
+							}
+						},
+						{
+							"id": "a2fa183a:image.url",
+							"blockId": "a2fa183a",
+							"path": "8.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/gallery-5-1.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Bride facing the groom in a garden",
+							"tone": {
+								"grid": [
+									0.54,
+									0.61,
+									0.55,
+									0.48,
+									0.55,
+									0.41,
+									0.52,
+									0.43,
+									0.31
+								],
+								"color": "#907b5c"
+							}
+						},
+						{
+							"id": "d172dfb0:image.url",
+							"blockId": "d172dfb0",
+							"path": "8.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/silohoutte.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Silhouette of a couple embracing on a hill at sunset",
+							"tone": {
+								"grid": [
+									0.62,
+									0.67,
+									0.67,
+									0.49,
+									0.67,
+									0.7,
+									0.14,
+									0.42,
+									0.4
+								],
+								"color": "#a3845b"
+							}
+						},
+						{
+							"id": "37a768e3:image.url",
+							"blockId": "37a768e3",
+							"path": "8.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/gallery-2-a-1.jpg",
+							"decorative": false,
+							"width": 1080,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Bride and groom standing among trees in a forest",
+							"tone": {
+								"grid": [
+									0.12,
+									0.27,
+									0.13,
+									0.18,
+									0.29,
+									0.14,
+									0.13,
+									0.4,
+									0.26
+								],
+								"color": "#333a27"
+							}
+						}
+					]
+				},
+				{
+					"id": "5534d414",
+					"index": 9,
+					"path": "9",
+					"group": "5534d414",
+					"role": "content",
+					"title": "Jeniffer & Micheal",
+					"slots": [
+						{
+							"id": "0b18f02d:text",
+							"blockId": "0b18f02d",
+							"path": "9.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jeniffer & Micheal",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62249684:text",
+							"blockId": "62249684",
+							"path": "9.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "April 19, 2019",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "5534d414:background.image.image.url",
+							"blockId": "5534d414",
+							"path": "9",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/hands-cover-1-1.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 953,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Groom placing a wedding ring on the bride's finger",
+							"tone": {
+								"grid": [
+									0.21,
+									0.44,
+									0.5,
+									0.19,
+									0.42,
+									0.41,
+									0.11,
+									0.46,
+									0.19
+								],
+								"color": "#5e5248"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4035395d",
+					"role": "hero",
+					"title": "Jennifer & Micheal",
+					"sectionIds": [
+						"4035395d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "576385b7",
+					"role": "content",
+					"title": "Groom & Bride",
+					"sectionIds": [
+						"576385b7"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "32508e0f",
+					"role": "content",
+					"title": "Micheal Watts",
+					"sectionIds": [
+						"32508e0f"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "cb52af4f",
+					"role": "features",
+					"title": "Our Story",
+					"sectionIds": [
+						"cb52af4f"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "100dcd35",
+					"role": "content",
+					"title": "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible",
+					"sectionIds": [
+						"100dcd35"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c3468c96",
+					"role": "posts",
+					"title": "Blog Post",
+					"sectionIds": [
+						"c3468c96"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "85c0daed",
+					"role": "gallery",
+					"title": "Moments",
+					"sectionIds": [
+						"85c0daed",
+						"f09bd47f",
+						"03d46b12"
+					],
+					"paths": [
+						"6",
+						"7",
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5534d414",
+					"role": "content",
+					"title": "Jeniffer & Micheal",
+					"sectionIds": [
+						"5534d414"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "4035395d",
+					"index": 0,
+					"path": "0",
+					"group": "4035395d",
+					"role": "hero",
+					"title": "Contact Us",
+					"slots": [
+						{
+							"id": "2a2c8920:text",
+							"blockId": "2a2c8920",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c9729972:text",
+							"blockId": "c9729972",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Feel free to connect with us",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4035395d:background.image.image.url",
+							"blockId": "4035395d",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/together-sunset.jpg",
+							"decorative": false,
+							"width": 1080,
+							"height": 597,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Bride and groom walking hand in hand through a field at sunset",
+							"tone": {
+								"grid": [
+									0.64,
+									0.67,
+									0.59,
+									0.37,
+									0.34,
+									0.24,
+									0.44,
+									0.43,
+									0.32
+								],
+								"color": "#956c4e"
+							}
+						}
+					]
+				},
+				{
+					"id": "7f0b9e84",
+					"index": 1,
+					"path": "1",
+					"group": "7f0b9e84",
+					"role": "stats",
+					"title": "Visit Us",
+					"slots": [
+						{
+							"id": "5ff99543:text",
+							"blockId": "5ff99543",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Visit Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "32c36aae:text",
+							"blockId": "32c36aae",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1234 Divi Rd, San Franicosco, CA",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3d73d5f0:text",
+							"blockId": "3d73d5f0",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Call Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "181711de:text",
+							"blockId": "181711de",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+5 (123) 456 7890",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f1eb2b01:text",
+							"blockId": "f1eb2b01",
+							"path": "1.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+5 (231) 493 7220",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "aa76bba1:text",
+							"blockId": "aa76bba1",
+							"path": "1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Message Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "072f1b45:text",
+							"blockId": "072f1b45",
+							"path": "1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "info@wedding.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "9af34e71:text",
+							"blockId": "9af34e71",
+							"path": "1.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "book@wedding.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "8afda084:image.url",
+							"blockId": "8afda084",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/icon-04.png",
+							"decorative": true,
+							"width": 625,
+							"height": 626,
+							"orientation": "square"
+						},
+						{
+							"id": "0dd1eaa8:image.url",
+							"blockId": "0dd1eaa8",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/icon-05.png",
+							"decorative": true,
+							"width": 626,
+							"height": 626,
+							"orientation": "square"
+						},
+						{
+							"id": "5f1cde54:image.url",
+							"blockId": "5f1cde54",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/icon-06.png",
+							"decorative": true,
+							"width": 626,
+							"height": 626,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "7327c678",
+					"index": 2,
+					"path": "2",
+					"group": "7327c678",
+					"role": "content",
+					"title": "Let's start a conversation",
+					"slots": [
+						{
+							"id": "f6ac7d9b:text",
+							"blockId": "f6ac7d9b",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Let's start a conversation",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "15ef238f:text",
+							"blockId": "15ef238f",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Leave us a message and we'll get back to you as soon as possible",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "4035395d",
+					"role": "hero",
+					"title": "Contact Us",
+					"sectionIds": [
+						"4035395d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7f0b9e84",
+					"role": "stats",
+					"title": "Visit Us",
+					"sectionIds": [
+						"7f0b9e84"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "7327c678",
+					"role": "content",
+					"title": "Let's start a conversation",
+					"sectionIds": [
+						"7327c678"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "4035395d",
+					"index": 0,
+					"path": "0",
+					"group": "4035395d",
+					"role": "hero",
+					"title": "About Us",
+					"slots": [
+						{
+							"id": "2a2c8920:text",
+							"blockId": "2a2c8920",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c9729972:text",
+							"blockId": "c9729972",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Feel free to connect with us",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4035395d:background.image.image.url",
+							"blockId": "4035395d",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/hand-banner-1.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 862,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Couple's hands with wedding rings resting together",
+							"tone": {
+								"grid": [
+									0.66,
+									0.74,
+									0.81,
+									0.63,
+									0.51,
+									0.79,
+									0.72,
+									0.55,
+									0.65
+								],
+								"color": "#acaca8"
+							}
+						}
+					]
+				},
+				{
+					"id": "40a7fc90",
+					"index": 1,
+					"path": "1",
+					"group": "40a7fc90",
+					"role": "content",
+					"title": "Planner for your perfect wedding",
+					"slots": [
+						{
+							"id": "e1d5d517:text",
+							"blockId": "e1d5d517",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Planner for your perfect wedding",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "23bde727:text",
+							"blockId": "23bde727",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using now use Lorem Ipsum",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e5857f92:text",
+							"blockId": "e5857f92",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "804a43df",
+					"index": 2,
+					"path": "2",
+					"group": "40a7fc90",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "76b961ee:text",
+							"blockId": "76b961ee",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "1,200",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "c3322b9f:text",
+							"blockId": "c3322b9f",
+							"path": "2.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Happy Couples",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11d7664f:text",
+							"blockId": "11d7664f",
+							"path": "2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "1,545",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f3e06c23:text",
+							"blockId": "f3e06c23",
+							"path": "2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Weddings",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be42ed8f:text",
+							"blockId": "be42ed8f",
+							"path": "2.0.0.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "750+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "512c2a80:text",
+							"blockId": "512c2a80",
+							"path": "2.0.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Decoration",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c977c6dc:text",
+							"blockId": "c977c6dc",
+							"path": "2.0.0.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "250+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "66cb39cf:text",
+							"blockId": "66cb39cf",
+							"path": "2.0.0.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Locations",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "e868b846",
+					"index": 3,
+					"path": "3",
+					"group": "e868b846",
+					"role": "features",
+					"title": "What we do",
+					"slots": [
+						{
+							"id": "9b7b0570:text",
+							"blockId": "9b7b0570",
+							"path": "3.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What we do",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8de45f7e:text",
+							"blockId": "8de45f7e",
+							"path": "3.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.",
+							"rich": false,
+							"words": 37,
+							"minWords": 22,
+							"maxWords": 47,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4ae89353:text",
+							"blockId": "4ae89353",
+							"path": "3.0.0.2.3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Ceremony",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "83e647d1:text",
+							"blockId": "83e647d1",
+							"path": "3.0.0.2.3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Quis ipsome suspendisse ultrices gravid. Risus commod viverra maescums.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "50cdd507:text",
+							"blockId": "50cdd507",
+							"path": "3.0.0.2.3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Photography",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7e5a7a94:text",
+							"blockId": "7e5a7a94",
+							"path": "3.0.0.2.3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Quis ipsome suspendisse ultrices gravid. Risus commod viverra maescums.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8d50fee1:text",
+							"blockId": "8d50fee1",
+							"path": "3.0.0.2.4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Perfect Cake",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8930da15:text",
+							"blockId": "8930da15",
+							"path": "3.0.0.2.4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Quis ipsome suspendisse ultrices gravid. Risus commod viverra maescums.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d4867368:text",
+							"blockId": "d4867368",
+							"path": "3.0.0.2.4.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Fine Dining",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8f20dc39:text",
+							"blockId": "8f20dc39",
+							"path": "3.0.0.2.4.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Quis ipsome suspendisse ultrices gravid. Risus commod viverra maescums.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0348d616:image.url",
+							"blockId": "0348d616",
+							"path": "3.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-4-min.png",
+							"decorative": false,
+							"width": 400,
+							"height": 439,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Bride and groom hugging with groomsmen behind them on a beach",
+							"tone": {
+								"grid": [
+									0.38,
+									0.43,
+									0.74,
+									0.56,
+									0.67,
+									0.69,
+									0.57,
+									0.49,
+									0.51
+								],
+								"color": "#948e88"
+							}
+						},
+						{
+							"id": "1de9e9aa:image.url",
+							"blockId": "1de9e9aa",
+							"path": "3.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-3-min.png",
+							"decorative": false,
+							"width": 400,
+							"height": 439,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Bride and groom hugging and laughing on a beach",
+							"tone": {
+								"grid": [
+									0.78,
+									0.61,
+									0.89,
+									0.58,
+									0.58,
+									0.83,
+									0.68,
+									0.67,
+									0.72
+								],
+								"color": "#b7b3b0"
+							}
+						},
+						{
+							"id": "4ca82c9e:image.url",
+							"blockId": "4ca82c9e",
+							"path": "3.0.0.1.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-2-min.png",
+							"decorative": false,
+							"width": 400,
+							"height": 439,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Bride and groom sitting on the sand under a floral arch",
+							"tone": {
+								"grid": [
+									0.65,
+									0.88,
+									0.87,
+									0.55,
+									0.64,
+									0.73,
+									0.31,
+									0.52,
+									0.69
+								],
+								"color": "#aba59b"
+							}
+						},
+						{
+							"id": "6257d5c5:image.url",
+							"blockId": "6257d5c5",
+							"path": "3.0.0.1.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-1-min-1.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 439,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Bride and groom embracing under a boho floral arch on the beach",
+							"tone": {
+								"grid": [
+									0.64,
+									0.72,
+									0.7,
+									0.53,
+									0.65,
+									0.69,
+									0.47,
+									0.49,
+									0.54
+								],
+								"color": "#9f998a"
+							}
+						},
+						{
+							"id": "ceea5af2:image.url",
+							"blockId": "ceea5af2",
+							"path": "3.0.0.2.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-05-e1640335075537.png",
+							"decorative": true,
+							"width": 411,
+							"height": 305,
+							"orientation": "landscape"
+						},
+						{
+							"id": "4cdab099:image.url",
+							"blockId": "4cdab099",
+							"path": "3.0.0.2.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-08-e1640582197907.png",
+							"decorative": true,
+							"width": 427,
+							"height": 325,
+							"orientation": "landscape"
+						},
+						{
+							"id": "03c080e2:image.url",
+							"blockId": "03c080e2",
+							"path": "3.0.0.2.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-06-e1640582258990.png",
+							"decorative": true,
+							"width": 323,
+							"height": 316,
+							"orientation": "square"
+						},
+						{
+							"id": "2f5cd7eb:image.url",
+							"blockId": "2f5cd7eb",
+							"path": "3.0.0.2.4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-07-e1640582315173.png",
+							"decorative": true,
+							"width": 413,
+							"height": 317,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "c0bb5f20",
+					"index": 4,
+					"path": "4",
+					"group": "c0bb5f20",
+					"role": "content",
+					"title": "There is no more lovely, friendly, and charming relationship, communion or company than a good marriage.",
+					"slots": [
+						{
+							"id": "bd9ed8e2:text",
+							"blockId": "bd9ed8e2",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "There is no more lovely, friendly, and charming relationship, communion or company than a good marriage.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c0bb5f20:background.image.image.url",
+							"blockId": "c0bb5f20",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/hands-cover-1-1.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 953,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Groom placing a wedding ring on the bride's finger",
+							"tone": {
+								"grid": [
+									0.21,
+									0.44,
+									0.5,
+									0.19,
+									0.42,
+									0.41,
+									0.11,
+									0.46,
+									0.19
+								],
+								"color": "#5e5248"
+							}
+						}
+					]
+				},
+				{
+					"id": "f3d8e8a1",
+					"index": 5,
+					"path": "5",
+					"group": "f3d8e8a1",
+					"role": "team",
+					"title": "Our Team",
+					"slots": [
+						{
+							"id": "6529785a:text",
+							"blockId": "6529785a",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Team",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3b5b0b2e:text",
+							"blockId": "3b5b0b2e",
+							"path": "5.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Zarya Das",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0952f8ae:text",
+							"blockId": "0952f8ae",
+							"path": "5.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0c12a06d:text",
+							"blockId": "0c12a06d",
+							"path": "5.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Racheal Dion",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fe5e9764:text",
+							"blockId": "fe5e9764",
+							"path": "5.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Wedding Planner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a8dc32eb:text",
+							"blockId": "a8dc32eb",
+							"path": "5.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Sajid Khan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a233d757:text",
+							"blockId": "a233d757",
+							"path": "5.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Wedding Planner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36473677:text",
+							"blockId": "36473677",
+							"path": "5.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Joey Bing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b0a09f7:text",
+							"blockId": "7b0a09f7",
+							"path": "5.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Photographer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ed32e25e:image.url",
+							"blockId": "ed32e25e",
+							"path": "5.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/team-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman in black with arms crossed on a white background",
+							"tone": {
+								"grid": [
+									0.94,
+									0.64,
+									0.97,
+									0.85,
+									0.21,
+									0.86,
+									0.87,
+									0.32,
+									0.92
+								],
+								"color": "#bbbaba"
+							}
+						},
+						{
+							"id": "4fdc6725:image.url",
+							"blockId": "4fdc6725",
+							"path": "5.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/team-3.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling blonde businesswoman in glasses with arms crossed",
+							"tone": {
+								"grid": [
+									0.84,
+									0.7,
+									0.91,
+									0.74,
+									0.38,
+									0.76,
+									0.74,
+									0.2,
+									0.61
+								],
+								"color": "#aba6a5"
+							}
+						},
+						{
+							"id": "21a3f140:image.url",
+							"blockId": "21a3f140",
+							"path": "5.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/team-2.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man in glasses and a blue suit holding a tablet",
+							"tone": {
+								"grid": [
+									0.9,
+									0.68,
+									0.97,
+									0.59,
+									0.51,
+									0.97,
+									0.58,
+									0.36,
+									0.98
+								],
+								"color": "#b5bac2"
+							}
+						},
+						{
+							"id": "156fa208:image.url",
+							"blockId": "156fa208",
+							"path": "5.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/team-4.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in glasses and a denim shirt with hands clasped",
+							"tone": {
+								"grid": [
+									0.89,
+									0.7,
+									0.89,
+									0.8,
+									0.39,
+									0.73,
+									0.76,
+									0.38,
+									0.69
+								],
+								"color": "#b3afb1"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4035395d",
+					"role": "hero",
+					"title": "About Us",
+					"sectionIds": [
+						"4035395d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "40a7fc90",
+					"role": "stats",
+					"title": "Planner for your perfect wedding",
+					"sectionIds": [
+						"40a7fc90",
+						"804a43df"
+					],
+					"paths": [
+						"1",
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "e868b846",
+					"role": "features",
+					"title": "What we do",
+					"sectionIds": [
+						"e868b846"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c0bb5f20",
+					"role": "content",
+					"title": "There is no more lovely, friendly, and charming relationship, communion or company than a good marriage.",
+					"sectionIds": [
+						"c0bb5f20"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f3d8e8a1",
+					"role": "team",
+					"title": "Our Team",
+					"sectionIds": [
+						"f3d8e8a1"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "gallery",
+			"title": "Gallery",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/themegrill-demos/gallery-content.xml",
+			"sections": [
+				{
+					"id": "4035395d",
+					"index": 0,
+					"path": "0",
+					"group": "4035395d",
+					"role": "hero",
+					"title": "Gallery",
+					"slots": [
+						{
+							"id": "2a2c8920:text",
+							"blockId": "2a2c8920",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Gallery",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4035395d:background.image.image.url",
+							"blockId": "4035395d",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-banner-min-1.jpg",
+							"decorative": false,
+							"width": 1080,
+							"height": 362,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Newlyweds walking through cheering guests at a wedding",
+							"tone": {
+								"grid": [
+									0.32,
+									0.51,
+									0.4,
+									0.29,
+									0.42,
+									0.45,
+									0.24,
+									0.48,
+									0.36
+								],
+								"color": "#706052"
+							}
+						}
+					]
+				},
+				{
+					"id": "40a7fc90",
+					"index": 1,
+					"path": "1",
+					"group": "40a7fc90",
+					"role": "content",
+					"slots": [
+						{
+							"id": "23bde727:text",
+							"blockId": "23bde727",
+							"path": "1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using now use Lorem Ipsum",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e5857f92:text",
+							"blockId": "e5857f92",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "4db55463",
+					"index": 2,
+					"path": "2",
+					"group": "4db55463",
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "a682eaba:image.url",
+							"blockId": "a682eaba",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/together-1-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Bride and groom embracing on a garden path",
+							"tone": {
+								"grid": [
+									0.12,
+									0.35,
+									0.56,
+									0.27,
+									0.41,
+									0.61,
+									0.43,
+									0.7,
+									0.68
+								],
+								"color": "#847454"
+							}
+						},
+						{
+							"id": "6e98ac40:image.url",
+							"blockId": "6e98ac40",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/ring.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 699,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Silhouette of a man proposing on the beach behind a ring in the sand",
+							"tone": {
+								"grid": [
+									0.85,
+									0.85,
+									0.84,
+									0.64,
+									0.45,
+									0.62,
+									0.1,
+									0.08,
+									0.11
+								],
+								"color": "#828277"
+							}
+						}
+					]
+				},
+				{
+					"id": "d4327a55",
+					"index": 3,
+					"path": "3",
+					"group": "d4327a55",
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "ce94f75b:image.url",
+							"blockId": "ce94f75b",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/gallery-5-1.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Bride facing the groom in a garden",
+							"tone": {
+								"grid": [
+									0.54,
+									0.61,
+									0.55,
+									0.48,
+									0.55,
+									0.41,
+									0.52,
+									0.43,
+									0.31
+								],
+								"color": "#907b5c"
+							}
+						},
+						{
+							"id": "9032afbb:image.url",
+							"blockId": "9032afbb",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/gallery.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Groom kissing the bride's forehead outdoors",
+							"tone": {
+								"grid": [
+									0.8,
+									0.53,
+									0.14,
+									0.66,
+									0.54,
+									0.16,
+									0.41,
+									0.49,
+									0.05
+								],
+								"color": "#7d6a45"
+							}
+						},
+						{
+							"id": "e37ac89c:image.url",
+							"blockId": "e37ac89c",
+							"path": "3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/gallery-2-a-1.jpg",
+							"decorative": false,
+							"width": 1080,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Bride and groom standing among trees in a forest",
+							"tone": {
+								"grid": [
+									0.12,
+									0.27,
+									0.13,
+									0.18,
+									0.29,
+									0.14,
+									0.13,
+									0.4,
+									0.26
+								],
+								"color": "#333a27"
+							}
+						}
+					]
+				},
+				{
+					"id": "771301ca",
+					"index": 4,
+					"path": "4",
+					"group": "771301ca",
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "b7a86bc6:image.url",
+							"blockId": "b7a86bc6",
+							"path": "4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/together-sunset.jpg",
+							"decorative": false,
+							"width": 1080,
+							"height": 597,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Bride and groom walking hand in hand through a field at sunset",
+							"tone": {
+								"grid": [
+									0.64,
+									0.67,
+									0.59,
+									0.37,
+									0.34,
+									0.24,
+									0.44,
+									0.43,
+									0.32
+								],
+								"color": "#956c4e"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4035395d",
+					"role": "hero",
+					"title": "Gallery",
+					"sectionIds": [
+						"4035395d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "40a7fc90",
+					"role": "content",
+					"sectionIds": [
+						"40a7fc90"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4db55463",
+					"role": "content",
+					"sectionIds": [
+						"4db55463"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d4327a55",
+					"role": "content",
+					"sectionIds": [
+						"d4327a55"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "771301ca",
+					"role": "content",
+					"sectionIds": [
+						"771301ca"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 24,
+		"textSlots": 90,
+		"editableSlots": 82,
+		"images": 45,
+		"swappableImages": 35,
+		"words": 977
+	},
+	"builtAt": "2026-10-24T11:35:07.886Z"
+}

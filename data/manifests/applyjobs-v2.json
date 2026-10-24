@@ -1,0 +1,4921 @@
+{
+	"version": 4,
+	"slug": "applyjobs-v2",
+	"name": "Apply Jobs V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-applyjobs-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/applyjobs-v2",
+	"niches": [
+		"jobs",
+		"recruitment"
+	],
+	"keywords": [
+		"job portal",
+		"job board",
+		"recruitment",
+		"hiring",
+		"careers",
+		"staffing agency",
+		"hr"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 67,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 35,
+					"background": 16
+				}
+			},
+			{
+				"hex": "#262626",
+				"count": 66,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 60
+				}
+			},
+			{
+				"hex": "#000b23",
+				"count": 55,
+				"group": "brand",
+				"role": "primary",
+				"base": "#000b23",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 53
+				}
+			},
+			{
+				"hex": "#3653fe",
+				"count": 40,
+				"group": "brand",
+				"role": "primary",
+				"base": "#000b23",
+				"lightnessDelta": 0.535,
+				"usage": {
+					"text": 8,
+					"background": 30
+				}
+			},
+			{
+				"hex": "#f7f8fa",
+				"count": 30,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 30
+				}
+			},
+			{
+				"hex": "#0003e2",
+				"count": 17,
+				"group": "brand",
+				"role": "primary",
+				"base": "#000b23",
+				"lightnessDelta": 0.375,
+				"usage": {
+					"background": 17
+				}
+			},
+			{
+				"hex": "#1c1c1c",
+				"count": 13,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 13
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 9,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#fefefe",
+				"count": 6,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#2d2d2d",
+				"count": 6,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#000b23",
+				"lightnessDelta": 0.302
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#7090b0",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#000b23",
+				"lightnessDelta": 0.496
+			},
+			{
+				"hex": "#f2f2f2",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#1e7ba6",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#000b23",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 25,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#000b23",
+				"bg": "#f7f8fa",
+				"large": true,
+				"count": 23,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#0003e2",
+				"large": true,
+				"count": 17,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#3653fe",
+				"bg": "#f7f8fa",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fefefe",
+				"bg": "#3653fe",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#3653fe",
+				"large": false,
+				"count": 5,
+				"scope": "theme"
+			},
+			{
+				"fg": "#000b23",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#3653fe",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#3653fe",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Nunito",
+			"body": "Nunito Sans",
+			"map": {
+				"Nunito": "heading",
+				"Nunito Sans": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "4e906dd9",
+					"index": 0,
+					"path": "0",
+					"group": "4e906dd9",
+					"role": "hero",
+					"title": "The Easiest Way to Start Your Dream Job",
+					"slots": [
+						{
+							"id": "0c1661d9:text",
+							"blockId": "0c1661d9",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "The Easiest Way to Start Your Dream Job",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e342f23:text",
+							"blockId": "3e342f23",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. Dummy Text.",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e01a3c16:text",
+							"blockId": "e01a3c16",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Find jobs",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4e906dd9:background.image.image.url",
+							"blockId": "4e906dd9",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/background-gradient-01-1-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1920,
+							"orientation": "landscape"
+						},
+						{
+							"id": "cdbbc6ce:image.url",
+							"blockId": "cdbbc6ce",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/circle-p4yxexdt65jwggguvfantzoq5bqpazarze4bt86tkw.png",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling man with glasses at laptop surrounded by tech logo icons",
+							"tone": {
+								"grid": [
+									0.98,
+									0.8,
+									0.96,
+									0.95,
+									0.56,
+									0.94,
+									1,
+									0.98,
+									1
+								],
+								"color": "#e2e8ee"
+							}
+						}
+					]
+				},
+				{
+					"id": "55792a46",
+					"index": 1,
+					"path": "1",
+					"group": "55792a46",
+					"role": "content",
+					"title": "Easy Steps To Start Your Journey",
+					"slots": [
+						{
+							"id": "56d3fe9f:text",
+							"blockId": "56d3fe9f",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Easy Steps To Start Your Journey",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "98379c37:text",
+							"blockId": "98379c37",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7af5c4e9:text",
+							"blockId": "7af5c4e9",
+							"path": "1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b29c1049:text",
+							"blockId": "b29c1049",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Search Jobs",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1a0f29bf:text",
+							"blockId": "1a0f29bf",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a630af46:text",
+							"blockId": "a630af46",
+							"path": "1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Apply Job",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2b190c24:text",
+							"blockId": "2b190c24",
+							"path": "1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Is Lorem Ipsum is simply dummy text of the printing and typesetting company.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4d96c434:text",
+							"blockId": "4d96c434",
+							"path": "1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Send Resume",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36858474:text",
+							"blockId": "36858474",
+							"path": "1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ipsum Lorm is simply dummy text of the printing and typesetting office.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "f9ce3b3f:image.url",
+							"blockId": "f9ce3b3f",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-3.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "172b3ff9:image.url",
+							"blockId": "172b3ff9",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-5.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "bb2b8a0b:image.url",
+							"blockId": "bb2b8a0b",
+							"path": "1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-4.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "e05d2cd5",
+					"index": 2,
+					"path": "2",
+					"group": "e05d2cd5",
+					"role": "content",
+					"title": "Popular Job Categories",
+					"slots": [
+						{
+							"id": "d895a015:text",
+							"blockId": "d895a015",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Popular Job Categories",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4ec1ad85:text",
+							"blockId": "4ec1ad85",
+							"path": "2.2.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "e05d2cd5:background.image.image.url",
+							"blockId": "e05d2cd5",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/background-up-01-01-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1645,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "0c4acb56",
+					"index": 3,
+					"path": "3",
+					"group": "0c4acb56",
+					"role": "content",
+					"title": "Accounting/Finance",
+					"slots": [
+						{
+							"id": "8ab771a1:text",
+							"blockId": "8ab771a1",
+							"path": "3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Accounting/Finance",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f5f54e42:text",
+							"blockId": "f5f54e42",
+							"path": "3.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "350 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "68245520:text",
+							"blockId": "68245520",
+							"path": "3.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Designing",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b845ea0e:text",
+							"blockId": "b845ea0e",
+							"path": "3.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "120 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f3e63ede:text",
+							"blockId": "f3e63ede",
+							"path": "3.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Marketing & Sales",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "83185805:text",
+							"blockId": "83185805",
+							"path": "3.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "220 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "45a2cc17:text",
+							"blockId": "45a2cc17",
+							"path": "3.0.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Engineering",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4baa851e:text",
+							"blockId": "4baa851e",
+							"path": "3.0.0.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "120 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "db4d8082:text",
+							"blockId": "db4d8082",
+							"path": "3.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Media & Event",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b64b23c0:text",
+							"blockId": "b64b23c0",
+							"path": "3.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "90 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "58430b3a:text",
+							"blockId": "58430b3a",
+							"path": "3.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Product & Operation",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bed471f8:text",
+							"blockId": "bed471f8",
+							"path": "3.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "320 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f1a3f42d:text",
+							"blockId": "f1a3f42d",
+							"path": "3.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Customer Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f184ee83:text",
+							"blockId": "f184ee83",
+							"path": "3.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "330 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a651e95:text",
+							"blockId": "2a651e95",
+							"path": "3.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Electrician & Lights",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "02b48987:text",
+							"blockId": "02b48987",
+							"path": "3.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "250 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "07ca5ec8:text",
+							"blockId": "07ca5ec8",
+							"path": "3.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "50,000 Jobs Choose The One Right For You.",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6aa6a561:text",
+							"blockId": "6aa6a561",
+							"path": "3.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley. It is long-established.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7af5c4e9~1:text",
+							"blockId": "7af5c4e9~1",
+							"path": "3.0.2.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "926c30f9:image.url",
+							"blockId": "926c30f9",
+							"path": "3.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-6.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "5a3ad454:image.url",
+							"blockId": "5a3ad454",
+							"path": "3.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-7.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "e2f9f4ab:image.url",
+							"blockId": "e2f9f4ab",
+							"path": "3.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-8.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "f61a668a:image.url",
+							"blockId": "f61a668a",
+							"path": "3.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-9.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "c9db5d9a:image.url",
+							"blockId": "c9db5d9a",
+							"path": "3.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-10.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "804ad701:image.url",
+							"blockId": "804ad701",
+							"path": "3.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-11.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "043528d3:image.url",
+							"blockId": "043528d3",
+							"path": "3.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-12.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "b35d5115:image.url",
+							"blockId": "b35d5115",
+							"path": "3.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-13.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "75d665d5:image.url",
+							"blockId": "75d665d5",
+							"path": "3.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/jobs.png",
+							"decorative": true,
+							"width": 491,
+							"height": 483,
+							"orientation": "square"
+						},
+						{
+							"id": "3b9d44a5:image.url",
+							"blockId": "3b9d44a5",
+							"path": "3.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-111-1.png",
+							"decorative": true,
+							"width": 113,
+							"height": 36,
+							"orientation": "landscape"
+						},
+						{
+							"id": "c0315c75:image.url",
+							"blockId": "c0315c75",
+							"path": "3.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-112-1.png",
+							"decorative": true,
+							"width": 88,
+							"height": 36,
+							"orientation": "landscape"
+						},
+						{
+							"id": "5fded751:image.url",
+							"blockId": "5fded751",
+							"path": "3.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-109-1.png",
+							"decorative": true,
+							"width": 124,
+							"height": 36,
+							"orientation": "landscape"
+						},
+						{
+							"id": "db9a07e7:image.url",
+							"blockId": "db9a07e7",
+							"path": "3.0.3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-108-1.png",
+							"decorative": true,
+							"width": 93,
+							"height": 36,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "6a0d099f",
+					"index": 4,
+					"path": "4",
+					"group": "6a0d099f",
+					"role": "content",
+					"title": "Latest Job Listings",
+					"slots": [
+						{
+							"id": "ee511b3b:text",
+							"blockId": "ee511b3b",
+							"path": "4.0.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest Job Listings",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "146b706e:text",
+							"blockId": "146b706e",
+							"path": "4.0.0.0.0.2.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1875a2af:text",
+							"blockId": "1875a2af",
+							"path": "4.0.1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Production",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b06f96ed:text",
+							"blockId": "b06f96ed",
+							"path": "4.0.1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "130 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f84f1d6b:text",
+							"blockId": "f84f1d6b",
+							"path": "4.0.1.0.0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "37b64d08:text",
+							"blockId": "37b64d08",
+							"path": "4.0.1.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Marketing",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c9f738c1:text",
+							"blockId": "c9f738c1",
+							"path": "4.0.1.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "120 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f84f1d6b~1:text",
+							"blockId": "f84f1d6b~1",
+							"path": "4.0.1.1.0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cbd4c8f0:text",
+							"blockId": "cbd4c8f0",
+							"path": "4.0.1.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Engineering",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1a05a9f4:text",
+							"blockId": "1a05a9f4",
+							"path": "4.0.1.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "260 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f84f1d6b~2:text",
+							"blockId": "f84f1d6b~2",
+							"path": "4.0.1.2.0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "394493fa:text",
+							"blockId": "394493fa",
+							"path": "4.0.2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Media",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "712ced09:text",
+							"blockId": "712ced09",
+							"path": "4.0.2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "220 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f84f1d6b~3:text",
+							"blockId": "f84f1d6b~3",
+							"path": "4.0.2.0.0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "37768d49:text",
+							"blockId": "37768d49",
+							"path": "4.0.2.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Designing",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eefe47bb:text",
+							"blockId": "eefe47bb",
+							"path": "4.0.2.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "460 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f84f1d6b~4:text",
+							"blockId": "f84f1d6b~4",
+							"path": "4.0.2.1.0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "54f26b18:text",
+							"blockId": "54f26b18",
+							"path": "4.0.2.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Electricity",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba58d2fd:text",
+							"blockId": "ba58d2fd",
+							"path": "4.0.2.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "120 Jobs Available",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f84f1d6b~5:text",
+							"blockId": "f84f1d6b~5",
+							"path": "4.0.2.2.0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6a0d099f:background.image.image.url",
+							"blockId": "6a0d099f",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/background-gradient-down.jpg",
+							"decorative": true,
+							"width": 1200,
+							"height": 711,
+							"orientation": "landscape"
+						},
+						{
+							"id": "99b225c0:image.url",
+							"blockId": "99b225c0",
+							"path": "4.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/suprado-1.jpg",
+							"decorative": true,
+							"width": 400,
+							"height": 400,
+							"orientation": "square"
+						},
+						{
+							"id": "3e214474:image.url",
+							"blockId": "3e214474",
+							"path": "4.0.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/img-2-1.jpg",
+							"decorative": true,
+							"width": 400,
+							"height": 400,
+							"orientation": "square"
+						},
+						{
+							"id": "d9ec87fa:image.url",
+							"blockId": "d9ec87fa",
+							"path": "4.0.1.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/commet-1.jpg",
+							"decorative": true,
+							"width": 400,
+							"height": 400,
+							"orientation": "square"
+						},
+						{
+							"id": "14f91f8e:image.url",
+							"blockId": "14f91f8e",
+							"path": "4.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/img-2-1.jpg",
+							"decorative": true,
+							"width": 400,
+							"height": 400,
+							"orientation": "square"
+						},
+						{
+							"id": "33682c3f:image.url",
+							"blockId": "33682c3f",
+							"path": "4.0.2.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Marvellous-1.jpg",
+							"decorative": true,
+							"width": 400,
+							"height": 400,
+							"orientation": "square"
+						},
+						{
+							"id": "a411f5b2:image.url",
+							"blockId": "a411f5b2",
+							"path": "4.0.2.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/suprado-1.jpg",
+							"decorative": true,
+							"width": 400,
+							"height": 400,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "29232378",
+					"index": 5,
+					"path": "5",
+					"group": "29232378",
+					"role": "cta",
+					"title": "Download Our Mobile App Today !!",
+					"slots": [
+						{
+							"id": "589617b2:text",
+							"blockId": "589617b2",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Download Our Mobile App Today !!",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e733d233:text",
+							"blockId": "e733d233",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley. It is long-established.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7af5c4e9~2:text",
+							"blockId": "7af5c4e9~2",
+							"path": "5.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Download now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "3e8f88f2:image.url",
+							"blockId": "3e8f88f2",
+							"path": "5.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/mockup-1.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Job portal website mockup on laptop and mobile screens",
+							"tone": {
+								"grid": [
+									0.85,
+									0.73,
+									0.88,
+									0.72,
+									0.52,
+									0.75,
+									0.93,
+									0.92,
+									0.97
+								],
+								"color": "#b5d3e7"
+							}
+						}
+					]
+				},
+				{
+					"id": "db75a9d1",
+					"index": 6,
+					"path": "6",
+					"group": "db75a9d1",
+					"role": "content",
+					"title": "Our Popular Blogs",
+					"slots": [
+						{
+							"id": "d4e400c3:text",
+							"blockId": "d4e400c3",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Popular Blogs",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a0700284:text",
+							"blockId": "a0700284",
+							"path": "6.0.0.2.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3533a759:text",
+							"blockId": "3533a759",
+							"path": "6.0.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Javascript Fundamentals For Beginners",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "690d440a:text",
+							"blockId": "690d440a",
+							"path": "6.0.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "March 26, 2021 | IT Contractor",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "25a967df:text",
+							"blockId": "25a967df",
+							"path": "6.0.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. It has survived not only five centuries.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b7565d8f:text",
+							"blockId": "b7565d8f",
+							"path": "6.0.1.0.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read more",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a545245:text",
+							"blockId": "0a545245",
+							"path": "6.0.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Grow Your Career Step by Step",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4bbb0f7c:text",
+							"blockId": "4bbb0f7c",
+							"path": "6.0.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "March 26, 2021 | IT Contractor",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be0ed6b9:text",
+							"blockId": "be0ed6b9",
+							"path": "6.0.1.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. It has survived not only five centuries.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b7565d8f~1:text",
+							"blockId": "b7565d8f~1",
+							"path": "6.0.1.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read more",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e360ed9a:text",
+							"blockId": "e360ed9a",
+							"path": "6.0.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Debit and Credit Measurements",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b5ae50cf:text",
+							"blockId": "b5ae50cf",
+							"path": "6.0.1.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "March 24, 2021 | Accountancy",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "14247082:text",
+							"blockId": "14247082",
+							"path": "6.0.1.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. It has survived not only five centuries.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b7565d8f~2:text",
+							"blockId": "b7565d8f~2",
+							"path": "6.0.1.2.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read more",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e33e5fb6:image.url",
+							"blockId": "e33e5fb6",
+							"path": "6.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Developer.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Programming code on a computer screen close-up",
+							"tone": {
+								"grid": [
+									0.15,
+									0.17,
+									0.09,
+									0.28,
+									0.27,
+									0.14,
+									0.27,
+									0.25,
+									0.19
+								],
+								"color": "#2d343d"
+							}
+						},
+						{
+							"id": "3a01401c:image.url",
+							"blockId": "3a01401c",
+							"path": "6.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Graphic-Designers.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young woman drawing at a desk full of art supplies",
+							"tone": {
+								"grid": [
+									0.33,
+									0.3,
+									0.47,
+									0.44,
+									0.54,
+									0.5,
+									0.36,
+									0.42,
+									0.52
+								],
+								"color": "#696f74"
+							}
+						},
+						{
+							"id": "8f3c5c24:image.url",
+							"blockId": "8f3c5c24",
+							"path": "6.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Chartered-Accountant-1.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Stock market charts with calculator, magnifier and pens on a desk",
+							"tone": {
+								"grid": [
+									0.85,
+									0.6,
+									0.81,
+									0.79,
+									0.75,
+									0.85,
+									0.88,
+									0.93,
+									0.87
+								],
+								"color": "#d0cfce"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4e906dd9",
+					"role": "hero",
+					"title": "The Easiest Way to Start Your Dream Job",
+					"sectionIds": [
+						"4e906dd9"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "55792a46",
+					"role": "content",
+					"title": "Easy Steps To Start Your Journey",
+					"sectionIds": [
+						"55792a46"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e05d2cd5",
+					"role": "content",
+					"title": "Popular Job Categories",
+					"sectionIds": [
+						"e05d2cd5"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0c4acb56",
+					"role": "content",
+					"title": "Accounting/Finance",
+					"sectionIds": [
+						"0c4acb56"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6a0d099f",
+					"role": "content",
+					"title": "Latest Job Listings",
+					"sectionIds": [
+						"6a0d099f"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "29232378",
+					"role": "cta",
+					"title": "Download Our Mobile App Today !!",
+					"sectionIds": [
+						"29232378"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "db75a9d1",
+					"role": "content",
+					"title": "Our Popular Blogs",
+					"sectionIds": [
+						"db75a9d1"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "4e906dd9",
+					"index": 0,
+					"path": "0",
+					"group": "4e906dd9",
+					"role": "hero",
+					"title": "About Us",
+					"slots": [
+						{
+							"id": "0c1661d9:text",
+							"blockId": "0c1661d9",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e342f23:text",
+							"blockId": "3e342f23",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the printing and typesetting.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "4e906dd9:background.image.image.url",
+							"blockId": "4e906dd9",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/background-gradient-01-1-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1920,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "9d15f689",
+					"index": 1,
+					"path": "1",
+					"group": "9d15f689",
+					"role": "cta",
+					"title": "About Us",
+					"slots": [
+						{
+							"id": "1d1eb537:text",
+							"blockId": "1d1eb537",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9e4b7980:text",
+							"blockId": "9e4b7980",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley. But also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letterset sheets containing Lorem Ipsum passages, and more recently with desktop",
+							"rich": false,
+							"words": 61,
+							"minWords": 37,
+							"maxWords": 77,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7af5c4e9:text",
+							"blockId": "7af5c4e9",
+							"path": "1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Find job",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "10011a3e:image.url",
+							"blockId": "10011a3e",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Banner.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Two businessmen shaking hands in an office",
+							"tone": {
+								"grid": [
+									0.32,
+									0.49,
+									0.29,
+									0.22,
+									0.48,
+									0.19,
+									0.19,
+									0.39,
+									0.26
+								],
+								"color": "#584e4d"
+							}
+						}
+					]
+				},
+				{
+					"id": "55792a46",
+					"index": 2,
+					"path": "2",
+					"group": "55792a46",
+					"role": "content",
+					"title": "Our Services",
+					"slots": [
+						{
+							"id": "d895a015:text",
+							"blockId": "d895a015",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af68b75b:text",
+							"blockId": "af68b75b",
+							"path": "2.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b29c1049:text",
+							"blockId": "b29c1049",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Job Advertisment",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1a0f29bf:text",
+							"blockId": "1a0f29bf",
+							"path": "2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a630af46:text",
+							"blockId": "a630af46",
+							"path": "2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Quick Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2b190c24:text",
+							"blockId": "2b190c24",
+							"path": "2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Is Lorem Ipsum is simply dummy text of the printing and typesetting company.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4d96c434:text",
+							"blockId": "4d96c434",
+							"path": "2.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Job Display",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36858474:text",
+							"blockId": "36858474",
+							"path": "2.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ipsum Lorm is simply dummy text of the printing and typesetting office.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "f9ce3b3f:image.url",
+							"blockId": "f9ce3b3f",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/icon-12.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "172b3ff9:image.url",
+							"blockId": "172b3ff9",
+							"path": "2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/icon-13.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "bb2b8a0b:image.url",
+							"blockId": "bb2b8a0b",
+							"path": "2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-10.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "89adcf1c",
+					"index": 3,
+					"path": "3",
+					"group": "89adcf1c",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "2640907a:text",
+							"blockId": "2640907a",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "8,521",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "792e20eb:text",
+							"blockId": "792e20eb",
+							"path": "3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Jobs",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "57d51d3c:text",
+							"blockId": "57d51d3c",
+							"path": "3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "2,721",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "191e502d:text",
+							"blockId": "191e502d",
+							"path": "3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Job Application",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3b4494f:text",
+							"blockId": "b3b4494f",
+							"path": "3.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "9,102",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "46ef99cd:text",
+							"blockId": "46ef99cd",
+							"path": "3.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Views",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "19dc6e37:text",
+							"blockId": "19dc6e37",
+							"path": "3.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "5,211",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f0c4744c:text",
+							"blockId": "f0c4744c",
+							"path": "3.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Associated Companies",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "89adcf1c:background.image.image.url",
+							"blockId": "89adcf1c",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/rectangle-background.jpg",
+							"decorative": true,
+							"width": 1200,
+							"height": 618,
+							"orientation": "landscape"
+						},
+						{
+							"id": "8db3ed3c:image.url",
+							"blockId": "8db3ed3c",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Frame.png",
+							"decorative": true,
+							"width": 40,
+							"height": 40,
+							"orientation": "square"
+						},
+						{
+							"id": "1c9b8b55:image.url",
+							"blockId": "1c9b8b55",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Frame-1.png",
+							"decorative": true,
+							"width": 30,
+							"height": 40,
+							"orientation": "portrait"
+						},
+						{
+							"id": "fb43c47f:image.url",
+							"blockId": "fb43c47f",
+							"path": "3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Frame-2.png",
+							"decorative": true,
+							"width": 45,
+							"height": 40,
+							"orientation": "square"
+						},
+						{
+							"id": "f2372e2d:image.url",
+							"blockId": "f2372e2d",
+							"path": "3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Frame-3.png",
+							"decorative": true,
+							"width": 30,
+							"height": 40,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "04d82588",
+					"index": 4,
+					"path": "4",
+					"group": "04d82588",
+					"role": "testimonials",
+					"title": "Customer Reviews",
+					"slots": [
+						{
+							"id": "8be1971d:text",
+							"blockId": "8be1971d",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Customer Reviews",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ec00d67e:text",
+							"blockId": "ec00d67e",
+							"path": "4.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the printing and typesetting.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ea73ac8f:text",
+							"blockId": "ea73ac8f",
+							"path": "4.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the printing and typesetting.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "332d846f:text",
+							"blockId": "332d846f",
+							"path": "4.0.1.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Lary Jacob",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ed15e10:text",
+							"blockId": "9ed15e10",
+							"path": "4.0.1.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Manager",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6bb6d6e9:text",
+							"blockId": "6bb6d6e9",
+							"path": "4.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the printing and typesetting.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a7324a2d:text",
+							"blockId": "a7324a2d",
+							"path": "4.0.1.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Mary Jhones",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c1da2af4:text",
+							"blockId": "c1da2af4",
+							"path": "4.0.1.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Developer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f1ee97ad:text",
+							"blockId": "f1ee97ad",
+							"path": "4.0.1.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the printing and typesetting.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "25dfeca4:text",
+							"blockId": "25dfeca4",
+							"path": "4.0.1.2.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Jhon doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "72300c73:text",
+							"blockId": "72300c73",
+							"path": "4.0.1.2.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Designer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "19dcce5e:image.url",
+							"blockId": "19dcce5e",
+							"path": "4.0.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/portrait-1.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man in hat and round sunglasses with tattoos outdoors",
+							"tone": {
+								"grid": [
+									0.4,
+									0.4,
+									0.68,
+									0.26,
+									0.28,
+									0.39,
+									0.27,
+									0.13,
+									0.26
+								],
+								"color": "#5a574d"
+							}
+						},
+						{
+							"id": "b07ba578:image.url",
+							"blockId": "b07ba578",
+							"path": "4.0.1.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/portrait-2.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling Asian businessman in a suit leaning on a wooden wall",
+							"tone": {
+								"grid": [
+									0.64,
+									0.63,
+									0.3,
+									0.57,
+									0.26,
+									0.28,
+									0.42,
+									0.18,
+									0.29
+								],
+								"color": "#776157"
+							}
+						},
+						{
+							"id": "aa392cd4:image.url",
+							"blockId": "aa392cd4",
+							"path": "4.0.1.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/portrait-3.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Middle-aged man in a green jacket outdoor portrait",
+							"tone": {
+								"grid": [
+									0.59,
+									0.42,
+									0.3,
+									0.59,
+									0.54,
+									0.28,
+									0.37,
+									0.33,
+									0.29
+								],
+								"color": "#6e6863"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4e906dd9",
+					"role": "hero",
+					"title": "About Us",
+					"sectionIds": [
+						"4e906dd9"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9d15f689",
+					"role": "cta",
+					"title": "About Us",
+					"sectionIds": [
+						"9d15f689"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "55792a46",
+					"role": "content",
+					"title": "Our Services",
+					"sectionIds": [
+						"55792a46"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "89adcf1c",
+					"role": "stats",
+					"sectionIds": [
+						"89adcf1c"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "04d82588",
+					"role": "testimonials",
+					"title": "Customer Reviews",
+					"sectionIds": [
+						"04d82588"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "jobs-2",
+			"title": "Jobs",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/themegrill-demos/jobs-2-content.xml",
+			"sections": [
+				{
+					"id": "4e906dd9",
+					"index": 0,
+					"path": "0",
+					"group": "4e906dd9",
+					"role": "hero",
+					"title": "Job Lists",
+					"slots": [
+						{
+							"id": "0c1661d9:text",
+							"blockId": "0c1661d9",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Job Lists",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e342f23:text",
+							"blockId": "3e342f23",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the printing and typesetting.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "4e906dd9:background.image.image.url",
+							"blockId": "4e906dd9",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/background-gradient-01-1-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1920,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "bb6920eb",
+					"index": 1,
+					"path": "1",
+					"group": "bb6920eb",
+					"role": "content",
+					"title": "Data Scientist",
+					"slots": [
+						{
+							"id": "49332fb0:text",
+							"blockId": "49332fb0",
+							"path": "1.0.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Part-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b57128c3:text",
+							"blockId": "b57128c3",
+							"path": "1.0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Data Scientist",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "71df9db0:text",
+							"blockId": "71df9db0",
+							"path": "1.0.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "202 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9:text",
+							"blockId": "7af5c4e9",
+							"path": "1.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ffd266fd:text",
+							"blockId": "ffd266fd",
+							"path": "1.0.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Full-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "40049ecd:text",
+							"blockId": "40049ecd",
+							"path": "1.0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Web Maintainance",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "30217c50:text",
+							"blockId": "30217c50",
+							"path": "1.0.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "122 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~1:text",
+							"blockId": "7af5c4e9~1",
+							"path": "1.0.0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9bc14770:text",
+							"blockId": "9bc14770",
+							"path": "1.0.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Internship",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "699ac852:text",
+							"blockId": "699ac852",
+							"path": "1.0.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Sales Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7382486c:text",
+							"blockId": "7382486c",
+							"path": "1.0.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "520 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~2:text",
+							"blockId": "7af5c4e9~2",
+							"path": "1.0.0.2.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "86693df8:text",
+							"blockId": "86693df8",
+							"path": "1.0.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Full-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2239b240:text",
+							"blockId": "2239b240",
+							"path": "1.0.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Developer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9821fd7f:text",
+							"blockId": "9821fd7f",
+							"path": "1.0.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "222 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~3:text",
+							"blockId": "7af5c4e9~3",
+							"path": "1.0.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2f0c36dc:text",
+							"blockId": "2f0c36dc",
+							"path": "1.0.1.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Internship",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "58e6a271:text",
+							"blockId": "58e6a271",
+							"path": "1.0.1.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Designer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be98d431:text",
+							"blockId": "be98d431",
+							"path": "1.0.1.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "521 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~4:text",
+							"blockId": "7af5c4e9~4",
+							"path": "1.0.1.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "192677ea:text",
+							"blockId": "192677ea",
+							"path": "1.0.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Full-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8b2fdd71:text",
+							"blockId": "8b2fdd71",
+							"path": "1.0.1.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Customer Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "308d1b6e:text",
+							"blockId": "308d1b6e",
+							"path": "1.0.1.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "232 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~5:text",
+							"blockId": "7af5c4e9~5",
+							"path": "1.0.1.2.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b9b78122:text",
+							"blockId": "b9b78122",
+							"path": "1.0.2.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Freelancing",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b9b1b2ca:text",
+							"blockId": "b9b1b2ca",
+							"path": "1.0.2.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Media And Marketing",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c97fade3:text",
+							"blockId": "c97fade3",
+							"path": "1.0.2.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "287 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~6:text",
+							"blockId": "7af5c4e9~6",
+							"path": "1.0.2.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8aac2167:text",
+							"blockId": "8aac2167",
+							"path": "1.0.2.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Part-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1b2f9076:text",
+							"blockId": "1b2f9076",
+							"path": "1.0.2.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Production Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "77970126:text",
+							"blockId": "77970126",
+							"path": "1.0.2.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "122 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~7:text",
+							"blockId": "7af5c4e9~7",
+							"path": "1.0.2.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb0e7752:text",
+							"blockId": "eb0e7752",
+							"path": "1.0.2.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Full-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "373ac1b8:text",
+							"blockId": "373ac1b8",
+							"path": "1.0.2.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Photographer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7f7497e7:text",
+							"blockId": "7f7497e7",
+							"path": "1.0.2.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "322 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~8:text",
+							"blockId": "7af5c4e9~8",
+							"path": "1.0.2.2.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4c7b6f49:image.url",
+							"blockId": "4c7b6f49",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Data-Scientiest.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Financial charts with magnifying glass and glasses on a desk",
+							"tone": {
+								"grid": [
+									0.62,
+									0.81,
+									0.74,
+									0.53,
+									0.89,
+									0.81,
+									0.78,
+									0.85,
+									0.83
+								],
+								"color": "#c2c2c6"
+							}
+						},
+						{
+							"id": "5ae8b873:image.url",
+							"blockId": "5ae8b873",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Web-Maintanance.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Home office desk with two iMac computers",
+							"tone": {
+								"grid": [
+									0.65,
+									0.72,
+									0.76,
+									0.59,
+									0.38,
+									0.46,
+									0.71,
+									0.66,
+									0.58
+								],
+								"color": "#9f9b99"
+							}
+						},
+						{
+							"id": "7b406078:image.url",
+							"blockId": "7b406078",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Sales-Manager.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 830,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Businessman in a suit using his phone beside a laptop at a desk",
+							"tone": {
+								"grid": [
+									0.29,
+									0.4,
+									0.59,
+									0.44,
+									0.19,
+									0.36,
+									0.54,
+									0.29,
+									0.38
+								],
+								"color": "#6a6257"
+							}
+						},
+						{
+							"id": "1cc9ab95:image.url",
+							"blockId": "1cc9ab95",
+							"path": "1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Developer-1.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Programming code on a computer screen close-up",
+							"tone": {
+								"grid": [
+									0.15,
+									0.17,
+									0.09,
+									0.28,
+									0.27,
+									0.14,
+									0.27,
+									0.25,
+									0.19
+								],
+								"color": "#2d343d"
+							}
+						},
+						{
+							"id": "d74943ae:image.url",
+							"blockId": "d74943ae",
+							"path": "1.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/uiux-engineer.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Notebook with website wireframe sketches, pens and phone",
+							"tone": {
+								"grid": [
+									0.61,
+									0.88,
+									0.66,
+									0.36,
+									0.84,
+									0.85,
+									0.31,
+									0.63,
+									0.67
+								],
+								"color": "#b79fa1"
+							}
+						},
+						{
+							"id": "a89ce33a:image.url",
+							"blockId": "a89ce33a",
+							"path": "1.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/store-keeper.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1282,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Businesswoman typing at a computer in a bright office",
+							"tone": {
+								"grid": [
+									0.86,
+									0.97,
+									0.92,
+									0.6,
+									0.81,
+									0.6,
+									0.37,
+									0.64,
+									0.59
+								],
+								"color": "#b8b4b1"
+							}
+						},
+						{
+							"id": "f446b808:image.url",
+							"blockId": "f446b808",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Sr-finance-manager.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1280,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "People reviewing printed design layouts on a table",
+							"tone": {
+								"grid": [
+									0.61,
+									0.5,
+									0.28,
+									0.81,
+									0.7,
+									0.38,
+									0.71,
+									0.86,
+									0.73
+								],
+								"color": "#a09e9b"
+							}
+						},
+						{
+							"id": "2222db84:image.url",
+							"blockId": "2222db84",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/product-analysis.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Colorful game pawns connected by lines as a network",
+							"tone": {
+								"grid": [
+									0.75,
+									0.71,
+									0.78,
+									0.65,
+									0.64,
+									0.55,
+									0.59,
+									0.82,
+									0.9
+								],
+								"color": "#c2b2b4"
+							}
+						},
+						{
+							"id": "3e5b2fbc:image.url",
+							"blockId": "3e5b2fbc",
+							"path": "1.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/photographer.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman in a hat taking a photo with a camera among plants",
+							"tone": {
+								"grid": [
+									0.52,
+									0.52,
+									0.47,
+									0.4,
+									0.33,
+									0.47,
+									0.18,
+									0.54,
+									0.19
+								],
+								"color": "#726741"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4e906dd9",
+					"role": "hero",
+					"title": "Job Lists",
+					"sectionIds": [
+						"4e906dd9"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "bb6920eb",
+					"role": "content",
+					"title": "Data Scientist",
+					"sectionIds": [
+						"bb6920eb"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "job-detail",
+			"title": "Job Detail",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/themegrill-demos/job-detail-content.xml",
+			"sections": [
+				{
+					"id": "4e906dd9",
+					"index": 0,
+					"path": "0",
+					"group": "4e906dd9",
+					"role": "hero",
+					"title": "Job Detail's",
+					"slots": [
+						{
+							"id": "0c1661d9:text",
+							"blockId": "0c1661d9",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Job Detail's",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e342f23:text",
+							"blockId": "3e342f23",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum is simply dummy text of the printing and typesetting.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ea84d510:text",
+							"blockId": "ea84d510",
+							"path": "0.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Apply now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4e906dd9:background.image.image.url",
+							"blockId": "4e906dd9",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/background-gradient-01-1-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1920,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "26e881fa",
+					"index": 1,
+					"path": "1",
+					"group": "26e881fa",
+					"role": "features",
+					"title": "Shift",
+					"slots": [
+						{
+							"id": "610a1743:text",
+							"blockId": "610a1743",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Shift",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "50b0d135:text",
+							"blockId": "50b0d135",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Full-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f4e0b52:text",
+							"blockId": "3f4e0b52",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Work Profile",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "34857add:text",
+							"blockId": "34857add",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Web Designer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a1f85909:text",
+							"blockId": "a1f85909",
+							"path": "1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Offered Salary",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a32ecbba:text",
+							"blockId": "a32ecbba",
+							"path": "1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$100-$200",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						}
+					],
+					"images": [
+						{
+							"id": "a8ede11c:image.url",
+							"blockId": "a8ede11c",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-626101.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "6a8295bf:image.url",
+							"blockId": "6a8295bf",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-626102.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "b9bcb790:image.url",
+							"blockId": "b9bcb790",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-626100.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "0161611b",
+					"index": 2,
+					"path": "2",
+					"group": "0161611b",
+					"role": "features",
+					"title": "Qualification",
+					"slots": [
+						{
+							"id": "275a5e81:text",
+							"blockId": "275a5e81",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Qualification",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aae71179:text",
+							"blockId": "aae71179",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bachelors Degree",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "99296762:text",
+							"blockId": "99296762",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Job Level",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d9f28a6b:text",
+							"blockId": "d9f28a6b",
+							"path": "2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Full-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d554b1b9:text",
+							"blockId": "d554b1b9",
+							"path": "2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Experience",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "366b0cae:text",
+							"blockId": "366b0cae",
+							"path": "2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Year",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "33c5451e:image.url",
+							"blockId": "33c5451e",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/job-d-icon-2.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "959c8c11:image.url",
+							"blockId": "959c8c11",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-626099.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "4d49c269:image.url",
+							"blockId": "4d49c269",
+							"path": "2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/job-d-icon-1.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "06a4b10e",
+					"index": 3,
+					"path": "3",
+					"group": "06a4b10e",
+					"role": "features",
+					"title": "Job Description",
+					"slots": [
+						{
+							"id": "766f3417:text",
+							"blockId": "766f3417",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Job Description",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3582211:text",
+							"blockId": "d3582211",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+							"rich": false,
+							"words": 91,
+							"minWords": 55,
+							"maxWords": 114,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b3c1790d:text",
+							"blockId": "b3c1790d",
+							"path": "3.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Responsibilities",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.3.0:@html:li",
+							"blockId": "core-3.0.3.0",
+							"path": "3.0.3.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.3.1:@html:li",
+							"blockId": "core-3.0.3.1",
+							"path": "3.0.3.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.3.2:@html:li",
+							"blockId": "core-3.0.3.2",
+							"path": "3.0.3.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.3.3:@html:li",
+							"blockId": "core-3.0.3.3",
+							"path": "3.0.3.3",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Lorem Ipsum is simply dummy text of the printing andwhen an unknown printer took a galley of type and scrambled it",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.3.4:@html:li",
+							"blockId": "core-3.0.3.4",
+							"path": "3.0.3.4",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "325f108e:text",
+							"blockId": "325f108e",
+							"path": "3.0.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Background, Skills & Experience",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.5.0:@html:li",
+							"blockId": "core-3.0.5.0",
+							"path": "3.0.5.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.5.1:@html:li",
+							"blockId": "core-3.0.5.1",
+							"path": "3.0.5.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.5.2:@html:li",
+							"blockId": "core-3.0.5.2",
+							"path": "3.0.5.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.5.3:@html:li",
+							"blockId": "core-3.0.5.3",
+							"path": "3.0.5.3",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Lorem Ipsum is simply dummy text of the printing andwhen an unknown printer took a galley of type and scrambled it",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.5.4:@html:li",
+							"blockId": "core-3.0.5.4",
+							"path": "3.0.5.4",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "29d2c5ea",
+					"index": 4,
+					"path": "4",
+					"group": "29d2c5ea",
+					"role": "dynamic",
+					"title": "Job Application",
+					"slots": [
+						{
+							"id": "cf617921:text",
+							"blockId": "cf617921",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Job Application",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "6ce07598",
+					"index": 5,
+					"path": "5",
+					"group": "6ce07598",
+					"role": "content",
+					"title": "Related Jobs",
+					"slots": [
+						{
+							"id": "fbc86d22:text",
+							"blockId": "fbc86d22",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Related Jobs",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "49332fb0:text",
+							"blockId": "49332fb0",
+							"path": "5.0.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Part-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b57128c3:text",
+							"blockId": "b57128c3",
+							"path": "5.0.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Data Scientist",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "71df9db0:text",
+							"blockId": "71df9db0",
+							"path": "5.0.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "202 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9:text",
+							"blockId": "7af5c4e9",
+							"path": "5.0.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ffd266fd:text",
+							"blockId": "ffd266fd",
+							"path": "5.0.1.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Full-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "40049ecd:text",
+							"blockId": "40049ecd",
+							"path": "5.0.1.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Web Maintainance",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "30217c50:text",
+							"blockId": "30217c50",
+							"path": "5.0.1.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "122 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~1:text",
+							"blockId": "7af5c4e9~1",
+							"path": "5.0.1.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9bc14770:text",
+							"blockId": "9bc14770",
+							"path": "5.0.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Internship",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "699ac852:text",
+							"blockId": "699ac852",
+							"path": "5.0.1.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Sales Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7382486c:text",
+							"blockId": "7382486c",
+							"path": "5.0.1.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "520 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~2:text",
+							"blockId": "7af5c4e9~2",
+							"path": "5.0.1.2.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2533281b:text",
+							"blockId": "2533281b",
+							"path": "5.0.1.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Part-Time",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a8d635e3:text",
+							"blockId": "a8d635e3",
+							"path": "5.0.1.3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Graphic Designer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b52e56b7:text",
+							"blockId": "b52e56b7",
+							"path": "5.0.1.3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "2 open positions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7af5c4e9~3:text",
+							"blockId": "7af5c4e9~3",
+							"path": "5.0.1.3.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4c7b6f49:image.url",
+							"blockId": "4c7b6f49",
+							"path": "5.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Data-Scientiest.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Financial charts with magnifying glass and glasses on a desk",
+							"tone": {
+								"grid": [
+									0.62,
+									0.81,
+									0.74,
+									0.53,
+									0.89,
+									0.81,
+									0.78,
+									0.85,
+									0.83
+								],
+								"color": "#c2c2c6"
+							}
+						},
+						{
+							"id": "5ae8b873:image.url",
+							"blockId": "5ae8b873",
+							"path": "5.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Web-Maintanance.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Home office desk with two iMac computers",
+							"tone": {
+								"grid": [
+									0.65,
+									0.72,
+									0.76,
+									0.59,
+									0.38,
+									0.46,
+									0.71,
+									0.66,
+									0.58
+								],
+								"color": "#9f9b99"
+							}
+						},
+						{
+							"id": "7b406078:image.url",
+							"blockId": "7b406078",
+							"path": "5.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Sales-Manager.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 830,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Businessman in a suit using his phone beside a laptop at a desk",
+							"tone": {
+								"grid": [
+									0.29,
+									0.4,
+									0.59,
+									0.44,
+									0.19,
+									0.36,
+									0.54,
+									0.29,
+									0.38
+								],
+								"color": "#6a6257"
+							}
+						},
+						{
+							"id": "90d8ced6:image.url",
+							"blockId": "90d8ced6",
+							"path": "5.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Graphic-Designers.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young woman drawing at a desk full of art supplies",
+							"tone": {
+								"grid": [
+									0.33,
+									0.3,
+									0.47,
+									0.44,
+									0.54,
+									0.5,
+									0.36,
+									0.42,
+									0.52
+								],
+								"color": "#696f74"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4e906dd9",
+					"role": "hero",
+					"title": "Job Detail's",
+					"sectionIds": [
+						"4e906dd9"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "26e881fa",
+					"role": "features",
+					"title": "Shift",
+					"sectionIds": [
+						"26e881fa"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0161611b",
+					"role": "features",
+					"title": "Qualification",
+					"sectionIds": [
+						"0161611b"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "06a4b10e",
+					"role": "features",
+					"title": "Job Description",
+					"sectionIds": [
+						"06a4b10e"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "29d2c5ea",
+					"role": "dynamic",
+					"title": "Job Application",
+					"sectionIds": [
+						"29d2c5ea"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6ce07598",
+					"role": "content",
+					"title": "Related Jobs",
+					"sectionIds": [
+						"6ce07598"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 20,
+		"textSlots": 187,
+		"editableSlots": 182,
+		"images": 64,
+		"swappableImages": 22,
+		"words": 1148
+	},
+	"builtAt": "2026-10-24T11:35:07.982Z"
+}

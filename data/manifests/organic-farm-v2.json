@@ -1,0 +1,2482 @@
+{
+	"version": 4,
+	"slug": "organic-farm-v2",
+	"name": "Organic Farm V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-organic-farm-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/organic-farm-v2",
+	"niches": [
+		"agriculture",
+		"farming",
+		"food"
+	],
+	"keywords": [
+		"organic farm",
+		"farm",
+		"agriculture",
+		"farmer",
+		"organic food",
+		"dairy",
+		"harvest",
+		"landscaping",
+		"garden",
+		"plants"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 43,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 28,
+					"background": 7
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 20,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 19
+				}
+			},
+			{
+				"hex": "#66bb6a",
+				"count": 17,
+				"group": "brand",
+				"role": "primary",
+				"base": "#66bb6a",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 8,
+					"text": 3
+				}
+			},
+			{
+				"hex": "#263238",
+				"count": 13,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#263238",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 12
+				}
+			},
+			{
+				"hex": "#88c139",
+				"count": 9,
+				"group": "brand",
+				"role": "accent",
+				"base": "#88c139",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"background": 8
+				}
+			},
+			{
+				"hex": "#c6cfc2",
+				"count": 7,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"border": 4
+				}
+			},
+			{
+				"hex": "#2664eb",
+				"count": 7,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#263238",
+				"lightnessDelta": 0.351
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 4,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#51585f",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#555555",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#263238",
+				"lightnessDelta": 0.186
+			},
+			{
+				"hex": "#f8f8f8",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#fcfcfc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#75ba78",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#66bb6a",
+				"lightnessDelta": 0.027
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#263238",
+				"lightnessDelta": 0.2
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#88c139",
+				"large": true,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#263238",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#66bb6a",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#16181a",
+				"bg": "#66bb6a",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#263238",
+				"bg": "#f8f8f8",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fcfcfc",
+				"bg": "#88c139",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#66bb6a",
+				"bg": "#f5fcf5",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#75ba78",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#66bb6a",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Merriweather",
+			"body": "Mulish",
+			"map": {
+				"Merriweather": "heading",
+				"Mulish": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "52f4f697",
+					"index": 0,
+					"path": "0",
+					"group": "52f4f697",
+					"role": "hero",
+					"title": "A new way to invest in agriculture",
+					"slots": [
+						{
+							"id": "d6d5324f:text",
+							"blockId": "d6d5324f",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "A new way to invest in agriculture",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bf6c3ba3:text",
+							"blockId": "bf6c3ba3",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d3649e5e:text",
+							"blockId": "d3649e5e",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b3ff48e1:image.url",
+							"blockId": "b3ff48e1",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/slider-img.png",
+							"decorative": false,
+							"width": 603,
+							"height": 529,
+							"orientation": "square",
+							"subject": "place",
+							"description": "Green rice terraces with a person walking",
+							"tone": {
+								"grid": [
+									0.58,
+									0.72,
+									0.85,
+									0.61,
+									0.45,
+									0.71,
+									0.88,
+									0.36,
+									0.87
+								],
+								"color": "#a2b092"
+							}
+						}
+					]
+				},
+				{
+					"id": "95103f0d",
+					"index": 1,
+					"path": "1",
+					"group": "95103f0d",
+					"role": "cta",
+					"title": "Welcome to Organic",
+					"slots": [
+						{
+							"id": "0f8361b0:text",
+							"blockId": "0f8361b0",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Welcome to Organic",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d31e39fd:text",
+							"blockId": "d31e39fd",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d3649e5e~1:text",
+							"blockId": "d3649e5e~1",
+							"path": "1.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Discover More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "95103f0d:background.image.image.url",
+							"blockId": "95103f0d",
+							"path": "1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant-left.png",
+							"decorative": false,
+							"width": 275,
+							"height": 390,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Green banana leaves",
+							"tone": {
+								"grid": [
+									0.99,
+									0.81,
+									0.9,
+									0.96,
+									0.76,
+									0.62,
+									0.99,
+									0.82,
+									0.53
+								],
+								"color": "#c2daa7"
+							}
+						},
+						{
+							"id": "89986ac5:image.url",
+							"blockId": "89986ac5",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/organic-welcome-bg.png",
+							"decorative": false,
+							"width": 613,
+							"height": 613,
+							"orientation": "square",
+							"subject": "place",
+							"description": "White farmhouse on a green lawn by trees",
+							"tone": {
+								"grid": [
+									0.64,
+									0.42,
+									0.65,
+									0.66,
+									0.6,
+									0.61,
+									0.94,
+									0.89,
+									0.91
+								],
+								"color": "#afb892"
+							}
+						}
+					]
+				},
+				{
+					"id": "97e2aa14",
+					"index": 2,
+					"path": "2",
+					"group": "97e2aa14",
+					"role": "features",
+					"title": "Why Choose Us",
+					"slots": [
+						{
+							"id": "3c8bc1c8:text",
+							"blockId": "3c8bc1c8",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Why Choose Us",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e70e7b76:text",
+							"blockId": "e70e7b76",
+							"path": "2.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We are the first and the only crowdfunding platform enabling you To help finance our farmers.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b9c1180:text",
+							"blockId": "7b9c1180",
+							"path": "2.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Excellent Service",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be73f58b:text",
+							"blockId": "be73f58b",
+							"path": "2.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2e1041ec:text",
+							"blockId": "2e1041ec",
+							"path": "2.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Clean Working",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d95a2ad4:text",
+							"blockId": "d95a2ad4",
+							"path": "2.0.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8fbd48bf:text",
+							"blockId": "8fbd48bf",
+							"path": "2.0.1.0.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Quality And Reliability",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "847e653e:text",
+							"blockId": "847e653e",
+							"path": "2.0.1.0.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "99dbc8fa:text",
+							"blockId": "99dbc8fa",
+							"path": "2.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "We Use New Technology",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "97e2aa14:background.image.image.url",
+							"blockId": "97e2aa14",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/organic-welcome-bg.jpg",
+							"decorative": true,
+							"width": 1500,
+							"height": 1213,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d75928e9:image.url",
+							"blockId": "d75928e9",
+							"path": "2.0.1.1.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/why-choose-us.png",
+							"decorative": false,
+							"width": 531,
+							"height": 709,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Wicker basket of fresh vegetables",
+							"tone": {
+								"grid": [
+									1,
+									1,
+									1,
+									0.96,
+									0.87,
+									0.93,
+									0.53,
+									0.38,
+									0.54
+								],
+								"color": "#d2cdb7"
+							}
+						}
+					]
+				},
+				{
+					"id": "346afa3e",
+					"index": 3,
+					"path": "3",
+					"group": "346afa3e",
+					"role": "features",
+					"title": "Services",
+					"slots": [
+						{
+							"id": "1347fb5c:text",
+							"blockId": "1347fb5c",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Services",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3d8f3c42:text",
+							"blockId": "3d8f3c42",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "453a3297:text",
+							"blockId": "453a3297",
+							"path": "3.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Growing Fruits and Vegetables",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51ffa91d:text",
+							"blockId": "51ffa91d",
+							"path": "3.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Design & Planting",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e83f1a9:text",
+							"blockId": "0e83f1a9",
+							"path": "3.1.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Spring & Fall Cleanup",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "290c9cd6:text",
+							"blockId": "290c9cd6",
+							"path": "3.1.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Best Products",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "acf4adf5:text",
+							"blockId": "acf4adf5",
+							"path": "3.1.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Clear Water for Irrigation",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a69b9e71:text",
+							"blockId": "a69b9e71",
+							"path": "3.1.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Growing Fruits and Vegetables",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "346afa3e:background.image.image.url",
+							"blockId": "346afa3e",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant-right.png",
+							"decorative": false,
+							"width": 275,
+							"height": 390,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Green banana leaves",
+							"tone": {
+								"grid": [
+									0.94,
+									0.78,
+									0.98,
+									0.64,
+									0.71,
+									0.95,
+									0.52,
+									0.77,
+									0.98
+								],
+								"color": "#bed7a1"
+							}
+						},
+						{
+							"id": "e486c5d9:image.url",
+							"blockId": "e486c5d9",
+							"path": "3.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon5.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						},
+						{
+							"id": "c27ccece:image.url",
+							"blockId": "c27ccece",
+							"path": "3.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon6.png",
+							"decorative": true,
+							"width": 68,
+							"height": 95,
+							"orientation": "portrait"
+						},
+						{
+							"id": "3c245e21:image.url",
+							"blockId": "3c245e21",
+							"path": "3.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon1.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						},
+						{
+							"id": "8f263031:image.url",
+							"blockId": "8f263031",
+							"path": "3.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon2.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						},
+						{
+							"id": "d323625e:image.url",
+							"blockId": "d323625e",
+							"path": "3.1.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon4-oxtqxrntscdzynoy01n8zu16y0yllaf6xgrs5hpzhk.png",
+							"decorative": true,
+							"width": 100,
+							"height": 100,
+							"orientation": "square"
+						},
+						{
+							"id": "787fe25e:image.url",
+							"blockId": "787fe25e",
+							"path": "3.1.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon3.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "f5a8844c",
+					"index": 4,
+					"path": "4",
+					"group": "f5a8844c",
+					"role": "content",
+					"title": "Agriculture matters to the future of development",
+					"slots": [
+						{
+							"id": "70813268:text",
+							"blockId": "70813268",
+							"path": "4.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Modern Agriculture Types",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e9fb6a50:text",
+							"blockId": "e9fb6a50",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Agriculture matters to the future of development",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f5a8844c:background.image.image.url",
+							"blockId": "f5a8844c",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/agriculture-imgq.jpg",
+							"decorative": true,
+							"width": 1439,
+							"height": 580,
+							"orientation": "landscape"
+						},
+						{
+							"id": "07cfc80b:image.url",
+							"blockId": "07cfc80b",
+							"path": "4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/agriculture-img-1.jpg",
+							"decorative": false,
+							"width": 711,
+							"height": 733,
+							"orientation": "square",
+							"subject": "place",
+							"description": "Rice terraces with a person holding an umbrella",
+							"tone": {
+								"grid": [
+									0.52,
+									0.52,
+									0.55,
+									0.47,
+									0.62,
+									0.5,
+									0.53,
+									0.52,
+									0.49
+								],
+								"color": "#898a5b"
+							}
+						}
+					]
+				},
+				{
+					"id": "f185e2df",
+					"index": 5,
+					"path": "5",
+					"group": "f185e2df",
+					"role": "testimonials",
+					"title": "Testimonials",
+					"slots": [
+						{
+							"id": "87e63951:text",
+							"blockId": "87e63951",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Testimonials",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "99fcf9ac:text",
+							"blockId": "99fcf9ac",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat proident, sunt in mollit anim id est laborum.",
+							"rich": false,
+							"words": 63,
+							"minWords": 38,
+							"maxWords": 79,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "882ba03d:text",
+							"blockId": "882ba03d",
+							"path": "5.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Elizabeth Lewis",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2c44c485:text",
+							"blockId": "2c44c485",
+							"path": "5.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Designer",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f185e2df:background.image.image.url",
+							"blockId": "f185e2df",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plam-img.png",
+							"decorative": true,
+							"width": 221,
+							"height": 265,
+							"orientation": "portrait"
+						},
+						{
+							"id": "400d2e0c:image.url",
+							"blockId": "400d2e0c",
+							"path": "5.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/Mask-Group-3.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "fa4afdba",
+					"index": 6,
+					"path": "6",
+					"group": "fa4afdba",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "a2482f73:text",
+							"blockId": "a2482f73",
+							"path": "6.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Provide you the highest quality products that meets your expectation",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3649e5e~2:text",
+							"blockId": "d3649e5e~2",
+							"path": "6.0.1.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Discover More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "fa4afdba:background.image.image.url",
+							"blockId": "fa4afdba",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/footer-bg.png",
+							"decorative": true,
+							"width": 1517,
+							"height": 912,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0cf55117:image.url",
+							"blockId": "0cf55117",
+							"path": "6.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant.png",
+							"decorative": true,
+							"width": 222,
+							"height": 252,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "52f4f697",
+					"role": "hero",
+					"title": "A new way to invest in agriculture",
+					"sectionIds": [
+						"52f4f697"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "95103f0d",
+					"role": "cta",
+					"title": "Welcome to Organic",
+					"sectionIds": [
+						"95103f0d"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "97e2aa14",
+					"role": "features",
+					"title": "Why Choose Us",
+					"sectionIds": [
+						"97e2aa14"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "346afa3e",
+					"role": "features",
+					"title": "Services",
+					"sectionIds": [
+						"346afa3e"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f5a8844c",
+					"role": "content",
+					"title": "Agriculture matters to the future of development",
+					"sectionIds": [
+						"f5a8844c"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f185e2df",
+					"role": "testimonials",
+					"title": "Testimonials",
+					"sectionIds": [
+						"f185e2df"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "fa4afdba",
+					"role": "cta",
+					"sectionIds": [
+						"fa4afdba"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "95103f0d",
+					"index": 0,
+					"path": "0",
+					"group": "95103f0d",
+					"role": "hero",
+					"title": "Welcome to Organic",
+					"slots": [
+						{
+							"id": "0f8361b0:text",
+							"blockId": "0f8361b0",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Welcome to Organic",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d31e39fd:text",
+							"blockId": "d31e39fd",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d3649e5e:text",
+							"blockId": "d3649e5e",
+							"path": "0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Discover More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "95103f0d:background.image.image.url",
+							"blockId": "95103f0d",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant-left.png",
+							"decorative": false,
+							"width": 275,
+							"height": 390,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Green banana leaves",
+							"tone": {
+								"grid": [
+									0.99,
+									0.81,
+									0.9,
+									0.96,
+									0.76,
+									0.62,
+									0.99,
+									0.82,
+									0.53
+								],
+								"color": "#c2daa7"
+							}
+						},
+						{
+							"id": "89986ac5:image.url",
+							"blockId": "89986ac5",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/organic-welcome-bg.png",
+							"decorative": false,
+							"width": 613,
+							"height": 613,
+							"orientation": "square",
+							"subject": "place",
+							"description": "White farmhouse on a green lawn by trees",
+							"tone": {
+								"grid": [
+									0.64,
+									0.42,
+									0.65,
+									0.66,
+									0.6,
+									0.61,
+									0.94,
+									0.89,
+									0.91
+								],
+								"color": "#afb892"
+							}
+						}
+					]
+				},
+				{
+					"id": "97e2aa14",
+					"index": 1,
+					"path": "1",
+					"group": "97e2aa14",
+					"role": "features",
+					"title": "Why Choose Us",
+					"slots": [
+						{
+							"id": "3c8bc1c8:text",
+							"blockId": "3c8bc1c8",
+							"path": "1.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Why Choose Us",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e70e7b76:text",
+							"blockId": "e70e7b76",
+							"path": "1.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We are the first and the only crowdfunding platform enabling you To help finance our farmers.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b9c1180:text",
+							"blockId": "7b9c1180",
+							"path": "1.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Excellent Service",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be73f58b:text",
+							"blockId": "be73f58b",
+							"path": "1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2e1041ec:text",
+							"blockId": "2e1041ec",
+							"path": "1.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Clean Working",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d95a2ad4:text",
+							"blockId": "d95a2ad4",
+							"path": "1.0.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8fbd48bf:text",
+							"blockId": "8fbd48bf",
+							"path": "1.0.1.0.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Quality And Reliability",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "847e653e:text",
+							"blockId": "847e653e",
+							"path": "1.0.1.0.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "99dbc8fa:text",
+							"blockId": "99dbc8fa",
+							"path": "1.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "We Use New Technology",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "97e2aa14:background.image.image.url",
+							"blockId": "97e2aa14",
+							"path": "1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/organic-welcome-bg.jpg",
+							"decorative": true,
+							"width": 1500,
+							"height": 1213,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d75928e9:image.url",
+							"blockId": "d75928e9",
+							"path": "1.0.1.1.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/why-choose-us.png",
+							"decorative": false,
+							"width": 531,
+							"height": 709,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Wicker basket of fresh vegetables",
+							"tone": {
+								"grid": [
+									1,
+									1,
+									1,
+									0.96,
+									0.87,
+									0.93,
+									0.53,
+									0.38,
+									0.54
+								],
+								"color": "#d2cdb7"
+							}
+						}
+					]
+				},
+				{
+					"id": "3815002d",
+					"index": 2,
+					"path": "2",
+					"group": "3815002d",
+					"role": "cta",
+					"title": "We're Providing The Best Solution",
+					"slots": [
+						{
+							"id": "b746bc99:text",
+							"blockId": "b746bc99",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We're Providing The Best Solution",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c742cda6:text",
+							"blockId": "c742cda6",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+							"rich": false,
+							"words": 78,
+							"minWords": 47,
+							"maxWords": 98,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d3649e5e~1:text",
+							"blockId": "d3649e5e~1",
+							"path": "2.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Discover More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "3815002d:background.image.image.url",
+							"blockId": "3815002d",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant-right.png",
+							"decorative": false,
+							"width": 275,
+							"height": 390,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Green banana leaves",
+							"tone": {
+								"grid": [
+									0.94,
+									0.78,
+									0.98,
+									0.64,
+									0.71,
+									0.95,
+									0.52,
+									0.77,
+									0.98
+								],
+								"color": "#bed7a1"
+							}
+						},
+						{
+							"id": "8d3c0494:image.url",
+							"blockId": "8d3c0494",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/organic-field.png",
+							"decorative": false,
+							"width": 613,
+							"height": 613,
+							"orientation": "square",
+							"subject": "place",
+							"description": "Thatched farm hut among green rice fields",
+							"tone": {
+								"grid": [
+									0.86,
+									0.75,
+									0.76,
+									0.68,
+									0.49,
+									0.68,
+									0.84,
+									0.72,
+									0.78
+								],
+								"color": "#bbbd9a"
+							}
+						}
+					]
+				},
+				{
+					"id": "698bd041",
+					"index": 3,
+					"path": "3",
+					"group": "698bd041",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "957b8881:text",
+							"blockId": "957b8881",
+							"path": "3.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Provide you the highest quality products that meets your expectation",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3649e5e~2:text",
+							"blockId": "d3649e5e~2",
+							"path": "3.0.1.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Discover More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "698bd041:background.image.image.url",
+							"blockId": "698bd041",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/footer-bg.png",
+							"decorative": true,
+							"width": 1517,
+							"height": 912,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0cf55117:image.url",
+							"blockId": "0cf55117",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant.png",
+							"decorative": true,
+							"width": 222,
+							"height": 252,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "95103f0d",
+					"role": "hero",
+					"title": "Welcome to Organic",
+					"sectionIds": [
+						"95103f0d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "97e2aa14",
+					"role": "features",
+					"title": "Why Choose Us",
+					"sectionIds": [
+						"97e2aa14"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3815002d",
+					"role": "cta",
+					"title": "We're Providing The Best Solution",
+					"sectionIds": [
+						"3815002d"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "698bd041",
+					"role": "cta",
+					"sectionIds": [
+						"698bd041"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "346afa3e",
+					"index": 0,
+					"path": "0",
+					"group": "346afa3e",
+					"role": "hero",
+					"title": "Growing Fruits and Vegetables",
+					"slots": [
+						{
+							"id": "453a3297:text",
+							"blockId": "453a3297",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Growing Fruits and Vegetables",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51ffa91d:text",
+							"blockId": "51ffa91d",
+							"path": "0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Design & Planting",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e83f1a9:text",
+							"blockId": "0e83f1a9",
+							"path": "0.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Spring & Fall Cleanup",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "290c9cd6:text",
+							"blockId": "290c9cd6",
+							"path": "0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Best Products",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "acf4adf5:text",
+							"blockId": "acf4adf5",
+							"path": "0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Clear Water for Irrigation",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a69b9e71:text",
+							"blockId": "a69b9e71",
+							"path": "0.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Growing Fruits and Vegetables",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "346afa3e:background.image.image.url",
+							"blockId": "346afa3e",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant-right.png",
+							"decorative": false,
+							"width": 275,
+							"height": 390,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Green banana leaves",
+							"tone": {
+								"grid": [
+									0.94,
+									0.78,
+									0.98,
+									0.64,
+									0.71,
+									0.95,
+									0.52,
+									0.77,
+									0.98
+								],
+								"color": "#bed7a1"
+							}
+						},
+						{
+							"id": "e486c5d9:image.url",
+							"blockId": "e486c5d9",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon5.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						},
+						{
+							"id": "c27ccece:image.url",
+							"blockId": "c27ccece",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon6.png",
+							"decorative": true,
+							"width": 68,
+							"height": 95,
+							"orientation": "portrait"
+						},
+						{
+							"id": "3c245e21:image.url",
+							"blockId": "3c245e21",
+							"path": "0.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon1.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						},
+						{
+							"id": "8f263031:image.url",
+							"blockId": "8f263031",
+							"path": "0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon2.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						},
+						{
+							"id": "d323625e:image.url",
+							"blockId": "d323625e",
+							"path": "0.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon4-oxtqxrntscdzynoy01n8zu16y0yllaf6xgrs5hpzhk.png",
+							"decorative": true,
+							"width": 100,
+							"height": 100,
+							"orientation": "square"
+						},
+						{
+							"id": "787fe25e:image.url",
+							"blockId": "787fe25e",
+							"path": "0.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon3.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "698bd041",
+					"index": 1,
+					"path": "1",
+					"group": "698bd041",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "957b8881:text",
+							"blockId": "957b8881",
+							"path": "1.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Provide you the highest quality products that meets your expectation",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3649e5e:text",
+							"blockId": "d3649e5e",
+							"path": "1.0.1.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Discover More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "698bd041:background.image.image.url",
+							"blockId": "698bd041",
+							"path": "1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/footer-bg.png",
+							"decorative": true,
+							"width": 1517,
+							"height": 912,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0cf55117:image.url",
+							"blockId": "0cf55117",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant.png",
+							"decorative": true,
+							"width": 222,
+							"height": 252,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "346afa3e",
+					"role": "hero",
+					"title": "Growing Fruits and Vegetables",
+					"sectionIds": [
+						"346afa3e"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "698bd041",
+					"role": "cta",
+					"sectionIds": [
+						"698bd041"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "testimonials",
+			"title": "Testimonials",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/themegrill-demos/testimonials-content.xml",
+			"sections": [
+				{
+					"id": "4203ce20",
+					"index": 0,
+					"path": "0",
+					"group": "4203ce20",
+					"role": "hero",
+					"title": "Mary Jackson",
+					"slots": [
+						{
+							"id": "99fcf9ac:text",
+							"blockId": "99fcf9ac",
+							"path": "0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,reprehenderit in voluptate velit esse deserunt mollit anim id est laborum.",
+							"rich": false,
+							"words": 102,
+							"minWords": 61,
+							"maxWords": 128,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "882ba03d:text",
+							"blockId": "882ba03d",
+							"path": "0.0.0.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Mary Jackson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2c44c485:text",
+							"blockId": "2c44c485",
+							"path": "0.0.0.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f640661a:text",
+							"blockId": "f640661a",
+							"path": "0.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,reprehenderit in voluptate velit esse deserunt mollit anim id est laborum.",
+							"rich": false,
+							"words": 102,
+							"minWords": 61,
+							"maxWords": 128,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "081da616:text",
+							"blockId": "081da616",
+							"path": "0.0.1.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Linda Swift",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cb223d1f:text",
+							"blockId": "cb223d1f",
+							"path": "0.0.1.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Marketer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "13c6c835:text",
+							"blockId": "13c6c835",
+							"path": "0.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,reprehenderit in voluptate velit esse deserunt mollit anim id est laborum.",
+							"rich": false,
+							"words": 102,
+							"minWords": 61,
+							"maxWords": 128,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3b133b3b:text",
+							"blockId": "3b133b3b",
+							"path": "0.0.2.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Elizabeth Lewis",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7556856:text",
+							"blockId": "f7556856",
+							"path": "0.0.2.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Designer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4203ce20:background.image.image.url",
+							"blockId": "4203ce20",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plam-right.png",
+							"decorative": true,
+							"width": 221,
+							"height": 265,
+							"orientation": "portrait"
+						},
+						{
+							"id": "400d2e0c:image.url",
+							"blockId": "400d2e0c",
+							"path": "0.0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/client2.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "4c985d8f:image.url",
+							"blockId": "4c985d8f",
+							"path": "0.0.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/client1.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "43a8ae67:image.url",
+							"blockId": "43a8ae67",
+							"path": "0.0.2.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/Mask-Group-3.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "e78ec456",
+					"index": 1,
+					"path": "1",
+					"group": "e78ec456",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "79f679c9:text",
+							"blockId": "79f679c9",
+							"path": "1.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Provide you the highest quality products that meets your expectation",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3649e5e:text",
+							"blockId": "d3649e5e",
+							"path": "1.0.1.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Discover More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e78ec456:background.image.image.url",
+							"blockId": "e78ec456",
+							"path": "1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/footer-bg.png",
+							"decorative": true,
+							"width": 1517,
+							"height": 912,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0cf55117:image.url",
+							"blockId": "0cf55117",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant.png",
+							"decorative": true,
+							"width": 222,
+							"height": 252,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4203ce20",
+					"role": "hero",
+					"title": "Mary Jackson",
+					"sectionIds": [
+						"4203ce20"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e78ec456",
+					"role": "cta",
+					"sectionIds": [
+						"e78ec456"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 15,
+		"textSlots": 67,
+		"editableSlots": 67,
+		"images": 41,
+		"swappableImages": 12,
+		"words": 878
+	},
+	"builtAt": "2026-10-24T11:35:07.976Z"
+}

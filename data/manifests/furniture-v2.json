@@ -1,0 +1,1020 @@
+{
+	"version": 4,
+	"slug": "furniture-v2",
+	"name": "Furniture v2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-furniture-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/furniture-v2",
+	"niches": [
+		"furniture",
+		"shop",
+		"retail"
+	],
+	"keywords": [
+		"furniture store",
+		"furniture",
+		"home decor",
+		"interior",
+		"custom furniture",
+		"sofa"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 16,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 3,
+					"text": 6
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 10,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#888888",
+				"count": 8,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 7,
+					"border": 1
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 6,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#f8b633",
+				"count": 6,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f8b633",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 5
+				}
+			},
+			{
+				"hex": "#181818",
+				"count": 5,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 5
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 4,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#000000",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#f1f1f1",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#fffaed",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#ffac09",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f8b633",
+				"lightnessDelta": -0.069
+			},
+			{
+				"hex": "#ffa735",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f8b633",
+				"lightnessDelta": 0.018
+			},
+			{
+				"hex": "#b27419",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f8b633",
+				"lightnessDelta": -0.188
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0.014,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#f8b633",
+				"large": true,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ffa735",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffac09",
+				"bg": "#f1f1f1",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Roboto",
+			"body": "Roboto",
+			"map": {
+				"Roboto": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "794b715f",
+					"index": 0,
+					"path": "0",
+					"group": "794b715f",
+					"role": "hero",
+					"title": "No 1 Furniture Company",
+					"slots": [
+						{
+							"id": "998e8c95:text",
+							"blockId": "998e8c95",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "No 1 Furniture Company",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e1782c4f:text",
+							"blockId": "e1782c4f",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "High Quality Furniture Just for You",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3a350f1b:text",
+							"blockId": "3a350f1b",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1a981946:text",
+							"blockId": "1a981946",
+							"path": "0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Product",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7a05194c:background.image.image.url",
+							"blockId": "7a05194c",
+							"path": "0.1.0.0",
+							"block": "blockart/slide",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/2024/01/farhad-fallahzad-VtQMBG_Ljc0-unsplash-scaled-1-pde2fbgt0zmawzwx2vczbb81k91s4dp73p5alsx85k.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 500,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Minimal cafe corner with a small table, two chairs and a framed sign",
+							"tone": {
+								"grid": [
+									0.84,
+									0.81,
+									0.75,
+									0.83,
+									0.72,
+									0.72,
+									0.57,
+									0.48,
+									0.47
+								],
+								"color": "#aeb0af"
+							}
+						},
+						{
+							"id": "030052b5:background.image.image.url",
+							"blockId": "030052b5",
+							"path": "0.1.0.1",
+							"block": "blockart/slide",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/2024/01/daniil-silantev-1P6AnKDw6S8-unsplash-scaled-1-pde2feablhq5vtstmekv0sifcenvrh0e433r1mt1mw.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 500,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "White tufted armchair against a plain wall",
+							"tone": {
+								"grid": [
+									0.87,
+									0.87,
+									0.81,
+									0.89,
+									0.83,
+									0.85,
+									0.91,
+									0.88,
+									0.85
+								],
+								"color": "#d9ddda"
+							}
+						},
+						{
+							"id": "821d33d0:background.image.image.url",
+							"blockId": "821d33d0",
+							"path": "0.1.0.2",
+							"block": "blockart/slide",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/2024/01/alexandra-gorn-JIUjvqe2ZHg-unsplash-scaled-1-pde2fh3u5zu0unoq5xsqq9st4k9zekbl4h27hgov48.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 500,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Minimal living room with a black sofa, dresser and dried pampas grass",
+							"tone": {
+								"grid": [
+									0.8,
+									0.82,
+									0.84,
+									0.67,
+									0.8,
+									0.77,
+									0.28,
+									0.32,
+									0.67
+								],
+								"color": "#a5aaaa"
+							}
+						}
+					]
+				},
+				{
+					"id": "b7fc8ec2",
+					"index": 1,
+					"path": "1",
+					"group": "b7fc8ec2",
+					"role": "features",
+					"title": "We are specializing in custom furniture",
+					"slots": [
+						{
+							"id": "6883f0f7:text",
+							"blockId": "6883f0f7",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We are specializing in custom furniture",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2c9003ec:text",
+							"blockId": "2c9003ec",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, whe",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fdf836a4:text",
+							"blockId": "fdf836a4",
+							"path": "1.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Product",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad50ebb0:text",
+							"blockId": "ad50ebb0",
+							"path": "1.1.3.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "High Qaulity",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "18b58f75:text",
+							"blockId": "18b58f75",
+							"path": "1.1.3.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Crafted From Top Materials",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "295c19df:text",
+							"blockId": "295c19df",
+							"path": "1.1.3.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Warranty Protection",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "24c2f229:text",
+							"blockId": "24c2f229",
+							"path": "1.1.3.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Over 2 years",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a64d4c62:text",
+							"blockId": "a64d4c62",
+							"path": "1.1.3.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Free Shipping",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7d32c9d7:text",
+							"blockId": "7d32c9d7",
+							"path": "1.1.3.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Over $150",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "01cc987f:text",
+							"blockId": "01cc987f",
+							"path": "1.1.3.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "24/7 Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "12f26ee3:text",
+							"blockId": "12f26ee3",
+							"path": "1.1.3.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dedicated Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ce7fc83f:image.url",
+							"blockId": "ce7fc83f",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/2024/01/farhad-fallahzad-VtQMBG_Ljc0-unsplash-scaled-1-pde2fbgt0zmawzwx2vczbb81k91s4dp73p5alsx85k.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 500,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Minimal cafe corner with a small table, two chairs and a framed sign",
+							"tone": {
+								"grid": [
+									0.84,
+									0.81,
+									0.75,
+									0.83,
+									0.72,
+									0.72,
+									0.57,
+									0.48,
+									0.47
+								],
+								"color": "#aeb0af"
+							}
+						}
+					]
+				},
+				{
+					"id": "6a7acccd",
+					"index": 2,
+					"path": "2",
+					"group": "6a7acccd",
+					"role": "dynamic",
+					"title": "New Products",
+					"slots": [
+						{
+							"id": "4366f180:text",
+							"blockId": "4366f180",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New Products",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c2c45416:text",
+							"blockId": "c2c45416",
+							"path": "2.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-category"
+					]
+				},
+				{
+					"id": "4d17f456",
+					"index": 3,
+					"path": "3",
+					"group": "4d17f456",
+					"role": "dynamic",
+					"title": "Top Selling Product",
+					"slots": [
+						{
+							"id": "9b630687:text",
+							"blockId": "9b630687",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Top Selling Product",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c5745d33:text",
+							"blockId": "c5745d33",
+							"path": "3.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-category"
+					]
+				},
+				{
+					"id": "d9230fa4",
+					"index": 4,
+					"path": "4",
+					"group": "d9230fa4",
+					"role": "dynamic",
+					"title": "Most Viewed Product",
+					"slots": [
+						{
+							"id": "632a1f2f:text",
+							"blockId": "632a1f2f",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Most Viewed Product",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a16af1c:text",
+							"blockId": "2a16af1c",
+							"path": "4.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-category"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "794b715f",
+					"role": "hero",
+					"title": "No 1 Furniture Company",
+					"sectionIds": [
+						"794b715f"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b7fc8ec2",
+					"role": "features",
+					"title": "We are specializing in custom furniture",
+					"sectionIds": [
+						"b7fc8ec2"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6a7acccd",
+					"role": "dynamic",
+					"title": "New Products",
+					"sectionIds": [
+						"6a7acccd"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "4d17f456",
+					"role": "dynamic",
+					"title": "Top Selling Product",
+					"sectionIds": [
+						"4d17f456"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "d9230fa4",
+					"role": "dynamic",
+					"title": "Most Viewed Product",
+					"sectionIds": [
+						"d9230fa4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "cart",
+			"title": "Cart",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/themegrill-demos/cart-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"slots": [
+						{
+							"id": "core-0.0.0.1.0:@html:h",
+							"blockId": "core-0.0.0.1.0",
+							"path": "0.0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "You may be interested in…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0:@html:h",
+							"blockId": "core-0.1.0",
+							"path": "0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Your cart is currently empty!",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.2:@html:h",
+							"blockId": "core-0.1.2",
+							"path": "0.1.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New in store",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/cart",
+						"woocommerce/filled-cart-block",
+						"woocommerce/cart-items-block",
+						"woocommerce/cart-line-items-block",
+						"woocommerce/cart-cross-sells-block",
+						"woocommerce/cart-cross-sells-products-block",
+						"woocommerce/cart-totals-block",
+						"woocommerce/cart-order-summary-block",
+						"woocommerce/cart-order-summary-heading-block",
+						"woocommerce/cart-order-summary-coupon-form-block",
+						"woocommerce/cart-order-summary-subtotal-block",
+						"woocommerce/cart-order-summary-fee-block",
+						"woocommerce/cart-order-summary-discount-block",
+						"woocommerce/cart-order-summary-shipping-block",
+						"woocommerce/cart-order-summary-taxes-block",
+						"woocommerce/cart-express-payment-block",
+						"woocommerce/proceed-to-checkout-block",
+						"woocommerce/cart-accepted-payment-methods-block",
+						"woocommerce/empty-cart-block",
+						"woocommerce/product-new"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "checkout",
+			"title": "Checkout",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/themegrill-demos/checkout-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/checkout",
+						"woocommerce/checkout-fields-block",
+						"woocommerce/checkout-express-payment-block",
+						"woocommerce/checkout-contact-information-block",
+						"woocommerce/checkout-shipping-method-block",
+						"woocommerce/checkout-pickup-options-block",
+						"woocommerce/checkout-shipping-address-block",
+						"woocommerce/checkout-billing-address-block",
+						"woocommerce/checkout-shipping-methods-block",
+						"woocommerce/checkout-payment-block",
+						"woocommerce/checkout-order-note-block",
+						"woocommerce/checkout-terms-block",
+						"woocommerce/checkout-actions-block",
+						"woocommerce/checkout-totals-block",
+						"woocommerce/checkout-order-summary-block",
+						"woocommerce/checkout-order-summary-cart-items-block",
+						"woocommerce/checkout-order-summary-coupon-form-block",
+						"woocommerce/checkout-order-summary-subtotal-block",
+						"woocommerce/checkout-order-summary-fee-block",
+						"woocommerce/checkout-order-summary-discount-block",
+						"woocommerce/checkout-order-summary-shipping-block",
+						"woocommerce/checkout-order-summary-taxes-block"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 7,
+		"textSlots": 24,
+		"editableSlots": 24,
+		"images": 4,
+		"swappableImages": 4,
+		"words": 110
+	},
+	"builtAt": "2026-10-24T11:35:08.044Z"
+}

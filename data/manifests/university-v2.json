@@ -1,0 +1,3876 @@
+{
+	"version": 4,
+	"slug": "university-v2",
+	"name": "University V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-university-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/university-v2",
+	"niches": [
+		"education",
+		"university"
+	],
+	"keywords": [
+		"university",
+		"college",
+		"academy",
+		"school",
+		"courses",
+		"faculty"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"learning-management-system/lms.php",
+		"zakra-pro/zakra-pro.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 119,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 96,
+					"border": 2,
+					"background": 5
+				}
+			},
+			{
+				"hex": "#fdc800",
+				"count": 83,
+				"group": "brand",
+				"role": "primary",
+				"base": "#fdc800",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 49,
+					"border": 10,
+					"text": 17
+				}
+			},
+			{
+				"hex": "#002248",
+				"count": 61,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#002248",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 49,
+					"border": 4,
+					"text": 8
+				}
+			},
+			{
+				"hex": "#212529",
+				"count": 43,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 41
+				}
+			},
+			{
+				"hex": "#343a40",
+				"count": 32,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 32
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 30,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 6
+				}
+			},
+			{
+				"hex": "#f8f9fa",
+				"count": 15,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 15
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#062c56",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#002248",
+				"lightnessDelta": 0.039,
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#002248",
+				"lightnessDelta": 0.229
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#1b1500",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#d9d9d9",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#fffffe",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#fcc600",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#fdc800",
+				"lightnessDelta": -0.002,
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#002248",
+				"lightnessDelta": 0.243
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#002248",
+				"large": true,
+				"count": 42,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#002248",
+				"large": false,
+				"count": 14,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#062c56",
+				"large": false,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fdc800",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#002248",
+				"bg": "#f8f9fa",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fdc800",
+				"bg": "#f8f9fa",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#212529",
+				"bg": "#fdc800",
+				"large": false,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#343a40",
+				"bg": "#fdc800",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#fdc800",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#002248",
+				"large": false,
+				"count": 3,
+				"scope": "theme"
+			},
+			{
+				"fg": "#002248",
+				"bg": "#fdc800",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fdc800",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#062c56",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#fdc800",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#d9d9d9",
+				"bg": "#002248",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#fdc800",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#212529",
+				"bg": "#fdc800",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#212529",
+				"bg": "#062c56",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fffffe",
+				"bg": "#fdc800",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fdc800",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fafafa",
+				"bg": "#002248",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fdc800",
+				"bg": "#002248",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Open Sans",
+			"body": "Open Sans",
+			"map": {
+				"Open Sans": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "d60967f1",
+					"index": 0,
+					"path": "0",
+					"group": "d60967f1",
+					"role": "hero",
+					"title": "The Education You Want.",
+					"slots": [
+						{
+							"id": "82d52203:text",
+							"blockId": "82d52203",
+							"path": "0.0.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque sapien mattis et. Donec fermentum ut orci nec mattis. Proin facilisis vel leo sed lacinia. Lorem ipsum dolor",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1fe92921:text",
+							"blockId": "1fe92921",
+							"path": "0.0.0.0.0.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Welcome to zakra university",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7410e464:text",
+							"blockId": "7410e464",
+							"path": "0.0.0.0.0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "The Education You Want.",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a24504bf:text",
+							"blockId": "a24504bf",
+							"path": "0.0.0.0.0.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "the attention you deserve",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c5fa8b38:text",
+							"blockId": "c5fa8b38",
+							"path": "0.0.0.0.0.0.1.0.3.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5c276251:text",
+							"blockId": "5c276251",
+							"path": "0.0.0.0.0.0.1.0.3.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "GET STARTED",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c8525f72:text",
+							"blockId": "c8525f72",
+							"path": "0.0.0.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque sapien mattis et. Donec fermentum ut orci nec mattis. Proin facilisis vel leo sed lacinia. Lorem ipsum dolor",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "226e5fa3:text",
+							"blockId": "226e5fa3",
+							"path": "0.0.0.1.0.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Welcome to zakra university",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7df1037e:text",
+							"blockId": "7df1037e",
+							"path": "0.0.0.1.0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Investing in knowledge.",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1234247f:text",
+							"blockId": "1234247f",
+							"path": "0.0.0.1.0.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We'll take you higher.",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c9f964a:text",
+							"blockId": "4c9f964a",
+							"path": "0.0.0.1.0.0.1.0.3.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8b0191f4:text",
+							"blockId": "8b0191f4",
+							"path": "0.0.0.1.0.0.1.0.3.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "GET STARTED",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "49842217:background.image.image.url",
+							"blockId": "49842217",
+							"path": "0.0.0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10003-1.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Smiling young woman sitting with classmates in a group discussion",
+							"tone": {
+								"grid": [
+									0.25,
+									0.58,
+									0.62,
+									0.23,
+									0.52,
+									0.26,
+									0.37,
+									0.57,
+									0.36
+								],
+								"color": "#766864"
+							}
+						},
+						{
+							"id": "f78839ad:background.image.image.url",
+							"blockId": "f78839ad",
+							"path": "0.0.0.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10002-1.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Large grand library reading room with long tables and readers",
+							"tone": {
+								"grid": [
+									0.49,
+									0.15,
+									0.34,
+									0.46,
+									0.25,
+									0.32,
+									0.29,
+									0.24,
+									0.22
+								],
+								"color": "#5a4d3f"
+							}
+						}
+					]
+				},
+				{
+					"id": "b3e5ecb6",
+					"index": 1,
+					"path": "1",
+					"group": "b3e5ecb6",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "0313e91e:image.url",
+							"blockId": "0313e91e",
+							"path": "1.0.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10004.png",
+							"decorative": true,
+							"width": 72,
+							"height": 77,
+							"orientation": "square"
+						},
+						{
+							"id": "6159fd62:image.url",
+							"blockId": "6159fd62",
+							"path": "1.0.0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10005.png",
+							"decorative": true,
+							"width": 85,
+							"height": 81,
+							"orientation": "square"
+						},
+						{
+							"id": "c4dc0a3c:image.url",
+							"blockId": "c4dc0a3c",
+							"path": "1.0.0.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10006.png",
+							"decorative": true,
+							"width": 57,
+							"height": 77,
+							"orientation": "portrait"
+						},
+						{
+							"id": "91e1c13c:image.url",
+							"blockId": "91e1c13c",
+							"path": "1.0.0.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/com-logo.png",
+							"decorative": true,
+							"width": 75,
+							"height": 90,
+							"orientation": "portrait"
+						},
+						{
+							"id": "798c1a51:image.url",
+							"blockId": "798c1a51",
+							"path": "1.0.0.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10004.png",
+							"decorative": true,
+							"width": 72,
+							"height": 77,
+							"orientation": "square"
+						},
+						{
+							"id": "f96cad5b:image.url",
+							"blockId": "f96cad5b",
+							"path": "1.0.0.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10005.png",
+							"decorative": true,
+							"width": 85,
+							"height": 81,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "801c0b69",
+					"index": 2,
+					"path": "2",
+					"group": "801c0b69",
+					"role": "content",
+					"title": "We Provide Excellent Customer Service And Implement",
+					"slots": [
+						{
+							"id": "5e73fa70:text",
+							"blockId": "5e73fa70",
+							"path": "2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "EXPLORE ABOUT ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "442dfaff:text",
+							"blockId": "442dfaff",
+							"path": "2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Provide Excellent Customer Service And Implement",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "68da75a5:text",
+							"blockId": "68da75a5",
+							"path": "2.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At Zakra University, we combine academic excellence with practical learning to prepare students for real-world success. Our programs are designed to inspire curiosity, build confidence, and open doors to exciting career opportunities.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "66ceda81:text",
+							"blockId": "66ceda81",
+							"path": "2.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "From your first day to graduation and beyond, we're here to support you every step of the way.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2f274f75:text",
+							"blockId": "2f274f75",
+							"path": "2.0.0.0.4.0.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Helpline",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b2167398:text",
+							"blockId": "b2167398",
+							"path": "2.0.0.0.4.0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "977 - 222 - 444 - 666",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "c70dc6bc:text",
+							"blockId": "c70dc6bc",
+							"path": "2.2.0.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "SCHOLARSHIP FACILITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "57130b3f:text",
+							"blockId": "57130b3f",
+							"path": "2.2.0.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Merit and need-based scholarships help talented students achieve their goals.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61ef9bce:text",
+							"blockId": "61ef9bce",
+							"path": "2.2.0.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "SKILLED LECTURER",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "60da34c3:text",
+							"blockId": "60da34c3",
+							"path": "2.2.0.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Learn from experienced teachers who truly care about your success.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6085112a:text",
+							"blockId": "6085112a",
+							"path": "2.2.0.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BOOK LIBRARY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8c7c7549:text",
+							"blockId": "8c7c7549",
+							"path": "2.2.0.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Access thousands of books, journals, and digital resources anytime.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e594b0ed:text",
+							"blockId": "e594b0ed",
+							"path": "2.2.0.0.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "INTERNATIONAL HUBS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f1200430:text",
+							"blockId": "f1200430",
+							"path": "2.2.0.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Study abroad and connect with partner universities worldwide.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "329acecb:image.url",
+							"blockId": "329acecb",
+							"path": "2.0.0.0.4.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/iphone.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "9e6e636c:image.url",
+							"blockId": "9e6e636c",
+							"path": "2.2.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/graduate1-e1711962829916.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "aab29ea5:image.url",
+							"blockId": "aab29ea5",
+							"path": "2.2.0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/user.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "934e2c51:image.url",
+							"blockId": "934e2c51",
+							"path": "2.2.0.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/book.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "e970e7a7-de09-4227-89eb-1a863d83c16b:image.url",
+							"blockId": "e970e7a7-de09-4227-89eb-1a863d83c16b",
+							"path": "2.2.0.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/chalkboard.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "c0ae3657",
+					"index": 3,
+					"path": "4",
+					"group": "c0ae3657",
+					"role": "dynamic",
+					"title": "Our Featured Courses",
+					"slots": [
+						{
+							"id": "7c36a5b6:text",
+							"blockId": "7c36a5b6",
+							"path": "4.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9e181051:text",
+							"blockId": "9e181051",
+							"path": "4.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Featured Courses",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0150a20c:text",
+							"blockId": "0150a20c",
+							"path": "4.0.2.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view all courses",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"masteriyo/courses"
+					]
+				},
+				{
+					"id": "ccbabaa2",
+					"index": 4,
+					"path": "5",
+					"group": "ccbabaa2",
+					"role": "content",
+					"title": "Launching Our Next Online Courses",
+					"slots": [
+						{
+							"id": "b785a22a:text",
+							"blockId": "b785a22a",
+							"path": "5.1.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "922ef045:text",
+							"blockId": "922ef045",
+							"path": "5.1.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Launching Our Next Online Courses",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb5cfdcd:text",
+							"blockId": "eb5cfdcd",
+							"path": "5.1.0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Days",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "52d6b115:text",
+							"blockId": "52d6b115",
+							"path": "5.1.0.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Hours",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5048e241:text",
+							"blockId": "5048e241",
+							"path": "5.1.0.0.1.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Minutes",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "39d58d65:text",
+							"blockId": "39d58d65",
+							"path": "5.1.0.0.1.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Seconds",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "aa9d27b3:background.image.image.url",
+							"blockId": "aa9d27b3",
+							"path": "5.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10017.jpg",
+							"decorative": false,
+							"width": 975,
+							"height": 550,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Two young women looking at a laptop together at a desk",
+							"tone": {
+								"grid": [
+									0.49,
+									0.38,
+									0.53,
+									0.65,
+									0.29,
+									0.34,
+									0.52,
+									0.41,
+									0.31
+								],
+								"color": "#7b6d63"
+							}
+						},
+						{
+							"id": "ffa135bc:background.image.image.url",
+							"blockId": "ffa135bc",
+							"path": "5.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10018.jpg",
+							"decorative": false,
+							"width": 945,
+							"height": 550,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Four colleagues gathered around a laptop smiling",
+							"tone": {
+								"grid": [
+									0.51,
+									0.47,
+									0.65,
+									0.43,
+									0.3,
+									0.39,
+									0.67,
+									0.69,
+									0.35
+								],
+								"color": "#7d7e87"
+							}
+						}
+					]
+				},
+				{
+					"id": "60f4330f",
+					"index": 5,
+					"path": "6",
+					"group": "60f4330f",
+					"role": "content",
+					"title": "Everything You Need to Succeed",
+					"slots": [
+						{
+							"id": "38017f56-2680-49fe-bf13-d9d7c2f05982:text",
+							"blockId": "38017f56-2680-49fe-bf13-d9d7c2f05982",
+							"path": "6.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dfbb880e-c8f9-4244-8c53-6d25afde7033:text",
+							"blockId": "dfbb880e-c8f9-4244-8c53-6d25afde7033",
+							"path": "6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Everything You Need to Succeed",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "30420f91:text",
+							"blockId": "30420f91",
+							"path": "6.1.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Education Service",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36d02acf:text",
+							"blockId": "36d02acf",
+							"path": "6.1.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We offer high-quality programs that combine strong academic foundations with practical skills for future.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "50ba8dc1:text",
+							"blockId": "50ba8dc1",
+							"path": "6.1.0.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Research Lab",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "766e61ee:text",
+							"blockId": "766e61ee",
+							"path": "6.1.0.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Our modern research facilities help students explore new ideas, conduct experiments, and solve real-world problems.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e8601a4b:text",
+							"blockId": "e8601a4b",
+							"path": "6.1.0.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "University Life",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e456df0f:text",
+							"blockId": "e456df0f",
+							"path": "6.1.0.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Enjoy a vibrant campus with clubs, sports, events, and a welcoming community that feels like home.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "43437077:text",
+							"blockId": "43437077",
+							"path": "6.1.0.3.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Skilled Lectures",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ccc16e8e:text",
+							"blockId": "ccc16e8e",
+							"path": "6.1.0.3.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Learn from experienced educators and industry experts who bring real-world knowledge to class.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ba1a5f4c:image.url",
+							"blockId": "ba1a5f4c",
+							"path": "6.1.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/book.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "b9c73c4f:image.url",
+							"blockId": "b9c73c4f",
+							"path": "6.1.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/book-reader.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "81940cf0:image.url",
+							"blockId": "81940cf0",
+							"path": "6.1.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/university-building.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "3deabe48:image.url",
+							"blockId": "3deabe48",
+							"path": "6.1.0.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/chalkboard.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "8f82b63c",
+					"index": 6,
+					"path": "7",
+					"group": "8f82b63c",
+					"role": "content",
+					"title": "Watch this video to know more about Zakra University",
+					"slots": [
+						{
+							"id": "7a63f836:text",
+							"blockId": "7a63f836",
+							"path": "7.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Watch this video to know more about Zakra University",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "8f82b63c:background.image.image.url",
+							"blockId": "8f82b63c",
+							"path": "7",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10019.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 650,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Graduates in gowns throwing their caps in the air",
+							"tone": {
+								"grid": [
+									0.38,
+									0.48,
+									0.56,
+									0.17,
+									0.33,
+									0.23,
+									0.14,
+									0.19,
+									0.09
+								],
+								"color": "#4b484d"
+							}
+						}
+					]
+				},
+				{
+					"id": "05563b86",
+					"index": 7,
+					"path": "8",
+					"group": "05563b86",
+					"role": "posts",
+					"title": "Our Latest Blog",
+					"slots": [
+						{
+							"id": "c8aa3ec0:text",
+							"blockId": "c8aa3ec0",
+							"path": "8.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4f2d0d7:text",
+							"blockId": "f4f2d0d7",
+							"path": "8.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Latest Blog",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8cc408f3:text",
+							"blockId": "8cc408f3",
+							"path": "8.0.1.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "5 Skills Every Graduate Needs",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ca9b8980:text",
+							"blockId": "ca9b8980",
+							"path": "8.0.1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b1db20c1:text",
+							"blockId": "b1db20c1",
+							"path": "8.0.1.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Inside Our New Research Lab",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8c726dd4:text",
+							"blockId": "8c726dd4",
+							"path": "8.0.1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f081141a:text",
+							"blockId": "f081141a",
+							"path": "8.0.1.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Why Joining a Student Club Matters",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f27fed08:text",
+							"blockId": "f27fed08",
+							"path": "8.0.1.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "29e2be37:text",
+							"blockId": "29e2be37",
+							"path": "8.0.2.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view all",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b5b1b0c7:image.url",
+							"blockId": "b5b1b0c7",
+							"path": "8.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2026/10/Blog-Image-1.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Graduate in cap and gown seen from behind on a campus",
+							"tone": {
+								"grid": [
+									0.84,
+									0.68,
+									0.7,
+									0.74,
+									0.23,
+									0.66,
+									0.74,
+									0.34,
+									0.66
+								],
+								"color": "#a69e8f"
+							}
+						},
+						{
+							"id": "dd4dc0d9:image.url",
+							"blockId": "dd4dc0d9",
+							"path": "8.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2026/10/Blog-Image2.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Robotic machine with a circuit board in a lab",
+							"tone": {
+								"grid": [
+									0.24,
+									0.63,
+									0.43,
+									0.33,
+									0.55,
+									0.51,
+									0.37,
+									0.27,
+									0.29
+								],
+								"color": "#496b8d"
+							}
+						},
+						{
+							"id": "9ce19889:image.url",
+							"blockId": "9ce19889",
+							"path": "8.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2026/10/Blog-Image3.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Four young men standing together in signed white shirts",
+							"tone": {
+								"grid": [
+									0.4,
+									0.42,
+									0.45,
+									0.7,
+									0.64,
+									0.68,
+									0.63,
+									0.51,
+									0.53
+								],
+								"color": "#978a87"
+							}
+						}
+					]
+				},
+				{
+					"id": "6bf8e01d",
+					"index": 8,
+					"path": "9",
+					"group": "6bf8e01d",
+					"role": "content",
+					"slots": [
+						{
+							"id": "28c3ae9f:text",
+							"blockId": "28c3ae9f",
+							"path": "9.0.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"Zakra University gave me the confidence to chase my dreams. The lecturers are supportive, the classes are engaging, and I've made friends who feel like family.\"",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "42667353:text",
+							"blockId": "42667353",
+							"path": "9.0.0.0.0.0.1.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Regina Falange",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "218db196:text",
+							"blockId": "218db196",
+							"path": "9.0.0.0.0.0.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BSC STUDENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "236e2dba:text",
+							"blockId": "236e2dba",
+							"path": "9.0.0.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"The hands-on projects and modern labs helped me apply what I learned in real situations. Studying at Zakra University has truly been the best decision for my future career.\"",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62c0d411:text",
+							"blockId": "62c0d411",
+							"path": "9.0.0.1.0.0.1.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Kyam Adam",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ced104e1:text",
+							"blockId": "ced104e1",
+							"path": "9.0.0.1.0.0.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BSC STUDENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "20c8995f:image.url",
+							"blockId": "20c8995f",
+							"path": "9.0.0.0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10014.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Laughing young woman with red lipstick and dark wavy hair",
+							"tone": {
+								"grid": [
+									0.3,
+									0.43,
+									0.41,
+									0.4,
+									0.61,
+									0.28,
+									0.37,
+									0.39,
+									0.12
+								],
+								"color": "#795753"
+							}
+						},
+						{
+							"id": "6c4cdda4:image.url",
+							"blockId": "6c4cdda4",
+							"path": "9.0.0.1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10015.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Portrait of a man with a beard in a dark sweater",
+							"tone": {
+								"grid": [
+									0.2,
+									0.26,
+									0.34,
+									0.32,
+									0.69,
+									0.26,
+									0.14,
+									0.22,
+									0.1
+								],
+								"color": "#434947"
+							}
+						}
+					]
+				},
+				{
+					"id": "373c3017",
+					"index": 9,
+					"path": "10",
+					"group": "373c3017",
+					"role": "dynamic",
+					"title": "Subscribe To Our Newsletter",
+					"slots": [
+						{
+							"id": "bc257af1:text",
+							"blockId": "bc257af1",
+							"path": "10.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "EXPLORE ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d75cbaf7:text",
+							"blockId": "d75cbaf7",
+							"path": "10.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Subscribe To Our Newsletter",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "056bce18:text",
+							"blockId": "056bce18",
+							"path": "10.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Get the latest news, events, and admission updates from Zakra University delivered straight to your inbox.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "2aeae499",
+					"index": 10,
+					"path": "11",
+					"group": "2aeae499",
+					"role": "cta",
+					"title": "Are you interested In becoming an instructor?",
+					"slots": [
+						{
+							"id": "fabf59f7:text",
+							"blockId": "fabf59f7",
+							"path": "11.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Are you interested In becoming an instructor?",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7ffdde77:text",
+							"blockId": "7ffdde77",
+							"path": "11.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Turn your expertise into impact. Teach, mentor, and help shape the next generation of leaders at Zakra University.",
+							"rich": true,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d2d91cb0:text",
+							"blockId": "d2d91cb0",
+							"path": "11.2.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "join our team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "d60967f1",
+					"role": "hero",
+					"title": "The Education You Want.",
+					"sectionIds": [
+						"d60967f1"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b3e5ecb6",
+					"role": "logos",
+					"sectionIds": [
+						"b3e5ecb6"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "801c0b69",
+					"role": "content",
+					"title": "We Provide Excellent Customer Service And Implement",
+					"sectionIds": [
+						"801c0b69"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c0ae3657",
+					"role": "dynamic",
+					"title": "Our Featured Courses",
+					"sectionIds": [
+						"c0ae3657"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "ccbabaa2",
+					"role": "content",
+					"title": "Launching Our Next Online Courses",
+					"sectionIds": [
+						"ccbabaa2"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "60f4330f",
+					"role": "content",
+					"title": "Everything You Need to Succeed",
+					"sectionIds": [
+						"60f4330f"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "8f82b63c",
+					"role": "content",
+					"title": "Watch this video to know more about Zakra University",
+					"sectionIds": [
+						"8f82b63c"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "05563b86",
+					"role": "posts",
+					"title": "Our Latest Blog",
+					"sectionIds": [
+						"05563b86"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "6bf8e01d",
+					"role": "content",
+					"sectionIds": [
+						"6bf8e01d"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "373c3017",
+					"role": "dynamic",
+					"title": "Subscribe To Our Newsletter",
+					"sectionIds": [
+						"373c3017"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2aeae499",
+					"role": "cta",
+					"title": "Are you interested In becoming an instructor?",
+					"sectionIds": [
+						"2aeae499"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "900ffb16",
+					"index": 0,
+					"path": "0",
+					"group": "900ffb16",
+					"role": "hero",
+					"title": "Explore More About Zakra Education",
+					"slots": [
+						{
+							"id": "53ad5f99:text",
+							"blockId": "53ad5f99",
+							"path": "0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ABOUT ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f1123b61:text",
+							"blockId": "f1123b61",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Explore More About Zakra Education",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1d8411dd:text",
+							"blockId": "1d8411dd",
+							"path": "0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "For more than 25 years, Zakra University has helped students turn their ambitions into achievements. Our programs combine academic excellence with practical experience, preparing graduates for success in a changing world.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "35a02e0a:text",
+							"blockId": "35a02e0a",
+							"path": "0.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We believe great education starts with great teaching. Our experienced faculty, modern facilities, and supportive campus community give every student the attention, guidance, and opportunities they need to reach their full potential and make a positive impact.",
+							"rich": false,
+							"words": 37,
+							"minWords": 22,
+							"maxWords": 47,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "099298be:text",
+							"blockId": "099298be",
+							"path": "0.0.0.0.4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f17118d7:text",
+							"blockId": "f17118d7",
+							"path": "0.0.0.0.4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "EXPLORE ABOUT ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "354738aa:image.url",
+							"blockId": "354738aa",
+							"path": "0.0.0.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/aboutpage-sign.png",
+							"decorative": true,
+							"width": 191,
+							"height": 28,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "bab14a4a",
+					"index": 1,
+					"path": "1",
+					"group": "bab14a4a",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "e17da19f:text",
+							"blockId": "e17da19f",
+							"path": "1.0.0.0.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Certified Teacher",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a196858e:text",
+							"blockId": "a196858e",
+							"path": "1.0.0.1.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Students Enrolled",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba379713:text",
+							"blockId": "ba379713",
+							"path": "1.0.0.2.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Courses Offered",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9aa342d5:text",
+							"blockId": "9aa342d5",
+							"path": "1.0.0.3.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Years Legacy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "721974cb",
+					"index": 2,
+					"path": "2",
+					"group": "721974cb",
+					"role": "team",
+					"title": "Explore Zakra Team",
+					"slots": [
+						{
+							"id": "52e9e7fb:text",
+							"blockId": "52e9e7fb",
+							"path": "2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8a686f41:text",
+							"blockId": "8a686f41",
+							"path": "2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Explore Zakra Team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "25a981c3:text",
+							"blockId": "25a981c3",
+							"path": "2.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Daniel Carter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b5634359:text",
+							"blockId": "b5634359",
+							"path": "2.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Founder & President",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b46b9b58:text",
+							"blockId": "b46b9b58",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Sophia Martinez",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "401b2682:text",
+							"blockId": "401b2682",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dean of Academics",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "655f20cd:text",
+							"blockId": "655f20cd",
+							"path": "2.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Kevin Lin",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "abe8a61e:text",
+							"blockId": "abe8a61e",
+							"path": "2.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Director of Student Affairs",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "11017623:image.url",
+							"blockId": "11017623",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10001-4.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 450,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling man in a navy suit sitting against a brick wall",
+							"tone": {
+								"grid": [
+									0.61,
+									0.59,
+									0.49,
+									0.62,
+									0.42,
+									0.28,
+									0.33,
+									0.23,
+									0.1
+								],
+								"color": "#67686f"
+							}
+						},
+						{
+							"id": "e5aae81e:image.url",
+							"blockId": "e5aae81e",
+							"path": "2.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10002-4.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 450,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young woman in a grey top resting her head on her hand",
+							"tone": {
+								"grid": [
+									0.4,
+									0.34,
+									0.45,
+									0.55,
+									0.5,
+									0.37,
+									0.58,
+									0.44,
+									0.38
+								],
+								"color": "#856e5d"
+							}
+						},
+						{
+							"id": "ef723b77:image.url",
+							"blockId": "ef723b77",
+							"path": "2.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10003-4.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 450,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man in a dark suit and tie buttoning his jacket",
+							"tone": {
+								"grid": [
+									0.28,
+									0.43,
+									0.26,
+									0.23,
+									0.38,
+									0.27,
+									0.15,
+									0.26,
+									0.18
+								],
+								"color": "#4f433f"
+							}
+						}
+					]
+				},
+				{
+					"id": "a40271e7",
+					"index": 3,
+					"path": "3",
+					"group": "a40271e7",
+					"role": "posts",
+					"title": "Our Featured Blog",
+					"slots": [
+						{
+							"id": "8aca457f-0e55-4cc5-a8cc-d87e4253a0eb:text",
+							"blockId": "8aca457f-0e55-4cc5-a8cc-d87e4253a0eb",
+							"path": "3.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5388c898:text",
+							"blockId": "5388c898",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "840b814f:text",
+							"blockId": "840b814f",
+							"path": "3.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Featured Blog",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8cc408f3:text",
+							"blockId": "8cc408f3",
+							"path": "3.0.1.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "5 Skills Every Graduate Needs",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ca9b8980:text",
+							"blockId": "ca9b8980",
+							"path": "3.0.1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b1db20c1:text",
+							"blockId": "b1db20c1",
+							"path": "3.0.1.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Inside Our New Research Lab",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8c726dd4:text",
+							"blockId": "8c726dd4",
+							"path": "3.0.1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f081141a:text",
+							"blockId": "f081141a",
+							"path": "3.0.1.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Why Joining a Student Club Matters",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f27fed08:text",
+							"blockId": "f27fed08",
+							"path": "3.0.1.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consec-tetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e4346abc:text",
+							"blockId": "e4346abc",
+							"path": "3.0.2.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view all",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b5b1b0c7:image.url",
+							"blockId": "b5b1b0c7",
+							"path": "3.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2026/10/Blog-Image-1.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Graduate in cap and gown seen from behind on a campus",
+							"tone": {
+								"grid": [
+									0.84,
+									0.68,
+									0.7,
+									0.74,
+									0.23,
+									0.66,
+									0.74,
+									0.34,
+									0.66
+								],
+								"color": "#a69e8f"
+							}
+						},
+						{
+							"id": "dd4dc0d9:image.url",
+							"blockId": "dd4dc0d9",
+							"path": "3.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2026/10/Blog-Image2.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Robotic machine with a circuit board in a lab",
+							"tone": {
+								"grid": [
+									0.24,
+									0.63,
+									0.43,
+									0.33,
+									0.55,
+									0.51,
+									0.37,
+									0.27,
+									0.29
+								],
+								"color": "#496b8d"
+							}
+						},
+						{
+							"id": "9ce19889:image.url",
+							"blockId": "9ce19889",
+							"path": "3.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2026/10/Blog-Image3.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Four young men standing together in signed white shirts",
+							"tone": {
+								"grid": [
+									0.4,
+									0.42,
+									0.45,
+									0.7,
+									0.64,
+									0.68,
+									0.63,
+									0.51,
+									0.53
+								],
+								"color": "#978a87"
+							}
+						}
+					]
+				},
+				{
+					"id": "c4f328ea",
+					"index": 4,
+					"path": "4",
+					"group": "c4f328ea",
+					"role": "team",
+					"title": "You Are Welcome To Join Our Team",
+					"slots": [
+						{
+							"id": "38bfedb8:text",
+							"blockId": "38bfedb8",
+							"path": "4.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ZAKRA UNIVERSITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "90326929:text",
+							"blockId": "90326929",
+							"path": "4.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "You Are Welcome To Join Our Team",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c4ed3e3:text",
+							"blockId": "4c4ed3e3",
+							"path": "4.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At Zakra University, we're always looking for passionate educators and dedicated staff who share our commitment to helping students succeed. Join a team that values creativity, collaboration, and growth.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "190959e4-0e1a-40d7-93d2-d646f2b0e460:text",
+							"blockId": "190959e4-0e1a-40d7-93d2-d646f2b0e460",
+							"path": "4.1.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We offer a supportive work environment, professional development opportunities, and the chance to make a real difference in students' lives every day. Discover a career that truly matters.",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b5e375f-cd1b-43a7-84ec-10ec6254df70:text",
+							"blockId": "7b5e375f-cd1b-43a7-84ec-10ec6254df70",
+							"path": "4.1.0.0.4.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get in touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a44ae75e:background.image.image.url",
+							"blockId": "a44ae75e",
+							"path": "4.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2026/10/Blog-Image-1.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Graduate in cap and gown seen from behind on a campus",
+							"tone": {
+								"grid": [
+									0.84,
+									0.68,
+									0.7,
+									0.74,
+									0.23,
+									0.66,
+									0.74,
+									0.34,
+									0.66
+								],
+								"color": "#a69e8f"
+							}
+						},
+						{
+							"id": "6047e581:image.url",
+							"blockId": "6047e581",
+							"path": "4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2026/10/Blog-Image-1.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Graduate in cap and gown seen from behind on a campus",
+							"tone": {
+								"grid": [
+									0.84,
+									0.68,
+									0.7,
+									0.74,
+									0.23,
+									0.66,
+									0.74,
+									0.34,
+									0.66
+								],
+								"color": "#a69e8f"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "900ffb16",
+					"role": "hero",
+					"title": "Explore More About Zakra Education",
+					"sectionIds": [
+						"900ffb16"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "bab14a4a",
+					"role": "stats",
+					"sectionIds": [
+						"bab14a4a"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "721974cb",
+					"role": "team",
+					"title": "Explore Zakra Team",
+					"sectionIds": [
+						"721974cb"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "a40271e7",
+					"role": "posts",
+					"title": "Our Featured Blog",
+					"sectionIds": [
+						"a40271e7"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "c4f328ea",
+					"role": "team",
+					"title": "You Are Welcome To Join Our Team",
+					"sectionIds": [
+						"c4f328ea"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "courses",
+			"title": "Courses",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/themegrill-demos/courses-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "our-teachers",
+			"title": "Our Teachers",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/themegrill-demos/our-teachers-content.xml",
+			"sections": [
+				{
+					"id": "77e2f83f",
+					"index": 0,
+					"path": "0",
+					"group": "77e2f83f",
+					"role": "hero",
+					"title": "Cortez Liu",
+					"slots": [
+						{
+							"id": "3967ce51:text",
+							"blockId": "3967ce51",
+							"path": "0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Cortez Liu",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "674cf401:text",
+							"blockId": "674cf401",
+							"path": "0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "English Teacher",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ba2553c:text",
+							"blockId": "5ba2553c",
+							"path": "0.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "28fc625d:text",
+							"blockId": "28fc625d",
+							"path": "0.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Larissa Robertson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f994967e:text",
+							"blockId": "f994967e",
+							"path": "0.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Science",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "37e022f2:text",
+							"blockId": "37e022f2",
+							"path": "0.1.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f6ec9d28:text",
+							"blockId": "f6ec9d28",
+							"path": "0.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Nick Duncan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5e7d686a:text",
+							"blockId": "5e7d686a",
+							"path": "0.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "English Teacher",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5198b012:text",
+							"blockId": "5198b012",
+							"path": "0.2.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "5adeadd4:image.url",
+							"blockId": "5adeadd4",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10001-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Portrait of a bearded man in front of flowering bushes",
+							"tone": {
+								"grid": [
+									0.21,
+									0.34,
+									0.19,
+									0.27,
+									0.43,
+									0.28,
+									0.29,
+									0.35,
+									0.24
+								],
+								"color": "#534934"
+							}
+						},
+						{
+							"id": "a8328801:image.url",
+							"blockId": "a8328801",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10002-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young woman in a red sweater with her hand near her face",
+							"tone": {
+								"grid": [
+									0.34,
+									0.34,
+									0.39,
+									0.34,
+									0.49,
+									0.43,
+									0.31,
+									0.39,
+									0.24
+								],
+								"color": "#6c5959"
+							}
+						},
+						{
+							"id": "7b980a7f:image.url",
+							"blockId": "7b980a7f",
+							"path": "0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10003-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young man in a suit and tie with a skeptical expression",
+							"tone": {
+								"grid": [
+									0.7,
+									0.68,
+									0.83,
+									0.7,
+									0.66,
+									0.85,
+									0.49,
+									0.47,
+									0.49
+								],
+								"color": "#a0a7af"
+							}
+						}
+					]
+				},
+				{
+					"id": "8da4e572",
+					"index": 1,
+					"path": "1",
+					"group": "8da4e572",
+					"role": "content",
+					"title": "Brynlee Wright",
+					"slots": [
+						{
+							"id": "1c3ea366:text",
+							"blockId": "1c3ea366",
+							"path": "1.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Brynlee Wright",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "50c7acea:text",
+							"blockId": "50c7acea",
+							"path": "1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Science",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "530ab7c9:text",
+							"blockId": "530ab7c9",
+							"path": "1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ccc9d12c:text",
+							"blockId": "ccc9d12c",
+							"path": "1.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Zaire Potter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80e87c99:text",
+							"blockId": "80e87c99",
+							"path": "1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Math",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fc7e53d2:text",
+							"blockId": "fc7e53d2",
+							"path": "1.1.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "85f2a6b3:text",
+							"blockId": "85f2a6b3",
+							"path": "1.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Ryan Calhoun",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61eb4972:text",
+							"blockId": "61eb4972",
+							"path": "1.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "English Teacher",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e523e83:text",
+							"blockId": "0e523e83",
+							"path": "1.2.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "2c6f8d68:image.url",
+							"blockId": "2c6f8d68",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10004-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young man in a suit and tie posing against a wooden wall",
+							"tone": {
+								"grid": [
+									0.27,
+									0.33,
+									0.25,
+									0.31,
+									0.56,
+									0.3,
+									0.23,
+									0.32,
+									0.25
+								],
+								"color": "#604d43"
+							}
+						},
+						{
+							"id": "f9aac1c3:image.url",
+							"blockId": "f9aac1c3",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10005-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Smiling businesswoman in a blue blazer with a colleague in an office",
+							"tone": {
+								"grid": [
+									0.15,
+									0.34,
+									0.25,
+									0.29,
+									0.45,
+									0.23,
+									0.21,
+									0.38,
+									0.39
+								],
+								"color": "#484d51"
+							}
+						},
+						{
+							"id": "7363c7d1:image.url",
+							"blockId": "7363c7d1",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10006-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Portrait of a bearded man in a plaid shirt against red foliage",
+							"tone": {
+								"grid": [
+									0.43,
+									0.28,
+									0.18,
+									0.36,
+									0.37,
+									0.16,
+									0.36,
+									0.35,
+									0.21
+								],
+								"color": "#833f31"
+							}
+						}
+					]
+				},
+				{
+					"id": "4a56c958",
+					"index": 2,
+					"path": "2",
+					"group": "4a56c958",
+					"role": "content",
+					"title": "Jase Rodriguez",
+					"slots": [
+						{
+							"id": "a6299e95:text",
+							"blockId": "a6299e95",
+							"path": "2.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jase Rodriguez",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "abf8cf57:text",
+							"blockId": "abf8cf57",
+							"path": "2.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Math",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "45e18ce9:text",
+							"blockId": "45e18ce9",
+							"path": "2.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7583c817:text",
+							"blockId": "7583c817",
+							"path": "2.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Mattie Paul",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6ff00b7f:text",
+							"blockId": "6ff00b7f",
+							"path": "2.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Math",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5a5cc2d0:text",
+							"blockId": "5a5cc2d0",
+							"path": "2.1.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7f7a9282:text",
+							"blockId": "7f7a9282",
+							"path": "2.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Asia Price",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "906745e1:text",
+							"blockId": "906745e1",
+							"path": "2.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Science",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a7d19512:text",
+							"blockId": "a7d19512",
+							"path": "2.2.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod dui erat, id pellentesque.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "60e65476:image.url",
+							"blockId": "60e65476",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10007-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling man in a navy blazer laughing beside a brick wall",
+							"tone": {
+								"grid": [
+									0.56,
+									0.56,
+									0.45,
+									0.66,
+									0.58,
+									0.51,
+									0.65,
+									0.35,
+									0.17
+								],
+								"color": "#817f81"
+							}
+						},
+						{
+							"id": "88c13232:image.url",
+							"blockId": "88c13232",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10002-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young woman in a red sweater with her hand near her face",
+							"tone": {
+								"grid": [
+									0.34,
+									0.34,
+									0.39,
+									0.34,
+									0.49,
+									0.43,
+									0.31,
+									0.39,
+									0.24
+								],
+								"color": "#6c5959"
+							}
+						},
+						{
+							"id": "dc970f03:image.url",
+							"blockId": "dc970f03",
+							"path": "2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/10001-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Portrait of a bearded man in front of flowering bushes",
+							"tone": {
+								"grid": [
+									0.21,
+									0.34,
+									0.19,
+									0.27,
+									0.43,
+									0.28,
+									0.29,
+									0.35,
+									0.24
+								],
+								"color": "#534934"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "77e2f83f",
+					"role": "hero",
+					"title": "Cortez Liu",
+					"sectionIds": [
+						"77e2f83f"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "8da4e572",
+					"role": "content",
+					"title": "Brynlee Wright",
+					"sectionIds": [
+						"8da4e572"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4a56c958",
+					"role": "content",
+					"title": "Jase Rodriguez",
+					"sectionIds": [
+						"4a56c958"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 19,
+		"textSlots": 127,
+		"editableSlots": 126,
+		"images": 43,
+		"swappableImages": 27,
+		"words": 884
+	},
+	"builtAt": "2026-10-24T11:35:08.061Z"
+}

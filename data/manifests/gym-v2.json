@@ -1,0 +1,5013 @@
+{
+	"version": 4,
+	"slug": "gym-v2",
+	"name": "Gym V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-gym-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/gym-v2",
+	"niches": [
+		"fitness",
+		"gym",
+		"sports"
+	],
+	"keywords": [
+		"gym",
+		"bodybuilding",
+		"fitness center",
+		"personal trainer",
+		"crossfit",
+		"workout"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#29282d",
+				"count": 89,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 39,
+					"background": 8,
+					"border": 10
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 81,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 14,
+					"text": 52,
+					"icon": 1
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 50,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"border": 6
+				}
+			},
+			{
+				"hex": "#f34e3a",
+				"count": 32,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f34e3a",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 13,
+					"text": 16,
+					"icon": 1
+				}
+			},
+			{
+				"hex": "#3d3c41",
+				"count": 29,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 26
+				}
+			},
+			{
+				"hex": "#f4f4f4",
+				"count": 22,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 22
+				}
+			},
+			{
+				"hex": "#2d2830",
+				"count": 9,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4432f",
+				"count": 9,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f34e3a",
+				"lightnessDelta": -0.051,
+				"usage": {
+					"text": 4,
+					"background": 5
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#0284c7",
+				"count": 5,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0284c7",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 5
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 4,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0284c7",
+				"lightnessDelta": -0.024
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#111316",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#151518",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#d3d3d3",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#f7fbff",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#90a2b2",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0284c7",
+				"lightnessDelta": 0.237
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0284c7",
+				"lightnessDelta": -0.01
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#f34e3a",
+				"large": true,
+				"count": 11,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#0284c7",
+				"bg": "#f34e3a",
+				"large": true,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#e4432f",
+				"large": true,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f34e3a",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#e4432f",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f34e3a",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f34e3a",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f34e3a",
+				"bg": "#29282d",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#f34e3a",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Oswald",
+			"body": "Poppins",
+			"map": {
+				"Oswald": "heading",
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "trainer",
+			"title": "Trainer",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/themegrill-demos/trainer-content.xml",
+			"sections": [
+				{
+					"id": "d1e64ea2",
+					"index": 0,
+					"path": "0",
+					"group": "d1e64ea2",
+					"role": "hero",
+					"title": "NOAH SMITH",
+					"slots": [
+						{
+							"id": "795c8e5b:text",
+							"blockId": "795c8e5b",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "NOAH SMITH",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e9cdbebb:text",
+							"blockId": "e9cdbebb",
+							"path": "0.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Cardio Trainer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c3f9c2fb:text",
+							"blockId": "c3f9c2fb",
+							"path": "0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "JESSICA GREY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7081fad:text",
+							"blockId": "f7081fad",
+							"path": "0.0.0.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Yoga Trainer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "28237850:text",
+							"blockId": "28237850",
+							"path": "0.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WILLIAM CABAL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80f946e4:text",
+							"blockId": "80f946e4",
+							"path": "0.0.0.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Body Building",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e5711122:text",
+							"blockId": "e5711122",
+							"path": "0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ADRIA RAE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74ae7c56:text",
+							"blockId": "74ae7c56",
+							"path": "0.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Cardio Trainer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "28837355:text",
+							"blockId": "28837355",
+							"path": "0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "JESSICA ALBA",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf19d32a:text",
+							"blockId": "cf19d32a",
+							"path": "0.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Yoga Trainer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "37519e75:text",
+							"blockId": "37519e75",
+							"path": "0.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "JAMES MATT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6c1a4ddd:text",
+							"blockId": "6c1a4ddd",
+							"path": "0.0.1.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Body Building",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa0fcbf3:text",
+							"blockId": "aa0fcbf3",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "bf0d310e:image.url",
+							"blockId": "bf0d310e",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/trainer1.jpg",
+							"decorative": false,
+							"width": 381,
+							"height": 459,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in a pink t-shirt posing with arms crossed and hand on chin",
+							"tone": {
+								"grid": [
+									0.96,
+									0.55,
+									0.93,
+									0.92,
+									0.61,
+									0.79,
+									0.65,
+									0.59,
+									0.46
+								],
+								"color": "#cfb1ae"
+							}
+						},
+						{
+							"id": "171b3f90:image.url",
+							"blockId": "171b3f90",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/trainer2.jpg",
+							"decorative": false,
+							"width": 381,
+							"height": 459,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young woman with curly hair in a beige jacket posing outdoors",
+							"tone": {
+								"grid": [
+									0.1,
+									0.3,
+									0.1,
+									0.06,
+									0.12,
+									0.15,
+									0.4,
+									0.24,
+									0.5
+								],
+								"color": "#3d3736"
+							}
+						},
+						{
+							"id": "41118d36:image.url",
+							"blockId": "41118d36",
+							"path": "0.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/trainer3.jpg",
+							"decorative": false,
+							"width": 381,
+							"height": 459,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Muscular man doing a dumbbell bicep curl",
+							"tone": {
+								"grid": [
+									0.22,
+									0.37,
+									0.17,
+									0.38,
+									0.31,
+									0.15,
+									0.18,
+									0.13,
+									0.02
+								],
+								"color": "#393635"
+							}
+						},
+						{
+							"id": "3cc74fda:image.url",
+							"blockId": "3cc74fda",
+							"path": "0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/traner4.jpg",
+							"decorative": false,
+							"width": 381,
+							"height": 459,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling fit woman in a green sports bra at the gym",
+							"tone": {
+								"grid": [
+									0.09,
+									0.19,
+									0.13,
+									0.26,
+									0.32,
+									0.17,
+									0.48,
+									0.4,
+									0.27
+								],
+								"color": "#493f3c"
+							}
+						},
+						{
+							"id": "24490707:image.url",
+							"blockId": "24490707",
+							"path": "0.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/trainer5.jpg",
+							"decorative": false,
+							"width": 381,
+							"height": 459,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling blonde woman in a red sports bra leaning on a brick wall",
+							"tone": {
+								"grid": [
+									0.66,
+									0.73,
+									0.6,
+									0.54,
+									0.51,
+									0.45,
+									0.37,
+									0.28,
+									0.37
+								],
+								"color": "#947b74"
+							}
+						},
+						{
+							"id": "1ab22444:image.url",
+							"blockId": "1ab22444",
+							"path": "0.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/trainer6.jpg",
+							"decorative": false,
+							"width": 381,
+							"height": 459,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Muscular shirtless man posing in a dramatic portrait",
+							"tone": {
+								"grid": [
+									0.06,
+									0.28,
+									0.06,
+									0.22,
+									0.34,
+									0.21,
+									0.24,
+									0.36,
+									0.19
+								],
+								"color": "#383838"
+							}
+						}
+					]
+				},
+				{
+					"id": "9266bd76",
+					"index": 1,
+					"path": "1",
+					"group": "9266bd76",
+					"role": "cta",
+					"title": "STOP WISHING! START WORKING!",
+					"slots": [
+						{
+							"id": "a7ad9f20:text",
+							"blockId": "a7ad9f20",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "STOP WISHING! START WORKING!",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ed13f2b:text",
+							"blockId": "5ed13f2b",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f4e1749d:text",
+							"blockId": "f4e1749d",
+							"path": "1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Become Member",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "d1e64ea2",
+					"role": "hero",
+					"title": "NOAH SMITH",
+					"sectionIds": [
+						"d1e64ea2"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9266bd76",
+					"role": "cta",
+					"title": "STOP WISHING! START WORKING!",
+					"sectionIds": [
+						"9266bd76"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "03cf8f3c",
+					"index": 0,
+					"path": "0",
+					"group": "03cf8f3c",
+					"role": "hero",
+					"title": "START YOUR",
+					"slots": [
+						{
+							"id": "756755c9:text",
+							"blockId": "756755c9",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "START YOUR",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f5e3b831:text",
+							"blockId": "f5e3b831",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "fitness",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7a724c02:text",
+							"blockId": "7a724c02",
+							"path": "0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "with zakra gym",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8e54e4af:text",
+							"blockId": "8e54e4af",
+							"path": "0.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Become Member",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "03cf8f3c:background.image.image.url",
+							"blockId": "03cf8f3c",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2024/08/gym-hero-image-body-builder.jpg",
+							"decorative": false,
+							"width": 1923,
+							"height": 818,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Muscular shirtless man standing in a dark gym",
+							"tone": {
+								"grid": [
+									0.15,
+									0.21,
+									0.37,
+									0.17,
+									0.34,
+									0.47,
+									0.28,
+									0.35,
+									0.42
+								],
+								"color": "#514d4a"
+							}
+						}
+					]
+				},
+				{
+					"id": "093a7cdb",
+					"index": 1,
+					"path": "1",
+					"group": "093a7cdb",
+					"role": "content",
+					"title": "BODY BUILDING",
+					"slots": [
+						{
+							"id": "d52a2ce5:text",
+							"blockId": "d52a2ce5",
+							"path": "1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BODY BUILDING",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5cab7963:text",
+							"blockId": "5cab7963",
+							"path": "1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "YOGA CLASSES",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2d474fe0:text",
+							"blockId": "2d474fe0",
+							"path": "1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "AEROBICS CLASSES",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "f5a4adc7",
+					"index": 2,
+					"path": "2",
+					"group": "f5a4adc7",
+					"role": "content",
+					"title": "WHAT WE PROVIDE",
+					"slots": [
+						{
+							"id": "00b54c74:text",
+							"blockId": "00b54c74",
+							"path": "2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WHAT WE PROVIDE",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b8eed1af:text",
+							"blockId": "b8eed1af",
+							"path": "2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1e9e73c6:text",
+							"blockId": "1e9e73c6",
+							"path": "2.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BEST EQUIPMENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ed98daa:text",
+							"blockId": "5ed98daa",
+							"path": "2.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b9dcad29:text",
+							"blockId": "b9dcad29",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "NUTRITION PLAN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "21673ea5:text",
+							"blockId": "21673ea5",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a5b162c8:text",
+							"blockId": "a5b162c8",
+							"path": "2.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SWIMMING POOL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "33fa2094:text",
+							"blockId": "33fa2094",
+							"path": "2.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ec346e76:text",
+							"blockId": "ec346e76",
+							"path": "2.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SHOWER SERVICE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5b4b1ca5:text",
+							"blockId": "5b4b1ca5",
+							"path": "2.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "78c52363:image.url",
+							"blockId": "78c52363",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-equipment.png",
+							"decorative": true,
+							"width": 413,
+							"height": 413,
+							"orientation": "square"
+						},
+						{
+							"id": "ab72cca4:image.url",
+							"blockId": "ab72cca4",
+							"path": "2.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-apples-1.png",
+							"decorative": true,
+							"width": 413,
+							"height": 413,
+							"orientation": "square"
+						},
+						{
+							"id": "f113c4cb:image.url",
+							"blockId": "f113c4cb",
+							"path": "2.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-swimming-1.png",
+							"decorative": true,
+							"width": 413,
+							"height": 413,
+							"orientation": "square"
+						},
+						{
+							"id": "8affd737:image.url",
+							"blockId": "8affd737",
+							"path": "2.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-shower-1.png",
+							"decorative": true,
+							"width": 413,
+							"height": 413,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "4a156c3f",
+					"index": 3,
+					"path": "3",
+					"group": "4a156c3f",
+					"role": "cta",
+					"title": "Work hard for best shape",
+					"slots": [
+						{
+							"id": "5a48af65:text",
+							"blockId": "5a48af65",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Work hard for best shape",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c9d9c84e:text",
+							"blockId": "c9d9c84e",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet.",
+							"rich": false,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9bbcd952-8e74-40f9-9cc5-525067782915:text",
+							"blockId": "9bbcd952-8e74-40f9-9cc5-525067782915",
+							"path": "3.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read more",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f6ba858c:image.url",
+							"blockId": "f6ba858c",
+							"path": "3.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/banner-woman-lifting-weight.jpg",
+							"decorative": false,
+							"width": 945,
+							"height": 738,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Fit woman lifting a curl bar in a gym",
+							"tone": {
+								"grid": [
+									0.08,
+									0.24,
+									0.15,
+									0.25,
+									0.33,
+									0.29,
+									0.21,
+									0.31,
+									0.05
+								],
+								"color": "#41342b"
+							}
+						}
+					]
+				},
+				{
+					"id": "137ad3f2",
+					"index": 4,
+					"path": "4",
+					"group": "137ad3f2",
+					"role": "content",
+					"title": "WORK OUT CLASSES",
+					"slots": [
+						{
+							"id": "89b8fb6b:text",
+							"blockId": "89b8fb6b",
+							"path": "4.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WORK OUT CLASSES",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c860c517:text",
+							"blockId": "c860c517",
+							"path": "4.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "027fe5ae:text",
+							"blockId": "027fe5ae",
+							"path": "4.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CARDIO / YOGA / BODY BUILDING",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c0c748f8:text",
+							"blockId": "c0c748f8",
+							"path": "4.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "06:00 AM - 07:00 AM",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9e749b27:text",
+							"blockId": "9e749b27",
+							"path": "4.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "MEDITATION",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d4fe04e4:text",
+							"blockId": "d4fe04e4",
+							"path": "4.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "07:00 AM - 10:00 AM",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b11c37f0:text",
+							"blockId": "b11c37f0",
+							"path": "4.0.3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ZUMBA",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d7a77efc:text",
+							"blockId": "d7a77efc",
+							"path": "4.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "11:00 AM - 14:00 PM",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "02771681:text",
+							"blockId": "02771681",
+							"path": "4.0.4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BATTLE ROPE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "687a829a:text",
+							"blockId": "687a829a",
+							"path": "4.0.4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "14:00 PM - 16:00 PM​",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7600c74:text",
+							"blockId": "c7600c74",
+							"path": "4.0.5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "AEROBICS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8a4972c8:text",
+							"blockId": "8a4972c8",
+							"path": "4.0.5.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "17:00 PM - 19:00 PM",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "d1e64ea2",
+					"index": 5,
+					"path": "5",
+					"group": "d1e64ea2",
+					"role": "team",
+					"title": "MEET OUR TRAINERS",
+					"slots": [
+						{
+							"id": "e059ab32:text",
+							"blockId": "e059ab32",
+							"path": "5.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "MEET OUR TRAINERS",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "599fbeab:text",
+							"blockId": "599fbeab",
+							"path": "5.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "795c8e5b:text",
+							"blockId": "795c8e5b",
+							"path": "5.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "NOAH SMITH",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e9cdbebb:text",
+							"blockId": "e9cdbebb",
+							"path": "5.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Cardio Trainer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c3f9c2fb:text",
+							"blockId": "c3f9c2fb",
+							"path": "5.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "JESSICA GREY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7081fad:text",
+							"blockId": "f7081fad",
+							"path": "5.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Yoga Trainer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "28237850:text",
+							"blockId": "28237850",
+							"path": "5.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WILLIAM CABAL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80f946e4:text",
+							"blockId": "80f946e4",
+							"path": "5.0.1.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Body Building",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "d1e64ea2:background.image.image.url",
+							"blockId": "d1e64ea2",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://demo.pxelcode.com/wp-content/uploads/2023/10/pattern.png",
+							"decorative": true
+						},
+						{
+							"id": "bf0d310e:image.url",
+							"blockId": "bf0d310e",
+							"path": "5.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/trainer1.jpg",
+							"decorative": false,
+							"width": 381,
+							"height": 459,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in a pink t-shirt posing with arms crossed and hand on chin",
+							"tone": {
+								"grid": [
+									0.96,
+									0.55,
+									0.93,
+									0.92,
+									0.61,
+									0.79,
+									0.65,
+									0.59,
+									0.46
+								],
+								"color": "#cfb1ae"
+							}
+						},
+						{
+							"id": "171b3f90:image.url",
+							"blockId": "171b3f90",
+							"path": "5.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/trainer2.jpg",
+							"decorative": false,
+							"width": 381,
+							"height": 459,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young woman with curly hair in a beige jacket posing outdoors",
+							"tone": {
+								"grid": [
+									0.1,
+									0.3,
+									0.1,
+									0.06,
+									0.12,
+									0.15,
+									0.4,
+									0.24,
+									0.5
+								],
+								"color": "#3d3736"
+							}
+						},
+						{
+							"id": "41118d36:image.url",
+							"blockId": "41118d36",
+							"path": "5.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/trainer3.jpg",
+							"decorative": false,
+							"width": 381,
+							"height": 459,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Muscular man doing a dumbbell bicep curl",
+							"tone": {
+								"grid": [
+									0.22,
+									0.37,
+									0.17,
+									0.38,
+									0.31,
+									0.15,
+									0.18,
+									0.13,
+									0.02
+								],
+								"color": "#393635"
+							}
+						}
+					]
+				},
+				{
+					"id": "7109913e",
+					"index": 6,
+					"path": "6",
+					"group": "7109913e",
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "7109913e:background.image.image.url",
+							"blockId": "7109913e",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/banner-video.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 768,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Man and woman training with battle ropes in a gym",
+							"tone": {
+								"grid": [
+									0.11,
+									0.1,
+									0.1,
+									0.25,
+									0.2,
+									0.27,
+									0.26,
+									0.16,
+									0.1
+								],
+								"color": "#302b29"
+							}
+						}
+					]
+				},
+				{
+					"id": "1e977c96",
+					"index": 7,
+					"path": "7",
+					"group": "1e977c96",
+					"role": "testimonials",
+					"title": "REVIEWS FROM CLIENTS",
+					"slots": [
+						{
+							"id": "3a69e4c7:text",
+							"blockId": "3a69e4c7",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "REVIEWS FROM CLIENTS",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bd156bbc:text",
+							"blockId": "bd156bbc",
+							"path": "7.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "82e90225:text",
+							"blockId": "82e90225",
+							"path": "7.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Jack Smith",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1e977c96:background.image.image.url",
+							"blockId": "1e977c96",
+							"path": "7",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://demo.pxelcode.com/wp-content/uploads/2023/10/pattern.png",
+							"decorative": true
+						}
+					]
+				},
+				{
+					"id": "e269f3bb",
+					"index": 8,
+					"path": "8",
+					"group": "1e977c96",
+					"role": "testimonials",
+					"title": "JOIN NOW AND GET 20% DISCOUNT",
+					"slots": [
+						{
+							"id": "43f47233:text",
+							"blockId": "43f47233",
+							"path": "8.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "JOIN NOW AND GET 20% DISCOUNT",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7cf4417:text",
+							"blockId": "f7cf4417",
+							"path": "8.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet.",
+							"rich": false,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "167efee3-f589-42f5-a21b-d108a021338f:text",
+							"blockId": "167efee3-f589-42f5-a21b-d108a021338f",
+							"path": "8.0.0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Join now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a842ffd9:image.url",
+							"blockId": "a842ffd9",
+							"path": "8.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/training-woman-1.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 738,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Personal trainer spotting a woman doing dumbbell presses on a bench",
+							"tone": {
+								"grid": [
+									0.1,
+									0.15,
+									0.06,
+									0.1,
+									0.25,
+									0.11,
+									0.1,
+									0.15,
+									0.15
+								],
+								"color": "#212122"
+							}
+						}
+					]
+				},
+				{
+					"id": "911ab6d3",
+					"index": 9,
+					"path": "9",
+					"group": "911ab6d3",
+					"role": "pricing",
+					"title": "CHOOSE BEST PRICING PLAN",
+					"slots": [
+						{
+							"id": "38b1ce1c:text",
+							"blockId": "38b1ce1c",
+							"path": "9.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CHOOSE BEST PRICING PLAN",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e14130b:text",
+							"blockId": "0e14130b",
+							"path": "9.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5265c87e:text",
+							"blockId": "5265c87e",
+							"path": "9.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$3",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "c29be0cc:text",
+							"blockId": "c29be0cc",
+							"path": "9.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "single class",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f01b475:text",
+							"blockId": "3f01b475",
+							"path": "9.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3c0167b3:text",
+							"blockId": "3c0167b3",
+							"path": "9.0.1.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d0a1573e:text",
+							"blockId": "d0a1573e",
+							"path": "9.0.1.0.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "dolor sit amet",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ad2bef20:text",
+							"blockId": "ad2bef20",
+							"path": "9.0.1.0.5.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e299bada:text",
+							"blockId": "e299bada",
+							"path": "9.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$90",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "78072378:text",
+							"blockId": "78072378",
+							"path": "9.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Monthly",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ee198001:text",
+							"blockId": "ee198001",
+							"path": "9.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e9c353bc:text",
+							"blockId": "e9c353bc",
+							"path": "9.0.1.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3ea48c7e:text",
+							"blockId": "3ea48c7e",
+							"path": "9.0.1.1.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "dolor sit amet",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1c415ed6:text",
+							"blockId": "1c415ed6",
+							"path": "9.0.1.1.5.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "79c12a2a:text",
+							"blockId": "79c12a2a",
+							"path": "9.0.1.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$990",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "137e19b2:text",
+							"blockId": "137e19b2",
+							"path": "9.0.1.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "annually",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0f27a909:text",
+							"blockId": "0f27a909",
+							"path": "9.0.1.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "054410e4:text",
+							"blockId": "054410e4",
+							"path": "9.0.1.2.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1e72c48e:text",
+							"blockId": "1e72c48e",
+							"path": "9.0.1.2.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "dolor sit amet",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "473e00fc-ccc1-4bcd-b018-8b142ec58025:text",
+							"blockId": "473e00fc-ccc1-4bcd-b018-8b142ec58025",
+							"path": "9.0.1.2.5.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "e0574517",
+					"index": 10,
+					"path": "10",
+					"group": "e0574517",
+					"role": "gallery",
+					"title": "WORKOUT GALLERY",
+					"slots": [
+						{
+							"id": "23e2eb4c:text",
+							"blockId": "23e2eb4c",
+							"path": "10.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WORKOUT GALLERY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2fbdc2b3:text",
+							"blockId": "2fbdc2b3",
+							"path": "10.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "99499e35-dce6-41a4-826f-66b6f2a3f180:text",
+							"blockId": "99499e35-dce6-41a4-826f-66b6f2a3f180",
+							"path": "10.0.1.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-10.0.1.0.0.0:@html:img",
+							"blockId": "core-10.0.1.0.0.0",
+							"path": "10.0.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-rope.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Man and woman working out with battle ropes in a gym",
+							"tone": {
+								"grid": [
+									0.08,
+									0.08,
+									0.08,
+									0.26,
+									0.18,
+									0.21,
+									0.2,
+									0.15,
+									0.12
+								],
+								"color": "#2a2624"
+							}
+						},
+						{
+							"id": "core-10.0.1.0.0.1:@html:img",
+							"blockId": "core-10.0.1.0.0.1",
+							"path": "10.0.1.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/man-body-building.jpg",
+							"decorative": false,
+							"width": 760,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Muscular shirtless man lifting a barbell",
+							"tone": {
+								"grid": [
+									0.05,
+									0.17,
+									0.05,
+									0.08,
+									0.36,
+									0.08,
+									0.11,
+									0.24,
+									0.11
+								],
+								"color": "#242424"
+							}
+						},
+						{
+							"id": "core-10.0.1.0.0.2:@html:img",
+							"blockId": "core-10.0.1.0.0.2",
+							"path": "10.0.1.0.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-woman-stretching.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman doing crunches on an exercise mat",
+							"tone": {
+								"grid": [
+									0.07,
+									0.2,
+									0.12,
+									0.12,
+									0.17,
+									0.24,
+									0.06,
+									0.08,
+									0.19
+								],
+								"color": "#262225"
+							}
+						},
+						{
+							"id": "core-10.0.1.0.0.3:@html:img",
+							"blockId": "core-10.0.1.0.0.3",
+							"path": "10.0.1.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-women-holding-weight.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Women lifting dumbbells in a group fitness class",
+							"tone": {
+								"grid": [
+									0.82,
+									0.53,
+									0.63,
+									0.77,
+									0.62,
+									0.59,
+									0.39,
+									0.46,
+									0.55
+								],
+								"color": "#a0968f"
+							}
+						},
+						{
+							"id": "core-10.0.1.0.0.4:@html:img",
+							"blockId": "core-10.0.1.0.0.4",
+							"path": "10.0.1.0.0.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-main-pulling-resistance-bands-1.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Bearded man using a rowing machine at the gym",
+							"tone": {
+								"grid": [
+									0.31,
+									0.41,
+									0.31,
+									0.22,
+									0.25,
+									0.37,
+									0.22,
+									0.28,
+									0.15
+								],
+								"color": "#4c4645"
+							}
+						},
+						{
+							"id": "core-10.0.1.0.0.5:@html:img",
+							"blockId": "core-10.0.1.0.0.5",
+							"path": "10.0.1.0.0.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-woman-double-weight.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman doing a dumbbell row lunge in a bright gym",
+							"tone": {
+								"grid": [
+									0.76,
+									0.67,
+									0.76,
+									0.73,
+									0.4,
+									0.78,
+									0.66,
+									0.67,
+									0.7
+								],
+								"color": "#a3b0b7"
+							}
+						}
+					]
+				},
+				{
+					"id": "643a5544",
+					"index": 11,
+					"path": "11",
+					"group": "643a5544",
+					"role": "content",
+					"title": "BEST PROTEIN PRODUCTS",
+					"slots": [
+						{
+							"id": "bcd396cb:text",
+							"blockId": "bcd396cb",
+							"path": "11.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BEST PROTEIN PRODUCTS",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d0a63a71:text",
+							"blockId": "d0a63a71",
+							"path": "11.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6425d6e2:text",
+							"blockId": "6425d6e2",
+							"path": "11.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WHEY PROTEIN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f3e8f0b3:text",
+							"blockId": "f3e8f0b3",
+							"path": "11.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$60",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "0c6ff02e:text",
+							"blockId": "0c6ff02e",
+							"path": "11.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WHEY PROTEIN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5e0e88bf:text",
+							"blockId": "5e0e88bf",
+							"path": "11.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$60",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "a9bd4dfc:text",
+							"blockId": "a9bd4dfc",
+							"path": "11.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WHEY PROTEIN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0ac85e63:text",
+							"blockId": "0ac85e63",
+							"path": "11.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$60",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "50d7d9ec:text",
+							"blockId": "50d7d9ec",
+							"path": "11.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WHEY PROTEIN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d23e717b:text",
+							"blockId": "d23e717b",
+							"path": "11.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$60",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						}
+					],
+					"images": [
+						{
+							"id": "18ea5569:image.url",
+							"blockId": "18ea5569",
+							"path": "11.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gym-product-1.png",
+							"decorative": false,
+							"width": 550,
+							"height": 550,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Whey protein supplement tub mockup",
+							"tone": {
+								"grid": [
+									0.93,
+									0.62,
+									0.96,
+									0.72,
+									0.46,
+									0.88,
+									0.81,
+									0.65,
+									0.94
+								],
+								"color": "#b2cbc5"
+							}
+						},
+						{
+							"id": "3174bc43:image.url",
+							"blockId": "3174bc43",
+							"path": "11.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gym-product-2-1.png",
+							"decorative": false,
+							"width": 550,
+							"height": 550,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Whey protein supplement tub mockup",
+							"tone": {
+								"grid": [
+									0.91,
+									0.64,
+									0.97,
+									0.67,
+									0.45,
+									0.88,
+									0.77,
+									0.6,
+									0.93
+								],
+								"color": "#c1c1c1"
+							}
+						},
+						{
+							"id": "ce3532cb:image.url",
+							"blockId": "ce3532cb",
+							"path": "11.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gym-product-1.png",
+							"decorative": false,
+							"width": 550,
+							"height": 550,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Whey protein supplement tub mockup",
+							"tone": {
+								"grid": [
+									0.93,
+									0.62,
+									0.96,
+									0.72,
+									0.46,
+									0.88,
+									0.81,
+									0.65,
+									0.94
+								],
+								"color": "#b2cbc5"
+							}
+						},
+						{
+							"id": "921c49c7:image.url",
+							"blockId": "921c49c7",
+							"path": "11.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gym-product-2-1.png",
+							"decorative": false,
+							"width": 550,
+							"height": 550,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Whey protein supplement tub mockup",
+							"tone": {
+								"grid": [
+									0.91,
+									0.64,
+									0.97,
+									0.67,
+									0.45,
+									0.88,
+									0.77,
+									0.6,
+									0.93
+								],
+								"color": "#c1c1c1"
+							}
+						}
+					]
+				},
+				{
+					"id": "57c85708",
+					"index": 12,
+					"path": "12",
+					"group": "57c85708",
+					"role": "posts",
+					"title": "OUR LATEST BLOG",
+					"slots": [
+						{
+							"id": "d7067307:text",
+							"blockId": "d7067307",
+							"path": "12.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "OUR LATEST BLOG",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f75163f7:text",
+							"blockId": "f75163f7",
+							"path": "12.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "231b653b:text",
+							"blockId": "231b653b",
+							"path": "12.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WE NEVER STOP RUNNING",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "011b9233:text",
+							"blockId": "011b9233",
+							"path": "12.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "April 2, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "259e7649:text",
+							"blockId": "259e7649",
+							"path": "12.0.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5a7638dd:text",
+							"blockId": "5a7638dd",
+							"path": "12.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BATTLE ROPE CONTEST",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9b8ad02f:text",
+							"blockId": "9b8ad02f",
+							"path": "12.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "April 2, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9960b01f:text",
+							"blockId": "9960b01f",
+							"path": "12.0.1.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6b2a628e:text",
+							"blockId": "6b2a628e",
+							"path": "12.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "FREE YOGA CLASSES",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e3fec7f:text",
+							"blockId": "3e3fec7f",
+							"path": "12.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "July 29, 2015",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0f9b52bd:text",
+							"blockId": "0f9b52bd",
+							"path": "12.0.1.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "0ae80bff:image.url",
+							"blockId": "0ae80bff",
+							"path": "12.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/man-body-building.jpg",
+							"decorative": false,
+							"width": 760,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Muscular shirtless man lifting a barbell",
+							"tone": {
+								"grid": [
+									0.05,
+									0.17,
+									0.05,
+									0.08,
+									0.36,
+									0.08,
+									0.11,
+									0.24,
+									0.11
+								],
+								"color": "#242424"
+							}
+						},
+						{
+							"id": "71d6459e:image.url",
+							"blockId": "71d6459e",
+							"path": "12.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/woman-rope-workout.jpg",
+							"decorative": false,
+							"width": 760,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman training with battle ropes against a white brick wall",
+							"tone": {
+								"grid": [
+									0.4,
+									0.67,
+									0.64,
+									0.33,
+									0.7,
+									0.65,
+									0.19,
+									0.34,
+									0.26
+								],
+								"color": "#75777b"
+							}
+						},
+						{
+							"id": "a0263539:image.url",
+							"blockId": "a0263539",
+							"path": "12.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/pregnent-women-yoga.jpg",
+							"decorative": false,
+							"width": 760,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Two pregnant women showing their bellies doing exercise",
+							"tone": {
+								"grid": [
+									0.83,
+									0.85,
+									0.74,
+									0.82,
+									0.67,
+									0.39,
+									0.74,
+									0.38,
+									0.3
+								],
+								"color": "#a5a19f"
+							}
+						}
+					]
+				},
+				{
+					"id": "9266bd76",
+					"index": 13,
+					"path": "13",
+					"group": "9266bd76",
+					"role": "cta",
+					"title": "STOP WISHING! START WORKING!",
+					"slots": [
+						{
+							"id": "a7ad9f20:text",
+							"blockId": "a7ad9f20",
+							"path": "13.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "STOP WISHING! START WORKING!",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ed13f2b:text",
+							"blockId": "5ed13f2b",
+							"path": "13.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f4e1749d:text",
+							"blockId": "f4e1749d",
+							"path": "13.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Become Member",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0eb2fc38",
+					"index": 14,
+					"path": "14",
+					"group": "0eb2fc38",
+					"role": "gallery",
+					"title": "FOLLOW US ON @GYM",
+					"slots": [
+						{
+							"id": "82ffd18f:text",
+							"blockId": "82ffd18f",
+							"path": "14.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "FOLLOW US ON @GYM",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-14.0.1.0:@html:img",
+							"blockId": "core-14.0.1.0",
+							"path": "14.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-4-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman doing a barbell lunge in a gym",
+							"tone": {
+								"grid": [
+									0.12,
+									0.26,
+									0.35,
+									0.1,
+									0.29,
+									0.12,
+									0.16,
+									0.12,
+									0.05
+								],
+								"color": "#3c2a1b"
+							}
+						},
+						{
+							"id": "core-14.0.1.1:@html:img",
+							"blockId": "core-14.0.1.1",
+							"path": "14.0.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-3-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Shirtless man doing a barbell squat in a gym",
+							"tone": {
+								"grid": [
+									0.09,
+									0.12,
+									0.07,
+									0.1,
+									0.33,
+									0.09,
+									0.07,
+									0.18,
+									0.08
+								],
+								"color": "#251f1e"
+							}
+						},
+						{
+							"id": "core-14.0.1.2:@html:img",
+							"blockId": "core-14.0.1.2",
+							"path": "14.0.1.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-2-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman using a shoulder press machine at the gym",
+							"tone": {
+								"grid": [
+									0.56,
+									0.54,
+									0.68,
+									0.59,
+									0.51,
+									0.7,
+									0.47,
+									0.54,
+									0.47
+								],
+								"color": "#918f8e"
+							}
+						},
+						{
+							"id": "core-14.0.1.3:@html:img",
+							"blockId": "core-14.0.1.3",
+							"path": "14.0.1.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-1-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman swinging a kettlebell in a gym",
+							"tone": {
+								"grid": [
+									0.13,
+									0.25,
+									0.12,
+									0.1,
+									0.31,
+									0.15,
+									0.07,
+									0.18,
+									0.11
+								],
+								"color": "#342522"
+							}
+						},
+						{
+							"id": "core-14.0.1.4:@html:img",
+							"blockId": "core-14.0.1.4",
+							"path": "14.0.1.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-6-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Fit woman doing pull-ups on a rack",
+							"tone": {
+								"grid": [
+									0.21,
+									0.25,
+									0.32,
+									0.21,
+									0.2,
+									0.28,
+									0.15,
+									0.22,
+									0.22
+								],
+								"color": "#393b40"
+							}
+						},
+						{
+							"id": "core-14.0.1.5:@html:img",
+							"blockId": "core-14.0.1.5",
+							"path": "14.0.1.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-5-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman doing a yoga kickback pose on a mat",
+							"tone": {
+								"grid": [
+									0.72,
+									0.71,
+									0.73,
+									0.64,
+									0.49,
+									0.62,
+									0.86,
+									0.73,
+									0.77
+								],
+								"color": "#adb2b8"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "03cf8f3c",
+					"role": "hero",
+					"title": "START YOUR",
+					"sectionIds": [
+						"03cf8f3c"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "093a7cdb",
+					"role": "content",
+					"title": "BODY BUILDING",
+					"sectionIds": [
+						"093a7cdb"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f5a4adc7",
+					"role": "content",
+					"title": "WHAT WE PROVIDE",
+					"sectionIds": [
+						"f5a4adc7"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4a156c3f",
+					"role": "cta",
+					"title": "Work hard for best shape",
+					"sectionIds": [
+						"4a156c3f"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "137ad3f2",
+					"role": "content",
+					"title": "WORK OUT CLASSES",
+					"sectionIds": [
+						"137ad3f2"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d1e64ea2",
+					"role": "team",
+					"title": "MEET OUR TRAINERS",
+					"sectionIds": [
+						"d1e64ea2"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "7109913e",
+					"role": "content",
+					"sectionIds": [
+						"7109913e"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1e977c96",
+					"role": "testimonials",
+					"title": "REVIEWS FROM CLIENTS",
+					"sectionIds": [
+						"1e977c96",
+						"e269f3bb"
+					],
+					"paths": [
+						"7",
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "911ab6d3",
+					"role": "pricing",
+					"title": "CHOOSE BEST PRICING PLAN",
+					"sectionIds": [
+						"911ab6d3"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "e0574517",
+					"role": "gallery",
+					"title": "WORKOUT GALLERY",
+					"sectionIds": [
+						"e0574517"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "643a5544",
+					"role": "content",
+					"title": "BEST PROTEIN PRODUCTS",
+					"sectionIds": [
+						"643a5544"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "57c85708",
+					"role": "posts",
+					"title": "OUR LATEST BLOG",
+					"sectionIds": [
+						"57c85708"
+					],
+					"paths": [
+						"12"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "9266bd76",
+					"role": "cta",
+					"title": "STOP WISHING! START WORKING!",
+					"sectionIds": [
+						"9266bd76"
+					],
+					"paths": [
+						"13"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0eb2fc38",
+					"role": "gallery",
+					"title": "FOLLOW US ON @GYM",
+					"sectionIds": [
+						"0eb2fc38"
+					],
+					"paths": [
+						"14"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "1c0f4807",
+					"index": 0,
+					"path": "0",
+					"group": "1c0f4807",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA FITNESS CLUB",
+					"slots": [
+						{
+							"id": "919c4969:text",
+							"blockId": "919c4969",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WELCOME TO ZAKRA FITNESS CLUB",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c2674bb:text",
+							"blockId": "1c2674bb",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "bb9891e6:text",
+							"blockId": "bb9891e6",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget.",
+							"rich": false,
+							"words": 40,
+							"minWords": 24,
+							"maxWords": 50,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5a570c7c:text",
+							"blockId": "5a570c7c",
+							"path": "0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Mr. Johnson White",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8d9994f1:text",
+							"blockId": "8d9994f1",
+							"path": "0.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CEO Founder",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1995405e:image.url",
+							"blockId": "1995405e",
+							"path": "0.0.5",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/Johnson-White.png",
+							"decorative": true,
+							"width": 321,
+							"height": 113,
+							"orientation": "landscape"
+						},
+						{
+							"id": "167545c1:background.image.image.url",
+							"blockId": "167545c1",
+							"path": "0.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2024/08/women-lifting-weight.jpg",
+							"decorative": false,
+							"width": 553,
+							"height": 600,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Women raising dumbbells overhead in a group fitness class",
+							"tone": {
+								"grid": [
+									0.31,
+									0.32,
+									0.28,
+									0.37,
+									0.38,
+									0.28,
+									0.36,
+									0.41,
+									0.37
+								],
+								"color": "#5d5653"
+							}
+						}
+					]
+				},
+				{
+					"id": "388d3ab4",
+					"index": 1,
+					"path": "1",
+					"group": "388d3ab4",
+					"role": "stats",
+					"title": "MEMBERS",
+					"slots": [
+						{
+							"id": "49ddd29f:text",
+							"blockId": "49ddd29f",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "500+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "b756f6ea:text",
+							"blockId": "b756f6ea",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "MEMBERS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d07e9cc4:text",
+							"blockId": "d07e9cc4",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "100+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "36f9e7d9:text",
+							"blockId": "36f9e7d9",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "TRAINERS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5f413e58:text",
+							"blockId": "5f413e58",
+							"path": "1.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "6000+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "72414c77:text",
+							"blockId": "72414c77",
+							"path": "1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "EQUIPMENT",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3968ff19:text",
+							"blockId": "3968ff19",
+							"path": "1.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "100+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "2db40790:text",
+							"blockId": "2db40790",
+							"path": "1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CLASS ROOM",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "388d3ab4:background.image.image.url",
+							"blockId": "388d3ab4",
+							"path": "1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2024/08/banner-hands-lifting-weight.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Person lifting a barbell from the gym floor",
+							"tone": {
+								"grid": [
+									0.42,
+									0.34,
+									0.14,
+									0.42,
+									0.33,
+									0.2,
+									0.39,
+									0.42,
+									0.26
+								],
+								"color": "#465654"
+							}
+						}
+					]
+				},
+				{
+					"id": "f5a4adc7",
+					"index": 2,
+					"path": "2",
+					"group": "f5a4adc7",
+					"role": "content",
+					"title": "WHAT WE PROVIDE",
+					"slots": [
+						{
+							"id": "00b54c74:text",
+							"blockId": "00b54c74",
+							"path": "2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WHAT WE PROVIDE",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b8eed1af:text",
+							"blockId": "b8eed1af",
+							"path": "2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1e9e73c6:text",
+							"blockId": "1e9e73c6",
+							"path": "2.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BEST EQUIPMENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ed98daa:text",
+							"blockId": "5ed98daa",
+							"path": "2.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b9dcad29:text",
+							"blockId": "b9dcad29",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "NUTRITION PLAN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "21673ea5:text",
+							"blockId": "21673ea5",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a5b162c8:text",
+							"blockId": "a5b162c8",
+							"path": "2.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SWIMMING POOL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "33fa2094:text",
+							"blockId": "33fa2094",
+							"path": "2.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ec346e76:text",
+							"blockId": "ec346e76",
+							"path": "2.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SHOWER SERVICE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5b4b1ca5:text",
+							"blockId": "5b4b1ca5",
+							"path": "2.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "78c52363:image.url",
+							"blockId": "78c52363",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-equipment.png",
+							"decorative": true,
+							"width": 413,
+							"height": 413,
+							"orientation": "square"
+						},
+						{
+							"id": "ab72cca4:image.url",
+							"blockId": "ab72cca4",
+							"path": "2.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-apples-1.png",
+							"decorative": true,
+							"width": 413,
+							"height": 413,
+							"orientation": "square"
+						},
+						{
+							"id": "f113c4cb:image.url",
+							"blockId": "f113c4cb",
+							"path": "2.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-swimming-1.png",
+							"decorative": true,
+							"width": 413,
+							"height": 413,
+							"orientation": "square"
+						},
+						{
+							"id": "8affd737:image.url",
+							"blockId": "8affd737",
+							"path": "2.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-shower-1.png",
+							"decorative": true,
+							"width": 413,
+							"height": 413,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "1e977c96",
+					"index": 3,
+					"path": "3",
+					"group": "1e977c96",
+					"role": "testimonials",
+					"title": "REVIEWS FROM CLIENTS",
+					"slots": [
+						{
+							"id": "3a69e4c7:text",
+							"blockId": "3a69e4c7",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "REVIEWS FROM CLIENTS",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bd156bbc:text",
+							"blockId": "bd156bbc",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "82e90225:text",
+							"blockId": "82e90225",
+							"path": "3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Jack Smith",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1e977c96:background.image.image.url",
+							"blockId": "1e977c96",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://demo.pxelcode.com/wp-content/uploads/2023/10/pattern.png",
+							"decorative": true
+						}
+					]
+				},
+				{
+					"id": "9266bd76",
+					"index": 4,
+					"path": "4",
+					"group": "1e977c96",
+					"role": "testimonials",
+					"title": "STOP WISHING! START WORKING!",
+					"slots": [
+						{
+							"id": "a7ad9f20:text",
+							"blockId": "a7ad9f20",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "STOP WISHING! START WORKING!",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ed13f2b:text",
+							"blockId": "5ed13f2b",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f4e1749d:text",
+							"blockId": "f4e1749d",
+							"path": "4.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Become Member",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0eb2fc38",
+					"index": 5,
+					"path": "5",
+					"group": "0eb2fc38",
+					"role": "gallery",
+					"title": "FOLLOW US ON @GYM",
+					"slots": [
+						{
+							"id": "82ffd18f:text",
+							"blockId": "82ffd18f",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "FOLLOW US ON @GYM",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-5.0.1.0:@html:img",
+							"blockId": "core-5.0.1.0",
+							"path": "5.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-4-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman doing a barbell lunge in a gym",
+							"tone": {
+								"grid": [
+									0.12,
+									0.26,
+									0.35,
+									0.1,
+									0.29,
+									0.12,
+									0.16,
+									0.12,
+									0.05
+								],
+								"color": "#3c2a1b"
+							}
+						},
+						{
+							"id": "core-5.0.1.1:@html:img",
+							"blockId": "core-5.0.1.1",
+							"path": "5.0.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-3-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Shirtless man doing a barbell squat in a gym",
+							"tone": {
+								"grid": [
+									0.09,
+									0.12,
+									0.07,
+									0.1,
+									0.33,
+									0.09,
+									0.07,
+									0.18,
+									0.08
+								],
+								"color": "#251f1e"
+							}
+						},
+						{
+							"id": "core-5.0.1.2:@html:img",
+							"blockId": "core-5.0.1.2",
+							"path": "5.0.1.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-2-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman using a shoulder press machine at the gym",
+							"tone": {
+								"grid": [
+									0.56,
+									0.54,
+									0.68,
+									0.59,
+									0.51,
+									0.7,
+									0.47,
+									0.54,
+									0.47
+								],
+								"color": "#918f8e"
+							}
+						},
+						{
+							"id": "core-5.0.1.3:@html:img",
+							"blockId": "core-5.0.1.3",
+							"path": "5.0.1.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-6-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Fit woman doing pull-ups on a rack",
+							"tone": {
+								"grid": [
+									0.21,
+									0.25,
+									0.32,
+									0.21,
+									0.2,
+									0.28,
+									0.15,
+									0.22,
+									0.22
+								],
+								"color": "#393b40"
+							}
+						},
+						{
+							"id": "core-5.0.1.4:@html:img",
+							"blockId": "core-5.0.1.4",
+							"path": "5.0.1.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-1-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman swinging a kettlebell in a gym",
+							"tone": {
+								"grid": [
+									0.13,
+									0.25,
+									0.12,
+									0.1,
+									0.31,
+									0.15,
+									0.07,
+									0.18,
+									0.11
+								],
+								"color": "#342522"
+							}
+						},
+						{
+							"id": "core-5.0.1.5:@html:img",
+							"blockId": "core-5.0.1.5",
+							"path": "5.0.1.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-5-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman doing a yoga kickback pose on a mat",
+							"tone": {
+								"grid": [
+									0.72,
+									0.71,
+									0.73,
+									0.64,
+									0.49,
+									0.62,
+									0.86,
+									0.73,
+									0.77
+								],
+								"color": "#adb2b8"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "1c0f4807",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA FITNESS CLUB",
+					"sectionIds": [
+						"1c0f4807"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "388d3ab4",
+					"role": "stats",
+					"title": "MEMBERS",
+					"sectionIds": [
+						"388d3ab4"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "f5a4adc7",
+					"role": "content",
+					"title": "WHAT WE PROVIDE",
+					"sectionIds": [
+						"f5a4adc7"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1e977c96",
+					"role": "testimonials",
+					"title": "REVIEWS FROM CLIENTS",
+					"sectionIds": [
+						"1e977c96",
+						"9266bd76"
+					],
+					"paths": [
+						"3",
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0eb2fc38",
+					"role": "gallery",
+					"title": "FOLLOW US ON @GYM",
+					"sectionIds": [
+						"0eb2fc38"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "gallery",
+			"title": "Gallery",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/themegrill-demos/gallery-content.xml",
+			"sections": [
+				{
+					"id": "0a530a63",
+					"index": 0,
+					"path": "0",
+					"group": "0a530a63",
+					"role": "hero",
+					"slots": [],
+					"images": [
+						{
+							"id": "core-0.0.0.0:@html:img",
+							"blockId": "core-0.0.0.0",
+							"path": "0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-body-building-1.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Muscular shirtless man holding a barbell",
+							"tone": {
+								"grid": [
+									0.05,
+									0.15,
+									0.05,
+									0.09,
+									0.34,
+									0.08,
+									0.1,
+									0.25,
+									0.1
+								],
+								"color": "#222222"
+							}
+						},
+						{
+							"id": "core-0.0.0.1:@html:img",
+							"blockId": "core-0.0.0.1",
+							"path": "0.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-main-pulling-resistance-bands.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Bearded man using a rowing machine at the gym",
+							"tone": {
+								"grid": [
+									0.31,
+									0.41,
+									0.31,
+									0.22,
+									0.25,
+									0.37,
+									0.22,
+									0.28,
+									0.15
+								],
+								"color": "#4d4646"
+							}
+						},
+						{
+							"id": "core-0.0.0.2:@html:img",
+							"blockId": "core-0.0.0.2",
+							"path": "0.0.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-red-woman-stretching.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Women doing kickback exercises on mats in a fitness class",
+							"tone": {
+								"grid": [
+									0.92,
+									0.65,
+									0.77,
+									0.51,
+									0.52,
+									0.48,
+									0.53,
+									0.62,
+									0.5
+								],
+								"color": "#a6999a"
+							}
+						},
+						{
+							"id": "core-0.0.0.3:@html:img",
+							"blockId": "core-0.0.0.3",
+							"path": "0.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-rope.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Man and woman working out with battle ropes in a gym",
+							"tone": {
+								"grid": [
+									0.08,
+									0.08,
+									0.08,
+									0.26,
+									0.18,
+									0.21,
+									0.2,
+									0.15,
+									0.12
+								],
+								"color": "#2a2624"
+							}
+						},
+						{
+							"id": "core-0.0.0.4:@html:img",
+							"blockId": "core-0.0.0.4",
+							"path": "0.0.0.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-womain-pulling-resistance-bands.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Two fit women flexing their muscles in a gym",
+							"tone": {
+								"grid": [
+									0.1,
+									0.15,
+									0.26,
+									0.15,
+									0.27,
+									0.38,
+									0.21,
+									0.24,
+									0.23
+								],
+								"color": "#602d2b"
+							}
+						},
+						{
+							"id": "core-0.0.0.5:@html:img",
+							"blockId": "core-0.0.0.5",
+							"path": "0.0.0.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-woman-double-weight.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman doing a dumbbell row lunge in a bright gym",
+							"tone": {
+								"grid": [
+									0.76,
+									0.67,
+									0.76,
+									0.73,
+									0.4,
+									0.78,
+									0.66,
+									0.67,
+									0.7
+								],
+								"color": "#a3b0b7"
+							}
+						},
+						{
+							"id": "core-0.0.0.6:@html:img",
+							"blockId": "core-0.0.0.6",
+							"path": "0.0.0.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-woman-stretching.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman doing crunches on an exercise mat",
+							"tone": {
+								"grid": [
+									0.07,
+									0.2,
+									0.12,
+									0.12,
+									0.17,
+									0.24,
+									0.06,
+									0.08,
+									0.19
+								],
+								"color": "#262225"
+							}
+						},
+						{
+							"id": "core-0.0.0.7:@html:img",
+							"blockId": "core-0.0.0.7",
+							"path": "0.0.0.7",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-women-holding-weight.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Women lifting dumbbells in a group fitness class",
+							"tone": {
+								"grid": [
+									0.82,
+									0.53,
+									0.63,
+									0.77,
+									0.62,
+									0.59,
+									0.39,
+									0.46,
+									0.55
+								],
+								"color": "#a0968f"
+							}
+						},
+						{
+							"id": "core-0.0.0.8:@html:img",
+							"blockId": "core-0.0.0.8",
+							"path": "0.0.0.8",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/gallery-women-streching.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Women stretching on yoga mats in a fitness studio",
+							"tone": {
+								"grid": [
+									0.6,
+									0.54,
+									0.44,
+									0.6,
+									0.56,
+									0.55,
+									0.46,
+									0.28,
+									0.28
+								],
+								"color": "#80797b"
+							}
+						}
+					]
+				},
+				{
+					"id": "9266bd76",
+					"index": 1,
+					"path": "1",
+					"group": "9266bd76",
+					"role": "cta",
+					"title": "STOP WISHING! START WORKING!",
+					"slots": [
+						{
+							"id": "a7ad9f20:text",
+							"blockId": "a7ad9f20",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "STOP WISHING! START WORKING!",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ed13f2b:text",
+							"blockId": "5ed13f2b",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f4e1749d:text",
+							"blockId": "f4e1749d",
+							"path": "1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Become Member",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0eb2fc38",
+					"index": 2,
+					"path": "2",
+					"group": "0eb2fc38",
+					"role": "gallery",
+					"title": "FOLLOW US ON @GYM",
+					"slots": [
+						{
+							"id": "82ffd18f:text",
+							"blockId": "82ffd18f",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "FOLLOW US ON @GYM",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.1.0:@html:img",
+							"blockId": "core-2.0.1.0",
+							"path": "2.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-1-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman swinging a kettlebell in a gym",
+							"tone": {
+								"grid": [
+									0.13,
+									0.25,
+									0.12,
+									0.1,
+									0.31,
+									0.15,
+									0.07,
+									0.18,
+									0.11
+								],
+								"color": "#342522"
+							}
+						},
+						{
+							"id": "core-2.0.1.1:@html:img",
+							"blockId": "core-2.0.1.1",
+							"path": "2.0.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-2-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman using a shoulder press machine at the gym",
+							"tone": {
+								"grid": [
+									0.56,
+									0.54,
+									0.68,
+									0.59,
+									0.51,
+									0.7,
+									0.47,
+									0.54,
+									0.47
+								],
+								"color": "#918f8e"
+							}
+						},
+						{
+							"id": "core-2.0.1.2:@html:img",
+							"blockId": "core-2.0.1.2",
+							"path": "2.0.1.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-3-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Shirtless man doing a barbell squat in a gym",
+							"tone": {
+								"grid": [
+									0.09,
+									0.12,
+									0.07,
+									0.1,
+									0.33,
+									0.09,
+									0.07,
+									0.18,
+									0.08
+								],
+								"color": "#251f1e"
+							}
+						},
+						{
+							"id": "core-2.0.1.3:@html:img",
+							"blockId": "core-2.0.1.3",
+							"path": "2.0.1.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-4-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman doing a barbell lunge in a gym",
+							"tone": {
+								"grid": [
+									0.12,
+									0.26,
+									0.35,
+									0.1,
+									0.29,
+									0.12,
+									0.16,
+									0.12,
+									0.05
+								],
+								"color": "#3c2a1b"
+							}
+						},
+						{
+							"id": "core-2.0.1.4:@html:img",
+							"blockId": "core-2.0.1.4",
+							"path": "2.0.1.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-5-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman doing a yoga kickback pose on a mat",
+							"tone": {
+								"grid": [
+									0.72,
+									0.71,
+									0.73,
+									0.64,
+									0.49,
+									0.62,
+									0.86,
+									0.73,
+									0.77
+								],
+								"color": "#adb2b8"
+							}
+						},
+						{
+							"id": "core-2.0.1.5:@html:img",
+							"blockId": "core-2.0.1.5",
+							"path": "2.0.1.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/carousel-6-300x300-1.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Fit woman doing pull-ups on a rack",
+							"tone": {
+								"grid": [
+									0.21,
+									0.25,
+									0.32,
+									0.21,
+									0.2,
+									0.28,
+									0.15,
+									0.22,
+									0.22
+								],
+								"color": "#393b40"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "0a530a63",
+					"role": "hero",
+					"sectionIds": [
+						"0a530a63"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9266bd76",
+					"role": "cta",
+					"title": "STOP WISHING! START WORKING!",
+					"sectionIds": [
+						"9266bd76"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0eb2fc38",
+					"role": "gallery",
+					"title": "FOLLOW US ON @GYM",
+					"sectionIds": [
+						"0eb2fc38"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 26,
+		"textSlots": 144,
+		"editableSlots": 133,
+		"images": 67,
+		"swappableImages": 55,
+		"words": 790
+	},
+	"builtAt": "2026-10-24T11:35:07.991Z"
+}

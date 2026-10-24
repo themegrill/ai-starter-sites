@@ -16,28 +16,48 @@ Contrast pairs checked after recoloring: 16
 
 - Group **hero** (core) `3274e693`, blocks 0
   - **hero** “Think Different. Make Different.” — 3 text, 1 photos · lorem
+    - photo (object): Flat illustration of a person arranging a website layout on a screen
 - Group **content** (core) `ca3b7b9f`, blocks 1
   - **content** “IDEAs” — 6 text, 0 photos
 - Group **content** (core) `2636e827`, blocks 2
   - **content** “Zakra Invites You To Build Your Next Site” — 3 text, 1 photos · lorem
+    - photo (person): Smiling man in a white shirt on the phone at his desk with a laptop
 - Group **gallery** (needs portfolio) `f972e8b1`, blocks 3, 4, 5
   - **content** “Our Awesome Portfolio” — 2 text, 0 photos · lorem
   - **gallery** (untitled) — 0 text, 4 photos
+    - photo (person): Smiling woman sitting under a whiteboard of sketched ideas, holding up a lightbulb drawing
+    - photo (object): Minimal dark product box on a black background
+    - photo (object): Website wireframe sketches in a notebook with pens and a phone
+    - photo (object): Abstract glowing blue rings on a black background
   - **gallery** (untitled) — 0 text, 4 photos
+    - photo (object): Flat lay of a speaker, phone, watch, glasses and art supplies on black
+    - photo (place): Designer's desk with two large monitors showing design work
+    - photo (object): Abstract white 3D spiral shape on a black background
+    - photo (object): Hands typing on a keyboard on a desk covered with creative posters and flowers
 - Group **pricing** (needs pricing_plans) `04c7a3e4`, blocks 6, 7
   - **pricing** “Plan & Pricing” — 2 text, 0 photos · lorem
   - **pricing** “Silver” — 27 text, 0 photos
 - Group **team** (needs team) `5b24aee6`, blocks 8, 9
   - **content** “Meet Our Team” — 2 text, 0 photos · lorem
   - **team** “Desirae Dias” — 8 text, 4 photos
+    - photo (person): Young man resting his chin on his hand, looking at the camera
+    - photo (person): Young woman with long hair and round glasses, headshot
+    - photo (person): Young man with curly hair in a red jacket, headshot
+    - photo (person): Smiling woman with glasses resting her chin on her hand
 - Group **testimonials** (core) `1cf290e2`, blocks 10, 11
   - **testimonials** “Client Reviews” — 2 text, 0 photos · lorem
   - **testimonials** “Amelia Abelo” — 6 text, 2 photos · lorem
+    - photo (person): Smiling woman with short blonde hair, headshot
+    - photo (person): Man with short dark hair and a beard, headshot
 - Group **stats** (needs stats) `aa970efe`, blocks 12
   - **stats** “CLIENT TRUST” — 4 text, 0 photos
 - Group **posts** (needs blog) `cd33f423`, blocks 13, 14
   - **posts** “Latest Posts & Articles” — 2 text, 0 photos · lorem
   - **features** “Successful Marketing Ads for Your Business” — 12 text, 4 photos · lorem
+    - photo (object): Letter tiles spelling digital marketing next to a phone
+    - photo (person): Person in a suit reading a business newspaper
+    - photo (object): Bitcoin coins on top of dollar bills
+    - photo (group): Speaker presenting to an audience in a lecture hall
 - Group **cta** (core) `6cffd591`, blocks 15
   - **cta** “Have Any Questions?” — 3 text, 0 photos · lorem
 - Group **logos** (needs client_logos) `f453ba62`, blocks 16, 17
@@ -51,6 +71,7 @@ Contrast pairs checked after recoloring: 16
 
 - Group **hero** (core) `05875b6b`, blocks 0
   - **hero** “Our Story” — 3 text, 1 photos · lorem
+    - photo (group): Team stacking hands together over a meeting table
 - Group **content** (core) `566c8f4b`, blocks 1
   - **content** (untitled) — 1 text, 0 photos · lorem
 - Group **content** (core) `2e69ecbb`, blocks 2
@@ -62,6 +83,10 @@ Contrast pairs checked after recoloring: 16
 - Group **team** (needs team) `a8c7c151`, blocks 5, 6
   - **content** “Meet Our Team” — 2 text, 0 photos · lorem
   - **team** “Desirae Dias” — 8 text, 4 photos
+    - photo (person): Young man resting his chin on his hand, looking at the camera
+    - photo (person): Young woman with long hair and round glasses, headshot
+    - photo (person): Young man with curly hair in a red jacket, headshot
+    - photo (person): Smiling woman with glasses resting her chin on her hand
 - Group **cta** (core) `d8a31c46`, blocks 7
   - **cta** “Have Any Questions?” — 3 text, 0 photos · lorem
 - Group **logos** (needs client_logos) `f453ba62`, blocks 8, 9
@@ -74,6 +99,7 @@ Contrast pairs checked after recoloring: 16
   - **hero** “Address” — 7 text, 0 photos
 - Group **content** (core) `6d9887c3`, blocks 1
   - **content** (untitled) — 0 text, 1 photos
+    - photo (object): Green coiled telephone cord
 - Group **cta** (core) `a8c7c151`, blocks 2
   - **cta** “Let's talk” — 3 text, 0 photos · lorem
 - Group **logos** (needs client_logos) `d8bb7b25`, blocks 4
@@ -81,6 +107,874 @@ Contrast pairs checked after recoloring: 16
 
 ### Shop — `shop` → other
 
+
+## Antique (`antique-store`) · premium
+
+14 sections · 51/53 editable text slots · 361 words · 13/13 swappable images
+
+Fonts: heading **Libre Baskerville**, body **Work Sans** ()
+
+Colors: `#ffffff` background ×17, `#a75c03` accent [locked: accent] ×13, `#333333` text ×9, `#fafafa` background ×7, `#e9ecef` background ×6, `#111111` text ×5, `#935204` accent (-0.037) [locked: accent] ×3, `#d9d9d9` muted ×1, `#303030` text ×1, `#202020` text ×1, `#fffffc` background ×1, `#16181a` text ×1, `#3f3f46` text ×1, `#e4e4e7` background ×1, `#027abb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 6
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Best Antique Products Varieties” — 3 text, 0 photos · lorem
+- Group **dynamic** (needs products) `top-1`, blocks 1
+  - **dynamic** “Product Category” — 6 text, 0 photos · dynamic: woocommerce/featured-category
+- Group **dynamic** (needs products) `top-2`, blocks 2
+  - **dynamic** “New Products” — 2 text, 0 photos · dynamic: woocommerce/product-new
+- Group **cta** (core) `top-3`, blocks 3
+  - **cta** “Products that are 100 Years old” — 3 text, 0 photos
+- Group **dynamic** (needs products) `top-4`, blocks 4
+  - **dynamic** “Antique Buddha” — 2 text, 0 photos · dynamic: woocommerce/handpicked-products
+- Group **cta** (core) `top-5`, blocks 5
+  - **cta** “Ancient Musical Instrument” — 3 text, 0 photos
+- Group **gallery** (core) `top-6`, blocks 6
+  - **gallery** “Connect with us @antique.store” — 1 text, 4 photos
+    - photo (object): Carved wooden Buddha face sculpture close-up
+    - photo (object): Stone Ganesha statue among garden plants
+    - photo (object): Carved wooden tribal mask with a grinning face
+    - photo (object): Antique brass gramophone horn in a dark room
+
+### About — `about` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “At Antique, we’re providing the most ancient amazing sculptures and paintings, beautiful fiber arts and vintage memorabilia.” — 1 text, 0 photos
+- Group **content** (core) `top-1`, blocks 1
+  - **content** “We believe Antique products are beautiful” — 8 text, 0 photos · lorem
+- Group **gallery** (core) `top-2`, blocks 2
+  - **gallery** “Connect with us @antique.store” — 1 text, 4 photos
+    - photo (object): Carved wooden Buddha face sculpture close-up
+    - photo (object): Stone Ganesha statue among garden plants
+    - photo (object): Carved wooden tribal mask with a grinning face
+    - photo (object): Antique brass gramophone horn in a dark room
+
+### Contact — `contact` → contact
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Where to Find us” — 6 text, 1 photos
+    - photo (place): Antique shop storefront with a street lamp
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Visit our Store” — 14 text, 0 photos
+- Group **gallery** (core) `top-2`, blocks 2
+  - **gallery** “Connect with us @antique.store” — 1 text, 4 photos
+    - photo (object): Carved wooden Buddha face sculpture close-up
+    - photo (object): Stone Ganesha statue among garden plants
+    - photo (object): Carved wooden tribal mask with a grinning face
+    - photo (object): Antique brass gramophone horn in a dark room
+
+### Shop — `shop` → other
+
+
+### Cart — `cart` → other
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+## Apply Jobs V2 (`applyjobs-v2`) · premium
+
+20 sections · 182/187 editable text slots · 1148 words · 22/64 swappable images
+
+Fonts: heading **Nunito**, body **Nunito Sans** (Nunito → heading, Nunito Sans → body)
+
+Colors: `#ffffff` background ×67, `#262626` text ×66, `#000b23` primary ×55, `#3653fe` primary (+0.535) ×40, `#f7f8fa` background ×30, `#0003e2` primary (+0.375) ×17, `#1c1c1c` text ×13, `#16181a` text ×9, `#fefefe` background ×6, `#2d2d2d` text ×6, `#e9ecef` background ×6, `#fafafa` background ×4, `#027abb` primary (+0.302) ×4, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#7090b0` primary (+0.496) ×3, `#f2f2f2` background ×1, `#1e7ba6` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 12
+
+### Home — `home` → home
+
+- Group **hero** (core) `4e906dd9`, blocks 0
+  - **hero** “The Easiest Way to Start Your Dream Job” — 3 text, 1 photos · lorem
+    - photo (person): Smiling man with glasses at laptop surrounded by tech logo icons
+- Group **content** (core) `55792a46`, blocks 1
+  - **content** “Easy Steps To Start Your Journey” — 9 text, 0 photos · lorem
+- Group **content** (core) `e05d2cd5`, blocks 2
+  - **content** “Popular Job Categories” — 2 text, 0 photos · lorem
+- Group **content** (core) `0c4acb56`, blocks 3
+  - **content** “Accounting/Finance” — 19 text, 0 photos · lorem
+- Group **content** (core) `6a0d099f`, blocks 4
+  - **content** “Latest Job Listings” — 20 text, 0 photos · lorem
+- Group **cta** (core) `29232378`, blocks 5
+  - **cta** “Download Our Mobile App Today !!” — 3 text, 1 photos · lorem
+    - photo (object): Job portal website mockup on laptop and mobile screens
+- Group **content** (core) `db75a9d1`, blocks 6
+  - **content** “Our Popular Blogs” — 14 text, 3 photos · lorem
+    - photo (object): Programming code on a computer screen close-up
+    - photo (person): Young woman drawing at a desk full of art supplies
+    - photo (object): Stock market charts with calculator, magnifier and pens on a desk
+
+### Blog — `blog` → blog
+
+
+### About us — `about-us` → about
+
+- Group **hero** (core) `4e906dd9`, blocks 0
+  - **hero** “About Us” — 2 text, 0 photos · lorem
+- Group **cta** (core) `9d15f689`, blocks 1
+  - **cta** “About Us” — 3 text, 1 photos · lorem
+    - photo (group): Two businessmen shaking hands in an office
+- Group **content** (core) `55792a46`, blocks 2
+  - **content** “Our Services” — 8 text, 0 photos · lorem
+- Group **stats** (needs stats) `89adcf1c`, blocks 3
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **testimonials** (core) `04d82588`, blocks 4
+  - **testimonials** “Customer Reviews” — 11 text, 3 photos · lorem
+    - photo (person): Bearded man in hat and round sunglasses with tattoos outdoors
+    - photo (person): Smiling Asian businessman in a suit leaning on a wooden wall
+    - photo (person): Middle-aged man in a green jacket outdoor portrait
+
+### Jobs — `jobs-2` → other
+
+- Group **hero** (core) `4e906dd9`, blocks 0
+  - **hero** “Job Lists” — 2 text, 0 photos · lorem
+- Group **content** (core) `bb6920eb`, blocks 1
+  - **content** “Data Scientist” — 36 text, 9 photos
+    - photo (object): Financial charts with magnifying glass and glasses on a desk
+    - photo (place): Home office desk with two iMac computers
+    - photo (person): Businessman in a suit using his phone beside a laptop at a desk
+    - photo (object): Programming code on a computer screen close-up
+    - photo (object): Notebook with website wireframe sketches, pens and phone
+    - photo (person): Businesswoman typing at a computer in a bright office
+    - photo (group): People reviewing printed design layouts on a table
+    - photo (object): Colorful game pawns connected by lines as a network
+    - photo (person): Woman in a hat taking a photo with a camera among plants
+
+### Job Detail — `job-detail` → other
+
+- Group **hero** (core) `4e906dd9`, blocks 0
+  - **hero** “Job Detail's” — 3 text, 0 photos · lorem
+- Group **features** (core) `26e881fa`, blocks 1
+  - **features** “Shift” — 5 text, 0 photos
+- Group **features** (core) `0161611b`, blocks 2
+  - **features** “Qualification” — 6 text, 0 photos
+- Group **features** (core) `06a4b10e`, blocks 3
+  - **features** “Job Description” — 14 text, 0 photos · lorem
+- Group **dynamic** (core) `29d2c5ea`, blocks 4
+  - **dynamic** “Job Application” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+- Group **content** (core) `6ce07598`, blocks 5
+  - **content** “Related Jobs” — 17 text, 4 photos
+    - photo (object): Financial charts with magnifying glass and glasses on a desk
+    - photo (place): Home office desk with two iMac computers
+    - photo (person): Businessman in a suit using his phone beside a laptop at a desk
+    - photo (person): Young woman drawing at a desk full of art supplies
+
+## Bizness V2 (`bizness-v2`)
+
+13 sections · 107/107 editable text slots · 789 words · 15/53 swappable images
+
+Fonts: heading **Lato**, body **Lato** (Lato → body)
+
+Colors: `#fdaf27` primary ×52, `#ffffff` background ×50, `#001842` secondary ×49, `#212529` text ×10, `#343a40` text ×9, `#e9ecef` background ×6, `#fafafa` background ×4, `#027abb` secondary (+0.241) ×4, `#e4e4e7` background ×3, `#f9f9f9` background ×2, `#000000` text ×2, `#3f3f46` text ×2, `#fcfcfc` background ×1, `#1e7ba6` secondary (+0.255) ×1
+
+Contrast pairs checked after recoloring: 17
+
+### Home — `home` → home
+
+- Group **hero** (core) `124621b3`, blocks 0
+  - **hero** “Committed to improving the lives of people worldwide.” — 3 text, 1 photos · lorem
+    - photo (group): Smiling businesswomen working at computers in an office
+- Group **content** (core) `bec976a3`, blocks 1
+  - **content** “In order to succeed, your desire for success should be greater than your fear of failure.” — 5 text, 2 photos · lorem
+    - photo (group): Business team meeting around a laptop with yellow overlay
+    - photo (person): Senior businessman in a suit holding a credit card at a desk
+- Group **cta** (core) `689c382c`, blocks 2
+  - **cta** “Design like you are absolutely right, then optimize like you were wrong from the start.” — 2 text, 0 photos
+- Group **features** (core) `d3e5cd05`, blocks 3
+  - **features** “Ecommerce Solutions” — 6 text, 0 photos · lorem
+- Group **team** (needs team) `abd51987`, blocks 4
+  - **team** “I'm looking to expand my portfolio while I'm on top and while I'm young.” — 11 text, 0 photos
+- Group **content** (core) `ec1a00bf`, blocks 5
+  - **content** “We do whatever we can to help our clients do whatever it is they want to do.” — 7 text, 0 photos · lorem
+- Group **cta** (core) `5b80ae97`, blocks 6
+  - **cta** “We do whatever we can to help our clients do whatever it is they want to do.” — 3 text, 0 photos · lorem
+- Group **posts** (needs blog) `f1b29d29`, blocks 7
+  - **posts** “Subscribe to our email newsletter today to receive updates on the latest news, tutorials and special offers” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `2d47ce07`, blocks 0
+  - **hero** “Marketing is no longer about the stuff that you make, but about the stories you tell.” — 7 text, 1 photos · lorem
+    - photo (group): Two women chatting and laughing while seated indoors
+- Group **team** (needs team) `207ea0c6`, blocks 1
+  - **team** “Coming together is a beginning. Keeping together is progress. Working together is success.” — 13 text, 0 photos
+- Group **content** (core) `43c0db52`, blocks 2
+  - **content** “Marketing is no longer about the stuff that you make, but about the stories you tell.” — 5 text, 1 photos · lorem
+    - photo (group): Two women working together at an office desk
+
+### Services — `services` → services
+
+- Group **hero** (core) `ec98b61b`, blocks 0
+  - **hero** “Ecommerce Solutions” — 24 text, 0 photos · lorem
+
+### Portfolio — `portfolio` → services
+
+- Group **hero** (core) `f3452d08`, blocks 0
+  - **hero** “Interz Tech.” — 20 text, 10 photos
+    - photo (object): Hand holding a smartphone showing a skyscraper photo
+    - photo (object): Smartphone showing Facebook login on a wooden table
+    - photo (object): Hands taking a photo of an arched corridor with a smartphone
+    - photo (object): Hand holding an iPhone mockup with a plant photo
+    - photo (object): Hand holding a smartphone with an app splash screen
+    - photo (object): Hand holding an Android smartphone showing app icons
+    - photo (object): Woman's hands holding a Windows phone in a cafe
+    - photo (object): Hands holding an iPhone mockup with blank blue screen
+    - photo (object): Hand holding a smartphone showing an Instagram profile
+    - photo (object): Finger touching a gold iPhone screen on a table
+
+## Zakra Book Author (`book-author-02`)
+
+19 sections · 70/88 editable text slots · 892 words · 19/26 swappable images
+
+Fonts: heading **Cinzel Decorative**, body **Quattrocento** (Cinzel Decorative → body, Quattrocento → body, Quicksand → body)
+
+Colors: `#ffffff` background ×55, `#6b5c4e` muted ×34, `#000000` text ×21, `#272727` text ×7, `#596172` muted ×6, `#e9ecef` background ×6, `#2563eb` primary ×6, `#52473c` text ×4, `#fafafa` background ×4, `#f2f2f2` background ×3, `#eeeeee` background ×3, `#e4e4e7` background ×3, `#f8f8f8` background ×2, `#3f3f46` text ×2, `#027abb` primary (-0.163) ×2, `#51453b` text ×1, `#56493d` text ×1, `#2e2727` text ×1, `#595048` muted ×1, `#fffffe` background ×1, `#544438` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 2
+
+### HOME — `21-2` → other
+
+- Group **hero** (core) `bfee92f1`, blocks 0
+  - **hero** “T.G. Robinson” — 3 text, 2 photos · lorem
+    - photo (place): Bookshelves filled with old books in a bookstore
+    - photo (object): Book cover with a lighthouse at dusk
+- Group **features** (core) `342e9992`, blocks 1
+  - **features** “OTHER BOOKS” — 8 text, 3 photos · lorem
+    - photo (object): Book cover with a fishing boat at sea
+    - photo (object): Book cover with a silhouetted soldier hiker by the sea
+    - photo (object): Book cover featuring a stag in a grassy field
+- Group **content** (core) `5cc8a8b2`, blocks 2
+  - **content** “WHAT READERS SAYS” — 2 text, 0 photos · lorem
+- Group **content** (core) `aac72392`, blocks 3
+  - **content** (untitled) — 6 text, 2 photos · lorem
+    - photo (place): Modern multi-level library interior with balconies
+    - photo (place): Bright white library interior with a modern chandelier
+- Group **stats** (needs stats) `2f09aed8`, blocks 4
+  - **stats** (untitled) — 4 text, 1 photos
+    - photo (object): Open books scattered in a flat lay
+- Group **content** (core) `0cf46527`, blocks 5
+  - **content** “ABOUT AUTHOR” — 7 text, 1 photos · lorem
+    - photo (person): Bearded businessman working on a laptop by a window
+- Group **cta** (core) `b7f0bdb1`, blocks 6
+  - **cta** (untitled) — 2 text, 1 photos
+    - photo (object): Many open book pages laid out in a flat lay
+
+### ABOUT — `about-us` → about
+
+- Group **hero** (core) `658babf7`, blocks 0
+  - **hero** “Writer's Bio” — 5 text, 1 photos · lorem
+    - photo (person): Bearded businessman working on a laptop by a window
+- Group **content** (core) `fb38201d`, blocks 1
+  - **content** (untitled) — 2 text, 0 photos
+- Group **stats** (needs stats) `85d0a709`, blocks 2
+  - **stats** (untitled) — 4 text, 1 photos
+    - photo (object): Open books scattered in a flat lay
+- Group **content** (core) `6ac63698`, blocks 3
+  - **content** (untitled) — 2 text, 0 photos · lorem
+- Group **cta** (core) `74fef96b`, blocks 4
+  - **cta** (untitled) — 2 text, 1 photos
+    - photo (object): Many open book pages laid out in a flat lay
+
+### BLOG — `blog` → blog
+
+
+### CONTACT — `contact` → contact
+
+- Group **hero** (core) `e63b78d3`, blocks 0
+  - **hero** (untitled) — 5 text, 0 photos
+- Group **dynamic** (core) `d6cc7658`, blocks 1
+  - **dynamic** (untitled) — 2 text, 1 photos · lorem · dynamic: everest-forms/form-selector
+    - photo (place): Dark library wall of bookshelves
+- Group **cta** (core) `37c3cd62`, blocks 3
+  - **cta** (untitled) — 2 text, 1 photos
+    - photo (object): Many open book pages laid out in a flat lay
+
+### BOOKS — `books` → other
+
+- Group **hero** (core) `d9c1dad4`, blocks 0
+  - **hero** “THE life of a pirate and robinson” — 4 text, 1 photos · lorem
+    - photo (object): Book cover with a fishing boat at sea
+- Group **content** (core) `58db58d0`, blocks 1
+  - **content** “Wilf Life” — 4 text, 1 photos · lorem
+    - photo (object): Book cover featuring a stag in a grassy field
+- Group **content** (core) `dca0b21f`, blocks 2
+  - **content** “war and peace” — 4 text, 1 photos · lorem
+    - photo (object): Book cover with a silhouetted soldier hiker by the sea
+- Group **cta** (core) `ebc77943`, blocks 3
+  - **cta** (untitled) — 2 text, 1 photos
+    - photo (object): Many open book pages laid out in a flat lay
+
+## Business Firm V2 (`business-firm-v2`)
+
+10 sections · 79/85 editable text slots · 462 words · 11/19 swappable images
+
+Fonts: heading **Arima**, body **Work Sans** (Arima → heading, Work Sans → body)
+
+Colors: `#ffffff` background ×51, `#4ac6d6` primary ×27, `#7a7a7a` muted ×26, `#5b5b5b` muted ×18, `#4fc99a` secondary ×10, `#f48fb1` accent [locked: accent] ×8, `#000000` text ×7, `#2aaabb` primary (-0.116) ×7, `#0a251b` secondary (-0.457) ×7, `#54595f` muted ×5, `#3f3f46` text ×5, `#e9ecef` background ×5, `#ffc035` accent [locked: accent] ×5, `#fafafa` background ×4, `#e4e4e7` background ×3, `#573dff` accent [locked: accent] ×3, `#d9e2ea` primary (+0.32) ×2, `#dddddd` muted ×1, `#f4f4f4` background ×1, `#16181a` text ×1, `#33aa7d` secondary (-0.116) ×1, `#ffb716` accent (-0.061) [locked: accent] ×1, `#f48250` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 28
+
+### Sample Page — `sample-page-2` → other
+
+
+### Home — `home` → home
+
+- Group **hero** (core) `677adb29`, blocks 0
+  - **hero** “We are ThemeGrill” — 4 text, 1 photos
+    - photo (person): Smiling woman in glasses working on a laptop at a desk
+- Group **features** (core) `d7959a20`, blocks 1
+  - **features** “Why Choose Zakra” — 10 text, 0 photos
+- Group **features** (core) `96f28e21`, blocks 2
+  - **features** “Important Pages” — 11 text, 3 photos
+    - photo (object): Illustration of people building a website dashboard
+    - photo (object): Illustration of a person on a tablet working with a document
+    - photo (object): Illustration of a woman logging into a website
+- Group **pricing** (needs pricing_plans) `aec9bbac`, blocks 3
+  - **pricing** “Plans & Pricing” — 23 text, 0 photos
+- Group **team** (needs team) `f8fcabfd`, blocks 4
+  - **team** “Meet the Team” — 10 text, 4 photos
+    - photo (person): Blonde young woman close-up portrait
+    - photo (person): Smiling woman wearing large white sunglasses
+    - photo (person): Smiling young woman with glasses portrait
+    - photo (person): Woman blowing on a cup of hot coffee
+- Group **stats** (needs stats) `cd542152`, blocks 5
+  - **stats** “Interesting Facts” — 5 text, 0 photos
+- Group **testimonials** (core) `ec65aa91`, blocks 6
+  - **testimonials** “Testimonials” — 11 text, 3 photos
+    - photo (person): Blonde young woman close-up portrait
+    - photo (person): Smiling woman wearing large white sunglasses
+    - photo (person): Blonde young woman close-up portrait
+- Group **logos** (needs client_logos) `c2764a50`, blocks 7
+  - **logos** “Our Clients” — 2 text, 0 photos
+- Group **cta** (core) `ea3f4bff`, blocks 8
+  - **cta** “Zakra is a Free Multipurpose free WordPress theme” — 3 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### Shop — `shop` → other
+
+
+### Cart — `cart` → other
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+## Business V3 (`business-v3`) · premium
+
+13 sections · 107/107 editable text slots · 789 words · 15/53 swappable images
+
+Fonts: heading **Lato**, body **Lato** (Lato → body)
+
+Colors: `#fdaf27` primary ×61, `#ffffff` background ×54, `#001842` secondary ×54, `#343a40` text ×12, `#212529` text ×10, `#16181a` text ×9, `#e9ecef` background ×6, `#fafafa` background ×3, `#f9f9f9` background ×2, `#000000` text ×2, `#51585f` muted ×2, `#3f3f46` text ×2, `#e4e4e7` background ×2, `#027abb` secondary (+0.241) ×2, `#f8f8f8` background ×1
+
+Contrast pairs checked after recoloring: 20
+
+### Home — `home` → home
+
+- Group **hero** (core) `c624b38b`, blocks 0
+  - **hero** “Committed to improving the lives of people worldwide.” — 3 text, 1 photos · lorem
+    - photo (group): Smiling businesswomen working at computers in an office
+- Group **content** (core) `ee02a298`, blocks 1
+  - **content** “In order to succeed, your desire for success should be greater than your fear of failure.” — 5 text, 2 photos · lorem
+    - photo (group): Business team meeting around a laptop with yellow overlay
+    - photo (person): Senior businessman in a suit holding a credit card at a desk
+- Group **cta** (core) `88ca28a9`, blocks 2
+  - **cta** “Design like you are absolutely right, then optimize like you were wrong from the start.” — 2 text, 0 photos
+- Group **features** (core) `7997db0d`, blocks 3
+  - **features** “Ecommerce Solutions” — 6 text, 0 photos · lorem
+- Group **team** (needs team) `62e9f18e`, blocks 4
+  - **team** “I'm looking to expand my portfolio while I'm on top and while I'm young.” — 11 text, 0 photos
+- Group **content** (core) `3b135837`, blocks 5
+  - **content** “We do whatever we can to help our clients do whatever it is they want to do.” — 7 text, 0 photos · lorem
+- Group **cta** (core) `8fa49396`, blocks 6
+  - **cta** “We do whatever we can to help our clients do whatever it is they want to do.” — 3 text, 0 photos · lorem
+- Group **posts** (needs blog) `4fe37f51`, blocks 7
+  - **posts** “Subscribe to our email newsletter today to receive updates on the latest news, tutorials and special offers” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `2d47ce07`, blocks 0
+  - **hero** “Marketing is no longer about the stuff that you make, but about the stories you tell.” — 7 text, 1 photos · lorem
+    - photo (group): Two women chatting and laughing while seated indoors
+- Group **team** (needs team) `207ea0c6`, blocks 1
+  - **team** “Coming together is a beginning. Keeping together is progress. Working together is success.” — 13 text, 0 photos
+- Group **content** (core) `43c0db52`, blocks 2
+  - **content** “Marketing is no longer about the stuff that you make, but about the stories you tell.” — 5 text, 1 photos · lorem
+    - photo (group): Two women working together at an office desk
+
+### Services — `services` → services
+
+- Group **hero** (core) `ec98b61b`, blocks 0
+  - **hero** “Ecommerce Solutions” — 24 text, 0 photos · lorem
+
+### Portfolio — `portfolio` → services
+
+- Group **hero** (core) `f3452d08`, blocks 0
+  - **hero** “Interz Tech.” — 20 text, 10 photos
+    - photo (object): Hand holding a smartphone showing a skyscraper photo
+    - photo (object): Smartphone showing Facebook login on a wooden table
+    - photo (object): Hands taking a photo of an arched corridor with a smartphone
+    - photo (object): Hand holding an iPhone mockup with a plant photo
+    - photo (object): Hand holding a smartphone with an app splash screen
+    - photo (object): Hand holding an Android smartphone showing app icons
+    - photo (object): Woman's hands holding a Windows phone in a cafe
+    - photo (object): Hands holding an iPhone mockup with blank blue screen
+    - photo (object): Hand holding a smartphone showing an Instagram profile
+    - photo (object): Finger touching a gold iPhone screen on a table
+
+## Care 03 (`care-03`) · premium
+
+26 sections · 159/162 editable text slots · 1654 words · 25/36 swappable images
+
+Fonts: heading **Changa One**, body **Open Sans** (Changa One → heading, Open Sans → body)
+
+Colors: `#222222` text ×125, `#f8c240` primary ×53, `#000000` text ×38, `#ffffff` background ×35, `#0a66c2` secondary ×16, `#1877f2` secondary (+0.122) ×8, `#bd081c` accent [locked: accent] ×8, `#e9ecef` background ×6, `#2664eb` secondary (+0.135) ×5, `#fafafa` background ×4, `#aaaaaa` muted ×3, `#d5d8dc` muted ×2, `#e4e4e7` background ×2, `#3f3f46` text ×2, `#f7f4f4` background ×1, `#060f00` text ×1, `#d4d4d8` muted ×1, `#f7c040` primary (-0.002) ×1, `#f7ba40` primary (-0.002) ×1, `#f9c840` primary (+0.002) ×1, `#027abb` secondary (-0.029) ×1
+
+Contrast pairs checked after recoloring: 9
+
+### Home — `home` → home
+
+- Group **hero** (core) `f2f01fed`, blocks 0
+  - **hero** “Help a child without a family” — 3 text, 1 photos · lorem
+    - photo (person): Black and white portrait of a thoughtful African boy
+- Group **content** (core) `e644a673`, blocks 1
+  - **content** “Causes we care about” — 2 text, 0 photos · lorem
+- Group **content** (core) `4cac321d`, blocks 2
+  - **content** “Actions speak louder than words! Give today.” — 16 text, 3 photos · lorem
+    - photo (group): African children carrying water containers in a village
+    - photo (group): Smiling African children posing together outdoors
+    - photo (group): African children sitting at wooden school desks
+- Group **cta** (core) `c3aa09e1`, blocks 3
+  - **cta** (untitled) — 1 text, 0 photos
+- Group **cta** (core) `057cc548`, blocks 4
+  - **cta** “Homelessness starts at home. Donations start here” — 4 text, 1 photos · lorem
+    - photo (person): Elderly homeless man in a beanie sitting on a street
+- Group **content** (core) `82becf75`, blocks 5
+  - **content** “Success Stories” — 2 text, 0 photos · lorem
+- Group **content** (core) `89c0423c`, blocks 6
+  - **content** “OUR MISSION: TO CHANGE THE LIFE OF THOSE , NO HAVE NO HOPE.” — 3 text, 1 photos · lorem
+    - photo (person): Poor child in a knit hat sitting with metal pots
+- Group **features** (core) `b2da6c5d`, blocks 7
+  - **features** “Michael Jordan” — 9 text, 0 photos · lorem
+- Group **cta** (core) `6673309a`, blocks 8
+  - **cta** “OUR MISSION: Be a part of the breakthrough and make someone’s dream come true” — 3 text, 0 photos · lorem
+- Group **posts** (needs blog) `9539e2b8`, blocks 9, 10
+  - **posts** “Latest news & events” — 2 text, 0 photos · lorem
+  - **features** “Provide drinking water to people of Africa” — 12 text, 3 photos · lorem
+    - photo (person): Young child looking away in sepia tone
+    - photo (group): Mother holding her small child in a rural home
+    - photo (person): Cupped hands holding coins and a make a change note
+- Group **cta** (core) `3008aa9c`, blocks 11
+  - **cta** (untitled) — 1 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `7cd6bfdf`, blocks 0
+  - **hero** “Explore Our Vision” — 2 text, 0 photos · lorem
+- Group **content** (core) `50d64da2`, blocks 1
+  - **content** “Our Mission” — 6 text, 0 photos · lorem
+- Group **cta** (core) `be8a2ca0`, blocks 2
+  - **cta** (untitled) — 1 text, 0 photos
+- Group **content** (core) `1d9625de`, blocks 3
+  - **content** “Help today because tomorrow you may be the one who needs helping!” — 7 text, 0 photos · lorem
+- Group **features** (core) `86c0cdad`, blocks 4, 5
+  - **content** “What we do?” — 2 text, 0 photos · lorem
+  - **features** “Charity for Education” — 12 text, 0 photos · lorem
+- Group **cta** (core) `f25efbc0`, blocks 6
+  - **cta** (untitled) — 1 text, 0 photos
+- Group **cta** (core) `eb900786`, blocks 7
+  - **cta** “BECOME A VOLUNTEER: Too busy to change the world? Spare some change.Don’t delay give today!” — 4 text, 0 photos · lorem
+- Group **gallery** (core) `23c3d8d9`, blocks 8, 9
+  - **content** “Explore Our Volunteers” — 2 text, 0 photos · lorem
+  - **gallery** “Michael Jordan” — 16 text, 8 photos
+    - photo (person): Young man with styled hair dark studio portrait
+    - photo (person): Young woman with long hair in a red sweater portrait
+    - photo (person): Young woman in a headscarf leaning on a tree
+    - photo (person): Elderly man with a white beard black and white portrait
+    - photo (person): Smiling man in a white t-shirt headshot
+    - photo (person): Woman in a striped headscarf portrait
+    - photo (person): Smiling young man in a baseball cap
+    - photo (person): Young woman with dark hair close-up portrait
+
+### Causes — `causes` → other
+
+- Group **hero** (core) `699c3215`, blocks 0
+  - **hero** “Causes we care about” — 2 text, 0 photos · lorem
+- Group **content** (core) `3aabedb8`, blocks 1
+  - **content** “Human Health Charities” — 32 text, 8 photos · lorem
+    - photo (group): African children carrying water containers in a village
+    - photo (group): African children carrying water containers in a village
+    - photo (group): Smiling African children posing together outdoors
+    - photo (group): African children sitting at wooden school desks
+    - photo (group): African children carrying water containers in a village
+    - photo (group): African children carrying water containers in a village
+    - photo (group): Smiling African children posing together outdoors
+    - photo (group): African children sitting at wooden school desks
+
+### Faq — `faq` → other
+
+- Group **hero** (core) `c263e1dc`, blocks 0
+  - **hero** “Frequently Asked Questions” — 2 text, 0 photos · lorem
+- Group **faq** (core) `afeb948a`, blocks 1
+  - **faq** (untitled) — 12 text, 0 photos · lorem
+
+## Chapel V2 (`chapel-v2`) · premium
+
+18 sections · 184/209 editable text slots · 1267 words · 37/72 swappable images
+
+Fonts: heading **Great Vibes**, body **Merriweather** (Great Vibes → heading, Merriweather → body, Roboto → body, Open Sans → body)
+
+Colors: `#333333` text ×104, `#7d7d7d` muted ×103, `#ffffff` background ×74, `#ffcd00` primary ×68, `#4c4c4c` text ×35, `#000000` text ×28, `#f4f4f4` background ×26, `#e9ecef` background ×18, `#027abb` accent (-0.163) [locked: accent] ×5, `#e4e4e7` background ×3, `#fafafa` background ×3, `#3f3f46` text ×2, `#111111` text ×1, `#2563eb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 12
+
+### Sample Page — `sample-page-2` → other
+
+
+### Home — `home` → home
+
+- Group **hero** (core) `b834fbd7`, blocks 0
+  - **hero** “We Build Hope” — 4 text, 1 photos · lorem
+    - photo (place): Church interior with congregation during a service
+- Group **features** (core) `403d7b33`, blocks 1
+  - **features** “ABOUT FLASH CHURCH” — 12 text, 3 photos · lorem
+    - photo (person): Silhouette of a man kneeling in prayer at sunrise
+    - photo (place): Cross on a hilltop overlooking a lit town at night with a person
+    - photo (place): Sunbeams over a fjord with mountains
+- Group **content** (core) `113632d5`, blocks 2
+  - **content** “ABOUT FLASH CHURCH” — 5 text, 1 photos · lorem
+    - photo (place): Ornate church altar and pews interior
+- Group **testimonials** (core) `ec4fe768`, blocks 3
+  - **testimonials** (untitled) — 6 text, 1 photos · lorem
+    - photo (place): Church steeples silhouetted against a sunset sky
+- Group **features** (core) `c292f5a9`, blocks 4
+  - **features** “ABOUT FLASH CHURCH” — 12 text, 3 photos · lorem
+    - photo (place): Church interior with congregation during a service
+    - photo (place): Gothic cathedral facade among city skyscrapers
+    - photo (place): Ornate church altar with a crucifix
+- Group **team** (needs team) `5677fc9d`, blocks 5
+  - **team** “ABOUT FLASH CHURCH” — 11 text, 0 photos · lorem
+- Group **team** (needs team) `9448f4cd`, blocks 6
+  - **team** “ABOUT FLASH CHURCH” — 15 text, 4 photos · lorem
+    - photo (place): Cross on a grassy hill at sunset
+    - photo (place): Modern church altar with a large wooden cross
+    - photo (group): Priests in robes performing a ritual at a church altar
+    - photo (place): Church service with clergy and congregation before a mural
+- Group **features** (core) `cd0f2e01`, blocks 7
+  - **features** “ABOUT FLASH CHURCH” — 12 text, 4 photos · lorem
+    - photo (place): Onion-domed cathedral cutout
+    - photo (object): Classical painting of the nativity with kneeling figures
+    - photo (place): White church in a snowy mountain landscape
+    - photo (place): Church service with clergy and congregation before a mural
+- Group **dynamic** (core) `5b12956a`, blocks 8
+  - **dynamic** “Subscribe to our newsletter today and get updates weekly!” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+### About us — `about-us` → about
+
+- Group **hero** (core) `742226fc`, blocks 0
+  - **hero** “ABOUT FLASH CHURCH” — 19 text, 0 photos · lorem
+- Group **testimonials** (core) `358cb158`, blocks 1
+  - **testimonials** (untitled) — 6 text, 1 photos · lorem
+    - photo (place): Church steeples silhouetted against a sunset sky
+- Group **stats** (needs stats) `3b82b272`, blocks 2
+  - **stats** (untitled) — 4 text, 1 photos
+    - photo (place): Ornate church interior panorama
+- Group **team** (needs team) `c7c23282`, blocks 3
+  - **team** “ABOUT FLASH CHURCH” — 11 text, 0 photos · lorem
+- Group **dynamic** (core) `5d7d5e2a`, blocks 4
+  - **dynamic** “Subscribe to our newsletter today and get updates weekly!” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+### Events — `events` → other
+
+- Group **hero** (core) `9c1d7c80`, blocks 0
+  - **hero** “Building Holy and Healthier Live’s God” — 27 text, 9 photos
+    - photo (person): Silhouette of a man kneeling in prayer at sunrise
+    - photo (place): Cross on a hilltop overlooking a lit town at night with a person
+    - photo (place): Sunbeams over a fjord with mountains
+    - photo (person): Silhouette of a man kneeling in prayer at sunrise
+    - photo (place): Cross on a hilltop overlooking a lit town at night with a person
+    - photo (place): Sunbeams over a fjord with mountains
+    - photo (person): Silhouette of a man kneeling in prayer at sunrise
+    - photo (place): Cross on a hilltop overlooking a lit town at night with a person
+    - photo (place): Sunbeams over a fjord with mountains
+- Group **dynamic** (core) `5d7d5e2a`, blocks 1
+  - **dynamic** “Subscribe to our newsletter today and get updates weekly!” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+### Our Sermons — `our-sermons` → other
+
+- Group **hero** (core) `0742c395`, blocks 0
+  - **hero** “Get satisfaction and happiness for your souls.” — 36 text, 9 photos · lorem
+    - photo (place): Modern church altar with a large wooden cross
+    - photo (group): Priests in robes performing a ritual at a church altar
+    - photo (place): Church service with clergy and congregation before a mural
+    - photo (place): Church interior with a crucifix above the altar
+    - photo (place): Ornate Gothic church altar interior
+    - photo (place): Simple church interior with people in pews
+    - photo (place): Baroque church nave with pews leading to the altar
+    - photo (place): Church interior with red carpet aisle and wooden pews
+    - photo (place): Small black wooden church with red roof on a hillside
+- Group **dynamic** (core) `5d7d5e2a`, blocks 1
+  - **dynamic** “Subscribe to our newsletter today and get updates weekly!” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+<details><summary>Warnings</summary>
+
+- home: unmapped text in blockart/progress.text: "$25,000 / $52,000 To go"
+- home: unmapped text in blockart/progress.text: "$25,000 / $52,000 To go"
+- home: unmapped text in blockart/progress.text: "$25,000 / $52,000 To go"
+
+</details>
+
+## Zakra Charity (`charity-02`)
+
+15 sections · 67/73 editable text slots · 606 words · 15/17 swappable images
+
+Fonts: heading **Poppins**, body **Roboto** (Poppins → heading, Roboto → body, Montserrat → heading)
+
+Colors: `#ffffff` background ×52, `#363b40` text ×26, `#5bded5` primary ×22, `#000000` text ×19, `#0f1012` text ×14, `#2563eb` secondary ×13, `#16181a` text ×8, `#e9ecef` background ×5, `#f3f5f7` background ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#3f3f46` text ×1, `#027abb` secondary (-0.163) ×1
+
+Contrast pairs checked after recoloring: 9
+
+### Home — `home` → home
+
+- Group **hero** (core) `e804b1c8`, blocks 0
+  - **hero** “Together We Can” — 3 text, 1 photos
+    - photo (group): Poor mother and children carrying bananas
+- Group **content** (core) `c92f123d`, blocks 1
+  - **content** “WHO WE ARE” — 1 text, 0 photos
+- Group **content** (core) `73020bf8`, blocks 2
+  - **content** (untitled) — 7 text, 1 photos
+    - photo (person): African boy close-up portrait
+- Group **content** (core) `021ae02e`, blocks 3
+  - **content** “Help the Childrens” — 3 text, 1 photos
+    - photo (group): Smiling children peeking out of a window
+- Group **features** (core) `e679fce9`, blocks 4, 5
+  - **content** “WHAT WE DO” — 1 text, 0 photos
+  - **features** “We are there” — 13 text, 0 photos · lorem
+- Group **cta** (core) `e4c4eb53`, blocks 6
+  - **cta** “Provide a helping hand” — 3 text, 0 photos
+- Group **features** (core) `628f026d`, blocks 7, 8
+  - **content** “SOME CAUSES” — 1 text, 0 photos
+  - **features** “Educated Children from sum of India” — 6 text, 3 photos
+    - photo (group): Smiling young girls posing together outdoors
+    - photo (person): Sad young boy peeking through wooden bars
+    - photo (person): African boy in a green shirt standing in a dry field
+- Group **cta** (core) `6307b573`, blocks 9
+  - **cta** “We need you and your help” — 3 text, 1 photos
+    - photo (group): Volunteers in matching t-shirts in a circle looking down
+
+### Contact — `contact` → contact
+
+- Group **hero** (core) `10b68436`, blocks 0
+  - **hero** “CONTACT INFO” — 3 text, 1 photos
+    - photo (group): Poor mother and children carrying bananas
+
+### Causes — `causes` → other
+
+- Group **hero** (core) `94e01444`, blocks 0
+  - **hero** “SOME CAUSES” — 9 text, 4 photos
+    - photo (group): Smiling young girls posing together outdoors
+    - photo (person): Sad young boy peeking through wooden bars
+    - photo (group): Smiling children peeking out of a window
+    - photo (person): African boy in a green shirt standing in a dry field
+
+### About — `about` → about
+
+- Group **hero** (core) `b82c55d0`, blocks 0
+  - **hero** “WHO WE ARE” — 7 text, 2 photos · lorem
+    - photo (group): Group of African youths and children posing together
+    - photo (group): African children receiving donated items
+- Group **stats** (needs stats) `4cbdff45`, blocks 1
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **cta** (core) `92eea1d9`, blocks 2
+  - **cta** “We need you and your help” — 3 text, 1 photos
+    - photo (group): Volunteers in matching t-shirts in a circle looking down
+
+### Blog — `blog` → blog
+
+
+## Zakra Cleaner V2 (`cleaner-v2`) · premium
+
+24 sections · 146/161 editable text slots · 1031 words · 19/70 swappable images
+
+Fonts: heading **Mulish**, body **Mulish** (Mulish → body)
+
+Colors: `#111111` text ×95, `#ffffff` background ×67, `#29a268` primary ×53, `#13287e` secondary ×51, `#e9ecef` background ×17, `#eae2e2` background ×7, `#000000` text ×5, `#16181a` text ×4, `#707070` muted ×3, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#13287d` secondary (-0.002) ×3, `#fefefe` background ×2, `#f9f9f9` background ×1, `#f5faf8` background ×1, `#f1f1f1` background ×1, `#fcfcfc` background ×1, `#06965d` primary (-0.092) ×1, `#06965c` primary (-0.092) ×1, `#2563eb` secondary (+0.249) ×1, `#027abb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 22
+
+### Home — `home` → home
+
+- Group **hero** (core) `939fefdb`, blocks 0
+  - **hero** “make your place as good as new” — 4 text, 1 photos · lorem
+    - photo (object): Gloved hand holding a cleaning spray bottle
+- Group **content** (core) `d9e8ff2f`, blocks 1
+  - **content** “We are certified company since 1990” — 9 text, 1 photos · lorem
+    - photo (person): Man cleaning a window with a squeegee
+- Group **features** (core) `e5b6de7b`, blocks 2
+  - **features** “We Provide Our Best Cleaning Services For You” — 11 text, 0 photos · lorem
+- Group **cta** (core) `72e3c545`, blocks 3
+  - **cta** “Call us today for A free estimate at :” — 3 text, 1 photos
+    - photo (person): Window cleaner rappelling down a glass building
+- Group **pricing** (needs pricing_plans) `f82d3b76`, blocks 4
+  - **pricing** “Choose Your Affordable Pricing Plan” — 28 text, 0 photos · lorem
+- Group **gallery** (needs portfolio) `d9c587b5`, blocks 5
+  - **gallery** “Our Recent Projects” — 4 text, 6 photos · lorem
+    - photo (person): Man cleaning a glass door with a squeegee
+    - photo (person): Rope access window cleaner with a bucket on a building
+    - photo (group): Window cleaners rappelling down a glass skyscraper
+    - photo (person): Woman in mask and gloves cleaning a window
+    - photo (person): Man washing a car with a pressure washer
+    - photo (person): Man cleaning a window on a building facade
+- Group **stats** (needs stats) `47ef5b30`, blocks 6
+  - **stats** (untitled) — 4 text, 1 photos
+    - photo (group): Workers cleaning a glass dome roof
+- Group **team** (needs team) `d59123a8`, blocks 7
+  - **team** “Meet Our Experts” — 10 text, 3 photos · lorem
+    - photo (person): Young man in a beanie against a red wall portrait
+    - photo (person): Young man with curly hair in a white shirt portrait
+    - photo (person): Young woman with wavy red hair portrait
+- Group **testimonials** (core) `e8fa2438`, blocks 8
+  - **testimonials** “What Our Customers Are Saying” — 10 text, 0 photos · lorem
+- Group **posts** (needs blog) `feedaf5a`, blocks 9
+  - **posts** “Our Latest Blog” — 13 text, 3 photos · lorem
+    - photo (place): Cozy bedroom with a double bed and framed pictures on the wall
+    - photo (person): Smiling man in a blue t-shirt cleaning a glass window
+    - photo (person): Smiling man in a plaid shirt washing dishes in a kitchen
+- Group **logos** (needs client_logos) `f9af4b3c`, blocks 10
+  - **logos** (untitled) — 0 text, 0 photos
+- Group **stats** (needs stats) `ba2870c1`, blocks 11
+  - **stats** (untitled) — 1 text, 1 photos
+    - photo (group): Workers cleaning a glass dome roof
+
+### ABOUT — `about` → about
+
+- Group **hero** (core) `d4fa3290`, blocks 0
+  - **hero** “We Are Certified Company Since 1990” — 3 text, 0 photos · lorem
+- Group **content** (core) `d9e8ff2f`, blocks 1
+  - **content** “Our Mission Is To Make Your Place Beautiful” — 7 text, 1 photos · lorem
+    - photo (place): Bright children's bedroom with a white daybed and tree wall decal
+- Group **content** (core) `10db2dae`, blocks 2
+  - **content** (untitled) — 2 text, 0 photos · lorem
+- Group **cta** (core) `7cbf8b63`, blocks 3
+  - **cta** “Call Us Today For A Free Estimate At” — 3 text, 0 photos
+- Group **stats** (needs stats) `47ef5b30`, blocks 4
+  - **stats** (untitled) — 4 text, 1 photos
+    - photo (group): Workers cleaning a glass dome roof
+- Group **testimonials** (core) `e8fa2438`, blocks 5
+  - **testimonials** “What Our Customers Are Saying” — 10 text, 0 photos · lorem
+- Group **logos** (needs client_logos) `f9af4b3c`, blocks 6
+  - **logos** (untitled) — 0 text, 0 photos
+
+### BLOG — `blog` → blog
+
+
+### CONTACT — `contact` → contact
+
+- Group **hero** (core) `50649664`, blocks 0
+  - **hero** “Feel Free To Call Us” — 6 text, 0 photos
+- Group **dynamic** (core) `be8145a0`, blocks 1
+  - **dynamic** “get in touch” — 2 text, 0 photos · lorem · dynamic: core/shortcode
+- Group **logos** (needs client_logos) `f9af4b3c`, blocks 2
+  - **logos** (untitled) — 0 text, 0 photos
+
+### SERVICES — `services` → services
+
+- Group **hero** (core) `0e96b860`, blocks 0
+  - **hero** “Office Cleaning” — 12 text, 0 photos · lorem
+- Group **logos** (needs client_logos) `f9af4b3c`, blocks 1
+  - **logos** (untitled) — 0 text, 0 photos
+
+## Coffee Shop (`coffee-shop`) · premium
+
+14 sections · 79/84 editable text slots · 808 words · 22/55 swappable images
+
+Fonts: heading **Elsie**, body **DM Sans** (Elsie → heading, DM Sans → body, Roboto → heading)
+
+Colors: `#ffffff` background ×70, `#61493e` primary ×50, `#261f1f` text ×35, `#af9375` primary (+0.261) ×22, `#666666` muted ×14, `#e9ecef` background ×9, `#fcfcfc` background ×7, `#fafafa` background ×3, `#000000` text ×2, `#e4e4e7` background ×2, `#9d8e8e` muted ×1, `#af9e9e` muted ×1, `#e8e4e2` muted ×1, `#b4b4b4` muted ×1, `#efecea` background ×1, `#16181a` text ×1, `#3f3f46` text ×1, `#2fc8d6` accent [locked: accent] ×1, `#027abb` accent (-0.141) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 8
+
+### Home — `home` → home
+
+- Group **hero** (core) `f7199e07`, blocks 0
+  - **hero** “Taste the Difference in Every Sip” — 6 text, 2 photos · lorem
+    - photo (object): White cup of coffee on a saucer with coffee beans
+    - photo (object): Espresso pouring from a machine into a cup
+- Group **cta** (core) `d39f833f`, blocks 1
+  - **cta** “We connect our customer with best solution” — 3 text, 1 photos · lorem
+    - photo (group): Friends laughing and drinking coffee together at a cafe table
+- Group **dynamic** (needs products) `2f89d9ae`, blocks 2
+  - **dynamic** “Best Seller Product” — 3 text, 0 photos · lorem · dynamic: woocommerce/product-tag
+- Group **testimonials** (core) `f467faf3`, blocks 3
+  - **testimonials** “What our customer says” — 13 text, 4 photos · lorem
+- Group **cta** (core) `2ae40612`, blocks 4
+  - **cta** “What Happens Here” — 3 text, 1 photos
+    - photo (place): Cafe counter with pastries under glass domes and bread baskets
+- Group **gallery** (core) `6c60e838`, blocks 5
+  - **gallery** “Our Sweet gallery” — 2 text, 6 photos · lorem
+    - photo (person): Barista pouring hot water into a pour-over coffee dripper
+    - photo (object): Steaming cup of coffee with a croissant on a saucer
+    - photo (object): Espresso pouring from a portafilter of a coffee machine
+    - photo (person): Smiling barista pouring coffee into cups at a counter
+    - photo (object): Cup of latte with latte art on a wooden table
+    - photo (object): Two espresso cups being filled by a coffee machine
+- Group **features** (core) `7090fd1d`, blocks 6
+  - **features** “We Produce Delicious Natural Coffee For you” — 14 text, 1 photos · lorem
+    - photo (object): Coffee cup spilling roasted coffee beans on burlap
+- Group **posts** (needs blog) `890a6ba4`, blocks 7
+  - **posts** “Explore Our Blog” — 11 text, 3 photos · lorem
+    - photo (person): Barista pouring water into a row of pour-over coffee drippers
+    - photo (person): Man with glasses tasting coffee at a cafe bar
+    - photo (person): Tattooed barista steaming milk in a pitcher at an espresso machine
+
+### Blog — `blog` → blog
+
+
+### Shop — `shop` → other
+
+
+### My account — `my-account` → other
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `3a3b1775`, blocks 0
+  - **hero** “We connect our customer with best solution” — 2 text, 1 photos · lorem
+    - photo (group): Friends laughing and drinking coffee together at a cafe table
+- Group **features** (core) `b03b7842`, blocks 1
+  - **features** “Free Delivery” — 4 text, 1 photos
+- Group **features** (core) `3076a4a2`, blocks 2
+  - **features** “We Produce Delicious Natural Coffee For you” — 14 text, 1 photos · lorem
+    - photo (object): Coffee cup spilling roasted coffee beans on burlap
+- Group **testimonials** (core) `e602a857`, blocks 3
+  - **testimonials** “What our customer says” — 3 text, 0 photos · lorem
+- Group **dynamic** (core) `475c4f41`, blocks 4
+  - **dynamic** “Your favourite coffees, delivered to your door every month” — 1 text, 1 photos · dynamic: everest-forms/form-selector
+    - photo (object): Coffee beans scattered on a concrete surface
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/07/profile1-1.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/07/profile2-1.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/07/profile3-1.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/07/profile5-1.png
+- about-us: photo not in data/photo-descriptions.json: https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/about-page-1.jpg
+
+</details>
 
 ## Construction 02 (`construction-02`)
 
@@ -96,20 +990,32 @@ Contrast pairs checked after recoloring: 17
 
 - Group **hero** (core) `f4657852`, blocks 0
   - **hero** “7 YEARS OF FIELD EXPERIENCE” — 5 text, 1 photos
+    - photo (object): Large yellow wheel loader on a plain background
 - Group **content** (core) `ecdefdc0`, blocks 1
   - **content** “CONSTRUCTION” — 6 text, 0 photos
 - Group **content** (core) `c9fcdcb3`, blocks 2
   - **content** “RENOVATION” — 6 text, 0 photos
 - Group **gallery** (needs portfolio) `ff18a691`, blocks 3
   - **gallery** “Our projects” — 7 text, 5 photos
+    - photo (place): Historic red brick building among city skyscrapers
+    - photo (place): White church with a bell tower against a blue sky
+    - photo (place): Modern apartment building on a city street corner
+    - photo (place): Pedestrian bridge in front of a city skyline
+    - photo (place): Row of colorful Victorian houses
 - Group **team** (needs team) `f4d20d91`, blocks 4
   - **team** “PROFESSIONALS BEHIND” — 11 text, 3 photos
+    - photo (person): Professional woman with long dark hair in an office, headshot
+    - photo (person): Smiling young man with wavy hair, black and white headshot
+    - photo (person): Man in a denim shirt looking through a camera lens
 - Group **testimonials** (core) `dd2447dc`, blocks 5
   - **testimonials** “WHAT OUR CLIENTS SAY” — 8 text, 2 photos
+    - photo (person): Young woman with a red bob haircut, headshot
+    - photo (person): Young woman with a red bob haircut, headshot
 - Group **pricing** (needs pricing_plans) `a9e3f455`, blocks 6
   - **pricing** “OUR PRICING” — 23 text, 0 photos
 - Group **logos** (needs client_logos) `db0c0e52`, blocks 7
   - **logos** “OUR HAPPY CLIENTS” — 1 text, 1 photos
+    - photo (place): City skyline at sunset
 - Group **stats** (needs stats) `d271cb69`, blocks 8
   - **stats** “Achievements” — 5 text, 0 photos
 
@@ -120,10 +1026,15 @@ Contrast pairs checked after recoloring: 17
 
 - Group **hero** (core) `f4657852`, blocks 0
   - **hero** “Introduction” — 4 text, 1 photos
+    - photo (object): Large yellow wheel loader on a plain background
 - Group **logos** (needs client_logos) `db0c0e52`, blocks 1
   - **logos** “OUR HAPPY CLIENTS” — 1 text, 1 photos
+    - photo (place): City skyline at sunset
 - Group **team** (needs team) `f4d20d91`, blocks 2
   - **team** “Our team” — 11 text, 3 photos
+    - photo (person): Professional woman with long dark hair in an office, headshot
+    - photo (person): Smiling young man with wavy hair, black and white headshot
+    - photo (person): Man in a denim shirt looking through a camera lens
 - Group **stats** (needs stats) `d271cb69`, blocks 3
   - **stats** “Achievements” — 5 text, 0 photos
 
@@ -131,17 +1042,594 @@ Contrast pairs checked after recoloring: 17
 
 - Group **hero** (core) `a31e8e35`, blocks 0
   - **hero** (untitled) — 0 text, 1 photos
+    - photo (place): Aerial view of a resort pool surrounded by gardens
 - Group **features** (core) `d6dba376`, blocks 1
   - **features** “Project Description” — 16 text, 1 photos
+    - photo (object): Large yellow wheel loader on a plain background
 
 ### Our Team — `our-team` → other
 
 - Group **hero** (core) `f4d20d91`, blocks 0
   - **hero** “ARCHITECT TEAM” — 11 text, 3 photos
+    - photo (person): Professional woman with long dark hair in an office, headshot
+    - photo (person): Smiling young man with wavy hair, black and white headshot
+    - photo (person): Man in a denim shirt looking through a camera lens
 - Group **team** (needs team) `563d2afa`, blocks 1
   - **team** “OFFICE TEAM” — 11 text, 3 photos
+    - photo (person): Professional woman with long dark hair in an office, headshot
+    - photo (person): Smiling young man with wavy hair, black and white headshot
+    - photo (person): Man in a denim shirt looking through a camera lens
 - Group **team** (needs team) `74fdd7d4`, blocks 2
   - **team** “FIELD TEAM” — 11 text, 3 photos
+    - photo (person): Professional woman with long dark hair in an office, headshot
+    - photo (person): Smiling young man with wavy hair, black and white headshot
+    - photo (person): Man in a denim shirt looking through a camera lens
+
+## Construction V3 (`construction-v3`) · premium
+
+23 sections · 98/107 editable text slots · 866 words · 14/41 swappable images
+
+Fonts: heading **Oswald**, body **Open Sans** (Oswald → heading, Open Sans → body)
+
+Colors: `#000000` text ×79, `#ffc40e` primary ×40, `#16181a` text ×37, `#212529` text ×30, `#ffffff` background ×24, `#3f3f46` text ×7, `#e9ecef` background ×6, `#027abb` accent [locked: accent] ×4, `#e4e4e7` background ×3, `#fafafa` background ×3, `#d16519` primary (-0.069) ×2, `#ff1f1f` accent [locked: accent] ×2, `#d4d4d8` muted ×1, `#1e7ba6` accent (+0.014) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 11
+
+### Home — `home` → home
+
+- Group **hero** (core) `135c5f1b`, blocks 0
+  - **hero** “With us you don’t need to guess, our work will sure impress!” — 3 text, 2 photos · lorem
+    - photo (object): Yellow wheel loader on a dirt construction site
+    - photo (object): Yellow wheel loader parked on a gravel site
+- Group **content** (core) `cb9f3374`, blocks 1
+  - **content** “Call us:” — 1 text, 0 photos
+- Group **cta** (core) `00b5d408`, blocks 2
+  - **cta** “When it comes to your house, don’t mess with the rest, trust the best no matter whatever it takes” — 4 text, 2 photos · lorem
+    - photo (object): Orange excavator digging at a sandy construction site
+    - photo (object): Backhoe loader parked at a work site near trees
+- Group **content** (core) `5e8a74a5`, blocks 3
+  - **content** “Save yourself trouble and aggravation, hire us for your renovation.” — 1 text, 0 photos
+- Group **content** (core) `ca51fd75`, blocks 4
+  - **content** “Construction” — 9 text, 1 photos · lorem
+    - photo (object): Yellow wheel loader on a dirt mound
+- Group **logos** (needs client_logos) `74a96d3c`, blocks 5
+  - **logos** (untitled) — 0 text, 0 photos
+- Group **content** (core) `b60ad1dd`, blocks 6
+  - **content** “For your roofing and siding, quality we’ll be providing!” — 9 text, 2 photos · lorem
+    - photo (place): Modern glass skyscraper seen from below
+    - photo (place): Burj Khalifa tower against a blue sky
+- Group **content** (core) `419f9b4d`, blocks 7
+  - **content** “In our work we have pride, quality is what we provide.” — 1 text, 0 photos
+- Group **content** (core) `67617de2`, blocks 8
+  - **content** “Turning ideas into action.” — 8 text, 2 photos · lorem
+    - photo (object): Orange excavator working in muddy ground
+    - photo (object): Yellow excavator with raised arm at dusk
+- Group **content** (core) `9b661d81`, blocks 9
+  - **content** “We’re the construction kings, building up great things.” — 1 text, 0 photos
+- Group **content** (core) `373e86bf`, blocks 10
+  - **content** “Lothan Carey” — 6 text, 0 photos · lorem
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `a1d4c785`, blocks 0
+  - **hero** “Save yourself trouble and aggravation, hire us for your renovation.” — 1 text, 0 photos
+- Group **content** (core) `0a9156a8`, blocks 1
+  - **content** “25 Years of Hands Of Experience” — 9 text, 1 photos · lorem
+    - photo (object): Wheel loader at a construction site at night
+- Group **content** (core) `b414ed60`, blocks 2
+  - **content** “Save yourself trouble and aggravation, hire us for your renovation.” — 1 text, 0 photos
+- Group **content** (core) `bb2dc70d`, blocks 3
+  - **content** “Our Mission” — 6 text, 0 photos · lorem
+- Group **content** (core) `06d27909`, blocks 4
+  - **content** “Save yourself trouble and aggravation, hire us for your renovation.” — 1 text, 0 photos
+- Group **content** (core) `e402df40`, blocks 5
+  - **content** “Michael Andrey” — 6 text, 3 photos
+    - photo (person): Man in glasses and a blazer headshot portrait
+    - photo (person): Smiling young woman with glasses resting her chin on her hand
+    - photo (person): Smiling businessman in a suit with arms crossed
+- Group **content** (core) `857a690e`, blocks 6
+  - **content** “Save yourself trouble and aggravation, hire us for your renovation.” — 1 text, 0 photos
+- Group **content** (core) `6466c72d`, blocks 7
+  - **content** “Explore Zakra Awesome Numbers” — 6 text, 1 photos · lorem
+    - photo (object): Wheel loader at a construction site at night
+
+### Services — `services` → services
+
+- Group **hero** (core) `b414ed60`, blocks 0
+  - **hero** “Save yourself trouble and aggravation, hire us for your renovation.” — 1 text, 0 photos
+- Group **content** (core) `bb2dc70d`, blocks 1
+  - **content** “Construction” — 18 text, 0 photos · lorem
+
+### Contact — `contact` → contact
+
+- Group **hero** (core) `b414ed60`, blocks 0
+  - **hero** “Save yourself trouble and aggravation, hire us for your renovation.” — 1 text, 0 photos
+- Group **dynamic** (core) `71739fa9`, blocks 2
+  - **dynamic** “Keep In touch” — 4 text, 0 photos · dynamic: everest-forms/form-selector
+
+<details><summary>Warnings</summary>
+
+- contact: unmapped text in blockart/map.address: "lastminute.com London Eye"
+
+</details>
+
+## Counselling V2 (`counselling-v2`) · premium
+
+24 sections · 177/181 editable text slots · 1579 words · 36/65 swappable images
+
+Fonts: heading **Lora**, body **Rubik** (Lora → heading, Rubik → body, Roboto → heading)
+
+Colors: `#f4145c` primary ×117, `#ffffff` background ×115, `#115294` secondary ×90, `#fff5f5` background ×44, `#e9ecef` background ×5, `#fafafa` background ×4, `#000000` text ×3, `#e4e4e7` background ×3, `#16181a` text ×3, `#027abb` secondary (+0.047) ×3, `#3f3f46` text ×2, `#d4d4d8` muted ×1, `#1e7ba6` secondary (+0.061) ×1
+
+Contrast pairs checked after recoloring: 14
+
+### Home — `home` → home
+
+- Group **hero** (core) `84fa4a57`, blocks 0
+  - **hero** “Discover The” — 4 text, 1 photos · lorem
+    - photo (person): Elderly woman in a black coat sitting thoughtfully in a chair
+- Group **features** (core) `3c5ecb61`, blocks 1
+  - **features** “I Can Help You” — 14 text, 4 photos · lorem
+    - photo (group): Therapist talking with a stressed woman in a counseling session
+    - photo (person): Businessman celebrating with clenched fists at his laptop
+    - photo (person): Cheerful man in a beanie giving a thumbs up at a desk
+    - photo (group): Elderly couple drinking coffee together
+- Group **cta** (core) `e137ebf1`, blocks 2
+  - **cta** “Together We” — 4 text, 1 photos · lorem
+    - photo (person): Elderly woman in glasses sitting with arms crossed
+- Group **stats** (needs stats) `3896b394`, blocks 3
+  - **stats** “Let The” — 7 text, 0 photos · lorem
+- Group **features** (core) `2525e183`, blocks 4
+  - **features** “For Whom I Serve” — 14 text, 4 photos · lorem
+    - photo (group): Young family with two kids posing at home
+    - photo (group): Two teenage boys sitting on steps looking at phones
+    - photo (person): Cheerful man in a beanie giving a thumbs up at a desk
+    - photo (group): Elderly couple drinking coffee together
+- Group **content** (core) `c97ef891`, blocks 5
+  - **content** “The Best Thing” — 3 text, 1 photos · lorem
+    - photo (group): Therapist talking with a young man in a counseling session
+- Group **cta** (core) `4bfa1e19`, blocks 6
+  - **cta** “Online Session” — 4 text, 1 photos · lorem
+    - photo (person): Elderly woman sitting in a chair in a bright room
+- Group **testimonials** (core) `f80f66a1`, blocks 7
+  - **testimonials** “Review From Clients” — 10 text, 4 photos · lorem
+    - photo (person): Young woman with curly hair portrait
+    - photo (person): Businessman celebrating with clenched fists at his laptop
+    - photo (person): Cheerful man in a beanie giving a thumbs up at a desk
+    - photo (person): Elderly woman in a black hat and glasses sitting
+- Group **cta** (core) `df6775ac`, blocks 8
+  - **cta** “Request A Free Consultation” — 3 text, 0 photos · lorem
+- Group **posts** (needs blog) `f81f47e8`, blocks 9
+  - **posts** “Latest Article” — 11 text, 0 photos · lorem
+
+### Blog — `blog` → blog
+
+
+### About Me — `about-me` → about
+
+- Group **hero** (core) `c8ed8307`, blocks 0
+  - **hero** “About Me” — 2 text, 0 photos · lorem
+- Group **cta** (core) `4bfa1e19`, blocks 1
+  - **cta** “Hello !” — 4 text, 1 photos · lorem
+    - photo (group): Therapist talking with a stressed woman in a counseling session
+- Group **features** (core) `81f21d47`, blocks 2
+  - **features** “Why Choose Me” — 10 text, 0 photos · lorem
+- Group **content** (core) `c97ef891`, blocks 3
+  - **content** “The Best Thing” — 3 text, 1 photos · lorem
+    - photo (group): Therapist talking with a young man in a counseling session
+- Group **features** (core) `3c5ecb61`, blocks 4
+  - **features** “I Can Help You” — 14 text, 4 photos · lorem
+    - photo (group): Therapist talking with a stressed woman in a counseling session
+    - photo (person): Businessman celebrating with clenched fists at his laptop
+    - photo (person): Cheerful man in a beanie giving a thumbs up at a desk
+    - photo (group): Elderly couple drinking coffee together
+- Group **features** (core) `c0e62282`, blocks 5
+  - **features** “My Education” — 8 text, 0 photos · lorem
+- Group **testimonials** (core) `f80f66a1`, blocks 6
+  - **testimonials** “Review From Clients” — 10 text, 4 photos · lorem
+    - photo (person): Young woman with curly hair portrait
+    - photo (person): Businessman celebrating with clenched fists at his laptop
+    - photo (person): Cheerful man in a beanie giving a thumbs up at a desk
+    - photo (person): Elderly woman in a black hat and glasses sitting
+- Group **cta** (core) `df6775ac`, blocks 7
+  - **cta** “Request A Free Consultation” — 3 text, 0 photos · lorem
+- Group **posts** (needs blog) `f81f47e8`, blocks 8
+  - **posts** “Latest Article” — 11 text, 0 photos · lorem
+
+### Events — `events` → other
+
+- Group **hero** (core) `c8ed8307`, blocks 0
+  - **hero** “Events” — 2 text, 0 photos · lorem
+- Group **features** (core) `3c5ecb61`, blocks 1
+  - **features** “Join My Events” — 29 text, 9 photos · lorem
+    - photo (group): Audience seated watching a conference presentation
+    - photo (group): Audience at a conference with a woman raising her fist
+    - photo (group): Young audience seated at a seminar
+    - photo (group): Speaker addressing a large audience in a lecture hall
+    - photo (group): Audience seated watching a conference presentation
+    - photo (group): Young audience seated at a seminar
+    - photo (group): Speaker addressing a large audience in a lecture hall
+    - photo (group): Young audience seated at a seminar
+    - photo (group): Audience at a conference with a woman raising her fist
+
+### Contact — `contact` → contact
+
+- Group **hero** (core) `c8ed8307`, blocks 0
+  - **hero** “Contact Me” — 2 text, 0 photos · lorem
+- Group **content** (core) `80eb44f2`, blocks 1
+  - **content** “Contact Information” — 2 text, 1 photos · lorem · dynamic: core/shortcode
+    - photo (person): Elderly woman in glasses sitting with arms crossed
+- Group **cta** (core) `df6775ac`, blocks 2
+  - **cta** “Request A Free Consultation” — 3 text, 0 photos · lorem
+
+## Dentico (`dentico`) · premium
+
+16 sections · 111/119 editable text slots · 910 words · 18/39 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+
+Colors: `#ffffff` background ×63, `#00509e` primary ×38, `#757575` muted ×37, `#000000` text ×14, `#d9d9d9` muted ×12, `#f6f6f6` background ×10, `#363636` text ×9, `#065099` primary (+0.002) ×9, `#00abcd` primary (+0.092) ×8, `#e9ecef` background ×6, `#029ab9` primary (+0.057) ×6, `#110c2e` secondary ×5, `#2563eb` primary (+0.224) ×4, `#027abb` primary (+0.061) ×4, `#e4e4e7` background ×3, `#16181a` text ×3, `#fafafa` background ×3, `#ebf7fe` primary (+0.649) ×3, `#f1f2f2` background ×2, `#3f3f46` text ×2, `#cccccc` muted ×1, `#fffffe` background ×1, `#00ccf4` primary (+0.169) ×1, `#0071a5` primary (+0.014) ×1, `#1e7ba6` primary (+0.075) ×1
+
+Contrast pairs checked after recoloring: 18
+
+### Home — `home` → home
+
+- Group **hero** (core) `fa2aa0b9`, blocks 0
+  - **hero** “Caring for your Smile” — 3 text, 1 photos
+    - photo (person): Smiling woman pointing at her teeth in a dental clinic
+- Group **content** (core) `2f4d76a4`, blocks 1
+  - **content** “Dental care service that you can trust.” — 5 text, 1 photos
+    - photo (group): Dentist examining a patient's teeth in a dental chair
+- Group **features** (core) `af84ba10`, blocks 2
+  - **features** “Get breakthrough dental and oral health care.” — 18 text, 0 photos
+- Group **team** (needs team) `9f6a64fd`, blocks 3
+  - **team** “Holding collective experience over years of dental expertise.” — 7 text, 2 photos
+    - photo (person): Smiling female dentist in protective glasses and gloves
+    - photo (person): Female dentist with arms crossed in a dental office
+- Group **stats** (needs stats) `fcf95a42`, blocks 4
+  - **stats** (untitled) — 3 text, 0 photos
+- Group **cta** (core) `c53d4ee6`, blocks 5
+  - **cta** “Book a consultation and start your journey toward a pain-free life.” — 2 text, 1 photos
+    - photo (group): Dentist and assistant treating a smiling female patient
+- Group **testimonials** (core) `5d09fd8f`, blocks 6
+  - **testimonials** “See what our patients talk about our services.” — 11 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `2f4d76a4`, blocks 0
+  - **hero** “Dental care service that you can trust.” — 5 text, 1 photos
+    - photo (group): Dentist examining a patient's teeth in a dental chair
+- Group **team** (needs team) `9f6a64fd`, blocks 1
+  - **team** “Holding collective experience over years of dental expertise.” — 12 text, 5 photos
+    - photo (person): Smiling female dentist in protective glasses and gloves
+    - photo (person): Female dentist with arms crossed in a dental office
+    - photo (person): Smiling male dentist holding a denture model
+    - photo (person): Smiling female doctor in a white coat in a dental clinic
+    - photo (person): Smiling male dentist in glasses giving a thumbs up
+- Group **stats** (needs stats) `5e8c083d`, blocks 2
+  - **stats** (untitled) — 3 text, 0 photos
+- Group **cta** (core) `c53d4ee6`, blocks 3
+  - **cta** “Book a consultation and start your journey toward a pain-free life.” — 2 text, 1 photos
+    - photo (group): Dentist and assistant treating a smiling female patient
+
+### Services — `services` → services
+
+- Group **hero** (core) `2f4d76a4`, blocks 0
+  - **hero** “Get breakthrough dental and oral health care.” — 5 text, 1 photos
+    - photo (group): Dentist examining a smiling female patient
+- Group **features** (core) `15a464de`, blocks 1
+  - **features** “Endodontics” — 16 text, 4 photos
+    - photo (person): Close-up of a woman's open mouth during dental drilling
+    - photo (person): Close-up of a dental mirror examining a woman's teeth
+    - photo (person): Close-up of a woman's smiling mouth with white teeth
+    - photo (object): Hand holding a dental implant model
+- Group **testimonials** (core) `76bdefe5`, blocks 2
+  - **testimonials** “See what our patients talk about our services.” — 14 text, 0 photos
+
+### Contact Us — `contact-us` → contact
+
+- Group **hero** (core) `2f4d76a4`, blocks 0
+  - **hero** “Need to know all about our treatments, services, locations, and prices, or do you just need some counseling?” — 5 text, 0 photos
+- Group **content** (core) `94bc0cbe`, blocks 1
+  - **content** (untitled) — 0 text, 1 photos
+    - photo (group): Dentist and assistant treating a patient in a dental chair
+
+## Zakra Digital Diary (`digital-diary`) · premium
+
+31 sections · 27/27 editable text slots · 933 words · 3/3 swappable images
+
+Fonts: heading **Montserrat**, body **Montserrat** ()
+
+Colors: `#e38d27` accent [locked: accent] ×19, `#ffffff` background ×18, `#000000` text ×15, `#e9ecef` background ×9, `#16181a` text ×5, `#e4e4e7` background ×3, `#fafafa` background ×2, `#555555` muted ×1, `#000001` text ×1, `#3f3f46` text ×1, `#e2b176` accent (+0.153) [locked: accent] ×1, `#027abb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 5
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Who We Are” — 1 text, 0 photos
+- Group **content** (core) `top-1`, blocks 1
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-2`, blocks 2
+  - **content** (untitled) — 0 text, 1 photos
+    - photo (group): Young colleagues chatting at high tables in a bright office
+- Group **content** (core) `top-3`, blocks 3
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-4`, blocks 4
+  - **content** “Our Mission” — 1 text, 0 photos
+- Group **content** (core) `top-5`, blocks 5
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-6`, blocks 6
+  - **content** (untitled) — 0 text, 1 photos
+    - photo (person): Businessman with arms outstretched among skyscrapers
+- Group **content** (core) `top-7`, blocks 7
+  - **content** (untitled) — 1 text, 0 photos · lorem
+
+### Style Guide — `style-guide` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-1`, blocks 1
+  - **content** “Heading 1: Porttitor quisque fames suscipit lacinia neque.” — 1 text, 0 photos · lorem
+- Group **content** (core) `top-2`, blocks 2
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “Heading 2: Porttitor quisque fames suscipit lacinia neque.” — 1 text, 0 photos · lorem
+- Group **content** (core) `top-4`, blocks 4
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-5`, blocks 5
+  - **content** “Heading 3: Porttitor quisque fames suscipit lacinia neque.” — 1 text, 0 photos · lorem
+- Group **content** (core) `top-6`, blocks 6
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-7`, blocks 7
+  - **content** “Heading 4: Porttitor quisque fames suscipit lacinia neque.” — 1 text, 0 photos · lorem
+- Group **content** (core) `top-8`, blocks 8
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-10`, blocks 10
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-11`, blocks 11
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-12`, blocks 12
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-13`, blocks 13
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-14`, blocks 14
+  - **content** (untitled) — 0 text, 1 photos
+    - photo (group): Young colleagues chatting at high tables in a bright office
+- Group **content** (core) `top-15`, blocks 15
+  - **content** (untitled) — 1 text, 0 photos · lorem
+- Group **content** (core) `top-16`, blocks 16
+  - **content** (untitled) — 1 text, 0 photos · lorem
+
+### Contact Us — `contact-us` → contact
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Drop Us a Message” — 1 text, 0 photos
+- Group **content** (core) `top-1`, blocks 1
+  - **content** (untitled) — 1 text, 0 photos
+- Group **dynamic** (core) `top-2`, blocks 2
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: everest-forms/form-selector
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “Where We Are” — 1 text, 0 photos
+
+### Sample Page — `sample-page` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-4`, blocks 4
+  - **content** (untitled) — 1 text, 0 photos
+
+## Zakra Digital Marketing (`digital-marketing-02`) · premium
+
+21 sections · 105/113 editable text slots · 838 words · 15/28 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+
+Colors: `#242f65` primary ×63, `#7963e0` primary (+0.365) ×58, `#ffffff` background ×42, `#f8f8f8` background ×30, `#666666` muted ×16, `#333333` text ×15, `#000000` text ×13, `#e9ecef` background ×5, `#fafafa` background ×4, `#2563eb` primary (+0.265) ×4, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#f5941f` accent [locked: accent] ×2, `#fffdf7` background ×1, `#fcfcfc` background ×1, `#51585f` muted ×1, `#2c3e6a` primary (+0.025) ×1, `#027abb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 15
+
+### Home — `home` → home
+
+- Group **hero** (core) `f2b1f9e3`, blocks 0
+  - **hero** “Award Winning” — 4 text, 1 photos · lorem
+    - photo (group): Woman leading a meeting with colleagues at a table
+- Group **features** (core) `9c58d916`, blocks 1, 2
+  - **logos** “Trusted by 9k+ Business” — 1 text, 0 photos
+  - **features** “Grow Your Brand” — 13 text, 0 photos · lorem
+- Group **cta** (core) `b3e985ad`, blocks 3
+  - **cta** “We take Cake of Your Business” — 4 text, 1 photos · lorem
+    - photo (person): Smiling woman in a striped shirt giving a thumbs up
+- Group **stats** (needs stats) `cac78215`, blocks 4
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **features** (core) `1f352801`, blocks 5
+  - **features** “Checkout Our Recent Work & Case Study” — 11 text, 5 photos · lorem
+    - photo (group): Team working on laptops at a table viewed from above
+    - photo (place): Apple logo on a glass storefront
+    - photo (object): Scrabble tiles spelling web on a gray surface
+    - photo (person): Man reviewing charts on a tablet with a stylus
+    - photo (person): Man writing in a notebook beside a laptop at a desk
+- Group **cta** (core) `e5c92c11`, blocks 6
+  - **cta** “Build your successful business with us. Want to know how to do this?​” — 2 text, 0 photos
+- Group **testimonials** (core) `0ab7b968`, blocks 7
+  - **testimonials** “What Our Client Says” — 4 text, 1 photos
+    - photo (person): Playful woman making peace signs over her eyes
+- Group **posts** (needs blog) `99e605b5`, blocks 8
+  - **posts** “Recent Blog Post” — 7 text, 3 photos · lorem
+    - photo (object): Social media app icons on a smartphone screen
+    - photo (object): Notepad with handwritten Amazon marketing mind map
+    - photo (person): Woman typing on a laptop on a couch from above
+- Group **cta** (core) `dea27a5b`, blocks 9
+  - **cta** “Interested to work with us?” — 3 text, 0 photos
+
+### About — `about` → about
+
+- Group **hero** (core) `42b4d901`, blocks 0
+  - **hero** “Our Mission is to Change Your View for SEO” — 4 text, 0 photos · lorem
+- Group **stats** (needs stats) `cac78215`, blocks 1
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **cta** (core) `b3e985ad`, blocks 2
+  - **cta** “Our Mission is to Change Your View for SEO” — 4 text, 0 photos · lorem
+- Group **features** (core) `aa39d9ca`, blocks 3
+  - **features** “Meet Our Team” — 7 text, 0 photos
+- Group **content** (core) `9c58d916`, blocks 4
+  - **content** “Trusted by 9k+ Business” — 1 text, 0 photos
+
+### Services — `services` → services
+
+- Group **hero** (core) `accbcf7f`, blocks 0
+  - **hero** “Marketing Solution” — 3 text, 1 photos · lorem
+    - photo (group): Diverse business team smiling during a meeting
+- Group **cta** (core) `359c514d`, blocks 1
+  - **cta** “New Trends in SEO & Analytics” — 3 text, 1 photos · lorem
+    - photo (person): Hands holding a smartphone over a laptop on a desk
+- Group **cta** (core) `c0a69132`, blocks 2
+  - **cta** “Social Marketing” — 3 text, 1 photos · lorem
+    - photo (object): Smartphone with Facebook login beside social media letter tiles
+- Group **cta** (core) `51ec0469`, blocks 3
+  - **cta** “PPC Advertising” — 3 text, 1 photos · lorem
+    - photo (group): Women working on laptops in a busy office
+- Group **cta** (core) `dea27a5b`, blocks 4
+  - **cta** “Interested to work with us?” — 3 text, 0 photos
+
+### Works — `works` → other
+
+- Group **hero** (core) `1f352801`, blocks 0
+  - **hero** “Checkout Our Recent Work & Case Study” — 17 text, 0 photos · lorem
+
+### Blog — `blog` → blog
+
+
+## Drone 02 (`drone-02`)
+
+10 sections · 61/62 editable text slots · 785 words · 13/21 swappable images
+
+Fonts: heading **Barlow**, body **Barlow** (Barlow → body)
+
+Colors: `#ef6751` primary ×39, `#ffffff` background ×27, `#16181a` text ×23, `#596172` muted ×19, `#8590a7` muted ×18, `#0f1012` text ×6, `#e9ecef` background ×6, `#7f8ba3` muted ×4, `#fafafa` background ×4, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#027abb` accent [locked: accent] ×3, `#f9f9f9` background ×1, `#1e7ba6` accent (+0.014) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 10
+
+### HOME — `home` → home
+
+- Group **hero** (core) `c92f25df`, blocks 0
+  - **hero** (untitled) — 4 text, 1 photos
+    - photo (object): White drone flying against a black background
+- Group **content** (core) `ff4eebba`, blocks 1
+  - **content** “Drone Expert” — 12 text, 0 photos
+- Group **cta** (core) `be83c03e`, blocks 2
+  - **cta** “BEST TECHNOLOGY ON THE AERIAL VIDEO PRODUCTION” — 3 text, 1 photos
+    - photo (object): Drone viewed from above on a white background
+- Group **content** (core) `22f2da62`, blocks 3
+  - **content** “WHAT WE SHOOT?” — 7 text, 3 photos
+    - photo (place): Aerial view of a circular residential building complex
+    - photo (place): City skyline with construction cranes on high-rise buildings
+    - photo (place): Aerial view of a modern house with trees
+- Group **dynamic** (core) `f8196b6c`, blocks 4
+  - **dynamic** “CONTACT” — 1 text, 1 photos · dynamic: everest-forms/form-selector
+    - photo (object): Drone viewed from above on a white background
+- Group **cta** (core) `d53e7947`, blocks 5
+  - **cta** “Want a great Aerial footage? Let us know.” — 2 text, 0 photos
+
+### BLOG — `blog` → blog
+
+
+### SERVICES — `services` → services
+
+- Group **hero** (core) `93bce6ae`, blocks 0
+  - **hero** “WHAT WE DO?” — 9 text, 4 photos
+    - photo (place): Aerial view of a circular residential building complex
+    - photo (place): Aerial view of a modern house with trees
+    - photo (place): City skyline with construction cranes on high-rise buildings
+    - photo (place): Baseball stadium packed with spectators
+
+### TEAM — `team` → other
+
+- Group **hero** (core) `c5e02f81`, blocks 0
+  - **hero** “PILOT” — 9 text, 3 photos · lorem
+    - photo (person): Young man in a denim shirt with arms crossed
+    - photo (person): Smiling young woman with long hair portrait
+    - photo (person): Smiling young man in a white shirt portrait
+
+### ABOUT US — `about-us` → about
+
+- Group **hero** (core) `30304c8b`, blocks 0
+  - **hero** “WELCOME TO DRONISTA” — 2 text, 0 photos
+- Group **content** (core) `cccc56fc`, blocks 1
+  - **content** “Drone Expert” — 12 text, 0 photos
+
+<details><summary>Warnings</summary>
+
+- home: unmapped text in blockart/map.address: "London Eye"
+
+</details>
+
+## Education 02 (`education-02`)
+
+13 sections · 57/57 editable text slots · 567 words · 8/15 swappable images
+
+Fonts: heading **Raleway**, body **Lato** (Raleway → heading, Roboto → body, Karla → body, Lato → body, Open Sans → body)
+
+Colors: `#ffffff` background ×56, `#5c666f` muted ×27, `#212529` text ×14, `#000000` text ×13, `#73abe6` primary ×11, `#73aae6` primary ×7, `#e9ecef` background ×5, `#0b0b0b` text ×4, `#f8fbfd` background ×4, `#59abff` primary (-0.002) ×4, `#6698cc` primary (-0.076) ×4, `#027abb` primary (-0.306) ×4, `#16181a` text ×3, `#fafafa` background ×3, `#3f3f46` text ×2, `#e4e4e7` background ×2, `#262626` text ×1, `#716e6e` muted ×1, `#303030` text ×1, `#1e7ba6` primary (-0.292) ×1
+
+Contrast pairs checked after recoloring: 8
+
+### Home — `home` → home
+
+- Group **hero** (core) `f459d212`, blocks 0
+  - **hero** “Build your career at UNIGLO” — 4 text, 1 photos
+    - photo (group): Group of diverse young friends sitting together smiling
+- Group **cta** (core) `b99a55f7`, blocks 1
+  - **cta** “Find the right path for you” — 3 text, 0 photos
+- Group **content** (core) `1eb40b94`, blocks 2
+  - **content** “Expert Instructors” — 6 text, 0 photos
+- Group **dynamic** (needs products) `c137d990`, blocks 3
+  - **dynamic** “Top ranked university for teaching” — 3 text, 0 photos · dynamic: masteriyo/courses
+- Group **dynamic** (core) `416c8544`, blocks 4
+  - **dynamic** “Join our popular online course today!” — 6 text, 0 photos · dynamic: everest-forms/form-selector
+- Group **stats** (needs stats) `d0a43f28`, blocks 5
+  - **stats** (untitled) — 4 text, 1 photos
+    - photo (place): University campus plaza with students and brick buildings
+- Group **content** (core) `d39fd1c9`, blocks 6
+  - **content** (untitled) — 3 text, 1 photos
+    - photo (group): Three female graduates in caps and gowns
+
+### Blog — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `25a80688`, blocks 0
+  - **hero** “Our Story” — 4 text, 1 photos
+    - photo (place): University campus plaza with students and brick buildings
+- Group **content** (core) `9d9ec3b4`, blocks 1
+  - **content** “Qualified Lecturers” — 6 text, 0 photos
+- Group **stats** (needs stats) `ae813d27`, blocks 2
+  - **stats** (untitled) — 4 text, 1 photos
+    - photo (place): University campus plaza with students and brick buildings
+
+### Courses — `courses` → services
+
+
+### Career — `career` → other
+
+- Group **hero** (core) `5c792c15`, blocks 0
+  - **hero** “We are hiring.” — 3 text, 1 photos
+    - photo (group): Business team gathered around a conference table
+- Group **content** (core) `7f1f3cc7`, blocks 1
+  - **content** “Lecturer” — 6 text, 1 photos
+    - photo (person): Professor teaching in front of a chalkboard with equations
+- Group **content** (core) `7f677626`, blocks 2
+  - **content** “Accountant” — 5 text, 1 photos
+    - photo (person): Hand using a calculator over invoices and bills
 
 ## Zakra EduSkill (`eduskill`)
 
@@ -157,26 +1645,34 @@ Contrast pairs checked after recoloring: 10
 
 - Group **hero** (core) `63a6e058`, blocks 0
   - **hero** “Enhance Your Skill With Best Online Courses” — 3 text, 1 photos · lorem
+    - photo (person): Smiling student holding notebooks in a library
 - Group **features** (core) `3eef9b97`, blocks 1
   - **features** “Unlimited Materials” — 8 text, 0 photos · lorem
 - Group **dynamic** (needs products) `7c0b2d5d`, blocks 2
   - **dynamic** “Popular Courses” — 2 text, 0 photos · dynamic: masteriyo/courses
 - Group **features** (core) `91dae4ac`, blocks 3
   - **features** “Benefits From EduSKill” — 8 text, 1 photos · lorem
+    - photo (person): Smiling woman working on a laptop in a cafe
 - Group **cta** (core) `39dc5124`, blocks 4
   - **cta** “Engage Every Student And Transform Your Class” — 4 text, 1 photos · lorem
+    - photo (person): Young man with headphones concentrating on a laptop
 - Group **cta** (core) `224b3b9a`, blocks 5
   - **cta** “Learn Anything To Build Your Career With EduSkill” — 4 text, 1 photos · lorem
+    - photo (person): Young woman with glasses reading a book
 - Group **dynamic** (needs products) `9b1b5847`, blocks 6
   - **dynamic** “Popular Categories” — 2 text, 0 photos · dynamic: masteriyo/course-categories
 - Group **content** (core) `e621a036`, blocks 7
   - **content** (untitled) — 0 text, 1 photos
+    - photo (person): Woman relaxing on a sofa working on a laptop
 - Group **stats** (needs stats) `58c656f7`, blocks 8
   - **stats** (untitled) — 4 text, 0 photos
 - Group **content** (core) `e2ebd4db`, blocks 9
   - **content** “Student’s Feedback” — 7 text, 2 photos · lorem
+    - photo (person): Smiling man in a suit and tie, headshot
+    - photo (person): Smiling woman with long brown hair outdoors, headshot
 - Group **cta** (core) `4532ab80`, blocks 10
   - **cta** “Start Learning Today!!” — 3 text, 1 photos · lorem
+    - photo (person): Silhouette of a person reading a book at dusk
 - Group **logos** (needs client_logos) `78cbc6d8`, blocks 11
   - **logos** “Trusted By The Renowned Company” — 1 text, 0 photos
 
@@ -196,6 +1692,140 @@ Contrast pairs checked after recoloring: 10
 - Group **dynamic** (core) `top-0`, blocks 0
   - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
 
+## Zakra eGuru (`eguru`)
+
+10 sections · 40/43 editable text slots · 319 words · 3/14 swappable images
+
+Fonts: heading **Roboto**, body **Roboto** (Roboto → body)
+
+Colors: `#ffffff` background ×20, `#03b97c` primary ×11, `#021e41` secondary ×9, `#333d46` text ×8, `#3c4852` text ×6, `#e9ecef` background ×6, `#f7f8f9` background ×5, `#e4e4e7` background ×3, `#fafafa` background ×3, `#e3f0ff` secondary (+0.814) ×3, `#000000` text ×2, `#027abb` secondary (+0.239) ×2, `#16181a` text ×1, `#3f3f46` text ×1, `#003169` secondary (+0.075) ×1
+
+Contrast pairs checked after recoloring: 11
+
+### Home — `home` → home
+
+- Group **hero** (core) `a1ec6c86`, blocks 0
+  - **hero** “Professional learning, anytime, anywhere.” — 3 text, 1 photos
+    - photo (group): Collage of people studying and teaching online
+- Group **logos** (needs client_logos) `25b333a1`, blocks 1
+  - **logos** (untitled) — 0 text, 0 photos
+- Group **features** (core) `532d86df`, blocks 2
+  - **features** “Let's start our step to grow together” — 6 text, 1 photos
+    - photo (person): Young woman studying with a laptop and notebook at home
+- Group **dynamic** (needs products) `13a792ae`, blocks 3
+  - **dynamic** “Explore categories” — 3 text, 0 photos · dynamic: masteriyo/course-categories
+- Group **features** (core) `0e66e47e`, blocks 4
+  - **features** “Learn through the process” — 8 text, 1 photos
+    - photo (group): Collage of women studying online with laptops
+- Group **dynamic** (needs products) `ddc849b6`, blocks 5
+  - **dynamic** “Popular courses” — 3 text, 0 photos · dynamic: masteriyo/courses
+- Group **features** (core) `3ee12361`, blocks 6
+  - **features** “Student feedback” — 14 text, 0 photos
+- Group **cta** (core) `70a70df1`, blocks 7
+  - **cta** “Do you have any questions?” — 3 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### Courses — `courses` → services
+
+
+### Account — `account` → other
+
+- Group **dynamic** (core) `6e41b7ea`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+### Checkout — `checkout` → other
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+## Event Marketing (`event-marketing`) · premium
+
+16 sections · 93/93 editable text slots · 1071 words · 25/63 swappable images
+
+Fonts: heading **Source Serif Pro**, body **Poppins** ()
+
+Colors: `#ffffff` background ×29, `#005f69` primary ×14, `#4e4e4e` muted ×13, `#090909` text ×13, `#000000` text ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#e9ecef` background ×3, `#3f3f46` text ×2, `#027abb` primary (+0.165) ×2, `#f5f5f5` background ×1, `#269bd1` primary (+0.278) ×1
+
+Contrast pairs checked after recoloring: 7
+
+### Sample Page — `sample-page-2` → other
+
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Building Impactful Brands Through Excellence and Efficiency.” — 3 text, 0 photos
+- Group **pricing** (needs pricing_plans) `top-1`, blocks 1
+  - **pricing** “What We Do” — 7 text, 1 photos
+    - photo (group): Colleagues in hijabs and casual wear talking in an office
+- Group **cta** (core) `top-2`, blocks 2
+  - **cta** “Do not miss the upcoming Event!” — 3 text, 0 photos
+- Group **features** (core) `top-3`, blocks 3
+  - **features** “Our Events” — 11 text, 4 photos
+    - photo (place): Soccer stadium crowd with fans cheering
+    - photo (group): Team brainstorming with sticky notes in an office meeting
+    - photo (group): Friends taking a selfie at a festive dinner table
+    - photo (group): Children in party hats celebrating a birthday on a sofa
+- Group **gallery** (core) `top-4`, blocks 4
+  - **gallery** “Our Gallery” — 3 text, 5 photos
+    - photo (group): Business team working together on laptops at a table
+    - photo (group): Colleagues discussing documents at a meeting table
+    - photo (group): Team reviewing charts and documents at a table from above
+    - photo (group): Colleagues working on laptops at an office desk
+- Group **posts** (needs blog) `top-5`, blocks 5
+  - **posts** “Our Blog” — 8 text, 3 photos
+    - photo (object): Shopping bag with dried flowers on a table
+    - photo (person): Person holding a Start Up sign
+    - photo (object): Smartphone with app icons on a laptop
+- Group **cta** (core) `top-6`, blocks 6
+  - **cta** “Need Some Help?” — 3 text, 0 photos · lorem
+- Group **testimonials** (core) `top-7`, blocks 7, 8
+  - **content** “Our Partners” — 2 text, 0 photos
+  - **testimonials** “What People Say?” — 8 text, 3 photos
+    - photo (person): Bearded man with glasses in an orange shirt portrait
+    - photo (person): Young woman portrait against a yellow background
+    - photo (person): Young man with curly hair in a light blue t-shirt
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “What We Do” — 16 text, 0 photos
+- Group **cta** (core) `top-1`, blocks 1
+  - **cta** “Need Some Help?” — 3 text, 0 photos · lorem
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Our Partners” — 2 text, 1 photos
+
+### Events — `events` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Our Events” — 14 text, 6 photos
+    - photo (place): Soccer stadium crowd with fans cheering
+    - photo (group): Team brainstorming with sticky notes in an office meeting
+    - photo (object): Fireworks exploding over water at night
+    - photo (group): Friends taking a selfie at a festive dinner table
+    - photo (group): Children in party hats celebrating a birthday on a sofa
+    - photo (group): Band singers and guitarists performing together
+- Group **content** (core) `top-1`, blocks 1
+  - **content** “Related Events” — 5 text, 2 photos
+    - photo (group): Team brainstorming with sticky notes in an office meeting
+    - photo (group): Friends taking a selfie at a festive dinner table
+- Group **cta** (core) `top-2`, blocks 2
+  - **cta** “Need Some Help?” — 3 text, 0 photos · lorem
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “Our Partners” — 2 text, 0 photos
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com:3443/app_user/qsu6361/site/rabsana-event-marketing.sites.qsandbox.com/wp-content/uploads/2022/11/Line-1.png
+- about: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com:3443/app_user/qsu6361/site/rabsana-event-marketing.sites.qsandbox.com/wp-content/uploads/2022/11/Line-1.png
+
+</details>
+
 ## FitClub (`fitclub`)
 
 18 sections · 196/220 editable text slots · 1013 words · 34/68 swappable images
@@ -210,24 +1840,47 @@ Contrast pairs checked after recoloring: 14
 
 - Group **hero** (core) `ceec9e66`, blocks 0
   - **hero** “Elevate your Workout” — 6 text, 1 photos
+    - photo (person): Muscular man standing in a dark gym
 - Group **content** (core) `d39f833f`, blocks 1
   - **content** “Transform Sweat Into Strength!” — 7 text, 2 photos · lorem
+    - photo (person): Man doing a barbell row in a gym
+    - photo (person): Muscular man training with suspension straps in a gym
 - Group **features** (core) `93fd7661`, blocks 2
   - **features** “Push Your limits forward” — 10 text, 0 photos · lorem
 - Group **gallery** (needs classes_schedule) `318b10aa`, blocks 3
   - **gallery** “Our Classes” — 14 text, 6 photos
+    - photo (person): Kickboxer throwing a knee strike in a boxing ring
+    - photo (person): Man in a cap lifting a dumbbell in a dark gym
+    - photo (person): Bearded man doing dumbbell curls in a gym
+    - photo (person): Kickboxer throwing a knee strike in a boxing ring
+    - photo (person): Man in a cap lifting a dumbbell in a dark gym
+    - photo (person): Bearded man doing dumbbell curls in a gym
 - Group **features** (core) `a953527d`, blocks 4
   - **features** “Book Your Trainings” — 23 text, 0 photos
 - Group **team** (needs team) `9c7c9361`, blocks 5
   - **team** “Our Trainer” — 8 text, 3 photos
+    - photo (person): Tattooed trainer standing confidently in a boxing ring
+    - photo (person): Fit young man in a tank top in a dark gym
+    - photo (person): Muscular man flexing in a gym
 - Group **gallery** (core) `80808c40`, blocks 6
   - **gallery** (untitled) — 0 text, 5 photos
+    - photo (person): Woman chalking her hands before a workout in a gym
+    - photo (group): Man and woman training with battle ropes in a gym
+    - photo (person): Man doing a mountain climber exercise on a gym mat
+    - photo (group): Two people fist-bumping on exercise bikes in a gym
+    - photo (person): Woman doing a high kick in a dark gym
 - Group **testimonials** (core) `55ac6841`, blocks 7
   - **testimonials** “What our Customers says” — 20 text, 0 photos
 - Group **features** (core) `36538067`, blocks 8
   - **features** “Popular Articles” — 7 text, 5 photos
+    - photo (person): Shirtless boxer in a dark studio
+    - photo (person): Woman riding an air bike in a gym with large windows
+    - photo (person): Woman doing sit-ups in a gym
+    - photo (person): Woman resting with a battle rope over her shoulder
+    - photo (person): Woman boxing with gloves in a gym
 - Group **faq** (core) `667892f8`, blocks 9
   - **faq** “Faqs” — 9 text, 1 photos · lorem
+    - photo (place): Rows of dumbbells on racks in a gym
 - Group **dynamic** (core) `0fa5ea5c`, blocks 10
   - **dynamic** “Contact Information” — 5 text, 0 photos · lorem · dynamic: everest-forms/form-selector
 
@@ -235,6 +1888,8 @@ Contrast pairs checked after recoloring: 14
 
 - Group **hero** (core) `33a82dd0`, blocks 0
   - **hero** “Transform Sweat Into Strength!” — 7 text, 2 photos · lorem
+    - photo (person): Man doing a barbell row in a gym
+    - photo (person): Muscular man training with suspension straps in a gym
 - Group **features** (core) `93fd7661`, blocks 1
   - **features** “Push Your limits forward” — 10 text, 0 photos · lorem
 - Group **features** (core) `12eb1b90`, blocks 2
@@ -246,8 +1901,17 @@ Contrast pairs checked after recoloring: 14
 
 - Group **hero** (core) `318b10aa`, blocks 0
   - **hero** “Our Classes” — 14 text, 6 photos
+    - photo (person): Kickboxer throwing a knee strike in a boxing ring
+    - photo (person): Man in a cap lifting a dumbbell in a dark gym
+    - photo (person): Bearded man doing dumbbell curls in a gym
+    - photo (person): Kickboxer throwing a knee strike in a boxing ring
+    - photo (person): Man in a cap lifting a dumbbell in a dark gym
+    - photo (person): Bearded man doing dumbbell curls in a gym
 - Group **team** (needs team) `9c7c9361`, blocks 1
   - **team** “Our Trainer” — 8 text, 3 photos
+    - photo (person): Tattooed trainer standing confidently in a boxing ring
+    - photo (person): Fit young man in a tank top in a dark gym
+    - photo (person): Muscular man flexing in a gym
 
 ### Blog — `blog` → blog
 
@@ -256,6 +1920,736 @@ Contrast pairs checked after recoloring: 14
 
 - Group **dynamic** (core) `fc12d54e`, blocks 0
   - **dynamic** “Contact Information” — 5 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+## Flora (`flora`) · premium
+
+23 sections · 69/71 editable text slots · 684 words · 22/36 swappable images
+
+Fonts: heading **Merienda**, body **Heebo** ()
+
+Colors: `#506839` primary (-0.071) ×21, `#ffffff` background ×17, `#619d28` primary ×17, `#2563eb` secondary ×7, `#e9ecef` background ×6, `#16181a` text ×5, `#3f3f46` text ×4, `#111111` text ×2, `#e4e4e7` background ×2, `#fafafa` background ×2, `#027abb` secondary (-0.163) ×2, `#efefef` background ×1, `#454545` text ×1, `#51585f` muted ×1, `#192711` primary (-0.276) ×1
+
+Contrast pairs checked after recoloring: 10
+
+### Home — `home` → home
+
+- Group **hero** (core) `0ff9318b`, blocks 0
+  - **hero** “Healthy Plants for Happy Homes” — 3 text, 1 photos · lorem
+    - photo (object): Green leaf in a glass vase of water
+- Group **features** (core) `c58f0248`, blocks 1, 2
+  - **content** “How Flora Works” — 2 text, 0 photos
+  - **features** “Choose Plants” — 8 text, 1 photos · lorem
+    - photo (object): Potted peace lily plant
+- Group **content** (core) `7db19e25`, blocks 3
+  - **content** “Indoor Plants” — 6 text, 2 photos · lorem
+    - photo (object): Eucalyptus stem on a white background
+    - photo (place): Ivy climbing a white wall beside a window
+- Group **features** (core) `7d600e27`, blocks 4, 5
+  - **content** “Shop By Category” — 2 text, 0 photos
+  - **features** “Tropical Plants” — 3 text, 3 photos
+    - photo (object): Monstera leaves on a white background
+    - photo (object): Zebra haworthia succulent in a white pot
+    - photo (object): Leafy branch in a glass vase
+- Group **features** (core) `b4f89184`, blocks 6
+  - **features** “Hanging Plants” — 3 text, 3 photos
+    - photo (object): Hanging pothos plant
+    - photo (object): Snake plant in a terracotta pot
+    - photo (object): Flowering cactus in a terracotta pot
+- Group **dynamic** (needs products) `7e175c8d`, blocks 7, 8
+  - **content** “Best Seller” — 2 text, 0 photos
+  - **dynamic** (untitled) — 1 text, 0 photos · dynamic: woocommerce/product-new
+- Group **testimonials** (core) `d083434a`, blocks 9, 10
+  - **testimonials** “What People Say” — 2 text, 0 photos
+  - **testimonials** “Dianne Russell” — 4 text, 2 photos · lorem
+    - photo (person): Smiling young woman with freckles in a scarf
+    - photo (person): Smiling young man in a suit and tie headshot
+- Group **cta** (core) `f61a2e88`, blocks 11
+  - **cta** “To Plant a Garden is to Believe in Tomorrow” — 3 text, 1 photos · lorem
+    - photo (object): Close-up of monstera leaves
+- Group **posts** (needs blog) `318e4bdb`, blocks 12
+  - **posts** “Latest Blogs” — 2 text, 0 photos
+- Group **content** (core) `37392f77`, blocks 13
+  - **content** “How to Manage a Home Garden” — 6 text, 2 photos
+    - photo (place): Greenhouse with rows of hanging flower baskets
+    - photo (object): Potted plants and a copper watering can on a wooden shelf
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `c58f0248`, blocks 0
+  - **hero** “Story of Flora” — 2 text, 0 photos
+- Group **content** (core) `cde1dbb2`, blocks 1
+  - **content** “Our Mission” — 4 text, 1 photos · lorem
+    - photo (object): Hand holding seedlings in peat pots on a tray
+- Group **gallery** (core) `8d69865c`, blocks 2, 3
+  - **content** “Flora Gallery” — 2 text, 0 photos
+  - **gallery** (untitled) — 0 text, 5 photos
+    - photo (object): Small potted plants in wooden vases
+    - photo (object): Fiddle leaf fig in a white pot
+    - photo (object): Leafy plant stems in wooden vases
+    - photo (object): Tulips in a ceramic pitcher
+    - photo (object): Hanging pothos plant
+- Group **features** (core) `170ccdef`, blocks 4, 5
+  - **content** “How Flora Works” — 2 text, 0 photos
+  - **features** “Choose Plants” — 4 text, 0 photos
+
+### Contact — `contact` → contact
+
+- Group **hero** (core) `03904dcd`, blocks 0
+  - **hero** “Contact Us” — 6 text, 0 photos
+- Group **dynamic** (core) `8d69865c`, blocks 1, 2
+  - **content** “Get in Touch” — 2 text, 0 photos
+  - **dynamic** (untitled) — 0 text, 1 photos · dynamic: everest-forms/form-selector
+    - photo (object): Flowering cactus in a white pot
+
+### Shop — `shop` → other
+
+
+## Zakra Foundation (`foundation-v2`) · premium
+
+17 sections · 129/138 editable text slots · 889 words · 26/63 swappable images
+
+Fonts: heading **Noto Serif**, body **Noto Sans** (Noto Sans → body, Noto Serif → heading)
+
+Colors: `#f13e4b` primary ×64, `#ffffff` background ×57, `#575757` muted ×29, `#16181a` text ×16, `#808080` muted ×13, `#dddddd` muted ×10, `#f4f5f9` background ×6, `#484141` text ×6, `#797979` muted ×6, `#343a40` text ×6, `#e9ecef` background ×6, `#f00808` primary (-0.108) ×6, `#fafafa` background ×4, `#d6d6d6` muted ×3, `#292929` text ×3, `#b2b2b2` muted ×3, `#929292` muted ×3, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#2664eb` secondary ×3, `#000000` text ×2, `#027abb` secondary (-0.165) ×2, `#fffffc` background ×1, `#dcdcdc` muted ×1, `#3f3f3f` text ×1, `#f23a46` primary (-0.006) ×1
+
+Contrast pairs checked after recoloring: 8
+
+### Home — `home` → home
+
+- Group **hero** (core) `c5df919c`, blocks 0
+  - **hero** (untitled) — 6 text, 2 photos
+    - photo (group): Group of smiling children crowding toward the camera and pointing
+    - photo (group): Group of happy young children sitting together on stone steps
+- Group **features** (core) `53656727`, blocks 1
+  - **features** “COLLECT FUND” — 6 text, 0 photos
+- Group **content** (core) `f8dd0b7b`, blocks 2
+  - **content** “OUR” — 5 text, 1 photos
+    - photo (person): Young boy writing in a notebook at a classroom desk
+- Group **content** (core) `9692c0fb`, blocks 3
+  - **content** “RECENT” — 14 text, 3 photos
+    - photo (object): Hands using a blood pressure monitor on a patient's arm
+    - photo (group): Volunteers stacking hands together in a teamwork gesture
+    - photo (group): Crowd of smiling African children looking at the camera
+- Group **content** (core) `51450166`, blocks 4
+  - **content** “We are helping hand on” — 6 text, 1 photos · lorem
+    - photo (group): Children reading and studying together in a classroom
+- Group **content** (core) `f662dd9a`, blocks 5
+  - **content** “Donation” — 9 text, 0 photos
+- Group **team** (needs team) `315513ad`, blocks 6
+  - **team** “OUR” — 10 text, 4 photos
+    - photo (person): Young Asian woman in a traditional ao dai smiling outdoors
+    - photo (person): Man in a dark blazer and white shirt posing against a wall
+    - photo (person): Smiling Asian woman with long hair in a white shirt on a city street
+    - photo (person): Close-up portrait of a bearded young man with styled hair
+- Group **features** (core) `28179430`, blocks 7
+  - **features** “HEAR FROM” — 11 text, 1 photos
+    - photo (group): Group of women standing together in an office lobby
+- Group **gallery** (core) `c7006b49`, blocks 8
+  - **gallery** “OUR” — 2 text, 6 photos
+    - photo (group): African woman tenderly holding a young child
+    - photo (group): Young African man giving a thumbs up beside a smiling boy
+    - photo (group): Two smiling African girls standing side by side
+    - photo (group): Volunteer man surrounded by a crowd of cheerful school children
+    - photo (group): Group of smiling schoolgirls in uniforms standing together
+    - photo (group): Refugee children sitting outdoors wrapped in shawls and blankets
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `7ce1bde7`, blocks 0
+  - **hero** “Welcome to” — 5 text, 2 photos · lorem
+    - photo (group): Group of village children sitting together outdoors eating
+    - photo (group): Group of smiling children making peace signs at the camera
+- Group **content** (core) `a997ff7c`, blocks 1
+  - **content** “Who Are” — 4 text, 0 photos · lorem
+- Group **features** (core) `014bc34d`, blocks 2
+  - **features** “OUR” — 21 text, 0 photos · lorem
+- Group **content** (core) `c83ca1e3`, blocks 3
+  - **content** “Want To” — 5 text, 0 photos · lorem
+
+### Volunteers — `volunteers` → other
+
+- Group **hero** (core) `ca331a9f`, blocks 0
+  - **hero** “MEET OUR” — 3 text, 0 photos · lorem
+- Group **gallery** (core) `4c122ba5`, blocks 1
+  - **gallery** “Minnie Yerds” — 12 text, 6 photos
+    - photo (person): Young woman with long wavy hair in a red top among flowers
+    - photo (person): Young man in glasses and a green sweater with a shoulder bag outdoors
+    - photo (person): Young bearded man in a white shirt in front of blossoms
+    - photo (person): Smiling woman with curly brown hair in a lace top
+    - photo (person): Young Asian man in a dark jacket on a plain background
+    - photo (person): Young woman with long hair in a jacket and scarf outdoors
+- Group **dynamic** (core) `ad65eef6`, blocks 2
+  - **dynamic** “Become a Volunteer” — 1 text, 0 photos · dynamic: everest-forms/form-selector
+
+### Contact — `contact` → contact
+
+- Group **contact** (core) `7e766174`, blocks 0
+  - **contact** “GET IN” — 9 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+<details><summary>Warnings</summary>
+
+- contact: unmapped text in blockart/map.address: "lastminute.com london"
+
+</details>
+
+## Furniture v2 (`furniture-v2`) · premium
+
+7 sections · 24/24 editable text slots · 110 words · 4/4 swappable images
+
+Fonts: heading **Roboto**, body **Roboto** (Roboto → body)
+
+Colors: `#ffffff` background ×16, `#16181a` text ×10, `#888888` muted ×8, `#3f3f46` text ×6, `#f8b633` primary ×6, `#181818` text ×5, `#e9ecef` background ×5, `#e4e4e7` background ×4, `#027abb` accent [locked: accent] ×4, `#fafafa` background ×3, `#000000` text ×1, `#f1f1f1` background ×1, `#fffaed` background ×1, `#d4d4d8` muted ×1, `#ffac09` primary (-0.069) ×1, `#ffa735` primary (+0.018) ×1, `#b27419` primary (-0.188) ×1, `#1e7ba6` accent (+0.014) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 6
+
+### Home — `home` → home
+
+- Group **hero** (core) `794b715f`, blocks 0
+  - **hero** “No 1 Furniture Company” — 4 text, 3 photos · lorem
+    - photo (place): Minimal cafe corner with a small table, two chairs and a framed sign
+    - photo (object): White tufted armchair against a plain wall
+    - photo (place): Minimal living room with a black sofa, dresser and dried pampas grass
+- Group **features** (core) `b7fc8ec2`, blocks 1
+  - **features** “We are specializing in custom furniture” — 11 text, 1 photos · lorem
+    - photo (place): Minimal cafe corner with a small table, two chairs and a framed sign
+- Group **dynamic** (needs products) `6a7acccd`, blocks 2
+  - **dynamic** “New Products” — 2 text, 0 photos · dynamic: woocommerce/product-category
+- Group **dynamic** (needs products) `4d17f456`, blocks 3
+  - **dynamic** “Top Selling Product” — 2 text, 0 photos · dynamic: woocommerce/product-category
+- Group **dynamic** (needs products) `d9230fa4`, blocks 4
+  - **dynamic** “Most Viewed Product” — 2 text, 0 photos · dynamic: woocommerce/product-category
+
+### Blog — `blog` → blog
+
+
+### Shop — `shop` → other
+
+
+### Cart — `cart` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** “You may be interested in…” — 3 text, 0 photos · dynamic: woocommerce/cart, woocommerce/filled-cart-block, woocommerce/cart-items-block, woocommerce/cart-line-items-block, woocommerce/cart-cross-sells-block, woocommerce/cart-cross-sells-products-block, woocommerce/cart-totals-block, woocommerce/cart-order-summary-block, woocommerce/cart-order-summary-heading-block, woocommerce/cart-order-summary-coupon-form-block, woocommerce/cart-order-summary-subtotal-block, woocommerce/cart-order-summary-fee-block, woocommerce/cart-order-summary-discount-block, woocommerce/cart-order-summary-shipping-block, woocommerce/cart-order-summary-taxes-block, woocommerce/cart-express-payment-block, woocommerce/proceed-to-checkout-block, woocommerce/cart-accepted-payment-methods-block, woocommerce/empty-cart-block, woocommerce/product-new
+
+### Checkout — `checkout` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: woocommerce/checkout, woocommerce/checkout-fields-block, woocommerce/checkout-express-payment-block, woocommerce/checkout-contact-information-block, woocommerce/checkout-shipping-method-block, woocommerce/checkout-pickup-options-block, woocommerce/checkout-shipping-address-block, woocommerce/checkout-billing-address-block, woocommerce/checkout-shipping-methods-block, woocommerce/checkout-payment-block, woocommerce/checkout-order-note-block, woocommerce/checkout-terms-block, woocommerce/checkout-actions-block, woocommerce/checkout-totals-block, woocommerce/checkout-order-summary-block, woocommerce/checkout-order-summary-cart-items-block, woocommerce/checkout-order-summary-coupon-form-block, woocommerce/checkout-order-summary-subtotal-block, woocommerce/checkout-order-summary-fee-block, woocommerce/checkout-order-summary-discount-block, woocommerce/checkout-order-summary-shipping-block, woocommerce/checkout-order-summary-taxes-block
+
+## Gamer (`gamer`) · premium
+
+20 sections · 149/158 editable text slots · 1025 words · 15/26 swappable images
+
+Fonts: heading **Zen Dots**, body **Jost** (Zen Dots → heading, Jost → body)
+
+Colors: `#ffffff` background ×152, `#17c82e` secondary ×45, `#eeeeee` background ×20, `#000000` text ×19, `#1ac430` secondary (-0.002) ×19, `#e9ecef` background ×9, `#898989` muted ×4, `#fafafa` background ×4, `#1c140f` accent [locked: accent] ×4, `#adadad` muted ×3, `#999999` muted ×3, `#868686` muted ×3, `#e4e4e7` background ×3, `#3f3f46` text ×3, `#16181a` text ×3, `#027abb` primary (-0.163) ×3, `#deffe2` secondary (+0.498) ×3, `#1bc330` secondary (-0.002) ×3, `#0b0702` text ×2, `#222222` text ×1, `#2563eb` primary ×1
+
+Contrast pairs checked after recoloring: 11
+
+### Home — `home` → home
+
+- Group **hero** (core) `748253c2`, blocks 0
+  - **hero** “Experience the Best gaming experience” — 3 text, 1 photos
+    - photo (object): Illustration of a green winged dragon creature from a fantasy game
+- Group **content** (core) `df133ed7`, blocks 1
+  - **content** “Grab The Best Gaming Experience” — 2 text, 1 photos · lorem
+    - photo (object): Laptop screen showing silhouettes of soldiers at sunset with helicopters
+- Group **content** (core) `7b28001a`, blocks 2
+  - **content** “Amazing Online Tournaments” — 5 text, 1 photos
+    - photo (group): Illustration of soldiers with rifles advancing through a battlefield
+- Group **stats** (needs stats) `5b9a8c76`, blocks 3
+  - **stats** “Recent Played Tournaments” — 18 text, 0 photos · lorem
+- Group **features** (core) `8b351606`, blocks 4
+  - **features** “Get All top gaming news & information” — 36 text, 7 photos · lorem
+    - photo (group): Illustration of fantasy game heroes posed around a Dota 2 logo
+    - photo (person): Illustration of a fiery fantasy warrior leaping with a glowing sword
+    - photo (person): Illustration of a fiery fantasy warrior leaping with a glowing sword
+    - photo (person): Illustration of a fiery fantasy warrior leaping with a glowing sword
+    - photo (person): Illustration of a fiery fantasy warrior leaping with a glowing sword
+    - photo (person): Illustration of a fiery fantasy warrior leaping with a glowing sword
+    - photo (person): Illustration of a fiery fantasy warrior leaping with a glowing sword
+- Group **contact** (core) `46d7591b`, blocks 5
+  - **contact** “Lets Get in Touch!” — 7 text, 1 photos · dynamic: everest-forms/form-selector
+    - photo (group): Illustration of soldiers walking through a battlefield with explosions
+- Group **cta** (core) `63170e53`, blocks 6
+  - **cta** “Stay updated with us” — 4 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `729c791d`, blocks 0
+  - **hero** “About Us” — 2 text, 0 photos
+- Group **stats** (needs stats) `108e3286`, blocks 1
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **features** (core) `289c805f`, blocks 2
+  - **features** “Every Gamers Matters” — 9 text, 0 photos
+- Group **content** (core) `388ea00d`, blocks 3
+  - **content** “OUR TEAM” — 11 text, 0 photos
+- Group **testimonials** (core) `417230cf`, blocks 4
+  - **testimonials** “Client Testimonials” — 5 text, 0 photos · lorem
+- Group **cta** (core) `6a224ba0`, blocks 5
+  - **cta** “Stay updated with us” — 4 text, 0 photos
+
+### Services — `services` → services
+
+- Group **hero** (core) `07a3a87a`, blocks 0
+  - **hero** “Services” — 2 text, 0 photos
+- Group **features** (core) `0e30b770`, blocks 1
+  - **features** “What We Provide” — 8 text, 1 photos · lorem
+    - photo (group): Soldiers with rifles running through a dusty battlefield at sunset
+- Group **features** (core) `3ad490e6`, blocks 2
+  - **features** “Covering both the mobile and computer games” — 12 text, 3 photos · lorem
+    - photo (object): Smartphone displaying a mobile app interface
+    - photo (person): Basketball player leaping to dunk a ball
+    - photo (person): Man wearing a VR headset reaching out with his hands
+- Group **cta** (core) `85f55603`, blocks 3
+  - **cta** “Stay updated with us” — 4 text, 0 photos
+
+### Contact Us — `contact-us` → contact
+
+- Group **hero** (core) `a9f147f8`, blocks 0
+  - **hero** “Contact Us” — 2 text, 0 photos
+- Group **dynamic** (core) `ec16d12f`, blocks 1
+  - **dynamic** “Contact Us” — 7 text, 0 photos · dynamic: everest-forms/form-selector
+- Group **cta** (core) `cd11df9d`, blocks 2
+  - **cta** “Stay updated with us” — 4 text, 0 photos
+
+<details><summary>Warnings</summary>
+
+- contact-us: unmapped text in blockart/map.address: "new york"
+
+</details>
+
+## Gift Shop V2 (`gift-shop-v2`) · premium
+
+11 sections · 32/33 editable text slots · 177 words · 8/21 swappable images
+
+Fonts: heading **Courgette**, body **Lato** (Courgette → body, Lato → body)
+
+Colors: `#2c2c2c` text ×32, `#ffffff` background ×31, `#ec407a` primary ×17, `#e9ecef` background ×6, `#fafafa` background ×4, `#e4e4e7` background ×3, `#3f3f46` text ×2, `#e91e63` primary (-0.073) ×2, `#f5f5f5` background ×1, `#bdbdbd` muted ×1, `#2f2f2f` text ×1, `#fcfcfc` background ×1, `#db1657` primary (-0.116) ×1, `#f48fb1` primary (+0.171) ×1, `#360c3e` accent [locked: accent] ×1, `#027abb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 10
+
+### Home — `home` → home
+
+- Group **hero** (core) `979a7067`, blocks 0
+  - **hero** “Awesome Gift” — 4 text, 1 photos · lorem
+    - photo (object): Wrapped red gift boxes with ribbons on a snowy surface
+- Group **content** (core) `ff3d3422`, blocks 1
+  - **content** (untitled) — 4 text, 0 photos
+- Group **gallery** (core) `e7d319da`, blocks 2
+  - **gallery** (untitled) — 7 text, 4 photos
+    - photo (object): Pink birthday cake with rose frosting and candles
+    - photo (object): Woman holding a wrapped gift box with a ribbon
+    - photo (object): Bouquet of pink and yellow tulips against a white wall
+    - photo (person): Woman in a cap and leather jacket looking down against a red wall
+- Group **dynamic** (needs products) `d449a6b2`, blocks 3
+  - **dynamic** “Most Popular Gifts” — 2 text, 0 photos · lorem · dynamic: woocommerce/product-category
+- Group **dynamic** (needs products) `7fb1d729`, blocks 4
+  - **dynamic** “2020's The Best Collection” — 1 text, 0 photos · dynamic: woocommerce/product-category
+- Group **testimonials** (core) `6a8905f1`, blocks 5
+  - **testimonials** “Happy Customer's Review” — 7 text, 2 photos · lorem
+    - photo (person): Smiling middle-aged man in glasses and a suit
+    - photo (person): Smiling woman with dark hair in a bun on a white background
+- Group **dynamic** (needs products) `b98dfb9b`, blocks 6
+  - **dynamic** “Special Gifts” — 1 text, 0 photos · dynamic: woocommerce/product-category
+- Group **content** (core) `3409de6b`, blocks 7
+  - **content** “Welcome To Giftshop Store” — 6 text, 1 photos · lorem
+    - photo (person): Woman hugging a giant teddy bear in a toy store aisle
+- Group **logos** (needs client_logos) `e9ec67ef`, blocks 8
+  - **logos** (untitled) — 0 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### Shop — `shop` → other
+
+
+### Checkout — `checkout` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: woocommerce/checkout, woocommerce/checkout-fields-block, woocommerce/checkout-express-payment-block, woocommerce/checkout-contact-information-block, woocommerce/checkout-shipping-method-block, woocommerce/checkout-pickup-options-block, woocommerce/checkout-shipping-address-block, woocommerce/checkout-billing-address-block, woocommerce/checkout-shipping-methods-block, woocommerce/checkout-payment-block, woocommerce/checkout-additional-information-block, woocommerce/checkout-order-note-block, woocommerce/checkout-terms-block, woocommerce/checkout-actions-block, woocommerce/checkout-totals-block, woocommerce/checkout-order-summary-block, woocommerce/checkout-order-summary-cart-items-block, woocommerce/checkout-order-summary-coupon-form-block, woocommerce/checkout-order-summary-subtotal-block, woocommerce/checkout-order-summary-fee-block, woocommerce/checkout-order-summary-discount-block, woocommerce/checkout-order-summary-shipping-block, woocommerce/checkout-order-summary-taxes-block
+
+### My account — `my-account` → other
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+## Gym V2 (`gym-v2`) · premium
+
+26 sections · 133/144 editable text slots · 790 words · 55/67 swappable images
+
+Fonts: heading **Oswald**, body **Poppins** (Oswald → heading, Poppins → body)
+
+Colors: `#29282d` text ×89, `#ffffff` background ×81, `#000000` text ×50, `#f34e3a` primary ×32, `#3d3c41` text ×29, `#f4f4f4` background ×22, `#2d2830` text ×9, `#e4432f` primary (-0.051) ×9, `#e9ecef` background ×5, `#0284c7` secondary ×5, `#fafafa` background ×4, `#027abb` secondary (-0.024) ×4, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#16181a` text ×3, `#111316` text ×1, `#151518` text ×1, `#d4d4d8` muted ×1, `#d3d3d3` muted ×1, `#f7fbff` background ×1, `#90a2b2` secondary (+0.237) ×1, `#1e7ba6` secondary (-0.01) ×1
+
+Contrast pairs checked after recoloring: 12
+
+### Trainer — `trainer` → other
+
+- Group **hero** (core) `d1e64ea2`, blocks 0
+  - **hero** “NOAH SMITH” — 13 text, 6 photos
+    - photo (person): Man in a pink t-shirt posing with arms crossed and hand on chin
+    - photo (person): Young woman with curly hair in a beige jacket posing outdoors
+    - photo (person): Muscular man doing a dumbbell bicep curl
+    - photo (person): Smiling fit woman in a green sports bra at the gym
+    - photo (person): Smiling blonde woman in a red sports bra leaning on a brick wall
+    - photo (person): Muscular shirtless man posing in a dramatic portrait
+- Group **cta** (core) `9266bd76`, blocks 1
+  - **cta** “STOP WISHING! START WORKING!” — 3 text, 0 photos · lorem
+
+### Home — `home` → home
+
+- Group **hero** (core) `03cf8f3c`, blocks 0
+  - **hero** “START YOUR” — 4 text, 1 photos
+    - photo (person): Muscular shirtless man standing in a dark gym
+- Group **content** (core) `093a7cdb`, blocks 1
+  - **content** “BODY BUILDING” — 3 text, 0 photos
+- Group **content** (core) `f5a4adc7`, blocks 2
+  - **content** “WHAT WE PROVIDE” — 10 text, 0 photos · lorem
+- Group **cta** (core) `4a156c3f`, blocks 3
+  - **cta** “Work hard for best shape” — 3 text, 1 photos · lorem
+    - photo (person): Fit woman lifting a curl bar in a gym
+- Group **content** (core) `137ad3f2`, blocks 4
+  - **content** “WORK OUT CLASSES” — 12 text, 0 photos · lorem
+- Group **team** (needs team) `d1e64ea2`, blocks 5
+  - **team** “MEET OUR TRAINERS” — 8 text, 3 photos · lorem
+    - photo (person): Man in a pink t-shirt posing with arms crossed and hand on chin
+    - photo (person): Young woman with curly hair in a beige jacket posing outdoors
+    - photo (person): Muscular man doing a dumbbell bicep curl
+- Group **content** (core) `7109913e`, blocks 6
+  - **content** (untitled) — 0 text, 1 photos
+    - photo (group): Man and woman training with battle ropes in a gym
+- Group **testimonials** (core) `1e977c96`, blocks 7, 8
+  - **testimonials** “REVIEWS FROM CLIENTS” — 3 text, 0 photos · lorem
+  - **testimonials** “JOIN NOW AND GET 20% DISCOUNT” — 3 text, 1 photos · lorem
+    - photo (group): Personal trainer spotting a woman doing dumbbell presses on a bench
+- Group **pricing** (needs pricing_plans) `911ab6d3`, blocks 9
+  - **pricing** “CHOOSE BEST PRICING PLAN” — 17 text, 0 photos · lorem
+- Group **gallery** (core) `e0574517`, blocks 10
+  - **gallery** “WORKOUT GALLERY” — 3 text, 6 photos · lorem
+    - photo (group): Man and woman working out with battle ropes in a gym
+    - photo (person): Muscular shirtless man lifting a barbell
+    - photo (person): Woman doing crunches on an exercise mat
+    - photo (group): Women lifting dumbbells in a group fitness class
+    - photo (person): Bearded man using a rowing machine at the gym
+    - photo (person): Woman doing a dumbbell row lunge in a bright gym
+- Group **content** (core) `643a5544`, blocks 11
+  - **content** “BEST PROTEIN PRODUCTS” — 6 text, 4 photos · lorem
+    - photo (object): Whey protein supplement tub mockup
+    - photo (object): Whey protein supplement tub mockup
+    - photo (object): Whey protein supplement tub mockup
+    - photo (object): Whey protein supplement tub mockup
+- Group **posts** (needs blog) `57c85708`, blocks 12
+  - **posts** “OUR LATEST BLOG” — 11 text, 3 photos · lorem
+    - photo (person): Muscular shirtless man lifting a barbell
+    - photo (person): Woman training with battle ropes against a white brick wall
+    - photo (group): Two pregnant women showing their bellies doing exercise
+- Group **cta** (core) `9266bd76`, blocks 13
+  - **cta** “STOP WISHING! START WORKING!” — 3 text, 0 photos · lorem
+- Group **gallery** (core) `0eb2fc38`, blocks 14
+  - **gallery** “FOLLOW US ON @GYM” — 1 text, 6 photos
+    - photo (person): Woman doing a barbell lunge in a gym
+    - photo (person): Shirtless man doing a barbell squat in a gym
+    - photo (person): Woman using a shoulder press machine at the gym
+    - photo (person): Woman swinging a kettlebell in a gym
+    - photo (person): Fit woman doing pull-ups on a rack
+    - photo (person): Woman doing a yoga kickback pose on a mat
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `1c0f4807`, blocks 0
+  - **hero** “WELCOME TO ZAKRA FITNESS CLUB” — 5 text, 1 photos · lorem
+    - photo (group): Women raising dumbbells overhead in a group fitness class
+- Group **stats** (needs stats) `388d3ab4`, blocks 1
+  - **stats** “MEMBERS” — 4 text, 1 photos
+    - photo (person): Person lifting a barbell from the gym floor
+- Group **content** (core) `f5a4adc7`, blocks 2
+  - **content** “WHAT WE PROVIDE” — 10 text, 0 photos · lorem
+- Group **testimonials** (core) `1e977c96`, blocks 3, 4
+  - **testimonials** “REVIEWS FROM CLIENTS” — 3 text, 0 photos · lorem
+  - **testimonials** “STOP WISHING! START WORKING!” — 3 text, 0 photos · lorem
+- Group **gallery** (core) `0eb2fc38`, blocks 5
+  - **gallery** “FOLLOW US ON @GYM” — 1 text, 6 photos
+    - photo (person): Woman doing a barbell lunge in a gym
+    - photo (person): Shirtless man doing a barbell squat in a gym
+    - photo (person): Woman using a shoulder press machine at the gym
+    - photo (person): Fit woman doing pull-ups on a rack
+    - photo (person): Woman swinging a kettlebell in a gym
+    - photo (person): Woman doing a yoga kickback pose on a mat
+
+### Gallery — `gallery` → other
+
+- Group **hero** (core) `0a530a63`, blocks 0
+  - **hero** (untitled) — 0 text, 9 photos
+    - photo (person): Muscular shirtless man holding a barbell
+    - photo (person): Bearded man using a rowing machine at the gym
+    - photo (group): Women doing kickback exercises on mats in a fitness class
+    - photo (group): Man and woman working out with battle ropes in a gym
+    - photo (group): Two fit women flexing their muscles in a gym
+    - photo (person): Woman doing a dumbbell row lunge in a bright gym
+    - photo (person): Woman doing crunches on an exercise mat
+    - photo (group): Women lifting dumbbells in a group fitness class
+    - photo (group): Women stretching on yoga mats in a fitness studio
+- Group **cta** (core) `9266bd76`, blocks 1
+  - **cta** “STOP WISHING! START WORKING!” — 3 text, 0 photos · lorem
+- Group **gallery** (core) `0eb2fc38`, blocks 2
+  - **gallery** “FOLLOW US ON @GYM” — 1 text, 6 photos
+    - photo (person): Woman swinging a kettlebell in a gym
+    - photo (person): Woman using a shoulder press machine at the gym
+    - photo (person): Shirtless man doing a barbell squat in a gym
+    - photo (person): Woman doing a barbell lunge in a gym
+    - photo (person): Woman doing a yoga kickback pose on a mat
+    - photo (person): Fit woman doing pull-ups on a rack
+
+## Happiness Coach (`happiness-coach`)
+
+27 sections · 250/305 editable text slots · 1882 words · 24/32 swappable images
+
+Fonts: heading **Lora**, body **Inter** ()
+
+Colors: `#bab0b7` muted ×8, `#f7efee` primary ×6, `#f368e0` secondary ×6, `#ededed` background ×4, `#ffffff` background ×3, `#fcff41` accent [locked: accent] ×3, `#c8b5ab` primary (-0.224) ×2, `#bda98e` accent [locked: accent] ×2, `#b39675` accent (-0.069) [locked: accent] ×2, `#faf5f2` background ×1, `#f7eeea` primary (-0.008) ×1, `#e40909` primary (-0.486) ×1
+
+Contrast pairs checked after recoloring: 12
+
+### Sample Page — `sample-page-2` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-1`, blocks 1
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-3`, blocks 3
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-4`, blocks 4
+  - **content** (untitled) — 1 text, 0 photos
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “A quieter way to feel like yourself again.” — 8 text, 4 photos
+    - photo (person): Smiling young man with curly hair headshot
+    - photo (person): Smiling young woman with long dark hair headshot
+    - photo (person): Smiling blonde woman headshot
+    - photo (person): Smiling woman with curly hair sitting outdoors at sunset
+- Group **content** (core) `top-1`, blocks 1
+  - **content** (untitled) — 9 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “You're doing enough.” — 12 text, 2 photos
+    - photo (person): Smiling young woman with long dark hair headshot
+    - photo (person): Smiling young man with curly hair headshot
+- Group **testimonials** (core) `top-3`, blocks 3
+  - **testimonials** “Hi, I'm Maren Alden. I help people build lives that feel good.” — 11 text, 1 photos
+    - photo (person): Smiling woman with long hair and arms crossed
+- Group **testimonials** (core) `top-4`, blocks 4
+  - **testimonials** “Quiet work, measurable calm.” — 7 text, 0 photos
+- Group **features** (core) `top-5`, blocks 5
+  - **features** “A gentle, four-part rhythm.” — 11 text, 1 photos
+    - photo (object): Cup of tea with eyeglasses and a flower on a cozy blanket
+- Group **features** (core) `top-6`, blocks 6
+  - **features** “Three considered ways to work together.” — 26 text, 2 photos
+    - photo (person): Smiling young woman with long dark hair headshot
+    - photo (person): Smiling young man with curly hair headshot
+- Group **features** (core) `top-7`, blocks 7
+  - **features** “Go at your own gentle pace.” — 13 text, 0 photos
+- Group **testimonials** (core) `top-8`, blocks 8
+  - **testimonials** “Quiet results, clearly felt.” — 12 text, 4 photos
+    - photo (person): Smiling young man with curly hair headshot
+    - photo (person): Smiling young woman with long dark hair headshot
+    - photo (person): Smiling woman with long hair in a white shirt
+    - photo (person): Smiling man in a polo shirt sitting at a desk with arms folded
+- Group **content** (core) `top-9`, blocks 9
+  - **content** “A few honest answers.” — 14 text, 0 photos
+- Group **cta** (core) `top-10`, blocks 10
+  - **cta** “Start with a quiet conversation.” — 4 text, 0 photos
+
+### About — `about` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Hi, I'm Maren Alden. I help people build lives that feel good.” — 10 text, 1 photos
+    - photo (person): Smiling woman with long hair and arms crossed
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Patient, honest, shaped around you.” — 10 text, 0 photos
+- Group **testimonials** (core) `top-2`, blocks 2
+  - **testimonials** “Quiet results, clearly felt.” — 12 text, 4 photos
+    - photo (person): Smiling young man with curly hair headshot
+    - photo (person): Smiling young woman with long dark hair headshot
+    - photo (person): Smiling woman with long hair in a white shirt
+    - photo (person): Smiling man in a polo shirt sitting at a desk with arms folded
+- Group **testimonials** (core) `top-3`, blocks 3
+  - **testimonials** “Training, and a few kind nods along the way.” — 19 text, 0 photos
+- Group **cta** (core) `top-4`, blocks 4
+  - **cta** “Start with a quiet conversation.” — 4 text, 0 photos
+
+### Programs — `programs` → services
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Three considered ways to work together.” — 25 text, 2 photos
+    - photo (person): Smiling Asian woman holding a tablet and stylus
+    - photo (person): Smiling man in a polo shirt sitting at a desk with arms folded
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Go at your own gentle pace.” — 12 text, 0 photos
+- Group **cta** (core) `top-2`, blocks 2
+  - **cta** “Start with a quiet conversation.” — 4 text, 0 photos
+
+### Results — `results` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Quiet changes, measured honestly.” — 3 text, 0 photos
+- Group **content** (core) `top-1`, blocks 1
+  - **content** (untitled) — 15 text, 3 photos
+    - photo (person): Smiling man in a polo shirt sitting at a desk with arms folded
+    - photo (person): Young Asian woman in a white blouse beside a plant
+    - photo (person): Smiling woman with long hair in a white shirt
+- Group **cta** (core) `top-2`, blocks 2
+  - **cta** “A quiet result begins with a quiet conversation.” — 4 text, 0 photos
+
+## Kidz (`kidz`) · premium
+
+17 sections · 106/116 editable text slots · 784 words · 8/36 swappable images
+
+Fonts: heading **Capriola**, body **Source Sans Pro** ()
+
+Colors: `#eb770e` primary ×44, `#ffffff` background ×27, `#2f2b2c` text ×14, `#f9f1e7` primary (+0.453) ×9, `#d8570d` primary (-0.039) ×9, `#404040` text ×8, `#e9ecef` background ×6, `#e4e4e7` background ×3, `#fafafa` background ×3, `#fbf7f4` background ×2, `#606060` muted ×1, `#fffff1` background ×1, `#3f3f46` text ×1, `#d8650d` primary (-0.039) ×1, `#027abb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 10
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Cultivating Individuality and Academic Excellence” — 3 text, 0 photos
+- Group **stats** (needs stats) `top-1`, blocks 1
+  - **stats** “We put little magic into all our kid's lives.” — 6 text, 0 photos
+- Group **features** (core) `top-2`, blocks 2
+  - **features** “Kindergarten and Childhood is our Passion” — 8 text, 0 photos
+- Group **features** (core) `top-3`, blocks 3
+  - **features** “Our Advantages” — 15 text, 0 photos
+- Group **testimonials** (core) `top-4`, blocks 4
+  - **testimonials** “Parent’s Thoughts About Us” — 10 text, 0 photos
+- Group **cta** (core) `top-5`, blocks 5
+  - **cta** “A Place Where Children Thrive” — 3 text, 0 photos
+- Group **posts** (needs blog) `top-6`, blocks 6
+  - **posts** “Upcoming Events” — 5 text, 0 photos · dynamic: core/query
+- Group **content** (core) `top-7`, blocks 7
+  - **content** “Our Study Process” — 6 text, 0 photos
+
+### Events — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “We put little magic into all our kid's lives.” — 6 text, 0 photos
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Kindergarten and Childhood is our Passion” — 8 text, 0 photos
+- Group **features** (core) `top-2`, blocks 2
+  - **features** “Our Advantages” — 15 text, 0 photos
+- Group **testimonials** (core) `top-3`, blocks 3
+  - **testimonials** “Parent’s Thoughts About Us” — 10 text, 0 photos
+
+### Contact Us — `contact-us` → contact
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Email” — 4 text, 0 photos
+- Group **cta** (core) `top-1`, blocks 1
+  - **cta** “A Place Where Children Thrive” — 3 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Where we are” — 2 text, 0 photos
+
+### Gallery — `gallery` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Our Gallery” — 2 text, 0 photos
+- Group **gallery** (core) `top-1`, blocks 1
+  - **gallery** (untitled) — 0 text, 8 photos
+    - photo (person): Little girl looking at a colorful number and alphabet chart
+    - photo (group): Children playing inside a cardboard playhouse
+    - photo (group): Children doing yoga tree poses against a wall
+    - photo (group): Teacher with a globe in front of children in a kindergarten classroom
+    - photo (group): Children and a teacher using a chalkboard in a classroom
+    - photo (group): Teacher helping a little girl with a craft activity
+    - photo (group): Two girls in animal onesies holding kindergarten speech bubbles
+    - photo (group): Teacher and a girl looking at a globe together in a classroom
+
+## Law Firm V2 (`law-firm-v2`) · premium
+
+16 sections · 175/179 editable text slots · 1754 words · 13/60 swappable images
+
+Fonts: heading **PT Serif**, body **PT Sans** (PT Serif → heading, PT Sans → body)
+
+Colors: `#ffffff` background ×82, `#212529` text ×59, `#313133` text ×56, `#b89552` primary ×56, `#002626` secondary ×14, `#f1f3f5` background ×11, `#000000` text ×8, `#e9ecef` background ×6, `#027abb` secondary (+0.296) ×5, `#fafafa` background ×4, `#0e4749` secondary (+0.096) ×4, `#f1ebe0` primary (+0.39) ×3, `#e4e4e7` background ×2, `#3f3f46` text ×2, `#cccccc` muted ×1, `#b89453` primary (+0.002) ×1
+
+Contrast pairs checked after recoloring: 19
+
+### Home — `home` → home
+
+- Group **hero** (core) `7147817d`, blocks 0
+  - **hero** “With care and compassion , we are your special education advocate.” — 5 text, 1 photos · lorem
+    - photo (group): Colleagues working on laptops in a meeting
+- Group **features** (core) `637f5cc0`, blocks 1
+  - **features** “Our Practise Areas” — 21 text, 0 photos · lorem
+- Group **content** (core) `0aed6238`, blocks 2
+  - **content** “The main business of a lawyer is to take the romance, the mystery, the irony, the ambiguity out of everything he touches.” — 8 text, 1 photos · lorem
+    - photo (person): Businessman in a suit using a phone and laptop at a desk
+- Group **testimonials** (core) `cf8ce65c`, blocks 3
+  - **testimonials** “What our client’s say?” — 5 text, 1 photos · lorem
+    - photo (person): Woman writing notes at a desk with a laptop
+- Group **pricing** (needs pricing_plans) `0dcdbed6`, blocks 4
+  - **pricing** “Our Pricing Plans” — 30 text, 0 photos · lorem
+- Group **features** (core) `5bc5d038`, blocks 5
+  - **features** “Give your Visitors A Free Consultation” — 3 text, 1 photos · lorem · dynamic: everest-forms/form-selector
+    - photo (place): Historic courthouse building with columns and a landscaped lawn
+- Group **features** (core) `45c838ec`, blocks 6, 7
+  - **content** “Recent Case Studies” — 2 text, 0 photos · lorem
+  - **features** “Family Law” — 10 text, 5 photos · lorem
+    - photo (group): Smiling father carrying his son on his shoulders outdoors
+    - photo (place): Neoclassical courthouse building with columns and a stone plaza
+    - photo (person): Man in a suit and tie buttoning his jacket
+    - photo (person): Woman in a red jacket with a clown nose
+    - photo (object): Green capsule pills spilling out of an orange pill bottle
+- Group **cta** (core) `2df65705`, blocks 8
+  - **cta** (untitled) — 1 text, 0 photos
+- Group **posts** (needs blog) `87ef2b55`, blocks 9
+  - **posts** “Latest News & Events” — 14 text, 3 photos · lorem · dynamic: everest-forms/form-selector
+    - photo (place): Grand opera house building with a plaza in front
+    - photo (place): Notre-Dame cathedral facade in Paris
+    - photo (place): Moscow State University tower building reflected in water
+- Group **logos** (needs client_logos) `67a11a4a`, blocks 10
+  - **logos** (untitled) — 0 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `87ef2b55`, blocks 0
+  - **hero** “Integrity and love are the principles our practice was built upon.” — 2 text, 1 photos · lorem
+    - photo (group): Business team in suits standing together
+- Group **stats** (needs stats) `d730a325`, blocks 1
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **team** (needs team) `0dcdbed6`, blocks 2
+  - **team** “Explore Our Team” — 8 text, 0 photos · lorem
+
+### Practise Areas — `practise-areas` → services
+
+- Group **hero** (core) `637f5cc0`, blocks 0
+  - **hero** “Coporate & Securities” — 36 text, 0 photos · lorem
+
+### Faq — `faq` → other
+
+- Group **hero** (core) `16b12363`, blocks 0
+  - **hero** (untitled) — 26 text, 0 photos · lorem
 
 ## Lawyer V2 (`lawyer-v2`)
 
@@ -271,18 +2665,26 @@ Contrast pairs checked after recoloring: 9
 
 - Group **hero** (core) `19834f40`, blocks 0
   - **hero** “We're In This Together. Your Team and Ours.” — 4 text, 1 photos · lorem
+    - photo (place): Grand old library with wooden bookshelves and an ornate ceiling
 - Group **features** (core) `fc5f6c45`, blocks 1
   - **features** “BUSINESS LAW” — 16 text, 2 photos · lorem
+    - photo (group): Hands signing a document on a tablet during a business meeting
+    - photo (group): Senior businessman reviewing papers with colleagues at a desk
 - Group **content** (core) `f3258ff1`, blocks 2
   - **content** “Practise Area” — 27 text, 0 photos · lorem
 - Group **stats** (needs stats) `4e8ffa71`, blocks 3
   - **stats** “Consultant” — 7 text, 1 photos · lorem
+    - photo (place): Ornate library interior with tall bookshelves
 - Group **content** (core) `4152a2f1`, blocks 4
   - **content** “What client's say?” — 8 text, 2 photos · lorem
+    - photo (person): Bearded man in sunglasses, headshot
+    - photo (person): Young woman with long hair and red lipstick, close-up portrait
 - Group **content** (core) `75457d49`, blocks 5
   - **content** “Why choose our firm?” — 11 text, 1 photos · lorem
+    - photo (person): Senior businessman in a suit, black and white portrait
 - Group **dynamic** (core) `3fb353d0`, blocks 6
   - **dynamic** “Newsletter” — 3 text, 1 photos · lorem · dynamic: core/shortcode
+    - photo (group): People at tables in a busy restaurant
 - Group **logos** (needs client_logos) `551bcca7`, blocks 7
   - **logos** (untitled) — 0 text, 0 photos
 
@@ -293,12 +2695,19 @@ Contrast pairs checked after recoloring: 9
 
 - Group **hero** (core) `894572fe`, blocks 0
   - **hero** “Who are we?” — 7 text, 1 photos · lorem
+    - photo (person): Smiling businesswoman with glasses writing at a cafe table
 - Group **content** (core) `9ab9e6bc`, blocks 1
   - **content** “Need Legal Help? Get in Touch with Our Lawyers!” — 14 text, 1 photos · lorem
+    - photo (object): Hand signing a document with a fountain pen
 - Group **team** (needs team) `733f3774`, blocks 2
   - **team** “Our team” — 10 text, 4 photos
+    - photo (person): Young man in a vest and tie wearing sunglasses, black and white portrait
+    - photo (person): Man in a dark suit, black and white headshot
+    - photo (person): Young woman with long hair, black and white portrait
+    - photo (person): Young man with stubble in a knit sweater, black and white headshot
 - Group **cta** (core) `479ba3cf`, blocks 3
   - **cta** “Want to be an intern with us and you are a student?” — 3 text, 1 photos · lorem
+    - photo (object): Two people shaking hands
 - Group **logos** (needs client_logos) `551bcca7`, blocks 4
   - **logos** (untitled) — 0 text, 0 photos
 
@@ -316,6 +2725,1265 @@ Contrast pairs checked after recoloring: 9
 - Group **logos** (needs client_logos) `551bcca7`, blocks 1
   - **logos** (untitled) — 0 text, 0 photos
 
+## MegaDrone V2 (`megadrone-v2`) · premium
+
+11 sections · 54/54 editable text slots · 296 words · 15/33 swappable images
+
+Fonts: heading **Roboto**, body **Poppins** (Poppins → body, Roboto → heading)
+
+Colors: `#ffffff` background ×44, `#e00000` primary ×17, `#756f6f` muted ×10, `#000000` text ×7, `#e9ecef` background ×6, `#54595f` muted ×4, `#16181a` text ×4, `#fafafa` background ×4, `#c2c1c1` muted ×3, `#7a7a7a` muted ×3, `#e4e4e7` background ×2, `#027abb` accent [locked: accent] ×2, `#f7f7f7` background ×1, `#3f3f46` text ×1, `#d4d4d8` muted ×1, `#1e7ba6` accent (+0.014) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 7
+
+### Sample Page — `sample-page-2` → other
+
+
+### Home — `home` → home
+
+- Group **hero** (core) `ee7622a7`, blocks 0
+  - **hero** “Drones overall will be more impactful.” — 3 text, 1 photos · lorem
+    - photo (object): Drone flying over water at dusk
+- Group **content** (core) `6667638b`, blocks 1
+  - **content** “AERIAL PHOTOGRAPHY” — 7 text, 1 photos · lorem
+    - photo (object): Drone hovering over a green field
+- Group **content** (core) `beacc003`, blocks 2
+  - **content** “4K video” — 12 text, 0 photos · lorem
+- Group **features** (core) `ee4ff678`, blocks 3
+  - **features** “AERIAL PHOTOGRAPHY” — 10 text, 1 photos · lorem
+    - photo (object): White drone flying in the sky
+- Group **team** (needs team) `7a796a13`, blocks 4
+  - **team** “AERIAL PHOTOGRAPHY” — 8 text, 3 photos
+    - photo (person): Senior businessman in a suit with hands in pockets
+    - photo (person): Smiling woman in a pink blazer on a white background
+    - photo (person): Asian man in a suit leaning against a wooden wall
+- Group **content** (core) `fc48cb0a`, blocks 5
+  - **content** “We Offer 20% off innovative Camera & Video Streaming” — 2 text, 1 photos · lorem
+    - photo (object): White drone flying against a dark background
+- Group **dynamic** (needs products) `2b18fd54`, blocks 6
+  - **dynamic** “AERIAL PHOTOGRAPHY” — 2 text, 0 photos · dynamic: woocommerce/all-products, woocommerce/product-image, woocommerce/product-title, woocommerce/product-price, woocommerce/product-rating, woocommerce/product-button
+- Group **gallery** (core) `6eb22d79`, blocks 7
+  - **gallery** “COMPLETE SECURITY” — 4 text, 7 photos
+    - photo (object): Underside of a drone flying against a blue sky
+    - photo (object): Drone flying above a lake with mountains
+    - photo (person): Woman with outstretched arms on sand under a flying drone
+    - photo (object): White drone flying near a metal scaffold
+    - photo (object): Compact drone hovering over a snowy landscape
+    - photo (object): White drone with a camera flying over water
+    - photo (object): White drone flying in a pale sky
+- Group **logos** (needs client_logos) `c32f866a`, blocks 8
+  - **logos** (untitled) — 0 text, 0 photos
+- Group **dynamic** (core) `2b2dabac`, blocks 9
+  - **dynamic** “AERIAL PHOTOGRAPHY” — 3 text, 1 photos · lorem · dynamic: everest-forms/form-selector
+    - photo (person): Man piloting a drone at sunset by a lake
+
+### Blog — `blog` → blog
+
+
+### Shop — `shop` → other
+
+
+### Cart — `cart` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** “You may be interested in…” — 3 text, 0 photos · dynamic: woocommerce/cart, woocommerce/filled-cart-block, woocommerce/cart-items-block, woocommerce/cart-line-items-block, woocommerce/cart-cross-sells-block, woocommerce/cart-cross-sells-products-block, woocommerce/cart-totals-block, woocommerce/cart-order-summary-block, woocommerce/cart-order-summary-heading-block, woocommerce/cart-order-summary-coupon-form-block, woocommerce/cart-order-summary-subtotal-block, woocommerce/cart-order-summary-fee-block, woocommerce/cart-order-summary-discount-block, woocommerce/cart-order-summary-shipping-block, woocommerce/cart-order-summary-taxes-block, woocommerce/cart-express-payment-block, woocommerce/proceed-to-checkout-block, woocommerce/cart-accepted-payment-methods-block, woocommerce/empty-cart-block, woocommerce/product-new
+
+## Member Read. (`member-read`)
+
+17 sections · 211/244 editable text slots · 959 words · 40/56 swappable images
+
+Fonts: heading **Inter**, body **Inter** ()
+
+Colors: `#ffffff` background ×7, `#ede9e5` primary ×6, `#100c0a` text ×4, `#000000` text ×3, `#15110e` primary (-0.845) ×2, `#fe7826` primary (-0.341) ×2, `#475bb2` secondary ×2, `#3a4a8f` secondary (-0.094) ×2, `#8c8882` muted ×1, `#9d8f77` muted ×1, `#5a4848` muted ×1, `#707070` muted ×1, `#83868f` muted ×1, `#5d444d` muted ×1, `#553f30` primary (-0.653) ×1, `#36281f` primary (-0.747) ×1
+
+Contrast pairs checked after recoloring: 5
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Home for readers who believe in great writing.” — 11 text, 5 photos
+    - photo (person): Young woman in glasses and a striped shirt smiling outdoors
+    - photo (person): Woman with white hair and glasses holding books in a library
+    - photo (person): Smiling man in a suit with arms crossed in an office
+    - photo (person): Smiling woman with long hair looking up at night
+    - photo (place): Small church and tree silhouetted at sunset
+- Group **content** (core) `top-1`, blocks 1
+  - **content** “Choose what to read” — 16 text, 0 photos
+- Group **features** (core) `top-2`, blocks 2
+  - **features** “Stories worth your full attention” — 30 text, 6 photos
+    - photo (person): Young woman in glasses and a striped shirt smiling outdoors
+    - photo (person): Smiling older man in a suit holding a laptop
+    - photo (person): Smiling woman with long hair looking up at night
+    - photo (person): Woman with white hair and glasses holding books in a library
+    - photo (person): Smiling man in a suit with arms crossed in an office
+    - photo (person): Young Asian woman in a white blouse beside a plant
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “Most-loved premium reads” — 13 text, 0 photos
+- Group **gallery** (core) `top-4`, blocks 4
+  - **gallery** “Meet the storytellers” — 18 text, 8 photos
+    - photo (person): Young woman in glasses and a striped shirt smiling outdoors
+    - photo (person): Smiling older man in a suit holding a laptop
+    - photo (person): Woman with white hair and glasses holding books in a library
+    - photo (person): Man in glasses looking at a computer in an office
+    - photo (person): Smiling woman with long hair looking up at night
+    - photo (person): Smiling woman with long hair touching her face
+    - photo (person): Young Asian woman in a white blouse beside a plant
+    - photo (person): Smiling man in a suit with arms crossed in an office
+- Group **features** (core) `top-5`, blocks 5
+  - **features** “The Reading Room” — 12 text, 3 photos
+    - photo (group): Concert crowd raising hands toward a bright stage
+    - photo (object): Ornate antique silver pocket watch
+    - photo (place): Road at sunset with a motorcyclist and street lights
+- Group **content** (core) `top-6`, blocks 6
+  - **content** “Choose how deep you want to go” — 19 text, 0 photos · dynamic: user-registration/membership-buy-now
+- Group **content** (core) `top-7`, blocks 7
+  - **content** “One good email, every Sunday” — 8 text, 0 photos
+
+### Articles — `articles` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Stories worth your full attention” — 3 text, 0 photos
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Editorial Layout Field Guide” — 18 text, 12 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Get every story, every week” — 5 text, 0 photos
+
+### Membership — `membership` → other
+
+- Group **content** (core) `top-0`, blocks 0
+  - **content** “Choose how deep you want to go” — 19 text, 0 photos · dynamic: user-registration/membership-buy-now
+- Group **content** (core) `top-1`, blocks 1
+  - **content** “Things readers ask us” — 8 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Get every story, every week” — 5 text, 0 photos
+
+### Resources — `resources` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “The Reading Room.” — 3 text, 0 photos
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Editorial Layout Field Guide” — 18 text, 6 photos
+    - photo (group): Concert crowd raising hands toward a bright stage
+    - photo (object): Ornate antique silver pocket watch
+    - photo (place): Road at sunset with a motorcyclist and street lights
+    - photo (place): Mountain landscape with a goat on rocky slopes under blue sky
+    - photo (object): Overhead view of spices, herbs, mortar and cast iron pan on a wooden table
+    - photo (place): Misty forest with silhouettes of a deer and wild boar
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Get every story, every week” — 5 text, 0 photos
+
+### Registration — `registration` → other
+
+
+<details><summary>Warnings</summary>
+
+- articles: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/2026/07/download-1-150x150.webp
+- articles: photo not in data/photo-descriptions.json: https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png
+- articles: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/2026/07/download-2-150x150.webp
+- articles: photo not in data/photo-descriptions.json: https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png
+- articles: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/2026/07/download-3-150x150.webp
+- articles: photo not in data/photo-descriptions.json: https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png
+- articles: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/2026/07/premium-1-150x150.webp
+- articles: photo not in data/photo-descriptions.json: https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png
+- articles: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/2026/07/premium-2-150x150.webp
+- articles: photo not in data/photo-descriptions.json: https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png
+- articles: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/2026/07/stories-5-150x150.webp
+- articles: photo not in data/photo-descriptions.json: https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png
+
+</details>
+
+## Zakra Minimal Portfolio (`minimal-portfolio-02`)
+
+6 sections · 41/49 editable text slots · 229 words · 7/14 swappable images
+
+Fonts: heading **Poppins**, body **Lato** (Poppins → heading, Lato → body, Work Sans → body)
+
+Colors: `#868e96` muted ×23, `#f2f2f2` background ×15, `#16181a` text ×12, `#20c997` primary ×11, `#ffffff` background ×7, `#e9ecef` background ×6, `#20cb98` primary (+0.004) ×4, `#212529` text ×3, `#000000` text ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#027abb` accent [locked: accent] ×2, `#889099` muted ×1, `#3f3b38` text ×1, `#f1f1f1` background ×1, `#fff9f9` background ×1, `#3f3f46` text ×1, `#20c996` primary ×1, `#1db772` primary (-0.041) ×1, `#08c98f` primary (-0.047) ×1, `#20cc98` primary (+0.006) ×1, `#1cb487` primary (-0.049) ×1
+
+Contrast pairs checked after recoloring: 10
+
+### Home — `home` → home
+
+- Group **hero** (core) `a6646ff7`, blocks 0
+  - **hero** “I am Michael” — 3 text, 1 photos · lorem
+    - photo (person): Young man with glasses in a teal t-shirt looking sideways
+- Group **content** (core) `5b6e95f5`, blocks 1
+  - **content** “ABOUT ME” — 8 text, 0 photos · lorem
+- Group **features** (core) `c0a1e035`, blocks 2
+  - **features** “MY WORKS” — 14 text, 6 photos
+    - photo (place): Home office desk with two iMac monitors and a plant
+    - photo (object): iMac, keyboard, mouse and tablet with apps on a wooden desk
+    - photo (object): iMac, laptop, keyboard and tablet on a wooden desk
+    - photo (object): Branding stationery mockup flat lay with clipboard and cards
+    - photo (object): Poster mockup with a cardboard tube
+    - photo (object): Laptop, notebook, pencil and earphones on a desk from above
+
+### Blog — `blog` → blog
+
+
+### Portfolio — `portfolio` → services
+
+- Group **hero** (core) `c0a1e035`, blocks 0
+  - **hero** “MY WORKS” — 13 text, 0 photos
+
+### Contact — `contact` → contact
+
+- Group **hero** (core) `c0a1e035`, blocks 0
+  - **hero** “STAY IN TOUCH” — 3 text, 0 photos
+- Group **dynamic** (core) `06ae395f`, blocks 1
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+## Music Band V2 (`musicband-v2`) · premium
+
+19 sections · 109/110 editable text slots · 832 words · 29/33 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+
+Colors: `#ffffff` background ×121, `#852172` primary ×23, `#e9ecef` background ×22, `#ff54e2` primary (+0.339) ×17, `#269bd1` secondary ×16, `#080618` text ×9, `#fafafa` background ×4, `#cf2fa9` primary (+0.173) ×4, `#027abb` secondary (-0.114) ×4, `#060513` text ×3, `#e4e4e7` background ×3, `#16181a` text ×3, `#342fcf` accent [locked: accent] ×3, `#3f3f46` text ×2, `#320e4f` accent [locked: accent] ×2, `#000000` text ×1, `#ff77e8` primary (+0.408) ×1, `#1e7ba6` secondary (-0.1) ×1, `#261459` accent (-0.284) [locked: accent] ×1, `#2e2272` accent (-0.208) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 6
+
+### Home — `home` → home
+
+- Group **hero** (core) `3a1bf866`, blocks 0
+  - **hero** “NEW MUSIC TODAY” — 2 text, 1 photos · lorem
+    - photo (person): Female singer performing on stage with a microphone
+- Group **content** (core) `e9478366`, blocks 2
+  - **content** “ABOUT US” — 4 text, 1 photos · lorem
+    - photo (object): Music collage with a keyboard player, vinyl record and a seated woman
+- Group **features** (core) `a6de0dc4`, blocks 4
+  - **features** “LATEST ALBUMS” — 13 text, 1 photos
+    - photo (place): Band performing on a concert stage under lights
+- Group **content** (core) `6cdb256d`, blocks 6
+  - **content** “MUSIC” — 1 text, 1 photos
+    - photo (person): Woman with blue hair in a black hoodie beside a vinyl record
+- Group **content** (core) `c3d8bca1`, blocks 9
+  - **content** “NEXT EVENT” — 2 text, 1 photos · lorem
+    - photo (place): Large concert arena with crowd and colorful stage lights
+- Group **team** (needs team) `65416b9e`, blocks 11
+  - **team** “OUR TEAM” — 9 text, 4 photos
+    - photo (person): Smiling bearded man in red sunglasses in front of the Eiffel Tower
+    - photo (person): Man in a brown blazer posing with hand in his hair
+    - photo (person): Smiling young woman with glasses sitting by a window
+    - photo (person): Blonde woman in a hoodie and headband sitting outdoors
+- Group **content** (core) `ac00864b`, blocks 14
+  - **content** “Concert Video Chicago 2020” — 3 text, 1 photos · lorem
+    - photo (person): Female singer performing on stage with a microphone
+- Group **dynamic** (core) `d0211052`, blocks 16
+  - **dynamic** “CONTACT FOR BOOKING” — 1 text, 1 photos · dynamic: everest-forms/form-selector
+    - photo (person): Curly-haired woman in a black leather jacket posing
+- Group **cta** (core) `f9865302`, blocks 17
+  - **cta** “Have a Question About Company And Music Concert” — 3 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### About us — `about-us` → about
+
+- Group **hero** (core) `e9478366`, blocks 1
+  - **hero** (untitled) — 3 text, 1 photos · lorem
+    - photo (object): Music collage with a keyboard player, vinyl record and a seated woman
+- Group **content** (core) `1ea475bd`, blocks 3
+  - **content** (untitled) — 3 text, 2 photos · lorem
+    - photo (place): Crowd at a music festival stage with fireworks
+    - photo (object): Music collage with a keyboard player, vinyl record and a seated woman
+- Group **team** (needs team) `65416b9e`, blocks 5
+  - **team** “OUR TEAM” — 9 text, 4 photos
+    - photo (person): Smiling bearded man in red sunglasses in front of the Eiffel Tower
+    - photo (person): Man in a brown blazer posing with hand in his hair
+    - photo (person): Smiling young woman with glasses sitting by a window
+    - photo (person): Blonde woman in a hoodie and headband sitting outdoors
+- Group **content** (core) `ac00864b`, blocks 7
+  - **content** “Concert Video Chicago 2020” — 3 text, 1 photos · lorem
+    - photo (person): Female singer performing on stage with a microphone
+- Group **cta** (core) `f9865302`, blocks 8
+  - **cta** “Have a Question About Company And Music Concert” — 3 text, 0 photos
+
+### Album — `album` → other
+
+- Group **hero** (core) `a6de0dc4`, blocks 0
+  - **hero** “I wanna be in the Covalry” — 18 text, 1 photos
+    - photo (place): Band performing on a concert stage under lights
+- Group **content** (core) `6cdb256d`, blocks 2
+  - **content** “MUSIC” — 10 text, 1 photos
+    - photo (person): Woman with blue hair in a black hoodie beside a vinyl record
+- Group **cta** (core) `f9865302`, blocks 3
+  - **cta** “Have a Question About Company And Music Concert” — 3 text, 0 photos
+
+### Artists — `artists` → other
+
+- Group **hero** (core) `65416b9e`, blocks 1
+  - **hero** “Mathew Hyatt” — 16 text, 8 photos
+    - photo (person): Smiling bearded man in red sunglasses in front of the Eiffel Tower
+    - photo (person): Man in a brown blazer posing with hand in his hair
+    - photo (person): Smiling young woman with glasses sitting by a window
+    - photo (person): Blonde woman in a hoodie and headband sitting outdoors
+    - photo (person): Young woman wearing white headphones
+    - photo (person): Bearded man in a blue t-shirt portrait
+    - photo (person): Smiling bearded man in a white shirt
+    - photo (person): Young man with long hair in a denim jacket outdoors
+- Group **cta** (core) `f9865302`, blocks 2
+  - **cta** “Have a Question About Company And Music Concert” — 3 text, 0 photos
+
+## nutriCoach (`nutricoach`) · premium
+
+15 sections · 125/129 editable text slots · 946 words · 5/52 swappable images
+
+Fonts: heading **Rufina**, body **Poppins** ()
+
+Colors: `#064e41` primary ×34, `#303030` text ×17, `#ffffff` background ×17, `#e9ecef` background ×6, `#f5f5f5` background ×5, `#fafafa` background ×5, `#f8f8f8` background ×3, `#e4e4e7` background ×3, `#3f3f46` text ×2, `#d9d9d9` muted ×1, `#595959` muted ×1, `#16181a` text ×1, `#d4d4d8` muted ×1, `#064e46` primary ×1
+
+Contrast pairs checked after recoloring: 10
+
+### Sample Page — `sample-page-2` → other
+
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Inspiring You to Live a Healthy Life” — 4 text, 5 photos · lorem
+    - photo (person): Smiling woman beside a bowl of fresh lettuce in a kitchen
+    - photo (group): Two women chatting at a kitchen counter with vegetables
+    - photo (group): Two women talking on a sofa in a bright living room
+    - photo (person): Woman drinking a green smoothie in her kitchen
+    - photo (group): Woman holding tomatoes talking to a friend in a kitchen
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Services to Improve Yourself & Your Life” — 15 text, 0 photos · lorem
+- Group **stats** (needs stats) `top-2`, blocks 2
+  - **stats** “Happy Clients” — 4 text, 0 photos
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “Enjoy Our Personalized Plans” — 9 text, 0 photos · lorem
+- Group **features** (core) `top-4`, blocks 4
+  - **features** “Our Professional Health Coaches” — 11 text, 0 photos · lorem
+- Group **posts** (needs blog) `top-5`, blocks 5
+  - **posts** “Read Our Nutrition & Fitness Blog” — 3 text, 0 photos · lorem · dynamic: core/query
+- Group **testimonials** (core) `top-6`, blocks 6
+  - **testimonials** “What Our Clients Think About Us” — 11 text, 0 photos · lorem
+- Group **cta** (core) `top-7`, blocks 7
+  - **cta** “Get Consultation!” — 4 text, 0 photos · lorem
+
+### Blog — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Welcome to nutriCoach, Health & Diet Care Nutrition” — 10 text, 0 photos · lorem
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Our Professional Health Coaches” — 11 text, 0 photos · lorem
+- Group **cta** (core) `top-2`, blocks 2
+  - **cta** “Get Consultation!” — 4 text, 0 photos · lorem
+
+### Services — `services` → services
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Services to Improve Yourself & Your Life” — 15 text, 0 photos · lorem
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “How it Works?” — 11 text, 0 photos · lorem
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Enjoy Our Personalized Plans” — 9 text, 0 photos · lorem
+- Group **cta** (core) `top-3`, blocks 3
+  - **cta** “Get Consultation!” — 4 text, 0 photos · lorem
+
+## Nutrition Coach (`nutrition-coach`)
+
+26 sections · 225/264 editable text slots · 1309 words · 36/74 swappable images
+
+Fonts: heading **Fraunces**, body **Inter** ()
+
+Colors: `#e5efeb` primary ×13, `#706258` muted ×1, `#3f3733` text ×1, `#696862` muted ×1, `#ffffff` background ×1
+
+Contrast pairs checked after recoloring: 0
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Eat better.” — 7 text, 1 photos
+    - photo (person): Fit woman giving a thumbs up in a kitchen with healthy food
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Hi, I'm Sarah —” — 14 text, 1 photos
+    - photo (person): Smiling blonde woman in a white blouse portrait
+- Group **features** (core) `top-2`, blocks 2
+  - **features** “Free First Session to Understand Your Goals” — 12 text, 0 photos
+- Group **features** (core) `top-3`, blocks 3
+  - **features** “Choose the path that matches your goal” — 19 text, 3 photos
+    - photo (object): Gloved hands plating grilled meat on flatbreads with salad
+    - photo (person): Woman doing a yoga upward dog pose on a mat at home
+    - photo (person): Young woman in a bucket hat working in a greenhouse
+- Group **content** (core) `top-4`, blocks 4
+  - **content** “Real people. Lasting results.” — 5 text, 0 photos
+- Group **gallery** (core) `top-5`, blocks 5
+  - **gallery** “Follow @nutricoach” — 2 text, 6 photos
+    - photo (person): Woman chopping vegetables in a kitchen
+    - photo (object): Bowl of lettuce, radishes and tomatoes
+    - photo (object): Face vase, potted plant and brass decor on a shelf
+    - photo (person): Fitness model in sports bra and leggings shown in two outfits
+    - photo (object): Bowl of granola with banana slices on a checked tablecloth
+    - photo (object): Fresh carrots, strawberries, tomatoes and herbs on a white surface
+- Group **testimonials** (core) `top-6`, blocks 6
+  - **testimonials** “Loved by people who've tried everything” — 12 text, 0 photos
+- Group **features** (core) `top-7`, blocks 7
+  - **features** “Notes from the kitchen” — 18 text, 4 photos
+    - photo (object): Fresh greens and tomatoes with a knife on a cutting board
+    - photo (object): Glass of green smoothie surrounded by fresh spinach
+    - photo (object): Fresh carrots, strawberries, tomatoes and herbs on a white surface
+    - photo (object): Bowl of lettuce, radishes and tomatoes
+- Group **cta** (core) `top-8`, blocks 8
+  - **cta** “Ready to Unleash Your Strength?” — 4 text, 2 photos
+    - photo (person): Fitness model in sports bra and leggings shown in two outfits
+    - photo (person): Woman chopping vegetables in a kitchen
+
+### About — `about` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Hi, I'm Sarah —” — 11 text, 1 photos
+    - photo (person): Smiling blonde woman in a white blouse portrait
+- Group **content** (core) `top-1`, blocks 1
+  - **content** “From clinical floors to your kitchen” — 4 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Trained, certified & in practice.” — 7 text, 4 photos
+    - photo (object): Nutrition and dietetics diploma certificate
+    - photo (object): Printed certificate of completion on a table
+    - photo (object): Certificate of nutritional consultation with a wax seal
+    - photo (object): Graduation cap with gold tassels on a blue diploma cover
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “"Nutrition isn't about willpower. It's about designing a kitchen, a calendar and a mindset that quietly do the work for you"” — 2 text, 0 photos
+- Group **cta** (core) `top-4`, blocks 4
+  - **cta** “Ready to Unleash Your Strength?” — 4 text, 2 photos
+    - photo (person): Fitness model in sports bra and leggings shown in two outfits
+    - photo (person): Woman chopping vegetables in a kitchen
+
+### Free Consultation — `free-consultation` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Let's Understand Your Goals First.” — 4 text, 0 photos
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Free First Session to Understand Your Goals” — 11 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Before you book.” — 7 text, 1 photos
+    - photo (object): Fresh carrots, strawberries, tomatoes and herbs on a white surface
+- Group **cta** (core) `top-3`, blocks 3
+  - **cta** “Ready to Unleash Your Strength?” — 4 text, 2 photos
+    - photo (person): Fitness model in sports bra and leggings shown in two outfits
+    - photo (person): Woman chopping vegetables in a kitchen
+
+### Programs — `programs` → services
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “A program for every season of you.” — 3 text, 0 photos
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Healthy Weight Loss” — 30 text, 6 photos
+    - photo (object): Gloved hands plating grilled meat on flatbreads with salad
+    - photo (person): Woman doing a yoga upward dog pose on a mat at home
+    - photo (person): Young woman in a bucket hat working in a greenhouse
+    - photo (object): Glass of green smoothie surrounded by fresh spinach
+    - photo (object): Open-faced toast with hummus and fruit on a plate
+    - photo (object): Bowl of lettuce, radishes and tomatoes
+- Group **cta** (core) `top-2`, blocks 2
+  - **cta** “Not Sure What You Need?” — 4 text, 2 photos
+    - photo (person): Fitness model in sports bra and leggings shown in two outfits
+    - photo (person): Woman chopping vegetables in a kitchen
+
+### Health Weight Loss — `health-weight-loss` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Healthy Weight Loss” — 5 text, 1 photos
+    - photo (object): Gloved hands plating grilled meat on flatbreads with salad
+- Group **content** (core) `top-1`, blocks 1
+  - **content** “Everything you need, nothing you don't.” — 7 text, 0 photos
+- Group **features** (core) `top-2`, blocks 2
+  - **features** “How we'll Meet.” — 9 text, 0 photos
+- Group **stats** (needs stats) `top-3`, blocks 3
+  - **stats** “How the program flows.” — 14 text, 0 photos
+- Group **content** (core) `top-4`, blocks 4
+  - **content** “Health Weight Loss” — 6 text, 0 photos
+
+## One Page V3 (`one-page-v3`)
+
+9 sections · 69/71 editable text slots · 346 words · 14/33 swappable images
+
+Fonts: heading **Poppins**, body **Montserrat** (Poppins → heading, Montserrat → body)
+
+Colors: `#ffffff` background ×55, `#222222` text ×20, `#5bb5a5` primary ×14, `#fafafa` background ×6, `#e9ecef` background ×6, `#278171` primary (-0.204) ×6, `#02223b` secondary ×5, `#16181a` text ×4, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#027abb` secondary (+0.251) ×3, `#000000` text ×1, `#d4d4d8` muted ×1
+
+Contrast pairs checked after recoloring: 6
+
+### Home — `home` → home
+
+- Group **hero** (core) `19d98172`, blocks 0
+  - **hero** “Website Builder” — 2 text, 1 photos
+    - photo (object): Overhead desk with tablet and creative mess sign
+- Group **content** (core) `d514677f`, blocks 1
+  - **content** “About Us” — 4 text, 1 photos · lorem
+    - photo (object): Hands sketching on paper next to a laptop and calculator
+- Group **features** (core) `ca4ee09b`, blocks 2
+  - **features** “Misson” — 6 text, 0 photos · lorem
+- Group **team** (needs team) `b0336b14`, blocks 3
+  - **team** “Our Team” — 4 text, 3 photos
+    - photo (person): Young man in a blazer and white shirt portrait
+    - photo (person): Smiling woman with long brown hair in a blazer
+    - photo (person): Young woman with long wavy hair portrait outdoors
+- Group **features** (core) `25b4af82`, blocks 4
+  - **features** “Services” — 13 text, 0 photos · lorem
+- Group **cta** (core) `295e6a35`, blocks 5
+  - **cta** “We build Brands Products” — 3 text, 1 photos
+    - photo (person): Woman using her phone at a cafe table with coffee
+- Group **features** (core) `808f043e`, blocks 6
+  - **features** “Portfolio” — 25 text, 6 photos
+    - photo (object): Takeaway coffee cup with a cardboard sleeve
+    - photo (object): Perfume bottle among pink flowers
+    - photo (object): Skincare bottles and tubes on a table with petals
+    - photo (object): Ornate perfume bottle lying on pink flowers
+    - photo (object): Perfume bottle among pink flowers
+    - photo (object): Skincare bottles and tubes on a table with petals
+- Group **testimonials** (core) `90ac038b`, blocks 8
+  - **testimonials** “Testimonials” — 7 text, 2 photos · lorem
+    - photo (person): Young woman with long wavy hair portrait outdoors
+    - photo (person): Young woman with long wavy hair portrait outdoors
+- Group **dynamic** (core) `6115344a`, blocks 9
+  - **dynamic** “Contact Us” — 5 text, 0 photos · dynamic: everest-forms/form-selector
+
+## Zakra Online Course (`online-course-02`) · premium
+
+13 sections · 58/62 editable text slots · 465 words · 9/22 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+
+Colors: `#ffffff` background ×44, `#f5b417` primary ×33, `#212121` text ×13, `#f9f9f9` background ×11, `#321184` secondary ×11, `#000000` text ×10, `#e9ecef` background ×5, `#e4e4e7` background ×3, `#fafafa` background ×3, `#3f3f46` text ×1, `#1f2391` secondary (+0.053) ×1, `#451fa4` secondary (+0.09) ×1, `#1f0366` secondary (-0.086) ×1, `#027abb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 11
+
+### Home — `home` → home
+
+- Group **hero** (core) `7a0010b3`, blocks 0
+  - **hero** “Committed to Excellence in Teaching and Learning.” — 3 text, 1 photos · lorem
+    - photo (person): Woman studying at a table with books and laptop
+- Group **features** (core) `8f865841`, blocks 1
+  - **features** “What We Offer” — 8 text, 0 photos · lorem
+- Group **dynamic** (needs products) `865072a6`, blocks 2
+  - **dynamic** “Featured Courses” — 3 text, 0 photos · lorem · dynamic: masteriyo/courses
+- Group **cta** (core) `aea6011c`, blocks 3
+  - **cta** “Education is about academic excellence and cultural diversity.” — 3 text, 1 photos · lorem
+    - photo (person): Young man wearing headphones working at a computer
+- Group **logos** (needs client_logos) `50125f92`, blocks 4
+  - **logos** “Our Trusted Partners” — 1 text, 0 photos
+- Group **cta** (core) `8882c8a0`, blocks 5
+  - **cta** “An excellent foundation for future success.” — 3 text, 1 photos · lorem
+    - photo (person): Young man in a plaid shirt in a circular frame with shapes
+- Group **dynamic** (needs products) `79f91394`, blocks 6
+  - **dynamic** “Popular Categories” — 3 text, 0 photos · lorem · dynamic: masteriyo/course-categories
+- Group **features** (core) `7727326f`, blocks 7
+  - **features** “Welcoming everyone in an experience that’s more than an education.” — 7 text, 1 photos · lorem
+    - photo (group): Three friends laughing at a table with laptops
+- Group **cta** (core) `7e8c0338`, blocks 8
+  - **cta** “Education is about helping students with learning differences.” — 3 text, 1 photos · lorem
+    - photo (person): Woman with headphones writing notes at a laptop
+- Group **team** (needs team) `64013aa3`, blocks 9
+  - **team** “Our Instructors” — 11 text, 4 photos · lorem
+    - photo (person): Smiling blonde woman holding an orange folder
+    - photo (person): Smiling woman with glasses in front of a whiteboard
+    - photo (person): Smiling redhead woman holding a marker at a whiteboard
+    - photo (person): Young man in a denim shirt in an office
+- Group **testimonials** (core) `d24a9948`, blocks 10
+  - **testimonials** “Our Testimonials” — 13 text, 0 photos · lorem
+
+### Blog — `blog` → blog
+
+
+### Courses — `courses` → services
+
+
+### Account — `account` → other
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+### Checkout — `checkout` → other
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+##  (`online-learning`)
+
+24 sections · 218/234 editable text slots · 1310 words · 26/84 swappable images
+
+Fonts: heading **Manrope**, body **Inter** ()
+
+Colors: `#ffffff` background ×12, `#f5f9f8` background ×11, `#7a7a7a` muted ×8, `#e6e6e6` background ×6, `#f1f9f6` background ×3, `#f7f9f6` background ×1, `#dfe3e1` muted ×1
+
+Contrast pairs checked after recoloring: 0
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Where Learning Meets Real- World Growth” — 3 text, 1 photos
+    - photo (person): Woman with glasses using a tablet in an office
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “OUR FEATURES” — 15 text, 0 photos
+- Group **features** (core) `top-2`, blocks 2
+  - **features** “BEST LEARNING” — 10 text, 3 photos
+    - photo (object): Notebook with website wireframe sketches, pens and phone
+    - photo (object): Hand with a stylus on a tablet showing analytics charts
+    - photo (object): Hands typing on a keyboard on a desk with posters
+- Group **features** (core) `top-3`, blocks 3
+  - **features** “OUR CATEGORIES” — 20 text, 0 photos
+- Group **pricing** (needs pricing_plans) `top-4`, blocks 4, 5
+  - **logos** “TRUSTED PARTNERS” — 2 text, 0 photos
+  - **pricing** “PRICING” — 19 text, 0 photos
+- Group **testimonials** (core) `top-6`, blocks 6
+  - **testimonials** “REVIEWS” — 15 text, 0 photos
+- Group **features** (core) `top-7`, blocks 7
+  - **features** “ABOUT US” — 10 text, 3 photos
+    - photo (place): Minimal desk with a plant and laptop by a white wall
+    - photo (person): Woman with glasses writing at her office desk
+    - photo (person): Man with a headset at a laptop raising a finger
+- Group **team** (needs team) `top-8`, blocks 8
+  - **team** “INSTRUCTORS” — 12 text, 4 photos
+    - photo (person): Smiling young man with glasses and beard
+    - photo (person): Young woman in a black blazer portrait
+    - photo (person): Smiling man in an office with a colleague behind
+    - photo (person): Smiling woman with glasses and arms crossed in an office
+- Group **content** (core) `top-9`, blocks 9
+  - **content** “FAQS” — 8 text, 0 photos
+- Group **cta** (core) `top-10`, blocks 10
+  - **cta** “Start Today!” — 3 text, 0 photos
+
+### About — `about` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** (untitled) — 1 text, 2 photos
+    - photo (person): Young woman in a black blazer portrait
+    - photo (object): Tablet showing a website on a desk with a keyboard
+- Group **features** (core) `top-1`, blocks 1, 2
+  - **logos** “TRUSTED PARTNERS” — 2 text, 0 photos
+  - **features** “ABOUT US” — 9 text, 3 photos
+    - photo (place): Minimal desk with a plant and laptop by a white wall
+    - photo (person): Woman with glasses writing at her office desk
+    - photo (person): Man with a headset at a laptop raising a finger
+- Group **team** (needs team) `top-3`, blocks 3
+  - **team** “INSTRUCTORS” — 12 text, 4 photos
+    - photo (person): Smiling young man with glasses and beard
+    - photo (person): Young woman in a black blazer portrait
+    - photo (person): Smiling man in an office with a colleague behind
+    - photo (person): Smiling woman with glasses and arms crossed in an office
+- Group **content** (core) `top-4`, blocks 4
+  - **content** “FAQS” — 8 text, 0 photos
+- Group **cta** (core) `top-5`, blocks 5
+  - **cta** “Start Today!” — 3 text, 0 photos
+
+### Pricing — `pricing` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Single Course” — 16 text, 0 photos
+- Group **content** (core) `top-1`, blocks 1
+  - **content** “FAQS” — 8 text, 0 photos
+
+### Courses — `courses` → services
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “UI/UX Design Fundamentals” — 12 text, 6 photos
+    - photo (object): Notebook with website wireframe sketches, pens and phone
+    - photo (object): Hand with a stylus on a tablet showing analytics charts
+    - photo (object): Hands typing on a keyboard on a desk with posters
+    - photo (object): Desk with monitors, keyboard and coffee mug
+    - photo (object): Hand holding a phone photographing a sunset over the sea
+    - photo (object): Small cactus with googly eyes on an open book
+- Group **pricing** (needs pricing_plans) `top-1`, blocks 1
+  - **pricing** “PRICING” — 19 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “FAQS” — 8 text, 0 photos
+- Group **cta** (core) `top-3`, blocks 3
+  - **cta** “Start Today!” — 3 text, 0 photos
+
+### Categories — `categories` → other
+
+- Group **dynamic** (needs products) `66ccd659`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: masteriyo/course-categories
+
+## Online LMS (`online-lms`)
+
+36 sections · 277/299 editable text slots · 2011 words · 19/87 swappable images
+
+Fonts: heading **Plus Jakarta Sans**, body **Inter** ()
+
+Colors: `#ffffff` background ×54, `#1a1a1a` text ×22, `#777777` muted ×19, `#118b57` primary ×15, `#888888` muted ×11, `#bdbdbd` muted ×10, `#999999` muted ×8, `#e4e4e7` background ×5, `#eeeef1` background ×5, `#ececec` background ×4, `#d9d9d9` muted ×4, `#f4f4f4` background ×4, `#f7f7f7` background ×3, `#eeeeee` background ×2, `#22a06b` primary (+0.075) ×2, `#0a0340` secondary ×2, `#2b2b2b` text ×1, `#5c5c5c` muted ×1, `#666666` muted ×1, `#0a0a0a` text ×1, `#e4e2f0` secondary (+0.782) ×1, `#14133a` secondary (+0.02) ×1
+
+Contrast pairs checked after recoloring: 12
+
+### Sample Page — `sample-page-2` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-1`, blocks 1
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-3`, blocks 3
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-4`, blocks 4
+  - **content** (untitled) — 1 text, 0 photos
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** (untitled) — 1 text, 0 photos
+- Group **cta** (core) `top-1`, blocks 1
+  - **cta** “Think Different. Make Different.” — 3 text, 1 photos · lorem
+    - photo (object): Illustration of a person holding a book beside a website wireframe
+- Group **content** (core) `top-2`, blocks 2
+  - **content** (untitled) — 6 text, 0 photos
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “Zakra Invites You To Build Your Next Site” — 3 text, 1 photos · lorem
+    - photo (person): Smiling man talking on the phone at a desk with a laptop
+- Group **gallery** (needs portfolio) `top-4`, blocks 4
+  - **gallery** “Our Awesome Portfolio” — 2 text, 5 photos · lorem
+    - photo (person): Woman sitting in front of a doodle wall holding a lightbulb sign
+    - photo (object): Notebook with website wireframe sketches, pens and phone
+    - photo (object): Flat lay of speaker, phone, watch and accessories on black
+    - photo (place): Desk with two monitors displaying design work
+    - photo (object): Hands typing on a keyboard on a desk with posters
+- Group **pricing** (needs pricing_plans) `top-5`, blocks 5
+  - **pricing** “Plan & Pricing” — 29 text, 0 photos · lorem
+- Group **team** (needs team) `top-6`, blocks 6
+  - **team** “Meet Our Team” — 10 text, 4 photos · lorem
+    - photo (person): Young Black man thoughtfully posing with hand on chin
+    - photo (person): Young woman with glasses and wavy hair portrait
+    - photo (person): Young man with curly hair in a red jacket portrait
+    - photo (person): Smiling woman with glasses resting her chin on her hand
+- Group **testimonials** (core) `top-7`, blocks 7
+  - **testimonials** “Client Reviews” — 8 text, 2 photos · lorem
+    - photo (person): Smiling woman with glasses resting her chin on her hand
+    - photo (person): Young man with curly hair in a red jacket portrait
+- Group **stats** (needs stats) `top-8`, blocks 8
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **posts** (needs blog) `top-9`, blocks 9
+  - **posts** “Latest Posts & Articles” — 14 text, 4 photos · lorem
+    - photo (person): Woman sitting in front of a doodle wall holding a lightbulb sign
+    - photo (place): Desk with two monitors displaying design work
+    - photo (object): Notebook with website wireframe sketches, pens and phone
+    - photo (object): Hands typing on a keyboard on a desk with posters
+- Group **cta** (core) `top-10`, blocks 10
+  - **cta** “Have Any Questions?” — 3 text, 0 photos · lorem
+- Group **content** (core) `top-11`, blocks 11
+  - **content** (untitled) — 5 text, 0 photos
+- Group **contact** (core) `top-12`, blocks 12
+  - **contact** (untitled) — 7 text, 0 photos · lorem
+
+### Home Page — `home-page` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Learning, Delivered With Clarity” — 9 text, 1 photos
+    - photo (object): Online course page screenshot with a video of a presenter
+- Group **features** (core) `top-1`, blocks 1
+  - **features** “Everything An LMS Needs. Nothing It Doesn't.” — 14 text, 0 photos
+- Group **dynamic** (needs products) `top-2`, blocks 2
+  - **dynamic** “Learners' Favourites” — 4 text, 0 photos · dynamic: masteriyo/courses
+- Group **logos** (needs client_logos) `top-3`, blocks 3
+  - **logos** “Trusted By Leading Companies” — 2 text, 0 photos
+- Group **content** (core) `top-4`, blocks 4
+  - **content** “Explore By Categories” — 17 text, 0 photos
+- Group **pricing** (needs pricing_plans) `top-5`, blocks 5
+  - **pricing** “Affordable Learning For Everyone” — 22 text, 0 photos
+- Group **testimonials** (core) `top-6`, blocks 6
+  - **testimonials** “What Our Learners Has To Say” — 10 text, 0 photos
+- Group **content** (core) `top-7`, blocks 7
+  - **content** “Our Awesome Instructors” — 7 text, 0 photos
+- Group **content** (core) `top-8`, blocks 8
+  - **content** “Common Questions” — 16 text, 0 photos
+
+### About — `about` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Learning, Delivered With Clarity” — 3 text, 0 photos
+- Group **stats** (needs stats) `top-1`, blocks 1
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Built by teachers who were tired of clunky course tools” — 9 text, 1 photos
+    - photo (group): Team working on laptops around a wooden table
+- Group **pricing** (needs pricing_plans) `top-3`, blocks 3
+  - **pricing** “The Principles Behind Every Feature” — 14 text, 0 photos
+- Group **content** (core) `top-4`, blocks 4
+  - **content** “Our Awesome Instructors” — 6 text, 0 photos
+- Group **logos** (needs client_logos) `top-5`, blocks 5
+  - **logos** “Trusted By Leading Companies” — 2 text, 0 photos
+- Group **cta** (core) `top-6`, blocks 6
+  - **cta** “Ready to Start Learning?” — 3 text, 0 photos
+
+### Terms & Conditions — `terms-conditions` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Terms & Conditions” — 3 text, 0 photos
+- Group **contact** (core) `top-1`, blocks 1
+  - **contact** “1. Acceptance Of Terms” — 32 text, 0 photos
+
+## Online Shop (`online-shop`) · premium
+
+9 sections · 34/36 editable text slots · 129 words · 7/12 swappable images
+
+Fonts: heading **Karla**, body **Karla** (Karla → body)
+
+Colors: `#ffffff` background ×40, `#181818` text ×13, `#e9ecef` background ×9, `#000000` text ×7, `#fdfdfd` background ×7, `#f8f8f8` background ×7, `#fafafa` background ×5, `#d4d4d8` muted ×4, `#e4e4e7` background ×4, `#16181a` text ×4, `#027abb` accent [locked: accent] ×4, `#3f3f46` text ×3, `#130c0e` accent [locked: accent] ×2, `#fffffc` background ×1, `#1e7ba6` accent (+0.014) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 4
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Get 30% off” — 4 text, 0 photos
+- Group **features** (core) `e6310ba4`, blocks 1
+  - **features** “Free Shipping” — 8 text, 0 photos
+- Group **gallery** (core) `f383176d`, blocks 2
+  - **gallery** “Featured Category” — 9 text, 5 photos
+    - photo (object): Clothes hanging on a rack
+    - photo (object): Leather wallet, bracelets and accessories flat lay
+    - photo (object): Leather wallet, bracelets and accessories flat lay
+    - photo (object): Cosmetic bottles displayed on stone blocks
+    - photo (object): Smartphone shown from front and back
+- Group **dynamic** (needs products) `e08edb62`, blocks 3
+  - **dynamic** “New Arrivals” — 2 text, 0 photos · dynamic: woocommerce/product-tag
+- Group **features** (core) `44712c45`, blocks 4
+  - **features** “Printed T-shirt” — 6 text, 2 photos
+    - photo (person): Woman in a floral crop top with a necklace
+    - photo (person): Close-up of a woman in jeans with hand in pocket
+- Group **dynamic** (needs products) `5025e815`, blocks 5
+  - **dynamic** “Best Seller” — 2 text, 0 photos · dynamic: woocommerce/product-tag
+- Group **cta** (core) `b9cf1f4f`, blocks 6
+  - **cta** “Smart Phones starting at $999. Grab your Phone right Now.” — 3 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### Shop — `shop` → other
+
+
+### Checkout — `checkout` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: woocommerce/checkout, woocommerce/checkout-fields-block, woocommerce/checkout-express-payment-block, woocommerce/checkout-contact-information-block, woocommerce/checkout-shipping-method-block, woocommerce/checkout-pickup-options-block, woocommerce/checkout-shipping-address-block, woocommerce/checkout-billing-address-block, woocommerce/checkout-shipping-methods-block, woocommerce/checkout-payment-block, woocommerce/checkout-additional-information-block, woocommerce/checkout-order-note-block, woocommerce/checkout-terms-block, woocommerce/checkout-actions-block, woocommerce/checkout-totals-block, woocommerce/checkout-order-summary-block, woocommerce/checkout-order-summary-cart-items-block, woocommerce/checkout-order-summary-coupon-form-block, woocommerce/checkout-order-summary-subtotal-block, woocommerce/checkout-order-summary-fee-block, woocommerce/checkout-order-summary-discount-block, woocommerce/checkout-order-summary-shipping-block, woocommerce/checkout-order-summary-taxes-block
+
+### My account — `my-account` → other
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+## Online Store v2 (`online-store-v2`)
+
+4 sections · 38/40 editable text slots · 113 words · 9/9 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+
+Colors: `#111111` text ×42, `#eb3349` primary ×13, `#ffffff` background ×6, `#e9ecef` background ×5, `#f45c43` primary (+0.049) ×4, `#e2ebf0` secondary ×4, `#3f3f46` text ×3, `#fafafa` background ×3, `#2563eb` secondary (-0.38) ×3, `#027abb` secondary (-0.543) ×3, `#d4d4d8` muted ×2, `#e4e4e7` background ×2, `#16181a` text ×1, `#cfd9df` secondary (-0.071) ×1, `#171d54` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 9
+
+### Home — `home` → home
+
+- Group **content** (core) `02e2c22b`, blocks 0
+  - **content** “New Arrival” — 27 text, 6 photos · dynamic: woocommerce/product-category
+    - photo (person): Smiling woman in a graphic tee and sunglasses
+    - photo (person): Young man in a grey suit posing
+    - photo (object): White sneaker
+    - photo (object): Legs in pink high heels on a banner
+    - photo (person): Smiling woman in a red floral dress
+    - photo (object): White game controller
+- Group **posts** (needs blog) `81d63303`, blocks 1
+  - **posts** “Recent Posts” — 8 text, 3 photos
+    - photo (person): Woman wearing a black face mask
+    - photo (group): Couple walking hand in hand on a seaside boardwalk
+    - photo (person): Bride in a strapless dress with a necklace
+
+### Blog — `blog` → blog
+
+
+### Shop — `shop` → other
+
+
+### Cart — `cart` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** “You may be interested in…” — 3 text, 0 photos · dynamic: woocommerce/cart, woocommerce/filled-cart-block, woocommerce/cart-items-block, woocommerce/cart-line-items-block, woocommerce/cart-cross-sells-block, woocommerce/cart-cross-sells-products-block, woocommerce/cart-totals-block, woocommerce/cart-order-summary-block, woocommerce/cart-order-summary-heading-block, woocommerce/cart-order-summary-coupon-form-block, woocommerce/cart-order-summary-subtotal-block, woocommerce/cart-order-summary-fee-block, woocommerce/cart-order-summary-discount-block, woocommerce/cart-order-summary-shipping-block, woocommerce/cart-order-summary-taxes-block, woocommerce/cart-express-payment-block, woocommerce/proceed-to-checkout-block, woocommerce/cart-accepted-payment-methods-block, woocommerce/empty-cart-block, woocommerce/product-new
+
+### Checkout — `checkout` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: woocommerce/checkout, woocommerce/checkout-fields-block, woocommerce/checkout-express-payment-block, woocommerce/checkout-contact-information-block, woocommerce/checkout-shipping-method-block, woocommerce/checkout-pickup-options-block, woocommerce/checkout-shipping-address-block, woocommerce/checkout-billing-address-block, woocommerce/checkout-shipping-methods-block, woocommerce/checkout-payment-block, woocommerce/checkout-additional-information-block, woocommerce/checkout-order-note-block, woocommerce/checkout-terms-block, woocommerce/checkout-actions-block, woocommerce/checkout-totals-block, woocommerce/checkout-order-summary-block, woocommerce/checkout-order-summary-cart-items-block, woocommerce/checkout-order-summary-coupon-form-block, woocommerce/checkout-order-summary-subtotal-block, woocommerce/checkout-order-summary-fee-block, woocommerce/checkout-order-summary-discount-block, woocommerce/checkout-order-summary-shipping-block, woocommerce/checkout-order-summary-taxes-block
+
+## Optigo (`optigo`) · premium
+
+19 sections · 99/103 editable text slots · 746 words · 20/60 swappable images
+
+Fonts: heading **Archivo**, body **Archivo** (Archivo → body)
+
+Colors: `#ffffff` background ×113, `#ffd21d` primary ×48, `#d9d9d9` muted ×29, `#585858` muted ×23, `#000000` text ×22, `#495057` muted ×11, `#e9ecef` background ×4, `#181818` text ×3, `#fafafa` background ×3, `#3f3f46` text ×2, `#222222` text ×1, `#373737` text ×1, `#a5a5a5` muted ×1, `#bababa` muted ×1, `#e4e4e7` background ×1, `#027abb` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 11
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `2a8d2dca`, blocks 0
+  - **hero** “Why to choose us?” — 2 text, 1 photos · lorem
+    - photo (person): Laughing woman in sunglasses making peace signs
+- Group **content** (core) `d9478cd4`, blocks 1
+  - **content** “Free Delivery” — 8 text, 0 photos
+- Group **testimonials** (core) `1b54d363`, blocks 2
+  - **testimonials** “What we are?” — 4 text, 2 photos
+    - photo (object): Sunglasses on a wooden table
+    - photo (person): Woman with a cap and red sunglasses
+- Group **features** (core) `4ab8fa66`, blocks 3
+  - **features** “happy customers” — 7 text, 0 photos · lorem
+- Group **dynamic** (core) `18d442cd`, blocks 4
+  - **dynamic** “Be the first to know about new arrivals” — 2 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+### Contact Us — `contact-us` → contact
+
+- Group **contact** (core) `99622608`, blocks 0
+  - **contact** “Reach Us” — 8 text, 0 photos · dynamic: everest-forms/form-selector
+
+### Book Appointment — `our-prices` → other
+
+- Group **hero** (core) `e8835ed2`, blocks 0
+  - **hero** “Dr. Andrew Eleanor” — 6 text, 3 photos
+    - photo (person): Doctor in a white coat with arms crossed
+    - photo (person): Smiling female doctor with a stethoscope
+    - photo (person): Male doctor with a stethoscope holding a clipboard
+- Group **dynamic** (core) `2d9088f8`, blocks 1
+  - **dynamic** “Make An Appointment” — 2 text, 1 photos · dynamic: everest-forms/form-selector
+    - photo (person): Dentist treating a patient in a dental chair
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Only 30% off” — 3 text, 0 photos
+- Group **cta** (core) `0c2e6510`, blocks 1
+  - **cta** “For men” — 3 text, 1 photos
+    - photo (person): Older man in a hat and round glasses
+- Group **cta** (core) `e432866c`, blocks 2
+  - **cta** “For Women” — 3 text, 2 photos
+    - photo (group): Three girls in sunglasses posing with chins on hands
+    - photo (person): Woman in sunglasses and a black top posing
+- Group **cta** (core) `87946c47`, blocks 3
+  - **cta** “For children” — 3 text, 1 photos
+    - photo (person): Little girl in a pink jacket and sunglasses
+- Group **content** (core) `df337182`, blocks 4
+  - **content** “Free Delivery” — 8 text, 0 photos
+- Group **testimonials** (core) `63c9f063`, blocks 5
+  - **testimonials** “What we are?” — 4 text, 2 photos
+    - photo (object): Sunglasses on a wooden table
+    - photo (person): Woman with a cap and red sunglasses
+- Group **features** (core) `dcbcc94a`, blocks 6
+  - **features** “Shop By Style and Shapes” — 10 text, 1 photos
+    - photo (person): Woman in a black hat and red sunglasses
+- Group **dynamic** (needs products) `1a0b7151`, blocks 7
+  - **dynamic** “popular products” — 3 text, 0 photos · dynamic: woocommerce/product-tag
+- Group **cta** (core) `b5a66cd4`, blocks 8
+  - **cta** “For women's latest Collection” — 3 text, 2 photos
+    - photo (person): Woman in a beret and sunglasses touching her face
+    - photo (person): Woman in blue sunglasses by the sea
+- Group **features** (core) `07edb865`, blocks 9
+  - **features** “happy customers” — 9 text, 1 photos · lorem · dynamic: everest-forms/form-selector
+    - photo (person): Dentist treating a patient in a dental chair
+- Group **content** (core) `08de69f9`, blocks 10
+  - **content** “From the blogs” — 11 text, 3 photos · lorem
+    - photo (person): Woman in red sunglasses wrapped in paper
+    - photo (person): Woman with afro hair wearing purple sunglasses
+    - photo (person): Woman with a top bun in large sunglasses
+
+### Blog — `blog` → blog
+
+
+## Organic Farm V2 (`organic-farm-v2`) · premium
+
+15 sections · 67/67 editable text slots · 878 words · 12/41 swappable images
+
+Fonts: heading **Merriweather**, body **Mulish** (Merriweather → heading, Mulish → body)
+
+Colors: `#ffffff` background ×43, `#000000` text ×20, `#66bb6a` primary ×17, `#263238` secondary ×13, `#88c139` accent [locked: accent] ×9, `#c6cfc2` muted ×7, `#2664eb` secondary (+0.351) ×7, `#e9ecef` background ×6, `#3f3f46` text ×4, `#51585f` muted ×3, `#16181a` text ×3, `#555555` muted ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#027abb` secondary (+0.186) ×2, `#f8f8f8` background ×1, `#fcfcfc` background ×1, `#75ba78` primary (+0.027) ×1, `#1e7ba6` secondary (+0.2) ×1
+
+Contrast pairs checked after recoloring: 11
+
+### Home — `home` → home
+
+- Group **hero** (core) `52f4f697`, blocks 0
+  - **hero** “A new way to invest in agriculture” — 3 text, 1 photos · lorem
+    - photo (place): Green rice terraces with a person walking
+- Group **cta** (core) `95103f0d`, blocks 1
+  - **cta** “Welcome to Organic” — 3 text, 2 photos · lorem
+    - photo (object): Green banana leaves
+    - photo (place): White farmhouse on a green lawn by trees
+- Group **features** (core) `97e2aa14`, blocks 2
+  - **features** “Why Choose Us” — 9 text, 1 photos · lorem
+    - photo (object): Wicker basket of fresh vegetables
+- Group **features** (core) `346afa3e`, blocks 3
+  - **features** “Services” — 8 text, 1 photos · lorem
+    - photo (object): Green banana leaves
+- Group **content** (core) `f5a8844c`, blocks 4
+  - **content** “Agriculture matters to the future of development” — 2 text, 1 photos
+    - photo (place): Rice terraces with a person holding an umbrella
+- Group **testimonials** (core) `f185e2df`, blocks 5
+  - **testimonials** “Testimonials” — 4 text, 0 photos · lorem
+- Group **cta** (core) `fa4afdba`, blocks 6
+  - **cta** (untitled) — 2 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `95103f0d`, blocks 0
+  - **hero** “Welcome to Organic” — 3 text, 2 photos · lorem
+    - photo (object): Green banana leaves
+    - photo (place): White farmhouse on a green lawn by trees
+- Group **features** (core) `97e2aa14`, blocks 1
+  - **features** “Why Choose Us” — 9 text, 1 photos · lorem
+    - photo (object): Wicker basket of fresh vegetables
+- Group **cta** (core) `3815002d`, blocks 2
+  - **cta** “We're Providing The Best Solution” — 3 text, 2 photos · lorem
+    - photo (object): Green banana leaves
+    - photo (place): Thatched farm hut among green rice fields
+- Group **cta** (core) `698bd041`, blocks 3
+  - **cta** (untitled) — 2 text, 0 photos
+
+### Services — `services` → services
+
+- Group **hero** (core) `346afa3e`, blocks 0
+  - **hero** “Growing Fruits and Vegetables” — 6 text, 1 photos
+    - photo (object): Green banana leaves
+- Group **cta** (core) `698bd041`, blocks 1
+  - **cta** (untitled) — 2 text, 0 photos
+
+### Testimonials — `testimonials` → other
+
+- Group **hero** (core) `4203ce20`, blocks 0
+  - **hero** “Mary Jackson” — 9 text, 0 photos · lorem
+- Group **cta** (core) `e78ec456`, blocks 1
+  - **cta** (untitled) — 2 text, 0 photos
+
+## PetCare (`petcare`) · premium
+
+16 sections · 109/114 editable text slots · 623 words · 18/47 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+
+Colors: `#2d2d2d` text ×52, `#515161` muted ×36, `#ffffff` background ×29, `#ff8686` secondary ×17, `#4e4b4b` muted ×16, `#fcb108` primary ×13, `#ff5f5f` secondary (-0.076) ×10, `#e9ecef` background ×7, `#a6a6a6` muted ×6, `#16181a` text ×6, `#5ec7ff` accent [locked: accent] ×5, `#3f3f46` text ×3, `#fafafa` background ×3, `#f2fbff` background ×2, `#e4e4e7` background ×2, `#23b3ff` accent (-0.116) [locked: accent] ×2, `#2563eb` accent (-0.151) [locked: accent] ×2, `#f7e8c1` primary (+0.353) ×1, `#ffe0e0` secondary (+0.176) ×1, `#d9ecff` accent (+0.241) [locked: accent] ×1, `#027abb` accent (-0.314) [locked: accent] ×1, `#ecdaff` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 12
+
+### Home — `home` → home
+
+- Group **hero** (core) `4542a225`, blocks 0
+  - **hero** “We provide the best care to our furry friends!” — 3 text, 1 photos
+    - photo (object): Dog and kitten resting together
+- Group **features** (core) `3d9e95e7`, blocks 1
+  - **features** “Services” — 9 text, 0 photos
+- Group **content** (core) `edbde4aa`, blocks 2
+  - **content** “About Us” — 8 text, 1 photos
+    - photo (object): Corgi dog jumping with a yellow chew toy in its mouth
+- Group **team** (needs team) `564ced1b`, blocks 3
+  - **team** “Our Groomers” — 9 text, 3 photos
+    - photo (person): Bearded man with glasses in a denim shirt smiling portrait
+    - photo (person): Young woman in a red beanie and denim jacket posing
+    - photo (person): Smiling bearded man with glasses in a denim jacket portrait
+- Group **content** (core) `44fc2461`, blocks 4
+  - **content** “Price & Plans” — 35 text, 0 photos
+- Group **dynamic** (needs products) `619ecdd0`, blocks 5
+  - **dynamic** “BestSellers” — 1 text, 0 photos · dynamic: woocommerce/product-best-sellers
+- Group **content** (core) `aa2a2f7c`, blocks 6
+  - **content** (untitled) — 6 text, 3 photos
+    - photo (object): Pet supplies flat lay with dog food bowl, leash and toys
+    - photo (object): Ginger cat peeking from the side of a banner
+    - photo (object): French bulldog sitting and looking at the camera
+- Group **dynamic** (needs products) `8bc7e42e`, blocks 7
+  - **dynamic** “New Arrivals” — 1 text, 0 photos · dynamic: woocommerce/product-new
+- Group **content** (core) `ba807a93`, blocks 8
+  - **content** (untitled) — 4 text, 0 photos
+- Group **content** (core) `313cd3b2`, blocks 9
+  - **content** “Customer’s Feedback” — 7 text, 1 photos
+    - photo (object): Two kittens lying together, one tabby and one ginger
+
+### Blog — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `2235d3fe`, blocks 0
+  - **hero** “Making life safer and carefree for pets. And the people who love them!” — 3 text, 1 photos · lorem
+    - photo (object): Jack Russell terrier and ginger cat sitting side by side
+- Group **content** (core) `1851c84b`, blocks 1
+  - **content** “How do we work?” — 10 text, 0 photos · lorem
+- Group **gallery** (core) `059c922f`, blocks 2
+  - **gallery** “Take a closer look” — 2 text, 8 photos
+    - photo (object): Corgi and Yorkshire terrier running on a sandy path
+    - photo (object): Fluffy grey cat playing with a feather toy
+    - photo (object): Happy golden retriever with tongue out close-up
+    - photo (object): Two cockapoo dogs running together on grass
+    - photo (object): Tabby cat and black and white cat playing in grass
+    - photo (object): Fluffy white dog running happily toward the camera
+    - photo (person): Woman with glasses holding and hugging a tabby cat
+    - photo (object): Spaniel puppy carrying a basketball toy in its mouth
+- Group **cta** (core) `c4ec00c5`, blocks 3
+  - **cta** “Happy to welcome you to our circle of friends!” — 3 text, 0 photos
+
+### Contact Us — `contact-us` → contact
+
+- Group **dynamic** (core) `dff7319e`, blocks 0
+  - **dynamic** (untitled) — 4 text, 0 photos · dynamic: everest-forms/form-selector
+- Group **content** (core) `e22e1128`, blocks 1
+  - **content** (untitled) — 4 text, 0 photos
+
+### Shop — `shop` → other
+
+
+## Pictography V2 (`pictography-v2`) · premium
+
+23 sections · 120/136 editable text slots · 575 words · 84/85 swappable images
+
+Fonts: heading **Ubuntu**, body **Ubuntu** (Ubuntu → body)
+
+Colors: `#ffffff` background ×125, `#bd8b28` secondary ×107, `#0b0b0b` text ×37, `#fbfafa` background ×6, `#e9ecef` background ×6, `#2664eb` primary ×6, `#027abb` primary (-0.165) ×5, `#16181a` text ×4, `#000000` text ×3, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#2563eb` primary (-0.002) ×2, `#d4d4d8` muted ×1, `#e89623` secondary (+0.075) ×1, `#1e7ba6` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 10
+
+### Home — `home` → home
+
+- Group **hero** (core) `4f50e9e5`, blocks 0
+  - **hero** (untitled) — 4 text, 2 photos · lorem
+    - photo (person): Woman with eyes closed and dry branches as hair, fine art portrait
+    - photo (person): Man with sad clown face paint portrait
+- Group **gallery** (core) `f5142314`, blocks 1
+  - **gallery** (untitled) — 0 text, 9 photos
+    - photo (person): Hiker standing on a green trail looking at a volcano
+    - photo (person): Freckled woman with red hair blowing across her face
+    - photo (object): Red fox sitting in a forest clearing
+    - photo (place): Abandoned plane wreck on a black sand beach
+    - photo (place): Person with umbrella walking in front of a large lettered building
+    - photo (group): Bride and groom embracing under a veil in a field
+    - photo (object): Purple daisy flower close-up
+    - photo (object): Stag deer with large antlers in a dark forest
+    - photo (object): Two lionesses lying in the grass
+- Group **cta** (core) `28a7dd46`, blocks 2
+  - **cta** “King of Jungle” — 3 text, 1 photos · lorem
+    - photo (object): Male lion portrait in black and white
+- Group **content** (core) `b80c9a2f`, blocks 3
+  - **content** “Model” — 12 text, 4 photos · lorem
+    - photo (person): Woman in a red dress wearing a pageant crown
+    - photo (person): Bearded man with long hair in a thoughtful pose
+    - photo (group): Two women in red outfits posing together
+    - photo (person): Stylish man in a hat and blazer dancing by a red door
+- Group **cta** (core) `e8e28764`, blocks 4
+  - **cta** “Sea World” — 4 text, 2 photos
+    - photo (object): Tropical fish swimming over a coral reef
+    - photo (object): Kingfisher bird on a branch holding a fish in its beak
+- Group **gallery** (core) `1294ce98`, blocks 5
+  - **gallery** (untitled) — 4 text, 6 photos
+    - photo (person): Man in a hoodie standing in Times Square at night
+    - photo (person): Bearded man wearing round pink sunglasses close-up
+    - photo (person): Red-haired woman in a red outfit posing against red wall
+    - photo (person): Man in a bucket hat and face mask making a hush gesture
+    - photo (object): Lizard perched on a rock looking upward
+    - photo (person): Woman in a long coat standing in a concrete colonnade
+
+### Showcase — `show-case` → other
+
+- Group **hero** (core) `4f50e9e5`, blocks 0
+  - **hero** (untitled) — 4 text, 2 photos · lorem
+    - photo (object): Iguana resting on a branch close-up
+    - photo (object): Sea turtle swimming in blue water
+- Group **gallery** (needs portfolio) `c40642fa`, blocks 1, 2
+  - **content** “Showcase” — 1 text, 0 photos
+  - **gallery** “Portait” — 8 text, 4 photos
+    - photo (person): Woman with blue eyes wrapped in a knitted scarf
+    - photo (person): Woman in a yellow puffer jacket against a graffiti wall
+    - photo (object): Tiger lying down and staring at the camera
+    - photo (person): Person wearing a glowing neon LED mask in the dark
+- Group **content** (core) `e3aeac95`, blocks 3
+  - **content** “Model” — 9 text, 3 photos · lorem
+    - photo (person): Woman lying on a beach towel on the sand
+    - photo (object): Peacock displaying its colorful tail feathers
+    - photo (person): Man with paint-splattered face in darkness
+- Group **content** (core) `b80c9a2f`, blocks 4
+  - **content** “Model” — 12 text, 4 photos · lorem
+    - photo (person): Woman in a red dress wearing a pageant crown
+    - photo (person): Bearded man with long hair in a thoughtful pose
+    - photo (group): Two women in red outfits posing together
+    - photo (person): Stylish man in a hat and blazer dancing by a red door
+- Group **gallery** (core) `1294ce98`, blocks 5
+  - **gallery** (untitled) — 4 text, 6 photos
+    - photo (person): Man in a hoodie standing in Times Square at night
+    - photo (person): Bearded man wearing round pink sunglasses close-up
+    - photo (person): Red-haired woman in a red outfit posing against red wall
+    - photo (person): Man in a bucket hat and face mask making a hush gesture
+    - photo (object): Lizard perched on a rock looking upward
+    - photo (person): Woman in a long coat standing in a concrete colonnade
+
+### Conceptual Photography — `conceptual-photography` → other
+
+- Group **hero** (core) `4f50e9e5`, blocks 0
+  - **hero** (untitled) — 2 text, 1 photos · lorem
+    - photo (person): Woman swimming underwater in a dark pool
+- Group **gallery** (core) `c40642fa`, blocks 1, 2, 3
+  - **content** “Conceptual Photography” — 1 text, 0 photos
+  - **gallery** (untitled) — 1 text, 9 photos
+    - photo (person): Woman covered by a sheer plastic veil portrait
+    - photo (person): Person covered in wavy black and white striped light pattern
+    - photo (person): Bearded man holding a flower over one eye
+    - photo (person): Person wearing a glowing red neon LED mask
+    - photo (place): Reflection of a man and building in a street puddle
+    - photo (person): Woman with face paint and a butterfly over her mouth
+    - photo (person): Tired elderly man sitting on steps with his head in his hand
+    - photo (person): Woman wearing a dark crown in a fantasy portrait
+    - photo (object): Hand holding up a vintage alarm clock
+  - **gallery** (untitled) — 4 text, 6 photos
+    - photo (person): Man in a hoodie standing in Times Square at night
+    - photo (person): Bearded man wearing round pink sunglasses close-up
+    - photo (person): Red-haired woman in a red outfit posing against red wall
+    - photo (person): Man in a bucket hat and face mask making a hush gesture
+    - photo (object): Lizard perched on a rock looking upward
+    - photo (person): Woman in a long coat standing in a concrete colonnade
+
+### Store — `store` → other
+
+- Group **hero** (core) `4f50e9e5`, blocks 0
+  - **hero** (untitled) — 2 text, 1 photos · lorem
+    - photo (object): Close-up of a cat eye in the dark
+- Group **features** (core) `97cdc31a`, blocks 1
+  - **features** “Modeling” — 12 text, 6 photos
+    - photo (person): Woman with glitter face makeup and flowers in her hair
+    - photo (place): Green rice terraces on a hillside
+    - photo (place): Person with umbrella walking on a foggy street
+    - photo (place): Small boat on a calm lake at sunset
+    - photo (person): Woman wearing a dark crown in a fantasy portrait
+    - photo (object): Elephant walking through a misty forest
+- Group **cta** (core) `c781ea19`, blocks 2
+  - **cta** “The Life of Birds - video” — 2 text, 1 photos
+    - photo (object): Vulture head in profile close-up
+- Group **features** (core) `21f59eb5`, blocks 3
+  - **features** “Best Selling Photography” — 7 text, 3 photos
+    - photo (group): Three women with white dot face paint and headwraps
+    - photo (place): Silhouette of a person in a neon light tunnel
+    - photo (place): Karst mountains reflected in a calm river with a boat
+- Group **gallery** (core) `1294ce98`, blocks 4
+  - **gallery** (untitled) — 4 text, 6 photos
+    - photo (person): Man in a hoodie standing in Times Square at night
+    - photo (person): Bearded man wearing round pink sunglasses close-up
+    - photo (person): Red-haired woman in a red outfit posing against red wall
+    - photo (person): Man in a bucket hat and face mask making a hush gesture
+    - photo (object): Lizard perched on a rock looking upward
+    - photo (person): Woman in a long coat standing in a concrete colonnade
+
+### Me — `me` → other
+
+- Group **hero** (core) `74f85d31`, blocks 0
+  - **hero** “Hello,” — 16 text, 2 photos · lorem
+    - photo (person): Bald bearded man in dramatic dark portrait
+    - photo (object): Deer standing in a golden grass field
+- Group **gallery** (core) `1294ce98`, blocks 1
+  - **gallery** (untitled) — 4 text, 6 photos
+    - photo (person): Man in a hoodie standing in Times Square at night
+    - photo (person): Bearded man wearing round pink sunglasses close-up
+    - photo (person): Red-haired woman in a red outfit posing against red wall
+    - photo (person): Man in a bucket hat and face mask making a hush gesture
+    - photo (object): Lizard perched on a rock looking upward
+    - photo (person): Woman in a long coat standing in a concrete colonnade
+
 ## Plumber V2 (`plumber-v2`)
 
 19 sections · 113/122 editable text slots · 1250 words · 19/49 swappable images
@@ -330,20 +3998,30 @@ Contrast pairs checked after recoloring: 16
 
 - Group **dynamic** (core) `353d25f0`, blocks 0
   - **dynamic** “Drain Cleaning & Repairs” — 5 text, 1 photos · lorem · dynamic: everest-forms/form-selector
+    - photo (person): Smiling female worker in a red hard hat holding work gloves
 - Group **content** (core) `f4a8c971`, blocks 1
   - **content** “Who We Are” — 6 text, 1 photos · lorem
+    - photo (person): Female engineer in a yellow hard hat and safety glasses on the phone
 - Group **testimonials** (core) `53876182`, blocks 2
   - **testimonials** “What Others Say?” — 8 text, 3 photos · lorem
+    - photo (person): Smiling female worker in a red hard hat giving a thumbs up
+    - photo (person): Cheerful worker in a hard hat carrying a level in a tiled bathroom
+    - photo (person): Cheerful worker in a hard hat carrying a level in a tiled bathroom
 - Group **team** (needs team) `1fbb9a65`, blocks 3, 4
   - **content** “Experts” — 2 text, 0 photos
   - **team** “JACOB ELORDI” — 6 text, 3 photos
+    - photo (person): Smiling man in a shirt and tie with arms crossed
+    - photo (person): Confident man in a navy suit buttoning his jacket
+    - photo (person): Young man with a beard in a white shirt
 - Group **stats** (needs stats) `3c2c7a02`, blocks 5
   - **stats** “Real Statistics” — 6 text, 1 photos
+    - photo (person): Plumber fixing a kitchen sink faucet
 - Group **logos** (needs client_logos) `5bff72d7`, blocks 6, 7
   - **content** “Reliable and Trusted” — 2 text, 0 photos
   - **logos** (untitled) — 0 text, 0 photos
 - Group **cta** (core) `c2f249c8`, blocks 8
   - **cta** “Please Feel Free to Call Us” — 2 text, 1 photos · lorem
+    - photo (person): Female worker in ear protection and safety glasses in a warehouse
 
 ### Blog — `blog` → blog
 
@@ -352,16 +4030,23 @@ Contrast pairs checked after recoloring: 16
 
 - Group **hero** (core) `d113f8d5`, blocks 0
   - **hero** “We have over 25 years experience in the plumbing and dry sanitation industry.” — 3 text, 1 photos · lorem
+    - photo (person): Female engineer in a yellow hard hat and safety glasses on the phone
 - Group **features** (core) `85d7fa4e`, blocks 1
   - **features** “OUR MISSION” — 8 text, 1 photos · lorem
+    - photo (person): Cleaner in rubber gloves scrubbing a toilet
 - Group **faq** (core) `ccdcaf74`, blocks 2
   - **faq** “WHY CHOOSE US” — 9 text, 2 photos · lorem
+    - photo (group): Business team gathered around a laptop in a meeting
+    - photo (group): Business team gathered around a laptop in a meeting
 - Group **features** (core) `ec7201fc`, blocks 3
   - **features** “WHO WE ARE” — 8 text, 1 photos · lorem
+    - photo (object): Pipe wrenches on a metal pipe
 - Group **pricing** (needs pricing_plans) `144f2e2e`, blocks 4
   - **pricing** “Get in touch with us and we will let you know about our current pricing plans” — 4 text, 1 photos · lorem
+    - photo (person): Businessman in a suit carrying a briefcase and coffee
 - Group **cta** (core) `fb5475c3`, blocks 5
   - **cta** “Please Feel Free to Call Us” — 2 text, 1 photos · lorem
+    - photo (person): Female worker in ear protection and safety glasses in a warehouse
 
 ### Services — `services` → services
 
@@ -369,6 +4054,7 @@ Contrast pairs checked after recoloring: 16
   - **hero** “Water Tank Fitting” — 18 text, 0 photos · lorem
 - Group **cta** (core) `79790c8e`, blocks 1
   - **cta** “Please Feel Free to Call Us” — 2 text, 1 photos · lorem
+    - photo (person): Female worker in ear protection and safety glasses in a warehouse
 
 ### Faqs — `faqs` → other
 
@@ -376,10 +4062,450 @@ Contrast pairs checked after recoloring: 16
   - **hero** (untitled) — 20 text, 0 photos · lorem
 - Group **cta** (core) `94cd0465`, blocks 1
   - **cta** “Please Feel Free to Call Us” — 2 text, 1 photos · lorem
+    - photo (person): Female worker in ear protection and safety glasses in a warehouse
+
+## Zakra Plumbing Services v2 (`plumbing-services-v2`) · premium
+
+20 sections · 114/116 editable text slots · 1577 words · 24/51 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+
+Colors: `#ffffff` background ×55, `#222222` text ×49, `#161960` secondary ×17, `#646464` muted ×15, `#1f1f22` text ×12, `#ff9300` primary (-0.027) ×10, `#eb9222` primary ×9, `#221f1f` text ×7, `#e9ecef` background ×6, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#5e5e5e` muted ×2, `#411bbe` secondary (+0.194) ×2, `#027abb` accent [locked: accent] ×2, `#ececec` background ×1, `#f5f5f5` background ×1, `#fbfbfb` background ×1, `#d4d4d8` muted ×1
+
+Contrast pairs checked after recoloring: 8
+
+### Home — `home` → home
+
+- Group **hero** (core) `37752998`, blocks 0
+  - **hero** “Perfection is always” — 3 text, 1 photos
+    - photo (object): Industrial stainless steel valves and pressure gauges
+- Group **features** (core) `df90cd97`, blocks 1
+  - **features** “Our Emergency Services” — 4 text, 0 photos
+- Group **cta** (core) `c55d7358`, blocks 2
+  - **cta** “WHAT WE DO” — 4 text, 1 photos · lorem
+    - photo (person): Female engineer in a hard hat talking on the phone
+- Group **team** (needs team) `bae8eeb2`, blocks 3
+  - **team** “OUR TEAM” — 5 text, 3 photos
+    - photo (person): Woman with long wavy hair black and white portrait
+    - photo (person): Smiling man in glasses black and white portrait
+    - photo (person): Thoughtful woman looking down, black and white portrait
+- Group **content** (core) `087be752`, blocks 4
+  - **content** “OUR SERVICES” — 20 text, 0 photos · lorem
+- Group **testimonials** (core) `346da67d`, blocks 5
+  - **testimonials** “OUR USERS” — 8 text, 1 photos · lorem
+    - photo (object): Industrial stainless steel valves and pressure gauges
+- Group **gallery** (needs portfolio) `7f981dae`, blocks 6
+  - **gallery** “OUR PORTFOLIO” — 2 text, 6 photos
+    - photo (place): Bright bathroom with toilet, sink and red towels
+    - photo (place): Bathroom with double vanity and granite countertop
+    - photo (person): Plumber installing a kitchen faucet over a sink
+    - photo (object): Chrome bathroom faucet close-up
+    - photo (object): Chrome bathtub faucet with drain and plug chain
+    - photo (place): White industrial pipes in a plumbing room
+- Group **content** (core) `29f4e7e6`, blocks 7
+  - **content** “OUR VIDEO” — 5 text, 1 photos · lorem
+    - photo (object): Chrome bathtub faucet with drain and plug chain
+- Group **posts** (needs blog) `687cc508`, blocks 8
+  - **posts** “OUR BLOG” — 8 text, 3 photos · lorem
+    - photo (object): Rusty water pipe valve by the sea
+    - photo (object): Water running from a chrome faucet
+    - photo (object): Vintage chrome bathtub faucet with hand shower
+- Group **dynamic** (core) `27469ba7`, blocks 9
+  - **dynamic** “Subscribe to our newsletter​” — 2 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `09ba9e86`, blocks 0
+  - **hero** “WHAT WE DO” — 4 text, 1 photos · lorem
+    - photo (person): Female engineer in a hard hat talking on the phone
+- Group **team** (needs team) `76676ef8`, blocks 1
+  - **team** “OUR TEAM” — 5 text, 3 photos
+    - photo (person): Woman with long wavy hair black and white portrait
+    - photo (person): Smiling man in glasses black and white portrait
+    - photo (person): Thoughtful woman looking down, black and white portrait
+- Group **content** (core) `f86eb676`, blocks 2
+  - **content** (untitled) — 2 text, 2 photos · lorem
+    - photo (place): Small bathroom with bathtub and toilet
+    - photo (place): Modern bathroom with double vessel sinks and mirror
+- Group **content** (core) `6a06c563`, blocks 3
+  - **content** (untitled) — 2 text, 2 photos · lorem
+    - photo (object): Brass faucet close-up
+    - photo (object): White painted pipe joint close-up
+- Group **dynamic** (core) `d8f061b7`, blocks 4
+  - **dynamic** “Subscribe to our newsletter​” — 2 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+### Services — `services` → services
+
+- Group **hero** (core) `b16f07e1`, blocks 0
+  - **hero** “OUR SERVICES” — 20 text, 0 photos · lorem
+- Group **dynamic** (core) `7f7fbd89`, blocks 1
+  - **dynamic** “Subscribe to our newsletter​” — 2 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+### Faq — `faq` → other
+
+- Group **hero** (core) `f3168dc5`, blocks 0
+  - **hero** (untitled) — 2 text, 0 photos · lorem
+- Group **faq** (core) `b9aa808a`, blocks 1
+  - **faq** (untitled) — 12 text, 0 photos · lorem
+- Group **dynamic** (core) `2abf4ded`, blocks 2
+  - **dynamic** “Subscribe to our newsletter​” — 2 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+## Portfolio V2 (`portfolio-v2`) · premium
+
+24 sections · 143/149 editable text slots · 1300 words · 31/65 swappable images
+
+Fonts: heading **Playfair Display**, body **Nunito Sans** (Nunito Sans → body, Playfair Display → heading)
+
+Colors: `#573dff` primary ×118, `#ffffff` background ×76, `#111111` text ×32, `#3e3e3e` text ×26, `#000000` text ×22, `#16181a` text ×8, `#e9ecef` background ×7, `#6c6c6c` muted ×6, `#7b84fc` primary (+0.116) ×5, `#828282` muted ×4, `#f0eeff` background ×4, `#eeeeee` background ×3, `#e0e0e7` muted ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#2563eb` secondary ×3, `#027abb` secondary (-0.163) ×3, `#dddddd` muted ×2, `#f8f8ff` background ×2, `#3f3f46` text ×2, `#7b69ff` primary (+0.086) ×2, `#f8f8fe` background ×1, `#f6f5ff` background ×1, `#d4d4d8` muted ×1, `#7c84fc` primary (+0.118) ×1
+
+Contrast pairs checked after recoloring: 11
+
+### Home — `home` → home
+
+- Group **hero** (core) `b6c89446`, blocks 0
+  - **hero** “I'm Kamren Terry” — 4 text, 1 photos · lorem
+    - photo (person): Woman in a pink blouse with hand on chin posing
+- Group **content** (core) `7be73dce`, blocks 1
+  - **content** “MY STORY” — 5 text, 1 photos · lorem
+    - photo (person): Woman in a pink blouse with hand on chin posing
+- Group **content** (core) `5d2fb043`, blocks 2
+  - **content** “SERVICES” — 10 text, 0 photos · lorem
+- Group **gallery** (needs portfolio) `8f315bc8`, blocks 3
+  - **gallery** “PROJECTS” — 2 text, 6 photos
+    - photo (object): Colorful abstract acrylic painting
+    - photo (object): Popcorn arranged in a heart shape
+    - photo (person): Silhouette of a person surrounded by red light trails
+    - photo (object): Pink ink swirling in water
+    - photo (object): Alarm clock on a split pink and mint background
+    - photo (object): Website wireframe sketches on paper
+- Group **testimonials** (core) `0eb971b7`, blocks 4, 5
+  - **logos** “ORGANIZATION” — 2 text, 0 photos
+  - **testimonials** “TESTIMONIALS” — 8 text, 0 photos · lorem
+- Group **cta** (core) `feede381`, blocks 6
+  - **cta** “GOT PROJECT” — 4 text, 0 photos · lorem
+- Group **posts** (needs blog) `bc7452da`, blocks 7
+  - **posts** “BLOG” — 11 text, 3 photos · lorem
+    - photo (place): Desk with two computer monitors in a bright office
+    - photo (person): Smiling woman in a hat using a laptop on a flower balcony
+    - photo (object): Smartphone screen with social media app icons
+- Group **contact** (core) `adfab55c`, blocks 8
+  - **contact** “GET IN TOUCH” — 13 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### Projects — `projects` → services
+
+- Group **hero** (core) `b6c89446`, blocks 0
+  - **hero** “Awesome Projects” — 3 text, 1 photos · lorem
+    - photo (object): Smartwatch with a blue strap
+- Group **features** (core) `58173e51`, blocks 1
+  - **features** “PORTFOLIO” — 21 text, 4 photos
+    - photo (object): Laptop mockup showing a medical website
+    - photo (object): Travel website homepage mockup
+    - photo (group): Illustration of people dancing and jumping
+    - photo (object): Healthcare website page mockup
+- Group **cta** (core) `7be73dce`, blocks 2
+  - **cta** “YOUTUBE” — 4 text, 1 photos · lorem
+    - photo (object): Smartwatch design promotional graphic
+- Group **testimonials** (core) `a7b4ff2a`, blocks 3
+  - **testimonials** “TESTIMONIALS” — 8 text, 0 photos · lorem
+- Group **cta** (core) `de745c57`, blocks 4
+  - **cta** “GOT PROJECT” — 4 text, 0 photos · lorem
+
+### Contact — `contact` → contact
+
+- Group **dynamic** (core) `a7b4ff2a`, blocks 0
+  - **dynamic** “DON'T BE SHY” — 6 text, 0 photos · dynamic: core/shortcode
+
+### Project Casestudy — `project-casestudy` → services
+
+- Group **hero** (core) `b6c89446`, blocks 0
+  - **hero** “Illustration Case Study” — 3 text, 1 photos · lorem
+    - photo (group): Illustration of various people in different poses
+- Group **content** (core) `3ed8938b`, blocks 1
+  - **content** (untitled) — 4 text, 0 photos · lorem
+- Group **gallery** (core) `feede381`, blocks 2
+  - **gallery** “CHARACTER ILLUSTRATION” — 2 text, 4 photos
+    - photo (person): Illustration of a man taking a selfie with a phone
+    - photo (person): Illustration of a person dancing
+    - photo (person): Illustration of a person spilling from a giant coffee cup
+    - photo (person): Illustration of a woman roller skating
+- Group **content** (core) `fb814562`, blocks 3
+  - **content** “My Role” — 9 text, 0 photos · lorem
+- Group **content** (core) `a6a54ec5`, blocks 4
+  - **content** “My Process” — 6 text, 0 photos · lorem
+- Group **content** (core) `3ab99550`, blocks 5
+  - **content** “My Problems” — 5 text, 0 photos · lorem
+- Group **testimonials** (core) `58173e51`, blocks 6, 7
+  - **testimonials** “TESTIMONIALS” — 2 text, 0 photos
+  - **testimonials** “FIRST STEP” — 3 text, 8 photos · lorem
+    - photo (person): Illustration of a man jumping with shapes around him
+    - photo (person): Illustration of a man taking a selfie with a phone
+    - photo (person): Illustration of a man juggling papers
+    - photo (person): Illustration of a woman kneeling with her dog
+    - photo (person): Illustration of a person sitting cross-legged reading a book
+    - photo (person): Illustration of a man dancing
+    - photo (person): Illustration of a woman on a swing
+    - photo (person): Illustration of a man sitting with his dog
+- Group **content** (core) `479441b0`, blocks 8
+  - **content** “See Prev Project” — 4 text, 1 photos
+    - photo (object): Travel website homepage mockup
+
+<details><summary>Warnings</summary>
+
+- home: unmapped text in blockart/progress.text: "Visual Design"
+
+</details>
+
+## Zakra Professional (`professional-02`)
+
+24 sections · 101/127 editable text slots · 720 words · 6/13 swappable images
+
+Fonts: heading **Montserrat**, body **Roboto** (Montserrat → heading, Roboto → body)
+
+Colors: `#ffffff` background ×107, `#2b2b2b` text ×37, `#d90a2c` primary ×25, `#123458` secondary ×12, `#000000` text ×11, `#e9ecef` background ×5, `#143b64` secondary (+0.027) ×4, `#e4e4e7` background ×3, `#fafafa` background ×3, `#f3f5f6` background ×2, `#3f3f46` text ×2, `#2563eb` secondary (+0.325) ×2, `#027abb` secondary (+0.163) ×2, `#fafbfc` background ×1, `#d4d4d8` muted ×1
+
+Contrast pairs checked after recoloring: 15
+
+### Home — `home` → home
+
+- Group **hero** (core) `986f8da7`, blocks 0
+  - **hero** “ZAKRA” — 4 text, 1 photos
+    - photo (place): Looking up at a glass skyscraper at dusk
+- Group **stats** (needs stats) `6627d7e6`, blocks 1, 2
+  - **content** “We Are Zakra” — 3 text, 0 photos · lorem
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **features** (core) `eed47925`, blocks 3, 4
+  - **content** “Services” — 2 text, 0 photos · lorem
+  - **features** “Future Mission & Vision.” — 6 text, 0 photos · lorem
+- Group **cta** (core) `4ca2e81c`, blocks 5
+  - **cta** “Get In Touch” — 4 text, 1 photos
+    - photo (place): City skyline at dusk
+- Group **pricing** (needs pricing_plans) `01d52e8f`, blocks 6, 7
+  - **pricing** “Amazing Pricing Plan” — 2 text, 0 photos · lorem
+  - **pricing** “Personal” — 21 text, 0 photos · lorem
+- Group **features** (core) `b4feb9ca`, blocks 8, 9
+  - **content** “Our Teams” — 2 text, 0 photos · lorem
+  - **features** “Wilson Septimus” — 9 text, 3 photos · lorem
+    - photo (person): Man in a suit and red tie portrait
+    - photo (person): Stylish man in a suit with hand on chin
+    - photo (person): Smiling man in a blazer and turtleneck
+- Group **testimonials** (core) `86de1461`, blocks 10
+  - **testimonials** “Reviews” — 4 text, 1 photos · lorem
+    - photo (place): Looking up at skyscrapers against the sky
+- Group **logos** (needs client_logos) `73186512`, blocks 11
+  - **logos** (untitled) — 0 text, 0 photos
+- Group **stats** (needs stats) `4fdc629e`, blocks 12
+  - **stats** “Let's Talk” — 2 text, 0 photos
+
+### About — `about` → about
+
+- Group **hero** (core) `6627d7e6`, blocks 0
+  - **hero** “We Are Zakra” — 3 text, 0 photos · lorem
+- Group **cta** (core) `2790535f`, blocks 1
+  - **cta** “What We Do” — 3 text, 0 photos · lorem
+- Group **stats** (needs stats) `741c1c3f`, blocks 2, 3
+  - **content** “Our Philoshophy” — 2 text, 0 photos · lorem
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **stats** (needs stats) `4fdc629e`, blocks 5
+  - **stats** “Let's Talk” — 2 text, 0 photos
+
+### Portfolio — `portfolio` → services
+
+- Group **hero** (core) `98b5e206`, blocks 0
+  - **hero** “What We Do” — 4 text, 0 photos · lorem
+- Group **cta** (core) `77edf41f`, blocks 1
+  - **cta** “Startup Seminar” — 4 text, 0 photos · lorem
+- Group **features** (core) `1e17f3f2`, blocks 2
+  - **features** “Project Presentation” — 9 text, 0 photos · lorem
+- Group **stats** (needs stats) `4fdc629e`, blocks 4
+  - **stats** “Let's Talk” — 2 text, 0 photos
+
+### Contact — `contact` → contact
+
+- Group **hero** (core) `6359308a`, blocks 0
+  - **hero** “ZAKRA PROFESSIONAL” — 3 text, 0 photos
+- Group **stats** (needs stats) `4fdc629e`, blocks 2
+  - **stats** “Let's Talk” — 2 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+## Real Estate V2 (`real-estate-v2`) · premium
+
+25 sections · 151/181 editable text slots · 1169 words · 48/74 swappable images
+
+Fonts: heading **Playfair Display**, body **Raleway** (Playfair Display → heading, Raleway → body)
+
+Colors: `#343a40` text ×66, `#ffffff` background ×57, `#000000` text ×31, `#078169` primary ×26, `#cccccc` muted ×10, `#16181a` text ×8, `#f1f0f0` background ×6, `#e9ecef` background ×5, `#fafafa` background ×4, `#ececec` background ×3, `#e4e4e7` background ×3, `#027abb` accent [locked: accent] ×3, `#3f3f46` text ×2, `#fffdfd` background ×1, `#f9f8fa` background ×1, `#fffffc` background ×1, `#d4d4d8` muted ×1
+
+Contrast pairs checked after recoloring: 4
+
+### Home — `home` → home
+
+- Group **hero** (core) `203188b0`, blocks 0
+  - **hero** “YOUR GATEWAY TO A RICHER LIFE” — 3 text, 1 photos · lorem
+    - photo (place): Modern two-storey house with glass balconies
+- Group **cta** (core) `81c1d642`, blocks 1
+  - **cta** “Featured Properties” — 3 text, 0 photos · lorem
+- Group **features** (core) `7df72f1a`, blocks 2
+  - **features** “Presidential Villa” — 8 text, 4 photos
+    - photo (place): Modern white villa with a swimming pool
+    - photo (place): Modern house exterior with dark cladding at dusk
+    - photo (place): Modern house with a swimming pool and patio
+    - photo (place): Modern house exterior with balcony and large glass windows
+- Group **features** (core) `a7be98af`, blocks 3
+  - **features** “Bourton la Manor” — 8 text, 4 photos
+    - photo (place): Red wooden farmhouse surrounded by autumn trees
+    - photo (place): Burj Khalifa skyscraper towering over Dubai city
+    - photo (place): Glass skyscraper facade reflecting other city buildings
+    - photo (place): Gothic skyscraper rising above clouds and fog
+- Group **content** (core) `97ac010c`, blocks 4
+  - **content** “Don’t buy from me unless you are ready for success.” — 5 text, 1 photos · lorem
+    - photo (group): Coworkers in face masks meeting around a conference table
+- Group **gallery** (core) `5e606beb`, blocks 5
+  - **gallery** “Our Awesome Gallery” — 2 text, 6 photos · lorem
+    - photo (place): White colonial house with a swimming pool and palm trees
+    - photo (place): Modern white villa with a swimming pool
+    - photo (place): Modern white house with a driveway and tree
+    - photo (place): Modern house with a swimming pool and patio
+    - photo (place): Covered wooden deck patio of a luxury house with dining area
+    - photo (place): Suburban two-story house with garage at dusk
+- Group **content** (core) `a32d42c6`, blocks 6
+  - **content** “Committed To Getting The Colorful places.” — 8 text, 1 photos · lorem
+    - photo (group): Coworkers in face masks meeting around a conference table
+- Group **cta** (core) `29e10952`, blocks 7
+  - **cta** “Our Dedicated Agents” — 3 text, 0 photos · lorem
+- Group **team** (needs team) `aafc31d8`, blocks 8
+  - **team** “Eric Wilson” — 8 text, 4 photos
+    - photo (person): Businessman in a navy suit sitting on a rooftop terrace
+    - photo (person): Smiling young woman in a gray blazer leaning against a wall
+    - photo (person): Young man in a suit and tie against a brick wall
+    - photo (person): Confident businessman in a gray suit with arms crossed
+- Group **posts** (needs blog) `706df62d`, blocks 9
+  - **posts** “Latest News and Events” — 2 text, 0 photos · lorem
+- Group **content** (core) `c8cf40cf`, blocks 10
+  - **content** “How to Be Successful in Real Estate Investment” — 9 text, 3 photos · lorem
+    - photo (place): Historic gothic stone buildings under a blue sky
+    - photo (place): Amsterdam canal houses reflected in the water
+    - photo (place): Suburban house with a large green lawn
+- Group **contact** (core) `72c91478`, blocks 11
+  - **contact** “Get In Touch” — 4 text, 1 photos
+    - photo (place): Dark lakeside view with a pier at dusk
+
+### Blog — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `558adc5d`, blocks 0
+  - **hero** “Awards and Recognition” — 2 text, 0 photos · lorem
+- Group **logos** (needs client_logos) `ff22b3ef`, blocks 1, 2
+  - **logos** (untitled) — 0 text, 0 photos
+  - **logos** (untitled) — 0 text, 0 photos
+- Group **content** (core) `40c8c3c8`, blocks 3
+  - **content** “Going Above and Beyond To Find Your Next Home” — 4 text, 1 photos · lorem
+    - photo (place): Bright dining room and living room interior with hardwood floors
+- Group **content** (core) `bbeb7c40`, blocks 4
+  - **content** “Committed To Getting The Colorful places.” — 8 text, 1 photos · lorem
+    - photo (group): Coworkers in face masks meeting around a conference table
+- Group **cta** (core) `466b63c7`, blocks 5
+  - **cta** “Our Dedicated Agents” — 3 text, 0 photos · lorem
+- Group **team** (needs team) `249c58ae`, blocks 6
+  - **team** “Eric Wilson” — 8 text, 4 photos
+    - photo (person): Businessman in a navy suit sitting on a rooftop terrace
+    - photo (person): Smiling young woman in a gray blazer leaning against a wall
+    - photo (person): Young man in a suit and tie against a brick wall
+    - photo (person): Confident businessman in a gray suit with arms crossed
+- Group **contact** (core) `d75d44bc`, blocks 7
+  - **contact** “Get In Touch” — 4 text, 1 photos
+    - photo (place): Dark lakeside view with a pier at dusk
+
+### Properties — `properties` → services
+
+- Group **hero** (core) `b8755465`, blocks 0
+  - **hero** “Presidential Villa” — 8 text, 4 photos
+    - photo (place): Modern white villa with a swimming pool
+    - photo (place): Modern house exterior with dark cladding at dusk
+    - photo (place): Modern house with a swimming pool and patio
+    - photo (place): Modern house exterior with balcony and large glass windows
+- Group **features** (core) `1e488163`, blocks 1
+  - **features** “Bourton la Manor” — 8 text, 4 photos
+    - photo (place): Red wooden farmhouse surrounded by autumn trees
+    - photo (place): Burj Khalifa skyscraper towering over Dubai city
+    - photo (place): Glass skyscraper facade reflecting other city buildings
+    - photo (place): Gothic skyscraper rising above clouds and fog
+- Group **features** (core) `7f3e5911`, blocks 2
+  - **features** “Presidential Villa” — 8 text, 4 photos
+    - photo (place): Modern white villa with a swimming pool
+    - photo (place): Modern house exterior with dark cladding at dusk
+    - photo (place): Modern house with a swimming pool and patio
+    - photo (place): Modern house exterior with balcony and large glass windows
+- Group **features** (core) `85b54f3f`, blocks 3
+  - **features** “Bourton la Manor” — 8 text, 4 photos
+    - photo (place): Red wooden farmhouse surrounded by autumn trees
+    - photo (place): Burj Khalifa skyscraper towering over Dubai city
+    - photo (place): Glass skyscraper facade reflecting other city buildings
+    - photo (place): Gothic skyscraper rising above clouds and fog
+
+### Testimonial — `testimonial` → other
+
+- Group **hero** (core) `67caaf29`, blocks 0
+  - **hero** “Jack Williams” — 27 text, 0 photos · lorem
+
+## Restaurant Blog (`restaurant-blog`)
+
+7 sections · 30/30 editable text slots · 690 words · 10/11 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** ()
+
+Colors: `#ffffff` background ×11, `#16181a` text ×6, `#e9ecef` background ×6, `#0a0a0a` text ×5, `#e4e4e7` background ×3, `#f5f5f5` background ×2, `#999999` muted ×2, `#fafafa` background ×2, `#ac0114` accent [locked: accent] ×2, `#000000` text ×1, `#333333` text ×1, `#010a02` text ×1, `#2c2630` text ×1, `#595959` muted ×1, `#3f3f46` text ×1, `#0b365b` accent [locked: accent] ×1, `#027abb` accent (+0.171) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 3
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-1`, blocks 1
+  - **hero** “How Daily Lunch Specials Can Drive New Patrons” — 12 text, 6 photos · lorem
+    - photo (place): Upscale restaurant bar interior with hanging lamps
+    - photo (object): Flat lay of bread, vegetables and herbs on a dark table
+    - photo (place): Cafe counter with flowers and a menu board on the wall
+    - photo (object): Spread of grilled meat, fries and fruit on a wooden table
+    - photo (group): People sharing breakfast with waffles and coffee at a table, overhead view
+    - photo (place): Restaurant bar with shelves of bottles and hanging glasses
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “Our Restaurant” — 7 text, 1 photos · lorem
+    - photo (person): Chef in an apron presenting a plated dish in a kitchen
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “Let's Cook Some Tasty Things With Chef Charlie with me.” — 2 text, 0 photos · lorem
+- Group **content** (core) `top-5`, blocks 5
+  - **content** “What Reader Say” — 1 text, 0 photos
+- Group **content** (core) `top-7`, blocks 7
+  - **content** (untitled) — 4 text, 1 photos · lorem
+    - photo (person): Smiling young woman with glasses and long dark hair
+
+### Blog — `blog` → blog
+
+
+### About Us — `about` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Our Restaurant” — 2 text, 1 photos · lorem
+    - photo (person): Chef in an apron presenting a plated dish in a kitchen
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “What can I do for you?” — 2 text, 1 photos · lorem
+    - photo (person): Bearded man in a suit sitting at a cafe table
+
+### Contact Us — `contact` → contact
+
 
 ## Restaurant V2 (`restaurant-v2`)
 
-36 sections · 155/198 editable text slots · 863 words · 52/119 swappable images
+36 sections · 155/198 editable text slots · 863 words · 38/119 swappable images
 
 Fonts: heading **Cormorant Garamond**, body **Lato** (Cormorant Garamond → heading, Lato → body, Sacramento → heading)
 
@@ -390,29 +4516,48 @@ Contrast pairs checked after recoloring: 11
 ### Home — `home` → home
 
 - Group **hero** (core) `95dfa7b9`, blocks 0
-  - **hero** “ZAKRA RESTURA” — 3 text, 3 photos · lorem
+  - **hero** “ZAKRA RESTURA” — 3 text, 1 photos · lorem
+    - photo (place): Busy restaurant interior at night with hanging lights
 - Group **cta** (core) `7b7d72d2`, blocks 1
   - **cta** “About us” — 4 text, 1 photos · lorem
+    - photo (object): Cheese pizza being cut with a knife and fork
 - Group **cta** (core) `a76f8cf6`, blocks 2
   - **cta** “WHY US” — 4 text, 1 photos · lorem
+    - photo (object): Plated fine dining dish with fish and vegetables
 - Group **content** (core) `5ede797c`, blocks 3
-  - **content** “OUR SPECIALITY” — 1 text, 3 photos
+  - **content** “OUR SPECIALITY” — 1 text, 1 photos
+    - photo (place): Busy bar and restaurant counter with staff
 - Group **content** (core) `242bdd39`, blocks 4
   - **content** “FRENCH FRIES AND SAUSAGES” — 9 text, 3 photos · lorem
+    - photo (object): Waffle topped with yogurt, blueberries and strawberries
+    - photo (object): Seafood pasta with lobster and mussels
+    - photo (object): Spaghetti with tomato sauce and cherry tomatoes on a white plate
 - Group **content** (core) `4ffd78bb`, blocks 5
   - **content** “MENU” — 10 text, 1 photos
+    - photo (place): Cafe storefront with large windows and people inside
 - Group **content** (core) `eca15bdb`, blocks 6
   - **content** “LUNCH” — 9 text, 1 photos
+    - photo (place): Cafe storefront with large windows and people inside
 - Group **cta** (core) `6a0c4bec`, blocks 7
   - **cta** (untitled) — 1 text, 0 photos
 - Group **testimonials** (core) `47dd9f9c`, blocks 8
-  - **testimonials** “TESTIMONIAL” — 1 text, 3 photos
+  - **testimonials** “TESTIMONIAL” — 1 text, 1 photos
+    - photo (place): Dim restaurant dining room with wooden tables
 - Group **features** (core) `75e2bab7`, blocks 9
   - **features** “GEORGE CLOONEY” — 9 text, 0 photos · lorem
 - Group **gallery** (core) `4c55c3f3`, blocks 10
   - **gallery** “GALLERY” — 2 text, 8 photos
+    - photo (object): Pepperoni pizza on a wooden board
+    - photo (object): Spaghetti with tomato sauce and cherry tomatoes on a white plate
+    - photo (object): Roasted vegetables in a dark baking dish
+    - photo (object): Fresh spring rolls with dipping sauce on a platter
+    - photo (object): Roasted plums with cream on a plate
+    - photo (object): Empanadas with salad on a plate
+    - photo (object): Plated steak topped with sprouts and sauce
+    - photo (object): Pancakes with chocolate sauce being poured
 - Group **content** (core) `7fb86ff1`, blocks 11
-  - **content** “SUBSCRIPTION” — 1 text, 3 photos
+  - **content** “SUBSCRIPTION” — 1 text, 1 photos
+    - photo (group): People dining in a cosy restaurant
 - Group **dynamic** (core) `8d75fe31`, blocks 12
   - **dynamic** “Want to receive regular news and updates to your inbox?” — 1 text, 0 photos · dynamic: everest-forms/form-selector
 
@@ -420,16 +4565,22 @@ Contrast pairs checked after recoloring: 11
 
 - Group **hero** (core) `d0efbdbf`, blocks 0
   - **hero** “ABOUT US” — 7 text, 1 photos · lorem
+    - photo (place): Restaurant dining room with brick walls and a large wall clock
 - Group **features** (core) `4a350fee`, blocks 1
   - **features** “OUR VALUES” — 7 text, 0 photos · lorem
 - Group **team** (needs team) `4311432e`, blocks 2
   - **team** “OUR TEAM” — 7 text, 3 photos
+    - photo (person): Smiling chef in a white jacket holding a cup
+    - photo (person): Smiling chef in a white jacket with arms crossed
+    - photo (person): Chef in a white hat carving roasted meat
 - Group **content** (core) `ee92cc17`, blocks 3
   - **content** (untitled) — 0 text, 1 photos
+    - photo (place): Busy restaurant seen through the front window
 - Group **cta** (core) `88a65a10`, blocks 4
   - **cta** “Reservation” — 4 text, 0 photos · lorem
 - Group **content** (core) `c4700229`, blocks 5
-  - **content** “SUBSCRIPTION” — 1 text, 3 photos
+  - **content** “SUBSCRIPTION” — 1 text, 1 photos
+    - photo (group): People dining in a cosy restaurant
 - Group **dynamic** (core) `0704dc85`, blocks 6
   - **dynamic** “Want to receive regular news and updates to your inbox?” — 1 text, 0 photos · dynamic: everest-forms/form-selector
 
@@ -441,24 +4592,28 @@ Contrast pairs checked after recoloring: 11
   - **content** “Black Pasta” — 16 text, 0 photos
 - Group **content** (core) `62c226f4`, blocks 2
   - **content** (untitled) — 0 text, 1 photos
+    - photo (object): Stack of pancakes with chocolate and strawberries
 - Group **content** (core) `40103d44`, blocks 3
   - **content** “BREAKFAST” — 1 text, 0 photos
 - Group **content** (core) `34558a40`, blocks 4
   - **content** “Black Pasta” — 16 text, 0 photos
 - Group **content** (core) `8aa3c8d8`, blocks 5
   - **content** (untitled) — 0 text, 1 photos
+    - photo (object): Black pasta with tomatoes and sliced meat
 - Group **content** (core) `49a9ec56`, blocks 6
   - **content** “LUNCH” — 1 text, 0 photos
 - Group **content** (core) `f9697b0b`, blocks 7
   - **content** “Black Pasta” — 16 text, 0 photos
 - Group **content** (core) `e18b9ca8`, blocks 8
   - **content** (untitled) — 0 text, 1 photos
+    - photo (object): Pizza with olives and arugula
 - Group **content** (core) `7b5b25df`, blocks 9
   - **content** “DRINKS” — 1 text, 0 photos
 - Group **content** (core) `f2a1fd38`, blocks 10
   - **content** “Black Pasta” — 16 text, 0 photos
 - Group **content** (core) `7723bd88`, blocks 11
-  - **content** “SUBSCRIPTION” — 1 text, 3 photos
+  - **content** “SUBSCRIPTION” — 1 text, 1 photos
+    - photo (group): People dining in a cosy restaurant
 - Group **dynamic** (core) `c768ee1f`, blocks 12
   - **dynamic** “Want to receive regular news and updates to your inbox?” — 1 text, 0 photos · dynamic: everest-forms/form-selector
 
@@ -469,14 +4624,104 @@ Contrast pairs checked after recoloring: 11
 
 - Group **hero** (core) `0341a293`, blocks 0
   - **hero** “GALLERY” — 1 text, 8 photos
+    - photo (object): Pepperoni pizza on a wooden board
+    - photo (object): Spaghetti with tomato sauce and cherry tomatoes on a white plate
+    - photo (object): Roasted vegetables in a dark baking dish
+    - photo (object): Fresh spring rolls with dipping sauce on a platter
+    - photo (object): Roasted plums with cream on a plate
+    - photo (object): Empanadas with salad on a plate
+    - photo (object): Plated steak topped with sprouts and sauce
+    - photo (object): Pancakes with chocolate sauce being poured
 - Group **content** (core) `a981b227`, blocks 1
-  - **content** “SUBSCRIPTION” — 1 text, 3 photos
+  - **content** “SUBSCRIPTION” — 1 text, 1 photos
+    - photo (group): People dining in a cosy restaurant
 - Group **dynamic** (core) `ac1f503c`, blocks 2
   - **dynamic** “Want to receive regular news and updates to your inbox?” — 1 text, 0 photos · dynamic: everest-forms/form-selector
 
+## Restro V2 (`restro-v2`)
+
+13 sections · 101/118 editable text slots · 413 words · 30/36 swappable images
+
+Fonts: heading **Poppins**, body **Jost** (Poppins → heading, Jost → body)
+
+Colors: `#261f1f` text ×59, `#f9b42f` primary ×50, `#ffffff` background ×28, `#4e2c21` secondary ×26, `#444444` text ×18, `#f2f2f2` background ×16, `#fffcf7` background ×14, `#8f8f8f` muted ×12, `#3f3f46` text ×10, `#111111` text ×9, `#eeeeee` background ×8, `#e9ecef` background ×6, `#e4e4e7` background ×3, `#16181a` text ×3, `#fafafa` background ×3, `#027abb` accent [locked: accent] ×3, `#fffffa` background ×1, `#420b03` secondary (-0.082) ×1, `#1e7ba6` accent (+0.014) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 13
+
+### My account — `my-account` → other
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+### Shop — `shop` → other
+
+
+### Cart — `cart` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** “You may be interested in…” — 3 text, 0 photos · dynamic: woocommerce/cart, woocommerce/filled-cart-block, woocommerce/cart-items-block, woocommerce/cart-line-items-block, woocommerce/cart-cross-sells-block, woocommerce/cart-cross-sells-products-block, woocommerce/cart-totals-block, woocommerce/cart-order-summary-block, woocommerce/cart-order-summary-heading-block, woocommerce/cart-order-summary-coupon-form-block, woocommerce/cart-order-summary-subtotal-block, woocommerce/cart-order-summary-fee-block, woocommerce/cart-order-summary-discount-block, woocommerce/cart-order-summary-shipping-block, woocommerce/cart-order-summary-taxes-block, woocommerce/cart-express-payment-block, woocommerce/proceed-to-checkout-block, woocommerce/cart-accepted-payment-methods-block, woocommerce/empty-cart-block, woocommerce/product-new
+
+### Checkout — `checkout` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: woocommerce/checkout, woocommerce/checkout-fields-block, woocommerce/checkout-express-payment-block, woocommerce/checkout-contact-information-block, woocommerce/checkout-shipping-method-block, woocommerce/checkout-pickup-options-block, woocommerce/checkout-shipping-address-block, woocommerce/checkout-billing-address-block, woocommerce/checkout-shipping-methods-block, woocommerce/checkout-payment-block, woocommerce/checkout-additional-information-block, woocommerce/checkout-order-note-block, woocommerce/checkout-terms-block, woocommerce/checkout-actions-block, woocommerce/checkout-totals-block, woocommerce/checkout-order-summary-block, woocommerce/checkout-order-summary-cart-items-block, woocommerce/checkout-order-summary-coupon-form-block, woocommerce/checkout-order-summary-subtotal-block, woocommerce/checkout-order-summary-fee-block, woocommerce/checkout-order-summary-discount-block, woocommerce/checkout-order-summary-shipping-block, woocommerce/checkout-order-summary-taxes-block
+
+### Home — `home` → home
+
+- Group **hero** (core) `22dcf22d`, blocks 0
+  - **hero** “Experience Dining Like Never Before” — 3 text, 1 photos
+    - photo (object): Overhead view of breakfast plates and bowls on a table
+- Group **cta** (core) `0f2f41fb`, blocks 1
+  - **cta** “We're Passionate About Providing Warm Hospitality” — 4 text, 1 photos · lorem
+    - photo (group): Smiling woman holding bread with inset of two bakers in aprons
+- Group **content** (core) `469a0f76`, blocks 2
+  - **content** “Today's Special Dish” — 8 text, 3 photos · lorem
+    - photo (object): Plate of spaghetti with meat sauce, top view
+    - photo (object): Spaghetti with tomato sauce and basil on a white plate
+    - photo (object): Plate of pasta with herbs, top view
+- Group **content** (core) `5d6d06e4`, blocks 3
+  - **content** “Popular Items” — 18 text, 8 photos
+    - photo (object): Tofu poke bowl with egg, corn and vegetables
+    - photo (object): Shrimp noodle bowl with mushrooms, seaweed and tomatoes
+    - photo (object): Quinoa bowl with broccoli, cucumber, tomatoes and carrots
+    - photo (object): Salmon poke bowl with edamame, quinoa and red cabbage
+    - photo (object): Spinach salad with chickpeas and avocado in a glass bowl
+    - photo (object): Green salad with boiled eggs and lime on a plate
+    - photo (object): Caesar salad with croutons and dressing on a plate
+    - photo (object): Shrimp salad on lettuce leaves with lime
+- Group **content** (core) `d5ee045c`, blocks 4
+  - **content** “Deals Of The Week” — 16 text, 2 photos
+    - photo (object): Burger and fries on a wooden table
+    - photo (object): Pepperoni pizza on a wooden table
+- Group **testimonials** (core) `293174fa`, blocks 5
+  - **testimonials** “Our Customer Loves Us” — 12 text, 3 photos · lorem
+    - photo (person): Young woman in a yellow jacket posing outdoors
+    - photo (person): Smiling blonde woman holding an orange folder
+    - photo (person): Young woman in a denim jacket by an escalator
+- Group **posts** (needs blog) `49112cf5`, blocks 6
+  - **posts** “Our Latest Posts” — 20 text, 4 photos · lorem
+    - photo (object): Avocado toast with poached egg and juice on a table
+    - photo (object): Glass pitcher of lemon water with mint
+    - photo (object): Bowls of granola with peaches and yogurt, top view
+    - photo (object): Hands holding a bowl of fresh green salad
+- Group **dynamic** (core) `a3b0c2dd`, blocks 7
+  - **dynamic** “Visit Our Restaurant” — 8 text, 0 photos · dynamic: everest-forms/form-selector
+- Group **gallery** (core) `cb658bf3`, blocks 8
+  - **gallery** “Our Captured Moments” — 3 text, 4 photos
+    - photo (group): Friends laughing at a festive dinner table
+    - photo (group): Family sharing a holiday dinner with food at the table
+    - photo (object): Wine being poured at a candlelit holiday dinner table
+    - photo (group): Friends taking a selfie at a festive dinner party
+- Group **gallery** (core) `7cc3d352`, blocks 9
+  - **gallery** “OFFERS” — 6 text, 4 photos
+    - photo (object): Breakfast with fried eggs, omelette, toast and tea
+    - photo (object): Potato dumplings with bacon and dill on a plate
+    - photo (object): Passion fruit cocktail with a dessert plate
+    - photo (object): Fried egg on salad with bread and coffee, top view
+
 ## Zakra Spa (`spa-02`)
 
-10 sections · 51/54 editable text slots · 486 words · 8/11 swappable images
+10 sections · 51/54 editable text slots · 486 words · 6/11 swappable images
 
 Fonts: heading **Open Sans**, body **Open Sans** (Open Sans → body)
 
@@ -488,14 +4733,20 @@ Contrast pairs checked after recoloring: 8
 
 - Group **hero** (core) `f171ee12`, blocks 0
   - **hero** “MAKE TIME FOR YOURSELF” — 4 text, 1 photos · lorem
+    - photo (person): Woman with glowing skin and pink tulips, beauty portrait
 - Group **content** (core) `158bb687`, blocks 1
   - **content** “What we do?” — 10 text, 0 photos · lorem
-- Group **content** (core) `895b5115`, blocks 2
-  - **content** “Our community” — 5 text, 2 photos · lorem
+- Group **stats** (needs stats) `895b5115`, blocks 2
+  - **stats** “Our community” — 5 text, 1 photos · lorem
+    - photo (group): Makeup artist applying lipstick to a woman in a salon
 - Group **cta** (core) `b6df7d69`, blocks 3
   - **cta** “Be part of us” — 4 text, 3 photos · lorem
+    - photo (person): Woman relaxing in a milk bath, beauty portrait
+    - photo (person): Woman with dramatic makeup, beauty portrait
+    - photo (person): Woman with a red flower in her hair, beauty portrait
 - Group **cta** (core) `05edcc50`, blocks 4
-  - **cta** “Book an appointment” — 3 text, 2 photos · lorem
+  - **cta** “Book an appointment” — 3 text, 1 photos · lorem
+    - photo (person): Woman receiving a face massage at a spa
 - Group **cta** (core) `ed5d1806`, blocks 5
   - **cta** “Join us to get more info” — 4 text, 0 photos · lorem
 
@@ -519,6 +4770,1031 @@ Contrast pairs checked after recoloring: 8
 - Group **content** (core) `895b5115`, blocks 1
   - **content** “About detoxifying” — 3 text, 0 photos · lorem
 
+## Spa Center v2 (`spa-center-v2`) · premium
+
+13 sections · 113/116 editable text slots · 657 words · 33/49 swappable images
+
+Fonts: heading **Playfair Display**, body **Poppins** (Poppins → body, Playfair Display → heading)
+
+Colors: `#343a40` text ×56, `#212529` text ×46, `#ffffff` background ×35, `#2d2a27` text ×20, `#000000` text ×11, `#f8f9f6` background ×9, `#9a9a99` muted ×6, `#e9ecef` background ×6, `#fafafa` background ×5, `#f8f5f0` primary ×4, `#e4e4e7` background ×3, `#16181a` text ×3, `#171717` text ×2, `#3f3f46` text ×2, `#027abb` accent (-0.165) [locked: accent] ×2, `#282723` text ×1, `#252423` text ×1, `#2664eb` accent [locked: accent] ×1, `#1e7ba6` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 6
+
+### Home — `home` → home
+
+- Group **hero** (core) `d7db6f5f`, blocks 0
+  - **hero** “WELCOME TO ZAKRA SPA CENTER” — 5 text, 1 photos · lorem
+    - photo (object): Wooden board with white flowers and greenery border
+- Group **cta** (core) `869e693f`, blocks 1
+  - **cta** “WELCOME TO ZAKRA SPA CENTER” — 4 text, 2 photos · lorem
+    - photo (object): Single dark green leaf on a plain background
+    - photo (person): Woman relaxing with eyes closed during a spa treatment
+- Group **content** (core) `a1ca0dfd`, blocks 2
+  - **content** “WELCOME TO ZAKRA SPA CENTER” — 9 text, 3 photos · lorem
+    - photo (person): Woman receiving a back massage at a spa
+    - photo (person): Smiling woman floating in water with eyes closed
+    - photo (person): Woman receiving a shoulder massage with an orchid nearby
+- Group **testimonials** (core) `0253a041`, blocks 3
+  - **testimonials** “WELCOME TO ZAKRA SPA CENTER” — 4 text, 1 photos · lorem
+    - photo (person): Young woman in a white top among pink flowers
+- Group **features** (core) `36b4983a`, blocks 4
+  - **features** “WELCOME TO ZAKRA SPA CENTER” — 12 text, 5 photos · lorem
+    - photo (object): Stack of black spa stones
+    - photo (object): Bouquet of autumn leaves cut out on a plain background
+    - photo (person): Man receiving a neck and face massage
+    - photo (person): Woman receiving a green mud body wrap at a spa
+    - photo (person): Woman relaxing on a spa bed with singing bowls and rose petals
+- Group **dynamic** (core) `4f724339`, blocks 5
+  - **dynamic** “WELCOME TO ZAKRA SPA CENTER” — 3 text, 1 photos · lorem · dynamic: everest-forms/form-selector
+    - photo (person): Woman relaxing on a spa bed with singing bowls and rose petals
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `19927101`, blocks 0
+  - **hero** “WELCOME TO ZAKRA SPA CENTER” — 6 text, 2 photos · lorem
+    - photo (object): Pink roses with stems and leaves cut out
+    - photo (person): Woman lying on a spa bed during a singing bowl therapy
+- Group **stats** (needs stats) `d6ac8dd2`, blocks 1
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **features** (core) `31acd7b9`, blocks 2
+  - **features** “WELCOME TO ZAKRA SPA CENTER” — 35 text, 2 photos
+    - photo (object): Stack of black spa stones
+    - photo (object): Bouquet of autumn leaves cut out on a plain background
+- Group **content** (core) `170e4440`, blocks 3
+  - **content** “Kiera Knightley” — 6 text, 0 photos · lorem
+- Group **content** (core) `9022ebec`, blocks 4
+  - **content** “WELCOME TO ZAKRA SPA CENTER” — 3 text, 1 photos · lorem
+    - photo (person): Woman receiving a facial massage with eyes closed
+
+### Services — `services` → services
+
+- Group **hero** (core) `e0f9187e`, blocks 0
+  - **hero** “WELCOME TO ZAKRA SPA CENTER” — 20 text, 9 photos · lorem
+    - photo (person): Woman receiving a back massage at a spa
+    - photo (person): Smiling woman floating in water with eyes closed
+    - photo (person): Woman receiving a shoulder massage with an orchid nearby
+    - photo (person): Woman relaxing on a spa bed with singing bowls and rose petals
+    - photo (person): Young woman with flowers in her hair, beauty portrait
+    - photo (person): Bearded man receiving a neck massage
+    - photo (person): Woman receiving a green mud treatment on her back
+    - photo (person): Smiling woman floating in water with eyes closed
+    - photo (person): Woman relaxing on a spa bed with singing bowls and rose petals
+
+### Gallery — `gallery` → other
+
+- Group **hero** (core) `49c9fa62`, blocks 0
+  - **hero** “WELCOME TO ZAKRA SPA CENTER” — 2 text, 6 photos
+    - photo (person): Woman receiving a back massage at a spa
+    - photo (person): Smiling woman floating in water with eyes closed
+    - photo (person): Woman receiving a shoulder massage with an orchid nearby
+    - photo (person): Woman relaxing on a spa bed with singing bowls and rose petals
+    - photo (person): Young woman with flowers in her hair, beauty portrait
+    - photo (person): Bearded man receiving a neck massage
+
+## Startup Business V2 (`startup-business-v2`) · premium
+
+25 sections · 156/172 editable text slots · 1157 words · 18/40 swappable images
+
+Fonts: heading **Catamaran**, body **Catamaran** (Catamaran → body)
+
+Colors: `#1cb5e0` primary ×92, `#111111` text ×78, `#ffffff` background ×64, `#e9ecef` background ×19, `#3e3e3e` text ×16, `#1bb6e0` primary (-0.002) ×7, `#16181a` text ×4, `#aadae7` primary (+0.292) ×4, `#000000` text ×3, `#aaaaaa` muted ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#9accdb` primary (+0.237) ×3, `#b2e0ed` primary (+0.32) ×3, `#189fc4` primary (-0.063) ×3, `#027abb` primary (-0.124) ×3, `#3f3f46` text ×2, `#acdbe8` primary (+0.298) ×2, `#c3ebf6` primary (+0.371) ×2, `#c1eaf5` primary (+0.365) ×2, `#cfcfcf` muted ×1, `#27272a` text ×1
+
+Contrast pairs checked after recoloring: 8
+
+### Sample Page — `sample-page` → other
+
+
+### Home — `home` → home
+
+- Group **hero** (core) `577fd300`, blocks 0
+  - **hero** “Time to start your business website” — 3 text, 1 photos · lorem
+    - photo (person): Man presenting on stage behind a lectern with blue overlay
+- Group **content** (core) `4efe6050`, blocks 1
+  - **content** “Awesome Features That We Provide” — 7 text, 0 photos · lorem
+- Group **content** (core) `488a0bd0`, blocks 2
+  - **content** “Why to Choose Us” — 6 text, 1 photos · lorem
+    - photo (group): Team working with laptops and tablets around a table, overhead view
+- Group **content** (core) `32b97c2a`, blocks 3
+  - **content** “Our Amazing Portfolio” — 10 text, 0 photos · lorem
+- Group **pricing** (needs pricing_plans) `0a1426f1`, blocks 4, 5
+  - **pricing** “Best Pricing Plans” — 2 text, 0 photos · lorem
+  - **pricing** “PERSONAL” — 24 text, 0 photos · lorem
+- Group **team** (needs team) `d107f599`, blocks 6
+  - **team** “Meet Our Experts” — 11 text, 3 photos · lorem
+    - photo (person): Young man in a dark jacket, headshot
+    - photo (person): Young woman with long hair on a black background
+    - photo (person): Thoughtful young Black man with hand on chin
+- Group **stats** (needs stats) `89de4648`, blocks 7
+  - **stats** “PROJECTS COMPLETED” — 4 text, 1 photos
+    - photo (group): Large audience at a conference with blue overlay
+- Group **testimonials** (core) `c0374dfe`, blocks 8
+  - **testimonials** “Happy Clients Says” — 2 text, 0 photos · lorem
+- Group **posts** (needs blog) `9b2b3211`, blocks 9, 10
+  - **testimonials** “Jason Jack” — 3 text, 0 photos · lorem
+  - **posts** “Latest Blog” — 14 text, 3 photos · lorem
+    - photo (object): Scrabble tiles spelling digital marketing next to a phone
+    - photo (group): Speaker presenting to an audience in a lecture hall
+    - photo (group): Business people shaking hands at a meeting table
+- Group **cta** (core) `718fbdbd`, blocks 11
+  - **cta** “Looking for business opportunity?” — 3 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `75728995`, blocks 0
+  - **hero** “About Us” — 2 text, 1 photos · lorem
+    - photo (group): Smiling team gathered together with blue overlay
+- Group **content** (core) `f6812f2b`, blocks 1
+  - **content** “We Are Here To Help Small Businesses Succeed” — 4 text, 1 photos · lorem
+    - photo (group): Team working with laptops and tablets around a table, overhead view
+- Group **content** (core) `9511c9dd`, blocks 2
+  - **content** (untitled) — 2 text, 0 photos · lorem
+- Group **gallery** (core) `9fe291f4`, blocks 3
+  - **gallery** (untitled) — 0 text, 4 photos
+    - photo (group): Smiling woman working at a computer in an office with colleagues
+    - photo (group): Colleagues reviewing charts and documents at a desk
+    - photo (person): Young man explaining something at a desk with a laptop
+    - photo (group): Smiling team gathered around a laptop in an office
+- Group **content** (core) `35674dae`, blocks 4
+  - **content** “Our Goals and missions” — 3 text, 1 photos · lorem
+    - photo (person): Man holding a tablet showing business charts
+- Group **content** (core) `da9096d2`, blocks 5
+  - **content** “Our Process” — 3 text, 1 photos · lorem
+    - photo (group): Team reviewing photos and papers on a desk
+- Group **cta** (core) `718fbdbd`, blocks 6
+  - **cta** “Looking for business opportunity?” — 3 text, 0 photos
+
+### Services — `services` → services
+
+- Group **hero** (core) `75728995`, blocks 0
+  - **hero** “Services” — 2 text, 1 photos · lorem
+    - photo (group): Smiling team gathered together with blue overlay
+- Group **features** (core) `d3256a7e`, blocks 1
+  - **features** “We Provide Awesome Services” — 14 text, 0 photos · lorem
+- Group **testimonials** (core) `c0374dfe`, blocks 2
+  - **testimonials** “Happy Clients Says” — 2 text, 0 photos · lorem
+- Group **pricing** (needs pricing_plans) `9b2b3211`, blocks 3, 4
+  - **testimonials** “Jason Jack” — 3 text, 0 photos · lorem
+  - **pricing** “Best Pricing Plans” — 26 text, 0 photos · lorem
+- Group **cta** (core) `718fbdbd`, blocks 5
+  - **cta** “Looking for business opportunity?” — 3 text, 0 photos
+
+##  (`suffice`)
+
+8 sections · 47/47 editable text slots · 273 words · 21/30 swappable images
+
+Fonts: heading **Manrope**, body **Inter** (Manrope → heading, Inter → body)
+
+Colors: `#ffffff` background ×20, `#646464` muted ×13, `#3867d6` primary ×7, `#e9ecef` background ×6, `#f4f4f4` background ×4, `#e4e4e7` background ×3, `#16181a` text ×3, `#fafafa` background ×3, `#3f3f46` text ×2, `#03093b` primary (-0.408) ×2, `#0f1624` primary (-0.429) ×2, `#027abb` primary (-0.159) ×2, `#f7f9fd` background ×1, `#000000` text ×1, `#696969` muted ×1, `#d4d4d8` muted ×1, `#205dec` primary (-0.004) ×1
+
+Contrast pairs checked after recoloring: 7
+
+### Our Works — `our-works` → other
+
+- Group **hero** (core) `46be07e2`, blocks 0
+  - **hero** (untitled) — 1 text, 6 photos
+    - photo (group): People reviewing charts on paper and a laptop
+    - photo (object): Printed charts and reports next to a laptop on a desk
+    - photo (group): People reviewing charts on a tablet and clipboard
+    - photo (person): Person typing on a laptop showing analytics charts
+    - photo (object): Calculator on top of printed financial charts
+    - photo (object): Magnifying glass and notebook on printed charts
+
+### Blog — `blog` → blog
+
+
+### Team — `team` → other
+
+- Group **hero** (core) `2e934fa9`, blocks 0
+  - **hero** “James Carter” — 16 text, 8 photos
+    - photo (person): Young man in glasses and a dark suit standing
+    - photo (person): Smiling woman in a denim shirt in an office
+    - photo (person): Smiling businesswoman holding a clipboard with a chart
+    - photo (person): Smiling woman in a white shirt at her office desk
+    - photo (person): Businesswoman in a white blazer seated at a desk
+    - photo (person): Smiling businessman in a suit holding a laptop outdoors
+    - photo (person): Confident woman with crossed arms in an office
+    - photo (person): Smiling man in glasses giving a thumbs up
+
+### Contact — `contact` → contact
+
+- Group **dynamic** (core) `afcf7b60`, blocks 0
+  - **dynamic** (untitled) — 0 text, 0 photos · dynamic: everest-forms/form-selector
+
+### About — `about` → about
+
+- Group **hero** (core) `34b902f0`, blocks 0
+  - **hero** “Expert Guidance for Accelerated Business Growth” — 6 text, 1 photos · lorem
+    - photo (person): Smiling woman in a white shirt by a whiteboard with charts
+- Group **cta** (core) `2365c120`, blocks 1
+  - **cta** “Actionable Plans for Transforming Corporate Performance” — 4 text, 1 photos · lorem
+    - photo (group): Team working together around a desk with a laptop
+- Group **content** (core) `572c614b`, blocks 2
+  - **content** “Where Your Path To Success Begins and Flourishes” — 9 text, 1 photos · lorem
+    - photo (group): People reviewing charts on a tablet and clipboard
+- Group **logos** (needs client_logos) `fb8109bd`, blocks 3
+  - **logos** (untitled) — 0 text, 0 photos
+- Group **team** (needs team) `2e934fa9`, blocks 4
+  - **team** “Meet Our Professional Team Members” — 11 text, 4 photos
+    - photo (person): Young man in glasses and a dark suit standing
+    - photo (person): Smiling woman in a denim shirt in an office
+    - photo (person): Smiling businesswoman holding a clipboard with a chart
+    - photo (person): Smiling woman in a white shirt at her office desk
+
+## TherapyCoach (`therapycoach`)
+
+37 sections · 353/385 editable text slots · 2280 words · 30/89 swappable images
+
+Fonts: heading **Playfair Display**, body **Work Sans** ()
+
+Colors: `#ffffff` background ×36, `#1a1a1a` text ×22, `#777777` muted ×19, `#118b57` primary ×15, `#c27259` secondary ×12, `#888888` muted ×11, `#bdbdbd` muted ×10, `#999999` muted ×8, `#e4e4e7` background ×6, `#ececec` background ×4, `#f7f7f7` background ×3, `#eeeeee` background ×2, `#e9ecef` background ×2, `#d4d4d8` muted ×2, `#2b2b2b` text ×1, `#5c5c5c` muted ×1, `#666666` muted ×1, `#a3a9ac` muted ×1, `#999d9e` muted ×1, `#fafafa` background ×1, `#eadfd2` secondary (+0.316) ×1, `#d1a134` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 7
+
+### Sample Page — `sample-page-2` → other
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-1`, blocks 1
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-2`, blocks 2
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-3`, blocks 3
+  - **content** (untitled) — 1 text, 0 photos
+- Group **content** (core) `top-4`, blocks 4
+  - **content** (untitled) — 1 text, 0 photos
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** (untitled) — 1 text, 0 photos
+- Group **cta** (core) `top-1`, blocks 1
+  - **cta** “Think Different. Make Different.” — 3 text, 1 photos · lorem
+- Group **content** (core) `top-2`, blocks 2
+  - **content** (untitled) — 6 text, 0 photos
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “Zakra Invites You To Build Your Next Site” — 3 text, 1 photos · lorem
+- Group **gallery** (needs portfolio) `top-4`, blocks 4
+  - **gallery** “Our Awesome Portfolio” — 2 text, 8 photos · lorem
+- Group **pricing** (needs pricing_plans) `top-5`, blocks 5
+  - **pricing** “Plan & Pricing” — 29 text, 0 photos · lorem
+- Group **team** (needs team) `top-6`, blocks 6
+  - **team** “Meet Our Team” — 10 text, 4 photos · lorem
+- Group **testimonials** (core) `top-7`, blocks 7
+  - **testimonials** “Client Reviews” — 8 text, 2 photos · lorem
+- Group **stats** (needs stats) `top-8`, blocks 8
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **posts** (needs blog) `top-9`, blocks 9
+  - **posts** “Latest Posts & Articles” — 14 text, 4 photos · lorem
+- Group **cta** (core) `top-10`, blocks 10
+  - **cta** “Have Any Questions?” — 3 text, 0 photos · lorem
+- Group **content** (core) `top-11`, blocks 11
+  - **content** (untitled) — 5 text, 0 photos
+- Group **contact** (core) `top-12`, blocks 12
+  - **contact** (untitled) — 7 text, 0 photos · lorem
+
+### Home Page — `home-page` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Transform your life with personalized therapy & coaching.” — 6 text, 1 photos
+    - photo (person): Smiling middle-aged woman in a striped cardigan, portrait
+- Group **content** (core) `top-1`, blocks 1
+  - **content** (untitled) — 5 text, 0 photos
+- Group **features** (core) `top-2`, blocks 2
+  - **features** “Specialized care for the seasons of your life” — 15 text, 0 photos
+- Group **content** (core) `top-3`, blocks 3
+  - **content** “A steady, skilled presence for the work that matters most” — 11 text, 1 photos
+    - photo (person): Smiling young woman in a gray blazer sitting by a window
+- Group **features** (core) `top-4`, blocks 4
+  - **features** “Coaching paths designed around real transformation” — 22 text, 0 photos
+- Group **features** (core) `top-5`, blocks 5
+  - **features** “A grounded, supported path from first click to lasting change” — 14 text, 0 photos
+- Group **features** (core) `top-6`, blocks 6
+  - **features** “Interactive wellness activities that meet you between sessions” — 14 text, 0 photos
+- Group **features** (core) `top-7`, blocks 7
+  - **features** “Background, training, and the rooms I've practiced in” — 26 text, 0 photos
+- Group **content** (core) `top-8`, blocks 8
+  - **content** “Before & After Real Shifts” — 31 text, 0 photos
+- Group **posts** (needs blog) `top-9`, blocks 9
+  - **posts** “Quiet reading for the in-between moments” — 3 text, 0 photos · dynamic: core/query
+- Group **content** (core) `top-10`, blocks 10
+  - **content** “Answers to what most clients ask first” — 13 text, 0 photos
+- Group **content** (core) `top-11`, blocks 11
+  - **content** “Begin something meaningful.” — 5 text, 0 photos
+
+### About — `about` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “I built TherapyCoach because therapy should feel human” — 3 text, 1 photos
+    - photo (person): Smiling young woman in a gray blazer sitting by a window
+- Group **content** (core) `top-1`, blocks 1
+  - **content** “From clinical practice to coaching” — 11 text, 0 photos
+- Group **features** (core) `top-2`, blocks 2
+  - **features** “What guides the work, every session” — 10 text, 0 photos
+- Group **features** (core) `top-3`, blocks 3
+  - **features** “A flexible structure, a steady relationship” — 8 text, 1 photos
+    - photo (person): Smiling middle-aged woman in a striped cardigan, portrait
+- Group **features** (core) `top-4`, blocks 4
+  - **features** “Training, licensing, and ongoing study” — 12 text, 0 photos
+- Group **content** (core) `top-5`, blocks 5
+  - **content** “Begin something meaningful.” — 5 text, 0 photos
+
+### Programs — `programs` → services
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Find the coaching path that meets you where you are” — 39 text, 6 photos
+    - photo (group): Women practicing yoga tree pose on a beach
+    - photo (object): Card with the word mindfulness on a windowsill
+    - photo (person): Joyful woman dancing with headphones and a phone
+    - photo (group): Friends raising arms at sunset
+    - photo (person): Person walking alone on desert sand dunes
+    - photo (person): Silhouette of a man with outstretched arms at sunset
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/home-hero-image.png
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/zakra-invite.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-A.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-E.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-F.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-C.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-H.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-B.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-D.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-G.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/team-A.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/team-B.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/team-C.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/team-D.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/team-D.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/team-C.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-A.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-B.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-F.jpg
+- home: photo not in data/photo-descriptions.json: https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/portfolio-G.jpg
+
+</details>
+
+## Travel Agency (`travel-agency`) · premium
+
+24 sections · 83/84 editable text slots · 638 words · 21/28 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+
+Colors: `#ffffff` background ×98, `#ebebeb` background ×18, `#f8f8f8` background ×12, `#000000` text ×9, `#090703` text ×9, `#020202` text ×8, `#0b70f4` primary ×6, `#161616` text ×5, `#e9ecef` background ×5, `#16181a` text ×4, `#027abb` primary (-0.129) ×4, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#1e73be` primary (-0.069) ×2, `#050505` text ×1, `#1e7ba6` primary (-0.116) ×1
+
+Contrast pairs checked after recoloring: 4
+
+### Home — `home` → home
+
+- Group **hero** (core) `b40c9132`, blocks 0
+  - **hero** “Explore the Colorful World” — 3 text, 1 photos · lorem
+    - photo (place): Milky Way over mountain silhouettes at night
+- Group **cta** (core) `b8e97672`, blocks 1
+  - **cta** “Experience the Life of Beautiful Santorini” — 4 text, 2 photos · lorem
+    - photo (place): White Greek island house with a blue gate and stairs
+    - photo (place): Santorini staircase overlooking the sea
+- Group **cta** (core) `45e6090f`, blocks 2
+  - **cta** “Popular Destination” — 3 text, 0 photos · lorem
+- Group **gallery** (core) `0a623a93`, blocks 3
+  - **gallery** “Buddhist Tradition” — 8 text, 4 photos
+    - photo (place): White Buddha statue in a tropical garden
+    - photo (place): Rocky coastline with a turquoise beach and cliffs
+    - photo (place): Aerial view of a mountain lake with a forested island
+    - photo (place): Sunlit green forest with tall trees
+- Group **cta** (core) `ce9a6529`, blocks 4
+  - **cta** “Upcoming Events” — 3 text, 0 photos · lorem
+- Group **content** (core) `f0ec2bde`, blocks 5
+  - **content** “Hiking Activities” — 4 text, 2 photos · lorem
+    - photo (person): Hiker standing on a rock overlooking a fjord
+    - photo (person): Skier jumping in the air over snow
+- Group **cta** (core) `7d83313e`, blocks 6
+  - **cta** “Start Your Adventure Today” — 3 text, 1 photos · lorem
+    - photo (place): Empty desert highway stretching to the horizon
+- Group **gallery** (core) `585c20cb`, blocks 7
+  - **gallery** “Trips Gallery” — 2 text, 4 photos · lorem
+    - photo (place): Snowy mountain peak above green valleys
+    - photo (place): Mountain lake reflecting green hills and peaks
+    - photo (place): Eiffel Tower reflected in water at dusk
+    - photo (place): Medieval half-timbered houses and a clock tower on a cobblestone street
+- Group **testimonials** (core) `3361a41b`, blocks 8, 9
+  - **testimonials** “Client’s Reviews” — 1 text, 0 photos
+  - **testimonials** “James Robinson” — 9 text, 3 photos · lorem
+    - photo (person): Smiling Asian man in a suit and tie
+    - photo (person): Smiling young woman with freckles and a scarf outdoors
+    - photo (person): Smiling young man in sunglasses outdoors
+
+### About — `about` → about
+
+- Group **hero** (core) `ce7e721d`, blocks 0
+  - **hero** “About Us” — 1 text, 1 photos
+    - photo (place): Snowy mountain range under a night sky
+- Group **content** (core) `0f28e895`, blocks 1
+  - **content** “Amazing Adventures” — 6 text, 0 photos · lorem
+- Group **content** (core) `bfd01a92`, blocks 2
+  - **content** “Who Are We” — 3 text, 1 photos · lorem
+    - photo (group): Friends hiking and laughing among rocky mountains
+- Group **content** (core) `347e3910`, blocks 3
+  - **content** “Mission and Vision” — 3 text, 2 photos · lorem
+    - photo (place): Starry night sky above a silhouetted treeline
+    - photo (object): Travel flat lay with map, camera, backpack, notebook and guidebooks
+- Group **logos** (needs client_logos) `e31d0a5a`, blocks 4
+  - **logos** “Our Partners” — 1 text, 0 photos
+
+### Destination — `destination` → other
+
+- Group **hero** (core) `9a4faacb`, blocks 0
+  - **hero** “Destination” — 1 text, 0 photos
+- Group **features** (core) `82f1e311`, blocks 1, 2
+  - **content** “Popular Destination” — 1 text, 0 photos
+  - **features** “Atuh Beach” — 8 text, 0 photos
+- Group **features** (core) `68c705e2`, blocks 3
+  - **features** “Swayambhunath” — 8 text, 0 photos
+- Group **content** (core) `a085cfa3`, blocks 4
+  - **content** “Upcoming Events” — 1 text, 0 photos
+- Group **content** (core) `007ce9e8`, blocks 5
+  - **content** “Camping” — 4 text, 0 photos · lorem
+- Group **content** (core) `69036a21`, blocks 6
+  - **content** “Scuba Diving” — 4 text, 0 photos · lorem
+
+### Contact Us — `contact` → contact
+
+- Group **hero** (core) `2bb21131`, blocks 0
+  - **hero** “Contact Us” — 1 text, 0 photos
+- Group **contact** (core) `b196225f`, blocks 1
+  - **contact** “Travel” — 1 text, 0 photos
+
+## Travel Blog (`travel-blog`)
+
+9 sections · 36/36 editable text slots · 853 words · 8/10 swappable images
+
+Fonts: heading **Playfair Display**, body **Poppins** ()
+
+Colors: `#ffffff` background ×10, `#16181a` text ×6, `#e9ecef` background ×6, `#0a0a0a` text ×5, `#e4e4e7` background ×3, `#fafafa` background ×3, `#00305b` accent [locked: accent] ×3, `#3f3f46` text ×2, `#0b365b` accent (+0.022) [locked: accent] ×2, `#000000` text ×1, `#333333` text ×1, `#010a02` text ×1, `#0f0f0f` text ×1, `#fffffc` background ×1, `#027abb` accent (+0.192) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 3
+
+### Home — `home` → home
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “Discover New Worlds with me.” — 2 text, 0 photos
+- Group **content** (core) `top-4`, blocks 4
+  - **content** “My story of travelling through the world” — 4 text, 1 photos · lorem
+    - photo (person): Woman with a camera sitting cross-legged on a longtail boat, arms outstretched
+- Group **posts** (needs blog) `top-6`, blocks 6
+  - **posts** “Recent Blog Post” — 10 text, 3 photos · lorem
+    - photo (place): Frozen icy waterfall and snow-covered rock gorge
+    - photo (place): Thai temple reflected in a calm lake with palm trees
+    - photo (place): Aerial view of a rocky cove with turquoise water and beach
+- Group **content** (core) `top-8`, blocks 8
+  - **content** “Explore A new Place With Me.” — 2 text, 0 photos
+- Group **content** (core) `top-10`, blocks 10
+  - **content** “What Reader Say” — 7 text, 1 photos · lorem
+    - photo (person): Young woman with long wavy hair posing for a portrait at night
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `top-0`, blocks 0
+  - **hero** “My story of travelling through the world” — 4 text, 1 photos · lorem
+    - photo (person): Woman with a camera sitting cross-legged on a longtail boat, arms outstretched
+- Group **content** (core) `top-2`, blocks 2
+  - **content** “World Nature safe Adventure” — 4 text, 1 photos · lorem
+    - photo (person): Woman taking a photo with a camera on a city street
+- Group **content** (core) `top-4`, blocks 4
+  - **content** (untitled) — 1 text, 1 photos · lorem
+    - photo (place): Ancient carved rock temple of Petra seen through a canyon
+
+### Contact — `contact` → contact
+
+- Group **dynamic** (core) `top-0`, blocks 0
+  - **dynamic** “Got A Question?” — 2 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+## Travel V2 (`travel-v2`)
+
+15 sections · 154/157 editable text slots · 1059 words · 39/49 swappable images
+
+Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
+
+Colors: `#3e3e3e` text ×52, `#ffffff` background ×42, `#f28705` primary ×27, `#111111` text ×15, `#f2911c` primary (+0.045) ×15, `#999999` muted ×13, `#000000` text ×8, `#f8f8f8` background ×8, `#dddddd` muted ×6, `#e9ecef` background ×6, `#16181a` text ×4, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#c47617` primary (-0.055) ×3, `#fafafa` background ×2, `#f3b365` primary (+0.19) ×2, `#0284c7` secondary ×2, `#027abb` secondary (-0.024) ×2, `#121212` text ×1, `#d4d4d8` muted ×1, `#2664eb` secondary (+0.141) ×1
+
+Contrast pairs checked after recoloring: 9
+
+### Home — `home` → home
+
+- Group **hero** (core) `6c051b01`, blocks 0
+  - **hero** “Search less, Travel more !” — 3 text, 1 photos
+    - photo (place): Misty mountain range covered in low clouds
+- Group **features** (core) `63c129fb`, blocks 1
+  - **features** “Awesome Treks” — 8 text, 0 photos · lorem
+- Group **features** (core) `6dd3a761`, blocks 2
+  - **features** “Top Destinations” — 21 text, 6 photos · lorem
+- Group **content** (core) `bd7f03c0`, blocks 3
+  - **content** “Activities & Things to do” — 9 text, 6 photos · lorem
+    - photo (group): Young couple kissing outdoors in a tropical forest, woman in a sun hat
+    - photo (group): Two skydivers in tandem freefall above the clouds giving thumbs up
+    - photo (person): Woman with a camera sitting on a longtail boat bow, arms outstretched
+    - photo (object): Dolphins leaping through ocean waves
+    - photo (object): Two zebras standing together in green grass
+    - photo (person): Festival dancer in a colorful feathered costume smiling
+- Group **cta** (core) `a63d1d7e`, blocks 4
+  - **cta** “Martin Buber” — 3 text, 0 photos
+- Group **features** (core) `64b5ee45`, blocks 5
+  - **features** “Travel Stories” — 14 text, 6 photos · lorem
+    - photo (person): Surfer riding inside a large turquoise ocean wave
+    - photo (person): Happy woman in a hat waving beside a vintage car with suitcases
+    - photo (place): Machu Picchu ruins and mountain peak with yellow flowers in front
+    - photo (group): Crowd of people covered in colored powder at a Holi festival
+    - photo (person): Person sitting at the end of a wooden pier on a mountain lake
+    - photo (place): Boat wake on the sea with a coastal town in the distance
+- Group **posts** (needs blog) `20164df6`, blocks 6
+  - **posts** “Travel Blog” — 14 text, 3 photos · lorem
+    - photo (person): Hiker with a backpack sitting on a cliff watching the sunset over mountains
+    - photo (place): Wooden cabin on a mountain lake with forested peaks
+    - photo (person): Hiker with a backpack looking at a volcano across green hills
+
+### Blog — `blog` → blog
+
+
+### Destinations — `destinations` → other
+
+- Group **hero** (core) `6dd3a761`, blocks 0
+  - **hero** “Top Destinations” — 29 text, 9 photos · lorem
+    - photo (person): Backpacker hiking a rocky trail through a mountain valley
+    - photo (place): Sydney Opera House lit up at sunset over the harbor
+    - photo (place): Lone acacia tree on the savanna at sunset
+- Group **cta** (core) `12507d8e`, blocks 1
+  - **cta** “Martin Buber” — 3 text, 0 photos
+- Group **posts** (needs blog) `3352de91`, blocks 2
+  - **posts** “Travel Blog” — 14 text, 3 photos · lorem
+    - photo (person): Hiker with a backpack sitting on a cliff watching the sunset over mountains
+    - photo (place): Wooden cabin on a mountain lake with forested peaks
+    - photo (person): Hiker with a backpack standing on a grassy hill facing a volcano
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `5f1adf5b`, blocks 0
+  - **hero** “Know Who We Are” — 3 text, 0 photos
+- Group **features** (core) `63c129fb`, blocks 1
+  - **features** “Awesome Treks” — 8 text, 0 photos · lorem
+- Group **cta** (core) `0ab6418f`, blocks 2
+  - **cta** “Our Team” — 3 text, 1 photos
+    - photo (place): City skyline with skyscrapers along a river
+- Group **features** (core) `b058b303`, blocks 3
+  - **features** “Client Hessel” — 12 text, 4 photos
+    - photo (person): Close-up portrait of a young woman with long brown hair
+    - photo (person): Smiling bearded man in a dark turtleneck sweater
+    - photo (person): Portrait of a young man with styled hair and a serious look
+    - photo (person): Young woman in a wide-brimmed hat looking at the camera
+
+### Contact Us — `contact-us` → contact
+
+- Group **content** (core) `89ccf7c1`, blocks 0
+  - **content** “Drop us a line” — 10 text, 0 photos · lorem · dynamic: core/shortcode
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-1.png
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-2.png
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-3.png
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-4.png
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-5.png
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-6.png
+- destinations: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-1.png
+- destinations: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-2.png
+- destinations: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-3.png
+- destinations: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-4.png
+- destinations: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-5.png
+- destinations: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-6.png
+
+</details>
+
+## University V2 (`university-v2`) · premium
+
+19 sections · 126/127 editable text slots · 884 words · 27/43 swappable images
+
+Fonts: heading **Open Sans**, body **Open Sans** (Open Sans → body)
+
+Colors: `#ffffff` background ×119, `#fdc800` primary ×83, `#002248` secondary ×61, `#212529` text ×43, `#343a40` text ×32, `#000000` text ×30, `#f8f9fa` background ×15, `#e9ecef` background ×5, `#fafafa` background ×4, `#e4e4e7` background ×3, `#062c56` secondary (+0.039) ×3, `#027abb` secondary (+0.229) ×3, `#3f3f46` text ×2, `#1b1500` text ×1, `#d9d9d9` muted ×1, `#fffffe` background ×1, `#fcc600` primary (-0.002) ×1, `#1e7ba6` secondary (+0.243) ×1
+
+Contrast pairs checked after recoloring: 25
+
+### Home — `home` → home
+
+- Group **hero** (core) `d60967f1`, blocks 0
+  - **hero** “The Education You Want.” — 12 text, 2 photos · lorem
+    - photo (group): Smiling young woman sitting with classmates in a group discussion
+    - photo (place): Large grand library reading room with long tables and readers
+- Group **logos** (needs client_logos) `b3e5ecb6`, blocks 1
+  - **logos** (untitled) — 0 text, 0 photos
+- Group **content** (core) `801c0b69`, blocks 2
+  - **content** “We Provide Excellent Customer Service And Implement” — 13 text, 0 photos
+- Group **dynamic** (needs products) `c0ae3657`, blocks 4
+  - **dynamic** “Our Featured Courses” — 3 text, 0 photos · dynamic: masteriyo/courses
+- Group **content** (core) `ccbabaa2`, blocks 5
+  - **content** “Launching Our Next Online Courses” — 6 text, 2 photos
+    - photo (group): Two young women looking at a laptop together at a desk
+    - photo (group): Four colleagues gathered around a laptop smiling
+- Group **content** (core) `60f4330f`, blocks 6
+  - **content** “Everything You Need to Succeed” — 10 text, 0 photos
+- Group **content** (core) `8f82b63c`, blocks 7
+  - **content** “Watch this video to know more about Zakra University” — 1 text, 1 photos
+    - photo (group): Graduates in gowns throwing their caps in the air
+- Group **posts** (needs blog) `05563b86`, blocks 8
+  - **posts** “Our Latest Blog” — 9 text, 3 photos · lorem
+    - photo (person): Graduate in cap and gown seen from behind on a campus
+    - photo (object): Robotic machine with a circuit board in a lab
+    - photo (group): Four young men standing together in signed white shirts
+- Group **content** (core) `6bf8e01d`, blocks 9
+  - **content** (untitled) — 6 text, 2 photos
+    - photo (person): Laughing young woman with red lipstick and dark wavy hair
+    - photo (person): Portrait of a man with a beard in a dark sweater
+- Group **dynamic** (core) `373c3017`, blocks 10
+  - **dynamic** “Subscribe To Our Newsletter” — 3 text, 0 photos · dynamic: everest-forms/form-selector
+- Group **cta** (core) `2aeae499`, blocks 11
+  - **cta** “Are you interested In becoming an instructor?” — 3 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### About — `about` → about
+
+- Group **hero** (core) `900ffb16`, blocks 0
+  - **hero** “Explore More About Zakra Education” — 6 text, 0 photos
+- Group **stats** (needs stats) `bab14a4a`, blocks 1
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **team** (needs team) `721974cb`, blocks 2
+  - **team** “Explore Zakra Team” — 8 text, 3 photos
+    - photo (person): Smiling man in a navy suit sitting against a brick wall
+    - photo (person): Young woman in a grey top resting her head on her hand
+    - photo (person): Young man in a dark suit and tie buttoning his jacket
+- Group **posts** (needs blog) `a40271e7`, blocks 3
+  - **posts** “Our Featured Blog” — 10 text, 3 photos · lorem
+    - photo (person): Graduate in cap and gown seen from behind on a campus
+    - photo (object): Robotic machine with a circuit board in a lab
+    - photo (group): Four young men standing together in signed white shirts
+- Group **team** (needs team) `c4f328ea`, blocks 4
+  - **team** “You Are Welcome To Join Our Team” — 5 text, 2 photos
+    - photo (person): Graduate in cap and gown seen from behind on a campus
+    - photo (person): Graduate in cap and gown seen from behind on a campus
+
+### Courses — `courses` → services
+
+
+### Our Teachers — `our-teachers` → other
+
+- Group **hero** (core) `77e2f83f`, blocks 0
+  - **hero** “Cortez Liu” — 9 text, 3 photos · lorem
+    - photo (person): Portrait of a bearded man in front of flowering bushes
+    - photo (person): Young woman in a red sweater with her hand near her face
+    - photo (person): Young man in a suit and tie with a skeptical expression
+- Group **content** (core) `8da4e572`, blocks 1
+  - **content** “Brynlee Wright” — 9 text, 3 photos · lorem
+    - photo (person): Young man in a suit and tie posing against a wooden wall
+    - photo (group): Smiling businesswoman in a blue blazer with a colleague in an office
+    - photo (person): Portrait of a bearded man in a plaid shirt against red foliage
+- Group **content** (core) `4a56c958`, blocks 2
+  - **content** “Jase Rodriguez” — 9 text, 3 photos · lorem
+    - photo (person): Smiling man in a navy blazer laughing beside a brick wall
+    - photo (person): Young woman in a red sweater with her hand near her face
+    - photo (person): Portrait of a bearded man in front of flowering bushes
+
+## Webhost V2 (`webhost-v2`) · premium
+
+19 sections · 107/114 editable text slots · 747 words · 18/61 swappable images
+
+Fonts: heading **Lato**, body **Lato** (Lato → body)
+
+Colors: `#ffffff` background ×96, `#222222` text ×26, `#444444` text ×23, `#cf2fa9` primary ×20, `#11023b` secondary ×18, `#4543b0` secondary (+0.357) ×14, `#555555` muted ×9, `#333333` text ×7, `#e94a8a` primary (+0.104) ×7, `#e9ecef` background ×6, `#000000` text ×4, `#fafafa` background ×4, `#8d8d8d` muted ×3, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#c830af` primary (-0.012) ×3, `#2563eb` accent [locked: accent] ×3, `#027abb` accent (-0.163) [locked: accent] ×3, `#a2a0a0` muted ×2, `#0f0f0f` text ×1, `#fff9f9` background ×1, `#16181a` text ×1, `#8647fe` secondary (+0.518) ×1, `#1e7ba6` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 10
+
+### Home — `home` → home
+
+- Group **hero** (core) `c7c29d69`, blocks 0
+  - **hero** “Best And Powerful Hosting Service Provider” — 4 text, 1 photos · lorem
+    - photo (person): Illustration of a person with a cloud server and data icons
+- Group **dynamic** (core) `3b26a996`, blocks 1
+  - **dynamic** (untitled) — 1 text, 0 photos · dynamic: everest-forms/form-selector
+- Group **cta** (core) `adc5205f`, blocks 2
+  - **cta** “What are we all about?” — 4 text, 1 photos · lorem
+    - photo (group): Collage of two women working at desks in an office
+- Group **content** (core) `c7b2caf1`, blocks 3
+  - **content** “Our Services” — 2 text, 0 photos
+- Group **content** (core) `ac47cae1`, blocks 4
+  - **content** “Reseller Hosting” — 9 text, 0 photos · lorem
+- Group **content** (core) `54b4f680`, blocks 5
+  - **content** (untitled) — 0 text, 1 photos
+- Group **testimonials** (core) `4b645060`, blocks 6
+  - **testimonials** “Our Testimonials” — 8 text, 2 photos · lorem
+- Group **pricing** (needs pricing_plans) `a36bd70f`, blocks 7, 8
+  - **pricing** “Our Pricing” — 2 text, 0 photos
+  - **pricing** “BASIC PLAN​” — 21 text, 0 photos
+- Group **stats** (needs stats) `1673658f`, blocks 9
+  - **stats** “Our Achievement” — 6 text, 1 photos
+    - photo (object): Office desk with an iMac showing a chart, plants and coffee
+- Group **content** (core) `66f14692`, blocks 10
+  - **content** “CONNECT US” — 5 text, 1 photos · lorem · dynamic: everest-forms/form-selector
+- Group **logos** (needs client_logos) `072a37e4`, blocks 11
+  - **logos** “Our Partners” — 2 text, 0 photos
+
+### Blog — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `82ca1e4c`, blocks 0
+  - **hero** “What are we all about?” — 3 text, 1 photos · lorem
+- Group **content** (core) `b0f679c4`, blocks 1
+  - **content** “We Are Reputated Company Since 1998” — 2 text, 1 photos · lorem
+- Group **team** (needs team) `fb448586`, blocks 2
+  - **team** “Our Team” — 8 text, 3 photos
+- Group **content** (core) `c5dbbc01`, blocks 3
+  - **content** “Our Achievement” — 6 text, 2 photos
+- Group **gallery** (core) `b7477e1b`, blocks 4
+  - **gallery** “Our Partners” — 2 text, 4 photos
+
+### Services — `services` → services
+
+- Group **hero** (core) `d6eeda54`, blocks 0
+  - **hero** “Reseller Hosting” — 18 text, 0 photos · lorem
+
+### Contact Us — `contact-us` → contact
+
+- Group **content** (core) `caf1da8a`, blocks 0
+  - **content** “Got A Question?” — 4 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10015.png
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10017.png
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10017.png
+- home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/map-bg.png
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10004.png
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/img-history.png
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/team1-1.jpg
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/team-2.jpg
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/team-3.jpg
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10018.jpg
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/child-reaching-solid.png
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10013.png
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10010.png
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10011.png
+- about-us: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10012.png
+- contact-us: unmapped text in blockart/map.address: "United States"
+
+</details>
+
+## Zakra Wedding (`wedding-02`)
+
+24 sections · 82/90 editable text slots · 977 words · 35/45 swappable images
+
+Fonts: heading **Playfair Display**, body **Work Sans** (Playfair Display → heading, Work Sans → body, Seaweed Script → heading)
+
+Colors: `#dba08b` primary ×34, `#42474a` text ×31, `#ffffff` background ×31, `#000000` text ×8, `#f2f2f2` background ×6, `#e9ecef` background ×6, `#3f3f46` text ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#027abb` accent (+0.129) [locked: accent] ×3, `#d4d4d8` muted ×1, `#db8e72` primary (-0.049) ×1, `#073674` accent [locked: accent] ×1, `#2563eb` accent (+0.292) [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 5
+
+### Home — `home` → home
+
+- Group **hero** (core) `4035395d`, blocks 0
+  - **hero** “Jennifer & Micheal” — 2 text, 1 photos
+    - photo (group): Couple holding hands walking on a hilltop at sunset
+- Group **content** (core) `576385b7`, blocks 1
+  - **content** “Groom & Bride” — 2 text, 0 photos
+- Group **content** (core) `32508e0f`, blocks 2
+  - **content** “Micheal Watts” — 4 text, 2 photos
+    - photo (person): Smiling groom in a tuxedo and bow tie outdoors
+    - photo (person): Smiling bride in a strapless gown looking over her shoulder
+- Group **features** (core) `cb52af4f`, blocks 3
+  - **features** “Our Story” — 18 text, 4 photos
+    - photo (group): Bride and groom smiling at each other outdoors
+    - photo (object): Two hands with pinky fingers about to link
+    - photo (group): Silhouette of a man proposing on the beach behind a ring in the sand
+    - photo (group): Bride and groom embracing on a garden path
+- Group **content** (core) `100dcd35`, blocks 4
+  - **content** “When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible” — 2 text, 1 photos
+    - photo (group): Bride and groom standing among trees in a forest
+- Group **posts** (needs blog) `c3468c96`, blocks 5
+  - **posts** “Blog Post” — 10 text, 0 photos
+- Group **gallery** (core) `85c0daed`, blocks 6, 7, 8
+  - **content** “Moments” — 2 text, 0 photos
+  - **gallery** (untitled) — 0 text, 4 photos
+    - photo (group): Bride throwing the bouquet to cheering women at a wedding
+    - photo (group): Wedding guests toasting at a long flower-decorated table
+    - photo (object): Couple cutting a tiered white wedding cake
+    - photo (group): Groom kissing the bride's forehead outdoors
+  - **gallery** (untitled) — 0 text, 4 photos
+    - photo (group): Bride smiling at the groom in a park, groom seen from behind
+    - photo (group): Bride facing the groom in a garden
+    - photo (group): Silhouette of a couple embracing on a hill at sunset
+    - photo (group): Bride and groom standing among trees in a forest
+- Group **content** (core) `5534d414`, blocks 9
+  - **content** “Jeniffer & Micheal” — 2 text, 1 photos
+    - photo (object): Groom placing a wedding ring on the bride's finger
+
+### Contact — `contact` → contact
+
+- Group **hero** (core) `4035395d`, blocks 0
+  - **hero** “Contact Us” — 2 text, 1 photos
+    - photo (group): Bride and groom walking hand in hand through a field at sunset
+- Group **stats** (needs stats) `7f0b9e84`, blocks 1
+  - **stats** “Visit Us” — 4 text, 0 photos
+- Group **content** (core) `7327c678`, blocks 2
+  - **content** “Let's start a conversation” — 2 text, 0 photos
+
+### About — `about` → about
+
+- Group **hero** (core) `4035395d`, blocks 0
+  - **hero** “About Us” — 2 text, 1 photos
+    - photo (object): Couple's hands with wedding rings resting together
+- Group **stats** (needs stats) `40a7fc90`, blocks 1, 2
+  - **content** “Planner for your perfect wedding” — 3 text, 0 photos · lorem
+  - **stats** (untitled) — 4 text, 0 photos
+- Group **features** (core) `e868b846`, blocks 3
+  - **features** “What we do” — 10 text, 4 photos · lorem
+    - photo (group): Bride and groom hugging with groomsmen behind them on a beach
+    - photo (group): Bride and groom hugging and laughing on a beach
+    - photo (group): Bride and groom sitting on the sand under a floral arch
+    - photo (group): Bride and groom embracing under a boho floral arch on the beach
+- Group **content** (core) `c0bb5f20`, blocks 4
+  - **content** “There is no more lovely, friendly, and charming relationship, communion or company than a good marriage.” — 1 text, 1 photos
+    - photo (object): Groom placing a wedding ring on the bride's finger
+- Group **team** (needs team) `f3d8e8a1`, blocks 5
+  - **team** “Our Team” — 9 text, 4 photos
+    - photo (person): Smiling woman in black with arms crossed on a white background
+    - photo (person): Smiling blonde businesswoman in glasses with arms crossed
+    - photo (person): Young man in glasses and a blue suit holding a tablet
+    - photo (person): Man in glasses and a denim shirt with hands clasped
+
+### Blog — `blog` → blog
+
+
+### Gallery — `gallery` → other
+
+- Group **hero** (core) `4035395d`, blocks 0
+  - **hero** “Gallery” — 1 text, 1 photos
+    - photo (group): Newlyweds walking through cheering guests at a wedding
+- Group **content** (core) `40a7fc90`, blocks 1
+  - **content** (untitled) — 2 text, 0 photos · lorem
+- Group **content** (core) `4db55463`, blocks 2
+  - **content** (untitled) — 0 text, 2 photos
+    - photo (group): Bride and groom embracing on a garden path
+    - photo (group): Silhouette of a man proposing on the beach behind a ring in the sand
+- Group **content** (core) `d4327a55`, blocks 3
+  - **content** (untitled) — 0 text, 3 photos
+    - photo (group): Bride facing the groom in a garden
+    - photo (group): Groom kissing the bride's forehead outdoors
+    - photo (group): Bride and groom standing among trees in a forest
+- Group **content** (core) `771301ca`, blocks 4
+  - **content** (untitled) — 0 text, 1 photos
+    - photo (group): Bride and groom walking hand in hand through a field at sunset
+
+## wedding v3 (`wedding-v3`) · premium
+
+13 sections · 117/120 editable text slots · 1070 words · 36/56 swappable images
+
+Fonts: heading **Parisienne**, body **Roboto** (Alice → heading, Roboto → body, Parisienne → heading)
+
+Colors: `#c04983` primary ×75, `#ffffff` background ×59, `#424242` text ×44, `#e9ecef` background ×18, `#000000` text ×17, `#d3d3d3` muted ×12, `#f4f4f4` background ×5, `#3f3f46` text ×4, `#787878` muted ×3, `#c1c1c1` muted ×3, `#f8f8f8` background ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#a5a5a5` muted ×2, `#027abb` accent [locked: accent] ×2, `#ffecf5` background ×1, `#d4d4d8` muted ×1, `#bf427f` primary (-0.016) ×1
+
+Contrast pairs checked after recoloring: 6
+
+### Home — `home` → home
+
+- Group **hero** (core) `f947b69f`, blocks 0
+  - **hero** “WEDDING PLANNER” — 9 text, 3 photos · lorem
+    - photo (group): Bride and groom standing together in a field
+    - photo (group): Bride and groom holding colored smoke bombs by the sea
+    - photo (group): Bride and groom posing outdoors among trees
+- Group **content** (core) `a36f0b8b`, blocks 1
+  - **content** “About” — 6 text, 2 photos · lorem
+    - photo (object): Single orange tulip flower cut-out
+    - photo (group): Bride with flower crown and groom posing with a bouquet
+- Group **content** (core) `ac6c0a65`, blocks 2
+  - **content** “What We” — 10 text, 1 photos · lorem
+    - photo (group): Bride and groom walking in St. Peter's Square, Vatican
+- Group **content** (core) `4e7c0172`, blocks 3
+  - **content** “Featured” — 13 text, 5 photos · lorem
+    - photo (group): Groom and veiled bride holding a white bouquet together
+    - photo (object): Couple's hands with wedding rings on a bridal bouquet
+    - photo (group): Newlyweds exiting celebrating under thrown petals with guests
+    - photo (group): Bride and groom lying on a spread wedding dress with autumn leaves
+    - photo (group): Wedding guests raising champagne glasses at a reception
+- Group **testimonials** (core) `f3a74a0b`, blocks 4
+  - **testimonials** “Read Reviews From” — 12 text, 4 photos · lorem
+    - photo (group): Bride and groom at an outdoor wedding with red balloons and guests
+    - photo (group): Groom in a blue suit embracing the bride holding a bouquet
+    - photo (group): Bride and groom kissing in front of an ivy-covered house
+    - photo (group): Groom carrying the bride on a beach
+- Group **pricing** (needs pricing_plans) `feadba80`, blocks 5
+  - **pricing** “Our Event” — 24 text, 3 photos · lorem
+    - photo (object): White flower arrangement on a wooden stand at a beach wedding
+    - photo (object): White flower arrangement on a wooden stand at a beach wedding
+    - photo (object): White flower arrangement on a wooden stand at a beach wedding
+- Group **dynamic** (core) `9450f5f9`, blocks 6
+  - **dynamic** “We Make Your Each Moments Memorable” — 2 text, 1 photos · lorem · dynamic: everest-forms/form-selector
+    - photo (group): Bride and groom touching foreheads under trees
+
+### Blog — `blog` → blog
+
+
+### About Us — `about-us` → about
+
+- Group **hero** (core) `0ff13614`, blocks 0
+  - **hero** “Looking For Perfection?” — 3 text, 0 photos · lorem
+- Group **content** (core) `f106f606`, blocks 1
+  - **content** “Our History” — 6 text, 3 photos · lorem
+    - photo (group): Bride and groom walking through falling petals with guests
+    - photo (person): Red-haired bride wearing a tiara posing
+    - photo (group): Groom holding the hand of a bride seated by a window
+- Group **cta** (core) `b1de5bd6`, blocks 2
+  - **cta** “The Most Creative And Professional Wedding Planner Around the World” — 3 text, 1 photos · lorem
+    - photo (person): Bride sitting in a flower-covered swing in a forest
+- Group **team** (needs team) `2580fc6c`, blocks 3
+  - **team** “Our” — 11 text, 4 photos · lorem
+    - photo (person): Woman in a light blue blazer pointing at the camera
+    - photo (person): Smiling blonde woman holding an orange folder
+    - photo (person): Smiling young woman with a backpack against a yellow wall
+    - photo (person): Smiling woman in a black top with arms crossed
+
+### Services — `services` → services
+
+- Group **hero** (core) `8ba45cd6`, blocks 0
+  - **hero** “Photography” — 18 text, 0 photos · lorem
+
+### Gallery — `gallery` → other
+
+- Group **hero** (core) `52e07737`, blocks 0
+  - **hero** (untitled) — 0 text, 9 photos
+    - photo (place): Wedding reception tables set with flowers and white chair covers
+    - photo (group): Bride and groom lying on a spread wedding dress with autumn leaves
+    - photo (group): Newlyweds exiting celebrating under thrown petals with guests
+    - photo (object): Couple's hands with wedding rings on a bridal bouquet
+    - photo (person): Red-haired bride wearing a tiara posing
+    - photo (group): Groom holding the hand of a bride seated by a window
+    - photo (group): Wedding guests raising champagne glasses at a reception
+    - photo (group): Groom and veiled bride holding a white bouquet together
+    - photo (group): Bride and groom walking through falling petals with guests
+
+## Writer v2 (`writer-v2`) · premium
+
+10 sections · 77/80 editable text slots · 588 words · 6/36 swappable images
+
+Fonts: heading **Caudex**, body **Roboto** (Caudex → heading, Roboto → body)
+
+Colors: `#586e5e` muted ×49, `#d14031` primary ×35, `#495057` muted ×25, `#ffffff` background ×24, `#000000` text ×19, `#e9ecef` background ×5, `#eef1ef` background ×4, `#829387` muted ×4, `#5f5e5e` muted ×4, `#666666` muted ×3, `#e4e4e7` background ×3, `#fafafa` background ×3, `#3f3f46` text ×2, `#2664eb` secondary ×2, `#2563eb` secondary (-0.002) ×2, `#027abb` secondary (-0.165) ×2, `#dd9933` accent [locked: accent] ×1
+
+Contrast pairs checked after recoloring: 4
+
+### Sample Page — `sample-page-2` → other
+
+
+### Home — `home` → home
+
+- Group **hero** (core) `9b3ca0cb`, blocks 0
+  - **hero** “James” — 5 text, 1 photos · lorem
+    - photo (object): Hardcover book mockup titled Zakra Tour to Cliffs of Moher
+- Group **features** (core) `b4cf9d24`, blocks 1
+  - **features** “Free Shipping” — 6 text, 0 photos · lorem
+- Group **features** (core) `25c79bb1`, blocks 2
+  - **features** “EXPLORE US” — 19 text, 0 photos · lorem
+- Group **features** (core) `be0d5a7a`, blocks 3
+  - **features** “EXPLORE US” — 5 text, 1 photos · lorem
+    - photo (person): Smiling man in a blue t-shirt with arms crossed
+- Group **testimonials** (core) `44776de6`, blocks 4
+  - **testimonials** “EXPLORE US” — 9 text, 1 photos · lorem
+    - photo (object): Smartphone mockups showing a reading app
+- Group **pricing** (needs pricing_plans) `c6abb510`, blocks 5
+  - **pricing** “EXPLORE US” — 11 text, 0 photos
+- Group **testimonials** (core) `e111ad67`, blocks 6
+  - **testimonials** “EXPLORE US” — 9 text, 0 photos · lorem
+- Group **dynamic** (needs products) `4e362290`, blocks 7
+  - **dynamic** “EXPLORE US” — 2 text, 0 photos · dynamic: woocommerce/all-products
+- Group **features** (core) `bd3aaf15`, blocks 8
+  - **features** “EXPLORE US” — 8 text, 3 photos · lorem
+    - photo (person): Person reading magazines on a bed surrounded by books
+    - photo (place): Living room with tall bookshelves and a person browsing
+    - photo (object): Stack of business books on a table
+
+### Blog — `blog` → blog
+
+
+### Shop — `shop` → other
+
+
+### Cart — `cart` → other
+
+- Group **dynamic** (needs products) `top-0`, blocks 0
+  - **dynamic** “You may be interested in…” — 3 text, 0 photos · dynamic: woocommerce/cart, woocommerce/filled-cart-block, woocommerce/cart-items-block, woocommerce/cart-line-items-block, woocommerce/cart-cross-sells-block, woocommerce/cart-cross-sells-products-block, woocommerce/cart-totals-block, woocommerce/cart-order-summary-block, woocommerce/cart-order-summary-heading-block, woocommerce/cart-order-summary-coupon-form-block, woocommerce/cart-order-summary-subtotal-block, woocommerce/cart-order-summary-fee-block, woocommerce/cart-order-summary-discount-block, woocommerce/cart-order-summary-shipping-block, woocommerce/cart-order-summary-taxes-block, woocommerce/cart-express-payment-block, woocommerce/proceed-to-checkout-block, woocommerce/cart-accepted-payment-methods-block, woocommerce/empty-cart-block, woocommerce/product-new
+
 ## Yoga 02 (`yoga-02`)
 
 10 sections · 72/74 editable text slots · 496 words · 15/20 swappable images
@@ -538,14 +5814,23 @@ Contrast pairs checked after recoloring: 5
 
 - Group **hero** (core) `443b0514`, blocks 0
   - **hero** “Flexibility & Yoga” — 3 text, 1 photos
+    - photo (person): Woman in a yoga tree pose on a beach
 - Group **content** (core) `ff7afb81`, blocks 1
   - **content** “Welcome to Yoga Studio” — 8 text, 1 photos
+    - photo (person): Person in a yoga pose with legs raised by the sea
 - Group **features** (core) `ede847f5`, blocks 2
   - **features** “Our Packages” — 11 text, 3 photos
+    - photo (person): Woman stretching on a yoga mat in a bright studio
+    - photo (group): Two women talking on yoga mats in a studio
+    - photo (group): Women doing a kneeling leg lift in a yoga class
 - Group **cta** (core) `3a551ba2`, blocks 3
   - **cta** “Small progress is also a progress” — 3 text, 1 photos
+    - photo (person): Woman in a yoga tree pose on a beach
 - Group **features** (core) `91ef4078`, blocks 4
   - **features** “Our Lessons” — 14 text, 3 photos
+    - photo (person): Woman meditating by a lake
+    - photo (person): Woman in a yoga tree pose overlooking a forest
+    - photo (group): People meditating with hands in prayer in a class
 - Group **dynamic** (core) `304585cb`, blocks 5, 6
   - **content** “Yoga Studio are doing some great work. I met the Studio in February and by the September I had already lost 20 pounds.” — 3 text, 0 photos
   - **dynamic** “Don’t get missed out.​” — 2 text, 0 photos · dynamic: core/shortcode
@@ -557,8 +5842,14 @@ Contrast pairs checked after recoloring: 5
 
 - Group **hero** (core) `8ea4beb2`, blocks 0
   - **hero** “Find Your Best Fit” — 11 text, 3 photos
+    - photo (person): Woman stretching on a yoga mat in a bright studio
+    - photo (group): Two women talking on yoga mats in a studio
+    - photo (group): Women doing a kneeling leg lift in a yoga class
 
 ### Lessons — `lessons` → services
 
 - Group **hero** (core) `91ef4078`, blocks 0
   - **hero** “Our Lessons” — 14 text, 3 photos
+    - photo (person): Woman meditating by a lake
+    - photo (person): Woman in a yoga tree pose overlooking a forest
+    - photo (group): People meditating with hands in prayer in a class

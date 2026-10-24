@@ -13,7 +13,18 @@ export type GenerateRequest = {
 	tone: AiTone;
 	language: string;
 	pages: AiPageSlug[];
+	// Set once the user picked a design: build from it, reusing the brief read
+	// for the designs list.
+	demoSlug?: string;
+	briefId?: string;
 };
+
+// How close a design is to the business, for grouping the designs list.
+export type DesignMatch = 'best' | 'related' | 'other';
+
+export type DesignOption = DemoSummary & { demoUrl: string; premium: boolean; match: DesignMatch };
+
+export type DesignsResponse = { briefId: string; designs: DesignOption[] };
 
 export type DemoSummary = {
 	slug: string;
@@ -41,6 +52,9 @@ export type ImageSlot = {
 	alt: string;
 	credit: string;
 	alternatives: string[];
+	// Background photos brighter or darker than the demo's: photo URL => overlay
+	// color the importer adds so the demo's text stays readable.
+	overlays?: Record<string, string>;
 };
 
 export type SlotValue = string | ImageSlot;

@@ -1,0 +1,1870 @@
+{
+	"version": 4,
+	"slug": "education-02",
+	"name": "Education 02",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-education-02/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/education-02",
+	"niches": [
+		"education",
+		"university"
+	],
+	"keywords": [
+		"university",
+		"college",
+		"school",
+		"education",
+		"campus",
+		"courses"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"learning-management-system/lms.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 56,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 35,
+					"border": 8,
+					"background": 3,
+					"icon": 4
+				}
+			},
+			{
+				"hex": "#5c666f",
+				"count": 27,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 14,
+					"icon": 5
+				}
+			},
+			{
+				"hex": "#212529",
+				"count": 14,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 13
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 13,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 7
+				}
+			},
+			{
+				"hex": "#73abe6",
+				"count": 11,
+				"group": "brand",
+				"role": "primary",
+				"base": "#73aae6",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 2,
+					"border": 4
+				}
+			},
+			{
+				"hex": "#73aae6",
+				"count": 7,
+				"group": "brand",
+				"role": "primary",
+				"base": "#73aae6",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#0b0b0b",
+				"count": 4,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 2,
+					"border": 2
+				}
+			},
+			{
+				"hex": "#f8fbfd",
+				"count": 4,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#59abff",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#73aae6",
+				"lightnessDelta": -0.002,
+				"usage": {
+					"background": 2,
+					"border": 2
+				}
+			},
+			{
+				"hex": "#6698cc",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#73aae6",
+				"lightnessDelta": -0.076,
+				"usage": {
+					"background": 2,
+					"border": 2
+				}
+			},
+			{
+				"hex": "#027abb",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#73aae6",
+				"lightnessDelta": -0.306
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#262626",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#716e6e",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#303030",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#73aae6",
+				"lightnessDelta": -0.292
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#73abe6",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#73abe6",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#59abff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#6698cc",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#73abe6",
+				"bg": "#fcfcfc",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Raleway",
+			"body": "Lato",
+			"map": {
+				"Raleway": "heading",
+				"Roboto": "body",
+				"Karla": "body",
+				"Lato": "body",
+				"Open Sans": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "f459d212",
+					"index": 0,
+					"path": "0",
+					"group": "f459d212",
+					"role": "hero",
+					"title": "Build your career at UNIGLO",
+					"slots": [
+						{
+							"id": "febe34a2:text",
+							"blockId": "febe34a2",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Build your career at UNIGLO",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8a924b30:text",
+							"blockId": "8a924b30",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Explore why people are liking UNIGLO and what it provides and join us. UNIGLO is not just a university it is a home for the students. We provide the best education with the extra curricular activities.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4fde4e1e:text",
+							"blockId": "4fde4e1e",
+							"path": "0.0.0.0.2.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "explore",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d449fe8f:text",
+							"blockId": "d449fe8f",
+							"path": "0.0.0.0.2.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "enroll",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f459d212:background.image.image.url",
+							"blockId": "f459d212",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/students.jpg",
+							"decorative": false,
+							"width": 1349,
+							"height": 838,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Group of diverse young friends sitting together smiling",
+							"tone": {
+								"grid": [
+									0.82,
+									0.93,
+									0.94,
+									0.47,
+									0.64,
+									0.46,
+									0.43,
+									0.4,
+									0.39
+								],
+								"color": "#9d9aa4"
+							}
+						}
+					]
+				},
+				{
+					"id": "b99a55f7",
+					"index": 1,
+					"path": "1",
+					"group": "b99a55f7",
+					"role": "cta",
+					"title": "Find the right path for you",
+					"slots": [
+						{
+							"id": "d850f737:text",
+							"blockId": "d850f737",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Find the right path for you",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ce599fae:text",
+							"blockId": "ce599fae",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At UNIGLO, we offer learning paths for every stage of your journey. Start strong with our undergraduate programs, deepen your expertise through postgraduate studies, or keep growing with flexible continuing education courses. Current students enjoy dedicated support, expert faculty, and modern facilities, which is why we're ranked among the top universities for teaching quality.",
+							"rich": false,
+							"words": 54,
+							"minWords": 32,
+							"maxWords": 68,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "baa9d55b:text",
+							"blockId": "baa9d55b",
+							"path": "1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view more",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "93e1058a:image.url",
+							"blockId": "93e1058a",
+							"path": "1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/10001.jpg",
+							"decorative": true,
+							"width": 398,
+							"height": 400,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "1eb40b94",
+					"index": 2,
+					"path": "2",
+					"group": "1eb40b94",
+					"role": "content",
+					"title": "Expert Instructors",
+					"slots": [
+						{
+							"id": "a4d75b1e:text",
+							"blockId": "a4d75b1e",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Expert Instructors",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3662becb:text",
+							"blockId": "3662becb",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Learn from experienced professionals with real-world industry knowledge and practical expertise.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b0897571:text",
+							"blockId": "b0897571",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Practical Learning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "00e4d5ef:text",
+							"blockId": "00e4d5ef",
+							"path": "2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Gain valuable skills through hands-on learning, practical projects, and industry-focused training.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba01a22b:text",
+							"blockId": "ba01a22b",
+							"path": "2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Career Opportunities",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8e205f23:text",
+							"blockId": "8e205f23",
+							"path": "2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Build the knowledge and confidence you need to advance your career and achieve your goals.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "8e43588a:image.url",
+							"blockId": "8e43588a",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155617.png",
+							"decorative": true,
+							"width": 312,
+							"height": 314,
+							"orientation": "square"
+						},
+						{
+							"id": "83637831:image.url",
+							"blockId": "83637831",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-26-032329.png",
+							"decorative": true,
+							"width": 85,
+							"height": 85,
+							"orientation": "square"
+						},
+						{
+							"id": "d5b8d4f1:image.url",
+							"blockId": "d5b8d4f1",
+							"path": "2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-26-032457.png",
+							"decorative": true,
+							"width": 160,
+							"height": 159,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "c137d990",
+					"index": 3,
+					"path": "3",
+					"group": "c137d990",
+					"role": "dynamic",
+					"title": "Top ranked university for teaching",
+					"slots": [
+						{
+							"id": "fa51a524:text",
+							"blockId": "fa51a524",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Top ranked university for teaching",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2fe5b3f8:text",
+							"blockId": "2fe5b3f8",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Explore programs designed by industry experts and taught by passionate educators. Whether you're starting out or advancing your career, UNIGLO offers flexible courses that build practical skills for the future.",
+							"rich": false,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f355868b-bcca-4a5a-8f03-b4277f09ef0f:text",
+							"blockId": "f355868b-bcca-4a5a-8f03-b4277f09ef0f",
+							"path": "3.2.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW ALL COURSES",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"masteriyo/courses"
+					]
+				},
+				{
+					"id": "416c8544",
+					"index": 4,
+					"path": "4",
+					"group": "416c8544",
+					"role": "dynamic",
+					"title": "Join our popular online course today!",
+					"slots": [
+						{
+							"id": "593c5352:text",
+							"blockId": "593c5352",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Join our popular online course today!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f616a263:text",
+							"blockId": "f616a263",
+							"path": "4.0.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Join our popular online course today!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "977deb59:text",
+							"blockId": "977deb59",
+							"path": "4.0.0.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Join our popular online course today!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "163ab278:text",
+							"blockId": "163ab278",
+							"path": "4.0.0.0.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Join our popular online course today!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1bc0c6b0:text",
+							"blockId": "1bc0c6b0",
+							"path": "4.0.0.0.4.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Join our popular online course today!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bd1f26e6:text",
+							"blockId": "bd1f26e6",
+							"path": "4.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Register Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "d0a43f28",
+					"index": 5,
+					"path": "5",
+					"group": "d0a43f28",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "329fcaae:text",
+							"blockId": "329fcaae",
+							"path": "5.0.0.0.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Graduated Students",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "419b84ff:text",
+							"blockId": "419b84ff",
+							"path": "5.0.0.1.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Awards & Recognition",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5314f012:text",
+							"blockId": "5314f012",
+							"path": "5.0.0.2.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Professional Teachers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cdc7ee2f:text",
+							"blockId": "cdc7ee2f",
+							"path": "5.0.0.3.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Project Research",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "d0a43f28:background.image.image.url",
+							"blockId": "d0a43f28",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/10008.jpg",
+							"decorative": false,
+							"width": 2448,
+							"height": 1376,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "University campus plaza with students and brick buildings",
+							"tone": {
+								"grid": [
+									0.49,
+									0.48,
+									0.45,
+									0.46,
+									0.33,
+									0.27,
+									0.5,
+									0.55,
+									0.47
+								],
+								"color": "#777073"
+							}
+						}
+					]
+				},
+				{
+					"id": "d39fd1c9",
+					"index": 6,
+					"path": "6",
+					"group": "d39fd1c9",
+					"role": "content",
+					"slots": [
+						{
+							"id": "92383c41:text",
+							"blockId": "92383c41",
+							"path": "6.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\" From my very first day, UNIGLO felt like home. The faculty were always ready to help, the classes were engaging and practical, and the campus life was unforgettable. Today I'm working in my dream job, and I owe a big part of that to UNIGLO.\"",
+							"rich": false,
+							"words": 45,
+							"minWords": 27,
+							"maxWords": 57,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bf80eef5:text",
+							"blockId": "bf80eef5",
+							"path": "6.1.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Annie Franklin",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b14ac432:text",
+							"blockId": "b14ac432",
+							"path": "6.1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Student",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "28adc490:background.image.image.url",
+							"blockId": "28adc490",
+							"path": "6.0.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/10009.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1280,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Three female graduates in caps and gowns",
+							"tone": {
+								"grid": [
+									0.52,
+									0.59,
+									0.69,
+									0.66,
+									0.28,
+									0.61,
+									0.67,
+									0.19,
+									0.44
+								],
+								"color": "#938080"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "f459d212",
+					"role": "hero",
+					"title": "Build your career at UNIGLO",
+					"sectionIds": [
+						"f459d212"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b99a55f7",
+					"role": "cta",
+					"title": "Find the right path for you",
+					"sectionIds": [
+						"b99a55f7"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1eb40b94",
+					"role": "content",
+					"title": "Expert Instructors",
+					"sectionIds": [
+						"1eb40b94"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c137d990",
+					"role": "dynamic",
+					"title": "Top ranked university for teaching",
+					"sectionIds": [
+						"c137d990"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "416c8544",
+					"role": "dynamic",
+					"title": "Join our popular online course today!",
+					"sectionIds": [
+						"416c8544"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d0a43f28",
+					"role": "stats",
+					"sectionIds": [
+						"d0a43f28"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "d39fd1c9",
+					"role": "content",
+					"sectionIds": [
+						"d39fd1c9"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "25a80688",
+					"index": 0,
+					"path": "0",
+					"group": "25a80688",
+					"role": "hero",
+					"title": "Our Story",
+					"slots": [
+						{
+							"id": "b458185b:text",
+							"blockId": "b458185b",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Story",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb212093:text",
+							"blockId": "fb212093",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Founded with a simple belief that education should change lives, UNIGLO has grown into a vibrant learning community welcoming students from around the world.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ea0c5273:text",
+							"blockId": "ea0c5273",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Our programs blend strong academic foundations with hands-on experience. Students learn from dedicated faculty, work on real projects, and gain the practical skills employers value. From the first lecture to graduation day, we support every learner with mentoring, career guidance, and a campus that feels like home.",
+							"rich": false,
+							"words": 47,
+							"minWords": 28,
+							"maxWords": 59,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e9ebafcb:text",
+							"blockId": "e9ebafcb",
+							"path": "0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Today, thousands of graduates carry the UNIGLO spirit into careers across business, technology, design, science, and beyond. We're proud of where we've come from and excited about where our students are going next.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "53588721:background.image.image.url",
+							"blockId": "53588721",
+							"path": "0.0.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/10008.jpg",
+							"decorative": false,
+							"width": 2448,
+							"height": 1376,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "University campus plaza with students and brick buildings",
+							"tone": {
+								"grid": [
+									0.49,
+									0.48,
+									0.45,
+									0.46,
+									0.33,
+									0.27,
+									0.5,
+									0.55,
+									0.47
+								],
+								"color": "#777073"
+							}
+						}
+					]
+				},
+				{
+					"id": "9d9ec3b4",
+					"index": 1,
+					"path": "1",
+					"group": "9d9ec3b4",
+					"role": "content",
+					"title": "Qualified Lecturers",
+					"slots": [
+						{
+							"id": "a18e86b2:text",
+							"blockId": "a18e86b2",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Qualified Lecturers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b0a12a0d:text",
+							"blockId": "b0a12a0d",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Learn from experienced educators and industry experts who bring real-world knowledge into every class.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1fe85197:text",
+							"blockId": "1fe85197",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Best Results",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "100350ef:text",
+							"blockId": "100350ef",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Our students achieve outstanding academic results, with high graduation rates and strong career outcomes.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b4fe72b:text",
+							"blockId": "7b4fe72b",
+							"path": "1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Scholarship Program",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6867dd9b:text",
+							"blockId": "6867dd9b",
+							"path": "1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Merit and need-based scholarships help talented students access quality education and reach their goals.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "24340e58:image.url",
+							"blockId": "24340e58",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155617.png",
+							"decorative": true,
+							"width": 312,
+							"height": 314,
+							"orientation": "square"
+						},
+						{
+							"id": "411044dc:image.url",
+							"blockId": "411044dc",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155733.png",
+							"decorative": true,
+							"width": 309,
+							"height": 311,
+							"orientation": "square"
+						},
+						{
+							"id": "395c006f:image.url",
+							"blockId": "395c006f",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155843.png",
+							"decorative": true,
+							"width": 311,
+							"height": 310,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "ae813d27",
+					"index": 2,
+					"path": "2",
+					"group": "ae813d27",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "643a3fbd:text",
+							"blockId": "643a3fbd",
+							"path": "2.0.0.0.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Graduated Students",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "86b0cd1e:text",
+							"blockId": "86b0cd1e",
+							"path": "2.0.0.1.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Awards & Recognition",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3e1366a:text",
+							"blockId": "d3e1366a",
+							"path": "2.0.0.2.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Professional Teachers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6d5e6e19:text",
+							"blockId": "6d5e6e19",
+							"path": "2.0.0.3.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Project Research",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ae813d27:background.image.image.url",
+							"blockId": "ae813d27",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/10008.jpg",
+							"decorative": false,
+							"width": 2448,
+							"height": 1376,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "University campus plaza with students and brick buildings",
+							"tone": {
+								"grid": [
+									0.49,
+									0.48,
+									0.45,
+									0.46,
+									0.33,
+									0.27,
+									0.5,
+									0.55,
+									0.47
+								],
+								"color": "#777073"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "25a80688",
+					"role": "hero",
+					"title": "Our Story",
+					"sectionIds": [
+						"25a80688"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9d9ec3b4",
+					"role": "content",
+					"title": "Qualified Lecturers",
+					"sectionIds": [
+						"9d9ec3b4"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ae813d27",
+					"role": "stats",
+					"sectionIds": [
+						"ae813d27"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "courses",
+			"title": "Courses",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/themegrill-demos/courses-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "career",
+			"title": "Career",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/themegrill-demos/career-content.xml",
+			"sections": [
+				{
+					"id": "5c792c15",
+					"index": 0,
+					"path": "0",
+					"group": "5c792c15",
+					"role": "hero",
+					"title": "We are hiring.",
+					"slots": [
+						{
+							"id": "cb779c89:text",
+							"blockId": "cb779c89",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We are hiring.",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6608cb42:text",
+							"blockId": "6608cb42",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Join a passionate team that's shaping the future of education. At UNIGLO, we value creativity, collaboration, and a shared commitment to student success.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "44273589:text",
+							"blockId": "44273589",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We offer a supportive work environment, competitive benefits, and continuous professional development. If you love learning and want to make a real difference in students' lives, explore our open positions below.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7b1c7ce5:background.image.image.url",
+							"blockId": "7b1c7ce5",
+							"path": "0.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/10001-1-scaled-1.jpg",
+							"decorative": false,
+							"width": 2560,
+							"height": 1707,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Business team gathered around a conference table",
+							"tone": {
+								"grid": [
+									0.72,
+									0.69,
+									0.47,
+									0.72,
+									0.51,
+									0.44,
+									0.51,
+									0.36,
+									0.15
+								],
+								"color": "#7f8284"
+							}
+						}
+					]
+				},
+				{
+					"id": "7f1f3cc7",
+					"index": 1,
+					"path": "1",
+					"group": "7f1f3cc7",
+					"role": "content",
+					"title": "Lecturer",
+					"slots": [
+						{
+							"id": "d2bd1c9f:text",
+							"blockId": "d2bd1c9f",
+							"path": "1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lecturer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2ad3a31f:text",
+							"blockId": "2ad3a31f",
+							"path": "1.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We're looking for an enthusiastic lecturer to deliver engaging classes and guide students toward academic success.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5dd15430:text",
+							"blockId": "5dd15430",
+							"path": "1.1.0.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Master's or PhD degree in a relevant field.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9dc99269:text",
+							"blockId": "9dc99269",
+							"path": "1.1.0.0.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At least 2 years of teaching or industry experience.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a565227c:text",
+							"blockId": "a565227c",
+							"path": "1.1.0.0.4.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Strong communication and mentoring skills.",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f3d75983:text",
+							"blockId": "f3d75983",
+							"path": "1.1.0.0.5.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "apply now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e2d99106:background.image.image.url",
+							"blockId": "e2d99106",
+							"path": "1.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/10002-1.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 500,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Professor teaching in front of a chalkboard with equations",
+							"tone": {
+								"grid": [
+									0.28,
+									0.35,
+									0.27,
+									0.28,
+									0.35,
+									0.23,
+									0.25,
+									0.19,
+									0.12
+								],
+								"color": "#43423a"
+							}
+						}
+					]
+				},
+				{
+					"id": "7f677626",
+					"index": 2,
+					"path": "2",
+					"group": "7f677626",
+					"role": "content",
+					"title": "Accountant",
+					"slots": [
+						{
+							"id": "22651341:text",
+							"blockId": "22651341",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Accountant",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0d21c94a:text",
+							"blockId": "0d21c94a",
+							"path": "2.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We're seeking a detail-oriented accountant to manage university finances, student fee records, and financial reporting.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7f37429d:text",
+							"blockId": "7f37429d",
+							"path": "2.0.0.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Degree in Accounting, Finance, or a related field.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e7e3ac4c:text",
+							"blockId": "e7e3ac4c",
+							"path": "2.0.0.0.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Experience with accounting software and financial reporting.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af1982e8:text",
+							"blockId": "af1982e8",
+							"path": "2.0.0.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "apply now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1255a81f:background.image.image.url",
+							"blockId": "1255a81f",
+							"path": "2.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/10003-1.jpg",
+							"decorative": false,
+							"width": 1003,
+							"height": 838,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Hand using a calculator over invoices and bills",
+							"tone": {
+								"grid": [
+									0.34,
+									0.54,
+									0.79,
+									0.32,
+									0.5,
+									0.86,
+									0.26,
+									0.34,
+									0.51
+								],
+								"color": "#857d75"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "5c792c15",
+					"role": "hero",
+					"title": "We are hiring.",
+					"sectionIds": [
+						"5c792c15"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7f1f3cc7",
+					"role": "content",
+					"title": "Lecturer",
+					"sectionIds": [
+						"7f1f3cc7"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7f677626",
+					"role": "content",
+					"title": "Accountant",
+					"sectionIds": [
+						"7f677626"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 13,
+		"textSlots": 57,
+		"editableSlots": 57,
+		"images": 15,
+		"swappableImages": 8,
+		"words": 567
+	},
+	"builtAt": "2026-10-24T11:35:08.047Z"
+}

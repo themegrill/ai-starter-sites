@@ -9,6 +9,7 @@ import { languageName } from './language';
 export type Brief = {
 	businessType: string; // e.g. "family bakery"
 	niche: string; // One of the catalog niches, or "other".
+	relatedNiches: string[]; // Neighbouring catalog niches, closest first; drive the designs list.
 	summary: string; // One sentence about the business, in English.
 	audience: string;
 	location: string | null;
@@ -37,7 +38,10 @@ const schema = () => ({
 	type: 'object',
 	properties: {
 		businessType: { type: 'string', description: 'Short noun phrase, e.g. "family bakery".' },
-		niche: { type: 'string', enum: [...catalogNiches(), 'other'] },
+		// Allowed niches are listed in the prompt and checked in code: Groq rejects the
+		// whole reply when one array item misses an enum, which short prompts trigger.
+		niche: { type: 'string' },
+		relatedNiches: { type: 'array', items: { type: 'string' } },
 		summary: { type: 'string' },
 		audience: { type: 'string' },
 		location: { type: ['string', 'null'] },
@@ -53,13 +57,14 @@ const schema = () => ({
 			additionalProperties: false,
 		},
 	},
-	required: ['businessType', 'niche', 'summary', 'audience', 'location', 'offerings', 'tagline', 'imageKeywords', 'capabilities'],
+	required: ['businessType', 'niche', 'relatedNiches', 'summary', 'audience', 'location', 'offerings', 'tagline', 'imageKeywords', 'capabilities'],
 	additionalProperties: false,
 });
 
 const SYSTEM = `You analyse a short description of a business or project for a website builder.
 Extract only what the description states or clearly implies. Never invent names, prices, awards or statistics.
-- niche: the closest value from the allowed list; "other" only if nothing fits.
+- niche: the closest value from the allowed niches below; "other" only if nothing fits.
+- relatedNiches: 3-6 other allowed niches of neighbouring businesses whose website designs would also suit this one, closest first (a bakery: cafe, coffee, restaurant, food, farming).
 - summary: one plain sentence in English.
 - audience: who the site is for, a few words.
 - location: city/region/country if mentioned, else null.
@@ -78,6 +83,7 @@ export const parseBrief = async (request: GenerateRequest, signal?: AbortSignal)
 			request.niche !== 'auto' ? `The user selected the niche: ${request.niche}` : '',
 			`Tone: ${request.tone}`,
 			`Site language: ${languageName(request.language)}`,
+			`Allowed niches: ${catalogNiches().join(', ')}`,
 		]
 			.filter(Boolean)
 			.join('\n'),
@@ -87,10 +93,18 @@ export const parseBrief = async (request: GenerateRequest, signal?: AbortSignal)
 		signal,
 	});
 
+	const known = new Set(catalogNiches());
+	const normalize = (n: string) => n.trim().toLowerCase().replace(/\s+/g, '-');
+	const niche = normalize(data.niche ?? '');
+
 	return {
 		brief: {
 			...data,
 			offerings: data.offerings.slice(0, 6),
+			niche: known.has(niche) ? niche : 'other',
+			relatedNiches: [...new Set((data.relatedNiches ?? []).map(normalize))]
+				.filter((n) => known.has(n) && n !== niche)
+				.slice(0, 6),
 			imageKeywords: data.imageKeywords.slice(0, 6),
 			location: data.location?.trim() || null,
 			capabilities: data.capabilities ?? {},

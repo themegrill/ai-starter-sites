@@ -1,10 +1,12 @@
 // Real pipeline: Groq for the brief and copy, demo manifests for structure.
 import { ApiError } from '../errors';
-import { runGeneration, runRegenerateSection, runSwitchDemo } from '../pipeline/run';
+import { runDesigns, runGeneration, runRegenerateSection, runSwitchDemo } from '../pipeline/run';
 import { getGeneration } from '../pipeline/store';
 import { Generator } from './types';
 
 export const liveGenerator: Generator = {
+	designs: (request, options) => runDesigns(request, options),
+
 	generate: (request, options) => runGeneration(request, options),
 
 	regenerateSection: ({ generationId, page, sectionId, instruction }) =>

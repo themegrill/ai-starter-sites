@@ -1,0 +1,4334 @@
+{
+	"version": 4,
+	"slug": "care-03",
+	"name": "Care 03",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-care-03/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/care-03",
+	"niches": [
+		"nonprofit",
+		"charity"
+	],
+	"keywords": [
+		"charity",
+		"orphanage",
+		"nonprofit",
+		"children charity",
+		"donation",
+		"homeless",
+		"ngo",
+		"healthcare"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#222222",
+				"count": 125,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 107,
+					"background": 5,
+					"border": 9
+				}
+			},
+			{
+				"hex": "#f8c240",
+				"count": 53,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f8c240",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 18,
+					"background": 23,
+					"border": 4
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 38,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 22,
+					"background": 4,
+					"border": 6
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 35,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 20,
+					"background": 3,
+					"border": 3
+				}
+			},
+			{
+				"hex": "#0a66c2",
+				"count": 16,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0a66c2",
+				"lightnessDelta": 0,
+				"usage": {
+					"icon": 16
+				}
+			},
+			{
+				"hex": "#1877f2",
+				"count": 8,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0a66c2",
+				"lightnessDelta": 0.122,
+				"usage": {
+					"icon": 8
+				}
+			},
+			{
+				"hex": "#bd081c",
+				"count": 8,
+				"group": "brand",
+				"role": "accent",
+				"base": "#bd081c",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"icon": 8
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#2664eb",
+				"count": 5,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0a66c2",
+				"lightnessDelta": 0.135
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#aaaaaa",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#d5d8dc",
+				"count": 2,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"border": 2
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#f7f4f4",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#060f00",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#f7c040",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f8c240",
+				"lightnessDelta": -0.002
+			},
+			{
+				"hex": "#f7ba40",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f8c240",
+				"lightnessDelta": -0.002
+			},
+			{
+				"hex": "#f9c840",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f8c240",
+				"lightnessDelta": 0.002
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0a66c2",
+				"lightnessDelta": -0.029
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#000000",
+				"bg": "#f8c240",
+				"large": false,
+				"count": 22,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#0a66c2",
+				"bg": "#f8c240",
+				"large": true,
+				"count": 16,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#222222",
+				"bg": "#f8c240",
+				"large": true,
+				"count": 15,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#222222",
+				"bg": "#f8c240",
+				"large": false,
+				"count": 11,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f8c240",
+				"bg": "#000000",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1877f2",
+				"bg": "#f8c240",
+				"large": true,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#bd081c",
+				"bg": "#f8c240",
+				"large": true,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f8c240",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 5,
+				"scope": "theme"
+			},
+			{
+				"fg": "#222222",
+				"bg": "#f8c240",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Changa One",
+			"body": "Open Sans",
+			"map": {
+				"Changa One": "heading",
+				"Open Sans": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "f2f01fed",
+					"index": 0,
+					"path": "0",
+					"group": "f2f01fed",
+					"role": "hero",
+					"title": "Help a child without a family",
+					"slots": [
+						{
+							"id": "360176e6:text",
+							"blockId": "360176e6",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Help a child without a family",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c3d11765:text",
+							"blockId": "c3d11765",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e11adc77:text",
+							"blockId": "e11adc77",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Our Courses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f2f01fed:background.image.image.url",
+							"blockId": "f2f01fed",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/banner.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 927,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Black and white portrait of a thoughtful African boy",
+							"tone": {
+								"grid": [
+									0.13,
+									0.37,
+									0.15,
+									0.05,
+									0.34,
+									0.16,
+									0.1,
+									0.35,
+									0.2
+								],
+								"color": "#353535"
+							}
+						}
+					]
+				},
+				{
+					"id": "e644a673",
+					"index": 1,
+					"path": "1",
+					"group": "e644a673",
+					"role": "content",
+					"title": "Causes we care about",
+					"slots": [
+						{
+							"id": "73d4ff2b:text",
+							"blockId": "73d4ff2b",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Causes we care about",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8e1cac0d:text",
+							"blockId": "8e1cac0d",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "4cac321d",
+					"index": 2,
+					"path": "2",
+					"group": "4cac321d",
+					"role": "content",
+					"title": "Actions speak louder than words! Give today.",
+					"slots": [
+						{
+							"id": "b6c287b1:text",
+							"blockId": "b6c287b1",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Actions speak louder than words! Give today.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "baed2a9e:text",
+							"blockId": "baed2a9e",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "931eddd0:text",
+							"blockId": "931eddd0",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2ec64aa7:text",
+							"blockId": "2ec64aa7",
+							"path": "2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Know More About Us",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9b155076:text",
+							"blockId": "9b155076",
+							"path": "2.1.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a129c6df:text",
+							"blockId": "a129c6df",
+							"path": "2.1.0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2a2a8df4:text",
+							"blockId": "2a2a8df4",
+							"path": "2.1.0.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb34bad8:text",
+							"blockId": "eb34bad8",
+							"path": "2.1.0.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bc0cac4b:text",
+							"blockId": "bc0cac4b",
+							"path": "2.1.0.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a49d51f9:text",
+							"blockId": "a49d51f9",
+							"path": "2.1.0.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3f82a68e:text",
+							"blockId": "3f82a68e",
+							"path": "2.1.0.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8aeec246:text",
+							"blockId": "8aeec246",
+							"path": "2.1.0.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf5549a0:text",
+							"blockId": "cf5549a0",
+							"path": "2.1.0.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "96b5247d:text",
+							"blockId": "96b5247d",
+							"path": "2.1.0.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "195967e2:text",
+							"blockId": "195967e2",
+							"path": "2.1.0.2.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8a954194:text",
+							"blockId": "8a954194",
+							"path": "2.1.0.2.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "295d0847:image.url",
+							"blockId": "295d0847",
+							"path": "2.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-images-1.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "African children carrying water containers in a village",
+							"tone": {
+								"grid": [
+									0.5,
+									0.62,
+									0.63,
+									0.3,
+									0.45,
+									0.62,
+									0.5,
+									0.47,
+									0.31
+								],
+								"color": "#79815f"
+							}
+						},
+						{
+							"id": "71091fe9:image.url",
+							"blockId": "71091fe9",
+							"path": "2.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-img-2-.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Smiling African children posing together outdoors",
+							"tone": {
+								"grid": [
+									0.74,
+									0.57,
+									0.62,
+									0.82,
+									0.59,
+									0.72,
+									0.78,
+									0.57,
+									0.73
+								],
+								"color": "#cda88d"
+							}
+						},
+						{
+							"id": "29ab8f13:image.url",
+							"blockId": "29ab8f13",
+							"path": "2.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-img-3.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "African children sitting at wooden school desks",
+							"tone": {
+								"grid": [
+									0.11,
+									0.22,
+									0.38,
+									0.66,
+									0.31,
+									0.3,
+									0.23,
+									0.32,
+									0.31
+								],
+								"color": "#604d45"
+							}
+						}
+					]
+				},
+				{
+					"id": "c3aa09e1",
+					"index": 3,
+					"path": "3",
+					"group": "c3aa09e1",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "67cd1e25:text",
+							"blockId": "67cd1e25",
+							"path": "3.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All Causes",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "057cc548",
+					"index": 4,
+					"path": "4",
+					"group": "057cc548",
+					"role": "cta",
+					"title": "Homelessness starts at home. Donations start here",
+					"slots": [
+						{
+							"id": "d6a3d2c6:text",
+							"blockId": "d6a3d2c6",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Homelessness starts at home. Donations start here",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4531b11d:text",
+							"blockId": "4531b11d",
+							"path": "4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "af3fdd02:text",
+							"blockId": "af3fdd02",
+							"path": "4.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0a4e1268:text",
+							"blockId": "0a4e1268",
+							"path": "4.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Donate Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "057cc548:background.image.image.url",
+							"blockId": "057cc548",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/donate-bg.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 739,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d461ea89:image.url",
+							"blockId": "d461ea89",
+							"path": "4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/donate.jpg",
+							"decorative": false,
+							"width": 730,
+							"height": 567,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Elderly homeless man in a beanie sitting on a street",
+							"tone": {
+								"grid": [
+									0.4,
+									0.46,
+									0.61,
+									0.36,
+									0.62,
+									0.88,
+									0.17,
+									0.31,
+									0.53
+								],
+								"color": "#7b7b7b"
+							}
+						}
+					]
+				},
+				{
+					"id": "82becf75",
+					"index": 5,
+					"path": "5",
+					"group": "82becf75",
+					"role": "content",
+					"title": "Success Stories",
+					"slots": [
+						{
+							"id": "0e2d4aa0:text",
+							"blockId": "0e2d4aa0",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Success Stories",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c70fc394:text",
+							"blockId": "c70fc394",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "89c0423c",
+					"index": 6,
+					"path": "6",
+					"group": "89c0423c",
+					"role": "content",
+					"title": "OUR MISSION: TO CHANGE THE LIFE OF THOSE , NO HAVE NO HOPE.",
+					"slots": [
+						{
+							"id": "9c62ff43:text",
+							"blockId": "9c62ff43",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "OUR MISSION: TO CHANGE THE LIFE OF THOSE , NO HAVE NO HOPE.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "79bb7bc3:text",
+							"blockId": "79bb7bc3",
+							"path": "6.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ea969deb:text",
+							"blockId": "ea969deb",
+							"path": "6.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "1005cac6:image.url",
+							"blockId": "1005cac6",
+							"path": "6.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/since-img.jpg",
+							"decorative": true,
+							"width": 70,
+							"height": 55,
+							"orientation": "landscape"
+						},
+						{
+							"id": "653fd9f4:image.url",
+							"blockId": "653fd9f4",
+							"path": "6.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/success.jpg",
+							"decorative": false,
+							"width": 496,
+							"height": 343,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Poor child in a knit hat sitting with metal pots",
+							"tone": {
+								"grid": [
+									0.31,
+									0.27,
+									0.35,
+									0.33,
+									0.34,
+									0.24,
+									0.36,
+									0.31,
+									0.24
+								],
+								"color": "#5e4b39"
+							}
+						}
+					]
+				},
+				{
+					"id": "b2da6c5d",
+					"index": 7,
+					"path": "7",
+					"group": "b2da6c5d",
+					"role": "features",
+					"title": "Michael Jordan",
+					"slots": [
+						{
+							"id": "446f3ecd:text",
+							"blockId": "446f3ecd",
+							"path": "7.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum arcu sit amet finibus placerat. Suspendisse efficitur eros et tortor commodo.Pellentesque habitant morbitas.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d37e306a:text",
+							"blockId": "d37e306a",
+							"path": "7.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dd1f459b:text",
+							"blockId": "dd1f459b",
+							"path": "7.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Florida,USA",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5b881e29:text",
+							"blockId": "5b881e29",
+							"path": "7.1.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum arcu sit amet finibus placerat. Suspendisse efficitur eros et tortor commodo.Pellentesque habitant morbitas.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1b6a14cf:text",
+							"blockId": "1b6a14cf",
+							"path": "7.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "26e8beb7:text",
+							"blockId": "26e8beb7",
+							"path": "7.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Florida,USA",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f755869d:text",
+							"blockId": "f755869d",
+							"path": "7.2.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum arcu sit amet finibus placerat. Suspendisse efficitur eros et tortor commodo.Pellentesque habitant morbitas.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c451f451:text",
+							"blockId": "c451f451",
+							"path": "7.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb707b90:text",
+							"blockId": "bb707b90",
+							"path": "7.2.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Florida,USA",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "5b952d11:image.url",
+							"blockId": "5b952d11",
+							"path": "7.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-21-at-13.12.27.png",
+							"decorative": true,
+							"width": 37,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "3f0c14cb:image.url",
+							"blockId": "3f0c14cb",
+							"path": "7.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-21-at-13.12.27.png",
+							"decorative": true,
+							"width": 37,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "c3553b12:image.url",
+							"blockId": "c3553b12",
+							"path": "7.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-21-at-13.12.27.png",
+							"decorative": true,
+							"width": 37,
+							"height": 31,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "6673309a",
+					"index": 8,
+					"path": "8",
+					"group": "6673309a",
+					"role": "cta",
+					"title": "OUR MISSION: Be a part of the breakthrough and make someone’s dream come true",
+					"slots": [
+						{
+							"id": "d4184a98:text",
+							"blockId": "d4184a98",
+							"path": "8.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "OUR MISSION: Be a part of the breakthrough and make someone’s dream come true",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1bd7f2e3:text",
+							"blockId": "1bd7f2e3",
+							"path": "8.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat, dolor non scelerisque sagittis.",
+							"rich": true,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "91b403a4:text",
+							"blockId": "91b403a4",
+							"path": "8.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Become A volunteer",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6673309a:background.image.image.url",
+							"blockId": "6673309a",
+							"path": "8",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/volunteer-bg.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 450,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "9539e2b8",
+					"index": 9,
+					"path": "9",
+					"group": "9539e2b8",
+					"role": "posts",
+					"title": "Latest news & events",
+					"slots": [
+						{
+							"id": "9a3b3d86:text",
+							"blockId": "9a3b3d86",
+							"path": "9.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest news & events",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6564394a:text",
+							"blockId": "6564394a",
+							"path": "9.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "64afe4f5",
+					"index": 10,
+					"path": "10",
+					"group": "9539e2b8",
+					"role": "features",
+					"title": "Provide drinking water to people of Africa",
+					"slots": [
+						{
+							"id": "ab982aa3:text",
+							"blockId": "ab982aa3",
+							"path": "10.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Provide drinking water to people of Africa",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7158d951:text",
+							"blockId": "7158d951",
+							"path": "10.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "June 7, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad65c9c0:text",
+							"blockId": "ad65c9c0",
+							"path": "10.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "|",
+							"rich": false,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "7c604964:text",
+							"blockId": "7c604964",
+							"path": "10.0.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Uncategorized",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8f0d90c5:text",
+							"blockId": "8f0d90c5",
+							"path": "10.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum blandit dictum. Nullam leo turpis, …",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "91c81b30:text",
+							"blockId": "91c81b30",
+							"path": "10.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Poverty level dropped by 3% around the Global",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "26fd67eb:text",
+							"blockId": "26fd67eb",
+							"path": "10.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "June 7, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c0d53b94:text",
+							"blockId": "c0d53b94",
+							"path": "10.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "|",
+							"rich": false,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "60076586:text",
+							"blockId": "60076586",
+							"path": "10.1.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Uncategorized",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3db5d25:text",
+							"blockId": "b3db5d25",
+							"path": "10.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum blandit dictum. Nullam leo turpis, …",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "62babad0:text",
+							"blockId": "62babad0",
+							"path": "10.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Charity is making big changes across the Africa",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "795a2880:text",
+							"blockId": "795a2880",
+							"path": "10.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "June 7, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "483fb74d:text",
+							"blockId": "483fb74d",
+							"path": "10.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "|",
+							"rich": false,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "fec6596c:text",
+							"blockId": "fec6596c",
+							"path": "10.2.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Uncategorized",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7236e62a:text",
+							"blockId": "7236e62a",
+							"path": "10.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum blandit dictum. Nullam leo turpis, …",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "core-10.0.0:@html:img",
+							"blockId": "core-10.0.0",
+							"path": "10.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/charity-blog-5-1-1024x683.jpg",
+							"decorative": false,
+							"width": 1024,
+							"height": 683,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young child looking away in sepia tone",
+							"tone": {
+								"grid": [
+									0.7,
+									0.51,
+									0.72,
+									0.78,
+									0.42,
+									0.8,
+									0.64,
+									0.33,
+									0.57
+								],
+								"color": "#a49992"
+							}
+						},
+						{
+							"id": "core-10.1.0:@html:img",
+							"blockId": "core-10.1.0",
+							"path": "10.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/charity-blog-4-1024x683.jpg",
+							"decorative": false,
+							"width": 1024,
+							"height": 683,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Mother holding her small child in a rural home",
+							"tone": {
+								"grid": [
+									0.64,
+									0.07,
+									0.08,
+									0.43,
+									0.16,
+									0.1,
+									0.56,
+									0.26,
+									0.2
+								],
+								"color": "#4b473f"
+							}
+						},
+						{
+							"id": "core-10.2.0:@html:img",
+							"blockId": "core-10.2.0",
+							"path": "10.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/charity-blog-3-1024x683.jpg",
+							"decorative": false,
+							"width": 1024,
+							"height": 683,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Cupped hands holding coins and a make a change note",
+							"tone": {
+								"grid": [
+									0.44,
+									0.16,
+									0.19,
+									0.52,
+									0.48,
+									0.2,
+									0.53,
+									0.35,
+									0.24
+								],
+								"color": "#5b5855"
+							}
+						}
+					]
+				},
+				{
+					"id": "3008aa9c",
+					"index": 11,
+					"path": "11",
+					"group": "3008aa9c",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "391f2172:text",
+							"blockId": "391f2172",
+							"path": "11.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All Blogs",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "f2f01fed",
+					"role": "hero",
+					"title": "Help a child without a family",
+					"sectionIds": [
+						"f2f01fed"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e644a673",
+					"role": "content",
+					"title": "Causes we care about",
+					"sectionIds": [
+						"e644a673"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4cac321d",
+					"role": "content",
+					"title": "Actions speak louder than words! Give today.",
+					"sectionIds": [
+						"4cac321d"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c3aa09e1",
+					"role": "cta",
+					"sectionIds": [
+						"c3aa09e1"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "057cc548",
+					"role": "cta",
+					"title": "Homelessness starts at home. Donations start here",
+					"sectionIds": [
+						"057cc548"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "82becf75",
+					"role": "content",
+					"title": "Success Stories",
+					"sectionIds": [
+						"82becf75"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "89c0423c",
+					"role": "content",
+					"title": "OUR MISSION: TO CHANGE THE LIFE OF THOSE , NO HAVE NO HOPE.",
+					"sectionIds": [
+						"89c0423c"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b2da6c5d",
+					"role": "features",
+					"title": "Michael Jordan",
+					"sectionIds": [
+						"b2da6c5d"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6673309a",
+					"role": "cta",
+					"title": "OUR MISSION: Be a part of the breakthrough and make someone’s dream come true",
+					"sectionIds": [
+						"6673309a"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9539e2b8",
+					"role": "posts",
+					"title": "Latest news & events",
+					"sectionIds": [
+						"9539e2b8",
+						"64afe4f5"
+					],
+					"paths": [
+						"9",
+						"10"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "3008aa9c",
+					"role": "cta",
+					"sectionIds": [
+						"3008aa9c"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "7cd6bfdf",
+					"index": 0,
+					"path": "0",
+					"group": "7cd6bfdf",
+					"role": "hero",
+					"title": "Explore Our Vision",
+					"slots": [
+						{
+							"id": "62e798f7:text",
+							"blockId": "62e798f7",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Explore Our Vision",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d2b4330c:text",
+							"blockId": "d2b4330c",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "50d64da2",
+					"index": 1,
+					"path": "1",
+					"group": "50d64da2",
+					"role": "content",
+					"title": "Our Mission",
+					"slots": [
+						{
+							"id": "b6b44fd5:text",
+							"blockId": "b6b44fd5",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Mission",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51cea830:text",
+							"blockId": "51cea830",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus mollis tincidunt cras interdum justo.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "54c2e275:text",
+							"blockId": "54c2e275",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Vision",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7a2a85be:text",
+							"blockId": "7a2a85be",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus mollis tincidunt cras interdum justo.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "85c29c85:text",
+							"blockId": "85c29c85",
+							"path": "1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Values",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "78ecdb2f:text",
+							"blockId": "78ecdb2f",
+							"path": "1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus mollis tincidunt cras interdum justo.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "afe2f8b0:image.url",
+							"blockId": "afe2f8b0",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-22-at-02.18.45.png",
+							"decorative": true,
+							"width": 80,
+							"height": 70,
+							"orientation": "square"
+						},
+						{
+							"id": "a058a7da:image.url",
+							"blockId": "a058a7da",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-22-at-02.25.57.png",
+							"decorative": true,
+							"width": 80,
+							"height": 70,
+							"orientation": "square"
+						},
+						{
+							"id": "7e04e428:image.url",
+							"blockId": "7e04e428",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-22-at-02.26.26.png",
+							"decorative": true,
+							"width": 80,
+							"height": 70,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "be8a2ca0",
+					"index": 2,
+					"path": "2",
+					"group": "be8a2ca0",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "11bf6dba:text",
+							"blockId": "11bf6dba",
+							"path": "2.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All Causes",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "1d9625de",
+					"index": 3,
+					"path": "3",
+					"group": "1d9625de",
+					"role": "content",
+					"title": "Help today because tomorrow you may be the one who needs helping!",
+					"slots": [
+						{
+							"id": "570bf606:text",
+							"blockId": "570bf606",
+							"path": "3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Help today because tomorrow you may be the one who needs helping!",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2547e5b4:text",
+							"blockId": "2547e5b4",
+							"path": "3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus mollis tincidunt. Cras interdum justo quis lectus luctus, vel consectetur sem hendrerit. Nunc gravida aliquet egestas mentum.",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "04c02517:text",
+							"blockId": "04c02517",
+							"path": "3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus mollis tincidunt. Cras interdum justo quis lectus luctus.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7063118a:text",
+							"blockId": "7063118a",
+							"path": "3.1.3.0.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "COUNTRIES",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4fb096bd:text",
+							"blockId": "4fb096bd",
+							"path": "3.1.3.1.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "PEOPLE",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "197ff07a:text",
+							"blockId": "197ff07a",
+							"path": "3.1.3.2.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "RAISED",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a59aac0b:text",
+							"blockId": "a59aac0b",
+							"path": "3.1.3.3.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "VOLUNTEERS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1d9625de:background.image.image.url",
+							"blockId": "1d9625de",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/stats-bg.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 599,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "86c0cdad",
+					"index": 4,
+					"path": "4",
+					"group": "86c0cdad",
+					"role": "content",
+					"title": "What we do?",
+					"slots": [
+						{
+							"id": "84a178cc:text",
+							"blockId": "84a178cc",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What we do?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "10a44aa2:text",
+							"blockId": "10a44aa2",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "36ac7bd3",
+					"index": 5,
+					"path": "5",
+					"group": "86c0cdad",
+					"role": "features",
+					"title": "Charity for Education",
+					"slots": [
+						{
+							"id": "8cbbbe2a:text",
+							"blockId": "8cbbbe2a",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Charity for Education",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "15bf4383:text",
+							"blockId": "15bf4383",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "324b3a8c:text",
+							"blockId": "324b3a8c",
+							"path": "5.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Feed for Hungry",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cdf9853d:text",
+							"blockId": "cdf9853d",
+							"path": "5.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "225b90e7:text",
+							"blockId": "225b90e7",
+							"path": "5.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Filtered Drinking Water",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4081380a:text",
+							"blockId": "4081380a",
+							"path": "5.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e46f891a:text",
+							"blockId": "e46f891a",
+							"path": "5.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Medical Facilities",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9380d232:text",
+							"blockId": "9380d232",
+							"path": "5.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f379dfe7:text",
+							"blockId": "f379dfe7",
+							"path": "5.4.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Nutritious Food",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad096f80:text",
+							"blockId": "ad096f80",
+							"path": "5.4.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8d6be3df:text",
+							"blockId": "8d6be3df",
+							"path": "5.5.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Innovation for Children",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b15ac09f:text",
+							"blockId": "b15ac09f",
+							"path": "5.5.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "f25efbc0",
+					"index": 6,
+					"path": "6",
+					"group": "f25efbc0",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "77347716:text",
+							"blockId": "77347716",
+							"path": "6.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All Causes",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "eb900786",
+					"index": 7,
+					"path": "7",
+					"group": "eb900786",
+					"role": "cta",
+					"title": "BECOME A VOLUNTEER: Too busy to change the world? Spare some change.Don’t delay give today!",
+					"slots": [
+						{
+							"id": "80cc618d:text",
+							"blockId": "80cc618d",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "BECOME A VOLUNTEER: Too busy to change the world? Spare some change.Don’t delay give today!",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "240d9b02:text",
+							"blockId": "240d9b02",
+							"path": "7.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat, dolor non scelerisque sagittis.",
+							"rich": true,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6b3d737b:text",
+							"blockId": "6b3d737b",
+							"path": "7.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus mollis tincidunt. Cras interdum justo quis lectus luctus, vel consectetur sem hendrerit. Nunc gravida aliquet egestas.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5fde70bb:text",
+							"blockId": "5fde70bb",
+							"path": "7.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "become a volunteer now",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "eb900786:background.image.image.url",
+							"blockId": "eb900786",
+							"path": "7",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/about-volunteer-bg.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 600,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "23c3d8d9",
+					"index": 8,
+					"path": "8",
+					"group": "23c3d8d9",
+					"role": "content",
+					"title": "Explore Our Volunteers",
+					"slots": [
+						{
+							"id": "18bb9191:text",
+							"blockId": "18bb9191",
+							"path": "8.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Explore Our Volunteers",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa5b3f4c:text",
+							"blockId": "aa5b3f4c",
+							"path": "8.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "8c53151e",
+					"index": 9,
+					"path": "9",
+					"group": "23c3d8d9",
+					"role": "gallery",
+					"title": "Michael Jordan",
+					"slots": [
+						{
+							"id": "1666338c:text",
+							"blockId": "1666338c",
+							"path": "9.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "21d5af0c:text",
+							"blockId": "21d5af0c",
+							"path": "9.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "VOLUNTEER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e85dc40e:text",
+							"blockId": "e85dc40e",
+							"path": "9.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "da426853:text",
+							"blockId": "da426853",
+							"path": "9.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "VOLUNTEER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "da2f9090:text",
+							"blockId": "da2f9090",
+							"path": "9.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a6e7a87b:text",
+							"blockId": "a6e7a87b",
+							"path": "9.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "VOLUNTEER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fee386ab:text",
+							"blockId": "fee386ab",
+							"path": "9.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dbb117da:text",
+							"blockId": "dbb117da",
+							"path": "9.3.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "VOLUNTEER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0ed88653:text",
+							"blockId": "0ed88653",
+							"path": "9.4.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "24f4f10e:text",
+							"blockId": "24f4f10e",
+							"path": "9.4.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "VOLUNTEER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8974dd7d:text",
+							"blockId": "8974dd7d",
+							"path": "9.5.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36e79d46:text",
+							"blockId": "36e79d46",
+							"path": "9.5.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "VOLUNTEER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae6062c6:text",
+							"blockId": "ae6062c6",
+							"path": "9.6.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "24d9ab0d:text",
+							"blockId": "24d9ab0d",
+							"path": "9.6.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "VOLUNTEER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "00c244d7:text",
+							"blockId": "00c244d7",
+							"path": "9.7.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Michael Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c07fc387:text",
+							"blockId": "c07fc387",
+							"path": "9.7.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "VOLUNTEER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "81d31ef6:image.url",
+							"blockId": "81d31ef6",
+							"path": "9.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/volunteer-img-1.jpg",
+							"decorative": false,
+							"width": 298,
+							"height": 324,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man with styled hair dark studio portrait",
+							"tone": {
+								"grid": [
+									0.04,
+									0.25,
+									0.02,
+									0.07,
+									0.43,
+									0.04,
+									0.11,
+									0.25,
+									0.1
+								],
+								"color": "#2e231d"
+							}
+						},
+						{
+							"id": "ba1bb4d4:image.url",
+							"blockId": "ba1bb4d4",
+							"path": "9.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/volunteer-img-2.jpg",
+							"decorative": false,
+							"width": 299,
+							"height": 329,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with long hair in a red sweater portrait",
+							"tone": {
+								"grid": [
+									0.31,
+									0.27,
+									0.31,
+									0.25,
+									0.52,
+									0.4,
+									0.27,
+									0.35,
+									0.23
+								],
+								"color": "#674d4c"
+							}
+						},
+						{
+							"id": "5c4f990a:image.url",
+							"blockId": "5c4f990a",
+							"path": "9.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/volunteer-img-3.jpg",
+							"decorative": false,
+							"width": 289,
+							"height": 320,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman in a headscarf leaning on a tree",
+							"tone": {
+								"grid": [
+									0.62,
+									0.43,
+									0.32,
+									0.45,
+									0.55,
+									0.39,
+									0.26,
+									0.29,
+									0.4
+								],
+								"color": "#716767"
+							}
+						},
+						{
+							"id": "288078da:image.url",
+							"blockId": "288078da",
+							"path": "9.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/volunteer-img-4.jpg",
+							"decorative": false,
+							"width": 296,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Elderly man with a white beard black and white portrait",
+							"tone": {
+								"grid": [
+									0.41,
+									0.69,
+									0.18,
+									0.6,
+									0.43,
+									0.58,
+									0.38,
+									0.73,
+									0.3
+								],
+								"color": "#7a7a7a"
+							}
+						},
+						{
+							"id": "cc09e8d0:image.url",
+							"blockId": "cc09e8d0",
+							"path": "9.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/volunteer-img-5.jpg",
+							"decorative": false,
+							"width": 291,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling man in a white t-shirt headshot",
+							"tone": {
+								"grid": [
+									0.36,
+									0.28,
+									0.38,
+									0.42,
+									0.52,
+									0.47,
+									0.65,
+									0.48,
+									0.52
+								],
+								"color": "#7f7169"
+							}
+						},
+						{
+							"id": "9d60cbae:image.url",
+							"blockId": "9d60cbae",
+							"path": "9.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/volunteer-img-6.jpg",
+							"decorative": false,
+							"width": 290,
+							"height": 322,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in a striped headscarf portrait",
+							"tone": {
+								"grid": [
+									0.55,
+									0.31,
+									0.68,
+									0.51,
+									0.37,
+									0.65,
+									0.31,
+									0.33,
+									0.61
+								],
+								"color": "#86786e"
+							}
+						},
+						{
+							"id": "ad0e930c:image.url",
+							"blockId": "ad0e930c",
+							"path": "9.6.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/volunteer-img-7.jpg",
+							"decorative": false,
+							"width": 299,
+							"height": 335,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young man in a baseball cap",
+							"tone": {
+								"grid": [
+									0.88,
+									0.53,
+									0.8,
+									0.84,
+									0.53,
+									0.69,
+									0.62,
+									0.47,
+									0.27
+								],
+								"color": "#ac9c99"
+							}
+						},
+						{
+							"id": "27a882fe:image.url",
+							"blockId": "27a882fe",
+							"path": "9.7.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/voluntears-img-8.jpg",
+							"decorative": false,
+							"width": 299,
+							"height": 335,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with dark hair close-up portrait",
+							"tone": {
+								"grid": [
+									0.35,
+									0.47,
+									0.09,
+									0.45,
+									0.6,
+									0.14,
+									0.36,
+									0.48,
+									0.08
+								],
+								"color": "#5e5450"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "7cd6bfdf",
+					"role": "hero",
+					"title": "Explore Our Vision",
+					"sectionIds": [
+						"7cd6bfdf"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "50d64da2",
+					"role": "content",
+					"title": "Our Mission",
+					"sectionIds": [
+						"50d64da2"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "be8a2ca0",
+					"role": "cta",
+					"sectionIds": [
+						"be8a2ca0"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1d9625de",
+					"role": "content",
+					"title": "Help today because tomorrow you may be the one who needs helping!",
+					"sectionIds": [
+						"1d9625de"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "86c0cdad",
+					"role": "features",
+					"title": "What we do?",
+					"sectionIds": [
+						"86c0cdad",
+						"36ac7bd3"
+					],
+					"paths": [
+						"4",
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f25efbc0",
+					"role": "cta",
+					"sectionIds": [
+						"f25efbc0"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "eb900786",
+					"role": "cta",
+					"title": "BECOME A VOLUNTEER: Too busy to change the world? Spare some change.Don’t delay give today!",
+					"sectionIds": [
+						"eb900786"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "23c3d8d9",
+					"role": "gallery",
+					"title": "Explore Our Volunteers",
+					"sectionIds": [
+						"23c3d8d9",
+						"8c53151e"
+					],
+					"paths": [
+						"8",
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "causes",
+			"title": "Causes",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/themegrill-demos/causes-content.xml",
+			"sections": [
+				{
+					"id": "699c3215",
+					"index": 0,
+					"path": "0",
+					"group": "699c3215",
+					"role": "hero",
+					"title": "Causes we care about",
+					"slots": [
+						{
+							"id": "df97a903:text",
+							"blockId": "df97a903",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Causes we care about",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b1b25db5:text",
+							"blockId": "b1b25db5",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "3aabedb8",
+					"index": 1,
+					"path": "1",
+					"group": "3aabedb8",
+					"role": "content",
+					"title": "Human Health Charities",
+					"slots": [
+						{
+							"id": "685bf81d:text",
+							"blockId": "685bf81d",
+							"path": "1.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4b68d12f:text",
+							"blockId": "4b68d12f",
+							"path": "1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "aefdbb6b:text",
+							"blockId": "aefdbb6b",
+							"path": "1.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0848b176:text",
+							"blockId": "0848b176",
+							"path": "1.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ccfb91a:text",
+							"blockId": "9ccfb91a",
+							"path": "1.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "659b4b23:text",
+							"blockId": "659b4b23",
+							"path": "1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "46409696:text",
+							"blockId": "46409696",
+							"path": "1.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7f9bd151:text",
+							"blockId": "7f9bd151",
+							"path": "1.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3921ec8f:text",
+							"blockId": "3921ec8f",
+							"path": "1.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "19d09c7c:text",
+							"blockId": "19d09c7c",
+							"path": "1.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "af0e8653:text",
+							"blockId": "af0e8653",
+							"path": "1.2.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cafb402b:text",
+							"blockId": "cafb402b",
+							"path": "1.2.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8639cbe:text",
+							"blockId": "d8639cbe",
+							"path": "1.3.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f319358f:text",
+							"blockId": "f319358f",
+							"path": "1.3.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "12f537ad:text",
+							"blockId": "12f537ad",
+							"path": "1.3.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bd82e2b2:text",
+							"blockId": "bd82e2b2",
+							"path": "1.3.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "685bf81d~1:text",
+							"blockId": "685bf81d~1",
+							"path": "1.4.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4b68d12f~1:text",
+							"blockId": "4b68d12f~1",
+							"path": "1.4.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "aefdbb6b~1:text",
+							"blockId": "aefdbb6b~1",
+							"path": "1.4.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0848b176~1:text",
+							"blockId": "0848b176~1",
+							"path": "1.4.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ccfb91a~1:text",
+							"blockId": "9ccfb91a~1",
+							"path": "1.5.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "659b4b23~1:text",
+							"blockId": "659b4b23~1",
+							"path": "1.5.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "46409696~1:text",
+							"blockId": "46409696~1",
+							"path": "1.5.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7f9bd151~1:text",
+							"blockId": "7f9bd151~1",
+							"path": "1.5.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3921ec8f~1:text",
+							"blockId": "3921ec8f~1",
+							"path": "1.6.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "19d09c7c~1:text",
+							"blockId": "19d09c7c~1",
+							"path": "1.6.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "af0e8653~1:text",
+							"blockId": "af0e8653~1",
+							"path": "1.6.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cafb402b~1:text",
+							"blockId": "cafb402b~1",
+							"path": "1.6.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8639cbe~1:text",
+							"blockId": "d8639cbe~1",
+							"path": "1.7.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f319358f~1:text",
+							"blockId": "f319358f~1",
+							"path": "1.7.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "12f537ad~1:text",
+							"blockId": "12f537ad~1",
+							"path": "1.7.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised: $25,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bd82e2b2~1:text",
+							"blockId": "bd82e2b2~1",
+							"path": "1.7.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal: $50,000",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ec84dd7b:image.url",
+							"blockId": "ec84dd7b",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-images-1.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "African children carrying water containers in a village",
+							"tone": {
+								"grid": [
+									0.5,
+									0.62,
+									0.63,
+									0.3,
+									0.45,
+									0.62,
+									0.5,
+									0.47,
+									0.31
+								],
+								"color": "#79815f"
+							}
+						},
+						{
+							"id": "ffa635b1:image.url",
+							"blockId": "ffa635b1",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-images-1.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "African children carrying water containers in a village",
+							"tone": {
+								"grid": [
+									0.5,
+									0.62,
+									0.63,
+									0.3,
+									0.45,
+									0.62,
+									0.5,
+									0.47,
+									0.31
+								],
+								"color": "#79815f"
+							}
+						},
+						{
+							"id": "1ca9898e:image.url",
+							"blockId": "1ca9898e",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-img-2-.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Smiling African children posing together outdoors",
+							"tone": {
+								"grid": [
+									0.74,
+									0.57,
+									0.62,
+									0.82,
+									0.59,
+									0.72,
+									0.78,
+									0.57,
+									0.73
+								],
+								"color": "#cda88d"
+							}
+						},
+						{
+							"id": "83ea102f:image.url",
+							"blockId": "83ea102f",
+							"path": "1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-img-3.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "African children sitting at wooden school desks",
+							"tone": {
+								"grid": [
+									0.11,
+									0.22,
+									0.38,
+									0.66,
+									0.31,
+									0.3,
+									0.23,
+									0.32,
+									0.31
+								],
+								"color": "#604d45"
+							}
+						},
+						{
+							"id": "ec84dd7b~1:image.url",
+							"blockId": "ec84dd7b~1",
+							"path": "1.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-images-1.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "African children carrying water containers in a village",
+							"tone": {
+								"grid": [
+									0.5,
+									0.62,
+									0.63,
+									0.3,
+									0.45,
+									0.62,
+									0.5,
+									0.47,
+									0.31
+								],
+								"color": "#79815f"
+							}
+						},
+						{
+							"id": "ffa635b1~1:image.url",
+							"blockId": "ffa635b1~1",
+							"path": "1.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-images-1.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "African children carrying water containers in a village",
+							"tone": {
+								"grid": [
+									0.5,
+									0.62,
+									0.63,
+									0.3,
+									0.45,
+									0.62,
+									0.5,
+									0.47,
+									0.31
+								],
+								"color": "#79815f"
+							}
+						},
+						{
+							"id": "1ca9898e~1:image.url",
+							"blockId": "1ca9898e~1",
+							"path": "1.6.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-img-2-.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Smiling African children posing together outdoors",
+							"tone": {
+								"grid": [
+									0.74,
+									0.57,
+									0.62,
+									0.82,
+									0.59,
+									0.72,
+									0.78,
+									0.57,
+									0.73
+								],
+								"color": "#cda88d"
+							}
+						},
+						{
+							"id": "83ea102f~1:image.url",
+							"blockId": "83ea102f~1",
+							"path": "1.7.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/causes-img-3.jpg",
+							"decorative": false,
+							"width": 339,
+							"height": 263,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "African children sitting at wooden school desks",
+							"tone": {
+								"grid": [
+									0.11,
+									0.22,
+									0.38,
+									0.66,
+									0.31,
+									0.3,
+									0.23,
+									0.32,
+									0.31
+								],
+								"color": "#604d45"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "699c3215",
+					"role": "hero",
+					"title": "Causes we care about",
+					"sectionIds": [
+						"699c3215"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3aabedb8",
+					"role": "content",
+					"title": "Human Health Charities",
+					"sectionIds": [
+						"3aabedb8"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "faq",
+			"title": "Faq",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/care-03/wp-content/uploads/sites/145/themegrill-demos/faq-content.xml",
+			"sections": [
+				{
+					"id": "c263e1dc",
+					"index": 0,
+					"path": "0",
+					"group": "c263e1dc",
+					"role": "hero",
+					"title": "Frequently Asked Questions",
+					"slots": [
+						{
+							"id": "6f9ed7e9:text",
+							"blockId": "6f9ed7e9",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Frequently Asked Questions",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "23770ede:text",
+							"blockId": "23770ede",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar in sapien id luctus. Duis vehicula massa quis quam pellentesque, a pretium est sollicitudin.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "afeb948a",
+					"index": 1,
+					"path": "1",
+					"group": "afeb948a",
+					"role": "faq",
+					"slots": [
+						{
+							"id": "d8745084:question",
+							"blockId": "d8745084",
+							"path": "1.0.0.0",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "How have you selected your top charities?",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8745084:answer",
+							"blockId": "d8745084",
+							"path": "1.0.0.0",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at fringilla ante, nec facilisis velit. Etiam consectetur placerat turpis ac finibus. Sed at cursus risus. Suspendisse vehicula vel odio eget tempus. Sed hendrerit eu urna quis euismod. Integer at fermentum neque, sit amet mattis risus. Integer mollis ultrices dui. Mauris vel felis lacinia, venenatis ligula eu, tincidunt neque. Ut mollis semper mattis. Mauris nec scelerisque leo, sit amet scelerisque urna.",
+							"rich": false,
+							"words": 70,
+							"minWords": 42,
+							"maxWords": 88,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "156c22bb:question",
+							"blockId": "156c22bb",
+							"path": "1.0.0.1",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "What are the pros and cons of giving to GiveWell's top charities?",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "156c22bb:answer",
+							"blockId": "156c22bb",
+							"path": "1.0.0.1",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at fringilla ante, nec facilisis velit. Etiam consectetur placerat turpis ac finibus. Sed at cursus risus. Suspendisse vehicula vel odio eget tempus. Sed hendrerit eu urna quis euismod. Integer at fermentum neque, sit amet mattis risus. Integer mollis ultrices dui. Mauris vel felis lacinia, venenatis ligula eu, tincidunt neque. Ut mollis semper mattis. Mauris nec scelerisque leo, sit amet scelerisque urna.",
+							"rich": false,
+							"words": 70,
+							"minWords": 42,
+							"maxWords": 88,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7ef1e1ba:question",
+							"blockId": "7ef1e1ba",
+							"path": "1.0.0.2",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "Why should I consider GiveWell's recommendations to be credible?",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7ef1e1ba:answer",
+							"blockId": "7ef1e1ba",
+							"path": "1.0.0.2",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at fringilla ante, nec facilisis velit. Etiam consectetur placerat turpis ac finibus. Sed at cursus risus. Suspendisse vehicula vel odio eget tempus. Sed hendrerit eu urna quis euismod. Integer at fermentum neque, sit amet mattis risus. Integer mollis ultrices dui. Mauris vel felis lacinia, venenatis ligula eu, tincidunt neque. Ut mollis semper mattis. Mauris nec scelerisque leo, sit amet scelerisque urna.",
+							"rich": false,
+							"words": 70,
+							"minWords": 42,
+							"maxWords": 88,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d97b6b43:question",
+							"blockId": "d97b6b43",
+							"path": "1.0.0.3",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "Are GiveWell's top charities tax-deductible where I live?",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d97b6b43:answer",
+							"blockId": "d97b6b43",
+							"path": "1.0.0.3",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at fringilla ante, nec facilisis velit. Etiam consectetur placerat turpis ac finibus. Sed at cursus risus. Suspendisse vehicula vel odio eget tempus. Sed hendrerit eu urna quis euismod. Integer at fermentum neque, sit amet mattis risus. Integer mollis ultrices dui. Mauris vel felis lacinia, venenatis ligula eu, tincidunt neque. Ut mollis semper mattis. Mauris nec scelerisque leo, sit amet scelerisque urna.",
+							"rich": false,
+							"words": 70,
+							"minWords": 42,
+							"maxWords": 88,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1d057ed1:question",
+							"blockId": "1d057ed1",
+							"path": "1.0.0.4",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "Why do most of your recommended charities work on international aid?",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1d057ed1:answer",
+							"blockId": "1d057ed1",
+							"path": "1.0.0.4",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at fringilla ante, nec facilisis velit. Etiam consectetur placerat turpis ac finibus. Sed at cursus risus. Suspendisse vehicula vel odio eget tempus. Sed hendrerit eu urna quis euismod. Integer at fermentum neque, sit amet mattis risus. Integer mollis ultrices dui. Mauris vel felis lacinia, venenatis ligula eu, tincidunt neque. Ut mollis semper mattis. Mauris nec scelerisque leo, sit amet scelerisque urna.",
+							"rich": false,
+							"words": 70,
+							"minWords": 42,
+							"maxWords": 88,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3f3d0eca:question",
+							"blockId": "3f3d0eca",
+							"path": "1.0.0.5",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "Does saving lives just lead to overpopulation and long-run damage?",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f3d0eca:answer",
+							"blockId": "3f3d0eca",
+							"path": "1.0.0.5",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at fringilla ante, nec facilisis velit. Etiam consectetur placerat turpis ac finibus. Sed at cursus risus. Suspendisse vehicula vel odio eget tempus. Sed hendrerit eu urna quis euismod. Integer at fermentum neque, sit amet mattis risus. Integer mollis ultrices dui. Mauris vel felis lacinia, venenatis ligula eu, tincidunt neque. Ut mollis semper mattis. Mauris nec scelerisque leo, sit amet scelerisque urna.",
+							"rich": false,
+							"words": 70,
+							"minWords": 42,
+							"maxWords": 88,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "c263e1dc",
+					"role": "hero",
+					"title": "Frequently Asked Questions",
+					"sectionIds": [
+						"c263e1dc"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "afeb948a",
+					"role": "faq",
+					"sectionIds": [
+						"afeb948a"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 26,
+		"textSlots": 162,
+		"editableSlots": 159,
+		"images": 36,
+		"swappableImages": 25,
+		"words": 1654
+	},
+	"builtAt": "2026-10-24T11:35:08.041Z"
+}

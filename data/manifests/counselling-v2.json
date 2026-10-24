@@ -1,0 +1,5155 @@
+{
+	"version": 4,
+	"slug": "counselling-v2",
+	"name": "Counselling V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-counselling-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/counselling-v2",
+	"niches": [
+		"counselling",
+		"therapy",
+		"coaching"
+	],
+	"keywords": [
+		"counsellor",
+		"therapist",
+		"psychologist",
+		"life coach",
+		"mental health",
+		"counseling"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#f4145c",
+				"count": 117,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f4145c",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 99,
+					"background": 9,
+					"border": 3
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 115,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 24,
+					"background": 40,
+					"border": 4
+				}
+			},
+			{
+				"hex": "#115294",
+				"count": 90,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#115294",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 88
+				}
+			},
+			{
+				"hex": "#fff5f5",
+				"count": 44,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 43,
+					"background": 1
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#000000",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#115294",
+				"lightnessDelta": 0.047
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#115294",
+				"lightnessDelta": 0.061
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#115294",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 60,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f4145c",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 59,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f4145c",
+				"large": true,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f4145c",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f4145c",
+				"large": false,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f4145c",
+				"bg": "#fff5f5",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#115294",
+				"bg": "#fff5f5",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f4145c",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#115294",
+				"bg": "#fff5f5",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#f4145c",
+				"bg": "#fff5f5",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fafafa",
+				"bg": "#f4145c",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Lora",
+			"body": "Rubik",
+			"map": {
+				"Lora": "heading",
+				"Rubik": "body",
+				"Roboto": "heading"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "84fa4a57",
+					"index": 0,
+					"path": "0",
+					"group": "84fa4a57",
+					"role": "hero",
+					"title": "Discover The",
+					"slots": [
+						{
+							"id": "01a94918:text",
+							"blockId": "01a94918",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Discover The",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "24d50a62:text",
+							"blockId": "24d50a62",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Path Of Happiness",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "acd2a7f7:text",
+							"blockId": "acd2a7f7",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. At labore et dolore magna aliqua. Lorem ipsum dolor sit amet",
+							"rich": false,
+							"words": 40,
+							"minWords": 24,
+							"maxWords": 50,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5d3cf6a6:text",
+							"blockId": "5d3cf6a6",
+							"path": "0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get an appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "84fa4a57:background.image.image.url",
+							"blockId": "84fa4a57",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/Banner.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Elderly woman in a black coat sitting thoughtfully in a chair",
+							"tone": {
+								"grid": [
+									0.69,
+									0.77,
+									0.67,
+									0.64,
+									0.67,
+									0.27,
+									0.45,
+									0.49,
+									0.06
+								],
+								"color": "#868584"
+							}
+						}
+					]
+				},
+				{
+					"id": "3c5ecb61",
+					"index": 1,
+					"path": "1",
+					"group": "3c5ecb61",
+					"role": "features",
+					"title": "I Can Help You",
+					"slots": [
+						{
+							"id": "6706bfd0:text",
+							"blockId": "6706bfd0",
+							"path": "1.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "I Can Help You",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "04b38fd6:text",
+							"blockId": "04b38fd6",
+							"path": "1.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "026e54c7:text",
+							"blockId": "026e54c7",
+							"path": "1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Psychology Therapy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba1b8807:text",
+							"blockId": "ba1b8807",
+							"path": "1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0:text",
+							"blockId": "8f7cd2f0",
+							"path": "1.0.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "90e9bff1:text",
+							"blockId": "90e9bff1",
+							"path": "1.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Confidence Restoration",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "181ca3ce:text",
+							"blockId": "181ca3ce",
+							"path": "1.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~1:text",
+							"blockId": "8f7cd2f0~1",
+							"path": "1.0.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b0f2b686:text",
+							"blockId": "b0f2b686",
+							"path": "1.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Work Life Improvement",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3d6860b:text",
+							"blockId": "b3d6860b",
+							"path": "1.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~2:text",
+							"blockId": "8f7cd2f0~2",
+							"path": "1.0.1.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "872fba14:text",
+							"blockId": "872fba14",
+							"path": "1.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Relationship Problems",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa5a4061:text",
+							"blockId": "aa5a4061",
+							"path": "1.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~3:text",
+							"blockId": "8f7cd2f0~3",
+							"path": "1.0.1.3.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c54c94b3:image.url",
+							"blockId": "c54c94b3",
+							"path": "1.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2946ad1c:image.url",
+							"blockId": "2946ad1c",
+							"path": "1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/psycology-therapy-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Therapist talking with a stressed woman in a counseling session",
+							"tone": {
+								"grid": [
+									0.81,
+									0.9,
+									0.81,
+									0.29,
+									0.65,
+									0.47,
+									0.46,
+									0.48,
+									0.49
+								],
+								"color": "#a29691"
+							}
+						},
+						{
+							"id": "b4d66bd1:image.url",
+							"blockId": "b4d66bd1",
+							"path": "1.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/confidence-restoration-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Businessman celebrating with clenched fists at his laptop",
+							"tone": {
+								"grid": [
+									0.69,
+									0.81,
+									0.82,
+									0.45,
+									0.39,
+									0.45,
+									0.56,
+									0.46,
+									0.59
+								],
+								"color": "#949496"
+							}
+						},
+						{
+							"id": "9fcc7bf7:image.url",
+							"blockId": "9fcc7bf7",
+							"path": "1.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/work-improvement.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Cheerful man in a beanie giving a thumbs up at a desk",
+							"tone": {
+								"grid": [
+									0.83,
+									0.81,
+									0.9,
+									0.83,
+									0.48,
+									0.92,
+									0.62,
+									0.4,
+									0.74
+								],
+								"color": "#bfb7b6"
+							}
+						},
+						{
+							"id": "794454e2:image.url",
+							"blockId": "794454e2",
+							"path": "1.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/couple.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Elderly couple drinking coffee together",
+							"tone": {
+								"grid": [
+									0.15,
+									0.22,
+									0.32,
+									0.37,
+									0.26,
+									0.35,
+									0.63,
+									0.44,
+									0.25
+								],
+								"color": "#5f5252"
+							}
+						}
+					]
+				},
+				{
+					"id": "e137ebf1",
+					"index": 2,
+					"path": "2",
+					"group": "e137ebf1",
+					"role": "cta",
+					"title": "Together We",
+					"slots": [
+						{
+							"id": "30268fac:text",
+							"blockId": "30268fac",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Together We",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bd3f05a7:text",
+							"blockId": "bd3f05a7",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Make Your Life Better",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "87ed7225:text",
+							"blockId": "87ed7225",
+							"path": "2.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a85e628b:text",
+							"blockId": "a85e628b",
+							"path": "2.1.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "About Me",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4eecdf9f:image.url",
+							"blockId": "4eecdf9f",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/about.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 1414,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Elderly woman in glasses sitting with arms crossed",
+							"tone": {
+								"grid": [
+									0.81,
+									0.71,
+									0.88,
+									0.55,
+									0.67,
+									0.54,
+									0.3,
+									0.45,
+									0.3
+								],
+								"color": "#959392"
+							}
+						},
+						{
+							"id": "10e63992:image.url",
+							"blockId": "10e63992",
+							"path": "2.1.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "3896b394",
+					"index": 3,
+					"path": "3",
+					"group": "3896b394",
+					"role": "stats",
+					"title": "Let The",
+					"slots": [
+						{
+							"id": "bdff3335:text",
+							"blockId": "bdff3335",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Let The",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "272cad9f:text",
+							"blockId": "272cad9f",
+							"path": "3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Numbers Speak",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11ed099b:text",
+							"blockId": "11ed099b",
+							"path": "3.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4602b20e:text",
+							"blockId": "4602b20e",
+							"path": "3.0.0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "600",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "67af151c:text",
+							"blockId": "67af151c",
+							"path": "3.0.0.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Consulted",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1a00a85a:text",
+							"blockId": "1a00a85a",
+							"path": "3.0.0.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "10",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "3ba2c653:text",
+							"blockId": "3ba2c653",
+							"path": "3.0.0.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Awards",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bcc40c74:text",
+							"blockId": "bcc40c74",
+							"path": "3.0.0.1.0.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "590",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "dbe29626:text",
+							"blockId": "dbe29626",
+							"path": "3.0.0.1.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Successful Counseling",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "71fe7496:text",
+							"blockId": "71fe7496",
+							"path": "3.0.0.1.0.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "7",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "dd30e574:text",
+							"blockId": "dd30e574",
+							"path": "3.0.0.1.0.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Experience In Year",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7f122efd:image.url",
+							"blockId": "7f122efd",
+							"path": "3.0.0.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "2525e183",
+					"index": 4,
+					"path": "4",
+					"group": "2525e183",
+					"role": "features",
+					"title": "For Whom I Serve",
+					"slots": [
+						{
+							"id": "330077eb:text",
+							"blockId": "330077eb",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "For Whom I Serve",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e361689:text",
+							"blockId": "0e361689",
+							"path": "4.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "68368956:text",
+							"blockId": "68368956",
+							"path": "4.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Families",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "49e13db6:text",
+							"blockId": "49e13db6",
+							"path": "4.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~4:text",
+							"blockId": "8f7cd2f0~4",
+							"path": "4.0.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6b3fe79e:text",
+							"blockId": "6b3fe79e",
+							"path": "4.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Teenagers",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "58969562:text",
+							"blockId": "58969562",
+							"path": "4.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~5:text",
+							"blockId": "8f7cd2f0~5",
+							"path": "4.0.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dd500066:text",
+							"blockId": "dd500066",
+							"path": "4.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Individual",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62eab78d:text",
+							"blockId": "62eab78d",
+							"path": "4.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~6:text",
+							"blockId": "8f7cd2f0~6",
+							"path": "4.0.1.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5a5fedca:text",
+							"blockId": "5a5fedca",
+							"path": "4.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Couples",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "04521a5e:text",
+							"blockId": "04521a5e",
+							"path": "4.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~7:text",
+							"blockId": "8f7cd2f0~7",
+							"path": "4.0.1.3.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "39236c29:image.url",
+							"blockId": "39236c29",
+							"path": "4.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "9f5067e9:image.url",
+							"blockId": "9f5067e9",
+							"path": "4.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/family.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Young family with two kids posing at home",
+							"tone": {
+								"grid": [
+									0.65,
+									0.58,
+									0.81,
+									0.56,
+									0.41,
+									0.74,
+									0.46,
+									0.29,
+									0.69
+								],
+								"color": "#9e908d"
+							}
+						},
+						{
+							"id": "fec9d582:image.url",
+							"blockId": "fec9d582",
+							"path": "4.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/teenagers.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Two teenage boys sitting on steps looking at phones",
+							"tone": {
+								"grid": [
+									0.57,
+									0.47,
+									0.46,
+									0.47,
+									0.47,
+									0.49,
+									0.29,
+									0.41,
+									0.45
+								],
+								"color": "#7b7270"
+							}
+						},
+						{
+							"id": "6afc1e67:image.url",
+							"blockId": "6afc1e67",
+							"path": "4.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/work-improvement.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Cheerful man in a beanie giving a thumbs up at a desk",
+							"tone": {
+								"grid": [
+									0.83,
+									0.81,
+									0.9,
+									0.83,
+									0.48,
+									0.92,
+									0.62,
+									0.4,
+									0.74
+								],
+								"color": "#bfb7b6"
+							}
+						},
+						{
+							"id": "10c7c1c0:image.url",
+							"blockId": "10c7c1c0",
+							"path": "4.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/couple.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Elderly couple drinking coffee together",
+							"tone": {
+								"grid": [
+									0.15,
+									0.22,
+									0.32,
+									0.37,
+									0.26,
+									0.35,
+									0.63,
+									0.44,
+									0.25
+								],
+								"color": "#5f5252"
+							}
+						}
+					]
+				},
+				{
+					"id": "c97ef891",
+					"index": 5,
+					"path": "5",
+					"group": "c97ef891",
+					"role": "content",
+					"title": "The Best Thing",
+					"slots": [
+						{
+							"id": "bccbfd88:text",
+							"blockId": "bccbfd88",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "The Best Thing",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "38e645e6:text",
+							"blockId": "38e645e6",
+							"path": "5.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About Being A Psychologist",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74593f58:text",
+							"blockId": "74593f58",
+							"path": "5.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. \"",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "c97ef891:background.image.image.url",
+							"blockId": "c97ef891",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/banner-2.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Therapist talking with a young man in a counseling session",
+							"tone": {
+								"grid": [
+									0.8,
+									0.91,
+									0.8,
+									0.46,
+									0.73,
+									0.76,
+									0.21,
+									0.47,
+									0.33
+								],
+								"color": "#a19a98"
+							}
+						},
+						{
+							"id": "fe18067c:image.url",
+							"blockId": "fe18067c",
+							"path": "5.0.0.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator-white.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "4bfa1e19",
+					"index": 6,
+					"path": "6",
+					"group": "4bfa1e19",
+					"role": "cta",
+					"title": "Online Session",
+					"slots": [
+						{
+							"id": "07aa8f4b:text",
+							"blockId": "07aa8f4b",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Online Session",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "54b162f0:text",
+							"blockId": "54b162f0",
+							"path": "6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get A Counseling Right Now",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d797e6a7:text",
+							"blockId": "d797e6a7",
+							"path": "6.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit,,",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a85e628b~1:text",
+							"blockId": "a85e628b~1",
+							"path": "6.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get an appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e27191f8:image.url",
+							"blockId": "e27191f8",
+							"path": "6.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "1922e290:image.url",
+							"blockId": "1922e290",
+							"path": "6.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/video-banner.jpg",
+							"decorative": false,
+							"width": 1109,
+							"height": 624,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Elderly woman sitting in a chair in a bright room",
+							"tone": {
+								"grid": [
+									0.73,
+									0.76,
+									0.78,
+									0.44,
+									0.44,
+									0.47,
+									0.53,
+									0.4,
+									0.53
+								],
+								"color": "#938f8f"
+							}
+						}
+					]
+				},
+				{
+					"id": "f80f66a1",
+					"index": 7,
+					"path": "7",
+					"group": "f80f66a1",
+					"role": "testimonials",
+					"title": "Review From Clients",
+					"slots": [
+						{
+							"id": "b2768cc4:text",
+							"blockId": "b2768cc4",
+							"path": "7.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Review From Clients",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3b513237:text",
+							"blockId": "3b513237",
+							"path": "7.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "464ab687:text",
+							"blockId": "464ab687",
+							"path": "7.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+							"rich": true,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "35d37175:text",
+							"blockId": "35d37175",
+							"path": "7.0.1.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Amar Sigdel",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cd2950dc:text",
+							"blockId": "cd2950dc",
+							"path": "7.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+							"rich": true,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3c2b033e:text",
+							"blockId": "3c2b033e",
+							"path": "7.0.1.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "John Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "471e6190:text",
+							"blockId": "471e6190",
+							"path": "7.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+							"rich": true,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0d359195:text",
+							"blockId": "0d359195",
+							"path": "7.0.2.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Adan Sigdel",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d765579d:text",
+							"blockId": "d765579d",
+							"path": "7.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+							"rich": true,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b772938a:text",
+							"blockId": "b772938a",
+							"path": "7.0.2.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Eve Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ac67c387:image.url",
+							"blockId": "ac67c387",
+							"path": "7.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ca2622fc:image.url",
+							"blockId": "ca2622fc",
+							"path": "7.0.1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/portrait-2.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with curly hair portrait",
+							"tone": {
+								"grid": [
+									0.22,
+									0.17,
+									0.28,
+									0.26,
+									0.2,
+									0.27,
+									0.2,
+									0.49,
+									0.31
+								],
+								"color": "#49443a"
+							}
+						},
+						{
+							"id": "c859b785:image.url",
+							"blockId": "c859b785",
+							"path": "7.0.1.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/confidence-restoration-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Businessman celebrating with clenched fists at his laptop",
+							"tone": {
+								"grid": [
+									0.69,
+									0.81,
+									0.82,
+									0.45,
+									0.39,
+									0.45,
+									0.56,
+									0.46,
+									0.59
+								],
+								"color": "#949496"
+							}
+						},
+						{
+							"id": "7037e9cb:image.url",
+							"blockId": "7037e9cb",
+							"path": "7.0.2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/work-improvement.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Cheerful man in a beanie giving a thumbs up at a desk",
+							"tone": {
+								"grid": [
+									0.83,
+									0.81,
+									0.9,
+									0.83,
+									0.48,
+									0.92,
+									0.62,
+									0.4,
+									0.74
+								],
+								"color": "#bfb7b6"
+							}
+						},
+						{
+							"id": "81931d74:image.url",
+							"blockId": "81931d74",
+							"path": "7.0.2.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/portait-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Elderly woman in a black hat and glasses sitting",
+							"tone": {
+								"grid": [
+									0.71,
+									0.69,
+									0.64,
+									0.59,
+									0.25,
+									0.4,
+									0.31,
+									0.07,
+									0.39
+								],
+								"color": "#74726d"
+							}
+						}
+					]
+				},
+				{
+					"id": "df6775ac",
+					"index": 8,
+					"path": "8",
+					"group": "df6775ac",
+					"role": "cta",
+					"title": "Request A Free Consultation",
+					"slots": [
+						{
+							"id": "e704d858:text",
+							"blockId": "e704d858",
+							"path": "8.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Request A Free Consultation",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b2fca422:text",
+							"blockId": "b2fca422",
+							"path": "8.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Sed do eiusmod tempor Lorem ipsum dolor sit ame",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5d3cf6a6~1:text",
+							"blockId": "5d3cf6a6~1",
+							"path": "8.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get an appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "8f8344a7:image.url",
+							"blockId": "8f8344a7",
+							"path": "8.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator-white.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "f81f47e8",
+					"index": 9,
+					"path": "9",
+					"group": "f81f47e8",
+					"role": "posts",
+					"title": "Latest Article",
+					"slots": [
+						{
+							"id": "f3061567:text",
+							"blockId": "f3061567",
+							"path": "9.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest Article",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7e6189c0:text",
+							"blockId": "7e6189c0",
+							"path": "9.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "051052f5:text",
+							"blockId": "051052f5",
+							"path": "9.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Love & Relationship",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "67fa2410:text",
+							"blockId": "67fa2410",
+							"path": "9.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Scelerisque imperdiet ridiculus arcu scelerisque lobortis vel hendrerit aliquam eget sed purus risus",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~8:text",
+							"blockId": "8f7cd2f0~8",
+							"path": "9.0.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "43a8e5df:text",
+							"blockId": "43a8e5df",
+							"path": "9.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Learning Happiness",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae89bf53:text",
+							"blockId": "ae89bf53",
+							"path": "9.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Scelerisque imperdiet ridiculus arcu scelerisque lobortis vel hendrerit aliquam eget sed purus risus",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~9:text",
+							"blockId": "8f7cd2f0~9",
+							"path": "9.0.1.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0c7a302c:text",
+							"blockId": "0c7a302c",
+							"path": "9.0.1.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Social Psychology",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7248be5:text",
+							"blockId": "f7248be5",
+							"path": "9.0.1.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Scelerisque imperdiet ridiculus arcu scelerisque lobortis vel hendrerit aliquam eget sed purus risus",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~10:text",
+							"blockId": "8f7cd2f0~10",
+							"path": "9.0.1.2.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "71eb7a52:image.url",
+							"blockId": "71eb7a52",
+							"path": "9.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "84fa4a57",
+					"role": "hero",
+					"title": "Discover The",
+					"sectionIds": [
+						"84fa4a57"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3c5ecb61",
+					"role": "features",
+					"title": "I Can Help You",
+					"sectionIds": [
+						"3c5ecb61"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e137ebf1",
+					"role": "cta",
+					"title": "Together We",
+					"sectionIds": [
+						"e137ebf1"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3896b394",
+					"role": "stats",
+					"title": "Let The",
+					"sectionIds": [
+						"3896b394"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "2525e183",
+					"role": "features",
+					"title": "For Whom I Serve",
+					"sectionIds": [
+						"2525e183"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c97ef891",
+					"role": "content",
+					"title": "The Best Thing",
+					"sectionIds": [
+						"c97ef891"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4bfa1e19",
+					"role": "cta",
+					"title": "Online Session",
+					"sectionIds": [
+						"4bfa1e19"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f80f66a1",
+					"role": "testimonials",
+					"title": "Review From Clients",
+					"sectionIds": [
+						"f80f66a1"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "df6775ac",
+					"role": "cta",
+					"title": "Request A Free Consultation",
+					"sectionIds": [
+						"df6775ac"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f81f47e8",
+					"role": "posts",
+					"title": "Latest Article",
+					"sectionIds": [
+						"f81f47e8"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-me",
+			"title": "About Me",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/themegrill-demos/about-me-content.xml",
+			"sections": [
+				{
+					"id": "c8ed8307",
+					"index": 0,
+					"path": "0",
+					"group": "c8ed8307",
+					"role": "hero",
+					"title": "About Me",
+					"slots": [
+						{
+							"id": "24d50a62:text",
+							"blockId": "24d50a62",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About Me",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "acd2a7f7:text",
+							"blockId": "acd2a7f7",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Sed do eiusmod tempor Lorem ipsum dolor sit amet",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "4b3bc356:image.url",
+							"blockId": "4b3bc356",
+							"path": "0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator-white.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "4bfa1e19",
+					"index": 1,
+					"path": "1",
+					"group": "4bfa1e19",
+					"role": "cta",
+					"title": "Hello !",
+					"slots": [
+						{
+							"id": "07aa8f4b:text",
+							"blockId": "07aa8f4b",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Hello !",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "54b162f0:text",
+							"blockId": "54b162f0",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "I Am Mrs. Jane Doe",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d797e6a7:text",
+							"blockId": "d797e6a7",
+							"path": "1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic, or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+							"rich": false,
+							"words": 73,
+							"minWords": 44,
+							"maxWords": 92,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a85e628b:text",
+							"blockId": "a85e628b",
+							"path": "1.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get an appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e27191f8:image.url",
+							"blockId": "e27191f8",
+							"path": "1.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "1922e290:image.url",
+							"blockId": "1922e290",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/psycology-therapy-1-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Therapist talking with a stressed woman in a counseling session",
+							"tone": {
+								"grid": [
+									0.81,
+									0.9,
+									0.81,
+									0.29,
+									0.65,
+									0.47,
+									0.46,
+									0.48,
+									0.49
+								],
+								"color": "#a29691"
+							}
+						}
+					]
+				},
+				{
+					"id": "81f21d47",
+					"index": 2,
+					"path": "2",
+					"group": "81f21d47",
+					"role": "features",
+					"title": "Why Choose Me",
+					"slots": [
+						{
+							"id": "af86c773:text",
+							"blockId": "af86c773",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Why Choose Me",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c28366ef:text",
+							"blockId": "c28366ef",
+							"path": "2.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e749d5be:text",
+							"blockId": "e749d5be",
+							"path": "2.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Confidentiality",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bef94d0e:text",
+							"blockId": "bef94d0e",
+							"path": "2.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d3afa004:text",
+							"blockId": "d3afa004",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Emergency Care",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aedb470c:text",
+							"blockId": "aedb470c",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "da667ef9:text",
+							"blockId": "da667ef9",
+							"path": "2.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Professionalism",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ed3ffbcc:text",
+							"blockId": "ed3ffbcc",
+							"path": "2.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e723cd08:text",
+							"blockId": "e723cd08",
+							"path": "2.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Certified Counselling",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "934a378b:text",
+							"blockId": "934a378b",
+							"path": "2.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "113167d3:image.url",
+							"blockId": "113167d3",
+							"path": "2.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ff330a2a:image.url",
+							"blockId": "ff330a2a",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/shield.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "e8bfb880:image.url",
+							"blockId": "e8bfb880",
+							"path": "2.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/emeergency-call.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "8fde8f60:image.url",
+							"blockId": "8fde8f60",
+							"path": "2.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/proffessional.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "7e396c5a:image.url",
+							"blockId": "7e396c5a",
+							"path": "2.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/certificate.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "c97ef891",
+					"index": 3,
+					"path": "3",
+					"group": "c97ef891",
+					"role": "content",
+					"title": "The Best Thing",
+					"slots": [
+						{
+							"id": "bccbfd88:text",
+							"blockId": "bccbfd88",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "The Best Thing",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "38e645e6:text",
+							"blockId": "38e645e6",
+							"path": "3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About Being A Psychologist",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74593f58:text",
+							"blockId": "74593f58",
+							"path": "3.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. \"",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "c97ef891:background.image.image.url",
+							"blockId": "c97ef891",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/banner-2.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Therapist talking with a young man in a counseling session",
+							"tone": {
+								"grid": [
+									0.8,
+									0.91,
+									0.8,
+									0.46,
+									0.73,
+									0.76,
+									0.21,
+									0.47,
+									0.33
+								],
+								"color": "#a19a98"
+							}
+						},
+						{
+							"id": "fe18067c:image.url",
+							"blockId": "fe18067c",
+							"path": "3.0.0.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator-white.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "3c5ecb61",
+					"index": 4,
+					"path": "4",
+					"group": "3c5ecb61",
+					"role": "features",
+					"title": "I Can Help You",
+					"slots": [
+						{
+							"id": "6706bfd0:text",
+							"blockId": "6706bfd0",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "I Can Help You",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "04b38fd6:text",
+							"blockId": "04b38fd6",
+							"path": "4.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "026e54c7:text",
+							"blockId": "026e54c7",
+							"path": "4.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Psychology Therapy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba1b8807:text",
+							"blockId": "ba1b8807",
+							"path": "4.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0:text",
+							"blockId": "8f7cd2f0",
+							"path": "4.0.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "90e9bff1:text",
+							"blockId": "90e9bff1",
+							"path": "4.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Confidence Restoration",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "181ca3ce:text",
+							"blockId": "181ca3ce",
+							"path": "4.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~1:text",
+							"blockId": "8f7cd2f0~1",
+							"path": "4.0.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b0f2b686:text",
+							"blockId": "b0f2b686",
+							"path": "4.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Work Life Improvement",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3d6860b:text",
+							"blockId": "b3d6860b",
+							"path": "4.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~2:text",
+							"blockId": "8f7cd2f0~2",
+							"path": "4.0.1.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "872fba14:text",
+							"blockId": "872fba14",
+							"path": "4.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Relationship Problems",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa5a4061:text",
+							"blockId": "aa5a4061",
+							"path": "4.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~3:text",
+							"blockId": "8f7cd2f0~3",
+							"path": "4.0.1.3.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c54c94b3:image.url",
+							"blockId": "c54c94b3",
+							"path": "4.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2946ad1c:image.url",
+							"blockId": "2946ad1c",
+							"path": "4.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/psycology-therapy-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Therapist talking with a stressed woman in a counseling session",
+							"tone": {
+								"grid": [
+									0.81,
+									0.9,
+									0.81,
+									0.29,
+									0.65,
+									0.47,
+									0.46,
+									0.48,
+									0.49
+								],
+								"color": "#a29691"
+							}
+						},
+						{
+							"id": "b4d66bd1:image.url",
+							"blockId": "b4d66bd1",
+							"path": "4.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/confidence-restoration-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Businessman celebrating with clenched fists at his laptop",
+							"tone": {
+								"grid": [
+									0.69,
+									0.81,
+									0.82,
+									0.45,
+									0.39,
+									0.45,
+									0.56,
+									0.46,
+									0.59
+								],
+								"color": "#949496"
+							}
+						},
+						{
+							"id": "9fcc7bf7:image.url",
+							"blockId": "9fcc7bf7",
+							"path": "4.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/work-improvement.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Cheerful man in a beanie giving a thumbs up at a desk",
+							"tone": {
+								"grid": [
+									0.83,
+									0.81,
+									0.9,
+									0.83,
+									0.48,
+									0.92,
+									0.62,
+									0.4,
+									0.74
+								],
+								"color": "#bfb7b6"
+							}
+						},
+						{
+							"id": "794454e2:image.url",
+							"blockId": "794454e2",
+							"path": "4.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/couple.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Elderly couple drinking coffee together",
+							"tone": {
+								"grid": [
+									0.15,
+									0.22,
+									0.32,
+									0.37,
+									0.26,
+									0.35,
+									0.63,
+									0.44,
+									0.25
+								],
+								"color": "#5f5252"
+							}
+						}
+					]
+				},
+				{
+					"id": "c0e62282",
+					"index": 5,
+					"path": "5",
+					"group": "c0e62282",
+					"role": "features",
+					"title": "My Education",
+					"slots": [
+						{
+							"id": "2e695662:text",
+							"blockId": "2e695662",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "My Education",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6d4aad60:text",
+							"blockId": "6d4aad60",
+							"path": "5.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9760896d:text",
+							"blockId": "9760896d",
+							"path": "5.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Harvard University, Faculty Of Psychology",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bc5476f0:text",
+							"blockId": "bc5476f0",
+							"path": "5.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": true,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "566c8a87:text",
+							"blockId": "566c8a87",
+							"path": "5.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Harvard University, Masters In Psychology",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "da342f5a:text",
+							"blockId": "da342f5a",
+							"path": "5.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": true,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0dfd736f:text",
+							"blockId": "0dfd736f",
+							"path": "5.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Harvard University, PHD In Human Behaviour",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "89e3ff1a:text",
+							"blockId": "89e3ff1a",
+							"path": "5.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": true,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "8d49a76c:image.url",
+							"blockId": "8d49a76c",
+							"path": "5.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "a06d27f5:image.url",
+							"blockId": "a06d27f5",
+							"path": "5.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/2000.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "60b3fac9:image.url",
+							"blockId": "60b3fac9",
+							"path": "5.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/2006.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						},
+						{
+							"id": "bcaad0f8:image.url",
+							"blockId": "bcaad0f8",
+							"path": "5.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/2012.png",
+							"decorative": true,
+							"width": 150,
+							"height": 151,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "f80f66a1",
+					"index": 6,
+					"path": "6",
+					"group": "f80f66a1",
+					"role": "testimonials",
+					"title": "Review From Clients",
+					"slots": [
+						{
+							"id": "b2768cc4:text",
+							"blockId": "b2768cc4",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Review From Clients",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3b513237:text",
+							"blockId": "3b513237",
+							"path": "6.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "464ab687:text",
+							"blockId": "464ab687",
+							"path": "6.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+							"rich": true,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "35d37175:text",
+							"blockId": "35d37175",
+							"path": "6.0.1.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Amar Sigdel",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cd2950dc:text",
+							"blockId": "cd2950dc",
+							"path": "6.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+							"rich": true,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3c2b033e:text",
+							"blockId": "3c2b033e",
+							"path": "6.0.1.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "John Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "471e6190:text",
+							"blockId": "471e6190",
+							"path": "6.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+							"rich": true,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0d359195:text",
+							"blockId": "0d359195",
+							"path": "6.0.2.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Adan Sigdel",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d765579d:text",
+							"blockId": "d765579d",
+							"path": "6.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
+							"rich": true,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b772938a:text",
+							"blockId": "b772938a",
+							"path": "6.0.2.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Eve Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ac67c387:image.url",
+							"blockId": "ac67c387",
+							"path": "6.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ca2622fc:image.url",
+							"blockId": "ca2622fc",
+							"path": "6.0.1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/portrait-2.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with curly hair portrait",
+							"tone": {
+								"grid": [
+									0.22,
+									0.17,
+									0.28,
+									0.26,
+									0.2,
+									0.27,
+									0.2,
+									0.49,
+									0.31
+								],
+								"color": "#49443a"
+							}
+						},
+						{
+							"id": "c859b785:image.url",
+							"blockId": "c859b785",
+							"path": "6.0.1.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/confidence-restoration-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Businessman celebrating with clenched fists at his laptop",
+							"tone": {
+								"grid": [
+									0.69,
+									0.81,
+									0.82,
+									0.45,
+									0.39,
+									0.45,
+									0.56,
+									0.46,
+									0.59
+								],
+								"color": "#949496"
+							}
+						},
+						{
+							"id": "7037e9cb:image.url",
+							"blockId": "7037e9cb",
+							"path": "6.0.2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/work-improvement.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Cheerful man in a beanie giving a thumbs up at a desk",
+							"tone": {
+								"grid": [
+									0.83,
+									0.81,
+									0.9,
+									0.83,
+									0.48,
+									0.92,
+									0.62,
+									0.4,
+									0.74
+								],
+								"color": "#bfb7b6"
+							}
+						},
+						{
+							"id": "81931d74:image.url",
+							"blockId": "81931d74",
+							"path": "6.0.2.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/portait-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Elderly woman in a black hat and glasses sitting",
+							"tone": {
+								"grid": [
+									0.71,
+									0.69,
+									0.64,
+									0.59,
+									0.25,
+									0.4,
+									0.31,
+									0.07,
+									0.39
+								],
+								"color": "#74726d"
+							}
+						}
+					]
+				},
+				{
+					"id": "df6775ac",
+					"index": 7,
+					"path": "7",
+					"group": "df6775ac",
+					"role": "cta",
+					"title": "Request A Free Consultation",
+					"slots": [
+						{
+							"id": "e704d858:text",
+							"blockId": "e704d858",
+							"path": "7.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Request A Free Consultation",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b2fca422:text",
+							"blockId": "b2fca422",
+							"path": "7.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Sed do eiusmod tempor Lorem ipsum dolor sit ame",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5d3cf6a6:text",
+							"blockId": "5d3cf6a6",
+							"path": "7.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get an appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "8f8344a7:image.url",
+							"blockId": "8f8344a7",
+							"path": "7.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator-white.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "f81f47e8",
+					"index": 8,
+					"path": "8",
+					"group": "f81f47e8",
+					"role": "posts",
+					"title": "Latest Article",
+					"slots": [
+						{
+							"id": "f3061567:text",
+							"blockId": "f3061567",
+							"path": "8.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest Article",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7e6189c0:text",
+							"blockId": "7e6189c0",
+							"path": "8.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "051052f5:text",
+							"blockId": "051052f5",
+							"path": "8.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Love & Relationship",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "67fa2410:text",
+							"blockId": "67fa2410",
+							"path": "8.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Scelerisque imperdiet ridiculus arcu scelerisque lobortis vel hendrerit aliquam eget sed purus risus",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~4:text",
+							"blockId": "8f7cd2f0~4",
+							"path": "8.0.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "43a8e5df:text",
+							"blockId": "43a8e5df",
+							"path": "8.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Learning Happiness",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae89bf53:text",
+							"blockId": "ae89bf53",
+							"path": "8.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Scelerisque imperdiet ridiculus arcu scelerisque lobortis vel hendrerit aliquam eget sed purus risus",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~5:text",
+							"blockId": "8f7cd2f0~5",
+							"path": "8.0.1.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0c7a302c:text",
+							"blockId": "0c7a302c",
+							"path": "8.0.1.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Social Psychology",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7248be5:text",
+							"blockId": "f7248be5",
+							"path": "8.0.1.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Scelerisque imperdiet ridiculus arcu scelerisque lobortis vel hendrerit aliquam eget sed purus risus",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~6:text",
+							"blockId": "8f7cd2f0~6",
+							"path": "8.0.1.2.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "71eb7a52:image.url",
+							"blockId": "71eb7a52",
+							"path": "8.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "c8ed8307",
+					"role": "hero",
+					"title": "About Me",
+					"sectionIds": [
+						"c8ed8307"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4bfa1e19",
+					"role": "cta",
+					"title": "Hello !",
+					"sectionIds": [
+						"4bfa1e19"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "81f21d47",
+					"role": "features",
+					"title": "Why Choose Me",
+					"sectionIds": [
+						"81f21d47"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c97ef891",
+					"role": "content",
+					"title": "The Best Thing",
+					"sectionIds": [
+						"c97ef891"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3c5ecb61",
+					"role": "features",
+					"title": "I Can Help You",
+					"sectionIds": [
+						"3c5ecb61"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c0e62282",
+					"role": "features",
+					"title": "My Education",
+					"sectionIds": [
+						"c0e62282"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f80f66a1",
+					"role": "testimonials",
+					"title": "Review From Clients",
+					"sectionIds": [
+						"f80f66a1"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "df6775ac",
+					"role": "cta",
+					"title": "Request A Free Consultation",
+					"sectionIds": [
+						"df6775ac"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f81f47e8",
+					"role": "posts",
+					"title": "Latest Article",
+					"sectionIds": [
+						"f81f47e8"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "events",
+			"title": "Events",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/themegrill-demos/events-content.xml",
+			"sections": [
+				{
+					"id": "c8ed8307",
+					"index": 0,
+					"path": "0",
+					"group": "c8ed8307",
+					"role": "hero",
+					"title": "Events",
+					"slots": [
+						{
+							"id": "24d50a62:text",
+							"blockId": "24d50a62",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Events",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "acd2a7f7:text",
+							"blockId": "acd2a7f7",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Sed do eiusmod tempor Lorem ipsum dolor sit amet",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "4b3bc356:image.url",
+							"blockId": "4b3bc356",
+							"path": "0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator-white.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "3c5ecb61",
+					"index": 1,
+					"path": "1",
+					"group": "3c5ecb61",
+					"role": "features",
+					"title": "Join My Events",
+					"slots": [
+						{
+							"id": "6706bfd0:text",
+							"blockId": "6706bfd0",
+							"path": "1.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Join My Events",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "04b38fd6:text",
+							"blockId": "04b38fd6",
+							"path": "1.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8df1acf0:text",
+							"blockId": "8df1acf0",
+							"path": "1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Annual Summit On Positive Psychiatry",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "181ca3ce:text",
+							"blockId": "181ca3ce",
+							"path": "1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0:text",
+							"blockId": "8f7cd2f0",
+							"path": "1.0.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b0f2b686:text",
+							"blockId": "b0f2b686",
+							"path": "1.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "International Congress Of Psychology",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3d6860b:text",
+							"blockId": "b3d6860b",
+							"path": "1.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~1:text",
+							"blockId": "8f7cd2f0~1",
+							"path": "1.0.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "872fba14:text",
+							"blockId": "872fba14",
+							"path": "1.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mental Health, Dementia And Learning",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa5a4061:text",
+							"blockId": "aa5a4061",
+							"path": "1.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~2:text",
+							"blockId": "8f7cd2f0~2",
+							"path": "1.0.1.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "632317a2:text",
+							"blockId": "632317a2",
+							"path": "1.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mental Health And Suicidal Prevention",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "816c0915:text",
+							"blockId": "816c0915",
+							"path": "1.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~3:text",
+							"blockId": "8f7cd2f0~3",
+							"path": "1.0.2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cbf1ec01:text",
+							"blockId": "cbf1ec01",
+							"path": "1.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mental Health Today And Stress Management",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e59f6652:text",
+							"blockId": "e59f6652",
+							"path": "1.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~4:text",
+							"blockId": "8f7cd2f0~4",
+							"path": "1.0.2.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2aea46d4:text",
+							"blockId": "2aea46d4",
+							"path": "1.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "International Congress Of Cognitive Psychotherapy",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2f173976:text",
+							"blockId": "2f173976",
+							"path": "1.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~5:text",
+							"blockId": "8f7cd2f0~5",
+							"path": "1.0.2.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ed9b551:text",
+							"blockId": "9ed9b551",
+							"path": "1.0.3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mental Health Today And Stress Management Event",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0b25e11f:text",
+							"blockId": "0b25e11f",
+							"path": "1.0.3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~6:text",
+							"blockId": "8f7cd2f0~6",
+							"path": "1.0.3.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5c687fd3:text",
+							"blockId": "5c687fd3",
+							"path": "1.0.3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "International Congress Of Cognitive Psychotherapy",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5b5ba02c:text",
+							"blockId": "5b5ba02c",
+							"path": "1.0.3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~7:text",
+							"blockId": "8f7cd2f0~7",
+							"path": "1.0.3.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "48782272:text",
+							"blockId": "48782272",
+							"path": "1.0.3.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mental Health, Dementia And Learning Disabilities",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74a8b822:text",
+							"blockId": "74a8b822",
+							"path": "1.0.3.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8f7cd2f0~8:text",
+							"blockId": "8f7cd2f0~8",
+							"path": "1.0.3.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "JOIN EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c54c94b3:image.url",
+							"blockId": "c54c94b3",
+							"path": "1.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						},
+						{
+							"id": "b4d66bd1:image.url",
+							"blockId": "b4d66bd1",
+							"path": "1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/Event-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Audience seated watching a conference presentation",
+							"tone": {
+								"grid": [
+									0.15,
+									0.2,
+									0.18,
+									0.2,
+									0.25,
+									0.23,
+									0.12,
+									0.09,
+									0.08
+								],
+								"color": "#222768"
+							}
+						},
+						{
+							"id": "9fcc7bf7:image.url",
+							"blockId": "9fcc7bf7",
+							"path": "1.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/event-2-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Audience at a conference with a woman raising her fist",
+							"tone": {
+								"grid": [
+									0.51,
+									0.34,
+									0.22,
+									0.28,
+									0.34,
+									0.21,
+									0.18,
+									0.19,
+									0.23
+								],
+								"color": "#3f4854"
+							}
+						},
+						{
+							"id": "794454e2:image.url",
+							"blockId": "794454e2",
+							"path": "1.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/event-4-2.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Young audience seated at a seminar",
+							"tone": {
+								"grid": [
+									0.65,
+									0.65,
+									0.65,
+									0.28,
+									0.25,
+									0.32,
+									0.17,
+									0.09,
+									0.18
+								],
+								"color": "#645b55"
+							}
+						},
+						{
+							"id": "dde27750:image.url",
+							"blockId": "dde27750",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/event-5-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Speaker addressing a large audience in a lecture hall",
+							"tone": {
+								"grid": [
+									0.35,
+									0.41,
+									0.36,
+									0.38,
+									0.38,
+									0.41,
+									0.68,
+									0.56,
+									0.57
+								],
+								"color": "#7a736b"
+							}
+						},
+						{
+							"id": "3ba658b8:image.url",
+							"blockId": "3ba658b8",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/Event-1-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Audience seated watching a conference presentation",
+							"tone": {
+								"grid": [
+									0.15,
+									0.2,
+									0.18,
+									0.2,
+									0.25,
+									0.23,
+									0.12,
+									0.09,
+									0.08
+								],
+								"color": "#222768"
+							}
+						},
+						{
+							"id": "ea7d9df1:image.url",
+							"blockId": "ea7d9df1",
+							"path": "1.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/event-4-2.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Young audience seated at a seminar",
+							"tone": {
+								"grid": [
+									0.65,
+									0.65,
+									0.65,
+									0.28,
+									0.25,
+									0.32,
+									0.17,
+									0.09,
+									0.18
+								],
+								"color": "#645b55"
+							}
+						},
+						{
+							"id": "526e8e6b:image.url",
+							"blockId": "526e8e6b",
+							"path": "1.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/event-5-1.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Speaker addressing a large audience in a lecture hall",
+							"tone": {
+								"grid": [
+									0.35,
+									0.41,
+									0.36,
+									0.38,
+									0.38,
+									0.41,
+									0.68,
+									0.56,
+									0.57
+								],
+								"color": "#7a736b"
+							}
+						},
+						{
+							"id": "c9449ec9:image.url",
+							"blockId": "c9449ec9",
+							"path": "1.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/event-4-2.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Young audience seated at a seminar",
+							"tone": {
+								"grid": [
+									0.65,
+									0.65,
+									0.65,
+									0.28,
+									0.25,
+									0.32,
+									0.17,
+									0.09,
+									0.18
+								],
+								"color": "#645b55"
+							}
+						},
+						{
+							"id": "67f7e112:image.url",
+							"blockId": "67f7e112",
+							"path": "1.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/event-2.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 800,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Audience at a conference with a woman raising her fist",
+							"tone": {
+								"grid": [
+									0.51,
+									0.34,
+									0.22,
+									0.28,
+									0.34,
+									0.21,
+									0.18,
+									0.19,
+									0.23
+								],
+								"color": "#3f4854"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "c8ed8307",
+					"role": "hero",
+					"title": "Events",
+					"sectionIds": [
+						"c8ed8307"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3c5ecb61",
+					"role": "features",
+					"title": "Join My Events",
+					"sectionIds": [
+						"3c5ecb61"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "c8ed8307",
+					"index": 0,
+					"path": "0",
+					"group": "c8ed8307",
+					"role": "hero",
+					"title": "Contact Me",
+					"slots": [
+						{
+							"id": "24d50a62:text",
+							"blockId": "24d50a62",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Contact Me",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "acd2a7f7:text",
+							"blockId": "acd2a7f7",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Sed do eiusmod tempor Lorem ipsum dolor sit amet",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "4b3bc356:image.url",
+							"blockId": "4b3bc356",
+							"path": "0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator-white.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "80eb44f2",
+					"index": 1,
+					"path": "1",
+					"group": "80eb44f2",
+					"role": "content",
+					"title": "Contact Information",
+					"slots": [
+						{
+							"id": "af86c773:text",
+							"blockId": "af86c773",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Contact Information",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c28366ef:text",
+							"blockId": "c28366ef",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.",
+							"rich": false,
+							"words": 49,
+							"minWords": 29,
+							"maxWords": 62,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "07ce73e7:image.url",
+							"blockId": "07ce73e7",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/about.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 1414,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Elderly woman in glasses sitting with arms crossed",
+							"tone": {
+								"grid": [
+									0.81,
+									0.71,
+									0.88,
+									0.55,
+									0.67,
+									0.54,
+									0.3,
+									0.45,
+									0.3
+								],
+								"color": "#959392"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				},
+				{
+					"id": "df6775ac",
+					"index": 2,
+					"path": "2",
+					"group": "df6775ac",
+					"role": "cta",
+					"title": "Request A Free Consultation",
+					"slots": [
+						{
+							"id": "e704d858:text",
+							"blockId": "e704d858",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Request A Free Consultation",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b2fca422:text",
+							"blockId": "b2fca422",
+							"path": "2.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Sed do eiusmod tempor Lorem ipsum dolor sit ame",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5d3cf6a6:text",
+							"blockId": "5d3cf6a6",
+							"path": "2.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get an appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "8f8344a7:image.url",
+							"blockId": "8f8344a7",
+							"path": "2.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator-white.png",
+							"decorative": true,
+							"width": 169,
+							"height": 16,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "c8ed8307",
+					"role": "hero",
+					"title": "Contact Me",
+					"sectionIds": [
+						"c8ed8307"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "80eb44f2",
+					"role": "content",
+					"title": "Contact Information",
+					"sectionIds": [
+						"80eb44f2"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "df6775ac",
+					"role": "cta",
+					"title": "Request A Free Consultation",
+					"sectionIds": [
+						"df6775ac"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 24,
+		"textSlots": 181,
+		"editableSlots": 177,
+		"images": 65,
+		"swappableImages": 36,
+		"words": 1579
+	},
+	"builtAt": "2026-10-24T11:35:07.957Z"
+}

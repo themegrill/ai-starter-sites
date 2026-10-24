@@ -36,6 +36,19 @@ export const saveGeneration = (id: string, entry: Omit<StoredGeneration, 'create
 	prune();
 };
 
+// Briefs read for the designs list, reused when the user generates from one.
+type StoredBrief = { brief: Brief; ranking: string[]; createdAt: number };
+const briefs = new Map<string, StoredBrief>();
+
+export const saveBrief = (id: string, entry: Omit<StoredBrief, 'createdAt'>) => {
+	const now = Date.now();
+	for (const [key, value] of briefs) if (now - value.createdAt > TTL_MS) briefs.delete(key);
+	briefs.set(id, { ...entry, createdAt: now });
+	while (briefs.size > MAX_ENTRIES) briefs.delete(briefs.keys().next().value!);
+};
+
+export const getBrief = (id: string) => briefs.get(id);
+
 export const getGeneration = (id: string) => {
 	prune();
 	return generations.get(id);

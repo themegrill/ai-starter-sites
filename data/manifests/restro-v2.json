@@ -1,0 +1,3579 @@
+{
+	"version": 4,
+	"slug": "restro-v2",
+	"name": "Restro V2",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "",
+	"demoUrl": "https://zakrademos.com/restro-v2",
+	"niches": [
+		"restaurant",
+		"food"
+	],
+	"keywords": [
+		"restaurant",
+		"dining",
+		"food delivery",
+		"bistro",
+		"fine dining",
+		"takeaway",
+		"bakery",
+		"cafe",
+		"pizza",
+		"food"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#261f1f",
+				"count": 59,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 43
+				}
+			},
+			{
+				"hex": "#f9b42f",
+				"count": 50,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f9b42f",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 7,
+					"border": 14,
+					"text": 24
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 28,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 11,
+					"background": 12
+				}
+			},
+			{
+				"hex": "#4e2c21",
+				"count": 26,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#4e2c21",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 16,
+					"background": 7
+				}
+			},
+			{
+				"hex": "#444444",
+				"count": 18,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 18
+				}
+			},
+			{
+				"hex": "#f2f2f2",
+				"count": 16,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 16
+				}
+			},
+			{
+				"hex": "#fffcf7",
+				"count": 14,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 14
+				}
+			},
+			{
+				"hex": "#8f8f8f",
+				"count": 12,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 12
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 10,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 8
+				}
+			},
+			{
+				"hex": "#111111",
+				"count": 9,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 8
+				}
+			},
+			{
+				"hex": "#eeeeee",
+				"count": 8,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 8
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#fffffa",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#420b03",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#4e2c21",
+				"lightnessDelta": -0.082
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0.014,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#f9b42f",
+				"bg": "#fffcf7",
+				"large": true,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#4e2c21",
+				"bg": "#f9b42f",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#4e2c21",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#4e2c21",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f9b42f",
+				"bg": "#fffcf7",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f9b42f",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f9b42f",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#4e2c21",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#4e2c21",
+				"bg": "#f9b42f",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fffffa",
+				"bg": "#4e2c21",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f9b42f",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Jost",
+			"map": {
+				"Poppins": "heading",
+				"Jost": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "my-account",
+			"title": "My account",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/themegrill-demos/my-account-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "cart",
+			"title": "Cart",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/themegrill-demos/cart-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"slots": [
+						{
+							"id": "core-0.0.0.1.0:@html:h",
+							"blockId": "core-0.0.0.1.0",
+							"path": "0.0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "You may be interested in…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0:@html:h",
+							"blockId": "core-0.1.0",
+							"path": "0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Your cart is currently empty!",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.2:@html:h",
+							"blockId": "core-0.1.2",
+							"path": "0.1.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New in store",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/cart",
+						"woocommerce/filled-cart-block",
+						"woocommerce/cart-items-block",
+						"woocommerce/cart-line-items-block",
+						"woocommerce/cart-cross-sells-block",
+						"woocommerce/cart-cross-sells-products-block",
+						"woocommerce/cart-totals-block",
+						"woocommerce/cart-order-summary-block",
+						"woocommerce/cart-order-summary-heading-block",
+						"woocommerce/cart-order-summary-coupon-form-block",
+						"woocommerce/cart-order-summary-subtotal-block",
+						"woocommerce/cart-order-summary-fee-block",
+						"woocommerce/cart-order-summary-discount-block",
+						"woocommerce/cart-order-summary-shipping-block",
+						"woocommerce/cart-order-summary-taxes-block",
+						"woocommerce/cart-express-payment-block",
+						"woocommerce/proceed-to-checkout-block",
+						"woocommerce/cart-accepted-payment-methods-block",
+						"woocommerce/empty-cart-block",
+						"woocommerce/product-new"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "checkout",
+			"title": "Checkout",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/themegrill-demos/checkout-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/checkout",
+						"woocommerce/checkout-fields-block",
+						"woocommerce/checkout-express-payment-block",
+						"woocommerce/checkout-contact-information-block",
+						"woocommerce/checkout-shipping-method-block",
+						"woocommerce/checkout-pickup-options-block",
+						"woocommerce/checkout-shipping-address-block",
+						"woocommerce/checkout-billing-address-block",
+						"woocommerce/checkout-shipping-methods-block",
+						"woocommerce/checkout-payment-block",
+						"woocommerce/checkout-additional-information-block",
+						"woocommerce/checkout-order-note-block",
+						"woocommerce/checkout-terms-block",
+						"woocommerce/checkout-actions-block",
+						"woocommerce/checkout-totals-block",
+						"woocommerce/checkout-order-summary-block",
+						"woocommerce/checkout-order-summary-cart-items-block",
+						"woocommerce/checkout-order-summary-coupon-form-block",
+						"woocommerce/checkout-order-summary-subtotal-block",
+						"woocommerce/checkout-order-summary-fee-block",
+						"woocommerce/checkout-order-summary-discount-block",
+						"woocommerce/checkout-order-summary-shipping-block",
+						"woocommerce/checkout-order-summary-taxes-block"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "22dcf22d",
+					"index": 0,
+					"path": "0",
+					"group": "22dcf22d",
+					"role": "hero",
+					"title": "Experience Dining Like Never Before",
+					"slots": [
+						{
+							"id": "09962566:text",
+							"blockId": "09962566",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Experience Dining Like Never Before",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e44fe59e:text",
+							"blockId": "e44fe59e",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Indulge in an unforgettable dining experience like never before at our exquisite restaurant.",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "90b2e7cb:text",
+							"blockId": "90b2e7cb",
+							"path": "0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Order Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "22dcf22d:background.image.image.url",
+							"blockId": "22dcf22d",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10053-1.jpg",
+							"decorative": false,
+							"width": 2400,
+							"height": 1025,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Overhead view of breakfast plates and bowls on a table",
+							"tone": {
+								"grid": [
+									1,
+									0.99,
+									0.9,
+									1,
+									0.98,
+									0.8,
+									1,
+									0.99,
+									0.87
+								],
+								"color": "#f5f1eb"
+							}
+						},
+						{
+							"id": "3037649d:image.url",
+							"blockId": "3037649d",
+							"path": "0.0.0.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10002.png",
+							"decorative": true,
+							"width": 308,
+							"height": 52,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "0f2f41fb",
+					"index": 1,
+					"path": "1",
+					"group": "0f2f41fb",
+					"role": "cta",
+					"title": "We're Passionate About Providing Warm Hospitality",
+					"slots": [
+						{
+							"id": "e8cd9c3a:text",
+							"blockId": "e8cd9c3a",
+							"path": "1.0.0.0.0.1.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ABOUT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4292913e:text",
+							"blockId": "4292913e",
+							"path": "1.0.0.0.0.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We're Passionate About Providing Warm Hospitality",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "20610fe5:text",
+							"blockId": "20610fe5",
+							"path": "1.0.0.0.0.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra aptent libero taciti.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "80d758e6:text",
+							"blockId": "80d758e6",
+							"path": "1.0.0.0.0.1.0.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Know More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "cc1d9eac:image.url",
+							"blockId": "cc1d9eac",
+							"path": "1.0.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10003.png",
+							"decorative": false,
+							"width": 566,
+							"height": 587,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Smiling woman holding bread with inset of two bakers in aprons",
+							"tone": {
+								"grid": [
+									0.63,
+									0.68,
+									0.96,
+									0.84,
+									0.76,
+									0.87,
+									0.83,
+									0.7,
+									0.56
+								],
+								"color": "#d3beb0"
+							}
+						},
+						{
+							"id": "452a2f89:image.url",
+							"blockId": "452a2f89",
+							"path": "1.0.0.0.0.1.0.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10004.png",
+							"decorative": true,
+							"width": 457,
+							"height": 136,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "469a0f76",
+					"index": 2,
+					"path": "2",
+					"group": "469a0f76",
+					"role": "content",
+					"title": "Today's Special Dish",
+					"slots": [
+						{
+							"id": "1e16ea73:text",
+							"blockId": "1e16ea73",
+							"path": "2.0.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CHEF RECOMMENDED",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51d27b4f:text",
+							"blockId": "51d27b4f",
+							"path": "2.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Today's Special Dish",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f228f884:text",
+							"blockId": "f228f884",
+							"path": "2.0.0.0.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Cheesy Tomato Sphagetti",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "462bdd66:text",
+							"blockId": "462bdd66",
+							"path": "2.0.0.0.1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Torem ipsum dolor sit amet, consectetur adipis vulputate libero et velit",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fd4d7c5a:text",
+							"blockId": "fd4d7c5a",
+							"path": "2.0.0.0.1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Spaghetti With Meat Sauce",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9b4bf345:text",
+							"blockId": "9b4bf345",
+							"path": "2.0.0.0.1.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Torem ipsum dolor sit amet, consectetur adipis vulputate libero et velit",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "da9f6477:text",
+							"blockId": "da9f6477",
+							"path": "2.0.0.0.1.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Shrimp Scampi Fettuccine",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b111bb42:text",
+							"blockId": "b111bb42",
+							"path": "2.0.0.0.1.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Torem ipsum dolor sit amet, consectetur adipis vulputate libero et velit",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "1650938e:image.url",
+							"blockId": "1650938e",
+							"path": "2.0.0.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10006.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Plate of spaghetti with meat sauce, top view",
+							"tone": {
+								"grid": [
+									0.81,
+									0.79,
+									0.81,
+									0.86,
+									0.48,
+									0.88,
+									0.95,
+									0.89,
+									0.91
+								],
+								"color": "#d4d2bf"
+							}
+						},
+						{
+							"id": "fa9803e1:image.url",
+							"blockId": "fa9803e1",
+							"path": "2.0.0.0.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10007.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Spaghetti with tomato sauce and basil on a white plate",
+							"tone": {
+								"grid": [
+									0.93,
+									0.89,
+									0.92,
+									0.86,
+									0.45,
+									0.83,
+									0.82,
+									0.76,
+									0.76
+								],
+								"color": "#d0cdb9"
+							}
+						},
+						{
+							"id": "08d49f36:image.url",
+							"blockId": "08d49f36",
+							"path": "2.0.0.0.1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10008.jpg",
+							"decorative": false,
+							"width": 596,
+							"height": 596,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Plate of pasta with herbs, top view",
+							"tone": {
+								"grid": [
+									0.91,
+									0.87,
+									0.9,
+									0.85,
+									0.49,
+									0.84,
+									0.81,
+									0.7,
+									0.77
+								],
+								"color": "#cecbb8"
+							}
+						}
+					]
+				},
+				{
+					"id": "5d6d06e4",
+					"index": 3,
+					"path": "3",
+					"group": "5d6d06e4",
+					"role": "content",
+					"title": "Popular Items",
+					"slots": [
+						{
+							"id": "71e12a9b:text",
+							"blockId": "71e12a9b",
+							"path": "3.0.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "OUR MENU",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "675daf81:text",
+							"blockId": "675daf81",
+							"path": "3.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Popular Items",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "43d92706:text",
+							"blockId": "43d92706",
+							"path": "3.0.0.0.1.0.0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Greek Tofu Salad",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d688ca17:text",
+							"blockId": "d688ca17",
+							"path": "3.0.0.0.1.0.0.0.0.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$6.20",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "8506f9ec:text",
+							"blockId": "8506f9ec",
+							"path": "3.0.0.0.1.0.0.0.0.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Chicken, Beans, Parmesan, Rosemary",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e17b30b8:text",
+							"blockId": "e17b30b8",
+							"path": "3.0.0.0.1.0.0.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "French Gazpacho Soup",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b294b3c4:text",
+							"blockId": "b294b3c4",
+							"path": "3.0.0.0.1.0.0.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$4.18",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "b50e52d0:text",
+							"blockId": "b50e52d0",
+							"path": "3.0.0.0.1.0.0.0.1.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Tomatoes, Lettuce, Cabbage, Onion",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7005defe:text",
+							"blockId": "7005defe",
+							"path": "3.0.0.0.1.0.0.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Mixed Greens Salad",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b4e0f6c3:text",
+							"blockId": "b4e0f6c3",
+							"path": "3.0.0.0.1.0.0.0.2.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$6.18",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "7c62dadd:text",
+							"blockId": "7c62dadd",
+							"path": "3.0.0.0.1.0.0.0.2.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Beans, Goat cheese, Broccoli florets, Spinach",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb88aec2:text",
+							"blockId": "bb88aec2",
+							"path": "3.0.0.0.1.0.0.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Grilled Vegetable Skewers",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "793128fb:text",
+							"blockId": "793128fb",
+							"path": "3.0.0.0.1.0.0.0.3.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$4.18",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "231de98b:text",
+							"blockId": "231de98b",
+							"path": "3.0.0.0.1.0.0.0.3.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Tomato, Lettuce, Cabbage, Onions",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d76a6981:text",
+							"blockId": "d76a6981",
+							"path": "3.0.0.0.1.0.0.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Chickpea Green Salad",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4056326:text",
+							"blockId": "f4056326",
+							"path": "3.0.0.0.1.0.0.1.0.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$8.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "abd5b436:text",
+							"blockId": "abd5b436",
+							"path": "3.0.0.0.1.0.0.1.0.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Chickpea, Avocado, Onion, Basil",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b9c07421:text",
+							"blockId": "b9c07421",
+							"path": "3.0.0.0.1.0.0.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Eggcellent Mix Salad",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0f2ddf7e:text",
+							"blockId": "0f2ddf7e",
+							"path": "3.0.0.0.1.0.0.1.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$8.45",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "3dfca96d:text",
+							"blockId": "3dfca96d",
+							"path": "3.0.0.0.1.0.0.1.1.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Eggs, Mustard Oil, Lettuce, Lemon",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1ae18ce1:text",
+							"blockId": "1ae18ce1",
+							"path": "3.0.0.0.1.0.0.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Bacon Burst Salad",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f5676c5d:text",
+							"blockId": "f5676c5d",
+							"path": "3.0.0.0.1.0.0.1.2.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$6.24",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "da3184ab:text",
+							"blockId": "da3184ab",
+							"path": "3.0.0.0.1.0.0.1.2.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Bacon, Lettuce, Parmesan cheese, Peanuts",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e929fdeb:text",
+							"blockId": "e929fdeb",
+							"path": "3.0.0.0.1.0.0.1.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Zesty Olive Salad",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f2f8919c:text",
+							"blockId": "f2f8919c",
+							"path": "3.0.0.0.1.0.0.1.3.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$8.40",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "012a22e0:text",
+							"blockId": "012a22e0",
+							"path": "3.0.0.0.1.0.0.1.3.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Broccoli, Carrots, Lettuce, Cottage Cheese",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "9665ed27:image.url",
+							"blockId": "9665ed27",
+							"path": "3.0.0.0.1.0.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10009.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Tofu poke bowl with egg, corn and vegetables",
+							"tone": {
+								"grid": [
+									0.85,
+									0.67,
+									0.79,
+									0.57,
+									0.51,
+									0.68,
+									0.62,
+									0.28,
+									0.65
+								],
+								"color": "#ad9f80"
+							}
+						},
+						{
+							"id": "ebaaa539:image.url",
+							"blockId": "ebaaa539",
+							"path": "3.0.0.0.1.0.0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10010.jpg",
+							"decorative": false,
+							"width": 2048,
+							"height": 2048,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Shrimp noodle bowl with mushrooms, seaweed and tomatoes",
+							"tone": {
+								"grid": [
+									0.85,
+									0.73,
+									0.82,
+									0.54,
+									0.51,
+									0.6,
+									0.78,
+									0.57,
+									0.68
+								],
+								"color": "#baab93"
+							}
+						},
+						{
+							"id": "e6a5d3be:image.url",
+							"blockId": "e6a5d3be",
+							"path": "3.0.0.0.1.0.0.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10011.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Quinoa bowl with broccoli, cucumber, tomatoes and carrots",
+							"tone": {
+								"grid": [
+									0.82,
+									0.63,
+									0.77,
+									0.71,
+									0.45,
+									0.58,
+									0.71,
+									0.61,
+									0.79
+								],
+								"color": "#bcaa8f"
+							}
+						},
+						{
+							"id": "8e981482:image.url",
+							"blockId": "8e981482",
+							"path": "3.0.0.0.1.0.0.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10012.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Salmon poke bowl with edamame, quinoa and red cabbage",
+							"tone": {
+								"grid": [
+									0.44,
+									0.51,
+									0.51,
+									0.45,
+									0.43,
+									0.44,
+									0.38,
+									0.48,
+									0.37
+								],
+								"color": "#a46a28"
+							}
+						},
+						{
+							"id": "2a690f92:image.url",
+							"blockId": "2a690f92",
+							"path": "3.0.0.0.1.0.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10013.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Spinach salad with chickpeas and avocado in a glass bowl",
+							"tone": {
+								"grid": [
+									0.89,
+									0.81,
+									0.88,
+									0.6,
+									0.6,
+									0.66,
+									0.8,
+									0.54,
+									0.76
+								],
+								"color": "#babca1"
+							}
+						},
+						{
+							"id": "65a23a22:image.url",
+							"blockId": "65a23a22",
+							"path": "3.0.0.0.1.0.0.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10014.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Green salad with boiled eggs and lime on a plate",
+							"tone": {
+								"grid": [
+									0.54,
+									0.7,
+									0.75,
+									0.51,
+									0.72,
+									0.68,
+									0.64,
+									0.63,
+									0.74
+								],
+								"color": "#a9aa8a"
+							}
+						},
+						{
+							"id": "66f52f4a:image.url",
+							"blockId": "66f52f4a",
+							"path": "3.0.0.0.1.0.0.1.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10016.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Caesar salad with croutons and dressing on a plate",
+							"tone": {
+								"grid": [
+									0.64,
+									0.67,
+									0.73,
+									0.43,
+									0.53,
+									0.55,
+									0.52,
+									0.53,
+									0.69
+								],
+								"color": "#a09583"
+							}
+						},
+						{
+							"id": "9cb98970:image.url",
+							"blockId": "9cb98970",
+							"path": "3.0.0.0.1.0.0.1.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10017.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Shrimp salad on lettuce leaves with lime",
+							"tone": {
+								"grid": [
+									0.73,
+									0.51,
+									0.79,
+									0.45,
+									0.49,
+									0.65,
+									0.7,
+									0.37,
+									0.74
+								],
+								"color": "#9c9c84"
+							}
+						}
+					]
+				},
+				{
+					"id": "d5ee045c",
+					"index": 4,
+					"path": "4",
+					"group": "d5ee045c",
+					"role": "content",
+					"title": "Deals Of The Week",
+					"slots": [
+						{
+							"id": "3560131f:text",
+							"blockId": "3560131f",
+							"path": "4.0.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "OFFERS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "59715029:text",
+							"blockId": "59715029",
+							"path": "4.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Deals Of The Week",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3d594beb:text",
+							"blockId": "3d594beb",
+							"path": "4.0.0.0.1.0.0.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "13",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "4532c9bf:text",
+							"blockId": "4532c9bf",
+							"path": "4.0.0.0.1.0.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "DAYS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "451faf70:text",
+							"blockId": "451faf70",
+							"path": "4.0.0.0.1.0.0.0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "20",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "310df02f:text",
+							"blockId": "310df02f",
+							"path": "4.0.0.0.1.0.0.0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "HOURS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d6419d47:text",
+							"blockId": "d6419d47",
+							"path": "4.0.0.0.1.0.0.0.0.0.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "15",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "5d546f79:text",
+							"blockId": "5d546f79",
+							"path": "4.0.0.0.1.0.0.0.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "MIN",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8216d2bc:text",
+							"blockId": "8216d2bc",
+							"path": "4.0.0.0.1.0.0.0.0.0.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "-50",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "29349a41:text",
+							"blockId": "29349a41",
+							"path": "4.0.0.0.1.0.0.0.0.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SEC",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c27df3d3:text",
+							"blockId": "c27df3d3",
+							"path": "4.0.0.0.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Burger Fries Combo",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "23c963c8:text",
+							"blockId": "23c963c8",
+							"path": "4.0.0.0.1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Hurry up offer ends soon!!!",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fdbd4df3:text",
+							"blockId": "fdbd4df3",
+							"path": "4.0.0.0.1.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Order Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "948dd0e5:text",
+							"blockId": "948dd0e5",
+							"path": "4.0.0.0.1.1.0.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "12",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "6c2488b7:text",
+							"blockId": "6c2488b7",
+							"path": "4.0.0.0.1.1.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "DAYS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "48c77899:text",
+							"blockId": "48c77899",
+							"path": "4.0.0.0.1.1.0.0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "40",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "c27c5378:text",
+							"blockId": "c27c5378",
+							"path": "4.0.0.0.1.1.0.0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "HOURS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6b69b8ab:text",
+							"blockId": "6b69b8ab",
+							"path": "4.0.0.0.1.1.0.0.0.0.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "10",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "093e95f5:text",
+							"blockId": "093e95f5",
+							"path": "4.0.0.0.1.1.0.0.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "MIN",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f64aeeb9:text",
+							"blockId": "f64aeeb9",
+							"path": "4.0.0.0.1.1.0.0.0.0.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "-45",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "d45fe8ad:text",
+							"blockId": "d45fe8ad",
+							"path": "4.0.0.0.1.1.0.0.0.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SEC",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9f04e81f:text",
+							"blockId": "9f04e81f",
+							"path": "4.0.0.0.1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Fresh Italian Pizza",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e7a28a1e:text",
+							"blockId": "e7a28a1e",
+							"path": "4.0.0.0.1.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Hurry up offer ends soon!!!",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "824b468c:text",
+							"blockId": "824b468c",
+							"path": "4.0.0.0.1.1.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Order Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "faa67369:background.image.image.url",
+							"blockId": "faa67369",
+							"path": "4.0.0.0.1.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10054-1.png",
+							"decorative": false,
+							"width": 555,
+							"height": 299,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Burger and fries on a wooden table",
+							"tone": {
+								"grid": [
+									0.33,
+									0.34,
+									0.39,
+									0.34,
+									0.42,
+									0.49,
+									0.34,
+									0.35,
+									0.55
+								],
+								"color": "#895d3c"
+							}
+						},
+						{
+							"id": "4aa68865:background.image.image.url",
+							"blockId": "4aa68865",
+							"path": "4.0.0.0.1.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10055-1.png",
+							"decorative": false,
+							"width": 555,
+							"height": 299,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Pepperoni pizza on a wooden table",
+							"tone": {
+								"grid": [
+									0.37,
+									0.44,
+									0.61,
+									0.36,
+									0.43,
+									0.69,
+									0.33,
+									0.33,
+									0.62
+								],
+								"color": "#a06e4c"
+							}
+						}
+					]
+				},
+				{
+					"id": "293174fa",
+					"index": 5,
+					"path": "5",
+					"group": "293174fa",
+					"role": "testimonials",
+					"title": "Our Customer Loves Us",
+					"slots": [
+						{
+							"id": "079e158c:text",
+							"blockId": "079e158c",
+							"path": "5.0.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "REVIEWS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "16647b23:text",
+							"blockId": "16647b23",
+							"path": "5.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Customer Loves Us",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "38b7b4ab:text",
+							"blockId": "38b7b4ab",
+							"path": "5.0.0.0.1.0.0.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Naomi Buffay",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2f26ccac:text",
+							"blockId": "2f26ccac",
+							"path": "5.0.0.0.1.0.0.0.0.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f8024b79:text",
+							"blockId": "f8024b79",
+							"path": "5.0.0.0.1.0.0.0.0.0.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "“Forem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio adipiscing elit nunc vikters.”",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "30862165:text",
+							"blockId": "30862165",
+							"path": "5.0.0.0.1.0.0.0.0.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Alanna Elliot",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "77e63273:text",
+							"blockId": "77e63273",
+							"path": "5.0.0.0.1.0.0.0.0.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Manager",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c1b39a6:text",
+							"blockId": "4c1b39a6",
+							"path": "5.0.0.0.1.0.0.0.0.1.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "“Forem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio adipiscing elit nunc vikters.”",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "69654c70:text",
+							"blockId": "69654c70",
+							"path": "5.0.0.0.1.0.0.0.0.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Naomi Buffay",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bce0fd63:text",
+							"blockId": "bce0fd63",
+							"path": "5.0.0.0.1.0.0.0.0.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "92112bfe:text",
+							"blockId": "92112bfe",
+							"path": "5.0.0.0.1.0.0.0.0.2.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "“Forem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio adipiscing elit nunc vikters.”",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c9eee566:text",
+							"blockId": "c9eee566",
+							"path": "5.0.0.0.2.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e02a0314:image.url",
+							"blockId": "e02a0314",
+							"path": "5.0.0.0.1.0.0.0.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10045-1.jpg",
+							"decorative": false,
+							"width": 2048,
+							"height": 2201,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman in a yellow jacket posing outdoors",
+							"tone": {
+								"grid": [
+									0.47,
+									0.48,
+									0.71,
+									0.38,
+									0.49,
+									0.57,
+									0.81,
+									0.75,
+									0.74
+								],
+								"color": "#a9977b"
+							}
+						},
+						{
+							"id": "7f76d83e:image.url",
+							"blockId": "7f76d83e",
+							"path": "5.0.0.0.1.0.0.0.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10046-1.jpg",
+							"decorative": false,
+							"width": 1707,
+							"height": 1779,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling blonde woman holding an orange folder",
+							"tone": {
+								"grid": [
+									0.88,
+									0.75,
+									0.85,
+									0.89,
+									0.57,
+									0.8,
+									0.71,
+									0.47,
+									0.39
+								],
+								"color": "#c7af9b"
+							}
+						},
+						{
+							"id": "93f6a593:image.url",
+							"blockId": "93f6a593",
+							"path": "5.0.0.0.1.0.0.0.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10044-1.jpg",
+							"decorative": false,
+							"width": 1440,
+							"height": 1382,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman in a denim jacket by an escalator",
+							"tone": {
+								"grid": [
+									0.84,
+									0.56,
+									0.84,
+									0.67,
+									0.4,
+									0.35,
+									0.5,
+									0.2,
+									0.17
+								],
+								"color": "#808184"
+							}
+						}
+					]
+				},
+				{
+					"id": "49112cf5",
+					"index": 6,
+					"path": "6",
+					"group": "49112cf5",
+					"role": "posts",
+					"title": "Our Latest Posts",
+					"slots": [
+						{
+							"id": "86379715:text",
+							"blockId": "86379715",
+							"path": "6.0.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BLOGS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "484114c8:text",
+							"blockId": "484114c8",
+							"path": "6.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Latest Posts",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36594c0f:text",
+							"blockId": "36594c0f",
+							"path": "6.0.0.0.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Table Talk Conversations About Dining Etiquette",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "73cc43e2:text",
+							"blockId": "73cc43e2",
+							"path": "6.0.0.0.1.0.0.0.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "February 27, 2024",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a26558c6:text",
+							"blockId": "a26558c6",
+							"path": "6.0.0.0.1.0.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "| Dining",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "551e3c2f:text",
+							"blockId": "551e3c2f",
+							"path": "6.0.0.0.1.0.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisit dimo",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3d452723:text",
+							"blockId": "3d452723",
+							"path": "6.0.0.0.1.0.0.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c0f9443:text",
+							"blockId": "1c0f9443",
+							"path": "6.0.0.0.1.1.0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Transform Your Water With Mint Lemon Magic",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3278f0d7:text",
+							"blockId": "3278f0d7",
+							"path": "6.0.0.0.1.1.0.1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "February 27, 2024",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4b72b870:text",
+							"blockId": "4b72b870",
+							"path": "6.0.0.0.1.1.0.1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "| Drinks",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a438f10:text",
+							"blockId": "0a438f10",
+							"path": "6.0.0.0.1.1.0.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "49fcda36:text",
+							"blockId": "49fcda36",
+							"path": "6.0.0.0.1.1.1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Gluten-Free Blueberry Vanilla Pancakes Recipe",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "104f1e44:text",
+							"blockId": "104f1e44",
+							"path": "6.0.0.0.1.1.1.1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "February 27, 2024",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ab6f284f:text",
+							"blockId": "ab6f284f",
+							"path": "6.0.0.0.1.1.1.1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "| Uncategorized",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af835860:text",
+							"blockId": "af835860",
+							"path": "6.0.0.0.1.1.1.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3ce51da3:text",
+							"blockId": "3ce51da3",
+							"path": "6.0.0.0.1.1.2.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Nutritious Recipes to Start Your Day",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6b69d857:text",
+							"blockId": "6b69d857",
+							"path": "6.0.0.0.1.1.2.1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "February 27, 2024",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "20e44c14:text",
+							"blockId": "20e44c14",
+							"path": "6.0.0.0.1.1.2.1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "| Recipe",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d0e24409:text",
+							"blockId": "d0e24409",
+							"path": "6.0.0.0.1.1.2.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0db0f17d:text",
+							"blockId": "0db0f17d",
+							"path": "6.0.0.0.2.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "fe3d4eb3:image.url",
+							"blockId": "fe3d4eb3",
+							"path": "6.0.0.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10047-1.png",
+							"decorative": false,
+							"width": 547,
+							"height": 321,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Avocado toast with poached egg and juice on a table",
+							"tone": {
+								"grid": [
+									0.73,
+									0.81,
+									0.87,
+									0.71,
+									0.71,
+									0.93,
+									0.8,
+									0.73,
+									0.79
+								],
+								"color": "#d4c6b8"
+							}
+						},
+						{
+							"id": "ba8dbb91:image.url",
+							"blockId": "ba8dbb91",
+							"path": "6.0.0.0.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10048-1.jpg",
+							"decorative": false,
+							"width": 2560,
+							"height": 1707,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Glass pitcher of lemon water with mint",
+							"tone": {
+								"grid": [
+									0.92,
+									0.69,
+									0.97,
+									0.92,
+									0.83,
+									0.88,
+									0.92,
+									0.82,
+									0.88
+								],
+								"color": "#dadfd8"
+							}
+						},
+						{
+							"id": "903fd415:image.url",
+							"blockId": "903fd415",
+							"path": "6.0.0.0.1.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10049-1.jpg",
+							"decorative": false,
+							"width": 2560,
+							"height": 1707,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Bowls of granola with peaches and yogurt, top view",
+							"tone": {
+								"grid": [
+									0.96,
+									0.81,
+									0.95,
+									0.77,
+									0.77,
+									0.75,
+									0.74,
+									0.83,
+									0.75
+								],
+								"color": "#dbcec4"
+							}
+						},
+						{
+							"id": "d7bd8fc4:image.url",
+							"blockId": "d7bd8fc4",
+							"path": "6.0.0.0.1.1.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10050-1.jpg",
+							"decorative": false,
+							"width": 2560,
+							"height": 1707,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Hands holding a bowl of fresh green salad",
+							"tone": {
+								"grid": [
+									0.92,
+									0.87,
+									0.91,
+									0.92,
+									0.71,
+									0.78,
+									0.91,
+									0.72,
+									0.81
+								],
+								"color": "#dbd6c8"
+							}
+						}
+					]
+				},
+				{
+					"id": "a3b0c2dd",
+					"index": 7,
+					"path": "7",
+					"group": "a3b0c2dd",
+					"role": "dynamic",
+					"title": "Visit Our Restaurant",
+					"slots": [
+						{
+							"id": "95c129a3:text",
+							"blockId": "95c129a3",
+							"path": "7.0.0.0.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CONTACT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1facd29a:text",
+							"blockId": "1facd29a",
+							"path": "7.0.0.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Visit Our Restaurant",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6b64f6cd:text",
+							"blockId": "6b64f6cd",
+							"path": "7.0.0.0.0.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Address",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d1b64d2b:text",
+							"blockId": "d1b64d2b",
+							"path": "7.0.0.0.0.0.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "34 Atlantic Avenue, NY, USA",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7aff050:text",
+							"blockId": "c7aff050",
+							"path": "7.0.0.0.0.0.0.0.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Phone",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f5c533fe:text",
+							"blockId": "f5c533fe",
+							"path": "7.0.0.0.0.0.0.0.5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "(123) 456 – 7890",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "09622251:text",
+							"blockId": "09622251",
+							"path": "7.0.0.0.0.0.0.0.7",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Opening Hours",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c8dbd2e:text",
+							"blockId": "4c8dbd2e",
+							"path": "7.0.0.0.0.0.0.0.8",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Mon – Fri 08:00 – 22:00",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5dc001be:text",
+							"blockId": "5dc001be",
+							"path": "7.0.0.0.0.0.0.0.9",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Sat – Sun 08:00 – 22:00",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "cb658bf3",
+					"index": 8,
+					"path": "8",
+					"group": "cb658bf3",
+					"role": "gallery",
+					"title": "Our Captured Moments",
+					"slots": [
+						{
+							"id": "35ab3203:text",
+							"blockId": "35ab3203",
+							"path": "8.0.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "GALLERY",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb75ac81:text",
+							"blockId": "bb75ac81",
+							"path": "8.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Captured Moments",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8c3c1c51:text",
+							"blockId": "8c3c1c51",
+							"path": "8.0.0.0.2.1.0.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4afb192e:background.image.image.url",
+							"blockId": "4afb192e",
+							"path": "8.0.0.0.1.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10056-1.jpg",
+							"decorative": false,
+							"width": 2560,
+							"height": 1707,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Friends laughing at a festive dinner table",
+							"tone": {
+								"grid": [
+									0.23,
+									0.21,
+									0.22,
+									0.38,
+									0.45,
+									0.29,
+									0.62,
+									0.52,
+									0.34
+								],
+								"color": "#865430"
+							}
+						},
+						{
+							"id": "8e56c597:background.image.image.url",
+							"blockId": "8e56c597",
+							"path": "8.0.0.0.1.1.0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10057-1.png",
+							"decorative": true,
+							"width": 273,
+							"height": 287,
+							"orientation": "square"
+						},
+						{
+							"id": "047fd087:background.image.image.url",
+							"blockId": "047fd087",
+							"path": "8.0.0.0.1.1.0.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/06/Gallery-img-2-683x1024-1-1.jpg",
+							"decorative": false,
+							"width": 683,
+							"height": 1024,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Family sharing a holiday dinner with food at the table",
+							"tone": {
+								"grid": [
+									0.35,
+									0.31,
+									0.23,
+									0.22,
+									0.45,
+									0.34,
+									0.24,
+									0.45,
+									0.66
+								],
+								"color": "#815536"
+							}
+						},
+						{
+							"id": "72a0a454:background.image.image.url",
+							"blockId": "72a0a454",
+							"path": "8.0.0.0.2.0.0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10059-1.png",
+							"decorative": true,
+							"width": 273,
+							"height": 287,
+							"orientation": "square"
+						},
+						{
+							"id": "503b66e0:background.image.image.url",
+							"blockId": "503b66e0",
+							"path": "8.0.0.0.2.0.0.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10060.jpg",
+							"decorative": false,
+							"width": 1024,
+							"height": 683,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Wine being poured at a candlelit holiday dinner table",
+							"tone": {
+								"grid": [
+									0.22,
+									0.22,
+									0.28,
+									0.25,
+									0.47,
+									0.6,
+									0.41,
+									0.58,
+									0.54
+								],
+								"color": "#8c5e38"
+							}
+						},
+						{
+							"id": "c8024230:background.image.image.url",
+							"blockId": "c8024230",
+							"path": "8.0.0.0.2.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10061-1.jpg",
+							"decorative": false,
+							"width": 2560,
+							"height": 1707,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Friends taking a selfie at a festive dinner party",
+							"tone": {
+								"grid": [
+									0.42,
+									0.54,
+									0.39,
+									0.22,
+									0.41,
+									0.38,
+									0.13,
+									0.55,
+									0.44
+								],
+								"color": "#895b39"
+							}
+						}
+					]
+				},
+				{
+					"id": "7cc3d352",
+					"index": 9,
+					"path": "9",
+					"group": "7cc3d352",
+					"role": "gallery",
+					"title": "OFFERS",
+					"slots": [
+						{
+							"id": "ddfcf7f7:text",
+							"blockId": "ddfcf7f7",
+							"path": "9.1.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "OFFERS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d543bc87:text",
+							"blockId": "d543bc87",
+							"path": "9.1.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Combo Meal Deals",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "89710106:text",
+							"blockId": "89710106",
+							"path": "9.1.0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5bf7d8da:text",
+							"blockId": "5bf7d8da",
+							"path": "9.1.1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "MEET",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7ed1f97:text",
+							"blockId": "c7ed1f97",
+							"path": "9.1.1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Super Chefs",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d9673d1f:text",
+							"blockId": "d9673d1f",
+							"path": "9.1.1.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ca6401cf:background.image.image.url",
+							"blockId": "ca6401cf",
+							"path": "9.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10051-1.jpg",
+							"decorative": false,
+							"width": 2048,
+							"height": 1366,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Breakfast with fried eggs, omelette, toast and tea",
+							"tone": {
+								"grid": [
+									0.89,
+									0.82,
+									0.85,
+									0.81,
+									0.82,
+									0.76,
+									0.63,
+									0.71,
+									0.91
+								],
+								"color": "#d8cbb0"
+							}
+						},
+						{
+							"id": "2a557941:background.image.image.url",
+							"blockId": "2a557941",
+							"path": "9.1.0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10062.png",
+							"decorative": true,
+							"width": 308,
+							"height": 311,
+							"orientation": "square"
+						},
+						{
+							"id": "2a1ae3d9:background.image.image.url",
+							"blockId": "2a1ae3d9",
+							"path": "9.1.0.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10066-1.jpg",
+							"decorative": false,
+							"width": 1707,
+							"height": 2560,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Potato dumplings with bacon and dill on a plate",
+							"tone": {
+								"grid": [
+									0.88,
+									0.87,
+									0.87,
+									0.77,
+									0.48,
+									0.64,
+									0.86,
+									0.83,
+									0.85
+								],
+								"color": "#cbc7c1"
+							}
+						},
+						{
+							"id": "7847137e:background.image.image.url",
+							"blockId": "7847137e",
+							"path": "9.1.1.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10058-1.jpg",
+							"decorative": false,
+							"width": 1366,
+							"height": 2048,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Passion fruit cocktail with a dessert plate",
+							"tone": {
+								"grid": [
+									0.85,
+									0.97,
+									0.96,
+									0.81,
+									0.76,
+									0.74,
+									0.71,
+									0.68,
+									0.8
+								],
+								"color": "#e1cbbd"
+							}
+						},
+						{
+							"id": "80df871b:background.image.image.url",
+							"blockId": "80df871b",
+							"path": "9.1.1.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10062.png",
+							"decorative": true,
+							"width": 308,
+							"height": 311,
+							"orientation": "square"
+						},
+						{
+							"id": "eff15a66:background.image.image.url",
+							"blockId": "eff15a66",
+							"path": "9.2.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10063-1.jpg",
+							"decorative": false,
+							"width": 1707,
+							"height": 2560,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Fried egg on salad with bread and coffee, top view",
+							"tone": {
+								"grid": [
+									0.92,
+									0.88,
+									0.65,
+									0.87,
+									0.66,
+									0.72,
+									0.83,
+									0.68,
+									0.56
+								],
+								"color": "#c2c1b4"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "22dcf22d",
+					"role": "hero",
+					"title": "Experience Dining Like Never Before",
+					"sectionIds": [
+						"22dcf22d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0f2f41fb",
+					"role": "cta",
+					"title": "We're Passionate About Providing Warm Hospitality",
+					"sectionIds": [
+						"0f2f41fb"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "469a0f76",
+					"role": "content",
+					"title": "Today's Special Dish",
+					"sectionIds": [
+						"469a0f76"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5d6d06e4",
+					"role": "content",
+					"title": "Popular Items",
+					"sectionIds": [
+						"5d6d06e4"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d5ee045c",
+					"role": "content",
+					"title": "Deals Of The Week",
+					"sectionIds": [
+						"d5ee045c"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "293174fa",
+					"role": "testimonials",
+					"title": "Our Customer Loves Us",
+					"sectionIds": [
+						"293174fa"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "49112cf5",
+					"role": "posts",
+					"title": "Our Latest Posts",
+					"sectionIds": [
+						"49112cf5"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "a3b0c2dd",
+					"role": "dynamic",
+					"title": "Visit Our Restaurant",
+					"sectionIds": [
+						"a3b0c2dd"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "cb658bf3",
+					"role": "gallery",
+					"title": "Our Captured Moments",
+					"sectionIds": [
+						"cb658bf3"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7cc3d352",
+					"role": "gallery",
+					"title": "OFFERS",
+					"sectionIds": [
+						"7cc3d352"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 13,
+		"textSlots": 118,
+		"editableSlots": 101,
+		"images": 36,
+		"swappableImages": 30,
+		"words": 413
+	},
+	"builtAt": "2026-10-24T11:35:08.107Z"
+}

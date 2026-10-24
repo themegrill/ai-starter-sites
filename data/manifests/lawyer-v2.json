@@ -1,5 +1,5 @@
 {
-	"version": 3,
+	"version": 4,
 	"slug": "lawyer-v2",
 	"name": "Lawyer V2",
 	"theme": "zakra",
@@ -347,7 +347,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 940,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Grand old library with wooden bookshelves and an ornate ceiling",
+							"tone": {
+								"grid": [
+									0.38,
+									0.3,
+									0.31,
+									0.26,
+									0.4,
+									0.25,
+									0.12,
+									0.24,
+									0.13
+								],
+								"color": "#51403c"
+							}
 						}
 					]
 				},
@@ -636,7 +652,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 1174,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Hands signing a document on a tablet during a business meeting",
+							"tone": {
+								"grid": [
+									0.59,
+									0.64,
+									0.68,
+									0.48,
+									0.53,
+									0.25,
+									0.38,
+									0.55,
+									0.38
+								],
+								"color": "#897d73"
+							}
 						},
 						{
 							"id": "80d4dec1:image.url",
@@ -701,7 +733,23 @@
 							"decorative": false,
 							"width": 470,
 							"height": 540,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "group",
+							"description": "Senior businessman reviewing papers with colleagues at a desk",
+							"tone": {
+								"grid": [
+									0.31,
+									0.42,
+									0.5,
+									0.2,
+									0.24,
+									0.36,
+									0.57,
+									0.24,
+									0.3
+								],
+								"color": "#595959"
+							}
 						}
 					]
 				},
@@ -1341,7 +1389,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 500,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Ornate library interior with tall bookshelves",
+							"tone": {
+								"grid": [
+									0.36,
+									0.45,
+									0.64,
+									0.33,
+									0.31,
+									0.38,
+									0.2,
+									0.28,
+									0.31
+								],
+								"color": "#715a3b"
+							}
 						}
 					]
 				},
@@ -1489,7 +1553,23 @@
 							"decorative": false,
 							"width": 240,
 							"height": 300,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded man in sunglasses, headshot",
+							"tone": {
+								"grid": [
+									0.49,
+									0.47,
+									0.4,
+									0.59,
+									0.49,
+									0.48,
+									0.81,
+									0.59,
+									0.79
+								],
+								"color": "#a08f7b"
+							}
 						},
 						{
 							"id": "cdf123e6:image.url",
@@ -1502,7 +1582,23 @@
 							"decorative": false,
 							"width": 240,
 							"height": 300,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young woman with long hair and red lipstick, close-up portrait",
+							"tone": {
+								"grid": [
+									0.31,
+									0.44,
+									0.36,
+									0.16,
+									0.53,
+									0.29,
+									0.16,
+									0.64,
+									0.48
+								],
+								"color": "#785a45"
+							}
 						}
 					]
 				},
@@ -1694,7 +1790,23 @@
 							"decorative": false,
 							"width": 470,
 							"height": 550,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Senior businessman in a suit, black and white portrait",
+							"tone": {
+								"grid": [
+									0.4,
+									0.27,
+									0.15,
+									0.3,
+									0.33,
+									0.09,
+									0.23,
+									0.11,
+									0.09
+								],
+								"color": "#383838"
+							}
 						}
 					]
 				},
@@ -1765,7 +1877,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 400,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "People at tables in a busy restaurant",
+							"tone": {
+								"grid": [
+									0.23,
+									0.39,
+									0.48,
+									0.17,
+									0.24,
+									0.31,
+									0.16,
+									0.21,
+									0.23
+								],
+								"color": "#514239"
+							}
 						}
 					],
 					"dynamicBlocks": [
@@ -2123,7 +2251,23 @@
 							"decorative": false,
 							"width": 470,
 							"height": 487,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling businesswoman with glasses writing at a cafe table",
+							"tone": {
+								"grid": [
+									0.24,
+									0.33,
+									0.69,
+									0.22,
+									0.45,
+									0.24,
+									0.41,
+									0.57,
+									0.48
+								],
+								"color": "#676767"
+							}
 						}
 					]
 				},
@@ -2364,7 +2508,23 @@
 							"decorative": false,
 							"width": 945,
 							"height": 690,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Hand signing a document with a fountain pen",
+							"tone": {
+								"grid": [
+									0.25,
+									0.24,
+									0.18,
+									0.26,
+									0.24,
+									0.11,
+									0.13,
+									0.25,
+									0.21
+								],
+								"color": "#383434"
+							}
 						},
 						{
 							"id": "728a8428:image.url",
@@ -2596,7 +2756,23 @@
 							"decorative": false,
 							"width": 270,
 							"height": 300,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man in a vest and tie wearing sunglasses, black and white portrait",
+							"tone": {
+								"grid": [
+									0.22,
+									0.19,
+									0.18,
+									0.25,
+									0.48,
+									0.27,
+									0.37,
+									0.37,
+									0.32
+								],
+								"color": "#4b4b4b"
+							}
 						},
 						{
 							"id": "d6f97a63:image.url",
@@ -2609,7 +2785,23 @@
 							"decorative": false,
 							"width": 270,
 							"height": 300,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a dark suit, black and white headshot",
+							"tone": {
+								"grid": [
+									0.06,
+									0.33,
+									0.06,
+									0.07,
+									0.42,
+									0.1,
+									0.09,
+									0.18,
+									0.16
+								],
+								"color": "#2a2a2a"
+							}
 						},
 						{
 							"id": "fd6ca30f:image.url",
@@ -2622,7 +2814,23 @@
 							"decorative": false,
 							"width": 270,
 							"height": 300,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with long hair, black and white portrait",
+							"tone": {
+								"grid": [
+									0.38,
+									0.42,
+									0.53,
+									0.37,
+									0.6,
+									0.25,
+									0.46,
+									0.56,
+									0.46
+								],
+								"color": "#727272"
+							}
 						},
 						{
 							"id": "c1fa2c59:image.url",
@@ -2635,7 +2843,23 @@
 							"decorative": false,
 							"width": 270,
 							"height": 300,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man with stubble in a knit sweater, black and white headshot",
+							"tone": {
+								"grid": [
+									0.05,
+									0.29,
+									0.02,
+									0.09,
+									0.43,
+									0.04,
+									0.11,
+									0.25,
+									0.1
+								],
+								"color": "#272727"
+							}
 						}
 					]
 				},
@@ -2706,7 +2930,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 400,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Two people shaking hands",
+							"tone": {
+								"grid": [
+									0.36,
+									0.37,
+									0.27,
+									0.49,
+									0.58,
+									0.72,
+									0.33,
+									0.44,
+									0.68
+								],
+								"color": "#887569"
+							}
 						}
 					]
 				},
@@ -4352,5 +4592,5 @@
 		"swappableImages": 15,
 		"words": 1739
 	},
-	"builtAt": "2026-10-07T13:48:43.399Z"
+	"builtAt": "2026-10-24T11:35:07.842Z"
 }

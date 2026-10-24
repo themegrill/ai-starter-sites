@@ -1,0 +1,1439 @@
+{
+	"version": 4,
+	"slug": "digital-diary",
+	"name": "Zakra Digital Diary",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-digital-diary/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/digital-diary",
+	"niches": [
+		"blog",
+		"writing",
+		"personal"
+	],
+	"keywords": [
+		"blog",
+		"diary",
+		"journal",
+		"personal blog",
+		"writer",
+		"lifestyle",
+		"magazine"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#e38d27",
+				"count": 19,
+				"group": "brand",
+				"role": "accent",
+				"base": "#e38d27",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#ffffff",
+				"count": 18,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#000000",
+				"count": 15,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 9,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 5,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#555555",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#000001",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e2b176",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#e38d27",
+				"lightnessDelta": 0.153,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#e38d27",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 6,
+				"scope": "theme"
+			},
+			{
+				"fg": "#e38d27",
+				"bg": "#000000",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#e38d27",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#e2b176",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Montserrat",
+			"body": "Montserrat",
+			"map": {}
+		}
+	},
+	"pages": [
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/digital-diary/wp-content/uploads/sites/82/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Who We Are",
+					"slots": [
+						{
+							"id": "core-0:@html:h",
+							"blockId": "core-0",
+							"path": "0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Who We Are",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-1:@html:p",
+							"blockId": "core-1",
+							"path": "1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Pulvinar massa, adipiscing pretium in vulputate arcu arcu. Enim sollicitudin non lacus lacus. Vitae habitasse commodo tellus magna egestas quam id accumsan mattis. Ultrices nibh viverra malesuada netus fermentum massa non commodo. Ultrices elementum a suspendisse mattis lectus felis et nunc. Tincidunt vestibulum semper luctus urna, aliquet sed. Suspendisse quis sapien eget lobortis erat amet etiam. Elementum sed id mauris eu morbi interdum nec, eros, neque.",
+							"rich": true,
+							"words": 66,
+							"minWords": 40,
+							"maxWords": 83,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "core-2:@html:img",
+							"blockId": "core-2",
+							"path": "2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-diary/wp-content/uploads/sites/82/2020/08/weare.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 470,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Young colleagues chatting at high tables in a bright office",
+							"tone": {
+								"grid": [
+									0.75,
+									0.75,
+									0.82,
+									0.51,
+									0.54,
+									0.68,
+									0.62,
+									0.53,
+									0.64
+								],
+								"color": "#a3a6a8"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-3:@html:p",
+							"blockId": "core-3",
+							"path": "3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Pulvinar massa, adipiscing pretium in vulputate arcu arcu. Enim sollicitudin non lacus lacus. Vitae habitasse commodo tellus magna egestas quam id accumsan mattis.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "content",
+					"title": "Our Mission",
+					"slots": [
+						{
+							"id": "core-4:@html:h",
+							"blockId": "core-4",
+							"path": "4",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Mission",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-5",
+					"index": 5,
+					"path": "5",
+					"group": "top-5",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-5:@html:p",
+							"blockId": "core-5",
+							"path": "5",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Pulvinar massa, adipiscing pretium in vulputate arcu arcu. Enim sollicitudin non lacus lacus. Vitae habitasse commodo tellus magna egestas quam id accumsan mattis. Ultrices nibh viverra malesuada netus fermentum massa non commodo. Ultrices elementum a suspendisse mattis lectus felis et nunc. Tincidunt vestibulum semper luctus urna, aliquet sed. Suspendisse quis sapien eget lobortis erat amet etiam. Elementum sed id mauris eu morbi interdum nec, eros, neque.",
+							"rich": true,
+							"words": 66,
+							"minWords": 40,
+							"maxWords": 83,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-6",
+					"index": 6,
+					"path": "6",
+					"group": "top-6",
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "core-6:@html:img",
+							"blockId": "core-6",
+							"path": "6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-diary/wp-content/uploads/sites/82/2020/08/mission.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 470,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Businessman with arms outstretched among skyscrapers",
+							"tone": {
+								"grid": [
+									0.92,
+									0.99,
+									0.68,
+									0.92,
+									0.94,
+									0.73,
+									0.57,
+									0.35,
+									0.27
+								],
+								"color": "#b6b4b7"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-7",
+					"index": 7,
+					"path": "7",
+					"group": "top-7",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-7:@html:p",
+							"blockId": "core-7",
+							"path": "7",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Pharetra viverra lectus sagittis, rhoncus suspendisse massa ipsum, fermentum integer. Sed lacinia in nulla velit feugiat velit dictum. A maecenas volutpat in egestas ac amet gravida. Neque velit praesent aliquam suscipit duis orci purus neque. Malesuada euismod augue laoreet bibendum arcu cursus lobortis. Donec at in lacinia ornare ornare cras. Sodales eu sapien, curabitur commodo etiam leo, faucibus nulla. Cum egestas eu tristique dui sed molestie. Ornare non aliquam convallis dui. Pharetra a facilisis eu tellus. Sagittis duis condimentum sit et molestie at volutpat turpis.",
+							"rich": true,
+							"words": 85,
+							"minWords": 51,
+							"maxWords": 107,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Who We Are",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "content",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "content",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "content",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "content",
+					"title": "Our Mission",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-5",
+					"role": "content",
+					"sectionIds": [
+						"top-5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-6",
+					"role": "content",
+					"sectionIds": [
+						"top-6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-7",
+					"role": "content",
+					"sectionIds": [
+						"top-7"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "style-guide",
+			"title": "Style Guide",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/digital-diary/wp-content/uploads/sites/82/themegrill-demos/style-guide-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "core-0:@html:p",
+							"blockId": "core-0",
+							"path": "0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Nec arcu leo urna, sed amet lacinia ipsum. Viverra ullamcorper lobortis et ornare. Non velit sed tristique vel. Eros sagittis, massa aliquet in nibhpellentesque. Amet libero amet enim viverra tellus ultrices. Diam ut enim amet. Consectetur elementum rhoncus tortor suspendisse quis id justo. Porttitor quisque fames suscipit lacinia neque. Vitae ultrices quisque donec vulputate habitant sed ut dignissim sit. Tellus nisl lacus, penatibus id. Sem ut arcu, odio id molestie volutpat dignissim vitae. Erat sit ullamcorper mauris pellentesque massa cursus nisi nulla. Consequat quisque a risus, consequat nibh quam dignissim eget. Nec arcu leo urna, sed amet lacinia ipsum. Viverra ullamcorper lobortis et ornare. Non velit sed tristique vel. Eros sagittis, massa aliquet in nibh pellentesque. Amet libero amet enim viverra tellus ultrices. Diam ut enim in amet. Consectetur elementum rhoncus tortor suspendisse quis id justo.",
+							"rich": true,
+							"words": 136,
+							"minWords": 82,
+							"maxWords": 170,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "content",
+					"title": "Heading 1: Porttitor quisque fames suscipit lacinia neque.",
+					"slots": [
+						{
+							"id": "core-1:@html:h",
+							"blockId": "core-1",
+							"path": "1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Heading 1: Porttitor quisque fames suscipit lacinia neque.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-2:@html:p",
+							"blockId": "core-2",
+							"path": "2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Vitae ultrices quisque donec vulputate habitant sed ut dignissim sit. Tellus nisl lacus, penatibus id. Sem ut arcu, odio id molestie volutpat dignissim vitae. Erat sit ullamcorper mauris pellentesque massa cursus nisi nulla. Consequat quisque a risus, consequat nibh quam dignissim eget.",
+							"rich": true,
+							"words": 42,
+							"minWords": 25,
+							"maxWords": 53,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "content",
+					"title": "Heading 2: Porttitor quisque fames suscipit lacinia neque.",
+					"slots": [
+						{
+							"id": "core-3:@html:h",
+							"blockId": "core-3",
+							"path": "3",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Heading 2: Porttitor quisque fames suscipit lacinia neque.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-4:@html:p",
+							"blockId": "core-4",
+							"path": "4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Ullamcorper facilisis tellus vulputate elit ornare dolor. Ac, sodales nullam fames aliquam amet viverra tellus eget. Eget risus sit integer nulla rhoncus. Gravida sed nibh nunc dis. Donec amet suspendisse consectetur nulla luctus neque.Nec arcu leo urna, sed amet lacinia ipsum.",
+							"rich": true,
+							"words": 41,
+							"minWords": 25,
+							"maxWords": 52,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-5",
+					"index": 5,
+					"path": "5",
+					"group": "top-5",
+					"role": "content",
+					"title": "Heading 3: Porttitor quisque fames suscipit lacinia neque.",
+					"slots": [
+						{
+							"id": "core-5:@html:h",
+							"blockId": "core-5",
+							"path": "5",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Heading 3: Porttitor quisque fames suscipit lacinia neque.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-6",
+					"index": 6,
+					"path": "6",
+					"group": "top-6",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-6:@html:p",
+							"blockId": "core-6",
+							"path": "6",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Viverra ullamcorper lobortis et ornare. Non velit sed tristique vel. Eros sagittis, massa aliquet in nibh pellentesque. Amet libero amet enim viverra tellus ultrices. Diam ut enim in amet.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-7",
+					"index": 7,
+					"path": "7",
+					"group": "top-7",
+					"role": "content",
+					"title": "Heading 4: Porttitor quisque fames suscipit lacinia neque.",
+					"slots": [
+						{
+							"id": "core-7:@html:h",
+							"blockId": "core-7",
+							"path": "7",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Heading 4: Porttitor quisque fames suscipit lacinia neque.",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-8",
+					"index": 8,
+					"path": "8",
+					"group": "top-8",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-8:@html:p",
+							"blockId": "core-8",
+							"path": "8",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Consectetur elementum rhoncus tortor suspendisse quis id justo. Porttitor quisque fames suscipit lacinia neque. Vitae ultrices quisque donec vulputate habitant sed ut dignissim sit. Tellus nisl lacus, penatibus id. Sem ut arcu, odio id molestie volutpat dignissim vitae. Erat sit ullamcorper mauris pellentesque massa cursus nisi nulla. Con",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-10",
+					"index": 9,
+					"path": "10",
+					"group": "top-10",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-10.0.0:@html:p",
+							"blockId": "core-10.0.0",
+							"path": "10.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Consequat, vitae pellentesque porta consectetur nec proin sed. Gravida eu commodo eu vitae turpis vulputate scelerisque. Ac porttitor augue nunc, odio eget arcu sed sapien in.",
+							"rich": true,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-11",
+					"index": 10,
+					"path": "11",
+					"group": "top-11",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-11.0:@html:p",
+							"blockId": "core-11.0",
+							"path": "11.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Nec arcu leo urna, sed amet lacinia ipsum. Viverra ullamcorper lobortis et ornare. Non velit sed tristique vel. Eros sagittis, massa aliquet in nibh pellentesque. Amet libero amet enim viverra tellus ultrices. Diam ut enim in amet. Consectetur elementum",
+							"rich": false,
+							"words": 39,
+							"minWords": 23,
+							"maxWords": 49,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-12",
+					"index": 11,
+					"path": "12",
+					"group": "top-12",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-12:@html:p",
+							"blockId": "core-12",
+							"path": "12",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "porttitor quisque fames suscipit lacinia neque. Vitae ultrices quisque donec vulputate habitant sed ut dignissim sit. Tellus nisl lacus, penatibus id. Sem ut arcu, odio id molestie volutpat dignissim vitae. Erat sit ullamcorper mauris pellentesque massa cursus nisi nulla. Consequat quisque a risus, consequat nibh quam dignissim eget.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-13",
+					"index": 12,
+					"path": "13",
+					"group": "top-13",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-13:@html:p",
+							"blockId": "core-13",
+							"path": "13",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Non velit sed tristique vel. Eros sagittis, massa aliquet in nibh pellentesque. Amet libero amet enim viverra tellus ultrices. Diam ut enim in amet. Consectetur elementum",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-14",
+					"index": 13,
+					"path": "14",
+					"group": "top-14",
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "core-14.0:@html:img",
+							"blockId": "core-14.0",
+							"path": "14.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-diary/wp-content/uploads/sites/82/2020/08/weare.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 470,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Young colleagues chatting at high tables in a bright office",
+							"tone": {
+								"grid": [
+									0.75,
+									0.75,
+									0.82,
+									0.51,
+									0.54,
+									0.68,
+									0.62,
+									0.53,
+									0.64
+								],
+								"color": "#a3a6a8"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-15",
+					"index": 14,
+					"path": "15",
+					"group": "top-15",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-15:@html:p",
+							"blockId": "core-15",
+							"path": "15",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "posuere sit risus. Mus in habitant sit et integer in sit blandit. Consequat, vitae pellentesque porta consectetur nec proin sed. Gravida eu commodo eu vitae turpis vulputate scelerisque. Ac porttitor augue nunc, odio eget arcu sed sapien in. Euismod eu aliquet tellus feugiat volutpat. Risus lobortis neque, massa tristique enim. Diam lorem vestibulum aliquam purus vitae sit lorem. Eget massa, risus egestas sapien aenean phasellus. Faucibus pulvinar cursus non morbi.",
+							"rich": false,
+							"words": 70,
+							"minWords": 42,
+							"maxWords": 88,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-16",
+					"index": 15,
+					"path": "16",
+					"group": "top-16",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-16:@html:p",
+							"blockId": "core-16",
+							"path": "16",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Ullamcorper facilisis tellus vulputate elit ornare dolor. Ac, sodales nullam fames aliquam amet viverra tellus eget. Eget risus sit integer nulla rhoncus. Gravida sed nibh nunc dis. Donec amet suspendisse consectetur nulla luctus neque.Suspendisse augue eleifend",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "content",
+					"title": "Heading 1: Porttitor quisque fames suscipit lacinia neque.",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "content",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "content",
+					"title": "Heading 2: Porttitor quisque fames suscipit lacinia neque.",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "content",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-5",
+					"role": "content",
+					"title": "Heading 3: Porttitor quisque fames suscipit lacinia neque.",
+					"sectionIds": [
+						"top-5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-6",
+					"role": "content",
+					"sectionIds": [
+						"top-6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-7",
+					"role": "content",
+					"title": "Heading 4: Porttitor quisque fames suscipit lacinia neque.",
+					"sectionIds": [
+						"top-7"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-8",
+					"role": "content",
+					"sectionIds": [
+						"top-8"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-10",
+					"role": "content",
+					"sectionIds": [
+						"top-10"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-11",
+					"role": "content",
+					"sectionIds": [
+						"top-11"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-12",
+					"role": "content",
+					"sectionIds": [
+						"top-12"
+					],
+					"paths": [
+						"12"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-13",
+					"role": "content",
+					"sectionIds": [
+						"top-13"
+					],
+					"paths": [
+						"13"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-14",
+					"role": "content",
+					"sectionIds": [
+						"top-14"
+					],
+					"paths": [
+						"14"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-15",
+					"role": "content",
+					"sectionIds": [
+						"top-15"
+					],
+					"paths": [
+						"15"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-16",
+					"role": "content",
+					"sectionIds": [
+						"top-16"
+					],
+					"paths": [
+						"16"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact-us",
+			"title": "Contact Us",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/digital-diary/wp-content/uploads/sites/82/themegrill-demos/contact-us-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Drop Us a Message",
+					"slots": [
+						{
+							"id": "core-0:@html:h",
+							"blockId": "core-0",
+							"path": "0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Drop Us a Message",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-1:@html:p",
+							"blockId": "core-1",
+							"path": "1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Questions? This contact form is the best way to get in touch with us. Drop us a note and we’ll get back to you ASAP! Note: All the fields are required.",
+							"rich": true,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "content",
+					"title": "Where We Are",
+					"slots": [
+						{
+							"id": "core-3:@html:h",
+							"blockId": "core-3",
+							"path": "3",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Where We Are",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Drop Us a Message",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "content",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "content",
+					"title": "Where We Are",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "sample-page",
+			"title": "Sample Page",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/digital-diary/wp-content/uploads/sites/82/themegrill-demos/sample-page-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "core-0:@html:p",
+							"blockId": "core-0",
+							"path": "0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:",
+							"rich": false,
+							"words": 49,
+							"minWords": 29,
+							"maxWords": 62,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 1,
+					"path": "2",
+					"group": "top-2",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-2:@html:p",
+							"blockId": "core-2",
+							"path": "2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "...or something like this:",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-4",
+					"index": 2,
+					"path": "4",
+					"group": "top-4",
+					"role": "content",
+					"slots": [
+						{
+							"id": "core-4:@html:p",
+							"blockId": "core-4",
+							"path": "4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "As a new WordPress user, you should go to your dashboard to delete this page and create new pages for your content. Have fun!",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "content",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "content",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 31,
+		"textSlots": 27,
+		"editableSlots": 27,
+		"images": 3,
+		"swappableImages": 3,
+		"words": 933
+	},
+	"builtAt": "2026-10-24T11:35:07.860Z"
+}

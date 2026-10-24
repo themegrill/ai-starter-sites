@@ -1,0 +1,1937 @@
+{
+	"version": 4,
+	"slug": "suffice",
+	"name": "",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Suffice-Thumbnail-Image.jpg",
+	"demoUrl": "https://zakrademos.com/suffice",
+	"niches": [
+		"consulting",
+		"business",
+		"coaching"
+	],
+	"keywords": [
+		"business consultant",
+		"consulting",
+		"business coach",
+		"strategy",
+		"advisor",
+		"mentor"
+	],
+	"plugins": [
+		"allfeedback/allfeedback.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 20,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 7
+				}
+			},
+			{
+				"hex": "#646464",
+				"count": 13,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 13
+				}
+			},
+			{
+				"hex": "#3867d6",
+				"count": 7,
+				"group": "brand",
+				"role": "primary",
+				"base": "#3867d6",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 2
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f4f4f4",
+				"count": 4,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 4
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#03093b",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#3867d6",
+				"lightnessDelta": -0.408,
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#0f1624",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#3867d6",
+				"lightnessDelta": -0.429
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#3867d6",
+				"lightnessDelta": -0.159
+			},
+			{
+				"hex": "#f7f9fd",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#696969",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#205dec",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#3867d6",
+				"lightnessDelta": -0.004
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#03093b",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#3867d6",
+				"bg": "#f7f9fd",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#3867d6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#3867d6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#205dec",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Manrope",
+			"body": "Inter",
+			"map": {
+				"Manrope": "heading",
+				"Inter": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "our-works",
+			"title": "Our Works",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/themegrill-demos/our-works-content.xml",
+			"sections": [
+				{
+					"id": "46be07e2",
+					"index": 0,
+					"path": "0",
+					"group": "46be07e2",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "a9bbf3c0-e68e-4edb-9e2f-95cd6d8f4ae5:text",
+							"blockId": "a9bbf3c0-e68e-4edb-9e2f-95cd6d8f4ae5",
+							"path": "0.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW ALL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "3cd037cb:image.url",
+							"blockId": "3cd037cb",
+							"path": "0.0.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Blog-Image-2.jpg",
+							"decorative": false,
+							"width": 1696,
+							"height": 953,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "People reviewing charts on paper and a laptop",
+							"tone": {
+								"grid": [
+									0.51,
+									0.67,
+									0.93,
+									0.7,
+									0.66,
+									0.56,
+									0.38,
+									0.63,
+									0.54
+								],
+								"color": "#a29e9d"
+							}
+						},
+						{
+							"id": "adf90c52:image.url",
+							"blockId": "adf90c52",
+							"path": "0.0.0.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Marketing-2.jpg",
+							"decorative": false,
+							"width": 1453,
+							"height": 959,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Printed charts and reports next to a laptop on a desk",
+							"tone": {
+								"grid": [
+									0.61,
+									0.62,
+									0.67,
+									0.77,
+									0.78,
+									0.82,
+									0.78,
+									0.88,
+									0.88
+								],
+								"color": "#c3c0bc"
+							}
+						},
+						{
+							"id": "19cd17d8:image.url",
+							"blockId": "19cd17d8",
+							"path": "0.0.0.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Marketing-3.jpg",
+							"decorative": false,
+							"width": 1696,
+							"height": 953,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "People reviewing charts on a tablet and clipboard",
+							"tone": {
+								"grid": [
+									0.56,
+									0.46,
+									0.87,
+									0.54,
+									0.72,
+									0.8,
+									0.67,
+									0.88,
+									0.7
+								],
+								"color": "#b2afab"
+							}
+						},
+						{
+							"id": "a6cd2ace:image.url",
+							"blockId": "a6cd2ace",
+							"path": "0.0.0.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Marketing-4.jpg",
+							"decorative": false,
+							"width": 1696,
+							"height": 1129,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Person typing on a laptop showing analytics charts",
+							"tone": {
+								"grid": [
+									0.86,
+									0.72,
+									0.54,
+									0.92,
+									0.36,
+									0.55,
+									0.93,
+									0.55,
+									0.59
+								],
+								"color": "#aea9b0"
+							}
+						},
+						{
+							"id": "cb3054fd:image.url",
+							"blockId": "cb3054fd",
+							"path": "0.0.0.1.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Marketing-5.jpg",
+							"decorative": false,
+							"width": 1786,
+							"height": 1190,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Calculator on top of printed financial charts",
+							"tone": {
+								"grid": [
+									0.27,
+									0.6,
+									0.78,
+									0.56,
+									0.51,
+									0.79,
+									0.45,
+									0.67,
+									0.74
+								],
+								"color": "#a29594"
+							}
+						},
+						{
+							"id": "9923a7a9:image.url",
+							"blockId": "9923a7a9",
+							"path": "0.0.0.1.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Marketing-6.jpg",
+							"decorative": false,
+							"width": 1018,
+							"height": 1530,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Magnifying glass and notebook on printed charts",
+							"tone": {
+								"grid": [
+									0.48,
+									0.87,
+									0.79,
+									0.84,
+									0.8,
+									0.75,
+									0.57,
+									0.7,
+									0.42
+								],
+								"color": "#b3b0aa"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "46be07e2",
+					"role": "hero",
+					"sectionIds": [
+						"46be07e2"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "team",
+			"title": "Team",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/themegrill-demos/team-content.xml",
+			"sections": [
+				{
+					"id": "2e934fa9",
+					"index": 0,
+					"path": "0",
+					"group": "2e934fa9",
+					"role": "hero",
+					"title": "James Carter",
+					"slots": [
+						{
+							"id": "e9416ebe:text",
+							"blockId": "e9416ebe",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "James Carter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bdd4fa9b:text",
+							"blockId": "bdd4fa9b",
+							"path": "0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Account Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3b88a450:text",
+							"blockId": "3b88a450",
+							"path": "0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Chloe Anderson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b0c49962:text",
+							"blockId": "b0c49962",
+							"path": "0.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Creative Director",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "847433dc:text",
+							"blockId": "847433dc",
+							"path": "0.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Olivia Taylor",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f47ae3d:text",
+							"blockId": "3f47ae3d",
+							"path": "0.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9acb1e9:text",
+							"blockId": "a9acb1e9",
+							"path": "0.0.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "James Carter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cd57ddd0:text",
+							"blockId": "cd57ddd0",
+							"path": "0.0.0.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Client Success Manager",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "118028b6:text",
+							"blockId": "118028b6",
+							"path": "0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Isabella Hart",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "370a20e5:text",
+							"blockId": "370a20e5",
+							"path": "0.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Marketing Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3b77d4f0:text",
+							"blockId": "3b77d4f0",
+							"path": "0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Maxwell Sullivan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ee09a055:text",
+							"blockId": "ee09a055",
+							"path": "0.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "HR Specialist",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0faba305:text",
+							"blockId": "0faba305",
+							"path": "0.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Emma Cladwell",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "63d0e529:text",
+							"blockId": "63d0e529",
+							"path": "0.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sales Executive",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9d684878:text",
+							"blockId": "9d684878",
+							"path": "0.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lucas Turner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9fc4609e:text",
+							"blockId": "9fc4609e",
+							"path": "0.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Client Success Manager",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "af874e28:image.url",
+							"blockId": "af874e28",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/James-Carter.jpg",
+							"decorative": false,
+							"width": 1462,
+							"height": 2194,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man in glasses and a dark suit standing",
+							"tone": {
+								"grid": [
+									0.86,
+									0.73,
+									0.89,
+									0.69,
+									0.45,
+									0.89,
+									0.57,
+									0.25,
+									0.89
+								],
+								"color": "#aeb1b0"
+							}
+						},
+						{
+							"id": "a3139574:image.url",
+							"blockId": "a3139574",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Chloe-Anderson-e1741087095233.jpg",
+							"decorative": false,
+							"width": 1318,
+							"height": 1636,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling woman in a denim shirt in an office",
+							"tone": {
+								"grid": [
+									0.74,
+									0.53,
+									0.71,
+									0.63,
+									0.69,
+									0.65,
+									0.48,
+									0.75,
+									0.5
+								],
+								"color": "#9ca2a4"
+							}
+						},
+						{
+							"id": "abfc6142:image.url",
+							"blockId": "abfc6142",
+							"path": "0.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Olivia-Taylor-e1741087112333.jpg",
+							"decorative": false,
+							"width": 1164,
+							"height": 1070,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling businesswoman holding a clipboard with a chart",
+							"tone": {
+								"grid": [
+									0.78,
+									0.62,
+									0.67,
+									0.76,
+									0.38,
+									0.56,
+									0.7,
+									0.28,
+									0.61
+								],
+								"color": "#9b988a"
+							}
+						},
+						{
+							"id": "f5151f66:image.url",
+							"blockId": "f5151f66",
+							"path": "0.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Sarah-Mitchell.jpg",
+							"decorative": false,
+							"width": 1388,
+							"height": 2084,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling woman in a white shirt at her office desk",
+							"tone": {
+								"grid": [
+									0.8,
+									0.7,
+									0.76,
+									0.66,
+									0.63,
+									0.59,
+									0.55,
+									0.72,
+									0.67
+								],
+								"color": "#acacad"
+							}
+						},
+						{
+							"id": "87ee7a11:image.url",
+							"blockId": "87ee7a11",
+							"path": "0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Testimonial1.jpg",
+							"decorative": false,
+							"width": 1692,
+							"height": 2084,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Businesswoman in a white blazer seated at a desk",
+							"tone": {
+								"grid": [
+									0.87,
+									0.73,
+									0.83,
+									0.69,
+									0.53,
+									0.63,
+									0.76,
+									0.57,
+									0.73
+								],
+								"color": "#b5b3b4"
+							}
+						},
+						{
+							"id": "7b62471d:image.url",
+							"blockId": "7b62471d",
+							"path": "0.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Team-Member-5-e1741582854774.jpg",
+							"decorative": false,
+							"width": 1252,
+							"height": 1582,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling businessman in a suit holding a laptop outdoors",
+							"tone": {
+								"grid": [
+									0.95,
+									0.82,
+									0.9,
+									0.78,
+									0.6,
+									0.41,
+									0.74,
+									0.32,
+									0.27
+								],
+								"color": "#a5a4a1"
+							}
+						},
+						{
+							"id": "8bedee39:image.url",
+							"blockId": "8bedee39",
+							"path": "0.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Testimonial2-e1741086261949.jpg",
+							"decorative": false,
+							"width": 1190,
+							"height": 1310,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Confident woman with crossed arms in an office",
+							"tone": {
+								"grid": [
+									0.84,
+									0.61,
+									0.87,
+									0.79,
+									0.25,
+									0.79,
+									0.63,
+									0.41,
+									0.58
+								],
+								"color": "#a2a59c"
+							}
+						},
+						{
+							"id": "81d54519:image.url",
+							"blockId": "81d54519",
+							"path": "0.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Team-Member-6.jpg",
+							"decorative": false,
+							"width": 1318,
+							"height": 1979,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling man in glasses giving a thumbs up",
+							"tone": {
+								"grid": [
+									0.65,
+									0.63,
+									0.76,
+									0.62,
+									0.63,
+									0.87,
+									0.51,
+									0.57,
+									0.83
+								],
+								"color": "#adacaa"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "2e934fa9",
+					"role": "hero",
+					"title": "James Carter",
+					"sectionIds": [
+						"2e934fa9"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "afcf7b60",
+					"index": 0,
+					"path": "0",
+					"group": "afcf7b60",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "afcf7b60",
+					"role": "dynamic",
+					"sectionIds": [
+						"afcf7b60"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "34b902f0",
+					"index": 0,
+					"path": "0",
+					"group": "34b902f0",
+					"role": "hero",
+					"title": "Expert Guidance for Accelerated Business Growth",
+					"slots": [
+						{
+							"id": "9404dff7:text",
+							"blockId": "9404dff7",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Expert Guidance for Accelerated Business Growth",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fc301bf1:text",
+							"blockId": "fc301bf1",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a7b8dd8f:text",
+							"blockId": "a7b8dd8f",
+							"path": "0.1.2.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Trusted Expertise and Innovative Solutions",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b53aa960:text",
+							"blockId": "b53aa960",
+							"path": "0.1.3.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Client Focused and Goal Driven",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "13bc0cfb:text",
+							"blockId": "13bc0cfb",
+							"path": "0.1.4.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Creative Strategies and Outstanding Outcomes",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a104d149:text",
+							"blockId": "a104d149",
+							"path": "0.1.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla mollit anim id est laborum.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "338cbce3:image.url",
+							"blockId": "338cbce3",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/pexels-mikhail-nilov-6592739-scaled-1.jpg",
+							"decorative": false,
+							"width": 2560,
+							"height": 1707,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling woman in a white shirt by a whiteboard with charts",
+							"tone": {
+								"grid": [
+									0.66,
+									0.76,
+									0.39,
+									0.65,
+									0.73,
+									0.48,
+									0.74,
+									0.79,
+									0.49
+								],
+								"color": "#9ea2a7"
+							}
+						}
+					]
+				},
+				{
+					"id": "2365c120",
+					"index": 1,
+					"path": "1",
+					"group": "2365c120",
+					"role": "cta",
+					"title": "Actionable Plans for Transforming Corporate Performance",
+					"slots": [
+						{
+							"id": "47a5f589:text",
+							"blockId": "47a5f589",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Actionable Plans for Transforming Corporate Performance",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c00a4426:text",
+							"blockId": "c00a4426",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "461ea836:text",
+							"blockId": "461ea836",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla mollit anim id est laborum quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ebbe751-7455-4207-8a32-b6174882c452:text",
+							"blockId": "9ebbe751-7455-4207-8a32-b6174882c452",
+							"path": "1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BOOK NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "56dc4576:image.url",
+							"blockId": "56dc4576",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Accordian-Image-.jpg",
+							"decorative": false,
+							"width": 1611,
+							"height": 1072,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Team working together around a desk with a laptop",
+							"tone": {
+								"grid": [
+									0.81,
+									0.71,
+									0.72,
+									0.79,
+									0.64,
+									0.61,
+									0.5,
+									0.71,
+									0.54
+								],
+								"color": "#a9abaf"
+							}
+						}
+					]
+				},
+				{
+					"id": "572c614b",
+					"index": 2,
+					"path": "2",
+					"group": "572c614b",
+					"role": "content",
+					"title": "Where Your Path To Success Begins and Flourishes",
+					"slots": [
+						{
+							"id": "7a47bcda:text",
+							"blockId": "7a47bcda",
+							"path": "2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "FOCUSED GROWTH",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7c94bda:text",
+							"blockId": "f7c94bda",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Where Your Path To Success Begins and Flourishes",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f5cfcd7c:text",
+							"blockId": "f5cfcd7c",
+							"path": "2.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Strong Reputation",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "81719230:text",
+							"blockId": "81719230",
+							"path": "2.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ee5e6282:text",
+							"blockId": "ee5e6282",
+							"path": "2.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Timely Delivery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7622e353:text",
+							"blockId": "7622e353",
+							"path": "2.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3b7468e7:text",
+							"blockId": "3b7468e7",
+							"path": "2.1.0.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Proven Expertise",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fc02d158:text",
+							"blockId": "fc02d158",
+							"path": "2.1.0.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "24ab4bc5-af54-40ba-a660-a921ebed0dcc:text",
+							"blockId": "24ab4bc5-af54-40ba-a660-a921ebed0dcc",
+							"path": "2.2.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "eac44996:image.url",
+							"blockId": "eac44996",
+							"path": "2.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Icon1.png",
+							"decorative": true,
+							"width": 48,
+							"height": 48,
+							"orientation": "square"
+						},
+						{
+							"id": "2431a2e4:image.url",
+							"blockId": "2431a2e4",
+							"path": "2.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Icon-2.png",
+							"decorative": true,
+							"width": 48,
+							"height": 48,
+							"orientation": "square"
+						},
+						{
+							"id": "8d12b18e:image.url",
+							"blockId": "8d12b18e",
+							"path": "2.1.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Icon-3.png",
+							"decorative": true,
+							"width": 49,
+							"height": 48,
+							"orientation": "square"
+						},
+						{
+							"id": "366850f1:image.url",
+							"blockId": "366850f1",
+							"path": "2.1.0.2.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Focused-Growth-Image.jpg",
+							"decorative": false,
+							"width": 1696,
+							"height": 953,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "People reviewing charts on a tablet and clipboard",
+							"tone": {
+								"grid": [
+									0.56,
+									0.46,
+									0.87,
+									0.54,
+									0.72,
+									0.8,
+									0.67,
+									0.88,
+									0.7
+								],
+								"color": "#b2afab"
+							}
+						}
+					]
+				},
+				{
+					"id": "fb8109bd",
+					"index": 3,
+					"path": "3",
+					"group": "fb8109bd",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "04a7e6eb:image.url",
+							"blockId": "04a7e6eb",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Upwork.png",
+							"decorative": true,
+							"width": 99,
+							"height": 27,
+							"orientation": "landscape"
+						},
+						{
+							"id": "193701c5:image.url",
+							"blockId": "193701c5",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Unsplash-1.png",
+							"decorative": true,
+							"width": 118,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0ba8fd2e:image.url",
+							"blockId": "0ba8fd2e",
+							"path": "3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Loom-1.png",
+							"decorative": true,
+							"width": 92,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "379642b6:image.url",
+							"blockId": "379642b6",
+							"path": "3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Zapier-1.png",
+							"decorative": true,
+							"width": 66,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "f400da03:image.url",
+							"blockId": "f400da03",
+							"path": "3.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Group-1.png",
+							"decorative": true,
+							"width": 84,
+							"height": 31,
+							"orientation": "landscape"
+						},
+						{
+							"id": "caef85be:image.url",
+							"blockId": "caef85be",
+							"path": "3.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Shopify-1.png",
+							"decorative": true,
+							"width": 70,
+							"height": 31,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "2e934fa9",
+					"index": 4,
+					"path": "4",
+					"group": "2e934fa9",
+					"role": "team",
+					"title": "Meet Our Professional Team Members",
+					"slots": [
+						{
+							"id": "28df3231:text",
+							"blockId": "28df3231",
+							"path": "4.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "OUR TEAM",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "194eaa26:text",
+							"blockId": "194eaa26",
+							"path": "4.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Meet Our Professional Team Members",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6d725973-f184-43a0-8d00-9b37c4f8fa8e:text",
+							"blockId": "6d725973-f184-43a0-8d00-9b37c4f8fa8e",
+							"path": "4.0.0.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "ViEW ALL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e9416ebe:text",
+							"blockId": "e9416ebe",
+							"path": "4.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "James Carter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bdd4fa9b:text",
+							"blockId": "bdd4fa9b",
+							"path": "4.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Account Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3b88a450:text",
+							"blockId": "3b88a450",
+							"path": "4.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Chloe Anderson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b0c49962:text",
+							"blockId": "b0c49962",
+							"path": "4.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Creative Director",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "847433dc:text",
+							"blockId": "847433dc",
+							"path": "4.1.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Olivia Taylor",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f47ae3d:text",
+							"blockId": "3f47ae3d",
+							"path": "4.1.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9acb1e9:text",
+							"blockId": "a9acb1e9",
+							"path": "4.1.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "James Carter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cd57ddd0:text",
+							"blockId": "cd57ddd0",
+							"path": "4.1.0.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Client Success Manager",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "af874e28:image.url",
+							"blockId": "af874e28",
+							"path": "4.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/James-Carter.jpg",
+							"decorative": false,
+							"width": 1462,
+							"height": 2194,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man in glasses and a dark suit standing",
+							"tone": {
+								"grid": [
+									0.86,
+									0.73,
+									0.89,
+									0.69,
+									0.45,
+									0.89,
+									0.57,
+									0.25,
+									0.89
+								],
+								"color": "#aeb1b0"
+							}
+						},
+						{
+							"id": "a3139574:image.url",
+							"blockId": "a3139574",
+							"path": "4.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Chloe-Anderson-e1741087095233.jpg",
+							"decorative": false,
+							"width": 1318,
+							"height": 1636,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling woman in a denim shirt in an office",
+							"tone": {
+								"grid": [
+									0.74,
+									0.53,
+									0.71,
+									0.63,
+									0.69,
+									0.65,
+									0.48,
+									0.75,
+									0.5
+								],
+								"color": "#9ca2a4"
+							}
+						},
+						{
+							"id": "abfc6142:image.url",
+							"blockId": "abfc6142",
+							"path": "4.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Olivia-Taylor-e1741087112333.jpg",
+							"decorative": false,
+							"width": 1164,
+							"height": 1070,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling businesswoman holding a clipboard with a chart",
+							"tone": {
+								"grid": [
+									0.78,
+									0.62,
+									0.67,
+									0.76,
+									0.38,
+									0.56,
+									0.7,
+									0.28,
+									0.61
+								],
+								"color": "#9b988a"
+							}
+						},
+						{
+							"id": "f5151f66:image.url",
+							"blockId": "f5151f66",
+							"path": "4.1.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Sarah-Mitchell.jpg",
+							"decorative": false,
+							"width": 1388,
+							"height": 2084,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling woman in a white shirt at her office desk",
+							"tone": {
+								"grid": [
+									0.8,
+									0.7,
+									0.76,
+									0.66,
+									0.63,
+									0.59,
+									0.55,
+									0.72,
+									0.67
+								],
+								"color": "#acacad"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "34b902f0",
+					"role": "hero",
+					"title": "Expert Guidance for Accelerated Business Growth",
+					"sectionIds": [
+						"34b902f0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2365c120",
+					"role": "cta",
+					"title": "Actionable Plans for Transforming Corporate Performance",
+					"sectionIds": [
+						"2365c120"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "572c614b",
+					"role": "content",
+					"title": "Where Your Path To Success Begins and Flourishes",
+					"sectionIds": [
+						"572c614b"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "fb8109bd",
+					"role": "logos",
+					"sectionIds": [
+						"fb8109bd"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "2e934fa9",
+					"role": "team",
+					"title": "Meet Our Professional Team Members",
+					"sectionIds": [
+						"2e934fa9"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 8,
+		"textSlots": 47,
+		"editableSlots": 47,
+		"images": 30,
+		"swappableImages": 21,
+		"words": 273
+	},
+	"builtAt": "2026-10-24T11:35:08.121Z"
+}

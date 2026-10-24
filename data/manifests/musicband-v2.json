@@ -1,0 +1,3413 @@
+{
+	"version": 4,
+	"slug": "musicband-v2",
+	"name": "Music Band V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-musicband-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/musicband-v2",
+	"niches": [
+		"music",
+		"entertainment"
+	],
+	"keywords": [
+		"band",
+		"musician",
+		"music",
+		"concert",
+		"singer",
+		"dj",
+		"artist",
+		"album"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"cue/cue.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 121,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 89,
+					"icon": 16,
+					"border": 2
+				}
+			},
+			{
+				"hex": "#852172",
+				"count": 23,
+				"group": "brand",
+				"role": "primary",
+				"base": "#852172",
+				"lightnessDelta": 0,
+				"usage": {
+					"icon": 16,
+					"background": 5,
+					"border": 1
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 22,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 16
+				}
+			},
+			{
+				"hex": "#ff54e2",
+				"count": 17,
+				"group": "brand",
+				"role": "primary",
+				"base": "#852172",
+				"lightnessDelta": 0.339,
+				"usage": {
+					"text": 15
+				}
+			},
+			{
+				"hex": "#269bd1",
+				"count": 16,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#269bd1",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 16
+				}
+			},
+			{
+				"hex": "#080618",
+				"count": 9,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 9
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#cf2fa9",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#852172",
+				"lightnessDelta": 0.173,
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#027abb",
+				"count": 4,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#269bd1",
+				"lightnessDelta": -0.114
+			},
+			{
+				"hex": "#060513",
+				"count": 3,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#342fcf",
+				"count": 3,
+				"group": "brand",
+				"role": "accent",
+				"base": "#342fcf",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#320e4f",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#320e4f",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#000000",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#ff77e8",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#852172",
+				"lightnessDelta": 0.408
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#269bd1",
+				"lightnessDelta": -0.1
+			},
+			{
+				"hex": "#261459",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#342fcf",
+				"lightnessDelta": -0.284,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#2e2272",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#342fcf",
+				"lightnessDelta": -0.208,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"background": 1
+				}
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#852172",
+				"bg": "#060513",
+				"large": true,
+				"count": 16,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#852172",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ff77e8",
+				"bg": "#080618",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "3a1bf866",
+					"index": 0,
+					"path": "0",
+					"group": "3a1bf866",
+					"role": "hero",
+					"title": "NEW MUSIC TODAY",
+					"slots": [
+						{
+							"id": "0bbc70f4:text",
+							"blockId": "0bbc70f4",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "NEW MUSIC TODAY",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9030a6d5:text",
+							"blockId": "9030a6d5",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "3a1bf866:background.image.image.url",
+							"blockId": "3a1bf866",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/slider-img.jpg",
+							"decorative": false,
+							"width": 1600,
+							"height": 1162,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Female singer performing on stage with a microphone",
+							"tone": {
+								"grid": [
+									0.09,
+									0.08,
+									0.03,
+									0.04,
+									0.15,
+									0.02,
+									0.04,
+									0.13,
+									0.02
+								],
+								"color": "#2b091b"
+							}
+						}
+					]
+				},
+				{
+					"id": "e9478366",
+					"index": 1,
+					"path": "2",
+					"group": "e9478366",
+					"role": "content",
+					"title": "ABOUT US",
+					"slots": [
+						{
+							"id": "86b69d72:text",
+							"blockId": "86b69d72",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "ABOUT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5955241f:text",
+							"blockId": "5955241f",
+							"path": "2.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore",
+							"rich": true,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9c87cb70:text",
+							"blockId": "9c87cb70",
+							"path": "2.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+							"rich": false,
+							"words": 51,
+							"minWords": 31,
+							"maxWords": 64,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "689d67f2:text",
+							"blockId": "689d67f2",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.Ut enim ad minim veniam.re dolor in reprehenderit.",
+							"rich": false,
+							"words": 75,
+							"minWords": 45,
+							"maxWords": 94,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "fd74d171:image.url",
+							"blockId": "fd74d171",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/aboutq-img.png",
+							"decorative": false,
+							"width": 653,
+							"height": 695,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Music collage with a keyboard player, vinyl record and a seated woman",
+							"tone": {
+								"grid": [
+									0.38,
+									0.56,
+									0.7,
+									0.33,
+									0.33,
+									0.52,
+									0.47,
+									0.39,
+									0.53
+								],
+								"color": "#787873"
+							}
+						}
+					]
+				},
+				{
+					"id": "a6de0dc4",
+					"index": 2,
+					"path": "4",
+					"group": "a6de0dc4",
+					"role": "features",
+					"title": "LATEST ALBUMS",
+					"slots": [
+						{
+							"id": "21b0bc65:text",
+							"blockId": "21b0bc65",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "LATEST ALBUMS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dde3a02c:text",
+							"blockId": "dde3a02c",
+							"path": "4.0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.1.0.0.1:@html:p",
+							"blockId": "core-4.0.1.0.0.1",
+							"path": "4.0.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "97d8f2e6:text",
+							"blockId": "97d8f2e6",
+							"path": "4.0.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.1.1.0.1:@html:p",
+							"blockId": "core-4.0.1.1.0.1",
+							"path": "4.0.1.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b916fe5a:text",
+							"blockId": "b916fe5a",
+							"path": "4.0.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.1.2.0.1:@html:p",
+							"blockId": "core-4.0.1.2.0.1",
+							"path": "4.0.1.2.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2365a50c:text",
+							"blockId": "2365a50c",
+							"path": "4.0.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.0.0.1:@html:p",
+							"blockId": "core-4.0.2.0.0.1",
+							"path": "4.0.2.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b61d18ce:text",
+							"blockId": "b61d18ce",
+							"path": "4.0.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.1.0.1:@html:p",
+							"blockId": "core-4.0.2.1.0.1",
+							"path": "4.0.2.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62612510:text",
+							"blockId": "62612510",
+							"path": "4.0.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.2.0.1:@html:p",
+							"blockId": "core-4.0.2.2.0.1",
+							"path": "4.0.2.2.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a6de0dc4:background.image.image.url",
+							"blockId": "a6de0dc4",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/background.jpg",
+							"decorative": false,
+							"width": 1921,
+							"height": 1080,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Band performing on a concert stage under lights",
+							"tone": {
+								"grid": [
+									0.62,
+									0.75,
+									0.66,
+									0.63,
+									0.74,
+									0.67,
+									0.65,
+									0.66,
+									0.64
+								],
+								"color": "#a6abb7"
+							}
+						}
+					]
+				},
+				{
+					"id": "6cdb256d",
+					"index": 3,
+					"path": "6",
+					"group": "6cdb256d",
+					"role": "content",
+					"title": "MUSIC",
+					"slots": [
+						{
+							"id": "2a7b5743:text",
+							"blockId": "2a7b5743",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "MUSIC",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6512a635:image.url",
+							"blockId": "6512a635",
+							"path": "6.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/music-img.png",
+							"decorative": false,
+							"width": 617,
+							"height": 780,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman with blue hair in a black hoodie beside a vinyl record",
+							"tone": {
+								"grid": [
+									0.32,
+									0.38,
+									0.84,
+									0.66,
+									0.24,
+									0.42,
+									0.92,
+									0.07,
+									0.18
+								],
+								"color": "#826e6f"
+							}
+						}
+					]
+				},
+				{
+					"id": "c3d8bca1",
+					"index": 4,
+					"path": "9",
+					"group": "c3d8bca1",
+					"role": "content",
+					"title": "NEXT EVENT",
+					"slots": [
+						{
+							"id": "978e758e:text",
+							"blockId": "978e758e",
+							"path": "9.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "NEXT EVENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b4cf6594:text",
+							"blockId": "b4cf6594",
+							"path": "9.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad minim veniam, quis nostrud exercitation",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "c3d8bca1:background.image.image.url",
+							"blockId": "c3d8bca1",
+							"path": "9",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/next-event-background.jpg",
+							"decorative": false,
+							"width": 1600,
+							"height": 787,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Large concert arena with crowd and colorful stage lights",
+							"tone": {
+								"grid": [
+									0.09,
+									0.22,
+									0.22,
+									0.21,
+									0.45,
+									0.32,
+									0.15,
+									0.28,
+									0.11
+								],
+								"color": "#51305c"
+							}
+						}
+					]
+				},
+				{
+					"id": "65416b9e",
+					"index": 5,
+					"path": "11",
+					"group": "65416b9e",
+					"role": "team",
+					"title": "OUR TEAM",
+					"slots": [
+						{
+							"id": "af692384:text",
+							"blockId": "af692384",
+							"path": "11.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "OUR TEAM",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1738af47:text",
+							"blockId": "1738af47",
+							"path": "11.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mathew Hyatt",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa5bcbce:text",
+							"blockId": "aa5bcbce",
+							"path": "11.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vocal, guitar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba068dec:text",
+							"blockId": "ba068dec",
+							"path": "11.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Jessika Turcotte",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a45718d:text",
+							"blockId": "0a45718d",
+							"path": "11.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vocal, piano",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c6d55c5:text",
+							"blockId": "1c6d55c5",
+							"path": "11.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Toby Halvorson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5efe3a39:text",
+							"blockId": "5efe3a39",
+							"path": "11.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bass guitar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "704c4546:text",
+							"blockId": "704c4546",
+							"path": "11.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Anna Mayer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a09ee5de:text",
+							"blockId": "a09ee5de",
+							"path": "11.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Drums",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f12981e0:image.url",
+							"blockId": "f12981e0",
+							"path": "11.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team1.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling bearded man in red sunglasses in front of the Eiffel Tower",
+							"tone": {
+								"grid": [
+									0.83,
+									0.48,
+									0.76,
+									0.66,
+									0.39,
+									0.55,
+									0.71,
+									0.7,
+									0.72
+								],
+								"color": "#ada1aa"
+							}
+						},
+						{
+							"id": "0463f5c3:image.url",
+							"blockId": "0463f5c3",
+							"path": "11.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team2.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in a brown blazer posing with hand in his hair",
+							"tone": {
+								"grid": [
+									0.64,
+									0.47,
+									0.58,
+									0.44,
+									0.41,
+									0.32,
+									0.2,
+									0.21,
+									0.18
+								],
+								"color": "#785d55"
+							}
+						},
+						{
+							"id": "2c7b5f1d:image.url",
+							"blockId": "2c7b5f1d",
+							"path": "11.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team3.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling young woman with glasses sitting by a window",
+							"tone": {
+								"grid": [
+									0.53,
+									0.59,
+									0.58,
+									0.3,
+									0.33,
+									0.46,
+									0.5,
+									0.67,
+									0.48
+								],
+								"color": "#857c79"
+							}
+						},
+						{
+							"id": "f1fb4b4e:image.url",
+							"blockId": "f1fb4b4e",
+							"path": "11.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team4.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Blonde woman in a hoodie and headband sitting outdoors",
+							"tone": {
+								"grid": [
+									0.87,
+									0.74,
+									0.85,
+									0.75,
+									0.38,
+									0.59,
+									0.49,
+									0.28,
+									0.43
+								],
+								"color": "#9f988f"
+							}
+						}
+					]
+				},
+				{
+					"id": "ac00864b",
+					"index": 6,
+					"path": "14",
+					"group": "ac00864b",
+					"role": "content",
+					"title": "Concert Video Chicago 2020",
+					"slots": [
+						{
+							"id": "1e7ccf29:text",
+							"blockId": "1e7ccf29",
+							"path": "14.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Concert Video Chicago 2020",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80001e83:text",
+							"blockId": "80001e83",
+							"path": "14.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5e1f8e82:text",
+							"blockId": "5e1f8e82",
+							"path": "14.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "minim veniam, quis nostrud exercitation",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ac00864b:background.image.image.url",
+							"blockId": "ac00864b",
+							"path": "14",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/slider-img.jpg",
+							"decorative": false,
+							"width": 1600,
+							"height": 1162,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Female singer performing on stage with a microphone",
+							"tone": {
+								"grid": [
+									0.09,
+									0.08,
+									0.03,
+									0.04,
+									0.15,
+									0.02,
+									0.04,
+									0.13,
+									0.02
+								],
+								"color": "#2b091b"
+							}
+						}
+					]
+				},
+				{
+					"id": "d0211052",
+					"index": 7,
+					"path": "16",
+					"group": "d0211052",
+					"role": "dynamic",
+					"title": "CONTACT FOR BOOKING",
+					"slots": [
+						{
+							"id": "c7b54d77:text",
+							"blockId": "c7b54d77",
+							"path": "16.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CONTACT FOR BOOKING",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "118afc3c:text",
+							"blockId": "118afc3c",
+							"path": "16.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "For booking and press inquiries please contact my manager by filling the form or calling the number: 1-222-333-4444",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "cce93289:image.url",
+							"blockId": "cce93289",
+							"path": "16.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/img2.png",
+							"decorative": false,
+							"width": 594,
+							"height": 913,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Curly-haired woman in a black leather jacket posing",
+							"tone": {
+								"grid": [
+									0.57,
+									0.38,
+									0.84,
+									0.55,
+									0.42,
+									0.26,
+									0.39,
+									0.12,
+									0.6
+								],
+								"color": "#787474"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "f9865302",
+					"index": 8,
+					"path": "17",
+					"group": "f9865302",
+					"role": "cta",
+					"title": "Have a Question About Company And Music Concert",
+					"slots": [
+						{
+							"id": "993086e6:text",
+							"blockId": "993086e6",
+							"path": "17.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Have a Question About Company And Music Concert",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "55c58e5c:text",
+							"blockId": "55c58e5c",
+							"path": "17.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Let us take care of it! We are willing to give some advice and support whatever you need.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9a757e13:text",
+							"blockId": "9a757e13",
+							"path": "17.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "2487bce9:image.url",
+							"blockId": "2487bce9",
+							"path": "17.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/mic.png",
+							"decorative": true,
+							"width": 80,
+							"height": 106,
+							"orientation": "portrait"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "3a1bf866",
+					"role": "hero",
+					"title": "NEW MUSIC TODAY",
+					"sectionIds": [
+						"3a1bf866"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e9478366",
+					"role": "content",
+					"title": "ABOUT US",
+					"sectionIds": [
+						"e9478366"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a6de0dc4",
+					"role": "features",
+					"title": "LATEST ALBUMS",
+					"sectionIds": [
+						"a6de0dc4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6cdb256d",
+					"role": "content",
+					"title": "MUSIC",
+					"sectionIds": [
+						"6cdb256d"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c3d8bca1",
+					"role": "content",
+					"title": "NEXT EVENT",
+					"sectionIds": [
+						"c3d8bca1"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "65416b9e",
+					"role": "team",
+					"title": "OUR TEAM",
+					"sectionIds": [
+						"65416b9e"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "ac00864b",
+					"role": "content",
+					"title": "Concert Video Chicago 2020",
+					"sectionIds": [
+						"ac00864b"
+					],
+					"paths": [
+						"14"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d0211052",
+					"role": "dynamic",
+					"title": "CONTACT FOR BOOKING",
+					"sectionIds": [
+						"d0211052"
+					],
+					"paths": [
+						"16"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f9865302",
+					"role": "cta",
+					"title": "Have a Question About Company And Music Concert",
+					"sectionIds": [
+						"f9865302"
+					],
+					"paths": [
+						"17"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "e9478366",
+					"index": 0,
+					"path": "1",
+					"group": "e9478366",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "5955241f:text",
+							"blockId": "5955241f",
+							"path": "1.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore",
+							"rich": true,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9c87cb70:text",
+							"blockId": "9c87cb70",
+							"path": "1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+							"rich": false,
+							"words": 51,
+							"minWords": 31,
+							"maxWords": 64,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "689d67f2:text",
+							"blockId": "689d67f2",
+							"path": "1.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.Ut enim ad minim veniam.re dolor in reprehenderit.",
+							"rich": false,
+							"words": 75,
+							"minWords": 45,
+							"maxWords": 94,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "fd74d171:image.url",
+							"blockId": "fd74d171",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/aboutq-img.png",
+							"decorative": false,
+							"width": 653,
+							"height": 695,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Music collage with a keyboard player, vinyl record and a seated woman",
+							"tone": {
+								"grid": [
+									0.38,
+									0.56,
+									0.7,
+									0.33,
+									0.33,
+									0.52,
+									0.47,
+									0.39,
+									0.53
+								],
+								"color": "#787873"
+							}
+						}
+					]
+				},
+				{
+					"id": "1ea475bd",
+					"index": 1,
+					"path": "3",
+					"group": "1ea475bd",
+					"role": "content",
+					"slots": [
+						{
+							"id": "96cd035f:text",
+							"blockId": "96cd035f",
+							"path": "3.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore",
+							"rich": true,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "aac6fdda:text",
+							"blockId": "aac6fdda",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+							"rich": false,
+							"words": 51,
+							"minWords": 31,
+							"maxWords": 64,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "acfc39eb:text",
+							"blockId": "acfc39eb",
+							"path": "3.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.Ut enim ad minim veniam.re dolor in reprehenderit.",
+							"rich": false,
+							"words": 75,
+							"minWords": 45,
+							"maxWords": 94,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "1ea475bd:background.image.image.url",
+							"blockId": "1ea475bd",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/about-background.jpg",
+							"decorative": false,
+							"width": 1621,
+							"height": 1242,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Crowd at a music festival stage with fireworks",
+							"tone": {
+								"grid": [
+									0.24,
+									0.14,
+									0.22,
+									0.21,
+									0.16,
+									0.22,
+									0.17,
+									0.17,
+									0.17
+								],
+								"color": "#51262c"
+							}
+						},
+						{
+							"id": "2e1d3430:image.url",
+							"blockId": "2e1d3430",
+							"path": "3.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/aboutq-img.png",
+							"decorative": false,
+							"width": 653,
+							"height": 695,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Music collage with a keyboard player, vinyl record and a seated woman",
+							"tone": {
+								"grid": [
+									0.38,
+									0.56,
+									0.7,
+									0.33,
+									0.33,
+									0.52,
+									0.47,
+									0.39,
+									0.53
+								],
+								"color": "#787873"
+							}
+						}
+					]
+				},
+				{
+					"id": "65416b9e",
+					"index": 2,
+					"path": "5",
+					"group": "65416b9e",
+					"role": "team",
+					"title": "OUR TEAM",
+					"slots": [
+						{
+							"id": "af692384:text",
+							"blockId": "af692384",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "OUR TEAM",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1738af47:text",
+							"blockId": "1738af47",
+							"path": "5.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mathew Hyatt",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa5bcbce:text",
+							"blockId": "aa5bcbce",
+							"path": "5.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vocal, guitar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba068dec:text",
+							"blockId": "ba068dec",
+							"path": "5.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Jessika Turcotte",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a45718d:text",
+							"blockId": "0a45718d",
+							"path": "5.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vocal, piano",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c6d55c5:text",
+							"blockId": "1c6d55c5",
+							"path": "5.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Toby Halvorson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5efe3a39:text",
+							"blockId": "5efe3a39",
+							"path": "5.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bass guitar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "704c4546:text",
+							"blockId": "704c4546",
+							"path": "5.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Anna Mayer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a09ee5de:text",
+							"blockId": "a09ee5de",
+							"path": "5.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Drums",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f12981e0:image.url",
+							"blockId": "f12981e0",
+							"path": "5.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team1.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling bearded man in red sunglasses in front of the Eiffel Tower",
+							"tone": {
+								"grid": [
+									0.83,
+									0.48,
+									0.76,
+									0.66,
+									0.39,
+									0.55,
+									0.71,
+									0.7,
+									0.72
+								],
+								"color": "#ada1aa"
+							}
+						},
+						{
+							"id": "0463f5c3:image.url",
+							"blockId": "0463f5c3",
+							"path": "5.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team2.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in a brown blazer posing with hand in his hair",
+							"tone": {
+								"grid": [
+									0.64,
+									0.47,
+									0.58,
+									0.44,
+									0.41,
+									0.32,
+									0.2,
+									0.21,
+									0.18
+								],
+								"color": "#785d55"
+							}
+						},
+						{
+							"id": "2c7b5f1d:image.url",
+							"blockId": "2c7b5f1d",
+							"path": "5.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team3.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling young woman with glasses sitting by a window",
+							"tone": {
+								"grid": [
+									0.53,
+									0.59,
+									0.58,
+									0.3,
+									0.33,
+									0.46,
+									0.5,
+									0.67,
+									0.48
+								],
+								"color": "#857c79"
+							}
+						},
+						{
+							"id": "f1fb4b4e:image.url",
+							"blockId": "f1fb4b4e",
+							"path": "5.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team4.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Blonde woman in a hoodie and headband sitting outdoors",
+							"tone": {
+								"grid": [
+									0.87,
+									0.74,
+									0.85,
+									0.75,
+									0.38,
+									0.59,
+									0.49,
+									0.28,
+									0.43
+								],
+								"color": "#9f988f"
+							}
+						}
+					]
+				},
+				{
+					"id": "ac00864b",
+					"index": 3,
+					"path": "7",
+					"group": "ac00864b",
+					"role": "content",
+					"title": "Concert Video Chicago 2020",
+					"slots": [
+						{
+							"id": "1e7ccf29:text",
+							"blockId": "1e7ccf29",
+							"path": "7.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Concert Video Chicago 2020",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80001e83:text",
+							"blockId": "80001e83",
+							"path": "7.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do enim ad",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5e1f8e82:text",
+							"blockId": "5e1f8e82",
+							"path": "7.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "minim veniam, quis nostrud exercitation",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ac00864b:background.image.image.url",
+							"blockId": "ac00864b",
+							"path": "7",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/slider-img.jpg",
+							"decorative": false,
+							"width": 1600,
+							"height": 1162,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Female singer performing on stage with a microphone",
+							"tone": {
+								"grid": [
+									0.09,
+									0.08,
+									0.03,
+									0.04,
+									0.15,
+									0.02,
+									0.04,
+									0.13,
+									0.02
+								],
+								"color": "#2b091b"
+							}
+						}
+					]
+				},
+				{
+					"id": "f9865302",
+					"index": 4,
+					"path": "8",
+					"group": "f9865302",
+					"role": "cta",
+					"title": "Have a Question About Company And Music Concert",
+					"slots": [
+						{
+							"id": "993086e6:text",
+							"blockId": "993086e6",
+							"path": "8.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Have a Question About Company And Music Concert",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "55c58e5c:text",
+							"blockId": "55c58e5c",
+							"path": "8.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Let us take care of it! We are willing to give some advice and support whatever you need.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9a757e13:text",
+							"blockId": "9a757e13",
+							"path": "8.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "2487bce9:image.url",
+							"blockId": "2487bce9",
+							"path": "8.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/mic.png",
+							"decorative": true,
+							"width": 80,
+							"height": 106,
+							"orientation": "portrait"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "e9478366",
+					"role": "hero",
+					"sectionIds": [
+						"e9478366"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1ea475bd",
+					"role": "content",
+					"sectionIds": [
+						"1ea475bd"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "65416b9e",
+					"role": "team",
+					"title": "OUR TEAM",
+					"sectionIds": [
+						"65416b9e"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "ac00864b",
+					"role": "content",
+					"title": "Concert Video Chicago 2020",
+					"sectionIds": [
+						"ac00864b"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f9865302",
+					"role": "cta",
+					"title": "Have a Question About Company And Music Concert",
+					"sectionIds": [
+						"f9865302"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "album",
+			"title": "Album",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/themegrill-demos/album-content.xml",
+			"sections": [
+				{
+					"id": "a6de0dc4",
+					"index": 0,
+					"path": "0",
+					"group": "a6de0dc4",
+					"role": "hero",
+					"title": "I wanna be in the Covalry",
+					"slots": [
+						{
+							"id": "dde3a02c:text",
+							"blockId": "dde3a02c",
+							"path": "0.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.0.1:@html:p",
+							"blockId": "core-0.0.0.0.0.1",
+							"path": "0.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "97d8f2e6:text",
+							"blockId": "97d8f2e6",
+							"path": "0.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.1.0.1:@html:p",
+							"blockId": "core-0.0.0.1.0.1",
+							"path": "0.0.0.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b916fe5a:text",
+							"blockId": "b916fe5a",
+							"path": "0.0.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.2.0.1:@html:p",
+							"blockId": "core-0.0.0.2.0.1",
+							"path": "0.0.0.2.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2365a50c:text",
+							"blockId": "2365a50c",
+							"path": "0.0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.1.0.0.1:@html:p",
+							"blockId": "core-0.0.1.0.0.1",
+							"path": "0.0.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b61d18ce:text",
+							"blockId": "b61d18ce",
+							"path": "0.0.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.1.1.0.1:@html:p",
+							"blockId": "core-0.0.1.1.0.1",
+							"path": "0.0.1.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62612510:text",
+							"blockId": "62612510",
+							"path": "0.0.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.1.2.0.1:@html:p",
+							"blockId": "core-0.0.1.2.0.1",
+							"path": "0.0.1.2.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1a42cfc0:text",
+							"blockId": "1a42cfc0",
+							"path": "0.0.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.2.0.0.1:@html:p",
+							"blockId": "core-0.0.2.0.0.1",
+							"path": "0.0.2.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "694b5ecb:text",
+							"blockId": "694b5ecb",
+							"path": "0.0.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.2.1.0.1:@html:p",
+							"blockId": "core-0.0.2.1.0.1",
+							"path": "0.0.2.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "73bc95dd:text",
+							"blockId": "73bc95dd",
+							"path": "0.0.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "I wanna be in the Covalry",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.2.2.0.1:@html:p",
+							"blockId": "core-0.0.2.2.0.1",
+							"path": "0.0.2.2.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Jeremy Scott",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a6de0dc4:background.image.image.url",
+							"blockId": "a6de0dc4",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/background.jpg",
+							"decorative": false,
+							"width": 1921,
+							"height": 1080,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Band performing on a concert stage under lights",
+							"tone": {
+								"grid": [
+									0.62,
+									0.75,
+									0.66,
+									0.63,
+									0.74,
+									0.67,
+									0.65,
+									0.66,
+									0.64
+								],
+								"color": "#a6abb7"
+							}
+						}
+					]
+				},
+				{
+					"id": "6cdb256d",
+					"index": 1,
+					"path": "2",
+					"group": "6cdb256d",
+					"role": "content",
+					"title": "MUSIC",
+					"slots": [
+						{
+							"id": "2a7b5743:text",
+							"blockId": "2a7b5743",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "MUSIC",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1.1.0:@html:li",
+							"blockId": "core-2.0.1.1.1.0",
+							"path": "2.0.1.1.1.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Life Is A dream",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1.1.1:@html:li",
+							"blockId": "core-2.0.1.1.1.1",
+							"path": "2.0.1.1.1.1",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Sports Highlights",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1.1.2:@html:li",
+							"blockId": "core-2.0.1.1.1.2",
+							"path": "2.0.1.1.1.2",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Romantic",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1.1.3:@html:li",
+							"blockId": "core-2.0.1.1.1.3",
+							"path": "2.0.1.1.1.3",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Raising Me Higher",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1.1.4:@html:li",
+							"blockId": "core-2.0.1.1.1.4",
+							"path": "2.0.1.1.1.4",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Getting Ready",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1.1.5:@html:li",
+							"blockId": "core-2.0.1.1.1.5",
+							"path": "2.0.1.1.1.5",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Beautiful Dream",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1.1.6:@html:li",
+							"blockId": "core-2.0.1.1.1.6",
+							"path": "2.0.1.1.1.6",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Tech House Vibes",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1.1.7:@html:li",
+							"blockId": "core-2.0.1.1.1.7",
+							"path": "2.0.1.1.1.7",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Talk Of Once",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1.1.1.8:@html:li",
+							"blockId": "core-2.0.1.1.1.8",
+							"path": "2.0.1.1.1.8",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Ramp It Up",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6512a635:image.url",
+							"blockId": "6512a635",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/music-img.png",
+							"decorative": false,
+							"width": 617,
+							"height": 780,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman with blue hair in a black hoodie beside a vinyl record",
+							"tone": {
+								"grid": [
+									0.32,
+									0.38,
+									0.84,
+									0.66,
+									0.24,
+									0.42,
+									0.92,
+									0.07,
+									0.18
+								],
+								"color": "#826e6f"
+							}
+						}
+					]
+				},
+				{
+					"id": "f9865302",
+					"index": 2,
+					"path": "3",
+					"group": "f9865302",
+					"role": "cta",
+					"title": "Have a Question About Company And Music Concert",
+					"slots": [
+						{
+							"id": "993086e6:text",
+							"blockId": "993086e6",
+							"path": "3.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Have a Question About Company And Music Concert",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "55c58e5c:text",
+							"blockId": "55c58e5c",
+							"path": "3.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Let us take care of it! We are willing to give some advice and support whatever you need.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9a757e13:text",
+							"blockId": "9a757e13",
+							"path": "3.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "2487bce9:image.url",
+							"blockId": "2487bce9",
+							"path": "3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/mic.png",
+							"decorative": true,
+							"width": 80,
+							"height": 106,
+							"orientation": "portrait"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "a6de0dc4",
+					"role": "hero",
+					"title": "I wanna be in the Covalry",
+					"sectionIds": [
+						"a6de0dc4"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6cdb256d",
+					"role": "content",
+					"title": "MUSIC",
+					"sectionIds": [
+						"6cdb256d"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f9865302",
+					"role": "cta",
+					"title": "Have a Question About Company And Music Concert",
+					"sectionIds": [
+						"f9865302"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "artists",
+			"title": "Artists",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/themegrill-demos/artists-content.xml",
+			"sections": [
+				{
+					"id": "65416b9e",
+					"index": 0,
+					"path": "1",
+					"group": "65416b9e",
+					"role": "hero",
+					"title": "Mathew Hyatt",
+					"slots": [
+						{
+							"id": "1738af47:text",
+							"blockId": "1738af47",
+							"path": "1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mathew Hyatt",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa5bcbce:text",
+							"blockId": "aa5bcbce",
+							"path": "1.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vocal, guitar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba068dec:text",
+							"blockId": "ba068dec",
+							"path": "1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Jessika Turcotte",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a45718d:text",
+							"blockId": "0a45718d",
+							"path": "1.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vocal, piano",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c6d55c5:text",
+							"blockId": "1c6d55c5",
+							"path": "1.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Toby Halvorson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5efe3a39:text",
+							"blockId": "5efe3a39",
+							"path": "1.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bass guitar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "704c4546:text",
+							"blockId": "704c4546",
+							"path": "1.0.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Anna Mayer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a09ee5de:text",
+							"blockId": "a09ee5de",
+							"path": "1.0.0.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Drums",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "46c9d04b:text",
+							"blockId": "46c9d04b",
+							"path": "1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mathew Hyatt",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b766b5fa:text",
+							"blockId": "b766b5fa",
+							"path": "1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vocal, guitar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "01dc6c9d:text",
+							"blockId": "01dc6c9d",
+							"path": "1.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Jessika Turcotte",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb7fa6af:text",
+							"blockId": "eb7fa6af",
+							"path": "1.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vocal, piano",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e2134fc5:text",
+							"blockId": "e2134fc5",
+							"path": "1.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Toby Halvorson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "482cc440:text",
+							"blockId": "482cc440",
+							"path": "1.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bass guitar",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb0cc626:text",
+							"blockId": "fb0cc626",
+							"path": "1.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Anna Mayer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8f293b87:text",
+							"blockId": "8f293b87",
+							"path": "1.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Drums",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f12981e0:image.url",
+							"blockId": "f12981e0",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team1.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling bearded man in red sunglasses in front of the Eiffel Tower",
+							"tone": {
+								"grid": [
+									0.83,
+									0.48,
+									0.76,
+									0.66,
+									0.39,
+									0.55,
+									0.71,
+									0.7,
+									0.72
+								],
+								"color": "#ada1aa"
+							}
+						},
+						{
+							"id": "0463f5c3:image.url",
+							"blockId": "0463f5c3",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team2.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in a brown blazer posing with hand in his hair",
+							"tone": {
+								"grid": [
+									0.64,
+									0.47,
+									0.58,
+									0.44,
+									0.41,
+									0.32,
+									0.2,
+									0.21,
+									0.18
+								],
+								"color": "#785d55"
+							}
+						},
+						{
+							"id": "2c7b5f1d:image.url",
+							"blockId": "2c7b5f1d",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team3.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling young woman with glasses sitting by a window",
+							"tone": {
+								"grid": [
+									0.53,
+									0.59,
+									0.58,
+									0.3,
+									0.33,
+									0.46,
+									0.5,
+									0.67,
+									0.48
+								],
+								"color": "#857c79"
+							}
+						},
+						{
+							"id": "f1fb4b4e:image.url",
+							"blockId": "f1fb4b4e",
+							"path": "1.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team4.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Blonde woman in a hoodie and headband sitting outdoors",
+							"tone": {
+								"grid": [
+									0.87,
+									0.74,
+									0.85,
+									0.75,
+									0.38,
+									0.59,
+									0.49,
+									0.28,
+									0.43
+								],
+								"color": "#9f988f"
+							}
+						},
+						{
+							"id": "cf6eb04d:image.url",
+							"blockId": "cf6eb04d",
+							"path": "1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team5.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young woman wearing white headphones",
+							"tone": {
+								"grid": [
+									0.83,
+									0.66,
+									0.81,
+									0.79,
+									0.69,
+									0.81,
+									0.59,
+									0.62,
+									0.68
+								],
+								"color": "#c0b6ab"
+							}
+						},
+						{
+							"id": "b31e7f0e:image.url",
+							"blockId": "b31e7f0e",
+							"path": "1.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team6.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded man in a blue t-shirt portrait",
+							"tone": {
+								"grid": [
+									0.55,
+									0.46,
+									0.78,
+									0.58,
+									0.52,
+									0.88,
+									0.37,
+									0.34,
+									0.47
+								],
+								"color": "#958a86"
+							}
+						},
+						{
+							"id": "ab8c6dd8:image.url",
+							"blockId": "ab8c6dd8",
+							"path": "1.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team7.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling bearded man in a white shirt",
+							"tone": {
+								"grid": [
+									0.79,
+									0.58,
+									0.7,
+									0.79,
+									0.52,
+									0.53,
+									0.83,
+									0.66,
+									0.64
+								],
+								"color": "#afaaa6"
+							}
+						},
+						{
+							"id": "1e85a291:image.url",
+							"blockId": "1e85a291",
+							"path": "1.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/team8.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 354,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man with long hair in a denim jacket outdoors",
+							"tone": {
+								"grid": [
+									0.82,
+									0.69,
+									0.91,
+									0.72,
+									0.44,
+									0.81,
+									0.5,
+									0.43,
+									0.7
+								],
+								"color": "#acab9f"
+							}
+						}
+					]
+				},
+				{
+					"id": "f9865302",
+					"index": 1,
+					"path": "2",
+					"group": "f9865302",
+					"role": "cta",
+					"title": "Have a Question About Company And Music Concert",
+					"slots": [
+						{
+							"id": "993086e6:text",
+							"blockId": "993086e6",
+							"path": "2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Have a Question About Company And Music Concert",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "55c58e5c:text",
+							"blockId": "55c58e5c",
+							"path": "2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Let us take care of it! We are willing to give some advice and support whatever you need.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9a757e13:text",
+							"blockId": "9a757e13",
+							"path": "2.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "2487bce9:image.url",
+							"blockId": "2487bce9",
+							"path": "2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/mic.png",
+							"decorative": true,
+							"width": 80,
+							"height": 106,
+							"orientation": "portrait"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "65416b9e",
+					"role": "hero",
+					"title": "Mathew Hyatt",
+					"sectionIds": [
+						"65416b9e"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f9865302",
+					"role": "cta",
+					"title": "Have a Question About Company And Music Concert",
+					"sectionIds": [
+						"f9865302"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 19,
+		"textSlots": 110,
+		"editableSlots": 109,
+		"images": 33,
+		"swappableImages": 29,
+		"words": 832
+	},
+	"builtAt": "2026-10-24T11:35:07.996Z"
+}

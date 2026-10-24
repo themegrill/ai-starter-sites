@@ -1,0 +1,3410 @@
+{
+	"version": 4,
+	"slug": "webhost-v2",
+	"name": "Webhost V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-webhost-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/webhost-v2",
+	"niches": [
+		"hosting",
+		"technology"
+	],
+	"keywords": [
+		"web hosting",
+		"hosting",
+		"domain",
+		"cloud",
+		"vps",
+		"it services",
+		"server",
+		"saas",
+		"software"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 96,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 58,
+					"background": 14,
+					"icon": 8
+				}
+			},
+			{
+				"hex": "#222222",
+				"count": 26,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 21
+				}
+			},
+			{
+				"hex": "#444444",
+				"count": 23,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 23
+				}
+			},
+			{
+				"hex": "#cf2fa9",
+				"count": 20,
+				"group": "brand",
+				"role": "primary",
+				"base": "#cf2fa9",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 5,
+					"background": 13
+				}
+			},
+			{
+				"hex": "#11023b",
+				"count": 18,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#11023b",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#4543b0",
+				"count": 14,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#11023b",
+				"lightnessDelta": 0.357,
+				"usage": {
+					"background": 14
+				}
+			},
+			{
+				"hex": "#555555",
+				"count": 9,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 9
+				}
+			},
+			{
+				"hex": "#333333",
+				"count": 7,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#e94a8a",
+				"count": 7,
+				"group": "brand",
+				"role": "primary",
+				"base": "#cf2fa9",
+				"lightnessDelta": 0.104,
+				"usage": {
+					"text": 7
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#000000",
+				"count": 4,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#8d8d8d",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#c830af",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#cf2fa9",
+				"lightnessDelta": -0.012
+			},
+			{
+				"hex": "#2563eb",
+				"count": 3,
+				"group": "brand",
+				"role": "accent",
+				"base": "#2563eb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "accent",
+				"base": "#2563eb",
+				"lightnessDelta": -0.163,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#a2a0a0",
+				"count": 2,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 2
+				}
+			},
+			{
+				"hex": "#0f0f0f",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fff9f9",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#8647fe",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#11023b",
+				"lightnessDelta": 0.518
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#1e7ba6",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#4543b0",
+				"large": true,
+				"count": 14,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#cf2fa9",
+				"large": true,
+				"count": 13,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#e94a8a",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#cf2fa9",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#cf2fa9",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#cf2fa9",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#c830af",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#cf2fa9",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Lato",
+			"body": "Lato",
+			"map": {
+				"Lato": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "c7c29d69",
+					"index": 0,
+					"path": "0",
+					"group": "c7c29d69",
+					"role": "hero",
+					"title": "Best And Powerful Hosting Service Provider",
+					"slots": [
+						{
+							"id": "5b685967:text",
+							"blockId": "5b685967",
+							"path": "0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "LOREM IPSUM",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "400b289e:text",
+							"blockId": "400b289e",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Best And Powerful Hosting Service Provider",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f1b9069d:text",
+							"blockId": "f1b9069d",
+							"path": "0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Up to 50% Off Domain and Hosting, Starting from $ 2.50/Month.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62f72ef5:text",
+							"blockId": "62f72ef5",
+							"path": "0.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c3f87438:image.url",
+							"blockId": "c3f87438",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/banner-img.png",
+							"decorative": false,
+							"width": 753,
+							"height": 611,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Illustration of a person with a cloud server and data icons",
+							"tone": {
+								"grid": [
+									0.99,
+									0.96,
+									0.98,
+									0.88,
+									0.84,
+									0.97,
+									0.88,
+									0.92,
+									0.96
+								],
+								"color": "#fae9f4"
+							}
+						}
+					]
+				},
+				{
+					"id": "3b26a996",
+					"index": 1,
+					"path": "1",
+					"group": "3b26a996",
+					"role": "dynamic",
+					"slots": [
+						{
+							"id": "c92156fd:text",
+							"blockId": "c92156fd",
+							"path": "1.0.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Find Your Best Domain Name",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "adc5205f",
+					"index": 2,
+					"path": "2",
+					"group": "adc5205f",
+					"role": "cta",
+					"title": "What are we all about?",
+					"slots": [
+						{
+							"id": "2152c75c:text",
+							"blockId": "2152c75c",
+							"path": "2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ABOUT OUR HISTORY",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "657a6a34:text",
+							"blockId": "657a6a34",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What are we all about?",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2e64f50a:text",
+							"blockId": "2e64f50a",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea commodo consequat. Duis aute irure dolor. In reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat",
+							"rich": true,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e560395f:text",
+							"blockId": "e560395f",
+							"path": "2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ca4f517d:image.url",
+							"blockId": "ca4f517d",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10004.png",
+							"decorative": false,
+							"width": 869,
+							"height": 869,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Collage of two women working at desks in an office",
+							"tone": {
+								"grid": [
+									0.99,
+									0.94,
+									0.98,
+									0.84,
+									0.67,
+									0.89,
+									0.8,
+									0.83,
+									0.98
+								],
+								"color": "#e8dfdd"
+							}
+						}
+					]
+				},
+				{
+					"id": "c7b2caf1",
+					"index": 3,
+					"path": "3",
+					"group": "c7b2caf1",
+					"role": "content",
+					"title": "Our Services",
+					"slots": [
+						{
+							"id": "2df5866c:text",
+							"blockId": "2df5866c",
+							"path": "3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "OFFERS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "962f6a4e:text",
+							"blockId": "962f6a4e",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "ac47cae1",
+					"index": 4,
+					"path": "4",
+					"group": "ac47cae1",
+					"role": "content",
+					"title": "Reseller Hosting",
+					"slots": [
+						{
+							"id": "02adcab9:text",
+							"blockId": "02adcab9",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Reseller Hosting",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "666ce881:text",
+							"blockId": "666ce881",
+							"path": "4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "21231ec9:text",
+							"blockId": "21231ec9",
+							"path": "4.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c0d9c1a3:text",
+							"blockId": "c0d9c1a3",
+							"path": "4.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Dedicated Server",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8886406f:text",
+							"blockId": "8886406f",
+							"path": "4.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a7514f3d:text",
+							"blockId": "a7514f3d",
+							"path": "4.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ea82f628:text",
+							"blockId": "ea82f628",
+							"path": "4.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Shared Hosting",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0296e2f0:text",
+							"blockId": "0296e2f0",
+							"path": "4.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "34a809c9:text",
+							"blockId": "34a809c9",
+							"path": "4.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1330d44a:image.url",
+							"blockId": "1330d44a",
+							"path": "4.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10006.png",
+							"decorative": true,
+							"width": 62,
+							"height": 62,
+							"orientation": "square"
+						},
+						{
+							"id": "6a00f394:image.url",
+							"blockId": "6a00f394",
+							"path": "4.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10007.png",
+							"decorative": true,
+							"width": 54,
+							"height": 66,
+							"orientation": "portrait"
+						},
+						{
+							"id": "d670651d:image.url",
+							"blockId": "d670651d",
+							"path": "4.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/shared-hositing-icon.png",
+							"decorative": true,
+							"width": 136,
+							"height": 60,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "54b4f680",
+					"index": 5,
+					"path": "5",
+					"group": "54b4f680",
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "54b4f680:background.image.image.url",
+							"blockId": "54b4f680",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10015.png",
+							"decorative": false
+						}
+					]
+				},
+				{
+					"id": "4b645060",
+					"index": 6,
+					"path": "6",
+					"group": "4b645060",
+					"role": "testimonials",
+					"title": "Our Testimonials",
+					"slots": [
+						{
+							"id": "cee004ba:text",
+							"blockId": "cee004ba",
+							"path": "6.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CLIENTS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7e7edad4:text",
+							"blockId": "7e7edad4",
+							"path": "6.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Testimonials",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "93eb56d7:text",
+							"blockId": "93eb56d7",
+							"path": "6.0.1.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo onsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt",
+							"rich": false,
+							"words": 63,
+							"minWords": 38,
+							"maxWords": 79,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "612f7040:text",
+							"blockId": "612f7040",
+							"path": "6.0.1.0.0.2.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Paula Wilson",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5769aefb:text",
+							"blockId": "5769aefb",
+							"path": "6.0.1.0.0.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Designer At ThemeGrill",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "76805f63:text",
+							"blockId": "76805f63",
+							"path": "6.0.1.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo onsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt",
+							"rich": false,
+							"words": 63,
+							"minWords": 38,
+							"maxWords": 79,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2bfb9276:text",
+							"blockId": "2bfb9276",
+							"path": "6.0.1.1.0.2.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Paula Wilson",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3dc47194:text",
+							"blockId": "3dc47194",
+							"path": "6.0.1.1.0.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Designer At ThemeGrill",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4b645060:background.image.image.url",
+							"blockId": "4b645060",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/bg.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 1080,
+							"orientation": "landscape"
+						},
+						{
+							"id": "38387a29:background.image.image.url",
+							"blockId": "38387a29",
+							"path": "6.0.1.0.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10017.png",
+							"decorative": false
+						},
+						{
+							"id": "18793499:image.url",
+							"blockId": "18793499",
+							"path": "6.0.1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10008.png",
+							"decorative": true,
+							"width": 39,
+							"height": 27,
+							"orientation": "landscape"
+						},
+						{
+							"id": "b8bf4d92:image.url",
+							"blockId": "b8bf4d92",
+							"path": "6.0.1.0.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10009.png",
+							"decorative": true,
+							"width": 100,
+							"height": 109,
+							"orientation": "square"
+						},
+						{
+							"id": "7007c761:background.image.image.url",
+							"blockId": "7007c761",
+							"path": "6.0.1.1.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10017.png",
+							"decorative": false
+						},
+						{
+							"id": "a1608160:image.url",
+							"blockId": "a1608160",
+							"path": "6.0.1.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10008.png",
+							"decorative": true,
+							"width": 39,
+							"height": 27,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0173d3ec:image.url",
+							"blockId": "0173d3ec",
+							"path": "6.0.1.1.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10009.png",
+							"decorative": true,
+							"width": 100,
+							"height": 109,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "a36bd70f",
+					"index": 7,
+					"path": "7",
+					"group": "a36bd70f",
+					"role": "pricing",
+					"title": "Our Pricing",
+					"slots": [
+						{
+							"id": "d550a26d:text",
+							"blockId": "d550a26d",
+							"path": "7.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "PACKAGE",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cbfab94e:text",
+							"blockId": "cbfab94e",
+							"path": "7.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Pricing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "5284af03",
+					"index": 8,
+					"path": "8",
+					"group": "a36bd70f",
+					"role": "pricing",
+					"title": "BASIC PLAN​",
+					"slots": [
+						{
+							"id": "31013ae9:text",
+							"blockId": "31013ae9",
+							"path": "8.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BASIC PLAN​",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2233978d:text",
+							"blockId": "2233978d",
+							"path": "8.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$29",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "ea5909f7:text",
+							"blockId": "ea5909f7",
+							"path": "8.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Month",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e7f822e9:text",
+							"blockId": "e7f822e9",
+							"path": "8.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "30 Days Free Trail",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "86e40db1:text",
+							"blockId": "86e40db1",
+							"path": "8.0.3.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Disk usage 11 GB",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "90280fc6:text",
+							"blockId": "90280fc6",
+							"path": "8.0.3.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Subdomains Limit 10",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "539b3c91:text",
+							"blockId": "539b3c91",
+							"path": "8.0.3.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bandwidth Usage Limit 1 TB",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fbaaccb7:text",
+							"blockId": "fbaaccb7",
+							"path": "8.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "SELECT PLAN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f93bae61:text",
+							"blockId": "f93bae61",
+							"path": "8.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "GOLD PLAN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6731a0b8:text",
+							"blockId": "6731a0b8",
+							"path": "8.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$66",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "7a329f6b:text",
+							"blockId": "7a329f6b",
+							"path": "8.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Month",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "73c45f1b:text",
+							"blockId": "73c45f1b",
+							"path": "8.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Payable in Every 6 Month",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4cb6197a:text",
+							"blockId": "4cb6197a",
+							"path": "8.1.3.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Disk usage 11 GB",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "537511a3:text",
+							"blockId": "537511a3",
+							"path": "8.1.3.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Subdomains Limit 10",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fcfbdae1:text",
+							"blockId": "fcfbdae1",
+							"path": "8.1.3.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bandwidth Usage Limit 1 TB",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8b8116dc:text",
+							"blockId": "8b8116dc",
+							"path": "8.1.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "SELECT PLAN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f6c83dd3:text",
+							"blockId": "f6c83dd3",
+							"path": "8.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "DIAMOND PLAN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ac5367bf:text",
+							"blockId": "ac5367bf",
+							"path": "8.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$99",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "df02b1fd:text",
+							"blockId": "df02b1fd",
+							"path": "8.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Month",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "07f2d49a:text",
+							"blockId": "07f2d49a",
+							"path": "8.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Payable in Every Year",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1656fe44:text",
+							"blockId": "1656fe44",
+							"path": "8.2.3.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Disk usage 11 GB",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae05ee0a:text",
+							"blockId": "ae05ee0a",
+							"path": "8.2.3.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Subdomains Limit 10",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa8b3652:text",
+							"blockId": "aa8b3652",
+							"path": "8.2.3.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bandwidth Usage Limit 1 TB",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "71a3f16d:text",
+							"blockId": "71a3f16d",
+							"path": "8.2.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "SELECT PLAN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "972ac23c:image.url",
+							"blockId": "972ac23c",
+							"path": "8.0.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
+							"decorative": true,
+							"width": 72,
+							"height": 74,
+							"orientation": "square"
+						},
+						{
+							"id": "63979cc8:image.url",
+							"blockId": "63979cc8",
+							"path": "8.0.3.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
+							"decorative": true,
+							"width": 72,
+							"height": 74,
+							"orientation": "square"
+						},
+						{
+							"id": "d0ad1c77:image.url",
+							"blockId": "d0ad1c77",
+							"path": "8.0.3.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
+							"decorative": true,
+							"width": 72,
+							"height": 74,
+							"orientation": "square"
+						},
+						{
+							"id": "b80fa8e8:image.url",
+							"blockId": "b80fa8e8",
+							"path": "8.1.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
+							"decorative": true,
+							"width": 72,
+							"height": 74,
+							"orientation": "square"
+						},
+						{
+							"id": "a93b3874:image.url",
+							"blockId": "a93b3874",
+							"path": "8.1.3.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
+							"decorative": true,
+							"width": 72,
+							"height": 74,
+							"orientation": "square"
+						},
+						{
+							"id": "02fb59d4:image.url",
+							"blockId": "02fb59d4",
+							"path": "8.1.3.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
+							"decorative": true,
+							"width": 72,
+							"height": 74,
+							"orientation": "square"
+						},
+						{
+							"id": "fe067b31:image.url",
+							"blockId": "fe067b31",
+							"path": "8.2.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
+							"decorative": true,
+							"width": 72,
+							"height": 74,
+							"orientation": "square"
+						},
+						{
+							"id": "ed2b1324:image.url",
+							"blockId": "ed2b1324",
+							"path": "8.2.3.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
+							"decorative": true,
+							"width": 72,
+							"height": 74,
+							"orientation": "square"
+						},
+						{
+							"id": "757df995:image.url",
+							"blockId": "757df995",
+							"path": "8.2.3.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
+							"decorative": true,
+							"width": 72,
+							"height": 74,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "1673658f",
+					"index": 9,
+					"path": "9",
+					"group": "1673658f",
+					"role": "stats",
+					"title": "Our Achievement",
+					"slots": [
+						{
+							"id": "56292b3b:text",
+							"blockId": "56292b3b",
+							"path": "9.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "OUR SUCCESS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f507064e:text",
+							"blockId": "f507064e",
+							"path": "9.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Achievement",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9b768dc8:text",
+							"blockId": "9b768dc8",
+							"path": "9.0.1.0.1",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Happy Clients",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "68efb4f4:text",
+							"blockId": "68efb4f4",
+							"path": "9.0.1.1.1",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Years of Experience",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "327a9417:text",
+							"blockId": "327a9417",
+							"path": "9.0.1.2.1",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Branches",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e8b70a2e:text",
+							"blockId": "e8b70a2e",
+							"path": "9.0.1.3.1",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Awards",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1673658f:background.image.image.url",
+							"blockId": "1673658f",
+							"path": "9",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10018.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1015,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Office desk with an iMac showing a chart, plants and coffee",
+							"tone": {
+								"grid": [
+									0.78,
+									0.68,
+									0.7,
+									0.66,
+									0.59,
+									0.75,
+									0.75,
+									0.79,
+									0.82
+								],
+								"color": "#b8b9b8"
+							}
+						},
+						{
+							"id": "a23e725c:image.url",
+							"blockId": "a23e725c",
+							"path": "9.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/child-reaching-solid.png",
+							"decorative": true,
+							"width": 384,
+							"height": 512,
+							"orientation": "portrait"
+						},
+						{
+							"id": "21bc929f:image.url",
+							"blockId": "21bc929f",
+							"path": "9.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-like-50.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						},
+						{
+							"id": "88e1447f:image.url",
+							"blockId": "88e1447f",
+							"path": "9.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-building-48.png",
+							"decorative": true,
+							"width": 48,
+							"height": 48,
+							"orientation": "square"
+						},
+						{
+							"id": "03c9e0ca:image.url",
+							"blockId": "03c9e0ca",
+							"path": "9.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-coffee-64.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "66f14692",
+					"index": 10,
+					"path": "10",
+					"group": "66f14692",
+					"role": "content",
+					"title": "CONNECT US",
+					"slots": [
+						{
+							"id": "43086534:text",
+							"blockId": "43086534",
+							"path": "10.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CONNECT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80518ac7:text",
+							"blockId": "80518ac7",
+							"path": "10.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CONNECT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3ecc251e:text",
+							"blockId": "3ecc251e",
+							"path": "10.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Find our Location",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0fb6afb6:text",
+							"blockId": "0fb6afb6",
+							"path": "10.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fda6bc99:text",
+							"blockId": "fda6bc99",
+							"path": "10.0.1.0.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "123 City Street NY, New York Miami Beach North Dakota 123",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c22c64ff:text",
+							"blockId": "c22c64ff",
+							"path": "10.0.1.0.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Call: +0123 456 78910",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "85265e45:text",
+							"blockId": "85265e45",
+							"path": "10.0.1.0.2.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "info@example.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "66f14692:background.image.image.url",
+							"blockId": "66f14692",
+							"path": "10",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/map-bg.png",
+							"decorative": false
+						},
+						{
+							"id": "f47b215a:image.url",
+							"blockId": "f47b215a",
+							"path": "10.0.1.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-location-48.png",
+							"decorative": true,
+							"width": 48,
+							"height": 48,
+							"orientation": "square"
+						},
+						{
+							"id": "938cecb5:image.url",
+							"blockId": "938cecb5",
+							"path": "10.0.1.0.2.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-telephone-30.png",
+							"decorative": true,
+							"width": 30,
+							"height": 30,
+							"orientation": "square"
+						},
+						{
+							"id": "bad5fc7e:image.url",
+							"blockId": "bad5fc7e",
+							"path": "10.0.1.0.2.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-letter-24.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "072a37e4",
+					"index": 11,
+					"path": "11",
+					"group": "072a37e4",
+					"role": "logos",
+					"title": "Our Partners",
+					"slots": [
+						{
+							"id": "71f2c11b:text",
+							"blockId": "71f2c11b",
+							"path": "11.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "OFFERS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c17af9a7:text",
+							"blockId": "c17af9a7",
+							"path": "11.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Partners",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "627aeddf:image.url",
+							"blockId": "627aeddf",
+							"path": "11.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10010.png",
+							"decorative": true,
+							"width": 102,
+							"height": 88,
+							"orientation": "landscape"
+						},
+						{
+							"id": "221fa1b9:image.url",
+							"blockId": "221fa1b9",
+							"path": "11.0.1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10011.png",
+							"decorative": true,
+							"width": 102,
+							"height": 88,
+							"orientation": "landscape"
+						},
+						{
+							"id": "fc0af1d8:image.url",
+							"blockId": "fc0af1d8",
+							"path": "11.0.1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10012.png",
+							"decorative": true,
+							"width": 102,
+							"height": 88,
+							"orientation": "landscape"
+						},
+						{
+							"id": "1a4902f6:image.url",
+							"blockId": "1a4902f6",
+							"path": "11.0.1.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10013.png",
+							"decorative": true,
+							"width": 102,
+							"height": 88,
+							"orientation": "landscape"
+						},
+						{
+							"id": "b3858a6d:image.url",
+							"blockId": "b3858a6d",
+							"path": "11.0.1.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/zakra-theme-logo.png",
+							"decorative": true,
+							"width": 102,
+							"height": 89,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "c7c29d69",
+					"role": "hero",
+					"title": "Best And Powerful Hosting Service Provider",
+					"sectionIds": [
+						"c7c29d69"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3b26a996",
+					"role": "dynamic",
+					"sectionIds": [
+						"3b26a996"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "adc5205f",
+					"role": "cta",
+					"title": "What are we all about?",
+					"sectionIds": [
+						"adc5205f"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c7b2caf1",
+					"role": "content",
+					"title": "Our Services",
+					"sectionIds": [
+						"c7b2caf1"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ac47cae1",
+					"role": "content",
+					"title": "Reseller Hosting",
+					"sectionIds": [
+						"ac47cae1"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "54b4f680",
+					"role": "content",
+					"sectionIds": [
+						"54b4f680"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4b645060",
+					"role": "testimonials",
+					"title": "Our Testimonials",
+					"sectionIds": [
+						"4b645060"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a36bd70f",
+					"role": "pricing",
+					"title": "Our Pricing",
+					"sectionIds": [
+						"a36bd70f",
+						"5284af03"
+					],
+					"paths": [
+						"7",
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "1673658f",
+					"role": "stats",
+					"title": "Our Achievement",
+					"sectionIds": [
+						"1673658f"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "66f14692",
+					"role": "content",
+					"title": "CONNECT US",
+					"sectionIds": [
+						"66f14692"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "072a37e4",
+					"role": "logos",
+					"title": "Our Partners",
+					"sectionIds": [
+						"072a37e4"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "82ca1e4c",
+					"index": 0,
+					"path": "0",
+					"group": "82ca1e4c",
+					"role": "hero",
+					"title": "What are we all about?",
+					"slots": [
+						{
+							"id": "e2673b6e:text",
+							"blockId": "e2673b6e",
+							"path": "0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "ABOUT OUR HISTORY",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fc0165db:text",
+							"blockId": "fc0165db",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What are we all about?",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dcc79c44:text",
+							"blockId": "dcc79c44",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea commodo consequat. Duis aute irure dolor. In reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat",
+							"rich": true,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "0b18e09b:image.url",
+							"blockId": "0b18e09b",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10004.png",
+							"decorative": false
+						}
+					]
+				},
+				{
+					"id": "b0f679c4",
+					"index": 1,
+					"path": "1",
+					"group": "b0f679c4",
+					"role": "content",
+					"title": "We Are Reputated Company Since 1998",
+					"slots": [
+						{
+							"id": "cb3978ec:text",
+							"blockId": "cb3978ec",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Are Reputated Company Since 1998",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2c658b6a:text",
+							"blockId": "2c658b6a",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea commodo consequat. Duis aute irure dolor. In reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea commodo consequat. Duis aute irure dolor. In reprehenderit in voluptate velit esse cillum",
+							"rich": true,
+							"words": 84,
+							"minWords": 50,
+							"maxWords": 105,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "68f15d98:image.url",
+							"blockId": "68f15d98",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/img-history.png",
+							"decorative": false
+						}
+					]
+				},
+				{
+					"id": "fb448586",
+					"index": 2,
+					"path": "2",
+					"group": "fb448586",
+					"role": "team",
+					"title": "Our Team",
+					"slots": [
+						{
+							"id": "8d93357f:text",
+							"blockId": "8d93357f",
+							"path": "2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BEST GROUP",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1b3e4f12:text",
+							"blockId": "1b3e4f12",
+							"path": "2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Team",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b4770478:text",
+							"blockId": "b4770478",
+							"path": "2.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Sarah Melyah",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "95e72198:text",
+							"blockId": "95e72198",
+							"path": "2.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Business Head",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a6b63d3f:text",
+							"blockId": "a6b63d3f",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Julie Stan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "687d0ab2:text",
+							"blockId": "687d0ab2",
+							"path": "2.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Marketing Head",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c3e0d707:text",
+							"blockId": "c3e0d707",
+							"path": "2.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Maria Kate",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9524bed2:text",
+							"blockId": "9524bed2",
+							"path": "2.0.1.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "UI Designer",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f0c12bb7:image.url",
+							"blockId": "f0c12bb7",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/team1-1.jpg",
+							"decorative": false
+						},
+						{
+							"id": "f71f6f72:image.url",
+							"blockId": "f71f6f72",
+							"path": "2.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/team-2.jpg",
+							"decorative": false
+						},
+						{
+							"id": "0ddd12b6:image.url",
+							"blockId": "0ddd12b6",
+							"path": "2.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/team-3.jpg",
+							"decorative": false
+						}
+					]
+				},
+				{
+					"id": "c5dbbc01",
+					"index": 3,
+					"path": "3",
+					"group": "c5dbbc01",
+					"role": "content",
+					"title": "Our Achievement",
+					"slots": [
+						{
+							"id": "79c1b641:text",
+							"blockId": "79c1b641",
+							"path": "3.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "OUR SUCCESS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "94f49696:text",
+							"blockId": "94f49696",
+							"path": "3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Achievement",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "855e2ab2:text",
+							"blockId": "855e2ab2",
+							"path": "3.0.1.0.1",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Happy Clients",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1f78af9e:text",
+							"blockId": "1f78af9e",
+							"path": "3.0.1.1.1",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Years of Experience",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "77542ebc:text",
+							"blockId": "77542ebc",
+							"path": "3.0.1.2.1",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Branches",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f16f5bcc:text",
+							"blockId": "f16f5bcc",
+							"path": "3.0.1.3.1",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Awards",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c5dbbc01:background.image.image.url",
+							"blockId": "c5dbbc01",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10018.jpg",
+							"decorative": false
+						},
+						{
+							"id": "162835be:image.url",
+							"blockId": "162835be",
+							"path": "3.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/child-reaching-solid.png",
+							"decorative": false
+						},
+						{
+							"id": "889e55a8:image.url",
+							"blockId": "889e55a8",
+							"path": "3.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/icons8-like-50.png",
+							"decorative": true
+						},
+						{
+							"id": "adef37b6:image.url",
+							"blockId": "adef37b6",
+							"path": "3.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/icons8-building-48.png",
+							"decorative": true
+						},
+						{
+							"id": "fb4b371e:image.url",
+							"blockId": "fb4b371e",
+							"path": "3.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/icons8-coffee-64.png",
+							"decorative": true
+						}
+					]
+				},
+				{
+					"id": "b7477e1b",
+					"index": 4,
+					"path": "4",
+					"group": "b7477e1b",
+					"role": "gallery",
+					"title": "Our Partners",
+					"slots": [
+						{
+							"id": "1f1b761f:text",
+							"blockId": "1f1b761f",
+							"path": "4.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "OFFERS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "854fdbbd:text",
+							"blockId": "854fdbbd",
+							"path": "4.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Partners",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1dc4df34:image.url",
+							"blockId": "1dc4df34",
+							"path": "4.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10013.png",
+							"decorative": false
+						},
+						{
+							"id": "71b4fcff:image.url",
+							"blockId": "71b4fcff",
+							"path": "4.0.1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10010.png",
+							"decorative": false
+						},
+						{
+							"id": "eeec1221:image.url",
+							"blockId": "eeec1221",
+							"path": "4.0.1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10011.png",
+							"decorative": false
+						},
+						{
+							"id": "fe93469d:image.url",
+							"blockId": "fe93469d",
+							"path": "4.0.1.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/10012.png",
+							"decorative": false
+						},
+						{
+							"id": "bcca8885:image.url",
+							"blockId": "bcca8885",
+							"path": "4.0.1.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/zakra-theme-logo.png",
+							"decorative": true
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "82ca1e4c",
+					"role": "hero",
+					"title": "What are we all about?",
+					"sectionIds": [
+						"82ca1e4c"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b0f679c4",
+					"role": "content",
+					"title": "We Are Reputated Company Since 1998",
+					"sectionIds": [
+						"b0f679c4"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "fb448586",
+					"role": "team",
+					"title": "Our Team",
+					"sectionIds": [
+						"fb448586"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "c5dbbc01",
+					"role": "content",
+					"title": "Our Achievement",
+					"sectionIds": [
+						"c5dbbc01"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b7477e1b",
+					"role": "gallery",
+					"title": "Our Partners",
+					"sectionIds": [
+						"b7477e1b"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "d6eeda54",
+					"index": 0,
+					"path": "0",
+					"group": "d6eeda54",
+					"role": "hero",
+					"title": "Reseller Hosting",
+					"slots": [
+						{
+							"id": "4c860c51:text",
+							"blockId": "4c860c51",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Reseller Hosting",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4f430bd0:text",
+							"blockId": "4f430bd0",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a44b4ab4-9764-4822-b640-30ddb4f4d2bf:text",
+							"blockId": "a44b4ab4-9764-4822-b640-30ddb4f4d2bf",
+							"path": "0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cb61729a:text",
+							"blockId": "cb61729a",
+							"path": "0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Dedicated Server",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "13d305dd:text",
+							"blockId": "13d305dd",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d6bccb14-3f62-4ebf-96dd-66923f986acf:text",
+							"blockId": "d6bccb14-3f62-4ebf-96dd-66923f986acf",
+							"path": "0.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "897db103:text",
+							"blockId": "897db103",
+							"path": "0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Shared Hosting",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d2ed0237:text",
+							"blockId": "d2ed0237",
+							"path": "0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "60f22b6a-cc6c-4261-b061-8cb03e9e8644:text",
+							"blockId": "60f22b6a-cc6c-4261-b061-8cb03e9e8644",
+							"path": "0.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e7c28633:text",
+							"blockId": "e7c28633",
+							"path": "0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Enhance Security",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af874d38:text",
+							"blockId": "af874d38",
+							"path": "0.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "60f22b6a-cc6c-4261-b061-8cb03e9e8644~1:text",
+							"blockId": "60f22b6a-cc6c-4261-b061-8cb03e9e8644~1",
+							"path": "0.3.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "282e8d3a:text",
+							"blockId": "282e8d3a",
+							"path": "0.4.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Spam Guard",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b647a06e:text",
+							"blockId": "b647a06e",
+							"path": "0.4.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "60f22b6a-cc6c-4261-b061-8cb03e9e8644~2:text",
+							"blockId": "60f22b6a-cc6c-4261-b061-8cb03e9e8644~2",
+							"path": "0.4.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "448a7058:text",
+							"blockId": "448a7058",
+							"path": "0.5.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Monitoring",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a668eb7:text",
+							"blockId": "2a668eb7",
+							"path": "0.5.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "60f22b6a-cc6c-4261-b061-8cb03e9e8644~3:text",
+							"blockId": "60f22b6a-cc6c-4261-b061-8cb03e9e8644~3",
+							"path": "0.5.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ce34985c:image.url",
+							"blockId": "ce34985c",
+							"path": "0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10006.png",
+							"decorative": true,
+							"width": 62,
+							"height": 62,
+							"orientation": "square"
+						},
+						{
+							"id": "b8372d25:image.url",
+							"blockId": "b8372d25",
+							"path": "0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10007.png",
+							"decorative": true,
+							"width": 54,
+							"height": 66,
+							"orientation": "portrait"
+						},
+						{
+							"id": "e644323a:image.url",
+							"blockId": "e644323a",
+							"path": "0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/shared-hositing-icon.png",
+							"decorative": true,
+							"width": 136,
+							"height": 60,
+							"orientation": "landscape"
+						},
+						{
+							"id": "a9b1a26c:image.url",
+							"blockId": "a9b1a26c",
+							"path": "0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icon1.png",
+							"decorative": true,
+							"width": 69,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "f4a708eb:image.url",
+							"blockId": "f4a708eb",
+							"path": "0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/shared-hositing-icon.png",
+							"decorative": true,
+							"width": 136,
+							"height": 60,
+							"orientation": "landscape"
+						},
+						{
+							"id": "5ae61d52:image.url",
+							"blockId": "5ae61d52",
+							"path": "0.5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10007.png",
+							"decorative": true,
+							"width": 54,
+							"height": 66,
+							"orientation": "portrait"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "d6eeda54",
+					"role": "hero",
+					"title": "Reseller Hosting",
+					"sectionIds": [
+						"d6eeda54"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact-us",
+			"title": "Contact Us",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/themegrill-demos/contact-us-content.xml",
+			"sections": [
+				{
+					"id": "caf1da8a",
+					"index": 0,
+					"path": "0",
+					"group": "caf1da8a",
+					"role": "content",
+					"title": "Got A Question?",
+					"slots": [
+						{
+							"id": "1b2dbd33:text",
+							"blockId": "1b2dbd33",
+							"path": "0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CONNECT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d4b332d4:text",
+							"blockId": "d4b332d4",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Got A Question?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "365adcba:text",
+							"blockId": "365adcba",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "35091052:text",
+							"blockId": "35091052",
+							"path": "0.0.3.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "123 City Street NY, New York Miami Beach North Dakota 123",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb4a4da4:text",
+							"blockId": "eb4a4da4",
+							"path": "0.0.3.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Call: +0123 456 78910",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "c5bd339e:text",
+							"blockId": "c5bd339e",
+							"path": "0.0.3.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "info@example.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "caf1da8a:background.image.image.url",
+							"blockId": "caf1da8a",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/map-bg.png",
+							"decorative": true,
+							"width": 1200,
+							"height": 742,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d06079ee:image.url",
+							"blockId": "d06079ee",
+							"path": "0.0.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-location-48.png",
+							"decorative": true,
+							"width": 48,
+							"height": 48,
+							"orientation": "square"
+						},
+						{
+							"id": "00a75e61:image.url",
+							"blockId": "00a75e61",
+							"path": "0.0.3.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-telephone-30.png",
+							"decorative": true,
+							"width": 30,
+							"height": 30,
+							"orientation": "square"
+						},
+						{
+							"id": "ef683eb2:image.url",
+							"blockId": "ef683eb2",
+							"path": "0.0.3.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-letter-24.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "caf1da8a",
+					"role": "content",
+					"title": "Got A Question?",
+					"sectionIds": [
+						"caf1da8a"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 19,
+		"textSlots": 114,
+		"editableSlots": 107,
+		"images": 61,
+		"swappableImages": 18,
+		"words": 747
+	},
+	"builtAt": "2026-10-24T11:35:08.036Z"
+}

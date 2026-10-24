@@ -1,0 +1,1462 @@
+{
+	"version": 4,
+	"slug": "eguru",
+	"name": "Zakra eGuru",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-eguru/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/eguru",
+	"niches": [
+		"education",
+		"courses",
+		"lms"
+	],
+	"keywords": [
+		"online learning",
+		"courses",
+		"e-learning",
+		"tutor",
+		"skills",
+		"academy",
+		"tutoring",
+		"school"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"learning-management-system/lms.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 20,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 7
+				}
+			},
+			{
+				"hex": "#03b97c",
+				"count": 11,
+				"group": "brand",
+				"role": "primary",
+				"base": "#03b97c",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#021e41",
+				"count": 9,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#021e41",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 3,
+					"background": 4
+				}
+			},
+			{
+				"hex": "#333d46",
+				"count": 8,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 8
+				}
+			},
+			{
+				"hex": "#3c4852",
+				"count": 6,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 5
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f7f8f9",
+				"count": 5,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 5
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e3f0ff",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#021e41",
+				"lightnessDelta": 0.814,
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 2,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 2
+				}
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#021e41",
+				"lightnessDelta": 0.239
+			},
+			{
+				"hex": "#16181a",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#003169",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#021e41",
+				"lightnessDelta": 0.075
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#3c4852",
+				"bg": "#e3f0ff",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#021e41",
+				"bg": "#e3f0ff",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#021e41",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#021e41",
+				"large": false,
+				"count": 3,
+				"scope": "theme"
+			},
+			{
+				"fg": "#03b97c",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#03b97c",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#03b97c",
+				"bg": "#021e41",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#021e41",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#03b97c",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#021e41",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Roboto",
+			"body": "Roboto",
+			"map": {
+				"Roboto": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "a1ec6c86",
+					"index": 0,
+					"path": "0",
+					"group": "a1ec6c86",
+					"role": "hero",
+					"title": "Professional learning, anytime, anywhere.",
+					"slots": [
+						{
+							"id": "4651f8b4:text",
+							"blockId": "4651f8b4",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Professional learning, anytime, anywhere.",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5a5d18d5:text",
+							"blockId": "5a5d18d5",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "The global educating platform that specializes in accredited and bespoke training courses.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "45ba882b:text",
+							"blockId": "45ba882b",
+							"path": "0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Courses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a1ec6c86:background.image.image.url",
+							"blockId": "a1ec6c86",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/bg-banner-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1099,
+							"orientation": "landscape"
+						},
+						{
+							"id": "9935519b:image.url",
+							"blockId": "9935519b",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/banner-img.png",
+							"decorative": false,
+							"width": 681,
+							"height": 706,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Collage of people studying and teaching online",
+							"tone": {
+								"grid": [
+									0.77,
+									0.76,
+									0.98,
+									0.82,
+									0.74,
+									0.33,
+									0.68,
+									0.63,
+									0.69
+								],
+								"color": "#b6b5b3"
+							}
+						}
+					]
+				},
+				{
+					"id": "25b333a1",
+					"index": 1,
+					"path": "1",
+					"group": "25b333a1",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "204379ef:image.url",
+							"blockId": "204379ef",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/client-logo-black-01.png",
+							"decorative": true,
+							"width": 56,
+							"height": 73,
+							"orientation": "portrait"
+						},
+						{
+							"id": "c11c35a5:image.url",
+							"blockId": "c11c35a5",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/client-logo-black-02.png",
+							"decorative": true,
+							"width": 99,
+							"height": 61,
+							"orientation": "landscape"
+						},
+						{
+							"id": "bfc1c7e9:image.url",
+							"blockId": "bfc1c7e9",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/client-logo-black-03.png",
+							"decorative": true,
+							"width": 64,
+							"height": 82,
+							"orientation": "portrait"
+						},
+						{
+							"id": "fa42ab02:image.url",
+							"blockId": "fa42ab02",
+							"path": "1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/client-logo-black-05.png",
+							"decorative": true,
+							"width": 131,
+							"height": 29,
+							"orientation": "landscape"
+						},
+						{
+							"id": "34c4d887:image.url",
+							"blockId": "34c4d887",
+							"path": "1.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/client-logo-black-04.png",
+							"decorative": true,
+							"width": 109,
+							"height": 51,
+							"orientation": "landscape"
+						},
+						{
+							"id": "6cc352e1:image.url",
+							"blockId": "6cc352e1",
+							"path": "1.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/client-logo-black-06.png",
+							"decorative": true,
+							"width": 117,
+							"height": 23,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "532d86df",
+					"index": 2,
+					"path": "2",
+					"group": "532d86df",
+					"role": "features",
+					"title": "Let's start our step to grow together",
+					"slots": [
+						{
+							"id": "742c2742:text",
+							"blockId": "742c2742",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Let's start our step to grow together",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "59c410c2:text",
+							"blockId": "59c410c2",
+							"path": "2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4cef1a39:text",
+							"blockId": "4cef1a39",
+							"path": "2.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "500+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "4edc4df2:text",
+							"blockId": "4edc4df2",
+							"path": "2.1.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Courses",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b6060dc0:text",
+							"blockId": "b6060dc0",
+							"path": "2.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "800+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "0862139c:text",
+							"blockId": "0862139c",
+							"path": "2.1.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Students",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2b5b82ab:text",
+							"blockId": "2b5b82ab",
+							"path": "2.1.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "200+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "783ffd7f:text",
+							"blockId": "783ffd7f",
+							"path": "2.1.2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Instructors",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e9a13afe:text",
+							"blockId": "e9a13afe",
+							"path": "2.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "d1c2f896:image.url",
+							"blockId": "d1c2f896",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/girl-study-1.jpg",
+							"decorative": false,
+							"width": 478,
+							"height": 503,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman studying with a laptop and notebook at home",
+							"tone": {
+								"grid": [
+									0.73,
+									0.69,
+									0.8,
+									0.78,
+									0.49,
+									0.42,
+									0.62,
+									0.51,
+									0.5
+								],
+								"color": "#ab9a91"
+							}
+						}
+					]
+				},
+				{
+					"id": "13a792ae",
+					"index": 3,
+					"path": "3",
+					"group": "13a792ae",
+					"role": "dynamic",
+					"title": "Explore categories",
+					"slots": [
+						{
+							"id": "b4154b51:text",
+							"blockId": "b4154b51",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Explore categories",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "388d9b76:text",
+							"blockId": "388d9b76",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5aae8772:text",
+							"blockId": "5aae8772",
+							"path": "3.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All Categories",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"masteriyo/course-categories"
+					]
+				},
+				{
+					"id": "0e66e47e",
+					"index": 4,
+					"path": "4",
+					"group": "0e66e47e",
+					"role": "features",
+					"title": "Learn through the process",
+					"slots": [
+						{
+							"id": "9bc26bce:text",
+							"blockId": "9bc26bce",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Learn through the process",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f934cf86:text",
+							"blockId": "f934cf86",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "With more than two dozen distinct learning features to help you achieve your goals, our approach follows three key principles:",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a1fce485:text",
+							"blockId": "a1fce485",
+							"path": "4.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Discover",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bdb7d217:text",
+							"blockId": "bdb7d217",
+							"path": "4.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Find what you are interested to learn choose what’s best for you, and pursue what you really are passionate about.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "981a068a:text",
+							"blockId": "981a068a",
+							"path": "4.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Learn",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6f37888f:text",
+							"blockId": "6f37888f",
+							"path": "4.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Learn new knowledge and skills in a variety of ways, from engaging video lectures to data visualizations and interactive elements.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f41c247:text",
+							"blockId": "3f41c247",
+							"path": "4.0.4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Apply",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "565d672e:text",
+							"blockId": "565d672e",
+							"path": "4.0.4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Learning on eGuru transforms how you think and what you can do, and translates directly into the real world",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "8d098dd5:image.url",
+							"blockId": "8d098dd5",
+							"path": "4.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/one.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "d074451d:image.url",
+							"blockId": "d074451d",
+							"path": "4.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/two.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "b61176cc:image.url",
+							"blockId": "b61176cc",
+							"path": "4.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/three.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "802b4f5e:image.url",
+							"blockId": "802b4f5e",
+							"path": "4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/side-img.png",
+							"decorative": false,
+							"width": 681,
+							"height": 706,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Collage of women studying online with laptops",
+							"tone": {
+								"grid": [
+									0.69,
+									0.59,
+									0.97,
+									0.84,
+									0.76,
+									0.56,
+									0.73,
+									0.76,
+									0.75
+								],
+								"color": "#c5bbb3"
+							}
+						}
+					]
+				},
+				{
+					"id": "ddc849b6",
+					"index": 5,
+					"path": "5",
+					"group": "ddc849b6",
+					"role": "dynamic",
+					"title": "Popular courses",
+					"slots": [
+						{
+							"id": "75f19f4f:text",
+							"blockId": "75f19f4f",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Popular courses",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9275f5f3:text",
+							"blockId": "9275f5f3",
+							"path": "5.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "562522e7:text",
+							"blockId": "562522e7",
+							"path": "5.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All Courses",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"masteriyo/courses"
+					]
+				},
+				{
+					"id": "3ee12361",
+					"index": 6,
+					"path": "6",
+					"group": "3ee12361",
+					"role": "features",
+					"title": "Student feedback",
+					"slots": [
+						{
+							"id": "00a06f31:text",
+							"blockId": "00a06f31",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Student feedback",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f1188930:text",
+							"blockId": "f1188930",
+							"path": "6.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d88eba72:text",
+							"blockId": "d88eba72",
+							"path": "6.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Honestly UI/UX design course",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "78a23020:text",
+							"blockId": "78a23020",
+							"path": "6.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium dolor emque laud ant ium, totam rem ape riam, eaque ipsa.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2d8f9811:text",
+							"blockId": "2d8f9811",
+							"path": "6.0.2.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Alisa Ray",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c394a3e3:text",
+							"blockId": "c394a3e3",
+							"path": "6.0.2.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Designer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f1a73351:text",
+							"blockId": "f1a73351",
+							"path": "6.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Great support for the beginner",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3fcfa3c5:text",
+							"blockId": "3fcfa3c5",
+							"path": "6.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Unde omnis iste natus error sit voluptatem accu santium dolor sed ut perspiciatis uem que laud antium, totam rem aperiam, eaque.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e8a3b4c6:text",
+							"blockId": "e8a3b4c6",
+							"path": "6.0.2.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Stephen Allen",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3d1b3c45:text",
+							"blockId": "3d1b3c45",
+							"path": "6.0.2.1.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Marketer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f6dd10dd:text",
+							"blockId": "f6dd10dd",
+							"path": "6.0.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Amazing teaching methods",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "627cd7ae:text",
+							"blockId": "627cd7ae",
+							"path": "6.0.2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Voluptatem accu santium dolor emque laud antium, totam rem aperiam, eaque ipsa quae abed ut perspiciatis unde omnis iste natus.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "db66972f:text",
+							"blockId": "db66972f",
+							"path": "6.0.2.2.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "John Brock",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9e2382de:text",
+							"blockId": "9e2382de",
+							"path": "6.0.2.2.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Developer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "70a70df1",
+					"index": 7,
+					"path": "7",
+					"group": "70a70df1",
+					"role": "cta",
+					"title": "Do you have any questions?",
+					"slots": [
+						{
+							"id": "c3c4b3b1:text",
+							"blockId": "c3c4b3b1",
+							"path": "7.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Do you have any questions?",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a5fb47c:text",
+							"blockId": "2a5fb47c",
+							"path": "7.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6cfc8a23:text",
+							"blockId": "6cfc8a23",
+							"path": "7.0.0.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "5b1d4927:background.image.image.url",
+							"blockId": "5b1d4927",
+							"path": "7.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/banner.png",
+							"decorative": true,
+							"width": 1192,
+							"height": 282,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "a1ec6c86",
+					"role": "hero",
+					"title": "Professional learning, anytime, anywhere.",
+					"sectionIds": [
+						"a1ec6c86"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "25b333a1",
+					"role": "logos",
+					"sectionIds": [
+						"25b333a1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "532d86df",
+					"role": "features",
+					"title": "Let's start our step to grow together",
+					"sectionIds": [
+						"532d86df"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "13a792ae",
+					"role": "dynamic",
+					"title": "Explore categories",
+					"sectionIds": [
+						"13a792ae"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "0e66e47e",
+					"role": "features",
+					"title": "Learn through the process",
+					"sectionIds": [
+						"0e66e47e"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ddc849b6",
+					"role": "dynamic",
+					"title": "Popular courses",
+					"sectionIds": [
+						"ddc849b6"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "3ee12361",
+					"role": "features",
+					"title": "Student feedback",
+					"sectionIds": [
+						"3ee12361"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "70a70df1",
+					"role": "cta",
+					"title": "Do you have any questions?",
+					"sectionIds": [
+						"70a70df1"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "courses",
+			"title": "Courses",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/themegrill-demos/courses-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "account",
+			"title": "Account",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/themegrill-demos/account-content.xml",
+			"sections": [
+				{
+					"id": "6e41b7ea",
+					"index": 0,
+					"path": "0",
+					"group": "6e41b7ea",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "6e41b7ea",
+					"role": "dynamic",
+					"sectionIds": [
+						"6e41b7ea"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "checkout",
+			"title": "Checkout",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/themegrill-demos/checkout-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 10,
+		"textSlots": 43,
+		"editableSlots": 40,
+		"images": 14,
+		"swappableImages": 3,
+		"words": 319
+	},
+	"builtAt": "2026-10-24T11:35:07.905Z"
+}

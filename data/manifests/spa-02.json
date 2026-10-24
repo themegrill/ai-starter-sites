@@ -1,5 +1,5 @@
 {
-	"version": 3,
+	"version": 4,
 	"slug": "spa-02",
 	"name": "Zakra Spa",
 	"theme": "zakra",
@@ -294,7 +294,23 @@
 							"decorative": false,
 							"width": 1600,
 							"height": 900,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman with glowing skin and pink tulips, beauty portrait",
+							"tone": {
+								"grid": [
+									0.92,
+									0.92,
+									0.85,
+									0.89,
+									0.91,
+									0.78,
+									0.54,
+									0.88,
+									0.83
+								],
+								"color": "#cfd6e0"
+							}
 						}
 					]
 				},
@@ -505,7 +521,7 @@
 					"index": 2,
 					"path": "2",
 					"group": "895b5115",
-					"role": "content",
+					"role": "stats",
 					"title": "Our community",
 					"slots": [
 						{
@@ -642,7 +658,7 @@
 							"attr": "background.image.image.url",
 							"kind": "background",
 							"url": "https://zakrademos.com/spa-02/wp-content/uploads/sites/108/2021/12/our_statics_bg.jpg",
-							"decorative": false,
+							"decorative": true,
 							"width": 1602,
 							"height": 620,
 							"orientation": "landscape"
@@ -658,7 +674,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 800,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "group",
+							"description": "Makeup artist applying lipstick to a woman in a salon",
+							"tone": {
+								"grid": [
+									0.57,
+									0.43,
+									0.28,
+									0.45,
+									0.52,
+									0.59,
+									0.65,
+									0.67,
+									0.8
+								],
+								"color": "#b88080"
+							}
 						}
 					]
 				},
@@ -744,7 +776,23 @@
 							"decorative": false,
 							"width": 580,
 							"height": 760,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman relaxing in a milk bath, beauty portrait",
+							"tone": {
+								"grid": [
+									0.63,
+									0.48,
+									0.72,
+									0.61,
+									0.56,
+									0.75,
+									0.71,
+									0.61,
+									0.79
+								],
+								"color": "#b6a2a0"
+							}
 						},
 						{
 							"id": "9cae4cb9:image.url",
@@ -757,7 +805,23 @@
 							"decorative": false,
 							"width": 580,
 							"height": 760,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman with dramatic makeup, beauty portrait",
+							"tone": {
+								"grid": [
+									0.86,
+									0.6,
+									0.81,
+									0.85,
+									0.51,
+									0.84,
+									0.65,
+									0.4,
+									0.77
+								],
+								"color": "#bdafb4"
+							}
 						},
 						{
 							"id": "d0ff98be:image.url",
@@ -770,7 +834,23 @@
 							"decorative": false,
 							"width": 580,
 							"height": 760,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman with a red flower in her hair, beauty portrait",
+							"tone": {
+								"grid": [
+									0.54,
+									0.49,
+									0.41,
+									0.64,
+									0.77,
+									0.69,
+									0.83,
+									0.76,
+									0.85
+								],
+								"color": "#cba09f"
+							}
 						}
 					]
 				},
@@ -838,7 +918,7 @@
 							"attr": "background.image.image.url",
 							"kind": "background",
 							"url": "https://zakrademos.com/spa-02/wp-content/uploads/sites/108/2021/12/appointment_BG.jpg",
-							"decorative": false,
+							"decorative": true,
 							"width": 1600,
 							"height": 620,
 							"orientation": "landscape"
@@ -854,7 +934,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 800,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman receiving a face massage at a spa",
+							"tone": {
+								"grid": [
+									0.45,
+									0.55,
+									0.61,
+									0.32,
+									0.51,
+									0.61,
+									0.18,
+									0.41,
+									0.45
+								],
+								"color": "#8f704f"
+							}
 						}
 					]
 				},
@@ -962,7 +1058,7 @@
 				},
 				{
 					"id": "895b5115",
-					"role": "content",
+					"role": "stats",
 					"title": "Our community",
 					"sectionIds": [
 						"895b5115"
@@ -971,7 +1067,10 @@
 						"2"
 					],
 					"fit": {
-						"kind": "core"
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
 					}
 				},
 				{
@@ -1474,8 +1573,8 @@
 		"textSlots": 54,
 		"editableSlots": 51,
 		"images": 11,
-		"swappableImages": 8,
+		"swappableImages": 6,
 		"words": 486
 	},
-	"builtAt": "2026-10-07T13:48:43.382Z"
+	"builtAt": "2026-10-24T11:35:07.827Z"
 }

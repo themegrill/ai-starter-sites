@@ -1,0 +1,2761 @@
+{
+	"version": 4,
+	"slug": "book-author-02",
+	"name": "Zakra Book Author",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-book-author-02/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/book-author-02",
+	"niches": [
+		"author",
+		"books",
+		"writing"
+	],
+	"keywords": [
+		"author",
+		"writer",
+		"novelist",
+		"books",
+		"publisher",
+		"poet"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"download-plugins-dashboard/download-plugins-from-dashboard.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 55,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 38,
+					"background": 5
+				}
+			},
+			{
+				"hex": "#6b5c4e",
+				"count": 34,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 11,
+					"background": 14
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 21,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 8,
+					"text": 1
+				}
+			},
+			{
+				"hex": "#272727",
+				"count": 7,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#596172",
+				"count": 6,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#2563eb",
+				"count": 6,
+				"group": "brand",
+				"role": "primary",
+				"base": "#2563eb",
+				"lightnessDelta": 0,
+				"usage": {
+					"border": 6
+				}
+			},
+			{
+				"hex": "#52473c",
+				"count": 4,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f2f2f2",
+				"count": 3,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 3
+				}
+			},
+			{
+				"hex": "#eeeeee",
+				"count": 3,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 3
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f8f8f8",
+				"count": 2,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#2563eb",
+				"lightnessDelta": -0.163
+			},
+			{
+				"hex": "#51453b",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#56493d",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#2e2727",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"border": 1
+				}
+			},
+			{
+				"hex": "#595048",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#fffffe",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#544438",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#544438",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#544438",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Cinzel Decorative",
+			"body": "Quattrocento",
+			"map": {
+				"Cinzel Decorative": "body",
+				"Quattrocento": "body",
+				"Quicksand": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "21-2",
+			"title": "HOME",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/themegrill-demos/21-2-content.xml",
+			"sections": [
+				{
+					"id": "bfee92f1",
+					"index": 0,
+					"path": "0",
+					"group": "bfee92f1",
+					"role": "hero",
+					"title": "T.G. Robinson",
+					"slots": [
+						{
+							"id": "e5f9cdab:text",
+							"blockId": "e5f9cdab",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "T.G. Robinson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8eab34d0:text",
+							"blockId": "8eab34d0",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel leo tempus, pulvinar nulla id, pulvinar justo. Proin in mi rutrum ante vulputate blandit. Sed tristique urna nec scelerisque maximus. In mauris ante, blandit non efficitur ut, rhoncus eu metus.",
+							"rich": false,
+							"words": 40,
+							"minWords": 24,
+							"maxWords": 50,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2265b5ad:text",
+							"blockId": "2265b5ad",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "bfee92f1:background.image.image.url",
+							"blockId": "bfee92f1",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/landing-banner-image.jpg",
+							"decorative": false,
+							"width": 1024,
+							"height": 404,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Bookshelves filled with old books in a bookstore",
+							"tone": {
+								"grid": [
+									0.49,
+									0.56,
+									0.51,
+									0.5,
+									0.53,
+									0.48,
+									0.41,
+									0.55,
+									0.48
+								],
+								"color": "#a17968"
+							}
+						},
+						{
+							"id": "71390226:image.url",
+							"blockId": "71390226",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/carousel-book-one.png",
+							"decorative": false,
+							"width": 400,
+							"height": 550,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Book cover with a lighthouse at dusk",
+							"tone": {
+								"grid": [
+									0.44,
+									0.41,
+									0.78,
+									0.55,
+									0.48,
+									0.8,
+									0.65,
+									0.55,
+									0.85
+								],
+								"color": "#84a0b6"
+							}
+						}
+					]
+				},
+				{
+					"id": "342e9992",
+					"index": 1,
+					"path": "1",
+					"group": "342e9992",
+					"role": "features",
+					"title": "OTHER BOOKS",
+					"slots": [
+						{
+							"id": "f36cf337:text",
+							"blockId": "f36cf337",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "OTHER BOOKS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9c81c066:text",
+							"blockId": "9c81c066",
+							"path": "1.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sagittis urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4fff883f:text",
+							"blockId": "4fff883f",
+							"path": "1.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "The life of A pirate",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "32f57692:text",
+							"blockId": "32f57692",
+							"path": "1.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$225",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "d13b89ff:text",
+							"blockId": "d13b89ff",
+							"path": "1.0.2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be9463c5:text",
+							"blockId": "be9463c5",
+							"path": "1.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "War and peace",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a27af30d:text",
+							"blockId": "a27af30d",
+							"path": "1.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$150",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "be09c93e:text",
+							"blockId": "be09c93e",
+							"path": "1.0.2.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6f479621:text",
+							"blockId": "6f479621",
+							"path": "1.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Wild life",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d26379a7:text",
+							"blockId": "d26379a7",
+							"path": "1.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$230",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "239a87b0:text",
+							"blockId": "239a87b0",
+							"path": "1.0.2.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e261ad17:image.url",
+							"blockId": "e261ad17",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/The-life-of-pirate-and-robinson-book.jpg",
+							"decorative": false,
+							"width": 642,
+							"height": 984,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Book cover with a fishing boat at sea",
+							"tone": {
+								"grid": [
+									0.69,
+									0.62,
+									0.67,
+									0.74,
+									0.74,
+									0.74,
+									0.69,
+									0.59,
+									0.68
+								],
+								"color": "#b3aeaf"
+							}
+						},
+						{
+							"id": "24ee4941:image.url",
+							"blockId": "24ee4941",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/WarPeace-book.jpg",
+							"decorative": false,
+							"width": 642,
+							"height": 984,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Book cover with a silhouetted soldier hiker by the sea",
+							"tone": {
+								"grid": [
+									0.78,
+									0.76,
+									0.86,
+									0.46,
+									0.09,
+									0.68,
+									0.35,
+									0.13,
+									0.41
+								],
+								"color": "#808081"
+							}
+						},
+						{
+							"id": "e19019e5:image.url",
+							"blockId": "e19019e5",
+							"path": "1.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/WildLife-book.jpg",
+							"decorative": false,
+							"width": 642,
+							"height": 984,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Book cover featuring a stag in a grassy field",
+							"tone": {
+								"grid": [
+									0.82,
+									0.86,
+									0.82,
+									0.59,
+									0.68,
+									0.54,
+									0.39,
+									0.49,
+									0.72
+								],
+								"color": "#aea6a0"
+							}
+						}
+					]
+				},
+				{
+					"id": "5cc8a8b2",
+					"index": 2,
+					"path": "2",
+					"group": "5cc8a8b2",
+					"role": "content",
+					"title": "WHAT READERS SAYS",
+					"slots": [
+						{
+							"id": "6eb905e3:text",
+							"blockId": "6eb905e3",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WHAT READERS SAYS",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "75775fa8:text",
+							"blockId": "75775fa8",
+							"path": "2.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sagittis urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "aac72392",
+					"index": 3,
+					"path": "3",
+					"group": "aac72392",
+					"role": "content",
+					"slots": [
+						{
+							"id": "152354f7:text",
+							"blockId": "152354f7",
+							"path": "3.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sagittis urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "597dbcf4:text",
+							"blockId": "597dbcf4",
+							"path": "3.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Luis Villasmil",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f09d87b5:text",
+							"blockId": "f09d87b5",
+							"path": "3.0.0.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Reader of the ‘The Human",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5db6a411:text",
+							"blockId": "5db6a411",
+							"path": "3.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sagittis urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9ffa9848:text",
+							"blockId": "9ffa9848",
+							"path": "3.1.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Michael Halin",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "70f3bb7f:text",
+							"blockId": "70f3bb7f",
+							"path": "3.1.0.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Reader of the ‘The Human",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1291bb14:background.image.image.url",
+							"blockId": "1291bb14",
+							"path": "3.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/overlay-1.jpg",
+							"decorative": false,
+							"width": 750,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Modern multi-level library interior with balconies",
+							"tone": {
+								"grid": [
+									0.48,
+									0.63,
+									0.51,
+									0.57,
+									0.62,
+									0.45,
+									0.37,
+									0.4,
+									0.33
+								],
+								"color": "#847a71"
+							}
+						},
+						{
+							"id": "6065149a:image.url",
+							"blockId": "6065149a",
+							"path": "3.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/Group-1.png",
+							"decorative": true,
+							"width": 160,
+							"height": 152,
+							"orientation": "square"
+						},
+						{
+							"id": "652895c9:image.url",
+							"blockId": "652895c9",
+							"path": "3.0.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/testimonial-one.jpg",
+							"decorative": true,
+							"width": 90,
+							"height": 90,
+							"orientation": "square"
+						},
+						{
+							"id": "931413e4:background.image.image.url",
+							"blockId": "931413e4",
+							"path": "3.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/overlay-2.jpg",
+							"decorative": false,
+							"width": 850,
+							"height": 565,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Bright white library interior with a modern chandelier",
+							"tone": {
+								"grid": [
+									0.87,
+									0.84,
+									0.8,
+									0.88,
+									0.85,
+									0.8,
+									0.71,
+									0.72,
+									0.6
+								],
+								"color": "#c8c8c8"
+							}
+						},
+						{
+							"id": "4dcc5f99:image.url",
+							"blockId": "4dcc5f99",
+							"path": "3.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/Group-1.png",
+							"decorative": true,
+							"width": 160,
+							"height": 152,
+							"orientation": "square"
+						},
+						{
+							"id": "52697163:image.url",
+							"blockId": "52697163",
+							"path": "3.1.0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/testimonial-two.jpg",
+							"decorative": true,
+							"width": 90,
+							"height": 90,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "2f09aed8",
+					"index": 4,
+					"path": "4",
+					"group": "2f09aed8",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "763f0b92:text",
+							"blockId": "763f0b92",
+							"path": "4.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "35",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "8517ce40:text",
+							"blockId": "8517ce40",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BOOK PUBLISHED",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a76a7c13:text",
+							"blockId": "a76a7c13",
+							"path": "4.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "35",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "6fcb5115:text",
+							"blockId": "6fcb5115",
+							"path": "4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "YEARS OF WRITING",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cbdfe85f:text",
+							"blockId": "cbdfe85f",
+							"path": "4.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "99,999",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "7c3e9e90:text",
+							"blockId": "7c3e9e90",
+							"path": "4.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BOOK SOLD",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae406e5d:text",
+							"blockId": "ae406e5d",
+							"path": "4.3.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "95",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "8acad7fe:text",
+							"blockId": "8acad7fe",
+							"path": "4.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "AWARD WINNER",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "2f09aed8:background.image.image.url",
+							"blockId": "2f09aed8",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/stats.jpg",
+							"decorative": false,
+							"width": 1024,
+							"height": 629,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Open books scattered in a flat lay",
+							"tone": {
+								"grid": [
+									0.66,
+									0.73,
+									0.73,
+									0.68,
+									0.7,
+									0.72,
+									0.68,
+									0.69,
+									0.66
+								],
+								"color": "#b4b1a6"
+							}
+						}
+					]
+				},
+				{
+					"id": "0cf46527",
+					"index": 5,
+					"path": "5",
+					"group": "0cf46527",
+					"role": "content",
+					"title": "ABOUT AUTHOR",
+					"slots": [
+						{
+							"id": "ad49b5fc:text",
+							"blockId": "ad49b5fc",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ABOUT AUTHOR",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3dccafea:text",
+							"blockId": "3dccafea",
+							"path": "5.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sagittis urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f3521f30:text",
+							"blockId": "f3521f30",
+							"path": "5.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "\"A ROOM WITHOUT BOOKS IS LIKE A BODY WITHOUT A SOUL.\"",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5aa05d39:text",
+							"blockId": "5aa05d39",
+							"path": "5.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sagittis urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vel justo eu nibh efficitur congue et et nibh.",
+							"rich": false,
+							"words": 34,
+							"minWords": 20,
+							"maxWords": 43,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9294a837:text",
+							"blockId": "9294a837",
+							"path": "5.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "dolor sit amet, consectetur adipiscing elit. Nunc quis sagittis urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vel justo eu nibh efficitur congue et et.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "337ef9cc:text",
+							"blockId": "337ef9cc",
+							"path": "5.0.2.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "T.G. ROBINSON",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8431f730:text",
+							"blockId": "8431f730",
+							"path": "5.0.2.1.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Book Author, Lecturer at New York University.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "80189320:image.url",
+							"blockId": "80189320",
+							"path": "5.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/author-profile.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 600,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded businessman working on a laptop by a window",
+							"tone": {
+								"grid": [
+									0.26,
+									0.44,
+									0.23,
+									0.15,
+									0.25,
+									0.19,
+									0.11,
+									0.23,
+									0.32
+								],
+								"color": "#433d32"
+							}
+						}
+					]
+				},
+				{
+					"id": "b7f0bdb1",
+					"index": 6,
+					"path": "6",
+					"group": "b7f0bdb1",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "b0f43283:text",
+							"blockId": "b0f43283",
+							"path": "6.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sign up for the newsletter from updates on Robinson's Writing events and more.",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8b8e91ac-2978-4ab7-b4ac-d8bdb9cd67fc:text",
+							"blockId": "8b8e91ac-2978-4ab7-b4ac-d8bdb9cd67fc",
+							"path": "6.1.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "SIGN UP",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b7f0bdb1:background.image.image.url",
+							"blockId": "b7f0bdb1",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/testimonial-one-bg.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 400,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Many open book pages laid out in a flat lay",
+							"tone": {
+								"grid": [
+									0.47,
+									0.62,
+									0.69,
+									0.57,
+									0.64,
+									0.71,
+									0.53,
+									0.56,
+									0.67
+								],
+								"color": "#ad978a"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "bfee92f1",
+					"role": "hero",
+					"title": "T.G. Robinson",
+					"sectionIds": [
+						"bfee92f1"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "342e9992",
+					"role": "features",
+					"title": "OTHER BOOKS",
+					"sectionIds": [
+						"342e9992"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5cc8a8b2",
+					"role": "content",
+					"title": "WHAT READERS SAYS",
+					"sectionIds": [
+						"5cc8a8b2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "aac72392",
+					"role": "content",
+					"sectionIds": [
+						"aac72392"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2f09aed8",
+					"role": "stats",
+					"sectionIds": [
+						"2f09aed8"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "0cf46527",
+					"role": "content",
+					"title": "ABOUT AUTHOR",
+					"sectionIds": [
+						"0cf46527"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b7f0bdb1",
+					"role": "cta",
+					"sectionIds": [
+						"b7f0bdb1"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "about-us",
+			"title": "ABOUT",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "658babf7",
+					"index": 0,
+					"path": "0",
+					"group": "658babf7",
+					"role": "hero",
+					"title": "Writer's Bio",
+					"slots": [
+						{
+							"id": "80e9cfb4:text",
+							"blockId": "80e9cfb4",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Writer's Bio",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ec9a1fcf:text",
+							"blockId": "ec9a1fcf",
+							"path": "0.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac commodo sapien, et tempus nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fc978fa8:text",
+							"blockId": "fc978fa8",
+							"path": "0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Aconsectetur adipiscing elit. Proin ac commodo sapien, et tempus nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed facilisis tempus justo, id aliquet purus tristique a. Nunc eu pharetra eros. Phasellus id gravida mi. Integer volutpat augue at urna efficitur luctus. Quisque facilisis",
+							"rich": false,
+							"words": 49,
+							"minWords": 29,
+							"maxWords": 62,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fefbfddb:text",
+							"blockId": "fefbfddb",
+							"path": "0.0.1.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac commodo sapien, et tempus nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b2bdc43e:text",
+							"blockId": "b2bdc43e",
+							"path": "0.0.1.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Aconsectetur adipiscing elit. Proin ac commodo sapien, et tempus nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed facilisis tempus justo, id aliquet purus tristique a. Nunc eu pharetra eros. Phasellus id gravida mi. Integer volutpat augue at urna efficitur luctus. Quisque facilisis",
+							"rich": false,
+							"words": 49,
+							"minWords": 29,
+							"maxWords": 62,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "18f3ff3e:image.url",
+							"blockId": "18f3ff3e",
+							"path": "0.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/author-profile.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 600,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded businessman working on a laptop by a window",
+							"tone": {
+								"grid": [
+									0.26,
+									0.44,
+									0.23,
+									0.15,
+									0.25,
+									0.19,
+									0.11,
+									0.23,
+									0.32
+								],
+								"color": "#433d32"
+							}
+						}
+					]
+				},
+				{
+					"id": "fb38201d",
+					"index": 1,
+					"path": "1",
+					"group": "fb38201d",
+					"role": "content",
+					"slots": [
+						{
+							"id": "4f833eee:text",
+							"blockId": "4f833eee",
+							"path": "1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"It had nothing to do with gear or footwear or the backpacking fads or philosophies of any particular era or even with getting from point A to point B. It had to do with how it felt to be in the wild.\"",
+							"rich": true,
+							"words": 42,
+							"minWords": 25,
+							"maxWords": 53,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d16686a0:text",
+							"blockId": "d16686a0",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "- T.G. Robinson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "85d0a709",
+					"index": 2,
+					"path": "2",
+					"group": "85d0a709",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "f498822e:text",
+							"blockId": "f498822e",
+							"path": "2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "35",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "184b2e3c:text",
+							"blockId": "184b2e3c",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BOOK PUBLISHED",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a4b2c985:text",
+							"blockId": "a4b2c985",
+							"path": "2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "35",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "53fdf019:text",
+							"blockId": "53fdf019",
+							"path": "2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "YEARS OF WRITING",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "871db615:text",
+							"blockId": "871db615",
+							"path": "2.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "99,999",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "3bb8a71c:text",
+							"blockId": "3bb8a71c",
+							"path": "2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BOOK SOLD",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "22a31306:text",
+							"blockId": "22a31306",
+							"path": "2.3.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "95",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "219bbe35:text",
+							"blockId": "219bbe35",
+							"path": "2.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "AWARD WINNER",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "85d0a709:background.image.image.url",
+							"blockId": "85d0a709",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/stats.jpg",
+							"decorative": false,
+							"width": 1024,
+							"height": 629,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Open books scattered in a flat lay",
+							"tone": {
+								"grid": [
+									0.66,
+									0.73,
+									0.73,
+									0.68,
+									0.7,
+									0.72,
+									0.68,
+									0.69,
+									0.66
+								],
+								"color": "#b4b1a6"
+							}
+						}
+					]
+				},
+				{
+					"id": "6ac63698",
+					"index": 3,
+					"path": "3",
+					"group": "6ac63698",
+					"role": "content",
+					"slots": [
+						{
+							"id": "75cb9748:text",
+							"blockId": "75cb9748",
+							"path": "3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Praesent in varius felis, non accumsan lorem. Nunc consectetur metus feugiat, ultricies erat eget, tristique felis. Aliquam lobortis congue consequat. Vivamus tristique sapien at tincidunt scelerisque. Curabitur felis lacus, luctus id velit nec, luctus porttitor lacus. Morbi quis diam pretium, pellentesque metus eu, suscipit quam. Ut urna neque, elementum sit amet tortor et, ornare venenatis nulla. Nam orci enim, condimentum ullamcorper leo ultricies, dictum volutpat dolor. Aliquam quis enim arcu.Maecenas blandit pulvinar metus id rhoncus. Suspendisse potenti. Aliquam erat volutpat. Quisque ligula ligula, dapibus scelerisque",
+							"rich": false,
+							"words": 85,
+							"minWords": 51,
+							"maxWords": 107,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4de0bcd8:text",
+							"blockId": "4de0bcd8",
+							"path": "3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Suspendisse potenti. Aliquam erat volutpat. Quisque ligula ligula, dapibus scelerisque ipsum quis, tempor tristique lectus. Pellentesque eu placerat ligula, in rhoncus nibh. Etiam id nulla scelerisque, pellentesque odio nec, aliquam tortor. Aliquam erat volutpat. Donec placerat neque malesuada, ultricies eros sed, faucibus quam. Aliquam lacus turpis, dictum facilisis tristique posuere, fringilla in erat. Integer nec laoreet nunc. Donec ultricies volutpat justo, vel volutpat nunc. Cras sodales facilisis lacus, eget facilisis ligula venenatis quis. Morbi vulputate enim arcu, eget convallis dolor consectetur eget. Mauris quis imperdiet ipsum, non dapibus libero.",
+							"rich": false,
+							"words": 89,
+							"minWords": 53,
+							"maxWords": 112,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "74fef96b",
+					"index": 4,
+					"path": "4",
+					"group": "74fef96b",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "231dc388:text",
+							"blockId": "231dc388",
+							"path": "4.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sign up for the newsletter from updates on Robinson's Writing events and more.",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2265b5ad:text",
+							"blockId": "2265b5ad",
+							"path": "4.1.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "SIGN UP",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "74fef96b:background.image.image.url",
+							"blockId": "74fef96b",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/testimonial-one-bg.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 400,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Many open book pages laid out in a flat lay",
+							"tone": {
+								"grid": [
+									0.47,
+									0.62,
+									0.69,
+									0.57,
+									0.64,
+									0.71,
+									0.53,
+									0.56,
+									0.67
+								],
+								"color": "#ad978a"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "658babf7",
+					"role": "hero",
+					"title": "Writer's Bio",
+					"sectionIds": [
+						"658babf7"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "fb38201d",
+					"role": "content",
+					"sectionIds": [
+						"fb38201d"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "85d0a709",
+					"role": "stats",
+					"sectionIds": [
+						"85d0a709"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "6ac63698",
+					"role": "content",
+					"sectionIds": [
+						"6ac63698"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "74fef96b",
+					"role": "cta",
+					"sectionIds": [
+						"74fef96b"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "BLOG",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "contact",
+			"title": "CONTACT",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "e63b78d3",
+					"index": 0,
+					"path": "0",
+					"group": "e63b78d3",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "2eed3be5:text",
+							"blockId": "2eed3be5",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Location",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b433f748:text",
+							"blockId": "b433f748",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "301 Rockaway Valley Rd,",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bf1f30c7:text",
+							"blockId": "bf1f30c7",
+							"path": "0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "NJ 07005, USA​",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8cd96397:text",
+							"blockId": "8cd96397",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Phone",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "713f3f53:text",
+							"blockId": "713f3f53",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+112-342-3450",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fdfe5dc7:text",
+							"blockId": "fdfe5dc7",
+							"path": "0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+112-342-3451",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "6432d60f:text",
+							"blockId": "6432d60f",
+							"path": "0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Mail",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "99b15a65:text",
+							"blockId": "99b15a65",
+							"path": "0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "mail1@gmail.com​",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "63899eb0:text",
+							"blockId": "63899eb0",
+							"path": "0.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "mail2@gmail.com​",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "52bdbc13:image.url",
+							"blockId": "52bdbc13",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/Location-icon.png",
+							"decorative": true,
+							"width": 66,
+							"height": 66,
+							"orientation": "square"
+						},
+						{
+							"id": "d6df7440:image.url",
+							"blockId": "d6df7440",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/Phone-icon.png",
+							"decorative": true,
+							"width": 54,
+							"height": 66,
+							"orientation": "portrait"
+						},
+						{
+							"id": "16570769:image.url",
+							"blockId": "16570769",
+							"path": "0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/Message-icon.png",
+							"decorative": true,
+							"width": 66,
+							"height": 66,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "d6cc7658",
+					"index": 1,
+					"path": "1",
+					"group": "d6cc7658",
+					"role": "dynamic",
+					"slots": [
+						{
+							"id": "64b60d7b:text",
+							"blockId": "64b60d7b",
+							"path": "1.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "GET IN TOUCH",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f29ce349:text",
+							"blockId": "f29ce349",
+							"path": "1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eros urna, blandit eu tempor vitae, pellentesque a leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "8de4696d:background.image.image.url",
+							"blockId": "8de4696d",
+							"path": "1.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/contact-form-bg.jpg",
+							"decorative": false,
+							"width": 1000,
+							"height": 667,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Dark library wall of bookshelves",
+							"tone": {
+								"grid": [
+									0.06,
+									0.08,
+									0.07,
+									0.05,
+									0.06,
+									0.06,
+									0.08,
+									0.11,
+									0.08
+								],
+								"color": "#161110"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "37c3cd62",
+					"index": 2,
+					"path": "3",
+					"group": "37c3cd62",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "190c7a4d:text",
+							"blockId": "190c7a4d",
+							"path": "3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sign up for the newsletter from updates on Robinson's Writing events and more.",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2265b5ad:text",
+							"blockId": "2265b5ad",
+							"path": "3.1.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "SIGN UP",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "37c3cd62:background.image.image.url",
+							"blockId": "37c3cd62",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/testimonial-one-bg.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 400,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Many open book pages laid out in a flat lay",
+							"tone": {
+								"grid": [
+									0.47,
+									0.62,
+									0.69,
+									0.57,
+									0.64,
+									0.71,
+									0.53,
+									0.56,
+									0.67
+								],
+								"color": "#ad978a"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "e63b78d3",
+					"role": "hero",
+					"sectionIds": [
+						"e63b78d3"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d6cc7658",
+					"role": "dynamic",
+					"sectionIds": [
+						"d6cc7658"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "37c3cd62",
+					"role": "cta",
+					"sectionIds": [
+						"37c3cd62"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "books",
+			"title": "BOOKS",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/themegrill-demos/books-content.xml",
+			"sections": [
+				{
+					"id": "d9c1dad4",
+					"index": 0,
+					"path": "0",
+					"group": "d9c1dad4",
+					"role": "hero",
+					"title": "THE life of a pirate and robinson",
+					"slots": [
+						{
+							"id": "cce1ed44:text",
+							"blockId": "cce1ed44",
+							"path": "0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "THE life of a pirate and robinson",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e23c4c51:text",
+							"blockId": "e23c4c51",
+							"path": "0.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim neque ac mi maximus, ut rhoncus massa ullamcorper.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ad795ab0:text",
+							"blockId": "ad795ab0",
+							"path": "0.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Consectetur adipiscing elit. Fusce dignissim neque ac mi maximus, ut rhoncus massa ullamcorper. Suspendisse malesuada libero ut ipsum vestibulum,",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "eec53cc7:text",
+							"blockId": "eec53cc7",
+							"path": "0.0.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$1200",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "8d3b5e64:text",
+							"blockId": "8d3b5e64",
+							"path": "0.0.0.1.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f4db9dc6:image.url",
+							"blockId": "f4db9dc6",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/The-life-of-pirate-and-robinson-book.jpg",
+							"decorative": false,
+							"width": 642,
+							"height": 984,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Book cover with a fishing boat at sea",
+							"tone": {
+								"grid": [
+									0.69,
+									0.62,
+									0.67,
+									0.74,
+									0.74,
+									0.74,
+									0.69,
+									0.59,
+									0.68
+								],
+								"color": "#b3aeaf"
+							}
+						}
+					]
+				},
+				{
+					"id": "58db58d0",
+					"index": 1,
+					"path": "1",
+					"group": "58db58d0",
+					"role": "content",
+					"title": "Wilf Life",
+					"slots": [
+						{
+							"id": "2b5fad74:text",
+							"blockId": "2b5fad74",
+							"path": "1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Wilf Life",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "03e90bf3:text",
+							"blockId": "03e90bf3",
+							"path": "1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim neque ac mi maximus, ut rhoncus massa ullamcorper.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6af230fb:text",
+							"blockId": "6af230fb",
+							"path": "1.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Consectetur adipiscing elit. Fusce dignissim neque ac mi maximus, ut rhoncus massa ullamcorper. Suspendisse malesuada libero ut ipsum vestibulum,",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "bd26ddd0:text",
+							"blockId": "bd26ddd0",
+							"path": "1.0.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$900",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "81441533:text",
+							"blockId": "81441533",
+							"path": "1.0.0.1.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "485f0bb4:image.url",
+							"blockId": "485f0bb4",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/WildLife-book.jpg",
+							"decorative": false,
+							"width": 642,
+							"height": 984,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Book cover featuring a stag in a grassy field",
+							"tone": {
+								"grid": [
+									0.82,
+									0.86,
+									0.82,
+									0.59,
+									0.68,
+									0.54,
+									0.39,
+									0.49,
+									0.72
+								],
+								"color": "#aea6a0"
+							}
+						}
+					]
+				},
+				{
+					"id": "dca0b21f",
+					"index": 2,
+					"path": "2",
+					"group": "dca0b21f",
+					"role": "content",
+					"title": "war and peace",
+					"slots": [
+						{
+							"id": "b6dc78c4:text",
+							"blockId": "b6dc78c4",
+							"path": "2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "war and peace",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "87cfedfa:text",
+							"blockId": "87cfedfa",
+							"path": "2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim neque ac mi maximus, ut rhoncus massa ullamcorper.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f80e2102:text",
+							"blockId": "f80e2102",
+							"path": "2.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Consectetur adipiscing elit. Fusce dignissim neque ac mi maximus, ut rhoncus massa ullamcorper. Suspendisse malesuada libero ut ipsum vestibulum,",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "941af0bd:text",
+							"blockId": "941af0bd",
+							"path": "2.0.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$1000",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "b5d18074:text",
+							"blockId": "b5d18074",
+							"path": "2.0.0.1.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "d7a2745d:image.url",
+							"blockId": "d7a2745d",
+							"path": "2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/WarPeace-book.jpg",
+							"decorative": false,
+							"width": 642,
+							"height": 984,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Book cover with a silhouetted soldier hiker by the sea",
+							"tone": {
+								"grid": [
+									0.78,
+									0.76,
+									0.86,
+									0.46,
+									0.09,
+									0.68,
+									0.35,
+									0.13,
+									0.41
+								],
+								"color": "#808081"
+							}
+						}
+					]
+				},
+				{
+					"id": "ebc77943",
+					"index": 3,
+					"path": "3",
+					"group": "ebc77943",
+					"role": "cta",
+					"slots": [
+						{
+							"id": "0d3e863a:text",
+							"blockId": "0d3e863a",
+							"path": "3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sign up for the newsletter from updates on Robinson's Writing events and more.",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2265b5ad:text",
+							"blockId": "2265b5ad",
+							"path": "3.1.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "SIGN UP",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ebc77943:background.image.image.url",
+							"blockId": "ebc77943",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/testimonial-one-bg.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 400,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Many open book pages laid out in a flat lay",
+							"tone": {
+								"grid": [
+									0.47,
+									0.62,
+									0.69,
+									0.57,
+									0.64,
+									0.71,
+									0.53,
+									0.56,
+									0.67
+								],
+								"color": "#ad978a"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "d9c1dad4",
+					"role": "hero",
+					"title": "THE life of a pirate and robinson",
+					"sectionIds": [
+						"d9c1dad4"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "58db58d0",
+					"role": "content",
+					"title": "Wilf Life",
+					"sectionIds": [
+						"58db58d0"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "dca0b21f",
+					"role": "content",
+					"title": "war and peace",
+					"sectionIds": [
+						"dca0b21f"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ebc77943",
+					"role": "cta",
+					"sectionIds": [
+						"ebc77943"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 19,
+		"textSlots": 88,
+		"editableSlots": 70,
+		"images": 26,
+		"swappableImages": 19,
+		"words": 892
+	},
+	"builtAt": "2026-10-24T11:35:07.902Z"
+}

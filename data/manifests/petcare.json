@@ -1,0 +1,3445 @@
+{
+	"version": 4,
+	"slug": "petcare",
+	"name": "PetCare",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-petcare/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/petcare",
+	"niches": [
+		"pets",
+		"veterinary",
+		"shop"
+	],
+	"keywords": [
+		"pet care",
+		"pet grooming",
+		"veterinary",
+		"pet shop",
+		"dog grooming",
+		"pet boarding",
+		"vet clinic",
+		"veterinarian"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#2d2d2d",
+				"count": 52,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 47
+				}
+			},
+			{
+				"hex": "#515161",
+				"count": 36,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 36
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 29,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 16,
+					"background": 5
+				}
+			},
+			{
+				"hex": "#ff8686",
+				"count": 17,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#ff8686",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 9,
+					"border": 3,
+					"text": 1
+				}
+			},
+			{
+				"hex": "#4e4b4b",
+				"count": 16,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 7
+				}
+			},
+			{
+				"hex": "#fcb108",
+				"count": 13,
+				"group": "brand",
+				"role": "primary",
+				"base": "#fcb108",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 2
+				}
+			},
+			{
+				"hex": "#ff5f5f",
+				"count": 10,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#ff8686",
+				"lightnessDelta": -0.076,
+				"usage": {
+					"background": 9
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 7,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#a6a6a6",
+				"count": 6,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 6,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#5ec7ff",
+				"count": 5,
+				"group": "brand",
+				"role": "accent",
+				"base": "#5ec7ff",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"border": 1,
+					"text": 2,
+					"background": 2
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f2fbff",
+				"count": 2,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#23b3ff",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#5ec7ff",
+				"lightnessDelta": -0.116,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#2563eb",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#5ec7ff",
+				"lightnessDelta": -0.151,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"border": 1
+				}
+			},
+			{
+				"hex": "#f7e8c1",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#fcb108",
+				"lightnessDelta": 0.353
+			},
+			{
+				"hex": "#ffe0e0",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#ff8686",
+				"lightnessDelta": 0.176
+			},
+			{
+				"hex": "#d9ecff",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#5ec7ff",
+				"lightnessDelta": 0.241,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#5ec7ff",
+				"lightnessDelta": -0.314,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#ecdaff",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#ecdaff",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#ff5f5f",
+				"large": true,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fcb108",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 5,
+				"scope": "theme"
+			},
+			{
+				"fg": "#5ec7ff",
+				"bg": "#f2fbff",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#5ec7ff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#23b3ff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fcb108",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fcb108",
+				"bg": "#f6faff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ff8686",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ff8686",
+				"bg": "#ffe1e1",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ff8686",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ff5f5f",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "4542a225",
+					"index": 0,
+					"path": "0",
+					"group": "4542a225",
+					"role": "hero",
+					"title": "We provide the best care to our furry friends!",
+					"slots": [
+						{
+							"id": "ec10960e:text",
+							"blockId": "ec10960e",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "We provide the best care to our furry friends!",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f07543a3:text",
+							"blockId": "f07543a3",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Entrust your pet to us and you will never regret it. Friendly and professional service for your pet.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ced57375:text",
+							"blockId": "ced57375",
+							"path": "0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Book Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4542a225:background.image.image.url",
+							"blockId": "4542a225",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/hero-banner-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1422,
+							"orientation": "landscape"
+						},
+						{
+							"id": "fbcfb702:image.url",
+							"blockId": "fbcfb702",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/banner-image-comp-2-1.png",
+							"decorative": false,
+							"width": 550,
+							"height": 592,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Dog and kitten resting together",
+							"tone": {
+								"grid": [
+									0.94,
+									0.79,
+									0.85,
+									0.83,
+									0.69,
+									0.76,
+									0.94,
+									0.79,
+									0.91
+								],
+								"color": "#edd2a5"
+							}
+						}
+					]
+				},
+				{
+					"id": "3d9e95e7",
+					"index": 1,
+					"path": "1",
+					"group": "3d9e95e7",
+					"role": "features",
+					"title": "Services",
+					"slots": [
+						{
+							"id": "f866da02:text",
+							"blockId": "f866da02",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Services",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d246cf2a:text",
+							"blockId": "d246cf2a",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We offer quick & easy services for both dogs and cats of various breeds. No matter their size or age, we can provide a positive service experience.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2433eff2:text",
+							"blockId": "2433eff2",
+							"path": "1.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Pet Boarding",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "69f642df:text",
+							"blockId": "69f642df",
+							"path": "1.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "While you’re on holiday, here’s where furry friends will spend their time.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cd7b28ac:text",
+							"blockId": "cd7b28ac",
+							"path": "1.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Pet Grooming",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "104e2c0a:text",
+							"blockId": "104e2c0a",
+							"path": "1.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Your pet will leave feeling happy, looking, smelling great and you'll love what we do.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d2d42585:text",
+							"blockId": "d2d42585",
+							"path": "1.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Pet Taxi",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cb04f1c5:text",
+							"blockId": "cb04f1c5",
+							"path": "1.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "If you are short on time then we can arrange taxi transport for you.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "16f76f2f:text",
+							"blockId": "16f76f2f",
+							"path": "1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "5c31f9ac:background.image.image.url",
+							"blockId": "5c31f9ac",
+							"path": "1.0.2.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pb-bg.png",
+							"decorative": true,
+							"width": 740,
+							"height": 682,
+							"orientation": "square"
+						},
+						{
+							"id": "fda2a3f1:image.url",
+							"blockId": "fda2a3f1",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-boarding-icon.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "cea5f60b:background.image.image.url",
+							"blockId": "cea5f60b",
+							"path": "1.0.2.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pg-bg.png",
+							"decorative": true,
+							"width": 740,
+							"height": 678,
+							"orientation": "square"
+						},
+						{
+							"id": "2fe4f9b9:image.url",
+							"blockId": "2fe4f9b9",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-grooming-icon.png",
+							"decorative": true,
+							"width": 162,
+							"height": 162,
+							"orientation": "square"
+						},
+						{
+							"id": "146db62e:background.image.image.url",
+							"blockId": "146db62e",
+							"path": "1.0.2.2",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pt-bg.png",
+							"decorative": true,
+							"width": 740,
+							"height": 678,
+							"orientation": "square"
+						},
+						{
+							"id": "f9814795:image.url",
+							"blockId": "f9814795",
+							"path": "1.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-taxi-icon.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "edbde4aa",
+					"index": 2,
+					"path": "2",
+					"group": "edbde4aa",
+					"role": "content",
+					"title": "About Us",
+					"slots": [
+						{
+							"id": "42205e7f:text",
+							"blockId": "42205e7f",
+							"path": "2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8d987c5c:text",
+							"blockId": "8d987c5c",
+							"path": "2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "From the time our friends sniff their way through the door in the morning until they wag their tails out in the afternoon, we cater to their nature.",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be7af884:text",
+							"blockId": "be7af884",
+							"path": "2.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5a623357:text",
+							"blockId": "5a623357",
+							"path": "2.0.0.1.3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Well Trained Staff",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ee335997:text",
+							"blockId": "ee335997",
+							"path": "2.0.0.1.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Certified Groomers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e7393697:text",
+							"blockId": "e7393697",
+							"path": "2.0.0.1.4.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Energizing Meals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a06ba80e:text",
+							"blockId": "a06ba80e",
+							"path": "2.0.0.1.4.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Equipped Professionals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "faa21afb:text",
+							"blockId": "faa21afb",
+							"path": "2.0.0.1.5.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "edbde4aa:background.image.image.url",
+							"blockId": "edbde4aa",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/about-bgg-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1422,
+							"orientation": "landscape"
+						},
+						{
+							"id": "63d60a76:image.url",
+							"blockId": "63d60a76",
+							"path": "2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/about-img-1.png",
+							"decorative": false,
+							"width": 550,
+							"height": 642,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Corgi dog jumping with a yellow chew toy in its mouth",
+							"tone": {
+								"grid": [
+									0.82,
+									0.7,
+									0.83,
+									0.7,
+									0.62,
+									0.82,
+									0.91,
+									0.81,
+									0.92
+								],
+								"color": "#eec782"
+							}
+						}
+					]
+				},
+				{
+					"id": "564ced1b",
+					"index": 3,
+					"path": "3",
+					"group": "564ced1b",
+					"role": "team",
+					"title": "Our Groomers",
+					"slots": [
+						{
+							"id": "e8de4d2d:text",
+							"blockId": "e8de4d2d",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Groomers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "047991e4:text",
+							"blockId": "047991e4",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "The professional and well-trained staff at your pet’s service, accompany our furry friends throughout their stay with us.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3cd6ee4d:text",
+							"blockId": "3cd6ee4d",
+							"path": "3.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "George Lucas",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "22ce4eac:text",
+							"blockId": "22ce4eac",
+							"path": "3.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pet Trainer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e89d1a96:text",
+							"blockId": "e89d1a96",
+							"path": "3.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Julia Ray",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8c87336d:text",
+							"blockId": "8c87336d",
+							"path": "3.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Veterinarian",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eed61b62:text",
+							"blockId": "eed61b62",
+							"path": "3.0.2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Peter Jonas",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5d72a04d:text",
+							"blockId": "5d72a04d",
+							"path": "3.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pet Caretaker",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3cde2b6:text",
+							"blockId": "b3cde2b6",
+							"path": "3.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "564ced1b:background.image.image.url",
+							"blockId": "564ced1b",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/groomers-bg-2-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1422,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2e6f186b:image.url",
+							"blockId": "2e6f186b",
+							"path": "3.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/trainer.jpg",
+							"decorative": false,
+							"width": 638,
+							"height": 572,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man with glasses in a denim shirt smiling portrait",
+							"tone": {
+								"grid": [
+									0.3,
+									0.46,
+									0.33,
+									0.38,
+									0.38,
+									0.35,
+									0.51,
+									0.55,
+									0.35
+								],
+								"color": "#1b77a2"
+							}
+						},
+						{
+							"id": "1b6ba81a:image.url",
+							"blockId": "1b6ba81a",
+							"path": "3.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/veterinarian.jpg",
+							"decorative": false,
+							"width": 638,
+							"height": 572,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman in a red beanie and denim jacket posing",
+							"tone": {
+								"grid": [
+									0.29,
+									0.35,
+									0.33,
+									0.25,
+									0.33,
+									0.29,
+									0.34,
+									0.54,
+									0.53
+								],
+								"color": "#974c4e"
+							}
+						},
+						{
+							"id": "b916fcb7:image.url",
+							"blockId": "b916fcb7",
+							"path": "3.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/caretaker.jpg",
+							"decorative": false,
+							"width": 638,
+							"height": 572,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling bearded man with glasses in a denim jacket portrait",
+							"tone": {
+								"grid": [
+									0.75,
+									0.56,
+									0.77,
+									0.67,
+									0.5,
+									0.77,
+									0.62,
+									0.57,
+									0.67
+								],
+								"color": "#d1a25d"
+							}
+						}
+					]
+				},
+				{
+					"id": "44fc2461",
+					"index": 4,
+					"path": "4",
+					"group": "44fc2461",
+					"role": "content",
+					"title": "Price & Plans",
+					"slots": [
+						{
+							"id": "fee0ce65:text",
+							"blockId": "fee0ce65",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Price & Plans",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "387df531:text",
+							"blockId": "387df531",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We offer long-term and short-term boarding. Every pet has its own private, spacious room and daily individual time in your large play yard.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba4ed370:text",
+							"blockId": "ba4ed370",
+							"path": "4.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Basic",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dceb541d:text",
+							"blockId": "dceb541d",
+							"path": "4.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Day Care",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "657d3efc:text",
+							"blockId": "657d3efc",
+							"path": "4.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$150",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f3759c05:text",
+							"blockId": "f3759c05",
+							"path": "4.0.2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Book Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62749547:text",
+							"blockId": "62749547",
+							"path": "4.0.2.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Single Room",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1bcbbea7:text",
+							"blockId": "1bcbbea7",
+							"path": "4.0.2.0.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Socialist Exercise",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "47a5e316:text",
+							"blockId": "47a5e316",
+							"path": "4.0.2.0.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Regular Meals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51422234:text",
+							"blockId": "51422234",
+							"path": "4.0.2.0.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pet Shower",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b432ad18:text",
+							"blockId": "b432ad18",
+							"path": "4.0.2.0.8",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Custom Meals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf2fb482:text",
+							"blockId": "cf2fb482",
+							"path": "4.0.2.0.9",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Spa and Grooming",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f8d7c960:text",
+							"blockId": "f8d7c960",
+							"path": "4.0.2.0.10",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Exercise 2x",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb31ca67:text",
+							"blockId": "bb31ca67",
+							"path": "4.0.2.0.11",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Grooming 2x",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8430a92e:text",
+							"blockId": "8430a92e",
+							"path": "4.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Exclusive",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa70b847:text",
+							"blockId": "aa70b847",
+							"path": "4.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "2x Care",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6332140d:text",
+							"blockId": "6332140d",
+							"path": "4.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$199",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "9ad33360:text",
+							"blockId": "9ad33360",
+							"path": "4.0.2.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Book Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6353b164:text",
+							"blockId": "6353b164",
+							"path": "4.0.2.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Single Room",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "307af68a:text",
+							"blockId": "307af68a",
+							"path": "4.0.2.1.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Socialist Exercise",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "26acc1af:text",
+							"blockId": "26acc1af",
+							"path": "4.0.2.1.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Regular Meals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d97694b3:text",
+							"blockId": "d97694b3",
+							"path": "4.0.2.1.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pet Shower",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b85c3f08:text",
+							"blockId": "b85c3f08",
+							"path": "4.0.2.1.8",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Custom Meals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9a2f3411:text",
+							"blockId": "9a2f3411",
+							"path": "4.0.2.1.9",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Spa and Grooming",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9a05510:text",
+							"blockId": "a9a05510",
+							"path": "4.0.2.1.10",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Exercise 2x",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e43e74de:text",
+							"blockId": "e43e74de",
+							"path": "4.0.2.1.11",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Grooming 2x",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "297fe9ef:text",
+							"blockId": "297fe9ef",
+							"path": "4.0.2.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Platinum",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b2d38dc0:text",
+							"blockId": "b2d38dc0",
+							"path": "4.0.2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "4x Care",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf58f106:text",
+							"blockId": "cf58f106",
+							"path": "4.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$299",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "03cba3b2:text",
+							"blockId": "03cba3b2",
+							"path": "4.0.2.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Book Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "de60c3d8:text",
+							"blockId": "de60c3d8",
+							"path": "4.0.2.2.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Single Room",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb282724:text",
+							"blockId": "eb282724",
+							"path": "4.0.2.2.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Socialist Exercise",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "78f06c9a:text",
+							"blockId": "78f06c9a",
+							"path": "4.0.2.2.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Regular Meals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "96acc0e2:text",
+							"blockId": "96acc0e2",
+							"path": "4.0.2.2.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pet Shower",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a2631c7:text",
+							"blockId": "0a2631c7",
+							"path": "4.0.2.2.8",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Custom Meals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e80cb9be:text",
+							"blockId": "e80cb9be",
+							"path": "4.0.2.2.9",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Spa and Grooming",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6c26cecd:text",
+							"blockId": "6c26cecd",
+							"path": "4.0.2.2.10",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Exercise 2x",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9480639d:text",
+							"blockId": "9480639d",
+							"path": "4.0.2.2.11",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Grooming 2x",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "619ecdd0",
+					"index": 5,
+					"path": "5",
+					"group": "619ecdd0",
+					"role": "dynamic",
+					"title": "BestSellers",
+					"slots": [
+						{
+							"id": "e1dede56:text",
+							"blockId": "e1dede56",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BestSellers",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "619ecdd0:background.image.image.url",
+							"blockId": "619ecdd0",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/about-bg-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1422,
+							"orientation": "landscape"
+						}
+					],
+					"dynamicBlocks": [
+						"woocommerce/product-best-sellers"
+					]
+				},
+				{
+					"id": "aa2a2f7c",
+					"index": 6,
+					"path": "6",
+					"group": "aa2a2f7c",
+					"role": "content",
+					"slots": [
+						{
+							"id": "3394b761:text",
+							"blockId": "3394b761",
+							"path": "6.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "20% off on all Pet Items",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2e313e0a:text",
+							"blockId": "2e313e0a",
+							"path": "6.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf94990e:text",
+							"blockId": "cf94990e",
+							"path": "6.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Premium food for dogs, developed by nutritionists who specialize in the link between food and health.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b263d83e:text",
+							"blockId": "b263d83e",
+							"path": "6.1.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e929974d:text",
+							"blockId": "e929974d",
+							"path": "6.1.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Premium food for dogs, developed by nutritionists who specialize in the link between food and health.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "18d86634:text",
+							"blockId": "18d86634",
+							"path": "6.1.1.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "5ada0cf5:background.image.image.url",
+							"blockId": "5ada0cf5",
+							"path": "6.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/off.jpg",
+							"decorative": false,
+							"width": 1138,
+							"height": 1252,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Pet supplies flat lay with dog food bowl, leash and toys",
+							"tone": {
+								"grid": [
+									0.7,
+									0.78,
+									0.79,
+									0.51,
+									0.73,
+									0.79,
+									0.47,
+									0.44,
+									0.64
+								],
+								"color": "#c1a64e"
+							}
+						},
+						{
+							"id": "4cfff21d:background.image.image.url",
+							"blockId": "4cfff21d",
+							"path": "6.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/cat-wink-1.jpg",
+							"decorative": false,
+							"width": 1140,
+							"height": 590,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Ginger cat peeking from the side of a banner",
+							"tone": {
+								"grid": [
+									0.7,
+									0.7,
+									0.72,
+									0.71,
+									0.71,
+									0.73,
+									0.68,
+									0.71,
+									0.72
+								],
+								"color": "#cdaada"
+							}
+						},
+						{
+							"id": "d3933aef:background.image.image.url",
+							"blockId": "d3933aef",
+							"path": "6.1.1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/dog-1.jpg",
+							"decorative": false,
+							"width": 1140,
+							"height": 604,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "French bulldog sitting and looking at the camera",
+							"tone": {
+								"grid": [
+									0.87,
+									0.85,
+									0.79,
+									0.88,
+									0.88,
+									0.51,
+									0.85,
+									0.88,
+									0.52
+								],
+								"color": "#b0ccd8"
+							}
+						}
+					]
+				},
+				{
+					"id": "8bc7e42e",
+					"index": 7,
+					"path": "7",
+					"group": "8bc7e42e",
+					"role": "dynamic",
+					"title": "New Arrivals",
+					"slots": [
+						{
+							"id": "d48550d5:text",
+							"blockId": "d48550d5",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New Arrivals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "8bc7e42e:background.image.image.url",
+							"blockId": "8bc7e42e",
+							"path": "7",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/new-arrivlals-bg-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 2256,
+							"orientation": "square"
+						}
+					],
+					"dynamicBlocks": [
+						"woocommerce/product-new"
+					]
+				},
+				{
+					"id": "ba807a93",
+					"index": 8,
+					"path": "8",
+					"group": "ba807a93",
+					"role": "content",
+					"slots": [
+						{
+							"id": "24d8e72c:text",
+							"blockId": "24d8e72c",
+							"path": "8.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Best Collection",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "08cc871d:text",
+							"blockId": "08cc871d",
+							"path": "8.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Fast Delivery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4a19d94f:text",
+							"blockId": "4a19d94f",
+							"path": "8.0.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Customer Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1d471cff:text",
+							"blockId": "1d471cff",
+							"path": "8.0.0.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Secured Payment",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "aea89d0f:background.image.image.url",
+							"blockId": "aea89d0f",
+							"path": "8.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/features.jpg",
+							"decorative": true,
+							"width": 2340,
+							"height": 564,
+							"orientation": "landscape"
+						},
+						{
+							"id": "e912b5b8:image.url",
+							"blockId": "e912b5b8",
+							"path": "8.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/best-collection.png",
+							"decorative": true,
+							"width": 160,
+							"height": 161,
+							"orientation": "square"
+						},
+						{
+							"id": "5a6fe397:image.url",
+							"blockId": "5a6fe397",
+							"path": "8.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/fast-delivery.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "812a249d:image.url",
+							"blockId": "812a249d",
+							"path": "8.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/customer-support.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "e5aeb3aa:image.url",
+							"blockId": "e5aeb3aa",
+							"path": "8.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/secure-payment.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "313cd3b2",
+					"index": 9,
+					"path": "9",
+					"group": "313cd3b2",
+					"role": "content",
+					"title": "Customer’s Feedback",
+					"slots": [
+						{
+							"id": "2edcf1c4:text",
+							"blockId": "2edcf1c4",
+							"path": "9.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Customer’s Feedback",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8fd126af:text",
+							"blockId": "8fd126af",
+							"path": "9.0.1.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "I can purchase brand-name, high-quality products for a fraction of the cost of what I would have paid at the vet's office. This is incredible because shopping is both simple and economical here.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "67172ffa:text",
+							"blockId": "67172ffa",
+							"path": "9.0.1.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Andrew Garfield",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b58117ef:text",
+							"blockId": "b58117ef",
+							"path": "9.0.1.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Customer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9dad39f7:text",
+							"blockId": "9dad39f7",
+							"path": "9.0.1.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "They have quality products at the best price and shipping is also quite impressive, always on time. Must try if you want to save a few bucks!",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a7d7cfd3:text",
+							"blockId": "a7d7cfd3",
+							"path": "9.0.1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sophie Zain",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f394c2ae:text",
+							"blockId": "f394c2ae",
+							"path": "9.0.1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Customer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "313cd3b2:background.image.image.url",
+							"blockId": "313cd3b2",
+							"path": "9",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/feedback-bg-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1422,
+							"orientation": "landscape"
+						},
+						{
+							"id": "1c421f8d:image.url",
+							"blockId": "1c421f8d",
+							"path": "9.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/08/feedback-image-cat.png",
+							"decorative": false,
+							"width": 834,
+							"height": 590,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Two kittens lying together, one tabby and one ginger",
+							"tone": {
+								"grid": [
+									0.9,
+									0.73,
+									0.98,
+									0.77,
+									0.65,
+									0.94,
+									0.79,
+									0.68,
+									0.85
+								],
+								"color": "#e5cca0"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4542a225",
+					"role": "hero",
+					"title": "We provide the best care to our furry friends!",
+					"sectionIds": [
+						"4542a225"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3d9e95e7",
+					"role": "features",
+					"title": "Services",
+					"sectionIds": [
+						"3d9e95e7"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "edbde4aa",
+					"role": "content",
+					"title": "About Us",
+					"sectionIds": [
+						"edbde4aa"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "564ced1b",
+					"role": "team",
+					"title": "Our Groomers",
+					"sectionIds": [
+						"564ced1b"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "44fc2461",
+					"role": "content",
+					"title": "Price & Plans",
+					"sectionIds": [
+						"44fc2461"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "619ecdd0",
+					"role": "dynamic",
+					"title": "BestSellers",
+					"sectionIds": [
+						"619ecdd0"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "aa2a2f7c",
+					"role": "content",
+					"sectionIds": [
+						"aa2a2f7c"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "8bc7e42e",
+					"role": "dynamic",
+					"title": "New Arrivals",
+					"sectionIds": [
+						"8bc7e42e"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "ba807a93",
+					"role": "content",
+					"sectionIds": [
+						"ba807a93"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "313cd3b2",
+					"role": "content",
+					"title": "Customer’s Feedback",
+					"sectionIds": [
+						"313cd3b2"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "2235d3fe",
+					"index": 0,
+					"path": "0",
+					"group": "2235d3fe",
+					"role": "hero",
+					"title": "Making life safer and carefree for pets. And the people who love them!",
+					"slots": [
+						{
+							"id": "e26e3e16:text",
+							"blockId": "e26e3e16",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Making life safer and carefree for pets. And the people who love them!",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e96d6972:text",
+							"blockId": "e96d6972",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "From the time our friends sniff their way through the door in the morning until they wag their tails out in the afternoon, we cater to their nature.",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "87a7187f:text",
+							"blockId": "87a7187f",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "ac8b8e91:image.url",
+							"blockId": "ac8b8e91",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/about-us-img.png",
+							"decorative": false,
+							"width": 424,
+							"height": 409,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Jack Russell terrier and ginger cat sitting side by side",
+							"tone": {
+								"grid": [
+									0.81,
+									0.7,
+									0.92,
+									0.7,
+									0.53,
+									0.83,
+									0.85,
+									0.71,
+									0.8
+								],
+								"color": "#e2bf80"
+							}
+						}
+					]
+				},
+				{
+					"id": "1851c84b",
+					"index": 1,
+					"path": "1",
+					"group": "1851c84b",
+					"role": "content",
+					"title": "How do we work?",
+					"slots": [
+						{
+							"id": "3b926b10:text",
+							"blockId": "3b926b10",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "How do we work?",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0b6a1f28:text",
+							"blockId": "0b6a1f28",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "The process is really simple, feel free to consult us for more information.",
+							"rich": true,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2c80f687:text",
+							"blockId": "2c80f687",
+							"path": "1.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Best Collection",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d70039c8:text",
+							"blockId": "d70039c8",
+							"path": "1.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Consectetur adipisicing elit, sed do eiusmod tem.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f22455e1:text",
+							"blockId": "f22455e1",
+							"path": "1.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Schedule a visit",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c789ad48:text",
+							"blockId": "c789ad48",
+							"path": "1.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8dc468f1:text",
+							"blockId": "8dc468f1",
+							"path": "1.0.2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pet Admission",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c0e95969:text",
+							"blockId": "c0e95969",
+							"path": "1.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Adipisicing elit, sed do eiusmod tem por incididunt.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2f3bd7e8:text",
+							"blockId": "2f3bd7e8",
+							"path": "1.0.2.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Take them home",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e5ce0042:text",
+							"blockId": "e5ce0042",
+							"path": "1.0.2.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Elit sed do eiusmod tem por incididunt ut labore.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "1851c84b:background.image.image.url",
+							"blockId": "1851c84b",
+							"path": "1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/how-we-do-bg-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1026,
+							"orientation": "landscape"
+						},
+						{
+							"id": "a8fdacbb:image.url",
+							"blockId": "a8fdacbb",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/get-in-touch.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "49dbe186:image.url",
+							"blockId": "49dbe186",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/fast-delivery-1.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "757c2bdb:image.url",
+							"blockId": "757c2bdb",
+							"path": "1.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-admission.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "acfbd4b3:image.url",
+							"blockId": "acfbd4b3",
+							"path": "1.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/home.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "059c922f",
+					"index": 2,
+					"path": "2",
+					"group": "059c922f",
+					"role": "gallery",
+					"title": "Take a closer look",
+					"slots": [
+						{
+							"id": "b5619d30:text",
+							"blockId": "b5619d30",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Take a closer look",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba138207:text",
+							"blockId": "ba138207",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Glimpses of our world where the pets have a wonderful time.",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "021048a5:image.url",
+							"blockId": "021048a5",
+							"path": "2.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/photo-g.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 452,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Corgi and Yorkshire terrier running on a sandy path",
+							"tone": {
+								"grid": [
+									0.62,
+									0.62,
+									0.53,
+									0.48,
+									0.47,
+									0.48,
+									0.56,
+									0.64,
+									0.54
+								],
+								"color": "#aa866e"
+							}
+						},
+						{
+							"id": "e28f8c92:image.url",
+							"blockId": "e28f8c92",
+							"path": "2.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/photo-e.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 452,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Fluffy grey cat playing with a feather toy",
+							"tone": {
+								"grid": [
+									0.76,
+									0.73,
+									0.79,
+									0.59,
+									0.55,
+									0.78,
+									0.41,
+									0.41,
+									0.7
+								],
+								"color": "#a0a2aa"
+							}
+						},
+						{
+							"id": "9fd147fd:image.url",
+							"blockId": "9fd147fd",
+							"path": "2.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/photo-d.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 452,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Happy golden retriever with tongue out close-up",
+							"tone": {
+								"grid": [
+									0.33,
+									0.68,
+									0.39,
+									0.49,
+									0.43,
+									0.65,
+									0.51,
+									0.41,
+									0.7
+								],
+								"color": "#977f68"
+							}
+						},
+						{
+							"id": "087ed7f3:image.url",
+							"blockId": "087ed7f3",
+							"path": "2.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/photo-a.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 452,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Two cockapoo dogs running together on grass",
+							"tone": {
+								"grid": [
+									0.28,
+									0.31,
+									0.37,
+									0.32,
+									0.47,
+									0.41,
+									0.4,
+									0.38,
+									0.37
+								],
+								"color": "#645f3f"
+							}
+						},
+						{
+							"id": "f17e872e:image.url",
+							"blockId": "f17e872e",
+							"path": "2.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/photo-f.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 452,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Tabby cat and black and white cat playing in grass",
+							"tone": {
+								"grid": [
+									0.3,
+									0.37,
+									0.25,
+									0.55,
+									0.63,
+									0.47,
+									0.54,
+									0.56,
+									0.51
+								],
+								"color": "#6f7f3c"
+							}
+						},
+						{
+							"id": "1bb54800:image.url",
+							"blockId": "1bb54800",
+							"path": "2.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/photo-h-1.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 452,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Fluffy white dog running happily toward the camera",
+							"tone": {
+								"grid": [
+									0.16,
+									0.42,
+									0.17,
+									0.19,
+									0.44,
+									0.24,
+									0.37,
+									0.46,
+									0.34
+								],
+								"color": "#4e4f52"
+							}
+						},
+						{
+							"id": "61e5267b:image.url",
+							"blockId": "61e5267b",
+							"path": "2.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/photo-c.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 452,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman with glasses holding and hugging a tabby cat",
+							"tone": {
+								"grid": [
+									0.46,
+									0.38,
+									0.29,
+									0.37,
+									0.45,
+									0.37,
+									0.53,
+									0.59,
+									0.76
+								],
+								"color": "#967159"
+							}
+						},
+						{
+							"id": "91865284:image.url",
+							"blockId": "91865284",
+							"path": "2.0.3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/photo-b.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 452,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Spaniel puppy carrying a basketball toy in its mouth",
+							"tone": {
+								"grid": [
+									0.56,
+									0.5,
+									0.82,
+									0.55,
+									0.26,
+									0.63,
+									0.48,
+									0.52,
+									0.82
+								],
+								"color": "#9e9266"
+							}
+						}
+					]
+				},
+				{
+					"id": "c4ec00c5",
+					"index": 3,
+					"path": "3",
+					"group": "c4ec00c5",
+					"role": "cta",
+					"title": "Happy to welcome you to our circle of friends!",
+					"slots": [
+						{
+							"id": "1c06b99b:text",
+							"blockId": "1c06b99b",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Happy to welcome you to our circle of friends!",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a8bd0946:text",
+							"blockId": "a8bd0946",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Feel free to contact us for more information about our services or a tour of our facility.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ccde42dd:text",
+							"blockId": "ccde42dd",
+							"path": "3.0.0.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Book Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "283670e8:background.image.image.url",
+							"blockId": "283670e8",
+							"path": "3.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/book-banner.jpg",
+							"decorative": true,
+							"width": 2342,
+							"height": 626,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "2235d3fe",
+					"role": "hero",
+					"title": "Making life safer and carefree for pets. And the people who love them!",
+					"sectionIds": [
+						"2235d3fe"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1851c84b",
+					"role": "content",
+					"title": "How do we work?",
+					"sectionIds": [
+						"1851c84b"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "059c922f",
+					"role": "gallery",
+					"title": "Take a closer look",
+					"sectionIds": [
+						"059c922f"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c4ec00c5",
+					"role": "cta",
+					"title": "Happy to welcome you to our circle of friends!",
+					"sectionIds": [
+						"c4ec00c5"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact-us",
+			"title": "Contact Us",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/themegrill-demos/contact-us-content.xml",
+			"sections": [
+				{
+					"id": "dff7319e",
+					"index": 0,
+					"path": "0",
+					"group": "dff7319e",
+					"role": "dynamic",
+					"slots": [
+						{
+							"id": "334e4d88:text",
+							"blockId": "334e4d88",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Opening Hours",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "592c248e:text",
+							"blockId": "592c248e",
+							"path": "0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Mon-Fri: 9:00am - 5.00pm Weekend: 9:00am - 12:00pm",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "90515fdc:text",
+							"blockId": "90515fdc",
+							"path": "0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pickup & Collection Hours",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "35e82e54:text",
+							"blockId": "35e82e54",
+							"path": "0.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Mon-Fri: 9:30am - 11:00am and 4:00pm - 5:00pm Weekend: 9:30am - 11:00am",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "2f70251b:image.url",
+							"blockId": "2f70251b",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/hours.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "a5a7f44c:image.url",
+							"blockId": "a5a7f44c",
+							"path": "0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/collection.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "e22e1128",
+					"index": 1,
+					"path": "1",
+					"group": "e22e1128",
+					"role": "content",
+					"slots": [
+						{
+							"id": "2c80f687:text",
+							"blockId": "2c80f687",
+							"path": "1.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Telephone",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d70039c8:text",
+							"blockId": "d70039c8",
+							"path": "1.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+971 4 8848847 +971 4 8848849",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "d622d0d8:text",
+							"blockId": "d622d0d8",
+							"path": "1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Address",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8a24d381:text",
+							"blockId": "8a24d381",
+							"path": "1.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "2345 South Road, Green Meadows VIC 3977. Only 45 mins from Melbourne CBD.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f44f0cef:text",
+							"blockId": "f44f0cef",
+							"path": "1.0.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Email",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ce197a0:text",
+							"blockId": "8ce197a0",
+							"path": "1.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "info@petcare.com petcare@gmail.com",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "e9de0a35:background.image.image.url",
+							"blockId": "e9de0a35",
+							"path": "1.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/about-bg-scaled-1.jpg",
+							"decorative": true,
+							"width": 2560,
+							"height": 1422,
+							"orientation": "landscape"
+						},
+						{
+							"id": "a8fdacbb:image.url",
+							"blockId": "a8fdacbb",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/telephone.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "f12d36e2:image.url",
+							"blockId": "f12d36e2",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/address.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "14bbe6e5:image.url",
+							"blockId": "14bbe6e5",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/envelope.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "dff7319e",
+					"role": "dynamic",
+					"sectionIds": [
+						"dff7319e"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e22e1128",
+					"role": "content",
+					"sectionIds": [
+						"e22e1128"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		}
+	],
+	"stats": {
+		"sections": 16,
+		"textSlots": 114,
+		"editableSlots": 109,
+		"images": 47,
+		"swappableImages": 18,
+		"words": 623
+	},
+	"builtAt": "2026-10-24T11:35:07.916Z"
+}

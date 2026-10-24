@@ -1,0 +1,2203 @@
+{
+	"version": 4,
+	"slug": "one-page-v3",
+	"name": "One Page V3",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-one-page-v3/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/one-page-v3",
+	"niches": [
+		"agency",
+		"business",
+		"startup"
+	],
+	"keywords": [
+		"one page",
+		"landing page",
+		"agency",
+		"studio",
+		"website builder",
+		"brand"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 55,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 10,
+					"text": 36,
+					"background": 4
+				}
+			},
+			{
+				"hex": "#222222",
+				"count": 20,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 17
+				}
+			},
+			{
+				"hex": "#5bb5a5",
+				"count": 14,
+				"group": "brand",
+				"role": "primary",
+				"base": "#5bb5a5",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 9,
+					"text": 2
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 6,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#278171",
+				"count": 6,
+				"group": "brand",
+				"role": "primary",
+				"base": "#5bb5a5",
+				"lightnessDelta": -0.204
+			},
+			{
+				"hex": "#02223b",
+				"count": 5,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#02223b",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#16181a",
+				"count": 4,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#02223b",
+				"lightnessDelta": 0.251
+			},
+			{
+				"hex": "#000000",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#5bb5a5",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#5bb5a5",
+				"large": false,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#5bb5a5",
+				"bg": "#fafafa",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#5bb5a5",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Montserrat",
+			"map": {
+				"Poppins": "heading",
+				"Montserrat": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "19d98172",
+					"index": 0,
+					"path": "0",
+					"group": "19d98172",
+					"role": "hero",
+					"title": "Website Builder",
+					"slots": [
+						{
+							"id": "be54eb87:text",
+							"blockId": "be54eb87",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Website Builder",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d2ef3b82:text",
+							"blockId": "d2ef3b82",
+							"path": "0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "That Help Grow Business",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "19d98172:background.image.image.url",
+							"blockId": "19d98172",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/banner.jpg",
+							"decorative": false,
+							"width": 1600,
+							"height": 880,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Overhead desk with tablet and creative mess sign",
+							"tone": {
+								"grid": [
+									0.34,
+									0.38,
+									0.34,
+									0.3,
+									0.42,
+									0.4,
+									0.28,
+									0.45,
+									0.41
+								],
+								"color": "#5e5e5b"
+							}
+						}
+					]
+				},
+				{
+					"id": "d514677f",
+					"index": 1,
+					"path": "1",
+					"group": "d514677f",
+					"role": "content",
+					"title": "About Us",
+					"slots": [
+						{
+							"id": "85487dcc:text",
+							"blockId": "85487dcc",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "73e15c4d:text",
+							"blockId": "73e15c4d",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8c0e30bd:text",
+							"blockId": "8c0e30bd",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ea423cb2:text",
+							"blockId": "ea423cb2",
+							"path": "1.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "bc3167aa:image.url",
+							"blockId": "bc3167aa",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/about-image.png",
+							"decorative": false,
+							"width": 587,
+							"height": 533,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Hands sketching on paper next to a laptop and calculator",
+							"tone": {
+								"grid": [
+									0.81,
+									0.77,
+									0.86,
+									0.78,
+									0.73,
+									0.76,
+									0.95,
+									0.67,
+									0.85
+								],
+								"color": "#c2cecc"
+							}
+						},
+						{
+							"id": "85487dcc:background.image.image.url",
+							"blockId": "85487dcc",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/pattern.png",
+							"decorative": true,
+							"width": 259,
+							"height": 258,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "ca4ee09b",
+					"index": 2,
+					"path": "2",
+					"group": "ca4ee09b",
+					"role": "features",
+					"title": "Misson",
+					"slots": [
+						{
+							"id": "ffd39ebc:text",
+							"blockId": "ffd39ebc",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Misson",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9a544c1:text",
+							"blockId": "a9a544c1",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f013d998:text",
+							"blockId": "f013d998",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Vision",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a27d97e4:text",
+							"blockId": "a27d97e4",
+							"path": "2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "25d56c51:text",
+							"blockId": "25d56c51",
+							"path": "2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Motto",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7fa6d395:text",
+							"blockId": "7fa6d395",
+							"path": "2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "a2e4ec49:image.url",
+							"blockId": "a2e4ec49",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/target-line.png",
+							"decorative": true,
+							"width": 60,
+							"height": 51,
+							"orientation": "landscape"
+						},
+						{
+							"id": "5f773627:image.url",
+							"blockId": "5f773627",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/spectacles-bg-1.png",
+							"decorative": true,
+							"width": 51,
+							"height": 51,
+							"orientation": "square"
+						},
+						{
+							"id": "827930c2:image.url",
+							"blockId": "827930c2",
+							"path": "2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/focus.png",
+							"decorative": true,
+							"width": 51,
+							"height": 51,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "b0336b14",
+					"index": 3,
+					"path": "3",
+					"group": "b0336b14",
+					"role": "team",
+					"title": "Our Team",
+					"slots": [
+						{
+							"id": "2d21eab5:text",
+							"blockId": "2d21eab5",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Team",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0dd9b549:text",
+							"blockId": "0dd9b549",
+							"path": "3.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "John",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb6e8c40:text",
+							"blockId": "fb6e8c40",
+							"path": "3.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Diana",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "75ed29b8:text",
+							"blockId": "75ed29b8",
+							"path": "3.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Sohpie",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b0336b14:background.image.image.url",
+							"blockId": "b0336b14",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/testimonial-bg.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 1080,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2d21eab5:background.image.image.url",
+							"blockId": "2d21eab5",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/pattern.png",
+							"decorative": true,
+							"width": 259,
+							"height": 258,
+							"orientation": "square"
+						},
+						{
+							"id": "0d30802a:image.url",
+							"blockId": "0d30802a",
+							"path": "3.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team-1.jpg",
+							"decorative": false,
+							"width": 266,
+							"height": 260,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man in a blazer and white shirt portrait",
+							"tone": {
+								"grid": [
+									0.75,
+									0.45,
+									0.71,
+									0.65,
+									0.7,
+									0.82,
+									0.5,
+									0.78,
+									0.45
+								],
+								"color": "#b0a29f"
+							}
+						},
+						{
+							"id": "48a353b3:image.url",
+							"blockId": "48a353b3",
+							"path": "3.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team3.jpg",
+							"decorative": false,
+							"width": 266,
+							"height": 260,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman with long brown hair in a blazer",
+							"tone": {
+								"grid": [
+									0.48,
+									0.4,
+									0.57,
+									0.38,
+									0.46,
+									0.63,
+									0.36,
+									0.34,
+									0.24
+								],
+								"color": "#7a6a65"
+							}
+						},
+						{
+							"id": "fb5748f6:image.url",
+							"blockId": "fb5748f6",
+							"path": "3.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team2.jpg",
+							"decorative": false,
+							"width": 266,
+							"height": 260,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with long wavy hair portrait outdoors",
+							"tone": {
+								"grid": [
+									0.49,
+									0.46,
+									0.48,
+									0.57,
+									0.54,
+									0.38,
+									0.58,
+									0.46,
+									0.39
+								],
+								"color": "#87796d"
+							}
+						}
+					]
+				},
+				{
+					"id": "25b4af82",
+					"index": 4,
+					"path": "4",
+					"group": "25b4af82",
+					"role": "features",
+					"title": "Services",
+					"slots": [
+						{
+							"id": "b9552e84:text",
+							"blockId": "b9552e84",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Services",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b72fc85c:text",
+							"blockId": "b72fc85c",
+							"path": "4.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "WordPress",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9270cc90:text",
+							"blockId": "9270cc90",
+							"path": "4.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7b7f5594:text",
+							"blockId": "7b7f5594",
+							"path": "4.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Design",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "991f091b:text",
+							"blockId": "991f091b",
+							"path": "4.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "700f3d23:text",
+							"blockId": "700f3d23",
+							"path": "4.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "SEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11a04de8:text",
+							"blockId": "11a04de8",
+							"path": "4.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "86e50762:text",
+							"blockId": "86e50762",
+							"path": "4.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Digital Marketing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "01b7a285:text",
+							"blockId": "01b7a285",
+							"path": "4.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "74460662:text",
+							"blockId": "74460662",
+							"path": "4.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "UI/UX",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c3299a40:text",
+							"blockId": "c3299a40",
+							"path": "4.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4a876ac5:text",
+							"blockId": "4a876ac5",
+							"path": "4.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Support",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d887add5:text",
+							"blockId": "d887add5",
+							"path": "4.1.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "25b4af82:background.image.image.url",
+							"blockId": "25b4af82",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/right-side-background.png",
+							"decorative": true,
+							"width": 252,
+							"height": 820,
+							"orientation": "portrait"
+						},
+						{
+							"id": "b9552e84:background.image.image.url",
+							"blockId": "b9552e84",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/pattern.png",
+							"decorative": true,
+							"width": 259,
+							"height": 258,
+							"orientation": "square"
+						},
+						{
+							"id": "ebff07b9:image.url",
+							"blockId": "ebff07b9",
+							"path": "4.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/wordpress-1.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "c5f4ef59:image.url",
+							"blockId": "c5f4ef59",
+							"path": "4.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/design.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "13c2e840:image.url",
+							"blockId": "13c2e840",
+							"path": "4.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/seo.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "c07f6c5a:image.url",
+							"blockId": "c07f6c5a",
+							"path": "4.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/social-marketing.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "17ec4275:image.url",
+							"blockId": "17ec4275",
+							"path": "4.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/UI.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "a5e9d987:image.url",
+							"blockId": "a5e9d987",
+							"path": "4.1.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/support.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "295e6a35",
+					"index": 5,
+					"path": "5",
+					"group": "295e6a35",
+					"role": "cta",
+					"title": "We build Brands Products",
+					"slots": [
+						{
+							"id": "22d4b852:text",
+							"blockId": "22d4b852",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We build Brands Products",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "713c73a0:text",
+							"blockId": "713c73a0",
+							"path": "5.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "For a digital World",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f6b8ffbb:text",
+							"blockId": "f6b8ffbb",
+							"path": "5.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "295e6a35:background.image.image.url",
+							"blockId": "295e6a35",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/img.jpg",
+							"decorative": false,
+							"width": 1591,
+							"height": 1117,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman using her phone at a cafe table with coffee",
+							"tone": {
+								"grid": [
+									0.69,
+									0.7,
+									0.37,
+									0.6,
+									0.66,
+									0.4,
+									0.63,
+									0.65,
+									0.28
+								],
+								"color": "#9d8983"
+							}
+						}
+					]
+				},
+				{
+					"id": "808f043e",
+					"index": 6,
+					"path": "6",
+					"group": "808f043e",
+					"role": "features",
+					"title": "Portfolio",
+					"slots": [
+						{
+							"id": "55bae08f:text",
+							"blockId": "55bae08f",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Portfolio",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d5727982:caption",
+							"blockId": "d5727982",
+							"path": "6.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "caption",
+							"kind": "caption",
+							"text": "Print",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "d5727982:overlayContent",
+							"blockId": "d5727982",
+							"path": "6.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "overlayContent",
+							"kind": "overlay",
+							"text": "True Coffee",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "416fd335:text",
+							"blockId": "416fd335",
+							"path": "6.0.1.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "True Coffee",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b896be25:text",
+							"blockId": "b896be25",
+							"path": "6.0.1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Print",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "150edb65:caption",
+							"blockId": "150edb65",
+							"path": "6.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "caption",
+							"kind": "caption",
+							"text": "Print",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "150edb65:overlayContent",
+							"blockId": "150edb65",
+							"path": "6.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "overlayContent",
+							"kind": "overlay",
+							"text": "True Coffee",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "66db6b29:text",
+							"blockId": "66db6b29",
+							"path": "6.0.1.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Lanvin",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "19d384b4:text",
+							"blockId": "19d384b4",
+							"path": "6.0.1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Branding",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3a1db716:caption",
+							"blockId": "3a1db716",
+							"path": "6.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "caption",
+							"kind": "caption",
+							"text": "Print",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "3a1db716:overlayContent",
+							"blockId": "3a1db716",
+							"path": "6.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "overlayContent",
+							"kind": "overlay",
+							"text": "True Coffee",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "f90d9ae4:text",
+							"blockId": "f90d9ae4",
+							"path": "6.0.1.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Ordinary Cream",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "df2c54f1:text",
+							"blockId": "df2c54f1",
+							"path": "6.0.1.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Branding – UI-UX",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "13cb2ff8:caption",
+							"blockId": "13cb2ff8",
+							"path": "6.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "caption",
+							"kind": "caption",
+							"text": "Print",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "13cb2ff8:overlayContent",
+							"blockId": "13cb2ff8",
+							"path": "6.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "overlayContent",
+							"kind": "overlay",
+							"text": "True Coffee",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "7c38f7fa:text",
+							"blockId": "7c38f7fa",
+							"path": "6.0.2.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "AQUA",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fe8277df:text",
+							"blockId": "fe8277df",
+							"path": "6.0.2.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Print",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c175bd19:caption",
+							"blockId": "c175bd19",
+							"path": "6.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "caption",
+							"kind": "caption",
+							"text": "Print",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "c175bd19:overlayContent",
+							"blockId": "c175bd19",
+							"path": "6.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "overlayContent",
+							"kind": "overlay",
+							"text": "True Coffee",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "00736e45:text",
+							"blockId": "00736e45",
+							"path": "6.0.2.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Excellent",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "752df824:text",
+							"blockId": "752df824",
+							"path": "6.0.2.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Print – UI-UX",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ccc4a55e:caption",
+							"blockId": "ccc4a55e",
+							"path": "6.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "caption",
+							"kind": "caption",
+							"text": "Print",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "ccc4a55e:overlayContent",
+							"blockId": "ccc4a55e",
+							"path": "6.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "overlayContent",
+							"kind": "overlay",
+							"text": "True Coffee",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": false,
+							"placeholder": false
+						},
+						{
+							"id": "a9b3dddc:text",
+							"blockId": "a9b3dddc",
+							"path": "6.0.2.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Recar",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5d7a7233:text",
+							"blockId": "5d7a7233",
+							"path": "6.0.2.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Print",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "808f043e:background.image.image.url",
+							"blockId": "808f043e",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/left-side-background.png",
+							"decorative": true,
+							"width": 252,
+							"height": 820,
+							"orientation": "portrait"
+						},
+						{
+							"id": "55bae08f:background.image.image.url",
+							"blockId": "55bae08f",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/pattern.png",
+							"decorative": true,
+							"width": 259,
+							"height": 258,
+							"orientation": "square"
+						},
+						{
+							"id": "d5727982:image.url",
+							"blockId": "d5727982",
+							"path": "6.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img1.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 557,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Takeaway coffee cup with a cardboard sleeve",
+							"tone": {
+								"grid": [
+									0.7,
+									0.75,
+									0.59,
+									0.4,
+									0.33,
+									0.36,
+									0.43,
+									0.25,
+									0.24
+								],
+								"color": "#7a716d"
+							}
+						},
+						{
+							"id": "150edb65:image.url",
+							"blockId": "150edb65",
+							"path": "6.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img8.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 557,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Perfume bottle among pink flowers",
+							"tone": {
+								"grid": [
+									0.59,
+									0.64,
+									0.55,
+									0.36,
+									0.65,
+									0.62,
+									0.5,
+									0.53,
+									0.72
+								],
+								"color": "#a48c99"
+							}
+						},
+						{
+							"id": "3a1db716:image.url",
+							"blockId": "3a1db716",
+							"path": "6.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img5.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 557,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Skincare bottles and tubes on a table with petals",
+							"tone": {
+								"grid": [
+									0.84,
+									0.81,
+									0.79,
+									0.71,
+									0.74,
+									0.64,
+									0.62,
+									0.68,
+									0.61
+								],
+								"color": "#bdb5b3"
+							}
+						},
+						{
+							"id": "13cb2ff8:image.url",
+							"blockId": "13cb2ff8",
+							"path": "6.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img9.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 557,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Ornate perfume bottle lying on pink flowers",
+							"tone": {
+								"grid": [
+									0.6,
+									0.59,
+									0.44,
+									0.63,
+									0.68,
+									0.44,
+									0.72,
+									0.68,
+									0.52
+								],
+								"color": "#b88d90"
+							}
+						},
+						{
+							"id": "c175bd19:image.url",
+							"blockId": "c175bd19",
+							"path": "6.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img8.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 557,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Perfume bottle among pink flowers",
+							"tone": {
+								"grid": [
+									0.59,
+									0.64,
+									0.55,
+									0.36,
+									0.65,
+									0.62,
+									0.5,
+									0.53,
+									0.72
+								],
+								"color": "#a48c99"
+							}
+						},
+						{
+							"id": "ccc4a55e:image.url",
+							"blockId": "ccc4a55e",
+							"path": "6.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img5.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 557,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Skincare bottles and tubes on a table with petals",
+							"tone": {
+								"grid": [
+									0.84,
+									0.81,
+									0.79,
+									0.71,
+									0.74,
+									0.64,
+									0.62,
+									0.68,
+									0.61
+								],
+								"color": "#bdb5b3"
+							}
+						}
+					]
+				},
+				{
+					"id": "90ac038b",
+					"index": 7,
+					"path": "8",
+					"group": "90ac038b",
+					"role": "testimonials",
+					"title": "Testimonials",
+					"slots": [
+						{
+							"id": "e4159bfd:text",
+							"blockId": "e4159bfd",
+							"path": "8.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Testimonials",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f58cae52:text",
+							"blockId": "f58cae52",
+							"path": "8.0.1.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "37718339:text",
+							"blockId": "37718339",
+							"path": "8.0.1.0.0.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "John Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5804011d:text",
+							"blockId": "5804011d",
+							"path": "8.0.1.0.0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Designer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3e34151:text",
+							"blockId": "b3e34151",
+							"path": "8.0.1.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "aef265a4:text",
+							"blockId": "aef265a4",
+							"path": "8.0.1.1.0.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "John Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0672464c:text",
+							"blockId": "0672464c",
+							"path": "8.0.1.1.0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Designer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e4159bfd:background.image.image.url",
+							"blockId": "e4159bfd",
+							"path": "8.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/pattern.png",
+							"decorative": true,
+							"width": 259,
+							"height": 258,
+							"orientation": "square"
+						},
+						{
+							"id": "1fd2df5a:image.url",
+							"blockId": "1fd2df5a",
+							"path": "8.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/quote.png",
+							"decorative": true,
+							"width": 200,
+							"height": 120,
+							"orientation": "landscape"
+						},
+						{
+							"id": "c0184483:image.url",
+							"blockId": "c0184483",
+							"path": "8.0.1.0.0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team2.jpg",
+							"decorative": false,
+							"width": 266,
+							"height": 260,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with long wavy hair portrait outdoors",
+							"tone": {
+								"grid": [
+									0.49,
+									0.46,
+									0.48,
+									0.57,
+									0.54,
+									0.38,
+									0.58,
+									0.46,
+									0.39
+								],
+								"color": "#87796d"
+							}
+						},
+						{
+							"id": "a1f75fcc:image.url",
+							"blockId": "a1f75fcc",
+							"path": "8.0.1.1.0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team2.jpg",
+							"decorative": false,
+							"width": 266,
+							"height": 260,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with long wavy hair portrait outdoors",
+							"tone": {
+								"grid": [
+									0.49,
+									0.46,
+									0.48,
+									0.57,
+									0.54,
+									0.38,
+									0.58,
+									0.46,
+									0.39
+								],
+								"color": "#87796d"
+							}
+						}
+					]
+				},
+				{
+					"id": "6115344a",
+					"index": 8,
+					"path": "9",
+					"group": "6115344a",
+					"role": "dynamic",
+					"title": "Contact Us",
+					"slots": [
+						{
+							"id": "32fa46f6:text",
+							"blockId": "32fa46f6",
+							"path": "9.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e43c3602:text",
+							"blockId": "e43c3602",
+							"path": "9.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Get Direction",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "63095a41:text",
+							"blockId": "63095a41",
+							"path": "9.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "446 Mt Edn Road, Bashundhara",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "82188514:text",
+							"blockId": "82188514",
+							"path": "9.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Phone No:",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e2e75d0b:text",
+							"blockId": "e2e75d0b",
+							"path": "9.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "977-111-222-333 977-111-222-333",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "68aa8bb7:text",
+							"blockId": "68aa8bb7",
+							"path": "9.1.5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Email:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "024230e0:text",
+							"blockId": "024230e0",
+							"path": "9.1.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "example@mail.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "6115344a:background.image.image.url",
+							"blockId": "6115344a",
+							"path": "9",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/contact-background1.png",
+							"decorative": true,
+							"width": 1606,
+							"height": 470,
+							"orientation": "landscape"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "19d98172",
+					"role": "hero",
+					"title": "Website Builder",
+					"sectionIds": [
+						"19d98172"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d514677f",
+					"role": "content",
+					"title": "About Us",
+					"sectionIds": [
+						"d514677f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ca4ee09b",
+					"role": "features",
+					"title": "Misson",
+					"sectionIds": [
+						"ca4ee09b"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b0336b14",
+					"role": "team",
+					"title": "Our Team",
+					"sectionIds": [
+						"b0336b14"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "25b4af82",
+					"role": "features",
+					"title": "Services",
+					"sectionIds": [
+						"25b4af82"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "295e6a35",
+					"role": "cta",
+					"title": "We build Brands Products",
+					"sectionIds": [
+						"295e6a35"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "808f043e",
+					"role": "features",
+					"title": "Portfolio",
+					"sectionIds": [
+						"808f043e"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "90ac038b",
+					"role": "testimonials",
+					"title": "Testimonials",
+					"sectionIds": [
+						"90ac038b"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6115344a",
+					"role": "dynamic",
+					"title": "Contact Us",
+					"sectionIds": [
+						"6115344a"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 9,
+		"textSlots": 71,
+		"editableSlots": 69,
+		"images": 33,
+		"swappableImages": 14,
+		"words": 346
+	},
+	"builtAt": "2026-10-24T11:35:07.985Z"
+}

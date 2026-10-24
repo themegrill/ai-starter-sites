@@ -1,0 +1,4760 @@
+{
+	"version": 4,
+	"slug": "cleaner-v2",
+	"name": "Zakra Cleaner V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-cleaner-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/cleaner-v2",
+	"niches": [
+		"cleaning",
+		"home-services"
+	],
+	"keywords": [
+		"cleaning service",
+		"cleaners",
+		"janitorial",
+		"housekeeping",
+		"maid service",
+		"carpet cleaning"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#111111",
+				"count": 95,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 79
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 67,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 35,
+					"background": 24
+				}
+			},
+			{
+				"hex": "#29a268",
+				"count": 53,
+				"group": "brand",
+				"role": "primary",
+				"base": "#29a268",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 15,
+					"background": 18
+				}
+			},
+			{
+				"hex": "#13287e",
+				"count": 51,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#13287e",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 36,
+					"background": 9
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 17,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 12
+				}
+			},
+			{
+				"hex": "#eae2e2",
+				"count": 7,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#000000",
+				"count": 5,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#16181a",
+				"count": 4,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#707070",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#13287d",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#13287e",
+				"lightnessDelta": -0.002
+			},
+			{
+				"hex": "#fefefe",
+				"count": 2,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#f9f9f9",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#f5faf8",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#f1f1f1",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 3
+				}
+			},
+			{
+				"hex": "#fcfcfc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#06965d",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#29a268",
+				"lightnessDelta": -0.092
+			},
+			{
+				"hex": "#06965c",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#29a268",
+				"lightnessDelta": -0.092,
+				"usage": {
+					"border": 1
+				}
+			},
+			{
+				"hex": "#2563eb",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#13287e",
+				"lightnessDelta": 0.249
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#13287e",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 20,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#13287e",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#13287e",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#29a268",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#13287e",
+				"large": false,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#29a268",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 4,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#29a268",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#29a268",
+				"bg": "#f9f9f9",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#13287e",
+				"bg": "#eef0f6",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#29a268",
+				"bg": "#f0f8f4",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#13287e",
+				"bg": "#f0f8f4",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#13287e",
+				"bg": "#f9f9f9",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#29a268",
+				"bg": "#fefefe",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#13287e",
+				"bg": "#fefefe",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#29a268",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#29a268",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#13287e",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#f1f1f1",
+				"bg": "#13287e",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#29a268",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fcfcfc",
+				"bg": "#29a268",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fafafa",
+				"bg": "#13287e",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Mulish",
+			"body": "Mulish",
+			"map": {
+				"Mulish": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "939fefdb",
+					"index": 0,
+					"path": "0",
+					"group": "939fefdb",
+					"role": "hero",
+					"title": "make your place as good as new",
+					"slots": [
+						{
+							"id": "53e4f62a:text",
+							"blockId": "53e4f62a",
+							"path": "0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "tired of cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae87b6b0:text",
+							"blockId": "ae87b6b0",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "make your place as good as new",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1e366503:text",
+							"blockId": "1e366503",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1af9e35a:text",
+							"blockId": "1af9e35a",
+							"path": "0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BOOK NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "939fefdb:background.image.image.url",
+							"blockId": "939fefdb",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/hero-image.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Gloved hand holding a cleaning spray bottle",
+							"tone": {
+								"grid": [
+									0.85,
+									0.78,
+									0.77,
+									0.88,
+									0.87,
+									0.68,
+									0.9,
+									0.9,
+									0.89
+								],
+								"color": "#bbdecd"
+							}
+						}
+					]
+				},
+				{
+					"id": "d9e8ff2f",
+					"index": 1,
+					"path": "1",
+					"group": "d9e8ff2f",
+					"role": "content",
+					"title": "We are certified company since 1990",
+					"slots": [
+						{
+							"id": "633dede0:text",
+							"blockId": "633dede0",
+							"path": "1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Best cleaning service ever",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ea0c6a28:text",
+							"blockId": "ea0c6a28",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We are certified company since 1990",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a6464901:text",
+							"blockId": "a6464901",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+							"rich": true,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7be7f605:text",
+							"blockId": "7be7f605",
+							"path": "1.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "94403361:text",
+							"blockId": "94403361",
+							"path": "1.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "--Lorem ipsum dolor sit amet",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b3590195:text",
+							"blockId": "b3590195",
+							"path": "1.1.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "--Sed do eiusmod tempor incididunt ut labore dolore",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "cd438f5d:text",
+							"blockId": "cd438f5d",
+							"path": "1.1.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "--Magna aliqua. Bibendum est ultricies",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8d511ca:text",
+							"blockId": "d8d511ca",
+							"path": "1.1.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "--Integer quis. Iaculis urna id",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1af9e35a~1:text",
+							"blockId": "1af9e35a~1",
+							"path": "1.1.8.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f65082cc:image.url",
+							"blockId": "f65082cc",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/man-in-gray-shirt-cleaning-clear-glass-wall-near-sofa.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 630,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man cleaning a window with a squeegee",
+							"tone": {
+								"grid": [
+									0.51,
+									0.77,
+									0.75,
+									0.45,
+									0.74,
+									0.43,
+									0.13,
+									0.37,
+									0.37
+								],
+								"color": "#808271"
+							}
+						}
+					]
+				},
+				{
+					"id": "e5b6de7b",
+					"index": 2,
+					"path": "2",
+					"group": "e5b6de7b",
+					"role": "features",
+					"title": "We Provide Our Best Cleaning Services For You",
+					"slots": [
+						{
+							"id": "4340fccf:text",
+							"blockId": "4340fccf",
+							"path": "2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "what we do",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "34521968:text",
+							"blockId": "34521968",
+							"path": "2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Provide Our Best Cleaning Services For You",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b2591cfd:text",
+							"blockId": "b2591cfd",
+							"path": "2.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "215d592e:text",
+							"blockId": "215d592e",
+							"path": "2.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Office Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "214eb28b:text",
+							"blockId": "214eb28b",
+							"path": "2.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1bedd3e7:text",
+							"blockId": "1bedd3e7",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Home Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5d8e9fec:text",
+							"blockId": "5d8e9fec",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f0ecd27e:text",
+							"blockId": "f0ecd27e",
+							"path": "2.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Vehicle Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf992b68:text",
+							"blockId": "cf992b68",
+							"path": "2.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4b6ccf66:text",
+							"blockId": "4b6ccf66",
+							"path": "2.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Building Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a233ca29:text",
+							"blockId": "a233ca29",
+							"path": "2.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "41a30e13:image.url",
+							"blockId": "41a30e13",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-office.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "83322bd9:image.url",
+							"blockId": "83322bd9",
+							"path": "2.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-home.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "433675ba:image.url",
+							"blockId": "433675ba",
+							"path": "2.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-vehicle.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "076e8f7f:image.url",
+							"blockId": "076e8f7f",
+							"path": "2.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-building.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "72e3c545",
+					"index": 3,
+					"path": "3",
+					"group": "72e3c545",
+					"role": "cta",
+					"title": "Call us today for A free estimate at :",
+					"slots": [
+						{
+							"id": "4528fbe8:text",
+							"blockId": "4528fbe8",
+							"path": "3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "free call",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8f3cd460:text",
+							"blockId": "8f3cd460",
+							"path": "3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Call us today for A free estimate at :",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "689d4fe8:text",
+							"blockId": "689d4fe8",
+							"path": "3.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "+88 567-650-9898",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "1af9e35a~2:text",
+							"blockId": "1af9e35a~2",
+							"path": "3.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "call us now",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "18cc7b13:image.url",
+							"blockId": "18cc7b13",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/man-in-gray-shirt-cleaning-clear-glass-of-building-1536x864-1.jpg",
+							"decorative": false,
+							"width": 1536,
+							"height": 864,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Window cleaner rappelling down a glass building",
+							"tone": {
+								"grid": [
+									0.62,
+									0.63,
+									0.61,
+									0.68,
+									0.54,
+									0.64,
+									0.68,
+									0.63,
+									0.64
+								],
+								"color": "#76ad9f"
+							}
+						}
+					]
+				},
+				{
+					"id": "f82d3b76",
+					"index": 4,
+					"path": "4",
+					"group": "f82d3b76",
+					"role": "pricing",
+					"title": "Choose Your Affordable Pricing Plan",
+					"slots": [
+						{
+							"id": "497fc712:text",
+							"blockId": "497fc712",
+							"path": "4.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Affortable plans",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8509fa0:text",
+							"blockId": "d8509fa0",
+							"path": "4.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Choose Your Affordable Pricing Plan",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "68de7057:text",
+							"blockId": "68de7057",
+							"path": "4.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "75d7abab:text",
+							"blockId": "75d7abab",
+							"path": "4.0.1.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Basic Plan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4f1169f1:text",
+							"blockId": "4f1169f1",
+							"path": "4.0.1.0.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$99",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "c89608bb:text",
+							"blockId": "c89608bb",
+							"path": "4.0.1.0.0.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "/month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f83fa09:text",
+							"blockId": "3f83fa09",
+							"path": "4.0.1.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Bedroom Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "947ecc6a:text",
+							"blockId": "947ecc6a",
+							"path": "4.0.1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vacuming",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ac08cfe:text",
+							"blockId": "5ac08cfe",
+							"path": "4.0.1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Bedroom Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4104037a:text",
+							"blockId": "4104037a",
+							"path": "4.0.1.0.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Window Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e4cdd0e:text",
+							"blockId": "3e4cdd0e",
+							"path": "4.0.1.0.1.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Livingroom Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "db45bad3:text",
+							"blockId": "db45bad3",
+							"path": "4.0.1.0.1.0.5.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Choose Plan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8107913:text",
+							"blockId": "d8107913",
+							"path": "4.0.1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Basic Plan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "025dcaa7:text",
+							"blockId": "025dcaa7",
+							"path": "4.0.1.1.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$99",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "92a308ff:text",
+							"blockId": "92a308ff",
+							"path": "4.0.1.1.0.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "/month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3976c8ca:text",
+							"blockId": "3976c8ca",
+							"path": "4.0.1.1.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "3 Bedroom Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c6b680d9:text",
+							"blockId": "c6b680d9",
+							"path": "4.0.1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "3 Bathroom Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9b8743ee:text",
+							"blockId": "9b8743ee",
+							"path": "4.0.1.1.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Window Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c5794320:text",
+							"blockId": "c5794320",
+							"path": "4.0.1.1.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Kitchen Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "debd86b9:text",
+							"blockId": "debd86b9",
+							"path": "4.0.1.1.1.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vacuming",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4fa50d88:text",
+							"blockId": "4fa50d88",
+							"path": "4.0.1.1.1.0.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "2 Livingroom Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "77c0a8dd:text",
+							"blockId": "77c0a8dd",
+							"path": "4.0.1.1.1.0.6.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Choose Plan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af9186d4:text",
+							"blockId": "af9186d4",
+							"path": "4.0.1.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Basic Plan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c38cbfc0:text",
+							"blockId": "c38cbfc0",
+							"path": "4.0.1.2.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$99",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "db9c0a3b:text",
+							"blockId": "db9c0a3b",
+							"path": "4.0.1.2.0.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "/month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4b2707a9:text",
+							"blockId": "4b2707a9",
+							"path": "4.0.1.2.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "20 Bedroom Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "25d58abb:text",
+							"blockId": "25d58abb",
+							"path": "4.0.1.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vacuming",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d57f4db8:text",
+							"blockId": "d57f4db8",
+							"path": "4.0.1.2.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "20 Bedroom Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae706c09:text",
+							"blockId": "ae706c09",
+							"path": "4.0.1.2.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Window Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2cb8bbdb:text",
+							"blockId": "2cb8bbdb",
+							"path": "4.0.1.2.1.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "10 Livingroom Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "db45bad3~1:text",
+							"blockId": "db45bad3~1",
+							"path": "4.0.1.2.1.0.5.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Choose Plan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "d9c587b5",
+					"index": 5,
+					"path": "5",
+					"group": "d9c587b5",
+					"role": "gallery",
+					"title": "Our Recent Projects",
+					"slots": [
+						{
+							"id": "8d61a860:text",
+							"blockId": "8d61a860",
+							"path": "5.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Affortable plans",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e171edc1:text",
+							"blockId": "e171edc1",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Recent Projects",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "895b1a75:text",
+							"blockId": "895b1a75",
+							"path": "5.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c92f138f:text",
+							"blockId": "c92f138f",
+							"path": "5.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "eiusmod tempor incididunt ut labore.",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "2a8a0615:image.url",
+							"blockId": "2a8a0615",
+							"path": "5.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/man-cleaning-clear-window-next-to-sofa-600x600-1.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man cleaning a glass door with a squeegee",
+							"tone": {
+								"grid": [
+									0.39,
+									0.58,
+									0.57,
+									0.43,
+									0.59,
+									0.4,
+									0.53,
+									0.39,
+									0.15
+								],
+								"color": "#727274"
+							}
+						},
+						{
+							"id": "0fcb63c4:image.url",
+							"blockId": "0fcb63c4",
+							"path": "5.0.4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/man-in-gray-shirt-cleaning-clear-glass-of-building-gallery-600x600-1.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Rope access window cleaner with a bucket on a building",
+							"tone": {
+								"grid": [
+									0.57,
+									0.49,
+									0.53,
+									0.54,
+									0.49,
+									0.51,
+									0.58,
+									0.43,
+									0.5
+								],
+								"color": "#79868f"
+							}
+						},
+						{
+							"id": "3d5498f3:image.url",
+							"blockId": "3d5498f3",
+							"path": "5.0.4.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/man-cleaning-clear-glass-of-building-gallery-600x600-1.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Window cleaners rappelling down a glass skyscraper",
+							"tone": {
+								"grid": [
+									0.57,
+									0.6,
+									0.58,
+									0.57,
+									0.6,
+									0.61,
+									0.62,
+									0.64,
+									0.65
+								],
+								"color": "#51adb6"
+							}
+						},
+						{
+							"id": "9d33c22c:image.url",
+							"blockId": "9d33c22c",
+							"path": "5.0.5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/women-cleaning-room-window-600x600-1.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in mask and gloves cleaning a window",
+							"tone": {
+								"grid": [
+									0.52,
+									0.74,
+									0.36,
+									0.46,
+									0.73,
+									0.31,
+									0.22,
+									0.68,
+									0.27
+								],
+								"color": "#7b7976"
+							}
+						},
+						{
+							"id": "9623ee8a:image.url",
+							"blockId": "9623ee8a",
+							"path": "5.0.5.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/man-cleaning-car-gallery-600x600-1.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man washing a car with a pressure washer",
+							"tone": {
+								"grid": [
+									0.73,
+									0.61,
+									0.38,
+									0.47,
+									0.44,
+									0.31,
+									0.46,
+									0.54,
+									0.53
+								],
+								"color": "#857d78"
+							}
+						},
+						{
+							"id": "282aad64:image.url",
+							"blockId": "282aad64",
+							"path": "5.0.5.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/man-cleaning-balcony-window-600x600-1.jpg",
+							"decorative": false,
+							"width": 600,
+							"height": 600,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man cleaning a window on a building facade",
+							"tone": {
+								"grid": [
+									0.65,
+									0.69,
+									0.63,
+									0.52,
+									0.78,
+									0.53,
+									0.43,
+									0.53,
+									0.41
+								],
+								"color": "#a88d8d"
+							}
+						}
+					]
+				},
+				{
+					"id": "47ef5b30",
+					"index": 6,
+					"path": "6",
+					"group": "47ef5b30",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "528c17a6:text",
+							"blockId": "528c17a6",
+							"path": "6.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "590",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "8e6509db:text",
+							"blockId": "8e6509db",
+							"path": "6.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Experts",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e6fe1e17:text",
+							"blockId": "e6fe1e17",
+							"path": "6.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "9,001",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "00df087f:text",
+							"blockId": "00df087f",
+							"path": "6.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Services Provided",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "52a6fa8c:text",
+							"blockId": "52a6fa8c",
+							"path": "6.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "8,999",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f4dfba8b:text",
+							"blockId": "f4dfba8b",
+							"path": "6.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Client Satisfied",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "82e5d9af:text",
+							"blockId": "82e5d9af",
+							"path": "6.3.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5 +",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "a0e7942d:text",
+							"blockId": "a0e7942d",
+							"path": "6.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Year Of Experience",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "47ef5b30:background.image.image.url",
+							"blockId": "47ef5b30",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/counter-bg-.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1080,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Workers cleaning a glass dome roof",
+							"tone": {
+								"grid": [
+									0.71,
+									0.66,
+									0.62,
+									0.73,
+									0.65,
+									0.65,
+									0.63,
+									0.51,
+									0.65
+								],
+								"color": "#7aaecc"
+							}
+						}
+					]
+				},
+				{
+					"id": "d59123a8",
+					"index": 7,
+					"path": "7",
+					"group": "d59123a8",
+					"role": "team",
+					"title": "Meet Our Experts",
+					"slots": [
+						{
+							"id": "19a39ff4:text",
+							"blockId": "19a39ff4",
+							"path": "7.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "EXPERTS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "756a9cdb:text",
+							"blockId": "756a9cdb",
+							"path": "7.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Meet Our Experts",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b4e3926a:text",
+							"blockId": "b4e3926a",
+							"path": "7.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1a4c0d15:text",
+							"blockId": "1a4c0d15",
+							"path": "7.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "eiusmod tempor incididunt ut labore.",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e80fcfca:text",
+							"blockId": "e80fcfca",
+							"path": "7.0.4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "beverly green",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9840f298:text",
+							"blockId": "9840f298",
+							"path": "7.0.4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "bathroom cleaner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a15136cf:text",
+							"blockId": "a15136cf",
+							"path": "7.0.4.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Kristoffer Koelpin",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9392a936:text",
+							"blockId": "9392a936",
+							"path": "7.0.4.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "office cleaner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f6d26d34:text",
+							"blockId": "f6d26d34",
+							"path": "7.0.4.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Evie Marquardt",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "735204f9:text",
+							"blockId": "735204f9",
+							"path": "7.0.4.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "window cleaner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ba8c39d2:image.url",
+							"blockId": "ba8c39d2",
+							"path": "7.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/beverly-green.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 900,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man in a beanie against a red wall portrait",
+							"tone": {
+								"grid": [
+									0.32,
+									0.34,
+									0.36,
+									0.27,
+									0.51,
+									0.31,
+									0.16,
+									0.37,
+									0.13
+								],
+								"color": "#8a3e40"
+							}
+						},
+						{
+							"id": "e1140150:image.url",
+							"blockId": "e1140150",
+							"path": "7.0.4.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/facebook-f.png",
+							"decorative": true,
+							"width": 320,
+							"height": 512,
+							"orientation": "portrait"
+						},
+						{
+							"id": "26347c3e:image.url",
+							"blockId": "26347c3e",
+							"path": "7.0.4.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/twitter.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "9d1ba5da:image.url",
+							"blockId": "9d1ba5da",
+							"path": "7.0.4.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/linkedin-in.png",
+							"decorative": true,
+							"width": 448,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "cbc4772f:image.url",
+							"blockId": "cbc4772f",
+							"path": "7.0.4.0.3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/instagram.png",
+							"decorative": true,
+							"width": 448,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "426c4e96:image.url",
+							"blockId": "426c4e96",
+							"path": "7.0.4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/kristoffer-koelpin.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 900,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man with curly hair in a white shirt portrait",
+							"tone": {
+								"grid": [
+									0.8,
+									0.51,
+									0.86,
+									0.76,
+									0.66,
+									0.82,
+									0.95,
+									0.84,
+									0.93
+								],
+								"color": "#d6c7bc"
+							}
+						},
+						{
+							"id": "2a48e10b:image.url",
+							"blockId": "2a48e10b",
+							"path": "7.0.4.1.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/facebook-f.png",
+							"decorative": true,
+							"width": 320,
+							"height": 512,
+							"orientation": "portrait"
+						},
+						{
+							"id": "b4c8ae97:image.url",
+							"blockId": "b4c8ae97",
+							"path": "7.0.4.1.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/twitter.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "82337587:image.url",
+							"blockId": "82337587",
+							"path": "7.0.4.1.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/linkedin-in.png",
+							"decorative": true,
+							"width": 448,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "b6f8df61:image.url",
+							"blockId": "b6f8df61",
+							"path": "7.0.4.1.3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/instagram.png",
+							"decorative": true,
+							"width": 448,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "0c39959c:image.url",
+							"blockId": "0c39959c",
+							"path": "7.0.4.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/evil-marquardt.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 900,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with wavy red hair portrait",
+							"tone": {
+								"grid": [
+									0.32,
+									0.49,
+									0.66,
+									0.19,
+									0.38,
+									0.51,
+									0.1,
+									0.27,
+									0.28
+								],
+								"color": "#685850"
+							}
+						},
+						{
+							"id": "055245a4:image.url",
+							"blockId": "055245a4",
+							"path": "7.0.4.2.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/facebook-f.png",
+							"decorative": true,
+							"width": 320,
+							"height": 512,
+							"orientation": "portrait"
+						},
+						{
+							"id": "0093cd1e:image.url",
+							"blockId": "0093cd1e",
+							"path": "7.0.4.2.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/twitter.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "a8b4171d:image.url",
+							"blockId": "a8b4171d",
+							"path": "7.0.4.2.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/linkedin-in.png",
+							"decorative": true,
+							"width": 448,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "ba674629:image.url",
+							"blockId": "ba674629",
+							"path": "7.0.4.2.3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/instagram.png",
+							"decorative": true,
+							"width": 448,
+							"height": 512,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "e8fa2438",
+					"index": 8,
+					"path": "8",
+					"group": "e8fa2438",
+					"role": "testimonials",
+					"title": "What Our Customers Are Saying",
+					"slots": [
+						{
+							"id": "dd3734f7:text",
+							"blockId": "dd3734f7",
+							"path": "8.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "TESTIMONIAL",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "239b12f2:text",
+							"blockId": "239b12f2",
+							"path": "8.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What Our Customers Are Saying",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3e8f0ec:text",
+							"blockId": "d3e8f0ec",
+							"path": "8.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d7ffd4db:text",
+							"blockId": "d7ffd4db",
+							"path": "8.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "eiusmod tempor incididunt ut labore.",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "27a59f2d:text",
+							"blockId": "27a59f2d",
+							"path": "8.0.4.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Dolore magna aliqua. Bibendum est",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b2f9acec:text",
+							"blockId": "b2f9acec",
+							"path": "8.0.4.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "John Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ab2df20c:text",
+							"blockId": "ab2df20c",
+							"path": "8.0.4.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dbb04332:text",
+							"blockId": "dbb04332",
+							"path": "8.0.4.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Dolore magna aliqua. Bibendum est",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7beede17:text",
+							"blockId": "7beede17",
+							"path": "8.0.4.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "John Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6d969011:text",
+							"blockId": "6d969011",
+							"path": "8.0.4.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c46504e8:image.url",
+							"blockId": "c46504e8",
+							"path": "8.0.4.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/testimonial-image-1.png",
+							"decorative": true,
+							"width": 140,
+							"height": 240,
+							"orientation": "portrait"
+						},
+						{
+							"id": "10454bb4:image.url",
+							"blockId": "10454bb4",
+							"path": "8.0.4.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/testimonial-image-2.png",
+							"decorative": true,
+							"width": 140,
+							"height": 240,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "feedaf5a",
+					"index": 9,
+					"path": "9",
+					"group": "feedaf5a",
+					"role": "posts",
+					"title": "Our Latest Blog",
+					"slots": [
+						{
+							"id": "3d0716ab:text",
+							"blockId": "3d0716ab",
+							"path": "9.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "blog",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7febbdca:text",
+							"blockId": "7febbdca",
+							"path": "9.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Latest Blog",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7a53529c:text",
+							"blockId": "7a53529c",
+							"path": "9.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "dcbda2ef:text",
+							"blockId": "dcbda2ef",
+							"path": "9.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "eiusmod tempor incididunt ut labore.",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a5c0732d:text",
+							"blockId": "a5c0732d",
+							"path": "9.0.4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "The Process Of Cleaning A Bedroom",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ea60d46a:text",
+							"blockId": "ea60d46a",
+							"path": "9.0.4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "September 3, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cc885b91:text",
+							"blockId": "cc885b91",
+							"path": "9.0.4.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium …",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1fe37666:text",
+							"blockId": "1fe37666",
+							"path": "9.0.4.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Best Ways To Clean Windows In A Minute",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7d9f2b6b:text",
+							"blockId": "7d9f2b6b",
+							"path": "9.0.4.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "September 3, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8eb84cab:text",
+							"blockId": "8eb84cab",
+							"path": "9.0.4.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium …",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a7119eec:text",
+							"blockId": "a7119eec",
+							"path": "9.0.4.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "The Secret Of Cleaning Kitchen",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c095820:text",
+							"blockId": "4c095820",
+							"path": "9.0.4.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "September 3, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dffc997d:text",
+							"blockId": "dffc997d",
+							"path": "9.0.4.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium …",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "687b8b5c:image.url",
+							"blockId": "687b8b5c",
+							"path": "9.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/cleaning-bedroom.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Cozy bedroom with a double bed and framed pictures on the wall",
+							"tone": {
+								"grid": [
+									0.68,
+									0.7,
+									0.69,
+									0.77,
+									0.72,
+									0.57,
+									0.51,
+									0.67,
+									0.57
+								],
+								"color": "#b6a39b"
+							}
+						},
+						{
+							"id": "7721defb:image.url",
+							"blockId": "7721defb",
+							"path": "9.0.4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/man-cleaning-clear-window-next-to-sofa.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling man in a blue t-shirt cleaning a glass window",
+							"tone": {
+								"grid": [
+									0.31,
+									0.54,
+									0.62,
+									0.32,
+									0.57,
+									0.33,
+									0.42,
+									0.4,
+									0.21
+								],
+								"color": "#686a6b"
+							}
+						},
+						{
+							"id": "801e7a0a:image.url",
+							"blockId": "801e7a0a",
+							"path": "9.0.4.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/kitchen-cleaning.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling man in a plaid shirt washing dishes in a kitchen",
+							"tone": {
+								"grid": [
+									0.47,
+									0.79,
+									0.82,
+									0.38,
+									0.83,
+									0.73,
+									0.2,
+									0.63,
+									0.53
+								],
+								"color": "#b49476"
+							}
+						}
+					]
+				},
+				{
+					"id": "f9af4b3c",
+					"index": 10,
+					"path": "10",
+					"group": "f9af4b3c",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "848a41de:image.url",
+							"blockId": "848a41de",
+							"path": "10.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-1.png",
+							"decorative": true,
+							"width": 302,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "39604ab8:image.url",
+							"blockId": "39604ab8",
+							"path": "10.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-6.png",
+							"decorative": true,
+							"width": 240,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "90c57eb9:image.url",
+							"blockId": "90c57eb9",
+							"path": "10.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-5.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d7787f85:image.url",
+							"blockId": "d7787f85",
+							"path": "10.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-4.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "4291ea09:image.url",
+							"blockId": "4291ea09",
+							"path": "10.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-2.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ff835e09:image.url",
+							"blockId": "ff835e09",
+							"path": "10.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-3.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "ba2870c1",
+					"index": 11,
+					"path": "11",
+					"group": "ba2870c1",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "f158b16c:text",
+							"blockId": "f158b16c",
+							"path": "11.0.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "Experts",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": false,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ba2870c1:background.image.image.url",
+							"blockId": "ba2870c1",
+							"path": "11",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/counter-bg-.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1080,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Workers cleaning a glass dome roof",
+							"tone": {
+								"grid": [
+									0.71,
+									0.66,
+									0.62,
+									0.73,
+									0.65,
+									0.65,
+									0.63,
+									0.51,
+									0.65
+								],
+								"color": "#7aaecc"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "939fefdb",
+					"role": "hero",
+					"title": "make your place as good as new",
+					"sectionIds": [
+						"939fefdb"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d9e8ff2f",
+					"role": "content",
+					"title": "We are certified company since 1990",
+					"sectionIds": [
+						"d9e8ff2f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e5b6de7b",
+					"role": "features",
+					"title": "We Provide Our Best Cleaning Services For You",
+					"sectionIds": [
+						"e5b6de7b"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "72e3c545",
+					"role": "cta",
+					"title": "Call us today for A free estimate at :",
+					"sectionIds": [
+						"72e3c545"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f82d3b76",
+					"role": "pricing",
+					"title": "Choose Your Affordable Pricing Plan",
+					"sectionIds": [
+						"f82d3b76"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "d9c587b5",
+					"role": "gallery",
+					"title": "Our Recent Projects",
+					"sectionIds": [
+						"d9c587b5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"portfolio"
+						]
+					}
+				},
+				{
+					"id": "47ef5b30",
+					"role": "stats",
+					"sectionIds": [
+						"47ef5b30"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "d59123a8",
+					"role": "team",
+					"title": "Meet Our Experts",
+					"sectionIds": [
+						"d59123a8"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "e8fa2438",
+					"role": "testimonials",
+					"title": "What Our Customers Are Saying",
+					"sectionIds": [
+						"e8fa2438"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "feedaf5a",
+					"role": "posts",
+					"title": "Our Latest Blog",
+					"sectionIds": [
+						"feedaf5a"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "f9af4b3c",
+					"role": "logos",
+					"sectionIds": [
+						"f9af4b3c"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "ba2870c1",
+					"role": "stats",
+					"sectionIds": [
+						"ba2870c1"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "about",
+			"title": "ABOUT",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "d4fa3290",
+					"index": 0,
+					"path": "0",
+					"group": "d4fa3290",
+					"role": "hero",
+					"title": "We Are Certified Company Since 1990",
+					"slots": [
+						{
+							"id": "67b9c50e:text",
+							"blockId": "67b9c50e",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Are Certified Company Since 1990",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9520ce83:text",
+							"blockId": "9520ce83",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0cf8200d:text",
+							"blockId": "0cf8200d",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "d9e8ff2f",
+					"index": 1,
+					"path": "1",
+					"group": "d9e8ff2f",
+					"role": "content",
+					"title": "Our Mission Is To Make Your Place Beautiful",
+					"slots": [
+						{
+							"id": "633dede0:text",
+							"blockId": "633dede0",
+							"path": "1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "MISSION",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ea0c6a28:text",
+							"blockId": "ea0c6a28",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Mission Is To Make Your Place Beautiful",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7be7f605:text",
+							"blockId": "7be7f605",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f160b8da:text",
+							"blockId": "f160b8da",
+							"path": "1.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in.",
+							"rich": true,
+							"words": 43,
+							"minWords": 26,
+							"maxWords": 54,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "94403361:text",
+							"blockId": "94403361",
+							"path": "1.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "--Lorem ipsum dolor sit amet,",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b3d00379:text",
+							"blockId": "b3d00379",
+							"path": "1.1.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "--Sed do eiusmod tempor incididunt ut labore et dolore",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "528a180a:text",
+							"blockId": "528a180a",
+							"path": "1.1.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "--Magna aliqua. Bibendum est ultricies",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f65082cc:image.url",
+							"blockId": "f65082cc",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/clean-room.jpg",
+							"decorative": false,
+							"width": 851,
+							"height": 900,
+							"orientation": "square",
+							"subject": "place",
+							"description": "Bright children's bedroom with a white daybed and tree wall decal",
+							"tone": {
+								"grid": [
+									0.89,
+									0.87,
+									0.71,
+									0.72,
+									0.79,
+									0.68,
+									0.6,
+									0.58,
+									0.52
+								],
+								"color": "#b5b3b8"
+							}
+						}
+					]
+				},
+				{
+					"id": "10db2dae",
+					"index": 2,
+					"path": "2",
+					"group": "10db2dae",
+					"role": "content",
+					"slots": [
+						{
+							"id": "57b9f540:text",
+							"blockId": "57b9f540",
+							"path": "2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in.",
+							"rich": false,
+							"words": 43,
+							"minWords": 26,
+							"maxWords": 54,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "073d0b22:text",
+							"blockId": "073d0b22",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Tempor id eu nisl nunc mi ipsum faucibus. Fusce id velit ut tortor pretium. Massa ultricies mi quis hendrerit dolor magna eget. Nullam eget felis eget nunc lobortis. Faucibus ornare suspendisse sed nisi. Sagittis eu volutpat odio facilisis mauris sit amet massa. Erat velit scelerisque in dictum non consectetur a erat. Amet nulla facilisi morbi tempus iaculis urna. Egestas purus viverra accumsan in nisl.",
+							"rich": false,
+							"words": 86,
+							"minWords": 52,
+							"maxWords": 108,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "7cbf8b63",
+					"index": 3,
+					"path": "3",
+					"group": "7cbf8b63",
+					"role": "cta",
+					"title": "Call Us Today For A Free Estimate At",
+					"slots": [
+						{
+							"id": "d4686203:text",
+							"blockId": "d4686203",
+							"path": "3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "FREE CALL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "97741bf7:text",
+							"blockId": "97741bf7",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Call Us Today For A Free Estimate At",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6e96289f:text",
+							"blockId": "6e96289f",
+							"path": "3.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "+88 567-650-9898",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "24d0165b:text",
+							"blockId": "24d0165b",
+							"path": "3.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "call us now",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7cbf8b63:background.image.image.url",
+							"blockId": "7cbf8b63",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Pattern-blue-3.png",
+							"decorative": true,
+							"width": 1141,
+							"height": 752,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "47ef5b30",
+					"index": 4,
+					"path": "4",
+					"group": "47ef5b30",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "528c17a6:text",
+							"blockId": "528c17a6",
+							"path": "4.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "590",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "8e6509db:text",
+							"blockId": "8e6509db",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Experts",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e6fe1e17:text",
+							"blockId": "e6fe1e17",
+							"path": "4.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "9,001",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "00df087f:text",
+							"blockId": "00df087f",
+							"path": "4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Services Provided",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "52a6fa8c:text",
+							"blockId": "52a6fa8c",
+							"path": "4.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "8,999",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f4dfba8b:text",
+							"blockId": "f4dfba8b",
+							"path": "4.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Client Satisfied",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "82e5d9af:text",
+							"blockId": "82e5d9af",
+							"path": "4.3.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "a0e7942d:text",
+							"blockId": "a0e7942d",
+							"path": "4.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Year Of Experience",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "47ef5b30:background.image.image.url",
+							"blockId": "47ef5b30",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/counter-bg-.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1080,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Workers cleaning a glass dome roof",
+							"tone": {
+								"grid": [
+									0.71,
+									0.66,
+									0.62,
+									0.73,
+									0.65,
+									0.65,
+									0.63,
+									0.51,
+									0.65
+								],
+								"color": "#7aaecc"
+							}
+						}
+					]
+				},
+				{
+					"id": "e8fa2438",
+					"index": 5,
+					"path": "5",
+					"group": "e8fa2438",
+					"role": "testimonials",
+					"title": "What Our Customers Are Saying",
+					"slots": [
+						{
+							"id": "dd3734f7:text",
+							"blockId": "dd3734f7",
+							"path": "5.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "TESTIMONIAL",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "239b12f2:text",
+							"blockId": "239b12f2",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What Our Customers Are Saying",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3e8f0ec:text",
+							"blockId": "d3e8f0ec",
+							"path": "5.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d7ffd4db:text",
+							"blockId": "d7ffd4db",
+							"path": "5.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "eiusmod tempor incididunt ut labore.",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "27a59f2d:text",
+							"blockId": "27a59f2d",
+							"path": "5.0.4.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Dolore magna aliqua. Bibendum est",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b2f9acec:text",
+							"blockId": "b2f9acec",
+							"path": "5.0.4.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "beverly green",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ab2df20c:text",
+							"blockId": "ab2df20c",
+							"path": "5.0.4.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dbb04332:text",
+							"blockId": "dbb04332",
+							"path": "5.0.4.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Dolore magna aliqua. Bibendum est",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7beede17:text",
+							"blockId": "7beede17",
+							"path": "5.0.4.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "beverly green",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6d969011:text",
+							"blockId": "6d969011",
+							"path": "5.0.4.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c46504e8:image.url",
+							"blockId": "c46504e8",
+							"path": "5.0.4.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/testimonial-image-1.png",
+							"decorative": true,
+							"width": 140,
+							"height": 240,
+							"orientation": "portrait"
+						},
+						{
+							"id": "10454bb4:image.url",
+							"blockId": "10454bb4",
+							"path": "5.0.4.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/testimonial-image-2.png",
+							"decorative": true,
+							"width": 140,
+							"height": 240,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "f9af4b3c",
+					"index": 6,
+					"path": "6",
+					"group": "f9af4b3c",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "848a41de:image.url",
+							"blockId": "848a41de",
+							"path": "6.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-1.png",
+							"decorative": true,
+							"width": 302,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "39604ab8:image.url",
+							"blockId": "39604ab8",
+							"path": "6.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-6.png",
+							"decorative": true,
+							"width": 240,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "90c57eb9:image.url",
+							"blockId": "90c57eb9",
+							"path": "6.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-5.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d7787f85:image.url",
+							"blockId": "d7787f85",
+							"path": "6.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-4.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "4291ea09:image.url",
+							"blockId": "4291ea09",
+							"path": "6.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-2.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ff835e09:image.url",
+							"blockId": "ff835e09",
+							"path": "6.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-3.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "d4fa3290",
+					"role": "hero",
+					"title": "We Are Certified Company Since 1990",
+					"sectionIds": [
+						"d4fa3290"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d9e8ff2f",
+					"role": "content",
+					"title": "Our Mission Is To Make Your Place Beautiful",
+					"sectionIds": [
+						"d9e8ff2f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "10db2dae",
+					"role": "content",
+					"sectionIds": [
+						"10db2dae"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7cbf8b63",
+					"role": "cta",
+					"title": "Call Us Today For A Free Estimate At",
+					"sectionIds": [
+						"7cbf8b63"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "47ef5b30",
+					"role": "stats",
+					"sectionIds": [
+						"47ef5b30"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "e8fa2438",
+					"role": "testimonials",
+					"title": "What Our Customers Are Saying",
+					"sectionIds": [
+						"e8fa2438"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f9af4b3c",
+					"role": "logos",
+					"sectionIds": [
+						"f9af4b3c"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "BLOG",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "contact",
+			"title": "CONTACT",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "50649664",
+					"index": 0,
+					"path": "0",
+					"group": "50649664",
+					"role": "hero",
+					"title": "Feel Free To Call Us",
+					"slots": [
+						{
+							"id": "beea171c:text",
+							"blockId": "beea171c",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Feel Free To Call Us",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "23774d44:text",
+							"blockId": "23774d44",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Call us for imidiate support to this number",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1b80779e:text",
+							"blockId": "1b80779e",
+							"path": "0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "+88 567-650-9898",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "97acd3cf:text",
+							"blockId": "97acd3cf",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Location",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b343acc0:text",
+							"blockId": "b343acc0",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "New York, United State, NY 1254 T: +80-123-456-7890 E: info@zcleaner.com",
+							"rich": true,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "05da4605:text",
+							"blockId": "05da4605",
+							"path": "0.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "working hours",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cab7b058:text",
+							"blockId": "cab7b058",
+							"path": "0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Monday - Friday : 9am - 6pm Saturday: 10am - 2pm Sunday: Close",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "08ae6f41:text",
+							"blockId": "08ae6f41",
+							"path": "0.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "View Location on Map",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "be8145a0",
+					"index": 1,
+					"path": "1",
+					"group": "be8145a0",
+					"role": "dynamic",
+					"title": "get in touch",
+					"slots": [
+						{
+							"id": "42809a85:text",
+							"blockId": "42809a85",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "get in touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b4f7bc21:text",
+							"blockId": "b4f7bc21",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				},
+				{
+					"id": "f9af4b3c",
+					"index": 2,
+					"path": "2",
+					"group": "f9af4b3c",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "848a41de:image.url",
+							"blockId": "848a41de",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-1.png",
+							"decorative": true,
+							"width": 302,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "39604ab8:image.url",
+							"blockId": "39604ab8",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-6.png",
+							"decorative": true,
+							"width": 240,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "90c57eb9:image.url",
+							"blockId": "90c57eb9",
+							"path": "2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-5.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d7787f85:image.url",
+							"blockId": "d7787f85",
+							"path": "2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-4.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "4291ea09:image.url",
+							"blockId": "4291ea09",
+							"path": "2.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-2.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ff835e09:image.url",
+							"blockId": "ff835e09",
+							"path": "2.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-3.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "50649664",
+					"role": "hero",
+					"title": "Feel Free To Call Us",
+					"sectionIds": [
+						"50649664"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "be8145a0",
+					"role": "dynamic",
+					"title": "get in touch",
+					"sectionIds": [
+						"be8145a0"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f9af4b3c",
+					"role": "logos",
+					"sectionIds": [
+						"f9af4b3c"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "SERVICES",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "0e96b860",
+					"index": 0,
+					"path": "0",
+					"group": "0e96b860",
+					"role": "hero",
+					"title": "Office Cleaning",
+					"slots": [
+						{
+							"id": "215d592e:text",
+							"blockId": "215d592e",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Office Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "214eb28b:text",
+							"blockId": "214eb28b",
+							"path": "0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1bedd3e7:text",
+							"blockId": "1bedd3e7",
+							"path": "0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Home Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5d8e9fec:text",
+							"blockId": "5d8e9fec",
+							"path": "0.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f0ecd27e:text",
+							"blockId": "f0ecd27e",
+							"path": "0.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Vehicle Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf992b68:text",
+							"blockId": "cf992b68",
+							"path": "0.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9f3a0aca:text",
+							"blockId": "9f3a0aca",
+							"path": "0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Building Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "57381169:text",
+							"blockId": "57381169",
+							"path": "0.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d774764a:text",
+							"blockId": "d774764a",
+							"path": "0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Window Cleaning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "81211a92:text",
+							"blockId": "81211a92",
+							"path": "0.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ea1cdb34:text",
+							"blockId": "ea1cdb34",
+							"path": "0.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Solar Panel Cleaning",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "93b6f7e0:text",
+							"blockId": "93b6f7e0",
+							"path": "0.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "41a30e13:image.url",
+							"blockId": "41a30e13",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-office.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "83322bd9:image.url",
+							"blockId": "83322bd9",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-home.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "433675ba:image.url",
+							"blockId": "433675ba",
+							"path": "0.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-vehicle.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "18a5e6f0:image.url",
+							"blockId": "18a5e6f0",
+							"path": "0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-building.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "6214201c:image.url",
+							"blockId": "6214201c",
+							"path": "0.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/service-6.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "23951262:image.url",
+							"blockId": "23951262",
+							"path": "0.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/service-4.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "f9af4b3c",
+					"index": 1,
+					"path": "1",
+					"group": "f9af4b3c",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "848a41de:image.url",
+							"blockId": "848a41de",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-1.png",
+							"decorative": true,
+							"width": 302,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "39604ab8:image.url",
+							"blockId": "39604ab8",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-6.png",
+							"decorative": true,
+							"width": 240,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "90c57eb9:image.url",
+							"blockId": "90c57eb9",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-5.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d7787f85:image.url",
+							"blockId": "d7787f85",
+							"path": "1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-4.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "4291ea09:image.url",
+							"blockId": "4291ea09",
+							"path": "1.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-2.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ff835e09:image.url",
+							"blockId": "ff835e09",
+							"path": "1.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/Logos-3.png",
+							"decorative": true,
+							"width": 270,
+							"height": 98,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "0e96b860",
+					"role": "hero",
+					"title": "Office Cleaning",
+					"sectionIds": [
+						"0e96b860"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f9af4b3c",
+					"role": "logos",
+					"sectionIds": [
+						"f9af4b3c"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 24,
+		"textSlots": 161,
+		"editableSlots": 146,
+		"images": 70,
+		"swappableImages": 19,
+		"words": 1031
+	},
+	"builtAt": "2026-10-24T11:35:07.945Z"
+}

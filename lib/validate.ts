@@ -11,7 +11,7 @@ import {
 
 // Keep in sync with the plugin's resources/onboarding/ai/constants.ts.
 export const BRAND_NAME_MAX = 60;
-export const DESCRIPTION_MIN = 20;
+export const DESCRIPTION_MIN = 3;
 export const DESCRIPTION_MAX = 500;
 export const INSTRUCTION_MAX = 200;
 
@@ -62,6 +62,8 @@ export const validateGenerate = (body: unknown): GenerateRequest => {
 		tone,
 		language: (str(body, 'language', false) || 'en').toLowerCase(),
 		pages: PAGE_ORDER.filter((p) => requested.has(p)),
+		...(str(body, 'demoSlug', false) ? { demoSlug: str(body, 'demoSlug') } : {}),
+		...(str(body, 'briefId', false) ? { briefId: str(body, 'briefId') } : {}),
 	};
 };
 

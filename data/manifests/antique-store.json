@@ -1,0 +1,1809 @@
+{
+	"version": 4,
+	"slug": "antique-store",
+	"name": "Antique",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://zakrademos.com/wp-content/uploads/2026/06/Antique-image.jpg",
+	"demoUrl": "https://zakrademos.com/antique-store",
+	"niches": [
+		"antiques",
+		"shop",
+		"retail"
+	],
+	"keywords": [
+		"antique store",
+		"antiques",
+		"vintage",
+		"collectibles",
+		"handicrafts",
+		"art gallery",
+		"thrift"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 17,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#a75c03",
+				"count": 13,
+				"group": "brand",
+				"role": "accent",
+				"base": "#a75c03",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#333333",
+				"count": 9,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 7,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#111111",
+				"count": 5,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#935204",
+				"count": 3,
+				"group": "brand",
+				"role": "accent",
+				"base": "#a75c03",
+				"lightnessDelta": -0.037,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#d9d9d9",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#303030",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#202020",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fffffc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#a75c03",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 6,
+				"scope": "theme"
+			},
+			{
+				"fg": "#935204",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#a75c03",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#a75c03",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fffffc",
+				"bg": "#935204",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Libre Baskerville",
+			"body": "Work Sans",
+			"map": {}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Best Antique Products Varieties",
+					"slots": [
+						{
+							"id": "core-0.0.0.0.1:@html:h",
+							"blockId": "core-0.0.0.0.1",
+							"path": "0.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Best Antique Products Varieties",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.2.0.0:@html:p",
+							"blockId": "core-0.0.0.0.2.0.0",
+							"path": "0.0.0.0.2.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Curabitur aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curaee",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-0.0.0.0.3.0:@html:a",
+							"blockId": "core-0.0.0.0.3.0",
+							"path": "0.0.0.0.3.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "dynamic",
+					"title": "Product Category",
+					"slots": [
+						{
+							"id": "core-1.0:@html:h",
+							"blockId": "core-1.0",
+							"path": "1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Product Category",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.0.0.0.0:@html:a",
+							"blockId": "core-1.1.0.0.0.0",
+							"path": "1.1.0.0.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Shop now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.1.0.0.0:@html:a",
+							"blockId": "core-1.1.1.0.0.0",
+							"path": "1.1.1.0.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Shop now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.2.0.0.0:@html:a",
+							"blockId": "core-1.1.2.0.0.0",
+							"path": "1.1.2.0.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Shop now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.0.0.0.0:@html:a",
+							"blockId": "core-1.2.0.0.0.0",
+							"path": "1.2.0.0.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Shop now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.0.0.0:@html:a",
+							"blockId": "core-1.2.1.0.0.0",
+							"path": "1.2.1.0.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Shop now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/featured-category"
+					]
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "dynamic",
+					"title": "New Products",
+					"slots": [
+						{
+							"id": "core-2.0.0:@html:h",
+							"blockId": "core-2.0.0",
+							"path": "2.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New Products",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.2.0:@html:a",
+							"blockId": "core-2.0.2.0",
+							"path": "2.0.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "View All Products",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-new"
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "cta",
+					"title": "Products that are 100 Years old",
+					"slots": [
+						{
+							"id": "core-3.0.0:@html:h",
+							"blockId": "core-3.0.0",
+							"path": "3.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Products that are 100 Years old",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.1:@html:p",
+							"blockId": "core-3.0.1",
+							"path": "3.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta onec rutrum . Rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta onec rutrum congue",
+							"rich": false,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.0:@html:a",
+							"blockId": "core-3.0.2.0",
+							"path": "3.0.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "dynamic",
+					"title": "Antique Buddha",
+					"slots": [
+						{
+							"id": "core-4.0.0:@html:h",
+							"blockId": "core-4.0.0",
+							"path": "4.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Antique Buddha",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.0:@html:a",
+							"blockId": "core-4.0.2.0",
+							"path": "4.0.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "View All Products",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/handpicked-products"
+					]
+				},
+				{
+					"id": "top-5",
+					"index": 5,
+					"path": "5",
+					"group": "top-5",
+					"role": "cta",
+					"title": "Ancient Musical Instrument",
+					"slots": [
+						{
+							"id": "core-5.0.0.0.1:@html:h",
+							"blockId": "core-5.0.0.0.1",
+							"path": "5.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Ancient Musical Instrument",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.0.0.0.2.0.0:@html:p",
+							"blockId": "core-5.0.0.0.2.0.0",
+							"path": "5.0.0.0.2.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta onec rutrum congue onec rutrum congue leo eget malesuada. Cras ultricies ligula sed",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.0.0.0.3.0:@html:a",
+							"blockId": "core-5.0.0.0.3.0",
+							"path": "5.0.0.0.3.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-6",
+					"index": 6,
+					"path": "6",
+					"group": "top-6",
+					"role": "gallery",
+					"title": "Connect with us @antique.store",
+					"slots": [
+						{
+							"id": "core-6.0.0.0:@html:h",
+							"blockId": "core-6.0.0.0",
+							"path": "6.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Connect with us @antique.store",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-6.0.0.1.0.0:@html:img",
+							"blockId": "core-6.0.0.1.0.0",
+							"path": "6.0.0.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta1.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Carved wooden Buddha face sculpture close-up",
+							"tone": {
+								"grid": [
+									0.1,
+									0.34,
+									0.22,
+									0.08,
+									0.23,
+									0.15,
+									0.07,
+									0.24,
+									0.1
+								],
+								"color": "#362824"
+							}
+						},
+						{
+							"id": "core-6.0.0.1.1.0:@html:img",
+							"blockId": "core-6.0.0.1.1.0",
+							"path": "6.0.0.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta2.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Stone Ganesha statue among garden plants",
+							"tone": {
+								"grid": [
+									0.16,
+									0.33,
+									0.34,
+									0.23,
+									0.26,
+									0.4,
+									0.15,
+									0.19,
+									0.25
+								],
+								"color": "#4b4038"
+							}
+						},
+						{
+							"id": "core-6.0.0.1.2.0:@html:img",
+							"blockId": "core-6.0.0.1.2.0",
+							"path": "6.0.0.1.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta3.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Carved wooden tribal mask with a grinning face",
+							"tone": {
+								"grid": [
+									0.05,
+									0.4,
+									0.07,
+									0.11,
+									0.31,
+									0.1,
+									0.01,
+									0.21,
+									0.02
+								],
+								"color": "#2f221c"
+							}
+						},
+						{
+							"id": "core-6.0.0.1.3.0:@html:img",
+							"blockId": "core-6.0.0.1.3.0",
+							"path": "6.0.0.1.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta4.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Antique brass gramophone horn in a dark room",
+							"tone": {
+								"grid": [
+									0.12,
+									0.15,
+									0.09,
+									0.25,
+									0.34,
+									0.15,
+									0.19,
+									0.31,
+									0.16
+								],
+								"color": "#3c311f"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Best Antique Products Varieties",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "dynamic",
+					"title": "Product Category",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "dynamic",
+					"title": "New Products",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "cta",
+					"title": "Products that are 100 Years old",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "dynamic",
+					"title": "Antique Buddha",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "top-5",
+					"role": "cta",
+					"title": "Ancient Musical Instrument",
+					"sectionIds": [
+						"top-5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-6",
+					"role": "gallery",
+					"title": "Connect with us @antique.store",
+					"sectionIds": [
+						"top-6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "At Antique, we’re providing the most ancient amazing sculptures and paintings, beautiful fiber arts and vintage memorabilia.",
+					"slots": [
+						{
+							"id": "core-0.0.1.0:@html:h",
+							"blockId": "core-0.0.1.0",
+							"path": "0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "At Antique, we’re providing the most ancient amazing sculptures and paintings, beautiful fiber arts and vintage memorabilia.",
+							"rich": true,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "content",
+					"title": "We believe Antique products are beautiful",
+					"slots": [
+						{
+							"id": "core-1.0.0.1:@html:h",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "We believe Antique products are beautiful",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.2:@html:p",
+							"blockId": "core-1.0.0.2",
+							"path": "1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Olla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.0.0.3:@html:p",
+							"blockId": "core-1.0.0.3",
+							"path": "1.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec rutrum congue leo eget malesuada.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.0.0.4:@html:p",
+							"blockId": "core-1.0.0.4",
+							"path": "1.0.0.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Pellentesque in ipsum id orci porta dapibus.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.0.2.1:@html:h",
+							"blockId": "core-1.0.2.1",
+							"path": "1.0.2.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Decorate with an Antique Style for antique feel.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.2.2:@html:p",
+							"blockId": "core-1.0.2.2",
+							"path": "1.0.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.0.2.3:@html:p",
+							"blockId": "core-1.0.2.3",
+							"path": "1.0.2.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla porttitor accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.",
+							"rich": false,
+							"words": 35,
+							"minWords": 21,
+							"maxWords": 44,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.0.2.4:@html:p",
+							"blockId": "core-1.0.2.4",
+							"path": "1.0.2.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Magna justo, lacinia eget consectetur sed, convallis at tellus. Pellentesque in ipsum id orci porta dapibus.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "gallery",
+					"title": "Connect with us @antique.store",
+					"slots": [
+						{
+							"id": "core-2.0.0.0:@html:h",
+							"blockId": "core-2.0.0.0",
+							"path": "2.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Connect with us @antique.store",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.0.1.0.0:@html:img",
+							"blockId": "core-2.0.0.1.0.0",
+							"path": "2.0.0.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta1.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Carved wooden Buddha face sculpture close-up",
+							"tone": {
+								"grid": [
+									0.1,
+									0.34,
+									0.22,
+									0.08,
+									0.23,
+									0.15,
+									0.07,
+									0.24,
+									0.1
+								],
+								"color": "#362824"
+							}
+						},
+						{
+							"id": "core-2.0.0.1.1.0:@html:img",
+							"blockId": "core-2.0.0.1.1.0",
+							"path": "2.0.0.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta2.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Stone Ganesha statue among garden plants",
+							"tone": {
+								"grid": [
+									0.16,
+									0.33,
+									0.34,
+									0.23,
+									0.26,
+									0.4,
+									0.15,
+									0.19,
+									0.25
+								],
+								"color": "#4b4038"
+							}
+						},
+						{
+							"id": "core-2.0.0.1.2.0:@html:img",
+							"blockId": "core-2.0.0.1.2.0",
+							"path": "2.0.0.1.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta3.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Carved wooden tribal mask with a grinning face",
+							"tone": {
+								"grid": [
+									0.05,
+									0.4,
+									0.07,
+									0.11,
+									0.31,
+									0.1,
+									0.01,
+									0.21,
+									0.02
+								],
+								"color": "#2f221c"
+							}
+						},
+						{
+							"id": "core-2.0.0.1.3.0:@html:img",
+							"blockId": "core-2.0.0.1.3.0",
+							"path": "2.0.0.1.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta4.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Antique brass gramophone horn in a dark room",
+							"tone": {
+								"grid": [
+									0.12,
+									0.15,
+									0.09,
+									0.25,
+									0.34,
+									0.15,
+									0.19,
+									0.31,
+									0.16
+								],
+								"color": "#3c311f"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "At Antique, we’re providing the most ancient amazing sculptures and paintings, beautiful fiber arts and vintage memorabilia.",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "content",
+					"title": "We believe Antique products are beautiful",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "gallery",
+					"title": "Connect with us @antique.store",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Where to Find us",
+					"slots": [
+						{
+							"id": "core-0.0.0.0.0:@html:h",
+							"blockId": "core-0.0.0.0.0",
+							"path": "0.0.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Where to Find us",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.1:@html:p",
+							"blockId": "core-0.0.0.0.1",
+							"path": "0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Want to get in touch? We’d love to hear from you. Here’s how you can reach us...",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.2:@html:h",
+							"blockId": "core-0.0.0.0.2",
+							"path": "0.0.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Address:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.3:@html:p",
+							"blockId": "core-0.0.0.0.3",
+							"path": "0.0.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "34 Atlantic Avenue, Boston, United States",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.4:@html:h",
+							"blockId": "core-0.0.0.0.4",
+							"path": "0.0.0.0.4",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Phone No.:",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.5:@html:p",
+							"blockId": "core-0.0.0.0.5",
+							"path": "0.0.0.0.5",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "(123) 456-7890, (987) 999-888",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.0.0.0.6:@html:h",
+							"blockId": "core-0.0.0.0.6",
+							"path": "0.0.0.0.6",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Email:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.7:@html:p",
+							"blockId": "core-0.0.0.0.7",
+							"path": "0.0.0.0.7",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "info@example.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.0.0.1.0:@html:img",
+							"blockId": "core-0.0.0.1.0",
+							"path": "0.0.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/antique-shop.jpg",
+							"decorative": false,
+							"width": 570,
+							"height": 720,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Antique shop storefront with a street lamp",
+							"tone": {
+								"grid": [
+									0.64,
+									0.6,
+									0.65,
+									0.43,
+									0.31,
+									0.46,
+									0.51,
+									0.38,
+									0.58
+								],
+								"color": "#8a8075"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "features",
+					"title": "Visit our Store",
+					"slots": [
+						{
+							"id": "core-1.0.0.0:@html:h",
+							"blockId": "core-1.0.0.0",
+							"path": "1.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Visit our Store",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.1:@html:p",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Find us at these locations.",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.0.0.0:@html:h",
+							"blockId": "core-1.0.1.0.0.0",
+							"path": "1.0.1.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Melbourne",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.0.0.1:@html:p",
+							"blockId": "core-1.0.1.0.0.1",
+							"path": "1.0.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "2972 Westheimer Rd.",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.0.0.2:@html:p",
+							"blockId": "core-1.0.1.0.0.2",
+							"path": "1.0.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Melbourne VIC 3000 AU",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.0.1.0:@html:h",
+							"blockId": "core-1.0.1.0.1.0",
+							"path": "1.0.1.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Sydney",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.0.1.1:@html:p",
+							"blockId": "core-1.0.1.0.1.1",
+							"path": "1.0.1.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "1896 Eastheimer Rd.",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.0.1.2:@html:p",
+							"blockId": "core-1.0.1.0.1.2",
+							"path": "1.0.1.0.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Sydney VIC 2000 AU",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.1.0.0:@html:h",
+							"blockId": "core-1.0.1.1.0.0",
+							"path": "1.0.1.1.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "London",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.1.0.1:@html:p",
+							"blockId": "core-1.0.1.1.0.1",
+							"path": "1.0.1.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "9856 Eastheimer Rd.",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.1.0.2:@html:p",
+							"blockId": "core-1.0.1.1.0.2",
+							"path": "1.0.1.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "London VIC 1000 AU",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.1.1.0:@html:h",
+							"blockId": "core-1.0.1.1.1.0",
+							"path": "1.0.1.1.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "San Francisco",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.1.1.1:@html:p",
+							"blockId": "core-1.0.1.1.1.1",
+							"path": "1.0.1.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "6578 Westheimer Rd.",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.1.1.2:@html:p",
+							"blockId": "core-1.0.1.1.1.2",
+							"path": "1.0.1.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "San Francisco VIC 5000 AU",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "gallery",
+					"title": "Connect with us @antique.store",
+					"slots": [
+						{
+							"id": "core-2.0.0.0:@html:h",
+							"blockId": "core-2.0.0.0",
+							"path": "2.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Connect with us @antique.store",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.0.1.0.0:@html:img",
+							"blockId": "core-2.0.0.1.0.0",
+							"path": "2.0.0.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta1.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Carved wooden Buddha face sculpture close-up",
+							"tone": {
+								"grid": [
+									0.1,
+									0.34,
+									0.22,
+									0.08,
+									0.23,
+									0.15,
+									0.07,
+									0.24,
+									0.1
+								],
+								"color": "#362824"
+							}
+						},
+						{
+							"id": "core-2.0.0.1.1.0:@html:img",
+							"blockId": "core-2.0.0.1.1.0",
+							"path": "2.0.0.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta2.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Stone Ganesha statue among garden plants",
+							"tone": {
+								"grid": [
+									0.16,
+									0.33,
+									0.34,
+									0.23,
+									0.26,
+									0.4,
+									0.15,
+									0.19,
+									0.25
+								],
+								"color": "#4b4038"
+							}
+						},
+						{
+							"id": "core-2.0.0.1.2.0:@html:img",
+							"blockId": "core-2.0.0.1.2.0",
+							"path": "2.0.0.1.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta3.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Carved wooden tribal mask with a grinning face",
+							"tone": {
+								"grid": [
+									0.05,
+									0.4,
+									0.07,
+									0.11,
+									0.31,
+									0.1,
+									0.01,
+									0.21,
+									0.02
+								],
+								"color": "#2f221c"
+							}
+						},
+						{
+							"id": "core-2.0.0.1.3.0:@html:img",
+							"blockId": "core-2.0.0.1.3.0",
+							"path": "2.0.0.1.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/insta4.jpg",
+							"decorative": false,
+							"width": 704,
+							"height": 704,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Antique brass gramophone horn in a dark room",
+							"tone": {
+								"grid": [
+									0.12,
+									0.15,
+									0.09,
+									0.25,
+									0.34,
+									0.15,
+									0.19,
+									0.31,
+									0.16
+								],
+								"color": "#3c311f"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Where to Find us",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "features",
+					"title": "Visit our Store",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "gallery",
+					"title": "Connect with us @antique.store",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "cart",
+			"title": "Cart",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/themegrill-demos/cart-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 14,
+		"textSlots": 53,
+		"editableSlots": 51,
+		"images": 13,
+		"swappableImages": 13,
+		"words": 361
+	},
+	"builtAt": "2026-10-24T11:35:07.924Z"
+}

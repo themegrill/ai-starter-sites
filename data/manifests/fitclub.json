@@ -1,5 +1,5 @@
 {
-	"version": 3,
+	"version": 4,
 	"slug": "fitclub",
 	"name": "FitClub",
 	"theme": "zakra",
@@ -540,7 +540,23 @@
 							"decorative": false,
 							"width": 1440,
 							"height": 800,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Muscular man standing in a dark gym",
+							"tone": {
+								"grid": [
+									0,
+									0.01,
+									0,
+									0,
+									0.08,
+									0.01,
+									0,
+									0.05,
+									0
+								],
+								"color": "#060404"
+							}
 						}
 					]
 				},
@@ -671,7 +687,23 @@
 							"decorative": false,
 							"width": 302,
 							"height": 445,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man doing a barbell row in a gym",
+							"tone": {
+								"grid": [
+									0.21,
+									0.27,
+									0.28,
+									0.16,
+									0.12,
+									0.13,
+									0.22,
+									0.16,
+									0.13
+								],
+								"color": "#322f2d"
+							}
 						},
 						{
 							"id": "83ecdee4:image.url",
@@ -684,7 +716,23 @@
 							"decorative": false,
 							"width": 276,
 							"height": 445,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Muscular man training with suspension straps in a gym",
+							"tone": {
+								"grid": [
+									0.41,
+									0.42,
+									0.6,
+									0.4,
+									0.28,
+									0.22,
+									0.21,
+									0.22,
+									0.24
+								],
+								"color": "#635349"
+							}
 						},
 						{
 							"id": "fdf471ae:image.url",
@@ -1178,7 +1226,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Kickboxer throwing a knee strike in a boxing ring",
+							"tone": {
+								"grid": [
+									0.04,
+									0.04,
+									0.05,
+									0.16,
+									0.3,
+									0.21,
+									0.15,
+									0.2,
+									0.16
+								],
+								"color": "#272522"
+							}
 						},
 						{
 							"id": "e6feb498:image.url",
@@ -1191,7 +1255,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in a cap lifting a dumbbell in a dark gym",
+							"tone": {
+								"grid": [
+									0.07,
+									0.13,
+									0.08,
+									0.12,
+									0.27,
+									0.2,
+									0.13,
+									0.15,
+									0.11
+								],
+								"color": "#272321"
+							}
 						},
 						{
 							"id": "73d6a383:image.url",
@@ -1204,7 +1284,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded man doing dumbbell curls in a gym",
+							"tone": {
+								"grid": [
+									0.14,
+									0.2,
+									0.17,
+									0.22,
+									0.26,
+									0.27,
+									0.16,
+									0.12,
+									0.16
+								],
+								"color": "#382e2a"
+							}
 						},
 						{
 							"id": "185219b3:image.url",
@@ -1217,7 +1313,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Kickboxer throwing a knee strike in a boxing ring",
+							"tone": {
+								"grid": [
+									0.04,
+									0.04,
+									0.05,
+									0.16,
+									0.3,
+									0.21,
+									0.15,
+									0.2,
+									0.16
+								],
+								"color": "#272522"
+							}
 						},
 						{
 							"id": "6eaeade4:image.url",
@@ -1230,7 +1342,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in a cap lifting a dumbbell in a dark gym",
+							"tone": {
+								"grid": [
+									0.07,
+									0.13,
+									0.08,
+									0.12,
+									0.27,
+									0.2,
+									0.13,
+									0.15,
+									0.11
+								],
+								"color": "#272321"
+							}
 						},
 						{
 							"id": "19db39c3:image.url",
@@ -1243,7 +1371,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded man doing dumbbell curls in a gym",
+							"tone": {
+								"grid": [
+									0.14,
+									0.2,
+									0.17,
+									0.22,
+									0.26,
+									0.27,
+									0.16,
+									0.12,
+									0.16
+								],
+								"color": "#382e2a"
+							}
 						}
 					]
 				},
@@ -1848,7 +1992,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 339,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Tattooed trainer standing confidently in a boxing ring",
+							"tone": {
+								"grid": [
+									0.16,
+									0.22,
+									0.16,
+									0.16,
+									0.22,
+									0.13,
+									0.11,
+									0.17,
+									0.12
+								],
+								"color": "#2b2825"
+							}
 						},
 						{
 							"id": "27ccacae:image.url",
@@ -1861,7 +2021,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 339,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Fit young man in a tank top in a dark gym",
+							"tone": {
+								"grid": [
+									0.12,
+									0.15,
+									0.08,
+									0.12,
+									0.12,
+									0.15,
+									0.06,
+									0.06,
+									0.07
+								],
+								"color": "#181a22"
+							}
 						},
 						{
 							"id": "3c9e2bf2:image.url",
@@ -1874,7 +2050,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 339,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Muscular man flexing in a gym",
+							"tone": {
+								"grid": [
+									0.24,
+									0.28,
+									0.42,
+									0.41,
+									0.37,
+									0.49,
+									0.38,
+									0.25,
+									0.44
+								],
+								"color": "#615c56"
+							}
 						}
 					]
 				},
@@ -1897,7 +2089,23 @@
 							"decorative": false,
 							"width": 419,
 							"height": 360,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman chalking her hands before a workout in a gym",
+							"tone": {
+								"grid": [
+									0.21,
+									0.21,
+									0.16,
+									0.48,
+									0.47,
+									0.28,
+									0.29,
+									0.27,
+									0.16
+								],
+								"color": "#484747"
+							}
 						},
 						{
 							"id": "74c5676a:image.url",
@@ -1910,7 +2118,23 @@
 							"decorative": false,
 							"width": 587,
 							"height": 360,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Man and woman training with battle ropes in a gym",
+							"tone": {
+								"grid": [
+									0.08,
+									0.08,
+									0.08,
+									0.25,
+									0.19,
+									0.22,
+									0.23,
+									0.14,
+									0.11
+								],
+								"color": "#2a2724"
+							}
 						},
 						{
 							"id": "fa0a354f:image.url",
@@ -1923,7 +2147,23 @@
 							"decorative": false,
 							"width": 587,
 							"height": 360,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Man doing a mountain climber exercise on a gym mat",
+							"tone": {
+								"grid": [
+									0.26,
+									0.25,
+									0.07,
+									0.39,
+									0.31,
+									0.11,
+									0.27,
+									0.24,
+									0.19
+								],
+								"color": "#373b3e"
+							}
 						},
 						{
 							"id": "4f915eee:image.url",
@@ -1936,7 +2176,23 @@
 							"decorative": false,
 							"width": 419,
 							"height": 360,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Two people fist-bumping on exercise bikes in a gym",
+							"tone": {
+								"grid": [
+									0.08,
+									0.08,
+									0.11,
+									0.05,
+									0.06,
+									0.06,
+									0.07,
+									0.09,
+									0.06
+								],
+								"color": "#121214"
+							}
 						},
 						{
 							"id": "56dbf123:image.url",
@@ -1949,7 +2205,23 @@
 							"decorative": false,
 							"width": 426,
 							"height": 724,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman doing a high kick in a dark gym",
+							"tone": {
+								"grid": [
+									0.1,
+									0.11,
+									0.07,
+									0.01,
+									0.08,
+									0.15,
+									0.02,
+									0.08,
+									0.04
+								],
+								"color": "#141311"
+							}
 						}
 					]
 				},
@@ -2560,7 +2832,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 450,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Shirtless boxer in a dark studio",
+							"tone": {
+								"grid": [
+									0,
+									0.15,
+									0,
+									0.12,
+									0.37,
+									0.02,
+									0.03,
+									0.06,
+									0.01
+								],
+								"color": "#191514"
+							}
 						},
 						{
 							"id": "760d16e8:image.url",
@@ -2573,7 +2861,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 450,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman riding an air bike in a gym with large windows",
+							"tone": {
+								"grid": [
+									0.25,
+									0.23,
+									0.14,
+									0.21,
+									0.22,
+									0.21,
+									0.11,
+									0.07,
+									0.07
+								],
+								"color": "#242c2a"
+							}
 						},
 						{
 							"id": "587755c7:image.url",
@@ -2586,7 +2890,23 @@
 							"decorative": false,
 							"width": 400,
 							"height": 400,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman doing sit-ups in a gym",
+							"tone": {
+								"grid": [
+									0.24,
+									0.41,
+									0.24,
+									0.14,
+									0.36,
+									0.32,
+									0.31,
+									0.28,
+									0.34
+								],
+								"color": "#4a4b49"
+							}
 						},
 						{
 							"id": "d1830e50:image.url",
@@ -2599,7 +2919,23 @@
 							"decorative": false,
 							"width": 400,
 							"height": 400,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman resting with a battle rope over her shoulder",
+							"tone": {
+								"grid": [
+									0.44,
+									0.26,
+									0.27,
+									0.41,
+									0.31,
+									0.28,
+									0.38,
+									0.23,
+									0.26
+								],
+								"color": "#4e514d"
+							}
 						},
 						{
 							"id": "7938a16a:image.url",
@@ -2612,7 +2948,23 @@
 							"decorative": false,
 							"width": 400,
 							"height": 400,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman boxing with gloves in a gym",
+							"tone": {
+								"grid": [
+									0.71,
+									0.51,
+									0.62,
+									0.36,
+									0.27,
+									0.42,
+									0.66,
+									0.16,
+									0.35
+								],
+								"color": "#777270"
+							}
 						}
 					]
 				},
@@ -2773,7 +3125,23 @@
 							"decorative": false,
 							"width": 555,
 							"height": 415,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Rows of dumbbells on racks in a gym",
+							"tone": {
+								"grid": [
+									0.21,
+									0.34,
+									0.39,
+									0.2,
+									0.23,
+									0.29,
+									0.09,
+									0.17,
+									0.26
+								],
+								"color": "#3f3e3a"
+							}
 						}
 					]
 				},
@@ -3249,7 +3617,23 @@
 							"decorative": false,
 							"width": 302,
 							"height": 445,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man doing a barbell row in a gym",
+							"tone": {
+								"grid": [
+									0.21,
+									0.27,
+									0.28,
+									0.16,
+									0.12,
+									0.13,
+									0.22,
+									0.16,
+									0.13
+								],
+								"color": "#322f2d"
+							}
 						},
 						{
 							"id": "9285b722:image.url",
@@ -3262,7 +3646,23 @@
 							"decorative": false,
 							"width": 276,
 							"height": 445,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Muscular man training with suspension straps in a gym",
+							"tone": {
+								"grid": [
+									0.41,
+									0.42,
+									0.6,
+									0.4,
+									0.28,
+									0.22,
+									0.21,
+									0.22,
+									0.24
+								],
+								"color": "#635349"
+							}
 						},
 						{
 							"id": "63f50f94:image.url",
@@ -4678,7 +5078,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Kickboxer throwing a knee strike in a boxing ring",
+							"tone": {
+								"grid": [
+									0.04,
+									0.04,
+									0.05,
+									0.16,
+									0.3,
+									0.21,
+									0.15,
+									0.2,
+									0.16
+								],
+								"color": "#272522"
+							}
 						},
 						{
 							"id": "9c4a2cd9:image.url",
@@ -4691,7 +5107,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in a cap lifting a dumbbell in a dark gym",
+							"tone": {
+								"grid": [
+									0.07,
+									0.13,
+									0.08,
+									0.12,
+									0.27,
+									0.2,
+									0.13,
+									0.15,
+									0.11
+								],
+								"color": "#272321"
+							}
 						},
 						{
 							"id": "661a3436:image.url",
@@ -4704,7 +5136,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded man doing dumbbell curls in a gym",
+							"tone": {
+								"grid": [
+									0.14,
+									0.2,
+									0.17,
+									0.22,
+									0.26,
+									0.27,
+									0.16,
+									0.12,
+									0.16
+								],
+								"color": "#382e2a"
+							}
 						},
 						{
 							"id": "4652d763:image.url",
@@ -4717,7 +5165,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Kickboxer throwing a knee strike in a boxing ring",
+							"tone": {
+								"grid": [
+									0.04,
+									0.04,
+									0.05,
+									0.16,
+									0.3,
+									0.21,
+									0.15,
+									0.2,
+									0.16
+								],
+								"color": "#272522"
+							}
 						},
 						{
 							"id": "7d9e932c:image.url",
@@ -4730,7 +5194,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in a cap lifting a dumbbell in a dark gym",
+							"tone": {
+								"grid": [
+									0.07,
+									0.13,
+									0.08,
+									0.12,
+									0.27,
+									0.2,
+									0.13,
+									0.15,
+									0.11
+								],
+								"color": "#272321"
+							}
 						},
 						{
 							"id": "60a400be:image.url",
@@ -4743,7 +5223,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 452,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded man doing dumbbell curls in a gym",
+							"tone": {
+								"grid": [
+									0.14,
+									0.2,
+									0.17,
+									0.22,
+									0.26,
+									0.27,
+									0.16,
+									0.12,
+									0.16
+								],
+								"color": "#382e2a"
+							}
 						}
 					]
 				},
@@ -4889,7 +5385,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 339,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Tattooed trainer standing confidently in a boxing ring",
+							"tone": {
+								"grid": [
+									0.16,
+									0.22,
+									0.16,
+									0.16,
+									0.22,
+									0.13,
+									0.11,
+									0.17,
+									0.12
+								],
+								"color": "#2b2825"
+							}
 						},
 						{
 							"id": "27ccacae:image.url",
@@ -4902,7 +5414,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 339,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Fit young man in a tank top in a dark gym",
+							"tone": {
+								"grid": [
+									0.12,
+									0.15,
+									0.08,
+									0.12,
+									0.12,
+									0.15,
+									0.06,
+									0.06,
+									0.07
+								],
+								"color": "#181a22"
+							}
 						},
 						{
 							"id": "3c9e2bf2:image.url",
@@ -4915,7 +5443,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 339,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Muscular man flexing in a gym",
+							"tone": {
+								"grid": [
+									0.24,
+									0.28,
+									0.42,
+									0.41,
+									0.37,
+									0.49,
+									0.38,
+									0.25,
+									0.44
+								],
+								"color": "#615c56"
+							}
 						}
 					]
 				}
@@ -5171,5 +5715,5 @@
 		"swappableImages": 34,
 		"words": 1013
 	},
-	"builtAt": "2026-10-07T13:48:43.363Z"
+	"builtAt": "2026-10-24T11:35:07.817Z"
 }

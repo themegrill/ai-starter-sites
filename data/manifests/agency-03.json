@@ -1,5 +1,5 @@
 {
-	"version": 3,
+	"version": 4,
 	"slug": "agency-03",
 	"name": "Zakra Agency",
 	"theme": "zakra",
@@ -422,7 +422,23 @@
 							"decorative": false,
 							"width": 1158,
 							"height": 1006,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Flat illustration of a person arranging a website layout on a screen",
+							"tone": {
+								"grid": [
+									0.98,
+									0.97,
+									0.98,
+									0.72,
+									0.9,
+									0.95,
+									0.73,
+									0.97,
+									0.95
+								],
+								"color": "#e0e9e6"
+							}
 						}
 					]
 				},
@@ -679,7 +695,23 @@
 							"decorative": false,
 							"width": 1525,
 							"height": 1039,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling man in a white shirt on the phone at his desk with a laptop",
+							"tone": {
+								"grid": [
+									0.62,
+									0.64,
+									0.62,
+									0.57,
+									0.77,
+									0.56,
+									0.56,
+									0.58,
+									0.61
+								],
+								"color": "#ac9b86"
+							}
 						}
 					]
 				},
@@ -744,7 +776,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 730,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling woman sitting under a whiteboard of sketched ideas, holding up a lightbulb drawing",
+							"tone": {
+								"grid": [
+									0.79,
+									0.84,
+									0.86,
+									0.73,
+									0.67,
+									0.86,
+									0.71,
+									0.5,
+									0.78
+								],
+								"color": "#bcc0c2"
+							}
 						},
 						{
 							"id": "043d5184:image.url",
@@ -757,7 +805,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 730,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Minimal dark product box on a black background",
+							"tone": {
+								"grid": [
+									0.01,
+									0,
+									0,
+									0.05,
+									0.15,
+									0,
+									0.01,
+									0.13,
+									0.02
+								],
+								"color": "#0a0a0b"
+							}
 						},
 						{
 							"id": "945e1eee:image.url",
@@ -770,7 +834,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 730,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Website wireframe sketches in a notebook with pens and a phone",
+							"tone": {
+								"grid": [
+									0.69,
+									0.88,
+									0.73,
+									0.41,
+									0.85,
+									0.84,
+									0.33,
+									0.63,
+									0.72
+								],
+								"color": "#bda7ab"
+							}
 						},
 						{
 							"id": "4cf51b56:image.url",
@@ -783,7 +863,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 730,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Abstract glowing blue rings on a black background",
+							"tone": {
+								"grid": [
+									0.01,
+									0.03,
+									0.01,
+									0.03,
+									0.07,
+									0.03,
+									0.01,
+									0.05,
+									0.01
+								],
+								"color": "#010810"
+							}
 						}
 					]
 				},
@@ -806,7 +902,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 730,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Flat lay of a speaker, phone, watch, glasses and art supplies on black",
+							"tone": {
+								"grid": [
+									0.1,
+									0.08,
+									0.08,
+									0.1,
+									0.17,
+									0.11,
+									0.05,
+									0.14,
+									0.07
+								],
+								"color": "#1a1919"
+							}
 						},
 						{
 							"id": "6fe2131a:image.url",
@@ -819,7 +931,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 730,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Designer's desk with two large monitors showing design work",
+							"tone": {
+								"grid": [
+									0.65,
+									0.62,
+									0.6,
+									0.65,
+									0.48,
+									0.3,
+									0.67,
+									0.65,
+									0.63
+								],
+								"color": "#989491"
+							}
 						},
 						{
 							"id": "9b40cd6d:image.url",
@@ -832,7 +960,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 730,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Abstract white 3D spiral shape on a black background",
+							"tone": {
+								"grid": [
+									0.02,
+									0.16,
+									0.02,
+									0.07,
+									0.55,
+									0.06,
+									0,
+									0.06,
+									0
+								],
+								"color": "#1a1b1c"
+							}
 						},
 						{
 							"id": "8b4044ea:image.url",
@@ -845,7 +989,23 @@
 							"decorative": false,
 							"width": 900,
 							"height": 730,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Hands typing on a keyboard on a desk covered with creative posters and flowers",
+							"tone": {
+								"grid": [
+									0.83,
+									0.86,
+									0.76,
+									0.75,
+									0.57,
+									0.6,
+									0.76,
+									0.44,
+									0.7
+								],
+								"color": "#b9afaf"
+							}
 						}
 					]
 				},
@@ -1545,7 +1705,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 963,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man resting his chin on his hand, looking at the camera",
+							"tone": {
+								"grid": [
+									0.26,
+									0.36,
+									0.22,
+									0.36,
+									0.51,
+									0.27,
+									0.42,
+									0.28,
+									0.36
+								],
+								"color": "#635351"
+							}
 						},
 						{
 							"id": "0737a8cb:image.url",
@@ -1558,7 +1734,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 963,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young woman with long hair and round glasses, headshot",
+							"tone": {
+								"grid": [
+									0.14,
+									0.45,
+									0.25,
+									0.18,
+									0.62,
+									0.23,
+									0.33,
+									0.52,
+									0.27
+								],
+								"color": "#704f43"
+							}
 						},
 						{
 							"id": "ed4ecf40:image.url",
@@ -1571,7 +1763,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 963,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man with curly hair in a red jacket, headshot",
+							"tone": {
+								"grid": [
+									0.12,
+									0.22,
+									0.58,
+									0.18,
+									0.42,
+									0.62,
+									0.26,
+									0.25,
+									0.57
+								],
+								"color": "#72564d"
+							}
 						},
 						{
 							"id": "1af5d084:image.url",
@@ -1584,7 +1792,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 963,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling woman with glasses resting her chin on her hand",
+							"tone": {
+								"grid": [
+									0.54,
+									0.35,
+									0.54,
+									0.51,
+									0.38,
+									0.32,
+									0.25,
+									0.39,
+									0.16
+								],
+								"color": "#686061"
+							}
 						}
 					]
 				},
@@ -1743,7 +1967,23 @@
 							"decorative": false,
 							"width": 146,
 							"height": 146,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman with short blonde hair, headshot",
+							"tone": {
+								"grid": [
+									0.83,
+									0.75,
+									0.88,
+									0.76,
+									0.6,
+									0.83,
+									0.58,
+									0.66,
+									0.71
+								],
+								"color": "#c2b9b3"
+							}
 						},
 						{
 							"id": "d9a44951:image.url",
@@ -1756,7 +1996,23 @@
 							"decorative": false,
 							"width": 146,
 							"height": 146,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man with short dark hair and a beard, headshot",
+							"tone": {
+								"grid": [
+									0.79,
+									0.58,
+									0.75,
+									0.8,
+									0.62,
+									0.76,
+									0.79,
+									0.5,
+									0.77
+								],
+								"color": "#bab3b2"
+							}
 						}
 					]
 				},
@@ -2199,7 +2455,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 534,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Letter tiles spelling digital marketing next to a phone",
+							"tone": {
+								"grid": [
+									0.94,
+									0.97,
+									0.97,
+									0.95,
+									0.91,
+									0.92,
+									0.93,
+									0.97,
+									0.79
+								],
+								"color": "#edecf0"
+							}
 						},
 						{
 							"id": "e64f8e77:image.url",
@@ -2212,7 +2484,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 534,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Person in a suit reading a business newspaper",
+							"tone": {
+								"grid": [
+									0.74,
+									0.67,
+									0.69,
+									0.75,
+									0.72,
+									0.35,
+									0.59,
+									0.45,
+									0.3
+								],
+								"color": "#9c948e"
+							}
 						},
 						{
 							"id": "a35a53e4:image.url",
@@ -2225,7 +2513,23 @@
 							"decorative": false,
 							"width": 700,
 							"height": 467,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Bitcoin coins on top of dollar bills",
+							"tone": {
+								"grid": [
+									0.43,
+									0.46,
+									0.41,
+									0.42,
+									0.45,
+									0.46,
+									0.55,
+									0.52,
+									0.4
+								],
+								"color": "#7c7466"
+							}
 						},
 						{
 							"id": "73ad3e15:image.url",
@@ -2238,7 +2542,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 533,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Speaker presenting to an audience in a lecture hall",
+							"tone": {
+								"grid": [
+									0.6,
+									0.56,
+									0.49,
+									0.65,
+									0.43,
+									0.41,
+									0.62,
+									0.78,
+									0.61
+								],
+								"color": "#8c948c"
+							}
 						}
 					]
 				},
@@ -2719,7 +3039,23 @@
 							"decorative": false,
 							"width": 1200,
 							"height": 707,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Team stacking hands together over a meeting table",
+							"tone": {
+								"grid": [
+									0.55,
+									0.58,
+									0.56,
+									0.41,
+									0.28,
+									0.36,
+									0.54,
+									0.43,
+									0.2
+								],
+								"color": "#776d67"
+							}
 						}
 					]
 				},
@@ -3123,7 +3459,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 963,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man resting his chin on his hand, looking at the camera",
+							"tone": {
+								"grid": [
+									0.26,
+									0.36,
+									0.22,
+									0.36,
+									0.51,
+									0.27,
+									0.42,
+									0.28,
+									0.36
+								],
+								"color": "#635351"
+							}
 						},
 						{
 							"id": "0737a8cb:image.url",
@@ -3136,7 +3488,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 963,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young woman with long hair and round glasses, headshot",
+							"tone": {
+								"grid": [
+									0.14,
+									0.45,
+									0.25,
+									0.18,
+									0.62,
+									0.23,
+									0.33,
+									0.52,
+									0.27
+								],
+								"color": "#704f43"
+							}
 						},
 						{
 							"id": "ed4ecf40:image.url",
@@ -3149,7 +3517,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 963,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man with curly hair in a red jacket, headshot",
+							"tone": {
+								"grid": [
+									0.12,
+									0.22,
+									0.58,
+									0.18,
+									0.42,
+									0.62,
+									0.26,
+									0.25,
+									0.57
+								],
+								"color": "#72564d"
+							}
 						},
 						{
 							"id": "1af5d084:image.url",
@@ -3162,7 +3546,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 963,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling woman with glasses resting her chin on her hand",
+							"tone": {
+								"grid": [
+									0.54,
+									0.35,
+									0.54,
+									0.51,
+									0.38,
+									0.32,
+									0.25,
+									0.39,
+									0.16
+								],
+								"color": "#686061"
+							}
 						}
 					]
 				},
@@ -3722,7 +4122,23 @@
 							"decorative": false,
 							"width": 800,
 							"height": 151,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Green coiled telephone cord",
+							"tone": {
+								"grid": [
+									0.96,
+									0.86,
+									0.76,
+									0.62,
+									0.78,
+									0.96,
+									0.91,
+									0.89,
+									1
+								],
+								"color": "#c4e3d5"
+							}
 						}
 					]
 				},
@@ -3936,5 +4352,5 @@
 		"swappableImages": 26,
 		"words": 933
 	},
-	"builtAt": "2026-10-07T13:48:43.392Z"
+	"builtAt": "2026-10-24T11:35:07.835Z"
 }

@@ -1,0 +1,4434 @@
+{
+	"version": 4,
+	"slug": "startup-business-v2",
+	"name": "Startup Business V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-startup-business-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/startup-business-v2",
+	"niches": [
+		"startup",
+		"business",
+		"technology"
+	],
+	"keywords": [
+		"startup",
+		"saas",
+		"tech company",
+		"app",
+		"software",
+		"business",
+		"hosting",
+		"it services"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#1cb5e0",
+				"count": 92,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 29,
+					"background": 7,
+					"border": 19
+				}
+			},
+			{
+				"hex": "#111111",
+				"count": 78,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 70
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 64,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 32,
+					"background": 24
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 19,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 12
+				}
+			},
+			{
+				"hex": "#3e3e3e",
+				"count": 16,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 14
+				}
+			},
+			{
+				"hex": "#1bb6e0",
+				"count": 7,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": -0.002,
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 4,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#aadae7",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": 0.292
+			},
+			{
+				"hex": "#000000",
+				"count": 3,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#aaaaaa",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#9accdb",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": 0.237
+			},
+			{
+				"hex": "#b2e0ed",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": 0.32,
+				"usage": {
+					"border": 3
+				}
+			},
+			{
+				"hex": "#189fc4",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": -0.063,
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": -0.124
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#acdbe8",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": 0.298
+			},
+			{
+				"hex": "#c3ebf6",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": 0.371
+			},
+			{
+				"hex": "#c1eaf5",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#1cb5e0",
+				"lightnessDelta": 0.365
+			},
+			{
+				"hex": "#cfcfcf",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#27272a",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#1cb5e0",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 22,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#1cb5e0",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1cb5e0",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1cb5e0",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 4,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#189fc4",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#27272a",
+				"bg": "#1cb5e0",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Catamaran",
+			"body": "Catamaran",
+			"map": {
+				"Catamaran": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "sample-page",
+			"title": "Sample Page",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/themegrill-demos/sample-page-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "577fd300",
+					"index": 0,
+					"path": "0",
+					"group": "577fd300",
+					"role": "hero",
+					"title": "Time to start your business website",
+					"slots": [
+						{
+							"id": "f0e295bf:text",
+							"blockId": "f0e295bf",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Time to start your business website",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "365a8c29:text",
+							"blockId": "365a8c29",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b88bf2ec:text",
+							"blockId": "b88bf2ec",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get in touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "577fd300:background.image.image.url",
+							"blockId": "577fd300",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Group-238.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 848,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Man presenting on stage behind a lectern with blue overlay",
+							"tone": {
+								"grid": [
+									0.53,
+									0.37,
+									0.23,
+									0.51,
+									0.35,
+									0.19,
+									0.49,
+									0.34,
+									0.19
+								],
+								"color": "#236595"
+							}
+						}
+					]
+				},
+				{
+					"id": "4efe6050",
+					"index": 1,
+					"path": "1",
+					"group": "4efe6050",
+					"role": "content",
+					"title": "Awesome Features That We Provide",
+					"slots": [
+						{
+							"id": "cd5120b1:text",
+							"blockId": "cd5120b1",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Awesome Features That We Provide",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "451121a9:text",
+							"blockId": "451121a9",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7ee7f4ff:text",
+							"blockId": "7ee7f4ff",
+							"path": "1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e277cdd0:text",
+							"blockId": "e277cdd0",
+							"path": "1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "User Friendly",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09e38fdd:text",
+							"blockId": "09e38fdd",
+							"path": "1.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Fast Loading",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "314b73a0:text",
+							"blockId": "314b73a0",
+							"path": "1.1.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Analytics",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5b7d8a95:text",
+							"blockId": "5b7d8a95",
+							"path": "1.1.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Chat Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "dbe1a636:image.url",
+							"blockId": "dbe1a636",
+							"path": "1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/icon-1.png",
+							"decorative": true,
+							"width": 128,
+							"height": 128,
+							"orientation": "square"
+						},
+						{
+							"id": "cc0b5ef6:image.url",
+							"blockId": "cc0b5ef6",
+							"path": "1.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/icon-2.png",
+							"decorative": true,
+							"width": 128,
+							"height": 128,
+							"orientation": "square"
+						},
+						{
+							"id": "ea3f7405:image.url",
+							"blockId": "ea3f7405",
+							"path": "1.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/icon-3.png",
+							"decorative": true,
+							"width": 128,
+							"height": 128,
+							"orientation": "square"
+						},
+						{
+							"id": "ed4bfced:image.url",
+							"blockId": "ed4bfced",
+							"path": "1.1.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/icon-4.png",
+							"decorative": true,
+							"width": 128,
+							"height": 128,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "488a0bd0",
+					"index": 2,
+					"path": "2",
+					"group": "488a0bd0",
+					"role": "content",
+					"title": "Why to Choose Us",
+					"slots": [
+						{
+							"id": "fe85c6fa:text",
+							"blockId": "fe85c6fa",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Why to Choose Us",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "95f70a88:text",
+							"blockId": "95f70a88",
+							"path": "2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "553735fc:text",
+							"blockId": "553735fc",
+							"path": "2.1.3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "99bc8c2d:text",
+							"blockId": "99bc8c2d",
+							"path": "2.1.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "586e6456:text",
+							"blockId": "586e6456",
+							"path": "2.1.3.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2c2bdd7c:text",
+							"blockId": "2c2bdd7c",
+							"path": "2.1.3.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "3c75bad4:image.url",
+							"blockId": "3c75bad4",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/NoPath-Copy-9.png",
+							"decorative": false,
+							"width": 500,
+							"height": 630,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Team working with laptops and tablets around a table, overhead view",
+							"tone": {
+								"grid": [
+									0.82,
+									0.43,
+									0.43,
+									0.5,
+									0.35,
+									0.41,
+									0.5,
+									0.41,
+									0.3
+								],
+								"color": "#82736a"
+							}
+						},
+						{
+							"id": "bbbb9990:image.url",
+							"blockId": "bbbb9990",
+							"path": "2.1.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/11/Vector.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "642e7634:image.url",
+							"blockId": "642e7634",
+							"path": "2.1.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/11/Vector.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "a58c825f:image.url",
+							"blockId": "a58c825f",
+							"path": "2.1.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/11/Vector.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						},
+						{
+							"id": "36521950:image.url",
+							"blockId": "36521950",
+							"path": "2.1.3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/11/Vector.png",
+							"decorative": true,
+							"width": 24,
+							"height": 24,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "32b97c2a",
+					"index": 3,
+					"path": "3",
+					"group": "32b97c2a",
+					"role": "content",
+					"title": "Our Amazing Portfolio",
+					"slots": [
+						{
+							"id": "43a14d26:text",
+							"blockId": "43a14d26",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Amazing Portfolio",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9423469f:text",
+							"blockId": "9423469f",
+							"path": "3.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c6953ff8:text",
+							"blockId": "c6953ff8",
+							"path": "3.0.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Marketing",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4efb7ade:text",
+							"blockId": "4efb7ade",
+							"path": "3.0.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Caligraphy",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5e052124:text",
+							"blockId": "5e052124",
+							"path": "3.0.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Software Development",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9d533329:text",
+							"blockId": "9d533329",
+							"path": "3.0.2.3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Team Management",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ac09495c:text",
+							"blockId": "ac09495c",
+							"path": "3.0.3.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Leadership",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a8f48065:text",
+							"blockId": "a8f48065",
+							"path": "3.0.3.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Photography",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5188807b:text",
+							"blockId": "5188807b",
+							"path": "3.0.3.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Seminar",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d49721fe:text",
+							"blockId": "d49721fe",
+							"path": "3.0.3.3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Inspiration Speech",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0a1426f1",
+					"index": 4,
+					"path": "4",
+					"group": "0a1426f1",
+					"role": "pricing",
+					"title": "Best Pricing Plans",
+					"slots": [
+						{
+							"id": "ec778954:text",
+							"blockId": "ec778954",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Best Pricing Plans",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "df4a801a:text",
+							"blockId": "df4a801a",
+							"path": "4.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "a3316791",
+					"index": 5,
+					"path": "5",
+					"group": "0a1426f1",
+					"role": "pricing",
+					"title": "PERSONAL",
+					"slots": [
+						{
+							"id": "c7e103c5:text",
+							"blockId": "c7e103c5",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PERSONAL",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d6382356:text",
+							"blockId": "d6382356",
+							"path": "5.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$",
+							"rich": true,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "f4141329:text",
+							"blockId": "f4141329",
+							"path": "5.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "9.99",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "361b683d:text",
+							"blockId": "361b683d",
+							"path": "5.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "/ month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51b3fd94:text",
+							"blockId": "51b3fd94",
+							"path": "5.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f87b5260:text",
+							"blockId": "f87b5260",
+							"path": "5.0.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Website",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a192be30:text",
+							"blockId": "a192be30",
+							"path": "5.0.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5+ Demos",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af5fda71:text",
+							"blockId": "af5fda71",
+							"path": "5.0.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Updates",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d7ef9958:text",
+							"blockId": "d7ef9958",
+							"path": "5.0.8",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Support",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "519b35be:text",
+							"blockId": "519b35be",
+							"path": "5.0.9.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a95ac40b:text",
+							"blockId": "a95ac40b",
+							"path": "5.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "STANDARD",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "22bbc99d:text",
+							"blockId": "22bbc99d",
+							"path": "5.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$",
+							"rich": true,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "76b33598:text",
+							"blockId": "76b33598",
+							"path": "5.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "29.9",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "be3d6967:text",
+							"blockId": "be3d6967",
+							"path": "5.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "/ month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8cdac946:text",
+							"blockId": "8cdac946",
+							"path": "5.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5a973d69:text",
+							"blockId": "5a973d69",
+							"path": "5.1.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Website",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5516a09d:text",
+							"blockId": "5516a09d",
+							"path": "5.1.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5+ Demos",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b4be3bb:text",
+							"blockId": "7b4be3bb",
+							"path": "5.1.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Updates",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "362290a1:text",
+							"blockId": "362290a1",
+							"path": "5.1.8",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Support",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "25e58389:text",
+							"blockId": "25e58389",
+							"path": "5.1.9.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36290995:text",
+							"blockId": "36290995",
+							"path": "5.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ENTERPRISE",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1b670928:text",
+							"blockId": "1b670928",
+							"path": "5.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$",
+							"rich": true,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "b726aa2b:text",
+							"blockId": "b726aa2b",
+							"path": "5.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "59.9",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "6eaa7e0b:text",
+							"blockId": "6eaa7e0b",
+							"path": "5.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "/ month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "468c45db:text",
+							"blockId": "468c45db",
+							"path": "5.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "75f56bb3:text",
+							"blockId": "75f56bb3",
+							"path": "5.2.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Website",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "696695a7:text",
+							"blockId": "696695a7",
+							"path": "5.2.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5+ Demos",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf5a4869:text",
+							"blockId": "cf5a4869",
+							"path": "5.2.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Updates",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e3832c33:text",
+							"blockId": "e3832c33",
+							"path": "5.2.8",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Support",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "519b35be~1:text",
+							"blockId": "519b35be~1",
+							"path": "5.2.9.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "d107f599",
+					"index": 6,
+					"path": "6",
+					"group": "d107f599",
+					"role": "team",
+					"title": "Meet Our Experts",
+					"slots": [
+						{
+							"id": "0f6c3c9d:text",
+							"blockId": "0f6c3c9d",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Meet Our Experts",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf595dc2:text",
+							"blockId": "cf595dc2",
+							"path": "6.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8b276759:text",
+							"blockId": "8b276759",
+							"path": "6.0.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jason Jack",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7cf3e34b:text",
+							"blockId": "7cf3e34b",
+							"path": "6.0.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Chairman",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2044f75e:text",
+							"blockId": "2044f75e",
+							"path": "6.0.2.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "706c9a4c:text",
+							"blockId": "706c9a4c",
+							"path": "6.0.2.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Alisa Rae",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eed112f6:text",
+							"blockId": "eed112f6",
+							"path": "6.0.2.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Marketing Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "447128ac:text",
+							"blockId": "447128ac",
+							"path": "6.0.2.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "df263278:text",
+							"blockId": "df263278",
+							"path": "6.0.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Letha Franecki",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c85d3bc2:text",
+							"blockId": "c85d3bc2",
+							"path": "6.0.2.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Developer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7f9e786c:text",
+							"blockId": "7f9e786c",
+							"path": "6.0.2.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "c91c89a6:image.url",
+							"blockId": "c91c89a6",
+							"path": "6.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/team-1.png",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young man in a dark jacket, headshot",
+							"tone": {
+								"grid": [
+									0.25,
+									0.17,
+									0.14,
+									0.32,
+									0.4,
+									0.09,
+									0.33,
+									0.49,
+									0.1
+								],
+								"color": "#434043"
+							}
+						},
+						{
+							"id": "de556a1d:image.url",
+							"blockId": "de556a1d",
+							"path": "6.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/team-2.png",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young woman with long hair on a black background",
+							"tone": {
+								"grid": [
+									0.06,
+									0.1,
+									0.06,
+									0.07,
+									0.41,
+									0.08,
+									0.07,
+									0.18,
+									0.07
+								],
+								"color": "#241e16"
+							}
+						},
+						{
+							"id": "a1953e49:image.url",
+							"blockId": "a1953e49",
+							"path": "6.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/team-3.png",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Thoughtful young Black man with hand on chin",
+							"tone": {
+								"grid": [
+									0.17,
+									0.18,
+									0.14,
+									0.2,
+									0.36,
+									0.17,
+									0.25,
+									0.28,
+									0.2
+								],
+								"color": "#413532"
+							}
+						}
+					]
+				},
+				{
+					"id": "89de4648",
+					"index": 7,
+					"path": "7",
+					"group": "89de4648",
+					"role": "stats",
+					"title": "PROJECTS COMPLETED",
+					"slots": [
+						{
+							"id": "f2717074:text",
+							"blockId": "f2717074",
+							"path": "7.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "3K",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "c7ea6599:text",
+							"blockId": "c7ea6599",
+							"path": "7.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "PROJECTS COMPLETED",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "38d9c692:text",
+							"blockId": "38d9c692",
+							"path": "7.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "3.1K",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "5d662247:text",
+							"blockId": "5d662247",
+							"path": "7.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "PROJECTS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "43c9b71d:text",
+							"blockId": "43c9b71d",
+							"path": "7.0.0.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "2.9K",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "8d353c94:text",
+							"blockId": "8d353c94",
+							"path": "7.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "HAPPY CLIENTS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "45776a2b:text",
+							"blockId": "45776a2b",
+							"path": "7.0.0.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "49",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "2de8e879:text",
+							"blockId": "2de8e879",
+							"path": "7.0.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "AWARD WINNING",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "89de4648:background.image.image.url",
+							"blockId": "89de4648",
+							"path": "7",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Group-238.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 456,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Large audience at a conference with blue overlay",
+							"tone": {
+								"grid": [
+									0.46,
+									0.36,
+									0.18,
+									0.43,
+									0.32,
+									0.15,
+									0.43,
+									0.3,
+									0.13
+								],
+								"color": "#1f5784"
+							}
+						}
+					]
+				},
+				{
+					"id": "c0374dfe",
+					"index": 8,
+					"path": "8",
+					"group": "c0374dfe",
+					"role": "testimonials",
+					"title": "Happy Clients Says",
+					"slots": [
+						{
+							"id": "4bf010d7:text",
+							"blockId": "4bf010d7",
+							"path": "8.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Happy Clients Says",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9c68b65:text",
+							"blockId": "a9c68b65",
+							"path": "8.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "9b2b3211",
+					"index": 9,
+					"path": "9",
+					"group": "9b2b3211",
+					"role": "testimonials",
+					"title": "Jason Jack",
+					"slots": [
+						{
+							"id": "2b4b7717:text",
+							"blockId": "2b4b7717",
+							"path": "9.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "02ed825b:text",
+							"blockId": "02ed825b",
+							"path": "9.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Jason Jack",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7fa8cc8:text",
+							"blockId": "c7fa8cc8",
+							"path": "9.1.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Chairman",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "45423fb0:image.url",
+							"blockId": "45423fb0",
+							"path": "9.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/client.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "4adfc747",
+					"index": 10,
+					"path": "10",
+					"group": "9b2b3211",
+					"role": "posts",
+					"title": "Latest Blog",
+					"slots": [
+						{
+							"id": "de1de6bc:text",
+							"blockId": "de1de6bc",
+							"path": "10.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest Blog",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa12b74a:text",
+							"blockId": "aa12b74a",
+							"path": "10.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e417ac9b:text",
+							"blockId": "e417ac9b",
+							"path": "10.0.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Digital Marketing",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "85d6b2bd:text",
+							"blockId": "85d6b2bd",
+							"path": "10.0.2.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "June 24, 2023 |",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d2a740a8:text",
+							"blockId": "d2a740a8",
+							"path": "10.0.2.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Marketing",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ed235ed:text",
+							"blockId": "8ed235ed",
+							"path": "10.0.2.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2d364479:text",
+							"blockId": "2d364479",
+							"path": "10.0.2.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Business Seminar",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9550ccbf:text",
+							"blockId": "9550ccbf",
+							"path": "10.0.2.1.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "June 24, 2020 |",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb6cfa4e:text",
+							"blockId": "bb6cfa4e",
+							"path": "10.0.2.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Business",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba4bc739:text",
+							"blockId": "ba4bc739",
+							"path": "10.0.2.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2de06acb:text",
+							"blockId": "2de06acb",
+							"path": "10.0.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "World Startup Meeting",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "25f88da6:text",
+							"blockId": "25f88da6",
+							"path": "10.0.2.2.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "June 24, 2020 |",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "85ddbaf4:text",
+							"blockId": "85ddbaf4",
+							"path": "10.0.2.2.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Business",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "53e7bba8:text",
+							"blockId": "53e7bba8",
+							"path": "10.0.2.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.Lorem",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "e7eea64c:image.url",
+							"blockId": "e7eea64c",
+							"path": "10.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/blog-post-a.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Scrabble tiles spelling digital marketing next to a phone",
+							"tone": {
+								"grid": [
+									0.94,
+									0.97,
+									0.97,
+									0.95,
+									0.92,
+									0.92,
+									0.93,
+									0.97,
+									0.8
+								],
+								"color": "#ededf0"
+							}
+						},
+						{
+							"id": "2f99b3b9:image.url",
+							"blockId": "2f99b3b9",
+							"path": "10.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/blog-post-d.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Speaker presenting to an audience in a lecture hall",
+							"tone": {
+								"grid": [
+									0.61,
+									0.56,
+									0.49,
+									0.64,
+									0.43,
+									0.41,
+									0.62,
+									0.78,
+									0.61
+								],
+								"color": "#8c958c"
+							}
+						},
+						{
+							"id": "2cfea04d:image.url",
+							"blockId": "2cfea04d",
+							"path": "10.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/men-1979261_1920.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1280,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Business people shaking hands at a meeting table",
+							"tone": {
+								"grid": [
+									0.89,
+									0.7,
+									0.82,
+									0.39,
+									0.35,
+									0.45,
+									0.22,
+									0.41,
+									0.22
+								],
+								"color": "#877d76"
+							}
+						}
+					]
+				},
+				{
+					"id": "718fbdbd",
+					"index": 11,
+					"path": "11",
+					"group": "718fbdbd",
+					"role": "cta",
+					"title": "Looking for business opportunity?",
+					"slots": [
+						{
+							"id": "00d9eccb:text",
+							"blockId": "00d9eccb",
+							"path": "11.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Looking for business opportunity?",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74a73585:text",
+							"blockId": "74a73585",
+							"path": "11.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Don't be shy just call us now",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "67eb81e0:text",
+							"blockId": "67eb81e0",
+							"path": "11.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get in touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "718fbdbd:background.image.image.url",
+							"blockId": "718fbdbd",
+							"path": "11",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Rectangle-42.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 400,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "577fd300",
+					"role": "hero",
+					"title": "Time to start your business website",
+					"sectionIds": [
+						"577fd300"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4efe6050",
+					"role": "content",
+					"title": "Awesome Features That We Provide",
+					"sectionIds": [
+						"4efe6050"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "488a0bd0",
+					"role": "content",
+					"title": "Why to Choose Us",
+					"sectionIds": [
+						"488a0bd0"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "32b97c2a",
+					"role": "content",
+					"title": "Our Amazing Portfolio",
+					"sectionIds": [
+						"32b97c2a"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0a1426f1",
+					"role": "pricing",
+					"title": "Best Pricing Plans",
+					"sectionIds": [
+						"0a1426f1",
+						"a3316791"
+					],
+					"paths": [
+						"4",
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "d107f599",
+					"role": "team",
+					"title": "Meet Our Experts",
+					"sectionIds": [
+						"d107f599"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "89de4648",
+					"role": "stats",
+					"title": "PROJECTS COMPLETED",
+					"sectionIds": [
+						"89de4648"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "c0374dfe",
+					"role": "testimonials",
+					"title": "Happy Clients Says",
+					"sectionIds": [
+						"c0374dfe"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9b2b3211",
+					"role": "posts",
+					"title": "Jason Jack",
+					"sectionIds": [
+						"9b2b3211",
+						"4adfc747"
+					],
+					"paths": [
+						"9",
+						"10"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "718fbdbd",
+					"role": "cta",
+					"title": "Looking for business opportunity?",
+					"sectionIds": [
+						"718fbdbd"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "75728995",
+					"index": 0,
+					"path": "0",
+					"group": "75728995",
+					"role": "hero",
+					"title": "About Us",
+					"slots": [
+						{
+							"id": "e405d811:text",
+							"blockId": "e405d811",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "365a8c29:text",
+							"blockId": "365a8c29",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "75728995:background.image.image.url",
+							"blockId": "75728995",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/page-header.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 582,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Smiling team gathered together with blue overlay",
+							"tone": {
+								"grid": [
+									0.56,
+									0.35,
+									0.24,
+									0.5,
+									0.33,
+									0.21,
+									0.49,
+									0.33,
+									0.19
+								],
+								"color": "#2b638d"
+							}
+						}
+					]
+				},
+				{
+					"id": "f6812f2b",
+					"index": 1,
+					"path": "1",
+					"group": "f6812f2b",
+					"role": "content",
+					"title": "We Are Here To Help Small Businesses Succeed",
+					"slots": [
+						{
+							"id": "cd5120b1:text",
+							"blockId": "cd5120b1",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Are Here To Help Small Businesses Succeed",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "451121a9:text",
+							"blockId": "451121a9",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt. At vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2d4f62b4:text",
+							"blockId": "2d4f62b4",
+							"path": "1.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+							"rich": true,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1b9c370b:text",
+							"blockId": "1b9c370b",
+							"path": "1.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "bcb11784:background.image.image.url",
+							"blockId": "bcb11784",
+							"path": "1.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/about-polygon.png",
+							"decorative": true,
+							"width": 840,
+							"height": 765,
+							"orientation": "square"
+						},
+						{
+							"id": "9d4186b7:image.url",
+							"blockId": "9d4186b7",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/NoPath-Copy-9-1.png",
+							"decorative": false,
+							"width": 500,
+							"height": 630,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Team working with laptops and tablets around a table, overhead view",
+							"tone": {
+								"grid": [
+									0.82,
+									0.43,
+									0.43,
+									0.5,
+									0.35,
+									0.41,
+									0.5,
+									0.41,
+									0.3
+								],
+								"color": "#82736a"
+							}
+						}
+					]
+				},
+				{
+					"id": "9511c9dd",
+					"index": 2,
+					"path": "2",
+					"group": "9511c9dd",
+					"role": "content",
+					"slots": [
+						{
+							"id": "8dc15b07:text",
+							"blockId": "8dc15b07",
+							"path": "2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+							"rich": false,
+							"words": 74,
+							"minWords": 44,
+							"maxWords": 93,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0dfb5774:text",
+							"blockId": "0dfb5774",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus",
+							"rich": false,
+							"words": 69,
+							"minWords": 41,
+							"maxWords": 87,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "9fe291f4",
+					"index": 3,
+					"path": "3",
+					"group": "9fe291f4",
+					"role": "gallery",
+					"slots": [],
+					"images": [
+						{
+							"id": "43bb04e8:image.url",
+							"blockId": "43bb04e8",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/img-1.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Smiling woman working at a computer in an office with colleagues",
+							"tone": {
+								"grid": [
+									0.18,
+									0.28,
+									0.1,
+									0.34,
+									0.41,
+									0.22,
+									0.5,
+									0.28,
+									0.5
+								],
+								"color": "#4d5056"
+							}
+						},
+						{
+							"id": "3e32001f:image.url",
+							"blockId": "3e32001f",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/img-2.png",
+							"decorative": false,
+							"width": 420,
+							"height": 420,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Colleagues reviewing charts and documents at a desk",
+							"tone": {
+								"grid": [
+									0.62,
+									0.59,
+									0.7,
+									0.53,
+									0.52,
+									0.63,
+									0.84,
+									0.81,
+									0.64
+								],
+								"color": "#b9a392"
+							}
+						},
+						{
+							"id": "169c715f:image.url",
+							"blockId": "169c715f",
+							"path": "3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/img-3.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man explaining something at a desk with a laptop",
+							"tone": {
+								"grid": [
+									0.3,
+									0.58,
+									0.56,
+									0.32,
+									0.34,
+									0.35,
+									0.4,
+									0.46,
+									0.55
+								],
+								"color": "#7b6b63"
+							}
+						},
+						{
+							"id": "576ac1b0:image.url",
+							"blockId": "576ac1b0",
+							"path": "3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/img-4.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Smiling team gathered around a laptop in an office",
+							"tone": {
+								"grid": [
+									0.77,
+									0.64,
+									0.63,
+									0.54,
+									0.44,
+									0.47,
+									0.59,
+									0.47,
+									0.34
+								],
+								"color": "#a08678"
+							}
+						}
+					]
+				},
+				{
+					"id": "35674dae",
+					"index": 4,
+					"path": "4",
+					"group": "35674dae",
+					"role": "content",
+					"title": "Our Goals and missions",
+					"slots": [
+						{
+							"id": "55253b30:text",
+							"blockId": "55253b30",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Goals and missions",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b48cfb0b:text",
+							"blockId": "b48cfb0b",
+							"path": "4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.Vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2ac3bb73:text",
+							"blockId": "2ac3bb73",
+							"path": "4.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscingelitr, sed.",
+							"rich": true,
+							"words": 54,
+							"minWords": 32,
+							"maxWords": 68,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "2243ddc1:background.image.image.url",
+							"blockId": "2243ddc1",
+							"path": "4.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/about-polygon.png",
+							"decorative": true,
+							"width": 840,
+							"height": 765,
+							"orientation": "square"
+						},
+						{
+							"id": "2f74c09a:image.url",
+							"blockId": "2f74c09a",
+							"path": "4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/adeolu-eletu-unRkg2jH1j0-unsplash-2.png",
+							"decorative": false,
+							"width": 500,
+							"height": 616,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man holding a tablet showing business charts",
+							"tone": {
+								"grid": [
+									0.85,
+									0.88,
+									0.9,
+									0.69,
+									0.31,
+									0.85,
+									0.63,
+									0.59,
+									0.85
+								],
+								"color": "#b7bac0"
+							}
+						}
+					]
+				},
+				{
+					"id": "da9096d2",
+					"index": 5,
+					"path": "5",
+					"group": "da9096d2",
+					"role": "content",
+					"title": "Our Process",
+					"slots": [
+						{
+							"id": "22f21ef6:text",
+							"blockId": "22f21ef6",
+							"path": "5.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Process",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "81afcfe4:text",
+							"blockId": "81afcfe4",
+							"path": "5.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.Vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "76ac289d:text",
+							"blockId": "76ac289d",
+							"path": "5.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscingelitr, sed.",
+							"rich": true,
+							"words": 54,
+							"minWords": 32,
+							"maxWords": 68,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "c411a203:background.image.image.url",
+							"blockId": "c411a203",
+							"path": "5.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/about-polygon.png",
+							"decorative": true,
+							"width": 840,
+							"height": 765,
+							"orientation": "square"
+						},
+						{
+							"id": "7f93df54:image.url",
+							"blockId": "7f93df54",
+							"path": "5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/NoPath-Copy-49.png",
+							"decorative": false,
+							"width": 500,
+							"height": 616,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Team reviewing photos and papers on a desk",
+							"tone": {
+								"grid": [
+									0.64,
+									0.53,
+									0.43,
+									0.86,
+									0.7,
+									0.64,
+									0.8,
+									0.88,
+									0.8
+								],
+								"color": "#b3b2af"
+							}
+						}
+					]
+				},
+				{
+					"id": "718fbdbd",
+					"index": 6,
+					"path": "6",
+					"group": "718fbdbd",
+					"role": "cta",
+					"title": "Looking for business opportunity?",
+					"slots": [
+						{
+							"id": "00d9eccb:text",
+							"blockId": "00d9eccb",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Looking for business opportunity?",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74a73585:text",
+							"blockId": "74a73585",
+							"path": "6.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Don't be shy just call us now",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "67eb81e0:text",
+							"blockId": "67eb81e0",
+							"path": "6.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get in touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "718fbdbd:background.image.image.url",
+							"blockId": "718fbdbd",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Rectangle-42.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 400,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "75728995",
+					"role": "hero",
+					"title": "About Us",
+					"sectionIds": [
+						"75728995"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f6812f2b",
+					"role": "content",
+					"title": "We Are Here To Help Small Businesses Succeed",
+					"sectionIds": [
+						"f6812f2b"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9511c9dd",
+					"role": "content",
+					"sectionIds": [
+						"9511c9dd"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9fe291f4",
+					"role": "gallery",
+					"sectionIds": [
+						"9fe291f4"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "35674dae",
+					"role": "content",
+					"title": "Our Goals and missions",
+					"sectionIds": [
+						"35674dae"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "da9096d2",
+					"role": "content",
+					"title": "Our Process",
+					"sectionIds": [
+						"da9096d2"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "718fbdbd",
+					"role": "cta",
+					"title": "Looking for business opportunity?",
+					"sectionIds": [
+						"718fbdbd"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "75728995",
+					"index": 0,
+					"path": "0",
+					"group": "75728995",
+					"role": "hero",
+					"title": "Services",
+					"slots": [
+						{
+							"id": "e405d811:text",
+							"blockId": "e405d811",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Services",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "365a8c29:text",
+							"blockId": "365a8c29",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "75728995:background.image.image.url",
+							"blockId": "75728995",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/page-header.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 582,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Smiling team gathered together with blue overlay",
+							"tone": {
+								"grid": [
+									0.56,
+									0.35,
+									0.24,
+									0.5,
+									0.33,
+									0.21,
+									0.49,
+									0.33,
+									0.19
+								],
+								"color": "#2b638d"
+							}
+						}
+					]
+				},
+				{
+					"id": "d3256a7e",
+					"index": 1,
+					"path": "1",
+					"group": "d3256a7e",
+					"role": "features",
+					"title": "We Provide Awesome Services",
+					"slots": [
+						{
+							"id": "43a14d26:text",
+							"blockId": "43a14d26",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Provide Awesome Services",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9423469f:text",
+							"blockId": "9423469f",
+							"path": "1.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5b3fe8de:text",
+							"blockId": "5b3fe8de",
+							"path": "1.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Search Optimization",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7d956258:text",
+							"blockId": "7d956258",
+							"path": "1.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4afe0c8e:text",
+							"blockId": "4afe0c8e",
+							"path": "1.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Photography",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "080550c2:text",
+							"blockId": "080550c2",
+							"path": "1.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a1fefc4b:text",
+							"blockId": "a1fefc4b",
+							"path": "1.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Creative Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c187d60:text",
+							"blockId": "1c187d60",
+							"path": "1.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "05e2a6a9:text",
+							"blockId": "05e2a6a9",
+							"path": "1.0.3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Development",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fbe88c78:text",
+							"blockId": "fbe88c78",
+							"path": "1.0.3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0944eda4:text",
+							"blockId": "0944eda4",
+							"path": "1.0.3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Copywrite",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2350828e:text",
+							"blockId": "2350828e",
+							"path": "1.0.3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f400408b:text",
+							"blockId": "f400408b",
+							"path": "1.0.3.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Business Analysis",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "151ad851:text",
+							"blockId": "151ad851",
+							"path": "1.0.3.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "93b67d99:image.url",
+							"blockId": "93b67d99",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame.png",
+							"decorative": true,
+							"width": 65,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "2f74acc8:image.url",
+							"blockId": "2f74acc8",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-1.png",
+							"decorative": true,
+							"width": 65,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "0ee9c040:image.url",
+							"blockId": "0ee9c040",
+							"path": "1.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-2.png",
+							"decorative": true,
+							"width": 65,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "878224bd:image.url",
+							"blockId": "878224bd",
+							"path": "1.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-3.png",
+							"decorative": true,
+							"width": 82,
+							"height": 65,
+							"orientation": "landscape"
+						},
+						{
+							"id": "30388b8d:image.url",
+							"blockId": "30388b8d",
+							"path": "1.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-4.png",
+							"decorative": true,
+							"width": 57,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "7713f5f1:image.url",
+							"blockId": "7713f5f1",
+							"path": "1.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-5.png",
+							"decorative": true,
+							"width": 74,
+							"height": 65,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "c0374dfe",
+					"index": 2,
+					"path": "2",
+					"group": "c0374dfe",
+					"role": "testimonials",
+					"title": "Happy Clients Says",
+					"slots": [
+						{
+							"id": "4bf010d7:text",
+							"blockId": "4bf010d7",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Happy Clients Says",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9c68b65:text",
+							"blockId": "a9c68b65",
+							"path": "2.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "9b2b3211",
+					"index": 3,
+					"path": "3",
+					"group": "9b2b3211",
+					"role": "testimonials",
+					"title": "Jason Jack",
+					"slots": [
+						{
+							"id": "2b4b7717:text",
+							"blockId": "2b4b7717",
+							"path": "3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "02ed825b:text",
+							"blockId": "02ed825b",
+							"path": "3.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Jason Jack",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7fa8cc8:text",
+							"blockId": "c7fa8cc8",
+							"path": "3.1.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Chairman",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "45423fb0:image.url",
+							"blockId": "45423fb0",
+							"path": "3.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/client.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "0a1426f1",
+					"index": 4,
+					"path": "4",
+					"group": "9b2b3211",
+					"role": "pricing",
+					"title": "Best Pricing Plans",
+					"slots": [
+						{
+							"id": "ec778954:text",
+							"blockId": "ec778954",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Best Pricing Plans",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "df4a801a:text",
+							"blockId": "df4a801a",
+							"path": "4.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c7e103c5:text",
+							"blockId": "c7e103c5",
+							"path": "4.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PERSONAL",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d6382356:text",
+							"blockId": "d6382356",
+							"path": "4.0.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$",
+							"rich": true,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "f4141329:text",
+							"blockId": "f4141329",
+							"path": "4.0.2.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "9.99",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "361b683d:text",
+							"blockId": "361b683d",
+							"path": "4.0.2.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "/ month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51b3fd94:text",
+							"blockId": "51b3fd94",
+							"path": "4.0.2.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f87b5260:text",
+							"blockId": "f87b5260",
+							"path": "4.0.2.0.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Website",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a192be30:text",
+							"blockId": "a192be30",
+							"path": "4.0.2.0.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5+ Demos",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af5fda71:text",
+							"blockId": "af5fda71",
+							"path": "4.0.2.0.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Updates",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d7ef9958:text",
+							"blockId": "d7ef9958",
+							"path": "4.0.2.0.8",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Support",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "519b35be:text",
+							"blockId": "519b35be",
+							"path": "4.0.2.0.9.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a95ac40b:text",
+							"blockId": "a95ac40b",
+							"path": "4.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "STANDARD",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "22bbc99d:text",
+							"blockId": "22bbc99d",
+							"path": "4.0.2.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$",
+							"rich": true,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "76b33598:text",
+							"blockId": "76b33598",
+							"path": "4.0.2.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "29.9",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "be3d6967:text",
+							"blockId": "be3d6967",
+							"path": "4.0.2.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "/ month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8cdac946:text",
+							"blockId": "8cdac946",
+							"path": "4.0.2.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5a973d69:text",
+							"blockId": "5a973d69",
+							"path": "4.0.2.1.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Website",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5516a09d:text",
+							"blockId": "5516a09d",
+							"path": "4.0.2.1.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5+ Demos",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b4be3bb:text",
+							"blockId": "7b4be3bb",
+							"path": "4.0.2.1.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Updates",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "362290a1:text",
+							"blockId": "362290a1",
+							"path": "4.0.2.1.8",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Support",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "25e58389:text",
+							"blockId": "25e58389",
+							"path": "4.0.2.1.9.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36290995:text",
+							"blockId": "36290995",
+							"path": "4.0.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ENTERPRISE",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1b670928:text",
+							"blockId": "1b670928",
+							"path": "4.0.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$",
+							"rich": true,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "b726aa2b:text",
+							"blockId": "b726aa2b",
+							"path": "4.0.2.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "59.9",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "6eaa7e0b:text",
+							"blockId": "6eaa7e0b",
+							"path": "4.0.2.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "/ month",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "468c45db:text",
+							"blockId": "468c45db",
+							"path": "4.0.2.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "75f56bb3:text",
+							"blockId": "75f56bb3",
+							"path": "4.0.2.2.5",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Website",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "696695a7:text",
+							"blockId": "696695a7",
+							"path": "4.0.2.2.6",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "5+ Demos",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cf5a4869:text",
+							"blockId": "cf5a4869",
+							"path": "4.0.2.2.7",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Updates",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e3832c33:text",
+							"blockId": "e3832c33",
+							"path": "4.0.2.2.8",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "1 Month Support",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "519b35be~1:text",
+							"blockId": "519b35be~1",
+							"path": "4.0.2.2.9.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "718fbdbd",
+					"index": 5,
+					"path": "5",
+					"group": "718fbdbd",
+					"role": "cta",
+					"title": "Looking for business opportunity?",
+					"slots": [
+						{
+							"id": "00d9eccb:text",
+							"blockId": "00d9eccb",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Looking for business opportunity?",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74a73585:text",
+							"blockId": "74a73585",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Don't be shy just call us now",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "67eb81e0:text",
+							"blockId": "67eb81e0",
+							"path": "5.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get in touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "718fbdbd:background.image.image.url",
+							"blockId": "718fbdbd",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Rectangle-42.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 400,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "75728995",
+					"role": "hero",
+					"title": "Services",
+					"sectionIds": [
+						"75728995"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d3256a7e",
+					"role": "features",
+					"title": "We Provide Awesome Services",
+					"sectionIds": [
+						"d3256a7e"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c0374dfe",
+					"role": "testimonials",
+					"title": "Happy Clients Says",
+					"sectionIds": [
+						"c0374dfe"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9b2b3211",
+					"role": "pricing",
+					"title": "Jason Jack",
+					"sectionIds": [
+						"9b2b3211",
+						"0a1426f1"
+					],
+					"paths": [
+						"3",
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "718fbdbd",
+					"role": "cta",
+					"title": "Looking for business opportunity?",
+					"sectionIds": [
+						"718fbdbd"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 25,
+		"textSlots": 172,
+		"editableSlots": 156,
+		"images": 40,
+		"swappableImages": 18,
+		"words": 1157
+	},
+	"builtAt": "2026-10-24T11:35:07.973Z"
+}

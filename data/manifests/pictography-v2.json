@@ -1,0 +1,5406 @@
+{
+	"version": 4,
+	"slug": "pictography-v2",
+	"name": "Pictography V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-pictography-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/pictography-v2",
+	"niches": [
+		"photography",
+		"portfolio",
+		"creative"
+	],
+	"keywords": [
+		"photographer",
+		"photography",
+		"photo studio",
+		"wildlife photography",
+		"model photography",
+		"portrait photographer",
+		"wedding photographer",
+		"videographer"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 125,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 104,
+					"background": 2
+				}
+			},
+			{
+				"hex": "#bd8b28",
+				"count": 107,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#bd8b28",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 91,
+					"background": 8,
+					"border": 6
+				}
+			},
+			{
+				"hex": "#0b0b0b",
+				"count": 37,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 25
+				}
+			},
+			{
+				"hex": "#fbfafa",
+				"count": 6,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 6
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#2664eb",
+				"count": 6,
+				"group": "brand",
+				"role": "primary",
+				"base": "#2664eb",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#027abb",
+				"count": 5,
+				"group": "brand",
+				"role": "primary",
+				"base": "#2664eb",
+				"lightnessDelta": -0.165
+			},
+			{
+				"hex": "#16181a",
+				"count": 4,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#000000",
+				"count": 3,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 2,
+					"text": 1
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#2563eb",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#2664eb",
+				"lightnessDelta": -0.002,
+				"usage": {
+					"border": 2
+				}
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#e89623",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#bd8b28",
+				"lightnessDelta": 0.075,
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#1e7ba6",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#bd8b28",
+				"bg": "#0b0b0b",
+				"large": true,
+				"count": 30,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#bd8b28",
+				"bg": "#0b0b0b",
+				"large": false,
+				"count": 13,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#bd8b28",
+				"large": true,
+				"count": 7,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#bd8b28",
+				"bg": "#000000",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#bd8b28",
+				"bg": "#000000",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#e89623",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#bd8b28",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Ubuntu",
+			"body": "Ubuntu",
+			"map": {
+				"Ubuntu": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "4f50e9e5",
+					"index": 0,
+					"path": "0",
+					"group": "4f50e9e5",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "34079358:text",
+							"blockId": "34079358",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$49",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e03cfbbe:text",
+							"blockId": "e03cfbbe",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "415777f2:text",
+							"blockId": "415777f2",
+							"path": "0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BUY NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7388bcd5:text",
+							"blockId": "7388bcd5",
+							"path": "0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$19",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "5530b9f4:text",
+							"blockId": "5530b9f4",
+							"path": "0.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "415777f2~1:text",
+							"blockId": "415777f2~1",
+							"path": "0.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BUY NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e008c459:background.image.image.url",
+							"blockId": "e008c459",
+							"path": "0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/home-sell1.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 564,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman with eyes closed and dry branches as hair, fine art portrait",
+							"tone": {
+								"grid": [
+									0.06,
+									0.2,
+									0.24,
+									0.02,
+									0.09,
+									0.3,
+									0,
+									0.03,
+									0.44
+								],
+								"color": "#262827"
+							}
+						},
+						{
+							"id": "793b4f43:background.image.image.url",
+							"blockId": "793b4f43",
+							"path": "0.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/home-sell2.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 564,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Man with sad clown face paint portrait",
+							"tone": {
+								"grid": [
+									0.09,
+									0.33,
+									0.41,
+									0.05,
+									0.4,
+									0.57,
+									0.01,
+									0.14,
+									0.42
+								],
+								"color": "#3b474d"
+							}
+						}
+					]
+				},
+				{
+					"id": "f5142314",
+					"index": 1,
+					"path": "1",
+					"group": "f5142314",
+					"role": "gallery",
+					"slots": [],
+					"images": [
+						{
+							"id": "core-1.0.0.0:@html:img",
+							"blockId": "core-1.0.0.0",
+							"path": "1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-mountain.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Hiker standing on a green trail looking at a volcano",
+							"tone": {
+								"grid": [
+									0.56,
+									0.75,
+									0.76,
+									0.5,
+									0.5,
+									0.62,
+									0.34,
+									0.31,
+									0.29
+								],
+								"color": "#72888a"
+							}
+						},
+						{
+							"id": "core-1.0.0.1:@html:img",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-portrait.jpg",
+							"decorative": false,
+							"width": 634,
+							"height": 966,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Freckled woman with red hair blowing across her face",
+							"tone": {
+								"grid": [
+									0.3,
+									0.4,
+									0.23,
+									0.3,
+									0.55,
+									0.21,
+									0.26,
+									0.19,
+									0.16
+								],
+								"color": "#6d4231"
+							}
+						},
+						{
+							"id": "core-1.0.0.2:@html:img",
+							"blockId": "core-1.0.0.2",
+							"path": "1.0.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-fox.jpg",
+							"decorative": false,
+							"width": 504,
+							"height": 1006,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Red fox sitting in a forest clearing",
+							"tone": {
+								"grid": [
+									0.23,
+									0.29,
+									0.41,
+									0.34,
+									0.62,
+									0.46,
+									0.26,
+									0.2,
+									0.26
+								],
+								"color": "#63563e"
+							}
+						},
+						{
+							"id": "core-1.0.0.3:@html:img",
+							"blockId": "core-1.0.0.3",
+							"path": "1.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-plancrash.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Abandoned plane wreck on a black sand beach",
+							"tone": {
+								"grid": [
+									0.88,
+									0.9,
+									0.88,
+									0.59,
+									0.47,
+									0.6,
+									0.22,
+									0.21,
+									0.2
+								],
+								"color": "#8e8c8a"
+							}
+						},
+						{
+							"id": "core-1.0.0.4:@html:img",
+							"blockId": "core-1.0.0.4",
+							"path": "1.0.0.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-street-image.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Person with umbrella walking in front of a large lettered building",
+							"tone": {
+								"grid": [
+									0.36,
+									0.42,
+									0.34,
+									0.35,
+									0.49,
+									0.38,
+									0.28,
+									0.39,
+									0.28
+								],
+								"color": "#5d5d5d"
+							}
+						},
+						{
+							"id": "core-1.0.0.5:@html:img",
+							"blockId": "core-1.0.0.5",
+							"path": "1.0.0.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-wedding.jpg",
+							"decorative": false,
+							"width": 480,
+							"height": 960,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Bride and groom embracing under a veil in a field",
+							"tone": {
+								"grid": [
+									0.8,
+									0.7,
+									0.82,
+									0.57,
+									0.61,
+									0.55,
+									0.43,
+									0.77,
+									0.67
+								],
+								"color": "#aea6a7"
+							}
+						},
+						{
+							"id": "core-1.0.0.6:@html:img",
+							"blockId": "core-1.0.0.6",
+							"path": "1.0.0.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-flower.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Purple daisy flower close-up",
+							"tone": {
+								"grid": [
+									0.14,
+									0.32,
+									0.29,
+									0.05,
+									0.45,
+									0.46,
+									0.05,
+									0.2,
+									0.17
+								],
+								"color": "#56325a"
+							}
+						},
+						{
+							"id": "core-1.0.0.7:@html:img",
+							"blockId": "core-1.0.0.7",
+							"path": "1.0.0.7",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-deer.jpg",
+							"decorative": false,
+							"width": 794,
+							"height": 970,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Stag deer with large antlers in a dark forest",
+							"tone": {
+								"grid": [
+									0.22,
+									0.18,
+									0.12,
+									0.09,
+									0.14,
+									0.05,
+									0.03,
+									0.03,
+									0.02
+								],
+								"color": "#131a1f"
+							}
+						},
+						{
+							"id": "core-1.0.0.8:@html:img",
+							"blockId": "core-1.0.0.8",
+							"path": "1.0.0.8",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-lion.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Two lionesses lying in the grass",
+							"tone": {
+								"grid": [
+									0.07,
+									0.09,
+									0.08,
+									0.15,
+									0.31,
+									0.19,
+									0.14,
+									0.21,
+									0.15
+								],
+								"color": "#122d2d"
+							}
+						}
+					]
+				},
+				{
+					"id": "28a7dd46",
+					"index": 2,
+					"path": "2",
+					"group": "28a7dd46",
+					"role": "cta",
+					"title": "King of Jungle",
+					"slots": [
+						{
+							"id": "3e25d1ad:text",
+							"blockId": "3e25d1ad",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "King of Jungle",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2b806063:text",
+							"blockId": "2b806063",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd:text",
+							"blockId": "44ec4ffd",
+							"path": "2.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "28a7dd46:background.image.image.url",
+							"blockId": "28a7dd46",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/slider-lion.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1080,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Male lion portrait in black and white",
+							"tone": {
+								"grid": [
+									0.16,
+									0.33,
+									0.22,
+									0.21,
+									0.41,
+									0.36,
+									0.27,
+									0.42,
+									0.34
+								],
+								"color": "#524a54"
+							}
+						}
+					]
+				},
+				{
+					"id": "b80c9a2f",
+					"index": 3,
+					"path": "3",
+					"group": "b80c9a2f",
+					"role": "content",
+					"title": "Model",
+					"slots": [
+						{
+							"id": "3a3a28c6:text",
+							"blockId": "3a3a28c6",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Model",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "455cc8f5:text",
+							"blockId": "455cc8f5",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~1:text",
+							"blockId": "44ec4ffd~1",
+							"path": "3.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a523b063:text",
+							"blockId": "a523b063",
+							"path": "3.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Portait",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "98e78380:text",
+							"blockId": "98e78380",
+							"path": "3.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~2:text",
+							"blockId": "44ec4ffd~2",
+							"path": "3.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61a3e4bc:text",
+							"blockId": "61a3e4bc",
+							"path": "3.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Fashion",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0f0db334:text",
+							"blockId": "0f0db334",
+							"path": "3.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~3:text",
+							"blockId": "44ec4ffd~3",
+							"path": "3.2.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d2d21a09:text",
+							"blockId": "d2d21a09",
+							"path": "3.3.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Street",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "791c6c38:text",
+							"blockId": "791c6c38",
+							"path": "3.3.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~4:text",
+							"blockId": "44ec4ffd~4",
+							"path": "3.3.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1eb94dd5:background.image.image.url",
+							"blockId": "1eb94dd5",
+							"path": "3.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/catagory-model.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 768,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman in a red dress wearing a pageant crown",
+							"tone": {
+								"grid": [
+									0.14,
+									0.38,
+									0.36,
+									0.35,
+									0.38,
+									0.49,
+									0.16,
+									0.32,
+									0.26
+								],
+								"color": "#6d484c"
+							}
+						},
+						{
+							"id": "874bb58b:background.image.image.url",
+							"blockId": "874bb58b",
+							"path": "3.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/catagory-portrait.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 768,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded man with long hair in a thoughtful pose",
+							"tone": {
+								"grid": [
+									0.16,
+									0.22,
+									0.04,
+									0.35,
+									0.37,
+									0.06,
+									0.55,
+									0.41,
+									0.14
+								],
+								"color": "#4d3f36"
+							}
+						},
+						{
+							"id": "2cc7c3e3:background.image.image.url",
+							"blockId": "2cc7c3e3",
+							"path": "3.2",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/catagory-fashion.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 768,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Two women in red outfits posing together",
+							"tone": {
+								"grid": [
+									0.89,
+									0.67,
+									0.75,
+									0.26,
+									0.31,
+									0.38,
+									0.29,
+									0.32,
+									0.38
+								],
+								"color": "#967077"
+							}
+						},
+						{
+							"id": "d321cfb5:background.image.image.url",
+							"blockId": "d321cfb5",
+							"path": "3.3",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/category-street.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 768,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Stylish man in a hat and blazer dancing by a red door",
+							"tone": {
+								"grid": [
+									0.55,
+									0.54,
+									0.26,
+									0.48,
+									0.45,
+									0.3,
+									0.48,
+									0.27,
+									0.25
+								],
+								"color": "#8c5c50"
+							}
+						}
+					]
+				},
+				{
+					"id": "e8e28764",
+					"index": 4,
+					"path": "4",
+					"group": "e8e28764",
+					"role": "cta",
+					"title": "Sea World",
+					"slots": [
+						{
+							"id": "89c707c6:text",
+							"blockId": "89c707c6",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Sea World",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "44ec4ffd~5:text",
+							"blockId": "44ec4ffd~5",
+							"path": "4.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "53c87c64:text",
+							"blockId": "53c87c64",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Kingfisher",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "44ec4ffd~6:text",
+							"blockId": "44ec4ffd~6",
+							"path": "4.1.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c38c4821:background.image.image.url",
+							"blockId": "c38c4821",
+							"path": "4.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/water-fish.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 854,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Tropical fish swimming over a coral reef",
+							"tone": {
+								"grid": [
+									0.23,
+									0.24,
+									0.23,
+									0.26,
+									0.39,
+									0.49,
+									0.09,
+									0.11,
+									0.22
+								],
+								"color": "#344163"
+							}
+						},
+						{
+							"id": "e06aa85c:background.image.image.url",
+							"blockId": "e06aa85c",
+							"path": "4.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/bird-kingfisher-with-fish.jpg",
+							"decorative": false,
+							"width": 898,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Kingfisher bird on a branch holding a fish in its beak",
+							"tone": {
+								"grid": [
+									0.52,
+									0.64,
+									0.69,
+									0.39,
+									0.52,
+									0.6,
+									0.26,
+									0.43,
+									0.54
+								],
+								"color": "#768869"
+							}
+						}
+					]
+				},
+				{
+					"id": "1294ce98",
+					"index": 5,
+					"path": "5",
+					"group": "1294ce98",
+					"role": "gallery",
+					"slots": [
+						{
+							"id": "74504046:text",
+							"blockId": "74504046",
+							"path": "5.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Facebook",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~1:text",
+							"blockId": "74504046~1",
+							"path": "5.0.1.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Twitter",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~2:text",
+							"blockId": "74504046~2",
+							"path": "5.0.1.2",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Instagram",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~3:text",
+							"blockId": "74504046~3",
+							"path": "5.0.1.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Youtube",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4757915a:image.url",
+							"blockId": "4757915a",
+							"path": "5.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-city-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a hoodie standing in Times Square at night",
+							"tone": {
+								"grid": [
+									0.09,
+									0.08,
+									0.5,
+									0.31,
+									0.34,
+									0.66,
+									0.49,
+									0.58,
+									0.57
+								],
+								"color": "#726366"
+							}
+						},
+						{
+							"id": "3cabd635:image.url",
+							"blockId": "3cabd635",
+							"path": "5.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-men-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man wearing round pink sunglasses close-up",
+							"tone": {
+								"grid": [
+									0.9,
+									0.45,
+									0.55,
+									0.71,
+									0.39,
+									0.42,
+									0.21,
+									0.25,
+									0.22
+								],
+								"color": "#6f7578"
+							}
+						},
+						{
+							"id": "3b656b3e:image.url",
+							"blockId": "3b656b3e",
+							"path": "5.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/instagram-Iodel.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Red-haired woman in a red outfit posing against red wall",
+							"tone": {
+								"grid": [
+									0.36,
+									0.34,
+									0.38,
+									0.28,
+									0.27,
+									0.3,
+									0.19,
+									0.29,
+									0.35
+								],
+								"color": "#bc350d"
+							}
+						},
+						{
+							"id": "78770737:image.url",
+							"blockId": "78770737",
+							"path": "5.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a bucket hat and face mask making a hush gesture",
+							"tone": {
+								"grid": [
+									0.52,
+									0.59,
+									0.5,
+									0.39,
+									0.35,
+									0.63,
+									0.23,
+									0.38,
+									0.61
+								],
+								"color": "#70796b"
+							}
+						},
+						{
+							"id": "35c1f836:image.url",
+							"blockId": "35c1f836",
+							"path": "5.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-lizard.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Lizard perched on a rock looking upward",
+							"tone": {
+								"grid": [
+									0.33,
+									0.45,
+									0.41,
+									0.48,
+									0.48,
+									0.55,
+									0.29,
+									0.29,
+									0.51
+								],
+								"color": "#6e703f"
+							}
+						},
+						{
+							"id": "2a7ad67e:image.url",
+							"blockId": "2a7ad67e",
+							"path": "5.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-outdoor-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in a long coat standing in a concrete colonnade",
+							"tone": {
+								"grid": [
+									0.15,
+									0.68,
+									0.4,
+									0.28,
+									0.6,
+									0.5,
+									0.28,
+									0.63,
+									0.45
+								],
+								"color": "#707173"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4f50e9e5",
+					"role": "hero",
+					"sectionIds": [
+						"4f50e9e5"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f5142314",
+					"role": "gallery",
+					"sectionIds": [
+						"f5142314"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "28a7dd46",
+					"role": "cta",
+					"title": "King of Jungle",
+					"sectionIds": [
+						"28a7dd46"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b80c9a2f",
+					"role": "content",
+					"title": "Model",
+					"sectionIds": [
+						"b80c9a2f"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e8e28764",
+					"role": "cta",
+					"title": "Sea World",
+					"sectionIds": [
+						"e8e28764"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1294ce98",
+					"role": "gallery",
+					"sectionIds": [
+						"1294ce98"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "show-case",
+			"title": "Showcase",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/themegrill-demos/show-case-content.xml",
+			"sections": [
+				{
+					"id": "4f50e9e5",
+					"index": 0,
+					"path": "0",
+					"group": "4f50e9e5",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "34079358:text",
+							"blockId": "34079358",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$49",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e03cfbbe:text",
+							"blockId": "e03cfbbe",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "415777f2:text",
+							"blockId": "415777f2",
+							"path": "0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BUY NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7388bcd5:text",
+							"blockId": "7388bcd5",
+							"path": "0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$19",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "5530b9f4:text",
+							"blockId": "5530b9f4",
+							"path": "0.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "415777f2~1:text",
+							"blockId": "415777f2~1",
+							"path": "0.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BUY NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e008c459:background.image.image.url",
+							"blockId": "e008c459",
+							"path": "0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/showcase-lizard.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 564,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Iguana resting on a branch close-up",
+							"tone": {
+								"grid": [
+									0.1,
+									0.29,
+									0.2,
+									0.1,
+									0.35,
+									0.46,
+									0.04,
+									0.15,
+									0.33
+								],
+								"color": "#413827"
+							}
+						},
+						{
+							"id": "793b4f43:background.image.image.url",
+							"blockId": "793b4f43",
+							"path": "0.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/showcase-tortose.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 564,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Sea turtle swimming in blue water",
+							"tone": {
+								"grid": [
+									0.19,
+									0.33,
+									0.31,
+									0.16,
+									0.36,
+									0.44,
+									0.08,
+									0.12,
+									0.24
+								],
+								"color": "#29444f"
+							}
+						}
+					]
+				},
+				{
+					"id": "c40642fa",
+					"index": 1,
+					"path": "1",
+					"group": "c40642fa",
+					"role": "content",
+					"title": "Showcase",
+					"slots": [
+						{
+							"id": "82c554b5:text",
+							"blockId": "82c554b5",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Showcase",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "82250dac",
+					"index": 2,
+					"path": "2",
+					"group": "c40642fa",
+					"role": "gallery",
+					"title": "Portait",
+					"slots": [
+						{
+							"id": "89c707c6:text",
+							"blockId": "89c707c6",
+							"path": "2.0.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Portait",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "44ec4ffd:text",
+							"blockId": "44ec4ffd",
+							"path": "2.0.0.0.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c8dde8d9:text",
+							"blockId": "c8dde8d9",
+							"path": "2.0.0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Street",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "44ec4ffd~1:text",
+							"blockId": "44ec4ffd~1",
+							"path": "2.0.0.1.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1db48329:text",
+							"blockId": "1db48329",
+							"path": "2.0.1.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Wild Life",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "44ec4ffd~2:text",
+							"blockId": "44ec4ffd~2",
+							"path": "2.0.1.0.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "65c700d1:text",
+							"blockId": "65c700d1",
+							"path": "2.0.1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Conceptural",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "44ec4ffd~3:text",
+							"blockId": "44ec4ffd~3",
+							"path": "2.0.1.1.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a8b18e36:background.image.image.url",
+							"blockId": "a8b18e36",
+							"path": "2.0.0.0.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/showcase-portrait.jpg",
+							"decorative": false,
+							"width": 450,
+							"height": 282,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman with blue eyes wrapped in a knitted scarf",
+							"tone": {
+								"grid": [
+									0.3,
+									0.63,
+									0.44,
+									0.14,
+									0.45,
+									0.36,
+									0.18,
+									0.39,
+									0.46
+								],
+								"color": "#805750"
+							}
+						},
+						{
+							"id": "880c9184:background.image.image.url",
+							"blockId": "880c9184",
+							"path": "2.0.0.1.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/showcase-street.jpg",
+							"decorative": false,
+							"width": 450,
+							"height": 282,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman in a yellow puffer jacket against a graffiti wall",
+							"tone": {
+								"grid": [
+									0.25,
+									0.34,
+									0.2,
+									0.2,
+									0.33,
+									0.36,
+									0.08,
+									0.22,
+									0.35
+								],
+								"color": "#504031"
+							}
+						},
+						{
+							"id": "bfb47a49:background.image.image.url",
+							"blockId": "bfb47a49",
+							"path": "2.0.1.0.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/showcase-tiger.jpg",
+							"decorative": false,
+							"width": 450,
+							"height": 282,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Tiger lying down and staring at the camera",
+							"tone": {
+								"grid": [
+									0,
+									0.21,
+									0.2,
+									0,
+									0.27,
+									0.41,
+									0.01,
+									0.24,
+									0.28
+								],
+								"color": "#382c20"
+							}
+						},
+						{
+							"id": "76b19e0f:background.image.image.url",
+							"blockId": "76b19e0f",
+							"path": "2.0.1.1.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/face-mask.jpg",
+							"decorative": false,
+							"width": 450,
+							"height": 282,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Person wearing a glowing neon LED mask in the dark",
+							"tone": {
+								"grid": [
+									0.03,
+									0.11,
+									0.03,
+									0.06,
+									0.31,
+									0.04,
+									0.01,
+									0.07,
+									0.03
+								],
+								"color": "#0e141b"
+							}
+						}
+					]
+				},
+				{
+					"id": "e3aeac95",
+					"index": 3,
+					"path": "3",
+					"group": "e3aeac95",
+					"role": "content",
+					"title": "Model",
+					"slots": [
+						{
+							"id": "3a3a28c6:text",
+							"blockId": "3a3a28c6",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Model",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "455cc8f5:text",
+							"blockId": "455cc8f5",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~4:text",
+							"blockId": "44ec4ffd~4",
+							"path": "3.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62728cd4:text",
+							"blockId": "62728cd4",
+							"path": "3.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Birds",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "658c7aae:text",
+							"blockId": "658c7aae",
+							"path": "3.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~5:text",
+							"blockId": "44ec4ffd~5",
+							"path": "3.0.1.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "72967589:text",
+							"blockId": "72967589",
+							"path": "3.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Fine Art",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1bf8a3ee:text",
+							"blockId": "1bf8a3ee",
+							"path": "3.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~6:text",
+							"blockId": "44ec4ffd~6",
+							"path": "3.0.2.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "45511f13:background.image.image.url",
+							"blockId": "45511f13",
+							"path": "3.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/category-model.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1264,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman lying on a beach towel on the sand",
+							"tone": {
+								"grid": [
+									0.84,
+									0.66,
+									0.83,
+									0.86,
+									0.44,
+									0.78,
+									0.74,
+									0.56,
+									0.53
+								],
+								"color": "#baaeab"
+							}
+						},
+						{
+							"id": "4a9f8d57:background.image.image.url",
+							"blockId": "4a9f8d57",
+							"path": "3.0.1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/category-peacock.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1081,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Peacock displaying its colorful tail feathers",
+							"tone": {
+								"grid": [
+									0.27,
+									0.36,
+									0.25,
+									0.32,
+									0.41,
+									0.27,
+									0.27,
+									0.32,
+									0.29
+								],
+								"color": "#42552c"
+							}
+						},
+						{
+							"id": "1b09bf71:background.image.image.url",
+							"blockId": "1b09bf71",
+							"path": "3.0.2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/category-fineart.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1013,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Man with paint-splattered face in darkness",
+							"tone": {
+								"grid": [
+									0.06,
+									0.08,
+									0.1,
+									0.06,
+									0.1,
+									0.15,
+									0.06,
+									0.07,
+									0.07
+								],
+								"color": "#171514"
+							}
+						}
+					]
+				},
+				{
+					"id": "b80c9a2f",
+					"index": 4,
+					"path": "4",
+					"group": "b80c9a2f",
+					"role": "content",
+					"title": "Model",
+					"slots": [
+						{
+							"id": "317b9b7d:text",
+							"blockId": "317b9b7d",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Model",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62fc1e59:text",
+							"blockId": "62fc1e59",
+							"path": "4.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~7:text",
+							"blockId": "44ec4ffd~7",
+							"path": "4.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a523b063:text",
+							"blockId": "a523b063",
+							"path": "4.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Portait",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "98e78380:text",
+							"blockId": "98e78380",
+							"path": "4.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~8:text",
+							"blockId": "44ec4ffd~8",
+							"path": "4.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61a3e4bc:text",
+							"blockId": "61a3e4bc",
+							"path": "4.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Fashion",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0f0db334:text",
+							"blockId": "0f0db334",
+							"path": "4.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~9:text",
+							"blockId": "44ec4ffd~9",
+							"path": "4.2.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d2d21a09:text",
+							"blockId": "d2d21a09",
+							"path": "4.3.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Street",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "791c6c38:text",
+							"blockId": "791c6c38",
+							"path": "4.3.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44ec4ffd~10:text",
+							"blockId": "44ec4ffd~10",
+							"path": "4.3.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1eb94dd5:background.image.image.url",
+							"blockId": "1eb94dd5",
+							"path": "4.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/catagory-model.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 768,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman in a red dress wearing a pageant crown",
+							"tone": {
+								"grid": [
+									0.14,
+									0.38,
+									0.36,
+									0.35,
+									0.38,
+									0.49,
+									0.16,
+									0.32,
+									0.26
+								],
+								"color": "#6d484c"
+							}
+						},
+						{
+							"id": "874bb58b:background.image.image.url",
+							"blockId": "874bb58b",
+							"path": "4.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/catagory-portrait.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 768,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded man with long hair in a thoughtful pose",
+							"tone": {
+								"grid": [
+									0.16,
+									0.22,
+									0.04,
+									0.35,
+									0.37,
+									0.06,
+									0.55,
+									0.41,
+									0.14
+								],
+								"color": "#4d3f36"
+							}
+						},
+						{
+							"id": "2cc7c3e3:background.image.image.url",
+							"blockId": "2cc7c3e3",
+							"path": "4.2",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/catagory-fashion.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 768,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Two women in red outfits posing together",
+							"tone": {
+								"grid": [
+									0.89,
+									0.67,
+									0.75,
+									0.26,
+									0.31,
+									0.38,
+									0.29,
+									0.32,
+									0.38
+								],
+								"color": "#967077"
+							}
+						},
+						{
+							"id": "d321cfb5:background.image.image.url",
+							"blockId": "d321cfb5",
+							"path": "4.3",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/category-street.jpg",
+							"decorative": false,
+							"width": 341,
+							"height": 768,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Stylish man in a hat and blazer dancing by a red door",
+							"tone": {
+								"grid": [
+									0.55,
+									0.54,
+									0.26,
+									0.48,
+									0.45,
+									0.3,
+									0.48,
+									0.27,
+									0.25
+								],
+								"color": "#8c5c50"
+							}
+						}
+					]
+				},
+				{
+					"id": "1294ce98",
+					"index": 5,
+					"path": "5",
+					"group": "1294ce98",
+					"role": "gallery",
+					"slots": [
+						{
+							"id": "74504046:text",
+							"blockId": "74504046",
+							"path": "5.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Facebook",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~1:text",
+							"blockId": "74504046~1",
+							"path": "5.0.1.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Twitter",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~2:text",
+							"blockId": "74504046~2",
+							"path": "5.0.1.2",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Instagram",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~3:text",
+							"blockId": "74504046~3",
+							"path": "5.0.1.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Youtube",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4757915a:image.url",
+							"blockId": "4757915a",
+							"path": "5.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-city-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a hoodie standing in Times Square at night",
+							"tone": {
+								"grid": [
+									0.09,
+									0.08,
+									0.5,
+									0.31,
+									0.34,
+									0.66,
+									0.49,
+									0.58,
+									0.57
+								],
+								"color": "#726366"
+							}
+						},
+						{
+							"id": "3cabd635:image.url",
+							"blockId": "3cabd635",
+							"path": "5.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-men-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man wearing round pink sunglasses close-up",
+							"tone": {
+								"grid": [
+									0.9,
+									0.45,
+									0.55,
+									0.71,
+									0.39,
+									0.42,
+									0.21,
+									0.25,
+									0.22
+								],
+								"color": "#6f7578"
+							}
+						},
+						{
+							"id": "3b656b3e:image.url",
+							"blockId": "3b656b3e",
+							"path": "5.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/instagram-Iodel.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Red-haired woman in a red outfit posing against red wall",
+							"tone": {
+								"grid": [
+									0.36,
+									0.34,
+									0.38,
+									0.28,
+									0.27,
+									0.3,
+									0.19,
+									0.29,
+									0.35
+								],
+								"color": "#bc350d"
+							}
+						},
+						{
+							"id": "78770737:image.url",
+							"blockId": "78770737",
+							"path": "5.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a bucket hat and face mask making a hush gesture",
+							"tone": {
+								"grid": [
+									0.52,
+									0.59,
+									0.5,
+									0.39,
+									0.35,
+									0.63,
+									0.23,
+									0.38,
+									0.61
+								],
+								"color": "#70796b"
+							}
+						},
+						{
+							"id": "35c1f836:image.url",
+							"blockId": "35c1f836",
+							"path": "5.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-lizard.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Lizard perched on a rock looking upward",
+							"tone": {
+								"grid": [
+									0.33,
+									0.45,
+									0.41,
+									0.48,
+									0.48,
+									0.55,
+									0.29,
+									0.29,
+									0.51
+								],
+								"color": "#6e703f"
+							}
+						},
+						{
+							"id": "2a7ad67e:image.url",
+							"blockId": "2a7ad67e",
+							"path": "5.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-outdoor-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in a long coat standing in a concrete colonnade",
+							"tone": {
+								"grid": [
+									0.15,
+									0.68,
+									0.4,
+									0.28,
+									0.6,
+									0.5,
+									0.28,
+									0.63,
+									0.45
+								],
+								"color": "#707173"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4f50e9e5",
+					"role": "hero",
+					"sectionIds": [
+						"4f50e9e5"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c40642fa",
+					"role": "gallery",
+					"title": "Showcase",
+					"sectionIds": [
+						"c40642fa",
+						"82250dac"
+					],
+					"paths": [
+						"1",
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"portfolio"
+						]
+					}
+				},
+				{
+					"id": "e3aeac95",
+					"role": "content",
+					"title": "Model",
+					"sectionIds": [
+						"e3aeac95"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b80c9a2f",
+					"role": "content",
+					"title": "Model",
+					"sectionIds": [
+						"b80c9a2f"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1294ce98",
+					"role": "gallery",
+					"sectionIds": [
+						"1294ce98"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "conceptual-photography",
+			"title": "Conceptual Photography",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/themegrill-demos/conceptual-photography-content.xml",
+			"sections": [
+				{
+					"id": "4f50e9e5",
+					"index": 0,
+					"path": "0",
+					"group": "4f50e9e5",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "7388bcd5:text",
+							"blockId": "7388bcd5",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$49",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e9eea9bc:text",
+							"blockId": "e9eea9bc",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": true,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "415777f2:text",
+							"blockId": "415777f2",
+							"path": "0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BUY NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "793b4f43:background.image.image.url",
+							"blockId": "793b4f43",
+							"path": "0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/sell-underwater.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1370,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman swimming underwater in a dark pool",
+							"tone": {
+								"grid": [
+									0.07,
+									0.09,
+									0.15,
+									0.06,
+									0.1,
+									0.17,
+									0.02,
+									0.04,
+									0.08
+								],
+								"color": "#051b1a"
+							}
+						}
+					]
+				},
+				{
+					"id": "c40642fa",
+					"index": 1,
+					"path": "1",
+					"group": "c40642fa",
+					"role": "content",
+					"title": "Conceptual Photography",
+					"slots": [
+						{
+							"id": "82c554b5:text",
+							"blockId": "82c554b5",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Conceptual Photography",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "82250dac",
+					"index": 2,
+					"path": "2",
+					"group": "c40642fa",
+					"role": "gallery",
+					"slots": [
+						{
+							"id": "bfec4e6a:text",
+							"blockId": "bfec4e6a",
+							"path": "2.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Load More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.0.0:@html:img",
+							"blockId": "core-2.0.0.0",
+							"path": "2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-conceptual-plastic.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman covered by a sheer plastic veil portrait",
+							"tone": {
+								"grid": [
+									0.08,
+									0.3,
+									0.44,
+									0.1,
+									0.39,
+									0.36,
+									0.18,
+									0.33,
+									0.33
+								],
+								"color": "#484745"
+							}
+						},
+						{
+							"id": "core-2.0.0.1:@html:img",
+							"blockId": "core-2.0.0.1",
+							"path": "2.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-conceptual-stripe.jpg",
+							"decorative": false,
+							"width": 633,
+							"height": 961,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Person covered in wavy black and white striped light pattern",
+							"tone": {
+								"grid": [
+									0.51,
+									0.51,
+									0.43,
+									0.49,
+									0.26,
+									0.58,
+									0.34,
+									0.46,
+									0.43
+								],
+								"color": "#727272"
+							}
+						},
+						{
+							"id": "core-2.0.0.2:@html:img",
+							"blockId": "core-2.0.0.2",
+							"path": "2.0.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-conceptual-menflower.jpg",
+							"decorative": false,
+							"width": 480,
+							"height": 960,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Bearded man holding a flower over one eye",
+							"tone": {
+								"grid": [
+									0.83,
+									0.82,
+									0.83,
+									0.82,
+									0.6,
+									0.7,
+									0.82,
+									0.69,
+									0.63
+								],
+								"color": "#d9b9b2"
+							}
+						},
+						{
+							"id": "core-2.0.0.3:@html:img",
+							"blockId": "core-2.0.0.3",
+							"path": "2.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-conceptual-facemask.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Person wearing a glowing red neon LED mask",
+							"tone": {
+								"grid": [
+									0.05,
+									0.13,
+									0.04,
+									0.13,
+									0.35,
+									0.05,
+									0.06,
+									0.11,
+									0.04
+								],
+								"color": "#221a12"
+							}
+						},
+						{
+							"id": "core-2.0.0.4:@html:img",
+							"blockId": "core-2.0.0.4",
+							"path": "2.0.0.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-conceptual-street.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Reflection of a man and building in a street puddle",
+							"tone": {
+								"grid": [
+									0.3,
+									0.34,
+									0.12,
+									0.47,
+									0.23,
+									0.12,
+									0.54,
+									0.27,
+									0.19
+								],
+								"color": "#404c48"
+							}
+						},
+						{
+							"id": "core-2.0.0.5:@html:img",
+							"blockId": "core-2.0.0.5",
+							"path": "2.0.0.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-conceptual-butterfly.jpg",
+							"decorative": false,
+							"width": 480,
+							"height": 960,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman with face paint and a butterfly over her mouth",
+							"tone": {
+								"grid": [
+									0.15,
+									0.4,
+									0.23,
+									0.29,
+									0.53,
+									0.34,
+									0.17,
+									0.28,
+									0.25
+								],
+								"color": "#544564"
+							}
+						},
+						{
+							"id": "core-2.0.0.6:@html:img",
+							"blockId": "core-2.0.0.6",
+							"path": "2.0.0.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-oldman.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Tired elderly man sitting on steps with his head in his hand",
+							"tone": {
+								"grid": [
+									0.47,
+									0.44,
+									0.37,
+									0.45,
+									0.18,
+									0.26,
+									0.44,
+									0.22,
+									0.55
+								],
+								"color": "#655e59"
+							}
+						},
+						{
+							"id": "core-2.0.0.7:@html:img",
+							"blockId": "core-2.0.0.7",
+							"path": "2.0.0.7",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-conceptual-art.jpg",
+							"decorative": false,
+							"width": 797,
+							"height": 960,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman wearing a dark crown in a fantasy portrait",
+							"tone": {
+								"grid": [
+									0.47,
+									0.31,
+									0.5,
+									0.46,
+									0.39,
+									0.49,
+									0.63,
+									0.53,
+									0.5
+								],
+								"color": "#6c7c87"
+							}
+						},
+						{
+							"id": "core-2.0.0.8:@html:img",
+							"blockId": "core-2.0.0.8",
+							"path": "2.0.0.8",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/gallery-conceptual-watch.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 694,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Hand holding up a vintage alarm clock",
+							"tone": {
+								"grid": [
+									0.73,
+									0.7,
+									0.73,
+									0.73,
+									0.6,
+									0.73,
+									0.58,
+									0.57,
+									0.57
+								],
+								"color": "#d599c0"
+							}
+						}
+					]
+				},
+				{
+					"id": "1294ce98",
+					"index": 3,
+					"path": "3",
+					"group": "c40642fa",
+					"role": "gallery",
+					"slots": [
+						{
+							"id": "74504046:text",
+							"blockId": "74504046",
+							"path": "3.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Facebook",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~1:text",
+							"blockId": "74504046~1",
+							"path": "3.0.1.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Twitter",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~2:text",
+							"blockId": "74504046~2",
+							"path": "3.0.1.2",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Instagram",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~3:text",
+							"blockId": "74504046~3",
+							"path": "3.0.1.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Youtube",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4757915a:image.url",
+							"blockId": "4757915a",
+							"path": "3.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-city-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a hoodie standing in Times Square at night",
+							"tone": {
+								"grid": [
+									0.09,
+									0.08,
+									0.5,
+									0.31,
+									0.34,
+									0.66,
+									0.49,
+									0.58,
+									0.57
+								],
+								"color": "#726366"
+							}
+						},
+						{
+							"id": "3cabd635:image.url",
+							"blockId": "3cabd635",
+							"path": "3.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-men-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man wearing round pink sunglasses close-up",
+							"tone": {
+								"grid": [
+									0.9,
+									0.45,
+									0.55,
+									0.71,
+									0.39,
+									0.42,
+									0.21,
+									0.25,
+									0.22
+								],
+								"color": "#6f7578"
+							}
+						},
+						{
+							"id": "3b656b3e:image.url",
+							"blockId": "3b656b3e",
+							"path": "3.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/instagram-Iodel.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Red-haired woman in a red outfit posing against red wall",
+							"tone": {
+								"grid": [
+									0.36,
+									0.34,
+									0.38,
+									0.28,
+									0.27,
+									0.3,
+									0.19,
+									0.29,
+									0.35
+								],
+								"color": "#bc350d"
+							}
+						},
+						{
+							"id": "78770737:image.url",
+							"blockId": "78770737",
+							"path": "3.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a bucket hat and face mask making a hush gesture",
+							"tone": {
+								"grid": [
+									0.52,
+									0.59,
+									0.5,
+									0.39,
+									0.35,
+									0.63,
+									0.23,
+									0.38,
+									0.61
+								],
+								"color": "#70796b"
+							}
+						},
+						{
+							"id": "35c1f836:image.url",
+							"blockId": "35c1f836",
+							"path": "3.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-lizard.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Lizard perched on a rock looking upward",
+							"tone": {
+								"grid": [
+									0.33,
+									0.45,
+									0.41,
+									0.48,
+									0.48,
+									0.55,
+									0.29,
+									0.29,
+									0.51
+								],
+								"color": "#6e703f"
+							}
+						},
+						{
+							"id": "2a7ad67e:image.url",
+							"blockId": "2a7ad67e",
+							"path": "3.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-outdoor-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in a long coat standing in a concrete colonnade",
+							"tone": {
+								"grid": [
+									0.15,
+									0.68,
+									0.4,
+									0.28,
+									0.6,
+									0.5,
+									0.28,
+									0.63,
+									0.45
+								],
+								"color": "#707173"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4f50e9e5",
+					"role": "hero",
+					"sectionIds": [
+						"4f50e9e5"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c40642fa",
+					"role": "gallery",
+					"title": "Conceptual Photography",
+					"sectionIds": [
+						"c40642fa",
+						"82250dac",
+						"1294ce98"
+					],
+					"paths": [
+						"1",
+						"2",
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "store",
+			"title": "Store",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/themegrill-demos/store-content.xml",
+			"sections": [
+				{
+					"id": "4f50e9e5",
+					"index": 0,
+					"path": "0",
+					"group": "4f50e9e5",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "7388bcd5:text",
+							"blockId": "7388bcd5",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$49",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e9eea9bc:text",
+							"blockId": "e9eea9bc",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sit cursus aliquam curabitur elit, sed. Orci gravida morbi lectus",
+							"rich": true,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "415777f2:text",
+							"blockId": "415777f2",
+							"path": "0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BUY NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "793b4f43:background.image.image.url",
+							"blockId": "793b4f43",
+							"path": "0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-sell-cat.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1283,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Close-up of a cat eye in the dark",
+							"tone": {
+								"grid": [
+									0.16,
+									0.04,
+									0.03,
+									0.15,
+									0.2,
+									0.07,
+									0.1,
+									0.43,
+									0.13
+								],
+								"color": "#242620"
+							}
+						}
+					]
+				},
+				{
+					"id": "97cdc31a",
+					"index": 1,
+					"path": "1",
+					"group": "97cdc31a",
+					"role": "features",
+					"title": "Modeling",
+					"slots": [
+						{
+							"id": "cd990109:text",
+							"blockId": "cd990109",
+							"path": "1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Modeling",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "842b7863:text",
+							"blockId": "842b7863",
+							"path": "1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$199",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744:text",
+							"blockId": "fca79744",
+							"path": "1.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c6acd5bf:text",
+							"blockId": "c6acd5bf",
+							"path": "1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Nature",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5db6659e:text",
+							"blockId": "5db6659e",
+							"path": "1.0.0.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$109",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744~1:text",
+							"blockId": "fca79744~1",
+							"path": "1.0.0.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a0052b4f:text",
+							"blockId": "a0052b4f",
+							"path": "1.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Street",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "38cb2f86:text",
+							"blockId": "38cb2f86",
+							"path": "1.0.0.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$129",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744~2:text",
+							"blockId": "fca79744~2",
+							"path": "1.0.0.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "235b806a:text",
+							"blockId": "235b806a",
+							"path": "1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Landscape",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f001e5df:text",
+							"blockId": "f001e5df",
+							"path": "1.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$229",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744~3:text",
+							"blockId": "fca79744~3",
+							"path": "1.0.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a53eb8ed:text",
+							"blockId": "a53eb8ed",
+							"path": "1.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Fine Art",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "54159a2e:text",
+							"blockId": "54159a2e",
+							"path": "1.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$159",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744~4:text",
+							"blockId": "fca79744~4",
+							"path": "1.0.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "83b40bad:text",
+							"blockId": "83b40bad",
+							"path": "1.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Elephant Portrait",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "21694fb7:text",
+							"blockId": "21694fb7",
+							"path": "1.0.1.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$329",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744~5:text",
+							"blockId": "fca79744~5",
+							"path": "1.0.1.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4ba0a347:image.url",
+							"blockId": "4ba0a347",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-model.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 578,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman with glitter face makeup and flowers in her hair",
+							"tone": {
+								"grid": [
+									0.28,
+									0.63,
+									0.33,
+									0.27,
+									0.51,
+									0.53,
+									0.24,
+									0.61,
+									0.55
+								],
+								"color": "#746d7c"
+							}
+						},
+						{
+							"id": "b035277d:image.url",
+							"blockId": "b035277d",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-nature.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 578,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Green rice terraces on a hillside",
+							"tone": {
+								"grid": [
+									0.79,
+									0.59,
+									0.21,
+									0.5,
+									0.32,
+									0.12,
+									0.18,
+									0.2,
+									0.11
+								],
+								"color": "#4a5a4b"
+							}
+						},
+						{
+							"id": "e546c362:image.url",
+							"blockId": "e546c362",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-street.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 578,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Person with umbrella walking on a foggy street",
+							"tone": {
+								"grid": [
+									0.55,
+									0.87,
+									0.62,
+									0.27,
+									0.6,
+									0.34,
+									0.21,
+									0.48,
+									0.39
+								],
+								"color": "#7a7a7a"
+							}
+						},
+						{
+							"id": "2445f31b:image.url",
+							"blockId": "2445f31b",
+							"path": "1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-landscape.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 578,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Small boat on a calm lake at sunset",
+							"tone": {
+								"grid": [
+									0.36,
+									0.51,
+									0.53,
+									0.47,
+									0.6,
+									0.6,
+									0.17,
+									0.14,
+									0.2
+								],
+								"color": "#6d5f92"
+							}
+						},
+						{
+							"id": "a6159575:image.url",
+							"blockId": "a6159575",
+							"path": "1.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-fineart.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 578,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman wearing a dark crown in a fantasy portrait",
+							"tone": {
+								"grid": [
+									0.4,
+									0.22,
+									0.46,
+									0.44,
+									0.42,
+									0.5,
+									0.65,
+									0.4,
+									0.54
+								],
+								"color": "#667580"
+							}
+						},
+						{
+							"id": "e111399f:image.url",
+							"blockId": "e111399f",
+							"path": "1.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-elephant.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 578,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Elephant walking through a misty forest",
+							"tone": {
+								"grid": [
+									0.2,
+									0.58,
+									0.4,
+									0.21,
+									0.5,
+									0.44,
+									0.16,
+									0.28,
+									0.22
+								],
+								"color": "#4a575b"
+							}
+						}
+					]
+				},
+				{
+					"id": "c781ea19",
+					"index": 2,
+					"path": "2",
+					"group": "c781ea19",
+					"role": "cta",
+					"title": "The Life of Birds - video",
+					"slots": [
+						{
+							"id": "8772602c:text",
+							"blockId": "8772602c",
+							"path": "2.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "The Life of Birds - video",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a966e96:text",
+							"blockId": "2a966e96",
+							"path": "2.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$159",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744~6:text",
+							"blockId": "fca79744~6",
+							"path": "2.0.1.2.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "94ab50f9:background.image.image.url",
+							"blockId": "94ab50f9",
+							"path": "2.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/vulture-video.jpg",
+							"decorative": false,
+							"width": 1363,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Vulture head in profile close-up",
+							"tone": {
+								"grid": [
+									0.31,
+									0.5,
+									0.14,
+									0.51,
+									0.4,
+									0.14,
+									0.55,
+									0.32,
+									0.1
+								],
+								"color": "#53554d"
+							}
+						}
+					]
+				},
+				{
+					"id": "21f59eb5",
+					"index": 3,
+					"path": "3",
+					"group": "21f59eb5",
+					"role": "features",
+					"title": "Best Selling Photography",
+					"slots": [
+						{
+							"id": "82c554b5:text",
+							"blockId": "82c554b5",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Best Selling Photography",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f14dfc7d:text",
+							"blockId": "f14dfc7d",
+							"path": "3.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Creative Art",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7c575ce4:text",
+							"blockId": "7c575ce4",
+							"path": "3.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$199",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744~7:text",
+							"blockId": "fca79744~7",
+							"path": "3.0.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5a1985bd:text",
+							"blockId": "5a1985bd",
+							"path": "3.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Abstract",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4fb508c6:text",
+							"blockId": "4fb508c6",
+							"path": "3.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$109",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744~8:text",
+							"blockId": "fca79744~8",
+							"path": "3.0.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "072323c3:text",
+							"blockId": "072323c3",
+							"path": "3.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mountains",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7387e091:text",
+							"blockId": "7387e091",
+							"path": "3.0.1.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$129",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fca79744~9:text",
+							"blockId": "fca79744~9",
+							"path": "3.0.1.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Add to cart",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "055d6c3b:image.url",
+							"blockId": "055d6c3b",
+							"path": "3.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-creativeart.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 578,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Three women with white dot face paint and headwraps",
+							"tone": {
+								"grid": [
+									0.23,
+									0.17,
+									0.26,
+									0.34,
+									0.15,
+									0.31,
+									0.33,
+									0.1,
+									0.2
+								],
+								"color": "#3b3b3b"
+							}
+						},
+						{
+							"id": "3f5a19c4:image.url",
+							"blockId": "3f5a19c4",
+							"path": "3.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-abstract.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 578,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Silhouette of a person in a neon light tunnel",
+							"tone": {
+								"grid": [
+									0.1,
+									0.13,
+									0.14,
+									0.14,
+									0.26,
+									0.17,
+									0.16,
+									0.15,
+									0.12
+								],
+								"color": "#292159"
+							}
+						},
+						{
+							"id": "ad5cf2cf:image.url",
+							"blockId": "ad5cf2cf",
+							"path": "3.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/store-lakemountains.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 578,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Karst mountains reflected in a calm river with a boat",
+							"tone": {
+								"grid": [
+									0.74,
+									0.77,
+									0.63,
+									0.41,
+									0.6,
+									0.39,
+									0.5,
+									0.47,
+									0.3
+								],
+								"color": "#7f8b85"
+							}
+						}
+					]
+				},
+				{
+					"id": "1294ce98",
+					"index": 4,
+					"path": "4",
+					"group": "1294ce98",
+					"role": "gallery",
+					"slots": [
+						{
+							"id": "74504046:text",
+							"blockId": "74504046",
+							"path": "4.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Facebook",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~1:text",
+							"blockId": "74504046~1",
+							"path": "4.0.1.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Twitter",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~2:text",
+							"blockId": "74504046~2",
+							"path": "4.0.1.2",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Instagram",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74504046~3:text",
+							"blockId": "74504046~3",
+							"path": "4.0.1.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Youtube",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4757915a:image.url",
+							"blockId": "4757915a",
+							"path": "4.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-city-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a hoodie standing in Times Square at night",
+							"tone": {
+								"grid": [
+									0.09,
+									0.08,
+									0.5,
+									0.31,
+									0.34,
+									0.66,
+									0.49,
+									0.58,
+									0.57
+								],
+								"color": "#726366"
+							}
+						},
+						{
+							"id": "3cabd635:image.url",
+							"blockId": "3cabd635",
+							"path": "4.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-men-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man wearing round pink sunglasses close-up",
+							"tone": {
+								"grid": [
+									0.9,
+									0.45,
+									0.55,
+									0.71,
+									0.39,
+									0.42,
+									0.21,
+									0.25,
+									0.22
+								],
+								"color": "#6f7578"
+							}
+						},
+						{
+							"id": "3b656b3e:image.url",
+							"blockId": "3b656b3e",
+							"path": "4.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/instagram-Iodel.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Red-haired woman in a red outfit posing against red wall",
+							"tone": {
+								"grid": [
+									0.36,
+									0.34,
+									0.38,
+									0.28,
+									0.27,
+									0.3,
+									0.19,
+									0.29,
+									0.35
+								],
+								"color": "#bc350d"
+							}
+						},
+						{
+							"id": "78770737:image.url",
+							"blockId": "78770737",
+							"path": "4.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a bucket hat and face mask making a hush gesture",
+							"tone": {
+								"grid": [
+									0.52,
+									0.59,
+									0.5,
+									0.39,
+									0.35,
+									0.63,
+									0.23,
+									0.38,
+									0.61
+								],
+								"color": "#70796b"
+							}
+						},
+						{
+							"id": "35c1f836:image.url",
+							"blockId": "35c1f836",
+							"path": "4.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-lizard.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Lizard perched on a rock looking upward",
+							"tone": {
+								"grid": [
+									0.33,
+									0.45,
+									0.41,
+									0.48,
+									0.48,
+									0.55,
+									0.29,
+									0.29,
+									0.51
+								],
+								"color": "#6e703f"
+							}
+						},
+						{
+							"id": "2a7ad67e:image.url",
+							"blockId": "2a7ad67e",
+							"path": "4.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-outdoor-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in a long coat standing in a concrete colonnade",
+							"tone": {
+								"grid": [
+									0.15,
+									0.68,
+									0.4,
+									0.28,
+									0.6,
+									0.5,
+									0.28,
+									0.63,
+									0.45
+								],
+								"color": "#707173"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "4f50e9e5",
+					"role": "hero",
+					"sectionIds": [
+						"4f50e9e5"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "97cdc31a",
+					"role": "features",
+					"title": "Modeling",
+					"sectionIds": [
+						"97cdc31a"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c781ea19",
+					"role": "cta",
+					"title": "The Life of Birds - video",
+					"sectionIds": [
+						"c781ea19"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "21f59eb5",
+					"role": "features",
+					"title": "Best Selling Photography",
+					"sectionIds": [
+						"21f59eb5"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1294ce98",
+					"role": "gallery",
+					"sectionIds": [
+						"1294ce98"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "me",
+			"title": "Me",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/themegrill-demos/me-content.xml",
+			"sections": [
+				{
+					"id": "74f85d31",
+					"index": 0,
+					"path": "0",
+					"group": "74f85d31",
+					"role": "hero",
+					"title": "Hello,",
+					"slots": [
+						{
+							"id": "3d44e372:text",
+							"blockId": "3d44e372",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Hello,",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "77e321cf:text",
+							"blockId": "77e321cf",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ast accumsan neque. Viverra et nam tincidunt pulvinar malesuada faucibus. In porttitor vitae nascetur at habitant. Lacus, quis nulla venenatis, cursus lectus nulla iaculis tristique in. Suscipit faucibus ut gravida ante sed nulla molestie risus. Nulla consectetur sagittis at neque nec tincidunt. Velit tempor orci ut tincidunt nulla vulputate. Etiam quis nec fermentum lectus mauris gravida arcu risus. Pharetra, eget arcu vel etiam viverra dui tincidunt.",
+							"rich": true,
+							"words": 66,
+							"minWords": 40,
+							"maxWords": 83,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "10dd2ba4:text",
+							"blockId": "10dd2ba4",
+							"path": "0.0.1.0.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "HAPPY CLIENTS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "828d6d8a:text",
+							"blockId": "828d6d8a",
+							"path": "0.0.1.1.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "PROJECTS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "03187fd0:text",
+							"blockId": "03187fd0",
+							"path": "0.0.1.2.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "AWARD WON",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "839eeacd:text",
+							"blockId": "839eeacd",
+							"path": "0.0.1.3.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "PHOTO SHOTS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "186006d6:text",
+							"blockId": "186006d6",
+							"path": "0.0.3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Photoshoot Process",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af47d074:text",
+							"blockId": "af47d074",
+							"path": "0.0.3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ast accumsan neque. Viverra et nam tincidunt pulvinar malesuada faucibus. Porttitor vitae nascetur at habitant. Lacus, quis nulla venenatis, cursus lectus nulla iaculis tristique in. Suscipit faucibus ut gravida ante sed nulla molestie risus. Nulla consectetur sagittis at neque nec tincidunt.",
+							"rich": false,
+							"words": 41,
+							"minWords": 25,
+							"maxWords": 52,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "726f160c:text",
+							"blockId": "726f160c",
+							"path": "0.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Reason to Choose",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "79943637:text",
+							"blockId": "79943637",
+							"path": "0.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ast accumsan neque. Viverra et nam tincidunt pulvinar malesuada faucibus.",
+							"rich": true,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09c6cebd:text",
+							"blockId": "09c6cebd",
+							"path": "0.0.3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Porttitor vitae nascetur at habitant. Lacus, quis nulla venenatis, cursus lectus nulla iaculis tristique in. Suscipit faucibus ut gravida ante sed nulla molestie risus. Nulla consectetur sagittis at neque nec tincidunt.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0846ca87:text",
+							"blockId": "0846ca87",
+							"path": "0.0.4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Happy Client",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b491d11e:textContent",
+							"blockId": "b491d11e",
+							"path": "0.0.4.0.1.0",
+							"block": "blockart/testimonial-slide",
+							"attr": "textContent",
+							"kind": "paragraph",
+							"text": "Ast accumsan neque. Viverra et nam tincidunt pulvinar malesuada faucibus. Porttitor vitae nascetur at habitant. Lacus, quis nulla venenatis, cursus lectus nulla iaculis tristique in. Suscipit faucibus ut gravida ante sed nulla molestie risus. Nulla consectetur sagittis at neque nec tincidunt.",
+							"rich": false,
+							"words": 41,
+							"minWords": 25,
+							"maxWords": 52,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b491d11e:testimonialName",
+							"blockId": "b491d11e",
+							"path": "0.0.4.0.1.0",
+							"block": "blockart/testimonial-slide",
+							"attr": "testimonialName",
+							"kind": "name",
+							"text": "Sam Walter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8d4a3895:textContent",
+							"blockId": "8d4a3895",
+							"path": "0.0.4.0.1.1",
+							"block": "blockart/testimonial-slide",
+							"attr": "textContent",
+							"kind": "paragraph",
+							"text": "Ast accumsan neque. Viverra et nam tincidunt pulvinar malesuada faucibus. Porttitor vitae nascetur at habitant. Lacus, quis nulla venenatis, cursus lectus nulla iaculis tristique in. Suscipit faucibus ut gravida ante sed nulla molestie risus. Nulla consectetur sagittis at neque nec tincidunt.",
+							"rich": false,
+							"words": 41,
+							"minWords": 25,
+							"maxWords": 52,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8d4a3895:testimonialName",
+							"blockId": "8d4a3895",
+							"path": "0.0.4.0.1.1",
+							"block": "blockart/testimonial-slide",
+							"attr": "testimonialName",
+							"kind": "name",
+							"text": "Sam Walter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "aca829af:image.url",
+							"blockId": "aca829af",
+							"path": "0.0.0.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/signature.png",
+							"decorative": true,
+							"width": 195,
+							"height": 73,
+							"orientation": "landscape"
+						},
+						{
+							"id": "050f639e:image.url",
+							"blockId": "050f639e",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/robin-hood-photographer.jpg",
+							"decorative": false,
+							"width": 688,
+							"height": 720,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bald bearded man in dramatic dark portrait",
+							"tone": {
+								"grid": [
+									0,
+									0.11,
+									0,
+									0,
+									0.15,
+									0.01,
+									0,
+									0.04,
+									0
+								],
+								"color": "#0b0908"
+							}
+						},
+						{
+							"id": "94ab50f9:background.image.image.url",
+							"blockId": "94ab50f9",
+							"path": "0.0.2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/videoshowcase-deer.jpg",
+							"decorative": false,
+							"width": 1170,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Deer standing in a golden grass field",
+							"tone": {
+								"grid": [
+									0.38,
+									0.41,
+									0.39,
+									0.45,
+									0.49,
+									0.46,
+									0.28,
+									0.31,
+									0.28
+								],
+								"color": "#95582f"
+							}
+						}
+					]
+				},
+				{
+					"id": "1294ce98",
+					"index": 1,
+					"path": "1",
+					"group": "1294ce98",
+					"role": "gallery",
+					"slots": [
+						{
+							"id": "74504046:text",
+							"blockId": "74504046",
+							"path": "1.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Facebook",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a33f05d-fcdd-4f43-a84b-d4cc703c1ad9:text",
+							"blockId": "0a33f05d-fcdd-4f43-a84b-d4cc703c1ad9",
+							"path": "1.0.1.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Twitter",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dcedf331-e7ed-4d24-9ac1-ab0810e16f02:text",
+							"blockId": "dcedf331-e7ed-4d24-9ac1-ab0810e16f02",
+							"path": "1.0.1.2",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Instagram",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c17763ad-b102-4365-94fb-acc1495b584a:text",
+							"blockId": "c17763ad-b102-4365-94fb-acc1495b584a",
+							"path": "1.0.1.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Youtube",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4757915a:image.url",
+							"blockId": "4757915a",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-city-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a hoodie standing in Times Square at night",
+							"tone": {
+								"grid": [
+									0.09,
+									0.08,
+									0.5,
+									0.31,
+									0.34,
+									0.66,
+									0.49,
+									0.58,
+									0.57
+								],
+								"color": "#726366"
+							}
+						},
+						{
+							"id": "3cabd635:image.url",
+							"blockId": "3cabd635",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-men-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man wearing round pink sunglasses close-up",
+							"tone": {
+								"grid": [
+									0.9,
+									0.45,
+									0.55,
+									0.71,
+									0.39,
+									0.42,
+									0.21,
+									0.25,
+									0.22
+								],
+								"color": "#6f7578"
+							}
+						},
+						{
+							"id": "3b656b3e:image.url",
+							"blockId": "3b656b3e",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/instagram-Iodel.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Red-haired woman in a red outfit posing against red wall",
+							"tone": {
+								"grid": [
+									0.36,
+									0.34,
+									0.38,
+									0.28,
+									0.27,
+									0.3,
+									0.19,
+									0.29,
+									0.35
+								],
+								"color": "#bc350d"
+							}
+						},
+						{
+							"id": "78770737:image.url",
+							"blockId": "78770737",
+							"path": "1.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-street.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a bucket hat and face mask making a hush gesture",
+							"tone": {
+								"grid": [
+									0.52,
+									0.59,
+									0.5,
+									0.39,
+									0.35,
+									0.63,
+									0.23,
+									0.38,
+									0.61
+								],
+								"color": "#70796b"
+							}
+						},
+						{
+							"id": "35c1f836:image.url",
+							"blockId": "35c1f836",
+							"path": "1.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-lizard.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Lizard perched on a rock looking upward",
+							"tone": {
+								"grid": [
+									0.33,
+									0.45,
+									0.41,
+									0.48,
+									0.48,
+									0.55,
+									0.29,
+									0.29,
+									0.51
+								],
+								"color": "#6e703f"
+							}
+						},
+						{
+							"id": "2a7ad67e:image.url",
+							"blockId": "2a7ad67e",
+							"path": "1.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/Instagram-outdoor-model.jpg",
+							"decorative": false,
+							"width": 300,
+							"height": 300,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in a long coat standing in a concrete colonnade",
+							"tone": {
+								"grid": [
+									0.15,
+									0.68,
+									0.4,
+									0.28,
+									0.6,
+									0.5,
+									0.28,
+									0.63,
+									0.45
+								],
+								"color": "#707173"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "74f85d31",
+					"role": "hero",
+					"title": "Hello,",
+					"sectionIds": [
+						"74f85d31"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1294ce98",
+					"role": "gallery",
+					"sectionIds": [
+						"1294ce98"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 23,
+		"textSlots": 136,
+		"editableSlots": 120,
+		"images": 85,
+		"swappableImages": 84,
+		"words": 575
+	},
+	"builtAt": "2026-10-24T11:35:08.001Z"
+}

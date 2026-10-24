@@ -23,6 +23,13 @@ const TEXT_ATTRS: Record<string, { attr: string; kind: TextSlotKind }[]> = {
 	'blockart/heading': [{ attr: 'text', kind: 'heading' }],
 	'blockart/paragraph': [{ attr: 'text', kind: 'paragraph' }],
 	'blockart/button-inner': [{ attr: 'text', kind: 'button' }],
+	'blockart/button': [{ attr: 'text', kind: 'button' }],
+	'blockart/counter': [{ attr: 'text', kind: 'label' }],
+	'blockart/testimonial-slide': [
+		{ attr: 'textContent', kind: 'paragraph' },
+		{ attr: 'testimonialName', kind: 'name' },
+		{ attr: 'designation', kind: 'role' },
+	],
 	'blockart/icon-list-item': [{ attr: 'text', kind: 'list-item' }],
 	'blockart/team': [
 		{ attr: 'teamName', kind: 'name' },
@@ -205,6 +212,8 @@ const roleOf = (section: ManifestSection, blocks: Set<string>, previous?: Manife
 	if (isLogoStrip(section)) return 'logos';
 	if (blocks.has('blockart/faq')) return 'faq';
 	if (blocks.has('blockart/team')) return 'team';
+	if (blocks.has('blockart/testimonial') || blocks.has('blockart/testimonial-slide')) return 'testimonials';
+	if (blocks.has('blockart/counter') && editableWords(section) < 40 && photos < 2) return 'stats';
 	if (POSTS_TITLE.test(section.title ?? '') || (dynamic && dynamicBlocks!.every((b) => /latest-posts|query/.test(b))))
 		return 'posts';
 	if (dynamic && words < 40) return 'dynamic';

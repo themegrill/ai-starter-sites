@@ -1,0 +1,3253 @@
+{
+	"version": 4,
+	"slug": "event-marketing",
+	"name": "Event Marketing",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-event-marketing/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/event-marketing",
+	"niches": [
+		"events",
+		"marketing"
+	],
+	"keywords": [
+		"event management",
+		"event planner",
+		"conference",
+		"event agency",
+		"exhibitions",
+		"event marketing"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 29,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#005f69",
+				"count": 14,
+				"group": "brand",
+				"role": "primary",
+				"base": "#005f69",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#4e4e4e",
+				"count": 13,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 9
+				}
+			},
+			{
+				"hex": "#090909",
+				"count": 13,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#005f69",
+				"lightnessDelta": 0.165
+			},
+			{
+				"hex": "#f5f5f5",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#269bd1",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#005f69",
+				"lightnessDelta": 0.278
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#005f69",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 6,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#005f69",
+				"large": false,
+				"count": 5,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#005f69",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#090909",
+				"bg": "#005f69",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#005f69",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Source Serif Pro",
+			"body": "Poppins",
+			"map": {}
+		}
+	},
+	"pages": [
+		{
+			"slug": "sample-page-2",
+			"title": "Sample Page",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/event-marketing/wp-content/uploads/sites/120/themegrill-demos/sample-page-2-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/event-marketing/wp-content/uploads/sites/120/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Building Impactful Brands Through Excellence and Efficiency.",
+					"slots": [
+						{
+							"id": "core-0.0.0.0.0:@html:h",
+							"blockId": "core-0.0.0.0.0",
+							"path": "0.0.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Building Impactful Brands Through Excellence and Efficiency.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.1:@html:p",
+							"blockId": "core-0.0.0.0.1",
+							"path": "0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We are all familiar with the adoption rates of social networks and online communities.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.2.0:@html:a",
+							"blockId": "core-0.0.0.0.2.0",
+							"path": "0.0.0.0.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "About Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "pricing",
+					"title": "What We Do",
+					"slots": [
+						{
+							"id": "core-1.0.0.0.0.0:@html:h",
+							"blockId": "core-1.0.0.0.0.0",
+							"path": "1.0.0.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What We Do",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.1.1.0:@html:h",
+							"blockId": "core-1.0.0.1.1.0",
+							"path": "1.0.0.1.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Event-based strategy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.1.1.1:@html:p",
+							"blockId": "core-1.0.0.1.1.1",
+							"path": "1.0.0.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We attempt to take advantage of temporary stock mispricing, which can occur before or after...",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.2.1.0:@html:h",
+							"blockId": "core-1.0.0.2.1.0",
+							"path": "1.0.0.2.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Event Website",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.2.1.1:@html:p",
+							"blockId": "core-1.0.0.2.1.1",
+							"path": "1.0.0.2.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "It’s relatively easy to create a page, you want to make sure attendees are prepared with the details. To ensure...",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.3.1.0:@html:h",
+							"blockId": "core-1.0.0.3.1.0",
+							"path": "1.0.0.3.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Social media marketing",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.3.1.1:@html:p",
+							"blockId": "core-1.0.0.3.1.1",
+							"path": "1.0.0.3.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The power of social media marketing comes from the unparalleled capacity of social media in three...",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-1.0.0.0.0.1:@html:img",
+							"blockId": "core-1.0.0.0.0.1",
+							"path": "1.0.0.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Line-1.png",
+							"decorative": true,
+							"width": 40,
+							"height": 3,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-1.0.0.1.0.0:@html:img",
+							"blockId": "core-1.0.0.1.0.0",
+							"path": "1.0.0.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/01.png",
+							"decorative": true,
+							"width": 40,
+							"height": 40,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.0.0.2.0.0:@html:img",
+							"blockId": "core-1.0.0.2.0.0",
+							"path": "1.0.0.2.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/02.png",
+							"decorative": true,
+							"width": 40,
+							"height": 40,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.0.0.3.0.0:@html:img",
+							"blockId": "core-1.0.0.3.0.0",
+							"path": "1.0.0.3.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/03.png",
+							"decorative": true,
+							"width": 40,
+							"height": 40,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.0.1.0:@html:img",
+							"blockId": "core-1.0.1.0",
+							"path": "1.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/what-we-say-compressed-1.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 600,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Colleagues in hijabs and casual wear talking in an office",
+							"tone": {
+								"grid": [
+									0.66,
+									0.6,
+									0.67,
+									0.74,
+									0.65,
+									0.57,
+									0.71,
+									0.61,
+									0.61
+								],
+								"color": "#b2a485"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "cta",
+					"title": "Do not miss the upcoming Event!",
+					"slots": [
+						{
+							"id": "core-2.0.0.1:@html:h",
+							"blockId": "core-2.0.0.1",
+							"path": "2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Do not miss the upcoming Event!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.3:@html:p",
+							"blockId": "core-2.0.0.3",
+							"path": "2.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We are very excited for this opportunity to reschedule the canceled 2020 Boston conference to March 2023.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.5.0:@html:a",
+							"blockId": "core-2.0.0.5.0",
+							"path": "2.0.0.5.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "View Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "features",
+					"title": "Our Events",
+					"slots": [
+						{
+							"id": "core-3.0.0.0:@html:h",
+							"blockId": "core-3.0.0.0",
+							"path": "3.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.2:@html:p",
+							"blockId": "core-3.0.0.2",
+							"path": "3.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Our work is the bridge to various insightful digital to us experiences insightful digital experiences.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.0.2:@html:h",
+							"blockId": "core-3.1.0.2",
+							"path": "3.1.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Watch FIFA World Cup 2022",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.0.3:@html:p",
+							"blockId": "core-3.1.0.3",
+							"path": "3.1.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "FIFA World Cup 2022 will be starting on November 20, 2022 in Qatar. The hosting country Qatar will be playing...",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.0.7:@html:h",
+							"blockId": "core-3.1.0.7",
+							"path": "3.1.0.7",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Conference Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.0.8:@html:p",
+							"blockId": "core-3.1.0.8",
+							"path": "3.1.0.8",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The Convening Leaders Conference is the best place for business events professionals to spark innovative ideas",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.1.1:@html:h",
+							"blockId": "core-3.1.1.1",
+							"path": "3.1.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Celebrate 2022 Christmas",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.1.2:@html:p",
+							"blockId": "core-3.1.1.2",
+							"path": "3.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The date is in the diary for the Brighouse Christmas Market 2022 – 26th and 27th November.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.1.6:@html:h",
+							"blockId": "core-3.1.1.6",
+							"path": "3.1.1.6",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Celebrate Birthday Party",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.1.1.7:@html:p",
+							"blockId": "core-3.1.1.7",
+							"path": "3.1.1.7",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "A birthday party can be one of the most memorable occasions of the year. With every passing year",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.2.0:@html:a",
+							"blockId": "core-3.2.0",
+							"path": "3.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "View Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-3.0.0.1:@html:img",
+							"blockId": "core-3.0.0.1",
+							"path": "3.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Line-1.png",
+							"decorative": true,
+							"width": 40,
+							"height": 3,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.1.0.1:@html:img",
+							"blockId": "core-3.1.0.1",
+							"path": "3.1.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/world-cup-compressed.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 467,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Soccer stadium crowd with fans cheering",
+							"tone": {
+								"grid": [
+									0.25,
+									0.27,
+									0.26,
+									0.36,
+									0.32,
+									0.35,
+									0.27,
+									0.26,
+									0.33
+								],
+								"color": "#644640"
+							}
+						},
+						{
+							"id": "core-3.1.0.6:@html:img",
+							"blockId": "core-3.1.0.6",
+							"path": "3.1.0.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Conference-Events.png",
+							"decorative": false,
+							"width": 580,
+							"height": 424,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Team brainstorming with sticky notes in an office meeting",
+							"tone": {
+								"grid": [
+									0.78,
+									0.74,
+									0.64,
+									0.59,
+									0.54,
+									0.61,
+									0.65,
+									0.77,
+									0.73
+								],
+								"color": "#baa998"
+							}
+						},
+						{
+							"id": "core-3.1.1.0:@html:img",
+							"blockId": "core-3.1.1.0",
+							"path": "3.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Christmas-Celebration.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 424,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Friends taking a selfie at a festive dinner table",
+							"tone": {
+								"grid": [
+									0.29,
+									0.37,
+									0.35,
+									0.34,
+									0.47,
+									0.47,
+									0.26,
+									0.7,
+									0.5
+								],
+								"color": "#93623e"
+							}
+						},
+						{
+							"id": "core-3.1.1.5:@html:img",
+							"blockId": "core-3.1.1.5",
+							"path": "3.1.1.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Birthday-Celebration.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 467,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Children in party hats celebrating a birthday on a sofa",
+							"tone": {
+								"grid": [
+									0.39,
+									0.56,
+									0.57,
+									0.44,
+									0.47,
+									0.53,
+									0.34,
+									0.31,
+									0.44
+								],
+								"color": "#7f7163"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "gallery",
+					"title": "Our Gallery",
+					"slots": [
+						{
+							"id": "core-4.0.0.0:@html:h",
+							"blockId": "core-4.0.0.0",
+							"path": "4.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Gallery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.2:@html:p",
+							"blockId": "core-4.0.0.2",
+							"path": "4.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Our Event Gallery images can help you to visualize the endless possibilities of our previous events.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.2.0:@html:a",
+							"blockId": "core-4.2.0",
+							"path": "4.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "View Gallery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-4.0.0.1:@html:img",
+							"blockId": "core-4.0.0.1",
+							"path": "4.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com:3443/app_user/qsu6361/site/rabsana-event-marketing.sites.qsandbox.com/wp-content/uploads/2022/11/Line-1.png",
+							"decorative": false
+						},
+						{
+							"id": "core-4.1.0.0:@html:img",
+							"blockId": "core-4.1.0.0",
+							"path": "4.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Gallery-img1.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 765,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Business team working together on laptops at a table",
+							"tone": {
+								"grid": [
+									0.87,
+									0.79,
+									0.85,
+									0.51,
+									0.64,
+									0.65,
+									0.52,
+									0.57,
+									0.57
+								],
+								"color": "#b6a69c"
+							}
+						},
+						{
+							"id": "core-4.1.1.0.0.0:@html:img",
+							"blockId": "core-4.1.1.0.0.0",
+							"path": "4.1.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Gallery-img2.png",
+							"decorative": false,
+							"width": 580,
+							"height": 350,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Colleagues discussing documents at a meeting table",
+							"tone": {
+								"grid": [
+									0.42,
+									0.7,
+									0.67,
+									0.61,
+									0.73,
+									0.18,
+									0.43,
+									0.62,
+									0.31
+								],
+								"color": "#988072"
+							}
+						},
+						{
+							"id": "core-4.1.1.1.0.1:@html:img",
+							"blockId": "core-4.1.1.1.0.1",
+							"path": "4.1.1.1.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Gallery-img3.png",
+							"decorative": false,
+							"width": 280,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Team reviewing charts and documents at a table from above",
+							"tone": {
+								"grid": [
+									0.61,
+									0.62,
+									0.75,
+									0.71,
+									0.68,
+									0.62,
+									0.73,
+									0.75,
+									0.77
+								],
+								"color": "#c0ae9f"
+							}
+						},
+						{
+							"id": "core-4.1.1.1.1.1:@html:img",
+							"blockId": "core-4.1.1.1.1.1",
+							"path": "4.1.1.1.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Gallery-img4.png",
+							"decorative": false,
+							"width": 280,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Colleagues working on laptops at an office desk",
+							"tone": {
+								"grid": [
+									0.63,
+									0.86,
+									0.87,
+									0.59,
+									0.56,
+									0.61,
+									0.48,
+									0.59,
+									0.55
+								],
+								"color": "#b0a094"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-5",
+					"index": 5,
+					"path": "5",
+					"group": "top-5",
+					"role": "posts",
+					"title": "Our Blog",
+					"slots": [
+						{
+							"id": "core-5.0.0.0:@html:h",
+							"blockId": "core-5.0.0.0",
+							"path": "5.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Blog",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.0.0.2:@html:p",
+							"blockId": "core-5.0.0.2",
+							"path": "5.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The individual and adaptive approach allows our clients to be either completely or partially involved in the creative process.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.1:@html:h",
+							"blockId": "core-5.1.0.1",
+							"path": "5.1.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Helping You Visualize Your Event Branding Ideas",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.0.2:@html:p",
+							"blockId": "core-5.1.0.2",
+							"path": "5.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "For many organizations, events represent a large share of their overall marketing spend. In fact, many companies...",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.1:@html:h",
+							"blockId": "core-5.1.1.1",
+							"path": "5.1.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Top 20 Best Startup Ideas For Your Event",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.1.2:@html:p",
+							"blockId": "core-5.1.1.2",
+							"path": "5.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Event marketing is a broad term. For some, it refers to the promotional plan for an event, and for others it refers to the strategic...",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.1:@html:h",
+							"blockId": "core-5.1.2.1",
+							"path": "5.1.2.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "The Best Shopping Apps and Trade Promoters",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.1.2.2:@html:p",
+							"blockId": "core-5.1.2.2",
+							"path": "5.1.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "In terms of free promotion, social media is one of the best tools. If you have a presence on all platforms, then you’ll want...",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-5.0.0.1:@html:img",
+							"blockId": "core-5.0.0.1",
+							"path": "5.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Line-1.png",
+							"decorative": true,
+							"width": 40,
+							"height": 3,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-5.1.0.0:@html:img",
+							"blockId": "core-5.1.0.0",
+							"path": "5.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/event-branding.png",
+							"decorative": false,
+							"width": 380,
+							"height": 350,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Shopping bag with dried flowers on a table",
+							"tone": {
+								"grid": [
+									0.68,
+									0.75,
+									0.67,
+									0.68,
+									0.7,
+									0.65,
+									0.65,
+									0.68,
+									0.61
+								],
+								"color": "#b1aba6"
+							}
+						},
+						{
+							"id": "core-5.1.1.0:@html:img",
+							"blockId": "core-5.1.1.0",
+							"path": "5.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/startup.png",
+							"decorative": false,
+							"width": 380,
+							"height": 350,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Person holding a Start Up sign",
+							"tone": {
+								"grid": [
+									0.85,
+									0.79,
+									0.82,
+									0.7,
+									0.41,
+									0.56,
+									0.84,
+									0.74,
+									0.66
+								],
+								"color": "#c4b0ad"
+							}
+						},
+						{
+							"id": "core-5.1.2.0:@html:img",
+							"blockId": "core-5.1.2.0",
+							"path": "5.1.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Shopping-apps-1.png",
+							"decorative": false,
+							"width": 380,
+							"height": 350,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Smartphone with app icons on a laptop",
+							"tone": {
+								"grid": [
+									0.8,
+									0.44,
+									0.2,
+									0.82,
+									0.3,
+									0.25,
+									0.42,
+									0.33,
+									0.25
+								],
+								"color": "#6b6c74"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-6",
+					"index": 6,
+					"path": "6",
+					"group": "top-6",
+					"role": "cta",
+					"title": "Need Some Help?",
+					"slots": [
+						{
+							"id": "core-6.0:@html:h",
+							"blockId": "core-6.0",
+							"path": "6.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Need Some Help?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.1.1.0:@html:p",
+							"blockId": "core-6.1.1.0",
+							"path": "6.1.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Utedat ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utedat el. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commod.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-6.2.0:@html:a",
+							"blockId": "core-6.2.0",
+							"path": "6.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-7",
+					"index": 7,
+					"path": "7",
+					"group": "top-7",
+					"role": "content",
+					"title": "Our Partners",
+					"slots": [
+						{
+							"id": "core-7.0.0.0:@html:h",
+							"blockId": "core-7.0.0.0",
+							"path": "7.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Partners",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.0.2:@html:p",
+							"blockId": "core-7.0.0.2",
+							"path": "7.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We wouldn't be able to host our Events without help from these amazing companies. A huge thanks to all our sponsors and partners!",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-7.0.0.1:@html:img",
+							"blockId": "core-7.0.0.1",
+							"path": "7.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Line-1.png",
+							"decorative": true,
+							"width": 40,
+							"height": 3,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.1.0.1:@html:img",
+							"blockId": "core-7.1.0.1",
+							"path": "7.1.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner1.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.1.1.1:@html:img",
+							"blockId": "core-7.1.1.1",
+							"path": "7.1.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner2.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.1.2.1:@html:img",
+							"blockId": "core-7.1.2.1",
+							"path": "7.1.2.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner3.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.1.3.1:@html:img",
+							"blockId": "core-7.1.3.1",
+							"path": "7.1.3.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner4.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.2.0.1:@html:img",
+							"blockId": "core-7.2.0.1",
+							"path": "7.2.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner5.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.2.1.1:@html:img",
+							"blockId": "core-7.2.1.1",
+							"path": "7.2.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/event-marketing/wp-content/uploads/sites/120/2023/12/Partner-image-6.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.2.2.1:@html:img",
+							"blockId": "core-7.2.2.1",
+							"path": "7.2.2.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner7.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.2.3.1:@html:img",
+							"blockId": "core-7.2.3.1",
+							"path": "7.2.3.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner8.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "top-8",
+					"index": 8,
+					"path": "8",
+					"group": "top-7",
+					"role": "testimonials",
+					"title": "What People Say?",
+					"slots": [
+						{
+							"id": "core-8.0.1.0:@html:h",
+							"blockId": "core-8.0.1.0",
+							"path": "8.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What People Say?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.0.1.1:@html:p",
+							"blockId": "core-8.0.1.1",
+							"path": "8.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "77% of 2020 attendees said the conference and other events were ‘better’ or ‘way better’ than similar events.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.1.0.1:@html:p",
+							"blockId": "core-8.1.0.1",
+							"path": "8.1.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Paul Scavo",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.1.0.3:@html:p",
+							"blockId": "core-8.1.0.3",
+							"path": "8.1.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum delen.”",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.1.1.1:@html:p",
+							"blockId": "core-8.1.1.1",
+							"path": "8.1.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Sance Larson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.1.1.3:@html:p",
+							"blockId": "core-8.1.1.3",
+							"path": "8.1.1.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“Quos eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum dele”",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.1.2.1:@html:p",
+							"blockId": "core-8.1.2.1",
+							"path": "8.1.2.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Tim Colly",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-8.1.2.3:@html:p",
+							"blockId": "core-8.1.2.3",
+							"path": "8.1.2.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“Doloreseos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum dele.”",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-8.1.0.0:@html:img",
+							"blockId": "core-8.1.0.0",
+							"path": "8.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/paul-150x150.jpg",
+							"decorative": false,
+							"width": 150,
+							"height": 150,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man with glasses in an orange shirt portrait",
+							"tone": {
+								"grid": [
+									0.09,
+									0.31,
+									0.1,
+									0.25,
+									0.28,
+									0.16,
+									0.38,
+									0.18,
+									0.25
+								],
+								"color": "#4f3523"
+							}
+						},
+						{
+							"id": "core-8.1.0.2:@html:img",
+							"blockId": "core-8.1.0.2",
+							"path": "8.1.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Rating.png",
+							"decorative": true,
+							"width": 100,
+							"height": 20,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-8.1.1.0:@html:img",
+							"blockId": "core-8.1.1.0",
+							"path": "8.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/pexels-pixabay-415829-scaled-1-150x150.jpg",
+							"decorative": false,
+							"width": 150,
+							"height": 150,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman portrait against a yellow background",
+							"tone": {
+								"grid": [
+									0.64,
+									0.45,
+									0.72,
+									0.61,
+									0.64,
+									0.73,
+									0.63,
+									0.76,
+									0.71
+								],
+								"color": "#c0a75f"
+							}
+						},
+						{
+							"id": "core-8.1.1.2:@html:img",
+							"blockId": "core-8.1.1.2",
+							"path": "8.1.1.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Rating.png",
+							"decorative": true,
+							"width": 100,
+							"height": 20,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-8.1.2.0:@html:img",
+							"blockId": "core-8.1.2.0",
+							"path": "8.1.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/pexels-gabriel-lara-3657520-scaled-1-150x150.jpg",
+							"decorative": false,
+							"width": 150,
+							"height": 150,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man with curly hair in a light blue t-shirt",
+							"tone": {
+								"grid": [
+									0.92,
+									0.42,
+									0.75,
+									0.94,
+									0.4,
+									0.67,
+									0.84,
+									0.73,
+									0.59
+								],
+								"color": "#a8b3bd"
+							}
+						},
+						{
+							"id": "core-8.1.2.2:@html:img",
+							"blockId": "core-8.1.2.2",
+							"path": "8.1.2.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/event-marketing/wp-content/uploads/sites/120/2023/10/Rating.png",
+							"decorative": true,
+							"width": 100,
+							"height": 20,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Building Impactful Brands Through Excellence and Efficiency.",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "pricing",
+					"title": "What We Do",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "cta",
+					"title": "Do not miss the upcoming Event!",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "features",
+					"title": "Our Events",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "gallery",
+					"title": "Our Gallery",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-5",
+					"role": "posts",
+					"title": "Our Blog",
+					"sectionIds": [
+						"top-5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "top-6",
+					"role": "cta",
+					"title": "Need Some Help?",
+					"sectionIds": [
+						"top-6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-7",
+					"role": "testimonials",
+					"title": "Our Partners",
+					"sectionIds": [
+						"top-7",
+						"top-8"
+					],
+					"paths": [
+						"7",
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/event-marketing/wp-content/uploads/sites/120/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/event-marketing/wp-content/uploads/sites/120/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "What We Do",
+					"slots": [
+						{
+							"id": "core-0.0.0.0:@html:h",
+							"blockId": "core-0.0.0.0",
+							"path": "0.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What We Do",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.0.0:@html:h",
+							"blockId": "core-0.1.0.0.0",
+							"path": "0.1.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Event-Based Strategy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.0.1:@html:p",
+							"blockId": "core-0.1.0.0.1",
+							"path": "0.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Event-based strategies have multiple methods of execution. In all situations, the goal of the investor is to take advantage of temporary mispricing caused by a corporation, acquisition, bankruptcy, or another major event.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.0.2.0:@html:li",
+							"blockId": "core-0.1.0.0.2.0",
+							"path": "0.1.0.0.2.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "An event-driven strategy refers to an investment strategy in which an institutional investor attempts to profit from a stock mispricing that may occur during or after a corporate event.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.0.3.0:@html:li",
+							"blockId": "core-0.1.0.0.3.0",
+							"path": "0.1.0.0.3.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Generally, investors have teams of specialists who analyze corporate actions from multiple perspectives, before recommending action.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.0.4.0:@html:li",
+							"blockId": "core-0.1.0.0.4.0",
+							"path": "0.1.0.0.4.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Examples of corporate events include mergers and acquisitions, regulatory changes, and earnings calls.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2.0.0.0:@html:h",
+							"blockId": "core-0.2.0.0.0",
+							"path": "0.2.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Event Website",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2.0.0.1:@html:p",
+							"blockId": "core-0.2.0.0.1",
+							"path": "0.2.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "First, what type of website will you be building? Event websites can be broken into two types, registration websites, and marketing websites. While there are many other types of websites that exist in the world, those are the two to choose between when creating a website.",
+							"rich": false,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2.0.0.2.0:@html:li",
+							"blockId": "core-0.2.0.0.2.0",
+							"path": "0.2.0.0.2.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Use online email marketing software to easily review, manage, segment, and update your contact lists. Targeted campaigns will significantly drive registration.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2.0.0.3.0:@html:li",
+							"blockId": "core-0.2.0.0.3.0",
+							"path": "0.2.0.0.3.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Maximize registration by pre-scheduling emails, automating updates, and be sure to send confirmation/thank you emails.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2.0.0.4.0:@html:li",
+							"blockId": "core-0.2.0.0.4.0",
+							"path": "0.2.0.0.4.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Review reporting to analyze open and click-thru rates to see what’s working, and what’s not, and to uncover additional marketing opportunities.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.3.0.0.0:@html:h",
+							"blockId": "core-0.3.0.0.0",
+							"path": "0.3.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Social Media Marketing",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.3.0.0.1:@html:p",
+							"blockId": "core-0.3.0.0.1",
+							"path": "0.3.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The power of social media marketing (SMM) is driven by the unparalleled capacity of social media in three core marketing areas: connection, interaction, and customer data.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.3.0.0.2.0:@html:li",
+							"blockId": "core-0.3.0.0.2.0",
+							"path": "0.3.0.0.2.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "The power of social media marketing comes from the unparalleled capacity of social media in three core marketing areas: connection, interaction, and customer data.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.3.0.0.3.0:@html:li",
+							"blockId": "core-0.3.0.0.3.0",
+							"path": "0.3.0.0.3.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "The power of social media marketing comes from the unparalleled capacity of social media in three core marketing areas: connection, interaction, and customer data.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.3.0.0.4.0:@html:li",
+							"blockId": "core-0.3.0.0.4.0",
+							"path": "0.3.0.0.4.0",
+							"block": "core/list-item",
+							"attr": "@html:li",
+							"kind": "list-item",
+							"text": "Because social media today is so ubiquitous, marketing techniques using these platforms are extremely important for businesses.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.0.0.1:@html:img",
+							"blockId": "core-0.0.0.1",
+							"path": "0.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Line-1.png",
+							"decorative": true,
+							"width": 40,
+							"height": 3,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "cta",
+					"title": "Need Some Help?",
+					"slots": [
+						{
+							"id": "core-1.0:@html:h",
+							"blockId": "core-1.0",
+							"path": "1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Need Some Help?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.1.0:@html:p",
+							"blockId": "core-1.1.1.0",
+							"path": "1.1.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Utedat ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utedat el. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commod.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.2.0:@html:a",
+							"blockId": "core-1.2.0",
+							"path": "1.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "content",
+					"title": "Our Partners",
+					"slots": [
+						{
+							"id": "core-2.0.0.0:@html:h",
+							"blockId": "core-2.0.0.0",
+							"path": "2.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Partners",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.2:@html:p",
+							"blockId": "core-2.0.0.2",
+							"path": "2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We wouldn't be able to host our Events without help from these amazing companies. A huge thanks to all our sponsors and partners!",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.0.1:@html:img",
+							"blockId": "core-2.0.0.1",
+							"path": "2.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com:3443/app_user/qsu6361/site/rabsana-event-marketing.sites.qsandbox.com/wp-content/uploads/2022/11/Line-1.png",
+							"decorative": false
+						},
+						{
+							"id": "core-2.1.0.1:@html:img",
+							"blockId": "core-2.1.0.1",
+							"path": "2.1.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner1.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-2.1.1.1:@html:img",
+							"blockId": "core-2.1.1.1",
+							"path": "2.1.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner2.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-2.1.2.1:@html:img",
+							"blockId": "core-2.1.2.1",
+							"path": "2.1.2.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner3.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-2.1.3.1:@html:img",
+							"blockId": "core-2.1.3.1",
+							"path": "2.1.3.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner4.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-2.2.0.1:@html:img",
+							"blockId": "core-2.2.0.1",
+							"path": "2.2.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner5.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-2.2.1.1:@html:img",
+							"blockId": "core-2.2.1.1",
+							"path": "2.2.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner6.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-2.2.2.1:@html:img",
+							"blockId": "core-2.2.2.1",
+							"path": "2.2.2.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner7.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-2.2.3.1:@html:img",
+							"blockId": "core-2.2.3.1",
+							"path": "2.2.3.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner8.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "What We Do",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "cta",
+					"title": "Need Some Help?",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "content",
+					"title": "Our Partners",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "events",
+			"title": "Events",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/event-marketing/wp-content/uploads/sites/120/themegrill-demos/events-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Our Events",
+					"slots": [
+						{
+							"id": "core-0.0.0.0:@html:h",
+							"blockId": "core-0.0.0.0",
+							"path": "0.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.2:@html:p",
+							"blockId": "core-0.0.0.2",
+							"path": "0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Our work is the bridge to various insightful digital to us experiences insightful digital experiences.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.2:@html:h",
+							"blockId": "core-0.1.0.2",
+							"path": "0.1.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Watch FIFA World Cup 2022",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.3:@html:p",
+							"blockId": "core-0.1.0.3",
+							"path": "0.1.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "FIFA World Cup 2022 will be starting on November 20, 2022 in Qatar. The hosting country Qatar will be playing...",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.7:@html:h",
+							"blockId": "core-0.1.0.7",
+							"path": "0.1.0.7",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Conference Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.8:@html:p",
+							"blockId": "core-0.1.0.8",
+							"path": "0.1.0.8",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The Convening Leaders Conference is the best place for business events professionals to spark innovative ideas",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.12:@html:h",
+							"blockId": "core-0.1.0.12",
+							"path": "0.1.0.12",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "New Year 2023",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.13:@html:p",
+							"blockId": "core-0.1.0.13",
+							"path": "0.1.0.13",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The Convening Leaders Conference is the best place for business events professionals to spark innovative ideas",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.1.1:@html:h",
+							"blockId": "core-0.1.1.1",
+							"path": "0.1.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Celebrate 2022 Christmas",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.1.2:@html:p",
+							"blockId": "core-0.1.1.2",
+							"path": "0.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The date is in the diary for the Brighouse Christmas Market 2022 – 26th and 27th November.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.1.6:@html:h",
+							"blockId": "core-0.1.1.6",
+							"path": "0.1.1.6",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Celebrate Birthday Party",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.1.7:@html:p",
+							"blockId": "core-0.1.1.7",
+							"path": "0.1.1.7",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "A birthday party can be one of the most memorable occasions of the year. With every passing year",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.1.11:@html:h",
+							"blockId": "core-0.1.1.11",
+							"path": "0.1.1.11",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Music Festival",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.1.12:@html:p",
+							"blockId": "core-0.1.1.12",
+							"path": "0.1.1.12",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "A birthday party can be one of the most memorable occasions of the year. With every passing year",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.0.0.1:@html:img",
+							"blockId": "core-0.0.0.1",
+							"path": "0.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Line-1.png",
+							"decorative": true,
+							"width": 40,
+							"height": 3,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-0.1.0.1:@html:img",
+							"blockId": "core-0.1.0.1",
+							"path": "0.1.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/world-cup-compressed.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 467,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Soccer stadium crowd with fans cheering",
+							"tone": {
+								"grid": [
+									0.25,
+									0.27,
+									0.26,
+									0.36,
+									0.32,
+									0.35,
+									0.27,
+									0.26,
+									0.33
+								],
+								"color": "#644640"
+							}
+						},
+						{
+							"id": "core-0.1.0.6:@html:img",
+							"blockId": "core-0.1.0.6",
+							"path": "0.1.0.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Conference-Events.png",
+							"decorative": false,
+							"width": 580,
+							"height": 424,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Team brainstorming with sticky notes in an office meeting",
+							"tone": {
+								"grid": [
+									0.78,
+									0.74,
+									0.64,
+									0.59,
+									0.54,
+									0.61,
+									0.65,
+									0.77,
+									0.73
+								],
+								"color": "#baa998"
+							}
+						},
+						{
+							"id": "core-0.1.0.11:@html:img",
+							"blockId": "core-0.1.0.11",
+							"path": "0.1.0.11",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/New-year.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Fireworks exploding over water at night",
+							"tone": {
+								"grid": [
+									0.08,
+									0.17,
+									0.1,
+									0.25,
+									0.51,
+									0.37,
+									0.19,
+									0.41,
+									0.19
+								],
+								"color": "#5b3a33"
+							}
+						},
+						{
+							"id": "core-0.1.1.0:@html:img",
+							"blockId": "core-0.1.1.0",
+							"path": "0.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Christmas-Celebration.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 424,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Friends taking a selfie at a festive dinner table",
+							"tone": {
+								"grid": [
+									0.29,
+									0.37,
+									0.35,
+									0.34,
+									0.47,
+									0.47,
+									0.26,
+									0.7,
+									0.5
+								],
+								"color": "#93623e"
+							}
+						},
+						{
+							"id": "core-0.1.1.5:@html:img",
+							"blockId": "core-0.1.1.5",
+							"path": "0.1.1.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Birthday-Celebration.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 467,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Children in party hats celebrating a birthday on a sofa",
+							"tone": {
+								"grid": [
+									0.39,
+									0.56,
+									0.57,
+									0.44,
+									0.47,
+									0.53,
+									0.34,
+									0.31,
+									0.44
+								],
+								"color": "#7f7163"
+							}
+						},
+						{
+							"id": "core-0.1.1.10:@html:img",
+							"blockId": "core-0.1.1.10",
+							"path": "0.1.1.10",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Music-festival.png",
+							"decorative": false,
+							"width": 580,
+							"height": 467,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Band singers and guitarists performing together",
+							"tone": {
+								"grid": [
+									0.81,
+									0.57,
+									0.74,
+									0.41,
+									0.2,
+									0.44,
+									0.51,
+									0.25,
+									0.47
+								],
+								"color": "#827c76"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "content",
+					"title": "Related Events",
+					"slots": [
+						{
+							"id": "core-1.0.0.0:@html:h",
+							"blockId": "core-1.0.0.0",
+							"path": "1.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Related Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.0.1:@html:h",
+							"blockId": "core-1.1.0.1",
+							"path": "1.1.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Conference Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.0.2:@html:p",
+							"blockId": "core-1.1.0.2",
+							"path": "1.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The Convening Leaders Conference is the best place for business events professionals to spark innovative ideas",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.1.1:@html:h",
+							"blockId": "core-1.1.1.1",
+							"path": "1.1.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Thanks Giving",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.1.2:@html:p",
+							"blockId": "core-1.1.1.2",
+							"path": "1.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "A birthday party can be one of the most memorable occasions of the year. With every passing year",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-1.0.0.1:@html:img",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Line-1.png",
+							"decorative": true,
+							"width": 40,
+							"height": 3,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-1.1.0.0:@html:img",
+							"blockId": "core-1.1.0.0",
+							"path": "1.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Conference-Events.png",
+							"decorative": false,
+							"width": 580,
+							"height": 424,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Team brainstorming with sticky notes in an office meeting",
+							"tone": {
+								"grid": [
+									0.78,
+									0.74,
+									0.64,
+									0.59,
+									0.54,
+									0.61,
+									0.65,
+									0.77,
+									0.73
+								],
+								"color": "#baa998"
+							}
+						},
+						{
+							"id": "core-1.1.1.0:@html:img",
+							"blockId": "core-1.1.1.0",
+							"path": "1.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Christmas-Celebration.jpg",
+							"decorative": false,
+							"width": 580,
+							"height": 424,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Friends taking a selfie at a festive dinner table",
+							"tone": {
+								"grid": [
+									0.29,
+									0.37,
+									0.35,
+									0.34,
+									0.47,
+									0.47,
+									0.26,
+									0.7,
+									0.5
+								],
+								"color": "#93623e"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "cta",
+					"title": "Need Some Help?",
+					"slots": [
+						{
+							"id": "core-2.0:@html:h",
+							"blockId": "core-2.0",
+							"path": "2.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Need Some Help?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.1.1.0:@html:p",
+							"blockId": "core-2.1.1.0",
+							"path": "2.1.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Utedat ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utedat el. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commod.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-2.2.0:@html:a",
+							"blockId": "core-2.2.0",
+							"path": "2.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "content",
+					"title": "Our Partners",
+					"slots": [
+						{
+							"id": "core-3.0.0.0:@html:h",
+							"blockId": "core-3.0.0.0",
+							"path": "3.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Partners",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.2:@html:p",
+							"blockId": "core-3.0.0.2",
+							"path": "3.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We wouldn't be able to host our Events without help from these amazing companies. A huge thanks to all our sponsors and partners!",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-3.0.0.1:@html:img",
+							"blockId": "core-3.0.0.1",
+							"path": "3.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Line-1.png",
+							"decorative": true,
+							"width": 40,
+							"height": 3,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.1.0.1:@html:img",
+							"blockId": "core-3.1.0.1",
+							"path": "3.1.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner1.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.1.1.1:@html:img",
+							"blockId": "core-3.1.1.1",
+							"path": "3.1.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner2.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.1.2.1:@html:img",
+							"blockId": "core-3.1.2.1",
+							"path": "3.1.2.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner3.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.1.3.1:@html:img",
+							"blockId": "core-3.1.3.1",
+							"path": "3.1.3.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner4.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.2.0.1:@html:img",
+							"blockId": "core-3.2.0.1",
+							"path": "3.2.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner5.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.2.1.1:@html:img",
+							"blockId": "core-3.2.1.1",
+							"path": "3.2.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner6.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.2.2.1:@html:img",
+							"blockId": "core-3.2.2.1",
+							"path": "3.2.2.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner7.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.2.3.1:@html:img",
+							"blockId": "core-3.2.3.1",
+							"path": "3.2.3.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner8.png",
+							"decorative": true,
+							"width": 280,
+							"height": 150,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Our Events",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "content",
+					"title": "Related Events",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "cta",
+					"title": "Need Some Help?",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "content",
+					"title": "Our Partners",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 16,
+		"textSlots": 93,
+		"editableSlots": 93,
+		"images": 63,
+		"swappableImages": 25,
+		"words": 1071
+	},
+	"builtAt": "2026-10-24T11:35:07.937Z"
+}

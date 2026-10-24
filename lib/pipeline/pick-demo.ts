@@ -12,18 +12,17 @@ const REQUEST_NICHES: Record<string, string> = {
 	agency: 'agency',
 	fitness: 'fitness',
 	education: 'education',
-	portfolio: 'agency',
+	portfolio: 'portfolio',
 };
+
+const GENERAL_NICHES = new Set(['business', 'agency', 'consulting', 'startup']);
 
 const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-// Only free demos for now.
-export const availableDemos = (): DemoCatalogEntry[] => DEMO_CATALOG.filter((d) => !d.premium);
+// Free and premium demos alike.
+export const availableDemos = (): DemoCatalogEntry[] => DEMO_CATALOG;
 
-export const getManifest = (slug: string): DemoManifest | undefined => {
-	const manifest = DEMO_MANIFESTS[slug];
-	return manifest && !manifest.premium ? manifest : undefined;
-};
+export const getManifest = (slug: string): DemoManifest | undefined => DEMO_MANIFESTS[slug];
 
 export const rankDemos = (request: GenerateRequest, brief: Brief) => {
 	const requestNiche = REQUEST_NICHES[request.niche];
@@ -37,6 +36,8 @@ export const rankDemos = (request: GenerateRequest, brief: Brief) => {
 			if (requestNiche && demo.niches.includes(requestNiche)) score += 10;
 			if (demo.niches.includes(brief.niche)) score += 6;
 			score += demo.keywords.filter((k) => new RegExp(`\\b${escape(k)}`).test(text)).length * 2;
+			// General business demos fit most sites, so they beat unrelated niche demos as alternatives.
+			if (demo.niches.some((n) => GENERAL_NICHES.has(n))) score += 0.5;
 			// Small nudge toward demos that have the pages the user asked for.
 			score += request.pages.filter((p) => demo.pageTypes.includes(p)).length * 0.25;
 			return { demo, score, order };

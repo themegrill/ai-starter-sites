@@ -1,0 +1,3251 @@
+{
+	"version": 4,
+	"slug": "digital-marketing-02",
+	"name": "Zakra Digital Marketing",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-digital-marketing-02/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/digital-marketing-02",
+	"niches": [
+		"marketing",
+		"agency",
+		"business"
+	],
+	"keywords": [
+		"digital marketing",
+		"seo",
+		"social media",
+		"advertising",
+		"marketing agency",
+		"branding",
+		"ppc"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms-style-customizer/everest-forms-style-customizer.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#242f65",
+				"count": 63,
+				"group": "brand",
+				"role": "primary",
+				"base": "#242f65",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 56
+				}
+			},
+			{
+				"hex": "#7963e0",
+				"count": 58,
+				"group": "brand",
+				"role": "primary",
+				"base": "#242f65",
+				"lightnessDelta": 0.365,
+				"usage": {
+					"text": 10,
+					"background": 18,
+					"border": 16
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 42,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 15,
+					"background": 11,
+					"border": 6
+				}
+			},
+			{
+				"hex": "#f8f8f8",
+				"count": 30,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 26,
+					"border": 4
+				}
+			},
+			{
+				"hex": "#666666",
+				"count": 16,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 16
+				}
+			},
+			{
+				"hex": "#333333",
+				"count": 15,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 14
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 13,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#2563eb",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#242f65",
+				"lightnessDelta": 0.265,
+				"usage": {
+					"border": 4
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f5941f",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#f5941f",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#fffdf7",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fcfcfc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#51585f",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#2c3e6a",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#242f65",
+				"lightnessDelta": 0.025
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#242f65",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 24,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#242f65",
+				"bg": "#f8f8f8",
+				"large": true,
+				"count": 23,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#242f65",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#7963e0",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#7963e0",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 3,
+				"scope": "theme"
+			},
+			{
+				"fg": "#7963e0",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f5941f",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#7963e0",
+				"bg": "#fcfcfc",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#242f65",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#7963e0",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#242f65",
+				"bg": "#f8f8f8",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#242f65",
+				"bg": "#f8f8f8",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#7963e0",
+				"bg": "#f8f8f8",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#7963e0",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "f2b1f9e3",
+					"index": 0,
+					"path": "0",
+					"group": "f2b1f9e3",
+					"role": "hero",
+					"title": "Award Winning",
+					"slots": [
+						{
+							"id": "b817681f:text",
+							"blockId": "b817681f",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Award Winning",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aefec2c5:text",
+							"blockId": "aefec2c5",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Digital Marketing Agency",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae19e637:text",
+							"blockId": "ae19e637",
+							"path": "0.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vulputate quisque id vitae gravida quam in a. Mauris pellentesque mi tempor, morbi vitae consequat.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "52ba1d80:text",
+							"blockId": "52ba1d80",
+							"path": "0.0.2.1.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "GET A QUOTE",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f2b1f9e3:background.image.image.url",
+							"blockId": "f2b1f9e3",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Banner-image.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 699,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Woman leading a meeting with colleagues at a table",
+							"tone": {
+								"grid": [
+									0.62,
+									0.71,
+									0.42,
+									0.44,
+									0.72,
+									0.6,
+									0.46,
+									0.66,
+									0.42
+								],
+								"color": "#9e8c82"
+							}
+						}
+					]
+				},
+				{
+					"id": "9c58d916",
+					"index": 1,
+					"path": "1",
+					"group": "9c58d916",
+					"role": "logos",
+					"title": "Trusted by 9k+ Business",
+					"slots": [
+						{
+							"id": "2a2eb0f9:text",
+							"blockId": "2a2eb0f9",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Trusted by 9k+ Business",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1a694ecb:image.url",
+							"blockId": "1a694ecb",
+							"path": "1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/logo-business.png",
+							"decorative": true,
+							"width": 160,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "f3ba6dba:image.url",
+							"blockId": "f3ba6dba",
+							"path": "1.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/logo-inspector.png",
+							"decorative": true,
+							"width": 160,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "888c13b4:image.url",
+							"blockId": "888c13b4",
+							"path": "1.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/logo-spectrum.png",
+							"decorative": true,
+							"width": 160,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "42b7d072:image.url",
+							"blockId": "42b7d072",
+							"path": "1.1.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/logo-mascat.png",
+							"decorative": true,
+							"width": 160,
+							"height": 70,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "54abb4ee",
+					"index": 2,
+					"path": "2",
+					"group": "9c58d916",
+					"role": "features",
+					"title": "Grow Your Brand",
+					"slots": [
+						{
+							"id": "2c8750b0:text",
+							"blockId": "2c8750b0",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Grow Your Brand",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "00318025:text",
+							"blockId": "00318025",
+							"path": "2.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Web Analytics",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "650a3233:text",
+							"blockId": "650a3233",
+							"path": "2.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At semper a montes mi at sapien sollicitudin lob, tea at tellus litora luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "227f1289:text",
+							"blockId": "227f1289",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "SEO Growth",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0928de8b:text",
+							"blockId": "0928de8b",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tsemper a montes mi at sapien sollicitudin lob, tea at tellus litora luctus.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11f9899c:text",
+							"blockId": "11f9899c",
+							"path": "2.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Page Ranking",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1bbaca8c:text",
+							"blockId": "1bbaca8c",
+							"path": "2.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Semper a montes mi at sapien sollicitudin lob, tea at tellus litora luctus.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "310cd443:text",
+							"blockId": "310cd443",
+							"path": "2.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Buisness Goal",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "13fe9fc9:text",
+							"blockId": "13fe9fc9",
+							"path": "2.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bpt semper a montes mi at sapien sollicitudin lob, tea at tellus litora luctus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4b9469c2:text",
+							"blockId": "4b9469c2",
+							"path": "2.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Page Ranking",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c5bf1cfc:text",
+							"blockId": "c5bf1cfc",
+							"path": "2.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Etium scelerisque nam vehicula primis ut metus senectus pharetra, accumsan at per tristique facilisi sapien purus augue, ultrices suscipit ornare",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "254e74d5:text",
+							"blockId": "254e74d5",
+							"path": "2.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Email Marketing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb959a83:text",
+							"blockId": "fb959a83",
+							"path": "2.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pretium scelerisque nam vehicula primis ut metus senectus pharetra, accumsan at per tristique facilisi sapien purus augue, ultrices suscipit ornare",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "67c54d84:image.url",
+							"blockId": "67c54d84",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-analytics.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "00d45dfa:image.url",
+							"blockId": "00d45dfa",
+							"path": "2.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-rocket.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "82dc9339:image.url",
+							"blockId": "82dc9339",
+							"path": "2.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-analytics.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "10ff8a18:image.url",
+							"blockId": "10ff8a18",
+							"path": "2.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-analytics.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "db3259f2:image.url",
+							"blockId": "db3259f2",
+							"path": "2.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-socialmedia.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "672ae899:image.url",
+							"blockId": "672ae899",
+							"path": "2.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-email.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "b3e985ad",
+					"index": 3,
+					"path": "3",
+					"group": "b3e985ad",
+					"role": "cta",
+					"title": "We take Cake of Your Business",
+					"slots": [
+						{
+							"id": "f6ccf840:text",
+							"blockId": "f6ccf840",
+							"path": "3.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We take Cake of Your Business",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9483ca37:text",
+							"blockId": "9483ca37",
+							"path": "3.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nisi, sed ut ullamcorper sit lorem eget in risus. Faucibus facilisi massa, aliquet felis eget facilisi aliquam, sit. Nulla pellentesque proin quis adipiscing nunc.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "30b07c91:text",
+							"blockId": "30b07c91",
+							"path": "3.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Amet, erat eu, ac eu, integer sagittis. Velit nisi pharetra eu eget. Diam mi augue.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e649e8ef:text",
+							"blockId": "e649e8ef",
+							"path": "3.1.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "KNOW MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "24b11fa5:image.url",
+							"blockId": "24b11fa5",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/take-care-your-bussiness.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 742,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling woman in a striped shirt giving a thumbs up",
+							"tone": {
+								"grid": [
+									0.8,
+									0.75,
+									0.96,
+									0.69,
+									0.71,
+									0.94,
+									0.84,
+									0.79,
+									0.87
+								],
+								"color": "#d7cfcc"
+							}
+						}
+					]
+				},
+				{
+					"id": "cac78215",
+					"index": 4,
+					"path": "4",
+					"group": "cac78215",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "5b65d45f:text",
+							"blockId": "5b65d45f",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "993",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "679245f7:text",
+							"blockId": "679245f7",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Projects",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "15422f86:text",
+							"blockId": "15422f86",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "199",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "edabb0ee:text",
+							"blockId": "edabb0ee",
+							"path": "4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Cup of Coffee",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4759e071:text",
+							"blockId": "4759e071",
+							"path": "4.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "96",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "890faf60:text",
+							"blockId": "890faf60",
+							"path": "4.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Growth (in %)",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9db8057d:text",
+							"blockId": "9db8057d",
+							"path": "4.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "899",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "721ee5d3:text",
+							"blockId": "721ee5d3",
+							"path": "4.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Satisfied Customers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "1f352801",
+					"index": 5,
+					"path": "5",
+					"group": "1f352801",
+					"role": "features",
+					"title": "Checkout Our Recent Work & Case Study",
+					"slots": [
+						{
+							"id": "216dcf6f:text",
+							"blockId": "216dcf6f",
+							"path": "5.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Checkout Our Recent Work & Case Study",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0d798c73:text",
+							"blockId": "0d798c73",
+							"path": "5.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "SEO Hacks",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ae77312:text",
+							"blockId": "8ae77312",
+							"path": "5.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pretium scelerisque nam vehicula at pri is ut metus senectus ph aretra, a acc umsan at per tristique facilisi",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c9e99f11:text",
+							"blockId": "c9e99f11",
+							"path": "5.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Apple Digital Marketing",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09548db7:text",
+							"blockId": "09548db7",
+							"path": "5.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Gretium scelerisque nam vehicula at prim is ut metus sene ctus pha retra, a accu msan at per tris tique facilisi",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fd09bb3b:text",
+							"blockId": "fd09bb3b",
+							"path": "5.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Website Page Ranking",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c97c692:text",
+							"blockId": "1c97c692",
+							"path": "5.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Celerisque nam vehicula at primis ut metus senectus pharetra, a accumsan at per tristique facilisi",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6988d4c2:text",
+							"blockId": "6988d4c2",
+							"path": "5.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Marketing Analysis",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4691c370:text",
+							"blockId": "4691c370",
+							"path": "5.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tium scelerisque nam vehicula primis ut metus senectus pharetra, accumsan at per tristique facilisi sapien purus augue, ultrices suscipit ornare",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9072d52b:text",
+							"blockId": "9072d52b",
+							"path": "5.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Skycraper Formula",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b81be34a:text",
+							"blockId": "b81be34a",
+							"path": "5.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Etium scelerisque nam vehicula primis ut metus senectus pharetra, accumsan at per tristique facilisi sapien purus augue, ultrices suscipit ornare",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "379c7a72:image.url",
+							"blockId": "379c7a72",
+							"path": "5.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Seo-Hacks-1.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Team working on laptops at a table viewed from above",
+							"tone": {
+								"grid": [
+									0.52,
+									0.4,
+									0.42,
+									0.72,
+									0.69,
+									0.44,
+									0.64,
+									0.73,
+									0.45
+								],
+								"color": "#9c8c71"
+							}
+						},
+						{
+							"id": "771bd953:image.url",
+							"blockId": "771bd953",
+							"path": "5.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Apple-Digital-Marketing.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Apple logo on a glass storefront",
+							"tone": {
+								"grid": [
+									0.11,
+									0.15,
+									0.09,
+									0.11,
+									0.44,
+									0.13,
+									0.13,
+									0.28,
+									0.18
+								],
+								"color": "#213039"
+							}
+						},
+						{
+							"id": "c783cb2d:image.url",
+							"blockId": "c783cb2d",
+							"path": "5.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Website-Page-Ranking.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Scrabble tiles spelling web on a gray surface",
+							"tone": {
+								"grid": [
+									0.45,
+									0.45,
+									0.42,
+									0.49,
+									0.7,
+									0.44,
+									0.43,
+									0.45,
+									0.41
+								],
+								"color": "#787876"
+							}
+						},
+						{
+							"id": "d2ca579f:image.url",
+							"blockId": "d2ca579f",
+							"path": "5.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Marketing-Analysis.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Man reviewing charts on a tablet with a stylus",
+							"tone": {
+								"grid": [
+									0.85,
+									0.85,
+									0.79,
+									0.75,
+									0.51,
+									0.75,
+									0.28,
+									0.46,
+									0.82
+								],
+								"color": "#ababaf"
+							}
+						},
+						{
+							"id": "8bb11491:image.url",
+							"blockId": "8bb11491",
+							"path": "5.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Skycraper-Formula.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Man writing in a notebook beside a laptop at a desk",
+							"tone": {
+								"grid": [
+									0.87,
+									0.83,
+									0.44,
+									0.81,
+									0.83,
+									0.66,
+									0.79,
+									0.91,
+									0.47
+								],
+								"color": "#bebab7"
+							}
+						}
+					]
+				},
+				{
+					"id": "e5c92c11",
+					"index": 6,
+					"path": "6",
+					"group": "e5c92c11",
+					"role": "cta",
+					"title": "Build your successful business with us. Want to know how to do this?​",
+					"slots": [
+						{
+							"id": "8d6d6251:text",
+							"blockId": "8d6d6251",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Build your successful business with us. Want to know how to do this?​",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb9584d3:text",
+							"blockId": "fb9584d3",
+							"path": "6.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "CONTACT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0ab7b968",
+					"index": 7,
+					"path": "7",
+					"group": "0ab7b968",
+					"role": "testimonials",
+					"title": "What Our Client Says",
+					"slots": [
+						{
+							"id": "08ca7c66:text",
+							"blockId": "08ca7c66",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What Our Client Says",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb09915d:text",
+							"blockId": "eb09915d",
+							"path": "7.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"Zakra Digital Marketing is perfect choice for all kinds of Business, Agency and Professional Growth. Many thanks for a great service Zakra DM!”",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9923e844:text",
+							"blockId": "9923e844",
+							"path": "7.0.1.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Daisy Haze",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bbdf0af3:text",
+							"blockId": "bbdf0af3",
+							"path": "7.0.1.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Marketing Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "05f65524:image.url",
+							"blockId": "05f65524",
+							"path": "7.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Group-1.png",
+							"decorative": true,
+							"width": 127,
+							"height": 21,
+							"orientation": "landscape"
+						},
+						{
+							"id": "e2759d12:image.url",
+							"blockId": "e2759d12",
+							"path": "7.0.1.1.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Jessica-Alba-Marketing-Expert.jpg",
+							"decorative": false,
+							"width": 512,
+							"height": 512,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Playful woman making peace signs over her eyes",
+							"tone": {
+								"grid": [
+									0.85,
+									0.53,
+									0.79,
+									0.66,
+									0.5,
+									0.61,
+									0.66,
+									0.73,
+									0.52
+								],
+								"color": "#a4a5b1"
+							}
+						}
+					]
+				},
+				{
+					"id": "99e605b5",
+					"index": 8,
+					"path": "8",
+					"group": "99e605b5",
+					"role": "posts",
+					"title": "Recent Blog Post",
+					"slots": [
+						{
+							"id": "ddac01d5:text",
+							"blockId": "ddac01d5",
+							"path": "8.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Recent Blog Post",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "42fb122c:text",
+							"blockId": "42fb122c",
+							"path": "8.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Marketing Tools",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ee6fad65:text",
+							"blockId": "ee6fad65",
+							"path": "8.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vehicula primis ut metus senectus hat pharetra, accumsan at per tristique et facilisi sapien purus.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f200cc86:text",
+							"blockId": "f200cc86",
+							"path": "8.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Digital Marketing Insights",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3d303c78:text",
+							"blockId": "3d303c78",
+							"path": "8.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pretium scelerisque nam vehicula at primis ut metus senectus pharetra, a accumsan at per tristique facilisi",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b17718dc:text",
+							"blockId": "b17718dc",
+							"path": "8.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Amazon Marketing Strategy",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "72705747:text",
+							"blockId": "72705747",
+							"path": "8.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Celerisque nam vehicula primis ut metus senectus pharetra, accumsan at per tristique facilisi",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "16638800:image.url",
+							"blockId": "16638800",
+							"path": "8.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Marketing-Tools.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Social media app icons on a smartphone screen",
+							"tone": {
+								"grid": [
+									0.23,
+									0.35,
+									0.2,
+									0.22,
+									0.23,
+									0.25,
+									0.22,
+									0.27,
+									0.16
+								],
+								"color": "#433857"
+							}
+						},
+						{
+							"id": "f8732b79:image.url",
+							"blockId": "f8732b79",
+							"path": "8.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Amazon-Marketing-Strategy.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Notepad with handwritten Amazon marketing mind map",
+							"tone": {
+								"grid": [
+									0.16,
+									0.71,
+									0.86,
+									0.53,
+									0.75,
+									0.84,
+									0.44,
+									0.73,
+									0.86
+								],
+								"color": "#afa597"
+							}
+						},
+						{
+							"id": "bc5199e1:image.url",
+							"blockId": "bc5199e1",
+							"path": "8.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Digital-Marketing-Insight.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman typing on a laptop on a couch from above",
+							"tone": {
+								"grid": [
+									0.47,
+									0.63,
+									0.26,
+									0.35,
+									0.54,
+									0.35,
+									0.23,
+									0.44,
+									0.42
+								],
+								"color": "#68696c"
+							}
+						}
+					]
+				},
+				{
+					"id": "dea27a5b",
+					"index": 9,
+					"path": "9",
+					"group": "dea27a5b",
+					"role": "cta",
+					"title": "Interested to work with us?",
+					"slots": [
+						{
+							"id": "7a182ecf:text",
+							"blockId": "7a182ecf",
+							"path": "9.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Interested to work with us?",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5b773416:text",
+							"blockId": "5b773416",
+							"path": "9.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Send a line hare and get update daily about latest Digital Marketing to grow your Business",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5788cc57:text",
+							"blockId": "5788cc57",
+							"path": "9.0.1.1.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Email Us Now",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "10e1cc8e:background.image.image.url",
+							"blockId": "10e1cc8e",
+							"path": "9.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Subscribe-background.png",
+							"decorative": true,
+							"width": 1110,
+							"height": 364,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "f2b1f9e3",
+					"role": "hero",
+					"title": "Award Winning",
+					"sectionIds": [
+						"f2b1f9e3"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9c58d916",
+					"role": "features",
+					"title": "Trusted by 9k+ Business",
+					"sectionIds": [
+						"9c58d916",
+						"54abb4ee"
+					],
+					"paths": [
+						"1",
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b3e985ad",
+					"role": "cta",
+					"title": "We take Cake of Your Business",
+					"sectionIds": [
+						"b3e985ad"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "cac78215",
+					"role": "stats",
+					"sectionIds": [
+						"cac78215"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "1f352801",
+					"role": "features",
+					"title": "Checkout Our Recent Work & Case Study",
+					"sectionIds": [
+						"1f352801"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e5c92c11",
+					"role": "cta",
+					"title": "Build your successful business with us. Want to know how to do this?​",
+					"sectionIds": [
+						"e5c92c11"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0ab7b968",
+					"role": "testimonials",
+					"title": "What Our Client Says",
+					"sectionIds": [
+						"0ab7b968"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "99e605b5",
+					"role": "posts",
+					"title": "Recent Blog Post",
+					"sectionIds": [
+						"99e605b5"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "dea27a5b",
+					"role": "cta",
+					"title": "Interested to work with us?",
+					"sectionIds": [
+						"dea27a5b"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "42b4d901",
+					"index": 0,
+					"path": "0",
+					"group": "42b4d901",
+					"role": "hero",
+					"title": "Our Mission is to Change Your View for SEO",
+					"slots": [
+						{
+							"id": "8f5b953c:text",
+							"blockId": "8f5b953c",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Mission is to Change Your View for SEO",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb9584d3:text",
+							"blockId": "fb9584d3",
+							"path": "0.0.1",
+							"block": "blockart/button",
+							"attr": "text",
+							"kind": "button",
+							"text": "CONTACT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be11e9d2:text",
+							"blockId": "be11e9d2",
+							"path": "0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nisi, sed ut ullamcorper sit lorem eget in risus. Faucibus facilisi massa, aliquet felis eget facilisi aliquam, sit.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "807218fb:text",
+							"blockId": "807218fb",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "amet, erat eu, ac eu, integer sagittis. Velit nisi pharetra eu eget. Diam mi augue vestibulum viverra tortor porta tincidunt semper. At tristique aliquam. Non quam sed.",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "cac78215",
+					"index": 1,
+					"path": "1",
+					"group": "cac78215",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "5b65d45f:text",
+							"blockId": "5b65d45f",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "993",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "679245f7:text",
+							"blockId": "679245f7",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Projects",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "15422f86:text",
+							"blockId": "15422f86",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "199",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "edabb0ee:text",
+							"blockId": "edabb0ee",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Cup of Coffee",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4759e071:text",
+							"blockId": "4759e071",
+							"path": "1.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "96",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "890faf60:text",
+							"blockId": "890faf60",
+							"path": "1.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Growth (in %)",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9db8057d:text",
+							"blockId": "9db8057d",
+							"path": "1.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "899",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "721ee5d3:text",
+							"blockId": "721ee5d3",
+							"path": "1.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Satisfied Customers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "b3e985ad",
+					"index": 2,
+					"path": "2",
+					"group": "b3e985ad",
+					"role": "cta",
+					"title": "Our Mission is to Change Your View for SEO",
+					"slots": [
+						{
+							"id": "f6ccf840:text",
+							"blockId": "f6ccf840",
+							"path": "2.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Mission is to Change Your View for SEO",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9483ca37:text",
+							"blockId": "9483ca37",
+							"path": "2.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nisi, sed ut ullamcorper sit lorem eget in risus. Faucibus facilisi massa.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "30b07c91:text",
+							"blockId": "30b07c91",
+							"path": "2.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Aliquet felis eget facilisi aliquam, sit. Nulla pellentesque proin quis adipiscing nunc.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e649e8ef:text",
+							"blockId": "e649e8ef",
+							"path": "2.1.0.0.3",
+							"block": "blockart/button",
+							"attr": "text",
+							"kind": "button",
+							"text": "KNOW MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "aa39d9ca",
+					"index": 3,
+					"path": "3",
+					"group": "aa39d9ca",
+					"role": "features",
+					"title": "Meet Our Team",
+					"slots": [
+						{
+							"id": "0cee9e57:text",
+							"blockId": "0cee9e57",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Meet Our Team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "668014f7:text",
+							"blockId": "668014f7",
+							"path": "3.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Lydia Franci",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5031cce2:text",
+							"blockId": "5031cce2",
+							"path": "3.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CTO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a1654166:text",
+							"blockId": "a1654166",
+							"path": "3.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Albert Flores",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f5628b78:text",
+							"blockId": "f5628b78",
+							"path": "3.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Marketing Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "699a8291:text",
+							"blockId": "699a8291",
+							"path": "3.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Robert Fox",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4bada9eb:text",
+							"blockId": "4bada9eb",
+							"path": "3.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Payment Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "9c58d916",
+					"index": 4,
+					"path": "4",
+					"group": "9c58d916",
+					"role": "content",
+					"title": "Trusted by 9k+ Business",
+					"slots": [
+						{
+							"id": "2a2eb0f9:text",
+							"blockId": "2a2eb0f9",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Trusted by 9k+ Business",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "42b4d901",
+					"role": "hero",
+					"title": "Our Mission is to Change Your View for SEO",
+					"sectionIds": [
+						"42b4d901"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "cac78215",
+					"role": "stats",
+					"sectionIds": [
+						"cac78215"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "b3e985ad",
+					"role": "cta",
+					"title": "Our Mission is to Change Your View for SEO",
+					"sectionIds": [
+						"b3e985ad"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "aa39d9ca",
+					"role": "features",
+					"title": "Meet Our Team",
+					"sectionIds": [
+						"aa39d9ca"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9c58d916",
+					"role": "content",
+					"title": "Trusted by 9k+ Business",
+					"sectionIds": [
+						"9c58d916"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "accbcf7f",
+					"index": 0,
+					"path": "0",
+					"group": "accbcf7f",
+					"role": "hero",
+					"title": "Marketing Solution",
+					"slots": [
+						{
+							"id": "5f6ed8df:text",
+							"blockId": "5f6ed8df",
+							"path": "0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Marketing Solution",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6c7e3092:text",
+							"blockId": "6c7e3092",
+							"path": "0.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nisi, sed ut ullamcorper sit lorem eget in risus. Faucibus facilisi massa. Aliquet felis eget facilisi aliquam, sit. Nulla pellentesque proin quis adipiscing nunc.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6ae726f2:text",
+							"blockId": "6ae726f2",
+							"path": "0.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "READ MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f3242bf6:image.url",
+							"blockId": "f3242bf6",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/video-bg.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 550,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Diverse business team smiling during a meeting",
+							"tone": {
+								"grid": [
+									0.77,
+									0.71,
+									0.66,
+									0.39,
+									0.45,
+									0.52,
+									0.55,
+									0.83,
+									0.7
+								],
+								"color": "#ac9b90"
+							}
+						}
+					]
+				},
+				{
+					"id": "359c514d",
+					"index": 1,
+					"path": "1",
+					"group": "359c514d",
+					"role": "cta",
+					"title": "New Trends in SEO & Analytics",
+					"slots": [
+						{
+							"id": "fe1b4b43:text",
+							"blockId": "fe1b4b43",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New Trends in SEO & Analytics",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e125f2c8:text",
+							"blockId": "e125f2c8",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nisi, sed ut ullamcorper sit lorem eget in risus. Faucibus facilisi massa. Aliquet felis eget facilisi aliquam, sit. Nulla pellentesque proin quis adipiscing nunc.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5597c1c3:text",
+							"blockId": "5597c1c3",
+							"path": "1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "READ MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b294e59a:image.url",
+							"blockId": "b294e59a",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Email-Marketing.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 500,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Hands holding a smartphone over a laptop on a desk",
+							"tone": {
+								"grid": [
+									0.26,
+									0.46,
+									0.56,
+									0.33,
+									0.7,
+									0.76,
+									0.32,
+									0.51,
+									0.61
+								],
+								"color": "#947c70"
+							}
+						}
+					]
+				},
+				{
+					"id": "c0a69132",
+					"index": 2,
+					"path": "2",
+					"group": "c0a69132",
+					"role": "cta",
+					"title": "Social Marketing",
+					"slots": [
+						{
+							"id": "6750dc58:text",
+							"blockId": "6750dc58",
+							"path": "2.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Social Marketing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "59143c4d:text",
+							"blockId": "59143c4d",
+							"path": "2.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nisi, sed ut ullamcorper sit lorem eget in risus. Faucibus facilisi massa. Aliquet felis eget facilisi aliquam, sit. Nulla pellentesque proin quis adipiscing nunc.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6f05c2d6:text",
+							"blockId": "6f05c2d6",
+							"path": "2.1.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "READ MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "24a273f9:image.url",
+							"blockId": "24a273f9",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/social-marketing.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 501,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Smartphone with Facebook login beside social media letter tiles",
+							"tone": {
+								"grid": [
+									0.32,
+									0.5,
+									0.38,
+									0.52,
+									0.46,
+									0.51,
+									0.5,
+									0.29,
+									0.4
+								],
+								"color": "#796b6a"
+							}
+						}
+					]
+				},
+				{
+					"id": "51ec0469",
+					"index": 3,
+					"path": "3",
+					"group": "51ec0469",
+					"role": "cta",
+					"title": "PPC Advertising",
+					"slots": [
+						{
+							"id": "f11168ac:text",
+							"blockId": "f11168ac",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PPC Advertising",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9f63b009:text",
+							"blockId": "9f63b009",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nisi, sed ut ullamcorper sit lorem eget in risus. Faucibus facilisi massa. Aliquet felis eget facilisi aliquam, sit. Nulla pellentesque proin quis adipiscing nunc.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "312c7ee2:text",
+							"blockId": "312c7ee2",
+							"path": "3.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "READ MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c37b9b6f:image.url",
+							"blockId": "c37b9b6f",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ppc-advertising.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 501,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Women working on laptops in a busy office",
+							"tone": {
+								"grid": [
+									0.61,
+									0.61,
+									0.69,
+									0.59,
+									0.54,
+									0.5,
+									0.57,
+									0.21,
+									0.52
+								],
+								"color": "#87898d"
+							}
+						}
+					]
+				},
+				{
+					"id": "dea27a5b",
+					"index": 4,
+					"path": "4",
+					"group": "dea27a5b",
+					"role": "cta",
+					"title": "Interested to work with us?",
+					"slots": [
+						{
+							"id": "7a182ecf:text",
+							"blockId": "7a182ecf",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Interested to work with us?",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5b773416:text",
+							"blockId": "5b773416",
+							"path": "4.0.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Send a line hare and get update daily about latest Digital Marketing to grow your Business",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5788cc57:text",
+							"blockId": "5788cc57",
+							"path": "4.0.1.1.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Email Us Now",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "10e1cc8e:background.image.image.url",
+							"blockId": "10e1cc8e",
+							"path": "4.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Subscribe-background.png",
+							"decorative": true,
+							"width": 1110,
+							"height": 364,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "accbcf7f",
+					"role": "hero",
+					"title": "Marketing Solution",
+					"sectionIds": [
+						"accbcf7f"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "359c514d",
+					"role": "cta",
+					"title": "New Trends in SEO & Analytics",
+					"sectionIds": [
+						"359c514d"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c0a69132",
+					"role": "cta",
+					"title": "Social Marketing",
+					"sectionIds": [
+						"c0a69132"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "51ec0469",
+					"role": "cta",
+					"title": "PPC Advertising",
+					"sectionIds": [
+						"51ec0469"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "dea27a5b",
+					"role": "cta",
+					"title": "Interested to work with us?",
+					"sectionIds": [
+						"dea27a5b"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "works",
+			"title": "Works",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/themegrill-demos/works-content.xml",
+			"sections": [
+				{
+					"id": "1f352801",
+					"index": 0,
+					"path": "0",
+					"group": "1f352801",
+					"role": "hero",
+					"title": "Checkout Our Recent Work & Case Study",
+					"slots": [
+						{
+							"id": "216dcf6f:text",
+							"blockId": "216dcf6f",
+							"path": "0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Checkout Our Recent Work & Case Study",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0d798c73:text",
+							"blockId": "0d798c73",
+							"path": "0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "SEO Hacks",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ae77312:text",
+							"blockId": "8ae77312",
+							"path": "0.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lelerisque nam vehicula mitt primis ut metus senectus pharetra, a accumsan at per tristique.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c9e99f11:text",
+							"blockId": "c9e99f11",
+							"path": "0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Apple Digital Marketing",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09548db7:text",
+							"blockId": "09548db7",
+							"path": "0.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Telerisque nam vehicula mitt primis ut metus senectus pharetra, a accumsan at per tristique.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fd09bb3b:text",
+							"blockId": "fd09bb3b",
+							"path": "0.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Website Page Ranking",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c97c692:text",
+							"blockId": "1c97c692",
+							"path": "0.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Celerisque nam vehicula mitt primis ut metus senectus pharetra, a accumsan at per tristique.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "160afe1c:text",
+							"blockId": "160afe1c",
+							"path": "0.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Email Marketing Tips",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0340adba:text",
+							"blockId": "0340adba",
+							"path": "0.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Scelerisque nam vehicula at primis ut metus senectus pharetra, a ccumsan at per tristique facilisi",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1aa8674b:text",
+							"blockId": "1aa8674b",
+							"path": "0.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Google Digital Marketing",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6668fc18:text",
+							"blockId": "6668fc18",
+							"path": "0.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Retium scelerisque nam vehicula ye primis ut metus senectus pharetra, mt accumsan at pera",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44e07ac3:text",
+							"blockId": "44e07ac3",
+							"path": "0.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Affilate Marketing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9927bda7:text",
+							"blockId": "9927bda7",
+							"path": "0.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pretium scelerisque nam vehicula at primis ut metus senectus pharetra, a accumsan at per tristique facilisi",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6988d4c2:text",
+							"blockId": "6988d4c2",
+							"path": "0.0.3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Marketing Analysis",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4691c370:text",
+							"blockId": "4691c370",
+							"path": "0.0.3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tium scelerisque nam vehicula primis ut metus senectus pharetra, accumsan at per tristique facilisi sapien purus augue, ultrices suscipit ornare",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9072d52b:text",
+							"blockId": "9072d52b",
+							"path": "0.0.3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Skycraper Formula",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b81be34a:text",
+							"blockId": "b81be34a",
+							"path": "0.0.3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Etium scelerisque nam vehicula primis ut metus senectus pharetra, accumsan at per tristique facilisi sapien purus augue, ultrices suscipit ornare",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "1f352801",
+					"role": "hero",
+					"title": "Checkout Our Recent Work & Case Study",
+					"sectionIds": [
+						"1f352801"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		}
+	],
+	"stats": {
+		"sections": 21,
+		"textSlots": 113,
+		"editableSlots": 105,
+		"images": 28,
+		"swappableImages": 15,
+		"words": 838
+	},
+	"builtAt": "2026-10-24T11:35:07.891Z"
+}

@@ -1,5 +1,5 @@
 {
-	"version": 3,
+	"version": 4,
 	"slug": "restaurant-v2",
 	"name": "Restaurant V2",
 	"theme": "zakra",
@@ -393,7 +393,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 924,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Busy restaurant interior at night with hanging lights",
+							"tone": {
+								"grid": [
+									0.18,
+									0.17,
+									0.07,
+									0.16,
+									0.21,
+									0.11,
+									0.12,
+									0.18,
+									0.07
+								],
+								"color": "#2e2214"
+							}
 						},
 						{
 							"id": "d0f9928d:image.url",
@@ -403,7 +419,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1-1.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -416,7 +432,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2-1.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -505,7 +521,23 @@
 							"decorative": false,
 							"width": 975,
 							"height": 650,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Cheese pizza being cut with a knife and fork",
+							"tone": {
+								"grid": [
+									0.51,
+									0.56,
+									0.59,
+									0.56,
+									0.58,
+									0.63,
+									0.66,
+									0.67,
+									0.61
+								],
+								"color": "#c19168"
+							}
 						},
 						{
 							"id": "core-1.1.0.0.0:@html:img",
@@ -643,7 +675,23 @@
 							"decorative": false,
 							"width": 961,
 							"height": 961,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "object",
+							"description": "Plated fine dining dish with fish and vegetables",
+							"tone": {
+								"grid": [
+									0.91,
+									0.87,
+									0.9,
+									0.85,
+									0.51,
+									0.79,
+									0.89,
+									0.76,
+									0.88
+								],
+								"color": "#d6cfce"
+							}
 						}
 					]
 				},
@@ -684,7 +732,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 657,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Busy bar and restaurant counter with staff",
+							"tone": {
+								"grid": [
+									0.33,
+									0.48,
+									0.48,
+									0.25,
+									0.34,
+									0.31,
+									0.23,
+									0.21,
+									0.19
+								],
+								"color": "#5c4e3c"
+							}
 						},
 						{
 							"id": "core-3.0.0.0:@html:img",
@@ -694,7 +758,7 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -707,7 +771,7 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -927,7 +991,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 202,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Waffle topped with yogurt, blueberries and strawberries",
+							"tone": {
+								"grid": [
+									0.56,
+									0.55,
+									0.41,
+									0.5,
+									0.57,
+									0.35,
+									0.62,
+									0.35,
+									0.3
+								],
+								"color": "#857475"
+							}
 						},
 						{
 							"id": "1d575b1b:image.url",
@@ -940,7 +1020,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 202,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Seafood pasta with lobster and mussels",
+							"tone": {
+								"grid": [
+									0.57,
+									0.49,
+									0.91,
+									0.38,
+									0.62,
+									0.45,
+									0.38,
+									0.47,
+									0.58
+								],
+								"color": "#b57f6b"
+							}
 						},
 						{
 							"id": "b3a8da9c:image.url",
@@ -953,7 +1049,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 202,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Spaghetti with tomato sauce and cherry tomatoes on a white plate",
+							"tone": {
+								"grid": [
+									0.72,
+									0.7,
+									0.88,
+									0.63,
+									0.41,
+									0.8,
+									0.6,
+									0.4,
+									0.59
+								],
+								"color": "#be9d8d"
+							}
 						}
 					]
 				},
@@ -1232,7 +1344,23 @@
 							"decorative": false,
 							"width": 975,
 							"height": 802,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Cafe storefront with large windows and people inside",
+							"tone": {
+								"grid": [
+									0.41,
+									0.62,
+									0.52,
+									0.25,
+									0.35,
+									0.41,
+									0.42,
+									0.24,
+									0.33
+								],
+								"color": "#616570"
+							}
 						},
 						{
 							"id": "fc09ae7b:image.url",
@@ -1573,7 +1701,23 @@
 							"decorative": false,
 							"width": 975,
 							"height": 802,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Cafe storefront with large windows and people inside",
+							"tone": {
+								"grid": [
+									0.41,
+									0.62,
+									0.52,
+									0.25,
+									0.35,
+									0.41,
+									0.42,
+									0.24,
+									0.33
+								],
+								"color": "#616570"
+							}
 						}
 					]
 				},
@@ -1639,7 +1783,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 550,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Dim restaurant dining room with wooden tables",
+							"tone": {
+								"grid": [
+									0.24,
+									0.41,
+									0.47,
+									0.08,
+									0.17,
+									0.29,
+									0.08,
+									0.14,
+									0.12
+								],
+								"color": "#3f3735"
+							}
 						},
 						{
 							"id": "61f5b806:image.url",
@@ -1649,7 +1809,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -1662,7 +1822,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -1936,7 +2096,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Pepperoni pizza on a wooden board",
+							"tone": {
+								"grid": [
+									0.41,
+									0.53,
+									0.4,
+									0.5,
+									0.64,
+									0.44,
+									0.39,
+									0.55,
+									0.41
+								],
+								"color": "#ad6f3f"
+							}
 						},
 						{
 							"id": "core-10.1.0.1:@html:img",
@@ -1949,7 +2125,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Spaghetti with tomato sauce and cherry tomatoes on a white plate",
+							"tone": {
+								"grid": [
+									0.77,
+									0.61,
+									0.85,
+									0.59,
+									0.38,
+									0.66,
+									0.68,
+									0.46,
+									0.52
+								],
+								"color": "#bd9587"
+							}
 						},
 						{
 							"id": "core-10.1.0.2:@html:img",
@@ -1962,7 +2154,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Roasted vegetables in a dark baking dish",
+							"tone": {
+								"grid": [
+									0.15,
+									0.05,
+									0.07,
+									0.19,
+									0.23,
+									0.29,
+									0.2,
+									0.33,
+									0.47
+								],
+								"color": "#4b3428"
+							}
 						},
 						{
 							"id": "core-10.1.0.3:@html:img",
@@ -1975,7 +2183,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Fresh spring rolls with dipping sauce on a platter",
+							"tone": {
+								"grid": [
+									0.69,
+									0.5,
+									0.68,
+									0.59,
+									0.62,
+									0.57,
+									0.56,
+									0.49,
+									0.63
+								],
+								"color": "#a29586"
+							}
 						},
 						{
 							"id": "core-10.1.0.4:@html:img",
@@ -1988,7 +2212,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Roasted plums with cream on a plate",
+							"tone": {
+								"grid": [
+									0.62,
+									0.57,
+									0.74,
+									0.64,
+									0.28,
+									0.65,
+									0.74,
+									0.28,
+									0.59
+								],
+								"color": "#b48975"
+							}
 						},
 						{
 							"id": "core-10.1.0.5:@html:img",
@@ -2001,7 +2241,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Empanadas with salad on a plate",
+							"tone": {
+								"grid": [
+									0.18,
+									0.31,
+									0.16,
+									0.24,
+									0.35,
+									0.35,
+									0.15,
+									0.31,
+									0.31
+								],
+								"color": "#504128"
+							}
 						},
 						{
 							"id": "core-10.1.0.6:@html:img",
@@ -2014,7 +2270,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Plated steak topped with sprouts and sauce",
+							"tone": {
+								"grid": [
+									0.55,
+									0.75,
+									0.63,
+									0.65,
+									0.46,
+									0.47,
+									0.6,
+									0.38,
+									0.59
+								],
+								"color": "#9c8f71"
+							}
 						},
 						{
 							"id": "core-10.1.0.7:@html:img",
@@ -2027,7 +2299,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Pancakes with chocolate sauce being poured",
+							"tone": {
+								"grid": [
+									0.12,
+									0.06,
+									0.07,
+									0.3,
+									0.21,
+									0.33,
+									0.32,
+									0.34,
+									0.18
+								],
+								"color": "#3d3628"
+							}
 						}
 					]
 				},
@@ -2068,7 +2356,23 @@
 							"decorative": false,
 							"width": 1170,
 							"height": 490,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "People dining in a cosy restaurant",
+							"tone": {
+								"grid": [
+									0.07,
+									0.16,
+									0.08,
+									0.18,
+									0.17,
+									0.07,
+									0.28,
+									0.23,
+									0.19
+								],
+								"color": "#322720"
+							}
 						},
 						{
 							"id": "77d6a094:image.url",
@@ -2078,7 +2382,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -2091,7 +2395,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -2474,7 +2778,23 @@
 							"decorative": false,
 							"width": 557,
 							"height": 676,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Restaurant dining room with brick walls and a large wall clock",
+							"tone": {
+								"grid": [
+									0.61,
+									0.38,
+									0.26,
+									0.44,
+									0.25,
+									0.27,
+									0.64,
+									0.44,
+									0.34
+								],
+								"color": "#806249"
+							}
 						}
 					]
 				},
@@ -2784,7 +3104,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 422,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling chef in a white jacket holding a cup",
+							"tone": {
+								"grid": [
+									0.67,
+									0.52,
+									0.37,
+									0.78,
+									0.81,
+									0.62,
+									0.49,
+									0.77,
+									0.6
+								],
+								"color": "#a89e93"
+							}
 						},
 						{
 							"id": "b812d526:image.url",
@@ -2797,7 +3133,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 422,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling chef in a white jacket with arms crossed",
+							"tone": {
+								"grid": [
+									0.95,
+									0.72,
+									0.97,
+									0.93,
+									0.87,
+									0.96,
+									0.77,
+									0.74,
+									0.86
+								],
+								"color": "#e3dadb"
+							}
 						},
 						{
 							"id": "e4f114b1:image.url",
@@ -2810,7 +3162,23 @@
 							"decorative": false,
 							"width": 370,
 							"height": 422,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Chef in a white hat carving roasted meat",
+							"tone": {
+								"grid": [
+									0.31,
+									0.65,
+									0.29,
+									0.58,
+									0.71,
+									0.53,
+									0.56,
+									0.42,
+									0.25
+								],
+								"color": "#887671"
+							}
 						}
 					]
 				},
@@ -2833,7 +3201,23 @@
 							"decorative": false,
 							"width": 1170,
 							"height": 500,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Busy restaurant seen through the front window",
+							"tone": {
+								"grid": [
+									0.43,
+									0.37,
+									0.46,
+									0.24,
+									0.47,
+									0.51,
+									0.3,
+									0.27,
+									0.63
+								],
+								"color": "#6d6862"
+							}
 						}
 					]
 				},
@@ -2947,7 +3331,23 @@
 							"decorative": false,
 							"width": 1170,
 							"height": 490,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "People dining in a cosy restaurant",
+							"tone": {
+								"grid": [
+									0.07,
+									0.16,
+									0.08,
+									0.18,
+									0.17,
+									0.07,
+									0.28,
+									0.23,
+									0.19
+								],
+								"color": "#322720"
+							}
 						},
 						{
 							"id": "7cd8b0cf:image.url",
@@ -2957,7 +3357,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -2970,7 +3370,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -3698,7 +4098,23 @@
 							"decorative": false,
 							"width": 1024,
 							"height": 483,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Stack of pancakes with chocolate and strawberries",
+							"tone": {
+								"grid": [
+									0.47,
+									0.32,
+									0.54,
+									0.35,
+									0.42,
+									0.65,
+									0.53,
+									0.26,
+									0.47
+								],
+								"color": "#886d5a"
+							}
 						}
 					]
 				},
@@ -4283,7 +4699,23 @@
 							"decorative": false,
 							"width": 1024,
 							"height": 483,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Black pasta with tomatoes and sliced meat",
+							"tone": {
+								"grid": [
+									0.24,
+									0.14,
+									0.06,
+									0.15,
+									0.28,
+									0.31,
+									0.14,
+									0.43,
+									0.31
+								],
+								"color": "#463835"
+							}
 						}
 					]
 				},
@@ -4868,7 +5300,23 @@
 							"decorative": false,
 							"width": 1024,
 							"height": 483,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Pizza with olives and arugula",
+							"tone": {
+								"grid": [
+									0.77,
+									0.55,
+									0.62,
+									0.66,
+									0.52,
+									0.54,
+									0.67,
+									0.58,
+									0.57
+								],
+								"color": "#c49560"
+							}
 						}
 					]
 				},
@@ -5471,7 +5919,23 @@
 							"decorative": false,
 							"width": 1170,
 							"height": 490,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "People dining in a cosy restaurant",
+							"tone": {
+								"grid": [
+									0.07,
+									0.16,
+									0.08,
+									0.18,
+									0.17,
+									0.07,
+									0.28,
+									0.23,
+									0.19
+								],
+								"color": "#322720"
+							}
 						},
 						{
 							"id": "7bb0f5cd:image.url",
@@ -5481,7 +5945,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -5494,7 +5958,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -5791,7 +6255,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Pepperoni pizza on a wooden board",
+							"tone": {
+								"grid": [
+									0.41,
+									0.53,
+									0.4,
+									0.5,
+									0.64,
+									0.44,
+									0.39,
+									0.55,
+									0.41
+								],
+								"color": "#ad6f3f"
+							}
 						},
 						{
 							"id": "core-0.1.0.1:@html:img",
@@ -5804,7 +6284,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Spaghetti with tomato sauce and cherry tomatoes on a white plate",
+							"tone": {
+								"grid": [
+									0.77,
+									0.61,
+									0.85,
+									0.59,
+									0.38,
+									0.66,
+									0.68,
+									0.46,
+									0.52
+								],
+								"color": "#bd9587"
+							}
 						},
 						{
 							"id": "core-0.1.0.2:@html:img",
@@ -5817,7 +6313,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Roasted vegetables in a dark baking dish",
+							"tone": {
+								"grid": [
+									0.15,
+									0.05,
+									0.07,
+									0.19,
+									0.23,
+									0.29,
+									0.2,
+									0.33,
+									0.47
+								],
+								"color": "#4b3428"
+							}
 						},
 						{
 							"id": "core-0.1.0.3:@html:img",
@@ -5830,7 +6342,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Fresh spring rolls with dipping sauce on a platter",
+							"tone": {
+								"grid": [
+									0.69,
+									0.5,
+									0.68,
+									0.59,
+									0.62,
+									0.57,
+									0.56,
+									0.49,
+									0.63
+								],
+								"color": "#a29586"
+							}
 						},
 						{
 							"id": "core-0.1.0.4:@html:img",
@@ -5843,7 +6371,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Roasted plums with cream on a plate",
+							"tone": {
+								"grid": [
+									0.62,
+									0.57,
+									0.74,
+									0.64,
+									0.28,
+									0.65,
+									0.74,
+									0.28,
+									0.59
+								],
+								"color": "#b48975"
+							}
 						},
 						{
 							"id": "core-0.1.0.5:@html:img",
@@ -5856,7 +6400,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Empanadas with salad on a plate",
+							"tone": {
+								"grid": [
+									0.18,
+									0.31,
+									0.16,
+									0.24,
+									0.35,
+									0.35,
+									0.15,
+									0.31,
+									0.31
+								],
+								"color": "#504128"
+							}
 						},
 						{
 							"id": "core-0.1.0.6:@html:img",
@@ -5869,7 +6429,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Plated steak topped with sprouts and sauce",
+							"tone": {
+								"grid": [
+									0.55,
+									0.75,
+									0.63,
+									0.65,
+									0.46,
+									0.47,
+									0.6,
+									0.38,
+									0.59
+								],
+								"color": "#9c8f71"
+							}
 						},
 						{
 							"id": "core-0.1.0.7:@html:img",
@@ -5882,7 +6458,23 @@
 							"decorative": false,
 							"width": 480,
 							"height": 354,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Pancakes with chocolate sauce being poured",
+							"tone": {
+								"grid": [
+									0.12,
+									0.06,
+									0.07,
+									0.3,
+									0.21,
+									0.33,
+									0.32,
+									0.34,
+									0.18
+								],
+								"color": "#3d3628"
+							}
 						}
 					]
 				},
@@ -5923,7 +6515,23 @@
 							"decorative": false,
 							"width": 1170,
 							"height": 490,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "People dining in a cosy restaurant",
+							"tone": {
+								"grid": [
+									0.07,
+									0.16,
+									0.08,
+									0.18,
+									0.17,
+									0.07,
+									0.28,
+									0.23,
+									0.19
+								],
+								"color": "#322720"
+							}
 						},
 						{
 							"id": "a0b1aedc:image.url",
@@ -5933,7 +6541,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -5946,7 +6554,7 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
-							"decorative": false,
+							"decorative": true,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -6035,8 +6643,8 @@
 		"textSlots": 198,
 		"editableSlots": 155,
 		"images": 119,
-		"swappableImages": 52,
+		"swappableImages": 38,
 		"words": 863
 	},
-	"builtAt": "2026-10-07T13:48:43.348Z"
+	"builtAt": "2026-10-24T11:35:07.801Z"
 }

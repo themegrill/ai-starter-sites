@@ -4,6 +4,7 @@
 		"name": "Zakra Agency",
 		"premium": false,
 		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Zakra_Agency_Thumbnail.jpg",
+		"demoUrl": "https://zakrademos.com/agency-03",
 		"niches": [
 			"agency",
 			"business",
@@ -38,10 +39,385 @@
 		]
 	},
 	{
+		"slug": "antique-store",
+		"name": "Antique",
+		"premium": true,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2026/06/Antique-image.jpg",
+		"demoUrl": "https://zakrademos.com/antique-store",
+		"niches": [
+			"antiques",
+			"shop",
+			"retail"
+		],
+		"keywords": [
+			"antique store",
+			"antiques",
+			"vintage",
+			"collectibles",
+			"handicrafts",
+			"art gallery",
+			"thrift"
+		],
+		"stats": {
+			"sections": 14,
+			"textSlots": 53,
+			"editableSlots": 51,
+			"images": 13,
+			"swappableImages": 13,
+			"words": 361
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "applyjobs-v2",
+		"name": "Apply Jobs V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-applyjobs-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/applyjobs-v2",
+		"niches": [
+			"jobs",
+			"recruitment"
+		],
+		"keywords": [
+			"job portal",
+			"job board",
+			"recruitment",
+			"hiring",
+			"careers",
+			"staffing agency",
+			"hr"
+		],
+		"stats": {
+			"sections": 20,
+			"textSlots": 187,
+			"editableSlots": 182,
+			"images": 64,
+			"swappableImages": 22,
+			"words": 1148
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about"
+		]
+	},
+	{
+		"slug": "bizness-v2",
+		"name": "Bizness V2",
+		"premium": false,
+		"previewImage": "",
+		"demoUrl": "https://zakrademos.com/bizness-v2",
+		"niches": [
+			"business",
+			"agency",
+			"consulting"
+		],
+		"keywords": [
+			"business",
+			"agency",
+			"corporate",
+			"consulting",
+			"digital solutions",
+			"company"
+		],
+		"stats": {
+			"sections": 13,
+			"textSlots": 107,
+			"editableSlots": 107,
+			"images": 53,
+			"swappableImages": 15,
+			"words": 789
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "book-author-02",
+		"name": "Zakra Book Author",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-book-author-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/book-author-02",
+		"niches": [
+			"author",
+			"books",
+			"writing"
+		],
+		"keywords": [
+			"author",
+			"writer",
+			"novelist",
+			"books",
+			"publisher",
+			"poet"
+		],
+		"stats": {
+			"sections": 19,
+			"textSlots": 88,
+			"editableSlots": 70,
+			"images": 26,
+			"swappableImages": 19,
+			"words": 892
+		},
+		"pageTypes": [
+			"about",
+			"blog",
+			"contact"
+		]
+	},
+	{
+		"slug": "business-firm-v2",
+		"name": "Business Firm V2",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-business-firm-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/business-firm-v2",
+		"niches": [
+			"business",
+			"consulting",
+			"finance"
+		],
+		"keywords": [
+			"business firm",
+			"corporate",
+			"consulting",
+			"company",
+			"enterprise",
+			"accounting"
+		],
+		"stats": {
+			"sections": 10,
+			"textSlots": 85,
+			"editableSlots": 79,
+			"images": 19,
+			"swappableImages": 11,
+			"words": 462
+		},
+		"pageTypes": [
+			"home",
+			"blog"
+		]
+	},
+	{
+		"slug": "business-v3",
+		"name": "Business V3",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-business-v3/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/business-v3",
+		"niches": [
+			"business",
+			"agency",
+			"consulting"
+		],
+		"keywords": [
+			"business",
+			"agency",
+			"corporate",
+			"consulting",
+			"company",
+			"services"
+		],
+		"stats": {
+			"sections": 13,
+			"textSlots": 107,
+			"editableSlots": 107,
+			"images": 53,
+			"swappableImages": 15,
+			"words": 789
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "care-03",
+		"name": "Care 03",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-care-03/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/care-03",
+		"niches": [
+			"nonprofit",
+			"charity"
+		],
+		"keywords": [
+			"charity",
+			"orphanage",
+			"nonprofit",
+			"children charity",
+			"donation",
+			"homeless",
+			"ngo",
+			"healthcare"
+		],
+		"stats": {
+			"sections": 26,
+			"textSlots": 162,
+			"editableSlots": 159,
+			"images": 36,
+			"swappableImages": 25,
+			"words": 1654
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about"
+		]
+	},
+	{
+		"slug": "chapel-v2",
+		"name": "Chapel V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-chapel-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/chapel-v2",
+		"niches": [
+			"church",
+			"religion",
+			"nonprofit"
+		],
+		"keywords": [
+			"church",
+			"chapel",
+			"ministry",
+			"parish",
+			"faith",
+			"worship",
+			"sermons"
+		],
+		"stats": {
+			"sections": 18,
+			"textSlots": 209,
+			"editableSlots": 184,
+			"images": 72,
+			"swappableImages": 37,
+			"words": 1267
+		},
+		"pageTypes": [
+			"home",
+			"about"
+		]
+	},
+	{
+		"slug": "charity-02",
+		"name": "Zakra Charity",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-charity-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/charity-02",
+		"niches": [
+			"nonprofit",
+			"charity"
+		],
+		"keywords": [
+			"charity",
+			"nonprofit",
+			"ngo",
+			"donation",
+			"fundraising",
+			"volunteer",
+			"foundation",
+			"cause"
+		],
+		"stats": {
+			"sections": 15,
+			"textSlots": 73,
+			"editableSlots": 67,
+			"images": 17,
+			"swappableImages": 15,
+			"words": 606
+		},
+		"pageTypes": [
+			"home",
+			"contact",
+			"about",
+			"blog"
+		]
+	},
+	{
+		"slug": "cleaner-v2",
+		"name": "Zakra Cleaner V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-cleaner-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/cleaner-v2",
+		"niches": [
+			"cleaning",
+			"home-services"
+		],
+		"keywords": [
+			"cleaning service",
+			"cleaners",
+			"janitorial",
+			"housekeeping",
+			"maid service",
+			"carpet cleaning"
+		],
+		"stats": {
+			"sections": 24,
+			"textSlots": 161,
+			"editableSlots": 146,
+			"images": 70,
+			"swappableImages": 19,
+			"words": 1031
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"blog",
+			"contact",
+			"services"
+		]
+	},
+	{
+		"slug": "coffee-shop",
+		"name": "Coffee Shop",
+		"premium": true,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Coffee_Shop_Thumbnail-image.jpg",
+		"demoUrl": "https://zakrademos.com/coffee-shop",
+		"niches": [
+			"cafe",
+			"coffee",
+			"food"
+		],
+		"keywords": [
+			"coffee shop",
+			"cafe",
+			"coffee",
+			"roastery",
+			"espresso",
+			"tea",
+			"coffee beans",
+			"bakery",
+			"pastry",
+			"cake shop",
+			"dessert"
+		],
+		"stats": {
+			"sections": 14,
+			"textSlots": 84,
+			"editableSlots": 79,
+			"images": 55,
+			"swappableImages": 22,
+			"words": 808
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about"
+		]
+	},
+	{
 		"slug": "construction-02",
 		"name": "Construction 02",
 		"premium": false,
 		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-construction-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/construction-02",
 		"niches": [
 			"construction",
 			"architecture",
@@ -75,10 +451,254 @@
 		]
 	},
 	{
+		"slug": "construction-v3",
+		"name": "Construction V3",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-construction-v3/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/construction-v3",
+		"niches": [
+			"construction",
+			"home-services",
+			"trades"
+		],
+		"keywords": [
+			"construction",
+			"roofing",
+			"contractor",
+			"renovation",
+			"builder",
+			"siding",
+			"remodeling"
+		],
+		"stats": {
+			"sections": 23,
+			"textSlots": 107,
+			"editableSlots": 98,
+			"images": 41,
+			"swappableImages": 14,
+			"words": 866
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services",
+			"contact"
+		]
+	},
+	{
+		"slug": "counselling-v2",
+		"name": "Counselling V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-counselling-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/counselling-v2",
+		"niches": [
+			"counselling",
+			"therapy",
+			"coaching"
+		],
+		"keywords": [
+			"counsellor",
+			"therapist",
+			"psychologist",
+			"life coach",
+			"mental health",
+			"counseling"
+		],
+		"stats": {
+			"sections": 24,
+			"textSlots": 181,
+			"editableSlots": 177,
+			"images": 65,
+			"swappableImages": 36,
+			"words": 1579
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "dentico",
+		"name": "Dentico",
+		"premium": true,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Dentico-Thumnail-Image.jpg",
+		"demoUrl": "https://zakrademos.com/dentico",
+		"niches": [
+			"dental",
+			"healthcare",
+			"medical"
+		],
+		"keywords": [
+			"dentist",
+			"dental clinic",
+			"orthodontist",
+			"oral care",
+			"teeth whitening",
+			"dental care",
+			"clinic",
+			"doctor",
+			"medical"
+		],
+		"stats": {
+			"sections": 16,
+			"textSlots": 119,
+			"editableSlots": 111,
+			"images": 39,
+			"swappableImages": 18,
+			"words": 910
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services",
+			"contact"
+		]
+	},
+	{
+		"slug": "digital-diary",
+		"name": "Zakra Digital Diary",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-digital-diary/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/digital-diary",
+		"niches": [
+			"blog",
+			"writing",
+			"personal"
+		],
+		"keywords": [
+			"blog",
+			"diary",
+			"journal",
+			"personal blog",
+			"writer",
+			"lifestyle",
+			"magazine"
+		],
+		"stats": {
+			"sections": 31,
+			"textSlots": 27,
+			"editableSlots": 27,
+			"images": 3,
+			"swappableImages": 3,
+			"words": 933
+		},
+		"pageTypes": [
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "digital-marketing-02",
+		"name": "Zakra Digital Marketing",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-digital-marketing-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/digital-marketing-02",
+		"niches": [
+			"marketing",
+			"agency",
+			"business"
+		],
+		"keywords": [
+			"digital marketing",
+			"seo",
+			"social media",
+			"advertising",
+			"marketing agency",
+			"branding",
+			"ppc"
+		],
+		"stats": {
+			"sections": 21,
+			"textSlots": 113,
+			"editableSlots": 105,
+			"images": 28,
+			"swappableImages": 15,
+			"words": 838
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"services",
+			"blog"
+		]
+	},
+	{
+		"slug": "drone-02",
+		"name": "Drone 02",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-drone-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/drone-02",
+		"niches": [
+			"drones",
+			"photography",
+			"videography"
+		],
+		"keywords": [
+			"drone",
+			"aerial videography",
+			"drone pilot",
+			"aerial photography",
+			"filming",
+			"drone services"
+		],
+		"stats": {
+			"sections": 10,
+			"textSlots": 62,
+			"editableSlots": 61,
+			"images": 21,
+			"swappableImages": 13,
+			"words": 785
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"services",
+			"about"
+		]
+	},
+	{
+		"slug": "education-02",
+		"name": "Education 02",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-education-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/education-02",
+		"niches": [
+			"education",
+			"university"
+		],
+		"keywords": [
+			"university",
+			"college",
+			"school",
+			"education",
+			"campus",
+			"courses"
+		],
+		"stats": {
+			"sections": 13,
+			"textSlots": 57,
+			"editableSlots": 57,
+			"images": 15,
+			"swappableImages": 8,
+			"words": 567
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
 		"slug": "eduskill",
 		"name": "Zakra EduSkill",
 		"premium": false,
 		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-eduskill/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/eduskill",
 		"niches": [
 			"education",
 			"courses",
@@ -112,10 +732,78 @@
 		]
 	},
 	{
+		"slug": "eguru",
+		"name": "Zakra eGuru",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-eguru/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/eguru",
+		"niches": [
+			"education",
+			"courses",
+			"lms"
+		],
+		"keywords": [
+			"online learning",
+			"courses",
+			"e-learning",
+			"tutor",
+			"skills",
+			"academy",
+			"tutoring",
+			"school"
+		],
+		"stats": {
+			"sections": 10,
+			"textSlots": 43,
+			"editableSlots": 40,
+			"images": 14,
+			"swappableImages": 3,
+			"words": 319
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"services"
+		]
+	},
+	{
+		"slug": "event-marketing",
+		"name": "Event Marketing",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-event-marketing/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/event-marketing",
+		"niches": [
+			"events",
+			"marketing"
+		],
+		"keywords": [
+			"event management",
+			"event planner",
+			"conference",
+			"event agency",
+			"exhibitions",
+			"event marketing"
+		],
+		"stats": {
+			"sections": 16,
+			"textSlots": 93,
+			"editableSlots": 93,
+			"images": 63,
+			"swappableImages": 25,
+			"words": 1071
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about"
+		]
+	},
+	{
 		"slug": "fitclub",
 		"name": "FitClub",
 		"premium": false,
 		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/FitClub-Thumbnail.jpg",
+		"demoUrl": "https://zakrademos.com/fitclub",
 		"niches": [
 			"fitness",
 			"gym",
@@ -150,10 +838,319 @@
 		]
 	},
 	{
+		"slug": "flora",
+		"name": "Flora",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-flora/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/flora",
+		"niches": [
+			"plants",
+			"garden",
+			"shop"
+		],
+		"keywords": [
+			"plant shop",
+			"plants",
+			"nursery",
+			"florist",
+			"garden center",
+			"houseplants",
+			"succulents",
+			"landscaping",
+			"gardener"
+		],
+		"stats": {
+			"sections": 23,
+			"textSlots": 71,
+			"editableSlots": 69,
+			"images": 36,
+			"swappableImages": 22,
+			"words": 684
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "foundation-v2",
+		"name": "Zakra Foundation",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-foundation-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/foundation-v2",
+		"niches": [
+			"nonprofit",
+			"charity"
+		],
+		"keywords": [
+			"foundation",
+			"charity",
+			"fundraising",
+			"volunteers",
+			"nonprofit",
+			"donation",
+			"ngo"
+		],
+		"stats": {
+			"sections": 17,
+			"textSlots": 138,
+			"editableSlots": 129,
+			"images": 63,
+			"swappableImages": 26,
+			"words": 889
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "furniture-v2",
+		"name": "Furniture v2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-furniture-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/furniture-v2",
+		"niches": [
+			"furniture",
+			"shop",
+			"retail"
+		],
+		"keywords": [
+			"furniture store",
+			"furniture",
+			"home decor",
+			"interior",
+			"custom furniture",
+			"sofa"
+		],
+		"stats": {
+			"sections": 7,
+			"textSlots": 24,
+			"editableSlots": 24,
+			"images": 4,
+			"swappableImages": 4,
+			"words": 110
+		},
+		"pageTypes": [
+			"home",
+			"blog"
+		]
+	},
+	{
+		"slug": "gamer",
+		"name": "Gamer",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-gamer/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/gamer",
+		"niches": [
+			"gaming",
+			"entertainment"
+		],
+		"keywords": [
+			"gaming",
+			"esports",
+			"gamer",
+			"tournament",
+			"game studio",
+			"streamer",
+			"streaming"
+		],
+		"stats": {
+			"sections": 20,
+			"textSlots": 158,
+			"editableSlots": 149,
+			"images": 26,
+			"swappableImages": 15,
+			"words": 1025
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services",
+			"contact"
+		]
+	},
+	{
+		"slug": "gift-shop-v2",
+		"name": "Gift Shop V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-gift-shop-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/gift-shop-v2",
+		"niches": [
+			"gifts",
+			"shop",
+			"retail"
+		],
+		"keywords": [
+			"gift shop",
+			"gifts",
+			"souvenirs",
+			"presents",
+			"hampers",
+			"gift store"
+		],
+		"stats": {
+			"sections": 11,
+			"textSlots": 33,
+			"editableSlots": 32,
+			"images": 21,
+			"swappableImages": 8,
+			"words": 177
+		},
+		"pageTypes": [
+			"home",
+			"blog"
+		]
+	},
+	{
+		"slug": "gym-v2",
+		"name": "Gym V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-gym-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/gym-v2",
+		"niches": [
+			"fitness",
+			"gym",
+			"sports"
+		],
+		"keywords": [
+			"gym",
+			"bodybuilding",
+			"fitness center",
+			"personal trainer",
+			"crossfit",
+			"workout"
+		],
+		"stats": {
+			"sections": 26,
+			"textSlots": 144,
+			"editableSlots": 133,
+			"images": 67,
+			"swappableImages": 55,
+			"words": 790
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about"
+		]
+	},
+	{
+		"slug": "happiness-coach",
+		"name": "Happiness Coach",
+		"premium": false,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2026/08/happiness-coach-screenshot.png",
+		"demoUrl": "https://zakrademos.com/happiness-coach",
+		"niches": [
+			"coaching",
+			"wellness",
+			"therapy"
+		],
+		"keywords": [
+			"life coach",
+			"happiness coach",
+			"wellbeing",
+			"mindfulness",
+			"coaching",
+			"self care",
+			"yoga",
+			"meditation"
+		],
+		"stats": {
+			"sections": 27,
+			"textSlots": 305,
+			"editableSlots": 250,
+			"images": 32,
+			"swappableImages": 24,
+			"words": 1882
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "kidz",
+		"name": "Kidz",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-kidz/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/kidz",
+		"niches": [
+			"kids",
+			"childcare",
+			"education"
+		],
+		"keywords": [
+			"kindergarten",
+			"preschool",
+			"daycare",
+			"nursery school",
+			"childcare",
+			"montessori",
+			"kids",
+			"school",
+			"tutoring"
+		],
+		"stats": {
+			"sections": 17,
+			"textSlots": 116,
+			"editableSlots": 106,
+			"images": 36,
+			"swappableImages": 8,
+			"words": 784
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "law-firm-v2",
+		"name": "Law Firm V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-law-firm-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/law-firm-v2",
+		"niches": [
+			"legal",
+			"professional-services"
+		],
+		"keywords": [
+			"law firm",
+			"lawyer",
+			"attorney",
+			"legal services",
+			"advocate",
+			"solicitor"
+		],
+		"stats": {
+			"sections": 16,
+			"textSlots": 179,
+			"editableSlots": 175,
+			"images": 60,
+			"swappableImages": 13,
+			"words": 1754
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
 		"slug": "lawyer-v2",
 		"name": "Lawyer V2",
 		"premium": false,
 		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-lawyer-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/lawyer-v2",
 		"niches": [
 			"legal",
 			"professional-services",
@@ -189,10 +1186,547 @@
 		]
 	},
 	{
+		"slug": "megadrone-v2",
+		"name": "MegaDrone V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-megadrone-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/megadrone-v2",
+		"niches": [
+			"drones",
+			"technology",
+			"photography"
+		],
+		"keywords": [
+			"drone",
+			"aerial photography",
+			"drone shop",
+			"uav",
+			"videography"
+		],
+		"stats": {
+			"sections": 11,
+			"textSlots": 54,
+			"editableSlots": 54,
+			"images": 33,
+			"swappableImages": 15,
+			"words": 296
+		},
+		"pageTypes": [
+			"home",
+			"blog"
+		]
+	},
+	{
+		"slug": "member-read",
+		"name": "Member Read.",
+		"premium": false,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2026/08/MemberRead-Screenshot-.jpg",
+		"demoUrl": "https://zakrademos.com/member-read",
+		"niches": [
+			"publishing",
+			"membership",
+			"blog"
+		],
+		"keywords": [
+			"membership",
+			"publication",
+			"magazine",
+			"newsletter",
+			"writers",
+			"reading",
+			"subscription"
+		],
+		"stats": {
+			"sections": 17,
+			"textSlots": 244,
+			"editableSlots": 211,
+			"images": 56,
+			"swappableImages": 40,
+			"words": 959
+		},
+		"pageTypes": [
+			"home"
+		]
+	},
+	{
+		"slug": "minimal-portfolio-02",
+		"name": "Zakra Minimal Portfolio",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-minimal-portfolio-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/minimal-portfolio-02",
+		"niches": [
+			"portfolio",
+			"creative"
+		],
+		"keywords": [
+			"portfolio",
+			"designer",
+			"artist",
+			"freelancer",
+			"creative",
+			"illustrator",
+			"personal portfolio"
+		],
+		"stats": {
+			"sections": 6,
+			"textSlots": 49,
+			"editableSlots": 41,
+			"images": 14,
+			"swappableImages": 7,
+			"words": 229
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"services",
+			"contact"
+		]
+	},
+	{
+		"slug": "musicband-v2",
+		"name": "Music Band V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-musicband-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/musicband-v2",
+		"niches": [
+			"music",
+			"entertainment"
+		],
+		"keywords": [
+			"band",
+			"musician",
+			"music",
+			"concert",
+			"singer",
+			"dj",
+			"artist",
+			"album"
+		],
+		"stats": {
+			"sections": 19,
+			"textSlots": 110,
+			"editableSlots": 109,
+			"images": 33,
+			"swappableImages": 29,
+			"words": 832
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about"
+		]
+	},
+	{
+		"slug": "nutricoach",
+		"name": "nutriCoach",
+		"premium": true,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Nutri_coach_thumbnail-img.jpg",
+		"demoUrl": "https://zakrademos.com/nutricoach",
+		"niches": [
+			"nutrition",
+			"health",
+			"coaching"
+		],
+		"keywords": [
+			"nutritionist",
+			"dietitian",
+			"health coach",
+			"nutrition",
+			"meal plan",
+			"weight loss",
+			"clinic",
+			"wellness"
+		],
+		"stats": {
+			"sections": 15,
+			"textSlots": 129,
+			"editableSlots": 125,
+			"images": 52,
+			"swappableImages": 5,
+			"words": 946
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "nutrition-coach",
+		"name": "Nutrition Coach",
+		"premium": false,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2026/08/Nutrition-Coach-Screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/nutrition-coach",
+		"niches": [
+			"nutrition",
+			"health",
+			"coaching"
+		],
+		"keywords": [
+			"nutrition coach",
+			"nutritionist",
+			"dietitian",
+			"weight loss",
+			"healthy eating",
+			"meal planning"
+		],
+		"stats": {
+			"sections": 26,
+			"textSlots": 264,
+			"editableSlots": 225,
+			"images": 74,
+			"swappableImages": 36,
+			"words": 1309
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "one-page-v3",
+		"name": "One Page V3",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-one-page-v3/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/one-page-v3",
+		"niches": [
+			"agency",
+			"business",
+			"startup"
+		],
+		"keywords": [
+			"one page",
+			"landing page",
+			"agency",
+			"studio",
+			"website builder",
+			"brand"
+		],
+		"stats": {
+			"sections": 9,
+			"textSlots": 71,
+			"editableSlots": 69,
+			"images": 33,
+			"swappableImages": 14,
+			"words": 346
+		},
+		"pageTypes": [
+			"home"
+		]
+	},
+	{
+		"slug": "online-course-02",
+		"name": "Zakra Online Course",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-online-course-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/online-course-02",
+		"niches": [
+			"education",
+			"courses",
+			"lms"
+		],
+		"keywords": [
+			"online courses",
+			"e-learning",
+			"training",
+			"academy",
+			"tutor",
+			"course platform"
+		],
+		"stats": {
+			"sections": 13,
+			"textSlots": 62,
+			"editableSlots": 58,
+			"images": 22,
+			"swappableImages": 9,
+			"words": 465
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"services"
+		]
+	},
+	{
+		"slug": "online-learning",
+		"name": "",
+		"premium": false,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2026/08/online-learning-screenshot-.jpg",
+		"demoUrl": "https://zakrademos.com/online-learning",
+		"niches": [
+			"education",
+			"courses",
+			"lms"
+		],
+		"keywords": [
+			"online learning",
+			"e-learning",
+			"courses",
+			"academy",
+			"training",
+			"skills"
+		],
+		"stats": {
+			"sections": 24,
+			"textSlots": 234,
+			"editableSlots": 218,
+			"images": 84,
+			"swappableImages": 26,
+			"words": 1310
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "online-lms",
+		"name": "Online LMS",
+		"premium": false,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2026/08/online-lms-screenshot.png",
+		"demoUrl": "https://zakrademos.com/online-lms",
+		"niches": [
+			"education",
+			"courses",
+			"lms"
+		],
+		"keywords": [
+			"lms",
+			"online courses",
+			"e-learning",
+			"academy",
+			"training",
+			"tutor"
+		],
+		"stats": {
+			"sections": 36,
+			"textSlots": 299,
+			"editableSlots": 277,
+			"images": 87,
+			"swappableImages": 19,
+			"words": 2011
+		},
+		"pageTypes": [
+			"home",
+			"about"
+		]
+	},
+	{
+		"slug": "online-shop",
+		"name": "Online Shop",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-online-shop/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/online-shop",
+		"niches": [
+			"shop",
+			"ecommerce",
+			"fashion"
+		],
+		"keywords": [
+			"online shop",
+			"ecommerce",
+			"store",
+			"fashion",
+			"clothing",
+			"electronics",
+			"retail"
+		],
+		"stats": {
+			"sections": 9,
+			"textSlots": 36,
+			"editableSlots": 34,
+			"images": 12,
+			"swappableImages": 7,
+			"words": 129
+		},
+		"pageTypes": [
+			"home",
+			"blog"
+		]
+	},
+	{
+		"slug": "online-store-v2",
+		"name": "Online Store v2",
+		"premium": false,
+		"previewImage": "",
+		"demoUrl": "https://zakrademos.com/online-store-v2",
+		"niches": [
+			"shop",
+			"ecommerce"
+		],
+		"keywords": [
+			"online store",
+			"ecommerce",
+			"shop",
+			"store",
+			"products",
+			"retail"
+		],
+		"stats": {
+			"sections": 4,
+			"textSlots": 40,
+			"editableSlots": 38,
+			"images": 9,
+			"swappableImages": 9,
+			"words": 113
+		},
+		"pageTypes": [
+			"home",
+			"blog"
+		]
+	},
+	{
+		"slug": "optigo",
+		"name": "Optigo",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-optigo/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/optigo",
+		"niches": [
+			"eyewear",
+			"healthcare",
+			"shop"
+		],
+		"keywords": [
+			"optician",
+			"eyewear",
+			"glasses",
+			"optometrist",
+			"sunglasses",
+			"eye clinic",
+			"spectacles",
+			"clinic"
+		],
+		"stats": {
+			"sections": 19,
+			"textSlots": 103,
+			"editableSlots": 99,
+			"images": 60,
+			"swappableImages": 20,
+			"words": 746
+		},
+		"pageTypes": [
+			"about",
+			"contact",
+			"home",
+			"blog"
+		]
+	},
+	{
+		"slug": "organic-farm-v2",
+		"name": "Organic Farm V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-organic-farm-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/organic-farm-v2",
+		"niches": [
+			"agriculture",
+			"farming",
+			"food"
+		],
+		"keywords": [
+			"organic farm",
+			"farm",
+			"agriculture",
+			"farmer",
+			"organic food",
+			"dairy",
+			"harvest",
+			"landscaping",
+			"garden",
+			"plants"
+		],
+		"stats": {
+			"sections": 15,
+			"textSlots": 67,
+			"editableSlots": 67,
+			"images": 41,
+			"swappableImages": 12,
+			"words": 878
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "petcare",
+		"name": "PetCare",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-petcare/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/petcare",
+		"niches": [
+			"pets",
+			"veterinary",
+			"shop"
+		],
+		"keywords": [
+			"pet care",
+			"pet grooming",
+			"veterinary",
+			"pet shop",
+			"dog grooming",
+			"pet boarding",
+			"vet clinic",
+			"veterinarian"
+		],
+		"stats": {
+			"sections": 16,
+			"textSlots": 114,
+			"editableSlots": 109,
+			"images": 47,
+			"swappableImages": 18,
+			"words": 623
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "pictography-v2",
+		"name": "Pictography V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-pictography-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/pictography-v2",
+		"niches": [
+			"photography",
+			"portfolio",
+			"creative"
+		],
+		"keywords": [
+			"photographer",
+			"photography",
+			"photo studio",
+			"wildlife photography",
+			"model photography",
+			"portrait photographer",
+			"wedding photographer",
+			"videographer"
+		],
+		"stats": {
+			"sections": 23,
+			"textSlots": 136,
+			"editableSlots": 120,
+			"images": 85,
+			"swappableImages": 84,
+			"words": 575
+		},
+		"pageTypes": [
+			"home"
+		]
+	},
+	{
 		"slug": "plumber-v2",
 		"name": "Plumber V2",
 		"premium": false,
 		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-plumber-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/plumber-v2",
 		"niches": [
 			"home-services",
 			"trades",
@@ -226,10 +1760,185 @@
 		]
 	},
 	{
+		"slug": "plumbing-services-v2",
+		"name": "Zakra Plumbing Services v2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-plumbing-services-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/plumbing-services-v2",
+		"niches": [
+			"home-services",
+			"trades",
+			"repair"
+		],
+		"keywords": [
+			"plumber",
+			"plumbing",
+			"emergency repair",
+			"drain cleaning",
+			"pipe repair",
+			"heating"
+		],
+		"stats": {
+			"sections": 20,
+			"textSlots": 116,
+			"editableSlots": 114,
+			"images": 51,
+			"swappableImages": 24,
+			"words": 1577
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "portfolio-v2",
+		"name": "Portfolio V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-portfolio-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/portfolio-v2",
+		"niches": [
+			"portfolio",
+			"creative"
+		],
+		"keywords": [
+			"portfolio",
+			"ux designer",
+			"developer",
+			"freelancer",
+			"creative",
+			"case study",
+			"designer"
+		],
+		"stats": {
+			"sections": 24,
+			"textSlots": 149,
+			"editableSlots": 143,
+			"images": 65,
+			"swappableImages": 31,
+			"words": 1300
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"services",
+			"contact"
+		]
+	},
+	{
+		"slug": "professional-02",
+		"name": "Zakra Professional",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-professional-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/professional-02",
+		"niches": [
+			"business",
+			"consulting",
+			"professional-services"
+		],
+		"keywords": [
+			"professional services",
+			"consultant",
+			"freelancer",
+			"firm",
+			"business services",
+			"advisor"
+		],
+		"stats": {
+			"sections": 24,
+			"textSlots": 127,
+			"editableSlots": 101,
+			"images": 13,
+			"swappableImages": 6,
+			"words": 720
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"services",
+			"contact",
+			"blog"
+		]
+	},
+	{
+		"slug": "real-estate-v2",
+		"name": "Real Estate V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-real-estate-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/real-estate-v2",
+		"niches": [
+			"real-estate",
+			"property"
+		],
+		"keywords": [
+			"real estate",
+			"realtor",
+			"property",
+			"homes for sale",
+			"real estate agent",
+			"villa",
+			"rentals"
+		],
+		"stats": {
+			"sections": 25,
+			"textSlots": 181,
+			"editableSlots": 151,
+			"images": 74,
+			"swappableImages": 48,
+			"words": 1169
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "restaurant-blog",
+		"name": "Restaurant Blog",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-restaurant-blog/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/restaurant-blog",
+		"niches": [
+			"food",
+			"blog",
+			"restaurant"
+		],
+		"keywords": [
+			"food blog",
+			"recipes",
+			"chef",
+			"cooking",
+			"restaurant",
+			"home cooking",
+			"food writer",
+			"bakery",
+			"catering"
+		],
+		"stats": {
+			"sections": 7,
+			"textSlots": 30,
+			"editableSlots": 30,
+			"images": 11,
+			"swappableImages": 10,
+			"words": 690
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"contact"
+		]
+	},
+	{
 		"slug": "restaurant-v2",
 		"name": "Restaurant V2",
 		"premium": false,
 		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-restaurant-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/restaurant-v2",
 		"niches": [
 			"restaurant",
 			"food",
@@ -257,7 +1966,7 @@
 			"textSlots": 198,
 			"editableSlots": 155,
 			"images": 119,
-			"swappableImages": 52,
+			"swappableImages": 38,
 			"words": 863
 		},
 		"pageTypes": [
@@ -268,10 +1977,45 @@
 		]
 	},
 	{
+		"slug": "restro-v2",
+		"name": "Restro V2",
+		"premium": false,
+		"previewImage": "",
+		"demoUrl": "https://zakrademos.com/restro-v2",
+		"niches": [
+			"restaurant",
+			"food"
+		],
+		"keywords": [
+			"restaurant",
+			"dining",
+			"food delivery",
+			"bistro",
+			"fine dining",
+			"takeaway",
+			"bakery",
+			"cafe",
+			"pizza",
+			"food"
+		],
+		"stats": {
+			"sections": 13,
+			"textSlots": 118,
+			"editableSlots": 101,
+			"images": 36,
+			"swappableImages": 30,
+			"words": 413
+		},
+		"pageTypes": [
+			"home"
+		]
+	},
+	{
 		"slug": "spa-02",
 		"name": "Zakra Spa",
 		"premium": false,
 		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-spa-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/spa-02",
 		"niches": [
 			"spa",
 			"beauty",
@@ -295,7 +2039,7 @@
 			"textSlots": 54,
 			"editableSlots": 51,
 			"images": 11,
-			"swappableImages": 8,
+			"swappableImages": 6,
 			"words": 486
 		},
 		"pageTypes": [
@@ -306,10 +2050,421 @@
 		]
 	},
 	{
+		"slug": "spa-center-v2",
+		"name": "Spa Center v2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-spa-center-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/spa-center-v2",
+		"niches": [
+			"spa",
+			"beauty",
+			"wellness"
+		],
+		"keywords": [
+			"spa",
+			"massage",
+			"wellness center",
+			"beauty salon",
+			"day spa",
+			"sauna",
+			"yoga",
+			"wellness retreat"
+		],
+		"stats": {
+			"sections": 13,
+			"textSlots": 116,
+			"editableSlots": 113,
+			"images": 49,
+			"swappableImages": 33,
+			"words": 657
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "startup-business-v2",
+		"name": "Startup Business V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-startup-business-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/startup-business-v2",
+		"niches": [
+			"startup",
+			"business",
+			"technology"
+		],
+		"keywords": [
+			"startup",
+			"saas",
+			"tech company",
+			"app",
+			"software",
+			"business",
+			"hosting",
+			"it services"
+		],
+		"stats": {
+			"sections": 25,
+			"textSlots": 172,
+			"editableSlots": 156,
+			"images": 40,
+			"swappableImages": 18,
+			"words": 1157
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "suffice",
+		"name": "",
+		"premium": false,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Suffice-Thumbnail-Image.jpg",
+		"demoUrl": "https://zakrademos.com/suffice",
+		"niches": [
+			"consulting",
+			"business",
+			"coaching"
+		],
+		"keywords": [
+			"business consultant",
+			"consulting",
+			"business coach",
+			"strategy",
+			"advisor",
+			"mentor"
+		],
+		"stats": {
+			"sections": 8,
+			"textSlots": 47,
+			"editableSlots": 47,
+			"images": 30,
+			"swappableImages": 21,
+			"words": 273
+		},
+		"pageTypes": [
+			"blog",
+			"contact",
+			"about"
+		]
+	},
+	{
+		"slug": "therapycoach",
+		"name": "TherapyCoach",
+		"premium": false,
+		"previewImage": "https://zakrademos.com/wp-content/uploads/2026/08/Therapy-Coach-Screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/therapycoach",
+		"niches": [
+			"counselling",
+			"therapy",
+			"coaching"
+		],
+		"keywords": [
+			"therapist",
+			"therapy",
+			"coach",
+			"counselling",
+			"mental health",
+			"psychotherapy"
+		],
+		"stats": {
+			"sections": 37,
+			"textSlots": 385,
+			"editableSlots": 353,
+			"images": 89,
+			"swappableImages": 30,
+			"words": 2280
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "travel-agency",
+		"name": "Travel Agency",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-travel-agency/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/travel-agency",
+		"niches": [
+			"travel",
+			"tourism"
+		],
+		"keywords": [
+			"travel agency",
+			"tour operator",
+			"tours",
+			"holidays",
+			"vacation",
+			"destination",
+			"tourism",
+			"trekking"
+		],
+		"stats": {
+			"sections": 24,
+			"textSlots": 84,
+			"editableSlots": 83,
+			"images": 28,
+			"swappableImages": 21,
+			"words": 638
+		},
+		"pageTypes": [
+			"home",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "travel-blog",
+		"name": "Travel Blog",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-travel-blog/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/travel-blog",
+		"niches": [
+			"travel",
+			"blog"
+		],
+		"keywords": [
+			"travel blog",
+			"travel",
+			"backpacking",
+			"adventure",
+			"travel writer",
+			"wanderlust",
+			"explorer"
+		],
+		"stats": {
+			"sections": 9,
+			"textSlots": 36,
+			"editableSlots": 36,
+			"images": 10,
+			"swappableImages": 8,
+			"words": 853
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "travel-v2",
+		"name": "Travel V2",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-travel-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/travel-v2",
+		"niches": [
+			"travel",
+			"tourism"
+		],
+		"keywords": [
+			"travel",
+			"trekking",
+			"tours",
+			"adventure travel",
+			"hiking",
+			"tour operator",
+			"travel agency"
+		],
+		"stats": {
+			"sections": 15,
+			"textSlots": 157,
+			"editableSlots": 154,
+			"images": 49,
+			"swappableImages": 39,
+			"words": 1059
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"contact"
+		]
+	},
+	{
+		"slug": "university-v2",
+		"name": "University V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-university-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/university-v2",
+		"niches": [
+			"education",
+			"university"
+		],
+		"keywords": [
+			"university",
+			"college",
+			"academy",
+			"school",
+			"courses",
+			"faculty"
+		],
+		"stats": {
+			"sections": 19,
+			"textSlots": 127,
+			"editableSlots": 126,
+			"images": 43,
+			"swappableImages": 27,
+			"words": 884
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "webhost-v2",
+		"name": "Webhost V2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-webhost-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/webhost-v2",
+		"niches": [
+			"hosting",
+			"technology"
+		],
+		"keywords": [
+			"web hosting",
+			"hosting",
+			"domain",
+			"cloud",
+			"vps",
+			"it services",
+			"server",
+			"saas",
+			"software"
+		],
+		"stats": {
+			"sections": 19,
+			"textSlots": 114,
+			"editableSlots": 107,
+			"images": 61,
+			"swappableImages": 18,
+			"words": 747
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services",
+			"contact"
+		]
+	},
+	{
+		"slug": "wedding-02",
+		"name": "Zakra Wedding",
+		"premium": false,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-wedding-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/wedding-02",
+		"niches": [
+			"wedding",
+			"events"
+		],
+		"keywords": [
+			"wedding",
+			"couple",
+			"marriage",
+			"save the date",
+			"engagement",
+			"bride",
+			"groom",
+			"photographer"
+		],
+		"stats": {
+			"sections": 24,
+			"textSlots": 90,
+			"editableSlots": 82,
+			"images": 45,
+			"swappableImages": 35,
+			"words": 977
+		},
+		"pageTypes": [
+			"home",
+			"contact",
+			"about",
+			"blog"
+		]
+	},
+	{
+		"slug": "wedding-v3",
+		"name": "wedding v3",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-wedding-v3/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/wedding-v3",
+		"niches": [
+			"wedding",
+			"events"
+		],
+		"keywords": [
+			"wedding planner",
+			"event planner",
+			"wedding",
+			"venue",
+			"bridal",
+			"events"
+		],
+		"stats": {
+			"sections": 13,
+			"textSlots": 120,
+			"editableSlots": 117,
+			"images": 56,
+			"swappableImages": 36,
+			"words": 1070
+		},
+		"pageTypes": [
+			"home",
+			"blog",
+			"about",
+			"services"
+		]
+	},
+	{
+		"slug": "writer-v2",
+		"name": "Writer v2",
+		"premium": true,
+		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-writer-v2/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/writer-v2",
+		"niches": [
+			"author",
+			"books",
+			"writing"
+		],
+		"keywords": [
+			"writer",
+			"author",
+			"books",
+			"book shop",
+			"novelist",
+			"publisher"
+		],
+		"stats": {
+			"sections": 10,
+			"textSlots": 80,
+			"editableSlots": 77,
+			"images": 36,
+			"swappableImages": 6,
+			"words": 588
+		},
+		"pageTypes": [
+			"home",
+			"blog"
+		]
+	},
+	{
 		"slug": "yoga-02",
 		"name": "Yoga 02",
 		"premium": false,
 		"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-yoga-02/screenshot.jpg",
+		"demoUrl": "https://zakrademos.com/yoga-02",
 		"niches": [
 			"yoga",
 			"wellness",

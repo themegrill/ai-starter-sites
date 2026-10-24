@@ -1,0 +1,2722 @@
+{
+	"version": 4,
+	"slug": "flora",
+	"name": "Flora",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-flora/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/flora",
+	"niches": [
+		"plants",
+		"garden",
+		"shop"
+	],
+	"keywords": [
+		"plant shop",
+		"plants",
+		"nursery",
+		"florist",
+		"garden center",
+		"houseplants",
+		"succulents",
+		"landscaping",
+		"gardener"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#506839",
+				"count": 21,
+				"group": "brand",
+				"role": "primary",
+				"base": "#619d28",
+				"lightnessDelta": -0.071,
+				"usage": {
+					"background": 6
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 17,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 3,
+					"background": 1,
+					"border": 1
+				}
+			},
+			{
+				"hex": "#619d28",
+				"count": 17,
+				"group": "brand",
+				"role": "primary",
+				"base": "#619d28",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 7,
+					"text": 6
+				}
+			},
+			{
+				"hex": "#2563eb",
+				"count": 7,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#2563eb",
+				"lightnessDelta": 0,
+				"usage": {
+					"border": 7
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 5,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 4,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#111111",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#2563eb",
+				"lightnessDelta": -0.163
+			},
+			{
+				"hex": "#efefef",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#454545",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#51585f",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#192711",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#619d28",
+				"lightnessDelta": -0.276,
+				"usage": {
+					"text": 1
+				}
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#619d28",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#506839",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 5,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#506839",
+				"large": false,
+				"count": 5,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#506839",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#192711",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#619d28",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#506839",
+				"bg": "#e5e5e5",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#619d28",
+				"bg": "#e5e5e5",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Merienda",
+			"body": "Heebo",
+			"map": {}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/flora/wp-content/uploads/sites/114/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "0ff9318b",
+					"index": 0,
+					"path": "0",
+					"group": "0ff9318b",
+					"role": "hero",
+					"title": "Healthy Plants for Happy Homes",
+					"slots": [
+						{
+							"id": "d1e0fd7c:text",
+							"blockId": "d1e0fd7c",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Healthy Plants for Happy Homes",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dadead4b:text",
+							"blockId": "dadead4b",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b69a0a03:text",
+							"blockId": "b69a0a03",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0ff9318b:background.image.image.url",
+							"blockId": "0ff9318b",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/Flora_background_image.png",
+							"decorative": false,
+							"width": 1440,
+							"height": 769,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Green leaf in a glass vase of water",
+							"tone": {
+								"grid": [
+									0.9,
+									0.91,
+									0.81,
+									0.89,
+									0.85,
+									0.69,
+									0.91,
+									0.93,
+									0.88
+								],
+								"color": "#dbddd9"
+							}
+						}
+					]
+				},
+				{
+					"id": "c58f0248",
+					"index": 1,
+					"path": "1",
+					"group": "c58f0248",
+					"role": "content",
+					"title": "How Flora Works",
+					"slots": [
+						{
+							"id": "4a6a01d9:text",
+							"blockId": "4a6a01d9",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "How Flora Works",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "05f2dbe1:text",
+							"blockId": "05f2dbe1",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Eaesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risusnon nisi. Proin eget tortor risus.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "e444e868",
+					"index": 2,
+					"path": "2",
+					"group": "c58f0248",
+					"role": "features",
+					"title": "Choose Plants",
+					"slots": [
+						{
+							"id": "2b57f6fb:text",
+							"blockId": "2b57f6fb",
+							"path": "2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Choose Plants",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7636056a:text",
+							"blockId": "7636056a",
+							"path": "2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Donec sollicitudin molestie scdsfew malesuada. Lorem ipsum dolord sit amet scdsfew malesuada.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "180835ce:text",
+							"blockId": "180835ce",
+							"path": "2.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Place an Order",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b231f14b:text",
+							"blockId": "b231f14b",
+							"path": "2.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Donec sollicitudin molestie scdsfew malesuada. Lorem ipsum dolord sit amet scdsfew malesuada.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c1fb2810:text",
+							"blockId": "c1fb2810",
+							"path": "2.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Get Plants Delivered",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "63ac47ce:text",
+							"blockId": "63ac47ce",
+							"path": "2.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Donec sollicitudin molestie scdsfew malesuada. Lorem ipsum dolord sit amet scdsfew malesuada.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "61eb18c4:text",
+							"blockId": "61eb18c4",
+							"path": "2.2.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Decorate Your Room",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8de3182e:text",
+							"blockId": "8de3182e",
+							"path": "2.2.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Donec sollicitudin molestie scdsfew malesuada. Lorem ipsum dolord sit amet scdsfew malesuada.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "c30d9856:image.url",
+							"blockId": "c30d9856",
+							"path": "2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_plant.png",
+							"decorative": true,
+							"width": 101,
+							"height": 101,
+							"orientation": "square"
+						},
+						{
+							"id": "ada053ec:image.url",
+							"blockId": "ada053ec",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_order.png",
+							"decorative": true,
+							"width": 101,
+							"height": 101,
+							"orientation": "square"
+						},
+						{
+							"id": "fdba7bad:image.url",
+							"blockId": "fdba7bad",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/peace_lily.png",
+							"decorative": false,
+							"width": 360,
+							"height": 431,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Potted peace lily plant",
+							"tone": {
+								"grid": [
+									0.98,
+									0.92,
+									0.94,
+									0.88,
+									0.46,
+									0.78,
+									0.99,
+									0.76,
+									0.95
+								],
+								"color": "#d6dcca"
+							}
+						},
+						{
+							"id": "f3e9136a:image.url",
+							"blockId": "f3e9136a",
+							"path": "2.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_delivered.png",
+							"decorative": true,
+							"width": 101,
+							"height": 101,
+							"orientation": "square"
+						},
+						{
+							"id": "b0e95eab:image.url",
+							"blockId": "b0e95eab",
+							"path": "2.2.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_decor.png",
+							"decorative": true,
+							"width": 101,
+							"height": 101,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "7db19e25",
+					"index": 3,
+					"path": "3",
+					"group": "7db19e25",
+					"role": "content",
+					"title": "Indoor Plants",
+					"slots": [
+						{
+							"id": "a1fb8d08:text",
+							"blockId": "a1fb8d08",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Indoor Plants",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ff69b05f:text",
+							"blockId": "ff69b05f",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Pestibulum ac diam sit amet quam vehicula elementum sed sit amet dui qualm hais.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3d3dd554:text",
+							"blockId": "3d3dd554",
+							"path": "3.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1835fc6b:text",
+							"blockId": "1835fc6b",
+							"path": "3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Outdoor Plants",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4e1a765:text",
+							"blockId": "f4e1a765",
+							"path": "3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui qualm hais.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "09944fe1:text",
+							"blockId": "09944fe1",
+							"path": "3.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ade4de9d:background.image.image.url",
+							"blockId": "ade4de9d",
+							"path": "3.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/indoor_plants.png",
+							"decorative": false,
+							"width": 1440,
+							"height": 749,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Eucalyptus stem on a white background",
+							"tone": {
+								"grid": [
+									0.97,
+									0.96,
+									0.9,
+									0.97,
+									0.96,
+									0.8,
+									0.97,
+									0.96,
+									0.69
+								],
+								"color": "#e6e8e4"
+							}
+						},
+						{
+							"id": "c3468ddc:background.image.image.url",
+							"blockId": "c3468ddc",
+							"path": "3.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/outdoor_plants.jpg",
+							"decorative": false,
+							"width": 1440,
+							"height": 749,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Ivy climbing a white wall beside a window",
+							"tone": {
+								"grid": [
+									0.94,
+									0.91,
+									0.78,
+									0.93,
+									0.9,
+									0.66,
+									0.93,
+									0.88,
+									0.42
+								],
+								"color": "#ccd2cb"
+							}
+						}
+					]
+				},
+				{
+					"id": "7d600e27",
+					"index": 4,
+					"path": "4",
+					"group": "7d600e27",
+					"role": "content",
+					"title": "Shop By Category",
+					"slots": [
+						{
+							"id": "f3191905:text",
+							"blockId": "f3191905",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Shop By Category",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c1fb87a8:text",
+							"blockId": "c1fb87a8",
+							"path": "4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Oraesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risusnon nisi. Proin eget tortor risus.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "f8716040",
+					"index": 5,
+					"path": "5",
+					"group": "7d600e27",
+					"role": "features",
+					"title": "Tropical Plants",
+					"slots": [
+						{
+							"id": "08362de3:text",
+							"blockId": "08362de3",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Tropical Plants",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "970228d0:text",
+							"blockId": "970228d0",
+							"path": "5.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Tabletop Plants",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae9be3aa:text",
+							"blockId": "ae9be3aa",
+							"path": "5.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Flowering Plants",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c6f09556:image.url",
+							"blockId": "c6f09556",
+							"path": "5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/05/Tropical-Plant.jpg",
+							"decorative": false,
+							"width": 768,
+							"height": 768,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Monstera leaves on a white background",
+							"tone": {
+								"grid": [
+									0.74,
+									0.79,
+									0.55,
+									0.52,
+									0.37,
+									0.55,
+									0.96,
+									0.81,
+									0.57
+								],
+								"color": "#9daa97"
+							}
+						},
+						{
+							"id": "2436bd53:image.url",
+							"blockId": "2436bd53",
+							"path": "5.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/05/tabletop-plant.jpg",
+							"decorative": false,
+							"width": 768,
+							"height": 768,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Zebra haworthia succulent in a white pot",
+							"tone": {
+								"grid": [
+									0.94,
+									0.7,
+									0.88,
+									0.89,
+									0.45,
+									0.87,
+									0.88,
+									0.76,
+									0.83
+								],
+								"color": "#ccccc9"
+							}
+						},
+						{
+							"id": "8fadce93:image.url",
+							"blockId": "8fadce93",
+							"path": "5.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/05/tabletop-plant-1.jpg",
+							"decorative": false,
+							"width": 768,
+							"height": 768,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Leafy branch in a glass vase",
+							"tone": {
+								"grid": [
+									0.93,
+									0.86,
+									0.95,
+									0.91,
+									0.66,
+									0.89,
+									0.93,
+									0.92,
+									0.89
+								],
+								"color": "#e1e2dc"
+							}
+						}
+					]
+				},
+				{
+					"id": "b4f89184",
+					"index": 6,
+					"path": "6",
+					"group": "b4f89184",
+					"role": "features",
+					"title": "Hanging Plants",
+					"slots": [
+						{
+							"id": "14ca1024:text",
+							"blockId": "14ca1024",
+							"path": "6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Hanging Plants",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "564593ac:text",
+							"blockId": "564593ac",
+							"path": "6.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Snake Plants",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e7081e1:text",
+							"blockId": "0e7081e1",
+							"path": "6.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Cactus Plants",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e4be9219:image.url",
+							"blockId": "e4be9219",
+							"path": "6.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/05/hanging-plant.jpg",
+							"decorative": false,
+							"width": 768,
+							"height": 768,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Hanging pothos plant",
+							"tone": {
+								"grid": [
+									0.82,
+									0.47,
+									0.76,
+									0.85,
+									0.39,
+									0.51,
+									0.89,
+									0.84,
+									0.67
+								],
+								"color": "#acb1ad"
+							}
+						},
+						{
+							"id": "52437549:image.url",
+							"blockId": "52437549",
+							"path": "6.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/05/snake-plant.jpg",
+							"decorative": false,
+							"width": 768,
+							"height": 768,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Snake plant in a terracotta pot",
+							"tone": {
+								"grid": [
+									0.9,
+									0.92,
+									0.7,
+									0.9,
+									0.86,
+									0.61,
+									0.87,
+									0.65,
+									0.62
+								],
+								"color": "#cec6c1"
+							}
+						},
+						{
+							"id": "bb1e3615:image.url",
+							"blockId": "bb1e3615",
+							"path": "6.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/05/cactus-plant.jpg",
+							"decorative": false,
+							"width": 768,
+							"height": 768,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Flowering cactus in a terracotta pot",
+							"tone": {
+								"grid": [
+									0.88,
+									0.88,
+									0.82,
+									0.88,
+									0.8,
+									0.46,
+									0.89,
+									0.72,
+									0.49
+								],
+								"color": "#c5c0b9"
+							}
+						}
+					]
+				},
+				{
+					"id": "7e175c8d",
+					"index": 7,
+					"path": "7",
+					"group": "7e175c8d",
+					"role": "content",
+					"title": "Best Seller",
+					"slots": [
+						{
+							"id": "ad1b8eea:text",
+							"blockId": "ad1b8eea",
+							"path": "7.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Best Seller",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "57e9134c:text",
+							"blockId": "57e9134c",
+							"path": "7.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risusnon nisi. Proin eget tortor risus.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "b4553375",
+					"index": 8,
+					"path": "8",
+					"group": "7e175c8d",
+					"role": "dynamic",
+					"slots": [
+						{
+							"id": "232588b5:text",
+							"blockId": "232588b5",
+							"path": "8.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All Products",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-new"
+					]
+				},
+				{
+					"id": "d083434a",
+					"index": 9,
+					"path": "9",
+					"group": "d083434a",
+					"role": "testimonials",
+					"title": "What People Say",
+					"slots": [
+						{
+							"id": "ef84b5ff:text",
+							"blockId": "ef84b5ff",
+							"path": "9.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What People Say",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1ddb867a:text",
+							"blockId": "1ddb867a",
+							"path": "9.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Oraesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risusnon nisi. Proin eget tortor risus.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "26dbea64",
+					"index": 10,
+					"path": "10",
+					"group": "d083434a",
+					"role": "testimonials",
+					"title": "Dianne Russell",
+					"slots": [
+						{
+							"id": "0392cf41:text",
+							"blockId": "0392cf41",
+							"path": "10.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dianne Russell",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "454a2193:text",
+							"blockId": "454a2193",
+							"path": "10.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "36d3f611:text",
+							"blockId": "36d3f611",
+							"path": "10.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Wade Warren",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "95d2003b:text",
+							"blockId": "95d2003b",
+							"path": "10.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus ivamus.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "be196803:background.image.image.url",
+							"blockId": "be196803",
+							"path": "10.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/leaf_pattern.png",
+							"decorative": true,
+							"width": 1045,
+							"height": 594,
+							"orientation": "landscape"
+						},
+						{
+							"id": "e0761c29:image.url",
+							"blockId": "e0761c29",
+							"path": "10.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/testimonial4.jpg",
+							"decorative": false,
+							"width": 250,
+							"height": 250,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young woman with freckles in a scarf",
+							"tone": {
+								"grid": [
+									0.5,
+									0.57,
+									0.42,
+									0.47,
+									0.52,
+									0.54,
+									0.5,
+									0.46,
+									0.5
+								],
+								"color": "#9a7a67"
+							}
+						},
+						{
+							"id": "e6247b12:background.image.image.url",
+							"blockId": "e6247b12",
+							"path": "10.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/leaf_pattern.png",
+							"decorative": true,
+							"width": 1045,
+							"height": 594,
+							"orientation": "landscape"
+						},
+						{
+							"id": "1d736ec1:image.url",
+							"blockId": "1d736ec1",
+							"path": "10.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/testimonial2.jpg",
+							"decorative": false,
+							"width": 250,
+							"height": 250,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young man in a suit and tie headshot",
+							"tone": {
+								"grid": [
+									0.7,
+									0.44,
+									0.61,
+									0.74,
+									0.61,
+									0.63,
+									0.51,
+									0.65,
+									0.29
+								],
+								"color": "#a48f85"
+							}
+						}
+					]
+				},
+				{
+					"id": "f61a2e88",
+					"index": 11,
+					"path": "11",
+					"group": "f61a2e88",
+					"role": "cta",
+					"title": "To Plant a Garden is to Believe in Tomorrow",
+					"slots": [
+						{
+							"id": "0ef28de8:text",
+							"blockId": "0ef28de8",
+							"path": "11.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "To Plant a Garden is to Believe in Tomorrow",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb9617df:text",
+							"blockId": "fb9617df",
+							"path": "11.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec sollicitudin molestie malesuada.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2e02dba3:text",
+							"blockId": "2e02dba3",
+							"path": "11.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f61a2e88:background.image.image.url",
+							"blockId": "f61a2e88",
+							"path": "11",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/CTA-background-e1648029292405.jpg",
+							"decorative": false,
+							"width": 1392,
+							"height": 437,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Close-up of monstera leaves",
+							"tone": {
+								"grid": [
+									0.17,
+									0.21,
+									0.22,
+									0.18,
+									0.18,
+									0.22,
+									0.19,
+									0.15,
+									0.24
+								],
+								"color": "#1f391e"
+							}
+						}
+					]
+				},
+				{
+					"id": "318e4bdb",
+					"index": 12,
+					"path": "12",
+					"group": "318e4bdb",
+					"role": "posts",
+					"title": "Latest Blogs",
+					"slots": [
+						{
+							"id": "c2d982be:text",
+							"blockId": "c2d982be",
+							"path": "12.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest Blogs",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be015125:text",
+							"blockId": "be015125",
+							"path": "12.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Oraesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risusnon nisi. Proin eget tortor risus.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "37392f77",
+					"index": 13,
+					"path": "13",
+					"group": "37392f77",
+					"role": "content",
+					"title": "How to Manage a Home Garden",
+					"slots": [
+						{
+							"id": "b37b8e24:text",
+							"blockId": "b37b8e24",
+							"path": "13.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "How to Manage a Home Garden",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4adfb5c:text",
+							"blockId": "f4adfb5c",
+							"path": "13.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Quisque velit nisi, pretium ut lacinia in, scddcd elementum id enim. Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1afbd025:text",
+							"blockId": "1afbd025",
+							"path": "13.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "93dc54d5:text",
+							"blockId": "93dc54d5",
+							"path": "13.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "5 Tips to Properly Water Your Plant",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "885a5f71:text",
+							"blockId": "885a5f71",
+							"path": "13.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Luisque velit nisi, pretium ut lacinia in, scddcd elementum id enim. Curabitur aliquet quam id dui posuere blandit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a051dc91:text",
+							"blockId": "a051dc91",
+							"path": "13.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ae242b8c:image.url",
+							"blockId": "ae242b8c",
+							"path": "13.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/manage-homegarden.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 630,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Greenhouse with rows of hanging flower baskets",
+							"tone": {
+								"grid": [
+									0.64,
+									0.64,
+									0.65,
+									0.49,
+									0.48,
+									0.45,
+									0.52,
+									0.6,
+									0.45
+								],
+								"color": "#858f7d"
+							}
+						},
+						{
+							"id": "be1c4419:image.url",
+							"blockId": "be1c4419",
+							"path": "13.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/proper-plant-care.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 630,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Potted plants and a copper watering can on a wooden shelf",
+							"tone": {
+								"grid": [
+									0.62,
+									0.66,
+									0.6,
+									0.38,
+									0.57,
+									0.55,
+									0.34,
+									0.44,
+									0.42
+								],
+								"color": "#8e8167"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "0ff9318b",
+					"role": "hero",
+					"title": "Healthy Plants for Happy Homes",
+					"sectionIds": [
+						"0ff9318b"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c58f0248",
+					"role": "features",
+					"title": "How Flora Works",
+					"sectionIds": [
+						"c58f0248",
+						"e444e868"
+					],
+					"paths": [
+						"1",
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7db19e25",
+					"role": "content",
+					"title": "Indoor Plants",
+					"sectionIds": [
+						"7db19e25"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7d600e27",
+					"role": "features",
+					"title": "Shop By Category",
+					"sectionIds": [
+						"7d600e27",
+						"f8716040"
+					],
+					"paths": [
+						"4",
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b4f89184",
+					"role": "features",
+					"title": "Hanging Plants",
+					"sectionIds": [
+						"b4f89184"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7e175c8d",
+					"role": "dynamic",
+					"title": "Best Seller",
+					"sectionIds": [
+						"7e175c8d",
+						"b4553375"
+					],
+					"paths": [
+						"7",
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "d083434a",
+					"role": "testimonials",
+					"title": "What People Say",
+					"sectionIds": [
+						"d083434a",
+						"26dbea64"
+					],
+					"paths": [
+						"9",
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f61a2e88",
+					"role": "cta",
+					"title": "To Plant a Garden is to Believe in Tomorrow",
+					"sectionIds": [
+						"f61a2e88"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "318e4bdb",
+					"role": "posts",
+					"title": "Latest Blogs",
+					"sectionIds": [
+						"318e4bdb"
+					],
+					"paths": [
+						"12"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "37392f77",
+					"role": "content",
+					"title": "How to Manage a Home Garden",
+					"sectionIds": [
+						"37392f77"
+					],
+					"paths": [
+						"13"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/flora/wp-content/uploads/sites/114/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/flora/wp-content/uploads/sites/114/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "c58f0248",
+					"index": 0,
+					"path": "0",
+					"group": "c58f0248",
+					"role": "hero",
+					"title": "Story of Flora",
+					"slots": [
+						{
+							"id": "4a6a01d9:text",
+							"blockId": "4a6a01d9",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Story of Flora",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "05f2dbe1:text",
+							"blockId": "05f2dbe1",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Eaesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risusnon nisi. Proin eget tortor risus.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "cde1dbb2",
+					"index": 1,
+					"path": "1",
+					"group": "cde1dbb2",
+					"role": "content",
+					"title": "Our Mission",
+					"slots": [
+						{
+							"id": "a976a41e:text",
+							"blockId": "a976a41e",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Mission",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d5408fe8:text",
+							"blockId": "d5408fe8",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+							"rich": true,
+							"words": 69,
+							"minWords": 41,
+							"maxWords": 87,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4df695c7:text",
+							"blockId": "4df695c7",
+							"path": "1.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Vision",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "df904a89:text",
+							"blockId": "df904a89",
+							"path": "1.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Bauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+							"rich": true,
+							"words": 69,
+							"minWords": 41,
+							"maxWords": 87,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "9ce7c11f:image.url",
+							"blockId": "9ce7c11f",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/grow_plants.jpg",
+							"decorative": false,
+							"width": 761,
+							"height": 831,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Hand holding seedlings in peat pots on a tray",
+							"tone": {
+								"grid": [
+									0.88,
+									0.9,
+									0.94,
+									0.52,
+									0.53,
+									0.55,
+									0.44,
+									0.57,
+									0.58
+								],
+								"color": "#baa396"
+							}
+						}
+					]
+				},
+				{
+					"id": "8d69865c",
+					"index": 2,
+					"path": "2",
+					"group": "8d69865c",
+					"role": "content",
+					"title": "Flora Gallery",
+					"slots": [
+						{
+							"id": "27df3201:text",
+							"blockId": "27df3201",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Flora Gallery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51098955:text",
+							"blockId": "51098955",
+							"path": "2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risusnon nisi. Proin eget tortor risus..",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "673dfccc",
+					"index": 3,
+					"path": "3",
+					"group": "8d69865c",
+					"role": "gallery",
+					"slots": [],
+					"images": [
+						{
+							"id": "core-3.0.0.0:@html:img",
+							"blockId": "core-3.0.0.0",
+							"path": "3.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/05/diaum-713x1024.jpg",
+							"decorative": false,
+							"width": 713,
+							"height": 1024,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Small potted plants in wooden vases",
+							"tone": {
+								"grid": [
+									0.83,
+									0.84,
+									0.85,
+									0.67,
+									0.6,
+									0.83,
+									0.74,
+									0.62,
+									0.69
+								],
+								"color": "#bdbdb7"
+							}
+						},
+						{
+							"id": "core-3.0.0.1:@html:img",
+							"blockId": "core-3.0.0.1",
+							"path": "3.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/Gallery-3.png",
+							"decorative": false,
+							"width": 523,
+							"height": 507,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Fiddle leaf fig in a white pot",
+							"tone": {
+								"grid": [
+									0.89,
+									0.59,
+									0.91,
+									0.87,
+									0.45,
+									0.87,
+									0.89,
+									0.88,
+									0.87
+								],
+								"color": "#c9cecc"
+							}
+						},
+						{
+							"id": "core-3.0.0.2:@html:img",
+							"blockId": "core-3.0.0.2",
+							"path": "3.0.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/05/odio-713x1024.jpg",
+							"decorative": false,
+							"width": 713,
+							"height": 1024,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Leafy plant stems in wooden vases",
+							"tone": {
+								"grid": [
+									0.8,
+									0.85,
+									0.98,
+									0.92,
+									0.85,
+									0.97,
+									0.88,
+									0.87,
+									0.97
+								],
+								"color": "#e5e6df"
+							}
+						},
+						{
+							"id": "core-3.0.0.3:@html:img",
+							"blockId": "core-3.0.0.3",
+							"path": "3.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/Gallery-4.png",
+							"decorative": false,
+							"width": 523,
+							"height": 506,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Tulips in a ceramic pitcher",
+							"tone": {
+								"grid": [
+									0.91,
+									0.76,
+									0.83,
+									0.91,
+									0.57,
+									0.81,
+									0.98,
+									0.83,
+									0.89
+								],
+								"color": "#d3d6ca"
+							}
+						},
+						{
+							"id": "core-3.0.0.4:@html:img",
+							"blockId": "core-3.0.0.4",
+							"path": "3.0.0.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/05/hanging-plant.jpg",
+							"decorative": false,
+							"width": 768,
+							"height": 768,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Hanging pothos plant",
+							"tone": {
+								"grid": [
+									0.82,
+									0.47,
+									0.76,
+									0.85,
+									0.39,
+									0.51,
+									0.89,
+									0.84,
+									0.67
+								],
+								"color": "#acb1ad"
+							}
+						}
+					]
+				},
+				{
+					"id": "170ccdef",
+					"index": 4,
+					"path": "4",
+					"group": "170ccdef",
+					"role": "content",
+					"title": "How Flora Works",
+					"slots": [
+						{
+							"id": "d04ae653:text",
+							"blockId": "d04ae653",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "How Flora Works",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f35896f9:text",
+							"blockId": "f35896f9",
+							"path": "4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Eaesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risusnon nisi. Proin eget tortor risus.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "18c04048",
+					"index": 5,
+					"path": "5",
+					"group": "170ccdef",
+					"role": "features",
+					"title": "Choose Plants",
+					"slots": [
+						{
+							"id": "4efd5599:text",
+							"blockId": "4efd5599",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Choose Plants",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7f047d51:text",
+							"blockId": "7f047d51",
+							"path": "5.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Place an Order",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bcdb660f:text",
+							"blockId": "bcdb660f",
+							"path": "5.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Get Plants Delivered",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3eda9d36:text",
+							"blockId": "3eda9d36",
+							"path": "5.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Decorate Your Room",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "cb6c6e76:image.url",
+							"blockId": "cb6c6e76",
+							"path": "5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_plant.png",
+							"decorative": true,
+							"width": 101,
+							"height": 101,
+							"orientation": "square"
+						},
+						{
+							"id": "83dc6cf9:image.url",
+							"blockId": "83dc6cf9",
+							"path": "5.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_order.png",
+							"decorative": true,
+							"width": 101,
+							"height": 101,
+							"orientation": "square"
+						},
+						{
+							"id": "91efc935:image.url",
+							"blockId": "91efc935",
+							"path": "5.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_delivered.png",
+							"decorative": true,
+							"width": 101,
+							"height": 101,
+							"orientation": "square"
+						},
+						{
+							"id": "c3f3db58:image.url",
+							"blockId": "c3f3db58",
+							"path": "5.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_decor.png",
+							"decorative": true,
+							"width": 101,
+							"height": 101,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "c58f0248",
+					"role": "hero",
+					"title": "Story of Flora",
+					"sectionIds": [
+						"c58f0248"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "cde1dbb2",
+					"role": "content",
+					"title": "Our Mission",
+					"sectionIds": [
+						"cde1dbb2"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "8d69865c",
+					"role": "gallery",
+					"title": "Flora Gallery",
+					"sectionIds": [
+						"8d69865c",
+						"673dfccc"
+					],
+					"paths": [
+						"2",
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "170ccdef",
+					"role": "features",
+					"title": "How Flora Works",
+					"sectionIds": [
+						"170ccdef",
+						"18c04048"
+					],
+					"paths": [
+						"4",
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/flora/wp-content/uploads/sites/114/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "03904dcd",
+					"index": 0,
+					"path": "0",
+					"group": "03904dcd",
+					"role": "hero",
+					"title": "Contact Us",
+					"slots": [
+						{
+							"id": "eb8b3c0f:text",
+							"blockId": "eb8b3c0f",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c96ce66:text",
+							"blockId": "4c96ce66",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+1 (123) 456 7789 +1 (231) 234 992",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e1c87d8d:text",
+							"blockId": "e1c87d8d",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Email Address",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bc79e0dd:text",
+							"blockId": "bc79e0dd",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "eduskill@example.com support@eduskill.com",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "3a5fecf1:text",
+							"blockId": "3a5fecf1",
+							"path": "0.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Location",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9a9b440b:text",
+							"blockId": "9a9b440b",
+							"path": "0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "London SW1A 0AA, UK, Street 100",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cd109fa0:text",
+							"blockId": "cd109fa0",
+							"path": "0.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Active Hour",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f703462a:text",
+							"blockId": "f703462a",
+							"path": "0.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Mon - Fri (9am-6pm) Sat - Sun (8am-12pm)",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0727a53d:background.image.image.url",
+							"blockId": "0727a53d",
+							"path": "0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/leaf_pattern.png",
+							"decorative": true,
+							"width": 1045,
+							"height": 594,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0e081e29:background.image.image.url",
+							"blockId": "0e081e29",
+							"path": "0.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/leaf_pattern.png",
+							"decorative": true,
+							"width": 1045,
+							"height": 594,
+							"orientation": "landscape"
+						},
+						{
+							"id": "4c82218a:background.image.image.url",
+							"blockId": "4c82218a",
+							"path": "0.2",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/leaf_pattern.png",
+							"decorative": true,
+							"width": 1045,
+							"height": 594,
+							"orientation": "landscape"
+						},
+						{
+							"id": "b1c814de:background.image.image.url",
+							"blockId": "b1c814de",
+							"path": "0.3",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/leaf_pattern.png",
+							"decorative": true,
+							"width": 1045,
+							"height": 594,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "8d69865c",
+					"index": 1,
+					"path": "1",
+					"group": "8d69865c",
+					"role": "content",
+					"title": "Get in Touch",
+					"slots": [
+						{
+							"id": "27df3201:text",
+							"blockId": "27df3201",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get in Touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51098955:text",
+							"blockId": "51098955",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Proin eget tortor risusnon nisi. Proin eget tortor risus..",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "57bd185f",
+					"index": 2,
+					"path": "2",
+					"group": "8d69865c",
+					"role": "dynamic",
+					"slots": [],
+					"images": [
+						{
+							"id": "4a5ac6f7:image.url",
+							"blockId": "4a5ac6f7",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/Flowering-Cactus.jpg",
+							"decorative": false,
+							"width": 559,
+							"height": 578,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Flowering cactus in a white pot",
+							"tone": {
+								"grid": [
+									0.95,
+									0.58,
+									0.94,
+									0.91,
+									0.59,
+									0.84,
+									0.96,
+									0.95,
+									0.92
+								],
+								"color": "#dbd8d8"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "03904dcd",
+					"role": "hero",
+					"title": "Contact Us",
+					"sectionIds": [
+						"03904dcd"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "8d69865c",
+					"role": "dynamic",
+					"title": "Get in Touch",
+					"sectionIds": [
+						"8d69865c",
+						"57bd185f"
+					],
+					"paths": [
+						"1",
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/flora/wp-content/uploads/sites/114/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		}
+	],
+	"stats": {
+		"sections": 23,
+		"textSlots": 71,
+		"editableSlots": 69,
+		"images": 36,
+		"swappableImages": 22,
+		"words": 684
+	},
+	"builtAt": "2026-10-24T11:35:07.909Z"
+}

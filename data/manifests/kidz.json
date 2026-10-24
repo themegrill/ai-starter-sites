@@ -1,0 +1,3118 @@
+{
+	"version": 4,
+	"slug": "kidz",
+	"name": "Kidz",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-kidz/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/kidz",
+	"niches": [
+		"kids",
+		"childcare",
+		"education"
+	],
+	"keywords": [
+		"kindergarten",
+		"preschool",
+		"daycare",
+		"nursery school",
+		"childcare",
+		"montessori",
+		"kids",
+		"school",
+		"tutoring"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#eb770e",
+				"count": 44,
+				"group": "brand",
+				"role": "primary",
+				"base": "#eb770e",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 23
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 27,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#2f2b2c",
+				"count": 14,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#f9f1e7",
+				"count": 9,
+				"group": "brand",
+				"role": "primary",
+				"base": "#eb770e",
+				"lightnessDelta": 0.453,
+				"usage": {
+					"border": 9
+				}
+			},
+			{
+				"hex": "#d8570d",
+				"count": 9,
+				"group": "brand",
+				"role": "primary",
+				"base": "#eb770e",
+				"lightnessDelta": -0.039
+			},
+			{
+				"hex": "#404040",
+				"count": 8,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fbf7f4",
+				"count": 2,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#606060",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#fffff1",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#d8650d",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#eb770e",
+				"lightnessDelta": -0.039
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#eb770e",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 20,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#eb770e",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 4,
+				"scope": "theme"
+			},
+			{
+				"fg": "#eb770e",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#eb770e",
+				"large": true,
+				"count": 3,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#d8570d",
+				"large": true,
+				"count": 3,
+				"scope": "theme"
+			},
+			{
+				"fg": "#eb770e",
+				"bg": "#fbf7f4",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#eb770e",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#d8650d",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fffff1",
+				"bg": "#d8570d",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Capriola",
+			"body": "Source Sans Pro",
+			"map": {}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Cultivating Individuality and Academic Excellence",
+					"slots": [
+						{
+							"id": "core-0.0.0.1.0:@html:p",
+							"blockId": "core-0.0.0.1.0",
+							"path": "0.0.0.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "The Best Kindergarden",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.1.1:@html:h",
+							"blockId": "core-0.0.0.1.1",
+							"path": "0.0.0.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Cultivating Individuality and Academic Excellence",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.1.2.0:@html:a",
+							"blockId": "core-0.0.0.1.2.0",
+							"path": "0.0.0.1.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "stats",
+					"title": "We put little magic into all our kid's lives.",
+					"slots": [
+						{
+							"id": "core-1.0.0.1.0:@html:h",
+							"blockId": "core-1.0.0.1.0",
+							"path": "1.0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We put little magic into all our kid's lives.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.1.0:@html:h",
+							"blockId": "core-1.0.1.1.0",
+							"path": "1.0.1.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.2.0.0:@html:h",
+							"blockId": "core-1.0.2.0.0",
+							"path": "1.0.2.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "3K+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-1.0.2.0.1:@html:p",
+							"blockId": "core-1.0.2.0.1",
+							"path": "1.0.2.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Total Students",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.2.1.0:@html:h",
+							"blockId": "core-1.0.2.1.0",
+							"path": "1.0.2.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "20+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-1.0.2.1.1:@html:p",
+							"blockId": "core-1.0.2.1.1",
+							"path": "1.0.2.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Class Rooms",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.2.2.0:@html:h",
+							"blockId": "core-1.0.2.2.0",
+							"path": "1.0.2.2.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "10+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-1.0.2.2.1:@html:p",
+							"blockId": "core-1.0.2.2.1",
+							"path": "1.0.2.2.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "School Bus",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.2.3.0:@html:h",
+							"blockId": "core-1.0.2.3.0",
+							"path": "1.0.2.3.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "60+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-1.0.2.3.1:@html:p",
+							"blockId": "core-1.0.2.3.1",
+							"path": "1.0.2.3.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Total Teachers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "features",
+					"title": "Kindergarten and Childhood is our Passion",
+					"slots": [
+						{
+							"id": "core-2.0.0.1:@html:p",
+							"blockId": "core-2.0.0.1",
+							"path": "2.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Why Choose Us",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.2:@html:h",
+							"blockId": "core-2.0.0.2",
+							"path": "2.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Kindergarten and Childhood is our Passion",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.4:@html:p",
+							"blockId": "core-2.0.0.4",
+							"path": "2.0.0.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.5.1.0:@html:h",
+							"blockId": "core-2.0.0.5.1.0",
+							"path": "2.0.0.5.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Great Teachers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.5.1.1:@html:p",
+							"blockId": "core-2.0.0.5.1.1",
+							"path": "2.0.0.5.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.6.1.0:@html:h",
+							"blockId": "core-2.0.0.6.1.0",
+							"path": "2.0.0.6.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Satisfied Parents",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.6.1.1:@html:p",
+							"blockId": "core-2.0.0.6.1.1",
+							"path": "2.0.0.6.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.7.0:@html:a",
+							"blockId": "core-2.0.0.7.0",
+							"path": "2.0.0.7.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.0.3:@html:img",
+							"blockId": "core-2.0.0.3",
+							"path": "2.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-2.0.0.5.0.0:@html:img",
+							"blockId": "core-2.0.0.5.0.0",
+							"path": "2.0.0.5.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Teachers.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.0.6.0.0:@html:img",
+							"blockId": "core-2.0.0.6.0.0",
+							"path": "2.0.0.6.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Parents.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "features",
+					"title": "Our Advantages",
+					"slots": [
+						{
+							"id": "core-3.0.0:@html:p",
+							"blockId": "core-3.0.0",
+							"path": "3.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Benefits",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.1:@html:h",
+							"blockId": "core-3.0.1",
+							"path": "3.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Advantages",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.3.1.0:@html:p",
+							"blockId": "core-3.0.3.1.0",
+							"path": "3.0.3.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.0.0.0.1:@html:h",
+							"blockId": "core-3.0.4.0.0.0.1",
+							"path": "3.0.4.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "School Presentations",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.0.0.0.2:@html:p",
+							"blockId": "core-3.0.4.0.0.0.2",
+							"path": "3.0.4.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz provide educational field trips and school presentations",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.0.0.0.3:@html:p",
+							"blockId": "core-3.0.4.0.0.0.3",
+							"path": "3.0.4.0.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.1.0.0.1:@html:h",
+							"blockId": "core-3.0.4.1.0.0.1",
+							"path": "3.0.4.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Unlimited Learning Resources",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.1.0.0.2:@html:p",
+							"blockId": "core-3.0.4.1.0.0.2",
+							"path": "3.0.4.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz provide educational field trips and school presentations",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.1.0.0.3:@html:p",
+							"blockId": "core-3.0.4.1.0.0.3",
+							"path": "3.0.4.1.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.2.0.0.1:@html:h",
+							"blockId": "core-3.0.4.2.0.0.1",
+							"path": "3.0.4.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Positive Learning Environment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.2.0.0.2:@html:p",
+							"blockId": "core-3.0.4.2.0.0.2",
+							"path": "3.0.4.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz provide educational field trips and school presentations",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.2.0.0.3:@html:p",
+							"blockId": "core-3.0.4.2.0.0.3",
+							"path": "3.0.4.2.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.3.0.0.1:@html:h",
+							"blockId": "core-3.0.4.3.0.0.1",
+							"path": "3.0.4.3.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Individual Attention",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.3.0.0.2:@html:p",
+							"blockId": "core-3.0.4.3.0.0.2",
+							"path": "3.0.4.3.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz provide educational field trips and school presentations",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.4.3.0.0.3:@html:p",
+							"blockId": "core-3.0.4.3.0.0.3",
+							"path": "3.0.4.3.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-3.0.2:@html:img",
+							"blockId": "core-3.0.2",
+							"path": "3.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.4.0.0.0.0:@html:img",
+							"blockId": "core-3.0.4.0.0.0.0",
+							"path": "3.0.4.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits-1.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.0.4.1.0.0.0:@html:img",
+							"blockId": "core-3.0.4.1.0.0.0",
+							"path": "3.0.4.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits2.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.0.4.2.0.0.0:@html:img",
+							"blockId": "core-3.0.4.2.0.0.0",
+							"path": "3.0.4.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits3.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.0.4.3.0.0.0:@html:img",
+							"blockId": "core-3.0.4.3.0.0.0",
+							"path": "3.0.4.3.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits-4.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "testimonials",
+					"title": "Parent’s Thoughts About Us",
+					"slots": [
+						{
+							"id": "core-4.0.0.0.0:@html:p",
+							"blockId": "core-4.0.0.0.0",
+							"path": "4.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Testimonials",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.0.1:@html:h",
+							"blockId": "core-4.0.0.0.1",
+							"path": "4.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Parent’s Thoughts About Us",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.0.3:@html:p",
+							"blockId": "core-4.0.0.0.3",
+							"path": "4.0.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.1.0.0:@html:a",
+							"blockId": "core-4.0.0.1.0.0",
+							"path": "4.0.0.1.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.0.0.0.1:@html:p",
+							"blockId": "core-4.0.2.0.0.0.1",
+							"path": "4.0.2.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.0.0.0.2:@html:h",
+							"blockId": "core-4.0.2.0.0.0.2",
+							"path": "4.0.2.0.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Marvin McKinney",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.1.0.0.1:@html:p",
+							"blockId": "core-4.0.2.1.0.0.1",
+							"path": "4.0.2.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“Minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.1.0.0.2:@html:h",
+							"blockId": "core-4.0.2.1.0.0.2",
+							"path": "4.0.2.1.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Devon Lane",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.2.0.0.1:@html:p",
+							"blockId": "core-4.0.2.2.0.0.1",
+							"path": "4.0.2.2.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“Emet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.2.2.0.0.2:@html:h",
+							"blockId": "core-4.0.2.2.0.0.2",
+							"path": "4.0.2.2.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Esther Howard",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-4.0.0.0.2:@html:img",
+							"blockId": "core-4.0.0.0.2",
+							"path": "4.0.0.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.0.2.0.0.0.0:@html:img",
+							"blockId": "core-4.0.2.0.0.0.0",
+							"path": "4.0.2.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png",
+							"decorative": true,
+							"width": 240,
+							"height": 48,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.0.2.1.0.0.0:@html:img",
+							"blockId": "core-4.0.2.1.0.0.0",
+							"path": "4.0.2.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png",
+							"decorative": true,
+							"width": 240,
+							"height": 48,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.0.2.2.0.0.0:@html:img",
+							"blockId": "core-4.0.2.2.0.0.0",
+							"path": "4.0.2.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png",
+							"decorative": true,
+							"width": 240,
+							"height": 48,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "top-5",
+					"index": 5,
+					"path": "5",
+					"group": "top-5",
+					"role": "cta",
+					"title": "A Place Where Children Thrive",
+					"slots": [
+						{
+							"id": "core-5.0.0.0.0.0.0:@html:h",
+							"blockId": "core-5.0.0.0.0.0.0",
+							"path": "5.0.0.0.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "A Place Where Children Thrive",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.0.0.0.0.0.1:@html:p",
+							"blockId": "core-5.0.0.0.0.0.1",
+							"path": "5.0.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.0.0.0.0.0.2.0:@html:a",
+							"blockId": "core-5.0.0.0.0.0.2.0",
+							"path": "5.0.0.0.0.0.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Enroll Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-6",
+					"index": 6,
+					"path": "6",
+					"group": "top-6",
+					"role": "posts",
+					"title": "Upcoming Events",
+					"slots": [
+						{
+							"id": "core-6.0.0.0.0:@html:p",
+							"blockId": "core-6.0.0.0.0",
+							"path": "6.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Events",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.0.0.1:@html:h",
+							"blockId": "core-6.0.0.0.1",
+							"path": "6.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Upcoming Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.0.0.3:@html:p",
+							"blockId": "core-6.0.0.0.3",
+							"path": "6.0.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.0.1.0.0:@html:a",
+							"blockId": "core-6.0.0.1.0.0",
+							"path": "6.0.0.1.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.2.0.0.0.1.0.2:@html:p",
+							"blockId": "core-6.0.2.0.0.0.1.0.2",
+							"path": "6.0.2.0.0.0.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-6.0.0.0.2:@html:img",
+							"blockId": "core-6.0.0.0.2",
+							"path": "6.0.0.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						}
+					],
+					"dynamicBlocks": [
+						"core/query"
+					]
+				},
+				{
+					"id": "top-7",
+					"index": 7,
+					"path": "7",
+					"group": "top-7",
+					"role": "content",
+					"title": "Our Study Process",
+					"slots": [
+						{
+							"id": "core-7.0.1.0:@html:h",
+							"blockId": "core-7.0.1.0",
+							"path": "7.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Study Process",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.1.2:@html:p",
+							"blockId": "core-7.0.1.2",
+							"path": "7.0.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.1.3:@html:p",
+							"blockId": "core-7.0.1.3",
+							"path": "7.0.1.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Learn More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.1.0.0:@html:h",
+							"blockId": "core-7.1.0.0",
+							"path": "7.1.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Gallery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.1.0.2:@html:p",
+							"blockId": "core-7.1.0.2",
+							"path": "7.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.1.0.3:@html:p",
+							"blockId": "core-7.1.0.3",
+							"path": "7.1.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-7.0.1.1:@html:img",
+							"blockId": "core-7.0.1.1",
+							"path": "7.0.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.1.0.1:@html:img",
+							"blockId": "core-7.1.0.1",
+							"path": "7.1.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Cultivating Individuality and Academic Excellence",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "stats",
+					"title": "We put little magic into all our kid's lives.",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "features",
+					"title": "Kindergarten and Childhood is our Passion",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "features",
+					"title": "Our Advantages",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "testimonials",
+					"title": "Parent’s Thoughts About Us",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-5",
+					"role": "cta",
+					"title": "A Place Where Children Thrive",
+					"sectionIds": [
+						"top-5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-6",
+					"role": "posts",
+					"title": "Upcoming Events",
+					"sectionIds": [
+						"top-6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "top-7",
+					"role": "content",
+					"title": "Our Study Process",
+					"sectionIds": [
+						"top-7"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Events",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "We put little magic into all our kid's lives.",
+					"slots": [
+						{
+							"id": "core-0.0.0.1.0:@html:h",
+							"blockId": "core-0.0.0.1.0",
+							"path": "0.0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We put little magic into all our kid's lives.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.1.1.0:@html:h",
+							"blockId": "core-0.0.1.1.0",
+							"path": "0.0.1.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.2.0.0:@html:h",
+							"blockId": "core-0.0.2.0.0",
+							"path": "0.0.2.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "3K+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.0.2.0.1:@html:p",
+							"blockId": "core-0.0.2.0.1",
+							"path": "0.0.2.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Total Students",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.2.1.0:@html:h",
+							"blockId": "core-0.0.2.1.0",
+							"path": "0.0.2.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "20+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.0.2.1.1:@html:p",
+							"blockId": "core-0.0.2.1.1",
+							"path": "0.0.2.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Class Rooms",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.2.2.0:@html:h",
+							"blockId": "core-0.0.2.2.0",
+							"path": "0.0.2.2.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "10+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.0.2.2.1:@html:p",
+							"blockId": "core-0.0.2.2.1",
+							"path": "0.0.2.2.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "School Bus",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.2.3.0:@html:h",
+							"blockId": "core-0.0.2.3.0",
+							"path": "0.0.2.3.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "60+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.0.2.3.1:@html:p",
+							"blockId": "core-0.0.2.3.1",
+							"path": "0.0.2.3.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Total Teachers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "features",
+					"title": "Kindergarten and Childhood is our Passion",
+					"slots": [
+						{
+							"id": "core-1.0.0.1:@html:p",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Why Choose Us",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.2:@html:h",
+							"blockId": "core-1.0.0.2",
+							"path": "1.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Kindergarten and Childhood is our Passion",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.4:@html:p",
+							"blockId": "core-1.0.0.4",
+							"path": "1.0.0.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.5.1.0:@html:h",
+							"blockId": "core-1.0.0.5.1.0",
+							"path": "1.0.0.5.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Great Teachers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.5.1.1:@html:p",
+							"blockId": "core-1.0.0.5.1.1",
+							"path": "1.0.0.5.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.6.1.0:@html:h",
+							"blockId": "core-1.0.0.6.1.0",
+							"path": "1.0.0.6.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Satisfied Parents",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.6.1.1:@html:p",
+							"blockId": "core-1.0.0.6.1.1",
+							"path": "1.0.0.6.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.7.0:@html:a",
+							"blockId": "core-1.0.0.7.0",
+							"path": "1.0.0.7.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-1.0.0.3:@html:img",
+							"blockId": "core-1.0.0.3",
+							"path": "1.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-1.0.0.5.0.0:@html:img",
+							"blockId": "core-1.0.0.5.0.0",
+							"path": "1.0.0.5.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Teachers.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.0.0.6.0.0:@html:img",
+							"blockId": "core-1.0.0.6.0.0",
+							"path": "1.0.0.6.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Parents.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "features",
+					"title": "Our Advantages",
+					"slots": [
+						{
+							"id": "core-2.0.0:@html:p",
+							"blockId": "core-2.0.0",
+							"path": "2.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Benefits",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.1:@html:h",
+							"blockId": "core-2.0.1",
+							"path": "2.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Advantages",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.3.1.0:@html:p",
+							"blockId": "core-2.0.3.1.0",
+							"path": "2.0.3.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.0.0.0.1:@html:h",
+							"blockId": "core-2.0.4.0.0.0.1",
+							"path": "2.0.4.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "School Presentations",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.0.0.0.2:@html:p",
+							"blockId": "core-2.0.4.0.0.0.2",
+							"path": "2.0.4.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz provide educational field trips and school presentations",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.0.0.0.3:@html:p",
+							"blockId": "core-2.0.4.0.0.0.3",
+							"path": "2.0.4.0.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.1.0.0.1:@html:h",
+							"blockId": "core-2.0.4.1.0.0.1",
+							"path": "2.0.4.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Unlimited Learning Resources",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.1.0.0.2:@html:p",
+							"blockId": "core-2.0.4.1.0.0.2",
+							"path": "2.0.4.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz provide educational field trips and school presentations",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.1.0.0.3:@html:p",
+							"blockId": "core-2.0.4.1.0.0.3",
+							"path": "2.0.4.1.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.2.0.0.1:@html:h",
+							"blockId": "core-2.0.4.2.0.0.1",
+							"path": "2.0.4.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Positive Learning Environment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.2.0.0.2:@html:p",
+							"blockId": "core-2.0.4.2.0.0.2",
+							"path": "2.0.4.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz provide educational field trips and school presentations",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.2.0.0.3:@html:p",
+							"blockId": "core-2.0.4.2.0.0.3",
+							"path": "2.0.4.2.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.3.0.0.1:@html:h",
+							"blockId": "core-2.0.4.3.0.0.1",
+							"path": "2.0.4.3.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Individual Attention",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.3.0.0.2:@html:p",
+							"blockId": "core-2.0.4.3.0.0.2",
+							"path": "2.0.4.3.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz provide educational field trips and school presentations",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.4.3.0.0.3:@html:p",
+							"blockId": "core-2.0.4.3.0.0.3",
+							"path": "2.0.4.3.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Explore More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.2:@html:img",
+							"blockId": "core-2.0.2",
+							"path": "2.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-2.0.4.0.0.0.0:@html:img",
+							"blockId": "core-2.0.4.0.0.0.0",
+							"path": "2.0.4.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits-1.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.4.1.0.0.0:@html:img",
+							"blockId": "core-2.0.4.1.0.0.0",
+							"path": "2.0.4.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits2.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.4.2.0.0.0:@html:img",
+							"blockId": "core-2.0.4.2.0.0.0",
+							"path": "2.0.4.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits3.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.4.3.0.0.0:@html:img",
+							"blockId": "core-2.0.4.3.0.0.0",
+							"path": "2.0.4.3.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits-4.png",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "testimonials",
+					"title": "Parent’s Thoughts About Us",
+					"slots": [
+						{
+							"id": "core-3.0.0.0.0:@html:p",
+							"blockId": "core-3.0.0.0.0",
+							"path": "3.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Testimonials",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.0.1:@html:h",
+							"blockId": "core-3.0.0.0.1",
+							"path": "3.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Parent’s Thoughts About Us",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.0.3:@html:p",
+							"blockId": "core-3.0.0.0.3",
+							"path": "3.0.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.1.0.0:@html:a",
+							"blockId": "core-3.0.0.1.0.0",
+							"path": "3.0.0.1.0.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.0.0.0.1:@html:p",
+							"blockId": "core-3.0.2.0.0.0.1",
+							"path": "3.0.2.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.0.0.0.2:@html:h",
+							"blockId": "core-3.0.2.0.0.0.2",
+							"path": "3.0.2.0.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Marvin McKinney",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.1.0.0.1:@html:p",
+							"blockId": "core-3.0.2.1.0.0.1",
+							"path": "3.0.2.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“Minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.1.0.0.2:@html:h",
+							"blockId": "core-3.0.2.1.0.0.2",
+							"path": "3.0.2.1.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Devon Lane",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.2.0.0.1:@html:p",
+							"blockId": "core-3.0.2.2.0.0.1",
+							"path": "3.0.2.2.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“Emet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.2.0.0.2:@html:h",
+							"blockId": "core-3.0.2.2.0.0.2",
+							"path": "3.0.2.2.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Esther Howard",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-3.0.0.0.2:@html:img",
+							"blockId": "core-3.0.0.0.2",
+							"path": "3.0.0.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.0.0.0.0:@html:img",
+							"blockId": "core-3.0.2.0.0.0.0",
+							"path": "3.0.2.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png",
+							"decorative": true,
+							"width": 240,
+							"height": 48,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.1.0.0.0:@html:img",
+							"blockId": "core-3.0.2.1.0.0.0",
+							"path": "3.0.2.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png",
+							"decorative": true,
+							"width": 240,
+							"height": 48,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.2.0.0.0:@html:img",
+							"blockId": "core-3.0.2.2.0.0.0",
+							"path": "3.0.2.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png",
+							"decorative": true,
+							"width": 240,
+							"height": 48,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "We put little magic into all our kid's lives.",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "features",
+					"title": "Kindergarten and Childhood is our Passion",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "features",
+					"title": "Our Advantages",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "testimonials",
+					"title": "Parent’s Thoughts About Us",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact-us",
+			"title": "Contact Us",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/themegrill-demos/contact-us-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Email",
+					"slots": [
+						{
+							"id": "core-0.0.0.0.0.0:@html:h",
+							"blockId": "core-0.0.0.0.0.0",
+							"path": "0.0.0.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Email",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.0.1:@html:p",
+							"blockId": "core-0.0.0.0.0.1",
+							"path": "0.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "info@example.com, hello@example.com",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "core-0.0.1.0.0.0:@html:h",
+							"blockId": "core-0.0.1.0.0.0",
+							"path": "0.0.1.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Contact No.",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.1.0.0.1:@html:p",
+							"blockId": "core-0.0.1.0.0.1",
+							"path": "0.0.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "(123) 456-7890, (987) 999-8888",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-0.0.2.0.0.0:@html:h",
+							"blockId": "core-0.0.2.0.0.0",
+							"path": "0.0.2.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Location",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.2.0.0.1:@html:p",
+							"blockId": "core-0.0.2.0.0.1",
+							"path": "0.0.2.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "34 Atlantic Avenue, Boston, United States",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "cta",
+					"title": "A Place Where Children Thrive",
+					"slots": [
+						{
+							"id": "core-1.0.0.0.0.0.0:@html:h",
+							"blockId": "core-1.0.0.0.0.0.0",
+							"path": "1.0.0.0.0.0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "A Place Where Children Thrive",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.0.0.0.1:@html:p",
+							"blockId": "core-1.0.0.0.0.0.1",
+							"path": "1.0.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.0.0.0.2.0:@html:a",
+							"blockId": "core-1.0.0.0.0.0.2.0",
+							"path": "1.0.0.0.0.0.2.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Enroll Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "content",
+					"title": "Where we are",
+					"slots": [
+						{
+							"id": "core-2.0.0.1:@html:h",
+							"blockId": "core-2.0.0.1",
+							"path": "2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Where we are",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.2:@html:h",
+							"blockId": "core-2.0.0.2",
+							"path": "2.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Nestled in a stunning 400-acre parkland Kindergarden, Kidz is situated between the M3 and M4 motorways, just a 30-minute drive from Heathrow Airport.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Email",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "cta",
+					"title": "A Place Where Children Thrive",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "content",
+					"title": "Where we are",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "gallery",
+			"title": "Gallery",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/themegrill-demos/gallery-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Our Gallery",
+					"slots": [
+						{
+							"id": "core-0.0:@html:h",
+							"blockId": "core-0.0",
+							"path": "0.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Gallery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2:@html:p",
+							"blockId": "core-0.2",
+							"path": "0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Kidz upholds a multicultural, co-educational learning environment. We understand that each child is capable and has a unique style of learning.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.1:@html:img",
+							"blockId": "core-0.1",
+							"path": "0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png",
+							"decorative": true,
+							"width": 40,
+							"height": 2,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "gallery",
+					"slots": [],
+					"images": [
+						{
+							"id": "core-1.0.0.0:@html:img",
+							"blockId": "core-1.0.0.0",
+							"path": "1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Image1.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 300,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Little girl looking at a colorful number and alphabet chart",
+							"tone": {
+								"grid": [
+									0.88,
+									0.8,
+									0.58,
+									0.88,
+									0.74,
+									0.54,
+									0.87,
+									0.84,
+									0.71
+								],
+								"color": "#c4c1bd"
+							}
+						},
+						{
+							"id": "core-1.0.0.1:@html:img",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Image5.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 700,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Children playing inside a cardboard playhouse",
+							"tone": {
+								"grid": [
+									0.83,
+									0.88,
+									0.86,
+									0.82,
+									0.63,
+									0.86,
+									0.76,
+									0.53,
+									0.82
+								],
+								"color": "#c9c6c4"
+							}
+						},
+						{
+							"id": "core-1.0.1.0:@html:img",
+							"blockId": "core-1.0.1.0",
+							"path": "1.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Image2.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 700,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Children doing yoga tree poses against a wall",
+							"tone": {
+								"grid": [
+									0.95,
+									0.94,
+									0.92,
+									0.79,
+									0.74,
+									0.84,
+									0.78,
+									0.65,
+									0.7
+								],
+								"color": "#d8cfbf"
+							}
+						},
+						{
+							"id": "core-1.0.1.1:@html:img",
+							"blockId": "core-1.0.1.1",
+							"path": "1.0.1.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Image6.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 300,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Teacher with a globe in front of children in a kindergarten classroom",
+							"tone": {
+								"grid": [
+									0.84,
+									0.59,
+									0.81,
+									0.77,
+									0.43,
+									0.65,
+									0.56,
+									0.54,
+									0.53
+								],
+								"color": "#a6a1a0"
+							}
+						},
+						{
+							"id": "core-1.0.2.0:@html:img",
+							"blockId": "core-1.0.2.0",
+							"path": "1.0.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Image3.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 380,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Children and a teacher using a chalkboard in a classroom",
+							"tone": {
+								"grid": [
+									0.75,
+									0.8,
+									0.75,
+									0.77,
+									0.67,
+									0.49,
+									0.65,
+									0.56,
+									0.58
+								],
+								"color": "#acaaab"
+							}
+						},
+						{
+							"id": "core-1.0.2.1:@html:img",
+							"blockId": "core-1.0.2.1",
+							"path": "1.0.2.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Image7.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 620,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Teacher helping a little girl with a craft activity",
+							"tone": {
+								"grid": [
+									0.58,
+									0.44,
+									0.78,
+									0.41,
+									0.44,
+									0.59,
+									0.57,
+									0.55,
+									0.64
+								],
+								"color": "#9c8e6a"
+							}
+						},
+						{
+							"id": "core-1.0.3.0:@html:img",
+							"blockId": "core-1.0.3.0",
+							"path": "1.0.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/05/image4.png",
+							"decorative": false,
+							"width": 540,
+							"height": 540,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Two girls in animal onesies holding kindergarten speech bubbles",
+							"tone": {
+								"grid": [
+									0.91,
+									0.89,
+									0.86,
+									0.86,
+									0.7,
+									0.72,
+									0.8,
+									0.6,
+									0.52
+								],
+								"color": "#d0bec1"
+							}
+						},
+						{
+							"id": "core-1.0.3.1:@html:img",
+							"blockId": "core-1.0.3.1",
+							"path": "1.0.3.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Image-8.jpg",
+							"decorative": false,
+							"width": 540,
+							"height": 460,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Teacher and a girl looking at a globe together in a classroom",
+							"tone": {
+								"grid": [
+									0.97,
+									0.93,
+									0.89,
+									0.93,
+									0.61,
+									0.86,
+									0.74,
+									0.55,
+									0.42
+								],
+								"color": "#cbc2ba"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Our Gallery",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "gallery",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 17,
+		"textSlots": 116,
+		"editableSlots": 106,
+		"images": 36,
+		"swappableImages": 8,
+		"words": 784
+	},
+	"builtAt": "2026-10-24T11:35:07.934Z"
+}

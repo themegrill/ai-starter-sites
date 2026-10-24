@@ -1,0 +1,3473 @@
+{
+	"version": 4,
+	"slug": "dentico",
+	"name": "Dentico",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Dentico-Thumnail-Image.jpg",
+	"demoUrl": "https://zakrademos.com/dentico",
+	"niches": [
+		"dental",
+		"healthcare",
+		"medical"
+	],
+	"keywords": [
+		"dentist",
+		"dental clinic",
+		"orthodontist",
+		"oral care",
+		"teeth whitening",
+		"dental care",
+		"clinic",
+		"doctor",
+		"medical"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 63,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 27,
+					"background": 17,
+					"border": 6
+				}
+			},
+			{
+				"hex": "#00509e",
+				"count": 38,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 32,
+					"border": 5,
+					"background": 1
+				}
+			},
+			{
+				"hex": "#757575",
+				"count": 37,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 37
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 14,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#d9d9d9",
+				"count": 12,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"border": 12
+				}
+			},
+			{
+				"hex": "#f6f6f6",
+				"count": 10,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 10
+				}
+			},
+			{
+				"hex": "#363636",
+				"count": 9,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 9
+				}
+			},
+			{
+				"hex": "#065099",
+				"count": 9,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0.002,
+				"usage": {
+					"border": 7,
+					"background": 2
+				}
+			},
+			{
+				"hex": "#00abcd",
+				"count": 8,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0.092,
+				"usage": {
+					"background": 8
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#029ab9",
+				"count": 6,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0.057,
+				"usage": {
+					"background": 6
+				}
+			},
+			{
+				"hex": "#110c2e",
+				"count": 5,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#110c2e",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#2563eb",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0.224
+			},
+			{
+				"hex": "#027abb",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0.061
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#ebf7fe",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0.649,
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#f1f2f2",
+				"count": 2,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#cccccc",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#fffffe",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#00ccf4",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0.169
+			},
+			{
+				"hex": "#0071a5",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0.014
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#00509e",
+				"lightnessDelta": 0.075
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#00509e",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 16,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#757575",
+				"bg": "#ebf7fe",
+				"large": false,
+				"count": 13,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#00abcd",
+				"large": false,
+				"count": 12,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#3f3f46",
+				"bg": "#ebf7fe",
+				"large": true,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#00509e",
+				"bg": "#ebf7fe",
+				"large": true,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#029ab9",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#00509e",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#065099",
+				"large": false,
+				"count": 3,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#065099",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#00509e",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#00509e",
+				"bg": "#f1f2f2",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#00509e",
+				"bg": "#ebf7fe",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#363636",
+				"bg": "#ebf7fe",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#00509e",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#00ccf4",
+				"bg": "#065099",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fffffe",
+				"bg": "#0071a5",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "fa2aa0b9",
+					"index": 0,
+					"path": "0",
+					"group": "fa2aa0b9",
+					"role": "hero",
+					"title": "Caring for your Smile",
+					"slots": [
+						{
+							"id": "a2ad1a63:text",
+							"blockId": "a2ad1a63",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Caring for your Smile",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a68549eb:text",
+							"blockId": "a68549eb",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "A team of dedicated doctors ensures that you always have the best result.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fec7de6d:text",
+							"blockId": "fec7de6d",
+							"path": "0.0.0.0.2",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Book an Appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "fa2aa0b9:background.image.image.url",
+							"blockId": "fa2aa0b9",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentico-top-banner.jpg",
+							"decorative": false,
+							"width": 1440,
+							"height": 730,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling woman pointing at her teeth in a dental clinic",
+							"tone": {
+								"grid": [
+									0.32,
+									0.34,
+									0.35,
+									0.29,
+									0.39,
+									0.39,
+									0.26,
+									0.47,
+									0.54
+								],
+								"color": "#3e6586"
+							}
+						}
+					]
+				},
+				{
+					"id": "2f4d76a4",
+					"index": 1,
+					"path": "1",
+					"group": "2f4d76a4",
+					"role": "content",
+					"title": "Dental care service that you can trust.",
+					"slots": [
+						{
+							"id": "35677ebf:text",
+							"blockId": "35677ebf",
+							"path": "1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "47deb3a6:text",
+							"blockId": "47deb3a6",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Dental care service that you can trust.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1af5c9bc:text",
+							"blockId": "1af5c9bc",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dentico is a multi-specialty dental practice, where doctors from a variety of disciplines collaborate on your dental care. We truly offer advanced, comprehensive dental care for all members of your family.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9f1006b8:text",
+							"blockId": "9f1006b8",
+							"path": "1.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We pride ourselves on our values of compassionate and comprehensive care as well as convenient and affordable services.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "305acf33-3225-400f-a654-2305b886204b:text",
+							"blockId": "305acf33-3225-400f-a654-2305b886204b",
+							"path": "1.1.4",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0f370d13:image.url",
+							"blockId": "0f370d13",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/about-image.jpg",
+							"decorative": false,
+							"width": 537,
+							"height": 648,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Dentist examining a patient's teeth in a dental chair",
+							"tone": {
+								"grid": [
+									0.73,
+									0.61,
+									0.8,
+									0.6,
+									0.41,
+									0.63,
+									0.48,
+									0.33,
+									0.3
+								],
+								"color": "#778ea1"
+							}
+						}
+					]
+				},
+				{
+					"id": "af84ba10",
+					"index": 2,
+					"path": "2",
+					"group": "af84ba10",
+					"role": "features",
+					"title": "Get breakthrough dental and oral health care.",
+					"slots": [
+						{
+							"id": "aaa3c609:text",
+							"blockId": "aaa3c609",
+							"path": "2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Services",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fc5c330d:text",
+							"blockId": "fc5c330d",
+							"path": "2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get breakthrough dental and oral health care.",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0980da80-c38f-4176-992d-3152200f0e88:text",
+							"blockId": "0980da80-c38f-4176-992d-3152200f0e88",
+							"path": "2.0.0.0.2",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "234c6faf:text",
+							"blockId": "234c6faf",
+							"path": "2.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Endodontics",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3797b8dd:text",
+							"blockId": "3797b8dd",
+							"path": "2.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Deals with the pulp which is the soft tissue located at the center of each tooth.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fc4fdf91:text",
+							"blockId": "fc4fdf91",
+							"path": "2.0.0.1.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6150b6df:text",
+							"blockId": "6150b6df",
+							"path": "2.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Oral Pathology",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "caeb9555:text",
+							"blockId": "caeb9555",
+							"path": "2.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Deals with the diagnosis and treatment of diseases affecting the mouth and surrounding structures.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "06f33d52-b1e9-4bd0-87a8-ea0f7c94f532:text",
+							"blockId": "06f33d52-b1e9-4bd0-87a8-ea0f7c94f532",
+							"path": "2.0.0.2.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fe09583e:text",
+							"blockId": "fe09583e",
+							"path": "2.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Cosmetic Restoration",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1924d387:text",
+							"blockId": "1924d387",
+							"path": "2.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Deals with restorative advantages of common cosmetic restoration procedures.",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e4658364-3c96-49e6-aca6-4cb0b3e97d29:text",
+							"blockId": "e4658364-3c96-49e6-aca6-4cb0b3e97d29",
+							"path": "2.0.1.0.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9977a582:text",
+							"blockId": "9977a582",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Periodontics",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "94d6d410:text",
+							"blockId": "94d6d410",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Deals with supporting structures of teeth and the placement, and repair of dental implants.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9eff7153-60c9-4621-92fa-7693688a602e:text",
+							"blockId": "9eff7153-60c9-4621-92fa-7693688a602e",
+							"path": "2.0.1.1.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5034dd33:text",
+							"blockId": "5034dd33",
+							"path": "2.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Maxillofacial Surgery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1e6cfca5:text",
+							"blockId": "1e6cfca5",
+							"path": "2.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Deals with the multidisciplinary optimized treatment of major conditions and diseases.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cebfeed1-4e22-4f1f-9dfe-c5fab724924d:text",
+							"blockId": "cebfeed1-4e22-4f1f-9dfe-c5fab724924d",
+							"path": "2.0.1.2.3",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6f54c373:image.url",
+							"blockId": "6f54c373",
+							"path": "2.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/endodontics-icon.png",
+							"decorative": true,
+							"width": 62,
+							"height": 61,
+							"orientation": "square"
+						},
+						{
+							"id": "dd1616c9:image.url",
+							"blockId": "dd1616c9",
+							"path": "2.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/oral-pathalogy-icon.png",
+							"decorative": true,
+							"width": 62,
+							"height": 61,
+							"orientation": "square"
+						},
+						{
+							"id": "dc6424b6:image.url",
+							"blockId": "dc6424b6",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/cosmetic-restoration-icon.png",
+							"decorative": true,
+							"width": 62,
+							"height": 61,
+							"orientation": "square"
+						},
+						{
+							"id": "f6b8f2bf:image.url",
+							"blockId": "f6b8f2bf",
+							"path": "2.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/periodontics-icons.png",
+							"decorative": true,
+							"width": 62,
+							"height": 61,
+							"orientation": "square"
+						},
+						{
+							"id": "9bbc8fdd:image.url",
+							"blockId": "9bbc8fdd",
+							"path": "2.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/maxillo.png",
+							"decorative": true,
+							"width": 62,
+							"height": 61,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "9f6a64fd",
+					"index": 3,
+					"path": "3",
+					"group": "9f6a64fd",
+					"role": "team",
+					"title": "Holding collective experience over years of dental expertise.",
+					"slots": [
+						{
+							"id": "bccc0c7f:text",
+							"blockId": "bccc0c7f",
+							"path": "3.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Our Team",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fbe50a50:text",
+							"blockId": "fbe50a50",
+							"path": "3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Holding collective experience over years of dental expertise.",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c1e93218-326c-4152-b080-ccb7190b05d9:text",
+							"blockId": "c1e93218-326c-4152-b080-ccb7190b05d9",
+							"path": "3.0.0.0.2",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "034de720:text",
+							"blockId": "034de720",
+							"path": "3.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dr. Emily Radcliffe",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "121cc749:text",
+							"blockId": "121cc749",
+							"path": "3.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dental Surgeon",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "264cb033:text",
+							"blockId": "264cb033",
+							"path": "3.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dr. Sheila Ali",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f9190c1a:text",
+							"blockId": "f9190c1a",
+							"path": "3.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Consultant Orthodontics",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "07e621d8:image.url",
+							"blockId": "07e621d8",
+							"path": "3.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentist-a.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling female dentist in protective glasses and gloves",
+							"tone": {
+								"grid": [
+									0.51,
+									0.51,
+									0.9,
+									0.52,
+									0.77,
+									0.93,
+									0.55,
+									0.64,
+									0.79
+								],
+								"color": "#b0ada9"
+							}
+						},
+						{
+							"id": "453069b7:image.url",
+							"blockId": "453069b7",
+							"path": "3.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentist-b.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Female dentist with arms crossed in a dental office",
+							"tone": {
+								"grid": [
+									0.93,
+									0.68,
+									0.83,
+									0.88,
+									0.81,
+									0.81,
+									0.78,
+									0.75,
+									0.73
+								],
+								"color": "#c7ccd9"
+							}
+						}
+					]
+				},
+				{
+					"id": "fcf95a42",
+					"index": 4,
+					"path": "4",
+					"group": "fcf95a42",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "1858937a:text",
+							"blockId": "1858937a",
+							"path": "4.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "99%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "7c37af34:text",
+							"blockId": "7c37af34",
+							"path": "4.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Client Satisfaction",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c012d7bf:text",
+							"blockId": "c012d7bf",
+							"path": "4.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "97%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "b4a7b952:text",
+							"blockId": "b4a7b952",
+							"path": "4.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Intervention Success",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9f192b2d:text",
+							"blockId": "9f192b2d",
+							"path": "4.0.0.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "100%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f2fd5a64:text",
+							"blockId": "f2fd5a64",
+							"path": "4.0.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Happy with Staffs",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "c53d4ee6",
+					"index": 5,
+					"path": "5",
+					"group": "c53d4ee6",
+					"role": "cta",
+					"title": "Book a consultation and start your journey toward a pain-free life.",
+					"slots": [
+						{
+							"id": "1975b820:text",
+							"blockId": "1975b820",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Book a consultation and start your journey toward a pain-free life.",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5c41022f:text",
+							"blockId": "5c41022f",
+							"path": "5.0.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Book an Appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e51937cb:image.url",
+							"blockId": "e51937cb",
+							"path": "5.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentist-examining-patients-teeth.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Dentist and assistant treating a smiling female patient",
+							"tone": {
+								"grid": [
+									0.78,
+									0.88,
+									0.67,
+									0.81,
+									0.8,
+									0.67,
+									0.85,
+									0.75,
+									0.67
+								],
+								"color": "#c3c3bf"
+							}
+						}
+					]
+				},
+				{
+					"id": "5d09fd8f",
+					"index": 6,
+					"path": "6",
+					"group": "5d09fd8f",
+					"role": "testimonials",
+					"title": "See what our patients talk about our services.",
+					"slots": [
+						{
+							"id": "ddb3b6c1:text",
+							"blockId": "ddb3b6c1",
+							"path": "6.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Testimonials",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a1d7372e:text",
+							"blockId": "a1d7372e",
+							"path": "6.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "See what our patients talk about our services.",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0002c892-4d87-4e3c-8720-e29930a3f3f4:text",
+							"blockId": "0002c892-4d87-4e3c-8720-e29930a3f3f4",
+							"path": "6.0.0.0.2",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a6e4cd3:text",
+							"blockId": "0a6e4cd3",
+							"path": "6.0.0.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Great experience every time I go. Amazing and friendly staff. I have a busy schedule and my appointments always start on time. No waiting!",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "700ea05a:text",
+							"blockId": "700ea05a",
+							"path": "6.0.0.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tom Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a3598dac:text",
+							"blockId": "a3598dac",
+							"path": "6.0.0.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dentico has always been spotless. Staffs are always friendly and cheerful. I’d definitely recommend it to anyone seeking a professional dental service.",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "546d52da:text",
+							"blockId": "546d52da",
+							"path": "6.0.0.1.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Chris Smith",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0d80e46b:text",
+							"blockId": "0d80e46b",
+							"path": "6.0.0.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Child-friendly dental with great doctors, staff, hospitality, and overall superb experience for my little one. Once again a Big Thank You to the Dentico family.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ecf46d4:text",
+							"blockId": "9ecf46d4",
+							"path": "6.0.0.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tom Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0055aace:text",
+							"blockId": "0055aace",
+							"path": "6.0.0.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "A spotless place, with a friendly team, and I would not shy away from saying bespoken professional service, is worth it. I highly recommend Dentico.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "db69ff1b:text",
+							"blockId": "db69ff1b",
+							"path": "6.0.0.2.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nicholas Anderson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "5d09fd8f:background.image.image.url",
+							"blockId": "5d09fd8f",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/bg-testimonial-box.png",
+							"decorative": true,
+							"width": 1438,
+							"height": 575,
+							"orientation": "landscape"
+						},
+						{
+							"id": "e3a49449:image.url",
+							"blockId": "e3a49449",
+							"path": "6.0.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0752858a:image.url",
+							"blockId": "0752858a",
+							"path": "6.0.0.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						},
+						{
+							"id": "1a714435:image.url",
+							"blockId": "1a714435",
+							"path": "6.0.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0ab7d834:image.url",
+							"blockId": "0ab7d834",
+							"path": "6.0.0.2.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "fa2aa0b9",
+					"role": "hero",
+					"title": "Caring for your Smile",
+					"sectionIds": [
+						"fa2aa0b9"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2f4d76a4",
+					"role": "content",
+					"title": "Dental care service that you can trust.",
+					"sectionIds": [
+						"2f4d76a4"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "af84ba10",
+					"role": "features",
+					"title": "Get breakthrough dental and oral health care.",
+					"sectionIds": [
+						"af84ba10"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9f6a64fd",
+					"role": "team",
+					"title": "Holding collective experience over years of dental expertise.",
+					"sectionIds": [
+						"9f6a64fd"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "fcf95a42",
+					"role": "stats",
+					"sectionIds": [
+						"fcf95a42"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "c53d4ee6",
+					"role": "cta",
+					"title": "Book a consultation and start your journey toward a pain-free life.",
+					"sectionIds": [
+						"c53d4ee6"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5d09fd8f",
+					"role": "testimonials",
+					"title": "See what our patients talk about our services.",
+					"sectionIds": [
+						"5d09fd8f"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "2f4d76a4",
+					"index": 0,
+					"path": "0",
+					"group": "2f4d76a4",
+					"role": "hero",
+					"title": "Dental care service that you can trust.",
+					"slots": [
+						{
+							"id": "35677ebf:text",
+							"blockId": "35677ebf",
+							"path": "0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "47deb3a6:text",
+							"blockId": "47deb3a6",
+							"path": "0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Dental care service that you can trust.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1af5c9bc:text",
+							"blockId": "1af5c9bc",
+							"path": "0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dentico is a multi-specialty dental practice, where doctors from various disciplines collaborate on your dental care. We genuinely offer advanced, comprehensive dental care for all members of your family.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9f1006b8:text",
+							"blockId": "9f1006b8",
+							"path": "0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We pride ourselves on our values of compassionate and comprehensive care and convenient and affordable services.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7fe28c62:text",
+							"blockId": "7fe28c62",
+							"path": "0.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We combine cutting-edge dentistry with a team who treats you like family, a relaxing environment, and amenities that delight you. Enjoy personalized appointments and all-encompassing dental care from top-rated professionals.",
+							"rich": false,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0f370d13:image.url",
+							"blockId": "0f370d13",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/about-image.jpg",
+							"decorative": false,
+							"width": 537,
+							"height": 648,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Dentist examining a patient's teeth in a dental chair",
+							"tone": {
+								"grid": [
+									0.73,
+									0.61,
+									0.8,
+									0.6,
+									0.41,
+									0.63,
+									0.48,
+									0.33,
+									0.3
+								],
+								"color": "#778ea1"
+							}
+						}
+					]
+				},
+				{
+					"id": "9f6a64fd",
+					"index": 1,
+					"path": "1",
+					"group": "9f6a64fd",
+					"role": "team",
+					"title": "Holding collective experience over years of dental expertise.",
+					"slots": [
+						{
+							"id": "bccc0c7f:text",
+							"blockId": "bccc0c7f",
+							"path": "1.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Our Team",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fbe50a50:text",
+							"blockId": "fbe50a50",
+							"path": "1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Holding collective experience over years of dental expertise.",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "034de720:text",
+							"blockId": "034de720",
+							"path": "1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dr. Emily Radcliffe",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "121cc749:text",
+							"blockId": "121cc749",
+							"path": "1.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dental Surgeon",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "264cb033:text",
+							"blockId": "264cb033",
+							"path": "1.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dr. Sheila Ali",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f9190c1a:text",
+							"blockId": "f9190c1a",
+							"path": "1.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Consultant Orthodontics",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "95f43103:text",
+							"blockId": "95f43103",
+							"path": "1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dr. Brendan Loehr",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dcbf4ef3:text",
+							"blockId": "dcbf4ef3",
+							"path": "1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Cosmetic Dentist",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c1b28309:text",
+							"blockId": "c1b28309",
+							"path": "1.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dr. Rose Duong",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6a9cb111:text",
+							"blockId": "6a9cb111",
+							"path": "1.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Periodontist",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "98dd111b:text",
+							"blockId": "98dd111b",
+							"path": "1.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dr. Owen Stone",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7ff23e63:text",
+							"blockId": "7ff23e63",
+							"path": "1.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Oral Pathologist",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "07e621d8:image.url",
+							"blockId": "07e621d8",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentist-a.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling female dentist in protective glasses and gloves",
+							"tone": {
+								"grid": [
+									0.51,
+									0.51,
+									0.9,
+									0.52,
+									0.77,
+									0.93,
+									0.55,
+									0.64,
+									0.79
+								],
+								"color": "#b0ada9"
+							}
+						},
+						{
+							"id": "453069b7:image.url",
+							"blockId": "453069b7",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentist-b.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Female dentist with arms crossed in a dental office",
+							"tone": {
+								"grid": [
+									0.93,
+									0.68,
+									0.83,
+									0.88,
+									0.81,
+									0.81,
+									0.78,
+									0.75,
+									0.73
+								],
+								"color": "#c7ccd9"
+							}
+						},
+						{
+							"id": "fc6f800f:image.url",
+							"blockId": "fc6f800f",
+							"path": "1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentist-c.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling male dentist holding a denture model",
+							"tone": {
+								"grid": [
+									0.87,
+									0.74,
+									0.93,
+									0.73,
+									0.8,
+									0.92,
+									0.73,
+									0.72,
+									0.8
+								],
+								"color": "#d2cbcb"
+							}
+						},
+						{
+							"id": "e9c15140:image.url",
+							"blockId": "e9c15140",
+							"path": "1.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentist-d.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling female doctor in a white coat in a dental clinic",
+							"tone": {
+								"grid": [
+									0.86,
+									0.76,
+									0.86,
+									0.81,
+									0.86,
+									0.88,
+									0.81,
+									0.84,
+									0.81
+								],
+								"color": "#d7d3d3"
+							}
+						},
+						{
+							"id": "2d7497d5:image.url",
+							"blockId": "2d7497d5",
+							"path": "1.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentist-e.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling male dentist in glasses giving a thumbs up",
+							"tone": {
+								"grid": [
+									0.95,
+									0.73,
+									0.83,
+									0.96,
+									0.85,
+									0.87,
+									0.79,
+									0.79,
+									0.64
+								],
+								"color": "#d4d2d1"
+							}
+						}
+					]
+				},
+				{
+					"id": "5e8c083d",
+					"index": 2,
+					"path": "2",
+					"group": "5e8c083d",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "1858937a:text",
+							"blockId": "1858937a",
+							"path": "2.0.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "99%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "7c37af34:text",
+							"blockId": "7c37af34",
+							"path": "2.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Client Satisfaction",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c012d7bf:text",
+							"blockId": "c012d7bf",
+							"path": "2.0.0.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "97%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "b4a7b952:text",
+							"blockId": "b4a7b952",
+							"path": "2.0.0.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Intervention Success",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9f192b2d:text",
+							"blockId": "9f192b2d",
+							"path": "2.0.0.0.0.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "100%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f2fd5a64:text",
+							"blockId": "f2fd5a64",
+							"path": "2.0.0.0.0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Happy with Staffs",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "c53d4ee6",
+					"index": 3,
+					"path": "3",
+					"group": "c53d4ee6",
+					"role": "cta",
+					"title": "Book a consultation and start your journey toward a pain-free life.",
+					"slots": [
+						{
+							"id": "7223c029:text",
+							"blockId": "7223c029",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Book a consultation and start your journey toward a pain-free life.",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5c41022f:text",
+							"blockId": "5c41022f",
+							"path": "3.0.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Book an Appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e51937cb:image.url",
+							"blockId": "e51937cb",
+							"path": "3.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/dentist-examining-patients-teeth.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Dentist and assistant treating a smiling female patient",
+							"tone": {
+								"grid": [
+									0.78,
+									0.88,
+									0.67,
+									0.81,
+									0.8,
+									0.67,
+									0.85,
+									0.75,
+									0.67
+								],
+								"color": "#c3c3bf"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "2f4d76a4",
+					"role": "hero",
+					"title": "Dental care service that you can trust.",
+					"sectionIds": [
+						"2f4d76a4"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9f6a64fd",
+					"role": "team",
+					"title": "Holding collective experience over years of dental expertise.",
+					"sectionIds": [
+						"9f6a64fd"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "5e8c083d",
+					"role": "stats",
+					"sectionIds": [
+						"5e8c083d"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "c53d4ee6",
+					"role": "cta",
+					"title": "Book a consultation and start your journey toward a pain-free life.",
+					"sectionIds": [
+						"c53d4ee6"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "2f4d76a4",
+					"index": 0,
+					"path": "0",
+					"group": "2f4d76a4",
+					"role": "hero",
+					"title": "Get breakthrough dental and oral health care.",
+					"slots": [
+						{
+							"id": "35677ebf:text",
+							"blockId": "35677ebf",
+							"path": "0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Services",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "47deb3a6:text",
+							"blockId": "47deb3a6",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get breakthrough dental and oral health care.",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1af5c9bc:text",
+							"blockId": "1af5c9bc",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "From general dentistry wellness to perfecting cosmetic imperfections, to restoring implants and filings, to those painful oral emergencies—Dentico has you covered. All of our locations offer comprehensive services, with compassionate care, at transparent pricing and need.",
+							"rich": false,
+							"words": 36,
+							"minWords": 22,
+							"maxWords": 45,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9f1006b8:text",
+							"blockId": "9f1006b8",
+							"path": "0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We are a full-service dental office providing family, restorative, and cosmetic dentistry.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fec7de6d:text",
+							"blockId": "fec7de6d",
+							"path": "0.0.4",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Schedule Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0f370d13:image.url",
+							"blockId": "0f370d13",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/service.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 603,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Dentist examining a smiling female patient",
+							"tone": {
+								"grid": [
+									0.37,
+									0.71,
+									0.91,
+									0.63,
+									0.65,
+									0.74,
+									0.85,
+									0.62,
+									0.76
+								],
+								"color": "#afb1b4"
+							}
+						}
+					]
+				},
+				{
+					"id": "15a464de",
+					"index": 1,
+					"path": "1",
+					"group": "15a464de",
+					"role": "features",
+					"title": "Endodontics",
+					"slots": [
+						{
+							"id": "1be30ac8:text",
+							"blockId": "1be30ac8",
+							"path": "1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Endodontics",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7a372854:text",
+							"blockId": "7a372854",
+							"path": "1.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Deals with restorative advantages of common cosmetic restoration procedures.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "67f38817:text",
+							"blockId": "67f38817",
+							"path": "1.0.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "It is the specialized field of general dentistry that deals with the pulp which is the soft tissue located at the center of each tooth(along with associated roots).",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "de98e661:text",
+							"blockId": "de98e661",
+							"path": "1.0.0.1.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Schedule an Appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cca85d95:text",
+							"blockId": "cca85d95",
+							"path": "1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Oral Pathology",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ca86ccd3:text",
+							"blockId": "ca86ccd3",
+							"path": "1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Deals with the diagnosis and treatment of diseases affecting the mouth and surrounding structures.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d9e5ff8e:text",
+							"blockId": "d9e5ff8e",
+							"path": "1.0.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Oral Pathology is a specialized arm of dentistry that studies the diagnosis and treatment of diseases affecting the mouth and surrounding structures.",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "921ba5ed-0f36-4d5b-8cfc-063679044159:text",
+							"blockId": "921ba5ed-0f36-4d5b-8cfc-063679044159",
+							"path": "1.0.1.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Schedule an Appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "47c2ab97:text",
+							"blockId": "47c2ab97",
+							"path": "1.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Cosmetic Restoration",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ac93142:text",
+							"blockId": "8ac93142",
+							"path": "1.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Deals with restorative advantages of common cosmetic restoration procedures.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1df45035:text",
+							"blockId": "1df45035",
+							"path": "1.0.2.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "It is usually a personal choice rather than a necessity. Nevertheless, some treatment cases also offer therapeutic advantages. Some of the standard cosmetic restoration procedures include dental fillings and teeth whitening.",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "24b6a7f3-d87c-4a92-b4d5-ce008f229f57:text",
+							"blockId": "24b6a7f3-d87c-4a92-b4d5-ce008f229f57",
+							"path": "1.0.2.1.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Schedule an Appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4ab3edd4:text",
+							"blockId": "4ab3edd4",
+							"path": "1.0.3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Periodontics",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f1f5091e:text",
+							"blockId": "f1f5091e",
+							"path": "1.0.3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "It deals with supporting structures of teeth and the placement, and repair of dental implants.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e43b233a:text",
+							"blockId": "e43b233a",
+							"path": "1.0.3.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Periodontics is the specialized field of dentistry that deals with the study of supporting structures of teeth such as gums, alveolar bone, and ligaments.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9632cf5f-5339-4409-b14b-41bbdcdc12dd:text",
+							"blockId": "9632cf5f-5339-4409-b14b-41bbdcdc12dd",
+							"path": "1.0.3.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Schedule an Appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0bbbfc07:image.url",
+							"blockId": "0bbbfc07",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/endodontics.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 540,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Close-up of a woman's open mouth during dental drilling",
+							"tone": {
+								"grid": [
+									0.22,
+									0.57,
+									0.75,
+									0.45,
+									0.59,
+									0.76,
+									0.52,
+									0.67,
+									0.63
+								],
+								"color": "#94919f"
+							}
+						},
+						{
+							"id": "550b7b0f:image.url",
+							"blockId": "550b7b0f",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/endodontics-icon.png",
+							"decorative": true,
+							"width": 62,
+							"height": 61,
+							"orientation": "square"
+						},
+						{
+							"id": "d3c6a6d2:image.url",
+							"blockId": "d3c6a6d2",
+							"path": "1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/oral-pathalogy-icon.png",
+							"decorative": true,
+							"width": 62,
+							"height": 61,
+							"orientation": "square"
+						},
+						{
+							"id": "78b32a3c:image.url",
+							"blockId": "78b32a3c",
+							"path": "1.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/oral.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 540,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Close-up of a dental mirror examining a woman's teeth",
+							"tone": {
+								"grid": [
+									0.77,
+									0.79,
+									0.65,
+									0.61,
+									0.68,
+									0.73,
+									0.7,
+									0.72,
+									0.72
+								],
+								"color": "#b2b6ac"
+							}
+						},
+						{
+							"id": "4cd975ed:image.url",
+							"blockId": "4cd975ed",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/cosmetic.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 540,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Close-up of a woman's smiling mouth with white teeth",
+							"tone": {
+								"grid": [
+									0.56,
+									0.65,
+									0.62,
+									0.27,
+									0.61,
+									0.26,
+									0.61,
+									0.68,
+									0.57
+								],
+								"color": "#ab816e"
+							}
+						},
+						{
+							"id": "1711dddd:image.url",
+							"blockId": "1711dddd",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/cosmetic-restoration-icon.png",
+							"decorative": true,
+							"width": 62,
+							"height": 61,
+							"orientation": "square"
+						},
+						{
+							"id": "4986386a:image.url",
+							"blockId": "4986386a",
+							"path": "1.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/periodontics-icons.png",
+							"decorative": true,
+							"width": 62,
+							"height": 61,
+							"orientation": "square"
+						},
+						{
+							"id": "cbe4c77b:image.url",
+							"blockId": "cbe4c77b",
+							"path": "1.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/periodontics.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 540,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Hand holding a dental implant model",
+							"tone": {
+								"grid": [
+									0.85,
+									0.86,
+									0.89,
+									0.8,
+									0.64,
+									0.78,
+									0.74,
+									0.47,
+									0.67
+								],
+								"color": "#cebab5"
+							}
+						}
+					]
+				},
+				{
+					"id": "76bdefe5",
+					"index": 2,
+					"path": "2",
+					"group": "76bdefe5",
+					"role": "testimonials",
+					"title": "See what our patients talk about our services.",
+					"slots": [
+						{
+							"id": "ddb3b6c1:text",
+							"blockId": "ddb3b6c1",
+							"path": "2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Testimonials",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a1d7372e:text",
+							"blockId": "a1d7372e",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "See what our patients talk about our services.",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a5416297:text",
+							"blockId": "a5416297",
+							"path": "2.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "My experience at Dentico has been one of outstanding professionalism and excellent service. They have the technology and everything you’re looking for in a dentist.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1fd2dab7:text",
+							"blockId": "1fd2dab7",
+							"path": "2.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Mary Ann John",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dd6e20cf:text",
+							"blockId": "dd6e20cf",
+							"path": "2.0.3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "I had an amazing experience. I have been to several offices, but this one really blew me away. I was beyond impressed with every detail of my visit.",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7f435991:text",
+							"blockId": "7f435991",
+							"path": "2.0.3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lauren Jewell",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a6e4cd3:text",
+							"blockId": "0a6e4cd3",
+							"path": "2.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Great experience every time I go. Amazing and friendly staff. I have a busy schedule and my appointments always start on time. No waiting!",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "700ea05a:text",
+							"blockId": "700ea05a",
+							"path": "2.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tom Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a3598dac:text",
+							"blockId": "a3598dac",
+							"path": "2.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dentico has always been spotless. Staffs are always friendly and cheerful. I’d definitely recommend it to anyone seeking a professional dental service.",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "546d52da:text",
+							"blockId": "546d52da",
+							"path": "2.1.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Chris Smith",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0d80e46b:text",
+							"blockId": "0d80e46b",
+							"path": "2.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Child-friendly dental with great doctors, staff, hospitality, and overall superb experience for my little one. Once again a Big Thank You to the Dentico family.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ecf46d4:text",
+							"blockId": "9ecf46d4",
+							"path": "2.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Dwayne Stewart",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0055aace:text",
+							"blockId": "0055aace",
+							"path": "2.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "A spotless place, with a friendly team, and I would not shy away from saying bespoken professional service, is worth it. I highly recommend Dentico.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "db69ff1b:text",
+							"blockId": "db69ff1b",
+							"path": "2.2.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nicholas Anderson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "76bdefe5:background.image.image.url",
+							"blockId": "76bdefe5",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/testimonial-bg.png",
+							"decorative": true,
+							"width": 1440,
+							"height": 1261,
+							"orientation": "square"
+						},
+						{
+							"id": "9d11a31c:image.url",
+							"blockId": "9d11a31c",
+							"path": "2.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						},
+						{
+							"id": "81b5bd43:image.url",
+							"blockId": "81b5bd43",
+							"path": "2.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						},
+						{
+							"id": "e3a49449:image.url",
+							"blockId": "e3a49449",
+							"path": "2.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0752858a:image.url",
+							"blockId": "0752858a",
+							"path": "2.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						},
+						{
+							"id": "1a714435:image.url",
+							"blockId": "1a714435",
+							"path": "2.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0ab7d834:image.url",
+							"blockId": "0ab7d834",
+							"path": "2.2.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png",
+							"decorative": true,
+							"width": 86,
+							"height": 15,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "2f4d76a4",
+					"role": "hero",
+					"title": "Get breakthrough dental and oral health care.",
+					"sectionIds": [
+						"2f4d76a4"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "15a464de",
+					"role": "features",
+					"title": "Endodontics",
+					"sectionIds": [
+						"15a464de"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "76bdefe5",
+					"role": "testimonials",
+					"title": "See what our patients talk about our services.",
+					"sectionIds": [
+						"76bdefe5"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact-us",
+			"title": "Contact Us",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/themegrill-demos/contact-us-content.xml",
+			"sections": [
+				{
+					"id": "2f4d76a4",
+					"index": 0,
+					"path": "0",
+					"group": "2f4d76a4",
+					"role": "hero",
+					"title": "Need to know all about our treatments, services, locations, and prices, or do you just need some counseling?",
+					"slots": [
+						{
+							"id": "35677ebf:text",
+							"blockId": "35677ebf",
+							"path": "0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "47deb3a6:text",
+							"blockId": "47deb3a6",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Need to know all about our treatments, services, locations, and prices, or do you just need some counseling?",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a5f8a629:text",
+							"blockId": "a5f8a629",
+							"path": "0.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "We are all ears! Our team is ready to answer all your questions!",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "87264cc9:text",
+							"blockId": "87264cc9",
+							"path": "0.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Reach us here",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7d9d8db1:text",
+							"blockId": "7d9d8db1",
+							"path": "0.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "(284)587-7800",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "fef999a8:text",
+							"blockId": "fef999a8",
+							"path": "0.1.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "info@dentico.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "7b913360:text",
+							"blockId": "7b913360",
+							"path": "0.1.0.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "34 Atlantic Avenue, Boston, United States",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "94bc0cbe",
+					"index": 1,
+					"path": "1",
+					"group": "94bc0cbe",
+					"role": "content",
+					"slots": [],
+					"images": [
+						{
+							"id": "26a98cbe:image.url",
+							"blockId": "26a98cbe",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/contact-base.jpg",
+							"decorative": false,
+							"width": 1170,
+							"height": 648,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Dentist and assistant treating a patient in a dental chair",
+							"tone": {
+								"grid": [
+									0.93,
+									0.83,
+									0.96,
+									0.86,
+									0.75,
+									0.91,
+									0.88,
+									0.74,
+									0.56
+								],
+								"color": "#c7d5d8"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "2f4d76a4",
+					"role": "hero",
+					"title": "Need to know all about our treatments, services, locations, and prices, or do you just need some counseling?",
+					"sectionIds": [
+						"2f4d76a4"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "94bc0cbe",
+					"role": "content",
+					"sectionIds": [
+						"94bc0cbe"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 16,
+		"textSlots": 119,
+		"editableSlots": 111,
+		"images": 39,
+		"swappableImages": 18,
+		"words": 910
+	},
+	"builtAt": "2026-10-24T11:35:07.929Z"
+}

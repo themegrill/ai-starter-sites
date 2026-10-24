@@ -1,0 +1,5527 @@
+{
+	"version": 4,
+	"slug": "real-estate-v2",
+	"name": "Real Estate V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-real-estate-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/real-estate-v2",
+	"niches": [
+		"real-estate",
+		"property"
+	],
+	"keywords": [
+		"real estate",
+		"realtor",
+		"property",
+		"homes for sale",
+		"real estate agent",
+		"villa",
+		"rentals"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#343a40",
+				"count": 66,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 54
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 57,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 28,
+					"background": 6,
+					"border": 1,
+					"icon": 10
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 31,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 11,
+					"background": 5,
+					"border": 4
+				}
+			},
+			{
+				"hex": "#078169",
+				"count": 26,
+				"group": "brand",
+				"role": "primary",
+				"base": "#078169",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 7,
+					"border": 5
+				}
+			},
+			{
+				"hex": "#cccccc",
+				"count": 10,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"border": 10
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 8,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 8
+				}
+			},
+			{
+				"hex": "#f1f0f0",
+				"count": 6,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 6
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#ececec",
+				"count": 3,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"border": 3
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fffdfd",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#f9f8fa",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#fffffc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#078169",
+				"large": true,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#078169",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 4,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fffffc",
+				"bg": "#078169",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Playfair Display",
+			"body": "Raleway",
+			"map": {
+				"Playfair Display": "heading",
+				"Raleway": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "203188b0",
+					"index": 0,
+					"path": "0",
+					"group": "203188b0",
+					"role": "hero",
+					"title": "YOUR GATEWAY TO A RICHER LIFE",
+					"slots": [
+						{
+							"id": "d5893954:text",
+							"blockId": "d5893954",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "YOUR GATEWAY TO A RICHER LIFE",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5180fe32:text",
+							"blockId": "5180fe32",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis urna, commodo a viverra in, dignissim quis lectus. Curabitur eleifend finibus tortor sit amet aliquet.",
+							"rich": true,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "edf27855:text",
+							"blockId": "edf27855",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Details",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "203188b0:background.image.image.url",
+							"blockId": "203188b0",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/hero-image-1.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1050,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Modern two-storey house with glass balconies",
+							"tone": {
+								"grid": [
+									0.41,
+									0.45,
+									0.43,
+									0.35,
+									0.33,
+									0.36,
+									0.22,
+									0.25,
+									0.35
+								],
+								"color": "#505b63"
+							}
+						}
+					]
+				},
+				{
+					"id": "81c1d642",
+					"index": 1,
+					"path": "1",
+					"group": "81c1d642",
+					"role": "cta",
+					"title": "Featured Properties",
+					"slots": [
+						{
+							"id": "5ad820f0:text",
+							"blockId": "5ad820f0",
+							"path": "1.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Featured Properties",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "04c16e7a:text",
+							"blockId": "04c16e7a",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis urna, commodo a viverra in, dignissim quis lectus. Curabitur eleifend finibus tortor sit amet aliquet.",
+							"rich": true,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "416b546a:text",
+							"blockId": "416b546a",
+							"path": "1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All Properties",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "7df72f1a",
+					"index": 2,
+					"path": "2",
+					"group": "7df72f1a",
+					"role": "features",
+					"title": "Presidential Villa",
+					"slots": [
+						{
+							"id": "285ade08:text",
+							"blockId": "285ade08",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Presidential Villa",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c751335c:text",
+							"blockId": "c751335c",
+							"path": "2.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f93e2d7a:text",
+							"blockId": "f93e2d7a",
+							"path": "2.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ff20052c:text",
+							"blockId": "ff20052c",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Cassinella",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a4f9d866:text",
+							"blockId": "a4f9d866",
+							"path": "2.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "ffa6dd63:text",
+							"blockId": "ffa6dd63",
+							"path": "2.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "00ca60cb:text",
+							"blockId": "00ca60cb",
+							"path": "2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Poletti",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "68fbc117:text",
+							"blockId": "68fbc117",
+							"path": "2.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "c42f56d2:text",
+							"blockId": "c42f56d2",
+							"path": "2.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ac728331:text",
+							"blockId": "ac728331",
+							"path": "2.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Tinos la KP",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7e2fa596:text",
+							"blockId": "7e2fa596",
+							"path": "2.3.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "f3bf6c37:text",
+							"blockId": "f3bf6c37",
+							"path": "2.3.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "893af6da:image.url",
+							"blockId": "893af6da",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-one-1.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 558,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern white villa with a swimming pool",
+							"tone": {
+								"grid": [
+									0.67,
+									0.78,
+									0.72,
+									0.61,
+									0.52,
+									0.58,
+									0.54,
+									0.47,
+									0.43
+								],
+								"color": "#7c9da8"
+							}
+						},
+						{
+							"id": "5f699773:image.url",
+							"blockId": "5f699773",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-two.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house exterior with dark cladding at dusk",
+							"tone": {
+								"grid": [
+									0.43,
+									0.38,
+									0.64,
+									0.15,
+									0.26,
+									0.21,
+									0.3,
+									0.64,
+									0.38
+								],
+								"color": "#62605d"
+							}
+						},
+						{
+							"id": "b692b33a:image.url",
+							"blockId": "b692b33a",
+							"path": "2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-three.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house with a swimming pool and patio",
+							"tone": {
+								"grid": [
+									0.47,
+									0.73,
+									0.7,
+									0.64,
+									0.67,
+									0.73,
+									0.49,
+									0.43,
+									0.38
+								],
+								"color": "#87979c"
+							}
+						},
+						{
+							"id": "8f12014c:image.url",
+							"blockId": "8f12014c",
+							"path": "2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-four.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house exterior with balcony and large glass windows",
+							"tone": {
+								"grid": [
+									0.8,
+									0.62,
+									0.66,
+									0.84,
+									0.61,
+									0.51,
+									0.57,
+									0.3,
+									0.29
+								],
+								"color": "#969392"
+							}
+						}
+					]
+				},
+				{
+					"id": "a7be98af",
+					"index": 3,
+					"path": "3",
+					"group": "a7be98af",
+					"role": "features",
+					"title": "Bourton la Manor",
+					"slots": [
+						{
+							"id": "438758cf:text",
+							"blockId": "438758cf",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Bourton la Manor",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a2718735:text",
+							"blockId": "a2718735",
+							"path": "3.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "a4eb7d55:text",
+							"blockId": "a4eb7d55",
+							"path": "3.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "35a33bed:text",
+							"blockId": "35a33bed",
+							"path": "3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Spinaltermine",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ec0e40c:text",
+							"blockId": "8ec0e40c",
+							"path": "3.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "52362e19:text",
+							"blockId": "52362e19",
+							"path": "3.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "625b849d:text",
+							"blockId": "625b849d",
+							"path": "3.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Terrazas",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cda852c9:text",
+							"blockId": "cda852c9",
+							"path": "3.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "bcc2a8ef:text",
+							"blockId": "bcc2a8ef",
+							"path": "3.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "052ad832:text",
+							"blockId": "052ad832",
+							"path": "3.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Notre la Dame",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "53d422fc:text",
+							"blockId": "53d422fc",
+							"path": "3.3.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "9abe741a:text",
+							"blockId": "9abe741a",
+							"path": "3.3.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "783c37aa:image.url",
+							"blockId": "783c37aa",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-five.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Red wooden farmhouse surrounded by autumn trees",
+							"tone": {
+								"grid": [
+									0.89,
+									0.79,
+									0.56,
+									0.79,
+									0.67,
+									0.54,
+									0.31,
+									0.23,
+									0.22
+								],
+								"color": "#948c87"
+							}
+						},
+						{
+							"id": "dabe97c0:image.url",
+							"blockId": "dabe97c0",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-six.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Burj Khalifa skyscraper towering over Dubai city",
+							"tone": {
+								"grid": [
+									0.48,
+									0.34,
+									0.22,
+									0.68,
+									0.5,
+									0.55,
+									0.6,
+									0.5,
+									0.5
+								],
+								"color": "#667f9d"
+							}
+						},
+						{
+							"id": "54e84a88:image.url",
+							"blockId": "54e84a88",
+							"path": "3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-seven.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Glass skyscraper facade reflecting other city buildings",
+							"tone": {
+								"grid": [
+									0.61,
+									0.41,
+									0.47,
+									0.75,
+									0.67,
+									0.63,
+									0.47,
+									0.45,
+									0.54
+								],
+								"color": "#799299"
+							}
+						},
+						{
+							"id": "1e611124:image.url",
+							"blockId": "1e611124",
+							"path": "3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-eight.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Gothic skyscraper rising above clouds and fog",
+							"tone": {
+								"grid": [
+									0.83,
+									0.84,
+									0.78,
+									0.56,
+									0.33,
+									0.31,
+									0.14,
+									0.11,
+									0.12
+								],
+								"color": "#80705c"
+							}
+						}
+					]
+				},
+				{
+					"id": "97ac010c",
+					"index": 4,
+					"path": "4",
+					"group": "97ac010c",
+					"role": "content",
+					"title": "Don’t buy from me unless you are ready for success.",
+					"slots": [
+						{
+							"id": "0cac3564:text",
+							"blockId": "0cac3564",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Don’t buy from me unless you are ready for success.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9e17a0df:text",
+							"blockId": "9e17a0df",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta dapibus odio, finibus vulputate velit feugiat vitae. Praesent efficitur ipsum a varius pharetra. Sed lobortis consectetur tempus. Aliquam sollicitudin felis sit amet nunc rutrum lacinia. Nunc vel felis odio. Sed pharetra tristique blandit.",
+							"rich": false,
+							"words": 43,
+							"minWords": 26,
+							"maxWords": 54,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "067cef2f:text",
+							"blockId": "067cef2f",
+							"path": "4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta dapibus odio, finibus vulputate velit feugiat vitae praesent efficitur ipsum a varius pharetra. Sed lobortis tempus aliquam.",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8850b1cc:text",
+							"blockId": "8850b1cc",
+							"path": "4.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Mark Clarkson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61c628aa:text",
+							"blockId": "61c628aa",
+							"path": "4.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CEO and Founder, Zakra Real estate",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c10095ed:text",
+							"blockId": "c10095ed",
+							"path": "4.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "https://youtu.be/AVmheum7cAk",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "97ac010c:background.image.image.url",
+							"blockId": "97ac010c",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/patternbg.png",
+							"decorative": true,
+							"width": 1920,
+							"height": 960,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d61f389f:image.url",
+							"blockId": "d61f389f",
+							"path": "4.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/author.png",
+							"decorative": true,
+							"width": 100,
+							"height": 100,
+							"orientation": "square"
+						},
+						{
+							"id": "730a09ec:image.url",
+							"blockId": "730a09ec",
+							"path": "4.1.0",
+							"block": "blockart/modal",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/testimonial-video.jpg",
+							"decorative": false,
+							"width": 945,
+							"height": 851,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Coworkers in face masks meeting around a conference table",
+							"tone": {
+								"grid": [
+									0.68,
+									0.47,
+									0.61,
+									0.38,
+									0.38,
+									0.42,
+									0.27,
+									0.21,
+									0.4
+								],
+								"color": "#6e6c6a"
+							}
+						}
+					]
+				},
+				{
+					"id": "5e606beb",
+					"index": 5,
+					"path": "5",
+					"group": "5e606beb",
+					"role": "gallery",
+					"title": "Our Awesome Gallery",
+					"slots": [
+						{
+							"id": "5135ce59:text",
+							"blockId": "5135ce59",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Awesome Gallery",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ccc31aec:text",
+							"blockId": "ccc31aec",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis urna, commodo a viverra in, dignissim quis lectus. Curabitur eleifend finibus tortor sit amet aliquet.",
+							"rich": true,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "core-5.1.0.0:@html:img",
+							"blockId": "core-5.1.0.0",
+							"path": "5.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/gallery-one.jpg",
+							"decorative": false,
+							"width": 440,
+							"height": 350,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "White colonial house with a swimming pool and palm trees",
+							"tone": {
+								"grid": [
+									0.64,
+									0.62,
+									0.42,
+									0.51,
+									0.62,
+									0.52,
+									0.53,
+									0.62,
+									0.62
+								],
+								"color": "#7398a0"
+							}
+						},
+						{
+							"id": "core-5.1.0.1:@html:img",
+							"blockId": "core-5.1.0.1",
+							"path": "5.1.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-one-1.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 558,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern white villa with a swimming pool",
+							"tone": {
+								"grid": [
+									0.67,
+									0.78,
+									0.72,
+									0.61,
+									0.52,
+									0.58,
+									0.54,
+									0.47,
+									0.43
+								],
+								"color": "#7c9da8"
+							}
+						},
+						{
+							"id": "core-5.1.0.2:@html:img",
+							"blockId": "core-5.1.0.2",
+							"path": "5.1.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/gallery-four.jpg",
+							"decorative": false,
+							"width": 440,
+							"height": 745,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern white house with a driveway and tree",
+							"tone": {
+								"grid": [
+									0.87,
+									0.89,
+									0.77,
+									0.76,
+									0.63,
+									0.34,
+									0.7,
+									0.71,
+									0.62
+								],
+								"color": "#b2b3b0"
+							}
+						},
+						{
+							"id": "core-5.1.0.3:@html:img",
+							"blockId": "core-5.1.0.3",
+							"path": "5.1.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-three.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house with a swimming pool and patio",
+							"tone": {
+								"grid": [
+									0.47,
+									0.73,
+									0.7,
+									0.64,
+									0.67,
+									0.73,
+									0.49,
+									0.43,
+									0.38
+								],
+								"color": "#87979c"
+							}
+						},
+						{
+							"id": "core-5.1.0.4:@html:img",
+							"blockId": "core-5.1.0.4",
+							"path": "5.1.0.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/gallery-five.jpg",
+							"decorative": false,
+							"width": 440,
+							"height": 420,
+							"orientation": "square",
+							"subject": "place",
+							"description": "Covered wooden deck patio of a luxury house with dining area",
+							"tone": {
+								"grid": [
+									0.62,
+									0.6,
+									0.55,
+									0.62,
+									0.59,
+									0.61,
+									0.38,
+									0.41,
+									0.4
+								],
+								"color": "#92876b"
+							}
+						},
+						{
+							"id": "core-5.1.0.5:@html:img",
+							"blockId": "core-5.1.0.5",
+							"path": "5.1.0.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/gallery-seven.jpg",
+							"decorative": false,
+							"width": 440,
+							"height": 350,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Suburban two-story house with garage at dusk",
+							"tone": {
+								"grid": [
+									0.72,
+									0.72,
+									0.67,
+									0.51,
+									0.45,
+									0.52,
+									0.49,
+									0.49,
+									0.53
+								],
+								"color": "#8f8fa8"
+							}
+						}
+					]
+				},
+				{
+					"id": "a32d42c6",
+					"index": 6,
+					"path": "6",
+					"group": "a32d42c6",
+					"role": "content",
+					"title": "Committed To Getting The Colorful places.",
+					"slots": [
+						{
+							"id": "3400a802:text",
+							"blockId": "3400a802",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Committed To Getting The Colorful places.",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b818beab:text",
+							"blockId": "b818beab",
+							"path": "6.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta dapibus odio, finibus vulputate velit feugiat vitae. Praesent efficitur ipsum a varius pharetra. Sed lobortis consectetur tempus. Aliquam sollicitudin felis sit amet nunc.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9c619734:text",
+							"blockId": "9c619734",
+							"path": "6.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta dapibus odio, finibus vulputate velit feugiat vitaePraesent varius pharetra.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "047efe4b:text",
+							"blockId": "047efe4b",
+							"path": "6.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Mark Clarkson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8774ffef:text",
+							"blockId": "8774ffef",
+							"path": "6.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Los angeles, USA",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "59a5a23e:text",
+							"blockId": "59a5a23e",
+							"path": "6.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get Started With Modal Builder Block!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "374ff7dc:text",
+							"blockId": "374ff7dc",
+							"path": "6.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "43cf833b:text",
+							"blockId": "43cf833b",
+							"path": "6.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Click Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a32d42c6:background.image.image.url",
+							"blockId": "a32d42c6",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/patternbg.png",
+							"decorative": true,
+							"width": 1920,
+							"height": 960,
+							"orientation": "landscape"
+						},
+						{
+							"id": "193a0b6a:image.url",
+							"blockId": "193a0b6a",
+							"path": "6.1.0",
+							"block": "blockart/modal",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/testimonial-video.jpg",
+							"decorative": false,
+							"width": 945,
+							"height": 851,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Coworkers in face masks meeting around a conference table",
+							"tone": {
+								"grid": [
+									0.68,
+									0.47,
+									0.61,
+									0.38,
+									0.38,
+									0.42,
+									0.27,
+									0.21,
+									0.4
+								],
+								"color": "#6e6c6a"
+							}
+						}
+					]
+				},
+				{
+					"id": "29e10952",
+					"index": 7,
+					"path": "7",
+					"group": "29e10952",
+					"role": "cta",
+					"title": "Our Dedicated Agents",
+					"slots": [
+						{
+							"id": "26548dc0:text",
+							"blockId": "26548dc0",
+							"path": "7.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Dedicated Agents",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "47caa5b8:text",
+							"blockId": "47caa5b8",
+							"path": "7.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis urna, commodo a viverra in, dignissim quis lectus. Curabitur eleifend finibus tortor sit amet aliquet.",
+							"rich": true,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2050348d:text",
+							"blockId": "2050348d",
+							"path": "7.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View all members",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "aafc31d8",
+					"index": 8,
+					"path": "8",
+					"group": "aafc31d8",
+					"role": "team",
+					"title": "Eric Wilson",
+					"slots": [
+						{
+							"id": "4f6968a0:text",
+							"blockId": "4f6968a0",
+							"path": "8.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Eric Wilson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3993ee03:text",
+							"blockId": "3993ee03",
+							"path": "8.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Agent",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "708fcc8f:text",
+							"blockId": "708fcc8f",
+							"path": "8.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Elina Golmes",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "17717019:text",
+							"blockId": "17717019",
+							"path": "8.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Agent",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b549c964:text",
+							"blockId": "b549c964",
+							"path": "8.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Robert Potter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7ce8e588:text",
+							"blockId": "7ce8e588",
+							"path": "8.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Agent",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b0038a19:text",
+							"blockId": "b0038a19",
+							"path": "8.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Eric Wilson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "462f09ac:text",
+							"blockId": "462f09ac",
+							"path": "8.3.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Agent",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-8.0.0:@html:img",
+							"blockId": "core-8.0.0",
+							"path": "8.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/team-one.jpg",
+							"decorative": false,
+							"width": 320,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Businessman in a navy suit sitting on a rooftop terrace",
+							"tone": {
+								"grid": [
+									0.5,
+									0.52,
+									0.47,
+									0.39,
+									0.3,
+									0.21,
+									0.31,
+									0.18,
+									0.2
+								],
+								"color": "#57575f"
+							}
+						},
+						{
+							"id": "core-8.1.0:@html:img",
+							"blockId": "core-8.1.0",
+							"path": "8.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/team-two.jpg",
+							"decorative": false,
+							"width": 320,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling young woman in a gray blazer leaning against a wall",
+							"tone": {
+								"grid": [
+									0.6,
+									0.55,
+									0.75,
+									0.27,
+									0.35,
+									0.69,
+									0.18,
+									0.35,
+									0.55
+								],
+								"color": "#8e7663"
+							}
+						},
+						{
+							"id": "core-8.2.0:@html:img",
+							"blockId": "core-8.2.0",
+							"path": "8.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/team-three.jpg",
+							"decorative": false,
+							"width": 320,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man in a suit and tie against a brick wall",
+							"tone": {
+								"grid": [
+									0.86,
+									0.65,
+									0.9,
+									0.58,
+									0.63,
+									0.5,
+									0.13,
+									0.26,
+									0.06
+								],
+								"color": "#808285"
+							}
+						},
+						{
+							"id": "core-8.3.0:@html:img",
+							"blockId": "core-8.3.0",
+							"path": "8.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/team-four.jpg",
+							"decorative": false,
+							"width": 320,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Confident businessman in a gray suit with arms crossed",
+							"tone": {
+								"grid": [
+									0.46,
+									0.46,
+									0.38,
+									0.45,
+									0.32,
+									0.32,
+									0.45,
+									0.18,
+									0.28
+								],
+								"color": "#605d5e"
+							}
+						}
+					]
+				},
+				{
+					"id": "706df62d",
+					"index": 9,
+					"path": "9",
+					"group": "706df62d",
+					"role": "posts",
+					"title": "Latest News and Events",
+					"slots": [
+						{
+							"id": "30d50fbe:text",
+							"blockId": "30d50fbe",
+							"path": "9.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest News and Events",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "82359967:text",
+							"blockId": "82359967",
+							"path": "9.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis urna, commodo a viverra in, dignissim quis lectus. Curabitur eleifend finibus tortor sit amet aliquet.",
+							"rich": true,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "c8cf40cf",
+					"index": 10,
+					"path": "10",
+					"group": "c8cf40cf",
+					"role": "content",
+					"title": "How to Be Successful in Real Estate Investment",
+					"slots": [
+						{
+							"id": "093b880e:text",
+							"blockId": "093b880e",
+							"path": "10.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "How to Be Successful in Real Estate Investment",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "afb29fc9:text",
+							"blockId": "afb29fc9",
+							"path": "10.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lorem eget dolor ullamcorper eleifend faucibus sit amet ex. …",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "067e888d:text",
+							"blockId": "067e888d",
+							"path": "10.0.3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "December 10, 2024",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "877ed94d:text",
+							"blockId": "877ed94d",
+							"path": "10.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Blog is a treasure trove for homebuyers and sellers",
+							"rich": true,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e47f0f96:text",
+							"blockId": "e47f0f96",
+							"path": "10.1.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lorem eget dolor ullamcorper eleifend faucibus sit amet ex. …",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "de2eed42:text",
+							"blockId": "de2eed42",
+							"path": "10.1.3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "December 10, 2024",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "48c245f9:text",
+							"blockId": "48c245f9",
+							"path": "10.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "3 Unique Ways to Use a Tiny Home",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "faf5f1d0:text",
+							"blockId": "faf5f1d0",
+							"path": "10.2.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lorem eget dolor ullamcorper eleifend faucibus sit amet ex. …",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "bf639f00:text",
+							"blockId": "bf639f00",
+							"path": "10.2.3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "December 10, 2024",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-10.0.0:@html:img",
+							"blockId": "core-10.0.0",
+							"path": "10.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/blog-six.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 770,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Historic gothic stone buildings under a blue sky",
+							"tone": {
+								"grid": [
+									0.6,
+									0.65,
+									0.53,
+									0.34,
+									0.48,
+									0.36,
+									0.2,
+									0.16,
+									0.21
+								],
+								"color": "#5c6573"
+							}
+						},
+						{
+							"id": "faa26462:image.url",
+							"blockId": "faa26462",
+							"path": "10.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/87c2d27c80d8b522646d74b7dc77ca66.jpeg",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-10.1.0:@html:img",
+							"blockId": "core-10.1.0",
+							"path": "10.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/blog-five.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 770,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Amsterdam canal houses reflected in the water",
+							"tone": {
+								"grid": [
+									0.69,
+									0.78,
+									0.71,
+									0.28,
+									0.29,
+									0.31,
+									0.3,
+									0.48,
+									0.43
+								],
+								"color": "#7a7977"
+							}
+						},
+						{
+							"id": "24e139e3:image.url",
+							"blockId": "24e139e3",
+							"path": "10.1.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/87c2d27c80d8b522646d74b7dc77ca66.jpeg",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						},
+						{
+							"id": "core-10.2.0:@html:img",
+							"blockId": "core-10.2.0",
+							"path": "10.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/blog-four.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 770,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Suburban house with a large green lawn",
+							"tone": {
+								"grid": [
+									0.45,
+									0.53,
+									0.52,
+									0.54,
+									0.59,
+									0.59,
+									0.55,
+									0.56,
+									0.45
+								],
+								"color": "#788f6c"
+							}
+						},
+						{
+							"id": "cd0b5a56:image.url",
+							"blockId": "cd0b5a56",
+							"path": "10.2.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/87c2d27c80d8b522646d74b7dc77ca66.jpeg",
+							"decorative": true,
+							"width": 120,
+							"height": 120,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "72c91478",
+					"index": 11,
+					"path": "11",
+					"group": "72c91478",
+					"role": "contact",
+					"title": "Get In Touch",
+					"slots": [
+						{
+							"id": "a7225f9e:text",
+							"blockId": "a7225f9e",
+							"path": "11.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get In Touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61146e58:text",
+							"blockId": "61146e58",
+							"path": "11.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Phone",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "73f5a6a1:text",
+							"blockId": "73f5a6a1",
+							"path": "11.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "977 - 444 - 666 - 888",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "4a98416e:text",
+							"blockId": "4a98416e",
+							"path": "11.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "22 Blackburn DriveWaltham, MA 02453, Los Angeles",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3088f176:text",
+							"blockId": "3088f176",
+							"path": "11.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Email",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a685a1a8:text",
+							"blockId": "a685a1a8",
+							"path": "11.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "info@zakrarealestate.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "72c91478:background.image.image.url",
+							"blockId": "72c91478",
+							"path": "11",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/contact-information-bg.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 570,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Dark lakeside view with a pier at dusk",
+							"tone": {
+								"grid": [
+									0.16,
+									0.39,
+									0.38,
+									0.14,
+									0.27,
+									0.26,
+									0.01,
+									0.03,
+									0.04
+								],
+								"color": "#2f302f"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "203188b0",
+					"role": "hero",
+					"title": "YOUR GATEWAY TO A RICHER LIFE",
+					"sectionIds": [
+						"203188b0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "81c1d642",
+					"role": "cta",
+					"title": "Featured Properties",
+					"sectionIds": [
+						"81c1d642"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7df72f1a",
+					"role": "features",
+					"title": "Presidential Villa",
+					"sectionIds": [
+						"7df72f1a"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a7be98af",
+					"role": "features",
+					"title": "Bourton la Manor",
+					"sectionIds": [
+						"a7be98af"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "97ac010c",
+					"role": "content",
+					"title": "Don’t buy from me unless you are ready for success.",
+					"sectionIds": [
+						"97ac010c"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5e606beb",
+					"role": "gallery",
+					"title": "Our Awesome Gallery",
+					"sectionIds": [
+						"5e606beb"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a32d42c6",
+					"role": "content",
+					"title": "Committed To Getting The Colorful places.",
+					"sectionIds": [
+						"a32d42c6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "29e10952",
+					"role": "cta",
+					"title": "Our Dedicated Agents",
+					"sectionIds": [
+						"29e10952"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "aafc31d8",
+					"role": "team",
+					"title": "Eric Wilson",
+					"sectionIds": [
+						"aafc31d8"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "706df62d",
+					"role": "posts",
+					"title": "Latest News and Events",
+					"sectionIds": [
+						"706df62d"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "c8cf40cf",
+					"role": "content",
+					"title": "How to Be Successful in Real Estate Investment",
+					"sectionIds": [
+						"c8cf40cf"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "72c91478",
+					"role": "contact",
+					"title": "Get In Touch",
+					"sectionIds": [
+						"72c91478"
+					],
+					"paths": [
+						"11"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "558adc5d",
+					"index": 0,
+					"path": "0",
+					"group": "558adc5d",
+					"role": "hero",
+					"title": "Awards and Recognition",
+					"slots": [
+						{
+							"id": "5c05144a:text",
+							"blockId": "5c05144a",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Awards and Recognition",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9caa21ed:text",
+							"blockId": "9caa21ed",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis urna, commodo a viverra in, dignissim quis lectus. Curabitur eleifend finibus tortor sit amet aliquet.",
+							"rich": true,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "ff22b3ef",
+					"index": 1,
+					"path": "1",
+					"group": "ff22b3ef",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "a4ea8976:image.url",
+							"blockId": "a4ea8976",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-1-2.png",
+							"decorative": true,
+							"width": 110,
+							"height": 109,
+							"orientation": "square"
+						},
+						{
+							"id": "731e2464:image.url",
+							"blockId": "731e2464",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-2.png",
+							"decorative": true,
+							"width": 150,
+							"height": 52,
+							"orientation": "landscape"
+						},
+						{
+							"id": "cb3409f4:image.url",
+							"blockId": "cb3409f4",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-3-2.png",
+							"decorative": true,
+							"width": 108,
+							"height": 115,
+							"orientation": "square"
+						},
+						{
+							"id": "f6f2767e:image.url",
+							"blockId": "f6f2767e",
+							"path": "1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-4-1.png",
+							"decorative": true,
+							"width": 113,
+							"height": 106,
+							"orientation": "square"
+						},
+						{
+							"id": "3d074344:image.url",
+							"blockId": "3d074344",
+							"path": "1.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-5.png",
+							"decorative": true,
+							"width": 95,
+							"height": 128,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "beb65eca",
+					"index": 2,
+					"path": "2",
+					"group": "ff22b3ef",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "8bb284f5:image.url",
+							"blockId": "8bb284f5",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-6-1.png",
+							"decorative": true,
+							"width": 120,
+							"height": 106,
+							"orientation": "square"
+						},
+						{
+							"id": "16e62d4f:image.url",
+							"blockId": "16e62d4f",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-2.png",
+							"decorative": true,
+							"width": 150,
+							"height": 52,
+							"orientation": "landscape"
+						},
+						{
+							"id": "23ac1f79:image.url",
+							"blockId": "23ac1f79",
+							"path": "2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-3-2.png",
+							"decorative": true,
+							"width": 108,
+							"height": 115,
+							"orientation": "square"
+						},
+						{
+							"id": "544d20c8:image.url",
+							"blockId": "544d20c8",
+							"path": "2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-4-1.png",
+							"decorative": true,
+							"width": 113,
+							"height": 106,
+							"orientation": "square"
+						},
+						{
+							"id": "989793e3:image.url",
+							"blockId": "989793e3",
+							"path": "2.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/partners-5.png",
+							"decorative": true,
+							"width": 95,
+							"height": 128,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "40c8c3c8",
+					"index": 3,
+					"path": "3",
+					"group": "40c8c3c8",
+					"role": "content",
+					"title": "Going Above and Beyond To Find Your Next Home",
+					"slots": [
+						{
+							"id": "6939ef6f:text",
+							"blockId": "6939ef6f",
+							"path": "3.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "https://youtu.be/AVmheum7cAk",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "1d12d544:text",
+							"blockId": "1d12d544",
+							"path": "3.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Going Above and Beyond To Find Your Next Home",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2e738f3a:text",
+							"blockId": "2e738f3a",
+							"path": "3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta dapibus odio, finibus vulputate velit feugiat vitae. Praesent efficitur ipsum a varius pharetra. Sed lobortis consectetur tempus. Aliquam sollicitudin felis sit amet nunc rutrum lacinia. Nunc vel felis odio. Sed pharetra tristique blandit.",
+							"rich": false,
+							"words": 43,
+							"minWords": 26,
+							"maxWords": 54,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "457a2d42:text",
+							"blockId": "457a2d42",
+							"path": "3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta dapibus odio, finibus vulputate velit feugiat vitae praesent efficitur ipsum a varius pharetra. Sed lobortis tempus aliquam.",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2d224632:text",
+							"blockId": "2d224632",
+							"path": "3.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4d97eff0:image.url",
+							"blockId": "4d97eff0",
+							"path": "3.0.0",
+							"block": "blockart/modal",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/innerpages-video-popup.jpg",
+							"decorative": false,
+							"width": 745,
+							"height": 596,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Bright dining room and living room interior with hardwood floors",
+							"tone": {
+								"grid": [
+									0.67,
+									0.69,
+									0.69,
+									0.54,
+									0.58,
+									0.58,
+									0.55,
+									0.41,
+									0.56
+								],
+								"color": "#a6937e"
+							}
+						}
+					]
+				},
+				{
+					"id": "bbeb7c40",
+					"index": 4,
+					"path": "4",
+					"group": "bbeb7c40",
+					"role": "content",
+					"title": "Committed To Getting The Colorful places.",
+					"slots": [
+						{
+							"id": "bad9adbf:text",
+							"blockId": "bad9adbf",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Committed To Getting The Colorful places.",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "294deb1b:text",
+							"blockId": "294deb1b",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta dapibus odio, finibus vulputate velit feugiat vitae. Praesent efficitur ipsum a varius pharetra. Sed lobortis consectetur tempus. Aliquam sollicitudin felis sit amet nunc.",
+							"rich": false,
+							"words": 33,
+							"minWords": 20,
+							"maxWords": 42,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "13be1e35:text",
+							"blockId": "13be1e35",
+							"path": "4.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta dapibus odio, finibus vulputate velit feugiat vitaePraesent varius pharetra.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ff62b0be:text",
+							"blockId": "ff62b0be",
+							"path": "4.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Mark Clarkson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0d1696c4:text",
+							"blockId": "0d1696c4",
+							"path": "4.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Los angeles, USA",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3118d294:text",
+							"blockId": "3118d294",
+							"path": "4.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get Started With Modal Builder Block!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1d94eb0a:text",
+							"blockId": "1d94eb0a",
+							"path": "4.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ccc4f115:text",
+							"blockId": "ccc4f115",
+							"path": "4.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Click Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "bbeb7c40:background.image.image.url",
+							"blockId": "bbeb7c40",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/patternbg.png",
+							"decorative": true,
+							"width": 1920,
+							"height": 960,
+							"orientation": "landscape"
+						},
+						{
+							"id": "74ea766a:image.url",
+							"blockId": "74ea766a",
+							"path": "4.1.0",
+							"block": "blockart/modal",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/testimonial-video.jpg",
+							"decorative": false,
+							"width": 945,
+							"height": 851,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Coworkers in face masks meeting around a conference table",
+							"tone": {
+								"grid": [
+									0.68,
+									0.47,
+									0.61,
+									0.38,
+									0.38,
+									0.42,
+									0.27,
+									0.21,
+									0.4
+								],
+								"color": "#6e6c6a"
+							}
+						}
+					]
+				},
+				{
+					"id": "466b63c7",
+					"index": 5,
+					"path": "5",
+					"group": "466b63c7",
+					"role": "cta",
+					"title": "Our Dedicated Agents",
+					"slots": [
+						{
+							"id": "507819b9:text",
+							"blockId": "507819b9",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Dedicated Agents",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "987eb0e4:text",
+							"blockId": "987eb0e4",
+							"path": "5.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse turpis urna, commodo a viverra in, dignissim quis lectus. Curabitur eleifend finibus tortor sit amet aliquet.",
+							"rich": true,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7db3daec:text",
+							"blockId": "7db3daec",
+							"path": "5.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View all members",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "249c58ae",
+					"index": 6,
+					"path": "6",
+					"group": "249c58ae",
+					"role": "team",
+					"title": "Eric Wilson",
+					"slots": [
+						{
+							"id": "2bd09c33:text",
+							"blockId": "2bd09c33",
+							"path": "6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Eric Wilson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "39654a97:text",
+							"blockId": "39654a97",
+							"path": "6.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Agent",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "450cab0d:text",
+							"blockId": "450cab0d",
+							"path": "6.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Elina Golmes",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9d9f0cec:text",
+							"blockId": "9d9f0cec",
+							"path": "6.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Agent",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d0081d3f:text",
+							"blockId": "d0081d3f",
+							"path": "6.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Robert Potter",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "26452937:text",
+							"blockId": "26452937",
+							"path": "6.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Agent",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ffe45e47:text",
+							"blockId": "ffe45e47",
+							"path": "6.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Eric Wilson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7907f8f4:text",
+							"blockId": "7907f8f4",
+							"path": "6.3.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Agent",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-6.0.0:@html:img",
+							"blockId": "core-6.0.0",
+							"path": "6.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/team-one.jpg",
+							"decorative": false,
+							"width": 320,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Businessman in a navy suit sitting on a rooftop terrace",
+							"tone": {
+								"grid": [
+									0.5,
+									0.52,
+									0.47,
+									0.39,
+									0.3,
+									0.21,
+									0.31,
+									0.18,
+									0.2
+								],
+								"color": "#57575f"
+							}
+						},
+						{
+							"id": "core-6.1.0:@html:img",
+							"blockId": "core-6.1.0",
+							"path": "6.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/team-two.jpg",
+							"decorative": false,
+							"width": 320,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling young woman in a gray blazer leaning against a wall",
+							"tone": {
+								"grid": [
+									0.6,
+									0.55,
+									0.75,
+									0.27,
+									0.35,
+									0.69,
+									0.18,
+									0.35,
+									0.55
+								],
+								"color": "#8e7663"
+							}
+						},
+						{
+							"id": "core-6.2.0:@html:img",
+							"blockId": "core-6.2.0",
+							"path": "6.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/team-three.jpg",
+							"decorative": false,
+							"width": 320,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man in a suit and tie against a brick wall",
+							"tone": {
+								"grid": [
+									0.86,
+									0.65,
+									0.9,
+									0.58,
+									0.63,
+									0.5,
+									0.13,
+									0.26,
+									0.06
+								],
+								"color": "#808285"
+							}
+						},
+						{
+							"id": "core-6.3.0:@html:img",
+							"blockId": "core-6.3.0",
+							"path": "6.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/team-four.jpg",
+							"decorative": false,
+							"width": 320,
+							"height": 420,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Confident businessman in a gray suit with arms crossed",
+							"tone": {
+								"grid": [
+									0.46,
+									0.46,
+									0.38,
+									0.45,
+									0.32,
+									0.32,
+									0.45,
+									0.18,
+									0.28
+								],
+								"color": "#605d5e"
+							}
+						}
+					]
+				},
+				{
+					"id": "d75d44bc",
+					"index": 7,
+					"path": "7",
+					"group": "d75d44bc",
+					"role": "contact",
+					"title": "Get In Touch",
+					"slots": [
+						{
+							"id": "6b37b04f:text",
+							"blockId": "6b37b04f",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get In Touch",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "320067f9:text",
+							"blockId": "320067f9",
+							"path": "7.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Phone",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11ab5820:text",
+							"blockId": "11ab5820",
+							"path": "7.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "977 - 444 - 666 - 888",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "2d99fa83:text",
+							"blockId": "2d99fa83",
+							"path": "7.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "22 Blackburn DriveWaltham, MA 02453, Los Angeles",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "66b4777d:text",
+							"blockId": "66b4777d",
+							"path": "7.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Email",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "77d596e6:text",
+							"blockId": "77d596e6",
+							"path": "7.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "info@zakrarealestate.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "d75d44bc:background.image.image.url",
+							"blockId": "d75d44bc",
+							"path": "7",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/contact-information-bg.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 570,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Dark lakeside view with a pier at dusk",
+							"tone": {
+								"grid": [
+									0.16,
+									0.39,
+									0.38,
+									0.14,
+									0.27,
+									0.26,
+									0.01,
+									0.03,
+									0.04
+								],
+								"color": "#2f302f"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "558adc5d",
+					"role": "hero",
+					"title": "Awards and Recognition",
+					"sectionIds": [
+						"558adc5d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ff22b3ef",
+					"role": "logos",
+					"sectionIds": [
+						"ff22b3ef",
+						"beb65eca"
+					],
+					"paths": [
+						"1",
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "40c8c3c8",
+					"role": "content",
+					"title": "Going Above and Beyond To Find Your Next Home",
+					"sectionIds": [
+						"40c8c3c8"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "bbeb7c40",
+					"role": "content",
+					"title": "Committed To Getting The Colorful places.",
+					"sectionIds": [
+						"bbeb7c40"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "466b63c7",
+					"role": "cta",
+					"title": "Our Dedicated Agents",
+					"sectionIds": [
+						"466b63c7"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "249c58ae",
+					"role": "team",
+					"title": "Eric Wilson",
+					"sectionIds": [
+						"249c58ae"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "d75d44bc",
+					"role": "contact",
+					"title": "Get In Touch",
+					"sectionIds": [
+						"d75d44bc"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "properties",
+			"title": "Properties",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/themegrill-demos/properties-content.xml",
+			"sections": [
+				{
+					"id": "b8755465",
+					"index": 0,
+					"path": "0",
+					"group": "b8755465",
+					"role": "hero",
+					"title": "Presidential Villa",
+					"slots": [
+						{
+							"id": "6e00cfae:text",
+							"blockId": "6e00cfae",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Presidential Villa",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "56922ef2:text",
+							"blockId": "56922ef2",
+							"path": "0.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "1ba59381:text",
+							"blockId": "1ba59381",
+							"path": "0.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a86e2b2:text",
+							"blockId": "2a86e2b2",
+							"path": "0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Cassinella",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5a3fb581:text",
+							"blockId": "5a3fb581",
+							"path": "0.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "916bf346:text",
+							"blockId": "916bf346",
+							"path": "0.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6ce4ed15:text",
+							"blockId": "6ce4ed15",
+							"path": "0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Poletti",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bea46bd7:text",
+							"blockId": "bea46bd7",
+							"path": "0.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "b9b37d78:text",
+							"blockId": "b9b37d78",
+							"path": "0.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "81ba17b7:text",
+							"blockId": "81ba17b7",
+							"path": "0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Tinos la KP",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b76b06f9:text",
+							"blockId": "b76b06f9",
+							"path": "0.3.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "45881f3d:text",
+							"blockId": "45881f3d",
+							"path": "0.3.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "bd841ccd:image.url",
+							"blockId": "bd841ccd",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-one-1.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 558,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern white villa with a swimming pool",
+							"tone": {
+								"grid": [
+									0.67,
+									0.78,
+									0.72,
+									0.61,
+									0.52,
+									0.58,
+									0.54,
+									0.47,
+									0.43
+								],
+								"color": "#7c9da8"
+							}
+						},
+						{
+							"id": "d9c5da5e:image.url",
+							"blockId": "d9c5da5e",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-two.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house exterior with dark cladding at dusk",
+							"tone": {
+								"grid": [
+									0.43,
+									0.38,
+									0.64,
+									0.15,
+									0.26,
+									0.21,
+									0.3,
+									0.64,
+									0.38
+								],
+								"color": "#62605d"
+							}
+						},
+						{
+							"id": "a382ba34:image.url",
+							"blockId": "a382ba34",
+							"path": "0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-three.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house with a swimming pool and patio",
+							"tone": {
+								"grid": [
+									0.47,
+									0.73,
+									0.7,
+									0.64,
+									0.67,
+									0.73,
+									0.49,
+									0.43,
+									0.38
+								],
+								"color": "#87979c"
+							}
+						},
+						{
+							"id": "160b39d0:image.url",
+							"blockId": "160b39d0",
+							"path": "0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-four.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house exterior with balcony and large glass windows",
+							"tone": {
+								"grid": [
+									0.8,
+									0.62,
+									0.66,
+									0.84,
+									0.61,
+									0.51,
+									0.57,
+									0.3,
+									0.29
+								],
+								"color": "#969392"
+							}
+						}
+					]
+				},
+				{
+					"id": "1e488163",
+					"index": 1,
+					"path": "1",
+					"group": "1e488163",
+					"role": "features",
+					"title": "Bourton la Manor",
+					"slots": [
+						{
+							"id": "e501b875:text",
+							"blockId": "e501b875",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Bourton la Manor",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3bc73c87:text",
+							"blockId": "3bc73c87",
+							"path": "1.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "ca95cdd6:text",
+							"blockId": "ca95cdd6",
+							"path": "1.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "53ad0f76:text",
+							"blockId": "53ad0f76",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Spinaltermine",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "df6deba9:text",
+							"blockId": "df6deba9",
+							"path": "1.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "1522582c:text",
+							"blockId": "1522582c",
+							"path": "1.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5672b802:text",
+							"blockId": "5672b802",
+							"path": "1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Terrazas",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb1da749:text",
+							"blockId": "bb1da749",
+							"path": "1.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "043a377a:text",
+							"blockId": "043a377a",
+							"path": "1.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36cbaaf5:text",
+							"blockId": "36cbaaf5",
+							"path": "1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Notre la Dame",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0298e8e4:text",
+							"blockId": "0298e8e4",
+							"path": "1.3.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "5ff548a1:text",
+							"blockId": "5ff548a1",
+							"path": "1.3.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "090f6553:image.url",
+							"blockId": "090f6553",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-five.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Red wooden farmhouse surrounded by autumn trees",
+							"tone": {
+								"grid": [
+									0.89,
+									0.79,
+									0.56,
+									0.79,
+									0.67,
+									0.54,
+									0.31,
+									0.23,
+									0.22
+								],
+								"color": "#948c87"
+							}
+						},
+						{
+							"id": "a17b5f43:image.url",
+							"blockId": "a17b5f43",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-six.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Burj Khalifa skyscraper towering over Dubai city",
+							"tone": {
+								"grid": [
+									0.48,
+									0.34,
+									0.22,
+									0.68,
+									0.5,
+									0.55,
+									0.6,
+									0.5,
+									0.5
+								],
+								"color": "#667f9d"
+							}
+						},
+						{
+							"id": "a29df011:image.url",
+							"blockId": "a29df011",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-seven.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Glass skyscraper facade reflecting other city buildings",
+							"tone": {
+								"grid": [
+									0.61,
+									0.41,
+									0.47,
+									0.75,
+									0.67,
+									0.63,
+									0.47,
+									0.45,
+									0.54
+								],
+								"color": "#799299"
+							}
+						},
+						{
+							"id": "b4d55bef:image.url",
+							"blockId": "b4d55bef",
+							"path": "1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-eight.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Gothic skyscraper rising above clouds and fog",
+							"tone": {
+								"grid": [
+									0.83,
+									0.84,
+									0.78,
+									0.56,
+									0.33,
+									0.31,
+									0.14,
+									0.11,
+									0.12
+								],
+								"color": "#80705c"
+							}
+						}
+					]
+				},
+				{
+					"id": "7f3e5911",
+					"index": 2,
+					"path": "2",
+					"group": "7f3e5911",
+					"role": "features",
+					"title": "Presidential Villa",
+					"slots": [
+						{
+							"id": "38d129d4:text",
+							"blockId": "38d129d4",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Presidential Villa",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "880619a1:text",
+							"blockId": "880619a1",
+							"path": "2.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "ef6848a8:text",
+							"blockId": "ef6848a8",
+							"path": "2.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "defe7ac4:text",
+							"blockId": "defe7ac4",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Cassinella",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e1046bcf:text",
+							"blockId": "e1046bcf",
+							"path": "2.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e1d3b0da:text",
+							"blockId": "e1d3b0da",
+							"path": "2.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6f99c1be:text",
+							"blockId": "6f99c1be",
+							"path": "2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Poletti",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "38e4a519:text",
+							"blockId": "38e4a519",
+							"path": "2.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "bb67e61b:text",
+							"blockId": "bb67e61b",
+							"path": "2.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4d0333d8:text",
+							"blockId": "4d0333d8",
+							"path": "2.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Tinos la KP",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ce9fdbbb:text",
+							"blockId": "ce9fdbbb",
+							"path": "2.3.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "5b8700fe:text",
+							"blockId": "5b8700fe",
+							"path": "2.3.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e4530260:image.url",
+							"blockId": "e4530260",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-one-1.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 558,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern white villa with a swimming pool",
+							"tone": {
+								"grid": [
+									0.67,
+									0.78,
+									0.72,
+									0.61,
+									0.52,
+									0.58,
+									0.54,
+									0.47,
+									0.43
+								],
+								"color": "#7c9da8"
+							}
+						},
+						{
+							"id": "5210818b:image.url",
+							"blockId": "5210818b",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-two.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house exterior with dark cladding at dusk",
+							"tone": {
+								"grid": [
+									0.43,
+									0.38,
+									0.64,
+									0.15,
+									0.26,
+									0.21,
+									0.3,
+									0.64,
+									0.38
+								],
+								"color": "#62605d"
+							}
+						},
+						{
+							"id": "1c86ed54:image.url",
+							"blockId": "1c86ed54",
+							"path": "2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-three.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house with a swimming pool and patio",
+							"tone": {
+								"grid": [
+									0.47,
+									0.73,
+									0.7,
+									0.64,
+									0.67,
+									0.73,
+									0.49,
+									0.43,
+									0.38
+								],
+								"color": "#87979c"
+							}
+						},
+						{
+							"id": "c9c97692:image.url",
+							"blockId": "c9c97692",
+							"path": "2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-four.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern house exterior with balcony and large glass windows",
+							"tone": {
+								"grid": [
+									0.8,
+									0.62,
+									0.66,
+									0.84,
+									0.61,
+									0.51,
+									0.57,
+									0.3,
+									0.29
+								],
+								"color": "#969392"
+							}
+						}
+					]
+				},
+				{
+					"id": "85b54f3f",
+					"index": 3,
+					"path": "3",
+					"group": "85b54f3f",
+					"role": "features",
+					"title": "Bourton la Manor",
+					"slots": [
+						{
+							"id": "b3950953:text",
+							"blockId": "b3950953",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Bourton la Manor",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8175959a:text",
+							"blockId": "8175959a",
+							"path": "3.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "4b0772db:text",
+							"blockId": "4b0772db",
+							"path": "3.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6be8522d:text",
+							"blockId": "6be8522d",
+							"path": "3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Spinaltermine",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "51f89f22:text",
+							"blockId": "51f89f22",
+							"path": "3.1.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "5f57b591:text",
+							"blockId": "5f57b591",
+							"path": "3.1.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "499b94d8:text",
+							"blockId": "499b94d8",
+							"path": "3.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Villa la Terrazas",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4440a6ef:text",
+							"blockId": "4440a6ef",
+							"path": "3.2.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e3457b50:text",
+							"blockId": "e3457b50",
+							"path": "3.2.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "696dfce5:text",
+							"blockId": "696dfce5",
+							"path": "3.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Notre la Dame",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c0ca2f9f:text",
+							"blockId": "c0ca2f9f",
+							"path": "3.3.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$2546.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "3cbb58de:text",
+							"blockId": "3cbb58de",
+							"path": "3.3.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "1 BD | 1BA | 500SF",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "bc1a505e:image.url",
+							"blockId": "bc1a505e",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-five.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Red wooden farmhouse surrounded by autumn trees",
+							"tone": {
+								"grid": [
+									0.89,
+									0.79,
+									0.56,
+									0.79,
+									0.67,
+									0.54,
+									0.31,
+									0.23,
+									0.22
+								],
+								"color": "#948c87"
+							}
+						},
+						{
+							"id": "faf68dd3:image.url",
+							"blockId": "faf68dd3",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-six.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Burj Khalifa skyscraper towering over Dubai city",
+							"tone": {
+								"grid": [
+									0.48,
+									0.34,
+									0.22,
+									0.68,
+									0.5,
+									0.55,
+									0.6,
+									0.5,
+									0.5
+								],
+								"color": "#667f9d"
+							}
+						},
+						{
+							"id": "acd98eef:image.url",
+							"blockId": "acd98eef",
+							"path": "3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-seven.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Glass skyscraper facade reflecting other city buildings",
+							"tone": {
+								"grid": [
+									0.61,
+									0.41,
+									0.47,
+									0.75,
+									0.67,
+									0.63,
+									0.47,
+									0.45,
+									0.54
+								],
+								"color": "#799299"
+							}
+						},
+						{
+							"id": "39ecfab3:image.url",
+							"blockId": "39ecfab3",
+							"path": "3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/properties-eight.jpg",
+							"decorative": false,
+							"width": 380,
+							"height": 560,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Gothic skyscraper rising above clouds and fog",
+							"tone": {
+								"grid": [
+									0.83,
+									0.84,
+									0.78,
+									0.56,
+									0.33,
+									0.31,
+									0.14,
+									0.11,
+									0.12
+								],
+								"color": "#80705c"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "b8755465",
+					"role": "hero",
+					"title": "Presidential Villa",
+					"sectionIds": [
+						"b8755465"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1e488163",
+					"role": "features",
+					"title": "Bourton la Manor",
+					"sectionIds": [
+						"1e488163"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7f3e5911",
+					"role": "features",
+					"title": "Presidential Villa",
+					"sectionIds": [
+						"7f3e5911"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "85b54f3f",
+					"role": "features",
+					"title": "Bourton la Manor",
+					"sectionIds": [
+						"85b54f3f"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "testimonial",
+			"title": "Testimonial",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/themegrill-demos/testimonial-content.xml",
+			"sections": [
+				{
+					"id": "67caaf29",
+					"index": 0,
+					"path": "0",
+					"group": "67caaf29",
+					"role": "hero",
+					"title": "Jack Williams",
+					"slots": [
+						{
+							"id": "6f23a640:text",
+							"blockId": "6f23a640",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lacinia nisl. Aliquam erat volutpat. Vestibulum quis suscipit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d5643094:text",
+							"blockId": "d5643094",
+							"path": "0.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jack Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8527ea07:text",
+							"blockId": "8527ea07",
+							"path": "0.0.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "LOs Angeles, California, USA",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d5272622:text",
+							"blockId": "d5272622",
+							"path": "0.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lacinia nisl. Aliquam erat volutpat. Vestibulum quis suscipit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a91ebfb6:text",
+							"blockId": "a91ebfb6",
+							"path": "0.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jack Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6ceb26d8:text",
+							"blockId": "6ceb26d8",
+							"path": "0.1.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "LOs Angeles, California, USA",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8675c423:text",
+							"blockId": "8675c423",
+							"path": "0.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lacinia nisl. Aliquam erat volutpat. Vestibulum quis suscipit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8734624e:text",
+							"blockId": "8734624e",
+							"path": "0.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jack Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "06b00789:text",
+							"blockId": "06b00789",
+							"path": "0.2.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "LOs Angeles, California, USA",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cbf22c5f:text",
+							"blockId": "cbf22c5f",
+							"path": "0.3.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lacinia nisl. Aliquam erat volutpat. Vestibulum quis suscipit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7bd1798d:text",
+							"blockId": "7bd1798d",
+							"path": "0.3.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jack Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7429df7a:text",
+							"blockId": "7429df7a",
+							"path": "0.3.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "LOs Angeles, California, USA",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "10a24530:text",
+							"blockId": "10a24530",
+							"path": "0.4.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lacinia nisl. Aliquam erat volutpat. Vestibulum quis suscipit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c3b1a549:text",
+							"blockId": "c3b1a549",
+							"path": "0.4.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jack Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dff8139e:text",
+							"blockId": "dff8139e",
+							"path": "0.4.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "LOs Angeles, California, USA",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2432b92b:text",
+							"blockId": "2432b92b",
+							"path": "0.5.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lacinia nisl. Aliquam erat volutpat. Vestibulum quis suscipit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "52830754:text",
+							"blockId": "52830754",
+							"path": "0.5.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jack Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d05cd1f4:text",
+							"blockId": "d05cd1f4",
+							"path": "0.5.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "LOs Angeles, California, USA",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0fa1941c:text",
+							"blockId": "0fa1941c",
+							"path": "0.6.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lacinia nisl. Aliquam erat volutpat. Vestibulum quis suscipit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "704489dd:text",
+							"blockId": "704489dd",
+							"path": "0.6.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jack Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "40622322:text",
+							"blockId": "40622322",
+							"path": "0.6.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "LOs Angeles, California, USA",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6aa8ef9e:text",
+							"blockId": "6aa8ef9e",
+							"path": "0.7.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lacinia nisl. Aliquam erat volutpat. Vestibulum quis suscipit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "dcb23fa3:text",
+							"blockId": "dcb23fa3",
+							"path": "0.7.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jack Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c8964d63:text",
+							"blockId": "c8964d63",
+							"path": "0.7.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "LOs Angeles, California, USA",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "947635ba:text",
+							"blockId": "947635ba",
+							"path": "0.8.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu lacinia nisl. Aliquam erat volutpat. Vestibulum quis suscipit diam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "92d1326d:text",
+							"blockId": "92d1326d",
+							"path": "0.8.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Jack Williams",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "baf24d8d:text",
+							"blockId": "baf24d8d",
+							"path": "0.8.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "LOs Angeles, California, USA",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c6e21237:image.url",
+							"blockId": "c6e21237",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png",
+							"decorative": true,
+							"width": 230,
+							"height": 125,
+							"orientation": "landscape"
+						},
+						{
+							"id": "05e18b5e:image.url",
+							"blockId": "05e18b5e",
+							"path": "0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png",
+							"decorative": true,
+							"width": 230,
+							"height": 125,
+							"orientation": "landscape"
+						},
+						{
+							"id": "797f2625:image.url",
+							"blockId": "797f2625",
+							"path": "0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png",
+							"decorative": true,
+							"width": 230,
+							"height": 125,
+							"orientation": "landscape"
+						},
+						{
+							"id": "63d777b9:image.url",
+							"blockId": "63d777b9",
+							"path": "0.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png",
+							"decorative": true,
+							"width": 230,
+							"height": 125,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2df4cc8e:image.url",
+							"blockId": "2df4cc8e",
+							"path": "0.4.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png",
+							"decorative": true,
+							"width": 230,
+							"height": 125,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0e7f507a:image.url",
+							"blockId": "0e7f507a",
+							"path": "0.5.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png",
+							"decorative": true,
+							"width": 230,
+							"height": 125,
+							"orientation": "landscape"
+						},
+						{
+							"id": "79957295:image.url",
+							"blockId": "79957295",
+							"path": "0.6.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png",
+							"decorative": true,
+							"width": 230,
+							"height": 125,
+							"orientation": "landscape"
+						},
+						{
+							"id": "eef507c3:image.url",
+							"blockId": "eef507c3",
+							"path": "0.7.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png",
+							"decorative": true,
+							"width": 230,
+							"height": 125,
+							"orientation": "landscape"
+						},
+						{
+							"id": "595cc729:image.url",
+							"blockId": "595cc729",
+							"path": "0.8.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png",
+							"decorative": true,
+							"width": 230,
+							"height": 125,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "67caaf29",
+					"role": "hero",
+					"title": "Jack Williams",
+					"sectionIds": [
+						"67caaf29"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 25,
+		"textSlots": 181,
+		"editableSlots": 151,
+		"images": 74,
+		"swappableImages": 48,
+		"words": 1169
+	},
+	"builtAt": "2026-10-24T11:35:08.030Z"
+}

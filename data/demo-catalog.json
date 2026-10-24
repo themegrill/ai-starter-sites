@@ -1,5 +1,5 @@
 {
-	"$comment": "Free demos the AI flow can build from. The demo API has no useful niche tags, so niches and keywords are maintained here and drive demo picking. Premium demos are skipped by the pipeline. Run `pnpm manifests` after editing.",
+	"$comment": "Zakra Gutenberg demos the AI flow can build from, free and premium. The demo API has no useful niche tags, so niches and keywords are maintained here and drive demo picking. Run `pnpm manifests` after editing.",
 	"demos": [
 		{
 			"slug": "restaurant-v2",
@@ -187,6 +187,1060 @@
 				"classes",
 				"e-learning",
 				"training center"
+			]
+		},
+		{
+			"slug": "digital-diary",
+			"niches": [
+				"blog",
+				"writing",
+				"personal"
+			],
+			"keywords": [
+				"blog",
+				"diary",
+				"journal",
+				"personal blog",
+				"writer",
+				"lifestyle",
+				"magazine"
+			]
+		},
+		{
+			"slug": "travel-blog",
+			"niches": [
+				"travel",
+				"blog"
+			],
+			"keywords": [
+				"travel blog",
+				"travel",
+				"backpacking",
+				"adventure",
+				"travel writer",
+				"wanderlust",
+				"explorer"
+			]
+		},
+		{
+			"slug": "restaurant-blog",
+			"niches": [
+				"food",
+				"blog",
+				"restaurant"
+			],
+			"keywords": [
+				"food blog",
+				"recipes",
+				"chef",
+				"cooking",
+				"restaurant",
+				"home cooking",
+				"food writer",
+				"bakery",
+				"catering"
+			]
+		},
+		{
+			"slug": "travel-agency",
+			"niches": [
+				"travel",
+				"tourism"
+			],
+			"keywords": [
+				"travel agency",
+				"tour operator",
+				"tours",
+				"holidays",
+				"vacation",
+				"destination",
+				"tourism",
+				"trekking"
+			]
+		},
+		{
+			"slug": "charity-02",
+			"niches": [
+				"nonprofit",
+				"charity"
+			],
+			"keywords": [
+				"charity",
+				"nonprofit",
+				"ngo",
+				"donation",
+				"fundraising",
+				"volunteer",
+				"foundation",
+				"cause"
+			]
+		},
+		{
+			"slug": "professional-02",
+			"niches": [
+				"business",
+				"consulting",
+				"professional-services"
+			],
+			"keywords": [
+				"professional services",
+				"consultant",
+				"freelancer",
+				"firm",
+				"business services",
+				"advisor"
+			]
+		},
+		{
+			"slug": "wedding-02",
+			"niches": [
+				"wedding",
+				"events"
+			],
+			"keywords": [
+				"wedding",
+				"couple",
+				"marriage",
+				"save the date",
+				"engagement",
+				"bride",
+				"groom",
+				"photographer"
+			]
+		},
+		{
+			"slug": "digital-marketing-02",
+			"niches": [
+				"marketing",
+				"agency",
+				"business"
+			],
+			"keywords": [
+				"digital marketing",
+				"seo",
+				"social media",
+				"advertising",
+				"marketing agency",
+				"branding",
+				"ppc"
+			]
+		},
+		{
+			"slug": "minimal-portfolio-02",
+			"niches": [
+				"portfolio",
+				"creative"
+			],
+			"keywords": [
+				"portfolio",
+				"designer",
+				"artist",
+				"freelancer",
+				"creative",
+				"illustrator",
+				"personal portfolio"
+			]
+		},
+		{
+			"slug": "online-course-02",
+			"niches": [
+				"education",
+				"courses",
+				"lms"
+			],
+			"keywords": [
+				"online courses",
+				"e-learning",
+				"training",
+				"academy",
+				"tutor",
+				"course platform"
+			]
+		},
+		{
+			"slug": "book-author-02",
+			"niches": [
+				"author",
+				"books",
+				"writing"
+			],
+			"keywords": [
+				"author",
+				"writer",
+				"novelist",
+				"books",
+				"publisher",
+				"poet"
+			]
+		},
+		{
+			"slug": "eguru",
+			"niches": [
+				"education",
+				"courses",
+				"lms"
+			],
+			"keywords": [
+				"online learning",
+				"courses",
+				"e-learning",
+				"tutor",
+				"skills",
+				"academy",
+				"tutoring",
+				"school"
+			]
+		},
+		{
+			"slug": "flora",
+			"niches": [
+				"plants",
+				"garden",
+				"shop"
+			],
+			"keywords": [
+				"plant shop",
+				"plants",
+				"nursery",
+				"florist",
+				"garden center",
+				"houseplants",
+				"succulents",
+				"landscaping",
+				"gardener"
+			]
+		},
+		{
+			"slug": "petcare",
+			"niches": [
+				"pets",
+				"veterinary",
+				"shop"
+			],
+			"keywords": [
+				"pet care",
+				"pet grooming",
+				"veterinary",
+				"pet shop",
+				"dog grooming",
+				"pet boarding",
+				"vet clinic",
+				"veterinarian"
+			]
+		},
+		{
+			"slug": "nutricoach",
+			"niches": [
+				"nutrition",
+				"health",
+				"coaching"
+			],
+			"keywords": [
+				"nutritionist",
+				"dietitian",
+				"health coach",
+				"nutrition",
+				"meal plan",
+				"weight loss",
+				"clinic",
+				"wellness"
+			]
+		},
+		{
+			"slug": "antique-store",
+			"niches": [
+				"antiques",
+				"shop",
+				"retail"
+			],
+			"keywords": [
+				"antique store",
+				"antiques",
+				"vintage",
+				"collectibles",
+				"handicrafts",
+				"art gallery",
+				"thrift"
+			]
+		},
+		{
+			"slug": "dentico",
+			"niches": [
+				"dental",
+				"healthcare",
+				"medical"
+			],
+			"keywords": [
+				"dentist",
+				"dental clinic",
+				"orthodontist",
+				"oral care",
+				"teeth whitening",
+				"dental care",
+				"clinic",
+				"doctor",
+				"medical"
+			]
+		},
+		{
+			"slug": "kidz",
+			"niches": [
+				"kids",
+				"childcare",
+				"education"
+			],
+			"keywords": [
+				"kindergarten",
+				"preschool",
+				"daycare",
+				"nursery school",
+				"childcare",
+				"montessori",
+				"kids",
+				"school",
+				"tutoring"
+			]
+		},
+		{
+			"slug": "event-marketing",
+			"niches": [
+				"events",
+				"marketing"
+			],
+			"keywords": [
+				"event management",
+				"event planner",
+				"conference",
+				"event agency",
+				"exhibitions",
+				"event marketing"
+			]
+		},
+		{
+			"slug": "cleaner-v2",
+			"niches": [
+				"cleaning",
+				"home-services"
+			],
+			"keywords": [
+				"cleaning service",
+				"cleaners",
+				"janitorial",
+				"housekeeping",
+				"maid service",
+				"carpet cleaning"
+			]
+		},
+		{
+			"slug": "travel-v2",
+			"niches": [
+				"travel",
+				"tourism"
+			],
+			"keywords": [
+				"travel",
+				"trekking",
+				"tours",
+				"adventure travel",
+				"hiking",
+				"tour operator",
+				"travel agency"
+			]
+		},
+		{
+			"slug": "counselling-v2",
+			"niches": [
+				"counselling",
+				"therapy",
+				"coaching"
+			],
+			"keywords": [
+				"counsellor",
+				"therapist",
+				"psychologist",
+				"life coach",
+				"mental health",
+				"counseling"
+			]
+		},
+		{
+			"slug": "business-firm-v2",
+			"niches": [
+				"business",
+				"consulting",
+				"finance"
+			],
+			"keywords": [
+				"business firm",
+				"corporate",
+				"consulting",
+				"company",
+				"enterprise",
+				"accounting"
+			]
+		},
+		{
+			"slug": "portfolio-v2",
+			"niches": [
+				"portfolio",
+				"creative"
+			],
+			"keywords": [
+				"portfolio",
+				"ux designer",
+				"developer",
+				"freelancer",
+				"creative",
+				"case study",
+				"designer"
+			]
+		},
+		{
+			"slug": "startup-business-v2",
+			"niches": [
+				"startup",
+				"business",
+				"technology"
+			],
+			"keywords": [
+				"startup",
+				"saas",
+				"tech company",
+				"app",
+				"software",
+				"business",
+				"hosting",
+				"it services"
+			]
+		},
+		{
+			"slug": "organic-farm-v2",
+			"niches": [
+				"agriculture",
+				"farming",
+				"food"
+			],
+			"keywords": [
+				"organic farm",
+				"farm",
+				"agriculture",
+				"farmer",
+				"organic food",
+				"dairy",
+				"harvest",
+				"landscaping",
+				"garden",
+				"plants"
+			]
+		},
+		{
+			"slug": "applyjobs-v2",
+			"niches": [
+				"jobs",
+				"recruitment"
+			],
+			"keywords": [
+				"job portal",
+				"job board",
+				"recruitment",
+				"hiring",
+				"careers",
+				"staffing agency",
+				"hr"
+			]
+		},
+		{
+			"slug": "one-page-v3",
+			"niches": [
+				"agency",
+				"business",
+				"startup"
+			],
+			"keywords": [
+				"one page",
+				"landing page",
+				"agency",
+				"studio",
+				"website builder",
+				"brand"
+			]
+		},
+		{
+			"slug": "gym-v2",
+			"niches": [
+				"fitness",
+				"gym",
+				"sports"
+			],
+			"keywords": [
+				"gym",
+				"bodybuilding",
+				"fitness center",
+				"personal trainer",
+				"crossfit",
+				"workout"
+			]
+		},
+		{
+			"slug": "musicband-v2",
+			"niches": [
+				"music",
+				"entertainment"
+			],
+			"keywords": [
+				"band",
+				"musician",
+				"music",
+				"concert",
+				"singer",
+				"dj",
+				"artist",
+				"album"
+			]
+		},
+		{
+			"slug": "pictography-v2",
+			"niches": [
+				"photography",
+				"portfolio",
+				"creative"
+			],
+			"keywords": [
+				"photographer",
+				"photography",
+				"photo studio",
+				"wildlife photography",
+				"model photography",
+				"portrait photographer",
+				"wedding photographer",
+				"videographer"
+			]
+		},
+		{
+			"slug": "megadrone-v2",
+			"niches": [
+				"drones",
+				"technology",
+				"photography"
+			],
+			"keywords": [
+				"drone",
+				"aerial photography",
+				"drone shop",
+				"uav",
+				"videography"
+			]
+		},
+		{
+			"slug": "bizness-v2",
+			"niches": [
+				"business",
+				"agency",
+				"consulting"
+			],
+			"keywords": [
+				"business",
+				"agency",
+				"corporate",
+				"consulting",
+				"digital solutions",
+				"company"
+			]
+		},
+		{
+			"slug": "chapel-v2",
+			"niches": [
+				"church",
+				"religion",
+				"nonprofit"
+			],
+			"keywords": [
+				"church",
+				"chapel",
+				"ministry",
+				"parish",
+				"faith",
+				"worship",
+				"sermons"
+			]
+		},
+		{
+			"slug": "law-firm-v2",
+			"niches": [
+				"legal",
+				"professional-services"
+			],
+			"keywords": [
+				"law firm",
+				"lawyer",
+				"attorney",
+				"legal services",
+				"advocate",
+				"solicitor"
+			]
+		},
+		{
+			"slug": "real-estate-v2",
+			"niches": [
+				"real-estate",
+				"property"
+			],
+			"keywords": [
+				"real estate",
+				"realtor",
+				"property",
+				"homes for sale",
+				"real estate agent",
+				"villa",
+				"rentals"
+			]
+		},
+		{
+			"slug": "webhost-v2",
+			"niches": [
+				"hosting",
+				"technology"
+			],
+			"keywords": [
+				"web hosting",
+				"hosting",
+				"domain",
+				"cloud",
+				"vps",
+				"it services",
+				"server",
+				"saas",
+				"software"
+			]
+		},
+		{
+			"slug": "care-03",
+			"niches": [
+				"nonprofit",
+				"charity"
+			],
+			"keywords": [
+				"charity",
+				"orphanage",
+				"nonprofit",
+				"children charity",
+				"donation",
+				"homeless",
+				"ngo",
+				"healthcare"
+			]
+		},
+		{
+			"slug": "furniture-v2",
+			"niches": [
+				"furniture",
+				"shop",
+				"retail"
+			],
+			"keywords": [
+				"furniture store",
+				"furniture",
+				"home decor",
+				"interior",
+				"custom furniture",
+				"sofa"
+			]
+		},
+		{
+			"slug": "education-02",
+			"niches": [
+				"education",
+				"university"
+			],
+			"keywords": [
+				"university",
+				"college",
+				"school",
+				"education",
+				"campus",
+				"courses"
+			]
+		},
+		{
+			"slug": "drone-02",
+			"niches": [
+				"drones",
+				"photography",
+				"videography"
+			],
+			"keywords": [
+				"drone",
+				"aerial videography",
+				"drone pilot",
+				"aerial photography",
+				"filming",
+				"drone services"
+			]
+		},
+		{
+			"slug": "spa-center-v2",
+			"niches": [
+				"spa",
+				"beauty",
+				"wellness"
+			],
+			"keywords": [
+				"spa",
+				"massage",
+				"wellness center",
+				"beauty salon",
+				"day spa",
+				"sauna",
+				"yoga",
+				"wellness retreat"
+			]
+		},
+		{
+			"slug": "university-v2",
+			"niches": [
+				"education",
+				"university"
+			],
+			"keywords": [
+				"university",
+				"college",
+				"academy",
+				"school",
+				"courses",
+				"faculty"
+			]
+		},
+		{
+			"slug": "foundation-v2",
+			"niches": [
+				"nonprofit",
+				"charity"
+			],
+			"keywords": [
+				"foundation",
+				"charity",
+				"fundraising",
+				"volunteers",
+				"nonprofit",
+				"donation",
+				"ngo"
+			]
+		},
+		{
+			"slug": "plumbing-services-v2",
+			"niches": [
+				"home-services",
+				"trades",
+				"repair"
+			],
+			"keywords": [
+				"plumber",
+				"plumbing",
+				"emergency repair",
+				"drain cleaning",
+				"pipe repair",
+				"heating"
+			]
+		},
+		{
+			"slug": "business-v3",
+			"niches": [
+				"business",
+				"agency",
+				"consulting"
+			],
+			"keywords": [
+				"business",
+				"agency",
+				"corporate",
+				"consulting",
+				"company",
+				"services"
+			]
+		},
+		{
+			"slug": "construction-v3",
+			"niches": [
+				"construction",
+				"home-services",
+				"trades"
+			],
+			"keywords": [
+				"construction",
+				"roofing",
+				"contractor",
+				"renovation",
+				"builder",
+				"siding",
+				"remodeling"
+			]
+		},
+		{
+			"slug": "wedding-v3",
+			"niches": [
+				"wedding",
+				"events"
+			],
+			"keywords": [
+				"wedding planner",
+				"event planner",
+				"wedding",
+				"venue",
+				"bridal",
+				"events"
+			]
+		},
+		{
+			"slug": "writer-v2",
+			"niches": [
+				"author",
+				"books",
+				"writing"
+			],
+			"keywords": [
+				"writer",
+				"author",
+				"books",
+				"book shop",
+				"novelist",
+				"publisher"
+			]
+		},
+		{
+			"slug": "online-shop",
+			"niches": [
+				"shop",
+				"ecommerce",
+				"fashion"
+			],
+			"keywords": [
+				"online shop",
+				"ecommerce",
+				"store",
+				"fashion",
+				"clothing",
+				"electronics",
+				"retail"
+			]
+		},
+		{
+			"slug": "gift-shop-v2",
+			"niches": [
+				"gifts",
+				"shop",
+				"retail"
+			],
+			"keywords": [
+				"gift shop",
+				"gifts",
+				"souvenirs",
+				"presents",
+				"hampers",
+				"gift store"
+			]
+		},
+		{
+			"slug": "online-store-v2",
+			"niches": [
+				"shop",
+				"ecommerce"
+			],
+			"keywords": [
+				"online store",
+				"ecommerce",
+				"shop",
+				"store",
+				"products",
+				"retail"
+			]
+		},
+		{
+			"slug": "optigo",
+			"niches": [
+				"eyewear",
+				"healthcare",
+				"shop"
+			],
+			"keywords": [
+				"optician",
+				"eyewear",
+				"glasses",
+				"optometrist",
+				"sunglasses",
+				"eye clinic",
+				"spectacles",
+				"clinic"
+			]
+		},
+		{
+			"slug": "restro-v2",
+			"niches": [
+				"restaurant",
+				"food"
+			],
+			"keywords": [
+				"restaurant",
+				"dining",
+				"food delivery",
+				"bistro",
+				"fine dining",
+				"takeaway",
+				"bakery",
+				"cafe",
+				"pizza",
+				"food"
+			]
+		},
+		{
+			"slug": "coffee-shop",
+			"niches": [
+				"cafe",
+				"coffee",
+				"food"
+			],
+			"keywords": [
+				"coffee shop",
+				"cafe",
+				"coffee",
+				"roastery",
+				"espresso",
+				"tea",
+				"coffee beans",
+				"bakery",
+				"pastry",
+				"cake shop",
+				"dessert"
+			]
+		},
+		{
+			"slug": "gamer",
+			"niches": [
+				"gaming",
+				"entertainment"
+			],
+			"keywords": [
+				"gaming",
+				"esports",
+				"gamer",
+				"tournament",
+				"game studio",
+				"streamer",
+				"streaming"
+			]
+		},
+		{
+			"slug": "suffice",
+			"niches": [
+				"consulting",
+				"business",
+				"coaching"
+			],
+			"keywords": [
+				"business consultant",
+				"consulting",
+				"business coach",
+				"strategy",
+				"advisor",
+				"mentor"
+			]
+		},
+		{
+			"slug": "therapycoach",
+			"niches": [
+				"counselling",
+				"therapy",
+				"coaching"
+			],
+			"keywords": [
+				"therapist",
+				"therapy",
+				"coach",
+				"counselling",
+				"mental health",
+				"psychotherapy"
+			]
+		},
+		{
+			"slug": "nutrition-coach",
+			"niches": [
+				"nutrition",
+				"health",
+				"coaching"
+			],
+			"keywords": [
+				"nutrition coach",
+				"nutritionist",
+				"dietitian",
+				"weight loss",
+				"healthy eating",
+				"meal planning"
+			]
+		},
+		{
+			"slug": "member-read",
+			"niches": [
+				"publishing",
+				"membership",
+				"blog"
+			],
+			"keywords": [
+				"membership",
+				"publication",
+				"magazine",
+				"newsletter",
+				"writers",
+				"reading",
+				"subscription"
+			]
+		},
+		{
+			"slug": "online-learning",
+			"niches": [
+				"education",
+				"courses",
+				"lms"
+			],
+			"keywords": [
+				"online learning",
+				"e-learning",
+				"courses",
+				"academy",
+				"training",
+				"skills"
+			]
+		},
+		{
+			"slug": "online-lms",
+			"niches": [
+				"education",
+				"courses",
+				"lms"
+			],
+			"keywords": [
+				"lms",
+				"online courses",
+				"e-learning",
+				"academy",
+				"training",
+				"tutor"
+			]
+		},
+		{
+			"slug": "happiness-coach",
+			"niches": [
+				"coaching",
+				"wellness",
+				"therapy"
+			],
+			"keywords": [
+				"life coach",
+				"happiness coach",
+				"wellbeing",
+				"mindfulness",
+				"coaching",
+				"self care",
+				"yoga",
+				"meditation"
 			]
 		}
 	]

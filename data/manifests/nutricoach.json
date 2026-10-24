@@ -1,0 +1,3404 @@
+{
+	"version": 4,
+	"slug": "nutricoach",
+	"name": "nutriCoach",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://zakrademos.com/wp-content/uploads/2025/11/Nutri_coach_thumbnail-img.jpg",
+	"demoUrl": "https://zakrademos.com/nutricoach",
+	"niches": [
+		"nutrition",
+		"health",
+		"coaching"
+	],
+	"keywords": [
+		"nutritionist",
+		"dietitian",
+		"health coach",
+		"nutrition",
+		"meal plan",
+		"weight loss",
+		"clinic",
+		"wellness"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#064e41",
+				"count": 34,
+				"group": "brand",
+				"role": "primary",
+				"base": "#064e41",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 13
+				}
+			},
+			{
+				"hex": "#303030",
+				"count": 17,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#ffffff",
+				"count": 17,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f5f5f5",
+				"count": 5,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 5
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f8f8f8",
+				"count": 3,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#d9d9d9",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#595959",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#16181a",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#064e46",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#064e41",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 1
+				}
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#064e41",
+				"bg": "#f5f5f5",
+				"large": false,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#064e41",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#064e41",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#064e41",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 3,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#064e41",
+				"large": false,
+				"count": 3,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#064e41",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#064e41",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#064e46",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#064e41",
+				"bg": "#f8f8f8",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#16181a",
+				"bg": "#064e41",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Rufina",
+			"body": "Poppins",
+			"map": {}
+		}
+	},
+	"pages": [
+		{
+			"slug": "sample-page-2",
+			"title": "Sample Page",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/themegrill-demos/sample-page-2-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Inspiring You to Live a Healthy Life",
+					"slots": [
+						{
+							"id": "core-0.0.0.0:@html:p",
+							"blockId": "core-0.0.0.0",
+							"path": "0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "CERTIFIED NUTRITIONIST & HEALTH COACH",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.1:@html:h",
+							"blockId": "core-0.0.0.1",
+							"path": "0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Inspiring You to Live a Healthy Life",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.2.1.0:@html:p",
+							"blockId": "core-0.0.0.2.1.0",
+							"path": "0.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-0.0.0.2.1.1.0:@html:a",
+							"blockId": "core-0.0.0.2.1.1.0",
+							"path": "0.0.0.2.1.1.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Get Appointment",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.1.0.0.0.0:@html:img",
+							"blockId": "core-0.1.0.0.0.0",
+							"path": "0.1.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/women-with-bowl.png",
+							"decorative": false,
+							"width": 442,
+							"height": 208,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling woman beside a bowl of fresh lettuce in a kitchen",
+							"tone": {
+								"grid": [
+									0.68,
+									0.4,
+									0.41,
+									0.47,
+									0.4,
+									0.38,
+									0.37,
+									0.41,
+									0.42
+								],
+								"color": "#6a754d"
+							}
+						},
+						{
+							"id": "core-0.1.0.0.0.1:@html:img",
+							"blockId": "core-0.1.0.0.0.1",
+							"path": "0.1.0.0.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/nutrition-consult.jpg",
+							"decorative": false,
+							"width": 442,
+							"height": 516,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Two women chatting at a kitchen counter with vegetables",
+							"tone": {
+								"grid": [
+									0.73,
+									0.48,
+									0.57,
+									0.66,
+									0.49,
+									0.51,
+									0.72,
+									0.74,
+									0.84
+								],
+								"color": "#a4a48e"
+							}
+						},
+						{
+							"id": "core-0.1.0.0.1.0:@html:img",
+							"blockId": "core-0.1.0.0.1.0",
+							"path": "0.1.0.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/nutritionist.jpg",
+							"decorative": false,
+							"width": 771,
+							"height": 754,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Two women talking on a sofa in a bright living room",
+							"tone": {
+								"grid": [
+									0.87,
+									0.86,
+									0.72,
+									0.73,
+									0.62,
+									0.56,
+									0.5,
+									0.53,
+									0.68
+								],
+								"color": "#a9ae9e"
+							}
+						},
+						{
+							"id": "core-0.1.0.0.2.0:@html:img",
+							"blockId": "core-0.1.0.0.2.0",
+							"path": "0.1.0.0.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/women-drinking-juice.png",
+							"decorative": false,
+							"width": 442,
+							"height": 422,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman drinking a green smoothie in her kitchen",
+							"tone": {
+								"grid": [
+									0.59,
+									0.53,
+									0.47,
+									0.72,
+									0.61,
+									0.41,
+									0.63,
+									0.78,
+									0.51
+								],
+								"color": "#9d9582"
+							}
+						},
+						{
+							"id": "core-0.1.0.0.2.1:@html:img",
+							"blockId": "core-0.1.0.0.2.1",
+							"path": "0.1.0.0.2.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/women-holding-tomatos.png",
+							"decorative": false,
+							"width": 442,
+							"height": 302,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Woman holding tomatoes talking to a friend in a kitchen",
+							"tone": {
+								"grid": [
+									0.55,
+									0.34,
+									0.25,
+									0.62,
+									0.58,
+									0.33,
+									0.52,
+									0.56,
+									0.66
+								],
+								"color": "#847e62"
+							}
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "features",
+					"title": "Services to Improve Yourself & Your Life",
+					"slots": [
+						{
+							"id": "core-1.0.0.0:@html:p",
+							"blockId": "core-1.0.0.0",
+							"path": "1.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "SERVICES",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.1:@html:h",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Services to Improve Yourself & Your Life",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.2.1.0:@html:p",
+							"blockId": "core-1.0.0.2.1.0",
+							"path": "1.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Surabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.1.0.0.0.1:@html:h",
+							"blockId": "core-1.1.0.0.0.1",
+							"path": "1.1.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Nutrition Strategies",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.0.0.0.2:@html:p",
+							"blockId": "core-1.1.0.0.0.2",
+							"path": "1.1.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.1.1.0.0.1:@html:h",
+							"blockId": "core-1.1.1.0.0.1",
+							"path": "1.1.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Workout Routines",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.1.0.0.2:@html:p",
+							"blockId": "core-1.1.1.0.0.2",
+							"path": "1.1.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Curabitur aliquet quam id dui posuere blandit Curabitur aliquet quam id dui",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.2.0.0.1:@html:h",
+							"blockId": "core-1.1.2.0.0.1",
+							"path": "1.1.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Improving Health",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.2.0.0.2:@html:p",
+							"blockId": "core-1.1.2.0.0.2",
+							"path": "1.1.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar Mauris blandit aliquet elit",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.0.0.0.1:@html:h",
+							"blockId": "core-1.2.0.0.0.1",
+							"path": "1.2.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Support & Motivation",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.0.0.0.2:@html:p",
+							"blockId": "core-1.2.0.0.0.2",
+							"path": "1.2.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Vivamus suscipit tortor eget felis porttitor volutpat Vivamus suscipit tortor",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.2.1.0.0.1:@html:h",
+							"blockId": "core-1.2.1.0.0.1",
+							"path": "1.2.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Exercise Programs",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.1.0.0.2:@html:p",
+							"blockId": "core-1.2.1.0.0.2",
+							"path": "1.2.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Nulla quis lorem ut libero malesuada feugiat Nulla quis lorem ut libero",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.2.2.0.0.1:@html:h",
+							"blockId": "core-1.2.2.0.0.1",
+							"path": "1.2.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Physical Activities",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.2.2.0.0.2:@html:p",
+							"blockId": "core-1.2.2.0.0.2",
+							"path": "1.2.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Proin eget tortor risus. Vivamus magna justoProin eget tortor risus. Vivamus",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-1.1.0.0.0.0:@html:img",
+							"blockId": "core-1.1.0.0.0.0",
+							"path": "1.1.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/nutrition1.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.1.0.0.0.3:@html:img",
+							"blockId": "core-1.1.0.0.0.3",
+							"path": "1.1.0.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.1.1.0.0.0:@html:img",
+							"blockId": "core-1.1.1.0.0.0",
+							"path": "1.1.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/workout.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.1.1.0.0.3:@html:img",
+							"blockId": "core-1.1.1.0.0.3",
+							"path": "1.1.1.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.1.2.0.0.0:@html:img",
+							"blockId": "core-1.1.2.0.0.0",
+							"path": "1.1.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/improve-health.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.1.2.0.0.3:@html:img",
+							"blockId": "core-1.1.2.0.0.3",
+							"path": "1.1.2.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.0.0.0.0:@html:img",
+							"blockId": "core-1.2.0.0.0.0",
+							"path": "1.2.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/support.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.0.0.0.3:@html:img",
+							"blockId": "core-1.2.0.0.0.3",
+							"path": "1.2.0.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.1.0.0.0:@html:img",
+							"blockId": "core-1.2.1.0.0.0",
+							"path": "1.2.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/exercise.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.1.0.0.3:@html:img",
+							"blockId": "core-1.2.1.0.0.3",
+							"path": "1.2.1.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.2.0.0.0:@html:img",
+							"blockId": "core-1.2.2.0.0.0",
+							"path": "1.2.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/physical-activities.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.2.2.0.0.3:@html:img",
+							"blockId": "core-1.2.2.0.0.3",
+							"path": "1.2.2.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "stats",
+					"title": "Happy Clients",
+					"slots": [
+						{
+							"id": "core-2.0.0.0.2:@html:p",
+							"blockId": "core-2.0.0.0.2",
+							"path": "2.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "+12K",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-2.0.0.0.3:@html:h",
+							"blockId": "core-2.0.0.0.3",
+							"path": "2.0.0.0.3",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Happy Clients",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.1.2:@html:p",
+							"blockId": "core-2.0.0.1.2",
+							"path": "2.0.0.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "+300",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-2.0.0.1.3:@html:h",
+							"blockId": "core-2.0.0.1.3",
+							"path": "2.0.0.1.3",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Nutrition Programs",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.2.2:@html:p",
+							"blockId": "core-2.0.0.2.2",
+							"path": "2.0.0.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "+200",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-2.0.0.2.3:@html:h",
+							"blockId": "core-2.0.0.2.3",
+							"path": "2.0.0.2.3",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Workout Sessions",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.3.2:@html:p",
+							"blockId": "core-2.0.0.3.2",
+							"path": "2.0.0.3.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "16",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "core-2.0.0.3.3:@html:h",
+							"blockId": "core-2.0.0.3.3",
+							"path": "2.0.0.3.3",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Verified Professionals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.0.0.0.0:@html:img",
+							"blockId": "core-2.0.0.0.0",
+							"path": "2.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/happy-clients.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.0.1.0:@html:img",
+							"blockId": "core-2.0.0.1.0",
+							"path": "2.0.0.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/nutrition-program.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.0.2.0:@html:img",
+							"blockId": "core-2.0.0.2.0",
+							"path": "2.0.0.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/workout-sessions.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.0.0.3.0:@html:img",
+							"blockId": "core-2.0.0.3.0",
+							"path": "2.0.0.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/verified.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "content",
+					"title": "Enjoy Our Personalized Plans",
+					"slots": [
+						{
+							"id": "core-3.0.0.0:@html:p",
+							"blockId": "core-3.0.0.0",
+							"path": "3.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "PLANS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.1:@html:h",
+							"blockId": "core-3.0.0.1",
+							"path": "3.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Enjoy Our Personalized Plans",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.2.1.0:@html:p",
+							"blockId": "core-3.0.0.2.1.0",
+							"path": "3.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Aurabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.2.0.0.1:@html:h",
+							"blockId": "core-3.2.0.0.1",
+							"path": "3.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Personalized Nutrition Plan",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.2.0.0.2:@html:p",
+							"blockId": "core-3.2.0.0.2",
+							"path": "3.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.2.0.0.4:@html:p",
+							"blockId": "core-3.2.0.0.4",
+							"path": "3.2.0.0.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.4.0.0.1:@html:h",
+							"blockId": "core-3.4.0.0.1",
+							"path": "3.4.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Personalized Exercise Plan",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.4.0.0.2:@html:p",
+							"blockId": "core-3.4.0.0.2",
+							"path": "3.4.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.4.0.0.4:@html:p",
+							"blockId": "core-3.4.0.0.4",
+							"path": "3.4.0.0.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "core-3.2.0.0.6:@html:img",
+							"blockId": "core-3.2.0.0.6",
+							"path": "3.2.0.0.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-3.4.0.0.6:@html:img",
+							"blockId": "core-3.4.0.0.6",
+							"path": "3.4.0.0.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-4",
+					"index": 4,
+					"path": "4",
+					"group": "top-4",
+					"role": "features",
+					"title": "Our Professional Health Coaches",
+					"slots": [
+						{
+							"id": "core-4.0.0.0:@html:p",
+							"blockId": "core-4.0.0.0",
+							"path": "4.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "TEAMS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.1:@html:h",
+							"blockId": "core-4.0.0.1",
+							"path": "4.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Professional Health Coaches",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.0.0.2.1.0:@html:p",
+							"blockId": "core-4.0.0.2.1.0",
+							"path": "4.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Uurabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-4.1.0.0.0.1:@html:h",
+							"blockId": "core-4.1.0.0.0.1",
+							"path": "4.1.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Marlie Green",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.1.0.0.0.2:@html:p",
+							"blockId": "core-4.1.0.0.0.2",
+							"path": "4.1.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Health Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.1.1.0.0.1:@html:h",
+							"blockId": "core-4.1.1.0.0.1",
+							"path": "4.1.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Philipp Wthrich",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.1.1.0.0.2:@html:p",
+							"blockId": "core-4.1.1.0.0.2",
+							"path": "4.1.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Fitness Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.1.2.0.0.1:@html:h",
+							"blockId": "core-4.1.2.0.0.1",
+							"path": "4.1.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Charlie Green",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.1.2.0.0.2:@html:p",
+							"blockId": "core-4.1.2.0.0.2",
+							"path": "4.1.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Nutritionist Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.1.3.0.0.1:@html:h",
+							"blockId": "core-4.1.3.0.0.1",
+							"path": "4.1.3.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Kathryn Murphy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-4.1.3.0.0.2:@html:p",
+							"blockId": "core-4.1.3.0.0.2",
+							"path": "4.1.3.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Health Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-4.1.0.0.0.0:@html:img",
+							"blockId": "core-4.1.0.0.0.0",
+							"path": "4.1.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Marlie-Green.png",
+							"decorative": true,
+							"width": 270,
+							"height": 214,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.1.1.0.0.0:@html:img",
+							"blockId": "core-4.1.1.0.0.0",
+							"path": "4.1.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Philipp-Wthrich.png",
+							"decorative": true,
+							"width": 270,
+							"height": 214,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.1.2.0.0.0:@html:img",
+							"blockId": "core-4.1.2.0.0.0",
+							"path": "4.1.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Charlie-Green.png",
+							"decorative": true,
+							"width": 270,
+							"height": 214,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-4.1.3.0.0.0:@html:img",
+							"blockId": "core-4.1.3.0.0.0",
+							"path": "4.1.3.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Kathryn-Murphy.png",
+							"decorative": true,
+							"width": 270,
+							"height": 214,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "top-5",
+					"index": 5,
+					"path": "5",
+					"group": "top-5",
+					"role": "posts",
+					"title": "Read Our Nutrition & Fitness Blog",
+					"slots": [
+						{
+							"id": "core-5.0.0.0:@html:p",
+							"blockId": "core-5.0.0.0",
+							"path": "5.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "BLOG",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.0.0.1:@html:h",
+							"blockId": "core-5.0.0.1",
+							"path": "5.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Read Our Nutrition & Fitness Blog",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-5.0.0.2.1.0:@html:p",
+							"blockId": "core-5.0.0.2.1.0",
+							"path": "5.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Rurabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"core/query"
+					]
+				},
+				{
+					"id": "top-6",
+					"index": 6,
+					"path": "6",
+					"group": "top-6",
+					"role": "testimonials",
+					"title": "What Our Clients Think About Us",
+					"slots": [
+						{
+							"id": "core-6.0.0.0.0.0.0.0:@html:p",
+							"blockId": "core-6.0.0.0.0.0.0.0",
+							"path": "6.0.0.0.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "TESTIMONIALS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.0.0.0.0.0.1:@html:h",
+							"blockId": "core-6.0.0.0.0.0.0.1",
+							"path": "6.0.0.0.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What Our Clients Think About Us",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.0.0.0.1.0.0:@html:p",
+							"blockId": "core-6.0.0.0.0.1.0.0",
+							"path": "6.0.0.0.0.1.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Urabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit squam .",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-6.0.1.0.0.0.0.0:@html:p",
+							"blockId": "core-6.0.1.0.0.0.0.0",
+							"path": "6.0.1.0.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Bruce Mars",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.1.0.0.0.0.1:@html:p",
+							"blockId": "core-6.0.1.0.0.0.0.1",
+							"path": "6.0.1.0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“nutriCoach is my guide to take massive action in line with my true self. It has changed my life ”",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.1.0.1.0.0.0:@html:p",
+							"blockId": "core-6.0.1.0.1.0.0.0",
+							"path": "6.0.1.0.1.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Devon Lane",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.1.0.1.0.0.1:@html:p",
+							"blockId": "core-6.0.1.0.1.0.0.1",
+							"path": "6.0.1.0.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“I have developed lifestyle changes which will benefit me for the rest of my life.”",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.1.1.0.0.0.0:@html:p",
+							"blockId": "core-6.0.1.1.0.0.0.0",
+							"path": "6.0.1.1.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Robert Fox",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.1.1.0.0.0.1:@html:p",
+							"blockId": "core-6.0.1.1.0.0.0.1",
+							"path": "6.0.1.1.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“I work better, show up better, feel better when I am grounded & connected to the magic.”",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.1.1.1.0.0.0:@html:p",
+							"blockId": "core-6.0.1.1.1.0.0.0",
+							"path": "6.0.1.1.1.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Esther Howard",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-6.0.1.1.1.0.0.1:@html:p",
+							"blockId": "core-6.0.1.1.1.0.0.1",
+							"path": "6.0.1.1.1.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "“I been able to loose additional weight and also change my lifestyle. All thanks to nutriCoach”",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "top-7",
+					"index": 7,
+					"path": "7",
+					"group": "top-7",
+					"role": "cta",
+					"title": "Get Consultation!",
+					"slots": [
+						{
+							"id": "core-7.0.0.0.0:@html:p",
+							"blockId": "core-7.0.0.0.0",
+							"path": "7.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "CONTACT US",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.0.0.1:@html:h",
+							"blockId": "core-7.0.0.0.1",
+							"path": "7.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get Consultation!",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-7.0.0.0.2.1.0:@html:p",
+							"blockId": "core-7.0.0.0.2.1.0",
+							"path": "7.0.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Gurabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-7.0.0.0.2.1.1.0:@html:a",
+							"blockId": "core-7.0.0.0.2.1.1.0",
+							"path": "7.0.0.0.2.1.1.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Inspiring You to Live a Healthy Life",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "features",
+					"title": "Services to Improve Yourself & Your Life",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "stats",
+					"title": "Happy Clients",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "content",
+					"title": "Enjoy Our Personalized Plans",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-4",
+					"role": "features",
+					"title": "Our Professional Health Coaches",
+					"sectionIds": [
+						"top-4"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-5",
+					"role": "posts",
+					"title": "Read Our Nutrition & Fitness Blog",
+					"sectionIds": [
+						"top-5"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "top-6",
+					"role": "testimonials",
+					"title": "What Our Clients Think About Us",
+					"sectionIds": [
+						"top-6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-7",
+					"role": "cta",
+					"title": "Get Consultation!",
+					"sectionIds": [
+						"top-7"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Welcome to nutriCoach, Health & Diet Care Nutrition",
+					"slots": [
+						{
+							"id": "core-0.0.0.0.1:@html:p",
+							"blockId": "core-0.0.0.0.1",
+							"path": "0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "ABOUT US",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.2:@html:h",
+							"blockId": "core-0.0.0.0.2",
+							"path": "0.0.0.0.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Welcome to nutriCoach, Health & Diet Care Nutrition",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.0.3:@html:p",
+							"blockId": "core-0.0.0.0.3",
+							"path": "0.0.0.0.3",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor tincid accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-0.0.0.0.5:@html:p",
+							"blockId": "core-0.0.0.0.5",
+							"path": "0.0.0.0.5",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-0.1.0.0.0.1:@html:h",
+							"blockId": "core-0.1.0.0.0.1",
+							"path": "0.1.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Our Mission",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.0.0.2:@html:p",
+							"blockId": "core-0.1.0.0.0.2",
+							"path": "0.1.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "With the help of a various plans, to leads a healthy life.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.1.0.0.1:@html:h",
+							"blockId": "core-0.1.1.0.0.1",
+							"path": "0.1.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Our Vision",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.1.0.0.2:@html:p",
+							"blockId": "core-0.1.1.0.0.2",
+							"path": "0.1.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "We strive to reduce pain caused due to malnutrition.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.2.0.0.1:@html:h",
+							"blockId": "core-0.1.2.0.0.1",
+							"path": "0.1.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Our History",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.2.0.0.2:@html:p",
+							"blockId": "core-0.1.2.0.0.2",
+							"path": "0.1.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "From the past a 25 years, we’re into achieving our goal.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.1.0.0.0.0:@html:img",
+							"blockId": "core-0.1.0.0.0.0",
+							"path": "0.1.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/our-mission.png",
+							"decorative": true,
+							"width": 180,
+							"height": 180,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.1.1.0.0.0:@html:img",
+							"blockId": "core-0.1.1.0.0.0",
+							"path": "0.1.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/our-vision.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.1.2.0.0.0:@html:img",
+							"blockId": "core-0.1.2.0.0.0",
+							"path": "0.1.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/our-history.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "features",
+					"title": "Our Professional Health Coaches",
+					"slots": [
+						{
+							"id": "core-1.0.0.0:@html:p",
+							"blockId": "core-1.0.0.0",
+							"path": "1.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "TEAMS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.1:@html:h",
+							"blockId": "core-1.0.0.1",
+							"path": "1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Professional Health Coaches",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.2.1.0:@html:p",
+							"blockId": "core-1.0.0.2.1.0",
+							"path": "1.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Uurabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.1.0.0.0.1:@html:h",
+							"blockId": "core-1.1.0.0.0.1",
+							"path": "1.1.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Marlie Green",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.0.0.0.2:@html:p",
+							"blockId": "core-1.1.0.0.0.2",
+							"path": "1.1.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Health Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.1.0.0.1:@html:h",
+							"blockId": "core-1.1.1.0.0.1",
+							"path": "1.1.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Philipp Wthrich",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.1.0.0.2:@html:p",
+							"blockId": "core-1.1.1.0.0.2",
+							"path": "1.1.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Fitness Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.2.0.0.1:@html:h",
+							"blockId": "core-1.1.2.0.0.1",
+							"path": "1.1.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Charlie Green",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.2.0.0.2:@html:p",
+							"blockId": "core-1.1.2.0.0.2",
+							"path": "1.1.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Nutritionist Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.3.0.0.1:@html:h",
+							"blockId": "core-1.1.3.0.0.1",
+							"path": "1.1.3.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Kathryn Murphy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.1.3.0.0.2:@html:p",
+							"blockId": "core-1.1.3.0.0.2",
+							"path": "1.1.3.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Health Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-1.1.0.0.0.0:@html:img",
+							"blockId": "core-1.1.0.0.0.0",
+							"path": "1.1.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Marlie-Green.png",
+							"decorative": true,
+							"width": 270,
+							"height": 214,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-1.1.1.0.0.0:@html:img",
+							"blockId": "core-1.1.1.0.0.0",
+							"path": "1.1.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Philipp-Wthrich.png",
+							"decorative": true,
+							"width": 270,
+							"height": 214,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-1.1.2.0.0.0:@html:img",
+							"blockId": "core-1.1.2.0.0.0",
+							"path": "1.1.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Charlie-Green.png",
+							"decorative": true,
+							"width": 270,
+							"height": 214,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-1.1.3.0.0.0:@html:img",
+							"blockId": "core-1.1.3.0.0.0",
+							"path": "1.1.3.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Kathryn-Murphy.png",
+							"decorative": true,
+							"width": 270,
+							"height": 214,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "cta",
+					"title": "Get Consultation!",
+					"slots": [
+						{
+							"id": "core-2.0.0.0.0:@html:p",
+							"blockId": "core-2.0.0.0.0",
+							"path": "2.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "CONTACT US",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.0.1:@html:h",
+							"blockId": "core-2.0.0.0.1",
+							"path": "2.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get Consultation!",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.0.2.1.0:@html:p",
+							"blockId": "core-2.0.0.0.2.1.0",
+							"path": "2.0.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Gurabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-2.0.0.0.2.1.1.0:@html:a",
+							"blockId": "core-2.0.0.0.2.1.1.0",
+							"path": "2.0.0.0.2.1.1.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Welcome to nutriCoach, Health & Diet Care Nutrition",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "features",
+					"title": "Our Professional Health Coaches",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "cta",
+					"title": "Get Consultation!",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Services to Improve Yourself & Your Life",
+					"slots": [
+						{
+							"id": "core-0.0.0.0:@html:p",
+							"blockId": "core-0.0.0.0",
+							"path": "0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "SERVICES",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.1:@html:h",
+							"blockId": "core-0.0.0.1",
+							"path": "0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Services to Improve Yourself & Your Life",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.2.1.0:@html:p",
+							"blockId": "core-0.0.0.2.1.0",
+							"path": "0.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Surabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-0.1.0.0.0.1:@html:h",
+							"blockId": "core-0.1.0.0.0.1",
+							"path": "0.1.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Nutrition Strategies",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0.0.0.2:@html:p",
+							"blockId": "core-0.1.0.0.0.2",
+							"path": "0.1.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-0.1.1.0.0.1:@html:h",
+							"blockId": "core-0.1.1.0.0.1",
+							"path": "0.1.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Workout Routines",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.1.0.0.2:@html:p",
+							"blockId": "core-0.1.1.0.0.2",
+							"path": "0.1.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Curabitur aliquet quam id dui posuere blandit Curabitur aliquet quam id dui",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.2.0.0.1:@html:h",
+							"blockId": "core-0.1.2.0.0.1",
+							"path": "0.1.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Improving Health",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.2.0.0.2:@html:p",
+							"blockId": "core-0.1.2.0.0.2",
+							"path": "0.1.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar Mauris blandit aliquet elit",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2.0.0.0.1:@html:h",
+							"blockId": "core-0.2.0.0.0.1",
+							"path": "0.2.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Support & Motivation",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2.0.0.0.2:@html:p",
+							"blockId": "core-0.2.0.0.0.2",
+							"path": "0.2.0.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Vivamus suscipit tortor eget felis porttitor volutpat Vivamus suscipit tortor",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-0.2.1.0.0.1:@html:h",
+							"blockId": "core-0.2.1.0.0.1",
+							"path": "0.2.1.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Exercise Programs",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2.1.0.0.2:@html:p",
+							"blockId": "core-0.2.1.0.0.2",
+							"path": "0.2.1.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Nulla quis lorem ut libero malesuada feugiat Nulla quis lorem ut libero",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-0.2.2.0.0.1:@html:h",
+							"blockId": "core-0.2.2.0.0.1",
+							"path": "0.2.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Physical Activities",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.2.2.0.0.2:@html:p",
+							"blockId": "core-0.2.2.0.0.2",
+							"path": "0.2.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Proin eget tortor risus. Vivamus magna justoProin eget tortor risus. Vivamus",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "core-0.1.0.0.0.0:@html:img",
+							"blockId": "core-0.1.0.0.0.0",
+							"path": "0.1.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/nutrition1.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.1.0.0.0.3:@html:img",
+							"blockId": "core-0.1.0.0.0.3",
+							"path": "0.1.0.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.1.1.0.0.0:@html:img",
+							"blockId": "core-0.1.1.0.0.0",
+							"path": "0.1.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/workout.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.1.1.0.0.3:@html:img",
+							"blockId": "core-0.1.1.0.0.3",
+							"path": "0.1.1.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.1.2.0.0.0:@html:img",
+							"blockId": "core-0.1.2.0.0.0",
+							"path": "0.1.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/improve-health.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.1.2.0.0.3:@html:img",
+							"blockId": "core-0.1.2.0.0.3",
+							"path": "0.1.2.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.2.0.0.0.0:@html:img",
+							"blockId": "core-0.2.0.0.0.0",
+							"path": "0.2.0.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/support.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.2.0.0.0.3:@html:img",
+							"blockId": "core-0.2.0.0.0.3",
+							"path": "0.2.0.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.2.1.0.0.0:@html:img",
+							"blockId": "core-0.2.1.0.0.0",
+							"path": "0.2.1.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/exercise.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.2.1.0.0.3:@html:img",
+							"blockId": "core-0.2.1.0.0.3",
+							"path": "0.2.1.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.2.2.0.0.0:@html:img",
+							"blockId": "core-0.2.2.0.0.0",
+							"path": "0.2.2.0.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/physical-activities.png",
+							"decorative": true,
+							"width": 144,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "core-0.2.2.0.0.3:@html:img",
+							"blockId": "core-0.2.2.0.0.3",
+							"path": "0.2.2.0.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-1",
+					"index": 1,
+					"path": "1",
+					"group": "top-1",
+					"role": "features",
+					"title": "How it Works?",
+					"slots": [
+						{
+							"id": "core-1.0.0.0.0:@html:p",
+							"blockId": "core-1.0.0.0.0",
+							"path": "1.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "OUR APPROACH",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.0.1:@html:h",
+							"blockId": "core-1.0.0.0.1",
+							"path": "1.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "How it Works?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.0.0.2.1.0:@html:p",
+							"blockId": "core-1.0.0.0.2.1.0",
+							"path": "1.0.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Aurabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit squam .",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.0.1.0.1:@html:h",
+							"blockId": "core-1.0.1.0.1",
+							"path": "1.0.1.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Explore Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.0.2:@html:p",
+							"blockId": "core-1.0.1.0.2",
+							"path": "1.0.1.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Dorem psum dolor sit amet consectetur adipiscing",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-1.0.1.1.1:@html:h",
+							"blockId": "core-1.0.1.1.1",
+							"path": "1.0.1.1.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Get Brief Info",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.1.2:@html:p",
+							"blockId": "core-1.0.1.1.2",
+							"path": "1.0.1.1.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Mauris blandit aliquet elit, eget tincidunt nibh pulvinarit",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.2.1:@html:h",
+							"blockId": "core-1.0.1.2.1",
+							"path": "1.0.1.2.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Schedule Meeting",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.2.2:@html:p",
+							"blockId": "core-1.0.1.2.2",
+							"path": "1.0.1.2.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Proin eget tortor risus. Vivamus magna justoProin egto",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.3.1:@html:h",
+							"blockId": "core-1.0.1.3.1",
+							"path": "1.0.1.3.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Celebrate Health",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-1.0.1.3.2:@html:p",
+							"blockId": "core-1.0.1.3.2",
+							"path": "1.0.1.3.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Vivamus suscipit tortor eget felis porttitor volutpa",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "core-1.0.1.0.0:@html:img",
+							"blockId": "core-1.0.1.0.0",
+							"path": "1.0.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/explore-services.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.0.1.1.0:@html:img",
+							"blockId": "core-1.0.1.1.0",
+							"path": "1.0.1.1.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/get-brief-info.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.0.1.2.0:@html:img",
+							"blockId": "core-1.0.1.2.0",
+							"path": "1.0.1.2.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/schedule-meeting.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.0.1.3.0:@html:img",
+							"blockId": "core-1.0.1.3.0",
+							"path": "1.0.1.3.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/celebrate-health.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-2",
+					"index": 2,
+					"path": "2",
+					"group": "top-2",
+					"role": "content",
+					"title": "Enjoy Our Personalized Plans",
+					"slots": [
+						{
+							"id": "core-2.0.0.0:@html:p",
+							"blockId": "core-2.0.0.0",
+							"path": "2.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "PLANS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.1:@html:h",
+							"blockId": "core-2.0.0.1",
+							"path": "2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Enjoy Our Personalized Plans",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.0.0.2.1.0:@html:p",
+							"blockId": "core-2.0.0.2.1.0",
+							"path": "2.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Aurabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-2.2.0.0.1:@html:h",
+							"blockId": "core-2.2.0.0.1",
+							"path": "2.2.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Personalized Nutrition Plan",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.2.0.0.2:@html:p",
+							"blockId": "core-2.2.0.0.2",
+							"path": "2.2.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-2.2.0.0.4:@html:p",
+							"blockId": "core-2.2.0.0.4",
+							"path": "2.2.0.0.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-2.4.0.0.1:@html:h",
+							"blockId": "core-2.4.0.0.1",
+							"path": "2.4.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Personalized Exercise Plan",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-2.4.0.0.2:@html:p",
+							"blockId": "core-2.4.0.0.2",
+							"path": "2.4.0.0.2",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-2.4.0.0.4:@html:p",
+							"blockId": "core-2.4.0.0.4",
+							"path": "2.4.0.0.4",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "core-2.2.0.0.6:@html:img",
+							"blockId": "core-2.2.0.0.6",
+							"path": "2.2.0.0.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						},
+						{
+							"id": "core-2.4.0.0.6:@html:img",
+							"blockId": "core-2.4.0.0.6",
+							"path": "2.4.0.0.6",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png",
+							"decorative": true,
+							"width": 84,
+							"height": 84,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "top-3",
+					"index": 3,
+					"path": "3",
+					"group": "top-3",
+					"role": "cta",
+					"title": "Get Consultation!",
+					"slots": [
+						{
+							"id": "core-3.0.0.0.0:@html:p",
+							"blockId": "core-3.0.0.0.0",
+							"path": "3.0.0.0.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "CONTACT US",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.0.1:@html:h",
+							"blockId": "core-3.0.0.0.1",
+							"path": "3.0.0.0.1",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get Consultation!",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.0.0.2.1.0:@html:p",
+							"blockId": "core-3.0.0.0.2.1.0",
+							"path": "3.0.0.0.2.1.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Gurabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "core-3.0.0.0.2.1.1.0:@html:a",
+							"blockId": "core-3.0.0.0.2.1.1.0",
+							"path": "3.0.0.0.2.1.1.0",
+							"block": "core/button",
+							"attr": "@html:a",
+							"kind": "button",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Services to Improve Yourself & Your Life",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-1",
+					"role": "features",
+					"title": "How it Works?",
+					"sectionIds": [
+						"top-1"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-2",
+					"role": "content",
+					"title": "Enjoy Our Personalized Plans",
+					"sectionIds": [
+						"top-2"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "top-3",
+					"role": "cta",
+					"title": "Get Consultation!",
+					"sectionIds": [
+						"top-3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 15,
+		"textSlots": 129,
+		"editableSlots": 125,
+		"images": 52,
+		"swappableImages": 5,
+		"words": 946
+	},
+	"builtAt": "2026-10-24T11:35:07.921Z"
+}

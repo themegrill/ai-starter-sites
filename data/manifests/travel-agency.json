@@ -1,0 +1,2851 @@
+{
+	"version": 4,
+	"slug": "travel-agency",
+	"name": "Travel Agency",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-travel-agency/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/travel-agency",
+	"niches": [
+		"travel",
+		"tourism"
+	],
+	"keywords": [
+		"travel agency",
+		"tour operator",
+		"tours",
+		"holidays",
+		"vacation",
+		"destination",
+		"tourism",
+		"trekking"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 98,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 60,
+					"border": 9,
+					"background": 4
+				}
+			},
+			{
+				"hex": "#ebebeb",
+				"count": 18,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 18
+				}
+			},
+			{
+				"hex": "#f8f8f8",
+				"count": 12,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 12
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 9,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#090703",
+				"count": 9,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 9
+				}
+			},
+			{
+				"hex": "#020202",
+				"count": 8,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 8
+				}
+			},
+			{
+				"hex": "#0b70f4",
+				"count": 6,
+				"group": "brand",
+				"role": "primary",
+				"base": "#0b70f4",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 5
+				}
+			},
+			{
+				"hex": "#161616",
+				"count": 5,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 5
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 4,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#027abb",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#0b70f4",
+				"lightnessDelta": -0.129
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#1e73be",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#0b70f4",
+				"lightnessDelta": -0.069
+			},
+			{
+				"hex": "#050505",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#0b70f4",
+				"lightnessDelta": -0.116
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#0b70f4",
+				"large": true,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "b40c9132",
+					"index": 0,
+					"path": "0",
+					"group": "b40c9132",
+					"role": "hero",
+					"title": "Explore the Colorful World",
+					"slots": [
+						{
+							"id": "0922590e:text",
+							"blockId": "0922590e",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Explore the Colorful World",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f45b06a6:text",
+							"blockId": "f45b06a6",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Egestas quis suspendisse ultrices gravida. Sed adipiscing diam",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "254f561d:text",
+							"blockId": "254f561d",
+							"path": "0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b40c9132:background.image.image.url",
+							"blockId": "b40c9132",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/12/dark_BG2.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 801,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Milky Way over mountain silhouettes at night",
+							"tone": {
+								"grid": [
+									0.03,
+									0.08,
+									0.03,
+									0.12,
+									0.27,
+									0.15,
+									0.1,
+									0.13,
+									0.16
+								],
+								"color": "#201e22"
+							}
+						}
+					]
+				},
+				{
+					"id": "b8e97672",
+					"index": 1,
+					"path": "1",
+					"group": "b8e97672",
+					"role": "cta",
+					"title": "Experience the Life of Beautiful Santorini",
+					"slots": [
+						{
+							"id": "af2dbd7b:text",
+							"blockId": "af2dbd7b",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Experience the Life of Beautiful Santorini",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "394357ef:text",
+							"blockId": "394357ef",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ultricies tristique nulla aliquet tortor malesuada fames ac turpis egestas sed tempus urna.Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "590ddbf5:text",
+							"blockId": "590ddbf5",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ultricies tristique nulla aliquet tortor malesuada fames ac turpis egestas sed tempus urna.Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia caubaeipsum ultrices posuere cubilia",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "600c060a:text",
+							"blockId": "600c060a",
+							"path": "1.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "583507e9:image.url",
+							"blockId": "583507e9",
+							"path": "1.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/santorini_1.jpg",
+							"decorative": false,
+							"width": 387,
+							"height": 580,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "White Greek island house with a blue gate and stairs",
+							"tone": {
+								"grid": [
+									0.54,
+									0.84,
+									0.79,
+									0.54,
+									0.75,
+									0.84,
+									0.56,
+									0.7,
+									0.78
+								],
+								"color": "#b5b3b5"
+							}
+						},
+						{
+							"id": "98a0ece1:image.url",
+							"blockId": "98a0ece1",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/santorini_2.jpg",
+							"decorative": false,
+							"width": 387,
+							"height": 581,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Santorini staircase overlooking the sea",
+							"tone": {
+								"grid": [
+									0.84,
+									0.86,
+									0.64,
+									0.75,
+									0.59,
+									0.57,
+									0.63,
+									0.53,
+									0.46
+								],
+								"color": "#bba294"
+							}
+						}
+					]
+				},
+				{
+					"id": "45e6090f",
+					"index": 2,
+					"path": "2",
+					"group": "45e6090f",
+					"role": "cta",
+					"title": "Popular Destination",
+					"slots": [
+						{
+							"id": "0ce4a81b:text",
+							"blockId": "0ce4a81b",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Popular Destination",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e20b15b7:text",
+							"blockId": "e20b15b7",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ultricies tristique nulla aliquet tortor malesuada fames ac turpis egestas sed tempus urna.Sed porttitor lectus nibh. Vestibulum",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a2bc3dff:text",
+							"blockId": "a2bc3dff",
+							"path": "2.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0a623a93",
+					"index": 3,
+					"path": "3",
+					"group": "0a623a93",
+					"role": "gallery",
+					"title": "Buddhist Tradition",
+					"slots": [
+						{
+							"id": "96d0707e:text",
+							"blockId": "96d0707e",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Buddhist Tradition",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2e26110d:text",
+							"blockId": "2e26110d",
+							"path": "3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "China",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8025e651:text",
+							"blockId": "8025e651",
+							"path": "3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Atuh Beach",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "446a0d8f:text",
+							"blockId": "446a0d8f",
+							"path": "3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Indonesia",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "466e5136:text",
+							"blockId": "466e5136",
+							"path": "3.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mountain Lakes",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e47ee954:text",
+							"blockId": "e47ee954",
+							"path": "3.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Switzerland",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9aa70fd4:text",
+							"blockId": "9aa70fd4",
+							"path": "3.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Autumnal Forest",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "76c3399d:text",
+							"blockId": "76c3399d",
+							"path": "3.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Slovenia",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "443a5f04:image.url",
+							"blockId": "443a5f04",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/asia1.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 500,
+							"orientation": "square",
+							"subject": "place",
+							"description": "White Buddha statue in a tropical garden",
+							"tone": {
+								"grid": [
+									0.25,
+									0.32,
+									0.15,
+									0.16,
+									0.24,
+									0.09,
+									0.25,
+									0.41,
+									0.19
+								],
+								"color": "#4c3726"
+							}
+						},
+						{
+							"id": "f4048ccc:image.url",
+							"blockId": "f4048ccc",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/indonesia.jpg",
+							"decorative": false,
+							"width": 387,
+							"height": 581,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Rocky coastline with a turquoise beach and cliffs",
+							"tone": {
+								"grid": [
+									0.56,
+									0.51,
+									0.45,
+									0.33,
+									0.42,
+									0.46,
+									0.56,
+									0.56,
+									0.59
+								],
+								"color": "#777e85"
+							}
+						},
+						{
+							"id": "6631f983:image.url",
+							"blockId": "6631f983",
+							"path": "3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/switzerlandpng.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 750,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Aerial view of a mountain lake with a forested island",
+							"tone": {
+								"grid": [
+									0.79,
+									0.7,
+									0.58,
+									0.31,
+									0.33,
+									0.25,
+									0.25,
+									0.25,
+									0.15
+								],
+								"color": "#5e6960"
+							}
+						},
+						{
+							"id": "784f78fa:image.url",
+							"blockId": "784f78fa",
+							"path": "3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/slovenia.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 750,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Sunlit green forest with tall trees",
+							"tone": {
+								"grid": [
+									0.64,
+									0.5,
+									0.48,
+									0.46,
+									0.46,
+									0.5,
+									0.24,
+									0.21,
+									0.18
+								],
+								"color": "#5c703b"
+							}
+						}
+					]
+				},
+				{
+					"id": "ce9a6529",
+					"index": 4,
+					"path": "4",
+					"group": "ce9a6529",
+					"role": "cta",
+					"title": "Upcoming Events",
+					"slots": [
+						{
+							"id": "57099d3b:text",
+							"blockId": "57099d3b",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Upcoming Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b42e69e:text",
+							"blockId": "7b42e69e",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ultricies tristique nulla aliquet tortor malesuada fames ac turpis egestas sed tempus urna.Sed porttitor lectus nibh. Vestibulum ac",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0d67ffc2:text",
+							"blockId": "0d67ffc2",
+							"path": "4.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "f0ec2bde",
+					"index": 5,
+					"path": "5",
+					"group": "f0ec2bde",
+					"role": "content",
+					"title": "Hiking Activities",
+					"slots": [
+						{
+							"id": "ac0c7220:text",
+							"blockId": "ac0c7220",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Hiking Activities",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ca0486e3:text",
+							"blockId": "ca0486e3",
+							"path": "5.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4fa0a2c5:text",
+							"blockId": "4fa0a2c5",
+							"path": "5.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Skiing Activities",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d9eb4697:text",
+							"blockId": "d9eb4697",
+							"path": "5.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "ee00382a:image.url",
+							"blockId": "ee00382a",
+							"path": "5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/hiking.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 750,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Hiker standing on a rock overlooking a fjord",
+							"tone": {
+								"grid": [
+									0.74,
+									0.8,
+									0.84,
+									0.49,
+									0.48,
+									0.42,
+									0.57,
+									0.49,
+									0.58
+								],
+								"color": "#859eab"
+							}
+						},
+						{
+							"id": "4912683b:image.url",
+							"blockId": "4912683b",
+							"path": "5.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/skiing.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 889,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Skier jumping in the air over snow",
+							"tone": {
+								"grid": [
+									0.32,
+									0.35,
+									0.41,
+									0.48,
+									0.46,
+									0.61,
+									0.8,
+									0.75,
+									0.78
+								],
+								"color": "#5d97b0"
+							}
+						}
+					]
+				},
+				{
+					"id": "7d83313e",
+					"index": 6,
+					"path": "6",
+					"group": "7d83313e",
+					"role": "cta",
+					"title": "Start Your Adventure Today",
+					"slots": [
+						{
+							"id": "8627a9b7:text",
+							"blockId": "8627a9b7",
+							"path": "6.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Start Your Adventure Today",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "122c7856:text",
+							"blockId": "122c7856",
+							"path": "6.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.Diremit mundi mare undae nunc mixtam tanto sibi",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4d5bc927:text",
+							"blockId": "4d5bc927",
+							"path": "6.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get Started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7d83313e:background.image.image.url",
+							"blockId": "7d83313e",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/CTA.jpg",
+							"decorative": false,
+							"width": 892,
+							"height": 581,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Empty desert highway stretching to the horizon",
+							"tone": {
+								"grid": [
+									0.35,
+									0.34,
+									0.32,
+									0.33,
+									0.28,
+									0.3,
+									0.16,
+									0.14,
+									0.16
+								],
+								"color": "#3a4642"
+							}
+						}
+					]
+				},
+				{
+					"id": "585c20cb",
+					"index": 7,
+					"path": "7",
+					"group": "585c20cb",
+					"role": "gallery",
+					"title": "Trips Gallery",
+					"slots": [
+						{
+							"id": "5ebeeeaf:text",
+							"blockId": "5ebeeeaf",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Trips Gallery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2e06d83b:text",
+							"blockId": "2e06d83b",
+							"path": "7.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ultricies tristique nulla aliquet tortor malesuada fames ac turpis egestas sed tempus urna.Sed porttitor lectus nibh. Vestibulum ante",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "1fb29423:image.url",
+							"blockId": "1fb29423",
+							"path": "7.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/adventure-nepal.jpg",
+							"decorative": false,
+							"width": 465,
+							"height": 581,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Snowy mountain peak above green valleys",
+							"tone": {
+								"grid": [
+									0.27,
+									0.29,
+									0.28,
+									0.35,
+									0.38,
+									0.29,
+									0.17,
+									0.19,
+									0.19
+								],
+								"color": "#29486d"
+							}
+						},
+						{
+							"id": "56fc66d9:image.url",
+							"blockId": "56fc66d9",
+							"path": "7.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/explore-.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 333,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Mountain lake reflecting green hills and peaks",
+							"tone": {
+								"grid": [
+									0.35,
+									0.76,
+									0.63,
+									0.32,
+									0.34,
+									0.31,
+									0.41,
+									0.6,
+									0.52
+								],
+								"color": "#737d5a"
+							}
+						},
+						{
+							"id": "b7ebc4dc:image.url",
+							"blockId": "b7ebc4dc",
+							"path": "7.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/antique-europe.jpg",
+							"decorative": false,
+							"width": 465,
+							"height": 581,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Eiffel Tower reflected in water at dusk",
+							"tone": {
+								"grid": [
+									0.38,
+									0.37,
+									0.36,
+									0.42,
+									0.46,
+									0.39,
+									0.41,
+									0.44,
+									0.37
+								],
+								"color": "#686287"
+							}
+						},
+						{
+							"id": "849de374:image.url",
+							"blockId": "849de374",
+							"path": "7.1.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/12/germany.jpg",
+							"decorative": false,
+							"width": 387,
+							"height": 580,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Medieval half-timbered houses and a clock tower on a cobblestone street",
+							"tone": {
+								"grid": [
+									0.83,
+									0.84,
+									0.88,
+									0.5,
+									0.31,
+									0.53,
+									0.35,
+									0.33,
+									0.33
+								],
+								"color": "#9a8879"
+							}
+						}
+					]
+				},
+				{
+					"id": "3361a41b",
+					"index": 8,
+					"path": "8",
+					"group": "3361a41b",
+					"role": "testimonials",
+					"title": "Client’s Reviews",
+					"slots": [
+						{
+							"id": "df084d10:text",
+							"blockId": "df084d10",
+							"path": "8.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Client’s Reviews",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "df641505",
+					"index": 9,
+					"path": "9",
+					"group": "3361a41b",
+					"role": "testimonials",
+					"title": "James Robinson",
+					"slots": [
+						{
+							"id": "5705d63d:text",
+							"blockId": "5705d63d",
+							"path": "9.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Ultricies tristique nulla iquet tortorm alesuada famescss egestas sedac turpis gestas sedtempus urna.”",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1c539ea2:text",
+							"blockId": "1c539ea2",
+							"path": "9.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "James Robinson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4d552ebd:text",
+							"blockId": "4d552ebd",
+							"path": "9.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "930af3d6:text",
+							"blockId": "930af3d6",
+							"path": "9.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Ultricies tristique nulla iquet tortorm alesuada famescss egestas sedac turpis gestas sedtempus urna.”",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8074516b:text",
+							"blockId": "8074516b",
+							"path": "9.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Olivia Brook",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fdb67708:text",
+							"blockId": "fdb67708",
+							"path": "9.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Blogger",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "906ba093:text",
+							"blockId": "906ba093",
+							"path": "9.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Ultricies tristique nulla iquet tortorm alesuada famescss egestas sedac turpis gestas sedtempus urna.”",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "18bd4730:text",
+							"blockId": "18bd4730",
+							"path": "9.2.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Harry Brook",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "631e3d9c:text",
+							"blockId": "631e3d9c",
+							"path": "9.2.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Blogger",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "03c976e3:image.url",
+							"blockId": "03c976e3",
+							"path": "9.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/testimonial2.jpg",
+							"decorative": false,
+							"width": 250,
+							"height": 250,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling Asian man in a suit and tie",
+							"tone": {
+								"grid": [
+									0.7,
+									0.44,
+									0.61,
+									0.74,
+									0.61,
+									0.63,
+									0.51,
+									0.65,
+									0.29
+								],
+								"color": "#a48f85"
+							}
+						},
+						{
+							"id": "bc5ec4d0:image.url",
+							"blockId": "bc5ec4d0",
+							"path": "9.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/testimonial4.jpg",
+							"decorative": false,
+							"width": 250,
+							"height": 250,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young woman with freckles and a scarf outdoors",
+							"tone": {
+								"grid": [
+									0.5,
+									0.57,
+									0.42,
+									0.47,
+									0.52,
+									0.54,
+									0.5,
+									0.46,
+									0.5
+								],
+								"color": "#9a7a67"
+							}
+						},
+						{
+							"id": "df44e688:image.url",
+							"blockId": "df44e688",
+							"path": "9.2.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/testimonial3.jpg",
+							"decorative": false,
+							"width": 250,
+							"height": 250,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young man in sunglasses outdoors",
+							"tone": {
+								"grid": [
+									0.84,
+									0.64,
+									0.98,
+									0.72,
+									0.53,
+									0.81,
+									0.61,
+									0.68,
+									0.69
+								],
+								"color": "#c5b5b6"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "b40c9132",
+					"role": "hero",
+					"title": "Explore the Colorful World",
+					"sectionIds": [
+						"b40c9132"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b8e97672",
+					"role": "cta",
+					"title": "Experience the Life of Beautiful Santorini",
+					"sectionIds": [
+						"b8e97672"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "45e6090f",
+					"role": "cta",
+					"title": "Popular Destination",
+					"sectionIds": [
+						"45e6090f"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0a623a93",
+					"role": "gallery",
+					"title": "Buddhist Tradition",
+					"sectionIds": [
+						"0a623a93"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ce9a6529",
+					"role": "cta",
+					"title": "Upcoming Events",
+					"sectionIds": [
+						"ce9a6529"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f0ec2bde",
+					"role": "content",
+					"title": "Hiking Activities",
+					"sectionIds": [
+						"f0ec2bde"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7d83313e",
+					"role": "cta",
+					"title": "Start Your Adventure Today",
+					"sectionIds": [
+						"7d83313e"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "585c20cb",
+					"role": "gallery",
+					"title": "Trips Gallery",
+					"sectionIds": [
+						"585c20cb"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3361a41b",
+					"role": "testimonials",
+					"title": "Client’s Reviews",
+					"sectionIds": [
+						"3361a41b",
+						"df641505"
+					],
+					"paths": [
+						"8",
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "ce7e721d",
+					"index": 0,
+					"path": "0",
+					"group": "ce7e721d",
+					"role": "hero",
+					"title": "About Us",
+					"slots": [
+						{
+							"id": "4b1d6897:text",
+							"blockId": "4b1d6897",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "About Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ce7e721d:background.image.image.url",
+							"blockId": "ce7e721d",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/12/Subpage-banner.gif",
+							"decorative": false,
+							"width": 1176,
+							"height": 501,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Snowy mountain range under a night sky",
+							"tone": {
+								"grid": [
+									0.08,
+									0.09,
+									0.09,
+									0.13,
+									0.28,
+									0.11,
+									0.04,
+									0.05,
+									0.04
+								],
+								"color": "#101b27"
+							}
+						}
+					]
+				},
+				{
+					"id": "0f28e895",
+					"index": 1,
+					"path": "1",
+					"group": "0f28e895",
+					"role": "content",
+					"title": "Amazing Adventures",
+					"slots": [
+						{
+							"id": "0a9b0f96:text",
+							"blockId": "0a9b0f96",
+							"path": "1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Amazing Adventures",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d75418b1:text",
+							"blockId": "d75418b1",
+							"path": "1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vestibulum ac diam sit amet quamentum sed sit ametde. tibulum ac diam sit ame",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0755c136:text",
+							"blockId": "0755c136",
+							"path": "1.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Beautiful Locations",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "995710e5:text",
+							"blockId": "995710e5",
+							"path": "1.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vestibulum ac diam sit amet quamentum sed sit ametde. tibulum ac diam sit ame",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "27766131:text",
+							"blockId": "27766131",
+							"path": "1.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Unlimited Fun",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7cef2fc3:text",
+							"blockId": "7cef2fc3",
+							"path": "1.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Vestibulum ac diam sit amet quamentum sed sit ametde. tibulum ac diam sit ame",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "293415d7:image.url",
+							"blockId": "293415d7",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/icon_1dark.png",
+							"decorative": true,
+							"width": 112,
+							"height": 115,
+							"orientation": "square"
+						},
+						{
+							"id": "2456be3a:image.url",
+							"blockId": "2456be3a",
+							"path": "1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/icon_2dark.png",
+							"decorative": true,
+							"width": 117,
+							"height": 115,
+							"orientation": "square"
+						},
+						{
+							"id": "59637a33:image.url",
+							"blockId": "59637a33",
+							"path": "1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/icon_3dark.png",
+							"decorative": true,
+							"width": 113,
+							"height": 116,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "bfd01a92",
+					"index": 2,
+					"path": "2",
+					"group": "bfd01a92",
+					"role": "content",
+					"title": "Who Are We",
+					"slots": [
+						{
+							"id": "977e32e6:text",
+							"blockId": "977e32e6",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Who Are We",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c4fa9a4a:text",
+							"blockId": "c4fa9a4a",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ultricies tristique nulla aliquet tortor malesuada fameacss rpis egestas sed tempus urna.Sed porttitor lectus nibksna Vestibulum ante ipsum primis in faucibus orci luctus etaua ltrices posuere cubilia Ultricies tristique nulla aliquet ortor malesuada fames ac turpis egestas sed tempus urna.Sedp orttitor lectus nibh. Vestibulum ante ipsum primis in cibus orci luctus et ultrices.",
+							"rich": false,
+							"words": 53,
+							"minWords": 32,
+							"maxWords": 67,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9f1f011f:text",
+							"blockId": "9f1f011f",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Porttitor lectus nibh. Vestibulum ante ipsum primis in ibus orci luctus et ultrices posuere cubilia Curae.Ultricies stique nulla aliquet tortor malesuada fames ac turpis egestas sed tempus urna.Sed porttitor lectus nibh. Vestibulum antesm primis in faucibus orci.",
+							"rich": false,
+							"words": 37,
+							"minWords": 22,
+							"maxWords": 47,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "16fd4a81:image.url",
+							"blockId": "16fd4a81",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/who-are-we.jpg",
+							"decorative": false,
+							"width": 1170,
+							"height": 780,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Friends hiking and laughing among rocky mountains",
+							"tone": {
+								"grid": [
+									0.71,
+									0.8,
+									0.5,
+									0.48,
+									0.57,
+									0.59,
+									0.29,
+									0.35,
+									0.4
+								],
+								"color": "#8a8479"
+							}
+						}
+					]
+				},
+				{
+					"id": "347e3910",
+					"index": 3,
+					"path": "3",
+					"group": "347e3910",
+					"role": "content",
+					"title": "Mission and Vision",
+					"slots": [
+						{
+							"id": "efb5ce4a:text",
+							"blockId": "efb5ce4a",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Mission and Vision",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "42d42f89:text",
+							"blockId": "42d42f89",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ultricies tristique nulla aliquet tortor malesuada fameacss rpis egestas sed tempus urna.Sed porttitor lectus nibksna Vestibulum ante ipsum primis in faucibus orci luctus etaua ltrices posuere cubilia Ultricies tristique nulla aliquet ortor malesuada fames ac turpis egestas sed tempus urna.Sedp orttitor lectus nibh. Vestibulum ante ipsum primis in cibus orci luctus et ultrices.",
+							"rich": false,
+							"words": 53,
+							"minWords": 32,
+							"maxWords": 67,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f181d4c8:text",
+							"blockId": "f181d4c8",
+							"path": "3.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Porttitor lectus nibh. Vestibulum ante ipsum primis in ibus orci luctus et ultrices posuere cubilia Curae.Ultricies stique nulla aliquet tortor malesuada fames ac turpis egestas sed tempus",
+							"rich": false,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "347e3910:background.image.image.url",
+							"blockId": "347e3910",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/12/Mission-and-Vision.jpg",
+							"decorative": false,
+							"width": 1200,
+							"height": 800,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Starry night sky above a silhouetted treeline",
+							"tone": {
+								"grid": [
+									0.16,
+									0.14,
+									0.12,
+									0.21,
+									0.18,
+									0.12,
+									0.02,
+									0.01,
+									0
+								],
+								"color": "#1b1a25"
+							}
+						},
+						{
+							"id": "46f49fb6:image.url",
+							"blockId": "46f49fb6",
+							"path": "3.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/our_mission.jpg",
+							"decorative": false,
+							"width": 735,
+							"height": 581,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Travel flat lay with map, camera, backpack, notebook and guidebooks",
+							"tone": {
+								"grid": [
+									0.69,
+									0.66,
+									0.29,
+									0.62,
+									0.71,
+									0.72,
+									0.32,
+									0.82,
+									0.64
+								],
+								"color": "#a19a99"
+							}
+						}
+					]
+				},
+				{
+					"id": "e31d0a5a",
+					"index": 4,
+					"path": "4",
+					"group": "e31d0a5a",
+					"role": "logos",
+					"title": "Our Partners",
+					"slots": [
+						{
+							"id": "e6f7269c:text",
+							"blockId": "e6f7269c",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Partners",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a1dae2f9:image.url",
+							"blockId": "a1dae2f9",
+							"path": "4.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/dark_logo01.png",
+							"decorative": true,
+							"width": 262,
+							"height": 130,
+							"orientation": "landscape"
+						},
+						{
+							"id": "61cc87e4:image.url",
+							"blockId": "61cc87e4",
+							"path": "4.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/dark_logo02.png",
+							"decorative": true,
+							"width": 262,
+							"height": 130,
+							"orientation": "landscape"
+						},
+						{
+							"id": "a076d7ee:image.url",
+							"blockId": "a076d7ee",
+							"path": "4.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/dark_logo4.png",
+							"decorative": true,
+							"width": 262,
+							"height": 130,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ab59a0cc:image.url",
+							"blockId": "ab59a0cc",
+							"path": "4.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/dark_logo3.png",
+							"decorative": true,
+							"width": 262,
+							"height": 130,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "ce7e721d",
+					"role": "hero",
+					"title": "About Us",
+					"sectionIds": [
+						"ce7e721d"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0f28e895",
+					"role": "content",
+					"title": "Amazing Adventures",
+					"sectionIds": [
+						"0f28e895"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "bfd01a92",
+					"role": "content",
+					"title": "Who Are We",
+					"sectionIds": [
+						"bfd01a92"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "347e3910",
+					"role": "content",
+					"title": "Mission and Vision",
+					"sectionIds": [
+						"347e3910"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e31d0a5a",
+					"role": "logos",
+					"title": "Our Partners",
+					"sectionIds": [
+						"e31d0a5a"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "destination",
+			"title": "Destination",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/themegrill-demos/destination-content.xml",
+			"sections": [
+				{
+					"id": "9a4faacb",
+					"index": 0,
+					"path": "0",
+					"group": "9a4faacb",
+					"role": "hero",
+					"title": "Destination",
+					"slots": [
+						{
+							"id": "0b20ed63:text",
+							"blockId": "0b20ed63",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Destination",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "82f1e311",
+					"index": 1,
+					"path": "1",
+					"group": "82f1e311",
+					"role": "content",
+					"title": "Popular Destination",
+					"slots": [
+						{
+							"id": "3121d027:text",
+							"blockId": "3121d027",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Popular Destination",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0ab2ab04",
+					"index": 2,
+					"path": "2",
+					"group": "82f1e311",
+					"role": "features",
+					"title": "Atuh Beach",
+					"slots": [
+						{
+							"id": "6506ecb9:text",
+							"blockId": "6506ecb9",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Atuh Beach",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "98cc6c59:text",
+							"blockId": "98cc6c59",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Indonesia",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b53e8c96:text",
+							"blockId": "b53e8c96",
+							"path": "2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Cherry Blossom",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a7c17355:text",
+							"blockId": "a7c17355",
+							"path": "2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "China",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bd0745e0:text",
+							"blockId": "bd0745e0",
+							"path": "2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Autumnal Forest",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9c600a92:text",
+							"blockId": "9c600a92",
+							"path": "2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Slovenia",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "73799ab6:text",
+							"blockId": "73799ab6",
+							"path": "2.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Mountain Lakes",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9615632e:text",
+							"blockId": "9615632e",
+							"path": "2.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Switzerland",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "68c705e2",
+					"index": 3,
+					"path": "3",
+					"group": "68c705e2",
+					"role": "features",
+					"title": "Swayambhunath",
+					"slots": [
+						{
+							"id": "35e9e353:text",
+							"blockId": "35e9e353",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Swayambhunath",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a27a8d81:text",
+							"blockId": "a27a8d81",
+							"path": "3.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Nepal",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bbdc1119:text",
+							"blockId": "bbdc1119",
+							"path": "3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Jungle Safari",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61868652:text",
+							"blockId": "61868652",
+							"path": "3.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Africa",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "035681a1:text",
+							"blockId": "035681a1",
+							"path": "3.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Kyoto Garden",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f56f6210:text",
+							"blockId": "f56f6210",
+							"path": "3.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Japan",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "018cc795:text",
+							"blockId": "018cc795",
+							"path": "3.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "La Route Des",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2e60735c:text",
+							"blockId": "2e60735c",
+							"path": "3.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "France",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "a085cfa3",
+					"index": 4,
+					"path": "4",
+					"group": "a085cfa3",
+					"role": "content",
+					"title": "Upcoming Events",
+					"slots": [
+						{
+							"id": "6fad60ed:text",
+							"blockId": "6fad60ed",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Upcoming Events",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "007ce9e8",
+					"index": 5,
+					"path": "5",
+					"group": "007ce9e8",
+					"role": "content",
+					"title": "Camping",
+					"slots": [
+						{
+							"id": "f901cd20:text",
+							"blockId": "f901cd20",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Camping",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6316f851:text",
+							"blockId": "6316f851",
+							"path": "5.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5a587d1d:text",
+							"blockId": "5a587d1d",
+							"path": "5.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Mountain Climbing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ca5771d1:text",
+							"blockId": "ca5771d1",
+							"path": "5.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Purabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "69036a21",
+					"index": 6,
+					"path": "6",
+					"group": "69036a21",
+					"role": "content",
+					"title": "Scuba Diving",
+					"slots": [
+						{
+							"id": "72b922ab:text",
+							"blockId": "72b922ab",
+							"path": "6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Scuba Diving",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "93d047a8:text",
+							"blockId": "93d047a8",
+							"path": "6.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Burabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fff1275b:text",
+							"blockId": "fff1275b",
+							"path": "6.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Kayaking",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1624224a:text",
+							"blockId": "1624224a",
+							"path": "6.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Aurabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "9a4faacb",
+					"role": "hero",
+					"title": "Destination",
+					"sectionIds": [
+						"9a4faacb"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "82f1e311",
+					"role": "features",
+					"title": "Popular Destination",
+					"sectionIds": [
+						"82f1e311",
+						"0ab2ab04"
+					],
+					"paths": [
+						"1",
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "68c705e2",
+					"role": "features",
+					"title": "Swayambhunath",
+					"sectionIds": [
+						"68c705e2"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a085cfa3",
+					"role": "content",
+					"title": "Upcoming Events",
+					"sectionIds": [
+						"a085cfa3"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "007ce9e8",
+					"role": "content",
+					"title": "Camping",
+					"sectionIds": [
+						"007ce9e8"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "69036a21",
+					"role": "content",
+					"title": "Scuba Diving",
+					"sectionIds": [
+						"69036a21"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact Us",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "2bb21131",
+					"index": 0,
+					"path": "0",
+					"group": "2bb21131",
+					"role": "hero",
+					"title": "Contact Us",
+					"slots": [
+						{
+							"id": "b6e67e99:text",
+							"blockId": "b6e67e99",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "b196225f",
+					"index": 1,
+					"path": "1",
+					"group": "b196225f",
+					"role": "contact",
+					"title": "Travel",
+					"slots": [
+						{
+							"id": "38cdd7bf:text",
+							"blockId": "38cdd7bf",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Travel",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9036fafa:text",
+							"blockId": "9036fafa",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "456 City Street NY, New York NY 14127, United States of America Phone: +88 5466-584-5544 Email: support@traveller.com",
+							"rich": true,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "2bb21131",
+					"role": "hero",
+					"title": "Contact Us",
+					"sectionIds": [
+						"2bb21131"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b196225f",
+					"role": "contact",
+					"title": "Travel",
+					"sectionIds": [
+						"b196225f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 24,
+		"textSlots": 84,
+		"editableSlots": 83,
+		"images": 28,
+		"swappableImages": 21,
+		"words": 638
+	},
+	"builtAt": "2026-10-24T11:35:07.871Z"
+}

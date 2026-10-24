@@ -1,0 +1,4209 @@
+{
+	"version": 4,
+	"slug": "travel-v2",
+	"name": "Travel V2",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-travel-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/travel-v2",
+	"niches": [
+		"travel",
+		"tourism"
+	],
+	"keywords": [
+		"travel",
+		"trekking",
+		"tours",
+		"adventure travel",
+		"hiking",
+		"tour operator",
+		"travel agency"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#3e3e3e",
+				"count": 52,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 51
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 42,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 29,
+					"background": 7
+				}
+			},
+			{
+				"hex": "#f28705",
+				"count": 27,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f28705",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 25,
+					"background": 2
+				}
+			},
+			{
+				"hex": "#111111",
+				"count": 15,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 14
+				}
+			},
+			{
+				"hex": "#f2911c",
+				"count": 15,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f28705",
+				"lightnessDelta": 0.045,
+				"usage": {
+					"text": 6,
+					"border": 2,
+					"background": 3
+				}
+			},
+			{
+				"hex": "#999999",
+				"count": 13,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 12
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 8,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#f8f8f8",
+				"count": 8,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 8
+				}
+			},
+			{
+				"hex": "#dddddd",
+				"count": 6,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"border": 6
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 4,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#c47617",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f28705",
+				"lightnessDelta": -0.055,
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f3b365",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f28705",
+				"lightnessDelta": 0.19
+			},
+			{
+				"hex": "#0284c7",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0284c7",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 1,
+					"border": 1
+				}
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0284c7",
+				"lightnessDelta": -0.024
+			},
+			{
+				"hex": "#121212",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#2664eb",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#0284c7",
+				"lightnessDelta": 0.141
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#f28705",
+				"bg": "#f8f8f8",
+				"large": true,
+				"count": 15,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f28705",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 10,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f2911c",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#c47617",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f2911c",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#f2911c",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#f2911c",
+				"bg": "#18181b",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f2911c",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "6c051b01",
+					"index": 0,
+					"path": "0",
+					"group": "6c051b01",
+					"role": "hero",
+					"title": "Search less, Travel more !",
+					"slots": [
+						{
+							"id": "697e2017:text",
+							"blockId": "697e2017",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Search less, Travel more !",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a63d0596:text",
+							"blockId": "a63d0596",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Discover amzaing places at exclusive deals",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7821424:text",
+							"blockId": "f7821424",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BOOK NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6c051b01:background.image.image.url",
+							"blockId": "6c051b01",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/hero-image.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 700,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Misty mountain range covered in low clouds",
+							"tone": {
+								"grid": [
+									0.85,
+									0.83,
+									0.9,
+									0.52,
+									0.47,
+									0.62,
+									0.26,
+									0.21,
+									0.21
+								],
+								"color": "#848c8a"
+							}
+						}
+					]
+				},
+				{
+					"id": "63c129fb",
+					"index": 1,
+					"path": "1",
+					"group": "63c129fb",
+					"role": "features",
+					"title": "Awesome Treks",
+					"slots": [
+						{
+							"id": "e56ee59a:text",
+							"blockId": "e56ee59a",
+							"path": "1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Awesome Treks",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "56d2d768:text",
+							"blockId": "56d2d768",
+							"path": "1.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f7800e84:text",
+							"blockId": "f7800e84",
+							"path": "1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Best Price Guaranteed",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "55c62ad7:text",
+							"blockId": "55c62ad7",
+							"path": "1.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "327c0452:text",
+							"blockId": "327c0452",
+							"path": "1.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Customize",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "292daa11:text",
+							"blockId": "292daa11",
+							"path": "1.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "73d604a0:text",
+							"blockId": "73d604a0",
+							"path": "1.3.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Best Hotel in City",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "57430882:text",
+							"blockId": "57430882",
+							"path": "1.3.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "d215d5f1:image.url",
+							"blockId": "d215d5f1",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-1.png",
+							"decorative": true,
+							"width": 108,
+							"height": 97,
+							"orientation": "square"
+						},
+						{
+							"id": "ac5408c6:image.url",
+							"blockId": "ac5408c6",
+							"path": "1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-price.png",
+							"decorative": true,
+							"width": 96,
+							"height": 97,
+							"orientation": "square"
+						},
+						{
+							"id": "96e9eea5:image.url",
+							"blockId": "96e9eea5",
+							"path": "1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-3.png",
+							"decorative": true,
+							"width": 98,
+							"height": 96,
+							"orientation": "square"
+						},
+						{
+							"id": "ffb4fee7:image.url",
+							"blockId": "ffb4fee7",
+							"path": "1.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-hotel.png",
+							"decorative": true,
+							"width": 108,
+							"height": 96,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "6dd3a761",
+					"index": 2,
+					"path": "2",
+					"group": "6dd3a761",
+					"role": "features",
+					"title": "Top Destinations",
+					"slots": [
+						{
+							"id": "7ee3b13d:text",
+							"blockId": "7ee3b13d",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Top Destinations",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5dce7e74:text",
+							"blockId": "5dce7e74",
+							"path": "2.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magnaundefined",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fef20e05:text",
+							"blockId": "fef20e05",
+							"path": "2.0.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Paris",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9fbcc8c:text",
+							"blockId": "a9fbcc8c",
+							"path": "2.0.1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Eifel Tower",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ccab68b9:text",
+							"blockId": "ccab68b9",
+							"path": "2.0.1.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "830fc7ff:text",
+							"blockId": "830fc7ff",
+							"path": "2.0.1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Russia",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "da1d1283:text",
+							"blockId": "da1d1283",
+							"path": "2.0.1.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Saint Pertersbug",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4a212e51:text",
+							"blockId": "4a212e51",
+							"path": "2.0.1.1.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5a68e603:text",
+							"blockId": "5a68e603",
+							"path": "2.0.1.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Japan",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "825a6035:text",
+							"blockId": "825a6035",
+							"path": "2.0.1.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Nara",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "31210000:text",
+							"blockId": "31210000",
+							"path": "2.0.1.2.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c6a710c8:text",
+							"blockId": "c6a710c8",
+							"path": "2.0.2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Nepal",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "27542da1:text",
+							"blockId": "27542da1",
+							"path": "2.0.2.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Manang",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ef3be6fe:text",
+							"blockId": "ef3be6fe",
+							"path": "2.0.2.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "db7e6417:text",
+							"blockId": "db7e6417",
+							"path": "2.0.2.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Greece",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae4a58f9:text",
+							"blockId": "ae4a58f9",
+							"path": "2.0.2.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Oia",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11b044c0:text",
+							"blockId": "11b044c0",
+							"path": "2.0.2.1.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "32e59e2c:text",
+							"blockId": "32e59e2c",
+							"path": "2.0.2.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Italy",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dc3f2e2c:text",
+							"blockId": "dc3f2e2c",
+							"path": "2.0.2.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Colosseo",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "635cbac5:text",
+							"blockId": "635cbac5",
+							"path": "2.0.2.2.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "edcbc811:text",
+							"blockId": "edcbc811",
+							"path": "2.0.3.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "DISCOVER MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e5a7f2ed:image.url",
+							"blockId": "e5a7f2ed",
+							"path": "2.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-1.png",
+							"decorative": false
+						},
+						{
+							"id": "193b882e:image.url",
+							"blockId": "193b882e",
+							"path": "2.0.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-2.png",
+							"decorative": false
+						},
+						{
+							"id": "3f9eaefb:image.url",
+							"blockId": "3f9eaefb",
+							"path": "2.0.1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-3.png",
+							"decorative": false
+						},
+						{
+							"id": "947f7f6a:image.url",
+							"blockId": "947f7f6a",
+							"path": "2.0.2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-4.png",
+							"decorative": false
+						},
+						{
+							"id": "a566902a:image.url",
+							"blockId": "a566902a",
+							"path": "2.0.2.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-5.png",
+							"decorative": false
+						},
+						{
+							"id": "2b27e1fd:image.url",
+							"blockId": "2b27e1fd",
+							"path": "2.0.2.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-6.png",
+							"decorative": false
+						}
+					]
+				},
+				{
+					"id": "bd7f03c0",
+					"index": 3,
+					"path": "3",
+					"group": "bd7f03c0",
+					"role": "content",
+					"title": "Activities & Things to do",
+					"slots": [
+						{
+							"id": "5c970784:text",
+							"blockId": "5c970784",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Activities & Things to do",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c0c364b:text",
+							"blockId": "4c0c364b",
+							"path": "3.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magnaundefined",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6dcf286d:text",
+							"blockId": "6dcf286d",
+							"path": "3.0.1.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Romantic",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e5c57339:text",
+							"blockId": "e5c57339",
+							"path": "3.0.1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Skydiving",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "30ec02e0:text",
+							"blockId": "30ec02e0",
+							"path": "3.0.1.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Boating",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cce1de16:text",
+							"blockId": "cce1de16",
+							"path": "3.0.2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Whale & Dolphin Watching",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "77a35f30:text",
+							"blockId": "77a35f30",
+							"path": "3.0.2.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Safari",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5504c822:text",
+							"blockId": "5504c822",
+							"path": "3.0.2.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Cultural Tours",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "da93d359:text",
+							"blockId": "da93d359",
+							"path": "3.0.3.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "EXPLORE MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "cc8b20c5:background.image.image.url",
+							"blockId": "cc8b20c5",
+							"path": "3.0.1.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/man-and-woman-kissing-1467601.png",
+							"decorative": false,
+							"width": 447,
+							"height": 447,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Young couple kissing outdoors in a tropical forest, woman in a sun hat",
+							"tone": {
+								"grid": [
+									0.74,
+									0.59,
+									0.54,
+									0.58,
+									0.51,
+									0.37,
+									0.51,
+									0.65,
+									0.36
+								],
+								"color": "#9b876b"
+							}
+						},
+						{
+							"id": "86468c07:background.image.image.url",
+							"blockId": "86468c07",
+							"path": "3.0.1.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/tandem-2764760_1920.png",
+							"decorative": false,
+							"width": 447,
+							"height": 447,
+							"orientation": "square",
+							"subject": "group",
+							"description": "Two skydivers in tandem freefall above the clouds giving thumbs up",
+							"tone": {
+								"grid": [
+									0.22,
+									0.19,
+									0.3,
+									0.36,
+									0.26,
+									0.59,
+									0.71,
+									0.71,
+									0.65
+								],
+								"color": "#5e7490"
+							}
+						},
+						{
+							"id": "f84ffbc5:background.image.image.url",
+							"blockId": "f84ffbc5",
+							"path": "3.0.1.2.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/photo-of-woman-sitting-on-boat-spreading-her-arms-1371360.png",
+							"decorative": false,
+							"width": 447,
+							"height": 448,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman with a camera sitting on a longtail boat bow, arms outstretched",
+							"tone": {
+								"grid": [
+									0.33,
+									0.53,
+									0.47,
+									0.35,
+									0.44,
+									0.3,
+									0.63,
+									0.38,
+									0.53
+								],
+								"color": "#737064"
+							}
+						},
+						{
+							"id": "6ded4bc3:background.image.image.url",
+							"blockId": "6ded4bc3",
+							"path": "3.0.2.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/swimming-dolphins-2347462.png",
+							"decorative": false,
+							"width": 447,
+							"height": 447,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Dolphins leaping through ocean waves",
+							"tone": {
+								"grid": [
+									0.47,
+									0.54,
+									0.47,
+									0.55,
+									0.5,
+									0.59,
+									0.29,
+									0.31,
+									0.43
+								],
+								"color": "#557c96"
+							}
+						},
+						{
+							"id": "60d731b5:background.image.image.url",
+							"blockId": "60d731b5",
+							"path": "3.0.2.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/zebras-on-zebra-247376.png",
+							"decorative": false,
+							"width": 447,
+							"height": 447,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Two zebras standing together in green grass",
+							"tone": {
+								"grid": [
+									0.56,
+									0.66,
+									0.61,
+									0.55,
+									0.3,
+									0.6,
+									0.51,
+									0.53,
+									0.6
+								],
+								"color": "#889251"
+							}
+						},
+						{
+							"id": "92725117:background.image.image.url",
+							"blockId": "92725117",
+							"path": "3.0.2.2.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/shallow-focus-photography-of-person-wearing-multicolored-1186116.png",
+							"decorative": false,
+							"width": 447,
+							"height": 447,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Festival dancer in a colorful feathered costume smiling",
+							"tone": {
+								"grid": [
+									0.76,
+									0.69,
+									0.73,
+									0.7,
+									0.59,
+									0.72,
+									0.49,
+									0.46,
+									0.34
+								],
+								"color": "#b0988b"
+							}
+						}
+					]
+				},
+				{
+					"id": "a63d1d7e",
+					"index": 4,
+					"path": "4",
+					"group": "a63d1d7e",
+					"role": "cta",
+					"title": "Martin Buber",
+					"slots": [
+						{
+							"id": "f2bfc6bf:text",
+							"blockId": "f2bfc6bf",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Martin Buber",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7c6ccff6:text",
+							"blockId": "7c6ccff6",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "All journeys have secret destinations of which the traveler is unaware.",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa1ee929:text",
+							"blockId": "aa1ee929",
+							"path": "4.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BOOK NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a63d1d7e:background.image.image.url",
+							"blockId": "a63d1d7e",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/gallery-image.png",
+							"decorative": true,
+							"width": 1920,
+							"height": 575,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "64b5ee45",
+					"index": 5,
+					"path": "5",
+					"group": "64b5ee45",
+					"role": "features",
+					"title": "Travel Stories",
+					"slots": [
+						{
+							"id": "02c2e80a:text",
+							"blockId": "02c2e80a",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Travel Stories",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "14f797e7:text",
+							"blockId": "14f797e7",
+							"path": "5.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magnaundefined",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d803737d:text",
+							"blockId": "d803737d",
+							"path": "5.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Cool Summer",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4e5c06b6:text",
+							"blockId": "4e5c06b6",
+							"path": "5.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit am…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0d7139b2:text",
+							"blockId": "0d7139b2",
+							"path": "5.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Just pack your back go to Travel",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1e38e6ca:text",
+							"blockId": "1e38e6ca",
+							"path": "5.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit am…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "86d16d98:text",
+							"blockId": "86d16d98",
+							"path": "5.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "The Best Place To Travel in 2020",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4aee2ca3:text",
+							"blockId": "4aee2ca3",
+							"path": "5.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit am…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "351403ad:text",
+							"blockId": "351403ad",
+							"path": "5.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "The Best Place To Travel in 2020",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c55ec5e:text",
+							"blockId": "1c55ec5e",
+							"path": "5.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit am…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "75a30838:text",
+							"blockId": "75a30838",
+							"path": "5.0.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "The Best Place To Travel in 2020",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "70e0637b:text",
+							"blockId": "70e0637b",
+							"path": "5.0.2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit am…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e08e7fa8:text",
+							"blockId": "e08e7fa8",
+							"path": "5.0.2.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "The Best Place To Travel in 2020",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "40525e30:text",
+							"blockId": "40525e30",
+							"path": "5.0.2.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit am…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "d2c97c07:background.image.image.url",
+							"blockId": "d2c97c07",
+							"path": "5.0.1.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/travel-img1.png",
+							"decorative": false,
+							"width": 1043,
+							"height": 400,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Surfer riding inside a large turquoise ocean wave",
+							"tone": {
+								"grid": [
+									0.5,
+									0.44,
+									0.38,
+									0.4,
+									0.34,
+									0.34,
+									0.44,
+									0.4,
+									0.37
+								],
+								"color": "#2b757d"
+							}
+						},
+						{
+							"id": "e9037846:background.image.image.url",
+							"blockId": "e9037846",
+							"path": "5.0.1.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/travel-img2.png",
+							"decorative": false,
+							"width": 328,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Happy woman in a hat waving beside a vintage car with suitcases",
+							"tone": {
+								"grid": [
+									0.42,
+									0.43,
+									0.18,
+									0.52,
+									0.44,
+									0.29,
+									0.22,
+									0.32,
+									0.31
+								],
+								"color": "#675646"
+							}
+						},
+						{
+							"id": "18884f68:background.image.image.url",
+							"blockId": "18884f68",
+							"path": "5.0.2.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/travel-img3.png",
+							"decorative": false,
+							"width": 328,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Machu Picchu ruins and mountain peak with yellow flowers in front",
+							"tone": {
+								"grid": [
+									0.73,
+									0.66,
+									0.7,
+									0.16,
+									0.24,
+									0.15,
+									0.19,
+									0.24,
+									0.26
+								],
+								"color": "#615f4c"
+							}
+						},
+						{
+							"id": "ff965849:background.image.image.url",
+							"blockId": "ff965849",
+							"path": "5.0.2.1",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/travel-img4.png",
+							"decorative": false,
+							"width": 328,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Crowd of people covered in colored powder at a Holi festival",
+							"tone": {
+								"grid": [
+									0.22,
+									0.3,
+									0.36,
+									0.19,
+									0.27,
+									0.18,
+									0.13,
+									0.17,
+									0.12
+								],
+								"color": "#6a2a1e"
+							}
+						},
+						{
+							"id": "68dd2b42:background.image.image.url",
+							"blockId": "68dd2b42",
+							"path": "5.0.2.2",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/travel-img5.png",
+							"decorative": false,
+							"width": 328,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Person sitting at the end of a wooden pier on a mountain lake",
+							"tone": {
+								"grid": [
+									0.59,
+									0.75,
+									0.82,
+									0.18,
+									0.4,
+									0.47,
+									0.18,
+									0.28,
+									0.33
+								],
+								"color": "#647576"
+							}
+						},
+						{
+							"id": "5dd49726:background.image.image.url",
+							"blockId": "5dd49726",
+							"path": "5.0.2.3",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/travel-img6.png",
+							"decorative": false,
+							"width": 328,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Boat wake on the sea with a coastal town in the distance",
+							"tone": {
+								"grid": [
+									0.63,
+									0.74,
+									0.82,
+									0.23,
+									0.44,
+									0.62,
+									0.15,
+									0.44,
+									0.32
+								],
+								"color": "#797d7f"
+							}
+						}
+					]
+				},
+				{
+					"id": "20164df6",
+					"index": 6,
+					"path": "6",
+					"group": "20164df6",
+					"role": "posts",
+					"title": "Travel Blog",
+					"slots": [
+						{
+							"id": "909cc5b0:text",
+							"blockId": "909cc5b0",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Travel Blog",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0fa6822b:text",
+							"blockId": "0fa6822b",
+							"path": "6.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magnaundefined",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6ec2bf16:text",
+							"blockId": "6ec2bf16",
+							"path": "6.0.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Travel Guide",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0079372b:text",
+							"blockId": "0079372b",
+							"path": "6.0.1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Top 5 Travel Destinations For Families & Friends",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4fc267a9:text",
+							"blockId": "4fc267a9",
+							"path": "6.0.1.0.0.0.3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "By Travelroute",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba960ac6:text",
+							"blockId": "ba960ac6",
+							"path": "6.0.1.0.0.0.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Posted on Nov 1, 2020",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f88db609:text",
+							"blockId": "f88db609",
+							"path": "6.0.1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Tour Of the Moment",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "48693792:text",
+							"blockId": "48693792",
+							"path": "6.0.1.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Beautiful Greece Tour for 9 days 8 nights",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c626bfdb:text",
+							"blockId": "c626bfdb",
+							"path": "6.0.1.1.0.0.3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "By Travelroute",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f9d8fd47:text",
+							"blockId": "f9d8fd47",
+							"path": "6.0.1.1.0.0.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Posted on Nov 1, 2020",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5c40d1fd:text",
+							"blockId": "5c40d1fd",
+							"path": "6.0.1.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Travel Guide",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d14c90f6:text",
+							"blockId": "d14c90f6",
+							"path": "6.0.1.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Top 5 Travel Destinations For Families & Friends",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "892b8070:text",
+							"blockId": "892b8070",
+							"path": "6.0.1.2.0.0.3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "By Travelroute",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3cb52b71:text",
+							"blockId": "3cb52b71",
+							"path": "6.0.1.2.0.0.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Posted on Nov 1, 2020",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f37c5629:image.url",
+							"blockId": "f37c5629",
+							"path": "6.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/blog-1.png",
+							"decorative": false,
+							"width": 447,
+							"height": 325,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Hiker with a backpack sitting on a cliff watching the sunset over mountains",
+							"tone": {
+								"grid": [
+									0.82,
+									0.78,
+									0.7,
+									0.73,
+									0.71,
+									0.54,
+									0.2,
+									0.21,
+									0.12
+								],
+								"color": "#a48271"
+							}
+						},
+						{
+							"id": "965bcfa6:image.url",
+							"blockId": "965bcfa6",
+							"path": "6.0.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/blog-2.png",
+							"decorative": false,
+							"width": 447,
+							"height": 325,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Wooden cabin on a mountain lake with forested peaks",
+							"tone": {
+								"grid": [
+									0.49,
+									0.46,
+									0.32,
+									0.43,
+									0.33,
+									0.14,
+									0.35,
+									0.26,
+									0.19
+								],
+								"color": "#4b5757"
+							}
+						},
+						{
+							"id": "c8c5c8e5:image.url",
+							"blockId": "c8c5c8e5",
+							"path": "6.0.1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/blog-3-1.png",
+							"decorative": false,
+							"width": 447,
+							"height": 325,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Hiker with a backpack looking at a volcano across green hills",
+							"tone": {
+								"grid": [
+									0.6,
+									0.74,
+									0.74,
+									0.63,
+									0.63,
+									0.79,
+									0.34,
+									0.32,
+									0.32
+								],
+								"color": "#7d959e"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "6c051b01",
+					"role": "hero",
+					"title": "Search less, Travel more !",
+					"sectionIds": [
+						"6c051b01"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "63c129fb",
+					"role": "features",
+					"title": "Awesome Treks",
+					"sectionIds": [
+						"63c129fb"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6dd3a761",
+					"role": "features",
+					"title": "Top Destinations",
+					"sectionIds": [
+						"6dd3a761"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "bd7f03c0",
+					"role": "content",
+					"title": "Activities & Things to do",
+					"sectionIds": [
+						"bd7f03c0"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a63d1d7e",
+					"role": "cta",
+					"title": "Martin Buber",
+					"sectionIds": [
+						"a63d1d7e"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "64b5ee45",
+					"role": "features",
+					"title": "Travel Stories",
+					"sectionIds": [
+						"64b5ee45"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "20164df6",
+					"role": "posts",
+					"title": "Travel Blog",
+					"sectionIds": [
+						"20164df6"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "destinations",
+			"title": "Destinations",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/themegrill-demos/destinations-content.xml",
+			"sections": [
+				{
+					"id": "6dd3a761",
+					"index": 0,
+					"path": "0",
+					"group": "6dd3a761",
+					"role": "hero",
+					"title": "Top Destinations",
+					"slots": [
+						{
+							"id": "7ee3b13d:text",
+							"blockId": "7ee3b13d",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Top Destinations",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5dce7e74:text",
+							"blockId": "5dce7e74",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magnaundefined",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fef20e05:text",
+							"blockId": "fef20e05",
+							"path": "0.0.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Paris",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9fbcc8c:text",
+							"blockId": "a9fbcc8c",
+							"path": "0.0.1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Eifel Tower",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ccab68b9:text",
+							"blockId": "ccab68b9",
+							"path": "0.0.1.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "830fc7ff:text",
+							"blockId": "830fc7ff",
+							"path": "0.0.1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Russia",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "da1d1283:text",
+							"blockId": "da1d1283",
+							"path": "0.0.1.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Saint Pertersbug",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4a212e51:text",
+							"blockId": "4a212e51",
+							"path": "0.0.1.1.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5a68e603:text",
+							"blockId": "5a68e603",
+							"path": "0.0.1.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Japan",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "825a6035:text",
+							"blockId": "825a6035",
+							"path": "0.0.1.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Nara",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "31210000:text",
+							"blockId": "31210000",
+							"path": "0.0.1.2.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c6a710c8:text",
+							"blockId": "c6a710c8",
+							"path": "0.0.2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Nepal",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "27542da1:text",
+							"blockId": "27542da1",
+							"path": "0.0.2.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Manang",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ef3be6fe:text",
+							"blockId": "ef3be6fe",
+							"path": "0.0.2.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "db7e6417:text",
+							"blockId": "db7e6417",
+							"path": "0.0.2.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Greece",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae4a58f9:text",
+							"blockId": "ae4a58f9",
+							"path": "0.0.2.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Oia",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11b044c0:text",
+							"blockId": "11b044c0",
+							"path": "0.0.2.1.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "32e59e2c:text",
+							"blockId": "32e59e2c",
+							"path": "0.0.2.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Italy",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dc3f2e2c:text",
+							"blockId": "dc3f2e2c",
+							"path": "0.0.2.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Colosseo",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "635cbac5:text",
+							"blockId": "635cbac5",
+							"path": "0.0.2.2.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "bb1b0d9a:text",
+							"blockId": "bb1b0d9a",
+							"path": "0.0.3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Nepal",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c3bbc629:text",
+							"blockId": "c3bbc629",
+							"path": "0.0.3.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Muktinath",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2d8da7ea:text",
+							"blockId": "2d8da7ea",
+							"path": "0.0.3.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b898650e:text",
+							"blockId": "b898650e",
+							"path": "0.0.3.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Australia",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "acb3c8e9:text",
+							"blockId": "acb3c8e9",
+							"path": "0.0.3.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Sydney Opera House",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "491b78bb:text",
+							"blockId": "491b78bb",
+							"path": "0.0.3.1.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d4245473:text",
+							"blockId": "d4245473",
+							"path": "0.0.3.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Africa",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4d8e1898:text",
+							"blockId": "4d8e1898",
+							"path": "0.0.3.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Tsavo East National Park",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8854ba7c:text",
+							"blockId": "8854ba7c",
+							"path": "0.0.3.2.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam…",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "e5a7f2ed:image.url",
+							"blockId": "e5a7f2ed",
+							"path": "0.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-1.png",
+							"decorative": false
+						},
+						{
+							"id": "193b882e:image.url",
+							"blockId": "193b882e",
+							"path": "0.0.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-2.png",
+							"decorative": false
+						},
+						{
+							"id": "3f9eaefb:image.url",
+							"blockId": "3f9eaefb",
+							"path": "0.0.1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-3.png",
+							"decorative": false
+						},
+						{
+							"id": "947f7f6a:image.url",
+							"blockId": "947f7f6a",
+							"path": "0.0.2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-4.png",
+							"decorative": false
+						},
+						{
+							"id": "a566902a:image.url",
+							"blockId": "a566902a",
+							"path": "0.0.2.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-5.png",
+							"decorative": false
+						},
+						{
+							"id": "2b27e1fd:image.url",
+							"blockId": "2b27e1fd",
+							"path": "0.0.2.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-travel/wp-content/uploads/2023/09/destination-6.png",
+							"decorative": false
+						},
+						{
+							"id": "abca92c2:image.url",
+							"blockId": "abca92c2",
+							"path": "0.0.3.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/destination-7-1.png",
+							"decorative": false,
+							"width": 447,
+							"height": 307,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Backpacker hiking a rocky trail through a mountain valley",
+							"tone": {
+								"grid": [
+									0.67,
+									0.74,
+									0.62,
+									0.49,
+									0.66,
+									0.58,
+									0.41,
+									0.64,
+									0.55
+								],
+								"color": "#9199a2"
+							}
+						},
+						{
+							"id": "829b21dd:image.url",
+							"blockId": "829b21dd",
+							"path": "0.0.3.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/destination-8.png",
+							"decorative": false,
+							"width": 447,
+							"height": 307,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Sydney Opera House lit up at sunset over the harbor",
+							"tone": {
+								"grid": [
+									0.51,
+									0.56,
+									0.51,
+									0.59,
+									0.37,
+									0.49,
+									0.65,
+									0.42,
+									0.57
+								],
+								"color": "#ab7a79"
+							}
+						},
+						{
+							"id": "4c037d58:image.url",
+							"blockId": "4c037d58",
+							"path": "0.0.3.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/destination-9-1.png",
+							"decorative": false,
+							"width": 447,
+							"height": 307,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Lone acacia tree on the savanna at sunset",
+							"tone": {
+								"grid": [
+									0.74,
+									0.77,
+									0.64,
+									0.46,
+									0.47,
+									0.32,
+									0.16,
+									0.19,
+									0.15
+								],
+								"color": "#91674c"
+							}
+						}
+					]
+				},
+				{
+					"id": "12507d8e",
+					"index": 1,
+					"path": "1",
+					"group": "12507d8e",
+					"role": "cta",
+					"title": "Martin Buber",
+					"slots": [
+						{
+							"id": "241e201b:text",
+							"blockId": "241e201b",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Martin Buber",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ba08466:text",
+							"blockId": "5ba08466",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "All journeys have secret destinations of which the traveler is unaware.",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa1ee929:text",
+							"blockId": "aa1ee929",
+							"path": "1.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BOOK NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "12507d8e:background.image.image.url",
+							"blockId": "12507d8e",
+							"path": "1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/gallery-image.png",
+							"decorative": true,
+							"width": 1920,
+							"height": 575,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "3352de91",
+					"index": 2,
+					"path": "2",
+					"group": "3352de91",
+					"role": "posts",
+					"title": "Travel Blog",
+					"slots": [
+						{
+							"id": "6ce1fc4c:text",
+							"blockId": "6ce1fc4c",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Travel Blog",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ef080d22:text",
+							"blockId": "ef080d22",
+							"path": "2.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magnaundefined",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e4472a97:text",
+							"blockId": "e4472a97",
+							"path": "2.0.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Travel Guide",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36d3d698:text",
+							"blockId": "36d3d698",
+							"path": "2.0.1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Top 5 Travel Destinations For Families & Friends",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4fc267a9:text",
+							"blockId": "4fc267a9",
+							"path": "2.0.1.0.0.0.3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "By Travelroute",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba960ac6:text",
+							"blockId": "ba960ac6",
+							"path": "2.0.1.0.0.0.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Posted on Nov 1, 2020",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2f63c1b8:text",
+							"blockId": "2f63c1b8",
+							"path": "2.0.1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Tour Of the Moment",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ebdf739:text",
+							"blockId": "8ebdf739",
+							"path": "2.0.1.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Beautiful Greece Tour for 9 days 8 nights",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c626bfdb:text",
+							"blockId": "c626bfdb",
+							"path": "2.0.1.1.0.0.3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "By Travelroute",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f9d8fd47:text",
+							"blockId": "f9d8fd47",
+							"path": "2.0.1.1.0.0.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Posted on Nov 1, 2020",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3ed1406b:text",
+							"blockId": "3ed1406b",
+							"path": "2.0.1.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Travel Guide",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "12b6c93e:text",
+							"blockId": "12b6c93e",
+							"path": "2.0.1.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Top 5 Travel Destinations For Families & Friends",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "892b8070:text",
+							"blockId": "892b8070",
+							"path": "2.0.1.2.0.0.3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "By Travelroute",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3cb52b71:text",
+							"blockId": "3cb52b71",
+							"path": "2.0.1.2.0.0.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Posted on Nov 1, 2020",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b727cff3:image.url",
+							"blockId": "b727cff3",
+							"path": "2.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/blog-1.png",
+							"decorative": false,
+							"width": 447,
+							"height": 325,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Hiker with a backpack sitting on a cliff watching the sunset over mountains",
+							"tone": {
+								"grid": [
+									0.82,
+									0.78,
+									0.7,
+									0.73,
+									0.71,
+									0.54,
+									0.2,
+									0.21,
+									0.12
+								],
+								"color": "#a48271"
+							}
+						},
+						{
+							"id": "9caefdf6:image.url",
+							"blockId": "9caefdf6",
+							"path": "2.0.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/blog-2.png",
+							"decorative": false,
+							"width": 447,
+							"height": 325,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Wooden cabin on a mountain lake with forested peaks",
+							"tone": {
+								"grid": [
+									0.49,
+									0.46,
+									0.32,
+									0.43,
+									0.33,
+									0.14,
+									0.35,
+									0.26,
+									0.19
+								],
+								"color": "#4b5757"
+							}
+						},
+						{
+							"id": "bb7a0884:image.url",
+							"blockId": "bb7a0884",
+							"path": "2.0.1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/blog-3.png",
+							"decorative": false,
+							"width": 447,
+							"height": 325,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Hiker with a backpack standing on a grassy hill facing a volcano",
+							"tone": {
+								"grid": [
+									0.6,
+									0.74,
+									0.74,
+									0.63,
+									0.63,
+									0.79,
+									0.34,
+									0.32,
+									0.32
+								],
+								"color": "#7d959e"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "6dd3a761",
+					"role": "hero",
+					"title": "Top Destinations",
+					"sectionIds": [
+						"6dd3a761"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "12507d8e",
+					"role": "cta",
+					"title": "Martin Buber",
+					"sectionIds": [
+						"12507d8e"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "3352de91",
+					"role": "posts",
+					"title": "Travel Blog",
+					"sectionIds": [
+						"3352de91"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "5f1adf5b",
+					"index": 0,
+					"path": "0",
+					"group": "5f1adf5b",
+					"role": "hero",
+					"title": "Know Who We Are",
+					"slots": [
+						{
+							"id": "d5529d57:text",
+							"blockId": "d5529d57",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Know Who We Are",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fca1cdd4:text",
+							"blockId": "fca1cdd4",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.",
+							"rich": false,
+							"words": 47,
+							"minWords": 28,
+							"maxWords": 59,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "01c486c8:text",
+							"blockId": "01c486c8",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure.",
+							"rich": false,
+							"words": 119,
+							"minWords": 71,
+							"maxWords": 149,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "63c129fb",
+					"index": 1,
+					"path": "1",
+					"group": "63c129fb",
+					"role": "features",
+					"title": "Awesome Treks",
+					"slots": [
+						{
+							"id": "e56ee59a:text",
+							"blockId": "e56ee59a",
+							"path": "1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Awesome Treks",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "56d2d768:text",
+							"blockId": "56d2d768",
+							"path": "1.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f7800e84:text",
+							"blockId": "f7800e84",
+							"path": "1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Best Price Guaranteed",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "55c62ad7:text",
+							"blockId": "55c62ad7",
+							"path": "1.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "327c0452:text",
+							"blockId": "327c0452",
+							"path": "1.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Customize",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "292daa11:text",
+							"blockId": "292daa11",
+							"path": "1.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "73d604a0:text",
+							"blockId": "73d604a0",
+							"path": "1.3.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Best Hotel in City",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "57430882:text",
+							"blockId": "57430882",
+							"path": "1.3.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "d215d5f1:image.url",
+							"blockId": "d215d5f1",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-1.png",
+							"decorative": true,
+							"width": 108,
+							"height": 97,
+							"orientation": "square"
+						},
+						{
+							"id": "ac5408c6:image.url",
+							"blockId": "ac5408c6",
+							"path": "1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-price.png",
+							"decorative": true,
+							"width": 96,
+							"height": 97,
+							"orientation": "square"
+						},
+						{
+							"id": "96e9eea5:image.url",
+							"blockId": "96e9eea5",
+							"path": "1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-3.png",
+							"decorative": true,
+							"width": 98,
+							"height": 96,
+							"orientation": "square"
+						},
+						{
+							"id": "ffb4fee7:image.url",
+							"blockId": "ffb4fee7",
+							"path": "1.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-hotel.png",
+							"decorative": true,
+							"width": 108,
+							"height": 96,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "0ab6418f",
+					"index": 2,
+					"path": "2",
+					"group": "0ab6418f",
+					"role": "cta",
+					"title": "Our Team",
+					"slots": [
+						{
+							"id": "060c27d5:text",
+							"blockId": "060c27d5",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Team",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "46a9d673:text",
+							"blockId": "46a9d673",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itselfundefined",
+							"rich": false,
+							"words": 55,
+							"minWords": 33,
+							"maxWords": 69,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "edcbc811:text",
+							"blockId": "edcbc811",
+							"path": "2.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "CONTACT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0ab6418f:background.image.image.url",
+							"blockId": "0ab6418f",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/team-bg-1.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 595,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "City skyline with skyscrapers along a river",
+							"tone": {
+								"grid": [
+									0.81,
+									0.93,
+									0.78,
+									0.58,
+									0.63,
+									0.54,
+									0.36,
+									0.44,
+									0.38
+								],
+								"color": "#909ca8"
+							}
+						}
+					]
+				},
+				{
+					"id": "b058b303",
+					"index": 3,
+					"path": "3",
+					"group": "b058b303",
+					"role": "features",
+					"title": "Client Hessel",
+					"slots": [
+						{
+							"id": "80c47b82:text",
+							"blockId": "80c47b82",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Client Hessel",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "006db1f5:text",
+							"blockId": "006db1f5",
+							"path": "3.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Founder",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3bd05079:text",
+							"blockId": "3bd05079",
+							"path": "3.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praisingundefined",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e903afc:text",
+							"blockId": "0e903afc",
+							"path": "3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Ludie Homenick",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8f9635f6:text",
+							"blockId": "8f9635f6",
+							"path": "3.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Co-Founder",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fad6b987:text",
+							"blockId": "fad6b987",
+							"path": "3.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praisingundefined",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d9ed0fd2:text",
+							"blockId": "d9ed0fd2",
+							"path": "3.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Porter Hane",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "02d43358:text",
+							"blockId": "02d43358",
+							"path": "3.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Marketing Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3d0c3494:text",
+							"blockId": "3d0c3494",
+							"path": "3.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praisingundefined",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c87ff1dd:text",
+							"blockId": "c87ff1dd",
+							"path": "3.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Earnestine Harvey",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c41cf56b:text",
+							"blockId": "c41cf56b",
+							"path": "3.3.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Customer Care",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "75abb5d4:text",
+							"blockId": "75abb5d4",
+							"path": "3.3.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "But I must explain to you how all this mistaken idea of denouncing pleasure and praisingundefined",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7d23ee7e:image.url",
+							"blockId": "7d23ee7e",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/team-1-1.png",
+							"decorative": false,
+							"width": 328,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Close-up portrait of a young woman with long brown hair",
+							"tone": {
+								"grid": [
+									0.79,
+									0.54,
+									0.85,
+									0.65,
+									0.62,
+									0.81,
+									0.55,
+									0.59,
+									0.74
+								],
+								"color": "#c2aaa2"
+							}
+						},
+						{
+							"id": "d4117928:image.url",
+							"blockId": "d4117928",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/team-2.png",
+							"decorative": false,
+							"width": 328,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling bearded man in a dark turtleneck sweater",
+							"tone": {
+								"grid": [
+									0.83,
+									0.64,
+									0.81,
+									0.8,
+									0.58,
+									0.77,
+									0.56,
+									0.27,
+									0.41
+								],
+								"color": "#aa9e9d"
+							}
+						},
+						{
+							"id": "95647a4c:image.url",
+							"blockId": "95647a4c",
+							"path": "3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/team-3.png",
+							"decorative": false,
+							"width": 328,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Portrait of a young man with styled hair and a serious look",
+							"tone": {
+								"grid": [
+									0.75,
+									0.43,
+									0.8,
+									0.71,
+									0.55,
+									0.7,
+									0.55,
+									0.54,
+									0.43
+								],
+								"color": "#8c9f99"
+							}
+						},
+						{
+							"id": "0da5c6c9:image.url",
+							"blockId": "0da5c6c9",
+							"path": "3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/team-4-1.png",
+							"decorative": false,
+							"width": 328,
+							"height": 328,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman in a wide-brimmed hat looking at the camera",
+							"tone": {
+								"grid": [
+									0.25,
+									0.2,
+									0.27,
+									0.18,
+									0.4,
+									0.19,
+									0.38,
+									0.38,
+									0.41
+								],
+								"color": "#604638"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "5f1adf5b",
+					"role": "hero",
+					"title": "Know Who We Are",
+					"sectionIds": [
+						"5f1adf5b"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "63c129fb",
+					"role": "features",
+					"title": "Awesome Treks",
+					"sectionIds": [
+						"63c129fb"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0ab6418f",
+					"role": "cta",
+					"title": "Our Team",
+					"sectionIds": [
+						"0ab6418f"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b058b303",
+					"role": "features",
+					"title": "Client Hessel",
+					"sectionIds": [
+						"b058b303"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact-us",
+			"title": "Contact Us",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/themegrill-demos/contact-us-content.xml",
+			"sections": [
+				{
+					"id": "89ccf7c1",
+					"index": 0,
+					"path": "0",
+					"group": "89ccf7c1",
+					"role": "content",
+					"title": "Drop us a line",
+					"slots": [
+						{
+							"id": "3874faf5:text",
+							"blockId": "3874faf5",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Drop us a line",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "745e7d48:text",
+							"blockId": "745e7d48",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "67790d4e:text",
+							"blockId": "67790d4e",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0b2230c3:text",
+							"blockId": "0b2230c3",
+							"path": "0.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Address:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d796e38c:text",
+							"blockId": "d796e38c",
+							"path": "0.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "30 Bertrand Ave Suite",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a29006d9:text",
+							"blockId": "a29006d9",
+							"path": "0.1.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "City:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09da224d:text",
+							"blockId": "09da224d",
+							"path": "0.1.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Scarborough, ON M1L 2P5",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9aaa15f0:text",
+							"blockId": "9aaa15f0",
+							"path": "0.1.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Phone:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c2ab0b5:text",
+							"blockId": "4c2ab0b5",
+							"path": "0.1.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "123-456-789",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "80a5c2ab:text",
+							"blockId": "80a5c2ab",
+							"path": "0.1.3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Email:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bc1d7fe5:text",
+							"blockId": "bc1d7fe5",
+							"path": "0.1.3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "info@example.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "b70c643a:text",
+							"blockId": "b70c643a",
+							"path": "0.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "AVAILABLE AT 10 AM - 6PM",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b4995884:text",
+							"blockId": "b4995884",
+							"path": "0.1.5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "(+01)-800-321-7777",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "89ccf7c1",
+					"role": "content",
+					"title": "Drop us a line",
+					"sectionIds": [
+						"89ccf7c1"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 15,
+		"textSlots": 157,
+		"editableSlots": 154,
+		"images": 49,
+		"swappableImages": 39,
+		"words": 1059
+	},
+	"builtAt": "2026-10-24T11:35:07.950Z"
+}

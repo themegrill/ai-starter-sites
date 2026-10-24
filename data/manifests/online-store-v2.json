@@ -1,0 +1,1333 @@
+{
+	"version": 4,
+	"slug": "online-store-v2",
+	"name": "Online Store v2",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "",
+	"demoUrl": "https://zakrademos.com/online-store-v2",
+	"niches": [
+		"shop",
+		"ecommerce"
+	],
+	"keywords": [
+		"online store",
+		"ecommerce",
+		"shop",
+		"store",
+		"products",
+		"retail"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#111111",
+				"count": 42,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 33
+				}
+			},
+			{
+				"hex": "#eb3349",
+				"count": 13,
+				"group": "brand",
+				"role": "primary",
+				"base": "#eb3349",
+				"lightnessDelta": 0,
+				"usage": {
+					"border": 4,
+					"text": 3
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f45c43",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#eb3349",
+				"lightnessDelta": 0.049,
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#e2ebf0",
+				"count": 4,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#e2ebf0",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 3
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#2563eb",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#e2ebf0",
+				"lightnessDelta": -0.38,
+				"usage": {
+					"border": 3
+				}
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#e2ebf0",
+				"lightnessDelta": -0.543
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 2,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#cfd9df",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#e2ebf0",
+				"lightnessDelta": -0.071,
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#171d54",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#171d54",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#111111",
+				"bg": "#e2ebf0",
+				"large": true,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#eb3349",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 5,
+				"scope": "theme"
+			},
+			{
+				"fg": "#111111",
+				"bg": "#cfd9df",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#eb3349",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#eb3349",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#111111",
+				"bg": "#cfd9df",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#eb3349",
+				"bg": "#f9fbfc",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "02e2c22b",
+					"index": 0,
+					"path": "0",
+					"group": "02e2c22b",
+					"role": "content",
+					"title": "New Arrival",
+					"slots": [
+						{
+							"id": "6b33c150:text",
+							"blockId": "6b33c150",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New Arrival",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb83498a:text",
+							"blockId": "fb83498a",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Women’s Fashion​",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a8a10ba6:text",
+							"blockId": "a8a10ba6",
+							"path": "0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Cras vitae eu maecenas ut pharetra. Amet dignissim sed ut venenatis.",
+							"rich": true,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "455c266f:text",
+							"blockId": "455c266f",
+							"path": "0.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "98c5fd32:text",
+							"blockId": "98c5fd32",
+							"path": "0.0.1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "COLLECTION",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c3874ed4:text",
+							"blockId": "c3874ed4",
+							"path": "0.0.1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Men’s",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6c3cb77c:text",
+							"blockId": "6c3cb77c",
+							"path": "0.0.1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "COLLECTION",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "59a616a6:text",
+							"blockId": "59a616a6",
+							"path": "0.0.1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Shoes",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b11e5d33:text",
+							"blockId": "b11e5d33",
+							"path": "0.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New Products",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e231a4c7:text",
+							"blockId": "e231a4c7",
+							"path": "0.0.2.2.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "68cdd95c:text",
+							"blockId": "68cdd95c",
+							"path": "0.0.4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Collections",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f70a26f0:text",
+							"blockId": "f70a26f0",
+							"path": "0.0.4.2.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4b651ab2:text",
+							"blockId": "4b651ab2",
+							"path": "0.0.6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "NEW STYLE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80eee01b:text",
+							"blockId": "80eee01b",
+							"path": "0.0.6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Look’s & Style",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "85f6d58f:text",
+							"blockId": "85f6d58f",
+							"path": "0.0.6.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Cras vitae eu maecenas ut pharetra. Amet dignissim gnissim sed ut venenatis.",
+							"rich": true,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d021e1dd:text",
+							"blockId": "d021e1dd",
+							"path": "0.0.6.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3d4393f:text",
+							"blockId": "b3d4393f",
+							"path": "0.0.7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Best Seller​",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ee33ae64:text",
+							"blockId": "ee33ae64",
+							"path": "0.0.7.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "On Sales​",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c995bdd3:text",
+							"blockId": "c995bdd3",
+							"path": "0.0.7.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Top Rated",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa4afc2e:text",
+							"blockId": "aa4afc2e",
+							"path": "0.0.8.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "ADVERTISEMENT",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dff3d0d4:text",
+							"blockId": "dff3d0d4",
+							"path": "0.0.8.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Rayn Collection",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb8cd68e:text",
+							"blockId": "eb8cd68e",
+							"path": "0.0.8.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "50%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "bf610fca:text",
+							"blockId": "bf610fca",
+							"path": "0.0.8.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Discount",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "00a3f9c8:text",
+							"blockId": "00a3f9c8",
+							"path": "0.0.8.0.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "50b28aa3:text",
+							"blockId": "50b28aa3",
+							"path": "0.0.8.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "ADVERTISEMENT",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "da2e179a:text",
+							"blockId": "da2e179a",
+							"path": "0.0.8.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Game",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f073dcb9:text",
+							"blockId": "f073dcb9",
+							"path": "0.0.8.1.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "10%",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "018eec68:text",
+							"blockId": "018eec68",
+							"path": "0.0.8.1.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Discount",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "786131b4:text",
+							"blockId": "786131b4",
+							"path": "0.0.8.1.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a3ce79e2:image.url",
+							"blockId": "a3ce79e2",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/2024/04/adolescent-casual-cute-elegant.png",
+							"decorative": false,
+							"width": 455,
+							"height": 450,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman in a graphic tee and sunglasses",
+							"tone": {
+								"grid": [
+									0.96,
+									0.69,
+									0.93,
+									0.87,
+									0.44,
+									0.79,
+									0.87,
+									0.38,
+									0.9
+								],
+								"color": "#c2c1c0"
+							}
+						},
+						{
+							"id": "33cc1d8e:image.url",
+							"blockId": "33cc1d8e",
+							"path": "0.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/2024/04/ads-mens-collection.png",
+							"decorative": false,
+							"width": 350,
+							"height": 350,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man in a grey suit posing",
+							"tone": {
+								"grid": [
+									0.99,
+									0.77,
+									0.98,
+									0.84,
+									0.54,
+									0.9,
+									0.88,
+									0.49,
+									0.91
+								],
+								"color": "#cfcece"
+							}
+						},
+						{
+							"id": "d7585c15:image.url",
+							"blockId": "d7585c15",
+							"path": "0.0.1.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/2024/04/ads-shoes-collection-.png",
+							"decorative": false,
+							"width": 350,
+							"height": 350,
+							"orientation": "square",
+							"subject": "object",
+							"description": "White sneaker",
+							"tone": {
+								"grid": [
+									0.99,
+									0.91,
+									0.95,
+									0.94,
+									0.79,
+									0.72,
+									0.89,
+									0.75,
+									0.88
+								],
+								"color": "#dadee1"
+							}
+						},
+						{
+							"id": "30e6e83a:background.image.image.url",
+							"blockId": "30e6e83a",
+							"path": "0.0.6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/2024/04/bathtub-advertisement-3.png",
+							"decorative": false,
+							"width": 1170,
+							"height": 350,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Legs in pink high heels on a banner",
+							"tone": {
+								"grid": [
+									0.69,
+									0.85,
+									0.91,
+									0.71,
+									0.87,
+									0.8,
+									0.73,
+									0.87,
+									0.76
+								],
+								"color": "#f8bfc4"
+							}
+						},
+						{
+							"id": "47c542c4:image.url",
+							"blockId": "47c542c4",
+							"path": "0.0.8.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/2024/04/ads-rayn-collection.png",
+							"decorative": false,
+							"width": 350,
+							"height": 350,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman in a red floral dress",
+							"tone": {
+								"grid": [
+									0.93,
+									0.67,
+									0.97,
+									0.76,
+									0.48,
+									0.92,
+									0.69,
+									0.43,
+									0.99
+								],
+								"color": "#ddbabe"
+							}
+						},
+						{
+							"id": "361d243f:image.url",
+							"blockId": "361d243f",
+							"path": "0.0.8.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/2024/04/ads-game-collection.png",
+							"decorative": false,
+							"width": 350,
+							"height": 350,
+							"orientation": "square",
+							"subject": "object",
+							"description": "White game controller",
+							"tone": {
+								"grid": [
+									0.95,
+									0.77,
+									0.98,
+									0.81,
+									0.6,
+									0.84,
+									0.98,
+									0.84,
+									0.88
+								],
+								"color": "#d8dadc"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"woocommerce/product-category"
+					]
+				},
+				{
+					"id": "81d63303",
+					"index": 1,
+					"path": "1",
+					"group": "81d63303",
+					"role": "posts",
+					"title": "Recent Posts",
+					"slots": [
+						{
+							"id": "5281d6ac:text",
+							"blockId": "5281d6ac",
+							"path": "1.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Recent Posts",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ca2f82e6:text",
+							"blockId": "ca2f82e6",
+							"path": "1.0.0.2.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View All",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba5d13e8:text",
+							"blockId": "ba5d13e8",
+							"path": "1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Should Masks Be Fashion Accessories?",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "56ae808e:text",
+							"blockId": "56ae808e",
+							"path": "1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "August 10, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1aab2402:text",
+							"blockId": "1aab2402",
+							"path": "1.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "The 7 Summer Shorts Trends You’ll Be Living in All Season Long",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "afd434d5:text",
+							"blockId": "afd434d5",
+							"path": "1.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "August 10, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2cf1c13f:text",
+							"blockId": "2cf1c13f",
+							"path": "1.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "The Minimalist’s Guide to Elegant, Everyday Jewelry",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4de6529a:text",
+							"blockId": "4de6529a",
+							"path": "1.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "August 10, 2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "38089c1b:image.url",
+							"blockId": "38089c1b",
+							"path": "1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/2024/04/Fashion-Accessories.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman wearing a black face mask",
+							"tone": {
+								"grid": [
+									0.32,
+									0.3,
+									0.39,
+									0.43,
+									0.27,
+									0.48,
+									0.44,
+									0.26,
+									0.46
+								],
+								"color": "#54644e"
+							}
+						},
+						{
+							"id": "73aa6c0a:image.url",
+							"blockId": "73aa6c0a",
+							"path": "1.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/2024/04/Summer-Shorts.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Couple walking hand in hand on a seaside boardwalk",
+							"tone": {
+								"grid": [
+									0.83,
+									0.83,
+									0.82,
+									0.85,
+									0.7,
+									0.7,
+									0.63,
+									0.62,
+									0.61
+								],
+								"color": "#bcbab9"
+							}
+						},
+						{
+							"id": "eacc432a:image.url",
+							"blockId": "eacc432a",
+							"path": "1.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/2024/04/Jewelry.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Bride in a strapless dress with a necklace",
+							"tone": {
+								"grid": [
+									0.75,
+									0.88,
+									0.89,
+									0.85,
+									0.75,
+									0.77,
+									0.87,
+									0.74,
+									0.7
+								],
+								"color": "#d5cbc0"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "02e2c22b",
+					"role": "content",
+					"title": "New Arrival",
+					"sectionIds": [
+						"02e2c22b"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "81d63303",
+					"role": "posts",
+					"title": "Recent Posts",
+					"sectionIds": [
+						"81d63303"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "cart",
+			"title": "Cart",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/themegrill-demos/cart-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"slots": [
+						{
+							"id": "core-0.0.0.1.0:@html:h",
+							"blockId": "core-0.0.0.1.0",
+							"path": "0.0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "You may be interested in…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0:@html:h",
+							"blockId": "core-0.1.0",
+							"path": "0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Your cart is currently empty!",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.2:@html:h",
+							"blockId": "core-0.1.2",
+							"path": "0.1.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New in store",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/cart",
+						"woocommerce/filled-cart-block",
+						"woocommerce/cart-items-block",
+						"woocommerce/cart-line-items-block",
+						"woocommerce/cart-cross-sells-block",
+						"woocommerce/cart-cross-sells-products-block",
+						"woocommerce/cart-totals-block",
+						"woocommerce/cart-order-summary-block",
+						"woocommerce/cart-order-summary-heading-block",
+						"woocommerce/cart-order-summary-coupon-form-block",
+						"woocommerce/cart-order-summary-subtotal-block",
+						"woocommerce/cart-order-summary-fee-block",
+						"woocommerce/cart-order-summary-discount-block",
+						"woocommerce/cart-order-summary-shipping-block",
+						"woocommerce/cart-order-summary-taxes-block",
+						"woocommerce/cart-express-payment-block",
+						"woocommerce/proceed-to-checkout-block",
+						"woocommerce/cart-accepted-payment-methods-block",
+						"woocommerce/empty-cart-block",
+						"woocommerce/product-new"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "checkout",
+			"title": "Checkout",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-store-v2/wp-content/uploads/sites/160/themegrill-demos/checkout-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/checkout",
+						"woocommerce/checkout-fields-block",
+						"woocommerce/checkout-express-payment-block",
+						"woocommerce/checkout-contact-information-block",
+						"woocommerce/checkout-shipping-method-block",
+						"woocommerce/checkout-pickup-options-block",
+						"woocommerce/checkout-shipping-address-block",
+						"woocommerce/checkout-billing-address-block",
+						"woocommerce/checkout-shipping-methods-block",
+						"woocommerce/checkout-payment-block",
+						"woocommerce/checkout-additional-information-block",
+						"woocommerce/checkout-order-note-block",
+						"woocommerce/checkout-terms-block",
+						"woocommerce/checkout-actions-block",
+						"woocommerce/checkout-totals-block",
+						"woocommerce/checkout-order-summary-block",
+						"woocommerce/checkout-order-summary-cart-items-block",
+						"woocommerce/checkout-order-summary-coupon-form-block",
+						"woocommerce/checkout-order-summary-subtotal-block",
+						"woocommerce/checkout-order-summary-fee-block",
+						"woocommerce/checkout-order-summary-discount-block",
+						"woocommerce/checkout-order-summary-shipping-block",
+						"woocommerce/checkout-order-summary-taxes-block"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 4,
+		"textSlots": 40,
+		"editableSlots": 38,
+		"images": 9,
+		"swappableImages": 9,
+		"words": 113
+	},
+	"builtAt": "2026-10-24T11:35:08.096Z"
+}

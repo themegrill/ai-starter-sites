@@ -1,0 +1,3696 @@
+{
+	"version": 4,
+	"slug": "plumbing-services-v2",
+	"name": "Zakra Plumbing Services v2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-plumbing-services-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/plumbing-services-v2",
+	"niches": [
+		"home-services",
+		"trades",
+		"repair"
+	],
+	"keywords": [
+		"plumber",
+		"plumbing",
+		"emergency repair",
+		"drain cleaning",
+		"pipe repair",
+		"heating"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 55,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 22,
+					"background": 22
+				}
+			},
+			{
+				"hex": "#222222",
+				"count": 49,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 48
+				}
+			},
+			{
+				"hex": "#161960",
+				"count": 17,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#161960",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 2,
+					"text": 15
+				}
+			},
+			{
+				"hex": "#646464",
+				"count": 15,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 15
+				}
+			},
+			{
+				"hex": "#1f1f22",
+				"count": 12,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#ff9300",
+				"count": 10,
+				"group": "brand",
+				"role": "primary",
+				"base": "#eb9222",
+				"lightnessDelta": -0.027,
+				"usage": {
+					"background": 3,
+					"text": 2
+				}
+			},
+			{
+				"hex": "#eb9222",
+				"count": 9,
+				"group": "brand",
+				"role": "primary",
+				"base": "#eb9222",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 4,
+					"text": 4
+				}
+			},
+			{
+				"hex": "#221f1f",
+				"count": 7,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#5e5e5e",
+				"count": 2,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 2
+				}
+			},
+			{
+				"hex": "#411bbe",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#161960",
+				"lightnessDelta": 0.194
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#ececec",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#f5f5f5",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#fbfbfb",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#161960",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 15,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ff9300",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ff9300",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#eb9222",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#eb9222",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#161960",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#eb9222",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "37752998",
+					"index": 0,
+					"path": "0",
+					"group": "37752998",
+					"role": "hero",
+					"title": "Perfection is always",
+					"slots": [
+						{
+							"id": "b63f3da0:text",
+							"blockId": "b63f3da0",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Perfection is always",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "96209b64:text",
+							"blockId": "96209b64",
+							"path": "0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "under construction",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c8043482:text",
+							"blockId": "c8043482",
+							"path": "0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "37752998:background.image.image.url",
+							"blockId": "37752998",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/banner-without-background.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 1028,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Industrial stainless steel valves and pressure gauges",
+							"tone": {
+								"grid": [
+									0.5,
+									0.44,
+									0.57,
+									0.54,
+									0.5,
+									0.62,
+									0.49,
+									0.45,
+									0.53
+								],
+								"color": "#86847e"
+							}
+						},
+						{
+							"id": "12a9b00c:image.url",
+							"blockId": "12a9b00c",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/left-bracket.png",
+							"decorative": true,
+							"width": 76,
+							"height": 432,
+							"orientation": "portrait"
+						},
+						{
+							"id": "2ec6daa8:image.url",
+							"blockId": "2ec6daa8",
+							"path": "0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/right-background.png",
+							"decorative": true,
+							"width": 76,
+							"height": 432,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "df90cd97",
+					"index": 1,
+					"path": "1",
+					"group": "df90cd97",
+					"role": "features",
+					"title": "Our Emergency Services",
+					"slots": [
+						{
+							"id": "f396d62f:text",
+							"blockId": "f396d62f",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Our Emergency Services",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3ef68f4e:text",
+							"blockId": "3ef68f4e",
+							"path": "1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "+1 - 999 - 222 555",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e0c54d6f:text",
+							"blockId": "e0c54d6f",
+							"path": "1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WORKING HOURS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7d59047:text",
+							"blockId": "f7d59047",
+							"path": "1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Mon, Sat 8.00 - 18.00 Sunday CLOSED",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "709df038:text",
+							"blockId": "709df038",
+							"path": "1.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "LOCATION",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "84454042:text",
+							"blockId": "84454042",
+							"path": "1.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "446 Mount Eden Road, Auckland Central",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "44692160:image.url",
+							"blockId": "44692160",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/telephone.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						},
+						{
+							"id": "c1dfbaf0:background.image.image.url",
+							"blockId": "c1dfbaf0",
+							"path": "1.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/clock.png",
+							"decorative": true,
+							"width": 70,
+							"height": 70,
+							"orientation": "square"
+						},
+						{
+							"id": "cf2bf38f:background.image.image.url",
+							"blockId": "cf2bf38f",
+							"path": "1.2.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/map-marker.png",
+							"decorative": true,
+							"width": 75,
+							"height": 75,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "c55d7358",
+					"index": 2,
+					"path": "2",
+					"group": "c55d7358",
+					"role": "cta",
+					"title": "WHAT WE DO",
+					"slots": [
+						{
+							"id": "7cd5f995:text",
+							"blockId": "7cd5f995",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "WHAT WE DO",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "19f10887:text",
+							"blockId": "19f10887",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Are Trusted Plumbing Professional Company",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cddf8748:text",
+							"blockId": "cddf8748",
+							"path": "2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+							"rich": true,
+							"words": 60,
+							"minWords": 36,
+							"maxWords": 75,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "63df8443:text",
+							"blockId": "63df8443",
+							"path": "2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "88426335:image.url",
+							"blockId": "88426335",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/about.png",
+							"decorative": false,
+							"width": 665,
+							"height": 710,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Female engineer in a hard hat talking on the phone",
+							"tone": {
+								"grid": [
+									1,
+									0.73,
+									1,
+									0.88,
+									0.59,
+									0.92,
+									0.78,
+									0.59,
+									0.76
+								],
+								"color": "#cfccd3"
+							}
+						}
+					]
+				},
+				{
+					"id": "bae8eeb2",
+					"index": 3,
+					"path": "3",
+					"group": "bae8eeb2",
+					"role": "team",
+					"title": "OUR TEAM",
+					"slots": [
+						{
+							"id": "8cd5747e:text",
+							"blockId": "8cd5747e",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "OUR TEAM",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "35553696:text",
+							"blockId": "35553696",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Meet our experienced and qualified team.",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "887e9462:text",
+							"blockId": "887e9462",
+							"path": "3.0.2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Claire Olson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "114610e9:text",
+							"blockId": "114610e9",
+							"path": "3.0.2.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Kay Kay",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f99b89de:text",
+							"blockId": "f99b89de",
+							"path": "3.0.2.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Simpy Chimp",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "beff1dff:image.url",
+							"blockId": "beff1dff",
+							"path": "3.0.2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team-1.jpg",
+							"decorative": false,
+							"width": 274,
+							"height": 274,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman with long wavy hair black and white portrait",
+							"tone": {
+								"grid": [
+									0.69,
+									0.56,
+									0.69,
+									0.61,
+									0.53,
+									0.65,
+									0.51,
+									0.5,
+									0.53
+								],
+								"color": "#959595"
+							}
+						},
+						{
+							"id": "d45fb34c:image.url",
+							"blockId": "d45fb34c",
+							"path": "3.0.2.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team-2.jpg",
+							"decorative": false,
+							"width": 274,
+							"height": 274,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling man in glasses black and white portrait",
+							"tone": {
+								"grid": [
+									0.89,
+									0.77,
+									0.89,
+									0.86,
+									0.6,
+									0.87,
+									0.41,
+									0.8,
+									0.49
+								],
+								"color": "#bbbbbb"
+							}
+						},
+						{
+							"id": "0c07c720:image.url",
+							"blockId": "0c07c720",
+							"path": "3.0.2.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team-3.jpg",
+							"decorative": false,
+							"width": 274,
+							"height": 274,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Thoughtful woman looking down, black and white portrait",
+							"tone": {
+								"grid": [
+									0.92,
+									0.5,
+									0.81,
+									0.54,
+									0.4,
+									0.71,
+									0.19,
+									0.15,
+									0.52
+								],
+								"color": "#868686"
+							}
+						}
+					]
+				},
+				{
+					"id": "087be752",
+					"index": 4,
+					"path": "4",
+					"group": "087be752",
+					"role": "content",
+					"title": "OUR SERVICES",
+					"slots": [
+						{
+							"id": "fb1dbb28:text",
+							"blockId": "fb1dbb28",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "OUR SERVICES",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62894733:text",
+							"blockId": "62894733",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Take the world’s best services for you",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ef4c32b1:text",
+							"blockId": "ef4c32b1",
+							"path": "4.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "LEAK DETECTION TOOL",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7ec8bc3:text",
+							"blockId": "f7ec8bc3",
+							"path": "4.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "46fb5341:text",
+							"blockId": "46fb5341",
+							"path": "4.0.2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ccdc88c3:text",
+							"blockId": "ccdc88c3",
+							"path": "4.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WATER LINE REPAIR",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aab3d600:text",
+							"blockId": "aab3d600",
+							"path": "4.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e5dba96a:text",
+							"blockId": "e5dba96a",
+							"path": "4.0.2.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "42473b20:text",
+							"blockId": "42473b20",
+							"path": "4.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BATHROOM PLUMBING",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ccee6c2:text",
+							"blockId": "5ccee6c2",
+							"path": "4.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0ec131f3:text",
+							"blockId": "0ec131f3",
+							"path": "4.0.2.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5023141e:text",
+							"blockId": "5023141e",
+							"path": "4.0.2.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PLUMBING REPAIR",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80f6fd6c:text",
+							"blockId": "80f6fd6c",
+							"path": "4.0.2.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d63de31d:text",
+							"blockId": "d63de31d",
+							"path": "4.0.2.3.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8cfde137:text",
+							"blockId": "8cfde137",
+							"path": "4.0.2.4.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "LEAK DETECTION",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "caf4c252:text",
+							"blockId": "caf4c252",
+							"path": "4.0.2.4.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c23d97be:text",
+							"blockId": "c23d97be",
+							"path": "4.0.2.4.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3a762dc:text",
+							"blockId": "d3a762dc",
+							"path": "4.0.2.5.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "RESIDENTIAL TOOL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "679a7b69:text",
+							"blockId": "679a7b69",
+							"path": "4.0.2.5.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fe262f9c:text",
+							"blockId": "fe262f9c",
+							"path": "4.0.2.5.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7e0c11dc:image.url",
+							"blockId": "7e0c11dc",
+							"path": "4.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/leak-detection.png",
+							"decorative": true,
+							"width": 80,
+							"height": 60,
+							"orientation": "landscape"
+						},
+						{
+							"id": "5e9629db:image.url",
+							"blockId": "5e9629db",
+							"path": "4.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/water-line-repair.png",
+							"decorative": true,
+							"width": 80,
+							"height": 87,
+							"orientation": "square"
+						},
+						{
+							"id": "9631216e:image.url",
+							"blockId": "9631216e",
+							"path": "4.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/bathroom-plumbing-img.png",
+							"decorative": true,
+							"width": 60,
+							"height": 96,
+							"orientation": "portrait"
+						},
+						{
+							"id": "4f86ba10:image.url",
+							"blockId": "4f86ba10",
+							"path": "4.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/5.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "4c5953b9:image.url",
+							"blockId": "4c5953b9",
+							"path": "4.0.2.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/leak-detection.png",
+							"decorative": true,
+							"width": 80,
+							"height": 60,
+							"orientation": "landscape"
+						},
+						{
+							"id": "55033fa4:image.url",
+							"blockId": "55033fa4",
+							"path": "4.0.2.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/5.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "346da67d",
+					"index": 5,
+					"path": "5",
+					"group": "346da67d",
+					"role": "testimonials",
+					"title": "OUR USERS",
+					"slots": [
+						{
+							"id": "f9d0ffcb:text",
+							"blockId": "f9d0ffcb",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "OUR USERS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dec54bc1:text",
+							"blockId": "dec54bc1",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What our valuable clients have to say.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c99c42ff:text",
+							"blockId": "c99c42ff",
+							"path": "5.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Kelly Cucoo",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9977be8e:text",
+							"blockId": "9977be8e",
+							"path": "5.0.2.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "p",
+							"text": "CEO of finance",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2fc838f4:text",
+							"blockId": "2fc838f4",
+							"path": "5.0.2.0.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+							"rich": true,
+							"words": 50,
+							"minWords": 30,
+							"maxWords": 63,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0552d2b8:text",
+							"blockId": "0552d2b8",
+							"path": "5.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Krock Rock",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c274070:text",
+							"blockId": "4c274070",
+							"path": "5.0.2.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "p",
+							"text": "Co-founder",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b7de7853:text",
+							"blockId": "b7de7853",
+							"path": "5.0.2.1.4",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+							"rich": true,
+							"words": 50,
+							"minWords": 30,
+							"maxWords": 63,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "346da67d:background.image.image.url",
+							"blockId": "346da67d",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/banner-without-background-1.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 1028,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Industrial stainless steel valves and pressure gauges",
+							"tone": {
+								"grid": [
+									0.5,
+									0.44,
+									0.57,
+									0.54,
+									0.5,
+									0.62,
+									0.49,
+									0.45,
+									0.53
+								],
+								"color": "#86847e"
+							}
+						},
+						{
+							"id": "5def920e:image.url",
+							"blockId": "5def920e",
+							"path": "5.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team3-square.png",
+							"decorative": true,
+							"width": 274,
+							"height": 274,
+							"orientation": "square"
+						},
+						{
+							"id": "b0addf16:image.url",
+							"blockId": "b0addf16",
+							"path": "5.0.2.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/quote.png",
+							"decorative": true,
+							"width": 77,
+							"height": 53,
+							"orientation": "landscape"
+						},
+						{
+							"id": "27c4464b:image.url",
+							"blockId": "27c4464b",
+							"path": "5.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team1square-1.png",
+							"decorative": true,
+							"width": 274,
+							"height": 274,
+							"orientation": "square"
+						},
+						{
+							"id": "a613012d:image.url",
+							"blockId": "a613012d",
+							"path": "5.0.2.1.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/quote.png",
+							"decorative": true,
+							"width": 77,
+							"height": 53,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "7f981dae",
+					"index": 6,
+					"path": "6",
+					"group": "7f981dae",
+					"role": "gallery",
+					"title": "OUR PORTFOLIO",
+					"slots": [
+						{
+							"id": "e19a87cb:text",
+							"blockId": "e19a87cb",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "OUR PORTFOLIO",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a6c89503:text",
+							"blockId": "a6c89503",
+							"path": "6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Check out some of our best projects.",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7f981dae:background.image.image.url",
+							"blockId": "7f981dae",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/pattern.png",
+							"decorative": true,
+							"width": 36,
+							"height": 32,
+							"orientation": "square"
+						},
+						{
+							"id": "c1cd19cd:image.url",
+							"blockId": "c1cd19cd",
+							"path": "6.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/1.jpg",
+							"decorative": false,
+							"width": 350,
+							"height": 334,
+							"orientation": "square",
+							"subject": "place",
+							"description": "Bright bathroom with toilet, sink and red towels",
+							"tone": {
+								"grid": [
+									0.8,
+									0.89,
+									0.78,
+									0.69,
+									0.77,
+									0.75,
+									0.54,
+									0.54,
+									0.58
+								],
+								"color": "#bab1af"
+							}
+						},
+						{
+							"id": "91af6e28:image.url",
+							"blockId": "91af6e28",
+							"path": "6.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/2.jpg",
+							"decorative": false,
+							"width": 349,
+							"height": 334,
+							"orientation": "square",
+							"subject": "place",
+							"description": "Bathroom with double vanity and granite countertop",
+							"tone": {
+								"grid": [
+									0.5,
+									0.52,
+									0.49,
+									0.5,
+									0.55,
+									0.53,
+									0.48,
+									0.45,
+									0.5
+								],
+								"color": "#858072"
+							}
+						},
+						{
+							"id": "35fa505c:image.url",
+							"blockId": "35fa505c",
+							"path": "6.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/3.jpg",
+							"decorative": false,
+							"width": 347,
+							"height": 334,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Plumber installing a kitchen faucet over a sink",
+							"tone": {
+								"grid": [
+									0.32,
+									0.5,
+									0.42,
+									0.21,
+									0.37,
+									0.69,
+									0.28,
+									0.33,
+									0.61
+								],
+								"color": "#716862"
+							}
+						},
+						{
+							"id": "17a4f029:image.url",
+							"blockId": "17a4f029",
+							"path": "6.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/4.jpg",
+							"decorative": false,
+							"width": 349,
+							"height": 335,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Chrome bathroom faucet close-up",
+							"tone": {
+								"grid": [
+									0.75,
+									0.66,
+									0.56,
+									0.53,
+									0.53,
+									0.54,
+									0.78,
+									0.75,
+									0.98
+								],
+								"color": "#b4ac97"
+							}
+						},
+						{
+							"id": "a8865575:image.url",
+							"blockId": "a8865575",
+							"path": "6.0.2.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/5.jpg",
+							"decorative": false,
+							"width": 349,
+							"height": 335,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Chrome bathtub faucet with drain and plug chain",
+							"tone": {
+								"grid": [
+									0.49,
+									0.48,
+									0.63,
+									0.68,
+									0.66,
+									0.77,
+									0.9,
+									0.82,
+									0.86
+								],
+								"color": "#b2b2b2"
+							}
+						},
+						{
+							"id": "d3756d24:image.url",
+							"blockId": "d3756d24",
+							"path": "6.0.2.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/6.jpg",
+							"decorative": false,
+							"width": 348,
+							"height": 335,
+							"orientation": "square",
+							"subject": "place",
+							"description": "White industrial pipes in a plumbing room",
+							"tone": {
+								"grid": [
+									0.51,
+									0.56,
+									0.49,
+									0.54,
+									0.54,
+									0.49,
+									0.51,
+									0.49,
+									0.48
+								],
+								"color": "#7f838a"
+							}
+						}
+					]
+				},
+				{
+					"id": "29f4e7e6",
+					"index": 7,
+					"path": "7",
+					"group": "29f4e7e6",
+					"role": "content",
+					"title": "OUR VIDEO",
+					"slots": [
+						{
+							"id": "79333118:text",
+							"blockId": "79333118",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "OUR VIDEO",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3261a59:text",
+							"blockId": "b3261a59",
+							"path": "7.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Check out some of our videos.",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b1d6d179:text",
+							"blockId": "b1d6d179",
+							"path": "7.0.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get Started With Modal Builder Block!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a8806369:text",
+							"blockId": "a8806369",
+							"path": "7.0.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9f32c656:text",
+							"blockId": "9f32c656",
+							"path": "7.0.2.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Click Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b558172b:image.url",
+							"blockId": "b558172b",
+							"path": "7.0.2.0.0",
+							"block": "blockart/modal",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/video-play.png",
+							"decorative": false,
+							"width": 1090,
+							"height": 611,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Chrome bathtub faucet with drain and plug chain",
+							"tone": {
+								"grid": [
+									0.48,
+									0.57,
+									0.75,
+									0.86,
+									0.67,
+									0.86,
+									0.9,
+									0.62,
+									0.91
+								],
+								"color": "#bcbcbc"
+							}
+						}
+					]
+				},
+				{
+					"id": "687cc508",
+					"index": 8,
+					"path": "8",
+					"group": "687cc508",
+					"role": "posts",
+					"title": "OUR BLOG",
+					"slots": [
+						{
+							"id": "c3475176:text",
+							"blockId": "c3475176",
+							"path": "8.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "OUR BLOG",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "28d7e215:text",
+							"blockId": "28d7e215",
+							"path": "8.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Check some of our latest blogs",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "97d4ba65:text",
+							"blockId": "97d4ba65",
+							"path": "8.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet, con sectetur adipisicing elit",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ee69c0d1:text",
+							"blockId": "ee69c0d1",
+							"path": "8.0.2.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e3caf95b:text",
+							"blockId": "e3caf95b",
+							"path": "8.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet, con sectetur adipisicing elit",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "9a79a545:text",
+							"blockId": "9a79a545",
+							"path": "8.0.2.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "12e210d5:text",
+							"blockId": "12e210d5",
+							"path": "8.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet, con sectetur adipisicing elit",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1fb42ff7:text",
+							"blockId": "1fb42ff7",
+							"path": "8.0.2.2.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "687cc508:background.image.image.url",
+							"blockId": "687cc508",
+							"path": "8",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/background-1.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 1691,
+							"orientation": "square"
+						},
+						{
+							"id": "42682c94:image.url",
+							"blockId": "42682c94",
+							"path": "8.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/blog2.jpg",
+							"decorative": false,
+							"width": 322,
+							"height": 239,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Rusty water pipe valve by the sea",
+							"tone": {
+								"grid": [
+									0.53,
+									0.43,
+									0.45,
+									0.59,
+									0.4,
+									0.57,
+									0.66,
+									0.47,
+									0.63
+								],
+								"color": "#868686"
+							}
+						},
+						{
+							"id": "69adcd31:image.url",
+							"blockId": "69adcd31",
+							"path": "8.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/blog1.jpg",
+							"decorative": false,
+							"width": 322,
+							"height": 239,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Water running from a chrome faucet",
+							"tone": {
+								"grid": [
+									0.68,
+									0.74,
+									0.89,
+									0.61,
+									0.75,
+									0.96,
+									0.62,
+									0.68,
+									0.83
+								],
+								"color": "#c0c0c0"
+							}
+						},
+						{
+							"id": "402b8315:image.url",
+							"blockId": "402b8315",
+							"path": "8.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/blog3.jpg",
+							"decorative": false,
+							"width": 323,
+							"height": 239,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Vintage chrome bathtub faucet with hand shower",
+							"tone": {
+								"grid": [
+									0.82,
+									0.63,
+									0.77,
+									0.81,
+									0.65,
+									0.77,
+									0.64,
+									0.59,
+									0.65
+								],
+								"color": "#b0b5ad"
+							}
+						}
+					]
+				},
+				{
+					"id": "27469ba7",
+					"index": 9,
+					"path": "9",
+					"group": "27469ba7",
+					"role": "dynamic",
+					"title": "Subscribe to our newsletter​",
+					"slots": [
+						{
+							"id": "826c967a:text",
+							"blockId": "826c967a",
+							"path": "9.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Subscribe to our newsletter​",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "708cd636:text",
+							"blockId": "708cd636",
+							"path": "9.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "27469ba7:background.image.image.url",
+							"blockId": "27469ba7",
+							"path": "9",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/footer-bg.jpg",
+							"decorative": true,
+							"width": 1645,
+							"height": 816,
+							"orientation": "landscape"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "37752998",
+					"role": "hero",
+					"title": "Perfection is always",
+					"sectionIds": [
+						"37752998"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "df90cd97",
+					"role": "features",
+					"title": "Our Emergency Services",
+					"sectionIds": [
+						"df90cd97"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c55d7358",
+					"role": "cta",
+					"title": "WHAT WE DO",
+					"sectionIds": [
+						"c55d7358"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "bae8eeb2",
+					"role": "team",
+					"title": "OUR TEAM",
+					"sectionIds": [
+						"bae8eeb2"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "087be752",
+					"role": "content",
+					"title": "OUR SERVICES",
+					"sectionIds": [
+						"087be752"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "346da67d",
+					"role": "testimonials",
+					"title": "OUR USERS",
+					"sectionIds": [
+						"346da67d"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7f981dae",
+					"role": "gallery",
+					"title": "OUR PORTFOLIO",
+					"sectionIds": [
+						"7f981dae"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"portfolio"
+						]
+					}
+				},
+				{
+					"id": "29f4e7e6",
+					"role": "content",
+					"title": "OUR VIDEO",
+					"sectionIds": [
+						"29f4e7e6"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "687cc508",
+					"role": "posts",
+					"title": "OUR BLOG",
+					"sectionIds": [
+						"687cc508"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"blog"
+						]
+					}
+				},
+				{
+					"id": "27469ba7",
+					"role": "dynamic",
+					"title": "Subscribe to our newsletter​",
+					"sectionIds": [
+						"27469ba7"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "09ba9e86",
+					"index": 0,
+					"path": "0",
+					"group": "09ba9e86",
+					"role": "hero",
+					"title": "WHAT WE DO",
+					"slots": [
+						{
+							"id": "f4e385b2:text",
+							"blockId": "f4e385b2",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "WHAT WE DO",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6d2f3e0e:text",
+							"blockId": "6d2f3e0e",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Are Trusted Plumbing Professional Company",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "315ea74a:text",
+							"blockId": "315ea74a",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged",
+							"rich": true,
+							"words": 60,
+							"minWords": 36,
+							"maxWords": 75,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "22384dea:text",
+							"blockId": "22384dea",
+							"path": "0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Learn More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e4fe2cf7:image.url",
+							"blockId": "e4fe2cf7",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/about.png",
+							"decorative": false,
+							"width": 665,
+							"height": 710,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Female engineer in a hard hat talking on the phone",
+							"tone": {
+								"grid": [
+									1,
+									0.73,
+									1,
+									0.88,
+									0.59,
+									0.92,
+									0.78,
+									0.59,
+									0.76
+								],
+								"color": "#cfccd3"
+							}
+						}
+					]
+				},
+				{
+					"id": "76676ef8",
+					"index": 1,
+					"path": "1",
+					"group": "76676ef8",
+					"role": "team",
+					"title": "OUR TEAM",
+					"slots": [
+						{
+							"id": "515d0ee7:text",
+							"blockId": "515d0ee7",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "OUR TEAM",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "30589b21:text",
+							"blockId": "30589b21",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Meet our experienced and qualified team.",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "895aae11:text",
+							"blockId": "895aae11",
+							"path": "1.0.2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Claire Olson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa6eb8fd:text",
+							"blockId": "aa6eb8fd",
+							"path": "1.0.2.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Kay Kay",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb098bca:text",
+							"blockId": "bb098bca",
+							"path": "1.0.2.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Simpy Chimp",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0987ee98:image.url",
+							"blockId": "0987ee98",
+							"path": "1.0.2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team-1.jpg",
+							"decorative": false,
+							"width": 274,
+							"height": 274,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman with long wavy hair black and white portrait",
+							"tone": {
+								"grid": [
+									0.69,
+									0.56,
+									0.69,
+									0.61,
+									0.53,
+									0.65,
+									0.51,
+									0.5,
+									0.53
+								],
+								"color": "#959595"
+							}
+						},
+						{
+							"id": "9ba92418:image.url",
+							"blockId": "9ba92418",
+							"path": "1.0.2.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team-2.jpg",
+							"decorative": false,
+							"width": 274,
+							"height": 274,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling man in glasses black and white portrait",
+							"tone": {
+								"grid": [
+									0.89,
+									0.77,
+									0.89,
+									0.86,
+									0.6,
+									0.87,
+									0.41,
+									0.8,
+									0.49
+								],
+								"color": "#bbbbbb"
+							}
+						},
+						{
+							"id": "4d20e50a:image.url",
+							"blockId": "4d20e50a",
+							"path": "1.0.2.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team-3.jpg",
+							"decorative": false,
+							"width": 274,
+							"height": 274,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Thoughtful woman looking down, black and white portrait",
+							"tone": {
+								"grid": [
+									0.92,
+									0.5,
+									0.81,
+									0.54,
+									0.4,
+									0.71,
+									0.19,
+									0.15,
+									0.52
+								],
+								"color": "#868686"
+							}
+						}
+					]
+				},
+				{
+					"id": "f86eb676",
+					"index": 2,
+					"path": "2",
+					"group": "f86eb676",
+					"role": "content",
+					"slots": [
+						{
+							"id": "34394bd8:text",
+							"blockId": "34394bd8",
+							"path": "2.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c5a59500:text",
+							"blockId": "c5a59500",
+							"path": "2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+							"rich": false,
+							"words": 60,
+							"minWords": 36,
+							"maxWords": 75,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "6d9eaebc:image.url",
+							"blockId": "6d9eaebc",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/about-img-3.jpg",
+							"decorative": false,
+							"width": 270,
+							"height": 430,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Small bathroom with bathtub and toilet",
+							"tone": {
+								"grid": [
+									0.75,
+									0.77,
+									0.78,
+									0.73,
+									0.7,
+									0.75,
+									0.66,
+									0.7,
+									0.65
+								],
+								"color": "#c1b7a9"
+							}
+						},
+						{
+							"id": "2f49fd9b:image.url",
+							"blockId": "2f49fd9b",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/about-img-4.jpg",
+							"decorative": false,
+							"width": 270,
+							"height": 430,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern bathroom with double vessel sinks and mirror",
+							"tone": {
+								"grid": [
+									0.65,
+									0.6,
+									0.6,
+									0.74,
+									0.68,
+									0.64,
+									0.78,
+									0.73,
+									0.67
+								],
+								"color": "#a5aeb8"
+							}
+						}
+					]
+				},
+				{
+					"id": "6a06c563",
+					"index": 3,
+					"path": "3",
+					"group": "6a06c563",
+					"role": "content",
+					"slots": [
+						{
+							"id": "b17cf339:text",
+							"blockId": "b17cf339",
+							"path": "3.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+							"rich": false,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "934b98e2:text",
+							"blockId": "934b98e2",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+							"rich": false,
+							"words": 60,
+							"minWords": 36,
+							"maxWords": 75,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "75ea8e40:image.url",
+							"blockId": "75ea8e40",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/about-img1.jpg",
+							"decorative": false,
+							"width": 270,
+							"height": 430,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Brass faucet close-up",
+							"tone": {
+								"grid": [
+									0.42,
+									0.22,
+									0.14,
+									0.43,
+									0.26,
+									0.41,
+									0.45,
+									0.56,
+									0.57
+								],
+								"color": "#765e53"
+							}
+						},
+						{
+							"id": "60c2f166:image.url",
+							"blockId": "60c2f166",
+							"path": "3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/about-img-2.jpg",
+							"decorative": false,
+							"width": 270,
+							"height": 430,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "White painted pipe joint close-up",
+							"tone": {
+								"grid": [
+									0.58,
+									0.56,
+									0.55,
+									0.58,
+									0.65,
+									0.65,
+									0.6,
+									0.63,
+									0.61
+								],
+								"color": "#9a9999"
+							}
+						}
+					]
+				},
+				{
+					"id": "d8f061b7",
+					"index": 4,
+					"path": "4",
+					"group": "d8f061b7",
+					"role": "dynamic",
+					"title": "Subscribe to our newsletter​",
+					"slots": [
+						{
+							"id": "2ef6e8aa:text",
+							"blockId": "2ef6e8aa",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Subscribe to our newsletter​",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "093d2d93:text",
+							"blockId": "093d2d93",
+							"path": "4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "d8f061b7:background.image.image.url",
+							"blockId": "d8f061b7",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/footer-bg.jpg",
+							"decorative": true,
+							"width": 1645,
+							"height": 816,
+							"orientation": "landscape"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "09ba9e86",
+					"role": "hero",
+					"title": "WHAT WE DO",
+					"sectionIds": [
+						"09ba9e86"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "76676ef8",
+					"role": "team",
+					"title": "OUR TEAM",
+					"sectionIds": [
+						"76676ef8"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "f86eb676",
+					"role": "content",
+					"sectionIds": [
+						"f86eb676"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6a06c563",
+					"role": "content",
+					"sectionIds": [
+						"6a06c563"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d8f061b7",
+					"role": "dynamic",
+					"title": "Subscribe to our newsletter​",
+					"sectionIds": [
+						"d8f061b7"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "b16f07e1",
+					"index": 0,
+					"path": "0",
+					"group": "b16f07e1",
+					"role": "hero",
+					"title": "OUR SERVICES",
+					"slots": [
+						{
+							"id": "267d6561:text",
+							"blockId": "267d6561",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "OUR SERVICES",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ee089df2:text",
+							"blockId": "ee089df2",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Take the world’s best services for you",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3897ae7d:text",
+							"blockId": "3897ae7d",
+							"path": "0.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "LEAK DETECTION TOOL",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b634b741:text",
+							"blockId": "b634b741",
+							"path": "0.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7511b380:text",
+							"blockId": "7511b380",
+							"path": "0.0.2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb761d45:text",
+							"blockId": "fb761d45",
+							"path": "0.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WATER LINE REPAIR",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9d627008:text",
+							"blockId": "9d627008",
+							"path": "0.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5d388cbb:text",
+							"blockId": "5d388cbb",
+							"path": "0.0.2.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7efef90e:text",
+							"blockId": "7efef90e",
+							"path": "0.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BATHROOM PLUMBING",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "54730263:text",
+							"blockId": "54730263",
+							"path": "0.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "66d91cab:text",
+							"blockId": "66d91cab",
+							"path": "0.0.2.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ef6efd14:text",
+							"blockId": "ef6efd14",
+							"path": "0.0.2.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PLUMBING REPAIR",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cc5d512c:text",
+							"blockId": "cc5d512c",
+							"path": "0.0.2.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "62894826:text",
+							"blockId": "62894826",
+							"path": "0.0.2.3.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "907ca3f5:text",
+							"blockId": "907ca3f5",
+							"path": "0.0.2.4.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "LEAK DETECTION",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8210baf:text",
+							"blockId": "d8210baf",
+							"path": "0.0.2.4.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c660b1ab:text",
+							"blockId": "c660b1ab",
+							"path": "0.0.2.4.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad97c2b2:text",
+							"blockId": "ad97c2b2",
+							"path": "0.0.2.5.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "RESIDENTIAL TOOL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "72265448:text",
+							"blockId": "72265448",
+							"path": "0.0.2.5.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "39cf8539:text",
+							"blockId": "39cf8539",
+							"path": "0.0.2.5.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "62322303:image.url",
+							"blockId": "62322303",
+							"path": "0.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/leak-detection.png",
+							"decorative": true,
+							"width": 80,
+							"height": 60,
+							"orientation": "landscape"
+						},
+						{
+							"id": "01c6ab02:image.url",
+							"blockId": "01c6ab02",
+							"path": "0.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/water-line-repair.png",
+							"decorative": true,
+							"width": 80,
+							"height": 87,
+							"orientation": "square"
+						},
+						{
+							"id": "21bedd60:image.url",
+							"blockId": "21bedd60",
+							"path": "0.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/bathroom-plumbing-img.png",
+							"decorative": true,
+							"width": 60,
+							"height": 96,
+							"orientation": "portrait"
+						},
+						{
+							"id": "cdea74f3:image.url",
+							"blockId": "cdea74f3",
+							"path": "0.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/5.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "8d06de74:image.url",
+							"blockId": "8d06de74",
+							"path": "0.0.2.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/leak-detection.png",
+							"decorative": true,
+							"width": 80,
+							"height": 60,
+							"orientation": "landscape"
+						},
+						{
+							"id": "6f05c479:image.url",
+							"blockId": "6f05c479",
+							"path": "0.0.2.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/5.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "7f7fbd89",
+					"index": 1,
+					"path": "1",
+					"group": "7f7fbd89",
+					"role": "dynamic",
+					"title": "Subscribe to our newsletter​",
+					"slots": [
+						{
+							"id": "af034d7d:text",
+							"blockId": "af034d7d",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Subscribe to our newsletter​",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d3a620cf:text",
+							"blockId": "d3a620cf",
+							"path": "1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "7f7fbd89:background.image.image.url",
+							"blockId": "7f7fbd89",
+							"path": "1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/footer-bg.jpg",
+							"decorative": true,
+							"width": 1645,
+							"height": 816,
+							"orientation": "landscape"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "b16f07e1",
+					"role": "hero",
+					"title": "OUR SERVICES",
+					"sectionIds": [
+						"b16f07e1"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7f7fbd89",
+					"role": "dynamic",
+					"title": "Subscribe to our newsletter​",
+					"sectionIds": [
+						"7f7fbd89"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "faq",
+			"title": "Faq",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/themegrill-demos/faq-content.xml",
+			"sections": [
+				{
+					"id": "f3168dc5",
+					"index": 0,
+					"path": "0",
+					"group": "f3168dc5",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "2843396a:text",
+							"blockId": "2843396a",
+							"path": "0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+							"rich": true,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0681b0eb:text",
+							"blockId": "0681b0eb",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+							"rich": false,
+							"words": 60,
+							"minWords": 36,
+							"maxWords": 75,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "b9aa808a",
+					"index": 1,
+					"path": "1",
+					"group": "b9aa808a",
+					"role": "faq",
+					"slots": [
+						{
+							"id": "c4f0ed11:question",
+							"blockId": "c4f0ed11",
+							"path": "1.1.0.0",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "Why Is My Water Bill So High?",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c4f0ed11:answer",
+							"blockId": "c4f0ed11",
+							"path": "1.1.0.0",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 88,
+							"minWords": 53,
+							"maxWords": 110,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "498830ad:question",
+							"blockId": "498830ad",
+							"path": "1.1.0.1",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "What Is a Well Pump UV Light Used For?",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "498830ad:answer",
+							"blockId": "498830ad",
+							"path": "1.1.0.1",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 88,
+							"minWords": 53,
+							"maxWords": 110,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "eba606d9:question",
+							"blockId": "eba606d9",
+							"path": "1.1.0.2",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "Why Do I Have a Sewer Smell in My Home?",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eba606d9:answer",
+							"blockId": "eba606d9",
+							"path": "1.1.0.2",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 88,
+							"minWords": 53,
+							"maxWords": 110,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "77389af7:question",
+							"blockId": "77389af7",
+							"path": "1.1.0.3",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "Why Is Quest Piping Bad to Have in Your Home?",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "77389af7:answer",
+							"blockId": "77389af7",
+							"path": "1.1.0.3",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 88,
+							"minWords": 53,
+							"maxWords": 110,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "27758b0c:question",
+							"blockId": "27758b0c",
+							"path": "1.1.0.4",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "Where Is My Main Water Shut-Off Valve?",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "27758b0c:answer",
+							"blockId": "27758b0c",
+							"path": "1.1.0.4",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 88,
+							"minWords": 53,
+							"maxWords": 110,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8eb04f99:question",
+							"blockId": "8eb04f99",
+							"path": "1.1.0.5",
+							"block": "blockart/faq-inner",
+							"attr": "question",
+							"kind": "question",
+							"text": "Why Is My Water Cloudy and How Do I Fix It?",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8eb04f99:answer",
+							"blockId": "8eb04f99",
+							"path": "1.1.0.5",
+							"block": "blockart/faq-inner",
+							"attr": "answer",
+							"kind": "answer",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 88,
+							"minWords": 53,
+							"maxWords": 110,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "2abf4ded",
+					"index": 2,
+					"path": "2",
+					"group": "2abf4ded",
+					"role": "dynamic",
+					"title": "Subscribe to our newsletter​",
+					"slots": [
+						{
+							"id": "140b3ee6:text",
+							"blockId": "140b3ee6",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Subscribe to our newsletter​",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "414a13ae:text",
+							"blockId": "414a13ae",
+							"path": "2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "2abf4ded:background.image.image.url",
+							"blockId": "2abf4ded",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/footer-bg.jpg",
+							"decorative": true,
+							"width": 1645,
+							"height": 816,
+							"orientation": "landscape"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "f3168dc5",
+					"role": "hero",
+					"sectionIds": [
+						"f3168dc5"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b9aa808a",
+					"role": "faq",
+					"sectionIds": [
+						"b9aa808a"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2abf4ded",
+					"role": "dynamic",
+					"title": "Subscribe to our newsletter​",
+					"sectionIds": [
+						"2abf4ded"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 20,
+		"textSlots": 116,
+		"editableSlots": 114,
+		"images": 51,
+		"swappableImages": 24,
+		"words": 1577
+	},
+	"builtAt": "2026-10-24T11:35:08.070Z"
+}

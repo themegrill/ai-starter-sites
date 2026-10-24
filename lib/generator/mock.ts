@@ -4,6 +4,7 @@
 import { ApiError } from '../errors';
 import { buildPackage, fillSection, findFixtureByDemo, pickFixture } from '../fixtures';
 import { config } from '../config';
+import { rankDesigns } from '../pipeline/rank-designs';
 import { GenerateRequest, GenerationProgress, Section, SlotValue } from '../types';
 import { Generator } from './types';
 
@@ -55,6 +56,14 @@ const rewrite = (value: SlotValue, instruction: string, variant: number): SlotVa
 };
 
 export const mockGenerator: Generator = {
+	// Keyword scoring only (no brief); the fixture package ignores the chosen design.
+	async designs(request) {
+		throwForTag(request.description);
+		await sleep(config.mockDelayMs / 2);
+		const brief = { businessType: '', niche: request.niche, relatedNiches: [], summary: request.description, offerings: [] } as never;
+		return { briefId: 'brf_mock', designs: rankDesigns(request, brief) };
+	},
+
 	async generate(request, { onProgress } = {}) {
 		throwForTag(request.description);
 		const steps: GenerationProgress['step'][] = ['understanding_brand', 'picking_design', 'writing_copy', 'finding_images', 'assembling'];

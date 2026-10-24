@@ -1,0 +1,2373 @@
+{
+	"version": 4,
+	"slug": "writer-v2",
+	"name": "Writer v2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-writer-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/writer-v2",
+	"niches": [
+		"author",
+		"books",
+		"writing"
+	],
+	"keywords": [
+		"writer",
+		"author",
+		"books",
+		"book shop",
+		"novelist",
+		"publisher"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#586e5e",
+				"count": 49,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 33,
+					"background": 6,
+					"border": 5
+				}
+			},
+			{
+				"hex": "#d14031",
+				"count": 35,
+				"group": "brand",
+				"role": "primary",
+				"base": "#d14031",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 12,
+					"background": 5,
+					"icon": 2
+				}
+			},
+			{
+				"hex": "#495057",
+				"count": 25,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 19
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 24,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 8,
+					"background": 7
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 19,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#eef1ef",
+				"count": 4,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#829387",
+				"count": 4,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 3,
+					"background": 1
+				}
+			},
+			{
+				"hex": "#5f5e5e",
+				"count": 4,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#666666",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#2664eb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#2664eb",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#2563eb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#2664eb",
+				"lightnessDelta": -0.002
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#2664eb",
+				"lightnessDelta": -0.165
+			},
+			{
+				"hex": "#dd9933",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#dd9933",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#d14031",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 7,
+				"scope": "theme"
+			},
+			{
+				"fg": "#d14031",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#d14031",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Caudex",
+			"body": "Roboto",
+			"map": {
+				"Caudex": "heading",
+				"Roboto": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "sample-page-2",
+			"title": "Sample Page",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/themegrill-demos/sample-page-2-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "9b3ca0cb",
+					"index": 0,
+					"path": "0",
+					"group": "9b3ca0cb",
+					"role": "hero",
+					"title": "James",
+					"slots": [
+						{
+							"id": "a29b9af2:text",
+							"blockId": "a29b9af2",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "James",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fa893b23:text",
+							"blockId": "fa893b23",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "O’ Wilson",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e3bfb215:text",
+							"blockId": "e3bfb215",
+							"path": "0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "An author with cozy style",
+							"rich": true,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7acde32f:text",
+							"blockId": "7acde32f",
+							"path": "0.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6eaafc6a:text",
+							"blockId": "6eaafc6a",
+							"path": "0.0.0.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy book - $125",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "9b3ca0cb:background.image.image.url",
+							"blockId": "9b3ca0cb",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/main-circle-right.png",
+							"decorative": true,
+							"width": 336,
+							"height": 333,
+							"orientation": "square"
+						},
+						{
+							"id": "f70ed149:background.image.image.url",
+							"blockId": "f70ed149",
+							"path": "0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/shapes-bg.png",
+							"decorative": true,
+							"width": 1242,
+							"height": 590,
+							"orientation": "landscape"
+						},
+						{
+							"id": "004eb361:image.url",
+							"blockId": "004eb361",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/main-book-1.png",
+							"decorative": false,
+							"width": 455,
+							"height": 661,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Hardcover book mockup titled Zakra Tour to Cliffs of Moher",
+							"tone": {
+								"grid": [
+									0.67,
+									0.77,
+									0.83,
+									0.79,
+									0.64,
+									0.75,
+									0.83,
+									0.74,
+									0.72
+								],
+								"color": "#ddb7b7"
+							}
+						}
+					]
+				},
+				{
+					"id": "b4cf9d24",
+					"index": 1,
+					"path": "1",
+					"group": "b4cf9d24",
+					"role": "features",
+					"title": "Free Shipping",
+					"slots": [
+						{
+							"id": "cf211ef2:text",
+							"blockId": "cf211ef2",
+							"path": "1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Free Shipping",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1ebd1f88:text",
+							"blockId": "1ebd1f88",
+							"path": "1.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum consectetur libero a rhoncus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "71683496:text",
+							"blockId": "71683496",
+							"path": "1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Secure Payment",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "20f7eb4f:text",
+							"blockId": "20f7eb4f",
+							"path": "1.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum consectetur libero a rhoncus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8a2f2f84:text",
+							"blockId": "8a2f2f84",
+							"path": "1.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Free Return Policy",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "75d345f8:text",
+							"blockId": "75d345f8",
+							"path": "1.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum consectetur libero a rhoncus.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "063013f9:image.url",
+							"blockId": "063013f9",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-1.png",
+							"decorative": true,
+							"width": 63,
+							"height": 50,
+							"orientation": "landscape"
+						},
+						{
+							"id": "faec6914:image.url",
+							"blockId": "faec6914",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/icon-2.png",
+							"decorative": true,
+							"width": 57,
+							"height": 44,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0e0c196b:image.url",
+							"blockId": "0e0c196b",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/icon-3.png",
+							"decorative": true,
+							"width": 57,
+							"height": 50,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "25c79bb1",
+					"index": 2,
+					"path": "2",
+					"group": "25c79bb1",
+					"role": "features",
+					"title": "EXPLORE US",
+					"slots": [
+						{
+							"id": "5f01b7bd:text",
+							"blockId": "5f01b7bd",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "EXPLORE US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2267efb1:text",
+							"blockId": "2267efb1",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What’s included?",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eac1a8c3:text",
+							"blockId": "eac1a8c3",
+							"path": "2.1.0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Chapter 1",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9265f6af:text",
+							"blockId": "9265f6af",
+							"path": "2.1.0.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor, nunc non dapibus efficitur.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "62fb4fd7:text",
+							"blockId": "62fb4fd7",
+							"path": "2.1.0.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Chapter 2",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8429a5af:text",
+							"blockId": "8429a5af",
+							"path": "2.1.0.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor, nunc non dapibus efficitur.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e6201635:text",
+							"blockId": "e6201635",
+							"path": "2.1.1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Chapter 3",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "843e1fea:text",
+							"blockId": "843e1fea",
+							"path": "2.1.1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor, nunc non dapibus efficitur.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "73995dbf:text",
+							"blockId": "73995dbf",
+							"path": "2.1.1.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Chapter 4",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f88261ea:text",
+							"blockId": "f88261ea",
+							"path": "2.1.1.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor, nunc non dapibus efficitur.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "af6f1ed3:text",
+							"blockId": "af6f1ed3",
+							"path": "2.1.2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Chapter 5",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e1ca812b:text",
+							"blockId": "e1ca812b",
+							"path": "2.1.2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor, nunc non dapibus efficitur.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e1f908ea:text",
+							"blockId": "e1f908ea",
+							"path": "2.1.2.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Chapter 6",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4eafe6dc:text",
+							"blockId": "4eafe6dc",
+							"path": "2.1.2.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor, nunc non dapibus efficitur.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4588eab6:text",
+							"blockId": "4588eab6",
+							"path": "2.1.3.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Chapter 7",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f51464c1:text",
+							"blockId": "f51464c1",
+							"path": "2.1.3.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor, nunc non dapibus efficitur.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "63d2fe38:text",
+							"blockId": "63d2fe38",
+							"path": "2.1.3.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Chapter 8",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f6277ee6:text",
+							"blockId": "f6277ee6",
+							"path": "2.1.3.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor, nunc non dapibus efficitur.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e6b3300d:text",
+							"blockId": "e6b3300d",
+							"path": "2.1.4.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "buy book for $125",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "562e4fc3:image.url",
+							"blockId": "562e4fc3",
+							"path": "2.1.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-4.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "1f269619:image.url",
+							"blockId": "1f269619",
+							"path": "2.1.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-4.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "c948555f:image.url",
+							"blockId": "c948555f",
+							"path": "2.1.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-4.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "ec5d1fcc:image.url",
+							"blockId": "ec5d1fcc",
+							"path": "2.1.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-4.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "dc147f49:image.url",
+							"blockId": "dc147f49",
+							"path": "2.1.2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-4.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "1c5fe16b:image.url",
+							"blockId": "1c5fe16b",
+							"path": "2.1.2.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-4.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "d9e628ec:image.url",
+							"blockId": "d9e628ec",
+							"path": "2.1.3.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-4.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "466c424f:image.url",
+							"blockId": "466c424f",
+							"path": "2.1.3.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-4.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "be0d5a7a",
+					"index": 3,
+					"path": "3",
+					"group": "be0d5a7a",
+					"role": "features",
+					"title": "EXPLORE US",
+					"slots": [
+						{
+							"id": "cce80d27:text",
+							"blockId": "cce80d27",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "EXPLORE US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b599db14:text",
+							"blockId": "b599db14",
+							"path": "3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About the author",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e7ea5409:text",
+							"blockId": "e7ea5409",
+							"path": "3.0.1.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Don’t tell me the moon is shining show me the glint of light on broken glass.",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af1a527e:text",
+							"blockId": "af1a527e",
+							"path": "3.0.1.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "James O’ Wilson",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "28c0961a:text",
+							"blockId": "28c0961a",
+							"path": "3.0.1.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus lectus non lectus scelerisque, sagittis malesuada arcu porttitor. Phasellus non vehicula velit. Sed bibendum arcu et magna dapibus, nec egestas sapien vehicula.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "be0d5a7a:background.image.image.url",
+							"blockId": "be0d5a7a",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/main-circle-right.png",
+							"decorative": true,
+							"width": 336,
+							"height": 333,
+							"orientation": "square"
+						},
+						{
+							"id": "8c8ff8d3:background.image.image.url",
+							"blockId": "8c8ff8d3",
+							"path": "3.0.1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/shapes-bg.png",
+							"decorative": true,
+							"width": 1242,
+							"height": 590,
+							"orientation": "landscape"
+						},
+						{
+							"id": "5772258c:image.url",
+							"blockId": "5772258c",
+							"path": "3.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/authorimg-1.png",
+							"decorative": false,
+							"width": 561,
+							"height": 612,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling man in a blue t-shirt with arms crossed",
+							"tone": {
+								"grid": [
+									0.93,
+									0.56,
+									0.98,
+									0.77,
+									0.47,
+									0.83,
+									0.87,
+									0.51,
+									0.68
+								],
+								"color": "#c2b9ba"
+							}
+						},
+						{
+							"id": "dc19582d:image.url",
+							"blockId": "dc19582d",
+							"path": "3.0.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/quote-left-solid.png",
+							"decorative": true,
+							"width": 24,
+							"height": 17,
+							"orientation": "landscape"
+						},
+						{
+							"id": "c4b3f485:image.url",
+							"blockId": "c4b3f485",
+							"path": "3.0.1.1.0.1.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/partners-1.png",
+							"decorative": true,
+							"width": 91,
+							"height": 75,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ed60928d:image.url",
+							"blockId": "ed60928d",
+							"path": "3.0.1.1.0.1.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/partners-2.png",
+							"decorative": true,
+							"width": 91,
+							"height": 75,
+							"orientation": "landscape"
+						},
+						{
+							"id": "40c9a40a:image.url",
+							"blockId": "40c9a40a",
+							"path": "3.0.1.1.0.1.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/partners-3.png",
+							"decorative": true,
+							"width": 91,
+							"height": 75,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "44776de6",
+					"index": 4,
+					"path": "4",
+					"group": "44776de6",
+					"role": "testimonials",
+					"title": "EXPLORE US",
+					"slots": [
+						{
+							"id": "e78b6c28:text",
+							"blockId": "e78b6c28",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "EXPLORE US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4699faf5:text",
+							"blockId": "4699faf5",
+							"path": "4.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Available on iOS, Android & Mac",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e3d62c0:text",
+							"blockId": "3e3d62c0",
+							"path": "4.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Get the free Kindle apps and read unlimited.Also the audio version is available.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "88378a5a:text",
+							"blockId": "88378a5a",
+							"path": "4.0.1.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Highlight Notes and Bookmarks",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7c3cb213:text",
+							"blockId": "7c3cb213",
+							"path": "4.0.1.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam ligula metus, semper.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "27591bde:text",
+							"blockId": "27591bde",
+							"path": "4.0.1.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Read and Listen",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9add2230:text",
+							"blockId": "9add2230",
+							"path": "4.0.1.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam ligula metus, semper.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "22d92aa1:text",
+							"blockId": "22d92aa1",
+							"path": "4.0.1.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Kindle Instant Previews",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "411c797d:text",
+							"blockId": "411c797d",
+							"path": "4.0.1.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam ligula metus, semper.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "b13d2c17:image.url",
+							"blockId": "b13d2c17",
+							"path": "4.0.1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/explore-icon-1.png",
+							"decorative": true,
+							"width": 76,
+							"height": 76,
+							"orientation": "square"
+						},
+						{
+							"id": "66ede907:image.url",
+							"blockId": "66ede907",
+							"path": "4.0.1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/explore-icon-2.png",
+							"decorative": true,
+							"width": 76,
+							"height": 76,
+							"orientation": "square"
+						},
+						{
+							"id": "7f96e158:image.url",
+							"blockId": "7f96e158",
+							"path": "4.0.1.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/explore-icon-3.png",
+							"decorative": true,
+							"width": 76,
+							"height": 76,
+							"orientation": "square"
+						},
+						{
+							"id": "559b23da:image.url",
+							"blockId": "559b23da",
+							"path": "4.0.1.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/gp.png",
+							"decorative": true,
+							"width": 152,
+							"height": 45,
+							"orientation": "landscape"
+						},
+						{
+							"id": "29263604:image.url",
+							"blockId": "29263604",
+							"path": "4.0.1.0.4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/as.png",
+							"decorative": true,
+							"width": 152,
+							"height": 45,
+							"orientation": "landscape"
+						},
+						{
+							"id": "9145e3c9:image.url",
+							"blockId": "9145e3c9",
+							"path": "4.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/image-2.png",
+							"decorative": false,
+							"width": 584,
+							"height": 579,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Smartphone mockups showing a reading app",
+							"tone": {
+								"grid": [
+									0.98,
+									0.86,
+									0.88,
+									0.88,
+									0.61,
+									0.9,
+									0.89,
+									0.81,
+									0.98
+								],
+								"color": "#f1d7d4"
+							}
+						}
+					]
+				},
+				{
+					"id": "c6abb510",
+					"index": 5,
+					"path": "5",
+					"group": "c6abb510",
+					"role": "pricing",
+					"title": "EXPLORE US",
+					"slots": [
+						{
+							"id": "d8fcdaa5:text",
+							"blockId": "d8fcdaa5",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "EXPLORE US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80714118:text",
+							"blockId": "80714118",
+							"path": "5.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Pricing Plans",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "378691b6:text",
+							"blockId": "378691b6",
+							"path": "5.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "STANDARD PACK",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1e41e5e9:text",
+							"blockId": "1e41e5e9",
+							"path": "5.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$199",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "bfbe7a15:text",
+							"blockId": "bfbe7a15",
+							"path": "5.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ebook(Epub,Mobi,Eb2,Pdf) Project files Book workshop events Author's Public Reading Autogreated Edition Updating your files",
+							"rich": true,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fea1282d:text",
+							"blockId": "fea1282d",
+							"path": "5.0.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b60d3cae:text",
+							"blockId": "b60d3cae",
+							"path": "5.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "STANDARD PACK",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7431910:text",
+							"blockId": "c7431910",
+							"path": "5.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$199",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "99fc3878:text",
+							"blockId": "99fc3878",
+							"path": "5.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ebook(Epub,Mobi,Eb2,Pdf) Project files Book workshop events Author's Public Reading Autogreated Edition Updating your files",
+							"rich": true,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c3a23b95:text",
+							"blockId": "c3a23b95",
+							"path": "5.0.1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "BUY NOW",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1b0be039:text",
+							"blockId": "1b0be039",
+							"path": "5.0.1.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "STANDARD PACK",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "705fb3b7:text",
+							"blockId": "705fb3b7",
+							"path": "5.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "$199",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "72febf39:text",
+							"blockId": "72febf39",
+							"path": "5.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ebook(Epub,Mobi,Eb2,Pdf) Project files Book workshop events Author's Public Reading Autogreated Edition Updating your files",
+							"rich": true,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7a9dee19:text",
+							"blockId": "7a9dee19",
+							"path": "5.0.1.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c6abb510:background.image.image.url",
+							"blockId": "c6abb510",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/pricing-bg.png",
+							"decorative": true,
+							"width": 1580,
+							"height": 847,
+							"orientation": "landscape"
+						},
+						{
+							"id": "9edcb87c:background.image.image.url",
+							"blockId": "9edcb87c",
+							"path": "5.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/author-left-circle.png",
+							"decorative": true,
+							"width": 325,
+							"height": 428,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "e111ad67",
+					"index": 6,
+					"path": "6",
+					"group": "e111ad67",
+					"role": "testimonials",
+					"title": "EXPLORE US",
+					"slots": [
+						{
+							"id": "86c6cca1:text",
+							"blockId": "86c6cca1",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "EXPLORE US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6ebb5cd8:text",
+							"blockId": "6ebb5cd8",
+							"path": "6.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "What Our Reader's Say?",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fb8b6db8:text",
+							"blockId": "fb8b6db8",
+							"path": "6.0.1.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed volutpat dui. Curabitur porta ante vitae consequat facilisis. Cras varius risus sit amet nisl placerat semper. Sed luctus semper sem, non ultricies turpis laoreet non. Aliquam ut semper augue pellentesque ut accumsan.",
+							"rich": false,
+							"words": 42,
+							"minWords": 25,
+							"maxWords": 53,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "db82630b:text",
+							"blockId": "db82630b",
+							"path": "6.0.1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Ketty Perry",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c844f769:text",
+							"blockId": "c844f769",
+							"path": "6.0.1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Reader of Winter Darkest Tragedy",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3230cd6d:text",
+							"blockId": "3230cd6d",
+							"path": "6.0.1.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed volutpat dui. Curabitur porta ante vitae consequat facilisis. Cras varius risus sit amet nisl placerat semper. Sed luctus semper sem, non ultricies turpis laoreet non. Aliquam ut semper augue pellentesque ut accumsan.",
+							"rich": false,
+							"words": 42,
+							"minWords": 25,
+							"maxWords": 53,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "33bc5054:text",
+							"blockId": "33bc5054",
+							"path": "6.0.1.1.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Michael Andrey",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5a425a6a:text",
+							"blockId": "5a425a6a",
+							"path": "6.0.1.1.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Reader of Winter Darkest Tragedy",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d9de57b6:text",
+							"blockId": "d9de57b6",
+							"path": "6.0.2.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW ALL TESTIMONIALS",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "77299e55:image.url",
+							"blockId": "77299e55",
+							"path": "6.0.1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/testimonial-1.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "2b6aec2e:image.url",
+							"blockId": "2b6aec2e",
+							"path": "6.0.1.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/testimonial-2.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "4e362290",
+					"index": 7,
+					"path": "7",
+					"group": "4e362290",
+					"role": "dynamic",
+					"title": "EXPLORE US",
+					"slots": [
+						{
+							"id": "a7fb4384:text",
+							"blockId": "a7fb4384",
+							"path": "7.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "EXPLORE US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6166f922:text",
+							"blockId": "6166f922",
+							"path": "7.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "James Other Books",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4e362290:background.image.image.url",
+							"blockId": "4e362290",
+							"path": "7",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/pricing-bg.png",
+							"decorative": true,
+							"width": 1580,
+							"height": 847,
+							"orientation": "landscape"
+						},
+						{
+							"id": "54d0f915:background.image.image.url",
+							"blockId": "54d0f915",
+							"path": "7.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/author-left-circle.png",
+							"decorative": true,
+							"width": 325,
+							"height": 428,
+							"orientation": "portrait"
+						}
+					],
+					"dynamicBlocks": [
+						"woocommerce/all-products"
+					]
+				},
+				{
+					"id": "bd3aaf15",
+					"index": 8,
+					"path": "8",
+					"group": "bd3aaf15",
+					"role": "features",
+					"title": "EXPLORE US",
+					"slots": [
+						{
+							"id": "9eafe1db:text",
+							"blockId": "9eafe1db",
+							"path": "8.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "EXPLORE US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6e4b201a:text",
+							"blockId": "6e4b201a",
+							"path": "8.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Latest News & Events",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eaad8a30:text",
+							"blockId": "eaad8a30",
+							"path": "8.0.1.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Great list of resources for writting",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a15db919:text",
+							"blockId": "a15db919",
+							"path": "8.0.1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque tellus nisl, quis tincidunt ligula …",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c2e50fc2:text",
+							"blockId": "c2e50fc2",
+							"path": "8.0.1.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "A one-stop place for everything related...",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0efdf2d0:text",
+							"blockId": "0efdf2d0",
+							"path": "8.0.1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque tellus nisl, quis tincidunt ligula …",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "fa7f58b6:text",
+							"blockId": "fa7f58b6",
+							"path": "8.0.1.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Know more about top author’s life",
+							"rich": true,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "df04a044:text",
+							"blockId": "df04a044",
+							"path": "8.0.1.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque tellus nisl, quis tincidunt ligula …",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "705c6448:image.url",
+							"blockId": "705c6448",
+							"path": "8.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/blog-4-1.jpg",
+							"decorative": false,
+							"width": 1350,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Person reading magazines on a bed surrounded by books",
+							"tone": {
+								"grid": [
+									0.67,
+									0.6,
+									0.74,
+									0.66,
+									0.51,
+									0.52,
+									0.36,
+									0.4,
+									0.54
+								],
+								"color": "#8f8e89"
+							}
+						},
+						{
+							"id": "4dac0ab1:image.url",
+							"blockId": "4dac0ab1",
+							"path": "8.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/blog-3-1.jpg",
+							"decorative": false,
+							"width": 1350,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Living room with tall bookshelves and a person browsing",
+							"tone": {
+								"grid": [
+									0.3,
+									0.34,
+									0.5,
+									0.42,
+									0.45,
+									0.53,
+									0.65,
+									0.73,
+									0.75
+								],
+								"color": "#87857e"
+							}
+						},
+						{
+							"id": "e0bfd8e3:image.url",
+							"blockId": "e0bfd8e3",
+							"path": "8.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/blog-2-1.jpg",
+							"decorative": false,
+							"width": 1350,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Stack of business books on a table",
+							"tone": {
+								"grid": [
+									0.41,
+									0.34,
+									0.63,
+									0.24,
+									0.32,
+									0.73,
+									0.7,
+									0.55,
+									0.82
+								],
+								"color": "#988278"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "9b3ca0cb",
+					"role": "hero",
+					"title": "James",
+					"sectionIds": [
+						"9b3ca0cb"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b4cf9d24",
+					"role": "features",
+					"title": "Free Shipping",
+					"sectionIds": [
+						"b4cf9d24"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "25c79bb1",
+					"role": "features",
+					"title": "EXPLORE US",
+					"sectionIds": [
+						"25c79bb1"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "be0d5a7a",
+					"role": "features",
+					"title": "EXPLORE US",
+					"sectionIds": [
+						"be0d5a7a"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "44776de6",
+					"role": "testimonials",
+					"title": "EXPLORE US",
+					"sectionIds": [
+						"44776de6"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c6abb510",
+					"role": "pricing",
+					"title": "EXPLORE US",
+					"sectionIds": [
+						"c6abb510"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "e111ad67",
+					"role": "testimonials",
+					"title": "EXPLORE US",
+					"sectionIds": [
+						"e111ad67"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4e362290",
+					"role": "dynamic",
+					"title": "EXPLORE US",
+					"sectionIds": [
+						"4e362290"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "bd3aaf15",
+					"role": "features",
+					"title": "EXPLORE US",
+					"sectionIds": [
+						"bd3aaf15"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "cart",
+			"title": "Cart",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/themegrill-demos/cart-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"slots": [
+						{
+							"id": "core-0.0.0.1.0:@html:h",
+							"blockId": "core-0.0.0.1.0",
+							"path": "0.0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "You may be interested in…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0:@html:h",
+							"blockId": "core-0.1.0",
+							"path": "0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Your cart is currently empty!",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.2:@html:h",
+							"blockId": "core-0.1.2",
+							"path": "0.1.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New in store",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/cart",
+						"woocommerce/filled-cart-block",
+						"woocommerce/cart-items-block",
+						"woocommerce/cart-line-items-block",
+						"woocommerce/cart-cross-sells-block",
+						"woocommerce/cart-cross-sells-products-block",
+						"woocommerce/cart-totals-block",
+						"woocommerce/cart-order-summary-block",
+						"woocommerce/cart-order-summary-heading-block",
+						"woocommerce/cart-order-summary-coupon-form-block",
+						"woocommerce/cart-order-summary-subtotal-block",
+						"woocommerce/cart-order-summary-fee-block",
+						"woocommerce/cart-order-summary-discount-block",
+						"woocommerce/cart-order-summary-shipping-block",
+						"woocommerce/cart-order-summary-taxes-block",
+						"woocommerce/cart-express-payment-block",
+						"woocommerce/proceed-to-checkout-block",
+						"woocommerce/cart-accepted-payment-methods-block",
+						"woocommerce/empty-cart-block",
+						"woocommerce/product-new"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 10,
+		"textSlots": 80,
+		"editableSlots": 77,
+		"images": 36,
+		"swappableImages": 6,
+		"words": 588
+	},
+	"builtAt": "2026-10-24T11:35:08.088Z"
+}

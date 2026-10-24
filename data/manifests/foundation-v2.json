@@ -1,0 +1,4191 @@
+{
+	"version": 4,
+	"slug": "foundation-v2",
+	"name": "Zakra Foundation",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-foundation-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/foundation-v2",
+	"niches": [
+		"nonprofit",
+		"charity"
+	],
+	"keywords": [
+		"foundation",
+		"charity",
+		"fundraising",
+		"volunteers",
+		"nonprofit",
+		"donation",
+		"ngo"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#f13e4b",
+				"count": 64,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f13e4b",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 26,
+					"background": 10,
+					"border": 8
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 57,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 22,
+					"background": 17,
+					"border": 7
+				}
+			},
+			{
+				"hex": "#575757",
+				"count": 29,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 29
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 16,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 16
+				}
+			},
+			{
+				"hex": "#808080",
+				"count": 13,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 13
+				}
+			},
+			{
+				"hex": "#dddddd",
+				"count": 10,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#f4f5f9",
+				"count": 6,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 6
+				}
+			},
+			{
+				"hex": "#484141",
+				"count": 6,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#797979",
+				"count": 6,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#343a40",
+				"count": 6,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f00808",
+				"count": 6,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f13e4b",
+				"lightnessDelta": -0.108,
+				"usage": {
+					"text": 6
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#d6d6d6",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"border": 3
+				}
+			},
+			{
+				"hex": "#292929",
+				"count": 3,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#b2b2b2",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#929292",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#2664eb",
+				"count": 3,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#2664eb",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#000000",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#2664eb",
+				"lightnessDelta": -0.165
+			},
+			{
+				"hex": "#fffffc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#dcdcdc",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#3f3f3f",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#f23a46",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f13e4b",
+				"lightnessDelta": -0.006
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#f13e4b",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 16,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f13e4b",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f00808",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f13e4b",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 5,
+				"scope": "theme"
+			},
+			{
+				"fg": "#f13e4b",
+				"bg": "#f4f5f9",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f13e4b",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f13e4b",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Noto Serif",
+			"body": "Noto Sans",
+			"map": {
+				"Noto Sans": "body",
+				"Noto Serif": "heading"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "c5df919c",
+					"index": 0,
+					"path": "0",
+					"group": "c5df919c",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "core-0.0.0.0.1:@html:p",
+							"blockId": "core-0.0.0.0.1",
+							"path": "0.0.0.0.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Every day we bring hope to millions of children in the world's hardest places as a sign of God's unconditional love.",
+							"rich": true,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "102702c9:text",
+							"blockId": "102702c9",
+							"path": "0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Join Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b8832dfe:text",
+							"blockId": "b8832dfe",
+							"path": "0.0.0.0.2.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "See More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.0.0.1.1:@html:p",
+							"blockId": "core-0.0.0.1.1",
+							"path": "0.0.0.1.1",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Every day we bring hope to millions of children in the world's hardest places as a sign of God's unconditional love.",
+							"rich": true,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "22eda0db:text",
+							"blockId": "22eda0db",
+							"path": "0.0.0.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Join Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e74c2e0:text",
+							"blockId": "3e74c2e0",
+							"path": "0.0.0.1.2.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "See More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "70ce48ce:background.image.image.url",
+							"blockId": "70ce48ce",
+							"path": "0.0.0.0",
+							"block": "blockart/slide",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/banner01.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Group of smiling children crowding toward the camera and pointing",
+							"tone": {
+								"grid": [
+									0.36,
+									0.32,
+									0.31,
+									0.56,
+									0.43,
+									0.37,
+									0.46,
+									0.51,
+									0.28
+								],
+								"color": "#71645b"
+							}
+						},
+						{
+							"id": "b4ae85e1:image.url",
+							"blockId": "b4ae85e1",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/charity-header-1.png",
+							"decorative": true,
+							"width": 676,
+							"height": 80,
+							"orientation": "landscape"
+						},
+						{
+							"id": "1f896f6c:background.image.image.url",
+							"blockId": "1f896f6c",
+							"path": "0.0.0.1",
+							"block": "blockart/slide",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/banner02-1.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 900,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Group of happy young children sitting together on stone steps",
+							"tone": {
+								"grid": [
+									0.52,
+									0.6,
+									0.52,
+									0.47,
+									0.49,
+									0.55,
+									0.57,
+									0.56,
+									0.5
+								],
+								"color": "#8f877b"
+							}
+						},
+						{
+							"id": "9d8edbd7:image.url",
+							"blockId": "9d8edbd7",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/save-a-child.png",
+							"decorative": true,
+							"width": 544,
+							"height": 80,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "53656727",
+					"index": 1,
+					"path": "1",
+					"group": "53656727",
+					"role": "features",
+					"title": "COLLECT FUND",
+					"slots": [
+						{
+							"id": "185adede:text",
+							"blockId": "185adede",
+							"path": "1.0.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "COLLECT FUND",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0ffe721c:text",
+							"blockId": "0ffe721c",
+							"path": "1.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Fund Raising",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fe7d0931:text",
+							"blockId": "fe7d0931",
+							"path": "1.0.0.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "HELP",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ef1f7e49:text",
+							"blockId": "ef1f7e49",
+							"path": "1.0.0.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Donate Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c5e93d28:text",
+							"blockId": "c5e93d28",
+							"path": "1.0.0.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "JOIN",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cd7cea96:text",
+							"blockId": "cd7cea96",
+							"path": "1.0.0.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Volunteer Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "00979db2:background.image.image.url",
+							"blockId": "00979db2",
+							"path": "1.0.0.0.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-02-03-09.png",
+							"decorative": true,
+							"width": 40,
+							"height": 56,
+							"orientation": "portrait"
+						},
+						{
+							"id": "e1525e9f:background.image.image.url",
+							"blockId": "e1525e9f",
+							"path": "1.0.0.1.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-02-11-22.png",
+							"decorative": true,
+							"width": 25,
+							"height": 55,
+							"orientation": "portrait"
+						},
+						{
+							"id": "9cb596ae:background.image.image.url",
+							"blockId": "9cb596ae",
+							"path": "1.0.0.2.0.0",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-02-12-38.png",
+							"decorative": true,
+							"width": 38,
+							"height": 53,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "f8dd0b7b",
+					"index": 2,
+					"path": "2",
+					"group": "f8dd0b7b",
+					"role": "content",
+					"title": "OUR",
+					"slots": [
+						{
+							"id": "e5ed1e90:text",
+							"blockId": "e5ed1e90",
+							"path": "2.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "OUR",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "247a7233:text",
+							"blockId": "247a7233",
+							"path": "2.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "MISSION",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4be9b0cc:text",
+							"blockId": "4be9b0cc",
+							"path": "2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "To provide opportunities and services, healthcare and education to childrens",
+							"rich": true,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a41b15e3:text",
+							"blockId": "a41b15e3",
+							"path": "2.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
+							"rich": false,
+							"words": 43,
+							"minWords": 26,
+							"maxWords": 54,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "345ee297:text",
+							"blockId": "345ee297",
+							"path": "2.1.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b198364d:image.url",
+							"blockId": "b198364d",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-02-23-17-30.png",
+							"decorative": false,
+							"width": 599,
+							"height": 479,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young boy writing in a notebook at a classroom desk",
+							"tone": {
+								"grid": [
+									0.59,
+									0.46,
+									0.54,
+									0.42,
+									0.17,
+									0.36,
+									0.36,
+									0.31,
+									0.29
+								],
+								"color": "#6c6064"
+							}
+						},
+						{
+							"id": "8cfd4a4b:image.url",
+							"blockId": "8cfd4a4b",
+							"path": "2.1.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/divider.png",
+							"decorative": true,
+							"width": 107,
+							"height": 15,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "9692c0fb",
+					"index": 3,
+					"path": "3",
+					"group": "9692c0fb",
+					"role": "content",
+					"title": "RECENT",
+					"slots": [
+						{
+							"id": "5542698c:text",
+							"blockId": "5542698c",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "RECENT",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a38fc80b:text",
+							"blockId": "a38fc80b",
+							"path": "3.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CAUSES",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62c487b8:text",
+							"blockId": "62c487b8",
+							"path": "3.0.1.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Health Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "982cca05:text",
+							"blockId": "982cca05",
+							"path": "3.0.1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio nississ ducimus qui blanditiis praesentium luptatum deleniti atque corrupti quos dolores et quass",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6613bf22:text",
+							"blockId": "6613bf22",
+							"path": "3.0.1.0.1.0.2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "89585bfb:text",
+							"blockId": "89585bfb",
+							"path": "3.0.1.0.1.0.2.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$25000",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "a69865b1:text",
+							"blockId": "a69865b1",
+							"path": "3.0.1.0.1.0.2.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8c6d3e3a:text",
+							"blockId": "8c6d3e3a",
+							"path": "3.0.1.0.1.0.2.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$500000",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "d3df73a5:text",
+							"blockId": "d3df73a5",
+							"path": "3.0.1.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Human Service Charities",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "34da6770:text",
+							"blockId": "34da6770",
+							"path": "3.0.1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio nississ ducimus qui blanditiis praesentium luptatum deleniti atque corrupti quos dolores et quass",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "78d8ae9c:text",
+							"blockId": "78d8ae9c",
+							"path": "3.0.1.1.1.0.2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "459bbaa0:text",
+							"blockId": "459bbaa0",
+							"path": "3.0.1.1.1.0.2.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$25000",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "bc420c25:text",
+							"blockId": "bc420c25",
+							"path": "3.0.1.1.1.0.2.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "695c610b:text",
+							"blockId": "695c610b",
+							"path": "3.0.1.1.1.0.2.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$500000",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "dd3ea2f6:text",
+							"blockId": "dd3ea2f6",
+							"path": "3.0.1.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Early Childhood Education",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa98e1d6:text",
+							"blockId": "aa98e1d6",
+							"path": "3.0.1.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio nississ ducimus qui blanditiis praesentium luptatum deleniti atque corrupti quos dolores et quass",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "10d4428a:text",
+							"blockId": "10d4428a",
+							"path": "3.0.1.2.1.0.2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Raised:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b721b86:text",
+							"blockId": "7b721b86",
+							"path": "3.0.1.2.1.0.2.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$25000",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "8f67549b:text",
+							"blockId": "8f67549b",
+							"path": "3.0.1.2.1.0.2.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Goal:",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80a198e0:text",
+							"blockId": "80a198e0",
+							"path": "3.0.1.2.1.0.2.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "$500000",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						}
+					],
+					"images": [
+						{
+							"id": "5c0ff3ef:image.url",
+							"blockId": "5c0ff3ef",
+							"path": "3.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/cause1-img.jpg",
+							"decorative": false,
+							"width": 390,
+							"height": 220,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Hands using a blood pressure monitor on a patient's arm",
+							"tone": {
+								"grid": [
+									0.49,
+									0.48,
+									0.48,
+									0.55,
+									0.46,
+									0.52,
+									0.56,
+									0.55,
+									0.58
+								],
+								"color": "#818588"
+							}
+						},
+						{
+							"id": "f6eb263e:image.url",
+							"blockId": "f6eb263e",
+							"path": "3.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/cause2img.jpg",
+							"decorative": false,
+							"width": 390,
+							"height": 220,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Volunteers stacking hands together in a teamwork gesture",
+							"tone": {
+								"grid": [
+									0.8,
+									0.41,
+									0.63,
+									0.49,
+									0.33,
+									0.56,
+									0.34,
+									0.45,
+									0.43
+								],
+								"color": "#9b785f"
+							}
+						},
+						{
+							"id": "ddf9d3e1:image.url",
+							"blockId": "ddf9d3e1",
+							"path": "3.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/cause3img.jpg",
+							"decorative": false,
+							"width": 390,
+							"height": 220,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Crowd of smiling African children looking at the camera",
+							"tone": {
+								"grid": [
+									0.33,
+									0.4,
+									0.35,
+									0.26,
+									0.49,
+									0.48,
+									0.29,
+									0.41,
+									0.32
+								],
+								"color": "#695c59"
+							}
+						}
+					]
+				},
+				{
+					"id": "51450166",
+					"index": 4,
+					"path": "4",
+					"group": "51450166",
+					"role": "content",
+					"title": "We are helping hand on",
+					"slots": [
+						{
+							"id": "0b731025:text",
+							"blockId": "0b731025",
+							"path": "4.0.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We are helping hand on",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "852e4734:text",
+							"blockId": "852e4734",
+							"path": "4.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Children on 50+ countries.",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a25bae20:text",
+							"blockId": "a25bae20",
+							"path": "4.0.0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "20,000",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "3dc640ba:text",
+							"blockId": "3dc640ba",
+							"path": "4.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem elit accusantium doloremque elit laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architect it beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit ernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet",
+							"rich": false,
+							"words": 68,
+							"minWords": 41,
+							"maxWords": 85,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7a9f6872:text",
+							"blockId": "7a9f6872",
+							"path": "4.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get Started With Modal Builder Block!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e5d2c75e:text",
+							"blockId": "e5d2c75e",
+							"path": "4.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a03f070f:text",
+							"blockId": "a03f070f",
+							"path": "4.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Click Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "51450166:background.image.image.url",
+							"blockId": "51450166",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/helping.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 614,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Children reading and studying together in a classroom",
+							"tone": {
+								"grid": [
+									0.5,
+									0.64,
+									0.64,
+									0.64,
+									0.53,
+									0.5,
+									0.61,
+									0.5,
+									0.41
+								],
+								"color": "#908b8d"
+							}
+						},
+						{
+							"id": "a57904c3:image.url",
+							"blockId": "a57904c3",
+							"path": "4.1.0",
+							"block": "blockart/modal",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/video-play.png",
+							"decorative": true,
+							"width": 92,
+							"height": 91,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "f662dd9a",
+					"index": 5,
+					"path": "5",
+					"group": "f662dd9a",
+					"role": "content",
+					"title": "Donation",
+					"slots": [
+						{
+							"id": "b72350f4:text",
+							"blockId": "b72350f4",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Donation",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "df743837:text",
+							"blockId": "df743837",
+							"path": "5.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio loremi dignissimos ducbld itiispra ghgues et quas mole",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8a7055a4:text",
+							"blockId": "8a7055a4",
+							"path": "5.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "de6f7e16:text",
+							"blockId": "de6f7e16",
+							"path": "5.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Volunteers",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7a75b94d:text",
+							"blockId": "7a75b94d",
+							"path": "5.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio loremi dignissimos ducbld itiispra ghgues et quas mole",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "174114b0:text",
+							"blockId": "174114b0",
+							"path": "5.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b42b12b6:text",
+							"blockId": "b42b12b6",
+							"path": "5.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Education",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1976e9d3:text",
+							"blockId": "1976e9d3",
+							"path": "5.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio loremi dignissimos ducbld itiispra ghgues et quas mole",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c14ced6:text",
+							"blockId": "1c14ced6",
+							"path": "5.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1c495cfc:image.url",
+							"blockId": "1c495cfc",
+							"path": "5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-00-51-45.png",
+							"decorative": true,
+							"width": 68,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "c4151db6:image.url",
+							"blockId": "c4151db6",
+							"path": "5.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-00-50-47.png",
+							"decorative": true,
+							"width": 99,
+							"height": 65,
+							"orientation": "landscape"
+						},
+						{
+							"id": "83939cec:image.url",
+							"blockId": "83939cec",
+							"path": "5.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-00-51-22.png",
+							"decorative": true,
+							"width": 93,
+							"height": 65,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "315513ad",
+					"index": 6,
+					"path": "6",
+					"group": "315513ad",
+					"role": "team",
+					"title": "OUR",
+					"slots": [
+						{
+							"id": "68bd29b7:text",
+							"blockId": "68bd29b7",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "OUR",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0664cab4:text",
+							"blockId": "0664cab4",
+							"path": "6.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "TEAM",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9f3bc158:text",
+							"blockId": "9f3bc158",
+							"path": "6.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "JESSICA ALCUIN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "600651d2:text",
+							"blockId": "600651d2",
+							"path": "6.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "President And Founder",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8819d3fa:text",
+							"blockId": "8819d3fa",
+							"path": "6.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "ALEXANDAR CAREY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "505d7787:text",
+							"blockId": "505d7787",
+							"path": "6.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Director",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7a8af546:text",
+							"blockId": "7a8af546",
+							"path": "6.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "BARRY MARION",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ce8692bb:text",
+							"blockId": "ce8692bb",
+							"path": "6.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Advisor",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fad75e28:text",
+							"blockId": "fad75e28",
+							"path": "6.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "GARY CASWELL",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "845d4229:text",
+							"blockId": "845d4229",
+							"path": "6.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Chief Officer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4e377b4a:image.url",
+							"blockId": "4e377b4a",
+							"path": "6.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/team4.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young Asian woman in a traditional ao dai smiling outdoors",
+							"tone": {
+								"grid": [
+									0.64,
+									0.52,
+									0.39,
+									0.62,
+									0.41,
+									0.42,
+									0.54,
+									0.69,
+									0.56
+								],
+								"color": "#9e827f"
+							}
+						},
+						{
+							"id": "6d2c9f7a:image.url",
+							"blockId": "6d2c9f7a",
+							"path": "6.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/team1.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a dark blazer and white shirt posing against a wall",
+							"tone": {
+								"grid": [
+									0.28,
+									0.23,
+									0.17,
+									0.29,
+									0.43,
+									0.12,
+									0.15,
+									0.48,
+									0.06
+								],
+								"color": "#3d3f45"
+							}
+						},
+						{
+							"id": "f429d537:image.url",
+							"blockId": "f429d537",
+							"path": "6.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/team3.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling Asian woman with long hair in a white shirt on a city street",
+							"tone": {
+								"grid": [
+									0.35,
+									0.5,
+									0.52,
+									0.66,
+									0.47,
+									0.55,
+									0.65,
+									0.61,
+									0.5
+								],
+								"color": "#8e8784"
+							}
+						},
+						{
+							"id": "3100ce27:image.url",
+							"blockId": "3100ce27",
+							"path": "6.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/team2.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Close-up portrait of a bearded young man with styled hair",
+							"tone": {
+								"grid": [
+									0.51,
+									0.44,
+									0.37,
+									0.75,
+									0.63,
+									0.56,
+									0.48,
+									0.33,
+									0.33
+								],
+								"color": "#927966"
+							}
+						}
+					]
+				},
+				{
+					"id": "28179430",
+					"index": 7,
+					"path": "7",
+					"group": "28179430",
+					"role": "features",
+					"title": "HEAR FROM",
+					"slots": [
+						{
+							"id": "b5e73e11:text",
+							"blockId": "b5e73e11",
+							"path": "7.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "HEAR FROM",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "20580eab:text",
+							"blockId": "20580eab",
+							"path": "7.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PEOPLE",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "47f504f4:text",
+							"blockId": "47f504f4",
+							"path": "7.1.1.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio nimos ducimus qui blanditiis praesentium uptatum deleniti atque corrupti quos dolores",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "41e17294:text",
+							"blockId": "41e17294",
+							"path": "7.1.1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "John Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "80e5f0df:text",
+							"blockId": "80e5f0df",
+							"path": "7.1.1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f7d72446:text",
+							"blockId": "f7d72446",
+							"path": "7.1.1.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio nimos ducimus qui blanditiis praesentium uptatum deleniti atque corrupti quos dolores",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6cb87e7a:text",
+							"blockId": "6cb87e7a",
+							"path": "7.1.1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Lisana Ric",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5e543e8c:text",
+							"blockId": "5e543e8c",
+							"path": "7.1.1.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fe06b648:text",
+							"blockId": "fe06b648",
+							"path": "7.1.1.2.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At vero eos et accusamus et iusto odio nimos ducimus qui blanditiis praesentium uptatum deleniti atque corrupti quos dolores",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d1f19da0:text",
+							"blockId": "d1f19da0",
+							"path": "7.1.1.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "James Boswell",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61390421:text",
+							"blockId": "61390421",
+							"path": "7.1.1.2.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Manager",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "66e96ac1:image.url",
+							"blockId": "66e96ac1",
+							"path": "7.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-01-08-41.png",
+							"decorative": false,
+							"width": 339,
+							"height": 469,
+							"orientation": "portrait",
+							"subject": "group",
+							"description": "Group of women standing together in an office lobby",
+							"tone": {
+								"grid": [
+									0.32,
+									0.39,
+									0.39,
+									0.17,
+									0.18,
+									0.34,
+									0.13,
+									0.19,
+									0.13
+								],
+								"color": "#473e39"
+							}
+						}
+					]
+				},
+				{
+					"id": "c7006b49",
+					"index": 8,
+					"path": "8",
+					"group": "c7006b49",
+					"role": "gallery",
+					"title": "OUR",
+					"slots": [
+						{
+							"id": "0753b247:text",
+							"blockId": "0753b247",
+							"path": "8.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "OUR",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a1df8de0:text",
+							"blockId": "a1df8de0",
+							"path": "8.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "GALLERY",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6ec4f0fc:image.url",
+							"blockId": "6ec4f0fc",
+							"path": "8.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/gallery2.jpg",
+							"decorative": false,
+							"width": 430,
+							"height": 340,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "African woman tenderly holding a young child",
+							"tone": {
+								"grid": [
+									0.43,
+									0.25,
+									0.35,
+									0.35,
+									0.43,
+									0.31,
+									0.47,
+									0.53,
+									0.49
+								],
+								"color": "#756265"
+							}
+						},
+						{
+							"id": "84450f2f:image.url",
+							"blockId": "84450f2f",
+							"path": "8.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/gallery3.jpg",
+							"decorative": false,
+							"width": 430,
+							"height": 340,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Young African man giving a thumbs up beside a smiling boy",
+							"tone": {
+								"grid": [
+									0.48,
+									0.55,
+									0.5,
+									0.37,
+									0.47,
+									0.6,
+									0.21,
+									0.36,
+									0.7
+								],
+								"color": "#83785a"
+							}
+						},
+						{
+							"id": "790c3b39:image.url",
+							"blockId": "790c3b39",
+							"path": "8.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/gallery1.jpg",
+							"decorative": false,
+							"width": 430,
+							"height": 340,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Two smiling African girls standing side by side",
+							"tone": {
+								"grid": [
+									0.33,
+									0.42,
+									0.39,
+									0.53,
+									0.44,
+									0.43,
+									0.81,
+									0.58,
+									0.46
+								],
+								"color": "#a7707f"
+							}
+						},
+						{
+							"id": "11fba892:image.url",
+							"blockId": "11fba892",
+							"path": "8.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/gallery4.jpg",
+							"decorative": false,
+							"width": 430,
+							"height": 340,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Volunteer man surrounded by a crowd of cheerful school children",
+							"tone": {
+								"grid": [
+									0.6,
+									0.72,
+									0.71,
+									0.32,
+									0.41,
+									0.38,
+									0.51,
+									0.48,
+									0.41
+								],
+								"color": "#987c69"
+							}
+						},
+						{
+							"id": "6e9a3526:image.url",
+							"blockId": "6e9a3526",
+							"path": "8.0.1.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/gallery6.jpg",
+							"decorative": false,
+							"width": 430,
+							"height": 340,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Group of smiling schoolgirls in uniforms standing together",
+							"tone": {
+								"grid": [
+									0.11,
+									0.14,
+									0.3,
+									0.21,
+									0.27,
+									0.37,
+									0.1,
+									0.19,
+									0.28
+								],
+								"color": "#403636"
+							}
+						},
+						{
+							"id": "96f00864:image.url",
+							"blockId": "96f00864",
+							"path": "8.0.1.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/gallery5.jpg",
+							"decorative": false,
+							"width": 430,
+							"height": 340,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Refugee children sitting outdoors wrapped in shawls and blankets",
+							"tone": {
+								"grid": [
+									0.43,
+									0.33,
+									0.32,
+									0.45,
+									0.44,
+									0.39,
+									0.43,
+									0.34,
+									0.3
+								],
+								"color": "#64615a"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "c5df919c",
+					"role": "hero",
+					"sectionIds": [
+						"c5df919c"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "53656727",
+					"role": "features",
+					"title": "COLLECT FUND",
+					"sectionIds": [
+						"53656727"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f8dd0b7b",
+					"role": "content",
+					"title": "OUR",
+					"sectionIds": [
+						"f8dd0b7b"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9692c0fb",
+					"role": "content",
+					"title": "RECENT",
+					"sectionIds": [
+						"9692c0fb"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "51450166",
+					"role": "content",
+					"title": "We are helping hand on",
+					"sectionIds": [
+						"51450166"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f662dd9a",
+					"role": "content",
+					"title": "Donation",
+					"sectionIds": [
+						"f662dd9a"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "315513ad",
+					"role": "team",
+					"title": "OUR",
+					"sectionIds": [
+						"315513ad"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "28179430",
+					"role": "features",
+					"title": "HEAR FROM",
+					"sectionIds": [
+						"28179430"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c7006b49",
+					"role": "gallery",
+					"title": "OUR",
+					"sectionIds": [
+						"c7006b49"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "7ce1bde7",
+					"index": 0,
+					"path": "0",
+					"group": "7ce1bde7",
+					"role": "hero",
+					"title": "Welcome to",
+					"slots": [
+						{
+							"id": "700243a8:text",
+							"blockId": "700243a8",
+							"path": "0.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Welcome to",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c20f820d:text",
+							"blockId": "c20f820d",
+							"path": "0.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Zakra",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1a467214:text",
+							"blockId": "1a467214",
+							"path": "0.2.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Charity",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e9f9fa2c:text",
+							"blockId": "e9f9fa2c",
+							"path": "0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, odioserunt provident maiores consectetur adipisicing elit. Aliquam odio dese runtesseu provident maiores libero porro dolorem est.",
+							"rich": false,
+							"words": 25,
+							"minWords": 15,
+							"maxWords": 32,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d4a6cd9a:text",
+							"blockId": "d4a6cd9a",
+							"path": "0.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Gummies soufflé cookie. Macaroon jelly dessert dragée cake. Sweet ice cream marshmallow. Macar soufflé topping lollipop brownie biscuit muffin. Carrot cake cake biscuit lemon.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0290fe9a:image.url",
+							"blockId": "0290fe9a",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/about-1.jpg",
+							"decorative": false,
+							"width": 275,
+							"height": 180,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Group of village children sitting together outdoors eating",
+							"tone": {
+								"grid": [
+									0.55,
+									0.6,
+									0.59,
+									0.32,
+									0.54,
+									0.44,
+									0.25,
+									0.46,
+									0.34
+								],
+								"color": "#83715e"
+							}
+						},
+						{
+							"id": "08cd1447:image.url",
+							"blockId": "08cd1447",
+							"path": "0.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/about-2.jpg",
+							"decorative": false,
+							"width": 275,
+							"height": 180,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Group of smiling children making peace signs at the camera",
+							"tone": {
+								"grid": [
+									0.5,
+									0.48,
+									0.66,
+									0.41,
+									0.48,
+									0.55,
+									0.55,
+									0.43,
+									0.52
+								],
+								"color": "#907e80"
+							}
+						}
+					]
+				},
+				{
+					"id": "a997ff7c",
+					"index": 1,
+					"path": "1",
+					"group": "a997ff7c",
+					"role": "content",
+					"title": "Who Are",
+					"slots": [
+						{
+							"id": "f0080c60:text",
+							"blockId": "f0080c60",
+							"path": "1.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Who Are",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "269da44b:text",
+							"blockId": "269da44b",
+							"path": "1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4a6182e1:text",
+							"blockId": "4a6182e1",
+							"path": "1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Cupcake ipsum dolor. Sit amet marzipan macaroon gingerbread. Cotton candy candy muffin lollipop croissant jujubes caramels. Icing fruitcake brownie muffin tart lollipop candy canes jelly beans.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c1abd12e:text",
+							"blockId": "c1abd12e",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Tart cotton candy cake. Donut marshmallow macaroon chupa chups croissant chupa chup tart chocolate cake. Cotton candy donut cheesecake soufflé toffee cheesecake. Chocolate bar soufflé bear claw marshmallow bear claw caramels candy canes. Gummi bears jelly beans biscuit cake lemon drop donut biscuit. Croissant sweet roll oat cake chocolate cake. Sugar plum apple pie donut biscuit oat cake gingerbread cake. Oat cake jujubes tart muffin.",
+							"rich": false,
+							"words": 65,
+							"minWords": 39,
+							"maxWords": 82,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "014bc34d",
+					"index": 2,
+					"path": "2",
+					"group": "014bc34d",
+					"role": "features",
+					"title": "OUR",
+					"slots": [
+						{
+							"id": "fda4e6ed:text",
+							"blockId": "fda4e6ed",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "OUR",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6c4dcecb:text",
+							"blockId": "6c4dcecb",
+							"path": "2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "HISTORY",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "62e55488:text",
+							"blockId": "62e55488",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": true,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "15c2e6f7:text",
+							"blockId": "15c2e6f7",
+							"path": "2.0.2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Conducted charity for education",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b9670bdc:text",
+							"blockId": "b9670bdc",
+							"path": "2.0.2.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "16 june, 2016",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dab8a63e:text",
+							"blockId": "dab8a63e",
+							"path": "2.0.2.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, itta ectetur adipisicing elit. Illum praesentium fficia, fugit lorem recusandae ipsa, quia velit nulla.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "cffd4b94:text",
+							"blockId": "cffd4b94",
+							"path": "2.0.2.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "We expand the work in Asia",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fe25a7f5:text",
+							"blockId": "fe25a7f5",
+							"path": "2.0.2.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "16 September, 2016",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fe71c8bb:text",
+							"blockId": "fe71c8bb",
+							"path": "2.0.2.1.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, itta ectetur adipisicing elit. Illum praesentium fficia, fugit lorem recusandae ipsa, quia velit nulla.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "79c20d1e:text",
+							"blockId": "79c20d1e",
+							"path": "2.0.2.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "We were recognized by UN",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "deba3f67:text",
+							"blockId": "deba3f67",
+							"path": "2.0.2.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "16 August, 2018",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c8cee200:text",
+							"blockId": "c8cee200",
+							"path": "2.0.2.2.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, itta ectetur adipisicing elit. Illum praesentium fficia, fugit lorem recusandae ipsa, quia velit nulla.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0d5c19cf:text",
+							"blockId": "0d5c19cf",
+							"path": "2.0.2.3.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Conducted charity for clean water in Africa",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "edde4036:text",
+							"blockId": "edde4036",
+							"path": "2.0.2.3.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "16 February, 2017",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b527c63:text",
+							"blockId": "7b527c63",
+							"path": "2.0.2.3.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, itta ectetur adipisicing elit. Illum praesentium fficia, fugit lorem recusandae ipsa, quia velit nulla.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "dbc3da64:text",
+							"blockId": "dbc3da64",
+							"path": "2.0.2.4.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Conducted charity for Sponsoring poor child",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "64e658b6:text",
+							"blockId": "64e658b6",
+							"path": "2.0.2.4.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "16 july, 2019",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4e784e6:text",
+							"blockId": "f4e784e6",
+							"path": "2.0.2.4.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, itta ectetur adipisicing elit. Illum praesentium fficia, fugit lorem recusandae ipsa, quia velit nulla.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "c76678d5:text",
+							"blockId": "c76678d5",
+							"path": "2.0.2.5.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Charity to provide home for homeless",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa12042b:text",
+							"blockId": "aa12042b",
+							"path": "2.0.2.5.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "16 September, 2019",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3f426416:text",
+							"blockId": "3f426416",
+							"path": "2.0.2.5.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, itta ectetur adipisicing elit. Illum praesentium fficia, fugit lorem recusandae ipsa, quia velit nulla.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "57b771da:image.url",
+							"blockId": "57b771da",
+							"path": "2.0.2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-22-29.png",
+							"decorative": true,
+							"width": 65,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "a0f8be65:image.url",
+							"blockId": "a0f8be65",
+							"path": "2.0.2.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-39-00.png",
+							"decorative": true,
+							"width": 65,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "07809bd8:image.url",
+							"blockId": "07809bd8",
+							"path": "2.0.2.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-39-29.png",
+							"decorative": true,
+							"width": 65,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "ce80f789:image.url",
+							"blockId": "ce80f789",
+							"path": "2.0.2.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-40-00.png",
+							"decorative": true,
+							"width": 65,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "14376d0f:image.url",
+							"blockId": "14376d0f",
+							"path": "2.0.2.4.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-40-40.png",
+							"decorative": true,
+							"width": 65,
+							"height": 65,
+							"orientation": "square"
+						},
+						{
+							"id": "2a2a68b2:image.url",
+							"blockId": "2a2a68b2",
+							"path": "2.0.2.5.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-41-29.png",
+							"decorative": true,
+							"width": 65,
+							"height": 65,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "c83ca1e3",
+					"index": 3,
+					"path": "3",
+					"group": "c83ca1e3",
+					"role": "content",
+					"title": "Want To",
+					"slots": [
+						{
+							"id": "c898a1f2:text",
+							"blockId": "c898a1f2",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Want To",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1594e8d3:text",
+							"blockId": "1594e8d3",
+							"path": "3.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Help Us",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5e6e5cdc:text",
+							"blockId": "5e6e5cdc",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": true,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "23cc19d5:text",
+							"blockId": "23cc19d5",
+							"path": "3.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Donate",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8d8513db:text",
+							"blockId": "8d8513db",
+							"path": "3.0.2.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Volunteer Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "7ce1bde7",
+					"role": "hero",
+					"title": "Welcome to",
+					"sectionIds": [
+						"7ce1bde7"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a997ff7c",
+					"role": "content",
+					"title": "Who Are",
+					"sectionIds": [
+						"a997ff7c"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "014bc34d",
+					"role": "features",
+					"title": "OUR",
+					"sectionIds": [
+						"014bc34d"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c83ca1e3",
+					"role": "content",
+					"title": "Want To",
+					"sectionIds": [
+						"c83ca1e3"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "volunteers",
+			"title": "Volunteers",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/themegrill-demos/volunteers-content.xml",
+			"sections": [
+				{
+					"id": "ca331a9f",
+					"index": 0,
+					"path": "0",
+					"group": "ca331a9f",
+					"role": "hero",
+					"title": "MEET OUR",
+					"slots": [
+						{
+							"id": "c47807a3:text",
+							"blockId": "c47807a3",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "MEET OUR",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f6131cd8:text",
+							"blockId": "f6131cd8",
+							"path": "0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "VOLUNTEERS",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fe53ef76:text",
+							"blockId": "fe53ef76",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": true,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "4c122ba5",
+					"index": 1,
+					"path": "1",
+					"group": "4c122ba5",
+					"role": "gallery",
+					"title": "Minnie Yerds",
+					"slots": [
+						{
+							"id": "4a5e2043:text",
+							"blockId": "4a5e2043",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Minnie Yerds",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ac7dbed9:text",
+							"blockId": "ac7dbed9",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Volunteer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "481355ce:text",
+							"blockId": "481355ce",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Robin Dwyer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "73941cab:text",
+							"blockId": "73941cab",
+							"path": "1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Volunteer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4168466e:text",
+							"blockId": "4168466e",
+							"path": "1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Peter Crusier",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9a7e92e2:text",
+							"blockId": "9a7e92e2",
+							"path": "1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Volunteer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "585d4e99:text",
+							"blockId": "585d4e99",
+							"path": "1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Paige Turner",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dae399d0:text",
+							"blockId": "dae399d0",
+							"path": "1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Volunteer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bfffe46f:text",
+							"blockId": "bfffe46f",
+							"path": "1.4.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Hans Brisis",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0267e22f:text",
+							"blockId": "0267e22f",
+							"path": "1.4.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Volunteer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f327f402:text",
+							"blockId": "f327f402",
+							"path": "1.5.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Anna Sthesia",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a49d46c:text",
+							"blockId": "2a49d46c",
+							"path": "1.5.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Volunteer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "2e568098:image.url",
+							"blockId": "2e568098",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/volunteer8.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with long wavy hair in a red top among flowers",
+							"tone": {
+								"grid": [
+									0.35,
+									0.35,
+									0.54,
+									0.5,
+									0.46,
+									0.54,
+									0.32,
+									0.24,
+									0.32
+								],
+								"color": "#766355"
+							}
+						},
+						{
+							"id": "56cd6411:image.url",
+							"blockId": "56cd6411",
+							"path": "1.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-17-44-28.png",
+							"decorative": true,
+							"width": 55,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "a402e1d7:image.url",
+							"blockId": "a402e1d7",
+							"path": "1.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/CleanShot-2024-04-03-at-17.18.29-1.png",
+							"decorative": true,
+							"width": 61,
+							"height": 58,
+							"orientation": "square"
+						},
+						{
+							"id": "c325f599:image.url",
+							"blockId": "c325f599",
+							"path": "1.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-16-14-49.png",
+							"decorative": true,
+							"width": 52,
+							"height": 52,
+							"orientation": "square"
+						},
+						{
+							"id": "42352ca2:image.url",
+							"blockId": "42352ca2",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/volunteer5.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man in glasses and a green sweater with a shoulder bag outdoors",
+							"tone": {
+								"grid": [
+									0.4,
+									0.56,
+									0.47,
+									0.63,
+									0.6,
+									0.51,
+									0.39,
+									0.26,
+									0.41
+								],
+								"color": "#847668"
+							}
+						},
+						{
+							"id": "5aa42680:image.url",
+							"blockId": "5aa42680",
+							"path": "1.1.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-17-44-28.png",
+							"decorative": true,
+							"width": 55,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "66bb127b:image.url",
+							"blockId": "66bb127b",
+							"path": "1.1.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/CleanShot-2024-04-03-at-17.18.29-1.png",
+							"decorative": true,
+							"width": 61,
+							"height": 58,
+							"orientation": "square"
+						},
+						{
+							"id": "0dde9e92:image.url",
+							"blockId": "0dde9e92",
+							"path": "1.1.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-16-14-49.png",
+							"decorative": true,
+							"width": 52,
+							"height": 52,
+							"orientation": "square"
+						},
+						{
+							"id": "2ba1a34e:image.url",
+							"blockId": "2ba1a34e",
+							"path": "1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/volunteer4.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young bearded man in a white shirt in front of blossoms",
+							"tone": {
+								"grid": [
+									0.33,
+									0.32,
+									0.21,
+									0.27,
+									0.45,
+									0.34,
+									0.59,
+									0.86,
+									0.61
+								],
+								"color": "#866b66"
+							}
+						},
+						{
+							"id": "fa4ca05d:image.url",
+							"blockId": "fa4ca05d",
+							"path": "1.2.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-17-44-28.png",
+							"decorative": true,
+							"width": 55,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "a7343e40:image.url",
+							"blockId": "a7343e40",
+							"path": "1.2.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/CleanShot-2024-04-03-at-17.18.29-1.png",
+							"decorative": true,
+							"width": 61,
+							"height": 58,
+							"orientation": "square"
+						},
+						{
+							"id": "368d6c76:image.url",
+							"blockId": "368d6c76",
+							"path": "1.2.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-16-14-49.png",
+							"decorative": true,
+							"width": 52,
+							"height": 52,
+							"orientation": "square"
+						},
+						{
+							"id": "cb893017:image.url",
+							"blockId": "cb893017",
+							"path": "1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/volunteer02.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman with curly brown hair in a lace top",
+							"tone": {
+								"grid": [
+									0.35,
+									0.33,
+									0.15,
+									0.37,
+									0.4,
+									0.13,
+									0.59,
+									0.77,
+									0.45
+								],
+								"color": "#666464"
+							}
+						},
+						{
+							"id": "605750f9:image.url",
+							"blockId": "605750f9",
+							"path": "1.3.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-17-44-28.png",
+							"decorative": true,
+							"width": 55,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "596ccd68:image.url",
+							"blockId": "596ccd68",
+							"path": "1.3.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/CleanShot-2024-04-03-at-17.18.29-1.png",
+							"decorative": true,
+							"width": 61,
+							"height": 58,
+							"orientation": "square"
+						},
+						{
+							"id": "ff8f9b24:image.url",
+							"blockId": "ff8f9b24",
+							"path": "1.3.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-16-14-49.png",
+							"decorative": true,
+							"width": 52,
+							"height": 52,
+							"orientation": "square"
+						},
+						{
+							"id": "ec690d9e:image.url",
+							"blockId": "ec690d9e",
+							"path": "1.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/volunteer.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young Asian man in a dark jacket on a plain background",
+							"tone": {
+								"grid": [
+									0.9,
+									0.58,
+									0.9,
+									0.83,
+									0.52,
+									0.85,
+									0.4,
+									0.34,
+									0.51
+								],
+								"color": "#aca3a5"
+							}
+						},
+						{
+							"id": "a2ade558:image.url",
+							"blockId": "a2ade558",
+							"path": "1.4.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-17-44-28.png",
+							"decorative": true,
+							"width": 55,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "da75e777:image.url",
+							"blockId": "da75e777",
+							"path": "1.4.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/CleanShot-2024-04-03-at-17.18.29-1.png",
+							"decorative": true,
+							"width": 61,
+							"height": 58,
+							"orientation": "square"
+						},
+						{
+							"id": "c37f13f7:image.url",
+							"blockId": "c37f13f7",
+							"path": "1.4.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-16-14-49.png",
+							"decorative": true,
+							"width": 52,
+							"height": 52,
+							"orientation": "square"
+						},
+						{
+							"id": "7c07a4f4:image.url",
+							"blockId": "7c07a4f4",
+							"path": "1.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/volunteer01.jpg",
+							"decorative": false,
+							"width": 200,
+							"height": 200,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with long hair in a jacket and scarf outdoors",
+							"tone": {
+								"grid": [
+									0.96,
+									0.76,
+									0.94,
+									0.85,
+									0.43,
+									0.73,
+									0.58,
+									0.49,
+									0.54
+								],
+								"color": "#b9b1a9"
+							}
+						},
+						{
+							"id": "cce3430a:image.url",
+							"blockId": "cce3430a",
+							"path": "1.5.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-17-44-28.png",
+							"decorative": true,
+							"width": 55,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "29629bc3:image.url",
+							"blockId": "29629bc3",
+							"path": "1.5.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/CleanShot-2024-04-03-at-17.18.29-1.png",
+							"decorative": true,
+							"width": 61,
+							"height": 58,
+							"orientation": "square"
+						},
+						{
+							"id": "4115cc34:image.url",
+							"blockId": "4115cc34",
+							"path": "1.5.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-16-14-49.png",
+							"decorative": true,
+							"width": 52,
+							"height": 52,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "ad65eef6",
+					"index": 2,
+					"path": "2",
+					"group": "ad65eef6",
+					"role": "dynamic",
+					"title": "Become a Volunteer",
+					"slots": [
+						{
+							"id": "435fe8df:text",
+							"blockId": "435fe8df",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Become a Volunteer",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "ca331a9f",
+					"role": "hero",
+					"title": "MEET OUR",
+					"sectionIds": [
+						"ca331a9f"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4c122ba5",
+					"role": "gallery",
+					"title": "Minnie Yerds",
+					"sectionIds": [
+						"4c122ba5"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ad65eef6",
+					"role": "dynamic",
+					"title": "Become a Volunteer",
+					"sectionIds": [
+						"ad65eef6"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "7e766174",
+					"index": 0,
+					"path": "0",
+					"group": "7e766174",
+					"role": "contact",
+					"title": "GET IN",
+					"slots": [
+						{
+							"id": "be1d1136:text",
+							"blockId": "be1d1136",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "GET IN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9184ce2e:text",
+							"blockId": "9184ce2e",
+							"path": "0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "TOUCH",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3a87f6b7:text",
+							"blockId": "3a87f6b7",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem voluptatem obcaecati consectetur adipisicing consectetur adipisicing sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": true,
+							"words": 27,
+							"minWords": 16,
+							"maxWords": 34,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3fd43408:text",
+							"blockId": "3fd43408",
+							"path": "0.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "FIND US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0d97397e:text",
+							"blockId": "0d97397e",
+							"path": "0.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "189 Alexandria, Boston Street Massachusetts, MI 3345",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "72b5d284:text",
+							"blockId": "72b5d284",
+							"path": "0.0.2.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "FOLLOW US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "48873a5d:text",
+							"blockId": "48873a5d",
+							"path": "0.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CONTACT US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3b4ea06e:text",
+							"blockId": "3b4ea06e",
+							"path": "0.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "info@zakracharity.com (429) 958 - 4582",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "5c510cf2:text",
+							"blockId": "5c510cf2",
+							"path": "0.0.2.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "JOIN US",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e3c06b2:text",
+							"blockId": "0e3c06b2",
+							"path": "0.0.2.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "If you are interested in volunteering, then contact at info@zakracharity.com.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "633cfa2b:text",
+							"blockId": "633cfa2b",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SEND US A MESSAGE",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ab1e19da:image.url",
+							"blockId": "ab1e19da",
+							"path": "0.0.2.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/facebook-follow.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						},
+						{
+							"id": "2799650d:image.url",
+							"blockId": "2799650d",
+							"path": "0.0.2.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/twitter-follow.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						},
+						{
+							"id": "4b1d41ec:image.url",
+							"blockId": "4b1d41ec",
+							"path": "0.0.2.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/twitter-follow-1.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "7e766174",
+					"role": "contact",
+					"title": "GET IN",
+					"sectionIds": [
+						"7e766174"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 17,
+		"textSlots": 138,
+		"editableSlots": 129,
+		"images": 63,
+		"swappableImages": 26,
+		"words": 889
+	},
+	"builtAt": "2026-10-24T11:35:08.065Z"
+}

@@ -1,0 +1,2010 @@
+{
+	"version": 4,
+	"slug": "drone-02",
+	"name": "Drone 02",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-drone-02/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/drone-02",
+	"niches": [
+		"drones",
+		"photography",
+		"videography"
+	],
+	"keywords": [
+		"drone",
+		"aerial videography",
+		"drone pilot",
+		"aerial photography",
+		"filming",
+		"drone services"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ef6751",
+				"count": 39,
+				"group": "brand",
+				"role": "primary",
+				"base": "#ef6751",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 22,
+					"background": 3,
+					"border": 9
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 27,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 9,
+					"background": 3
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 23,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 22
+				}
+			},
+			{
+				"hex": "#596172",
+				"count": 19,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 19
+				}
+			},
+			{
+				"hex": "#8590a7",
+				"count": 18,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 9,
+					"border": 9
+				}
+			},
+			{
+				"hex": "#0f1012",
+				"count": 6,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 3,
+					"background": 3
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#7f8ba3",
+				"count": 4,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 3,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#f9f9f9",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0.014,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ef6751",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ef6751",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ef6751",
+				"bg": "#f9f9f9",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ef6751",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ef6751",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ef6751",
+				"bg": "#0f1012",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ef6751",
+				"bg": "#18181b",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Barlow",
+			"body": "Barlow",
+			"map": {
+				"Barlow": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "HOME",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "c92f25df",
+					"index": 0,
+					"path": "0",
+					"group": "c92f25df",
+					"role": "hero",
+					"slots": [
+						{
+							"id": "baf0a187:text",
+							"blockId": "baf0a187",
+							"path": "0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "FUTURE OF",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c8c10ecd:text",
+							"blockId": "c8c10ecd",
+							"path": "0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "VIDEOGRAPHY",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a038ca86:text",
+							"blockId": "a038ca86",
+							"path": "0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "In the near future there will be no people holding a camera, only drones .",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "42f74b33:text",
+							"blockId": "42f74b33",
+							"path": "0.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "see the future",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c92f25df:background.image.image.url",
+							"blockId": "c92f25df",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10008.jpg",
+							"decorative": false,
+							"width": 1600,
+							"height": 940,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "White drone flying against a black background",
+							"tone": {
+								"grid": [
+									0,
+									0,
+									0.01,
+									0,
+									0.13,
+									0.22,
+									0,
+									0.01,
+									0.02
+								],
+								"color": "#0b0b0b"
+							}
+						}
+					]
+				},
+				{
+					"id": "ff4eebba",
+					"index": 1,
+					"path": "1",
+					"group": "ff4eebba",
+					"role": "content",
+					"title": "Drone Expert",
+					"slots": [
+						{
+							"id": "3b251ba5:text",
+							"blockId": "3b251ba5",
+							"path": "1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Drone Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "15645cde:text",
+							"blockId": "15645cde",
+							"path": "1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "The best part of working with us is we are industrial experts and we expertise on aerial footage and drone shots. You will never stop getting amazed by the outcome.",
+							"rich": false,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8db3610a:text",
+							"blockId": "8db3610a",
+							"path": "1.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "610f5a6f:text",
+							"blockId": "610f5a6f",
+							"path": "1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Ultra High Definition",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fda818df:text",
+							"blockId": "fda818df",
+							"path": "1.0.0.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Everybody wants their body as clear as they could be. Here at Dronista We take care of quality seriously. We provide you with 4k video quality. Crystal clear, super smooth.",
+							"rich": false,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "809bfdae:text",
+							"blockId": "809bfdae",
+							"path": "1.0.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ff886dc8:text",
+							"blockId": "ff886dc8",
+							"path": "1.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Budget Friendly",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6dd13698:text",
+							"blockId": "6dd13698",
+							"path": "1.0.0.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We care about your budget. No matter if you want industrial advertise or birthday party. We got you covered. We have packages that fits your need. Ready to go.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ffa6b4f:text",
+							"blockId": "8ffa6b4f",
+							"path": "1.0.0.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c8ede17e:text",
+							"blockId": "c8ede17e",
+							"path": "1.0.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Speeded Work",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fd151cd1:text",
+							"blockId": "fd151cd1",
+							"path": "1.0.0.3.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Time is the money and we start the project on time and complete it before the deadline. You can get your project done lightning fast without any complain.",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "890ab926:text",
+							"blockId": "890ab926",
+							"path": "1.0.0.3.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "500fa06f:image.url",
+							"blockId": "500fa06f",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10002.png",
+							"decorative": true,
+							"width": 120,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0436641a:image.url",
+							"blockId": "0436641a",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/ultra.png",
+							"decorative": true,
+							"width": 120,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ccef956e:image.url",
+							"blockId": "ccef956e",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10003.png",
+							"decorative": true,
+							"width": 120,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2f74dece:image.url",
+							"blockId": "2f74dece",
+							"path": "1.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10004.png",
+							"decorative": true,
+							"width": 120,
+							"height": 70,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "be83c03e",
+					"index": 2,
+					"path": "2",
+					"group": "be83c03e",
+					"role": "cta",
+					"title": "BEST TECHNOLOGY ON THE AERIAL VIDEO PRODUCTION",
+					"slots": [
+						{
+							"id": "2150bae1:text",
+							"blockId": "2150bae1",
+							"path": "2.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "BEST TECHNOLOGY ON THE AERIAL VIDEO PRODUCTION",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3fa0cf38:text",
+							"blockId": "3fa0cf38",
+							"path": "2.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "At Dronista, we alwayks keep eye on upcoming technologies and we make sure we are always updated. So, our customer’s get the best and the output that stands in the international market.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f16202ea:text",
+							"blockId": "f16202ea",
+							"path": "2.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "get a quote",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "98f8a2f1:background.image.image.url",
+							"blockId": "98f8a2f1",
+							"path": "2.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10009.jpg",
+							"decorative": false,
+							"width": 815,
+							"height": 780,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Drone viewed from above on a white background",
+							"tone": {
+								"grid": [
+									0.89,
+									0.93,
+									0.91,
+									0.88,
+									0.64,
+									0.88,
+									0.82,
+									0.83,
+									0.82
+								],
+								"color": "#d7d7dc"
+							}
+						}
+					]
+				},
+				{
+					"id": "22f2da62",
+					"index": 3,
+					"path": "3",
+					"group": "22f2da62",
+					"role": "content",
+					"title": "WHAT WE SHOOT?",
+					"slots": [
+						{
+							"id": "7df3e6a1:text",
+							"blockId": "7df3e6a1",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WHAT WE SHOOT?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4835a281:text",
+							"blockId": "4835a281",
+							"path": "3.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "COMMERCIAL REAL STATE",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8f8654b2:text",
+							"blockId": "8f8654b2",
+							"path": "3.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "A risk of the tray is assumed to be an unlet mistake. The first unsearched home is, in its own way, a cornet. If this was somewhat unclear, they were lost without the subscript avenue that composed their double. Those neons are nothing more than armchairs.",
+							"rich": false,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e6bcf30:text",
+							"blockId": "0e6bcf30",
+							"path": "3.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "RESIDENTIAL REAL STATE",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "689a927f:text",
+							"blockId": "689a927f",
+							"path": "3.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "A risk of the tray is assumed to be an unlet mistake. The first unsearched home is, in its own way, a cornet. If this was somewhat unclear, they were lost without the subscript avenue that composed their double. Those neons are nothing more than armchairs.",
+							"rich": false,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "984d4e07:text",
+							"blockId": "984d4e07",
+							"path": "3.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PERSONAL REAL STATE",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2f550877:text",
+							"blockId": "2f550877",
+							"path": "3.0.1.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "A risk of the tray is assumed to be an unlet mistake. The first unsearched home is, in its own way, a cornet. If this was somewhat unclear, they were lost without the subscript avenue that composed their double. Those neons are nothing more than armchairs.",
+							"rich": false,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f810d753:image.url",
+							"blockId": "f810d753",
+							"path": "3.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10005.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 950,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Aerial view of a circular residential building complex",
+							"tone": {
+								"grid": [
+									0.27,
+									0.63,
+									0.28,
+									0.4,
+									0.51,
+									0.36,
+									0.29,
+									0.6,
+									0.45
+								],
+								"color": "#726c57"
+							}
+						},
+						{
+							"id": "bd66dcbc:image.url",
+							"blockId": "bd66dcbc",
+							"path": "3.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10001-1.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 950,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "City skyline with construction cranes on high-rise buildings",
+							"tone": {
+								"grid": [
+									0.63,
+									0.63,
+									0.72,
+									0.44,
+									0.51,
+									0.48,
+									0.18,
+									0.15,
+									0.31
+								],
+								"color": "#717279"
+							}
+						},
+						{
+							"id": "6b15b77d:image.url",
+							"blockId": "6b15b77d",
+							"path": "3.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10003-1.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 950,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Aerial view of a modern house with trees",
+							"tone": {
+								"grid": [
+									0.46,
+									0.31,
+									0.23,
+									0.45,
+									0.37,
+									0.23,
+									0.3,
+									0.39,
+									0.3
+								],
+								"color": "#565563"
+							}
+						}
+					]
+				},
+				{
+					"id": "f8196b6c",
+					"index": 4,
+					"path": "4",
+					"group": "f8196b6c",
+					"role": "dynamic",
+					"title": "CONTACT",
+					"slots": [
+						{
+							"id": "adb75873:text",
+							"blockId": "adb75873",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "CONTACT",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d5d5908e:text",
+							"blockId": "d5d5908e",
+							"path": "4.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "+123-4567890 info@example.com 25, Street, LA, United States",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "62ae045b:background.image.image.url",
+							"blockId": "62ae045b",
+							"path": "4.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10009.jpg",
+							"decorative": false,
+							"width": 815,
+							"height": 780,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Drone viewed from above on a white background",
+							"tone": {
+								"grid": [
+									0.89,
+									0.93,
+									0.91,
+									0.88,
+									0.64,
+									0.88,
+									0.82,
+									0.83,
+									0.82
+								],
+								"color": "#d7d7dc"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "d53e7947",
+					"index": 5,
+					"path": "5",
+					"group": "d53e7947",
+					"role": "cta",
+					"title": "Want a great Aerial footage? Let us know.",
+					"slots": [
+						{
+							"id": "c1d960f1:text",
+							"blockId": "c1d960f1",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Want a great Aerial footage? Let us know.",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a203ef30:text",
+							"blockId": "a203ef30",
+							"path": "5.0.0.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "see the future",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "c92f25df",
+					"role": "hero",
+					"sectionIds": [
+						"c92f25df"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ff4eebba",
+					"role": "content",
+					"title": "Drone Expert",
+					"sectionIds": [
+						"ff4eebba"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "be83c03e",
+					"role": "cta",
+					"title": "BEST TECHNOLOGY ON THE AERIAL VIDEO PRODUCTION",
+					"sectionIds": [
+						"be83c03e"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "22f2da62",
+					"role": "content",
+					"title": "WHAT WE SHOOT?",
+					"sectionIds": [
+						"22f2da62"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f8196b6c",
+					"role": "dynamic",
+					"title": "CONTACT",
+					"sectionIds": [
+						"f8196b6c"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d53e7947",
+					"role": "cta",
+					"title": "Want a great Aerial footage? Let us know.",
+					"sectionIds": [
+						"d53e7947"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "BLOG",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "services",
+			"title": "SERVICES",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "93bce6ae",
+					"index": 0,
+					"path": "0",
+					"group": "93bce6ae",
+					"role": "hero",
+					"title": "WHAT WE DO?",
+					"slots": [
+						{
+							"id": "dce7543b:text",
+							"blockId": "dce7543b",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WHAT WE DO?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e0b2513:text",
+							"blockId": "3e0b2513",
+							"path": "0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "COMMERCIAL SHOOT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "86e9881e:text",
+							"blockId": "86e9881e",
+							"path": "0.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "A risk of the tray is assumed to be an unlet mistake. The first unsearched home is, in its own way, a cornet. If this was somewhat unclear, they were lost without the subscript avenue that composed their double. Those neons are nothing more than armchairs.",
+							"rich": false,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ef3297a:text",
+							"blockId": "9ef3297a",
+							"path": "0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PERSONAL SHOOT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c83dde40:text",
+							"blockId": "c83dde40",
+							"path": "0.0.1.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "A risk of the tray is assumed to be an unlet mistake. The first unsearched home is, in its own way, a cornet. If this was somewhat unclear, they were lost without the subscript avenue that composed their double. Those neons are nothing more than armchairs.",
+							"rich": false,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "34a29125:text",
+							"blockId": "34a29125",
+							"path": "0.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "INDUSTRIAL SHOOT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c1d1294a:text",
+							"blockId": "c1d1294a",
+							"path": "0.0.2.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "A risk of the tray is assumed to be an unlet mistake. The first unsearched home is, in its own way, a cornet. If this was somewhat unclear, they were lost without the subscript avenue that composed their double. Those neons are nothing more than armchairs.",
+							"rich": false,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b52f2b5:text",
+							"blockId": "7b52f2b5",
+							"path": "0.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SPORTS SHOOT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "968c2cda:text",
+							"blockId": "968c2cda",
+							"path": "0.0.2.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "A risk of the tray is assumed to be an unlet mistake. The first unsearched home is, in its own way, a cornet. If this was somewhat unclear, they were lost without the subscript avenue that composed their double. Those neons are nothing more than armchairs.",
+							"rich": false,
+							"words": 46,
+							"minWords": 28,
+							"maxWords": 58,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7a719204:image.url",
+							"blockId": "7a719204",
+							"path": "0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10005.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 950,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Aerial view of a circular residential building complex",
+							"tone": {
+								"grid": [
+									0.27,
+									0.63,
+									0.28,
+									0.4,
+									0.51,
+									0.36,
+									0.29,
+									0.6,
+									0.45
+								],
+								"color": "#726c57"
+							}
+						},
+						{
+							"id": "49e4b635:image.url",
+							"blockId": "49e4b635",
+							"path": "0.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10003-1.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 950,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Aerial view of a modern house with trees",
+							"tone": {
+								"grid": [
+									0.46,
+									0.31,
+									0.23,
+									0.45,
+									0.37,
+									0.23,
+									0.3,
+									0.39,
+									0.3
+								],
+								"color": "#565563"
+							}
+						},
+						{
+							"id": "081bb85a:image.url",
+							"blockId": "081bb85a",
+							"path": "0.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10001-1.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 950,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "City skyline with construction cranes on high-rise buildings",
+							"tone": {
+								"grid": [
+									0.63,
+									0.63,
+									0.72,
+									0.44,
+									0.51,
+									0.48,
+									0.18,
+									0.15,
+									0.31
+								],
+								"color": "#717279"
+							}
+						},
+						{
+							"id": "ebe4b320:image.url",
+							"blockId": "ebe4b320",
+							"path": "0.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10002-1.jpg",
+							"decorative": false,
+							"width": 1400,
+							"height": 950,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Baseball stadium packed with spectators",
+							"tone": {
+								"grid": [
+									0.51,
+									0.47,
+									0.48,
+									0.51,
+									0.54,
+									0.46,
+									0.53,
+									0.53,
+									0.53
+								],
+								"color": "#7f827e"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "93bce6ae",
+					"role": "hero",
+					"title": "WHAT WE DO?",
+					"sectionIds": [
+						"93bce6ae"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "team",
+			"title": "TEAM",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/themegrill-demos/team-content.xml",
+			"sections": [
+				{
+					"id": "c5e02f81",
+					"index": 0,
+					"path": "0",
+					"group": "c5e02f81",
+					"role": "hero",
+					"title": "PILOT",
+					"slots": [
+						{
+							"id": "0575cdae:text",
+							"blockId": "0575cdae",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PILOT",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "84a54c73:text",
+							"blockId": "84a54c73",
+							"path": "0.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "REMAZ HUMREN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "795268c3:text",
+							"blockId": "795268c3",
+							"path": "0.0.0.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d11c389d:text",
+							"blockId": "d11c389d",
+							"path": "0.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PHOTOGRAPHER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e22542ca:text",
+							"blockId": "e22542ca",
+							"path": "0.0.0.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ANNIE REMBOR",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "34ad1123:text",
+							"blockId": "34ad1123",
+							"path": "0.0.0.1.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5682321c:text",
+							"blockId": "5682321c",
+							"path": "0.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PILOT",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "22c34269:text",
+							"blockId": "22c34269",
+							"path": "0.0.0.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "JAKOB OWREN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e2c0581a:text",
+							"blockId": "e2c0581a",
+							"path": "0.0.0.2.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "af2a05c3:image.url",
+							"blockId": "af2a05c3",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10001.jpg",
+							"decorative": false,
+							"width": 780,
+							"height": 680,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man in a denim shirt with arms crossed",
+							"tone": {
+								"grid": [
+									0.91,
+									0.61,
+									0.94,
+									0.76,
+									0.47,
+									0.81,
+									0.62,
+									0.39,
+									0.7
+								],
+								"color": "#b0afb6"
+							}
+						},
+						{
+							"id": "5787c169:image.url",
+							"blockId": "5787c169",
+							"path": "0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10002.jpg",
+							"decorative": false,
+							"width": 780,
+							"height": 680,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young woman with long hair portrait",
+							"tone": {
+								"grid": [
+									0.91,
+									0.49,
+									0.89,
+									0.86,
+									0.49,
+									0.8,
+									0.79,
+									0.6,
+									0.64
+								],
+								"color": "#bdb6ad"
+							}
+						},
+						{
+							"id": "966dd0e1:image.url",
+							"blockId": "966dd0e1",
+							"path": "0.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10003.jpg",
+							"decorative": false,
+							"width": 780,
+							"height": 680,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young man in a white shirt portrait",
+							"tone": {
+								"grid": [
+									0.96,
+									0.48,
+									0.95,
+									0.96,
+									0.74,
+									0.95,
+									0.96,
+									0.91,
+									0.91
+								],
+								"color": "#e4dcde"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "c5e02f81",
+					"role": "hero",
+					"title": "PILOT",
+					"sectionIds": [
+						"c5e02f81"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "about-us",
+			"title": "ABOUT US",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "30304c8b",
+					"index": 0,
+					"path": "0",
+					"group": "30304c8b",
+					"role": "hero",
+					"title": "WELCOME TO DRONISTA",
+					"slots": [
+						{
+							"id": "fd93cc55:text",
+							"blockId": "fd93cc55",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WELCOME TO DRONISTA",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "528eb37f:text",
+							"blockId": "528eb37f",
+							"path": "0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "At Dronista, we alwayks keep eye on upcoming technologies and we make sure we are always updated. So, our customer’s get the best and the output that stands in the international market.",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "cccc56fc",
+					"index": 1,
+					"path": "1",
+					"group": "cccc56fc",
+					"role": "content",
+					"title": "Drone Expert",
+					"slots": [
+						{
+							"id": "1a3ba420:text",
+							"blockId": "1a3ba420",
+							"path": "1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Drone Expert",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1d9c9f31:text",
+							"blockId": "1d9c9f31",
+							"path": "1.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "The best part of working with us is we are industrial experts and we expertise on aerial footage and drone shots. You will never stop getting amazed by the outcome.",
+							"rich": false,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "93183ea4:text",
+							"blockId": "93183ea4",
+							"path": "1.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5ed91540:text",
+							"blockId": "5ed91540",
+							"path": "1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Ultra High Definition",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3e42d646:text",
+							"blockId": "3e42d646",
+							"path": "1.0.0.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Everybody wants their body as clear as they could be. Here at Dronista We take care of quality seriously. We provide you with 4k video quality. Crystal clear, super smooth.",
+							"rich": false,
+							"words": 30,
+							"minWords": 18,
+							"maxWords": 38,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c93256f6:text",
+							"blockId": "c93256f6",
+							"path": "1.0.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3127c039:text",
+							"blockId": "3127c039",
+							"path": "1.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Budget Friendly",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6c62c713:text",
+							"blockId": "6c62c713",
+							"path": "1.0.0.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We care about your budget. No matter if you want industrial advertise or birthday party. We got you covered. We have packages that fits everyone’s need. Ready to go.",
+							"rich": false,
+							"words": 29,
+							"minWords": 17,
+							"maxWords": 37,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a5ed804e:text",
+							"blockId": "a5ed804e",
+							"path": "1.0.0.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5335c21f:text",
+							"blockId": "5335c21f",
+							"path": "1.0.0.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Speeded Work",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bec16475:text",
+							"blockId": "bec16475",
+							"path": "1.0.0.3.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Time is the money and we start the project on time and complete it before the deadline. You can get your project done lightning fast without any complain.",
+							"rich": false,
+							"words": 28,
+							"minWords": 17,
+							"maxWords": 35,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "59ddbe49:text",
+							"blockId": "59ddbe49",
+							"path": "1.0.0.3.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4c5224b1:image.url",
+							"blockId": "4c5224b1",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10002.png",
+							"decorative": true,
+							"width": 120,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "52f9b1d4:image.url",
+							"blockId": "52f9b1d4",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/ultra.png",
+							"decorative": true,
+							"width": 120,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "c1fd225a:image.url",
+							"blockId": "c1fd225a",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10003.png",
+							"decorative": true,
+							"width": 120,
+							"height": 70,
+							"orientation": "landscape"
+						},
+						{
+							"id": "1e26c279:image.url",
+							"blockId": "1e26c279",
+							"path": "1.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10004.png",
+							"decorative": true,
+							"width": 120,
+							"height": 70,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "30304c8b",
+					"role": "hero",
+					"title": "WELCOME TO DRONISTA",
+					"sectionIds": [
+						"30304c8b"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "cccc56fc",
+					"role": "content",
+					"title": "Drone Expert",
+					"sectionIds": [
+						"cccc56fc"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 10,
+		"textSlots": 62,
+		"editableSlots": 61,
+		"images": 21,
+		"swappableImages": 13,
+		"words": 785
+	},
+	"builtAt": "2026-10-24T11:35:08.051Z"
+}

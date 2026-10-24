@@ -1,0 +1,3627 @@
+{
+	"version": 4,
+	"slug": "spa-center-v2",
+	"name": "Spa Center v2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-spa-center-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/spa-center-v2",
+	"niches": [
+		"spa",
+		"beauty",
+		"wellness"
+	],
+	"keywords": [
+		"spa",
+		"massage",
+		"wellness center",
+		"beauty salon",
+		"day spa",
+		"sauna",
+		"yoga",
+		"wellness retreat"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#343a40",
+				"count": 56,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 56
+				}
+			},
+			{
+				"hex": "#212529",
+				"count": 46,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 35,
+					"border": 1
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 35,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 18,
+					"background": 12,
+					"border": 2
+				}
+			},
+			{
+				"hex": "#2d2a27",
+				"count": 20,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 2,
+					"background": 14,
+					"border": 3
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 11,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 8,
+					"text": 2
+				}
+			},
+			{
+				"hex": "#f8f9f6",
+				"count": 9,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 9
+				}
+			},
+			{
+				"hex": "#9a9a99",
+				"count": 6,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 2,
+					"border": 1
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#f8f5f0",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#f8f5f0",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#171717",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#2664eb",
+				"lightnessDelta": -0.165,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#282723",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#252423",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#2664eb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#2664eb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#1e7ba6",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#343a40",
+				"bg": "#f8f5f0",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#f8f5f0",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#3f3f46",
+				"bg": "#f8f5f0",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#212529",
+				"bg": "#f8f5f0",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Playfair Display",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body",
+				"Playfair Display": "heading"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "d7db6f5f",
+					"index": 0,
+					"path": "0",
+					"group": "d7db6f5f",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "f9ce3c63:text",
+							"blockId": "f9ce3c63",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0e5ab7c5:text",
+							"blockId": "0e5ab7c5",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "LETS YOUR BODY MEETS YOUR SOUL",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7e1f4d99:text",
+							"blockId": "7e1f4d99",
+							"path": "0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat et leo eu lacinia. Vivamus semper cursus sem in porta.",
+							"rich": true,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "76d86c27:text",
+							"blockId": "76d86c27",
+							"path": "0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8a9b0a08:text",
+							"blockId": "8a9b0a08",
+							"path": "0.0.3.1",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Get started",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "d7db6f5f:background.image.image.url",
+							"blockId": "d7db6f5f",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/banner.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 996,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Wooden board with white flowers and greenery border",
+							"tone": {
+								"grid": [
+									0.69,
+									0.6,
+									0.7,
+									0.7,
+									0.71,
+									0.72,
+									0.55,
+									0.6,
+									0.56
+								],
+								"color": "#b1a390"
+							}
+						}
+					]
+				},
+				{
+					"id": "869e693f",
+					"index": 1,
+					"path": "1",
+					"group": "869e693f",
+					"role": "cta",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "d045024a:text",
+							"blockId": "d045024a",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "057d9d56:text",
+							"blockId": "057d9d56",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ULTIMATE RELAXATION FOR YOUR SOUL",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4c7cc18f:text",
+							"blockId": "4c7cc18f",
+							"path": "1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat et leo eu lacinia. Vivamus semper cursus sem in porta. Aenean sed fermentum sapien.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "53f5ced9:text",
+							"blockId": "53f5ced9",
+							"path": "1.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "869e693f:background.image.image.url",
+							"blockId": "869e693f",
+							"path": "1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/leaf-bg-2.png",
+							"decorative": false,
+							"width": 314,
+							"height": 311,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Single dark green leaf on a plain background",
+							"tone": {
+								"grid": [
+									1,
+									1,
+									1,
+									0.65,
+									0.44,
+									1,
+									0.33,
+									0.82,
+									1
+								],
+								"color": "#cacecb"
+							}
+						},
+						{
+							"id": "a86d1e53:image.url",
+							"blockId": "a86d1e53",
+							"path": "1.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-21-32-32.png",
+							"decorative": true,
+							"width": 288,
+							"height": 40,
+							"orientation": "landscape"
+						},
+						{
+							"id": "03a0e062:image.url",
+							"blockId": "03a0e062",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/about-img.png",
+							"decorative": false,
+							"width": 435,
+							"height": 543,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman relaxing with eyes closed during a spa treatment",
+							"tone": {
+								"grid": [
+									0.84,
+									0.63,
+									0.71,
+									0.74,
+									0.58,
+									0.81,
+									0.91,
+									0.85,
+									0.87
+								],
+								"color": "#d3c1b9"
+							}
+						}
+					]
+				},
+				{
+					"id": "a1ca0dfd",
+					"index": 2,
+					"path": "2",
+					"group": "a1ca0dfd",
+					"role": "content",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "61dd0847:text",
+							"blockId": "61dd0847",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6e6cb9b1:text",
+							"blockId": "6e6cb9b1",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "A SPA WITH A LIFESTYLE EXPERIENCE",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9d53b507:text",
+							"blockId": "9d53b507",
+							"path": "2.0.3.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Face Massage",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0821f183:text",
+							"blockId": "0821f183",
+							"path": "2.0.3.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue tempor blandit. Sed suscipit pharetra.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2600f729:text",
+							"blockId": "2600f729",
+							"path": "2.0.3.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Swedish Massage",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2241334d:text",
+							"blockId": "2241334d",
+							"path": "2.0.3.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue tempor blandit. Sed suscipit pharetra.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ae052b02:text",
+							"blockId": "ae052b02",
+							"path": "2.0.3.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Hot Stone Massage",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4ca19bbf:text",
+							"blockId": "4ca19bbf",
+							"path": "2.0.3.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue tempor blandit. Sed suscipit pharetra.",
+							"rich": false,
+							"words": 15,
+							"minWords": 9,
+							"maxWords": 19,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "44f044e5:text",
+							"blockId": "44f044e5",
+							"path": "2.0.4.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4fe03258:image.url",
+							"blockId": "4fe03258",
+							"path": "2.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-21-44-01.png",
+							"decorative": true,
+							"width": 288,
+							"height": 41,
+							"orientation": "landscape"
+						},
+						{
+							"id": "487ccbf1:image.url",
+							"blockId": "487ccbf1",
+							"path": "2.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/services-1.png",
+							"decorative": false,
+							"width": 658,
+							"height": 589,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman receiving a back massage at a spa",
+							"tone": {
+								"grid": [
+									0.79,
+									0.78,
+									0.75,
+									0.42,
+									0.51,
+									0.74,
+									0.79,
+									0.61,
+									0.66
+								],
+								"color": "#dda27f"
+							}
+						},
+						{
+							"id": "18c42641:image.url",
+							"blockId": "18c42641",
+							"path": "2.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/services-2.png",
+							"decorative": false,
+							"width": 658,
+							"height": 589,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman floating in water with eyes closed",
+							"tone": {
+								"grid": [
+									0.56,
+									0.71,
+									0.48,
+									0.72,
+									0.69,
+									0.79,
+									0.52,
+									0.57,
+									0.68
+								],
+								"color": "#a4a29a"
+							}
+						},
+						{
+							"id": "34a57026:image.url",
+							"blockId": "34a57026",
+							"path": "2.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/services-3.png",
+							"decorative": false,
+							"width": 658,
+							"height": 589,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman receiving a shoulder massage with an orchid nearby",
+							"tone": {
+								"grid": [
+									0.33,
+									0.29,
+									0.28,
+									0.46,
+									0.52,
+									0.52,
+									0.72,
+									0.79,
+									0.51
+								],
+								"color": "#a87363"
+							}
+						}
+					]
+				},
+				{
+					"id": "0253a041",
+					"index": 3,
+					"path": "3",
+					"group": "0253a041",
+					"role": "testimonials",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "e906023e:text",
+							"blockId": "e906023e",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "242cc0a0:text",
+							"blockId": "242cc0a0",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ZAKRA THE ULTIMATE SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "771dd8b1:text",
+							"blockId": "771dd8b1",
+							"path": "3.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat et leo eu lacinia. Vivamus semper cursus sem in porta. Aenean sed fermentum sapien.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "de542f55:text",
+							"blockId": "de542f55",
+							"path": "3.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view all testimonial",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "17eeb6d3:image.url",
+							"blockId": "17eeb6d3",
+							"path": "3.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-21-57-03.png",
+							"decorative": true,
+							"width": 288,
+							"height": 38,
+							"orientation": "landscape"
+						},
+						{
+							"id": "c6a7608e:image.url",
+							"blockId": "c6a7608e",
+							"path": "3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/ultimate-img.jpg",
+							"decorative": false,
+							"width": 1044,
+							"height": 853,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Young woman in a white top among pink flowers",
+							"tone": {
+								"grid": [
+									0.64,
+									0.43,
+									0.43,
+									0.57,
+									0.36,
+									0.36,
+									0.38,
+									0.45,
+									0.73
+								],
+								"color": "#927572"
+							}
+						}
+					]
+				},
+				{
+					"id": "36b4983a",
+					"index": 4,
+					"path": "4",
+					"group": "36b4983a",
+					"role": "features",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "3de2ff81:text",
+							"blockId": "3de2ff81",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d10f45e8:text",
+							"blockId": "d10f45e8",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "LATEST NEWS AND EVENTS",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "45283980:text",
+							"blockId": "45283980",
+							"path": "4.0.3.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Lorem ipsum dolor sit amet elit",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5a728a40:text",
+							"blockId": "5a728a40",
+							"path": "4.0.3.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ante leo and aenean consequat blandit diam.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0797e8df:text",
+							"blockId": "0797e8df",
+							"path": "4.0.3.0.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7c7786c2:text",
+							"blockId": "7c7786c2",
+							"path": "4.0.3.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Lorem ipsum dolor sit amet elit",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2cec0d10:text",
+							"blockId": "2cec0d10",
+							"path": "4.0.3.1.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ante leo and aenean consequat blandit diam.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "09c0af0e:text",
+							"blockId": "09c0af0e",
+							"path": "4.0.3.1.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "10c794b0:text",
+							"blockId": "10c794b0",
+							"path": "4.0.3.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Lorem ipsum dolor sit amet elit",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "bfa891f8:text",
+							"blockId": "bfa891f8",
+							"path": "4.0.3.2.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ante leo and aenean consequat blandit diam.",
+							"rich": false,
+							"words": 17,
+							"minWords": 10,
+							"maxWords": 22,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "bae840ab:text",
+							"blockId": "bae840ab",
+							"path": "4.0.3.2.1.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d440cbd2:text",
+							"blockId": "d440cbd2",
+							"path": "4.0.4.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "36b4983a:background.image.image.url",
+							"blockId": "36b4983a",
+							"path": "4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/stone-bg.png",
+							"decorative": false,
+							"width": 169,
+							"height": 302,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Stack of black spa stones",
+							"tone": {
+								"grid": [
+									0.54,
+									0.31,
+									0.97,
+									0.22,
+									0.15,
+									0.85,
+									0.28,
+									0.11,
+									0.53
+								],
+								"color": "#717070"
+							}
+						},
+						{
+							"id": "0117c2a2:image.url",
+							"blockId": "0117c2a2",
+							"path": "4.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-22-30-31.png",
+							"decorative": true,
+							"width": 292,
+							"height": 43,
+							"orientation": "landscape"
+						},
+						{
+							"id": "e3fc202e:background.image.image.url",
+							"blockId": "e3fc202e",
+							"path": "4.0.3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/leaf-2-bg.png",
+							"decorative": false,
+							"width": 349,
+							"height": 423,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Bouquet of autumn leaves cut out on a plain background",
+							"tone": {
+								"grid": [
+									0.92,
+									0.65,
+									0.9,
+									0.68,
+									0.51,
+									0.67,
+									0.97,
+									0.8,
+									0.96
+								],
+								"color": "#dbc6a6"
+							}
+						},
+						{
+							"id": "84c3d7d0:image.url",
+							"blockId": "84c3d7d0",
+							"path": "4.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/blog-1-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Man receiving a neck and face massage",
+							"tone": {
+								"grid": [
+									0.38,
+									0.5,
+									0.21,
+									0.6,
+									0.67,
+									0.31,
+									0.46,
+									0.7,
+									0.52
+								],
+								"color": "#92775e"
+							}
+						},
+						{
+							"id": "dc2382d4:image.url",
+							"blockId": "dc2382d4",
+							"path": "4.0.3.0.1.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/icon-list.png",
+							"decorative": true,
+							"width": 216,
+							"height": 59,
+							"orientation": "landscape"
+						},
+						{
+							"id": "5ea91a3a:image.url",
+							"blockId": "5ea91a3a",
+							"path": "4.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/blog-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 250,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman receiving a green mud body wrap at a spa",
+							"tone": {
+								"grid": [
+									0.38,
+									0.37,
+									0.28,
+									0.46,
+									0.64,
+									0.56,
+									0.49,
+									0.73,
+									0.44
+								],
+								"color": "#a4744b"
+							}
+						},
+						{
+							"id": "260ac13e:image.url",
+							"blockId": "260ac13e",
+							"path": "4.0.3.1.1.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/icon-list.png",
+							"decorative": true,
+							"width": 216,
+							"height": 59,
+							"orientation": "landscape"
+						},
+						{
+							"id": "4fddb479:image.url",
+							"blockId": "4fddb479",
+							"path": "4.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/blog-3-1.jpg",
+							"decorative": false,
+							"width": 415,
+							"height": 286,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman relaxing on a spa bed with singing bowls and rose petals",
+							"tone": {
+								"grid": [
+									0.71,
+									0.69,
+									0.45,
+									0.52,
+									0.61,
+									0.64,
+									0.81,
+									0.82,
+									0.61
+								],
+								"color": "#bda191"
+							}
+						},
+						{
+							"id": "56e330ee:image.url",
+							"blockId": "56e330ee",
+							"path": "4.0.3.2.1.0.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/icon-list.png",
+							"decorative": true,
+							"width": 216,
+							"height": 59,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "4f724339",
+					"index": 5,
+					"path": "5",
+					"group": "4f724339",
+					"role": "dynamic",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "afc46a6e:text",
+							"blockId": "afc46a6e",
+							"path": "5.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "971cd815:text",
+							"blockId": "971cd815",
+							"path": "5.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SUBSCRIBE TO US",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09adbf32:text",
+							"blockId": "09adbf32",
+							"path": "5.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat et leo eu lacinia vivamus sempe .",
+							"rich": false,
+							"words": 16,
+							"minWords": 10,
+							"maxWords": 20,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "970404c5:image.url",
+							"blockId": "970404c5",
+							"path": "5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/subscribe-img.jpg",
+							"decorative": false,
+							"width": 1025,
+							"height": 626,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman relaxing on a spa bed with singing bowls and rose petals",
+							"tone": {
+								"grid": [
+									0.67,
+									0.56,
+									0.79,
+									0.53,
+									0.6,
+									0.85,
+									0.78,
+									0.76,
+									0.84
+								],
+								"color": "#c8b2a2"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "d7db6f5f",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"d7db6f5f"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "869e693f",
+					"role": "cta",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"869e693f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "a1ca0dfd",
+					"role": "content",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"a1ca0dfd"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0253a041",
+					"role": "testimonials",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"0253a041"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "36b4983a",
+					"role": "features",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"36b4983a"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4f724339",
+					"role": "dynamic",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"4f724339"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "19927101",
+					"index": 0,
+					"path": "0",
+					"group": "19927101",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "dd1d0ab5:text",
+							"blockId": "dd1d0ab5",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "98f2c382:text",
+							"blockId": "98f2c382",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "EXPLORE MORE ABOUT ZAKRA SPA",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "675077c3:text",
+							"blockId": "675077c3",
+							"path": "0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat et leo eu lacinia. Vivamus semper cursus sem in porta. Aenean sed fermentum sapien.",
+							"rich": true,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "901963fa:text",
+							"blockId": "901963fa",
+							"path": "0.0.4.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Get Started With Modal Builder Block!",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0fadbe74:text",
+							"blockId": "0fadbe74",
+							"path": "0.0.4.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f58ef271:text",
+							"blockId": "f58ef271",
+							"path": "0.0.4.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Click Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "de1d3e50:image.url",
+							"blockId": "de1d3e50",
+							"path": "0.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-22-30-31.png",
+							"decorative": true,
+							"width": 292,
+							"height": 43,
+							"orientation": "landscape"
+						},
+						{
+							"id": "773c2170:background.image.image.url",
+							"blockId": "773c2170",
+							"path": "0.0.4",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/rose-bg.png",
+							"decorative": false,
+							"width": 599,
+							"height": 719,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Pink roses with stems and leaves cut out",
+							"tone": {
+								"grid": [
+									1,
+									0.75,
+									0.52,
+									0.96,
+									0.85,
+									0.93,
+									0.94,
+									0.71,
+									0.98
+								],
+								"color": "#e6d5d7"
+							}
+						},
+						{
+							"id": "72bdf8c7:image.url",
+							"blockId": "72bdf8c7",
+							"path": "0.0.4.0.0",
+							"block": "blockart/modal",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/modal.png",
+							"decorative": false,
+							"width": 1135,
+							"height": 591,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman lying on a spa bed during a singing bowl therapy",
+							"tone": {
+								"grid": [
+									0.66,
+									0.8,
+									0.61,
+									0.64,
+									0.62,
+									0.41,
+									0.85,
+									0.65,
+									0.29
+								],
+								"color": "#c89567"
+							}
+						}
+					]
+				},
+				{
+					"id": "d6ac8dd2",
+					"index": 1,
+					"path": "1",
+					"group": "d6ac8dd2",
+					"role": "stats",
+					"slots": [
+						{
+							"id": "b1fe9f08:text",
+							"blockId": "b1fe9f08",
+							"path": "1.0.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "HAPPY CLIENTS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3913f95e:text",
+							"blockId": "3913f95e",
+							"path": "1.1.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "THERAPIST",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e7ff5fb4:text",
+							"blockId": "e7ff5fb4",
+							"path": "1.2.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "TREATMENTS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dbff45bb:text",
+							"blockId": "dbff45bb",
+							"path": "1.3.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "AWARDS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "31acd7b9",
+					"index": 2,
+					"path": "2",
+					"group": "31acd7b9",
+					"role": "features",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "d94dbd34:text",
+							"blockId": "d94dbd34",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8e42c698:text",
+							"blockId": "8e42c698",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "EXPLORE MORE ABOUT ZAKRA SPA",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2122e0be:text",
+							"blockId": "2122e0be",
+							"path": "2.0.3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "BASIC",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6bec3a43:text",
+							"blockId": "6bec3a43",
+							"path": "2.0.3.0.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "$99",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "4d67f6a3:text",
+							"blockId": "4d67f6a3",
+							"path": "2.0.3.0.0.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "/ MONTH",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "97ccd50f:text",
+							"blockId": "97ccd50f",
+							"path": "2.0.3.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Hair Caring",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "32866f3c:text",
+							"blockId": "32866f3c",
+							"path": "2.0.3.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Oriental Body Glow",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "39bd2587:text",
+							"blockId": "39bd2587",
+							"path": "2.0.3.0.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Spaa Facials",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "516b03d5:text",
+							"blockId": "516b03d5",
+							"path": "2.0.3.0.1.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Bridal Makeup",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5660ed61:text",
+							"blockId": "5660ed61",
+							"path": "2.0.3.0.1.0.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Manicure and Pedicure",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d13d4de5:text",
+							"blockId": "d13d4de5",
+							"path": "2.0.3.0.1.0.5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Hair Caring",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "929d3f27:text",
+							"blockId": "929d3f27",
+							"path": "2.0.3.0.1.0.6",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Oriental Body Glow",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "163f05f1:text",
+							"blockId": "163f05f1",
+							"path": "2.0.3.0.1.0.7",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Spa Facials",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6ff4523d:text",
+							"blockId": "6ff4523d",
+							"path": "2.0.3.0.1.0.8.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Sign up",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9bb71e50:text",
+							"blockId": "9bb71e50",
+							"path": "2.0.3.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "STANDARD",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c420f2f9:text",
+							"blockId": "c420f2f9",
+							"path": "2.0.3.1.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "$199",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "95646c16:text",
+							"blockId": "95646c16",
+							"path": "2.0.3.1.0.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "/ MONTH",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "86fe97ae:text",
+							"blockId": "86fe97ae",
+							"path": "2.0.3.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Hair Caring",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c48c0f20:text",
+							"blockId": "c48c0f20",
+							"path": "2.0.3.1.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Oriental Body Glow",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "379f9a62:text",
+							"blockId": "379f9a62",
+							"path": "2.0.3.1.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Spaa Facials",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a843383f:text",
+							"blockId": "a843383f",
+							"path": "2.0.3.1.1.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Bridal Makeup",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4d277d2c:text",
+							"blockId": "4d277d2c",
+							"path": "2.0.3.1.1.0.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Manicure and Pedicure",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aa49003b:text",
+							"blockId": "aa49003b",
+							"path": "2.0.3.1.1.0.5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Hair Caring",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "02d2045d:text",
+							"blockId": "02d2045d",
+							"path": "2.0.3.1.1.0.6",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Oriental Body Glow",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6f3c92d4:text",
+							"blockId": "6f3c92d4",
+							"path": "2.0.3.1.1.0.7",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Spa Facials",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9edc2a01:text",
+							"blockId": "9edc2a01",
+							"path": "2.0.3.1.1.0.8.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Sign up",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e4d05215:text",
+							"blockId": "e4d05215",
+							"path": "2.0.3.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "PROFESSIONAL",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cc3a59b2:text",
+							"blockId": "cc3a59b2",
+							"path": "2.0.3.2.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "$299",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "1dcd3eb0:text",
+							"blockId": "1dcd3eb0",
+							"path": "2.0.3.2.0.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "/ MONTH",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1a6d4e4f:text",
+							"blockId": "1a6d4e4f",
+							"path": "2.0.3.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Hair Caring",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e516ec00:text",
+							"blockId": "e516ec00",
+							"path": "2.0.3.2.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Oriental Body Glow",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "895a1e5c:text",
+							"blockId": "895a1e5c",
+							"path": "2.0.3.2.1.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Spaa Facials",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b0b3c0c9:text",
+							"blockId": "b0b3c0c9",
+							"path": "2.0.3.2.1.0.3",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Bridal Makeup",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a445d4ef:text",
+							"blockId": "a445d4ef",
+							"path": "2.0.3.2.1.0.4",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Manicure and Pedicure",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11ff399b:text",
+							"blockId": "11ff399b",
+							"path": "2.0.3.2.1.0.5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Hair Caring",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4e4c65c6:text",
+							"blockId": "4e4c65c6",
+							"path": "2.0.3.2.1.0.6",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Oriental Body Glow",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1ec83654:text",
+							"blockId": "1ec83654",
+							"path": "2.0.3.2.1.0.7",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Spa Facials",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c8b12864:text",
+							"blockId": "c8b12864",
+							"path": "2.0.3.2.1.0.8.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Sign up",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "31acd7b9:background.image.image.url",
+							"blockId": "31acd7b9",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/stone-bg.png",
+							"decorative": false,
+							"width": 169,
+							"height": 302,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Stack of black spa stones",
+							"tone": {
+								"grid": [
+									0.54,
+									0.31,
+									0.97,
+									0.22,
+									0.15,
+									0.85,
+									0.28,
+									0.11,
+									0.53
+								],
+								"color": "#717070"
+							}
+						},
+						{
+							"id": "073eb51f:image.url",
+							"blockId": "073eb51f",
+							"path": "2.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-22-30-31.png",
+							"decorative": true,
+							"width": 292,
+							"height": 43,
+							"orientation": "landscape"
+						},
+						{
+							"id": "80086bc7:background.image.image.url",
+							"blockId": "80086bc7",
+							"path": "2.0.3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/leaf-2-bg.png",
+							"decorative": false,
+							"width": 349,
+							"height": 423,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Bouquet of autumn leaves cut out on a plain background",
+							"tone": {
+								"grid": [
+									0.92,
+									0.65,
+									0.9,
+									0.68,
+									0.51,
+									0.67,
+									0.97,
+									0.8,
+									0.96
+								],
+								"color": "#dbc6a6"
+							}
+						}
+					]
+				},
+				{
+					"id": "170e4440",
+					"index": 3,
+					"path": "3",
+					"group": "170e4440",
+					"role": "content",
+					"title": "Kiera Knightley",
+					"slots": [
+						{
+							"id": "1607df0a:text",
+							"blockId": "1607df0a",
+							"path": "3.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel vestibulum risus. Vivamus vel lectus elit. Sed maximus arcu diam, et luctus lacus tristique sed. Sed at ex eu enim tempor faucibus cursus ac.",
+							"rich": true,
+							"words": 34,
+							"minWords": 20,
+							"maxWords": 43,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3fea3f19:text",
+							"blockId": "3fea3f19",
+							"path": "3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Kiera Knightley",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e7461317:text",
+							"blockId": "e7461317",
+							"path": "3.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "England",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a8c1dc43:text",
+							"blockId": "a8c1dc43",
+							"path": "3.0.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel vestibulum risus. Vivamus vel lectus elit. Sed maximus arcu diam, et luctus lacus tristique sed. Sed at ex eu enim tempor faucibus cursus ac.",
+							"rich": true,
+							"words": 34,
+							"minWords": 20,
+							"maxWords": 43,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b4c69024:text",
+							"blockId": "b4c69024",
+							"path": "3.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Micheal Jordan",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3ccef23c:text",
+							"blockId": "3ccef23c",
+							"path": "3.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "America",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "9022ebec",
+					"index": 4,
+					"path": "4",
+					"group": "9022ebec",
+					"role": "content",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "a3beef3c:text",
+							"blockId": "a3beef3c",
+							"path": "4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c08d038e:text",
+							"blockId": "c08d038e",
+							"path": "4.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "THE ART OF GIVING NATURAL BEAUTY",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "19dd5581:text",
+							"blockId": "19dd5581",
+							"path": "4.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam placerat et leo eu lacinia. Vivamus semper cursus sem in porta. Aenean sed fermentum sapien.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "e002833b:image.url",
+							"blockId": "e002833b",
+							"path": "4.1.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-22-30-31.png",
+							"decorative": true,
+							"width": 292,
+							"height": 43,
+							"orientation": "landscape"
+						},
+						{
+							"id": "b50ec883:image.url",
+							"blockId": "b50ec883",
+							"path": "4.1.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/abt-services-1.png",
+							"decorative": true,
+							"width": 90,
+							"height": 90,
+							"orientation": "square"
+						},
+						{
+							"id": "e3842b69:image.url",
+							"blockId": "e3842b69",
+							"path": "4.1.4.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/abt-services-2.png",
+							"decorative": true,
+							"width": 90,
+							"height": 90,
+							"orientation": "square"
+						},
+						{
+							"id": "a9a5f357:image.url",
+							"blockId": "a9a5f357",
+							"path": "4.1.4.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/abt-services-3.png",
+							"decorative": true,
+							"width": 90,
+							"height": 90,
+							"orientation": "square"
+						},
+						{
+							"id": "446f79e9:image.url",
+							"blockId": "446f79e9",
+							"path": "4.1.4.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/abt-services-4.png",
+							"decorative": true,
+							"width": 90,
+							"height": 90,
+							"orientation": "square"
+						},
+						{
+							"id": "d88f949c:image.url",
+							"blockId": "d88f949c",
+							"path": "4.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/about-services.png",
+							"decorative": false,
+							"width": 1038,
+							"height": 743,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman receiving a facial massage with eyes closed",
+							"tone": {
+								"grid": [
+									0.9,
+									0.69,
+									0.82,
+									0.88,
+									0.67,
+									0.64,
+									0.95,
+									0.83,
+									0.83
+								],
+								"color": "#dfc9bc"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "19927101",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"19927101"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d6ac8dd2",
+					"role": "stats",
+					"sectionIds": [
+						"d6ac8dd2"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "31acd7b9",
+					"role": "features",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"31acd7b9"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "170e4440",
+					"role": "content",
+					"title": "Kiera Knightley",
+					"sectionIds": [
+						"170e4440"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9022ebec",
+					"role": "content",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"9022ebec"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "e0f9187e",
+					"index": 0,
+					"path": "0",
+					"group": "e0f9187e",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "f6f6b2c8:text",
+							"blockId": "f6f6b2c8",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb2e0891:text",
+							"blockId": "eb2e0891",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "EXPLORE OUR SERVICES",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fc2737f1:text",
+							"blockId": "fc2737f1",
+							"path": "0.0.3.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Face Massage",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0fb3df40:text",
+							"blockId": "0fb3df40",
+							"path": "0.0.3.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam congue.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0b92510b:text",
+							"blockId": "0b92510b",
+							"path": "0.0.3.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SWEDISH MASSAGE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7354edda:text",
+							"blockId": "7354edda",
+							"path": "0.0.3.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam congue.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "d34dae88:text",
+							"blockId": "d34dae88",
+							"path": "0.0.3.2.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "HOT STONE MASSAGE",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9f95deec:text",
+							"blockId": "9f95deec",
+							"path": "0.0.3.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam congue.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ed32e70a:text",
+							"blockId": "ed32e70a",
+							"path": "0.0.3.3.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "AROMATHERAPY MASSAGE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f9f0a8c1:text",
+							"blockId": "f9f0a8c1",
+							"path": "0.0.3.3.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam congue.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "46555524:text",
+							"blockId": "46555524",
+							"path": "0.0.3.4.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "DEEP TISSUE MASSAGE",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "98561cce:text",
+							"blockId": "98561cce",
+							"path": "0.0.3.4.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam congue.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "ce75c505:text",
+							"blockId": "ce75c505",
+							"path": "0.0.3.5.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SPORTS MASSAGE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "521974d0:text",
+							"blockId": "521974d0",
+							"path": "0.0.3.5.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam congue.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2a21c4a9:text",
+							"blockId": "2a21c4a9",
+							"path": "0.0.3.6.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "TRIGGER POINT MASSAGE",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7846704c:text",
+							"blockId": "7846704c",
+							"path": "0.0.3.6.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam congue.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "28def08d:text",
+							"blockId": "28def08d",
+							"path": "0.0.3.7.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "REFLEXOLOGY",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "92555079:text",
+							"blockId": "92555079",
+							"path": "0.0.3.7.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam congue.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b7253b0b:text",
+							"blockId": "b7253b0b",
+							"path": "0.0.3.8.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PRENATAL MASSAGE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "14608578:text",
+							"blockId": "14608578",
+							"path": "0.0.3.8.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam congue.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "681da78b:image.url",
+							"blockId": "681da78b",
+							"path": "0.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-22-30-31.png",
+							"decorative": true,
+							"width": 292,
+							"height": 43,
+							"orientation": "landscape"
+						},
+						{
+							"id": "d83b1fcd:image.url",
+							"blockId": "d83b1fcd",
+							"path": "0.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/services-1.png",
+							"decorative": false,
+							"width": 658,
+							"height": 589,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman receiving a back massage at a spa",
+							"tone": {
+								"grid": [
+									0.79,
+									0.78,
+									0.75,
+									0.42,
+									0.51,
+									0.74,
+									0.79,
+									0.61,
+									0.66
+								],
+								"color": "#dda27f"
+							}
+						},
+						{
+							"id": "cdfa899e:image.url",
+							"blockId": "cdfa899e",
+							"path": "0.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/services-2.png",
+							"decorative": false,
+							"width": 658,
+							"height": 589,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman floating in water with eyes closed",
+							"tone": {
+								"grid": [
+									0.56,
+									0.71,
+									0.48,
+									0.72,
+									0.69,
+									0.79,
+									0.52,
+									0.57,
+									0.68
+								],
+								"color": "#a4a29a"
+							}
+						},
+						{
+							"id": "a058ed93:image.url",
+							"blockId": "a058ed93",
+							"path": "0.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/services-3.png",
+							"decorative": false,
+							"width": 658,
+							"height": 589,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman receiving a shoulder massage with an orchid nearby",
+							"tone": {
+								"grid": [
+									0.33,
+									0.29,
+									0.28,
+									0.46,
+									0.52,
+									0.52,
+									0.72,
+									0.79,
+									0.51
+								],
+								"color": "#a87363"
+							}
+						},
+						{
+							"id": "5ae9dd8a:image.url",
+							"blockId": "5ae9dd8a",
+							"path": "0.0.3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/gallery-mmm.jpg",
+							"decorative": false,
+							"width": 460,
+							"height": 508,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman relaxing on a spa bed with singing bowls and rose petals",
+							"tone": {
+								"grid": [
+									0.79,
+									0.77,
+									0.33,
+									0.52,
+									0.64,
+									0.47,
+									0.82,
+									0.86,
+									0.63
+								],
+								"color": "#bca191"
+							}
+						},
+						{
+							"id": "836689d4:image.url",
+							"blockId": "836689d4",
+							"path": "0.0.3.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/gallery-5.jpg",
+							"decorative": false,
+							"width": 460,
+							"height": 508,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with flowers in her hair, beauty portrait",
+							"tone": {
+								"grid": [
+									0.59,
+									0.44,
+									0.38,
+									0.61,
+									0.33,
+									0.63,
+									0.35,
+									0.09,
+									0.39
+								],
+								"color": "#88655f"
+							}
+						},
+						{
+							"id": "c8fedd95:image.url",
+							"blockId": "c8fedd95",
+							"path": "0.0.3.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/gallery-6.jpg",
+							"decorative": false,
+							"width": 460,
+							"height": 508,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man receiving a neck massage",
+							"tone": {
+								"grid": [
+									0.32,
+									0.51,
+									0.29,
+									0.59,
+									0.64,
+									0.65,
+									0.43,
+									0.68,
+									0.56
+								],
+								"color": "#9c8066"
+							}
+						},
+						{
+							"id": "5d9cc238:image.url",
+							"blockId": "5d9cc238",
+							"path": "0.0.3.6.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/gallery-7.jpg",
+							"decorative": false,
+							"width": 460,
+							"height": 508,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman receiving a green mud treatment on her back",
+							"tone": {
+								"grid": [
+									0.34,
+									0.36,
+									0.25,
+									0.65,
+									0.54,
+									0.58,
+									0.74,
+									0.44,
+									0.51
+								],
+								"color": "#a97550"
+							}
+						},
+						{
+							"id": "8abffb14:image.url",
+							"blockId": "8abffb14",
+							"path": "0.0.3.7.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/gallery-2.jpg",
+							"decorative": false,
+							"width": 460,
+							"height": 508,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman floating in water with eyes closed",
+							"tone": {
+								"grid": [
+									0.57,
+									0.76,
+									0.51,
+									0.7,
+									0.68,
+									0.8,
+									0.43,
+									0.47,
+									0.6
+								],
+								"color": "#9b9d98"
+							}
+						},
+						{
+							"id": "bd000e32:image.url",
+							"blockId": "bd000e32",
+							"path": "0.0.3.8.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/gallery-mmm.jpg",
+							"decorative": false,
+							"width": 460,
+							"height": 508,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman relaxing on a spa bed with singing bowls and rose petals",
+							"tone": {
+								"grid": [
+									0.79,
+									0.77,
+									0.33,
+									0.52,
+									0.64,
+									0.47,
+									0.82,
+									0.86,
+									0.63
+								],
+								"color": "#bca191"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "e0f9187e",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"e0f9187e"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "gallery",
+			"title": "Gallery",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/themegrill-demos/gallery-content.xml",
+			"sections": [
+				{
+					"id": "49c9fa62",
+					"index": 0,
+					"path": "0",
+					"group": "49c9fa62",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"slots": [
+						{
+							"id": "291d7c80:text",
+							"blockId": "291d7c80",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "WELCOME TO ZAKRA SPA CENTER",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb78a1a1:text",
+							"blockId": "bb78a1a1",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "EXPLORE OUR GALLERY",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7895bc5d:image.url",
+							"blockId": "7895bc5d",
+							"path": "0.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-22-30-31.png",
+							"decorative": true,
+							"width": 292,
+							"height": 43,
+							"orientation": "landscape"
+						},
+						{
+							"id": "b7600e4d:image.url",
+							"blockId": "b7600e4d",
+							"path": "0.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/services-1.png",
+							"decorative": false,
+							"width": 658,
+							"height": 589,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman receiving a back massage at a spa",
+							"tone": {
+								"grid": [
+									0.79,
+									0.78,
+									0.75,
+									0.42,
+									0.51,
+									0.74,
+									0.79,
+									0.61,
+									0.66
+								],
+								"color": "#dda27f"
+							}
+						},
+						{
+							"id": "3c0b868e:image.url",
+							"blockId": "3c0b868e",
+							"path": "0.0.3.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/services-2.png",
+							"decorative": false,
+							"width": 658,
+							"height": 589,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman floating in water with eyes closed",
+							"tone": {
+								"grid": [
+									0.56,
+									0.71,
+									0.48,
+									0.72,
+									0.69,
+									0.79,
+									0.52,
+									0.57,
+									0.68
+								],
+								"color": "#a4a29a"
+							}
+						},
+						{
+							"id": "aaa9d6ac:image.url",
+							"blockId": "aaa9d6ac",
+							"path": "0.0.3.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/services-3.png",
+							"decorative": false,
+							"width": 658,
+							"height": 589,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman receiving a shoulder massage with an orchid nearby",
+							"tone": {
+								"grid": [
+									0.33,
+									0.29,
+									0.28,
+									0.46,
+									0.52,
+									0.52,
+									0.72,
+									0.79,
+									0.51
+								],
+								"color": "#a87363"
+							}
+						},
+						{
+							"id": "61171a49:image.url",
+							"blockId": "61171a49",
+							"path": "0.0.3.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/gallery-mmm.jpg",
+							"decorative": false,
+							"width": 460,
+							"height": 508,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman relaxing on a spa bed with singing bowls and rose petals",
+							"tone": {
+								"grid": [
+									0.79,
+									0.77,
+									0.33,
+									0.52,
+									0.64,
+									0.47,
+									0.82,
+									0.86,
+									0.63
+								],
+								"color": "#bca191"
+							}
+						},
+						{
+							"id": "7379a64e:image.url",
+							"blockId": "7379a64e",
+							"path": "0.0.3.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/gallery-5.jpg",
+							"decorative": false,
+							"width": 460,
+							"height": 508,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with flowers in her hair, beauty portrait",
+							"tone": {
+								"grid": [
+									0.59,
+									0.44,
+									0.38,
+									0.61,
+									0.33,
+									0.63,
+									0.35,
+									0.09,
+									0.39
+								],
+								"color": "#88655f"
+							}
+						},
+						{
+							"id": "2c0b7dbc:image.url",
+							"blockId": "2c0b7dbc",
+							"path": "0.0.3.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/gallery-6.jpg",
+							"decorative": false,
+							"width": 460,
+							"height": 508,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Bearded man receiving a neck massage",
+							"tone": {
+								"grid": [
+									0.32,
+									0.51,
+									0.29,
+									0.59,
+									0.64,
+									0.65,
+									0.43,
+									0.68,
+									0.56
+								],
+								"color": "#9c8066"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "49c9fa62",
+					"role": "hero",
+					"title": "WELCOME TO ZAKRA SPA CENTER",
+					"sectionIds": [
+						"49c9fa62"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 13,
+		"textSlots": 116,
+		"editableSlots": 113,
+		"images": 49,
+		"swappableImages": 33,
+		"words": 657
+	},
+	"builtAt": "2026-10-24T11:35:08.054Z"
+}

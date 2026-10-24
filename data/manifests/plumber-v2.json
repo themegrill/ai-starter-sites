@@ -1,5 +1,5 @@
 {
-	"version": 3,
+	"version": 4,
 	"slug": "plumber-v2",
 	"name": "Plumber V2",
 	"theme": "zakra",
@@ -461,7 +461,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 1116,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling female worker in a red hard hat holding work gloves",
+							"tone": {
+								"grid": [
+									0.85,
+									0.57,
+									0.88,
+									0.82,
+									0.76,
+									0.9,
+									0.79,
+									0.7,
+									0.9
+								],
+								"color": "#d8c9bf"
+							}
 						}
 					],
 					"dynamicBlocks": [
@@ -581,7 +597,23 @@
 							"decorative": false,
 							"width": 352,
 							"height": 500,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Female engineer in a yellow hard hat and safety glasses on the phone",
+							"tone": {
+								"grid": [
+									1,
+									0.87,
+									0.84,
+									0.9,
+									0.69,
+									0.84,
+									0.78,
+									0.54,
+									0.81
+								],
+								"color": "#d1cdcf"
+							}
 						}
 					]
 				},
@@ -732,7 +764,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 940,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling female worker in a red hard hat giving a thumbs up",
+							"tone": {
+								"grid": [
+									0.78,
+									0.78,
+									1,
+									0.9,
+									0.91,
+									1,
+									0.77,
+									0.83,
+									1
+								],
+								"color": "#eae0dc"
+							}
 						},
 						{
 							"id": "573e3d17:background.image.image.url",
@@ -745,7 +793,23 @@
 							"decorative": false,
 							"width": 750,
 							"height": 499,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Cheerful worker in a hard hat carrying a level in a tiled bathroom",
+							"tone": {
+								"grid": [
+									0.29,
+									0.69,
+									0.63,
+									0.33,
+									0.64,
+									0.24,
+									0.54,
+									0.71,
+									0.33
+								],
+								"color": "#847a79"
+							}
 						},
 						{
 							"id": "d0ca2bec:image.url",
@@ -784,7 +848,23 @@
 							"decorative": false,
 							"width": 750,
 							"height": 499,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Cheerful worker in a hard hat carrying a level in a tiled bathroom",
+							"tone": {
+								"grid": [
+									0.29,
+									0.69,
+									0.63,
+									0.33,
+									0.64,
+									0.24,
+									0.54,
+									0.71,
+									0.33
+								],
+								"color": "#847a79"
+							}
 						},
 						{
 							"id": "f4d21486:image.url",
@@ -974,7 +1054,23 @@
 							"decorative": false,
 							"width": 332,
 							"height": 487,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling man in a shirt and tie with arms crossed",
+							"tone": {
+								"grid": [
+									0.94,
+									0.56,
+									1,
+									0.85,
+									0.69,
+									0.94,
+									0.77,
+									0.55,
+									0.8
+								],
+								"color": "#cec8c9"
+							}
 						},
 						{
 							"id": "d57f0714:image.url",
@@ -987,7 +1083,23 @@
 							"decorative": false,
 							"width": 332,
 							"height": 487,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Confident man in a navy suit buttoning his jacket",
+							"tone": {
+								"grid": [
+									0.97,
+									0.68,
+									1,
+									0.34,
+									0.3,
+									0.41,
+									0.57,
+									0.23,
+									0.64
+								],
+								"color": "#939097"
+							}
 						},
 						{
 							"id": "71a490e7:image.url",
@@ -1000,7 +1112,23 @@
 							"decorative": false,
 							"width": 332,
 							"height": 487,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Young man with a beard in a white shirt",
+							"tone": {
+								"grid": [
+									0.92,
+									0.5,
+									1,
+									0.93,
+									0.79,
+									0.91,
+									0.74,
+									0.82,
+									0.7
+								],
+								"color": "#d8ccce"
+							}
 						}
 					]
 				},
@@ -1189,7 +1317,23 @@
 							"decorative": false,
 							"width": 1920,
 							"height": 942,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Plumber fixing a kitchen sink faucet",
+							"tone": {
+								"grid": [
+									0.49,
+									0.48,
+									0.35,
+									0.29,
+									0.37,
+									0.54,
+									0.27,
+									0.41,
+									0.81
+								],
+								"color": "#77716a"
+							}
 						},
 						{
 							"id": "b38b6b3c:image.url",
@@ -1418,7 +1562,23 @@
 							"decorative": false,
 							"width": 1000,
 							"height": 629,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Female worker in ear protection and safety glasses in a warehouse",
+							"tone": {
+								"grid": [
+									0.65,
+									0.41,
+									0.34,
+									0.64,
+									0.52,
+									0.32,
+									0.52,
+									0.25,
+									0.32
+								],
+								"color": "#95685c"
+							}
 						}
 					]
 				}
@@ -1634,7 +1794,23 @@
 							"decorative": false,
 							"width": 352,
 							"height": 500,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Female engineer in a yellow hard hat and safety glasses on the phone",
+							"tone": {
+								"grid": [
+									1,
+									0.87,
+									0.84,
+									0.9,
+									0.69,
+									0.84,
+									0.78,
+									0.54,
+									0.81
+								],
+								"color": "#d1cdcf"
+							}
 						}
 					]
 				},
@@ -1786,7 +1962,23 @@
 							"decorative": false,
 							"width": 1000,
 							"height": 678,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Cleaner in rubber gloves scrubbing a toilet",
+							"tone": {
+								"grid": [
+									0.84,
+									0.66,
+									0.37,
+									0.72,
+									0.69,
+									0.31,
+									0.4,
+									0.48,
+									0.09
+								],
+								"color": "#8d7f73"
+							}
 						},
 						{
 							"id": "c5ed1260:background.image.image.url",
@@ -2025,7 +2217,23 @@
 							"decorative": false,
 							"width": 1051,
 							"height": 700,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Business team gathered around a laptop in a meeting",
+							"tone": {
+								"grid": [
+									0.73,
+									0.42,
+									0.53,
+									0.32,
+									0.2,
+									0.41,
+									0.22,
+									0.44,
+									0.33
+								],
+								"color": "#6d6462"
+							}
 						},
 						{
 							"id": "24b77108:image.url",
@@ -2038,7 +2246,23 @@
 							"decorative": false,
 							"width": 1051,
 							"height": 700,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Business team gathered around a laptop in a meeting",
+							"tone": {
+								"grid": [
+									0.73,
+									0.42,
+									0.53,
+									0.32,
+									0.2,
+									0.41,
+									0.22,
+									0.44,
+									0.33
+								],
+								"color": "#6d6462"
+							}
 						}
 					]
 				},
@@ -2190,7 +2414,23 @@
 							"decorative": false,
 							"width": 1000,
 							"height": 667,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Pipe wrenches on a metal pipe",
+							"tone": {
+								"grid": [
+									0.56,
+									0.6,
+									0.52,
+									0.67,
+									0.48,
+									0.64,
+									0.61,
+									0.56,
+									0.65
+								],
+								"color": "#ae9087"
+							}
 						},
 						{
 							"id": "cc5df618:background.image.image.url",
@@ -2354,7 +2594,23 @@
 							"decorative": false,
 							"width": 450,
 							"height": 776,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Businessman in a suit carrying a briefcase and coffee",
+							"tone": {
+								"grid": [
+									0.9,
+									0.48,
+									0.91,
+									0.49,
+									0.14,
+									0.63,
+									0.34,
+									0.25,
+									0.76
+								],
+								"color": "#878b94"
+							}
 						}
 					]
 				},
@@ -2426,7 +2682,23 @@
 							"decorative": false,
 							"width": 1000,
 							"height": 629,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Female worker in ear protection and safety glasses in a warehouse",
+							"tone": {
+								"grid": [
+									0.65,
+									0.41,
+									0.34,
+									0.64,
+									0.52,
+									0.32,
+									0.52,
+									0.25,
+									0.32
+								],
+								"color": "#95685c"
+							}
 						}
 					]
 				}
@@ -2961,7 +3233,23 @@
 							"decorative": false,
 							"width": 1000,
 							"height": 629,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Female worker in ear protection and safety glasses in a warehouse",
+							"tone": {
+								"grid": [
+									0.65,
+									0.41,
+									0.34,
+									0.64,
+									0.52,
+									0.32,
+									0.52,
+									0.25,
+									0.32
+								],
+								"color": "#95685c"
+							}
 						}
 					]
 				}
@@ -3381,7 +3669,23 @@
 							"decorative": false,
 							"width": 1000,
 							"height": 629,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Female worker in ear protection and safety glasses in a warehouse",
+							"tone": {
+								"grid": [
+									0.65,
+									0.41,
+									0.34,
+									0.64,
+									0.52,
+									0.32,
+									0.52,
+									0.25,
+									0.32
+								],
+								"color": "#95685c"
+							}
 						}
 					]
 				}
@@ -3425,5 +3729,5 @@
 		"swappableImages": 19,
 		"words": 1250
 	},
-	"builtAt": "2026-10-07T13:48:43.405Z"
+	"builtAt": "2026-10-24T11:35:07.847Z"
 }

@@ -1,0 +1,1527 @@
+{
+	"version": 4,
+	"slug": "gift-shop-v2",
+	"name": "Gift Shop V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-gift-shop-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/gift-shop-v2",
+	"niches": [
+		"gifts",
+		"shop",
+		"retail"
+	],
+	"keywords": [
+		"gift shop",
+		"gifts",
+		"souvenirs",
+		"presents",
+		"hampers",
+		"gift store"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#2c2c2c",
+				"count": 32,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 15
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 31,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 8,
+					"background": 1,
+					"icon": 2
+				}
+			},
+			{
+				"hex": "#ec407a",
+				"count": 17,
+				"group": "brand",
+				"role": "primary",
+				"base": "#ec407a",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 3,
+					"text": 4,
+					"icon": 4
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e91e63",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#ec407a",
+				"lightnessDelta": -0.073,
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#f5f5f5",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#bdbdbd",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#2f2f2f",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fcfcfc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#db1657",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#ec407a",
+				"lightnessDelta": -0.116
+			},
+			{
+				"hex": "#f48fb1",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#ec407a",
+				"lightnessDelta": 0.171
+			},
+			{
+				"hex": "#360c3e",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#360c3e",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ec407a",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ec407a",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#e91e63",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ec407a",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ec407a",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ec407a",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ec407a",
+				"bg": "#18181b",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ec407a",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fcfcfc",
+				"bg": "#ec407a",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Courgette",
+			"body": "Lato",
+			"map": {
+				"Courgette": "body",
+				"Lato": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "979a7067",
+					"index": 0,
+					"path": "0",
+					"group": "979a7067",
+					"role": "hero",
+					"title": "Awesome Gift",
+					"slots": [
+						{
+							"id": "8bd854a7:text",
+							"blockId": "8bd854a7",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Awesome Gift",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c0c7d8d0:text",
+							"blockId": "c0c7d8d0",
+							"path": "0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "For Your Loved Once",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d5cbf4b9:text",
+							"blockId": "d5cbf4b9",
+							"path": "0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "You can replace our dummy sentence, lorem ipsum dolor sit amet consetetur Lorem ipsum dolor sit amet consetetur sadipscing elitr dolore.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4c20563e:text",
+							"blockId": "4c20563e",
+							"path": "0.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy Gifts",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "979a7067:background.image.image.url",
+							"blockId": "979a7067",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10011.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 687,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Wrapped red gift boxes with ribbons on a snowy surface",
+							"tone": {
+								"grid": [
+									0.93,
+									0.9,
+									0.8,
+									0.95,
+									0.94,
+									0.63,
+									0.91,
+									0.92,
+									0.55
+								],
+								"color": "#e1d2d3"
+							}
+						},
+						{
+							"id": "e08d5dfa:image.url",
+							"blockId": "e08d5dfa",
+							"path": "0.0.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10002.png",
+							"decorative": true,
+							"width": 150,
+							"height": 130,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "ff3d3422",
+					"index": 1,
+					"path": "1",
+					"group": "ff3d3422",
+					"role": "content",
+					"slots": [
+						{
+							"id": "687f004a:text",
+							"blockId": "687f004a",
+							"path": "1.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "FREE SHIPPING OVER $200*",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8ebb84ad:text",
+							"blockId": "8ebb84ad",
+							"path": "1.0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "10 days return service",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5a843bd4:text",
+							"blockId": "5a843bd4",
+							"path": "1.0.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Same day delivery",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "402c8722:text",
+							"blockId": "402c8722",
+							"path": "1.0.0.3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "100% Secure Payment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b279dda1:image.url",
+							"blockId": "b279dda1",
+							"path": "1.0.0.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/Screenshot-2024-04-14-125618.png",
+							"decorative": true,
+							"width": 52,
+							"height": 51,
+							"orientation": "square"
+						},
+						{
+							"id": "021d2018:image.url",
+							"blockId": "021d2018",
+							"path": "1.0.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/Screenshot-2024-04-14-125648.png",
+							"decorative": true,
+							"width": 57,
+							"height": 54,
+							"orientation": "square"
+						},
+						{
+							"id": "a4af8f17:image.url",
+							"blockId": "a4af8f17",
+							"path": "1.0.0.2.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/Screenshot-2024-04-14-125717.png",
+							"decorative": true,
+							"width": 54,
+							"height": 59,
+							"orientation": "square"
+						},
+						{
+							"id": "aae0bf9b:image.url",
+							"blockId": "aae0bf9b",
+							"path": "1.0.0.3.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/Screenshot-2024-04-14-125741.png",
+							"decorative": true,
+							"width": 59,
+							"height": 53,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "e7d319da",
+					"index": 2,
+					"path": "2",
+					"group": "e7d319da",
+					"role": "gallery",
+					"slots": [
+						{
+							"id": "ccf1ebb8:text",
+							"blockId": "ccf1ebb8",
+							"path": "2.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Birthday Gifts",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "166868c0:text",
+							"blockId": "166868c0",
+							"path": "2.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Wedding Gifts",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d8b81f37:text",
+							"blockId": "d8b81f37",
+							"path": "2.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "FOR ANY SPECIAL OCCASION",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "74b63c16:text",
+							"blockId": "74b63c16",
+							"path": "2.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Fresh Flowers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb595422:text",
+							"blockId": "bb595422",
+							"path": "2.2.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Women's Cap",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d691fb6d:text",
+							"blockId": "d691fb6d",
+							"path": "2.2.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "20% OFF",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "c88120c0:text",
+							"blockId": "c88120c0",
+							"path": "2.2.1.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "2020 Sale Collections",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4afa29c1:text",
+							"blockId": "4afa29c1",
+							"path": "2.2.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Coupon Code : NY@2020",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6a78395c:background.image.image.url",
+							"blockId": "6a78395c",
+							"path": "2.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10012.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 165,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Pink birthday cake with rose frosting and candles",
+							"tone": {
+								"grid": [
+									0.42,
+									0.56,
+									0.65,
+									0.37,
+									0.6,
+									0.64,
+									0.35,
+									0.57,
+									0.4
+								],
+								"color": "#cf688f"
+							}
+						},
+						{
+							"id": "96f45b24:background.image.image.url",
+							"blockId": "96f45b24",
+							"path": "2.0.1",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10013.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 165,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Woman holding a wrapped gift box with a ribbon",
+							"tone": {
+								"grid": [
+									0.77,
+									0.76,
+									0.77,
+									0.78,
+									0.79,
+									0.8,
+									0.76,
+									0.73,
+									0.76
+								],
+								"color": "#e7b9d0"
+							}
+						},
+						{
+							"id": "8d0b3d21:background.image.image.url",
+							"blockId": "8d0b3d21",
+							"path": "2.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10014.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 360,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Bouquet of pink and yellow tulips against a white wall",
+							"tone": {
+								"grid": [
+									0.95,
+									0.94,
+									0.93,
+									0.73,
+									0.76,
+									0.81,
+									0.52,
+									0.54,
+									0.47
+								],
+								"color": "#c8bca6"
+							}
+						},
+						{
+							"id": "4bb8689c:background.image.image.url",
+							"blockId": "4bb8689c",
+							"path": "2.2.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10015.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 236,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman in a cap and leather jacket looking down against a red wall",
+							"tone": {
+								"grid": [
+									0.45,
+									0.5,
+									0.47,
+									0.38,
+									0.45,
+									0.47,
+									0.14,
+									0.29,
+									0.43
+								],
+								"color": "#be4b62"
+							}
+						}
+					]
+				},
+				{
+					"id": "d449a6b2",
+					"index": 3,
+					"path": "3",
+					"group": "d449a6b2",
+					"role": "dynamic",
+					"title": "Most Popular Gifts",
+					"slots": [
+						{
+							"id": "c59a03a7:text",
+							"blockId": "c59a03a7",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Most Popular Gifts",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "698d08ce:text",
+							"blockId": "698d08ce",
+							"path": "3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "You can replace our dummy sentence, lorem ipsum dolor sit amet consetetur",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-category"
+					]
+				},
+				{
+					"id": "7fb1d729",
+					"index": 4,
+					"path": "4",
+					"group": "7fb1d729",
+					"role": "dynamic",
+					"title": "2020's The Best Collection",
+					"slots": [
+						{
+							"id": "8215bf41:text",
+							"blockId": "8215bf41",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "2020's The Best Collection",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-category"
+					]
+				},
+				{
+					"id": "6a8905f1",
+					"index": 5,
+					"path": "5",
+					"group": "6a8905f1",
+					"role": "testimonials",
+					"title": "Happy Customer's Review",
+					"slots": [
+						{
+							"id": "66a18ad7:text",
+							"blockId": "66a18ad7",
+							"path": "5.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Happy Customer's Review",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e5cdec33:text",
+							"blockId": "e5cdec33",
+							"path": "5.0.0.0.1.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Nam fringilla augue nec est tristique autor. Donec non est at libero vulputate rutrum.",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0e65f5d3:text",
+							"blockId": "0e65f5d3",
+							"path": "5.0.0.0.1.0.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "John Smith",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d9bb0025:text",
+							"blockId": "d9bb0025",
+							"path": "5.0.0.0.1.0.0.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sydney, Australia",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fad9ac2d:text",
+							"blockId": "fad9ac2d",
+							"path": "5.0.0.0.1.0.0.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Nam fringilla augue nec est tristique autor. Donec non est at libero vulputate rutrum.",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "470d79a4:text",
+							"blockId": "470d79a4",
+							"path": "5.0.0.0.1.0.0.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Kerry Patinsom",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e1e2024a:text",
+							"blockId": "e1e2024a",
+							"path": "5.0.0.0.1.0.0.1.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Sydney, Australia",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6a8905f1:background.image.image.url",
+							"blockId": "6a8905f1",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10016.jpg",
+							"decorative": true,
+							"width": 1920,
+							"height": 340,
+							"orientation": "landscape"
+						},
+						{
+							"id": "a495d1bc:image.url",
+							"blockId": "a495d1bc",
+							"path": "5.0.0.0.1.0.0.0.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10003.jpg",
+							"decorative": false,
+							"width": 130,
+							"height": 130,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling middle-aged man in glasses and a suit",
+							"tone": {
+								"grid": [
+									0.71,
+									0.52,
+									0.71,
+									0.79,
+									0.54,
+									0.8,
+									0.83,
+									0.59,
+									0.46
+								],
+								"color": "#b1a6a1"
+							}
+						},
+						{
+							"id": "429edff3:image.url",
+							"blockId": "429edff3",
+							"path": "5.0.0.0.1.0.0.1.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10004.jpg",
+							"decorative": false,
+							"width": 130,
+							"height": 130,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman with dark hair in a bun on a white background",
+							"tone": {
+								"grid": [
+									0.87,
+									0.29,
+									0.87,
+									0.82,
+									0.57,
+									0.87,
+									0.92,
+									0.74,
+									0.94
+								],
+								"color": "#cdc2b9"
+							}
+						}
+					]
+				},
+				{
+					"id": "b98dfb9b",
+					"index": 6,
+					"path": "6",
+					"group": "b98dfb9b",
+					"role": "dynamic",
+					"title": "Special Gifts",
+					"slots": [
+						{
+							"id": "ef650c23:text",
+							"blockId": "ef650c23",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Special Gifts",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-category"
+					]
+				},
+				{
+					"id": "3409de6b",
+					"index": 7,
+					"path": "7",
+					"group": "3409de6b",
+					"role": "content",
+					"title": "Welcome To Giftshop Store",
+					"slots": [
+						{
+							"id": "90037da9:text",
+							"blockId": "90037da9",
+							"path": "7.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Welcome To Giftshop Store",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "86e3e8cd:text",
+							"blockId": "86e3e8cd",
+							"path": "7.2.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "You can replace our dummy paragraph, lorem ipsum dolor sit amet consetetur Lorem ipsum dolor sit amet consetetur sadipscing elitr dolore",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b098d311:text",
+							"blockId": "b098d311",
+							"path": "7.2.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Trusted Online Giftshop",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f5650295:text",
+							"blockId": "f5650295",
+							"path": "7.2.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Focus on Purity and Quality Service",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c78d36cd:text",
+							"blockId": "c78d36cd",
+							"path": "7.2.0.0.4.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Fast Delivery 24/7",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eeeaf2e0:text",
+							"blockId": "eeeaf2e0",
+							"path": "7.2.0.0.5.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Know About Us",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7ca30e6b:background.image.image.url",
+							"blockId": "7ca30e6b",
+							"path": "7.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10017.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 450,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman hugging a giant teddy bear in a toy store aisle",
+							"tone": {
+								"grid": [
+									0.73,
+									0.67,
+									0.67,
+									0.65,
+									0.62,
+									0.51,
+									0.83,
+									0.56,
+									0.57
+								],
+								"color": "#b6a28a"
+							}
+						},
+						{
+							"id": "f7a058a2:image.url",
+							"blockId": "f7a058a2",
+							"path": "7.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10003.png",
+							"decorative": true,
+							"width": 96,
+							"height": 96,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "e9ec67ef",
+					"index": 8,
+					"path": "8",
+					"group": "e9ec67ef",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "4e3d6b64:image.url",
+							"blockId": "4e3d6b64",
+							"path": "8.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10005.jpg",
+							"decorative": true,
+							"width": 113,
+							"height": 55,
+							"orientation": "landscape"
+						},
+						{
+							"id": "58ae7b87:image.url",
+							"blockId": "58ae7b87",
+							"path": "8.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10006.jpg",
+							"decorative": true,
+							"width": 142,
+							"height": 60,
+							"orientation": "landscape"
+						},
+						{
+							"id": "13bbf6cf:image.url",
+							"blockId": "13bbf6cf",
+							"path": "8.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10007.jpg",
+							"decorative": true,
+							"width": 153,
+							"height": 53,
+							"orientation": "landscape"
+						},
+						{
+							"id": "60c4f4d6:image.url",
+							"blockId": "60c4f4d6",
+							"path": "8.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10008.jpg",
+							"decorative": true,
+							"width": 184,
+							"height": 44,
+							"orientation": "landscape"
+						},
+						{
+							"id": "779cecb7:image.url",
+							"blockId": "779cecb7",
+							"path": "8.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10009.jpg",
+							"decorative": true,
+							"width": 123,
+							"height": 63,
+							"orientation": "landscape"
+						},
+						{
+							"id": "c8319eb6:image.url",
+							"blockId": "c8319eb6",
+							"path": "8.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10008.jpg",
+							"decorative": true,
+							"width": 184,
+							"height": 44,
+							"orientation": "landscape"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "979a7067",
+					"role": "hero",
+					"title": "Awesome Gift",
+					"sectionIds": [
+						"979a7067"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ff3d3422",
+					"role": "content",
+					"sectionIds": [
+						"ff3d3422"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e7d319da",
+					"role": "gallery",
+					"sectionIds": [
+						"e7d319da"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d449a6b2",
+					"role": "dynamic",
+					"title": "Most Popular Gifts",
+					"sectionIds": [
+						"d449a6b2"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "7fb1d729",
+					"role": "dynamic",
+					"title": "2020's The Best Collection",
+					"sectionIds": [
+						"7fb1d729"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "6a8905f1",
+					"role": "testimonials",
+					"title": "Happy Customer's Review",
+					"sectionIds": [
+						"6a8905f1"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b98dfb9b",
+					"role": "dynamic",
+					"title": "Special Gifts",
+					"sectionIds": [
+						"b98dfb9b"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "3409de6b",
+					"role": "content",
+					"title": "Welcome To Giftshop Store",
+					"sectionIds": [
+						"3409de6b"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e9ec67ef",
+					"role": "logos",
+					"sectionIds": [
+						"e9ec67ef"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "checkout",
+			"title": "Checkout",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/themegrill-demos/checkout-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/checkout",
+						"woocommerce/checkout-fields-block",
+						"woocommerce/checkout-express-payment-block",
+						"woocommerce/checkout-contact-information-block",
+						"woocommerce/checkout-shipping-method-block",
+						"woocommerce/checkout-pickup-options-block",
+						"woocommerce/checkout-shipping-address-block",
+						"woocommerce/checkout-billing-address-block",
+						"woocommerce/checkout-shipping-methods-block",
+						"woocommerce/checkout-payment-block",
+						"woocommerce/checkout-additional-information-block",
+						"woocommerce/checkout-order-note-block",
+						"woocommerce/checkout-terms-block",
+						"woocommerce/checkout-actions-block",
+						"woocommerce/checkout-totals-block",
+						"woocommerce/checkout-order-summary-block",
+						"woocommerce/checkout-order-summary-cart-items-block",
+						"woocommerce/checkout-order-summary-coupon-form-block",
+						"woocommerce/checkout-order-summary-subtotal-block",
+						"woocommerce/checkout-order-summary-fee-block",
+						"woocommerce/checkout-order-summary-discount-block",
+						"woocommerce/checkout-order-summary-shipping-block",
+						"woocommerce/checkout-order-summary-taxes-block"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "my-account",
+			"title": "My account",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/themegrill-demos/my-account-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 11,
+		"textSlots": 33,
+		"editableSlots": 32,
+		"images": 21,
+		"swappableImages": 8,
+		"words": 177
+	},
+	"builtAt": "2026-10-24T11:35:08.094Z"
+}

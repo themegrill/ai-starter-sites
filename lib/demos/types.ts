@@ -2,7 +2,7 @@
 // Zakra + BlockArt demo. Built offline by `pnpm manifests` from the live demo
 // exports, committed under data/manifests/, and read by the generate pipeline.
 
-export const MANIFEST_VERSION = 3;
+export const MANIFEST_VERSION = 4;
 
 export type PageType = 'home' | 'about' | 'services' | 'contact' | 'blog' | 'other';
 
@@ -16,7 +16,8 @@ export type TextSlotKind =
 	| 'question'
 	| 'answer'
 	| 'caption'
-	| 'overlay';
+	| 'overlay'
+	| 'label'; // A counter's caption ("Happy clients").
 
 // Why a text slot is kept as-is instead of being rewritten.
 export type LockReason = 'symbol' | 'contact' | 'number';
@@ -49,6 +50,13 @@ export type TextSlot = {
 
 export type Orientation = 'landscape' | 'portrait' | 'square';
 
+// What a photo shows: one person (headshots, avatars), several people, a
+// place or scene, or an object (product, food, tool).
+export type PhotoSubject = 'person' | 'group' | 'place' | 'object';
+
+// Brightness (0-1) of a photo in a 3x3 grid, row by row, and its average color.
+export type Tone = { grid: number[]; color: string };
+
 export type ImageSlot = {
 	id: string;
 	blockId: string;
@@ -62,6 +70,10 @@ export type ImageSlot = {
 	orientation?: Orientation;
 	// Icons, logos and other small artwork: not swapped for stock photos.
 	decorative: boolean;
+	// Photos only, from a vision model at build time; guide the stock photo search.
+	subject?: PhotoSubject;
+	description?: string; // e.g. "Smiling man in a white shirt working at a laptop".
+	tone?: Tone; // Photos only; replacements are matched to it.
 };
 
 export type SectionRole =
@@ -207,5 +219,5 @@ export type DemoManifest = {
 // Small summary of every manifest, used for demo picking without loading all pages.
 export type DemoCatalogEntry = Pick<
 	DemoManifest,
-	'slug' | 'name' | 'premium' | 'previewImage' | 'niches' | 'keywords' | 'stats'
+	'slug' | 'name' | 'premium' | 'previewImage' | 'demoUrl' | 'niches' | 'keywords' | 'stats'
 > & { pageTypes: PageType[] };

@@ -1,0 +1,3528 @@
+{
+	"version": 4,
+	"slug": "optigo",
+	"name": "Optigo",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-optigo/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/optigo",
+	"niches": [
+		"eyewear",
+		"healthcare",
+		"shop"
+	],
+	"keywords": [
+		"optician",
+		"eyewear",
+		"glasses",
+		"optometrist",
+		"sunglasses",
+		"eye clinic",
+		"spectacles",
+		"clinic"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms-pro/everest-forms-pro.php",
+		"everest-forms-style-customizer/everest-forms-style-customizer.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 113,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 73,
+					"border": 5
+				}
+			},
+			{
+				"hex": "#ffd21d",
+				"count": 48,
+				"group": "brand",
+				"role": "primary",
+				"base": "#ffd21d",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 8,
+					"background": 11
+				}
+			},
+			{
+				"hex": "#d9d9d9",
+				"count": 29,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 27
+				}
+			},
+			{
+				"hex": "#585858",
+				"count": 23,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"border": 12
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 22,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"border": 1,
+					"background": 3,
+					"text": 11
+				}
+			},
+			{
+				"hex": "#495057",
+				"count": 11,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"background": 9
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#181818",
+				"count": 3,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 2,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#222222",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#373737",
+				"count": 1,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#a5a5a5",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#bababa",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#000000",
+				"bg": "#ffd21d",
+				"large": true,
+				"count": 9,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffd21d",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 9,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffd21d",
+				"bg": "#181818",
+				"large": false,
+				"count": 4,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffd21d",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffd21d",
+				"bg": "#000000",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#ffd21d",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffd21d",
+				"bg": "#000000",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffd21d",
+				"bg": "#373737",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#ffd21d",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#ffd21d",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Archivo",
+			"body": "Archivo",
+			"map": {
+				"Archivo": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "about-us",
+			"title": "About Us",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/themegrill-demos/about-us-content.xml",
+			"sections": [
+				{
+					"id": "2a8d2dca",
+					"index": 0,
+					"path": "0",
+					"group": "2a8d2dca",
+					"role": "hero",
+					"title": "Why to choose us?",
+					"slots": [
+						{
+							"id": "39702c7f:text",
+							"blockId": "39702c7f",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Why to choose us?",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a0beca96:text",
+							"blockId": "a0beca96",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+							"rich": false,
+							"words": 48,
+							"minWords": 29,
+							"maxWords": 60,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "e504946a:image.url",
+							"blockId": "e504946a",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-page-main.png",
+							"decorative": false,
+							"width": 388,
+							"height": 436,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Laughing woman in sunglasses making peace signs",
+							"tone": {
+								"grid": [
+									0.8,
+									0.6,
+									0.69,
+									0.56,
+									0.48,
+									0.44,
+									0.55,
+									0.62,
+									0.83
+								],
+								"color": "#aa9c8a"
+							}
+						}
+					]
+				},
+				{
+					"id": "d9478cd4",
+					"index": 1,
+					"path": "1",
+					"group": "d9478cd4",
+					"role": "content",
+					"title": "Free Delivery",
+					"slots": [
+						{
+							"id": "bbdf9bae:text",
+							"blockId": "bbdf9bae",
+							"path": "1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Free Delivery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "30586139:text",
+							"blockId": "30586139",
+							"path": "1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Free shipping on all order",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "84959f78:text",
+							"blockId": "84959f78",
+							"path": "1.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Money return",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3b1a2c4e:text",
+							"blockId": "3b1a2c4e",
+							"path": "1.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Back guarantee in 7 days",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dc2a2ff8:text",
+							"blockId": "dc2a2ff8",
+							"path": "1.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Member discount",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b1487921:text",
+							"blockId": "b1487921",
+							"path": "1.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "On every order over $130.00",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2b0d48aa:text",
+							"blockId": "2b0d48aa",
+							"path": "1.3.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Offers and discount",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "300a8353:text",
+							"blockId": "300a8353",
+							"path": "1.3.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Back returns in 7 days",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0a657176:image.url",
+							"blockId": "0a657176",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/free-delivery-icon.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "a58a9539:image.url",
+							"blockId": "a58a9539",
+							"path": "1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/money-return-icon.png",
+							"decorative": true,
+							"width": 71,
+							"height": 68,
+							"orientation": "square"
+						},
+						{
+							"id": "f39b3807:image.url",
+							"blockId": "f39b3807",
+							"path": "1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/member-discount-icon.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "e3e52907:image.url",
+							"blockId": "e3e52907",
+							"path": "1.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/offers-and-discount-icon.png",
+							"decorative": true,
+							"width": 56,
+							"height": 51,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "1b54d363",
+					"index": 2,
+					"path": "2",
+					"group": "1b54d363",
+					"role": "testimonials",
+					"title": "What we are?",
+					"slots": [
+						{
+							"id": "dac66fba:text",
+							"blockId": "dac66fba",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "What we are?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1ad79eab:text",
+							"blockId": "1ad79eab",
+							"path": "2.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "\"",
+							"rich": false,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "03b8f572:text",
+							"blockId": "03b8f572",
+							"path": "2.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Since the 13th century and until the spread of contemporary UV-shieldin spectacles against snowblindness, Inuit made and wore snow goggles of flattened walrus or caribou ivory with narrow slits to look through to block almost all of the harmful reflected rays of the sun. In many different forms and with many different materials.”",
+							"rich": false,
+							"words": 53,
+							"minWords": 32,
+							"maxWords": 67,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5cca4448:text",
+							"blockId": "5cca4448",
+							"path": "2.1.5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Charlotte Dorothy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "311fefe1:text",
+							"blockId": "311fefe1",
+							"path": "2.1.6",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Ceo",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1b54d363:background.image.image.url",
+							"blockId": "1b54d363",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-back-ground-image.jpg",
+							"decorative": false,
+							"width": 1440,
+							"height": 814,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Sunglasses on a wooden table",
+							"tone": {
+								"grid": [
+									0.67,
+									0.72,
+									0.65,
+									0.56,
+									0.61,
+									0.52,
+									0.66,
+									0.59,
+									0.51
+								],
+								"color": "#b29789"
+							}
+						},
+						{
+							"id": "b959f088:image.url",
+							"blockId": "b959f088",
+							"path": "2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-image.jpg",
+							"decorative": false,
+							"width": 555,
+							"height": 806,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman with a cap and red sunglasses",
+							"tone": {
+								"grid": [
+									0.46,
+									0.34,
+									0.43,
+									0.54,
+									0.48,
+									0.46,
+									0.62,
+									0.51,
+									0.64
+								],
+								"color": "#997a62"
+							}
+						},
+						{
+							"id": "37e81657:image.url",
+							"blockId": "37e81657",
+							"path": "2.1.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-line.png",
+							"decorative": true,
+							"width": 70,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "a98600f2:image.url",
+							"blockId": "a98600f2",
+							"path": "2.1.4",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-line-2.png",
+							"decorative": true,
+							"width": 38,
+							"height": 2,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "4ab8fa66",
+					"index": 3,
+					"path": "3",
+					"group": "4ab8fa66",
+					"role": "features",
+					"title": "happy customers",
+					"slots": [
+						{
+							"id": "329c6104:text",
+							"blockId": "329c6104",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "happy customers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d435cfeb:text",
+							"blockId": "d435cfeb",
+							"path": "3.1.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Elizabeth Jennifer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "25c737ea:text",
+							"blockId": "25c737ea",
+							"path": "3.1.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.”",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2f1e555f:text",
+							"blockId": "2f1e555f",
+							"path": "3.1.0.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "James Charles",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1cebcac6:text",
+							"blockId": "1cebcac6",
+							"path": "3.1.0.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.”",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "445786fe:text",
+							"blockId": "445786fe",
+							"path": "3.1.0.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Jack Smith",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "001ee6e5:text",
+							"blockId": "001ee6e5",
+							"path": "3.1.0.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.”",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "4ab8fa66:background.image.image.url",
+							"blockId": "4ab8fa66",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-background.png",
+							"decorative": true,
+							"width": 1440,
+							"height": 1487,
+							"orientation": "square"
+						},
+						{
+							"id": "6a3ee98a:image.url",
+							"blockId": "6a3ee98a",
+							"path": "3.1.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-1.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "804ad989:image.url",
+							"blockId": "804ad989",
+							"path": "3.1.0.0.0.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-line.png",
+							"decorative": true,
+							"width": 124,
+							"height": 1,
+							"orientation": "landscape"
+						},
+						{
+							"id": "c44f55f9:image.url",
+							"blockId": "c44f55f9",
+							"path": "3.1.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-2.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "15bc7909:image.url",
+							"blockId": "15bc7909",
+							"path": "3.1.0.1.0.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-line.png",
+							"decorative": true,
+							"width": 124,
+							"height": 1,
+							"orientation": "landscape"
+						},
+						{
+							"id": "077f3b03:image.url",
+							"blockId": "077f3b03",
+							"path": "3.1.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-3.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "c3994d23:image.url",
+							"blockId": "c3994d23",
+							"path": "3.1.0.2.0.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-line.png",
+							"decorative": true,
+							"width": 124,
+							"height": 1,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "18d442cd",
+					"index": 4,
+					"path": "4",
+					"group": "18d442cd",
+					"role": "dynamic",
+					"title": "Be the first to know about new arrivals",
+					"slots": [
+						{
+							"id": "f44b1340:text",
+							"blockId": "f44b1340",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Be the first to know about new arrivals",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8fbe7fe5:text",
+							"blockId": "8fbe7fe5",
+							"path": "4.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "2a8d2dca",
+					"role": "hero",
+					"title": "Why to choose us?",
+					"sectionIds": [
+						"2a8d2dca"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d9478cd4",
+					"role": "content",
+					"title": "Free Delivery",
+					"sectionIds": [
+						"d9478cd4"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1b54d363",
+					"role": "testimonials",
+					"title": "What we are?",
+					"sectionIds": [
+						"1b54d363"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "4ab8fa66",
+					"role": "features",
+					"title": "happy customers",
+					"sectionIds": [
+						"4ab8fa66"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "18d442cd",
+					"role": "dynamic",
+					"title": "Be the first to know about new arrivals",
+					"sectionIds": [
+						"18d442cd"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact-us",
+			"title": "Contact Us",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/themegrill-demos/contact-us-content.xml",
+			"sections": [
+				{
+					"id": "99622608",
+					"index": 0,
+					"path": "0",
+					"group": "99622608",
+					"role": "contact",
+					"title": "Reach Us",
+					"slots": [
+						{
+							"id": "5d29b781:text",
+							"blockId": "5d29b781",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Reach Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "65657956:text",
+							"blockId": "65657956",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "If you have any general or optical enquiry, feel free to contact us. We are here to help . We will respond asap",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eb6583c2:text",
+							"blockId": "eb6583c2",
+							"path": "0.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Address",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "70dd171f:text",
+							"blockId": "70dd171f",
+							"path": "0.0.2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "012 Street New York, United States",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "65beaf05:text",
+							"blockId": "65beaf05",
+							"path": "0.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Phone",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d1ac4c0f:text",
+							"blockId": "d1ac4c0f",
+							"path": "0.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "012-345-678",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "2bbd641c:text",
+							"blockId": "2bbd641c",
+							"path": "0.0.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Email",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c068090:text",
+							"blockId": "1c068090",
+							"path": "0.0.2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "optigo@example.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "4ea4deda:text",
+							"blockId": "4ea4deda",
+							"path": "0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Send Us a message",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9a1c45ce:text",
+							"blockId": "9a1c45ce",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Alienum phaedrum torquatos nec eu, vis detraxit perinbnmn culis ex, nihilda expetendis in mei. Mei an pericula euripnbbckrjidis.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "99622608",
+					"role": "contact",
+					"title": "Reach Us",
+					"sectionIds": [
+						"99622608"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "our-prices",
+			"title": "Book Appointment",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/themegrill-demos/our-prices-content.xml",
+			"sections": [
+				{
+					"id": "e8835ed2",
+					"index": 0,
+					"path": "0",
+					"group": "e8835ed2",
+					"role": "hero",
+					"title": "Dr. Andrew Eleanor",
+					"slots": [
+						{
+							"id": "0263ecde:text",
+							"blockId": "0263ecde",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Optometrist",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "71a19197:text",
+							"blockId": "71a19197",
+							"path": "0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Dr. Andrew Eleanor",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4bc5dcdb:text",
+							"blockId": "4bc5dcdb",
+							"path": "0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Contact Lens Specialist",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "60101e9f:text",
+							"blockId": "60101e9f",
+							"path": "0.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Dr. Amelia Scarlett",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "591a4a2b:text",
+							"blockId": "591a4a2b",
+							"path": "0.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Low Vision Specialist",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "99a8a7c5:text",
+							"blockId": "99a8a7c5",
+							"path": "0.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Dr. Chloe Charlotte",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "82a2ffc8:image.url",
+							"blockId": "82a2ffc8",
+							"path": "0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/doctor-1.jpg",
+							"decorative": false,
+							"width": 364,
+							"height": 363,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Doctor in a white coat with arms crossed",
+							"tone": {
+								"grid": [
+									0.81,
+									0.67,
+									0.83,
+									0.84,
+									0.83,
+									0.84,
+									0.81,
+									0.77,
+									0.82
+								],
+								"color": "#d7c9c9"
+							}
+						},
+						{
+							"id": "e895f005:image.url",
+							"blockId": "e895f005",
+							"path": "0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/doctor-2.jpg",
+							"decorative": false,
+							"width": 364,
+							"height": 363,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling female doctor with a stethoscope",
+							"tone": {
+								"grid": [
+									0.69,
+									0.46,
+									0.54,
+									0.75,
+									0.59,
+									0.68,
+									0.76,
+									0.74,
+									0.76
+								],
+								"color": "#afa7a9"
+							}
+						},
+						{
+							"id": "3edb8ab1:image.url",
+							"blockId": "3edb8ab1",
+							"path": "0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/doctor-3.jpg",
+							"decorative": false,
+							"width": 364,
+							"height": 363,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Male doctor with a stethoscope holding a clipboard",
+							"tone": {
+								"grid": [
+									0.74,
+									0.57,
+									0.69,
+									0.81,
+									0.72,
+									0.77,
+									0.85,
+									0.63,
+									0.78
+								],
+								"color": "#b7bbbb"
+							}
+						}
+					]
+				},
+				{
+					"id": "2d9088f8",
+					"index": 1,
+					"path": "1",
+					"group": "2d9088f8",
+					"role": "dynamic",
+					"title": "Make An Appointment",
+					"slots": [
+						{
+							"id": "05c2f3b0:text",
+							"blockId": "05c2f3b0",
+							"path": "1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Make An Appointment",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bfc2fb1b:text",
+							"blockId": "bfc2fb1b",
+							"path": "1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Alienum phaedrum torquatos nec eu, vis detraxit perinbnmn culis ex, nihilda expetendis in mei. Mei an pericula euripnbbckrjidis.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "9f5d0344:image.url",
+							"blockId": "9f5d0344",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/doctor-image.jpg",
+							"decorative": false,
+							"width": 470,
+							"height": 716,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Dentist treating a patient in a dental chair",
+							"tone": {
+								"grid": [
+									0.68,
+									0.6,
+									0.65,
+									0.44,
+									0.34,
+									0.55,
+									0.63,
+									0.58,
+									0.26
+								],
+								"color": "#86867f"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "e8835ed2",
+					"role": "hero",
+					"title": "Dr. Andrew Eleanor",
+					"sectionIds": [
+						"e8835ed2"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2d9088f8",
+					"role": "dynamic",
+					"title": "Make An Appointment",
+					"sectionIds": [
+						"2d9088f8"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Only 30% off",
+					"slots": [
+						{
+							"id": "12d3a6aa:text",
+							"blockId": "12d3a6aa",
+							"path": "0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Only 30% off",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7aef941a:text",
+							"blockId": "7aef941a",
+							"path": "0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Help you Find the pair of sunglasses",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af228b4d:text",
+							"blockId": "af228b4d",
+							"path": "0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Shade your eyes in style",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0c2e6510",
+					"index": 1,
+					"path": "1",
+					"group": "0c2e6510",
+					"role": "cta",
+					"title": "For men",
+					"slots": [
+						{
+							"id": "5a0a78d2:text",
+							"blockId": "5a0a78d2",
+							"path": "1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "div",
+							"text": "For men",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5bce96d1:text",
+							"blockId": "5bce96d1",
+							"path": "1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Special collection",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f79cc793:text",
+							"blockId": "f79cc793",
+							"path": "1.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "560773e2:image.url",
+							"blockId": "560773e2",
+							"path": "1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/mens.jpg",
+							"decorative": false,
+							"width": 470,
+							"height": 607,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Older man in a hat and round glasses",
+							"tone": {
+								"grid": [
+									0.29,
+									0.37,
+									0.05,
+									0.07,
+									0.38,
+									0.06,
+									0.17,
+									0.19,
+									0.13
+								],
+								"color": "#322f33"
+							}
+						},
+						{
+							"id": "6303e4c1:image.url",
+							"blockId": "6303e4c1",
+							"path": "1.1.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/Line.png",
+							"decorative": true,
+							"width": 330,
+							"height": 2,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "e432866c",
+					"index": 2,
+					"path": "2",
+					"group": "e432866c",
+					"role": "cta",
+					"title": "For Women",
+					"slots": [
+						{
+							"id": "dae1b2a9:text",
+							"blockId": "dae1b2a9",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "For Women",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2efab9b1:text",
+							"blockId": "2efab9b1",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Special collection",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "42b6a8fe:text",
+							"blockId": "42b6a8fe",
+							"path": "2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e432866c:background.image.image.url",
+							"blockId": "e432866c",
+							"path": "2",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/second-section.png",
+							"decorative": false,
+							"width": 1440,
+							"height": 515,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Three girls in sunglasses posing with chins on hands",
+							"tone": {
+								"grid": [
+									0.88,
+									0.9,
+									0.85,
+									0.83,
+									0.78,
+									0.75,
+									0.82,
+									0.8,
+									0.76
+								],
+								"color": "#dbcfc7"
+							}
+						},
+						{
+							"id": "c8bdfca5:image.url",
+							"blockId": "c8bdfca5",
+							"path": "2.0.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/Line.png",
+							"decorative": true,
+							"width": 330,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2e6d18cc:image.url",
+							"blockId": "2e6d18cc",
+							"path": "2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/image-2.jpg",
+							"decorative": false,
+							"width": 470,
+							"height": 607,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman in sunglasses and a black top posing",
+							"tone": {
+								"grid": [
+									0.28,
+									0.3,
+									0.54,
+									0.39,
+									0.37,
+									0.46,
+									0.59,
+									0.21,
+									0.37
+								],
+								"color": "#5a656f"
+							}
+						}
+					]
+				},
+				{
+					"id": "87946c47",
+					"index": 3,
+					"path": "3",
+					"group": "87946c47",
+					"role": "cta",
+					"title": "For children",
+					"slots": [
+						{
+							"id": "de311f76:text",
+							"blockId": "de311f76",
+							"path": "3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "div",
+							"text": "For children",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "059ed80e:text",
+							"blockId": "059ed80e",
+							"path": "3.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Special collection",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "136ab7a7:text",
+							"blockId": "136ab7a7",
+							"path": "3.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "45eb5986:image.url",
+							"blockId": "45eb5986",
+							"path": "3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/image-3.jpg",
+							"decorative": false,
+							"width": 470,
+							"height": 607,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Little girl in a pink jacket and sunglasses",
+							"tone": {
+								"grid": [
+									0.78,
+									0.51,
+									0.75,
+									0.7,
+									0.46,
+									0.63,
+									0.71,
+									0.48,
+									0.67
+								],
+								"color": "#c3979f"
+							}
+						},
+						{
+							"id": "ce1b8a0d:image.url",
+							"blockId": "ce1b8a0d",
+							"path": "3.1.2",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/Line.png",
+							"decorative": true,
+							"width": 330,
+							"height": 2,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "df337182",
+					"index": 4,
+					"path": "4",
+					"group": "df337182",
+					"role": "content",
+					"title": "Free Delivery",
+					"slots": [
+						{
+							"id": "aad572f7:text",
+							"blockId": "aad572f7",
+							"path": "4.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Free Delivery",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "63eb168b:text",
+							"blockId": "63eb168b",
+							"path": "4.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Free shipping on all order",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "555161db:text",
+							"blockId": "555161db",
+							"path": "4.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Money return",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b2f65051:text",
+							"blockId": "b2f65051",
+							"path": "4.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Back guarantee in 7 days",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "243b2281:text",
+							"blockId": "243b2281",
+							"path": "4.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Member discount",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6e22b2a8:text",
+							"blockId": "6e22b2a8",
+							"path": "4.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "On every order over $130.00",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "47540d64:text",
+							"blockId": "47540d64",
+							"path": "4.3.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Offers and discount",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c130cfe7:text",
+							"blockId": "c130cfe7",
+							"path": "4.3.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Back returns in 7 days",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0dba4224:image.url",
+							"blockId": "0dba4224",
+							"path": "4.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/free-delivery-icon.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "6eae56f7:image.url",
+							"blockId": "6eae56f7",
+							"path": "4.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/money-return-icon.png",
+							"decorative": true,
+							"width": 71,
+							"height": 68,
+							"orientation": "square"
+						},
+						{
+							"id": "32970f6e:image.url",
+							"blockId": "32970f6e",
+							"path": "4.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/member-discount-icon.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "aecb3464:image.url",
+							"blockId": "aecb3464",
+							"path": "4.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/offers-and-discount-icon.png",
+							"decorative": true,
+							"width": 56,
+							"height": 51,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "63c9f063",
+					"index": 5,
+					"path": "5",
+					"group": "63c9f063",
+					"role": "testimonials",
+					"title": "What we are?",
+					"slots": [
+						{
+							"id": "265c66ad:text",
+							"blockId": "265c66ad",
+							"path": "5.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "What we are?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e9c95ba5:text",
+							"blockId": "e9c95ba5",
+							"path": "5.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "\"",
+							"rich": false,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "0c02b0f8:text",
+							"blockId": "0c02b0f8",
+							"path": "5.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Since the 13th century and until the spread of contemporary UV-shieldin spectacles against snowblindness, Inuit made and wore snow goggles of flattened walrus or caribou ivory with narrow slits to look through to block almost all of the harmful reflected rays of the sun. In many different forms and with many different materials.”",
+							"rich": false,
+							"words": 53,
+							"minWords": 32,
+							"maxWords": 67,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "adf44308:text",
+							"blockId": "adf44308",
+							"path": "5.1.5",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Charlotte Dorothy",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "03d210c9:text",
+							"blockId": "03d210c9",
+							"path": "5.1.6",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Ceo",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "63c9f063:background.image.image.url",
+							"blockId": "63c9f063",
+							"path": "5",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-back-ground-image.jpg",
+							"decorative": false,
+							"width": 1440,
+							"height": 814,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Sunglasses on a wooden table",
+							"tone": {
+								"grid": [
+									0.67,
+									0.72,
+									0.65,
+									0.56,
+									0.61,
+									0.52,
+									0.66,
+									0.59,
+									0.51
+								],
+								"color": "#b29789"
+							}
+						},
+						{
+							"id": "00a05b8c:image.url",
+							"blockId": "00a05b8c",
+							"path": "5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-image.jpg",
+							"decorative": false,
+							"width": 555,
+							"height": 806,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman with a cap and red sunglasses",
+							"tone": {
+								"grid": [
+									0.46,
+									0.34,
+									0.43,
+									0.54,
+									0.48,
+									0.46,
+									0.62,
+									0.51,
+									0.64
+								],
+								"color": "#997a62"
+							}
+						},
+						{
+							"id": "b77acc16:image.url",
+							"blockId": "b77acc16",
+							"path": "5.1.1",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-line.png",
+							"decorative": true,
+							"width": 70,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "366d764b:image.url",
+							"blockId": "366d764b",
+							"path": "5.1.4",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-line-2.png",
+							"decorative": true,
+							"width": 38,
+							"height": 2,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "dcbcc94a",
+					"index": 6,
+					"path": "6",
+					"group": "dcbcc94a",
+					"role": "features",
+					"title": "Shop By Style and Shapes",
+					"slots": [
+						{
+							"id": "e472e669:text",
+							"blockId": "e472e669",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Shop By Style and Shapes",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4ccc5246:text",
+							"blockId": "4ccc5246",
+							"path": "6.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Look hot with cool sunglasses",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b8b34ea3:text",
+							"blockId": "b8b34ea3",
+							"path": "6.2.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "round",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b5ad8a96:text",
+							"blockId": "b5ad8a96",
+							"path": "6.2.0.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view more",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3aabee87:text",
+							"blockId": "3aabee87",
+							"path": "6.2.0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "Aviator",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fd173d22:text",
+							"blockId": "fd173d22",
+							"path": "6.2.0.0.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view more",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a702bacc:text",
+							"blockId": "a702bacc",
+							"path": "6.2.0.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "rectangle",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "824b3362:text",
+							"blockId": "824b3362",
+							"path": "6.2.0.2.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view more",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b0681e5:text",
+							"blockId": "7b0681e5",
+							"path": "6.2.0.2.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h5",
+							"text": "wayfarer",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "67e7ee44:text",
+							"blockId": "67e7ee44",
+							"path": "6.2.0.2.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view more",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "dcbcc94a:background.image.image.url",
+							"blockId": "dcbcc94a",
+							"path": "6",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/style-background-image.jpg",
+							"decorative": false,
+							"width": 1440,
+							"height": 1094,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman in a black hat and red sunglasses",
+							"tone": {
+								"grid": [
+									0.17,
+									0.25,
+									0.15,
+									0.16,
+									0.27,
+									0.14,
+									0.13,
+									0.21,
+									0.15
+								],
+								"color": "#362d29"
+							}
+						},
+						{
+							"id": "919d0cd4:image.url",
+							"blockId": "919d0cd4",
+							"path": "6.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/style-line.png",
+							"decorative": true,
+							"width": 231,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "50d37f4a:image.url",
+							"blockId": "50d37f4a",
+							"path": "6.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/style-line-1.png",
+							"decorative": true,
+							"width": 231,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "23e84311:image.url",
+							"blockId": "23e84311",
+							"path": "6.2.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/round-sunglasses-icon.png",
+							"decorative": true,
+							"width": 100,
+							"height": 50,
+							"orientation": "landscape"
+						},
+						{
+							"id": "9865a619:image.url",
+							"blockId": "9865a619",
+							"path": "6.2.0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/aviator-sunglasses-icon.png",
+							"decorative": true,
+							"width": 100,
+							"height": 50,
+							"orientation": "landscape"
+						},
+						{
+							"id": "e96fdf75:image.url",
+							"blockId": "e96fdf75",
+							"path": "6.2.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/rectangle-sunglasses-icon.png",
+							"decorative": true,
+							"width": 101,
+							"height": 50,
+							"orientation": "landscape"
+						},
+						{
+							"id": "6f751f3b:image.url",
+							"blockId": "6f751f3b",
+							"path": "6.2.0.2.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/wayfarer-sunglass-1562216-1.png",
+							"decorative": true,
+							"width": 101,
+							"height": 50,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "1a0b7151",
+					"index": 7,
+					"path": "7",
+					"group": "1a0b7151",
+					"role": "dynamic",
+					"title": "popular products",
+					"slots": [
+						{
+							"id": "143b36d5:text",
+							"blockId": "143b36d5",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "popular products",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8d5ce2ec:text",
+							"blockId": "8d5ce2ec",
+							"path": "7.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Look hot with cool sunglasses",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "011d5b0c:text",
+							"blockId": "011d5b0c",
+							"path": "7.3.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "All products",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "7c4f7ee3:image.url",
+							"blockId": "7c4f7ee3",
+							"path": "7.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/style-line.png",
+							"decorative": true,
+							"width": 231,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "e84b7fe9:image.url",
+							"blockId": "e84b7fe9",
+							"path": "7.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/style-line-1.png",
+							"decorative": true,
+							"width": 231,
+							"height": 2,
+							"orientation": "landscape"
+						}
+					],
+					"dynamicBlocks": [
+						"woocommerce/product-tag"
+					]
+				},
+				{
+					"id": "b5a66cd4",
+					"index": 8,
+					"path": "8",
+					"group": "b5a66cd4",
+					"role": "cta",
+					"title": "For women's latest Collection",
+					"slots": [
+						{
+							"id": "65566fe3:text",
+							"blockId": "65566fe3",
+							"path": "8.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Flat 35 % Off",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3be47610:text",
+							"blockId": "3be47610",
+							"path": "8.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "For women's latest Collection",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "be4e9483:text",
+							"blockId": "be4e9483",
+							"path": "8.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b5a66cd4:background.image.image.url",
+							"blockId": "b5a66cd4",
+							"path": "8",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/offer-background.png",
+							"decorative": true,
+							"width": 1440,
+							"height": 655,
+							"orientation": "landscape"
+						},
+						{
+							"id": "0e82e48b:image.url",
+							"blockId": "0e82e48b",
+							"path": "8.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/offer-image-1.jpg",
+							"decorative": false,
+							"width": 371,
+							"height": 463,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman in a beret and sunglasses touching her face",
+							"tone": {
+								"grid": [
+									0.77,
+									0.63,
+									0.7,
+									0.63,
+									0.51,
+									0.53,
+									0.51,
+									0.41,
+									0.45
+								],
+								"color": "#b18d60"
+							}
+						},
+						{
+							"id": "8be7f40b:image.url",
+							"blockId": "8be7f40b",
+							"path": "8.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/offer-image-2.jpg",
+							"decorative": false,
+							"width": 371,
+							"height": 463,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Woman in blue sunglasses by the sea",
+							"tone": {
+								"grid": [
+									0.58,
+									0.54,
+									0.55,
+									0.45,
+									0.55,
+									0.55,
+									0.44,
+									0.65,
+									0.58
+								],
+								"color": "#6692a8"
+							}
+						}
+					]
+				},
+				{
+					"id": "07edb865",
+					"index": 9,
+					"path": "9",
+					"group": "07edb865",
+					"role": "features",
+					"title": "happy customers",
+					"slots": [
+						{
+							"id": "3b9cba79:text",
+							"blockId": "3b9cba79",
+							"path": "9.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "happy customers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "242a306e:text",
+							"blockId": "242a306e",
+							"path": "9.1.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Elizabeth Jennifer",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a7118b2b:text",
+							"blockId": "a7118b2b",
+							"path": "9.1.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.”",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6be861e4:text",
+							"blockId": "6be861e4",
+							"path": "9.1.0.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "James Charles",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "02e25ab4:text",
+							"blockId": "02e25ab4",
+							"path": "9.1.0.1.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.”",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "91d8c961:text",
+							"blockId": "91d8c961",
+							"path": "9.1.0.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Jack Smith",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "668a3464:text",
+							"blockId": "668a3464",
+							"path": "9.1.0.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "“Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.”",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "76e0b05f:text",
+							"blockId": "76e0b05f",
+							"path": "9.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Send Us a message",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "54b6e9b7:text",
+							"blockId": "54b6e9b7",
+							"path": "9.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Alienum phaedrum torquatos nec eu, vis detraxit perinbnmn culis ex, nihilda expetendis in mei. Mei an pericula euripnbbckrjidis.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "07edb865:background.image.image.url",
+							"blockId": "07edb865",
+							"path": "9",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-background.png",
+							"decorative": true,
+							"width": 1440,
+							"height": 1487,
+							"orientation": "square"
+						},
+						{
+							"id": "1229dcab:image.url",
+							"blockId": "1229dcab",
+							"path": "9.1.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-1.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "29ea3940:image.url",
+							"blockId": "29ea3940",
+							"path": "9.1.0.0.0.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-line.png",
+							"decorative": true,
+							"width": 124,
+							"height": 1,
+							"orientation": "landscape"
+						},
+						{
+							"id": "43a22467:image.url",
+							"blockId": "43a22467",
+							"path": "9.1.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-2.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "b7eb36f8:image.url",
+							"blockId": "b7eb36f8",
+							"path": "9.1.0.1.0.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-line.png",
+							"decorative": true,
+							"width": 124,
+							"height": 1,
+							"orientation": "landscape"
+						},
+						{
+							"id": "f57c73fa:image.url",
+							"blockId": "f57c73fa",
+							"path": "9.1.0.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-3.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "5f541fbc:image.url",
+							"blockId": "5f541fbc",
+							"path": "9.1.0.2.0.0.3",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-line.png",
+							"decorative": true,
+							"width": 124,
+							"height": 1,
+							"orientation": "landscape"
+						},
+						{
+							"id": "73d2cf4f:image.url",
+							"blockId": "73d2cf4f",
+							"path": "9.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/doctor-image.jpg",
+							"decorative": false,
+							"width": 470,
+							"height": 716,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Dentist treating a patient in a dental chair",
+							"tone": {
+								"grid": [
+									0.68,
+									0.6,
+									0.65,
+									0.44,
+									0.34,
+									0.55,
+									0.63,
+									0.58,
+									0.26
+								],
+								"color": "#86867f"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				},
+				{
+					"id": "08de69f9",
+					"index": 10,
+					"path": "10",
+					"group": "08de69f9",
+					"role": "content",
+					"title": "From the blogs",
+					"slots": [
+						{
+							"id": "4099f1f3:text",
+							"blockId": "4099f1f3",
+							"path": "10.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "From the blogs",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bbb77ddc:text",
+							"blockId": "bbb77ddc",
+							"path": "10.1.0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Look hot with cool sunglasses",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a879148f:text",
+							"blockId": "a879148f",
+							"path": "10.2.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Channel your inner John Lennon with retro round sunglasses.",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5c2e6b74:text",
+							"blockId": "5c2e6b74",
+							"path": "10.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "39326aa1:text",
+							"blockId": "39326aa1",
+							"path": "10.2.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b42f6bad:text",
+							"blockId": "b42f6bad",
+							"path": "10.2.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Timeless and classic, aviators never go out of style",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "4040bc4e:text",
+							"blockId": "4040bc4e",
+							"path": "10.2.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f2dada42:text",
+							"blockId": "f2dada42",
+							"path": "10.2.0.1.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ad3d7b7e:text",
+							"blockId": "ad3d7b7e",
+							"path": "10.2.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Make a bold statement with oversized sunglasses.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f6700eb7:text",
+							"blockId": "f6700eb7",
+							"path": "10.2.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6b2bb862:text",
+							"blockId": "6b2bb862",
+							"path": "10.2.0.2.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "a7425769:image.url",
+							"blockId": "a7425769",
+							"path": "10.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/style-line.png",
+							"decorative": true,
+							"width": 231,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "39c70cb3:image.url",
+							"blockId": "39c70cb3",
+							"path": "10.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/style-line-1.png",
+							"decorative": true,
+							"width": 231,
+							"height": 2,
+							"orientation": "landscape"
+						},
+						{
+							"id": "03ae351b:image.url",
+							"blockId": "03ae351b",
+							"path": "10.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/05/blog-1.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 370,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in red sunglasses wrapped in paper",
+							"tone": {
+								"grid": [
+									0.62,
+									0.49,
+									0.64,
+									0.55,
+									0.34,
+									0.6,
+									0.64,
+									0.63,
+									0.72
+								],
+								"color": "#bc8d61"
+							}
+						},
+						{
+							"id": "66d40e79:image.url",
+							"blockId": "66d40e79",
+							"path": "10.2.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/05/blog-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 370,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman with afro hair wearing purple sunglasses",
+							"tone": {
+								"grid": [
+									0.61,
+									0.34,
+									0.55,
+									0.57,
+									0.38,
+									0.48,
+									0.68,
+									0.52,
+									0.46
+								],
+								"color": "#518db1"
+							}
+						},
+						{
+							"id": "b009385e:image.url",
+							"blockId": "b009385e",
+							"path": "10.2.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/05/blog-3.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 370,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman with a top bun in large sunglasses",
+							"tone": {
+								"grid": [
+									0.47,
+									0.46,
+									0.48,
+									0.58,
+									0.55,
+									0.55,
+									0.67,
+									0.75,
+									0.57
+								],
+								"color": "#d07e7f"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Only 30% off",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0c2e6510",
+					"role": "cta",
+					"title": "For men",
+					"sectionIds": [
+						"0c2e6510"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e432866c",
+					"role": "cta",
+					"title": "For Women",
+					"sectionIds": [
+						"e432866c"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "87946c47",
+					"role": "cta",
+					"title": "For children",
+					"sectionIds": [
+						"87946c47"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "df337182",
+					"role": "content",
+					"title": "Free Delivery",
+					"sectionIds": [
+						"df337182"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "63c9f063",
+					"role": "testimonials",
+					"title": "What we are?",
+					"sectionIds": [
+						"63c9f063"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "dcbcc94a",
+					"role": "features",
+					"title": "Shop By Style and Shapes",
+					"sectionIds": [
+						"dcbcc94a"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "1a0b7151",
+					"role": "dynamic",
+					"title": "popular products",
+					"sectionIds": [
+						"1a0b7151"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "b5a66cd4",
+					"role": "cta",
+					"title": "For women's latest Collection",
+					"sectionIds": [
+						"b5a66cd4"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "07edb865",
+					"role": "features",
+					"title": "happy customers",
+					"sectionIds": [
+						"07edb865"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "08de69f9",
+					"role": "content",
+					"title": "From the blogs",
+					"sectionIds": [
+						"08de69f9"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/optigo/wp-content/uploads/sites/174/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		}
+	],
+	"stats": {
+		"sections": 19,
+		"textSlots": 103,
+		"editableSlots": 99,
+		"images": 60,
+		"swappableImages": 20,
+		"words": 746
+	},
+	"builtAt": "2026-10-24T11:35:08.101Z"
+}

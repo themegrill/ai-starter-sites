@@ -1,0 +1,2113 @@
+{
+	"version": 4,
+	"slug": "megadrone-v2",
+	"name": "MegaDrone V2",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-megadrone-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/megadrone-v2",
+	"niches": [
+		"drones",
+		"technology",
+		"photography"
+	],
+	"keywords": [
+		"drone",
+		"aerial photography",
+		"drone shop",
+		"uav",
+		"videography"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 44,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 26,
+					"background": 3
+				}
+			},
+			{
+				"hex": "#e00000",
+				"count": 17,
+				"group": "brand",
+				"role": "primary",
+				"base": "#e00000",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 8,
+					"text": 3
+				}
+			},
+			{
+				"hex": "#756f6f",
+				"count": 10,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 10
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 7,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 2,
+					"background": 1
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#54595f",
+				"count": 4,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 4,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#c2c1c1",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"border": 3
+				}
+			},
+			{
+				"hex": "#7a7a7a",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 1
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#f7f7f7",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0.014,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#e00000",
+				"large": true,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#e00000",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#e00000",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#e00000",
+				"bg": "#f7f7f7",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#e00000",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Roboto",
+			"body": "Poppins",
+			"map": {
+				"Poppins": "body",
+				"Roboto": "heading"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "sample-page-2",
+			"title": "Sample Page",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/themegrill-demos/sample-page-2-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "ee7622a7",
+					"index": 0,
+					"path": "0",
+					"group": "ee7622a7",
+					"role": "hero",
+					"title": "Drones overall will be more impactful.",
+					"slots": [
+						{
+							"id": "4e13f467:text",
+							"blockId": "4e13f467",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Drones overall will be more impactful.",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "222ed0a8:text",
+							"blockId": "222ed0a8",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitue penatibus et magnis dis.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6119de4e:text",
+							"blockId": "6119de4e",
+							"path": "0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "GET STARTED",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "ee7622a7:background.image.image.url",
+							"blockId": "ee7622a7",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/banner-2.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 860,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Drone flying over water at dusk",
+							"tone": {
+								"grid": [
+									0.41,
+									0.32,
+									0.24,
+									0.61,
+									0.41,
+									0.33,
+									0.7,
+									0.61,
+									0.37
+								],
+								"color": "#3e7d9e"
+							}
+						}
+					]
+				},
+				{
+					"id": "6667638b",
+					"index": 1,
+					"path": "1",
+					"group": "6667638b",
+					"role": "content",
+					"title": "AERIAL PHOTOGRAPHY",
+					"slots": [
+						{
+							"id": "c0f4b720:text",
+							"blockId": "c0f4b720",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "AERIAL PHOTOGRAPHY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e2e4150d:text",
+							"blockId": "e2e4150d",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "About Drone Pilots",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "436f5c3a:text",
+							"blockId": "436f5c3a",
+							"path": "1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natopenatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque",
+							"rich": false,
+							"words": 32,
+							"minWords": 19,
+							"maxWords": 40,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7578f291:text",
+							"blockId": "7578f291",
+							"path": "1.0.3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "AERIAL PHOTOGRAPHY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4e62646:text",
+							"blockId": "f4e62646",
+							"path": "1.0.3.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitan commodo eget.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "92604532:text",
+							"blockId": "92604532",
+							"path": "1.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "WORKING PROCESS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "750dcff6:text",
+							"blockId": "750dcff6",
+							"path": "1.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitan commodo eget.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "7578f291:background.image.image.url",
+							"blockId": "7578f291",
+							"path": "1.0.3.0.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-1.jpg",
+							"decorative": true,
+							"width": 90,
+							"height": 88,
+							"orientation": "square"
+						},
+						{
+							"id": "92604532:background.image.image.url",
+							"blockId": "92604532",
+							"path": "1.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-2.jpg",
+							"decorative": true,
+							"width": 90,
+							"height": 88,
+							"orientation": "square"
+						},
+						{
+							"id": "f1b36771:image.url",
+							"blockId": "f1b36771",
+							"path": "1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/image-2.jpg",
+							"decorative": false,
+							"width": 659,
+							"height": 632,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Drone hovering over a green field",
+							"tone": {
+								"grid": [
+									0.36,
+									0.51,
+									0.65,
+									0.57,
+									0.58,
+									0.77,
+									0.41,
+									0.38,
+									0.35
+								],
+								"color": "#9a7c73"
+							}
+						}
+					]
+				},
+				{
+					"id": "beacc003",
+					"index": 2,
+					"path": "2",
+					"group": "beacc003",
+					"role": "content",
+					"title": "4K video",
+					"slots": [
+						{
+							"id": "69187c7b:text",
+							"blockId": "69187c7b",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "4K video",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f123c2f6:text",
+							"blockId": "f123c2f6",
+							"path": "2.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elith Aenean ligul.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a8e1cb73:text",
+							"blockId": "a8e1cb73",
+							"path": "2.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "LEARN MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e5d14472:text",
+							"blockId": "e5d14472",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Multimedia",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "71ae74fc:text",
+							"blockId": "71ae74fc",
+							"path": "2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elith Aenean ligul.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e6253488:text",
+							"blockId": "e6253488",
+							"path": "2.1.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "LEARN MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "787d8ee4:text",
+							"blockId": "787d8ee4",
+							"path": "2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Wedding",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5231dc06:text",
+							"blockId": "5231dc06",
+							"path": "2.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elith Aenean ligul.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b99e9e6d:text",
+							"blockId": "b99e9e6d",
+							"path": "2.2.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "LEARN MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "492a220e:text",
+							"blockId": "492a220e",
+							"path": "2.3.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Events",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "8db12daf:text",
+							"blockId": "8db12daf",
+							"path": "2.3.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elith Aenean ligul.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "f9521608:text",
+							"blockId": "f9521608",
+							"path": "2.3.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "LEARN MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "69187c7b:background.image.image.url",
+							"blockId": "69187c7b",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-4.jpg",
+							"decorative": true,
+							"width": 80,
+							"height": 65,
+							"orientation": "landscape"
+						},
+						{
+							"id": "e5d14472:background.image.image.url",
+							"blockId": "e5d14472",
+							"path": "2.1.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-3.jpg",
+							"decorative": true,
+							"width": 80,
+							"height": 65,
+							"orientation": "landscape"
+						},
+						{
+							"id": "787d8ee4:background.image.image.url",
+							"blockId": "787d8ee4",
+							"path": "2.2.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-5.jpg",
+							"decorative": true,
+							"width": 80,
+							"height": 65,
+							"orientation": "landscape"
+						},
+						{
+							"id": "492a220e:background.image.image.url",
+							"blockId": "492a220e",
+							"path": "2.3.0",
+							"block": "blockart/heading",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-6.jpg",
+							"decorative": true,
+							"width": 80,
+							"height": 65,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "ee4ff678",
+					"index": 3,
+					"path": "3",
+					"group": "ee4ff678",
+					"role": "features",
+					"title": "AERIAL PHOTOGRAPHY",
+					"slots": [
+						{
+							"id": "e0e87d75:text",
+							"blockId": "e0e87d75",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "AERIAL PHOTOGRAPHY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6cb6261a:text",
+							"blockId": "6cb6261a",
+							"path": "3.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Picture Objects And Spaces",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aae9f5f2:text",
+							"blockId": "aae9f5f2",
+							"path": "3.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "AERIAL PHOTOGRAPHY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1fd9d425:text",
+							"blockId": "1fd9d425",
+							"path": "3.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. loreum commodo ligular.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "7ff37746:text",
+							"blockId": "7ff37746",
+							"path": "3.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "POWERFUL &PORTABLE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6946099c:text",
+							"blockId": "6946099c",
+							"path": "3.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. loreum commodo ligular.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "80854f54:text",
+							"blockId": "80854f54",
+							"path": "3.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "QUADCOPTER PROPELLERS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0949f27d:text",
+							"blockId": "0949f27d",
+							"path": "3.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. loreum commodo ligular.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "bfe4cc18:text",
+							"blockId": "bfe4cc18",
+							"path": "3.0.1.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "ULTRA HD RESOLUTION",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2ed4670d:text",
+							"blockId": "2ed4670d",
+							"path": "3.0.1.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. loreum commodo ligular.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "ee4ff678:background.image.image.url",
+							"blockId": "ee4ff678",
+							"path": "3",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/banner-5.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 576,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "White drone flying in the sky",
+							"tone": {
+								"grid": [
+									0.89,
+									0.85,
+									0.88,
+									0.93,
+									0.67,
+									0.91,
+									0.93,
+									0.75,
+									0.9
+								],
+								"color": "#d2dce4"
+							}
+						},
+						{
+							"id": "0d9362e1:image.url",
+							"blockId": "0d9362e1",
+							"path": "3.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-7.png",
+							"decorative": true,
+							"width": 114,
+							"height": 92,
+							"orientation": "landscape"
+						},
+						{
+							"id": "aa8681e1:image.url",
+							"blockId": "aa8681e1",
+							"path": "3.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-8.png",
+							"decorative": true,
+							"width": 114,
+							"height": 92,
+							"orientation": "landscape"
+						},
+						{
+							"id": "6c775a11:image.url",
+							"blockId": "6c775a11",
+							"path": "3.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-9.png",
+							"decorative": true,
+							"width": 114,
+							"height": 92,
+							"orientation": "landscape"
+						},
+						{
+							"id": "4e2b1648:image.url",
+							"blockId": "4e2b1648",
+							"path": "3.0.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-10.png",
+							"decorative": true,
+							"width": 114,
+							"height": 92,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "7a796a13",
+					"index": 4,
+					"path": "4",
+					"group": "7a796a13",
+					"role": "team",
+					"title": "AERIAL PHOTOGRAPHY",
+					"slots": [
+						{
+							"id": "e325e4db:text",
+							"blockId": "e325e4db",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "AERIAL PHOTOGRAPHY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b9b78799:text",
+							"blockId": "b9b78799",
+							"path": "4.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Dedicated Team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6d1c713d:teamName",
+							"blockId": "6d1c713d",
+							"path": "4.0.1.0.0.0.1",
+							"block": "blockart/team",
+							"attr": "teamName",
+							"kind": "name",
+							"text": "Jacob Oliver",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6d1c713d:teamDesignation",
+							"blockId": "6d1c713d",
+							"path": "4.0.1.0.0.0.1",
+							"block": "blockart/team",
+							"attr": "teamDesignation",
+							"kind": "role",
+							"text": "PILOT",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "37076cdf:teamName",
+							"blockId": "37076cdf",
+							"path": "4.0.1.1.0.0.1",
+							"block": "blockart/team",
+							"attr": "teamName",
+							"kind": "name",
+							"text": "Emma Simon",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "37076cdf:teamDesignation",
+							"blockId": "37076cdf",
+							"path": "4.0.1.1.0.0.1",
+							"block": "blockart/team",
+							"attr": "teamDesignation",
+							"kind": "role",
+							"text": "PHOTOGRAPHER",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "258c9d50:teamName",
+							"blockId": "258c9d50",
+							"path": "4.0.1.2.0.0.1",
+							"block": "blockart/team",
+							"attr": "teamName",
+							"kind": "name",
+							"text": "Jack Permutt",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "258c9d50:teamDesignation",
+							"blockId": "258c9d50",
+							"path": "4.0.1.2.0.0.1",
+							"block": "blockart/team",
+							"attr": "teamDesignation",
+							"kind": "role",
+							"text": "SUPPORT",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "d6632377:image.url",
+							"blockId": "d6632377",
+							"path": "4.0.1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/memb-1.jpg",
+							"decorative": false,
+							"width": 184,
+							"height": 184,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Senior businessman in a suit with hands in pockets",
+							"tone": {
+								"grid": [
+									0.83,
+									0.82,
+									0.69,
+									0.81,
+									0.35,
+									0.79,
+									0.71,
+									0.21,
+									0.67
+								],
+								"color": "#a4a7a6"
+							}
+						},
+						{
+							"id": "666fc443:image.url",
+							"blockId": "666fc443",
+							"path": "4.0.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/memb-3.jpg",
+							"decorative": false,
+							"width": 184,
+							"height": 184,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman in a pink blazer on a white background",
+							"tone": {
+								"grid": [
+									1,
+									0.74,
+									0.99,
+									0.97,
+									0.55,
+									0.88,
+									0.85,
+									0.5,
+									0.74
+								],
+								"color": "#e0c7cd"
+							}
+						},
+						{
+							"id": "d311c2f2:image.url",
+							"blockId": "d311c2f2",
+							"path": "4.0.1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/memb-2.jpg",
+							"decorative": false,
+							"width": 184,
+							"height": 184,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Asian man in a suit leaning against a wooden wall",
+							"tone": {
+								"grid": [
+									0.72,
+									0.61,
+									0.48,
+									0.57,
+									0.2,
+									0.43,
+									0.44,
+									0.12,
+									0.43
+								],
+								"color": "#836d63"
+							}
+						}
+					]
+				},
+				{
+					"id": "fc48cb0a",
+					"index": 5,
+					"path": "5",
+					"group": "fc48cb0a",
+					"role": "content",
+					"title": "We Offer 20% off innovative Camera & Video Streaming",
+					"slots": [
+						{
+							"id": "fc90d025:text",
+							"blockId": "fc90d025",
+							"path": "5.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We Offer 20% off innovative Camera & Video Streaming",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b1c57c4f:text",
+							"blockId": "b1c57c4f",
+							"path": "5.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "d1e9e1aa:image.url",
+							"blockId": "d1e9e1aa",
+							"path": "5.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/image-4.jpg",
+							"decorative": false,
+							"width": 432,
+							"height": 201,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "White drone flying against a dark background",
+							"tone": {
+								"grid": [
+									0.08,
+									0.25,
+									0.16,
+									0.12,
+									0.39,
+									0.02,
+									0.02,
+									0.12,
+									0.02
+								],
+								"color": "#222123"
+							}
+						}
+					]
+				},
+				{
+					"id": "2b18fd54",
+					"index": 6,
+					"path": "6",
+					"group": "2b18fd54",
+					"role": "dynamic",
+					"title": "AERIAL PHOTOGRAPHY",
+					"slots": [
+						{
+							"id": "fe4f6f48:text",
+							"blockId": "fe4f6f48",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "AERIAL PHOTOGRAPHY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2763211c:text",
+							"blockId": "2763211c",
+							"path": "6.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "OUR PRODUCTS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/all-products",
+						"woocommerce/product-image",
+						"woocommerce/product-title",
+						"woocommerce/product-price",
+						"woocommerce/product-rating",
+						"woocommerce/product-button"
+					]
+				},
+				{
+					"id": "6eb22d79",
+					"index": 7,
+					"path": "7",
+					"group": "6eb22d79",
+					"role": "gallery",
+					"title": "COMPLETE SECURITY",
+					"slots": [
+						{
+							"id": "a3cdd3ef:text",
+							"blockId": "a3cdd3ef",
+							"path": "7.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "COMPLETE SECURITY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9472d049:text",
+							"blockId": "9472d049",
+							"path": "7.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Quuntur magni dolores eos qui ratione voluptatem..",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cc868888:text",
+							"blockId": "cc868888",
+							"path": "7.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "HIGHLY PROFILE PHOTOS",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9faa9ce6:text",
+							"blockId": "9faa9ce6",
+							"path": "7.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Quuntur magni dolores eos qui ratione voluptatem.",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "6eb22d79:background.image.image.url",
+							"blockId": "6eb22d79",
+							"path": "7",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/gallery.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 622,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Underside of a drone flying against a blue sky",
+							"tone": {
+								"grid": [
+									0.44,
+									0.49,
+									0.28,
+									0.43,
+									0.45,
+									0.28,
+									0.43,
+									0.49,
+									0.3
+								],
+								"color": "#4b67ab"
+							}
+						},
+						{
+							"id": "42766c53:image.url",
+							"blockId": "42766c53",
+							"path": "7.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-11-1.png",
+							"decorative": true,
+							"width": 78,
+							"height": 73,
+							"orientation": "square"
+						},
+						{
+							"id": "a31f2f16:image.url",
+							"blockId": "a31f2f16",
+							"path": "7.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-11.png",
+							"decorative": true,
+							"width": 78,
+							"height": 73,
+							"orientation": "square"
+						},
+						{
+							"id": "core-7.1.0.0:@html:img",
+							"blockId": "core-7.1.0.0",
+							"path": "7.1.0.0",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/gallry1.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 191,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Drone flying above a lake with mountains",
+							"tone": {
+								"grid": [
+									0.49,
+									0.51,
+									0.51,
+									0.53,
+									0.49,
+									0.56,
+									0.67,
+									0.66,
+									0.7
+								],
+								"color": "#5a9db9"
+							}
+						},
+						{
+							"id": "core-7.1.0.1:@html:img",
+							"blockId": "core-7.1.0.1",
+							"path": "7.1.0.1",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/gallery2.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 191,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman with outstretched arms on sand under a flying drone",
+							"tone": {
+								"grid": [
+									0.4,
+									0.42,
+									0.44,
+									0.57,
+									0.53,
+									0.56,
+									0.71,
+									0.66,
+									0.72
+								],
+								"color": "#4b9eac"
+							}
+						},
+						{
+							"id": "core-7.1.0.2:@html:img",
+							"blockId": "core-7.1.0.2",
+							"path": "7.1.0.2",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/gallery-4.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 191,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "White drone flying near a metal scaffold",
+							"tone": {
+								"grid": [
+									0.81,
+									0.84,
+									0.83,
+									0.78,
+									0.77,
+									0.73,
+									0.75,
+									0.77,
+									0.46
+								],
+								"color": "#b1c2ca"
+							}
+						},
+						{
+							"id": "core-7.1.0.3:@html:img",
+							"blockId": "core-7.1.0.3",
+							"path": "7.1.0.3",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/gallery-9.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 191,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Compact drone hovering over a snowy landscape",
+							"tone": {
+								"grid": [
+									0.87,
+									0.81,
+									0.82,
+									0.87,
+									0.79,
+									0.86,
+									0.87,
+									0.84,
+									0.84
+								],
+								"color": "#d2d7db"
+							}
+						},
+						{
+							"id": "core-7.1.0.4:@html:img",
+							"blockId": "core-7.1.0.4",
+							"path": "7.1.0.4",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/gallery-7.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 191,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "White drone with a camera flying over water",
+							"tone": {
+								"grid": [
+									0.8,
+									0.86,
+									0.82,
+									0.79,
+									0.78,
+									0.8,
+									0.66,
+									0.67,
+									0.6
+								],
+								"color": "#bac0c9"
+							}
+						},
+						{
+							"id": "core-7.1.0.5:@html:img",
+							"blockId": "core-7.1.0.5",
+							"path": "7.1.0.5",
+							"block": "core/image",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/gallery-8.jpg",
+							"decorative": false,
+							"width": 258,
+							"height": 191,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "White drone flying in a pale sky",
+							"tone": {
+								"grid": [
+									0.91,
+									0.91,
+									0.85,
+									0.91,
+									0.71,
+									0.91,
+									0.93,
+									0.89,
+									0.92
+								],
+								"color": "#d8e3eb"
+							}
+						}
+					]
+				},
+				{
+					"id": "c32f866a",
+					"index": 8,
+					"path": "8",
+					"group": "c32f866a",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "f323ef0d:image.url",
+							"blockId": "f323ef0d",
+							"path": "8.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/logo_3-1-150x150-2.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "74e2c26a:image.url",
+							"blockId": "74e2c26a",
+							"path": "8.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/logo_4-1-150x150-1.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "b458aec2:image.url",
+							"blockId": "b458aec2",
+							"path": "8.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/logo_5-1-150x150-3.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "bde60bd0:image.url",
+							"blockId": "bde60bd0",
+							"path": "8.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/logo_2-1-150x150-6.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "9acd1f88:image.url",
+							"blockId": "9acd1f88",
+							"path": "8.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/logo_6-1-143x150-4.png",
+							"decorative": true,
+							"width": 143,
+							"height": 150,
+							"orientation": "square"
+						},
+						{
+							"id": "8bb9f88a:image.url",
+							"blockId": "8bb9f88a",
+							"path": "8.0.0.5.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/logo_7-1-150x150-5.png",
+							"decorative": true,
+							"width": 150,
+							"height": 150,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "2b2dabac",
+					"index": 9,
+					"path": "9",
+					"group": "2b2dabac",
+					"role": "dynamic",
+					"title": "AERIAL PHOTOGRAPHY",
+					"slots": [
+						{
+							"id": "808a2791:text",
+							"blockId": "808a2791",
+							"path": "9.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "AERIAL PHOTOGRAPHY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fe1a8fa8:text",
+							"blockId": "fe1a8fa8",
+							"path": "9.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Sign up for the newsletter from weekly updates",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "76818312:text",
+							"blockId": "76818312",
+							"path": "9.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean Lorem ipsum dolor.",
+							"rich": false,
+							"words": 21,
+							"minWords": 13,
+							"maxWords": 27,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "2b2dabac:background.image.image.url",
+							"blockId": "2b2dabac",
+							"path": "9",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/signup-bg.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 460,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Man piloting a drone at sunset by a lake",
+							"tone": {
+								"grid": [
+									0.67,
+									0.74,
+									0.78,
+									0.37,
+									0.38,
+									0.39,
+									0.27,
+									0.33,
+									0.52
+								],
+								"color": "#897d6e"
+							}
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "ee7622a7",
+					"role": "hero",
+					"title": "Drones overall will be more impactful.",
+					"sectionIds": [
+						"ee7622a7"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6667638b",
+					"role": "content",
+					"title": "AERIAL PHOTOGRAPHY",
+					"sectionIds": [
+						"6667638b"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "beacc003",
+					"role": "content",
+					"title": "4K video",
+					"sectionIds": [
+						"beacc003"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ee4ff678",
+					"role": "features",
+					"title": "AERIAL PHOTOGRAPHY",
+					"sectionIds": [
+						"ee4ff678"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "7a796a13",
+					"role": "team",
+					"title": "AERIAL PHOTOGRAPHY",
+					"sectionIds": [
+						"7a796a13"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "fc48cb0a",
+					"role": "content",
+					"title": "We Offer 20% off innovative Camera & Video Streaming",
+					"sectionIds": [
+						"fc48cb0a"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "2b18fd54",
+					"role": "dynamic",
+					"title": "AERIAL PHOTOGRAPHY",
+					"sectionIds": [
+						"2b18fd54"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "6eb22d79",
+					"role": "gallery",
+					"title": "COMPLETE SECURITY",
+					"sectionIds": [
+						"6eb22d79"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c32f866a",
+					"role": "logos",
+					"sectionIds": [
+						"c32f866a"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "2b2dabac",
+					"role": "dynamic",
+					"title": "AERIAL PHOTOGRAPHY",
+					"sectionIds": [
+						"2b2dabac"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "cart",
+			"title": "Cart",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/themegrill-demos/cart-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"slots": [
+						{
+							"id": "core-0.0.0.1.0:@html:h",
+							"blockId": "core-0.0.0.1.0",
+							"path": "0.0.0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "You may be interested in…",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.0:@html:h",
+							"blockId": "core-0.1.0",
+							"path": "0.1.0",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Your cart is currently empty!",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-0.1.2:@html:h",
+							"blockId": "core-0.1.2",
+							"path": "0.1.2",
+							"block": "core/heading",
+							"attr": "@html:h",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New in store",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/cart",
+						"woocommerce/filled-cart-block",
+						"woocommerce/cart-items-block",
+						"woocommerce/cart-line-items-block",
+						"woocommerce/cart-cross-sells-block",
+						"woocommerce/cart-cross-sells-products-block",
+						"woocommerce/cart-totals-block",
+						"woocommerce/cart-order-summary-block",
+						"woocommerce/cart-order-summary-heading-block",
+						"woocommerce/cart-order-summary-coupon-form-block",
+						"woocommerce/cart-order-summary-subtotal-block",
+						"woocommerce/cart-order-summary-fee-block",
+						"woocommerce/cart-order-summary-discount-block",
+						"woocommerce/cart-order-summary-shipping-block",
+						"woocommerce/cart-order-summary-taxes-block",
+						"woocommerce/cart-express-payment-block",
+						"woocommerce/proceed-to-checkout-block",
+						"woocommerce/cart-accepted-payment-methods-block",
+						"woocommerce/empty-cart-block",
+						"woocommerce/product-new"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"title": "You may be interested in…",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 11,
+		"textSlots": 54,
+		"editableSlots": 54,
+		"images": 33,
+		"swappableImages": 15,
+		"words": 296
+	},
+	"builtAt": "2026-10-24T11:35:08.005Z"
+}

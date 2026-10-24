@@ -1,0 +1,1339 @@
+{
+	"version": 4,
+	"slug": "online-shop",
+	"name": "Online Shop",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-online-shop/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/online-shop",
+	"niches": [
+		"shop",
+		"ecommerce",
+		"fashion"
+	],
+	"keywords": [
+		"online shop",
+		"ecommerce",
+		"store",
+		"fashion",
+		"clothing",
+		"electronics",
+		"retail"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"yith-woocommerce-wishlist/init.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 40,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 15,
+					"background": 9,
+					"border": 8
+				}
+			},
+			{
+				"hex": "#181818",
+				"count": 13,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 9,
+					"background": 2
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 9,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#000000",
+				"count": 7,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#fdfdfd",
+				"count": 7,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 7
+				}
+			},
+			{
+				"hex": "#f8f8f8",
+				"count": 7,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 5,
+					"text": 1
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 4,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#16181a",
+				"count": 4,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#027abb",
+				"count": 4,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 3,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#130c0e",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#130c0e",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#fffffc",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0.014,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#ffffff",
+				"bg": "#130c0e",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#18181b",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Karla",
+			"body": "Karla",
+			"map": {
+				"Karla": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "hero",
+					"title": "Get 30% off",
+					"slots": [
+						{
+							"id": "2d6132c8:text",
+							"blockId": "2d6132c8",
+							"path": "0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "WINTER SALES",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9aec42df:text",
+							"blockId": "9aec42df",
+							"path": "0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "Get 30% off",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5e19da26:text",
+							"blockId": "5e19da26",
+							"path": "0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Facilisis at odio amet consequat. Enim orci risus, commodo in ut est neque. Eu magna sit aenean arcu quam. Euismod ridiculus rhoncus.",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "416d2ef3:text",
+							"blockId": "416d2ef3",
+							"path": "0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "e6310ba4",
+					"index": 1,
+					"path": "1",
+					"group": "e6310ba4",
+					"role": "features",
+					"title": "Free Shipping",
+					"slots": [
+						{
+							"id": "4f3e7227:text",
+							"blockId": "4f3e7227",
+							"path": "1.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Free Shipping",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e6bf740c:text",
+							"blockId": "e6bf740c",
+							"path": "1.0.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "On order Over $500",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cc413998:text",
+							"blockId": "cc413998",
+							"path": "1.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Secure Payment",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6790894d:text",
+							"blockId": "6790894d",
+							"path": "1.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Trustable Pyament",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c100aa12:text",
+							"blockId": "c100aa12",
+							"path": "1.2.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Free Returns",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "61be8e77:text",
+							"blockId": "61be8e77",
+							"path": "1.2.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Easy Return Policy",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a04c307d:text",
+							"blockId": "a04c307d",
+							"path": "1.3.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h6",
+							"text": "Support 24/7",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "34ee6d59:text",
+							"blockId": "34ee6d59",
+							"path": "1.3.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "24/7 Help Center",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "b4a1bef5:image.url",
+							"blockId": "b4a1bef5",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/delivery-truck-icon.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "3067c58d:image.url",
+							"blockId": "3067c58d",
+							"path": "1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/credit-card-icon.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "f5097fa3:image.url",
+							"blockId": "f5097fa3",
+							"path": "1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/delivery-status-icon.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						},
+						{
+							"id": "6b65f833:image.url",
+							"blockId": "6b65f833",
+							"path": "1.3.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/support-icon.png",
+							"decorative": true,
+							"width": 60,
+							"height": 60,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "f383176d",
+					"index": 2,
+					"path": "2",
+					"group": "f383176d",
+					"role": "gallery",
+					"title": "Featured Category",
+					"slots": [
+						{
+							"id": "cef2c3b2:text",
+							"blockId": "cef2c3b2",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Featured Category",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2a81f9ff:text",
+							"blockId": "2a81f9ff",
+							"path": "2.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Fashion",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "67fd1015:text",
+							"blockId": "67fd1015",
+							"path": "2.1.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "28842e94:text",
+							"blockId": "28842e94",
+							"path": "2.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Accessories",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a3337568:text",
+							"blockId": "a3337568",
+							"path": "2.2.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "93f4b7b9:text",
+							"blockId": "93f4b7b9",
+							"path": "2.3.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Cosmetics",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2c80234b:text",
+							"blockId": "2c80234b",
+							"path": "2.3.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "23ab9964:text",
+							"blockId": "23ab9964",
+							"path": "2.4.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Gadgets",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1aa932c7:text",
+							"blockId": "1aa932c7",
+							"path": "2.4.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "875cdd39:background.image.image.url",
+							"blockId": "875cdd39",
+							"path": "2.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/Category-1-image.jpg",
+							"decorative": false,
+							"width": 270,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Clothes hanging on a rack",
+							"tone": {
+								"grid": [
+									0.83,
+									0.79,
+									0.78,
+									0.72,
+									0.69,
+									0.55,
+									0.82,
+									0.78,
+									0.47
+								],
+								"color": "#c1b4ac"
+							}
+						},
+						{
+							"id": "f20b30c8:background.image.image.url",
+							"blockId": "f20b30c8",
+							"path": "2.2",
+							"block": "blockart/column",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/Category-2-image.jpg",
+							"decorative": false,
+							"width": 270,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Leather wallet, bracelets and accessories flat lay",
+							"tone": {
+								"grid": [
+									0.97,
+									0.93,
+									0.88,
+									0.92,
+									0.87,
+									0.91,
+									0.88,
+									0.62,
+									0.82
+								],
+								"color": "#e6dbd8"
+							}
+						},
+						{
+							"id": "5d82212c:background.image.image.url",
+							"blockId": "5d82212c",
+							"path": "2.2.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/Category-2-image.jpg",
+							"decorative": false,
+							"width": 270,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Leather wallet, bracelets and accessories flat lay",
+							"tone": {
+								"grid": [
+									0.97,
+									0.93,
+									0.88,
+									0.92,
+									0.87,
+									0.91,
+									0.88,
+									0.62,
+									0.82
+								],
+								"color": "#e6dbd8"
+							}
+						},
+						{
+							"id": "03ac0c29:background.image.image.url",
+							"blockId": "03ac0c29",
+							"path": "2.3.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/Category-3-image.jpg",
+							"decorative": false,
+							"width": 270,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Cosmetic bottles displayed on stone blocks",
+							"tone": {
+								"grid": [
+									0.82,
+									0.86,
+									0.9,
+									0.79,
+									0.73,
+									0.9,
+									0.82,
+									0.83,
+									0.92
+								],
+								"color": "#e5d4c4"
+							}
+						},
+						{
+							"id": "a45edc9e:background.image.image.url",
+							"blockId": "a45edc9e",
+							"path": "2.4.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/Category-4-image.jpg",
+							"decorative": false,
+							"width": 270,
+							"height": 400,
+							"orientation": "portrait",
+							"subject": "object",
+							"description": "Smartphone shown from front and back",
+							"tone": {
+								"grid": [
+									0.93,
+									0.72,
+									0.9,
+									0.67,
+									0.2,
+									0.75,
+									0.79,
+									0.5,
+									0.88
+								],
+								"color": "#a8b5bf"
+							}
+						}
+					]
+				},
+				{
+					"id": "e08edb62",
+					"index": 3,
+					"path": "3",
+					"group": "e08edb62",
+					"role": "dynamic",
+					"title": "New Arrivals",
+					"slots": [
+						{
+							"id": "60cbf7fe:text",
+							"blockId": "60cbf7fe",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "New Arrivals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ce3c5151:text",
+							"blockId": "ce3c5151",
+							"path": "3.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "View all",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-tag"
+					]
+				},
+				{
+					"id": "44712c45",
+					"index": 4,
+					"path": "4",
+					"group": "44712c45",
+					"role": "features",
+					"title": "Printed T-shirt",
+					"slots": [
+						{
+							"id": "c145fb9f:text",
+							"blockId": "c145fb9f",
+							"path": "4.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Printed T-shirt",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7b3ec5c:text",
+							"blockId": "c7b3ec5c",
+							"path": "4.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At odio amet consequat. Enim orcEnim orci risus, commodo in ut est neque.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5c123172:text",
+							"blockId": "5c123172",
+							"path": "4.0.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "$40.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "e9b2bad6:text",
+							"blockId": "e9b2bad6",
+							"path": "4.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a0c23cdf:text",
+							"blockId": "a0c23cdf",
+							"path": "4.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Jeans",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1806ec6e:text",
+							"blockId": "1806ec6e",
+							"path": "4.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "At odio amet consequat. Enim orcEnim orci risus, commodo in ut est neque.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "121b539f:text",
+							"blockId": "121b539f",
+							"path": "4.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "$300.00",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "9061adf0:text",
+							"blockId": "9061adf0",
+							"path": "4.1.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "3c87ab32:background.image.image.url",
+							"blockId": "3c87ab32",
+							"path": "4.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/Category-2-1-image.jpg",
+							"decorative": false,
+							"width": 570,
+							"height": 568,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman in a floral crop top with a necklace",
+							"tone": {
+								"grid": [
+									0.44,
+									0.55,
+									0.54,
+									0.49,
+									0.69,
+									0.7,
+									0.38,
+									0.61,
+									0.64
+								],
+								"color": "#b3886d"
+							}
+						},
+						{
+							"id": "983acf3c:background.image.image.url",
+							"blockId": "983acf3c",
+							"path": "4.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/Category-2-2-image.jpg",
+							"decorative": false,
+							"width": 570,
+							"height": 568,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Close-up of a woman in jeans with hand in pocket",
+							"tone": {
+								"grid": [
+									0.52,
+									0.54,
+									0.59,
+									0.5,
+									0.4,
+									0.54,
+									0.37,
+									0.33,
+									0.47
+								],
+								"color": "#7d7874"
+							}
+						}
+					]
+				},
+				{
+					"id": "5025e815",
+					"index": 5,
+					"path": "5",
+					"group": "5025e815",
+					"role": "dynamic",
+					"title": "Best Seller",
+					"slots": [
+						{
+							"id": "02465145:text",
+							"blockId": "02465145",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Best Seller",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f5afc4df:text",
+							"blockId": "f5afc4df",
+							"path": "5.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "View all",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/product-tag"
+					]
+				},
+				{
+					"id": "b9cf1f4f",
+					"index": 6,
+					"path": "6",
+					"group": "b9cf1f4f",
+					"role": "cta",
+					"title": "Smart Phones starting at $999. Grab your Phone right Now.",
+					"slots": [
+						{
+							"id": "a9d55e7f:text",
+							"blockId": "a9d55e7f",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Smart Phones starting at $999. Grab your Phone right Now.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "454de1b6:text",
+							"blockId": "454de1b6",
+							"path": "6.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+							"rich": false,
+							"words": 13,
+							"minWords": 8,
+							"maxWords": 17,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a3ae0c9d:text",
+							"blockId": "a3ae0c9d",
+							"path": "6.0.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Shop Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "9b086712:image.url",
+							"blockId": "9b086712",
+							"path": "6.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/cta-bg-image.png",
+							"decorative": true,
+							"width": 251,
+							"height": 283,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "hero",
+					"title": "Get 30% off",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e6310ba4",
+					"role": "features",
+					"title": "Free Shipping",
+					"sectionIds": [
+						"e6310ba4"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "f383176d",
+					"role": "gallery",
+					"title": "Featured Category",
+					"sectionIds": [
+						"f383176d"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e08edb62",
+					"role": "dynamic",
+					"title": "New Arrivals",
+					"sectionIds": [
+						"e08edb62"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "44712c45",
+					"role": "features",
+					"title": "Printed T-shirt",
+					"sectionIds": [
+						"44712c45"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5025e815",
+					"role": "dynamic",
+					"title": "Best Seller",
+					"sectionIds": [
+						"5025e815"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				},
+				{
+					"id": "b9cf1f4f",
+					"role": "cta",
+					"title": "Smart Phones starting at $999. Grab your Phone right Now.",
+					"sectionIds": [
+						"b9cf1f4f"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "checkout",
+			"title": "Checkout",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/themegrill-demos/checkout-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"woocommerce/checkout",
+						"woocommerce/checkout-fields-block",
+						"woocommerce/checkout-express-payment-block",
+						"woocommerce/checkout-contact-information-block",
+						"woocommerce/checkout-shipping-method-block",
+						"woocommerce/checkout-pickup-options-block",
+						"woocommerce/checkout-shipping-address-block",
+						"woocommerce/checkout-billing-address-block",
+						"woocommerce/checkout-shipping-methods-block",
+						"woocommerce/checkout-payment-block",
+						"woocommerce/checkout-additional-information-block",
+						"woocommerce/checkout-order-note-block",
+						"woocommerce/checkout-terms-block",
+						"woocommerce/checkout-actions-block",
+						"woocommerce/checkout-totals-block",
+						"woocommerce/checkout-order-summary-block",
+						"woocommerce/checkout-order-summary-cart-items-block",
+						"woocommerce/checkout-order-summary-coupon-form-block",
+						"woocommerce/checkout-order-summary-subtotal-block",
+						"woocommerce/checkout-order-summary-fee-block",
+						"woocommerce/checkout-order-summary-discount-block",
+						"woocommerce/checkout-order-summary-shipping-block",
+						"woocommerce/checkout-order-summary-taxes-block"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"products"
+						]
+					}
+				}
+			]
+		},
+		{
+			"slug": "my-account",
+			"title": "My account",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/online-shop/wp-content/uploads/sites/158/themegrill-demos/my-account-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 9,
+		"textSlots": 36,
+		"editableSlots": 34,
+		"images": 12,
+		"swappableImages": 7,
+		"words": 129
+	},
+	"builtAt": "2026-10-24T11:35:08.091Z"
+}

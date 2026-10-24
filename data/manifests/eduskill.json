@@ -1,5 +1,5 @@
 {
-	"version": 3,
+	"version": 4,
 	"slug": "eduskill",
 	"name": "Zakra EduSkill",
 	"theme": "zakra",
@@ -278,7 +278,23 @@
 							"decorative": false,
 							"width": 1257,
 							"height": 700,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling student holding notebooks in a library",
+							"tone": {
+								"grid": [
+									0.04,
+									0.15,
+									0.1,
+									0.06,
+									0.2,
+									0.2,
+									0.07,
+									0.21,
+									0.23
+								],
+								"color": "#262222"
+							}
 						}
 					]
 				},
@@ -699,7 +715,23 @@
 							"decorative": false,
 							"width": 712,
 							"height": 750,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman working on a laptop in a cafe",
+							"tone": {
+								"grid": [
+									0.44,
+									0.15,
+									0.08,
+									0.51,
+									0.39,
+									0.34,
+									0.51,
+									0.4,
+									0.37
+								],
+								"color": "#64594e"
+							}
 						}
 					]
 				},
@@ -785,7 +817,23 @@
 							"decorative": false,
 							"width": 761,
 							"height": 801,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man with headphones concentrating on a laptop",
+							"tone": {
+								"grid": [
+									0.33,
+									0.08,
+									0.1,
+									0.39,
+									0.39,
+									0.38,
+									0.41,
+									0.63,
+									0.67
+								],
+								"color": "#5d615e"
+							}
 						}
 					]
 				},
@@ -871,7 +919,23 @@
 							"decorative": false,
 							"width": 761,
 							"height": 801,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with glasses reading a book",
+							"tone": {
+								"grid": [
+									0.8,
+									0.48,
+									0.71,
+									0.81,
+									0.58,
+									0.67,
+									0.53,
+									0.49,
+									0.6
+								],
+								"color": "#a89f9a"
+							}
 						}
 					]
 				},
@@ -939,7 +1003,23 @@
 							"decorative": false,
 							"width": 1545,
 							"height": 850,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Woman relaxing on a sofa working on a laptop",
+							"tone": {
+								"grid": [
+									0.46,
+									0.37,
+									0.34,
+									0.38,
+									0.33,
+									0.23,
+									0.25,
+									0.18,
+									0.2
+								],
+								"color": "#4c4e52"
+							}
 						},
 						{
 							"id": "455a14f0:image.url",
@@ -1289,7 +1369,23 @@
 							"decorative": false,
 							"width": 451,
 							"height": 451,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling man in a suit and tie, headshot",
+							"tone": {
+								"grid": [
+									0.81,
+									0.45,
+									0.76,
+									0.75,
+									0.61,
+									0.64,
+									0.77,
+									0.66,
+									0.63
+								],
+								"color": "#bca9a0"
+							}
 						},
 						{
 							"id": "71268b04:image.url",
@@ -1315,7 +1411,23 @@
 							"decorative": false,
 							"width": 451,
 							"height": 451,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman with long brown hair outdoors, headshot",
+							"tone": {
+								"grid": [
+									0.76,
+									0.58,
+									0.74,
+									0.48,
+									0.52,
+									0.55,
+									0.65,
+									0.47,
+									0.66
+								],
+								"color": "#b19486"
+							}
 						}
 					]
 				},
@@ -1386,7 +1498,23 @@
 							"decorative": false,
 							"width": 2187,
 							"height": 714,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Silhouette of a person reading a book at dusk",
+							"tone": {
+								"grid": [
+									0.19,
+									0.18,
+									0.07,
+									0.22,
+									0.18,
+									0.05,
+									0.2,
+									0.16,
+									0.02
+								],
+								"color": "#2a231c"
+							}
 						}
 					]
 				},
@@ -1747,5 +1875,5 @@
 		"swappableImages": 8,
 		"words": 500
 	},
-	"builtAt": "2026-10-07T13:48:43.415Z"
+	"builtAt": "2026-10-24T11:35:07.857Z"
 }

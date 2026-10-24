@@ -1,5 +1,5 @@
 {
-	"version": 3,
+	"version": 4,
 	"slug": "construction-02",
 	"name": "Construction 02",
 	"theme": "zakra",
@@ -444,7 +444,23 @@
 							"decorative": false,
 							"width": 680,
 							"height": 439,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Large yellow wheel loader on a plain background",
+							"tone": {
+								"grid": [
+									0.81,
+									0.79,
+									1,
+									0.52,
+									0.5,
+									0.68,
+									0.88,
+									0.69,
+									0.52
+								],
+								"color": "#bfb4a5"
+							}
 						}
 					]
 				},
@@ -868,7 +884,23 @@
 							"decorative": false,
 							"width": 377,
 							"height": 431,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "place",
+							"description": "Historic red brick building among city skyscrapers",
+							"tone": {
+								"grid": [
+									0.83,
+									0.96,
+									0.93,
+									0.59,
+									0.46,
+									0.81,
+									0.51,
+									0.47,
+									0.7
+								],
+								"color": "#b4b1b1"
+							}
 						},
 						{
 							"id": "d160f112:image.url",
@@ -881,7 +913,23 @@
 							"decorative": false,
 							"width": 377,
 							"height": 431,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "place",
+							"description": "White church with a bell tower against a blue sky",
+							"tone": {
+								"grid": [
+									0.56,
+									0.49,
+									0.52,
+									0.64,
+									0.58,
+									0.58,
+									0.51,
+									0.51,
+									0.53
+								],
+								"color": "#828d9a"
+							}
 						},
 						{
 							"id": "34e53191:image.url",
@@ -894,7 +942,23 @@
 							"decorative": false,
 							"width": 377,
 							"height": 431,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "place",
+							"description": "Modern apartment building on a city street corner",
+							"tone": {
+								"grid": [
+									0.95,
+									0.95,
+									0.97,
+									0.67,
+									0.53,
+									0.61,
+									0.53,
+									0.46,
+									0.5
+								],
+								"color": "#acafb0"
+							}
 						},
 						{
 							"id": "92b45a36:image.url",
@@ -907,7 +971,23 @@
 							"decorative": false,
 							"width": 580,
 							"height": 332,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Pedestrian bridge in front of a city skyline",
+							"tone": {
+								"grid": [
+									0.59,
+									0.68,
+									0.75,
+									0.56,
+									0.58,
+									0.55,
+									0.49,
+									0.37,
+									0.44
+								],
+								"color": "#83909d"
+							}
 						},
 						{
 							"id": "42dd376c:image.url",
@@ -920,7 +1000,23 @@
 							"decorative": false,
 							"width": 580,
 							"height": 331,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Row of colorful Victorian houses",
+							"tone": {
+								"grid": [
+									0.55,
+									0.52,
+									0.31,
+									0.38,
+									0.31,
+									0.36,
+									0.36,
+									0.26,
+									0.22
+								],
+								"color": "#555d75"
+							}
 						}
 					]
 				},
@@ -1114,7 +1210,23 @@
 							"decorative": false,
 							"width": 291,
 							"height": 291,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Professional woman with long dark hair in an office, headshot",
+							"tone": {
+								"grid": [
+									0.94,
+									0.64,
+									0.91,
+									0.91,
+									0.51,
+									0.78,
+									0.48,
+									0.37,
+									0.26
+								],
+								"color": "#aca39e"
+							}
 						},
 						{
 							"id": "35deab5a:image.url",
@@ -1127,7 +1239,23 @@
 							"decorative": false,
 							"width": 268,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young man with wavy hair, black and white headshot",
+							"tone": {
+								"grid": [
+									0.12,
+									0.38,
+									0.11,
+									0.07,
+									0.48,
+									0.09,
+									0.11,
+									0.44,
+									0.25
+								],
+								"color": "#3a3a3a"
+							}
 						},
 						{
 							"id": "59dc5ecd:image.url",
@@ -1140,7 +1268,23 @@
 							"decorative": false,
 							"width": 269,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a denim shirt looking through a camera lens",
+							"tone": {
+								"grid": [
+									0.01,
+									0.11,
+									0.01,
+									0.18,
+									0.3,
+									0.04,
+									0.39,
+									0.17,
+									0.27
+								],
+								"color": "#2c292a"
+							}
 						}
 					]
 				},
@@ -1288,7 +1432,23 @@
 							"decorative": false,
 							"width": 150,
 							"height": 150,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with a red bob haircut, headshot",
+							"tone": {
+								"grid": [
+									0.77,
+									0.51,
+									0.75,
+									0.43,
+									0.48,
+									0.42,
+									0.49,
+									0.43,
+									0.5
+								],
+								"color": "#888788"
+							}
 						},
 						{
 							"id": "4cc7716f:image.url",
@@ -1301,7 +1461,23 @@
 							"decorative": false,
 							"width": 150,
 							"height": 150,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young woman with a red bob haircut, headshot",
+							"tone": {
+								"grid": [
+									0.77,
+									0.51,
+									0.75,
+									0.43,
+									0.48,
+									0.42,
+									0.49,
+									0.43,
+									0.5
+								],
+								"color": "#888788"
+							}
 						}
 					]
 				},
@@ -1910,7 +2086,23 @@
 							"decorative": false,
 							"width": 2400,
 							"height": 1583,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "City skyline at sunset",
+							"tone": {
+								"grid": [
+									0.6,
+									0.72,
+									0.55,
+									0.65,
+									0.76,
+									0.63,
+									0.2,
+									0.31,
+									0.22
+								],
+								"color": "#848573"
+							}
 						},
 						{
 							"id": "56f25504:image.url",
@@ -2371,7 +2563,23 @@
 							"decorative": false,
 							"width": 680,
 							"height": 439,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Large yellow wheel loader on a plain background",
+							"tone": {
+								"grid": [
+									0.81,
+									0.79,
+									1,
+									0.52,
+									0.5,
+									0.68,
+									0.88,
+									0.69,
+									0.52
+								],
+								"color": "#bfb4a5"
+							}
 						}
 					]
 				},
@@ -2412,7 +2620,23 @@
 							"decorative": false,
 							"width": 2400,
 							"height": 1583,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "City skyline at sunset",
+							"tone": {
+								"grid": [
+									0.6,
+									0.72,
+									0.55,
+									0.65,
+									0.76,
+									0.63,
+									0.2,
+									0.31,
+									0.22
+								],
+								"color": "#848573"
+							}
 						},
 						{
 							"id": "56f25504:image.url",
@@ -2684,7 +2908,23 @@
 							"decorative": false,
 							"width": 291,
 							"height": 291,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Professional woman with long dark hair in an office, headshot",
+							"tone": {
+								"grid": [
+									0.94,
+									0.64,
+									0.91,
+									0.91,
+									0.51,
+									0.78,
+									0.48,
+									0.37,
+									0.26
+								],
+								"color": "#aca39e"
+							}
 						},
 						{
 							"id": "35deab5a:image.url",
@@ -2697,7 +2937,23 @@
 							"decorative": false,
 							"width": 268,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young man with wavy hair, black and white headshot",
+							"tone": {
+								"grid": [
+									0.12,
+									0.38,
+									0.11,
+									0.07,
+									0.48,
+									0.09,
+									0.11,
+									0.44,
+									0.25
+								],
+								"color": "#3a3a3a"
+							}
 						},
 						{
 							"id": "59dc5ecd:image.url",
@@ -2710,7 +2966,23 @@
 							"decorative": false,
 							"width": 269,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a denim shirt looking through a camera lens",
+							"tone": {
+								"grid": [
+									0.01,
+									0.11,
+									0.01,
+									0.18,
+									0.3,
+									0.04,
+									0.39,
+									0.17,
+									0.27
+								],
+								"color": "#2c292a"
+							}
 						}
 					]
 				},
@@ -2946,7 +3218,23 @@
 							"decorative": false,
 							"width": 1400,
 							"height": 800,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Aerial view of a resort pool surrounded by gardens",
+							"tone": {
+								"grid": [
+									0.17,
+									0.38,
+									0.52,
+									0.28,
+									0.35,
+									0.51,
+									0.43,
+									0.32,
+									0.48
+								],
+								"color": "#566466"
+							}
 						}
 					]
 				},
@@ -3214,7 +3502,23 @@
 							"decorative": false,
 							"width": 680,
 							"height": 439,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Large yellow wheel loader on a plain background",
+							"tone": {
+								"grid": [
+									0.81,
+									0.79,
+									1,
+									0.52,
+									0.5,
+									0.68,
+									0.88,
+									0.69,
+									0.52
+								],
+								"color": "#bfb4a5"
+							}
 						},
 						{
 							"id": "386a5882:image.url",
@@ -3575,7 +3879,23 @@
 							"decorative": false,
 							"width": 291,
 							"height": 291,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Professional woman with long dark hair in an office, headshot",
+							"tone": {
+								"grid": [
+									0.94,
+									0.64,
+									0.91,
+									0.91,
+									0.51,
+									0.78,
+									0.48,
+									0.37,
+									0.26
+								],
+								"color": "#aca39e"
+							}
 						},
 						{
 							"id": "35deab5a:image.url",
@@ -3588,7 +3908,23 @@
 							"decorative": false,
 							"width": 268,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young man with wavy hair, black and white headshot",
+							"tone": {
+								"grid": [
+									0.12,
+									0.38,
+									0.11,
+									0.07,
+									0.48,
+									0.09,
+									0.11,
+									0.44,
+									0.25
+								],
+								"color": "#3a3a3a"
+							}
 						},
 						{
 							"id": "59dc5ecd:image.url",
@@ -3601,7 +3937,23 @@
 							"decorative": false,
 							"width": 269,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a denim shirt looking through a camera lens",
+							"tone": {
+								"grid": [
+									0.01,
+									0.11,
+									0.01,
+									0.18,
+									0.3,
+									0.04,
+									0.39,
+									0.17,
+									0.27
+								],
+								"color": "#2c292a"
+							}
 						}
 					]
 				},
@@ -3795,7 +4147,23 @@
 							"decorative": false,
 							"width": 291,
 							"height": 291,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Professional woman with long dark hair in an office, headshot",
+							"tone": {
+								"grid": [
+									0.94,
+									0.64,
+									0.91,
+									0.91,
+									0.51,
+									0.78,
+									0.48,
+									0.37,
+									0.26
+								],
+								"color": "#aca39e"
+							}
 						},
 						{
 							"id": "decf2f55:image.url",
@@ -3808,7 +4176,23 @@
 							"decorative": false,
 							"width": 268,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young man with wavy hair, black and white headshot",
+							"tone": {
+								"grid": [
+									0.12,
+									0.38,
+									0.11,
+									0.07,
+									0.48,
+									0.09,
+									0.11,
+									0.44,
+									0.25
+								],
+								"color": "#3a3a3a"
+							}
 						},
 						{
 							"id": "f560b93e:image.url",
@@ -3821,7 +4205,23 @@
 							"decorative": false,
 							"width": 269,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a denim shirt looking through a camera lens",
+							"tone": {
+								"grid": [
+									0.01,
+									0.11,
+									0.01,
+									0.18,
+									0.3,
+									0.04,
+									0.39,
+									0.17,
+									0.27
+								],
+								"color": "#2c292a"
+							}
 						}
 					]
 				},
@@ -4015,7 +4415,23 @@
 							"decorative": false,
 							"width": 291,
 							"height": 291,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Professional woman with long dark hair in an office, headshot",
+							"tone": {
+								"grid": [
+									0.94,
+									0.64,
+									0.91,
+									0.91,
+									0.51,
+									0.78,
+									0.48,
+									0.37,
+									0.26
+								],
+								"color": "#aca39e"
+							}
 						},
 						{
 							"id": "b286fca8:image.url",
@@ -4028,7 +4444,23 @@
 							"decorative": false,
 							"width": 268,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young man with wavy hair, black and white headshot",
+							"tone": {
+								"grid": [
+									0.12,
+									0.38,
+									0.11,
+									0.07,
+									0.48,
+									0.09,
+									0.11,
+									0.44,
+									0.25
+								],
+								"color": "#3a3a3a"
+							}
 						},
 						{
 							"id": "1b841a6b:image.url",
@@ -4041,7 +4473,23 @@
 							"decorative": false,
 							"width": 269,
 							"height": 275,
-							"orientation": "square"
+							"orientation": "square",
+							"subject": "person",
+							"description": "Man in a denim shirt looking through a camera lens",
+							"tone": {
+								"grid": [
+									0.01,
+									0.11,
+									0.01,
+									0.18,
+									0.3,
+									0.04,
+									0.39,
+									0.17,
+									0.27
+								],
+								"color": "#2c292a"
+							}
 						}
 					]
 				}
@@ -4106,5 +4554,5 @@
 		"swappableImages": 28,
 		"words": 1239
 	},
-	"builtAt": "2026-10-07T13:48:43.411Z"
+	"builtAt": "2026-10-24T11:35:07.853Z"
 }

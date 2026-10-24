@@ -1,0 +1,2528 @@
+{
+	"version": 4,
+	"slug": "business-firm-v2",
+	"name": "Business Firm V2",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-business-firm-v2/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/business-firm-v2",
+	"niches": [
+		"business",
+		"consulting",
+		"finance"
+	],
+	"keywords": [
+		"business firm",
+		"corporate",
+		"consulting",
+		"company",
+		"enterprise",
+		"accounting"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"woocommerce/woocommerce.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#ffffff",
+				"count": 51,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 25,
+					"background": 16,
+					"icon": 4
+				}
+			},
+			{
+				"hex": "#4ac6d6",
+				"count": 27,
+				"group": "brand",
+				"role": "primary",
+				"base": "#4ac6d6",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 12,
+					"background": 8,
+					"border": 2
+				}
+			},
+			{
+				"hex": "#7a7a7a",
+				"count": 26,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 26
+				}
+			},
+			{
+				"hex": "#5b5b5b",
+				"count": 18,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 16
+				}
+			},
+			{
+				"hex": "#4fc99a",
+				"count": 10,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#4fc99a",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 5,
+					"text": 5
+				}
+			},
+			{
+				"hex": "#f48fb1",
+				"count": 8,
+				"group": "brand",
+				"role": "accent",
+				"base": "#f48fb1",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"background": 4,
+					"text": 4
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 7,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#2aaabb",
+				"count": 7,
+				"group": "brand",
+				"role": "primary",
+				"base": "#4ac6d6",
+				"lightnessDelta": -0.116,
+				"usage": {
+					"background": 4
+				}
+			},
+			{
+				"hex": "#0a251b",
+				"count": 7,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#4fc99a",
+				"lightnessDelta": -0.457
+			},
+			{
+				"hex": "#54595f",
+				"count": 5,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 5
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 5,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 5,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#ffc035",
+				"count": 5,
+				"group": "brand",
+				"role": "accent",
+				"base": "#ffc035",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"background": 4,
+					"text": 1
+				}
+			},
+			{
+				"hex": "#fafafa",
+				"count": 4,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#573dff",
+				"count": 3,
+				"group": "brand",
+				"role": "accent",
+				"base": "#573dff",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#d9e2ea",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#4ac6d6",
+				"lightnessDelta": 0.32
+			},
+			{
+				"hex": "#dddddd",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#f4f4f4",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#33aa7d",
+				"count": 1,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#4fc99a",
+				"lightnessDelta": -0.116,
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#ffb716",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#ffc035",
+				"lightnessDelta": -0.061,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#f48250",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#f48250",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent",
+				"usage": {
+					"text": 1
+				}
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#4ac6d6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#4ac6d6",
+				"large": false,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#2aaabb",
+				"large": true,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#4fc99a",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#7a7a7a",
+				"bg": "#4ac6d6",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#3f3f46",
+				"bg": "#4ac6d6",
+				"large": false,
+				"count": 4,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#4fc99a",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f48fb1",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ffc035",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#4ac6d6",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f48fb1",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#4fc99a",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#4ac6d6",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#f48fb1",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ffc035",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#4ac6d6",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#2aaabb",
+				"large": true,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#d9e2ea",
+				"bg": "#081726",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#33aa7d",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f48250",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#4ac6d6",
+				"bg": "#f4f4f4",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffc035",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#4fc99a",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f48fb1",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#4ac6d6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffb716",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#2aaabb",
+				"bg": "#081726",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fafafa",
+				"bg": "#4ac6d6",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Arima",
+			"body": "Work Sans",
+			"map": {
+				"Arima": "heading",
+				"Work Sans": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "sample-page-2",
+			"title": "Sample Page",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/themegrill-demos/sample-page-2-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "677adb29",
+					"index": 0,
+					"path": "0",
+					"group": "677adb29",
+					"role": "hero",
+					"title": "We are ThemeGrill",
+					"slots": [
+						{
+							"id": "9e2cbf37:text",
+							"blockId": "9e2cbf37",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We are ThemeGrill",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1c668730:text",
+							"blockId": "1c668730",
+							"path": "0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Zakra Invites You To Build Your Next Site",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1f245e3d:text",
+							"blockId": "1f245e3d",
+							"path": "0.0.2.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "LEARN MORE",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fc3e768a:text",
+							"blockId": "fc3e768a",
+							"path": "0.0.2.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "VIEW FEATURES",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "677adb29:background.image.image.url",
+							"blockId": "677adb29",
+							"path": "0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/banner-background.jpg",
+							"decorative": false,
+							"width": 1921,
+							"height": 1080,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Smiling woman in glasses working on a laptop at a desk",
+							"tone": {
+								"grid": [
+									0.21,
+									0.41,
+									0.56,
+									0.46,
+									0.55,
+									0.57,
+									0.5,
+									0.73,
+									0.47
+								],
+								"color": "#867d79"
+							}
+						}
+					]
+				},
+				{
+					"id": "d7959a20",
+					"index": 1,
+					"path": "1",
+					"group": "d7959a20",
+					"role": "features",
+					"title": "Why Choose Zakra",
+					"slots": [
+						{
+							"id": "bee8f2c8:text",
+							"blockId": "bee8f2c8",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Why Choose Zakra",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c9d65b06:text",
+							"blockId": "c9d65b06",
+							"path": "1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Some Awesome Features Of Zakra",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1620665e:text",
+							"blockId": "1620665e",
+							"path": "1.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "AMP Ready",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a047b5ec:text",
+							"blockId": "a047b5ec",
+							"path": "1.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Construction is our main work. We can construct anything imaginable except for the ladder to heaven. Need help? We are just a call away.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ded19d6b:text",
+							"blockId": "ded19d6b",
+							"path": "1.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Elementor Compatible",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "eacc6f99:text",
+							"blockId": "eacc6f99",
+							"path": "1.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Construction is our main work. We can construct anything imaginable except for the ladder to heaven. Need help? We are just a call away.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "89bbc0e6:text",
+							"blockId": "89bbc0e6",
+							"path": "1.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Gutenberg Compatible",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7c06ef3f:text",
+							"blockId": "7c06ef3f",
+							"path": "1.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Construction is our main work. We can construct anything imaginable except for the ladder to heaven. Need help? We are just a call away.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f40c40be:text",
+							"blockId": "f40c40be",
+							"path": "1.0.2.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "GDPR Complaint",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c878509f:text",
+							"blockId": "c878509f",
+							"path": "1.0.2.3.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Construction is our main work. We can construct anything imaginable except for the ladder to heaven. Need help? We are just a call away.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "3290ebbb:image.url",
+							"blockId": "3290ebbb",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-1.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "0621995a:image.url",
+							"blockId": "0621995a",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-2.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "ed5f5227:image.url",
+							"blockId": "ed5f5227",
+							"path": "1.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-3.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						},
+						{
+							"id": "8b73cdfd:image.url",
+							"blockId": "8b73cdfd",
+							"path": "1.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-4.png",
+							"decorative": true,
+							"width": 160,
+							"height": 160,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "96f28e21",
+					"index": 2,
+					"path": "2",
+					"group": "96f28e21",
+					"role": "features",
+					"title": "Important Pages",
+					"slots": [
+						{
+							"id": "85bb8b71:text",
+							"blockId": "85bb8b71",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Important Pages",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bc7d9dc7:text",
+							"blockId": "bc7d9dc7",
+							"path": "2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Pages To Get You Started Right Away",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "70bb9f6b:text",
+							"blockId": "70bb9f6b",
+							"path": "2.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Services",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f3126133:text",
+							"blockId": "f3126133",
+							"path": "2.0.2.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Drag & Drop Page Builder",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d6dfda4a:text",
+							"blockId": "d6dfda4a",
+							"path": "2.0.2.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Know our team, engineers, architects behind our construction team. We are people that find passion in what we do.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0b2cef35:text",
+							"blockId": "0b2cef35",
+							"path": "2.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Contact Us",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e61089be:text",
+							"blockId": "e61089be",
+							"path": "2.0.2.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Integrated Contact Form",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d125b160:text",
+							"blockId": "d125b160",
+							"path": "2.0.2.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Know our team, engineers, architects behind our construction team. We are people that find passion in what we do.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6b762ae1:text",
+							"blockId": "6b762ae1",
+							"path": "2.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Awesome Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c341c704:text",
+							"blockId": "c341c704",
+							"path": "2.0.2.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Dedicated Free Support",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "315e56ac:text",
+							"blockId": "315e56ac",
+							"path": "2.0.2.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Know our team, engineers, architects behind our construction team. We are people that find passion in what we do.",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "039d150a:image.url",
+							"blockId": "039d150a",
+							"path": "2.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/elementor-compatible.png",
+							"decorative": false,
+							"width": 945,
+							"height": 536,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Illustration of people building a website dashboard",
+							"tone": {
+								"grid": [
+									0.69,
+									0.76,
+									0.66,
+									0.73,
+									0.77,
+									0.65,
+									0.69,
+									0.73,
+									0.65
+								],
+								"color": "#32d3f8"
+							}
+						},
+						{
+							"id": "27e1f4fa:image.url",
+							"blockId": "27e1f4fa",
+							"path": "2.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/integrated-contact-form.jpg",
+							"decorative": false,
+							"width": 945,
+							"height": 536,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Illustration of a person on a tablet working with a document",
+							"tone": {
+								"grid": [
+									0.63,
+									0.77,
+									0.62,
+									0.61,
+									0.79,
+									0.61,
+									0.59,
+									0.59,
+									0.59
+								],
+								"color": "#e39774"
+							}
+						},
+						{
+							"id": "6a3003f5:image.url",
+							"blockId": "6a3003f5",
+							"path": "2.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/awesome-support.png",
+							"decorative": false,
+							"width": 945,
+							"height": 536,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Illustration of a woman logging into a website",
+							"tone": {
+								"grid": [
+									0.76,
+									0.75,
+									0.75,
+									0.75,
+									0.79,
+									0.75,
+									0.63,
+									0.76,
+									0.83
+								],
+								"color": "#71d7c3"
+							}
+						}
+					]
+				},
+				{
+					"id": "aec9bbac",
+					"index": 3,
+					"path": "3",
+					"group": "aec9bbac",
+					"role": "pricing",
+					"title": "Plans & Pricing",
+					"slots": [
+						{
+							"id": "dc211f4a:text",
+							"blockId": "dc211f4a",
+							"path": "3.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Plans & Pricing",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "73fb2b88:text",
+							"blockId": "73fb2b88",
+							"path": "3.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Choose The Pricing Right For You",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ce432ccc:text",
+							"blockId": "ce432ccc",
+							"path": "3.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Basic",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cc80c1b4:text",
+							"blockId": "cc80c1b4",
+							"path": "3.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$20",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "69e136b1:text",
+							"blockId": "69e136b1",
+							"path": "3.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "per month",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.0.4.0:@html:p",
+							"blockId": "core-3.0.2.0.4.0",
+							"path": "3.0.2.0.4.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Small to Mid House",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.0.5.0:@html:p",
+							"blockId": "core-3.0.2.0.5.0",
+							"path": "3.0.2.0.5.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Upto 10 Interior Objects",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.0.6.0:@html:p",
+							"blockId": "core-3.0.2.0.6.0",
+							"path": "3.0.2.0.6.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "1 Year Repair Coverage",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.0.7.0:@html:p",
+							"blockId": "core-3.0.2.0.7.0",
+							"path": "3.0.2.0.7.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Upto 4000 sq. feet",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d4a81623:text",
+							"blockId": "d4a81623",
+							"path": "3.0.2.0.8.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5c377b49:text",
+							"blockId": "5c377b49",
+							"path": "3.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Standard",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7de1b29:text",
+							"blockId": "c7de1b29",
+							"path": "3.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$40",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "4e6c350e:text",
+							"blockId": "4e6c350e",
+							"path": "3.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "per month",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.1.4.0:@html:p",
+							"blockId": "core-3.0.2.1.4.0",
+							"path": "3.0.2.1.4.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Small to Mid House",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.1.5.0:@html:p",
+							"blockId": "core-3.0.2.1.5.0",
+							"path": "3.0.2.1.5.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Upto 10 Interior Objects",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.1.6.0:@html:p",
+							"blockId": "core-3.0.2.1.6.0",
+							"path": "3.0.2.1.6.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "1 Year Repair Coverage",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.1.7.0:@html:p",
+							"blockId": "core-3.0.2.1.7.0",
+							"path": "3.0.2.1.7.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Upto 4000 sq. feet",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09dcbfc7:text",
+							"blockId": "09dcbfc7",
+							"path": "3.0.2.1.8.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "fbf090aa:text",
+							"blockId": "fbf090aa",
+							"path": "3.0.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Professional",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1d1ef5ba:text",
+							"blockId": "1d1ef5ba",
+							"path": "3.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "$40",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "9abc4085:text",
+							"blockId": "9abc4085",
+							"path": "3.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "per month",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.2.4.0:@html:p",
+							"blockId": "core-3.0.2.2.4.0",
+							"path": "3.0.2.2.4.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Small to Mid House",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.2.5.0:@html:p",
+							"blockId": "core-3.0.2.2.5.0",
+							"path": "3.0.2.2.5.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Upto 10 Interior Objects",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.2.6.0:@html:p",
+							"blockId": "core-3.0.2.2.6.0",
+							"path": "3.0.2.2.6.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "1 Year Repair Coverage",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "core-3.0.2.2.7.0:@html:p",
+							"blockId": "core-3.0.2.2.7.0",
+							"path": "3.0.2.2.7.0",
+							"block": "core/paragraph",
+							"attr": "@html:p",
+							"kind": "paragraph",
+							"text": "Upto 4000 sq. feet",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cc3185b8:text",
+							"blockId": "cc3185b8",
+							"path": "3.0.2.2.8.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Buy Now",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "f8fcabfd",
+					"index": 4,
+					"path": "4",
+					"group": "f8fcabfd",
+					"role": "team",
+					"title": "Meet the Team",
+					"slots": [
+						{
+							"id": "6f37b5eb:text",
+							"blockId": "6f37b5eb",
+							"path": "4.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Meet the Team",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f11f644d:text",
+							"blockId": "f11f644d",
+							"path": "4.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Professionals Behind Our Each Project",
+							"rich": false,
+							"words": 5,
+							"minWords": 3,
+							"maxWords": 7,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d9826b8b:text",
+							"blockId": "d9826b8b",
+							"path": "4.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "CEO",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "439995e8:text",
+							"blockId": "439995e8",
+							"path": "4.0.2.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Kiya Kramaric",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ba4ed720:text",
+							"blockId": "ba4ed720",
+							"path": "4.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Marketing Head",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f1a35ad3:text",
+							"blockId": "f1a35ad3",
+							"path": "4.0.2.1.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Maria Shimfera",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "368b7126:text",
+							"blockId": "368b7126",
+							"path": "4.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Content Head",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "efe3c14a:text",
+							"blockId": "efe3c14a",
+							"path": "4.0.2.2.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Isika Rostova",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e2df3eff:text",
+							"blockId": "e2df3eff",
+							"path": "4.0.2.3.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Project Manager",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ffd01042:text",
+							"blockId": "ffd01042",
+							"path": "4.0.2.3.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Maya Zukostia",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "23a31cc6:image.url",
+							"blockId": "23a31cc6",
+							"path": "4.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-3.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Blonde young woman close-up portrait",
+							"tone": {
+								"grid": [
+									0.74,
+									0.59,
+									0.82,
+									0.79,
+									0.61,
+									0.72,
+									0.81,
+									0.54,
+									0.53
+								],
+								"color": "#b5af91"
+							}
+						},
+						{
+							"id": "c9994730:image.url",
+							"blockId": "c9994730",
+							"path": "4.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-1.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman wearing large white sunglasses",
+							"tone": {
+								"grid": [
+									0.8,
+									0.65,
+									0.9,
+									0.66,
+									0.58,
+									0.67,
+									0.46,
+									0.61,
+									0.56
+								],
+								"color": "#afa5a4"
+							}
+						},
+						{
+							"id": "84d62321:image.url",
+							"blockId": "84d62321",
+							"path": "4.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-2.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling young woman with glasses portrait",
+							"tone": {
+								"grid": [
+									0.28,
+									0.44,
+									0.35,
+									0.23,
+									0.57,
+									0.35,
+									0.62,
+									0.56,
+									0.29
+								],
+								"color": "#726663"
+							}
+						},
+						{
+							"id": "5a619e70:image.url",
+							"blockId": "5a619e70",
+							"path": "4.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-4.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Woman blowing on a cup of hot coffee",
+							"tone": {
+								"grid": [
+									0.3,
+									0.2,
+									0.26,
+									0.38,
+									0.39,
+									0.15,
+									0.45,
+									0.53,
+									0.2
+								],
+								"color": "#5e4e4b"
+							}
+						}
+					]
+				},
+				{
+					"id": "cd542152",
+					"index": 5,
+					"path": "5",
+					"group": "cd542152",
+					"role": "stats",
+					"title": "Interesting Facts",
+					"slots": [
+						{
+							"id": "1f5b1f01:text",
+							"blockId": "1f5b1f01",
+							"path": "5.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Interesting Facts",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c5608d24:text",
+							"blockId": "c5608d24",
+							"path": "5.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Achievements That We Are Proud Of",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d54ff591:text",
+							"blockId": "d54ff591",
+							"path": "5.0.2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "400+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "a82e554f:text",
+							"blockId": "a82e554f",
+							"path": "5.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Happy Customers",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f371780a:text",
+							"blockId": "f371780a",
+							"path": "5.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "1000+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "92230d32:text",
+							"blockId": "92230d32",
+							"path": "5.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Happy Customers",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "773198c7:text",
+							"blockId": "773198c7",
+							"path": "5.0.2.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "200+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "4d6e7131:text",
+							"blockId": "4d6e7131",
+							"path": "5.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Happy Customers",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "ec65aa91",
+					"index": 6,
+					"path": "6",
+					"group": "ec65aa91",
+					"role": "testimonials",
+					"title": "Testimonials",
+					"slots": [
+						{
+							"id": "4904ff35:text",
+							"blockId": "4904ff35",
+							"path": "6.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Testimonials",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b9ef5ae3:text",
+							"blockId": "b9ef5ae3",
+							"path": "6.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Hear What They Have To Say About Us!",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ae0e2e8d:text",
+							"blockId": "ae0e2e8d",
+							"path": "6.0.2.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"I really like their work, I guess now they have got a new lifetime customer. From now on, every construction project that I do will only be via their construction company.\"",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9410ee9d:text",
+							"blockId": "9410ee9d",
+							"path": "6.0.2.0.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Maria Swartzki",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "cc98385f:text",
+							"blockId": "cc98385f",
+							"path": "6.0.2.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Manager, R & B Group",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb40d547:text",
+							"blockId": "bb40d547",
+							"path": "6.0.2.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"I really like their work, I guess now they have got a new lifetime customer. From now on, every construction project that I do will only be via their construction company.\"",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f6f0b77f:text",
+							"blockId": "f6f0b77f",
+							"path": "6.0.2.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Teresa Henry",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1caa20de:text",
+							"blockId": "1caa20de",
+							"path": "6.0.2.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Manager, R & B Group",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c7769f49:text",
+							"blockId": "c7769f49",
+							"path": "6.0.2.2.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "\"I really like their work, I guess now they have got a new lifetime customer. From now on, every construction project that I do will only be via their construction company.\"",
+							"rich": false,
+							"words": 31,
+							"minWords": 19,
+							"maxWords": 39,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1231faec:text",
+							"blockId": "1231faec",
+							"path": "6.0.2.2.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Martina Henks",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c904a03d:text",
+							"blockId": "c904a03d",
+							"path": "6.0.2.2.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Manager, R & B Group",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "291e79d3:image.url",
+							"blockId": "291e79d3",
+							"path": "6.0.2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-3.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Blonde young woman close-up portrait",
+							"tone": {
+								"grid": [
+									0.74,
+									0.59,
+									0.82,
+									0.79,
+									0.61,
+									0.72,
+									0.81,
+									0.54,
+									0.53
+								],
+								"color": "#b5af91"
+							}
+						},
+						{
+							"id": "86869284:image.url",
+							"blockId": "86869284",
+							"path": "6.0.2.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-1.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Smiling woman wearing large white sunglasses",
+							"tone": {
+								"grid": [
+									0.8,
+									0.65,
+									0.9,
+									0.66,
+									0.58,
+									0.67,
+									0.46,
+									0.61,
+									0.56
+								],
+								"color": "#afa5a4"
+							}
+						},
+						{
+							"id": "f6836b9e:image.url",
+							"blockId": "f6836b9e",
+							"path": "6.0.2.2.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-3.jpg",
+							"decorative": false,
+							"width": 400,
+							"height": 400,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Blonde young woman close-up portrait",
+							"tone": {
+								"grid": [
+									0.74,
+									0.59,
+									0.82,
+									0.79,
+									0.61,
+									0.72,
+									0.81,
+									0.54,
+									0.53
+								],
+								"color": "#b5af91"
+							}
+						}
+					]
+				},
+				{
+					"id": "c2764a50",
+					"index": 7,
+					"path": "7",
+					"group": "c2764a50",
+					"role": "logos",
+					"title": "Our Clients",
+					"slots": [
+						{
+							"id": "0eca5eaf:text",
+							"blockId": "0eca5eaf",
+							"path": "7.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Our Clients",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c6f511ec:text",
+							"blockId": "c6f511ec",
+							"path": "7.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Awesome Customers That We Have Worked With",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c60eb9c1:image.url",
+							"blockId": "c60eb9c1",
+							"path": "7.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/x.venox_.png",
+							"decorative": true,
+							"width": 200,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "229d2545:image.url",
+							"blockId": "229d2545",
+							"path": "7.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/qum.png",
+							"decorative": true,
+							"width": 200,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "2ff42925:image.url",
+							"blockId": "2ff42925",
+							"path": "7.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/mapmaster.png",
+							"decorative": true,
+							"width": 200,
+							"height": 150,
+							"orientation": "landscape"
+						},
+						{
+							"id": "ea0cc9a5:image.url",
+							"blockId": "ea0cc9a5",
+							"path": "7.0.2.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/madrin.png",
+							"decorative": true,
+							"width": 200,
+							"height": 150,
+							"orientation": "landscape"
+						}
+					]
+				},
+				{
+					"id": "ea3f4bff",
+					"index": 8,
+					"path": "8",
+					"group": "ea3f4bff",
+					"role": "cta",
+					"title": "Zakra is a Free Multipurpose free WordPress theme",
+					"slots": [
+						{
+							"id": "791e4257:text",
+							"blockId": "791e4257",
+							"path": "8.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h4",
+							"text": "Zakra is a Free Multipurpose free WordPress theme",
+							"rich": false,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "704428b7:text",
+							"blockId": "704428b7",
+							"path": "8.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Use Zakra To Build Your Next Site!",
+							"rich": true,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "abd8c2f0:text",
+							"blockId": "abd8c2f0",
+							"path": "8.1.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Free Download",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "677adb29",
+					"role": "hero",
+					"title": "We are ThemeGrill",
+					"sectionIds": [
+						"677adb29"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "d7959a20",
+					"role": "features",
+					"title": "Why Choose Zakra",
+					"sectionIds": [
+						"d7959a20"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "96f28e21",
+					"role": "features",
+					"title": "Important Pages",
+					"sectionIds": [
+						"96f28e21"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "aec9bbac",
+					"role": "pricing",
+					"title": "Plans & Pricing",
+					"sectionIds": [
+						"aec9bbac"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"pricing_plans"
+						]
+					}
+				},
+				{
+					"id": "f8fcabfd",
+					"role": "team",
+					"title": "Meet the Team",
+					"sectionIds": [
+						"f8fcabfd"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"team"
+						]
+					}
+				},
+				{
+					"id": "cd542152",
+					"role": "stats",
+					"title": "Interesting Facts",
+					"sectionIds": [
+						"cd542152"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"stats"
+						]
+					}
+				},
+				{
+					"id": "ec65aa91",
+					"role": "testimonials",
+					"title": "Testimonials",
+					"sectionIds": [
+						"ec65aa91"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c2764a50",
+					"role": "logos",
+					"title": "Our Clients",
+					"sectionIds": [
+						"c2764a50"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "ea3f4bff",
+					"role": "cta",
+					"title": "Zakra is a Free Multipurpose free WordPress theme",
+					"sectionIds": [
+						"ea3f4bff"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "shop",
+			"title": "Shop",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/themegrill-demos/shop-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "cart",
+			"title": "Cart",
+			"type": "other",
+			"sourceUrl": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/themegrill-demos/cart-content.xml",
+			"sections": [
+				{
+					"id": "top-0",
+					"index": 0,
+					"path": "0",
+					"group": "top-0",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "top-0",
+					"role": "dynamic",
+					"sectionIds": [
+						"top-0"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 10,
+		"textSlots": 85,
+		"editableSlots": 79,
+		"images": 19,
+		"swappableImages": 11,
+		"words": 462
+	},
+	"builtAt": "2026-10-24T11:35:07.961Z"
+}

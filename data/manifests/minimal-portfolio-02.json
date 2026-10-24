@@ -1,0 +1,1549 @@
+{
+	"version": 4,
+	"slug": "minimal-portfolio-02",
+	"name": "Zakra Minimal Portfolio",
+	"theme": "zakra",
+	"premium": false,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-minimal-portfolio-02/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/minimal-portfolio-02",
+	"niches": [
+		"portfolio",
+		"creative"
+	],
+	"keywords": [
+		"portfolio",
+		"designer",
+		"artist",
+		"freelancer",
+		"creative",
+		"illustrator",
+		"personal portfolio"
+	],
+	"plugins": [
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#868e96",
+				"count": 23,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"text": 19
+				}
+			},
+			{
+				"hex": "#f2f2f2",
+				"count": 15,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 15
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 12,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 12
+				}
+			},
+			{
+				"hex": "#20c997",
+				"count": 11,
+				"group": "brand",
+				"role": "primary",
+				"base": "#20c997",
+				"lightnessDelta": 0,
+				"usage": {
+					"text": 9
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 7,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 2
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#20cb98",
+				"count": 4,
+				"group": "brand",
+				"role": "primary",
+				"base": "#20c997",
+				"lightnessDelta": 0.004
+			},
+			{
+				"hex": "#212529",
+				"count": 3,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"background": 1,
+					"border": 2
+				}
+			},
+			{
+				"hex": "#000000",
+				"count": 3,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#889099",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#3f3b38",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#f1f1f1",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fff9f9",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
+				"hex": "#20c996",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#20c997",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#1db772",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#20c997",
+				"lightnessDelta": -0.041,
+				"usage": {
+					"background": 1
+				}
+			},
+			{
+				"hex": "#08c98f",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#20c997",
+				"lightnessDelta": -0.047
+			},
+			{
+				"hex": "#20cc98",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#20c997",
+				"lightnessDelta": 0.006
+			},
+			{
+				"hex": "#1cb487",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#20c997",
+				"lightnessDelta": -0.049
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#20c997",
+				"bg": "#e9faf5",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#20c997",
+				"bg": "#e9faf5",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#20c997",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#20c997",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#20c997",
+				"bg": "#212529",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#1db772",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#08c98f",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#f1f1f1",
+				"bg": "#1cb487",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#20c997",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Poppins",
+			"body": "Lato",
+			"map": {
+				"Poppins": "heading",
+				"Lato": "body",
+				"Work Sans": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "a6646ff7",
+					"index": 0,
+					"path": "0",
+					"group": "a6646ff7",
+					"role": "hero",
+					"title": "I am Michael",
+					"slots": [
+						{
+							"id": "90a5f4ef:text",
+							"blockId": "90a5f4ef",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h1",
+							"text": "I am Michael",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ef68a1dd:text",
+							"blockId": "ef68a1dd",
+							"path": "0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "GRAPHIC DESIGNER | WEB DESIGNER",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6ac99c33:text",
+							"blockId": "6ac99c33",
+							"path": "0.1.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non velit in justo lobortis non velit non velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "a237f178:image.url",
+							"blockId": "a237f178",
+							"path": "0.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/facebook-icons.png",
+							"decorative": true,
+							"width": 42,
+							"height": 42,
+							"orientation": "square"
+						},
+						{
+							"id": "4cd028c7:image.url",
+							"blockId": "4cd028c7",
+							"path": "0.1.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/twitter-icon.png",
+							"decorative": true,
+							"width": 42,
+							"height": 42,
+							"orientation": "square"
+						},
+						{
+							"id": "670facd5:image.url",
+							"blockId": "670facd5",
+							"path": "0.1.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/instagram-icon.png",
+							"decorative": true,
+							"width": 42,
+							"height": 42,
+							"orientation": "square"
+						},
+						{
+							"id": "a4951bd5:image.url",
+							"blockId": "a4951bd5",
+							"path": "0.1.1.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/linkedin-icon.png",
+							"decorative": true,
+							"width": 42,
+							"height": 42,
+							"orientation": "square"
+						},
+						{
+							"id": "a4af9980:image.url",
+							"blockId": "a4af9980",
+							"path": "0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/banner.png",
+							"decorative": false,
+							"width": 432,
+							"height": 450,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Young man with glasses in a teal t-shirt looking sideways",
+							"tone": {
+								"grid": [
+									0.92,
+									0.43,
+									1,
+									0.86,
+									0.57,
+									0.92,
+									0.6,
+									0.6,
+									0.56
+								],
+								"color": "#86c4c6"
+							}
+						}
+					]
+				},
+				{
+					"id": "5b6e95f5",
+					"index": 1,
+					"path": "1",
+					"group": "5b6e95f5",
+					"role": "content",
+					"title": "ABOUT ME",
+					"slots": [
+						{
+							"id": "111986d5:text",
+							"blockId": "111986d5",
+							"path": "1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ABOUT ME",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "09a07bf9:text",
+							"blockId": "09a07bf9",
+							"path": "1.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh. pulvinar a. Sed porttitor lectus nibh.",
+							"rich": false,
+							"words": 66,
+							"minWords": 40,
+							"maxWords": 83,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "de5e65b3:text",
+							"blockId": "de5e65b3",
+							"path": "1.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet nisl tempus convallis quis ac.",
+							"rich": true,
+							"words": 20,
+							"minWords": 12,
+							"maxWords": 25,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "44e0d6fc:text",
+							"blockId": "44e0d6fc",
+							"path": "1.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Ponec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.",
+							"rich": false,
+							"words": 24,
+							"minWords": 14,
+							"maxWords": 30,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4b9f8f02:text",
+							"blockId": "4b9f8f02",
+							"path": "1.0.1.1.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "12+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "871df9ba:text",
+							"blockId": "871df9ba",
+							"path": "1.0.1.1.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Years of Experience",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d9b565e1:text",
+							"blockId": "d9b565e1",
+							"path": "1.0.1.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "80+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "67ddb2e4:text",
+							"blockId": "67ddb2e4",
+							"path": "1.0.1.1.0.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Happy Customers",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5f60f9a5:text",
+							"blockId": "5f60f9a5",
+							"path": "1.0.1.1.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "90+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "26f0f780:text",
+							"blockId": "26f0f780",
+							"path": "1.0.1.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Completed Projects",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a0d9b0d1:text",
+							"blockId": "a0d9b0d1",
+							"path": "1.0.1.1.1.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "10+",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "4d57fed8:text",
+							"blockId": "4d57fed8",
+							"path": "1.0.1.1.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Awards",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "c0a1e035",
+					"index": 2,
+					"path": "2",
+					"group": "c0a1e035",
+					"role": "features",
+					"title": "MY WORKS",
+					"slots": [
+						{
+							"id": "0c586847:text",
+							"blockId": "0c586847",
+							"path": "2.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "MY WORKS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a29d44f4:text",
+							"blockId": "a29d44f4",
+							"path": "2.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Cras Dictum Lacus",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "543bf743:text",
+							"blockId": "543bf743",
+							"path": "2.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "DESIGN CONCEPT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9386a79:text",
+							"blockId": "a9386a79",
+							"path": "2.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Nulla Lobortis Orci",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c6a8ed97:text",
+							"blockId": "c6a8ed97",
+							"path": "2.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "MOBILE APPLICATIONS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bc22617d:text",
+							"blockId": "bc22617d",
+							"path": "2.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Fusce Venenatis Justo",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c4932878:text",
+							"blockId": "c4932878",
+							"path": "2.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "WEBSITES & PLATFORMS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2c3cee07:text",
+							"blockId": "2c3cee07",
+							"path": "2.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Pras Dictum Lacus",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ee7a5e1:text",
+							"blockId": "9ee7a5e1",
+							"path": "2.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BRAND STRATEGY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c07f5430:text",
+							"blockId": "c07f5430",
+							"path": "2.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Wulla Lobortis Orci",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "56bb3ca1:text",
+							"blockId": "56bb3ca1",
+							"path": "2.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "POSTER MOCKUP",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "63a8218e:text",
+							"blockId": "63a8218e",
+							"path": "2.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Musce Venenatis Justo",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "32c96007:text",
+							"blockId": "32c96007",
+							"path": "2.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "WEB DESIGN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "6630d6dd:text",
+							"blockId": "6630d6dd",
+							"path": "2.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "View More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "2759661e:image.url",
+							"blockId": "2759661e",
+							"path": "2.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2022/01/design-concept.jpg",
+							"decorative": false,
+							"width": 1280,
+							"height": 853,
+							"orientation": "landscape",
+							"subject": "place",
+							"description": "Home office desk with two iMac monitors and a plant",
+							"tone": {
+								"grid": [
+									0.65,
+									0.72,
+									0.77,
+									0.59,
+									0.38,
+									0.46,
+									0.71,
+									0.66,
+									0.58
+								],
+								"color": "#9f9b99"
+							}
+						},
+						{
+							"id": "b2c9ded0:image.url",
+							"blockId": "b2c9ded0",
+							"path": "2.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2022/01/mobile_application.jpg",
+							"decorative": false,
+							"width": 1280,
+							"height": 850,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "iMac, keyboard, mouse and tablet with apps on a wooden desk",
+							"tone": {
+								"grid": [
+									0.53,
+									0.76,
+									0.81,
+									0.78,
+									0.81,
+									0.8,
+									0.75,
+									0.79,
+									0.78
+								],
+								"color": "#c5bfc3"
+							}
+						},
+						{
+							"id": "5a6dfc07:image.url",
+							"blockId": "5a6dfc07",
+							"path": "2.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2022/01/Website-Platform.jpg",
+							"decorative": false,
+							"width": 650,
+							"height": 432,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "iMac, laptop, keyboard and tablet on a wooden desk",
+							"tone": {
+								"grid": [
+									0.53,
+									0.54,
+									0.56,
+									0.53,
+									0.62,
+									0.41,
+									0.38,
+									0.52,
+									0.49
+								],
+								"color": "#8a807e"
+							}
+						},
+						{
+							"id": "8f383cc3:image.url",
+							"blockId": "8f383cc3",
+							"path": "2.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2022/01/Strategy-and-branding.jpg",
+							"decorative": false,
+							"width": 1280,
+							"height": 854,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Branding stationery mockup flat lay with clipboard and cards",
+							"tone": {
+								"grid": [
+									0.75,
+									0.64,
+									0.6,
+									0.61,
+									0.76,
+									0.6,
+									0.55,
+									0.72,
+									0.66
+								],
+								"color": "#a9a6ab"
+							}
+						},
+						{
+							"id": "5082f787:image.url",
+							"blockId": "5082f787",
+							"path": "2.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2022/01/poster-mockup.jpg",
+							"decorative": false,
+							"width": 800,
+							"height": 533,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Poster mockup with a cardboard tube",
+							"tone": {
+								"grid": [
+									0.83,
+									0.85,
+									0.83,
+									0.84,
+									0.82,
+									0.84,
+									0.82,
+									0.66,
+									0.73
+								],
+								"color": "#d1ceb1"
+							}
+						},
+						{
+							"id": "e30f9fba:image.url",
+							"blockId": "e30f9fba",
+							"path": "2.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/web-design-tools-min.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 600,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Laptop, notebook, pencil and earphones on a desk from above",
+							"tone": {
+								"grid": [
+									0.37,
+									0.63,
+									0.52,
+									0.61,
+									0.78,
+									0.46,
+									0.84,
+									0.83,
+									0.63
+								],
+								"color": "#9da29a"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "a6646ff7",
+					"role": "hero",
+					"title": "I am Michael",
+					"sectionIds": [
+						"a6646ff7"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5b6e95f5",
+					"role": "content",
+					"title": "ABOUT ME",
+					"sectionIds": [
+						"5b6e95f5"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "c0a1e035",
+					"role": "features",
+					"title": "MY WORKS",
+					"sectionIds": [
+						"c0a1e035"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "portfolio",
+			"title": "Portfolio",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/themegrill-demos/portfolio-content.xml",
+			"sections": [
+				{
+					"id": "c0a1e035",
+					"index": 0,
+					"path": "0",
+					"group": "c0a1e035",
+					"role": "hero",
+					"title": "MY WORKS",
+					"slots": [
+						{
+							"id": "0c586847:text",
+							"blockId": "0c586847",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "MY WORKS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a29d44f4:text",
+							"blockId": "a29d44f4",
+							"path": "0.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Cras Dictum Lacus",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "543bf743:text",
+							"blockId": "543bf743",
+							"path": "0.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "DESIGN CONCEPT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "a9386a79:text",
+							"blockId": "a9386a79",
+							"path": "0.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Nulla Lobortis Orci",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c6a8ed97:text",
+							"blockId": "c6a8ed97",
+							"path": "0.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "MOBILE APPLICATIONS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bc22617d:text",
+							"blockId": "bc22617d",
+							"path": "0.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Fusce Venenatis Justo",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c4932878:text",
+							"blockId": "c4932878",
+							"path": "0.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "WEBSITES & PLATFORMS",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2c3cee07:text",
+							"blockId": "2c3cee07",
+							"path": "0.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Pras Dictum Lacus",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9ee7a5e1:text",
+							"blockId": "9ee7a5e1",
+							"path": "0.0.2.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "BRAND STRATEGY",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c07f5430:text",
+							"blockId": "c07f5430",
+							"path": "0.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Wulla Lobortis Orci",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "56bb3ca1:text",
+							"blockId": "56bb3ca1",
+							"path": "0.0.2.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "POSTER MOCKUP",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "63a8218e:text",
+							"blockId": "63a8218e",
+							"path": "0.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h3",
+							"text": "Musce Venenatis Justo",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "32c96007:text",
+							"blockId": "32c96007",
+							"path": "0.0.2.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "WEB DESIGN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "c0a1e035",
+					"role": "hero",
+					"title": "MY WORKS",
+					"sectionIds": [
+						"c0a1e035"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "c0a1e035",
+					"index": 0,
+					"path": "0",
+					"group": "c0a1e035",
+					"role": "hero",
+					"title": "STAY IN TOUCH",
+					"slots": [
+						{
+							"id": "0c586847:text",
+							"blockId": "0c586847",
+							"path": "0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "STAY IN TOUCH",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "543bf743:text",
+							"blockId": "543bf743",
+							"path": "0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "445 Mount Eden Road,",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e695b85a:text",
+							"blockId": "e695b85a",
+							"path": "0.0.1.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Mount Eden, Auckland",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0b1c35d4:text",
+							"blockId": "0b1c35d4",
+							"path": "0.0.1.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+977-12345678",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "527853b0:text",
+							"blockId": "527853b0",
+							"path": "0.0.1.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "+911-98745632",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "5ca34840:text",
+							"blockId": "5ca34840",
+							"path": "0.0.1.2.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "mail@example.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "221aff9c:text",
+							"blockId": "221aff9c",
+							"path": "0.0.1.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "support@example.com",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						}
+					],
+					"images": [
+						{
+							"id": "ff7037bb:image.url",
+							"blockId": "ff7037bb",
+							"path": "0.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/icon_location.png",
+							"decorative": true,
+							"width": 501,
+							"height": 501,
+							"orientation": "square"
+						},
+						{
+							"id": "2f142fb9:image.url",
+							"blockId": "2f142fb9",
+							"path": "0.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/icon_phone.png",
+							"decorative": true,
+							"width": 501,
+							"height": 501,
+							"orientation": "square"
+						},
+						{
+							"id": "6a6cf27f:image.url",
+							"blockId": "6a6cf27f",
+							"path": "0.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/icon_mail.png",
+							"decorative": true,
+							"width": 500,
+							"height": 501,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "06ae395f",
+					"index": 1,
+					"path": "1",
+					"group": "06ae395f",
+					"role": "dynamic",
+					"slots": [],
+					"images": [],
+					"dynamicBlocks": [
+						"core/shortcode"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "c0a1e035",
+					"role": "hero",
+					"title": "STAY IN TOUCH",
+					"sectionIds": [
+						"c0a1e035"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "06ae395f",
+					"role": "dynamic",
+					"sectionIds": [
+						"06ae395f"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 6,
+		"textSlots": 49,
+		"editableSlots": 41,
+		"images": 14,
+		"swappableImages": 7,
+		"words": 229
+	},
+	"builtAt": "2026-10-24T11:35:07.894Z"
+}

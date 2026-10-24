@@ -30,6 +30,7 @@ const KIND_LABEL: Record<TextSlot['kind'], string> = {
 	answer: 'FAQ answer',
 	caption: 'image caption',
 	overlay: 'image overlay label',
+	label: 'label under a counter number',
 };
 
 const system = (ctx: CopyContext) => `You are an expert website copywriter filling in an existing website template for a real business, one text slot at a time.

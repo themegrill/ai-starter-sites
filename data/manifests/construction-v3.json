@@ -1,0 +1,3311 @@
+{
+	"version": 4,
+	"slug": "construction-v3",
+	"name": "Construction V3",
+	"theme": "zakra",
+	"premium": true,
+	"previewImage": "https://d1sb0nhp4t2db4.cloudfront.net/resources/zakra/zakra-construction-v3/screenshot.jpg",
+	"demoUrl": "https://zakrademos.com/construction-v3",
+	"niches": [
+		"construction",
+		"home-services",
+		"trades"
+	],
+	"keywords": [
+		"construction",
+		"roofing",
+		"contractor",
+		"renovation",
+		"builder",
+		"siding",
+		"remodeling"
+	],
+	"plugins": [
+		"zakra-pro/zakra-pro.php",
+		"blockart-blocks/blockart.php",
+		"everest-forms/everest-forms.php"
+	],
+	"brand": {
+		"colors": [
+			{
+				"hex": "#000000",
+				"count": 79,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 50,
+					"background": 3,
+					"border": 9
+				}
+			},
+			{
+				"hex": "#ffc40e",
+				"count": 40,
+				"group": "brand",
+				"role": "primary",
+				"base": "#ffc40e",
+				"lightnessDelta": 0,
+				"usage": {
+					"background": 16,
+					"border": 15,
+					"text": 5
+				}
+			},
+			{
+				"hex": "#16181a",
+				"count": 37,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 32
+				}
+			},
+			{
+				"hex": "#212529",
+				"count": 30,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 18,
+					"background": 6,
+					"border": 6
+				}
+			},
+			{
+				"hex": "#ffffff",
+				"count": 24,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 13,
+					"background": 5
+				}
+			},
+			{
+				"hex": "#3f3f46",
+				"count": 7,
+				"group": "neutral",
+				"role": "text",
+				"usage": {
+					"text": 4
+				}
+			},
+			{
+				"hex": "#e9ecef",
+				"count": 6,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#027abb",
+				"count": 4,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#e4e4e7",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#fafafa",
+				"count": 3,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#d16519",
+				"count": 2,
+				"group": "brand",
+				"role": "primary",
+				"base": "#ffc40e",
+				"lightnessDelta": -0.069
+			},
+			{
+				"hex": "#ff1f1f",
+				"count": 2,
+				"group": "brand",
+				"role": "accent",
+				"base": "#ff1f1f",
+				"lightnessDelta": 0,
+				"locked": true,
+				"lockReason": "accent"
+			},
+			{
+				"hex": "#d4d4d8",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#1e7ba6",
+				"count": 1,
+				"group": "brand",
+				"role": "accent",
+				"base": "#027abb",
+				"lightnessDelta": 0.014,
+				"locked": true,
+				"lockReason": "accent"
+			}
+		],
+		"contrastPairs": [
+			{
+				"fg": "#16181a",
+				"bg": "#ffc40e",
+				"large": true,
+				"count": 15,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#212529",
+				"bg": "#ffc40e",
+				"large": false,
+				"count": 14,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#ffc40e",
+				"large": false,
+				"count": 10,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffc40e",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#ffc40e",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#027abb",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
+				"scope": "theme"
+			},
+			{
+				"fg": "#3f3f46",
+				"bg": "#ffc40e",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#16181a",
+				"bg": "#ffc40e",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#000000",
+				"bg": "#ffc40e",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#1e7ba6",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#027abb",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
+		"fonts": {
+			"heading": "Oswald",
+			"body": "Open Sans",
+			"map": {
+				"Oswald": "heading",
+				"Open Sans": "body"
+			}
+		}
+	},
+	"pages": [
+		{
+			"slug": "home",
+			"title": "Home",
+			"type": "home",
+			"sourceUrl": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/themegrill-demos/home-content.xml",
+			"sections": [
+				{
+					"id": "135c5f1b",
+					"index": 0,
+					"path": "0",
+					"group": "135c5f1b",
+					"role": "hero",
+					"title": "With us you don’t need to guess, our work will sure impress!",
+					"slots": [
+						{
+							"id": "7ba8a522:text",
+							"blockId": "7ba8a522",
+							"path": "0.1.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "With us you don’t need to guess, our work will sure impress!",
+							"rich": true,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "06ccfc33:text",
+							"blockId": "06ccfc33",
+							"path": "0.1.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam augue nulla, sollicitudin et convallis vitae, fringilla et dui.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3a594743:text",
+							"blockId": "3a594743",
+							"path": "0.1.0.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "4de8efeb:image.url",
+							"blockId": "4de8efeb",
+							"path": "0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10002.png",
+							"decorative": true,
+							"width": 130,
+							"height": 118,
+							"orientation": "square"
+						},
+						{
+							"id": "bfac6279:image.url",
+							"blockId": "bfac6279",
+							"path": "0.1.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10004.jpg",
+							"decorative": false,
+							"width": 1248,
+							"height": 1200,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Yellow wheel loader on a dirt construction site",
+							"tone": {
+								"grid": [
+									0.82,
+									0.58,
+									0.69,
+									0.48,
+									0.38,
+									0.39,
+									0.33,
+									0.25,
+									0.16
+								],
+								"color": "#877254"
+							}
+						},
+						{
+							"id": "09d35dec:image.url",
+							"blockId": "09d35dec",
+							"path": "0.1.0.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10003.jpg",
+							"decorative": false,
+							"width": 1248,
+							"height": 1200,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Yellow wheel loader parked on a gravel site",
+							"tone": {
+								"grid": [
+									0.89,
+									0.74,
+									0.72,
+									0.53,
+									0.36,
+									0.4,
+									0.61,
+									0.5,
+									0.62
+								],
+								"color": "#a3968b"
+							}
+						}
+					]
+				},
+				{
+					"id": "cb9f3374",
+					"index": 1,
+					"path": "1",
+					"group": "cb9f3374",
+					"role": "content",
+					"title": "Call us:",
+					"slots": [
+						{
+							"id": "123bf9c2:text",
+							"blockId": "123bf9c2",
+							"path": "1.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Call us:",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "13286323:text",
+							"blockId": "13286323",
+							"path": "1.1.0.0.2",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "977 - 222 - 444 - 666",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						}
+					],
+					"images": [
+						{
+							"id": "da428f93:image.url",
+							"blockId": "da428f93",
+							"path": "1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/phone-call-e1711874070821.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "00b5d408",
+					"index": 2,
+					"path": "2",
+					"group": "00b5d408",
+					"role": "cta",
+					"title": "When it comes to your house, don’t mess with the rest, trust the best no matter whatever it takes",
+					"slots": [
+						{
+							"id": "6add052e:text",
+							"blockId": "6add052e",
+							"path": "2.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "When it comes to your house, don’t mess with the rest, trust the best no matter whatever it takes",
+							"rich": false,
+							"words": 19,
+							"minWords": 11,
+							"maxWords": 24,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0a69425a:text",
+							"blockId": "0a69425a",
+							"path": "2.2.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Welcome To Our Reputated Firm Zakra Kunstruct",
+							"rich": false,
+							"words": 7,
+							"minWords": 4,
+							"maxWords": 9,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "748439a4:text",
+							"blockId": "748439a4",
+							"path": "2.2.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam augue nulla, sollicitudin et convallis vitae, fringilla et dui. Suspendisse laoreet massa lectus, sit amet congue libero.",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "11ecbb29:text",
+							"blockId": "11ecbb29",
+							"path": "2.2.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "explore More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "1676becd:image.url",
+							"blockId": "1676becd",
+							"path": "2.2.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10006.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 480,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Orange excavator digging at a sandy construction site",
+							"tone": {
+								"grid": [
+									0.77,
+									0.69,
+									0.59,
+									0.62,
+									0.45,
+									0.6,
+									0.41,
+									0.36,
+									0.51
+								],
+								"color": "#bc883c"
+							}
+						},
+						{
+							"id": "a0ae75eb:image.url",
+							"blockId": "a0ae75eb",
+							"path": "2.2.0.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10005.jpg",
+							"decorative": false,
+							"width": 500,
+							"height": 480,
+							"orientation": "square",
+							"subject": "object",
+							"description": "Backhoe loader parked at a work site near trees",
+							"tone": {
+								"grid": [
+									0.23,
+									0.35,
+									0.6,
+									0.21,
+									0.3,
+									0.37,
+									0.6,
+									0.56,
+									0.56
+								],
+								"color": "#726b51"
+							}
+						}
+					]
+				},
+				{
+					"id": "5e8a74a5",
+					"index": 3,
+					"path": "3",
+					"group": "5e8a74a5",
+					"role": "content",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"slots": [
+						{
+							"id": "bd897834:text",
+							"blockId": "bd897834",
+							"path": "3.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Save yourself trouble and aggravation, hire us for your renovation.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "ca51fd75",
+					"index": 4,
+					"path": "4",
+					"group": "ca51fd75",
+					"role": "content",
+					"title": "Construction",
+					"slots": [
+						{
+							"id": "ebdad6c4:text",
+							"blockId": "ebdad6c4",
+							"path": "4.1.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Construction",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "11e62c7f:text",
+							"blockId": "11e62c7f",
+							"path": "4.1.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sollicitudin et nulla vitae.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "79fa6b56:text",
+							"blockId": "79fa6b56",
+							"path": "4.1.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Design",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "49c3f1b2:text",
+							"blockId": "49c3f1b2",
+							"path": "4.1.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sollicitudin et nulla vitae.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "879d91ce:text",
+							"blockId": "879d91ce",
+							"path": "4.1.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Renovation",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "df0338d1:text",
+							"blockId": "df0338d1",
+							"path": "4.1.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sollicitudin et nulla vitae.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e7a3e856:text",
+							"blockId": "e7a3e856",
+							"path": "4.1.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Interior Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e8d21cd4:text",
+							"blockId": "e8d21cd4",
+							"path": "4.1.1.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sollicitudin et nulla vitae.",
+							"rich": false,
+							"words": 12,
+							"minWords": 7,
+							"maxWords": 15,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "09582e7f:text",
+							"blockId": "09582e7f",
+							"path": "4.1.2.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "view all services",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "0c9cfefc:image.url",
+							"blockId": "0c9cfefc",
+							"path": "4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10007.jpg",
+							"decorative": false,
+							"width": 1142,
+							"height": 748,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Yellow wheel loader on a dirt mound",
+							"tone": {
+								"grid": [
+									0.79,
+									0.57,
+									0.79,
+									0.52,
+									0.39,
+									0.52,
+									0.32,
+									0.3,
+									0.36
+								],
+								"color": "#9b7e5b"
+							}
+						},
+						{
+							"id": "eaab6d89:image.url",
+							"blockId": "eaab6d89",
+							"path": "4.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/Screenshot-2024-03-30-022104.png",
+							"decorative": true,
+							"width": 153,
+							"height": 142,
+							"orientation": "square"
+						},
+						{
+							"id": "3c24be00:image.url",
+							"blockId": "3c24be00",
+							"path": "4.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/Screenshot-2024-03-30-022238.png",
+							"decorative": true,
+							"width": 153,
+							"height": 144,
+							"orientation": "square"
+						},
+						{
+							"id": "de13b9f5:image.url",
+							"blockId": "de13b9f5",
+							"path": "4.1.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/wrench.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						},
+						{
+							"id": "929d451c:image.url",
+							"blockId": "929d451c",
+							"path": "4.1.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/home.png",
+							"decorative": true,
+							"width": 64,
+							"height": 64,
+							"orientation": "square"
+						}
+					]
+				},
+				{
+					"id": "74a96d3c",
+					"index": 5,
+					"path": "5",
+					"group": "74a96d3c",
+					"role": "logos",
+					"slots": [],
+					"images": [
+						{
+							"id": "80adeed3:image.url",
+							"blockId": "80adeed3",
+							"path": "5.0.0.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10009.png",
+							"decorative": true,
+							"width": 88,
+							"height": 93,
+							"orientation": "square"
+						},
+						{
+							"id": "d7b881bd:image.url",
+							"blockId": "d7b881bd",
+							"path": "5.0.0.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10010.png",
+							"decorative": true,
+							"width": 120,
+							"height": 40,
+							"orientation": "landscape"
+						},
+						{
+							"id": "56167e90:image.url",
+							"blockId": "56167e90",
+							"path": "5.0.0.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10011.png",
+							"decorative": true,
+							"width": 96,
+							"height": 86,
+							"orientation": "square"
+						},
+						{
+							"id": "018cf046:image.url",
+							"blockId": "018cf046",
+							"path": "5.0.0.0.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10012.png",
+							"decorative": true,
+							"width": 91,
+							"height": 86,
+							"orientation": "square"
+						},
+						{
+							"id": "859fed9e:image.url",
+							"blockId": "859fed9e",
+							"path": "5.0.0.0.0.4.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10013.png",
+							"decorative": true,
+							"width": 80,
+							"height": 108,
+							"orientation": "portrait"
+						}
+					]
+				},
+				{
+					"id": "b60ad1dd",
+					"index": 6,
+					"path": "6",
+					"group": "b60ad1dd",
+					"role": "content",
+					"title": "For your roofing and siding, quality we’ll be providing!",
+					"slots": [
+						{
+							"id": "ba57d063:text",
+							"blockId": "ba57d063",
+							"path": "6.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "For your roofing and siding, quality we’ll be providing!",
+							"rich": false,
+							"words": 9,
+							"minWords": 5,
+							"maxWords": 12,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7b23276a:text",
+							"blockId": "7b23276a",
+							"path": "6.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Why Choose us?",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "56fe459e:text",
+							"blockId": "56fe459e",
+							"path": "6.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec laoreet lacus. Aenean lobortis sed diam sit amet viverra. Nam ut turpis in quam bibendum aliquet..",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "30db2e16:text",
+							"blockId": "30db2e16",
+							"path": "6.0.1.0.2.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "ISO Certified",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dd6a3c4a:text",
+							"blockId": "dd6a3c4a",
+							"path": "6.0.1.0.2.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit donec nec.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "5b1635ea:text",
+							"blockId": "5b1635ea",
+							"path": "6.0.1.0.3.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "24/7 Support",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "36fd9778:text",
+							"blockId": "36fd9778",
+							"path": "6.0.1.0.3.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit donec nec.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "b00fdea1:text",
+							"blockId": "b00fdea1",
+							"path": "6.0.1.0.4.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Qualified Professionals",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c1e4696c:text",
+							"blockId": "c1e4696c",
+							"path": "6.0.1.0.4.1.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit donec nec.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "cdea81d6:image.url",
+							"blockId": "cdea81d6",
+							"path": "6.0.1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/Screenshot-2024-03-30-034345.png",
+							"decorative": true,
+							"width": 193,
+							"height": 169,
+							"orientation": "square"
+						},
+						{
+							"id": "b20f37a8:image.url",
+							"blockId": "b20f37a8",
+							"path": "6.0.1.0.3.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-009-Home-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 88,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "e46aaa43:image.url",
+							"blockId": "e46aaa43",
+							"path": "6.0.1.0.4.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-010-Home-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 93,
+							"height": 83,
+							"orientation": "square"
+						},
+						{
+							"id": "0928d40e:image.url",
+							"blockId": "0928d40e",
+							"path": "6.0.1.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10014.jpg",
+							"decorative": false,
+							"width": 230,
+							"height": 600,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Modern glass skyscraper seen from below",
+							"tone": {
+								"grid": [
+									0.53,
+									0.57,
+									0.47,
+									0.35,
+									0.45,
+									0.28,
+									0.25,
+									0.29,
+									0.24
+								],
+								"color": "#4a657b"
+							}
+						},
+						{
+							"id": "3acf2b13:image.url",
+							"blockId": "3acf2b13",
+							"path": "6.0.1.2.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10016.jpg",
+							"decorative": false,
+							"width": 230,
+							"height": 600,
+							"orientation": "portrait",
+							"subject": "place",
+							"description": "Burj Khalifa tower against a blue sky",
+							"tone": {
+								"grid": [
+									0.41,
+									0.38,
+									0.27,
+									0.62,
+									0.42,
+									0.54,
+									0.59,
+									0.41,
+									0.56
+								],
+								"color": "#607a9c"
+							}
+						}
+					]
+				},
+				{
+					"id": "419f9b4d",
+					"index": 7,
+					"path": "7",
+					"group": "419f9b4d",
+					"role": "content",
+					"title": "In our work we have pride, quality is what we provide.",
+					"slots": [
+						{
+							"id": "eefefa57:text",
+							"blockId": "eefefa57",
+							"path": "7.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "In our work we have pride, quality is what we provide.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "67617de2",
+					"index": 8,
+					"path": "8",
+					"group": "67617de2",
+					"role": "content",
+					"title": "Turning ideas into action.",
+					"slots": [
+						{
+							"id": "56157ec1:text",
+							"blockId": "56157ec1",
+							"path": "8.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Turning ideas into action.",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "33bd7df5:text",
+							"blockId": "33bd7df5",
+							"path": "8.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit nam augue nulla.",
+							"rich": false,
+							"words": 11,
+							"minWords": 7,
+							"maxWords": 14,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "27af3ecd:text",
+							"blockId": "27af3ecd",
+							"path": "8.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam augue nulla, sollicitudin et convallis vitae, fringilla et dui. Suspendisse laoreet massa lectus, sit amet congue libero condimentum non. Etiam id erat tortor. In tempor ac odio et dictum. Vivamus convallis diam purus. Nullam lacinia facilisis eleifend id luctus eros placerat ut",
+							"rich": false,
+							"words": 51,
+							"minWords": 31,
+							"maxWords": 64,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "72bd20b8:text",
+							"blockId": "72bd20b8",
+							"path": "8.0.0.0.3.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "read More",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bb4c2230:text",
+							"blockId": "bb4c2230",
+							"path": "8.1.0.0.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": ".............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................",
+							"rich": false,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "11801574:text",
+							"blockId": "11801574",
+							"path": "8.1.0.0.0.0.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Turning ideas into action.",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7548f609:text",
+							"blockId": "7548f609",
+							"path": "8.1.0.0.0.0.0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam augue nulla, sollicitudin et convallis vitae, fringilla et dui.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "6367c4e1:text",
+							"blockId": "6367c4e1",
+							"path": "8.1.0.0.0.1.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": ".............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................",
+							"rich": false,
+							"words": 0,
+							"minWords": 1,
+							"maxWords": 2,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "symbol"
+						},
+						{
+							"id": "b977b2ec:text",
+							"blockId": "b977b2ec",
+							"path": "8.1.0.0.0.1.0.0.1.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Work on Progress.",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ea83a4e1:text",
+							"blockId": "ea83a4e1",
+							"path": "8.1.0.0.0.1.0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam augue nulla, sollicitudin et convallis vitae, fringilla et dui.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "443526d7:background.image.image.url",
+							"blockId": "443526d7",
+							"path": "8.1.0.0.0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10018.jpg",
+							"decorative": false,
+							"width": 1345,
+							"height": 1050,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Orange excavator working in muddy ground",
+							"tone": {
+								"grid": [
+									0.36,
+									0.43,
+									0.36,
+									0.23,
+									0.29,
+									0.24,
+									0.1,
+									0.16,
+									0.16
+								],
+								"color": "#3c4444"
+							}
+						},
+						{
+							"id": "be7430d3:background.image.image.url",
+							"blockId": "be7430d3",
+							"path": "8.1.0.0.0.1.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10017.jpg",
+							"decorative": false,
+							"width": 1345,
+							"height": 1050,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Yellow excavator with raised arm at dusk",
+							"tone": {
+								"grid": [
+									0.31,
+									0.35,
+									0.45,
+									0.48,
+									0.51,
+									0.65,
+									0.5,
+									0.4,
+									0.37
+								],
+								"color": "#6f7378"
+							}
+						}
+					]
+				},
+				{
+					"id": "9b661d81",
+					"index": 9,
+					"path": "9",
+					"group": "9b661d81",
+					"role": "content",
+					"title": "We’re the construction kings, building up great things.",
+					"slots": [
+						{
+							"id": "923a4c48:text",
+							"blockId": "923a4c48",
+							"path": "9.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "We’re the construction kings, building up great things.",
+							"rich": true,
+							"words": 8,
+							"minWords": 5,
+							"maxWords": 10,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "373e86bf",
+					"index": 10,
+					"path": "10",
+					"group": "373e86bf",
+					"role": "content",
+					"title": "Lothan Carey",
+					"slots": [
+						{
+							"id": "382cb00f:text",
+							"blockId": "382cb00f",
+							"path": "10.0.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel aliquet nisl. Fusce ac nisl a odio placerat bibendum. Curabitur iaculis blandit laoreet.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "a9b90655:text",
+							"blockId": "a9b90655",
+							"path": "10.0.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Lothan Carey",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "d5121654:text",
+							"blockId": "d5121654",
+							"path": "10.0.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CAREY AND GROUP",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f4bfaefa:text",
+							"blockId": "f4bfaefa",
+							"path": "10.1.0.0.0.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel aliquet nisl. Fusce ac nisl a odio placerat bibendum. Curabitur iaculis blandit laoreet.",
+							"rich": false,
+							"words": 23,
+							"minWords": 14,
+							"maxWords": 29,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "e48214e2:text",
+							"blockId": "e48214e2",
+							"path": "10.1.0.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "John Doe",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "99f06e53:text",
+							"blockId": "99f06e53",
+							"path": "10.1.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Doe Enterprise",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				}
+			],
+			"groups": [
+				{
+					"id": "135c5f1b",
+					"role": "hero",
+					"title": "With us you don’t need to guess, our work will sure impress!",
+					"sectionIds": [
+						"135c5f1b"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "cb9f3374",
+					"role": "content",
+					"title": "Call us:",
+					"sectionIds": [
+						"cb9f3374"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "00b5d408",
+					"role": "cta",
+					"title": "When it comes to your house, don’t mess with the rest, trust the best no matter whatever it takes",
+					"sectionIds": [
+						"00b5d408"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "5e8a74a5",
+					"role": "content",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"sectionIds": [
+						"5e8a74a5"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "ca51fd75",
+					"role": "content",
+					"title": "Construction",
+					"sectionIds": [
+						"ca51fd75"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "74a96d3c",
+					"role": "logos",
+					"sectionIds": [
+						"74a96d3c"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "conditional",
+						"requires": [
+							"client_logos"
+						]
+					}
+				},
+				{
+					"id": "b60ad1dd",
+					"role": "content",
+					"title": "For your roofing and siding, quality we’ll be providing!",
+					"sectionIds": [
+						"b60ad1dd"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "419f9b4d",
+					"role": "content",
+					"title": "In our work we have pride, quality is what we provide.",
+					"sectionIds": [
+						"419f9b4d"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "67617de2",
+					"role": "content",
+					"title": "Turning ideas into action.",
+					"sectionIds": [
+						"67617de2"
+					],
+					"paths": [
+						"8"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "9b661d81",
+					"role": "content",
+					"title": "We’re the construction kings, building up great things.",
+					"sectionIds": [
+						"9b661d81"
+					],
+					"paths": [
+						"9"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "373e86bf",
+					"role": "content",
+					"title": "Lothan Carey",
+					"sectionIds": [
+						"373e86bf"
+					],
+					"paths": [
+						"10"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "blog",
+			"title": "Blog",
+			"type": "blog",
+			"sourceUrl": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/themegrill-demos/blog-content.xml",
+			"sections": [],
+			"groups": []
+		},
+		{
+			"slug": "about",
+			"title": "About",
+			"type": "about",
+			"sourceUrl": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/themegrill-demos/about-content.xml",
+			"sections": [
+				{
+					"id": "a1d4c785",
+					"index": 0,
+					"path": "0",
+					"group": "a1d4c785",
+					"role": "hero",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"slots": [
+						{
+							"id": "b7502dbb:text",
+							"blockId": "b7502dbb",
+							"path": "0.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Save yourself trouble and aggravation, hire us for your renovation.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "0a9156a8",
+					"index": 1,
+					"path": "1",
+					"group": "0a9156a8",
+					"role": "content",
+					"title": "25 Years of Hands Of Experience",
+					"slots": [
+						{
+							"id": "f350e494:text",
+							"blockId": "f350e494",
+							"path": "1.0.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "25 Years of Hands Of Experience",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b9fd2e1f:text",
+							"blockId": "b9fd2e1f",
+							"path": "1.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec laoreet lacus. Aenean lobortis sed diam sit amet viverra. Nam ut turpis in quam bibendum aliquet..",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2b4ee86b:text",
+							"blockId": "2b4ee86b",
+							"path": "1.0.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec laoreet lacus. Aenean lobortis sed diam sit amet viverra. Nam ut turpis in quam bibendum aliquet..",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1143c1c4:text",
+							"blockId": "1143c1c4",
+							"path": "1.0.0.0.0.0.3.0.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Best House Renovation",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1143c1c4~1:text",
+							"blockId": "1143c1c4~1",
+							"path": "1.0.0.0.0.0.3.0.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "The Effective Team Work",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1143c1c4~2:text",
+							"blockId": "1143c1c4~2",
+							"path": "1.0.0.0.0.0.3.0.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "The Green Building",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1143c1c4~3:text",
+							"blockId": "1143c1c4~3",
+							"path": "1.0.0.0.0.0.3.1.0.0.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Renovation Building",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1143c1c4~4:text",
+							"blockId": "1143c1c4~4",
+							"path": "1.0.0.0.0.0.3.1.0.1.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Interior Design",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "1143c1c4~5:text",
+							"blockId": "1143c1c4~5",
+							"path": "1.0.0.0.0.0.3.1.0.2.0",
+							"block": "blockart/button-inner",
+							"attr": "text",
+							"kind": "button",
+							"text": "Material Engineering",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "c20a7984:background.image.image.url",
+							"blockId": "c20a7984",
+							"path": "1.0.0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10004-1.jpg",
+							"decorative": false,
+							"width": 1170,
+							"height": 550,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Wheel loader at a construction site at night",
+							"tone": {
+								"grid": [
+									0.18,
+									0.12,
+									0.06,
+									0.24,
+									0.14,
+									0.12,
+									0.15,
+									0.35,
+									0.16
+								],
+								"color": "#2c2a30"
+							}
+						}
+					]
+				},
+				{
+					"id": "b414ed60",
+					"index": 2,
+					"path": "2",
+					"group": "b414ed60",
+					"role": "content",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"slots": [
+						{
+							"id": "b29aa69a:text",
+							"blockId": "b29aa69a",
+							"path": "2.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Save yourself trouble and aggravation, hire us for your renovation.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "bb2dc70d",
+					"index": 3,
+					"path": "3",
+					"group": "bb2dc70d",
+					"role": "content",
+					"title": "Our Mission",
+					"slots": [
+						{
+							"id": "06e60b49:text",
+							"blockId": "06e60b49",
+							"path": "3.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Mission",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "79f69bc2:text",
+							"blockId": "79f69bc2",
+							"path": "3.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta tempus nibh, ut commodo libero porttitor sit amet. mcorper, mattis in risus.",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "0a98bc80:text",
+							"blockId": "0a98bc80",
+							"path": "3.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Vision",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "bd87329a:text",
+							"blockId": "bd87329a",
+							"path": "3.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta tempus nibh, ut commodo libero porttitor sit amet. mcorper, mattis in risus.",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "386c2e6b:text",
+							"blockId": "386c2e6b",
+							"path": "3.0.0.2.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Our Values",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c3b95b10:text",
+							"blockId": "c3b95b10",
+							"path": "3.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta tempus nibh, ut commodo libero porttitor sit amet. mcorper, mattis in risus.",
+							"rich": false,
+							"words": 22,
+							"minWords": 13,
+							"maxWords": 28,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "06d27909",
+					"index": 4,
+					"path": "4",
+					"group": "06d27909",
+					"role": "content",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"slots": [
+						{
+							"id": "8cf613af:text",
+							"blockId": "8cf613af",
+							"path": "4.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Save yourself trouble and aggravation, hire us for your renovation.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "e402df40",
+					"index": 5,
+					"path": "5",
+					"group": "e402df40",
+					"role": "content",
+					"title": "Michael Andrey",
+					"slots": [
+						{
+							"id": "bbe8e98e:text",
+							"blockId": "bbe8e98e",
+							"path": "5.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Michael Andrey",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "aff2b381:text",
+							"blockId": "aff2b381",
+							"path": "5.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "CEO and Founder",
+							"rich": false,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "0954def5:text",
+							"blockId": "0954def5",
+							"path": "5.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Rachelle Keira",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "baa5259c:text",
+							"blockId": "baa5259c",
+							"path": "5.0.0.1.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Manager",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "3a55fade:text",
+							"blockId": "3a55fade",
+							"path": "5.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "John Den",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "193ba23c:text",
+							"blockId": "193ba23c",
+							"path": "5.0.0.2.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Team Leader",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "f8877fe1:image.url",
+							"blockId": "f8877fe1",
+							"path": "5.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10001.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 480,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Man in glasses and a blazer headshot portrait",
+							"tone": {
+								"grid": [
+									0.67,
+									0.45,
+									0.71,
+									0.84,
+									0.56,
+									0.65,
+									0.67,
+									0.63,
+									0.1
+								],
+								"color": "#9a9493"
+							}
+						},
+						{
+							"id": "c92d824c:image.url",
+							"blockId": "c92d824c",
+							"path": "5.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10002.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 480,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling young woman with glasses resting her chin on her hand",
+							"tone": {
+								"grid": [
+									0.55,
+									0.36,
+									0.52,
+									0.48,
+									0.4,
+									0.27,
+									0.17,
+									0.36,
+									0.14
+								],
+								"color": "#5c5b64"
+							}
+						},
+						{
+							"id": "06457b39:image.url",
+							"blockId": "06457b39",
+							"path": "5.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10003-1.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 480,
+							"orientation": "portrait",
+							"subject": "person",
+							"description": "Smiling businessman in a suit with arms crossed",
+							"tone": {
+								"grid": [
+									0.61,
+									0.5,
+									0.74,
+									0.29,
+									0.38,
+									0.53,
+									0.08,
+									0.17,
+									0.27
+								],
+								"color": "#5a6870"
+							}
+						}
+					]
+				},
+				{
+					"id": "857a690e",
+					"index": 6,
+					"path": "6",
+					"group": "857a690e",
+					"role": "content",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"slots": [
+						{
+							"id": "b4f56265:text",
+							"blockId": "b4f56265",
+							"path": "6.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Save yourself trouble and aggravation, hire us for your renovation.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "6466c72d",
+					"index": 7,
+					"path": "7",
+					"group": "6466c72d",
+					"role": "content",
+					"title": "Explore Zakra Awesome Numbers",
+					"slots": [
+						{
+							"id": "46232ef6:text",
+							"blockId": "46232ef6",
+							"path": "7.0.0.0.0.0.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Explore Zakra Awesome Numbers",
+							"rich": false,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "349b1a22:text",
+							"blockId": "349b1a22",
+							"path": "7.0.0.0.0.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit donec nec laoreet lacus aenean lobortis.",
+							"rich": false,
+							"words": 14,
+							"minWords": 8,
+							"maxWords": 18,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "1bbe2971:text",
+							"blockId": "1bbe2971",
+							"path": "7.0.0.0.0.0.2",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec laoreet lacus. Aenean lobortis sed diam sit amet viverra. Nam ut turpis in quam bibendum aliquet..",
+							"rich": false,
+							"words": 26,
+							"minWords": 16,
+							"maxWords": 33,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "31a4efcb:text",
+							"blockId": "31a4efcb",
+							"path": "7.0.0.0.0.0.3.0.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "CLIENTS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "f0a4029d:text",
+							"blockId": "f0a4029d",
+							"path": "7.0.0.0.0.0.3.1.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "CLIENTS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "9d118e6e:text",
+							"blockId": "9d118e6e",
+							"path": "7.0.0.0.0.0.3.2.0",
+							"block": "blockart/counter",
+							"attr": "text",
+							"kind": "label",
+							"text": "CLIENTS",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": [
+						{
+							"id": "e2944534:background.image.image.url",
+							"blockId": "e2944534",
+							"path": "7.0.0.0.0",
+							"block": "blockart/section",
+							"attr": "background.image.image.url",
+							"kind": "background",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10004-1.jpg",
+							"decorative": false,
+							"width": 1170,
+							"height": 550,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Wheel loader at a construction site at night",
+							"tone": {
+								"grid": [
+									0.18,
+									0.12,
+									0.06,
+									0.24,
+									0.14,
+									0.12,
+									0.15,
+									0.35,
+									0.16
+								],
+								"color": "#2c2a30"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "a1d4c785",
+					"role": "hero",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"sectionIds": [
+						"a1d4c785"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "0a9156a8",
+					"role": "content",
+					"title": "25 Years of Hands Of Experience",
+					"sectionIds": [
+						"0a9156a8"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "b414ed60",
+					"role": "content",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"sectionIds": [
+						"b414ed60"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "bb2dc70d",
+					"role": "content",
+					"title": "Our Mission",
+					"sectionIds": [
+						"bb2dc70d"
+					],
+					"paths": [
+						"3"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "06d27909",
+					"role": "content",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"sectionIds": [
+						"06d27909"
+					],
+					"paths": [
+						"4"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "e402df40",
+					"role": "content",
+					"title": "Michael Andrey",
+					"sectionIds": [
+						"e402df40"
+					],
+					"paths": [
+						"5"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "857a690e",
+					"role": "content",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"sectionIds": [
+						"857a690e"
+					],
+					"paths": [
+						"6"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "6466c72d",
+					"role": "content",
+					"title": "Explore Zakra Awesome Numbers",
+					"sectionIds": [
+						"6466c72d"
+					],
+					"paths": [
+						"7"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "services",
+			"title": "Services",
+			"type": "services",
+			"sourceUrl": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/themegrill-demos/services-content.xml",
+			"sections": [
+				{
+					"id": "b414ed60",
+					"index": 0,
+					"path": "0",
+					"group": "b414ed60",
+					"role": "hero",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"slots": [
+						{
+							"id": "b29aa69a:text",
+							"blockId": "b29aa69a",
+							"path": "0.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Save yourself trouble and aggravation, hire us for your renovation.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "bb2dc70d",
+					"index": 1,
+					"path": "1",
+					"group": "bb2dc70d",
+					"role": "content",
+					"title": "Construction",
+					"slots": [
+						{
+							"id": "3b01f934:text",
+							"blockId": "3b01f934",
+							"path": "1.0.0.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Construction",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "e2eea9b5:text",
+							"blockId": "e2eea9b5",
+							"path": "1.0.0.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac erat nunc. In tincidunt, enim sit amet vulputate.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "4ea49f3d:text",
+							"blockId": "4ea49f3d",
+							"path": "1.0.0.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Design",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "af7310e2:text",
+							"blockId": "af7310e2",
+							"path": "1.0.0.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac erat nunc. In tincidunt, enim sit amet vulputate.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2cd92dfb:text",
+							"blockId": "2cd92dfb",
+							"path": "1.0.0.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Renovation",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "b3e613c1:text",
+							"blockId": "b3e613c1",
+							"path": "1.0.0.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac erat nunc. In tincidunt, enim sit amet vulputate.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2d3d4993:text",
+							"blockId": "2d3d4993",
+							"path": "1.0.1.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Interior Design",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "c24b4226:text",
+							"blockId": "c24b4226",
+							"path": "1.0.1.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac erat nunc. In tincidunt, enim sit amet vulputate.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "2fb8fef0:text",
+							"blockId": "2fb8fef0",
+							"path": "1.0.1.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Emergency Services",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "7c1d5563:text",
+							"blockId": "7c1d5563",
+							"path": "1.0.1.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac erat nunc. In tincidunt, enim sit amet vulputate.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "3e9b6940:text",
+							"blockId": "3e9b6940",
+							"path": "1.0.1.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Building",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "5b5f2f44:text",
+							"blockId": "5b5f2f44",
+							"path": "1.0.1.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac erat nunc. In tincidunt, enim sit amet vulputate.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "8c1e6266:text",
+							"blockId": "8c1e6266",
+							"path": "1.0.2.0.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "SUSTAINABLE DESIGN",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2f323823:text",
+							"blockId": "2f323823",
+							"path": "1.0.2.0.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac erat nunc. In tincidunt, enim sit amet vulputate.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "938aeec6:text",
+							"blockId": "938aeec6",
+							"path": "1.0.2.1.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "PROGRAM MANAGEMENT",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "59907a1e:text",
+							"blockId": "59907a1e",
+							"path": "1.0.2.1.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac erat nunc. In tincidunt, enim sit amet vulputate.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						},
+						{
+							"id": "78da5553:text",
+							"blockId": "78da5553",
+							"path": "1.0.2.2.1",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "REMODELING",
+							"rich": false,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2f02a632:text",
+							"blockId": "2f02a632",
+							"path": "1.0.2.2.3",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac erat nunc. In tincidunt, enim sit amet vulputate.",
+							"rich": false,
+							"words": 18,
+							"minWords": 11,
+							"maxWords": 23,
+							"inHtml": true,
+							"placeholder": true
+						}
+					],
+					"images": [
+						{
+							"id": "5d078997:image.url",
+							"blockId": "5d078997",
+							"path": "1.0.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-001-Services-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 80,
+							"height": 80,
+							"orientation": "square"
+						},
+						{
+							"id": "5985934b:image.url",
+							"blockId": "5985934b",
+							"path": "1.0.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-002-Services-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 56,
+							"height": 56,
+							"orientation": "square"
+						},
+						{
+							"id": "d60ff3d5:image.url",
+							"blockId": "d60ff3d5",
+							"path": "1.0.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-003-Services-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 80,
+							"height": 79,
+							"orientation": "square"
+						},
+						{
+							"id": "26e4e2fd:image.url",
+							"blockId": "26e4e2fd",
+							"path": "1.0.1.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-004-Services-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 79,
+							"height": 79,
+							"orientation": "square"
+						},
+						{
+							"id": "e9f29004:image.url",
+							"blockId": "e9f29004",
+							"path": "1.0.1.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-005-Services-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 77,
+							"height": 77,
+							"orientation": "square"
+						},
+						{
+							"id": "5442e924:image.url",
+							"blockId": "5442e924",
+							"path": "1.0.1.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-002-Services-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 56,
+							"height": 56,
+							"orientation": "square"
+						},
+						{
+							"id": "e442d0c6:image.url",
+							"blockId": "e442d0c6",
+							"path": "1.0.2.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-006-Services-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 71,
+							"height": 71,
+							"orientation": "square"
+						},
+						{
+							"id": "aac5d737:image.url",
+							"blockId": "aac5d737",
+							"path": "1.0.2.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-007-Services-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 86,
+							"height": 85,
+							"orientation": "square"
+						},
+						{
+							"id": "e7a16cc4:image.url",
+							"blockId": "e7a16cc4",
+							"path": "1.0.2.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-008-Services-Zakra-Construction-zakrademos.com_.png",
+							"decorative": true,
+							"width": 86,
+							"height": 84,
+							"orientation": "square"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "b414ed60",
+					"role": "hero",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"sectionIds": [
+						"b414ed60"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "bb2dc70d",
+					"role": "content",
+					"title": "Construction",
+					"sectionIds": [
+						"bb2dc70d"
+					],
+					"paths": [
+						"1"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		},
+		{
+			"slug": "contact",
+			"title": "Contact",
+			"type": "contact",
+			"sourceUrl": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/themegrill-demos/contact-content.xml",
+			"sections": [
+				{
+					"id": "b414ed60",
+					"index": 0,
+					"path": "0",
+					"group": "b414ed60",
+					"role": "hero",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"slots": [
+						{
+							"id": "b29aa69a:text",
+							"blockId": "b29aa69a",
+							"path": "0.1.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Save yourself trouble and aggravation, hire us for your renovation.",
+							"rich": false,
+							"words": 10,
+							"minWords": 6,
+							"maxWords": 13,
+							"inHtml": true,
+							"placeholder": false
+						}
+					],
+					"images": []
+				},
+				{
+					"id": "71739fa9",
+					"index": 1,
+					"path": "2",
+					"group": "71739fa9",
+					"role": "dynamic",
+					"title": "Keep In touch",
+					"slots": [
+						{
+							"id": "5bf5ccd2:text",
+							"blockId": "5bf5ccd2",
+							"path": "2.0.0.0.0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Keep In touch",
+							"rich": true,
+							"words": 3,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "ff97635f:text",
+							"blockId": "ff97635f",
+							"path": "2.1.0.0.0.1.0",
+							"block": "blockart/heading",
+							"attr": "text",
+							"kind": "heading",
+							"tag": "h2",
+							"text": "Contact Info",
+							"rich": true,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "dab4a3af:text",
+							"blockId": "dab4a3af",
+							"path": "2.1.0.0.1.0.0.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "445 Mount Eden Road, Mt Ed",
+							"rich": false,
+							"words": 6,
+							"minWords": 4,
+							"maxWords": 8,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "2fdbd55e:text",
+							"blockId": "2fdbd55e",
+							"path": "2.1.0.0.1.0.0.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "Chakrapth, Basundhara",
+							"rich": false,
+							"words": 2,
+							"minWords": 1,
+							"maxWords": 4,
+							"inHtml": true,
+							"placeholder": false
+						},
+						{
+							"id": "18346569:text",
+							"blockId": "18346569",
+							"path": "2.1.0.0.1.0.1.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "977 - 222 -444 -666",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "233f10af:text",
+							"blockId": "233f10af",
+							"path": "2.1.0.0.1.0.1.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "977 - 222 -444 -777",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "0fd920e4:text",
+							"blockId": "0fd920e4",
+							"path": "2.1.0.0.1.0.2.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "info@zakra.com.np",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "d4ab68c5:text",
+							"blockId": "d4ab68c5",
+							"path": "2.1.0.0.1.0.2.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "help@zakra.com.np",
+							"rich": true,
+							"words": 1,
+							"minWords": 1,
+							"maxWords": 3,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "contact"
+						},
+						{
+							"id": "ade381b1:text",
+							"blockId": "ade381b1",
+							"path": "2.1.0.0.1.0.3.1.0.0",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "977 - 222 -444 -666",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						},
+						{
+							"id": "296eb662:text",
+							"blockId": "296eb662",
+							"path": "2.1.0.0.1.0.3.1.0.1",
+							"block": "blockart/paragraph",
+							"attr": "text",
+							"kind": "paragraph",
+							"text": "977 - 222 -444 -777",
+							"rich": true,
+							"words": 4,
+							"minWords": 2,
+							"maxWords": 5,
+							"inHtml": true,
+							"placeholder": false,
+							"locked": "number"
+						}
+					],
+					"images": [
+						{
+							"id": "0256bc36:image.url",
+							"blockId": "0256bc36",
+							"path": "2.1.0.0.1.0.0.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/maps-and-flags.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "539c2082:image.url",
+							"blockId": "539c2082",
+							"path": "2.1.0.0.1.0.1.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/phone-call-e1711874070821.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "57c965cb:image.url",
+							"blockId": "57c965cb",
+							"path": "2.1.0.0.1.0.2.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/email.png",
+							"decorative": true,
+							"width": 512,
+							"height": 512,
+							"orientation": "square"
+						},
+						{
+							"id": "85b83b90:image.url",
+							"blockId": "85b83b90",
+							"path": "2.1.0.0.1.0.3.0",
+							"block": "blockart/image",
+							"attr": "image.url",
+							"kind": "image",
+							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-011-Contact-Zakra-Construction-zakrademos.com_-e1711885745148.png",
+							"decorative": true,
+							"width": 56,
+							"height": 55,
+							"orientation": "square"
+						}
+					],
+					"dynamicBlocks": [
+						"everest-forms/form-selector"
+					]
+				}
+			],
+			"groups": [
+				{
+					"id": "b414ed60",
+					"role": "hero",
+					"title": "Save yourself trouble and aggravation, hire us for your renovation.",
+					"sectionIds": [
+						"b414ed60"
+					],
+					"paths": [
+						"0"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				},
+				{
+					"id": "71739fa9",
+					"role": "dynamic",
+					"title": "Keep In touch",
+					"sectionIds": [
+						"71739fa9"
+					],
+					"paths": [
+						"2"
+					],
+					"fit": {
+						"kind": "core"
+					}
+				}
+			]
+		}
+	],
+	"stats": {
+		"sections": 23,
+		"textSlots": 107,
+		"editableSlots": 98,
+		"images": 41,
+		"swappableImages": 14,
+		"words": 866
+	},
+	"builtAt": "2026-10-24T11:35:08.079Z"
+}

@@ -21,7 +21,7 @@ import {
 import { classifyColors, normalizeColor } from './colors';
 import { newColorContext, scanThemeMods } from './contrast';
 import { assignRoles, buildGroups, pageTypeOf, scanPage } from './extract';
-import { describeImage, mapLimit, saveImageCache } from './images';
+import { describeImage, describePhoto, mapLimit, photoTone, saveImageCache, saveToneCache } from './images';
 import { fetchDemoData, fetchDemoList, fetchPageExport } from './source';
 import { decodeEntities } from './text';
 
@@ -73,6 +73,19 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 		const scan = scanPage(exported.content, page.slug, { ctx: colorContext, ink });
 		const images = scan.sections.flatMap((s) => s.images);
 		await mapLimit(images, 8, async (image: ImageSlot) => Object.assign(image, await describeImage(image.url)));
+		for (const image of images.filter((i) => !i.decorative)) {
+			const description = describePhoto(image.url);
+			if (description) Object.assign(image, description);
+			else warnings.push(`${page.slug}: photo not in data/photo-descriptions.json: ${image.url}`);
+		}
+		await mapLimit(
+			images.filter((i) => !i.decorative),
+			8,
+			async (image: ImageSlot) => {
+				const tone = await photoTone(image.url);
+				if (tone) image.tone = tone;
+			},
+		);
 		assignRoles(scan);
 
 		scan.colors.forEach((hex) => colorCounts.set(hex, (colorCounts.get(hex) ?? 0) + 1));
@@ -172,6 +185,7 @@ const catalogEntry = (m: DemoManifest): DemoCatalogEntry => ({
 	name: m.name,
 	premium: m.premium,
 	previewImage: m.previewImage,
+	demoUrl: m.demoUrl,
 	niches: m.niches,
 	keywords: m.keywords,
 	stats: m.stats,
@@ -203,11 +217,13 @@ const reportFor = (m: DemoManifest, warnings: string[]) => {
 			lines.push(`- Group **${g.role}** (${fit}) \`${g.id}\`, blocks ${g.paths.join(', ')}`);
 			for (const s of page.sections.filter((x) => x.group === g.id)) {
 				const editable = s.slots.filter((x) => !x.locked).length;
-				const photos = s.images.filter((i) => !i.decorative).length;
+				const photoSlots = s.images.filter((i) => !i.decorative);
+				const photos = photoSlots.length;
 				const lorem = s.slots.some((x) => x.placeholder) ? ' · lorem' : '';
 				const dynamic = s.dynamicBlocks ? ` · dynamic: ${s.dynamicBlocks.join(', ')}` : '';
 				lines.push(
 					`  - **${s.role}** ${s.title ? `“${s.title}”` : '(untitled)'} — ${editable} text, ${photos} photos${lorem}${dynamic}`,
+					...photoSlots.filter((i) => i.description).map((i) => `    - photo (${i.subject}): ${i.description}`),
 				);
 			}
 		}
@@ -272,6 +288,7 @@ const main = async () => {
 		);
 	}
 	await saveImageCache();
+	await saveToneCache();
 
 	// Keep report sections for demos not rebuilt this run.
 	if (existsSync(reportFile)) {

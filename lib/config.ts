@@ -24,6 +24,9 @@ export const config = {
 		const origins = list(process.env.ALLOWED_ORIGINS);
 		return origins.length ? origins : ['*'];
 	},
+	get pixabayApiKey() {
+		return process.env.PIXABAY_API_KEY || '';
+	},
 	get groqModel() {
 		return process.env.GROQ_MODEL || 'openai/gpt-oss-20b';
 	},
