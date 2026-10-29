@@ -148,8 +148,9 @@ export type ManifestPage = {
 
 export type ColorRole = 'primary' | 'secondary' | 'accent' | 'text' | 'background' | 'muted';
 
-// Why a brand color keeps its demo value: accents by default, designer
-// overrides in data/demo-catalog.json, or a failed contrast check.
+// Why a brand color keeps its demo value: designer overrides in
+// data/demo-catalog.json, or a failed contrast check. 'accent' only appears in
+// manifests built before accents followed the primary; it is ignored.
 export type ColorLockReason = 'accent' | 'designer' | 'contrast';
 
 // What a color paints in the blocks.

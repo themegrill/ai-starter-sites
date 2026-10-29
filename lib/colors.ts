@@ -114,20 +114,3 @@ export const contrast = (a: string, b: string) => {
 	const [hi, lo] = [luminance(a), luminance(b)].sort((x, y) => y - x) as [number, number];
 	return (hi + 0.05) / (lo + 0.05);
 };
-
-/**
- * One demo shade recolored to a palette color, in OKLCH: the palette's hue,
- * chroma scaled by how vivid the shade is relative to its cluster base (light
- * tints stay soft), and the shade's own perceptual lightness (so contrast
- * with the neutrals around it survives). `calm` caps chroma at the shade's
- * own, for colors used as backgrounds: a bright yellow band must not turn
- * into a neon green one.
- */
-export const mapShade = (shade: string, base: string, target: string, calm = false): string => {
-	const from = toOklch(shade);
-	const baseC = toOklch(base).c;
-	const to = toOklch(target);
-	let c = baseC > 0 ? to.c * (from.c / baseC) : to.c;
-	if (calm) c = Math.min(c, from.c);
-	return fromOklch({ l: from.l, c, h: to.h });
-};

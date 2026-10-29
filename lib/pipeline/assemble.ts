@@ -4,8 +4,9 @@
 import { DemoCatalogEntry, DemoManifest, ImageSlot as ManifestImage, ManifestPage, ManifestSection, PageType } from '../demos/types';
 import { AiPageSlug, BrandKit, DemoSummary, GeneratedPage, GenerationPackage, ImageSlot, RemovedGroup, Section } from '../types';
 import { buildFontMap } from './brand-kit';
-import { colorMapFor } from './color-map';
+import { colorMapFor, demoPrimary } from './color-map';
 import { CopyResult, editableSlots } from './copy';
+import { getManifest } from './pick-demo';
 import { GroupDecision, groupLabel } from './sections';
 
 export const IMPORT_PACKAGE_VERSION = 1;
@@ -18,11 +19,16 @@ const PAGE_LABELS: Record<AiPageSlug, string> = {
 	blog: 'Blog',
 };
 
-export const summaryOf = (demo: DemoManifest | DemoCatalogEntry): DemoSummary => ({
-	slug: demo.slug,
-	name: demo.name,
-	thumbnail: demo.previewImage,
-});
+export const summaryOf = (demo: DemoManifest | DemoCatalogEntry): DemoSummary => {
+	const manifest = getManifest(demo.slug);
+	const primaryColor = manifest && demoPrimary(manifest);
+	return {
+		slug: demo.slug,
+		name: demo.name,
+		thumbnail: demo.previewImage,
+		...(primaryColor ? { primaryColor } : {}),
+	};
+};
 
 // The demo's first page of each requested type, in the order the user listed.
 export const selectPages = (demo: DemoManifest, requested: AiPageSlug[]) => {
@@ -91,7 +97,7 @@ export const assemblePackage = (args: {
 }): GenerationPackage => {
 	const { demo, brand, copy, images } = args;
 	const { pages: selected, missing } = selectPages(demo, args.requestedPages);
-	const colors = colorMapFor(demo, brand.palette);
+	const colors = colorMapFor(demo, brand.palette.primary);
 	const droppedOn = (type: AiPageSlug) => (args.decisions.get(type) ?? []).filter((d) => d.action === 'drop');
 	const shown = (s: ManifestSection) => editableSlots(s).length > 0 || s.images.some((i) => !i.decorative);
 

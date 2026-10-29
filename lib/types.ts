@@ -17,6 +17,8 @@ export type GenerateRequest = {
 	// for the designs list.
 	demoSlug?: string;
 	briefId?: string;
+	// #rrggbb. The rest of the colors follow it; unset keeps the demo's own.
+	primaryColor?: string;
 };
 
 // How close a design is to the business, for grouping the designs list.
@@ -30,6 +32,8 @@ export type DemoSummary = {
 	slug: string;
 	name: string;
 	thumbnail: string;
+	// The demo's own primary: the color picker's starting value.
+	primaryColor?: string;
 };
 
 export type BrandPalette = {
@@ -110,6 +114,8 @@ export type RegenerateSectionRequest = {
 export type SwitchDemoRequest = {
 	generationId: string;
 	demoSlug: string;
+	// The color the user has now, if they changed it after generating.
+	primaryColor?: string;
 };
 
 // The generated page to render on the live demo page. `removed`: group ids
@@ -124,7 +130,7 @@ export type PreviewRequest = {
 
 export type ColorMapRequest = {
 	demoSlug: string;
-	palette: BrandPalette;
+	primaryColor: string;
 };
 
 export type GenerationStep =

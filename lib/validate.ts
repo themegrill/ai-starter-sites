@@ -37,6 +37,12 @@ const str = (body: Record<string, unknown>, key: string, required = true): strin
 	return value.trim();
 };
 
+const hexColor = (body: Record<string, unknown>, key: string, label = key): string => {
+	const value = body[key];
+	if (typeof value !== 'string' || !/^#[0-9a-f]{6}$/i.test(value.trim())) return invalid(`"${label}" must be a #rrggbb color.`);
+	return value.trim().toLowerCase();
+};
+
 export const validateGenerate = (body: unknown): GenerateRequest => {
 	if (!isObject(body)) return invalid('Request body must be an object.');
 
@@ -65,6 +71,7 @@ export const validateGenerate = (body: unknown): GenerateRequest => {
 		pages: PAGE_ORDER.filter((p) => requested.has(p)),
 		...(str(body, 'demoSlug', false) ? { demoSlug: str(body, 'demoSlug') } : {}),
 		...(str(body, 'briefId', false) ? { briefId: str(body, 'briefId') } : {}),
+		...(str(body, 'primaryColor', false) ? { primaryColor: hexColor(body, 'primaryColor') } : {}),
 	};
 };
 
@@ -86,23 +93,24 @@ export const validateSwitchDemo = (body: unknown): SwitchDemoRequest => {
 	return {
 		generationId: str(body, 'generationId'),
 		demoSlug: str(body, 'demoSlug'),
+		...(str(body, 'primaryColor', false) ? { primaryColor: hexColor(body, 'primaryColor') } : {}),
 	};
 };
 
 const PALETTE_KEYS: (keyof BrandPalette)[] = ['primary', 'secondary', 'accent', 'text', 'background'];
 
+const validatePalette = (palette: unknown): BrandPalette => {
+	if (!isObject(palette)) return invalid('"palette" must be an object.');
+	for (const key of PALETTE_KEYS) hexColor(palette, key, `palette.${key}`);
+	return Object.fromEntries(PALETTE_KEYS.map((k) => [k, (palette[k] as string).toLowerCase()])) as BrandPalette;
+};
+
+// `primaryColor`, or a whole `palette` (older plugin builds) whose primary is used.
 export const validateColorMap = (body: unknown): ColorMapRequest => {
 	if (!isObject(body)) return invalid('Request body must be an object.');
-	const palette = body.palette;
-	if (!isObject(palette)) return invalid('"palette" must be an object.');
-	for (const key of PALETTE_KEYS) {
-		if (typeof palette[key] !== 'string' || !/^#[0-9a-f]{6}$/i.test(palette[key] as string)) {
-			invalid(`"palette.${key}" must be a #rrggbb color.`);
-		}
-	}
 	return {
 		demoSlug: str(body, 'demoSlug'),
-		palette: Object.fromEntries(PALETTE_KEYS.map((k) => [k, (palette[k] as string).toLowerCase()])) as BrandPalette,
+		primaryColor: 'primaryColor' in body ? hexColor(body, 'primaryColor') : validatePalette(body.palette).primary,
 	};
 };
 
@@ -112,7 +120,7 @@ export const validatePreview = (body: unknown): PreviewRequest => {
 	if (!isObject(body)) return invalid('Request body must be an object.');
 	const brand = body.brand;
 	if (!isObject(brand) || !isObject(brand.fonts)) return invalid('"brand" must be an object.');
-	const { palette } = validateColorMap({ demoSlug: body.demoSlug, palette: brand.palette });
+	const palette = validatePalette(brand.palette);
 	const fonts = brand.fonts as Record<string, unknown>;
 	for (const key of ['heading', 'body']) {
 		if (typeof fonts[key] !== 'string' || !FONT_NAME.test(fonts[key] as string)) invalid(`"brand.fonts.${key}" is invalid.`);

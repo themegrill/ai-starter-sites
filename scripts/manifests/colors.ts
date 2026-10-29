@@ -15,9 +15,9 @@ const round = (n: number) => Math.round(n * 1000) / 1000;
 /**
  * Splits a demo's colors into neutrals (left as they are) and brand hue
  * clusters. The cluster holding the theme's primary color (or the most-used
- * one) becomes primary, the next secondary, the rest accent. Only primary and
- * secondary are remapped to a new palette; accents stay locked. Catalog
- * overrides win over this classification.
+ * one) becomes primary, the next secondary, the rest accent. All of them follow
+ * a new primary (see lib/pipeline/color-map.ts) unless the catalog locks them.
+ * Catalog overrides win over this classification.
  */
 export const classifyColors = (
 	blockCounts: Map<string, number>,
@@ -77,11 +77,7 @@ export const classifyColors = (
 				role,
 				base: cluster.base,
 				lightnessDelta: round(toHsl(hex).l - baseL),
-				...(designerLock
-					? { locked: true, lockReason: 'designer' as const }
-					: role === 'accent'
-						? { locked: true, lockReason: 'accent' as const }
-						: {}),
+				...(designerLock ? { locked: true, lockReason: 'designer' as const } : {}),
 			});
 		}
 	});

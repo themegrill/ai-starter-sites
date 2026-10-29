@@ -1,9 +1,8 @@
-// Demo color -> brand color map. The only implementation: the package carries
-// one for the generated palette, and POST /api/color-map rebuilds it when the
-// user edits the palette before importing.
-import { contrast, fromOklch, mapShade, toOklch } from '../colors';
+// Demo color -> brand color map, from one primary color. The only
+// implementation: the package carries one for the generated brand, and POST
+// /api/color-map rebuilds it when the user changes the color before importing.
+import { contrast, fromOklch, Oklch, toOklch } from '../colors';
 import { ContrastPair, DemoManifest } from '../demos/types';
-import { BrandPalette } from '../types';
 
 const STEP = 0.02;
 const PASSES = 3;
@@ -86,19 +85,84 @@ const enforceContrast = (map: Record<string, string>, pairs: ContrastPair[]): st
 	return locked;
 };
 
+// Below this chroma a color reads as grey and its hue means nothing.
+const GREY_CHROMA = 0.03;
+// Secondary and accent colors this close in hue to the demo's primary were
+// built from it and follow it; further ones are the design's own contrast or
+// mean something (social icons, an alert red) and stay.
+const FOLLOW_HUE = 30;
+// A kept secondary this close to the new primary would merge with it.
+const CLASH_HUE = 30;
+// A neutral tinted at least this much toward the primary (a warm cream beside
+// an orange) follows it.
+const TINT_CHROMA = 0.006;
+const TINT_HUE = 30;
+
+const hueDistance = (a: number, b: number) => Math.min(Math.abs(a - b), 360 - Math.abs(a - b));
+
+// The demo's own primary: the base of its primary hue cluster.
+export const demoPrimary = (demo: DemoManifest): string | undefined =>
+	demo.brand.colors.find((c) => c.group === 'brand' && c.role === 'primary')?.base;
+
+// Lightness relative to the old primary, carried to the new one: a tint
+// halfway to white stays halfway to white, a shade halfway to black likewise.
+const carryLightness = (l: number, from: number, to: number) =>
+	l >= from ? to + (from < 1 ? (l - from) / (1 - from) : 0) * (1 - to) : to * (from > 0 ? l / from : 0);
+
 /**
- * Maps the demo's primary and secondary clusters to the palette, then checks
- * contrast separately for page blocks and theme settings. Locked colors
- * (accents, designer locks) and neutrals keep their demo values. Colors the
- * demo uses as backgrounds never get more vivid.
+ * Demo color -> recolored color, for a new primary. Colors follow it as
+ * closely as they followed the demo's primary:
+ * - the primary cluster takes the new primary exactly, its tints and shades
+ *   as far from it as they were from the old one;
+ * - secondary and accents near the old primary's hue turn with it, never
+ *   more vivid than in the demo; distant ones stay, except a secondary the
+ *   new primary lands on, which becomes the old primary (two-tone stays two-tone);
+ * - neutrals tinted toward the old primary turn with it; plain greys stay.
+ * Designer-locked colors (catalog overrides) keep their demo values.
  */
-export const colorMapFor = (demo: DemoManifest, palette: BrandPalette): ColorMapResult => {
+const recolor = (demo: DemoManifest, primary: string): Record<string, string> => {
+	const old = demoPrimary(demo);
+	if (!old || old === primary) return {};
+	const from = toOklch(old);
+	const to = toOklch(primary);
+	// A grey on either side has no hue to turn from or to: only the primary cluster changes.
+	const grey = from.c < GREY_CHROMA || to.c < GREY_CHROMA;
+	const turn = (h: number) => (h + to.h - from.h + 360) % 360;
+	const ratio = from.c > 0 ? to.c / from.c : 1;
+
 	const map: Record<string, string> = {};
 	for (const color of demo.brand.colors) {
-		if (color.group !== 'brand' || color.locked) continue;
-		if (color.role !== 'primary' && color.role !== 'secondary') continue;
-		map[color.hex] = mapShade(color.hex, color.base ?? color.hex, palette[color.role], !!color.usage?.background);
+		if (color.lockReason === 'designer') continue;
+		const shade = toOklch(color.hex);
+		const base = toOklch(color.base ?? color.hex);
+		const hue = base.h;
+		let next: Oklch | undefined;
+		if (color.role === 'primary') {
+			let c = from.c >= GREY_CHROMA ? shade.c * ratio : to.c;
+			// Bands and fills in a lighter or darker primary never get more vivid; the base itself is the user's pick.
+			if (color.usage?.background) c = Math.min(c, shade.c);
+			next = { l: carryLightness(shade.l, from.l, to.l), c, h: to.h };
+		} else if (grey) {
+			continue;
+		} else if (color.group === 'brand' && hueDistance(hue, from.h) <= FOLLOW_HUE) {
+			next = { l: shade.l, c: shade.c * Math.min(1, ratio), h: turn(shade.h) };
+		} else if (color.group === 'brand' && color.role === 'secondary' && hueDistance(hue, to.h) <= CLASH_HUE) {
+			// Its shades sit around the old primary as they sat around their own base.
+			next = { l: from.l + shade.l - base.l, c: base.c > 0 ? from.c * (shade.c / base.c) : from.c, h: from.h };
+		} else if (color.group === 'neutral' && shade.c >= TINT_CHROMA && hueDistance(shade.h, from.h) <= TINT_HUE) {
+			next = { ...shade, h: turn(shade.h) };
+		}
+		if (next) map[color.hex] = color.hex === old ? primary : fromOklch(next);
 	}
+	return map;
+};
+
+/**
+ * Recolors the demo around a new primary (see recolor), then checks contrast
+ * separately for page blocks and theme settings.
+ */
+export const colorMapFor = (demo: DemoManifest, primary: string): ColorMapResult => {
+	const map = recolor(demo, primary.toLowerCase());
 	const themeMap = { ...map };
 	const pairs = demo.brand.contrastPairs ?? [];
 	const contrastLocked = [

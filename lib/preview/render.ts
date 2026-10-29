@@ -5,6 +5,7 @@
 import * as cheerio from 'cheerio';
 import { ApiError } from '../errors';
 import { DemoManifest, ManifestSection } from '../demos/types';
+import { buildFontMap } from '../pipeline/brand-kit';
 import { colorMapFor } from '../pipeline/color-map';
 import { getManifest } from '../pipeline/pick-demo';
 import { BrandKit, PreviewRequest } from '../types';
@@ -195,10 +196,8 @@ const brandHeader = ($: cheerio.CheerioAPI, brand: BrandKit, demo: DemoManifest)
 };
 
 const styleAndFonts = ($: cheerio.CheerioAPI, request: PreviewRequest, demo: DemoManifest) => {
-	const { map, themeMap } = colorMapFor(demo, request.brand.palette);
-	const fonts = Object.fromEntries(
-		Object.entries(demo.brand.fonts.map).map(([family, role]) => [family, request.brand.fonts[role]]),
-	);
+	const { map, themeMap } = colorMapFor(demo, request.brand.palette.primary);
+	const fonts = buildFontMap(demo, request.brand.fonts);
 	// Theme settings (header, footer, buttons) use their own map, like the import.
 	const isTheme = (id = '') => /^(zakra-style-inline-css|wp-custom-css|global-styles-inline-css)$/.test(id);
 

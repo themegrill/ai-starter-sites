@@ -6,10 +6,10 @@ import { validateColorMap } from '@/lib/validate';
 
 export const OPTIONS = preflight;
 
-// Demo color -> brand color map for an edited palette. Pure math, no LLM.
-export const POST = postRoute(validateColorMap, async ({ demoSlug, palette }) => {
+// Demo color -> brand color map for a changed primary color. Pure math, no LLM.
+export const POST = postRoute(validateColorMap, async ({ demoSlug, primaryColor }) => {
 	const demo = getManifest(demoSlug);
 	if (!demo) throw new ApiError('INVALID_INPUT', 'That design is not available.');
-	const { map, themeMap } = colorMapFor(demo, palette);
+	const { map, themeMap } = colorMapFor(demo, primaryColor);
 	return { colorMap: map, themeColorMap: themeMap };
 });

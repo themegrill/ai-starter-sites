@@ -12,7 +12,7 @@ export const liveGenerator: Generator = {
 	regenerateSection: ({ generationId, page, sectionId, instruction }) =>
 		runRegenerateSection(generationId, page, sectionId, instruction),
 
-	switchDemo: ({ generationId, demoSlug }) => runSwitchDemo(generationId, demoSlug),
+	switchDemo: ({ generationId, demoSlug, primaryColor }) => runSwitchDemo(generationId, demoSlug, primaryColor),
 
 	// Generations finish within the request (progress is streamed), so a known
 	// id is always complete.

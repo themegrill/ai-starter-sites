@@ -5,7 +5,7 @@ import { ApiError } from '../errors';
 import { LlmUsage } from '../llm';
 import { AiPageSlug, DesignsResponse, GenerateRequest, GenerationPackage, GenerationProgress, Section } from '../types';
 import { assemblePackage, buildSection, selectPages } from './assemble';
-import { pickBrandKit } from './brand-kit';
+import { brandKitFor } from './brand-kit';
 import { Brief, parseBrief } from './brief';
 import { writeCopy, writeSectionCopy } from './copy';
 import { getImageProvider } from './images';
@@ -25,7 +25,8 @@ const buildFromDemo = async (
 	brief: Brief,
 	demoSlug: string,
 	options: RunOptions,
-	brandOverride?: GenerationPackage['brand'],
+	// Kept across a design switch: the user may have edited them in the preview.
+	names?: Pick<GenerationPackage['brand'], 'siteTitle' | 'tagline'>,
 ) => {
 	const { onProgress, signal } = options;
 	const demo = getManifest(demoSlug);
@@ -38,7 +39,7 @@ const buildFromDemo = async (
 		.map((slug) => availableDemos().find((d) => d.slug === slug)!)
 		.filter(Boolean)
 		.slice(0, 3);
-	const brand = brandOverride ?? pickBrandKit(demo, request.tone, request.brandName, brief);
+	const brand = { ...brandKitFor(demo, request.brandName, brief, request.primaryColor), ...names };
 
 	onProgress?.({ step: 'writing_copy', progress: 0.3 });
 	const { pages } = selectPages(demo, request.pages);
@@ -140,13 +141,15 @@ const requireGeneration = (id: string) => {
 	return stored;
 };
 
-export const runSwitchDemo = async (generationId: string, demoSlug: string, options: RunOptions = {}) => {
+export const runSwitchDemo = async (generationId: string, demoSlug: string, primaryColor?: string, options: RunOptions = {}) => {
 	const stored = requireGeneration(generationId);
 	if (!availableDemos().some((d) => d.slug === demoSlug)) {
 		throw new ApiError('INVALID_INPUT', 'That design is not available.');
 	}
-	// Keep the brand kit: the user may have tuned it in the preview.
-	return buildFromDemo(generationId, stored.request, stored.brief, demoSlug, options, stored.pkg.brand);
+	// The new design is recolored around the user's color; without one it keeps its own.
+	const request = { ...stored.request, ...(primaryColor ? { primaryColor } : {}) };
+	const { siteTitle, tagline } = stored.pkg.brand;
+	return buildFromDemo(generationId, request, stored.brief, demoSlug, options, { siteTitle, tagline });
 };
 
 export const runRegenerateSection = async (
