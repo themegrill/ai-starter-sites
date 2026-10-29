@@ -28,13 +28,45 @@
 			{
 				"hex": "#e5efeb",
 				"count": 13,
-				"group": "brand",
-				"role": "primary",
-				"base": "#e5efeb",
-				"lightnessDelta": 0,
+				"group": "neutral",
+				"role": "background",
 				"usage": {
 					"background": 13
 				}
+			},
+			{
+				"hex": "#566158",
+				"count": 9,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#e9e7dd",
+				"count": 3,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
+				"hex": "#006639",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#006639",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#094e2f",
+				"count": 3,
+				"group": "brand",
+				"role": "primary",
+				"base": "#006639",
+				"lightnessDelta": -0.029
+			},
+			{
+				"hex": "#ffffff",
+				"count": 2,
+				"group": "neutral",
+				"role": "background"
 			},
 			{
 				"hex": "#706258",
@@ -62,15 +94,17 @@
 				"usage": {
 					"text": 1
 				}
-			},
-			{
-				"hex": "#ffffff",
-				"count": 1,
-				"group": "neutral",
-				"role": "background"
 			}
 		],
-		"contrastPairs": [],
+		"contrastPairs": [
+			{
+				"fg": "#006639",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			}
+		],
 		"fonts": {
 			"heading": "Fraunces",
 			"body": "Inter",
@@ -6416,5 +6450,5 @@
 		"swappableImages": 36,
 		"words": 1309
 	},
-	"builtAt": "2026-10-24T11:35:08.137Z"
+	"builtAt": "2026-10-29T09:32:50.295Z"
 }

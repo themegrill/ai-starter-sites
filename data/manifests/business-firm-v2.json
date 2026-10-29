@@ -87,8 +87,6 @@
 				"role": "accent",
 				"base": "#f48fb1",
 				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent",
 				"usage": {
 					"background": 4,
 					"text": 4
@@ -147,8 +145,6 @@
 				"role": "accent",
 				"base": "#ffc035",
 				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent",
 				"usage": {
 					"background": 4,
 					"text": 1
@@ -172,17 +168,13 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#573dff",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			},
 			{
 				"hex": "#d9e2ea",
 				"count": 2,
-				"group": "brand",
-				"role": "primary",
-				"base": "#4ac6d6",
-				"lightnessDelta": 0.32
+				"group": "neutral",
+				"role": "muted"
 			},
 			{
 				"hex": "#dddddd",
@@ -222,9 +214,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#ffc035",
-				"lightnessDelta": -0.061,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": -0.061
 			},
 			{
 				"hex": "#f48250",
@@ -233,8 +223,6 @@
 				"role": "accent",
 				"base": "#f48250",
 				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent",
 				"usage": {
 					"text": 1
 				}
@@ -357,13 +345,6 @@
 				"fg": "#ffffff",
 				"bg": "#2aaabb",
 				"large": true,
-				"count": 2,
-				"scope": "theme"
-			},
-			{
-				"fg": "#d9e2ea",
-				"bg": "#081726",
-				"large": false,
 				"count": 2,
 				"scope": "theme"
 			},
@@ -2524,5 +2505,5 @@
 		"swappableImages": 11,
 		"words": 462
 	},
-	"builtAt": "2026-10-24T11:35:07.961Z"
+	"builtAt": "2026-10-29T09:32:50.041Z"
 }

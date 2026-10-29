@@ -131,10 +131,8 @@
 			{
 				"hex": "#f1ebe0",
 				"count": 3,
-				"group": "brand",
-				"role": "primary",
-				"base": "#b89552",
-				"lightnessDelta": 0.39,
+				"group": "neutral",
+				"role": "background",
 				"usage": {
 					"background": 3
 				}
@@ -206,13 +204,6 @@
 				"scope": "blocks"
 			},
 			{
-				"fg": "#212529",
-				"bg": "#f1ebe0",
-				"large": false,
-				"count": 4,
-				"scope": "blocks"
-			},
-			{
 				"fg": "#b89552",
 				"bg": "#ffffff",
 				"large": false,
@@ -232,13 +223,6 @@
 				"large": false,
 				"count": 3,
 				"scope": "theme"
-			},
-			{
-				"fg": "#313133",
-				"bg": "#f1ebe0",
-				"large": true,
-				"count": 2,
-				"scope": "blocks"
 			},
 			{
 				"fg": "#ffffff",
@@ -4520,5 +4504,5 @@
 		"swappableImages": 13,
 		"words": 1754
 	},
-	"builtAt": "2026-10-24T11:35:08.024Z"
+	"builtAt": "2026-10-29T09:32:50.130Z"
 }

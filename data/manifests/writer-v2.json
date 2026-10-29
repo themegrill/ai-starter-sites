@@ -30,8 +30,10 @@
 			{
 				"hex": "#586e5e",
 				"count": 49,
-				"group": "neutral",
-				"role": "muted",
+				"group": "brand",
+				"role": "secondary",
+				"base": "#586e5e",
+				"lightnessDelta": 0,
 				"usage": {
 					"text": 33,
 					"background": 6,
@@ -138,7 +140,7 @@
 				"hex": "#2664eb",
 				"count": 2,
 				"group": "brand",
-				"role": "secondary",
+				"role": "accent",
 				"base": "#2664eb",
 				"lightnessDelta": 0
 			},
@@ -146,7 +148,7 @@
 				"hex": "#2563eb",
 				"count": 2,
 				"group": "brand",
-				"role": "secondary",
+				"role": "accent",
 				"base": "#2664eb",
 				"lightnessDelta": -0.002
 			},
@@ -154,7 +156,7 @@
 				"hex": "#027abb",
 				"count": 2,
 				"group": "brand",
-				"role": "secondary",
+				"role": "accent",
 				"base": "#2664eb",
 				"lightnessDelta": -0.165
 			},
@@ -164,18 +166,30 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#dd9933",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			}
 		],
 		"contrastPairs": [
+			{
+				"fg": "#586e5e",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 26,
+				"scope": "blocks"
+			},
 			{
 				"fg": "#d14031",
 				"bg": "#ffffff",
 				"large": false,
 				"count": 7,
 				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#586e5e",
+				"large": true,
+				"count": 6,
+				"scope": "blocks"
 			},
 			{
 				"fg": "#d14031",
@@ -189,6 +203,20 @@
 				"bg": "#ffffff",
 				"large": true,
 				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#829387",
+				"bg": "#586e5e",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#586e5e",
+				"large": false,
+				"count": 1,
 				"scope": "blocks"
 			},
 			{
@@ -2369,5 +2397,5 @@
 		"swappableImages": 6,
 		"words": 588
 	},
-	"builtAt": "2026-10-24T11:35:08.088Z"
+	"builtAt": "2026-10-29T09:32:50.226Z"
 }

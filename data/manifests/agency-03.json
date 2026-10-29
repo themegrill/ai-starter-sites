@@ -208,8 +208,6 @@
 				"role": "accent",
 				"base": "#2563eb",
 				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent",
 				"usage": {
 					"border": 1
 				}
@@ -220,9 +218,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#2563eb",
-				"lightnessDelta": -0.163,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": -0.163
 			}
 		],
 		"contrastPairs": [
@@ -4352,5 +4348,5 @@
 		"swappableImages": 26,
 		"words": 933
 	},
-	"builtAt": "2026-10-24T11:35:07.835Z"
+	"builtAt": "2026-10-29T09:32:49.864Z"
 }

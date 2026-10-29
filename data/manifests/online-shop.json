@@ -43,8 +43,10 @@
 			{
 				"hex": "#181818",
 				"count": 13,
-				"group": "neutral",
-				"role": "text",
+				"group": "brand",
+				"role": "primary",
+				"base": "#181818",
+				"lightnessDelta": 0,
 				"usage": {
 					"text": 9,
 					"background": 2
@@ -111,9 +113,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			},
 			{
 				"hex": "#3f3f46",
@@ -124,12 +124,8 @@
 			{
 				"hex": "#130c0e",
 				"count": 2,
-				"group": "brand",
-				"role": "accent",
-				"base": "#130c0e",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"group": "neutral",
+				"role": "text"
 			},
 			{
 				"hex": "#fffffc",
@@ -143,16 +139,21 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0.014,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0.014
 			}
 		],
 		"contrastPairs": [
 			{
-				"fg": "#ffffff",
-				"bg": "#130c0e",
+				"fg": "#181818",
+				"bg": "#ffffff",
 				"large": true,
+				"count": 8,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#d4d4d8",
+				"bg": "#181818",
+				"large": false,
 				"count": 2,
 				"scope": "theme"
 			},
@@ -162,6 +163,34 @@
 				"large": false,
 				"count": 2,
 				"scope": "theme"
+			},
+			{
+				"fg": "#181818",
+				"bg": "#f8f8f8",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#f8f8f8",
+				"bg": "#181818",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#181818",
+				"large": false,
+				"count": 1,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#fdfdfd",
+				"bg": "#181818",
+				"large": true,
+				"count": 1,
+				"scope": "blocks"
 			},
 			{
 				"fg": "#027abb",
@@ -173,6 +202,20 @@
 			{
 				"fg": "#1e7ba6",
 				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#181818",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#fafafa",
+				"bg": "#181818",
 				"large": false,
 				"count": 1,
 				"scope": "theme"
@@ -1335,5 +1378,5 @@
 		"swappableImages": 7,
 		"words": 129
 	},
-	"builtAt": "2026-10-24T11:35:08.091Z"
+	"builtAt": "2026-10-29T09:32:50.231Z"
 }

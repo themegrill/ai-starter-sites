@@ -50,9 +50,25 @@ const mostUsed = (families: string[]) => {
 	return [...counts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
 };
 
+// Theme settings can point at the theme's color palette ("var(--zakra-color-1)")
+// instead of holding a color; swap each reference for the palette's color.
+const resolvePaletteVars = (mods: Record<string, unknown>): Record<string, unknown> => {
+	const palette = (mods.zakra_color_palette as { colors?: Record<string, unknown> } | undefined)?.colors ?? {};
+	const swap = (value: unknown): unknown => {
+		if (typeof value === 'string') {
+			const name = value.match(/^var\(--(zakra-color-\d+)\)$/)?.[1];
+			return name && typeof palette[name] === 'string' ? palette[name] : value;
+		}
+		if (Array.isArray(value)) return value.map(swap);
+		if (value && typeof value === 'object') return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, swap(v)]));
+		return value;
+	};
+	return Object.fromEntries(Object.entries(mods).map(([key, value]) => [key, key === 'zakra_color_palette' ? value : swap(value)]));
+};
+
 const buildDemo = async (item: CatalogItem, listing: { title: string; previewImage: string; url: string } | undefined) => {
 	const data = await fetchDemoData(item.slug);
-	const themeMods = data.themeMods ?? {};
+	const themeMods = resolvePaletteVars(data.themeMods ?? {});
 	const warnings: string[] = [];
 	const colorCounts = new Map<string, number>();
 	const themeColorCounts = new Map<string, number>();
@@ -109,8 +125,10 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 		if (hex) themeColorCounts.set(hex, (themeColorCounts.get(hex) ?? 0) + 1);
 	}
 	scanThemeMods(themeMods, colorContext);
-	const themePrimary =
-		typeof themeMods.zakra_primary_color === 'string' ? normalizeColor(themeMods.zakra_primary_color) : undefined;
+	// Without an explicit primary, the palette's first color is the theme's primary.
+	const paletteColors = (themeMods.zakra_color_palette as { colors?: Record<string, unknown> } | undefined)?.colors;
+	const primarySetting = themeMods.zakra_primary_color ?? paletteColors?.['zakra-color-1'];
+	const themePrimary = typeof primarySetting === 'string' ? normalizeColor(primarySetting) : undefined;
 
 	// What the blocks render wins; theme typography is the fallback.
 	const headingFont =

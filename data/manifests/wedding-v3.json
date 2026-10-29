@@ -148,9 +148,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			},
 			{
 				"hex": "#ffecf5",
@@ -3820,5 +3818,5 @@
 		"swappableImages": 36,
 		"words": 1070
 	},
-	"builtAt": "2026-10-24T11:35:08.084Z"
+	"builtAt": "2026-10-29T09:32:50.219Z"
 }

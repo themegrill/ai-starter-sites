@@ -44,6 +44,12 @@
 				}
 			},
 			{
+				"hex": "#4e4e4e",
+				"count": 9,
+				"group": "neutral",
+				"role": "muted"
+			},
+			{
 				"hex": "#7a7a7a",
 				"count": 8,
 				"group": "neutral",
@@ -60,6 +66,12 @@
 				"usage": {
 					"border": 6
 				}
+			},
+			{
+				"hex": "#222222",
+				"count": 5,
+				"group": "neutral",
+				"role": "text"
 			},
 			{
 				"hex": "#f1f9f6",
@@ -81,6 +93,12 @@
 				"count": 1,
 				"group": "neutral",
 				"role": "muted"
+			},
+			{
+				"hex": "#f2f2f2",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
 			}
 		],
 		"contrastPairs": [],
@@ -5888,5 +5906,5 @@
 		"swappableImages": 26,
 		"words": 1310
 	},
-	"builtAt": "2026-10-24T11:35:08.149Z"
+	"builtAt": "2026-10-29T09:32:50.314Z"
 }

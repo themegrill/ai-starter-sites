@@ -226,8 +226,6 @@
 				"role": "accent",
 				"base": "#f00b0b",
 				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent",
 				"usage": {
 					"border": 1
 				}
@@ -3729,5 +3727,5 @@
 		"swappableImages": 19,
 		"words": 1250
 	},
-	"builtAt": "2026-10-24T11:35:07.847Z"
+	"builtAt": "2026-10-29T09:32:49.883Z"
 }

@@ -39,10 +39,8 @@
 			{
 				"hex": "#f7efee",
 				"count": 6,
-				"group": "brand",
-				"role": "primary",
-				"base": "#f7efee",
-				"lightnessDelta": 0,
+				"group": "neutral",
+				"role": "background",
 				"usage": {
 					"background": 6
 				}
@@ -59,6 +57,23 @@
 				}
 			},
 			{
+				"hex": "#7d6a85",
+				"count": 6,
+				"group": "brand",
+				"role": "accent",
+				"base": "#7d6a85",
+				"lightnessDelta": 0
+			},
+			{
+				"hex": "#ffffff",
+				"count": 5,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"text": 3
+				}
+			},
+			{
 				"hex": "#ededed",
 				"count": 4,
 				"group": "neutral",
@@ -68,23 +83,12 @@
 				}
 			},
 			{
-				"hex": "#ffffff",
-				"count": 3,
-				"group": "neutral",
-				"role": "background",
-				"usage": {
-					"text": 3
-				}
-			},
-			{
 				"hex": "#fcff41",
 				"count": 3,
 				"group": "brand",
 				"role": "accent",
 				"base": "#fcff41",
 				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent",
 				"usage": {
 					"text": 3
 				}
@@ -92,10 +96,8 @@
 			{
 				"hex": "#c8b5ab",
 				"count": 2,
-				"group": "brand",
-				"role": "primary",
-				"base": "#f7efee",
-				"lightnessDelta": -0.224,
+				"group": "neutral",
+				"role": "muted",
 				"usage": {
 					"text": 2
 				}
@@ -104,11 +106,9 @@
 				"hex": "#bda98e",
 				"count": 2,
 				"group": "brand",
-				"role": "accent",
+				"role": "primary",
 				"base": "#bda98e",
 				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent",
 				"usage": {
 					"text": 2
 				}
@@ -117,13 +117,20 @@
 				"hex": "#b39675",
 				"count": 2,
 				"group": "brand",
-				"role": "accent",
+				"role": "primary",
 				"base": "#bda98e",
 				"lightnessDelta": -0.069,
-				"locked": true,
-				"lockReason": "accent",
 				"usage": {
 					"text": 2
+				}
+			},
+			{
+				"hex": "#f7eeea",
+				"count": 1,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 1
 				}
 			},
 			{
@@ -133,66 +140,34 @@
 				"role": "background"
 			},
 			{
-				"hex": "#f7eeea",
+				"hex": "#ede5e0",
+				"count": 1,
+				"group": "neutral",
+				"role": "background"
+			},
+			{
+				"hex": "#ff6b35",
 				"count": 1,
 				"group": "brand",
 				"role": "primary",
-				"base": "#f7efee",
-				"lightnessDelta": -0.008,
-				"usage": {
-					"background": 1
-				}
+				"base": "#bda98e",
+				"lightnessDelta": -0.045
 			},
 			{
 				"hex": "#e40909",
 				"count": 1,
 				"group": "brand",
-				"role": "primary",
-				"base": "#f7efee",
-				"lightnessDelta": -0.486
+				"role": "accent",
+				"base": "#e40909",
+				"lightnessDelta": 0
 			}
 		],
 		"contrastPairs": [
-			{
-				"fg": "#1f1f32",
-				"bg": "#f7efee",
-				"large": false,
-				"count": 99,
-				"scope": "blocks"
-			},
-			{
-				"fg": "#1f1f32",
-				"bg": "#f7efee",
-				"large": true,
-				"count": 12,
-				"scope": "blocks"
-			},
-			{
-				"fg": "#1f1f32",
-				"bg": "#f7eeea",
-				"large": false,
-				"count": 9,
-				"scope": "blocks"
-			},
 			{
 				"fg": "#f368e0",
 				"bg": "#f7efee",
 				"large": false,
 				"count": 4,
-				"scope": "blocks"
-			},
-			{
-				"fg": "#bab0b7",
-				"bg": "#f7efee",
-				"large": false,
-				"count": 4,
-				"scope": "blocks"
-			},
-			{
-				"fg": "#c8b5ab",
-				"bg": "#f7efee",
-				"large": false,
-				"count": 2,
 				"scope": "blocks"
 			},
 			{
@@ -210,13 +185,6 @@
 				"scope": "blocks"
 			},
 			{
-				"fg": "#ffffff",
-				"bg": "#f7efee",
-				"large": false,
-				"count": 2,
-				"scope": "blocks"
-			},
-			{
 				"fg": "#fcff41",
 				"bg": "#f7efee",
 				"large": false,
@@ -236,6 +204,20 @@
 				"large": false,
 				"count": 1,
 				"scope": "blocks"
+			},
+			{
+				"fg": "#7d6a85",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#ff6b35",
+				"large": true,
+				"count": 1,
+				"scope": "theme"
 			}
 		],
 		"fonts": {
@@ -6454,5 +6436,5 @@
 		"swappableImages": 24,
 		"words": 1882
 	},
-	"builtAt": "2026-10-24T11:35:08.161Z"
+	"builtAt": "2026-10-29T09:32:50.335Z"
 }

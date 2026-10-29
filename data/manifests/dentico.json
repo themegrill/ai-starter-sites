@@ -160,6 +160,15 @@
 				"lightnessDelta": 0.061
 			},
 			{
+				"hex": "#ebf7fe",
+				"count": 3,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 2
+				}
+			},
+			{
 				"hex": "#e4e4e7",
 				"count": 3,
 				"group": "neutral",
@@ -176,17 +185,6 @@
 				"count": 3,
 				"group": "neutral",
 				"role": "background"
-			},
-			{
-				"hex": "#ebf7fe",
-				"count": 3,
-				"group": "brand",
-				"role": "primary",
-				"base": "#00509e",
-				"lightnessDelta": 0.649,
-				"usage": {
-					"background": 2
-				}
 			},
 			{
 				"hex": "#f1f2f2",
@@ -249,24 +247,10 @@
 				"scope": "blocks"
 			},
 			{
-				"fg": "#757575",
-				"bg": "#ebf7fe",
-				"large": false,
-				"count": 13,
-				"scope": "blocks"
-			},
-			{
 				"fg": "#ffffff",
 				"bg": "#00abcd",
 				"large": false,
 				"count": 12,
-				"scope": "blocks"
-			},
-			{
-				"fg": "#3f3f46",
-				"bg": "#ebf7fe",
-				"large": true,
-				"count": 9,
 				"scope": "blocks"
 			},
 			{
@@ -329,13 +313,6 @@
 				"fg": "#00509e",
 				"bg": "#ebf7fe",
 				"large": false,
-				"count": 1,
-				"scope": "blocks"
-			},
-			{
-				"fg": "#363636",
-				"bg": "#ebf7fe",
-				"large": true,
 				"count": 1,
 				"scope": "blocks"
 			},
@@ -3469,5 +3446,5 @@
 		"swappableImages": 18,
 		"words": 910
 	},
-	"builtAt": "2026-10-24T11:35:07.929Z"
+	"builtAt": "2026-10-29T09:32:49.997Z"
 }

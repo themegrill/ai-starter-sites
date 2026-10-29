@@ -67,10 +67,8 @@
 			{
 				"hex": "#ede4f8",
 				"count": 14,
-				"group": "brand",
-				"role": "secondary",
-				"base": "#ede4f8",
-				"lightnessDelta": 0,
+				"group": "neutral",
+				"role": "background",
 				"usage": {
 					"background": 13,
 					"border": 1
@@ -100,9 +98,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			},
 			{
 				"hex": "#e4e4e7",
@@ -134,19 +130,10 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0.014,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0.014
 			}
 		],
 		"contrastPairs": [
-			{
-				"fg": "#363b40",
-				"bg": "#ede4f8",
-				"large": false,
-				"count": 25,
-				"scope": "blocks"
-			},
 			{
 				"fg": "#ffffff",
 				"bg": "#abb2ee",
@@ -172,13 +159,6 @@
 				"fg": "#abb2ee",
 				"bg": "#ede4f8",
 				"large": false,
-				"count": 1,
-				"scope": "blocks"
-			},
-			{
-				"fg": "#16181a",
-				"bg": "#ede4f8",
-				"large": true,
 				"count": 1,
 				"scope": "blocks"
 			},
@@ -1576,5 +1556,5 @@
 		"swappableImages": 6,
 		"words": 486
 	},
-	"builtAt": "2026-10-24T11:35:07.827Z"
+	"builtAt": "2026-10-29T09:32:49.853Z"
 }

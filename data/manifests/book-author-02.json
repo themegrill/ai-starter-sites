@@ -39,8 +39,10 @@
 			{
 				"hex": "#6b5c4e",
 				"count": 34,
-				"group": "neutral",
-				"role": "muted",
+				"group": "brand",
+				"role": "primary",
+				"base": "#6b5c4e",
+				"lightnessDelta": 0,
 				"usage": {
 					"text": 11,
 					"background": 14
@@ -84,7 +86,7 @@
 				"hex": "#2563eb",
 				"count": 6,
 				"group": "brand",
-				"role": "primary",
+				"role": "secondary",
 				"base": "#2563eb",
 				"lightnessDelta": 0,
 				"usage": {
@@ -149,7 +151,7 @@
 				"hex": "#027abb",
 				"count": 2,
 				"group": "brand",
-				"role": "primary",
+				"role": "secondary",
 				"base": "#2563eb",
 				"lightnessDelta": -0.163
 			},
@@ -181,6 +183,12 @@
 				}
 			},
 			{
+				"hex": "#544438",
+				"count": 1,
+				"group": "neutral",
+				"role": "text"
+			},
+			{
 				"hex": "#595048",
 				"count": 1,
 				"group": "neutral",
@@ -191,30 +199,48 @@
 				"count": 1,
 				"group": "neutral",
 				"role": "background"
-			},
-			{
-				"hex": "#544438",
-				"count": 1,
-				"group": "brand",
-				"role": "accent",
-				"base": "#544438",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
 			}
 		],
 		"contrastPairs": [
 			{
-				"fg": "#544438",
+				"fg": "#6b5c4e",
 				"bg": "#ffffff",
 				"large": false,
-				"count": 1,
+				"count": 6,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#6b5c4e",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 5,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#6b5c4e",
+				"large": false,
+				"count": 2,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#6b5c4e",
+				"bg": "#ffffff",
+				"large": false,
+				"count": 2,
 				"scope": "theme"
 			},
 			{
 				"fg": "#027abb",
 				"bg": "#ffffff",
 				"large": false,
+				"count": 1,
+				"scope": "theme"
+			},
+			{
+				"fg": "#ffffff",
+				"bg": "#6b5c4e",
+				"large": true,
 				"count": 1,
 				"scope": "theme"
 			}
@@ -2757,5 +2783,5 @@
 		"swappableImages": 19,
 		"words": 892
 	},
-	"builtAt": "2026-10-24T11:35:07.902Z"
+	"builtAt": "2026-10-29T09:32:49.961Z"
 }

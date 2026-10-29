@@ -145,8 +145,6 @@
 				"role": "accent",
 				"base": "#360c3e",
 				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent",
 				"usage": {
 					"text": 1
 				}
@@ -157,9 +155,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			}
 		],
 		"contrastPairs": [
@@ -1523,5 +1519,5 @@
 		"swappableImages": 8,
 		"words": 177
 	},
-	"builtAt": "2026-10-24T11:35:08.094Z"
+	"builtAt": "2026-10-29T09:32:50.236Z"
 }

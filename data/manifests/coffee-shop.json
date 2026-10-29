@@ -164,9 +164,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#2fc8d6",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			},
 			{
 				"hex": "#027abb",
@@ -174,9 +172,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#2fc8d6",
-				"lightnessDelta": -0.141,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": -0.141
 			}
 		],
 		"contrastPairs": [
@@ -2953,5 +2949,5 @@
 		"swappableImages": 22,
 		"words": 808
 	},
-	"builtAt": "2026-10-24T11:35:08.112Z"
+	"builtAt": "2026-10-29T09:32:50.261Z"
 }

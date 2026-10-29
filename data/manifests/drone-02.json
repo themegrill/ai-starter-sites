@@ -69,8 +69,10 @@
 			{
 				"hex": "#8590a7",
 				"count": 18,
-				"group": "neutral",
-				"role": "muted",
+				"group": "brand",
+				"role": "secondary",
+				"base": "#8590a7",
+				"lightnessDelta": 0,
 				"usage": {
 					"text": 9,
 					"border": 9
@@ -93,19 +95,21 @@
 				"role": "background"
 			},
 			{
-				"hex": "#7f8ba3",
-				"count": 4,
-				"group": "neutral",
-				"role": "muted",
-				"usage": {
-					"text": 4
-				}
-			},
-			{
 				"hex": "#fafafa",
 				"count": 4,
 				"group": "neutral",
 				"role": "background"
+			},
+			{
+				"hex": "#7f8ba3",
+				"count": 4,
+				"group": "brand",
+				"role": "secondary",
+				"base": "#8590a7",
+				"lightnessDelta": -0.02,
+				"usage": {
+					"text": 4
+				}
 			},
 			{
 				"hex": "#3f3f46",
@@ -123,11 +127,9 @@
 				"hex": "#027abb",
 				"count": 3,
 				"group": "brand",
-				"role": "accent",
-				"base": "#027abb",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"role": "secondary",
+				"base": "#8590a7",
+				"lightnessDelta": -0.218
 			},
 			{
 				"hex": "#f9f9f9",
@@ -142,14 +144,19 @@
 				"hex": "#1e7ba6",
 				"count": 1,
 				"group": "brand",
-				"role": "accent",
-				"base": "#027abb",
-				"lightnessDelta": 0.014,
-				"locked": true,
-				"lockReason": "accent"
+				"role": "secondary",
+				"base": "#8590a7",
+				"lightnessDelta": -0.204
 			}
 		],
 		"contrastPairs": [
+			{
+				"fg": "#8590a7",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 9,
+				"scope": "blocks"
+			},
 			{
 				"fg": "#ef6751",
 				"bg": "#ffffff",
@@ -176,6 +183,20 @@
 				"bg": "#ef6751",
 				"large": true,
 				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#7f8ba3",
+				"bg": "#ffffff",
+				"large": true,
+				"count": 3,
+				"scope": "blocks"
+			},
+			{
+				"fg": "#7f8ba3",
+				"bg": "#0f1012",
+				"large": true,
+				"count": 1,
 				"scope": "blocks"
 			},
 			{
@@ -2006,5 +2027,5 @@
 		"swappableImages": 13,
 		"words": 785
 	},
-	"builtAt": "2026-10-24T11:35:08.051Z"
+	"builtAt": "2026-10-29T09:32:50.167Z"
 }

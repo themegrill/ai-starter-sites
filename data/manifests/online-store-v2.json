@@ -59,6 +59,15 @@
 				"role": "background"
 			},
 			{
+				"hex": "#e2ebf0",
+				"count": 4,
+				"group": "neutral",
+				"role": "background",
+				"usage": {
+					"background": 3
+				}
+			},
+			{
 				"hex": "#f45c43",
 				"count": 4,
 				"group": "brand",
@@ -67,17 +76,6 @@
 				"lightnessDelta": 0.049,
 				"usage": {
 					"background": 4
-				}
-			},
-			{
-				"hex": "#e2ebf0",
-				"count": 4,
-				"group": "brand",
-				"role": "secondary",
-				"base": "#e2ebf0",
-				"lightnessDelta": 0,
-				"usage": {
-					"background": 3
 				}
 			},
 			{
@@ -97,8 +95,8 @@
 				"count": 3,
 				"group": "brand",
 				"role": "secondary",
-				"base": "#e2ebf0",
-				"lightnessDelta": -0.38,
+				"base": "#2563eb",
+				"lightnessDelta": 0,
 				"usage": {
 					"border": 3
 				}
@@ -108,8 +106,8 @@
 				"count": 3,
 				"group": "brand",
 				"role": "secondary",
-				"base": "#e2ebf0",
-				"lightnessDelta": -0.543
+				"base": "#2563eb",
+				"lightnessDelta": -0.163
 			},
 			{
 				"hex": "#d4d4d8",
@@ -124,54 +122,36 @@
 				"role": "background"
 			},
 			{
+				"hex": "#cfd9df",
+				"count": 1,
+				"group": "neutral",
+				"role": "muted",
+				"usage": {
+					"background": 1
+				}
+			},
+			{
 				"hex": "#16181a",
 				"count": 1,
 				"group": "neutral",
 				"role": "text"
 			},
 			{
-				"hex": "#cfd9df",
-				"count": 1,
-				"group": "brand",
-				"role": "secondary",
-				"base": "#e2ebf0",
-				"lightnessDelta": -0.071,
-				"usage": {
-					"background": 1
-				}
-			},
-			{
 				"hex": "#171d54",
 				"count": 1,
 				"group": "brand",
-				"role": "accent",
-				"base": "#171d54",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"role": "secondary",
+				"base": "#2563eb",
+				"lightnessDelta": -0.324
 			}
 		],
 		"contrastPairs": [
-			{
-				"fg": "#111111",
-				"bg": "#e2ebf0",
-				"large": true,
-				"count": 8,
-				"scope": "blocks"
-			},
 			{
 				"fg": "#eb3349",
 				"bg": "#ffffff",
 				"large": false,
 				"count": 5,
 				"scope": "theme"
-			},
-			{
-				"fg": "#111111",
-				"bg": "#cfd9df",
-				"large": true,
-				"count": 2,
-				"scope": "blocks"
 			},
 			{
 				"fg": "#eb3349",
@@ -186,13 +166,6 @@
 				"large": false,
 				"count": 2,
 				"scope": "theme"
-			},
-			{
-				"fg": "#111111",
-				"bg": "#cfd9df",
-				"large": false,
-				"count": 1,
-				"scope": "blocks"
 			},
 			{
 				"fg": "#eb3349",
@@ -1329,5 +1302,5 @@
 		"swappableImages": 9,
 		"words": 113
 	},
-	"builtAt": "2026-10-24T11:35:08.096Z"
+	"builtAt": "2026-10-29T09:32:50.240Z"
 }

@@ -61,8 +61,10 @@
 			{
 				"hex": "#2d2a27",
 				"count": 20,
-				"group": "neutral",
-				"role": "text",
+				"group": "brand",
+				"role": "primary",
+				"base": "#2d2a27",
+				"lightnessDelta": 0,
 				"usage": {
 					"text": 2,
 					"background": 14,
@@ -113,10 +115,8 @@
 			{
 				"hex": "#f8f5f0",
 				"count": 4,
-				"group": "brand",
-				"role": "primary",
-				"base": "#f8f5f0",
-				"lightnessDelta": 0,
+				"group": "neutral",
+				"role": "background",
 				"usage": {
 					"background": 4
 				}
@@ -151,9 +151,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#2664eb",
-				"lightnessDelta": -0.165,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": -0.165
 			},
 			{
 				"hex": "#282723",
@@ -176,9 +174,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#2664eb",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			},
 			{
 				"hex": "#1e7ba6",
@@ -186,30 +182,28 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#1e7ba6",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			}
 		],
 		"contrastPairs": [
 			{
-				"fg": "#343a40",
-				"bg": "#f8f5f0",
-				"large": false,
-				"count": 4,
+				"fg": "#ffffff",
+				"bg": "#2d2a27",
+				"large": true,
+				"count": 8,
 				"scope": "blocks"
 			},
 			{
-				"fg": "#000000",
-				"bg": "#f8f5f0",
+				"fg": "#ffffff",
+				"bg": "#2d2a27",
 				"large": false,
-				"count": 2,
+				"count": 6,
 				"scope": "blocks"
 			},
 			{
-				"fg": "#3f3f46",
-				"bg": "#f8f5f0",
-				"large": false,
+				"fg": "#2d2a27",
+				"bg": "#ffffff",
+				"large": true,
 				"count": 2,
 				"scope": "blocks"
 			},
@@ -219,13 +213,6 @@
 				"large": false,
 				"count": 2,
 				"scope": "theme"
-			},
-			{
-				"fg": "#212529",
-				"bg": "#f8f5f0",
-				"large": true,
-				"count": 1,
-				"scope": "blocks"
 			},
 			{
 				"fg": "#1e7ba6",
@@ -3623,5 +3610,5 @@
 		"swappableImages": 33,
 		"words": 657
 	},
-	"builtAt": "2026-10-24T11:35:08.054Z"
+	"builtAt": "2026-10-29T09:32:50.174Z"
 }

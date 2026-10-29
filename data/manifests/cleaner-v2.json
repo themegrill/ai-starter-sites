@@ -202,9 +202,7 @@
 				"group": "brand",
 				"role": "accent",
 				"base": "#027abb",
-				"lightnessDelta": 0,
-				"locked": true,
-				"lockReason": "accent"
+				"lightnessDelta": 0
 			}
 		],
 		"contrastPairs": [
@@ -4756,5 +4754,5 @@
 		"swappableImages": 19,
 		"words": 1031
 	},
-	"builtAt": "2026-10-24T11:35:07.945Z"
+	"builtAt": "2026-10-29T09:32:50.018Z"
 }
