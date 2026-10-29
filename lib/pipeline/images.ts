@@ -9,7 +9,7 @@ import { overlayFor, toneDistance, toneOf } from '../images/tone';
 import { GenerateRequest, ImageSlot } from '../types';
 import { Brief } from './brief';
 import { CopyResult } from './copy';
-import { fallbackQuery, photoGroups, planPhotoQueries, PhotoQuery } from './image-queries';
+import { fallbackQuery, isBanner, PhotoGroup, photoGroups, planPhotoQueries, PhotoQuery } from './image-queries';
 
 // The pages being built and their new copy, so photos can follow each section's heading.
 export type ImageContext = { request: GenerateRequest; pages: ManifestPage[]; copy: CopyResult; signal?: AbortSignal };
@@ -62,14 +62,15 @@ const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const PER_PAGE = 60;
 const SEARCH_CONCURRENCY = 4;
 const TONE_CONCURRENCY = 12;
-// Candidates per slot whose tone is compared with the demo photo's; more for
-// backgrounds and heroes, where text sits on the photo.
-const TONE_CANDIDATES = 6;
-const TONE_CANDIDATES_TEXT = 14;
-// Score penalties next to tone distance (0 = same tone, ~0.5 = opposite).
-const UNTAGGED_PENALTY = 0.25;
-const SHAPE_PENALTY = 0.1;
-const NO_TONE_PENALTY = 0.4;
+// Wide photos with text on top (heroes, backgrounds) are searched with these.
+const WIDE_MIN_WIDTH = 1920;
+// Relevance decides; tone only reorders the top few. Each place down the
+// ranking costs RANK_STEP, and tone distance (0 = same, ~0.6 = opposite) is
+// weighted so it can lift a photo by about three places at most.
+const TONE_CANDIDATES = 5;
+const RANK_STEP = 0.1;
+const TONE_WEIGHT = 0.5;
+const NO_TONE_DISTANCE = 0.6;
 
 type PixabayHit = {
 	largeImageURL: string;
@@ -92,6 +93,10 @@ const words = (photo: Photo) => photo.tags.flatMap((t) => t.split(' '));
 const showsAdult = (photo: Photo) => words(photo).some((w) => PERSON_TAGS.has(w)) && !words(photo).some((w) => CHILD_TAGS.has(w));
 // Whole tags only: "baker" matches "baker" and "bakers", not "baker street".
 const hasTag = (photo: Photo, tags: string[]) => photo.tags.some((t) => tags.some((tag) => t === tag || t === `${tag}s`));
+// Signs and lettering fight the heading laid over a hero. Not "text": Pixabay's
+// "text space" tag means room for text, which is what a hero wants.
+const LETTERING_TAGS = new Set('neon sign signs signage signboard lettering typography logo billboard inscription letters font quote'.split(' '));
+const showsLettering = (photo: Photo) => words(photo).some((w) => LETTERING_TAGS.has(w));
 
 const orientationOf = (width: number, height: number): Orientation => {
 	const ratio = width / height;
@@ -100,8 +105,12 @@ const orientationOf = (width: number, height: number): Orientation => {
 	return 'square';
 };
 
-const searchPixabay = async (apiKey: string, query: string): Promise<Photo[]> => {
-	const key = query.toLowerCase();
+// `wide`: large landscape photos only. `editors`: Pixabay's editors' choice,
+// better photos but few of them for narrow words.
+type Search = { query: string; wide?: boolean; editors?: boolean };
+
+const searchPixabay = async (apiKey: string, { query, wide, editors }: Search): Promise<Photo[]> => {
+	const key = `${query.toLowerCase()}|${wide ? 'wide' : ''}|${editors ? 'editors' : ''}`;
 	const cached = searchCache.get(key);
 	if (cached && Date.now() - cached.at < CACHE_TTL_MS) return cached.photos;
 
@@ -112,6 +121,8 @@ const searchPixabay = async (apiKey: string, query: string): Promise<Photo[]> =>
 		safesearch: 'true',
 		order: 'popular',
 		per_page: String(PER_PAGE),
+		...(wide ? { orientation: 'horizontal', min_width: String(WIDE_MIN_WIDTH) } : {}),
+		...(editors ? { editors_choice: 'true' } : {}),
 	});
 	const response = await fetch(`${PIXABAY_ENDPOINT}?${params}`, { signal: AbortSignal.timeout(PIXABAY_TIMEOUT_MS) });
 	if (!response.ok) throw new Error(`Pixabay ${response.status}: ${await response.text().catch(() => '')}`);
@@ -158,27 +169,22 @@ const mapLimit = async <T, R>(items: T[], limit: number, fn: (item: T) => Promis
 	return results;
 };
 
-// Within a slot's top candidates, the photo whose tone best matches the demo
-// photo's wins; subject (tag) and shape still count, as penalties.
-const rankByTone = (
-	image: ManifestImage,
-	section: ManifestSection,
-	ranked: Photo[],
-	tagged: Set<Photo>,
-	tones: Map<string, Tone | undefined>,
-) => {
+// `ranked` is already best first (tagged, right shape, editors' choice, most
+// popular). Tone only reorders the top few: a dark photo of the wrong thing
+// must not beat a bright photo of the right one. Readability on backgrounds
+// is the overlay's job (overlayFor).
+const rankByTone = (image: ManifestImage, ranked: Photo[], tones: Map<string, Tone | undefined>) => {
 	if (!image.tone) return ranked;
-	const window = image.kind === 'background' || section.role === 'hero' ? TONE_CANDIDATES_TEXT : TONE_CANDIDATES;
-	const shape = image.orientation ?? 'landscape';
-	const score = (photo: Photo) => {
+	const score = (photo: Photo, place: number) => {
 		const tone = tones.get(photo.url);
-		return (
-			(tone ? toneDistance(image.tone!, tone) : NO_TONE_PENALTY) +
-			(tagged.has(photo) ? 0 : UNTAGGED_PENALTY) +
-			(photo.orientation === shape ? 0 : SHAPE_PENALTY)
-		);
+		return place * RANK_STEP + TONE_WEIGHT * (tone ? toneDistance(image.tone!, tone) : NO_TONE_DISTANCE);
 	};
-	return [...ranked.slice(0, window).sort((a, b) => score(a) - score(b)), ...ranked.slice(window)];
+	const top = ranked
+		.slice(0, TONE_CANDIDATES)
+		.map((photo, place) => ({ photo, score: score(photo, place) }))
+		.sort((a, b) => a.score - b.score)
+		.map((s) => s.photo);
+	return [...top, ...ranked.slice(TONE_CANDIDATES)];
 };
 
 export const createPixabayProvider = (apiKey: string): ImageProvider => ({
@@ -199,19 +205,33 @@ export const createPixabayProvider = (apiKey: string): ImageProvider => ({
 			}
 		}
 
+		const textOnPhoto = (image: ManifestImage, section: ManifestSection) => image.kind === 'background' || section.role === 'hero';
+		const hasTextOnPhoto = (group: PhotoGroup) => group.images.some((image) => textOnPhoto(image, group.section));
+
 		// Each group's own query, then each tag word alone (Pixabay's most
 		// reliable search), then the generic fallback, until enough hits carry a tag.
+		// Wide text-on-photo groups try editors' choice first, then any large
+		// landscape photo, then anything.
 		const pools = await mapLimit(groups, SEARCH_CONCURRENCY, async (group) => {
 			const { query, tags = [] } = queries.get(group.key)!;
-			const searches = [...new Set([query, ...tags, fallbackQuery(group, brief).query])];
+			const terms = [...new Set([query, ...tags, fallbackQuery(group, brief).query])];
+			const wide = isBanner(group);
+			const searches: Search[] = wide
+				? [
+						...[query, ...tags].map((term) => ({ query: term, wide, editors: true })),
+						...terms.map((term) => ({ query: term, wide })),
+						{ query },
+					]
+				: terms.map((term) => ({ query: term }));
 			const wanted = group.images.length + MAX_ALTERNATIVES;
 			const tagged: Photo[] = [];
 			const untagged: Photo[] = [];
 			const seen = new Set<string>();
 			const needsPerson = group.subject === 'person' || group.subject === 'group';
+			const noLettering = hasTextOnPhoto(group);
 			for (const search of searches) {
 				for (const photo of await searchPixabay(apiKey, search)) {
-					if (seen.has(photo.url) || (needsPerson && !showsAdult(photo))) continue;
+					if (seen.has(photo.url) || (needsPerson && !showsAdult(photo)) || (noLettering && showsLettering(photo))) continue;
 					seen.add(photo.url);
 					(!tags.length || hasTag(photo, tags) ? tagged : untagged).push(photo);
 				}
@@ -221,12 +241,10 @@ export const createPixabayProvider = (apiKey: string): ImageProvider => ({
 			return { tagged, untagged: needsPerson && tags.length ? [] : untagged };
 		});
 
-		const textOnPhoto = (image: ManifestImage, section: ManifestSection) => image.kind === 'background' || section.role === 'hero';
 		const tones = new Map<string, Tone | undefined>();
 		const toMeasure = groups.flatMap((group, i) => {
 			const { tagged = [], untagged = [] } = pools[i] ?? {};
-			const window = group.images.some((image) => textOnPhoto(image, group.section)) ? TONE_CANDIDATES_TEXT : TONE_CANDIDATES;
-			return group.images.some((image) => image.tone) ? [...tagged, ...untagged].slice(0, window + group.images.length) : [];
+			return group.images.some((image) => image.tone) ? [...tagged, ...untagged].slice(0, 2 * TONE_CANDIDATES + group.images.length) : [];
 		});
 		const unique = [...new Map(toMeasure.map((p) => [p.url, p])).values()];
 		await mapLimit(unique, TONE_CONCURRENCY, async (photo) => tones.set(photo.url, await photoTone(photo)));
@@ -253,7 +271,7 @@ export const createPixabayProvider = (apiKey: string): ImageProvider => ({
 				];
 				// Out of fresh photos: repeat one, except people (the same face twice in a team looks broken).
 				const fallback = ranked.length || needsPerson ? ranked : [...tagged, ...untagged];
-				const [pick, ...rest] = rankByTone(image, group.section, fallback, new Set(tagged), tones);
+				const [pick, ...rest] = rankByTone(image, fallback, tones);
 				if (!pick) continue;
 
 				used.add(pick.url);

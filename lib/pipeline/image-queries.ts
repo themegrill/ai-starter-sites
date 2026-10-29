@@ -29,6 +29,7 @@ const SYSTEM = `You pick stock photos for a website built from a template. For e
 - Keep what the template photo is: a headshot stays one person, a group stays people, a room stays a place, a product stays an object. Swap in this business's people, places and things.
 - Team photos: the person's job ("baker", "gardener woman").
 - Testimonial photos are customers, never staff: "smiling woman", "smiling man", "happy couple" (tags: "woman", "man" or "couple").
+- Banner photos (marked "banner, text on top") are wide and sit behind the headline, so they need a broad, photogenic subject that many stock photos show: the business's main product or place in 1-2 common words ("cookies", "bakery", "gym", "law office"). Never a narrow or regional word with few photos ("marie biscuits", "patisserie" for a biscuit maker), and never a shop sign or storefront.
 - Never a brand name, a place name or abstract words like "success" or "quality".`;
 
 // Too broad to tell a matching photo from any other.
@@ -57,6 +58,11 @@ export const photoGroups = (pages: ManifestPage[], copy: CopyResult): PhotoGroup
 	return [...groups.values()];
 };
 
+// A wide photo the section's text is laid over.
+export const isBanner = (group: PhotoGroup) =>
+	group.images.some((image) => image.kind === 'background' || group.section.role === 'hero') &&
+	group.images.every((image) => (image.orientation ?? 'landscape') === 'landscape');
+
 // Used when the LLM call fails.
 export const fallbackQuery = (group: PhotoGroup, brief: Brief): PhotoQuery => {
 	if (group.section.role === 'testimonials') return { query: 'smiling woman', tags: ['woman'] };
@@ -82,7 +88,8 @@ export const planPhotoQueries = async (
 				.filter(Boolean)
 				.slice(0, MAX_DESCRIPTIONS);
 			const heading = g.heading ? ` "${g.heading}"` : '';
-			return `${keys.get(g)} | ${g.section.role} section${heading} | ${g.images.length} ${g.subject} photo(s)${shown.length ? ` | template photos: ${shown.join('; ')}` : ''}`;
+			const banner = isBanner(g) ? ' (banner, text on top)' : '';
+			return `${keys.get(g)} | ${g.section.role} section${heading} | ${g.images.length} ${g.subject} photo(s)${banner}${shown.length ? ` | template photos: ${shown.join('; ')}` : ''}`;
 		}),
 	];
 
