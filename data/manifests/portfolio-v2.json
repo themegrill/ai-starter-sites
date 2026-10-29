@@ -742,9 +742,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-22.png",
 							"decorative": true,
+							"displayWidth": 76,
 							"width": 76,
 							"height": 73,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "ruler and pencil",
+								"glyph": "#010102",
+								"size": 46,
+								"shape": {
+									"kind": "square",
+									"fill": "#6f6cf4",
+									"size": 76
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c0d64734:image.url",
@@ -755,9 +767,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon2.png",
 							"decorative": true,
+							"displayWidth": 76,
 							"width": 81,
 							"height": 73,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "image gallery frame",
+								"glyph": "#000001",
+								"size": 43,
+								"shape": {
+									"kind": "square",
+									"fill": "#7171f3",
+									"size": 76
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "16a7349d:image.url",
@@ -768,9 +792,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon3.png",
 							"decorative": true,
+							"displayWidth": 76,
 							"width": 81,
 							"height": 73,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "phone and desktop",
+								"glyph": "#000001",
+								"size": 43,
+								"shape": {
+									"kind": "square",
+									"fill": "#7171f3",
+									"size": 76
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "88bb4d6e:image.url",
@@ -781,9 +817,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-22.png",
 							"decorative": true,
+							"displayWidth": 76,
 							"width": 76,
 							"height": 73,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "ruler and pencil",
+								"glyph": "#010102",
+								"size": 46,
+								"shape": {
+									"kind": "square",
+									"fill": "#6f6cf4",
+									"size": 76
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1257,6 +1305,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/avatar.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 50,
 							"height": 50,
 							"orientation": "square"
@@ -1270,6 +1319,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/client.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 50,
 							"height": 50,
 							"orientation": "square"
@@ -1856,6 +1906,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/linkedin-in.png",
 							"decorative": true,
+							"displayWidth": 64,
 							"width": 448,
 							"height": 512,
 							"orientation": "square"
@@ -1869,6 +1920,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/behance.png",
 							"decorative": true,
+							"displayWidth": 64,
 							"width": 576,
 							"height": 512,
 							"orientation": "square"
@@ -1882,6 +1934,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/twitter.png",
 							"decorative": true,
+							"displayWidth": 64,
 							"width": 512,
 							"height": 512,
 							"orientation": "square"
@@ -1895,9 +1948,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/envelope-regular.png",
 							"decorative": true,
+							"displayWidth": 64,
 							"width": 512,
 							"height": 512,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope mail",
+								"glyph": "#000000",
+								"size": 64,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "6be0ec69:image.url",
@@ -1908,6 +1968,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/gitlab.png",
 							"decorative": true,
+							"displayWidth": 64,
 							"width": 512,
 							"height": 512,
 							"orientation": "square"
@@ -1921,9 +1982,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/envelope-regular.png",
 							"decorative": true,
+							"displayWidth": 64,
 							"width": 512,
 							"height": 512,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope mail",
+								"glyph": "#000000",
+								"size": 64,
+								"background": "#ffffff"
+							}
 						}
 					]
 				}
@@ -2875,6 +2943,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/avatar.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 50,
 							"height": 50,
 							"orientation": "square"
@@ -2888,6 +2957,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/client.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 50,
 							"height": 50,
 							"orientation": "square"
@@ -3206,9 +3276,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 46,
 							"height": 46,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin location",
+								"glyph": "#000001",
+								"size": 41,
+								"shape": {
+									"kind": "square",
+									"fill": "#6f6cf4",
+									"size": 60
+								},
+								"background": "#f8f8fd"
+							}
 						},
 						{
 							"id": "8d1b0ba2:image.url",
@@ -3219,9 +3301,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon-1.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 50,
 							"height": 42,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "email envelope",
+								"glyph": "#6e6cf4",
+								"size": 43,
+								"shape": {
+									"kind": "square",
+									"fill": "#000001",
+									"size": 60
+								},
+								"background": "#f8f8fd"
+							}
 						},
 						{
 							"id": "8caf2db5:image.url",
@@ -3232,9 +3326,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon-2.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 45,
 							"height": 49,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "mobile phone",
+								"glyph": "#000001",
+								"size": 39,
+								"shape": {
+									"kind": "square",
+									"fill": "#6e6cf4",
+									"size": 60
+								},
+								"background": "#f8f8fd"
+							}
 						}
 					],
 					"dynamicBlocks": [
@@ -4642,5 +4748,5 @@
 		"swappableImages": 31,
 		"words": 1300
 	},
-	"builtAt": "2026-10-29T11:52:56.189Z"
+	"builtAt": "2026-10-29T12:52:33.817Z"
 }

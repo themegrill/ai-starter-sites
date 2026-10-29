@@ -600,7 +600,7 @@
 					"index": 3,
 					"path": "3",
 					"group": "5b9a8c76",
-					"role": "stats",
+					"role": "content",
 					"title": "Recent Played Tournaments",
 					"slots": [
 						{
@@ -965,7 +965,153 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-3.0.2.0.0:url",
+							"blockId": "core-3.0.2.0.0",
+							"path": "3.0.2.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Rectangle-15.png",
+							"decorative": false,
+							"width": 382,
+							"height": 223,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.15,
+									0.36,
+									0.19,
+									0.12,
+									0.23,
+									0.13,
+									0.04,
+									0.06,
+									0.04
+								],
+								"color": "#0c2a40",
+								"hue": 248,
+								"vivid": 0.52
+							}
+						},
+						{
+							"id": "core-3.0.2.1.0:url",
+							"blockId": "core-3.0.2.1.0",
+							"path": "3.0.2.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Rectangle-16.png",
+							"decorative": false,
+							"width": 382,
+							"height": 223,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.14,
+									0.24,
+									0.28,
+									0.14,
+									0.24,
+									0.15,
+									0.11,
+									0.15,
+									0.21
+								],
+								"color": "#302e32",
+								"hue": 268,
+								"vivid": 0.07
+							}
+						},
+						{
+							"id": "core-3.0.2.2.0:url",
+							"blockId": "core-3.0.2.2.0",
+							"path": "3.0.2.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Rectangle-20.png",
+							"decorative": false,
+							"width": 470,
+							"height": 223,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.14,
+									0.11,
+									0.07,
+									0.08,
+									0.13,
+									0.05,
+									0.07,
+									0.07,
+									0.05
+								],
+								"color": "#1b122b",
+								"hue": 2,
+								"vivid": 0.43
+							}
+						},
+						{
+							"id": "core-3.0.3.0.0:url",
+							"blockId": "core-3.0.3.0.0",
+							"path": "3.0.3.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Rectangle-18.png",
+							"decorative": false,
+							"width": 402,
+							"height": 223,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.19,
+									0.09,
+									0.16,
+									0.32,
+									0.26,
+									0.26,
+									0.31,
+									0.13,
+									0.05
+								],
+								"color": "#302e5e",
+								"hue": 264,
+								"vivid": 1
+							}
+						},
+						{
+							"id": "core-3.0.3.1.0:url",
+							"blockId": "core-3.0.3.1.0",
+							"path": "3.0.3.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Rectangle-274.png",
+							"decorative": false,
+							"width": 588,
+							"height": 308,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.32,
+									0.34,
+									0.24,
+									0.26,
+									0.31,
+									0.19,
+									0.14,
+									0.19,
+									0.23
+								],
+								"color": "#4b3952",
+								"hue": 322,
+								"vivid": 1
+							}
+						}
+					]
 				},
 				{
 					"id": "8b351606",
@@ -2091,7 +2237,7 @@
 				},
 				{
 					"id": "5b9a8c76",
-					"role": "stats",
+					"role": "content",
 					"title": "Recent Played Tournaments",
 					"sectionIds": [
 						"5b9a8c76"
@@ -2100,10 +2246,7 @@
 						"3"
 					],
 					"fit": {
-						"kind": "conditional",
-						"requires": [
-							"stats"
-						]
+						"kind": "core"
 					}
 				},
 				{
@@ -3886,9 +4029,9 @@
 		"sections": 20,
 		"textSlots": 158,
 		"editableSlots": 149,
-		"images": 26,
-		"swappableImages": 15,
+		"images": 31,
+		"swappableImages": 20,
 		"words": 1025
 	},
-	"builtAt": "2026-10-29T11:52:56.416Z"
+	"builtAt": "2026-10-29T12:52:34.063Z"
 }

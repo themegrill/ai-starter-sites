@@ -542,6 +542,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 239,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -555,6 +556,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 210,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -641,6 +643,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 239,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -654,6 +657,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 210,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -753,6 +757,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
 							"decorative": true,
+							"displayWidth": 272,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -766,6 +771,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
 							"decorative": true,
+							"displayWidth": 210,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -983,6 +989,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10001-1.jpg",
 							"decorative": false,
+							"displayWidth": 380,
 							"width": 370,
 							"height": 202,
 							"orientation": "landscape",
@@ -1012,6 +1019,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10002-1.jpg",
 							"decorative": false,
+							"displayWidth": 380,
 							"width": 370,
 							"height": 202,
 							"orientation": "landscape",
@@ -1041,6 +1049,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10003-1.jpg",
 							"decorative": false,
+							"displayWidth": 380,
 							"width": 370,
 							"height": 202,
 							"orientation": "landscape",
@@ -1310,6 +1319,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -1323,6 +1333,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -1365,6 +1376,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/breakfast-blackpasta.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -1378,6 +1390,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10001-2.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -1391,6 +1404,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10002-2.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -1404,6 +1418,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10003-2.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -1641,6 +1656,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10004-1.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -1654,6 +1670,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10005-1.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -1667,6 +1684,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10006-1.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -1680,6 +1698,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -1804,6 +1823,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -1817,6 +1837,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -1980,6 +2001,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 90,
 							"height": 90,
 							"orientation": "square"
@@ -1993,6 +2015,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10009.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 90,
 							"height": 90,
 							"orientation": "square"
@@ -2006,6 +2029,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10010.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 90,
 							"height": 90,
 							"orientation": "square"
@@ -2062,6 +2086,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -2075,6 +2100,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -2377,6 +2403,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -2390,6 +2417,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -2744,6 +2772,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -2757,6 +2786,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -2920,6 +2950,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -2933,6 +2964,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -3070,6 +3102,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -3083,6 +3116,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -3096,6 +3130,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10002-4.jpg",
 							"decorative": false,
+							"displayWidth": 370,
 							"width": 370,
 							"height": 422,
 							"orientation": "square",
@@ -3125,6 +3160,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10003-4.jpg",
 							"decorative": false,
+							"displayWidth": 370,
 							"width": 370,
 							"height": 422,
 							"orientation": "square",
@@ -3154,6 +3190,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10004-3.jpg",
 							"decorative": false,
+							"displayWidth": 370,
 							"width": 370,
 							"height": 422,
 							"orientation": "square",
@@ -3352,6 +3389,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -3365,6 +3403,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -3546,6 +3585,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -3559,6 +3599,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -3976,6 +4017,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10004-4.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -3989,6 +4031,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10005-4.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4002,6 +4045,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10006-4.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4015,6 +4059,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007-2.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4028,6 +4073,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008-2.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4041,6 +4087,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10001-2.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4054,6 +4101,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10009-1.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4067,6 +4115,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10010-1.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4147,6 +4196,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -4160,6 +4210,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -4577,6 +4628,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10011-1.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4590,6 +4642,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10012-1.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4603,6 +4656,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10013-1.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4616,6 +4670,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10014-1.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4629,6 +4684,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10015.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4642,6 +4698,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10016.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4655,6 +4712,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10017.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4668,6 +4726,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10018.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -4748,6 +4807,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -4761,6 +4821,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -5178,6 +5239,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10019.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5191,6 +5253,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10020.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5204,6 +5267,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10021.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5217,6 +5281,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10022.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5230,6 +5295,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10005-4.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5243,6 +5309,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10023.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5256,6 +5323,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10024.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5269,6 +5337,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10025.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5349,6 +5418,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -5362,6 +5432,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -5779,6 +5850,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10026.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5792,6 +5864,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10027.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5805,6 +5878,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10028.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5818,6 +5892,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10029.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5831,6 +5906,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10030.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5844,6 +5920,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10031.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5857,6 +5934,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10032.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5870,6 +5948,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10033.jpg",
 							"decorative": true,
+							"displayWidth": 90,
 							"width": 82,
 							"height": 82,
 							"orientation": "square"
@@ -5940,6 +6019,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -5953,6 +6033,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -6221,6 +6302,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 265,
 							"height": 72,
 							"orientation": "landscape"
@@ -6234,6 +6316,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 205,
 							"height": 38,
 							"orientation": "landscape"
@@ -6536,6 +6619,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png",
 							"decorative": true,
+							"displayWidth": 265,
 							"width": 693,
 							"height": 158,
 							"orientation": "landscape"
@@ -6549,6 +6633,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png",
 							"decorative": true,
+							"displayWidth": 205,
 							"width": 542,
 							"height": 91,
 							"orientation": "landscape"
@@ -6640,5 +6725,5 @@
 		"swappableImages": 38,
 		"words": 863
 	},
-	"builtAt": "2026-10-29T11:52:55.933Z"
+	"builtAt": "2026-10-29T12:52:33.609Z"
 }

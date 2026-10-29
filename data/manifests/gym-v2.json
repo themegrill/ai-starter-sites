@@ -1004,7 +1004,95 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-1.0.0:url",
+							"blockId": "core-1.0.0",
+							"path": "1.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/class-body-building.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.02,
+									0.12,
+									0.04,
+									0.04,
+									0.25,
+									0.04,
+									0.05,
+									0.09,
+									0.01
+								],
+								"color": "#151212",
+								"hue": 37,
+								"vivid": 0.02
+							}
+						},
+						{
+							"id": "core-1.1.0:url",
+							"blockId": "core-1.1.0",
+							"path": "1.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/class-yoga.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.88,
+									0.87,
+									0.87,
+									0.77,
+									0.69,
+									0.81,
+									0.74,
+									0.56,
+									0.73
+								],
+								"color": "#bac6cf",
+								"hue": 234,
+								"vivid": 0.05
+							}
+						},
+						{
+							"id": "core-1.2.0:url",
+							"blockId": "core-1.2.0",
+							"path": "1.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/class-aerobic.jpg",
+							"decorative": false,
+							"width": 640,
+							"height": 450,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.63,
+									0.48,
+									0.37,
+									0.46,
+									0.46,
+									0.25,
+									0.33,
+									0.38,
+									0.23
+								],
+								"color": "#5a6779",
+								"hue": 251,
+								"vivid": 0.1
+							}
+						}
+					]
 				},
 				{
 					"id": "f5a4adc7",
@@ -1180,9 +1268,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-equipment.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 413,
 							"height": 413,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dumbbell",
+								"glyph": "#f8503b",
+								"size": 95,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ab72cca4:image.url",
@@ -1193,9 +1288,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-apples-1.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 413,
 							"height": 413,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "apples",
+								"glyph": "#f8503b",
+								"size": 94,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "f113c4cb:image.url",
@@ -1206,9 +1308,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-swimming-1.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 413,
 							"height": 413,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "swimmer in waves",
+								"glyph": "#f8503b",
+								"size": 91,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "8affd737:image.url",
@@ -1219,9 +1328,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-shower-1.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 413,
 							"height": 413,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "shower head",
+								"glyph": "#f8503b",
+								"size": 58,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -3637,6 +3753,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/Johnson-White.png",
 							"decorative": true,
+							"displayWidth": 260,
 							"width": 321,
 							"height": 113,
 							"orientation": "landscape"
@@ -4019,9 +4136,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-equipment.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 413,
 							"height": 413,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dumbbell",
+								"glyph": "#f8503b",
+								"size": 95,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ab72cca4:image.url",
@@ -4032,9 +4156,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-apples-1.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 413,
 							"height": 413,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "apples",
+								"glyph": "#f8503b",
+								"size": 94,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "f113c4cb:image.url",
@@ -4045,9 +4176,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-swimming-1.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 413,
 							"height": 413,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "swimmer in waves",
+								"glyph": "#f8503b",
+								"size": 91,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "8affd737:image.url",
@@ -4058,9 +4196,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-shower-1.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 413,
 							"height": 413,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "shower head",
+								"glyph": "#f8503b",
+								"size": 58,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -5056,9 +5201,9 @@
 		"sections": 26,
 		"textSlots": 144,
 		"editableSlots": 133,
-		"images": 67,
-		"swappableImages": 55,
+		"images": 70,
+		"swappableImages": 58,
 		"words": 790
 	},
-	"builtAt": "2026-10-29T11:52:56.225Z"
+	"builtAt": "2026-10-29T12:52:33.852Z"
 }

@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "manifests": "tsx scripts/manifests/build.ts"
+    "manifests": "tsx scripts/manifests/build.ts",
+    "icons": "tsx --env-file=.env.local scripts/manifests/classify-icons.ts"
   },
   "engines": {
     "node": ">=20.9.0"

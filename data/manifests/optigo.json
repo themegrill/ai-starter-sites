@@ -474,7 +474,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "zero percent delivery",
+								"glyph": "#ffffff",
+								"size": 55,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a58a9539:image.url",
@@ -487,7 +493,13 @@
 							"decorative": true,
 							"width": 71,
 							"height": 68,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "hand with money",
+								"glyph": "#ffffff",
+								"size": 59,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "f39b3807:image.url",
@@ -500,7 +512,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "piggy bank discount",
+								"glyph": "#ffffff",
+								"size": 53,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "e3e52907:image.url",
@@ -513,7 +531,13 @@
 							"decorative": true,
 							"width": 56,
 							"height": 51,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gift box discount",
+								"glyph": "#ffffff",
+								"size": 52,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2066,7 +2090,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "zero percent delivery",
+								"glyph": "#ffffff",
+								"size": 55,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "6eae56f7:image.url",
@@ -2079,7 +2109,13 @@
 							"decorative": true,
 							"width": 71,
 							"height": 68,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "hand with money",
+								"glyph": "#ffffff",
+								"size": 59,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "32970f6e:image.url",
@@ -2092,7 +2128,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "piggy bank discount",
+								"glyph": "#ffffff",
+								"size": 53,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "aecb3464:image.url",
@@ -2105,7 +2147,13 @@
 							"decorative": true,
 							"width": 56,
 							"height": 51,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gift box discount",
+								"glyph": "#ffffff",
+								"size": 52,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2516,7 +2564,13 @@
 							"decorative": true,
 							"width": 100,
 							"height": 50,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "round eyeglasses",
+								"glyph": "#ffffff",
+								"size": 95,
+								"background": "#362d29"
+							}
 						},
 						{
 							"id": "9865a619:image.url",
@@ -2529,7 +2583,13 @@
 							"decorative": true,
 							"width": 100,
 							"height": 50,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "aviator eyeglasses",
+								"glyph": "#ffffff",
+								"size": 95,
+								"background": "#362d29"
+							}
 						},
 						{
 							"id": "e96fdf75:image.url",
@@ -2542,7 +2602,13 @@
 							"decorative": true,
 							"width": 101,
 							"height": 50,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "cat-eye eyeglasses",
+								"glyph": "#ffffff",
+								"size": 93,
+								"background": "#362d29"
+							}
 						},
 						{
 							"id": "6f751f3b:image.url",
@@ -2555,7 +2621,13 @@
 							"decorative": true,
 							"width": 101,
 							"height": 50,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "round eyeglasses",
+								"glyph": "#ffffff",
+								"size": 93,
+								"background": "#362d29"
+							}
 						}
 					]
 				},
@@ -3514,6 +3586,170 @@
 			"groups": []
 		}
 	],
+	"products": [
+		{
+			"id": 1415,
+			"name": "Black Brown Solid Wayfarer Sunglasses",
+			"description": "Lestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turpis",
+			"categories": [
+				"Sunglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/sunglasses-1.jpg"
+		},
+		{
+			"id": 1417,
+			"name": "Black Brown Solid Wayfarer Sunglasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Sunglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/sunglasses-2.jpg"
+		},
+		{
+			"id": 1419,
+			"name": "Changeable Glass Black Metal Frame Sunglasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Sunglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/sunglasses-3.png"
+		},
+		{
+			"id": 1421,
+			"name": "Black Solid Retro Design Rectangular Sunglasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Sunglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/sunglasses-4.jpg"
+		},
+		{
+			"id": 1423,
+			"name": "New Classic Wayfarer Non-Polarized Sunglasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Sunglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/sunglasses-5.jpg"
+		},
+		{
+			"id": 1425,
+			"name": "Black Brown Solid Wayfarer Sunglasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Sunglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/sungalsses-6.png"
+		},
+		{
+			"id": 1430,
+			"name": "2 in 1 Magnetic Frame Eyewear",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Eyeglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/eyeglasses-1.png"
+		},
+		{
+			"id": 1435,
+			"name": "Blue Ray Cut Prescription Power Glasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Eyeglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/eyeglasses-2.png"
+		},
+		{
+			"id": 1437,
+			"name": "Black Brown Solid Wayfarer Sunglasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Eyeglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/eyeglasses-3.jpg"
+		},
+		{
+			"id": 1439,
+			"name": "Prescription Power Glasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Eyeglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/eyeglasses-4.jpg"
+		},
+		{
+			"id": 1441,
+			"name": "Black Oval Frame Prescription Spectacles",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Eyeglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/eyeglasses-5.jpg"
+		},
+		{
+			"id": 1443,
+			"name": "Prescription pink frame Power Glasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Eyeglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/eyeglasses-6.jpg"
+		},
+		{
+			"id": 1445,
+			"name": "UV And Fogg Protection Swimming Goggles",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Safetyglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/safetyglasses-1.png"
+		},
+		{
+			"id": 1447,
+			"name": "Black Silicone Strap Swimming Goggles",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Safetyglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/safetyglasses-2.png"
+		},
+		{
+			"id": 1449,
+			"name": "Black Brown Solid Wayfarer Sunglasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Safetyglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/safetyglasses-3.jpg"
+		},
+		{
+			"id": 1451,
+			"name": "Haojiajian Antifog Swimming Goggle",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Safetyglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/safetyglasses-4.png"
+		},
+		{
+			"id": 1453,
+			"name": "Polarized Trendy Sporty Square Sunglasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Safetyglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/safetyglasses-5.png"
+		},
+		{
+			"id": 1456,
+			"name": "X eye Protect half rimless flexible Sunglasses",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Safetyglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/174/2024/06/safetyglasses-6.png"
+		}
+	],
 	"stats": {
 		"sections": 19,
 		"textSlots": 103,
@@ -3522,5 +3758,5 @@
 		"swappableImages": 20,
 		"words": 746
 	},
-	"builtAt": "2026-10-29T11:52:56.396Z"
+	"builtAt": "2026-10-29T12:52:34.029Z"
 }

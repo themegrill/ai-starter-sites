@@ -706,7 +706,18 @@
 							"decorative": true,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "growth line chart",
+								"glyph": "#f9f7fd",
+								"size": 35,
+								"shape": {
+									"kind": "circle",
+									"fill": "#7963e0",
+									"size": 64
+								},
+								"background": "#f8f8f8"
+							}
 						},
 						{
 							"id": "00d45dfa:image.url",
@@ -719,7 +730,18 @@
 							"decorative": true,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "rocket",
+								"glyph": "#f8f6fd",
+								"size": 29,
+								"shape": {
+									"kind": "circle",
+									"fill": "#7963e0",
+									"size": 64
+								},
+								"background": "#f8f8f8"
+							}
 						},
 						{
 							"id": "82dc9339:image.url",
@@ -732,7 +754,18 @@
 							"decorative": true,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "growth line chart",
+								"glyph": "#f9f7fd",
+								"size": 35,
+								"shape": {
+									"kind": "circle",
+									"fill": "#7963e0",
+									"size": 64
+								},
+								"background": "#f8f8f8"
+							}
 						},
 						{
 							"id": "10ff8a18:image.url",
@@ -745,7 +778,18 @@
 							"decorative": true,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "growth line chart",
+								"glyph": "#f9f7fd",
+								"size": 35,
+								"shape": {
+									"kind": "circle",
+									"fill": "#7963e0",
+									"size": 64
+								},
+								"background": "#f8f8f8"
+							}
 						},
 						{
 							"id": "db3259f2:image.url",
@@ -758,7 +802,18 @@
 							"decorative": true,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "megaphone",
+								"glyph": "#f7f6fd",
+								"size": 31,
+								"shape": {
+									"kind": "circle",
+									"fill": "#7963e0",
+									"size": 64
+								},
+								"background": "#f8f8f8"
+							}
 						},
 						{
 							"id": "672ae899:image.url",
@@ -771,7 +826,18 @@
 							"decorative": true,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope with arrows",
+								"glyph": "#fcfcfe",
+								"size": 35,
+								"shape": {
+									"kind": "circle",
+									"fill": "#7963e0",
+									"size": 64
+								},
+								"background": "#f8f8f8"
+							}
 						}
 					]
 				},
@@ -1479,6 +1545,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Jessica-Alba-Marketing-Expert.jpg",
 							"decorative": false,
+							"displayWidth": 80,
 							"width": 512,
 							"height": 512,
 							"orientation": "square",
@@ -3243,5 +3310,5 @@
 		"swappableImages": 15,
 		"words": 838
 	},
-	"builtAt": "2026-10-29T11:52:56.076Z"
+	"builtAt": "2026-10-29T12:52:33.713Z"
 }

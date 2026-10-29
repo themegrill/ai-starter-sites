@@ -11,7 +11,7 @@ import {
 	TextSlotKind,
 } from '../../lib/demos/types';
 import { normalizeColor } from './colors';
-import { ColorContext, scanColorContext } from './contrast';
+import { Backdrop, backdropsOf, ColorContext, scanColorContext } from './contrast';
 import { countWords, hasMarkup, isPlaceholderCopy, lockReason, toPlainText, wordLimits } from './text';
 
 type Block = ReturnType<typeof parse>[number];
@@ -94,6 +94,7 @@ export type PageScan = {
 	colors: string[]; // Every color value used, normalised (repeats kept for counting).
 	fonts: { family: string; block: string }[];
 	warnings: string[];
+	backdrops: Map<string, Backdrop>; // What each block is drawn on, by path.
 };
 
 const textSlotsOf = (block: Block, blockId: string, path: string): TextSlot[] => {
@@ -149,12 +150,18 @@ const imageSlotsOf = (block: Block, blockId: string, path: string): ImageSlot[] 
 	if (typeof background === 'string' && background) {
 		found.push({ attr: BACKGROUND_ATTR, kind: 'background', url: background });
 	}
-	// core/image keeps its URL only in the saved HTML.
-	if (block.blockName === 'core/image') {
+	// core/cover: a photo with text on top (not a video).
+	const cover = attrsOf(block).url;
+	if (block.blockName === 'core/cover' && typeof cover === 'string' && cover && (attrsOf(block).backgroundType ?? 'image') === 'image') {
+		found.push({ attr: 'url', kind: 'background', url: cover });
+	}
+	// core/image and core/media-text keep their URL only in the saved HTML.
+	if (block.blockName === 'core/image' || (block.blockName === 'core/media-text' && (attrsOf(block).mediaType ?? 'image') === 'image')) {
 		const src = block.innerHTML.match(/<img[^>]+src="([^"]+)"/)?.[1];
 		if (src) found.push({ attr: '@html:img', kind: 'image', url: src });
 	}
 
+	const displayWidth = shownWidth(block);
 	return found.map(({ attr, kind, url }) => ({
 		id: `${blockId}:${attr}`,
 		blockId,
@@ -164,7 +171,19 @@ const imageSlotsOf = (block: Block, blockId: string, path: string): ImageSlot[] 
 		kind,
 		url,
 		decorative: false, // Filled in once the image size is known.
+		...(kind === 'image' && displayWidth ? { displayWidth } : {}),
 	}));
+};
+
+// The width an image block shows its image at, when set in px.
+const shownWidth = (block: Block): number | undefined => {
+	const attrs = attrsOf(block);
+	const responsive = ['width', 'maxWidth'].map((attr) => getPath(attrs, `${attr}.desktop`) as { value?: number; unit?: string } | undefined);
+	const px = responsive.find((w) => typeof w?.value === 'number' && (w.unit ?? 'px') === 'px')?.value;
+	if (px) return Math.round(px);
+	// core/image: a number, or a "48px" string.
+	const width = parseFloat(String(attrs.width ?? ''));
+	return block.blockName === 'core/image' && width > 0 && !/%/.test(String(attrs.width)) ? Math.round(width) : undefined;
 };
 
 const collectColors = (value: unknown, out: string[]) => {
@@ -233,12 +252,13 @@ const roleOf = (section: ManifestSection, blocks: Set<string>, previous?: Manife
 };
 
 export const scanPage = (content: string, pageSlug: string, colors?: { ctx: ColorContext; ink?: string }): PageScan => {
-	const scan: PageScan = { sections: [], sectionBlocks: new Map(), colors: [], fonts: [], warnings: [] };
+	const scan: PageScan = { sections: [], sectionBlocks: new Map(), colors: [], fonts: [], warnings: [], backdrops: new Map() };
 	// Copy-pasted BlockArt blocks can share a clientId; later copies get a suffix.
 	const seenIds = new Map<string, number>();
 
 	const blocks = parse(content);
 	if (colors) scanColorContext(blocks, colors.ctx, colors.ink);
+	scan.backdrops = backdropsOf(blocks);
 	blocks
 		.filter((block) => block.blockName)
 		.forEach((top, index) => {

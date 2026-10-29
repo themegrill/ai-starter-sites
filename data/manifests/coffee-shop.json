@@ -1164,6 +1164,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/gallery2.jpg",
 							"decorative": false,
+							"displayWidth": 370,
 							"width": 370,
 							"height": 250,
 							"orientation": "landscape",
@@ -1193,6 +1194,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/gallery3.jpg",
 							"decorative": false,
+							"displayWidth": 370,
 							"width": 370,
 							"height": 250,
 							"orientation": "landscape",
@@ -1222,6 +1224,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/gallery4.jpg",
 							"decorative": false,
+							"displayWidth": 370,
 							"width": 370,
 							"height": 250,
 							"orientation": "landscape",
@@ -1251,6 +1254,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/gallery5.jpg",
 							"decorative": false,
+							"displayWidth": 370,
 							"width": 370,
 							"height": 250,
 							"orientation": "landscape",
@@ -1564,9 +1568,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Frame-308.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "medal with star",
+								"glyph": "#050504",
+								"size": 29,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "c3fbba31:image.url",
@@ -1577,9 +1593,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Wild-assortment.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#030303",
+								"size": 24,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"fixed": "check-solid",
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "75813813:image.url",
@@ -1590,9 +1619,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Proper-Roasting.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "roasted coffee beans",
+								"glyph": "#030303",
+								"size": 27,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "6a55282a:image.url",
@@ -1632,9 +1673,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/High-Quality.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "diamond with ribbon badge",
+								"glyph": "#040403",
+								"size": 29,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "c53e06ee:image.url",
@@ -1645,9 +1698,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Excellent-Gringing.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "coffee grinder",
+								"glyph": "#050505",
+								"size": 32,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "848f2033:image.url",
@@ -1658,9 +1723,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Awesome-Aroma.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "steaming coffee cup",
+								"glyph": "#020202",
+								"size": 26,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						}
 					]
 				},
@@ -1865,6 +1942,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/blog1.jpg",
 							"decorative": false,
+							"displayWidth": 418,
 							"width": 1600,
 							"height": 1068,
 							"orientation": "landscape",
@@ -1894,6 +1972,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/blog-1-1-2.jpg",
 							"decorative": false,
+							"displayWidth": 286,
 							"width": 1600,
 							"height": 1068,
 							"orientation": "landscape",
@@ -1923,6 +2002,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/blog3.jpg",
 							"decorative": false,
+							"displayWidth": 286,
 							"width": 286,
 							"height": 286,
 							"orientation": "square",
@@ -2328,9 +2408,20 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Free-Delivery.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "delivery truck",
+								"glyph": "#010101",
+								"size": 47,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ffffff",
+									"size": 80
+								}
+							}
 						},
 						{
 							"id": "1e609b48:image.url",
@@ -2341,9 +2432,20 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Money-Back-Guarantee.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dollar price badge",
+								"glyph": "#010101",
+								"size": 45,
+								"shape": {
+									"kind": "circle",
+									"fill": "#fefefe",
+									"size": 80
+								}
+							}
 						},
 						{
 							"id": "5d28d06b:image.url",
@@ -2354,9 +2456,20 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Support.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#010101",
+								"size": 43,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ffffff",
+									"size": 80
+								}
+							}
 						},
 						{
 							"id": "5c46fe4a:image.url",
@@ -2367,9 +2480,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/High-qualit.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "star",
+								"glyph": "#010101",
+								"size": 38,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ffffff",
+									"size": 80
+								},
+								"fixed": "star-solid"
+							}
 						}
 					]
 				},
@@ -2635,9 +2760,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Frame-308.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "medal with star",
+								"glyph": "#050504",
+								"size": 29,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "34d3de34:image.url",
@@ -2648,9 +2785,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Wild-assortment.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#030303",
+								"size": 24,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"fixed": "check-solid",
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "b7c73ff2:image.url",
@@ -2661,9 +2811,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Proper-Roasting.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "roasted coffee beans",
+								"glyph": "#030303",
+								"size": 27,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "07e9fb9e:image.url",
@@ -2703,9 +2865,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/High-Quality.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "diamond with ribbon badge",
+								"glyph": "#040403",
+								"size": 29,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "6fe8d70e:image.url",
@@ -2716,9 +2890,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Excellent-Gringing.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "coffee grinder",
+								"glyph": "#050505",
+								"size": 32,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						},
 						{
 							"id": "d79be4c9:image.url",
@@ -2729,9 +2915,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Awesome-Aroma.png",
 							"decorative": true,
+							"displayWidth": 56,
 							"width": 56,
 							"height": 57,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "steaming coffee cup",
+								"glyph": "#020202",
+								"size": 26,
+								"shape": {
+									"kind": "circle",
+									"fill": "#efe8db",
+									"size": 56
+								},
+								"background": "#f4f4f2"
+							}
 						}
 					]
 				},
@@ -2941,6 +3139,140 @@
 			]
 		}
 	],
+	"products": [
+		{
+			"id": 2352,
+			"name": "Cold Brew",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Milk-Based",
+				"Speciality"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-1.jpg"
+		},
+		{
+			"id": 2353,
+			"name": "Latte",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Milk-Based"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-2.jpg"
+		},
+		{
+			"id": 2354,
+			"name": "Cappuccino",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Milk-Based"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-3.jpg"
+		},
+		{
+			"id": 2355,
+			"name": "Black Coffee",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Black Coffee"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-4.jpg"
+		},
+		{
+			"id": 2356,
+			"name": "Cortado",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Milk-Based"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-5.jpg"
+		},
+		{
+			"id": 2357,
+			"name": "Irish",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Cold Coffee",
+				"Expresso-Based"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-6.jpg"
+		},
+		{
+			"id": 2358,
+			"name": "Classic Red Eye",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Milk-Based",
+				"Speciality",
+				"Expresso-Based"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-8.jpg"
+		},
+		{
+			"id": 2359,
+			"name": "Doppio",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Cold Coffee"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-7-Doppio.jpg"
+		},
+		{
+			"id": 2360,
+			"name": "Crossaint",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Bakery"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-12.jpg"
+		},
+		{
+			"id": 2361,
+			"name": "Cheese Cake",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Bakery",
+				"Cake"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-11.jpg"
+		},
+		{
+			"id": 2362,
+			"name": "Brownie",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Bakery"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-10.jpg"
+		},
+		{
+			"id": 2363,
+			"name": "Glutin Free Muffin",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Bakery"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-9.jpg"
+		},
+		{
+			"id": 2364,
+			"name": "Expresso",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Expresso-Based"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-13-expresso.jpg"
+		},
+		{
+			"id": 2365,
+			"name": "Macchiato",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Milk-Based",
+				"Speciality"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/184/2024/08/product-14.jpg"
+		}
+	],
 	"stats": {
 		"sections": 14,
 		"textSlots": 84,
@@ -2949,5 +3281,5 @@
 		"swappableImages": 22,
 		"words": 808
 	},
-	"builtAt": "2026-10-29T11:52:56.408Z"
+	"builtAt": "2026-10-29T12:52:34.051Z"
 }

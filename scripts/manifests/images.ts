@@ -6,7 +6,7 @@ import { imageSize } from 'image-size';
 import { existsSync, readFileSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { ImageSlot, Orientation, Tone } from '../../lib/demos/types';
+import { ImageIcon, ImageSlot, Orientation, Tone } from '../../lib/demos/types';
 import { toneOf } from '../../lib/images/tone';
 import { refresh } from './source';
 
@@ -93,6 +93,54 @@ export const describePhoto = (url: string): Description | undefined => {
 		? (JSON.parse(readFileSync(DESCRIPTIONS_FILE, 'utf8')).photos as Record<string, Description>)
 		: {};
 	return descriptions[url];
+};
+
+// data/icon-images.json entries, written by classify-icons.ts.
+export type IconKind = 'icon' | 'social' | 'logo' | 'number' | 'photo' | 'ornament' | 'other';
+export type IconShape = 'none' | 'circle' | 'square' | 'rounded';
+export type IconImage = {
+	kind: IconKind;
+	depicts: string;
+	shape?: IconShape;
+	glyph?: string; // Color the symbol is drawn in.
+	fill?: string; // Color of the circle or tile behind it.
+	scale?: number; // The symbol's size as a share of the image's longer side.
+};
+
+const ICONS_FILE = path.join(process.cwd(), 'data', 'icon-images.json');
+let iconImages: Record<string, IconImage> | null = null;
+
+// Shown size when the block doesn't set one in px: the file's own, within reason.
+const MAX_ICON = 96;
+const MIN_ICON = 16;
+
+// Symbols that mean the same in any business keep their icon; the rest are
+// picked for the new copy.
+const FIXED_ICONS: [RegExp, string][] = [
+	[/^check( ?mark)?$/, 'check-solid'],
+	[/quot/, 'quote-left-solid'],
+	[/^(right )?arrow$/, 'arrow-right-solid'],
+	[/^play( button)?$/, 'play-solid'],
+	[/^star( rating)?$/, 'star-solid'],
+];
+
+// Image blocks, and headings drawing an icon as their background.
+export const takesIcon = (image: ImageSlot) => image.kind === 'image' || image.block === 'blockart/heading';
+
+// Undefined for images that aren't plain pictograms (or not classified yet).
+export const iconOf = (image: ImageSlot): ImageIcon | undefined => {
+	iconImages ??= existsSync(ICONS_FILE) ? JSON.parse(readFileSync(ICONS_FILE, 'utf8')).images : {};
+	const entry = iconImages![image.url];
+	if (entry?.kind !== 'icon' || !entry.glyph) return undefined;
+	const shown = Math.max(MIN_ICON, image.displayWidth ?? Math.min(image.width ?? MAX_ICON, MAX_ICON));
+	const fixed = FIXED_ICONS.find(([test]) => test.test(entry.depicts.toLowerCase()))?.[1];
+	return {
+		depicts: entry.depicts,
+		glyph: entry.glyph,
+		size: Math.max(12, Math.round(shown * (entry.scale ?? 0.6))),
+		...(entry.fill && entry.shape && entry.shape !== 'none' ? { shape: { kind: entry.shape, fill: entry.fill, size: shown } } : {}),
+		...(fixed ? { fixed } : {}),
+	};
 };
 
 const TONES_FILE = path.join(process.cwd(), '.cache', 'image-tones.json');

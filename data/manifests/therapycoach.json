@@ -710,7 +710,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/icon-idea.png",
-							"decorative": true
+							"decorative": true,
+							"displayWidth": 65
 						},
 						{
 							"id": "core-2.0.1.0.0:@html:img",
@@ -720,7 +721,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/icon-research.png",
-							"decorative": true
+							"decorative": true,
+							"displayWidth": 65
 						},
 						{
 							"id": "core-2.0.2.0.0:@html:img",
@@ -730,7 +732,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/icon-pixel-perfect.png",
-							"decorative": true
+							"decorative": true,
+							"displayWidth": 65
 						},
 						{
 							"id": "core-2.0.3.0.0:@html:img",
@@ -740,7 +743,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/icon-seo-friendly.png",
-							"decorative": true
+							"decorative": true,
+							"displayWidth": 65
 						},
 						{
 							"id": "core-2.0.4.0.0:@html:img",
@@ -750,7 +754,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/icon-design.png",
-							"decorative": true
+							"decorative": true,
+							"displayWidth": 65
 						},
 						{
 							"id": "core-2.0.5.0.0:@html:img",
@@ -760,7 +765,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/icon-support.png",
-							"decorative": true
+							"decorative": true,
+							"displayWidth": 65
 						}
 					]
 				},
@@ -1792,7 +1798,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/team-D.jpg",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 48
 						},
 						{
 							"id": "core-7.1.1.1.0:@html:img",
@@ -1802,7 +1809,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://therapycoach-njg6.1wp.site/wp-content/themes/zakra/assets/img/starter/team-C.jpg",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 48
 						}
 					]
 				},
@@ -2810,7 +2818,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "sparkle stars",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.0.0.4.0.0:@html:img",
@@ -3233,7 +3247,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "brain",
+								"glyph": "#c37259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.3.1.0.0.0.0:@html:img",
@@ -3246,7 +3266,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "wind lines",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.3.2.0.0.0.0:@html:img",
@@ -3259,7 +3285,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "heart with handshake",
+								"glyph": "#c37259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.4.0.0.0.0.0:@html:img",
@@ -3272,7 +3304,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "leaf",
+								"glyph": "#c37259",
+								"size": 21,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.4.1.0.0.0.0:@html:img",
@@ -3285,7 +3323,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "sunrise",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.4.2.0.0.0.0:@html:img",
@@ -3298,7 +3342,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "shield with checkmark",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -3905,6 +3955,35 @@
 					],
 					"images": [
 						{
+							"id": "core-4.1.0.0.0:url",
+							"blockId": "core-4.1.0.0.0",
+							"path": "4.1.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/08/therapy-blog-1.png",
+							"decorative": false,
+							"width": 695,
+							"height": 464,
+							"orientation": "landscape",
+							"subject": "group",
+							"description": "Women practicing yoga tree pose on a beach",
+							"tone": {
+								"grid": [
+									0.7,
+									0.79,
+									0.79,
+									0.55,
+									0.64,
+									0.65,
+									0.54,
+									0.58,
+									0.55
+								],
+								"color": "#a0a5a6"
+							}
+						},
+						{
 							"id": "core-4.1.0.0.1.1.0.0:@html:img",
 							"blockId": "core-4.1.0.0.1.1.0.0",
 							"path": "4.1.0.0.1.1.0.0",
@@ -3915,7 +3994,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-4.1.0.0.1.1.1.0:@html:img",
@@ -3928,7 +4018,42 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calendar",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
+						},
+						{
+							"id": "core-4.1.1.0.0:url",
+							"blockId": "core-4.1.1.0.0",
+							"path": "4.1.1.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/08/therapy-blog-2.png",
+							"decorative": false,
+							"width": 695,
+							"height": 464,
+							"orientation": "landscape",
+							"subject": "object",
+							"description": "Card with the word mindfulness on a windowsill",
+							"tone": {
+								"grid": [
+									0.81,
+									0.93,
+									0.76,
+									0.46,
+									0.55,
+									0.41,
+									0.21,
+									0.29,
+									0.21
+								],
+								"color": "#818483"
+							}
 						},
 						{
 							"id": "core-4.1.1.0.1.1.0.0:@html:img",
@@ -3941,7 +4066,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-4.1.1.0.1.1.1.0:@html:img",
@@ -3954,7 +4090,42 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calendar",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
+						},
+						{
+							"id": "core-4.1.2.0.0:url",
+							"blockId": "core-4.1.2.0.0",
+							"path": "4.1.2.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/08/therapy-blog-3.png",
+							"decorative": false,
+							"width": 695,
+							"height": 464,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Joyful woman dancing with headphones and a phone",
+							"tone": {
+								"grid": [
+									0.59,
+									0.72,
+									0.67,
+									0.52,
+									0.64,
+									0.7,
+									0.6,
+									0.47,
+									0.66
+								],
+								"color": "#cb9e13"
+							}
 						},
 						{
 							"id": "core-4.1.2.0.1.1.0.0:@html:img",
@@ -3967,7 +4138,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-4.1.2.0.1.1.1.0:@html:img",
@@ -3980,7 +4162,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calendar",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -4551,7 +4739,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "pencil",
+								"glyph": "#c37259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-6.0.1.0.0.1.0:@html:img",
@@ -4564,7 +4758,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "heart with pulse",
+								"glyph": "#c37259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-6.0.1.0.1.0.0:@html:img",
@@ -4577,7 +4777,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-6.0.1.0.1.1.0:@html:img",
@@ -4590,7 +4796,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "wind lines",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-6.0.1.0.1.2.0:@html:img",
@@ -4603,7 +4815,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "target",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -5106,9 +5329,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/award-icon.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "award ribbon medal",
+								"glyph": "#c37259",
+								"size": 26,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-7.2.0.0.2.0.0:@html:img",
@@ -5121,7 +5351,19 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-7.2.0.0.2.1.0:@html:img",
@@ -5134,7 +5376,19 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-7.2.0.0.2.2.0:@html:img",
@@ -5147,7 +5401,19 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-7.2.0.0.2.3.0:@html:img",
@@ -5160,7 +5426,19 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-7.2.1.0.0:@html:img",
@@ -5171,9 +5449,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/brain-icon.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "brain",
+								"glyph": "#c37259",
+								"size": 26,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-7.2.2.0.0:@html:img",
@@ -5184,9 +5469,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/users-icon.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "group of people",
+								"glyph": "#c37259",
+								"size": 26,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -6693,9 +6985,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/heart-icon.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "heart",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.1.1.0.0:@html:img",
@@ -6706,9 +7005,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/shield-check-icon.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "shield with checkmark",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.1.2.0.0:@html:img",
@@ -6719,9 +7025,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/leaf-icon.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "leaf",
+								"glyph": "#c37259",
+								"size": 21,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.1.3.0.0:@html:img",
@@ -6732,9 +7045,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/book-open-icon.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -7154,9 +7474,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/award-icon.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "award ribbon medal",
+								"glyph": "#c37259",
+								"size": 26,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-4.1.1.0.0:@html:img",
@@ -7167,9 +7494,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/shield-check-icon.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "shield with checkmark",
+								"glyph": "#c27259",
+								"size": 25,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-4.1.2.0.0:@html:img",
@@ -7180,9 +7514,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/users-icon.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "group of people",
+								"glyph": "#c37259",
+								"size": 26,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -8111,7 +8452,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.3.0.0.1.3.1.0:@html:img",
@@ -8124,7 +8476,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calendar",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.3.1.0.0:@html:img",
@@ -8166,7 +8524,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.3.1.0.1.3.1.0:@html:img",
@@ -8179,7 +8548,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calendar",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.3.2.0.0:@html:img",
@@ -8221,7 +8596,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.3.2.0.1.3.1.0:@html:img",
@@ -8234,7 +8620,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calendar",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.4.0.0.0:@html:img",
@@ -8276,7 +8668,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.4.0.0.1.3.1.0:@html:img",
@@ -8289,7 +8692,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calendar",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.4.1.0.0:@html:img",
@@ -8331,7 +8740,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.4.1.0.1.3.1.0:@html:img",
@@ -8344,7 +8764,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calendar",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.4.2.0.0:@html:img",
@@ -8386,7 +8812,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c37259",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.4.2.0.1.3.1.0:@html:img",
@@ -8399,7 +8836,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calendar",
+								"glyph": "#c27259",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						}
 					]
 				}
@@ -8426,9 +8869,9 @@
 		"sections": 37,
 		"textSlots": 385,
 		"editableSlots": 353,
-		"images": 89,
-		"swappableImages": 30,
+		"images": 92,
+		"swappableImages": 33,
 		"words": 2280
 	},
-	"builtAt": "2026-10-29T11:52:56.430Z"
+	"builtAt": "2026-10-29T12:52:34.084Z"
 }

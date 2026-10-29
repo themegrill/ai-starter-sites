@@ -861,7 +861,18 @@
 							"decorative": true,
 							"width": 62,
 							"height": 61,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "tooth with wifi",
+								"glyph": "#ffffff",
+								"size": 37,
+								"shape": {
+									"kind": "circle",
+									"fill": "#0058a2",
+									"size": 62
+								},
+								"background": "#ebf7fe"
+							}
 						},
 						{
 							"id": "dd1616c9:image.url",
@@ -874,7 +885,18 @@
 							"decorative": true,
 							"width": 62,
 							"height": 61,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "sparkling tooth",
+								"glyph": "#ffffff",
+								"size": 37,
+								"shape": {
+									"kind": "circle",
+									"fill": "#0058a2",
+									"size": 62
+								},
+								"background": "#ebf7fe"
+							}
 						},
 						{
 							"id": "dc6424b6:image.url",
@@ -887,7 +909,18 @@
 							"decorative": true,
 							"width": 62,
 							"height": 61,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "tooth with sparkles",
+								"glyph": "#ffffff",
+								"size": 37,
+								"shape": {
+									"kind": "circle",
+									"fill": "#0058a2",
+									"size": 62
+								},
+								"background": "#ebf7fe"
+							}
 						},
 						{
 							"id": "f6b8f2bf:image.url",
@@ -900,7 +933,18 @@
 							"decorative": true,
 							"width": 62,
 							"height": 61,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "tooth with braces",
+								"glyph": "#ffffff",
+								"size": 37,
+								"shape": {
+									"kind": "circle",
+									"fill": "#0058a2",
+									"size": 62
+								},
+								"background": "#ebf7fe"
+							}
 						},
 						{
 							"id": "9bbc8fdd:image.url",
@@ -913,7 +957,18 @@
 							"decorative": true,
 							"width": 62,
 							"height": 61,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "tooth with gear",
+								"glyph": "#ffffff",
+								"size": 37,
+								"shape": {
+									"kind": "circle",
+									"fill": "#00519e",
+									"size": 62
+								},
+								"background": "#ebf7fe"
+							}
 						}
 					]
 				},
@@ -2751,7 +2806,18 @@
 							"decorative": true,
 							"width": 62,
 							"height": 61,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "tooth with wifi",
+								"glyph": "#ffffff",
+								"size": 37,
+								"shape": {
+									"kind": "circle",
+									"fill": "#0058a2",
+									"size": 62
+								},
+								"background": "#ebf7fe"
+							}
 						},
 						{
 							"id": "d3c6a6d2:image.url",
@@ -2764,7 +2830,18 @@
 							"decorative": true,
 							"width": 62,
 							"height": 61,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "sparkling tooth",
+								"glyph": "#ffffff",
+								"size": 37,
+								"shape": {
+									"kind": "circle",
+									"fill": "#0058a2",
+									"size": 62
+								},
+								"background": "#ebf7fe"
+							}
 						},
 						{
 							"id": "78b32a3c:image.url",
@@ -2835,7 +2912,18 @@
 							"decorative": true,
 							"width": 62,
 							"height": 61,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "tooth with sparkles",
+								"glyph": "#ffffff",
+								"size": 37,
+								"shape": {
+									"kind": "circle",
+									"fill": "#0058a2",
+									"size": 62
+								},
+								"background": "#ebf7fe"
+							}
 						},
 						{
 							"id": "4986386a:image.url",
@@ -2848,7 +2936,18 @@
 							"decorative": true,
 							"width": 62,
 							"height": 61,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "tooth with braces",
+								"glyph": "#ffffff",
+								"size": 37,
+								"shape": {
+									"kind": "circle",
+									"fill": "#0058a2",
+									"size": 62
+								},
+								"background": "#ebf7fe"
+							}
 						},
 						{
 							"id": "cbe4c77b:image.url",
@@ -3446,5 +3545,5 @@
 		"swappableImages": 18,
 		"words": 910
 	},
-	"builtAt": "2026-10-29T11:52:56.136Z"
+	"builtAt": "2026-10-29T12:52:33.762Z"
 }

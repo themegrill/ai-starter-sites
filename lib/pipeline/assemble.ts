@@ -2,7 +2,7 @@
 // edits; `importPackage` tells the WordPress importer where each slot lives
 // in the demo, so it can apply the final (edited) values.
 import { DemoCatalogEntry, DemoManifest, ImageSlot as ManifestImage, ManifestPage, ManifestSection, PageType } from '../demos/types';
-import { AiPageSlug, BrandKit, DemoSummary, GeneratedPage, GenerationPackage, ImageSlot, RemovedGroup, Section } from '../types';
+import { AiPageSlug, BrandKit, DemoSummary, GeneratedPage, GenerationPackage, IconSlot, ImageSlot, RemovedGroup, Section } from '../types';
 import { buildFontMap } from './brand-kit';
 import { colorMapFor, demoPrimary } from './color-map';
 import { CopyResult, editableSlots } from './copy';
@@ -45,7 +45,7 @@ export const selectPages = (demo: DemoManifest, requested: AiPageSlug[]) => {
 export const buildSection = (
 	section: ManifestSection,
 	copy: Record<string, string>,
-	images: Map<ManifestImage, ImageSlot>,
+	images: Map<ManifestImage, ImageSlot | IconSlot>,
 ): Section => {
 	const slots: Section['slots'] = {};
 	const kinds: Record<string, string> = {};
@@ -72,14 +72,17 @@ export const buildSection = (
 	};
 };
 
-const slotLocations = (section: ManifestSection) =>
+// Photos, and pictograms that become icons (see icons.ts).
+const swaps = (image: ManifestImage, images: Map<ManifestImage, ImageSlot | IconSlot>) => !image.decorative || images.has(image);
+
+const slotLocations = (section: ManifestSection, images: Map<ManifestImage, ImageSlot | IconSlot>) =>
 	Object.fromEntries([
 		...editableSlots(section).map((s) => [s.id, { path: s.path, block: s.block, attr: s.attr, inHtml: s.inHtml, rich: s.rich }]),
-		...section.images.filter((i) => !i.decorative).map((i) => [i.id, { path: i.path, block: i.block, attr: i.attr, url: i.url }]),
+		...section.images.filter((i) => swaps(i, images)).map((i) => [i.id, { path: i.path, block: i.block, attr: i.attr, url: i.url }]),
 	]);
 
-const keepImages = (demo: DemoManifest, selected: ManifestPage[]) => {
-	const swappable = new Set(selected.flatMap((p) => p.sections.flatMap((s) => s.images.filter((i) => !i.decorative))));
+const keepImages = (demo: DemoManifest, selected: ManifestPage[], images: Map<ManifestImage, ImageSlot | IconSlot>) => {
+	const swappable = new Set(selected.flatMap((p) => p.sections.flatMap((s) => s.images.filter((i) => swaps(i, images)))));
 	const all = demo.pages.flatMap((p) => p.sections.flatMap((s) => s.images));
 	return [...new Set(all.filter((i) => !swappable.has(i)).map((i) => i.url))];
 };
@@ -91,7 +94,7 @@ export const assemblePackage = (args: {
 	brand: BrandKit;
 	requestedPages: AiPageSlug[];
 	copy: CopyResult;
-	images: Map<ManifestImage, ImageSlot>;
+	images: Map<ManifestImage, ImageSlot | IconSlot>;
 	imageProvider: string;
 	decisions: Map<AiPageSlug, GroupDecision[]>;
 }): GenerationPackage => {
@@ -135,7 +138,7 @@ export const assemblePackage = (args: {
 				slug: type,
 				demoPageSlug: page.slug,
 				sourceUrl: page.sourceUrl,
-				slots: Object.assign({}, ...page.sections.map(slotLocations)),
+				slots: Object.assign({}, ...page.sections.map((s) => slotLocations(s, images))),
 				// Top-level blocks of each removed group. The importer deletes the
 				// blocks of groups still removed at import (the user may restore some).
 				groups: Object.fromEntries(droppedOn(type).map(({ group }) => [group.id, group.paths])),
@@ -147,7 +150,7 @@ export const assemblePackage = (args: {
 			// itself from demoFonts.
 			// Demo images used anywhere but a swappable slot on the pages above. The
 			// importer may skip downloading a replaced photo only if it isn't one of these.
-			keepImages: keepImages(demo, selected.map((s) => s.page)),
+			keepImages: keepImages(demo, selected.map((s) => s.page), images),
 			demoFonts: demo.brand.fonts.map,
 			colorMap: colors.map,
 			themeColorMap: colors.themeMap,

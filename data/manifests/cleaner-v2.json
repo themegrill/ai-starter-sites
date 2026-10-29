@@ -846,7 +846,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "computer monitor",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a569",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "83322bd9:image.url",
@@ -859,7 +870,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "house",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a469",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "433675ba:image.url",
@@ -872,7 +894,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "car",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a469",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "076e8f7f:image.url",
@@ -885,7 +918,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a469",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2092,6 +2136,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/facebook-f.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 320,
 							"height": 512,
 							"orientation": "portrait"
@@ -2105,6 +2150,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/twitter.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 512,
 							"height": 512,
 							"orientation": "square"
@@ -2118,6 +2164,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/linkedin-in.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 448,
 							"height": 512,
 							"orientation": "square"
@@ -2131,6 +2178,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/instagram.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 448,
 							"height": 512,
 							"orientation": "square"
@@ -2173,6 +2221,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/facebook-f.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 320,
 							"height": 512,
 							"orientation": "portrait"
@@ -2186,6 +2235,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/twitter.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 512,
 							"height": 512,
 							"orientation": "square"
@@ -2199,6 +2249,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/linkedin-in.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 448,
 							"height": 512,
 							"orientation": "square"
@@ -2212,6 +2263,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/instagram.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 448,
 							"height": 512,
 							"orientation": "square"
@@ -2254,6 +2306,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/facebook-f.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 320,
 							"height": 512,
 							"orientation": "portrait"
@@ -2267,6 +2320,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/twitter.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 512,
 							"height": 512,
 							"orientation": "square"
@@ -2280,6 +2334,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/linkedin-in.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 448,
 							"height": 512,
 							"orientation": "square"
@@ -2293,6 +2348,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/instagram.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 448,
 							"height": 512,
 							"orientation": "square"
@@ -4554,7 +4610,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "computer monitor",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a569",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "83322bd9:image.url",
@@ -4567,7 +4634,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "house",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a469",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "433675ba:image.url",
@@ -4580,7 +4658,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "car",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a469",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "18a5e6f0:image.url",
@@ -4593,7 +4682,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a469",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "6214201c:image.url",
@@ -4606,7 +4706,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "window",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a469",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "23951262:image.url",
@@ -4619,7 +4730,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "grid layout",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "circle",
+									"fill": "#29a469",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -4754,5 +4876,5 @@
 		"swappableImages": 19,
 		"words": 1031
 	},
-	"builtAt": "2026-10-29T11:52:56.159Z"
+	"builtAt": "2026-10-29T12:52:33.786Z"
 }

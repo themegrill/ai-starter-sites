@@ -1,13 +1,16 @@
 // Orchestrates a generation: brief -> demo -> brand kit -> copy -> images ->
 // package, reporting progress after each step.
 import { randomUUID } from 'node:crypto';
+import { ImageSlot as ManifestImage } from '../demos/types';
 import { ApiError } from '../errors';
 import { getLlm, LlmUsage } from '../llm';
-import { AiPageSlug, DesignsResponse, GenerateRequest, GenerationPackage, GenerationProgress, Section } from '../types';
+import { AiPageSlug, DesignsResponse, GenerateRequest, GenerationPackage, GenerationProgress, IconSlot, ImageSlot, Section } from '../types';
 import { assemblePackage, buildSection, selectPages } from './assemble';
 import { brandKitFor } from './brand-kit';
 import { Brief, parseBrief } from './brief';
 import { writeCopy, writeSectionCopy } from './copy';
+import { iconsFor } from './icons';
+import { productsFor } from './products';
 import { getImageProvider } from './images';
 import { availableDemos, getManifest, pickDemo, rankDemos } from './pick-demo';
 import { rankDesigns } from './rank-designs';
@@ -80,13 +83,18 @@ const buildFromDemo = async (
 
 	onProgress?.({ step: 'finding_images', progress: 0.85 });
 	const provider = getImageProvider();
-	const images = await provider.imagesFor(demo, brief, {
-		request,
-		pages: pages.map((p) => p.page),
-		copy,
-		primary: brand.palette.primary,
-		signal,
-	});
+	const [photos, icons, products] = await Promise.all([
+		provider.imagesFor(demo, brief, {
+			request,
+			pages: pages.map((p) => p.page),
+			copy,
+			primary: brand.palette.primary,
+			signal,
+		}),
+		iconsFor({ request, brief, demo }, pages.map((p) => p.page), copy, brand.palette.primary, signal),
+		productsFor({ request, brief, demo }, signal),
+	]);
+	const images = new Map<ManifestImage, ImageSlot | IconSlot>([...photos, ...icons]);
 
 	onProgress?.({ step: 'assembling', progress: 0.95 });
 	const pkg = assemblePackage({
@@ -100,6 +108,7 @@ const buildFromDemo = async (
 		imageProvider: provider.name,
 		decisions,
 	});
+	if (products.length) pkg.products = products;
 	saveGeneration(id, { request, brief, demo, pkg, notes, images });
 	return pkg;
 };

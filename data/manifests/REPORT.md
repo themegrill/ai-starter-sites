@@ -110,7 +110,7 @@ Contrast pairs checked after recoloring: 16
 
 ## Antique (`antique-store`) · premium
 
-14 sections · 51/53 editable text slots · 361 words · 13/13 swappable images
+14 sections · 51/53 editable text slots · 361 words · 18/23 swappable images
 
 Fonts: heading **Libre Baskerville**, body **Work Sans** ()
 
@@ -121,17 +121,17 @@ Contrast pairs checked after recoloring: 6
 ### Home — `home` → home
 
 - Group **hero** (core) `top-0`, blocks 0
-  - **hero** “Best Antique Products Varieties” — 3 text, 0 photos · lorem
+  - **hero** “Best Antique Products Varieties” — 3 text, 1 photos · lorem
 - Group **dynamic** (needs products) `top-1`, blocks 1
   - **dynamic** “Product Category” — 6 text, 0 photos · dynamic: woocommerce/featured-category
 - Group **dynamic** (needs products) `top-2`, blocks 2
   - **dynamic** “New Products” — 2 text, 0 photos · dynamic: woocommerce/product-new
 - Group **cta** (core) `top-3`, blocks 3
-  - **cta** “Products that are 100 Years old” — 3 text, 0 photos
+  - **cta** “Products that are 100 Years old” — 3 text, 1 photos
 - Group **dynamic** (needs products) `top-4`, blocks 4
   - **dynamic** “Antique Buddha” — 2 text, 0 photos · dynamic: woocommerce/handpicked-products
 - Group **cta** (core) `top-5`, blocks 5
-  - **cta** “Ancient Musical Instrument” — 3 text, 0 photos
+  - **cta** “Ancient Musical Instrument” — 3 text, 1 photos
 - Group **gallery** (core) `top-6`, blocks 6
   - **gallery** “Connect with us @antique.store” — 1 text, 4 photos
     - photo (object): Carved wooden Buddha face sculpture close-up
@@ -144,7 +144,7 @@ Contrast pairs checked after recoloring: 6
 - Group **hero** (core) `top-0`, blocks 0
   - **hero** “At Antique, we’re providing the most ancient amazing sculptures and paintings, beautiful fiber arts and vintage memorabilia.” — 1 text, 0 photos
 - Group **content** (core) `top-1`, blocks 1
-  - **content** “We believe Antique products are beautiful” — 8 text, 0 photos · lorem
+  - **content** “We believe Antique products are beautiful” — 8 text, 2 photos · lorem
 - Group **gallery** (core) `top-2`, blocks 2
   - **gallery** “Connect with us @antique.store” — 1 text, 4 photos
     - photo (object): Carved wooden Buddha face sculpture close-up
@@ -173,6 +173,16 @@ Contrast pairs checked after recoloring: 6
 
 - Group **dynamic** (core) `top-0`, blocks 0
   - **dynamic** (untitled) — 0 text, 0 photos · dynamic: core/shortcode
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/BannerImage.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/100yearsold.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/musical-instrument.jpg
+- about: photo not in data/photo-descriptions.json: https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/about1.jpg
+- about: photo not in data/photo-descriptions.json: https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/about2.jpg
+
+</details>
 
 ## Apply Jobs V2 (`applyjobs-v2`) · premium
 
@@ -263,7 +273,7 @@ Contrast pairs checked after recoloring: 12
 
 ## Bizness V2 (`bizness-v2`)
 
-13 sections · 107/107 editable text slots · 789 words · 15/53 swappable images
+13 sections · 107/107 editable text slots · 789 words · 15/55 swappable images
 
 Fonts: heading **Lato**, body **Lato** (Lato → body)
 
@@ -411,7 +421,7 @@ Contrast pairs checked after recoloring: 6
 
 ## Business Firm V2 (`business-firm-v2`)
 
-10 sections · 79/85 editable text slots · 462 words · 11/19 swappable images
+10 sections · 79/85 editable text slots · 462 words · 11/31 swappable images
 
 Fonts: heading **Arima**, body **Work Sans** (Arima → heading, Work Sans → body)
 
@@ -467,7 +477,7 @@ Contrast pairs checked after recoloring: 27
 
 ## Business V3 (`business-v3`) · premium
 
-13 sections · 107/107 editable text slots · 789 words · 15/53 swappable images
+13 sections · 107/107 editable text slots · 789 words · 15/55 swappable images
 
 Fonts: heading **Lato**, body **Lato** (Lato → body)
 
@@ -1342,7 +1352,7 @@ Contrast pairs checked after recoloring: 15
 
 ## Zakra Digital Diary (`digital-diary`) · premium
 
-31 sections · 27/27 editable text slots · 933 words · 3/3 swappable images
+31 sections · 27/27 editable text slots · 933 words · 4/4 swappable images
 
 Fonts: heading **Montserrat**, body **Montserrat** ()
 
@@ -1394,7 +1404,8 @@ Contrast pairs checked after recoloring: 5
 - Group **content** (core) `top-10`, blocks 10
   - **content** (untitled) — 1 text, 0 photos · lorem
 - Group **content** (core) `top-11`, blocks 11
-  - **content** (untitled) — 1 text, 0 photos · lorem
+  - **content** (untitled) — 1 text, 1 photos · lorem
+    - photo (person): Businessman with arms outstretched among skyscrapers
 - Group **content** (core) `top-12`, blocks 12
   - **content** (untitled) — 1 text, 0 photos · lorem
 - Group **content** (core) `top-13`, blocks 13
@@ -1742,7 +1753,7 @@ Contrast pairs checked after recoloring: 10
 
 ## Event Marketing (`event-marketing`) · premium
 
-16 sections · 93/93 editable text slots · 1071 words · 25/63 swappable images
+16 sections · 93/93 editable text slots · 1071 words · 32/70 swappable images
 
 Fonts: heading **Source Serif Pro**, body **Poppins** ()
 
@@ -1761,7 +1772,7 @@ Contrast pairs checked after recoloring: 7
   - **pricing** “What We Do” — 7 text, 1 photos
     - photo (group): Colleagues in hijabs and casual wear talking in an office
 - Group **cta** (core) `top-2`, blocks 2
-  - **cta** “Do not miss the upcoming Event!” — 3 text, 0 photos
+  - **cta** “Do not miss the upcoming Event!” — 3 text, 1 photos
 - Group **features** (core) `top-3`, blocks 3
   - **features** “Our Events” — 11 text, 4 photos
     - photo (place): Soccer stadium crowd with fans cheering
@@ -1780,7 +1791,7 @@ Contrast pairs checked after recoloring: 7
     - photo (person): Person holding a Start Up sign
     - photo (object): Smartphone with app icons on a laptop
 - Group **cta** (core) `top-6`, blocks 6
-  - **cta** “Need Some Help?” — 3 text, 0 photos · lorem
+  - **cta** “Need Some Help?” — 3 text, 1 photos · lorem
 - Group **testimonials** (core) `top-7`, blocks 7, 8
   - **content** “Our Partners” — 2 text, 0 photos
   - **testimonials** “What People Say?” — 8 text, 3 photos
@@ -1794,9 +1805,9 @@ Contrast pairs checked after recoloring: 7
 ### About — `about` → about
 
 - Group **hero** (core) `top-0`, blocks 0
-  - **hero** “What We Do” — 16 text, 0 photos
+  - **hero** “What We Do” — 16 text, 3 photos
 - Group **cta** (core) `top-1`, blocks 1
-  - **cta** “Need Some Help?” — 3 text, 0 photos · lorem
+  - **cta** “Need Some Help?” — 3 text, 1 photos · lorem
 - Group **content** (core) `top-2`, blocks 2
   - **content** “Our Partners” — 2 text, 1 photos
 
@@ -1815,14 +1826,21 @@ Contrast pairs checked after recoloring: 7
     - photo (group): Team brainstorming with sticky notes in an office meeting
     - photo (group): Friends taking a selfie at a festive dinner table
 - Group **cta** (core) `top-2`, blocks 2
-  - **cta** “Need Some Help?” — 3 text, 0 photos · lorem
+  - **cta** “Need Some Help?” — 3 text, 1 photos · lorem
 - Group **content** (core) `top-3`, blocks 3
   - **content** “Our Partners” — 2 text, 0 photos
 
 <details><summary>Warnings</summary>
 
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Call-to-action-compressed.jpg
 - home: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com:3443/app_user/qsu6361/site/rabsana-event-marketing.sites.qsandbox.com/wp-content/uploads/2022/11/Line-1.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/image-1.png
+- about: photo not in data/photo-descriptions.json: https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Event-based-strategy.png
+- about: photo not in data/photo-descriptions.json: https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Event-website.png
+- about: photo not in data/photo-descriptions.json: https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Socail-media-marketing.png
+- about: photo not in data/photo-descriptions.json: https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/image-1.png
 - about: photo not in data/photo-descriptions.json: https://optimus.qsandbox.com:3443/app_user/qsu6361/site/rabsana-event-marketing.sites.qsandbox.com/wp-content/uploads/2022/11/Line-1.png
+- events: photo not in data/photo-descriptions.json: https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/image-1.png
 
 </details>
 
@@ -2100,7 +2118,7 @@ Contrast pairs checked after recoloring: 8
 
 ## Furniture v2 (`furniture-v2`) · premium
 
-7 sections · 24/24 editable text slots · 110 words · 4/4 swappable images
+7 sections · 24/24 editable text slots · 110 words · 4/8 swappable images
 
 Fonts: heading **Roboto**, body **Roboto** (Roboto → body)
 
@@ -2143,7 +2161,7 @@ Contrast pairs checked after recoloring: 6
 
 ## Gamer (`gamer`) · premium
 
-20 sections · 149/158 editable text slots · 1025 words · 15/26 swappable images
+20 sections · 149/158 editable text slots · 1025 words · 20/31 swappable images
 
 Fonts: heading **Zen Dots**, body **Jost** (Zen Dots → heading, Jost → body)
 
@@ -2162,8 +2180,8 @@ Contrast pairs checked after recoloring: 10
 - Group **content** (core) `7b28001a`, blocks 2
   - **content** “Amazing Online Tournaments” — 5 text, 1 photos
     - photo (group): Illustration of soldiers with rifles advancing through a battlefield
-- Group **stats** (needs stats) `5b9a8c76`, blocks 3
-  - **stats** “Recent Played Tournaments” — 18 text, 0 photos · lorem
+- Group **content** (core) `5b9a8c76`, blocks 3
+  - **content** “Recent Played Tournaments” — 18 text, 5 photos · lorem
 - Group **features** (core) `8b351606`, blocks 4
   - **features** “Get All top gaming news & information” — 36 text, 7 photos · lorem
     - photo (group): Illustration of fantasy game heroes posed around a Dota 2 logo
@@ -2223,6 +2241,11 @@ Contrast pairs checked after recoloring: 10
 
 <details><summary>Warnings</summary>
 
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Rectangle-15.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Rectangle-16.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Rectangle-20.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/03/Rectangle-18.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Rectangle-274.png
 - contact-us: unmapped text in blockart/map.address: "new york"
 
 </details>
@@ -2284,7 +2307,7 @@ Contrast pairs checked after recoloring: 10
 
 ## Gym V2 (`gym-v2`) · premium
 
-26 sections · 133/144 editable text slots · 790 words · 55/67 swappable images
+26 sections · 133/144 editable text slots · 790 words · 58/70 swappable images
 
 Fonts: heading **Oswald**, body **Poppins** (Oswald → heading, Poppins → body)
 
@@ -2311,7 +2334,7 @@ Contrast pairs checked after recoloring: 19
   - **hero** “START YOUR” — 4 text, 1 photos
     - photo (person): Muscular shirtless man standing in a dark gym
 - Group **content** (core) `093a7cdb`, blocks 1
-  - **content** “BODY BUILDING” — 3 text, 0 photos
+  - **content** “BODY BUILDING” — 3 text, 3 photos
 - Group **content** (core) `f5a4adc7`, blocks 2
   - **content** “WHAT WE PROVIDE” — 10 text, 0 photos · lorem
 - Group **cta** (core) `4a156c3f`, blocks 3
@@ -2412,9 +2435,17 @@ Contrast pairs checked after recoloring: 19
     - photo (person): Woman doing a yoga kickback pose on a mat
     - photo (person): Fit woman doing pull-ups on a rack
 
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/class-body-building.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/class-yoga.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/class-aerobic.jpg
+
+</details>
+
 ## Happiness Coach (`happiness-coach`)
 
-27 sections · 250/305 editable text slots · 1882 words · 24/32 swappable images
+27 sections · 250/305 editable text slots · 1882 words · 30/38 swappable images
 
 Fonts: heading **Lora**, body **Inter** ()
 
@@ -2458,7 +2489,7 @@ Contrast pairs checked after recoloring: 8
   - **features** “A gentle, four-part rhythm.” — 11 text, 1 photos
     - photo (object): Cup of tea with eyeglasses and a flower on a cozy blanket
 - Group **features** (core) `top-6`, blocks 6
-  - **features** “Three considered ways to work together.” — 26 text, 2 photos
+  - **features** “Three considered ways to work together.” — 26 text, 5 photos
     - photo (person): Smiling young woman with long dark hair headshot
     - photo (person): Smiling young man with curly hair headshot
 - Group **features** (core) `top-7`, blocks 7
@@ -2495,7 +2526,7 @@ Contrast pairs checked after recoloring: 8
 ### Programs — `programs` → services
 
 - Group **hero** (core) `top-0`, blocks 0
-  - **hero** “Three considered ways to work together.” — 25 text, 2 photos
+  - **hero** “Three considered ways to work together.” — 25 text, 5 photos
     - photo (person): Smiling Asian woman holding a tablet and stylus
     - photo (person): Smiling man in a polo shirt sitting at a desk with arms folded
 - Group **features** (core) `top-1`, blocks 1
@@ -2515,9 +2546,20 @@ Contrast pairs checked after recoloring: 8
 - Group **cta** (core) `top-2`, blocks 2
   - **cta** “A quiet result begins with a quiet conversation.” — 4 text, 0 photos
 
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/foundations--1024x683.webp
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/the-reset-1024x683.webp
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/the-quiet-season-1024x710.webp
+- programs: photo not in data/photo-descriptions.json: https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/foundations--1024x683.webp
+- programs: photo not in data/photo-descriptions.json: https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/the-reset-1024x683.webp
+- programs: photo not in data/photo-descriptions.json: https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/the-quiet-season-1024x710.webp
+
+</details>
+
 ## Kidz (`kidz`) · premium
 
-17 sections · 106/116 editable text slots · 784 words · 8/36 swappable images
+17 sections · 106/116 editable text slots · 784 words · 24/52 swappable images
 
 Fonts: heading **Capriola**, body **Source Sans Pro** ()
 
@@ -2530,19 +2572,19 @@ Contrast pairs checked after recoloring: 10
 - Group **hero** (core) `top-0`, blocks 0
   - **hero** “Cultivating Individuality and Academic Excellence” — 3 text, 0 photos
 - Group **stats** (needs stats) `top-1`, blocks 1
-  - **stats** “We put little magic into all our kid's lives.” — 6 text, 0 photos
+  - **stats** “We put little magic into all our kid's lives.” — 6 text, 1 photos
 - Group **features** (core) `top-2`, blocks 2
-  - **features** “Kindergarten and Childhood is our Passion” — 8 text, 0 photos
+  - **features** “Kindergarten and Childhood is our Passion” — 8 text, 2 photos
 - Group **features** (core) `top-3`, blocks 3
-  - **features** “Our Advantages” — 15 text, 0 photos
+  - **features** “Our Advantages” — 15 text, 1 photos
 - Group **testimonials** (core) `top-4`, blocks 4
-  - **testimonials** “Parent’s Thoughts About Us” — 10 text, 0 photos
+  - **testimonials** “Parent’s Thoughts About Us” — 10 text, 1 photos
 - Group **cta** (core) `top-5`, blocks 5
   - **cta** “A Place Where Children Thrive” — 3 text, 0 photos
 - Group **posts** (needs blog) `top-6`, blocks 6
-  - **posts** “Upcoming Events” — 5 text, 0 photos · dynamic: core/query
+  - **posts** “Upcoming Events” — 5 text, 1 photos · dynamic: core/query
 - Group **content** (core) `top-7`, blocks 7
-  - **content** “Our Study Process” — 6 text, 0 photos
+  - **content** “Our Study Process” — 6 text, 4 photos
 
 ### Events — `blog` → blog
 
@@ -2550,13 +2592,13 @@ Contrast pairs checked after recoloring: 10
 ### About Us — `about-us` → about
 
 - Group **hero** (core) `top-0`, blocks 0
-  - **hero** “We put little magic into all our kid's lives.” — 6 text, 0 photos
+  - **hero** “We put little magic into all our kid's lives.” — 6 text, 1 photos
 - Group **features** (core) `top-1`, blocks 1
-  - **features** “Kindergarten and Childhood is our Passion” — 8 text, 0 photos
+  - **features** “Kindergarten and Childhood is our Passion” — 8 text, 2 photos
 - Group **features** (core) `top-2`, blocks 2
-  - **features** “Our Advantages” — 15 text, 0 photos
+  - **features** “Our Advantages” — 15 text, 1 photos
 - Group **testimonials** (core) `top-3`, blocks 3
-  - **testimonials** “Parent’s Thoughts About Us” — 10 text, 0 photos
+  - **testimonials** “Parent’s Thoughts About Us” — 10 text, 1 photos
 
 ### Contact Us — `contact-us` → contact
 
@@ -2565,7 +2607,7 @@ Contrast pairs checked after recoloring: 10
 - Group **cta** (core) `top-1`, blocks 1
   - **cta** “A Place Where Children Thrive” — 3 text, 0 photos
 - Group **content** (core) `top-2`, blocks 2
-  - **content** “Where we are” — 2 text, 0 photos
+  - **content** “Where we are” — 2 text, 1 photos
 
 ### Gallery — `gallery` → other
 
@@ -2582,9 +2624,30 @@ Contrast pairs checked after recoloring: 10
     - photo (group): Two girls in animal onesies holding kindergarten speech bubbles
     - photo (group): Teacher and a girl looking at a globe together in a classroom
 
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Counter-Section-Background.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/why-choose-us-background.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Kids-Playing-ball-1008x1024.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Our-advantage-background.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/testimonial-background.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Upcoming-background.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Cute-Kid-1024x533.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Toys.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Toy.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Kids-Playing.jpg
+- about-us: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Counter-Section-Background.png
+- about-us: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/why-choose-us-background.png
+- about-us: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Kids-Playing-ball-1008x1024.jpg
+- about-us: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Our-advantage-background.png
+- about-us: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/testimonial-background.png
+- contact-us: photo not in data/photo-descriptions.json: https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Where-are-we-1024x625.jpg
+
+</details>
+
 ## Law Firm V2 (`law-firm-v2`) · premium
 
-16 sections · 175/179 editable text slots · 1754 words · 13/60 swappable images
+16 sections · 175/179 editable text slots · 1754 words · 13/62 swappable images
 
 Fonts: heading **PT Serif**, body **PT Sans** (PT Serif → heading, PT Sans → body)
 
@@ -2789,7 +2852,7 @@ Contrast pairs checked after recoloring: 7
 
 ## Member Read. (`member-read`)
 
-17 sections · 211/244 editable text slots · 959 words · 40/56 swappable images
+17 sections · 211/244 editable text slots · 959 words · 48/64 swappable images
 
 Fonts: heading **Inter**, body **Inter** ()
 
@@ -2809,7 +2872,7 @@ Contrast pairs checked after recoloring: 7
 - Group **content** (core) `top-1`, blocks 1
   - **content** “Choose what to read” — 16 text, 0 photos
 - Group **features** (core) `top-2`, blocks 2
-  - **features** “Stories worth your full attention” — 30 text, 6 photos
+  - **features** “Stories worth your full attention” — 30 text, 12 photos
     - photo (person): Young woman in glasses and a striped shirt smiling outdoors
     - photo (person): Smiling older man in a suit holding a laptop
     - photo (person): Smiling woman with long hair looking up at night
@@ -2817,7 +2880,7 @@ Contrast pairs checked after recoloring: 7
     - photo (person): Smiling man in a suit with arms crossed in an office
     - photo (person): Young Asian woman in a white blouse beside a plant
 - Group **content** (core) `top-3`, blocks 3
-  - **content** “Most-loved premium reads” — 13 text, 0 photos
+  - **content** “Most-loved premium reads” — 13 text, 2 photos
 - Group **gallery** (core) `top-4`, blocks 4
   - **gallery** “Meet the storytellers” — 18 text, 8 photos
     - photo (person): Young woman in glasses and a striped shirt smiling outdoors
@@ -2876,6 +2939,14 @@ Contrast pairs checked after recoloring: 7
 
 <details><summary>Warnings</summary>
 
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-1.webp
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-2.webp
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-3.webp
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-4.webp
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-5.webp
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-6.webp
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/premium-1-1024x768.webp
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/premium-2-1024x768.webp
 - articles: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/2026/07/download-1-150x150.webp
 - articles: photo not in data/photo-descriptions.json: https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png
 - articles: photo not in data/photo-descriptions.json: https://zakrademos.com/member-read/wp-content/uploads/2026/07/download-2-150x150.webp
@@ -2934,7 +3005,7 @@ Contrast pairs checked after recoloring: 10
 
 ## Music Band V2 (`musicband-v2`) · premium
 
-19 sections · 109/110 editable text slots · 832 words · 29/33 swappable images
+19 sections · 109/110 editable text slots · 832 words · 44/48 swappable images
 
 Fonts: heading **Poppins**, body **Poppins** (Poppins → body)
 
@@ -2951,7 +3022,7 @@ Contrast pairs checked after recoloring: 6
   - **content** “ABOUT US” — 4 text, 1 photos · lorem
     - photo (object): Music collage with a keyboard player, vinyl record and a seated woman
 - Group **features** (core) `a6de0dc4`, blocks 4
-  - **features** “LATEST ALBUMS” — 13 text, 1 photos
+  - **features** “LATEST ALBUMS” — 13 text, 7 photos
     - photo (place): Band performing on a concert stage under lights
 - Group **content** (core) `6cdb256d`, blocks 6
   - **content** “MUSIC” — 1 text, 1 photos
@@ -3001,7 +3072,7 @@ Contrast pairs checked after recoloring: 6
 ### Album — `album` → other
 
 - Group **hero** (core) `a6de0dc4`, blocks 0
-  - **hero** “I wanna be in the Covalry” — 18 text, 1 photos
+  - **hero** “I wanna be in the Covalry” — 18 text, 10 photos
     - photo (place): Band performing on a concert stage under lights
 - Group **content** (core) `6cdb256d`, blocks 2
   - **content** “MUSIC” — 10 text, 1 photos
@@ -3024,9 +3095,29 @@ Contrast pairs checked after recoloring: 6
 - Group **cta** (core) `f9865302`, blocks 2
   - **cta** “Have a Question About Company And Music Concert” — 3 text, 0 photos
 
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-1.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-2.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-3.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-4.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-5.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-6.jpg
+- album: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-1.jpg
+- album: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-2.jpg
+- album: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-3.jpg
+- album: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-4.jpg
+- album: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-5.jpg
+- album: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-6.jpg
+- album: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/album-7.jpg
+- album: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/album-8.jpg
+- album: photo not in data/photo-descriptions.json: https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/album-9.jpg
+
+</details>
+
 ## nutriCoach (`nutricoach`) · premium
 
-15 sections · 125/129 editable text slots · 946 words · 5/52 swappable images
+15 sections · 125/129 editable text slots · 946 words · 15/62 swappable images
 
 Fonts: heading **Rufina**, body **Poppins** ()
 
@@ -3049,9 +3140,9 @@ Contrast pairs checked after recoloring: 14
 - Group **features** (core) `top-1`, blocks 1
   - **features** “Services to Improve Yourself & Your Life” — 15 text, 0 photos · lorem
 - Group **stats** (needs stats) `top-2`, blocks 2
-  - **stats** “Happy Clients” — 4 text, 0 photos
+  - **stats** “Happy Clients” — 4 text, 1 photos
 - Group **content** (core) `top-3`, blocks 3
-  - **content** “Enjoy Our Personalized Plans” — 9 text, 0 photos · lorem
+  - **content** “Enjoy Our Personalized Plans” — 9 text, 2 photos · lorem
 - Group **features** (core) `top-4`, blocks 4
   - **features** “Our Professional Health Coaches” — 11 text, 0 photos · lorem
 - Group **posts** (needs blog) `top-5`, blocks 5
@@ -3059,7 +3150,7 @@ Contrast pairs checked after recoloring: 14
 - Group **testimonials** (core) `top-6`, blocks 6
   - **testimonials** “What Our Clients Think About Us” — 11 text, 0 photos · lorem
 - Group **cta** (core) `top-7`, blocks 7
-  - **cta** “Get Consultation!” — 4 text, 0 photos · lorem
+  - **cta** “Get Consultation!” — 4 text, 1 photos · lorem
 
 ### Blog — `blog` → blog
 
@@ -3067,26 +3158,41 @@ Contrast pairs checked after recoloring: 14
 ### About Us — `about-us` → about
 
 - Group **hero** (core) `top-0`, blocks 0
-  - **hero** “Welcome to nutriCoach, Health & Diet Care Nutrition” — 10 text, 0 photos · lorem
+  - **hero** “Welcome to nutriCoach, Health & Diet Care Nutrition” — 10 text, 1 photos · lorem
+    - photo (group): Two women chatting at a kitchen counter with vegetables
 - Group **features** (core) `top-1`, blocks 1
   - **features** “Our Professional Health Coaches” — 11 text, 0 photos · lorem
 - Group **cta** (core) `top-2`, blocks 2
-  - **cta** “Get Consultation!” — 4 text, 0 photos · lorem
+  - **cta** “Get Consultation!” — 4 text, 1 photos · lorem
 
 ### Services — `services` → services
 
 - Group **hero** (core) `top-0`, blocks 0
   - **hero** “Services to Improve Yourself & Your Life” — 15 text, 0 photos · lorem
 - Group **features** (core) `top-1`, blocks 1
-  - **features** “How it Works?” — 11 text, 0 photos · lorem
+  - **features** “How it Works?” — 11 text, 1 photos · lorem
 - Group **content** (core) `top-2`, blocks 2
-  - **content** “Enjoy Our Personalized Plans” — 9 text, 0 photos · lorem
+  - **content** “Enjoy Our Personalized Plans” — 9 text, 2 photos · lorem
 - Group **cta** (core) `top-3`, blocks 3
-  - **cta** “Get Consultation!” — 4 text, 0 photos · lorem
+  - **cta** “Get Consultation!” — 4 text, 1 photos · lorem
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Background.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/eat-good.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/yoga.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/contactbackground.png
+- about-us: photo not in data/photo-descriptions.json: https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/contactbackground.png
+- services: photo not in data/photo-descriptions.json: https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/approach-background.png
+- services: photo not in data/photo-descriptions.json: https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/eat-good.jpg
+- services: photo not in data/photo-descriptions.json: https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/yoga.jpg
+- services: photo not in data/photo-descriptions.json: https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/contactbackground.png
+
+</details>
 
 ## Nutrition Coach (`nutrition-coach`)
 
-26 sections · 225/264 editable text slots · 1309 words · 36/74 swappable images
+26 sections · 225/264 editable text slots · 1309 words · 39/77 swappable images
 
 Fonts: heading **Fraunces**, body **Inter** ()
 
@@ -3110,7 +3216,8 @@ Contrast pairs checked after recoloring: 1
     - photo (person): Woman doing a yoga upward dog pose on a mat at home
     - photo (person): Young woman in a bucket hat working in a greenhouse
 - Group **content** (core) `top-4`, blocks 4
-  - **content** “Real people. Lasting results.” — 5 text, 0 photos
+  - **content** “Real people. Lasting results.” — 5 text, 3 photos
+    - photo (person): Fitness model in sports bra and leggings shown in two outfits
 - Group **gallery** (core) `top-5`, blocks 5
   - **gallery** “Follow @nutricoach” — 2 text, 6 photos
     - photo (person): Woman chopping vegetables in a kitchen
@@ -3196,6 +3303,13 @@ Contrast pairs checked after recoloring: 1
   - **stats** “How the program flows.” — 14 text, 0 photos
 - Group **content** (core) `top-4`, blocks 4
   - **content** “Health Weight Loss” — 6 text, 0 photos
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-1.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-2.jpg
+
+</details>
 
 ## One Page V3 (`one-page-v3`)
 
@@ -3401,7 +3515,7 @@ Contrast pairs checked after recoloring: 0
 
 ## Online LMS (`online-lms`)
 
-36 sections · 277/299 editable text slots · 2011 words · 19/87 swappable images
+36 sections · 277/299 editable text slots · 2011 words · 20/88 swappable images
 
 Fonts: heading **Plus Jakarta Sans**, body **Inter** ()
 
@@ -3484,7 +3598,7 @@ Contrast pairs checked after recoloring: 12
 - Group **pricing** (needs pricing_plans) `top-5`, blocks 5
   - **pricing** “Affordable Learning For Everyone” — 22 text, 0 photos
 - Group **testimonials** (core) `top-6`, blocks 6
-  - **testimonials** “What Our Learners Has To Say” — 10 text, 0 photos
+  - **testimonials** “What Our Learners Has To Say” — 10 text, 1 photos
 - Group **content** (core) `top-7`, blocks 7
   - **content** “Our Awesome Instructors” — 7 text, 0 photos
 - Group **content** (core) `top-8`, blocks 8
@@ -3514,6 +3628,12 @@ Contrast pairs checked after recoloring: 12
   - **hero** “Terms & Conditions” — 3 text, 0 photos
 - Group **contact** (core) `top-1`, blocks 1
   - **contact** “1. Acceptance Of Terms” — 32 text, 0 photos
+
+<details><summary>Warnings</summary>
+
+- home-page: photo not in data/photo-descriptions.json: https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/review-testimonial-image.png
+
+</details>
 
 ## Online Shop (`online-shop`) · premium
 
@@ -4459,7 +4579,7 @@ Contrast pairs checked after recoloring: 4
 
 ## Restaurant Blog (`restaurant-blog`)
 
-7 sections · 30/30 editable text slots · 690 words · 10/11 swappable images
+7 sections · 30/30 editable text slots · 690 words · 11/12 swappable images
 
 Fonts: heading **Poppins**, body **Poppins** ()
 
@@ -4481,7 +4601,7 @@ Contrast pairs checked after recoloring: 3
   - **content** “Our Restaurant” — 7 text, 1 photos · lorem
     - photo (person): Chef in an apron presenting a plated dish in a kitchen
 - Group **content** (core) `top-3`, blocks 3
-  - **content** “Let's Cook Some Tasty Things With Chef Charlie with me.” — 2 text, 0 photos · lorem
+  - **content** “Let's Cook Some Tasty Things With Chef Charlie with me.” — 2 text, 1 photos · lorem
 - Group **content** (core) `top-5`, blocks 5
   - **content** “What Reader Say” — 1 text, 0 photos
 - Group **content** (core) `top-7`, blocks 7
@@ -4502,6 +4622,12 @@ Contrast pairs checked after recoloring: 3
 
 ### Contact Us — `contact` → contact
 
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/restaurant-blog/wp-content/uploads/sites/93/2021/02/inner-background.jpg
+
+</details>
 
 ## Restaurant V2 (`restaurant-v2`)
 
@@ -4856,7 +4982,7 @@ Contrast pairs checked after recoloring: 5
 
 ## Startup Business V2 (`startup-business-v2`) · premium
 
-25 sections · 156/172 editable text slots · 1157 words · 18/40 swappable images
+25 sections · 156/172 editable text slots · 1157 words · 26/48 swappable images
 
 Fonts: heading **Catamaran**, body **Catamaran** (Catamaran → body)
 
@@ -4877,8 +5003,8 @@ Contrast pairs checked after recoloring: 8
 - Group **content** (core) `488a0bd0`, blocks 2
   - **content** “Why to Choose Us” — 6 text, 1 photos · lorem
     - photo (group): Team working with laptops and tablets around a table, overhead view
-- Group **content** (core) `32b97c2a`, blocks 3
-  - **content** “Our Amazing Portfolio” — 10 text, 0 photos · lorem
+- Group **gallery** (needs portfolio) `32b97c2a`, blocks 3
+  - **gallery** “Our Amazing Portfolio” — 10 text, 8 photos · lorem
 - Group **pricing** (needs pricing_plans) `0a1426f1`, blocks 4, 5
   - **pricing** “Best Pricing Plans” — 2 text, 0 photos · lorem
   - **pricing** “PERSONAL” — 24 text, 0 photos · lorem
@@ -4944,6 +5070,19 @@ Contrast pairs checked after recoloring: 8
 - Group **cta** (core) `718fbdbd`, blocks 5
   - **cta** “Looking for business opportunity?” — 3 text, 0 photos
 
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-1.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-2.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-3.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-4.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-5.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-6.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-7.png
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-8.png
+
+</details>
+
 ##  (`suffice`)
 
 8 sections · 47/47 editable text slots · 273 words · 21/30 swappable images
@@ -5008,7 +5147,7 @@ Contrast pairs checked after recoloring: 7
 
 ## TherapyCoach (`therapycoach`)
 
-37 sections · 353/385 editable text slots · 2280 words · 30/89 swappable images
+37 sections · 353/385 editable text slots · 2280 words · 33/92 swappable images
 
 Fonts: heading **Playfair Display**, body **Work Sans** ()
 
@@ -5071,7 +5210,10 @@ Contrast pairs checked after recoloring: 7
   - **content** “A steady, skilled presence for the work that matters most” — 11 text, 1 photos
     - photo (person): Smiling young woman in a gray blazer sitting by a window
 - Group **features** (core) `top-4`, blocks 4
-  - **features** “Coaching paths designed around real transformation” — 22 text, 0 photos
+  - **features** “Coaching paths designed around real transformation” — 22 text, 3 photos
+    - photo (group): Women practicing yoga tree pose on a beach
+    - photo (object): Card with the word mindfulness on a windowsill
+    - photo (person): Joyful woman dancing with headphones and a phone
 - Group **features** (core) `top-5`, blocks 5
   - **features** “A grounded, supported path from first click to lasting change” — 14 text, 0 photos
 - Group **features** (core) `top-6`, blocks 6
@@ -5231,7 +5373,7 @@ Contrast pairs checked after recoloring: 4
 
 ## Travel Blog (`travel-blog`)
 
-9 sections · 36/36 editable text slots · 853 words · 8/10 swappable images
+9 sections · 36/36 editable text slots · 853 words · 10/12 swappable images
 
 Fonts: heading **Playfair Display**, body **Poppins** ()
 
@@ -5242,7 +5384,7 @@ Contrast pairs checked after recoloring: 3
 ### Home — `home` → home
 
 - Group **hero** (core) `top-0`, blocks 0
-  - **hero** “Discover New Worlds with me.” — 2 text, 0 photos
+  - **hero** “Discover New Worlds with me.” — 2 text, 1 photos
 - Group **content** (core) `top-4`, blocks 4
   - **content** “My story of travelling through the world” — 4 text, 1 photos · lorem
     - photo (person): Woman with a camera sitting cross-legged on a longtail boat, arms outstretched
@@ -5252,7 +5394,7 @@ Contrast pairs checked after recoloring: 3
     - photo (place): Thai temple reflected in a calm lake with palm trees
     - photo (place): Aerial view of a rocky cove with turquoise water and beach
 - Group **content** (core) `top-8`, blocks 8
-  - **content** “Explore A new Place With Me.” — 2 text, 0 photos
+  - **content** “Explore A new Place With Me.” — 2 text, 1 photos
 - Group **content** (core) `top-10`, blocks 10
   - **content** “What Reader Say” — 7 text, 1 photos · lorem
     - photo (person): Young woman with long wavy hair posing for a portrait at night
@@ -5276,6 +5418,13 @@ Contrast pairs checked after recoloring: 3
 
 - Group **dynamic** (core) `top-0`, blocks 0
   - **dynamic** “Got A Question?” — 2 text, 0 photos · lorem · dynamic: everest-forms/form-selector
+
+<details><summary>Warnings</summary>
+
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/travel-blog/wp-content/uploads/sites/90/2021/02/travel.jpg
+- home: photo not in data/photo-descriptions.json: https://zakrademos.com/travel-blog/wp-content/uploads/sites/90/2021/02/inner-bg.jpg
+
+</details>
 
 ## Travel V2 (`travel-v2`)
 

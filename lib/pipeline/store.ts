@@ -2,7 +2,7 @@
 // fine for `next dev` and a single warm instance, but serverless instances
 // don't share memory, so production needs a shared store (Upstash Redis) here.
 import { DemoManifest, ImageSlot as ManifestImage } from '../demos/types';
-import { GenerateRequest, GenerationPackage, ImageSlot } from '../types';
+import { GenerateRequest, GenerationPackage, IconSlot, ImageSlot } from '../types';
 import { Brief } from './brief';
 
 export type StoredGeneration = {
@@ -13,7 +13,7 @@ export type StoredGeneration = {
 	// `${pageSlug}/${sectionId}` -> copywriter note for repurposed and removed
 	// groups, so regenerating or restoring a section keeps the decision.
 	notes: Map<string, string>;
-	images: Map<ManifestImage, ImageSlot>;
+	images: Map<ManifestImage, ImageSlot | IconSlot>;
 	createdAt: number;
 };
 

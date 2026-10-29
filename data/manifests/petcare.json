@@ -597,9 +597,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-boarding-icon.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "house",
+								"glyph": "#fffafd",
+								"size": 45,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ff73cb",
+									"size": 80
+								},
+								"background": "#ffebf8"
+							}
 						},
 						{
 							"id": "cea5f60b:background.image.image.url",
@@ -623,9 +635,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-grooming-icon.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 162,
 							"height": 162,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "scissors",
+								"glyph": "#ecf8ff",
+								"size": 33,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5ec7ff",
+									"size": 80
+								},
+								"background": "#e6f6ff"
+							}
 						},
 						{
 							"id": "146db62e:background.image.image.url",
@@ -649,9 +673,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-taxi-icon.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "car",
+								"glyph": "#fdfbff",
+								"size": 45,
+								"shape": {
+									"kind": "circle",
+									"fill": "#b26cfe",
+									"size": 80
+								},
+								"background": "#f2e6ff"
+							}
 						}
 					]
 				},
@@ -2030,9 +2066,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/best-collection.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 161,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gift box",
+								"glyph": "#fffcfc",
+								"size": 43,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ff8686",
+									"size": 80
+								},
+								"background": "#f6f4f8"
+							}
 						},
 						{
 							"id": "5a6fe397:image.url",
@@ -2043,9 +2091,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/fast-delivery.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "car",
+								"glyph": "#fdfeff",
+								"size": 40,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5dc7ff",
+									"size": 80
+								},
+								"background": "#f6f4f8"
+							}
 						},
 						{
 							"id": "812a249d:image.url",
@@ -2056,9 +2116,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/customer-support.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "phone handset",
+								"glyph": "#fdfcfe",
+								"size": 42,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c9aaeb",
+									"size": 80
+								},
+								"background": "#f6f4f8"
+							}
 						},
 						{
 							"id": "e5aeb3aa:image.url",
@@ -2069,9 +2141,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/secure-payment.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "credit card",
+								"glyph": "#fffcfe",
+								"size": 40,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ff73cb",
+									"size": 80
+								},
+								"background": "#f6f4f8"
+							}
 						}
 					]
 				},
@@ -2213,6 +2297,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/08/feedback-image-cat.png",
 							"decorative": false,
+							"displayWidth": 1920,
 							"width": 834,
 							"height": 590,
 							"orientation": "landscape",
@@ -2465,6 +2550,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/about-us-img.png",
 							"decorative": false,
+							"displayWidth": 536,
 							"width": 424,
 							"height": 409,
 							"orientation": "square",
@@ -2670,9 +2756,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/get-in-touch.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "phone handset",
+								"glyph": "#fffbfb",
+								"size": 42,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ff8686",
+									"size": 80
+								},
+								"background": "#e7ebfb"
+							}
 						},
 						{
 							"id": "49dbe186:image.url",
@@ -2683,9 +2781,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/fast-delivery-1.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "car",
+								"glyph": "#fdfeff",
+								"size": 40,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5dc7ff",
+									"size": 80
+								},
+								"background": "#e7ebfb"
+							}
 						},
 						{
 							"id": "757c2bdb:image.url",
@@ -2696,9 +2806,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-admission.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "list",
+								"glyph": "#fefdff",
+								"size": 40,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c9aaeb",
+									"size": 80
+								},
+								"background": "#e7ebfb"
+							}
 						},
 						{
 							"id": "acfbd4b3:image.url",
@@ -2709,9 +2831,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/home.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "house",
+								"glyph": "#fffdfe",
+								"size": 40,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ff73cb",
+									"size": 80
+								},
+								"background": "#e7ebfb"
+							}
 						}
 					]
 				},
@@ -3205,9 +3339,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/hours.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#fffcfc",
+								"size": 40,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ff8686",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a5a7f44c:image.url",
@@ -3218,9 +3364,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/collection.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "hourglass",
+								"glyph": "#fefdfe",
+								"size": 38,
+								"shape": {
+									"kind": "circle",
+									"fill": "#c9aaeb",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						}
 					],
 					"dynamicBlocks": [
@@ -3350,9 +3508,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/telephone.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "phone handset",
+								"glyph": "#fbaf07",
+								"size": 78,
+								"shape": {
+									"kind": "circle",
+									"fill": "#fffefb",
+									"size": 80
+								},
+								"background": "#f8f3fd"
+							}
 						},
 						{
 							"id": "f12d36e2:image.url",
@@ -3363,9 +3533,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/address.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin",
+								"glyph": "#fdfeff",
+								"size": 50,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5ec7ff",
+									"size": 80
+								},
+								"background": "#f8f3fd"
+							}
 						},
 						{
 							"id": "14bbe6e5:image.url",
@@ -3376,9 +3558,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/envelope.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope",
+								"glyph": "#fffcfe",
+								"size": 40,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ff73cb",
+									"size": 80
+								},
+								"background": "#f8f3fd"
+							}
 						}
 					]
 				}
@@ -3421,6 +3615,116 @@
 			"groups": []
 		}
 	],
+	"products": [
+		{
+			"id": 180,
+			"name": "Air Dried Turkey",
+			"description": "Packed full of natural nutrition for our carnivore companions! We add a few veggies, vitamins, and minerals to supplement the nutrition nature.",
+			"categories": [
+				"Dog Food"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/air-dried-turkey.jpg"
+		},
+		{
+			"id": 185,
+			"name": "Air Dried Beef",
+			"description": "Packed full of natural nutrition for our carnivore companions! We add a few veggies, vitamins, and minerals to supplement the nutrition nature provides, to ensure your dog is getting the goodness they need.",
+			"categories": [
+				"Dog Food"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/air-dried-beef.png"
+		},
+		{
+			"id": 187,
+			"name": "Dry Chicken Snacks",
+			"description": "Go ahead, turn the bag around and look at our ingredients. Our treats are made with only 1 ingredient; 100% Pure USA Sourced &amp; Made Human-Grade Chicken Breast. Dogs love the taste of our treats because our treats are freeze-dried RAW to lock in the aroma, texture, and freshness they crave. Dog p",
+			"categories": [
+				"Dog Food"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/dry-chicken-snacks.png"
+		},
+		{
+			"id": 188,
+			"name": "Air Dried Fish",
+			"description": "Irresistible air-dried, healthy cat treats. We use only human-grade, and locally sourced ingredients that are 100% natural.",
+			"categories": [
+				"Cat Food"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/air-dried-fish.png"
+		},
+		{
+			"id": 290,
+			"name": "Pet Brush",
+			"description": "Specially designed with a comfort-grip and anti-slip handle, which prevents hand and wrist strain no matter how long you brush and groom your pet! We back our products with a 100% satisfaction guarantee, for both you and your pet!",
+			"categories": [
+				"Pet Supplies"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/brush.jpg"
+		},
+		{
+			"id": 299,
+			"name": "Automatic Leash",
+			"description": "Ensure that our customers can obtain their products satisfactorily. The high-quality dog belt combines the practicality of a strong waistband with a flexible and comfortable grip. High-quality and durable stainless steel hooks can help you easily take your dog away, Easy to wear and remove. Every do",
+			"categories": [
+				"Pet Supplies"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/leash.jpg"
+		},
+		{
+			"id": 300,
+			"name": "Rag Doll",
+			"description": "The dual materials of the Ropes-A-Go-Go soft animal toys offer a higher level chewing experience! The ultra-durable dog toy features a smorgasbord of rope, corduroy, plush, squeakers, and crinkle paper, making this both an interactive dog toy for tug-o-war play as well your dog’s new favorite chew, ",
+			"categories": [
+				"Pet Supplies"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/ragdoll-1.jpg"
+		},
+		{
+			"id": 301,
+			"name": "Pet Bowl",
+			"description": "Made of rust-resistant stainless steel, the pet food and water bowl is a durable alternative to plastic, washes easily, and makes mealtimes tidier.",
+			"categories": [
+				"Pet Supplies"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/bowl.jpg"
+		},
+		{
+			"id": 302,
+			"name": "Pet Harness",
+			"description": "The dog harness with a simple design and quick snap buckles make it easy to put on and take off. The locking feature on both snaps makes it more secure, 100% ensures no accidental detachment. Perfect for daily walking, running, hiking, training, hunting, outdoor adventure, and more!",
+			"categories": [
+				"Pet Supplies"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/harness.jpg"
+		},
+		{
+			"id": 303,
+			"name": "Chew Bone",
+			"description": "Dogs experience scent and flavor in a way we can’t even grasp. Inspired by a dog’s powerful sense of smell, we developed a long-lasting durable chew that’s jam-packed with real bacon. Once your dog takes a bite of our chews, he’ll be hooked.",
+			"categories": [
+				"Pet Supplies"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/chew-bone.jpg"
+		},
+		{
+			"id": 304,
+			"name": "Chew Toy",
+			"description": "A long-lasting chew toy and treat all in one! It’s constructed from durable materials that withstand mild to moderate chewing. Enriched with a delicious, edible bacon-flavored center that is irresistible. The chewing action helps reduce tartar build-up, freshen breath and promote healthy gums. Perfe",
+			"categories": [
+				"Pet Supplies"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/chew-toy.jpg"
+		},
+		{
+			"id": 305,
+			"name": "Pet Collar",
+			"description": "This martingale-style dog collar has an added quick-release snap buckle for easier on and off! Collars are safer than choke chains or prong collars. Used with a leash or with your hand, the martingale collar tightens when your dog pulls and loosens when he stops, so it’s only tight when it needs to ",
+			"categories": [
+				"Pet Supplies"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/115/2022/03/collar.jpg"
+		}
+	],
 	"stats": {
 		"sections": 16,
 		"textSlots": 114,
@@ -3429,5 +3733,5 @@
 		"swappableImages": 18,
 		"words": 623
 	},
-	"builtAt": "2026-10-29T11:52:56.115Z"
+	"builtAt": "2026-10-29T12:52:33.745Z"
 }

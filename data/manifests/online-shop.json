@@ -453,7 +453,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "delivery truck",
+								"glyph": "#171717",
+								"size": 60,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "3067c58d:image.url",
@@ -466,7 +472,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "payment card security",
+								"glyph": "#171717",
+								"size": 55,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "f5097fa3:image.url",
@@ -479,7 +491,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "package returns",
+								"glyph": "#171717",
+								"size": 55,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "6b65f833:image.url",
@@ -492,7 +510,18 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "24-hour phone support",
+								"glyph": "#ffffff",
+								"size": 36,
+								"shape": {
+									"kind": "circle",
+									"fill": "#171717",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1370,6 +1399,107 @@
 			]
 		}
 	],
+	"products": [
+		{
+			"id": 523,
+			"name": "Man Summer White T shirts",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/Man-Summer-White-T-shirts-1.jpg"
+		},
+		{
+			"id": 524,
+			"name": "New Men's Sleeve Print",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/New-Mens-Sleeve-Print-1.jpg"
+		},
+		{
+			"id": 525,
+			"name": "Gwenhwyfar Blazer Sets Costume Suit",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Dress"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/Gwenhwyfar-Blazer-Sets-Costume-Suit-1.jpg"
+		},
+		{
+			"id": 527,
+			"name": "FUJIFILM X with XF16-80mmF4",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/FUJIFILM-X-with-XF16-80mmF4-1.jpg"
+		},
+		{
+			"id": 528,
+			"name": "QQ-GT Mens Basketball Shoe",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Shoes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/QQ-GT-Mens-Basketball-Shoe-1.jpg"
+		},
+		{
+			"id": 529,
+			"name": "Costume Homme Slim Fit Suits",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/Costume-Homme-Slim-Fit-Suits-1.jpg"
+		},
+		{
+			"id": 530,
+			"name": "Men 50m Waterproof Wristwatch",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Watch"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/Men-50m-Waterproof-Wristwatch-1.jpg"
+		},
+		{
+			"id": 531,
+			"name": "Ceramic Neoclassical Vases",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Decor"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/Ceramic-Vases-Modern-Neoclassical-1.jpg"
+		},
+		{
+			"id": 532,
+			"name": "Dermatolo Light UV Day Cream",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/Dermatolo-Light-UV-Day-Cream-1.jpg"
+		},
+		{
+			"id": 533,
+			"name": "Bag Women Shoulder Bag",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/Bag-Women-Shoulder-Bag-1.jpg"
+		},
+		{
+			"id": 534,
+			"name": "West Skinscent, 3.4-Ounce",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/158/2024/04/West-Skinscent-1.jpg"
+		}
+	],
 	"stats": {
 		"sections": 9,
 		"textSlots": 36,
@@ -1378,5 +1508,5 @@
 		"swappableImages": 7,
 		"words": 129
 	},
-	"builtAt": "2026-10-29T11:52:56.376Z"
+	"builtAt": "2026-10-29T12:52:34.002Z"
 }

@@ -786,7 +786,37 @@
 							"placeholder": true
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-11:@html:img",
+							"blockId": "core-11",
+							"path": "11",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/digital-diary/wp-content/uploads/sites/82/2020/08/mission.jpg",
+							"decorative": false,
+							"width": 900,
+							"height": 470,
+							"orientation": "landscape",
+							"subject": "person",
+							"description": "Businessman with arms outstretched among skyscrapers",
+							"tone": {
+								"grid": [
+									0.92,
+									0.99,
+									0.68,
+									0.92,
+									0.94,
+									0.73,
+									0.57,
+									0.35,
+									0.27
+								],
+								"color": "#b6b4b7"
+							}
+						}
+					]
 				},
 				{
 					"id": "top-12",
@@ -1427,9 +1457,9 @@
 		"sections": 31,
 		"textSlots": 27,
 		"editableSlots": 27,
-		"images": 3,
-		"swappableImages": 3,
+		"images": 4,
+		"swappableImages": 4,
 		"words": 933
 	},
-	"builtAt": "2026-10-29T11:52:56.021Z"
+	"builtAt": "2026-10-29T12:52:33.679Z"
 }

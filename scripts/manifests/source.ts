@@ -49,6 +49,7 @@ export type DemoData = {
 	themeMods: Record<string, unknown>;
 	plugins: Record<string, { name: string }>;
 	pages: { id: number; title: string; slug: string; content: string }[];
+	content?: string; // The full WXR export (products, posts, media).
 };
 
 export const fetchDemoList = () => fetchJson<DemoListItem[]>(`${API_BASE}${NAMESPACE}/sites`);
@@ -63,6 +64,39 @@ const decodeCdata = (value: string) => value.replace(/^<!\[CDATA\[([\s\S]*)\]\]>
 const tagValue = (item: string, tag: string) => {
 	const match = item.match(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`));
 	return match?.[1] !== undefined ? decodeCdata(match[1].trim()) : '';
+};
+
+const metaValue = (item: string, key: string) =>
+	item.match(new RegExp(`<wp:meta_key><!\\[CDATA\\[${key}\\]\\]></wp:meta_key>\\s*<wp:meta_value><!\\[CDATA\\[([\\s\\S]*?)\\]\\]></wp:meta_value>`))?.[1];
+
+const plainText = (html: string) =>
+	html
+		.replace(/<!--[\s\S]*?-->/g, ' ')
+		.replace(/<[^>]+>/g, ' ')
+		.replace(/\s+/g, ' ')
+		.trim();
+
+/**
+ * Published WooCommerce products in a demo's full content export, with their
+ * featured image URLs (from the export's attachment items).
+ */
+export const fetchProducts = async (contentUrl: string) => {
+	const items = (await fetchText(contentUrl)).split('<item>').slice(1);
+	const attachments = new Map(
+		items.filter((i) => tagValue(i, 'wp:post_type') === 'attachment').map((i) => [tagValue(i, 'wp:post_id'), tagValue(i, 'wp:attachment_url')]),
+	);
+	return items
+		.filter((i) => tagValue(i, 'wp:post_type') === 'product' && tagValue(i, 'wp:status') === 'publish')
+		.map((i) => {
+			const image = attachments.get(metaValue(i, '_thumbnail_id') ?? '');
+			return {
+				id: Number(tagValue(i, 'wp:post_id')),
+				name: plainText(tagValue(i, 'title')),
+				description: plainText(tagValue(i, 'excerpt:encoded') || tagValue(i, 'content:encoded')).slice(0, 300),
+				categories: [...i.matchAll(/<category domain="product_cat"[^>]*><!\[CDATA\[([^\]]*)\]\]>/g)].map((m) => m[1]!),
+				...(image ? { image } : {}),
+			};
+		});
 };
 
 // Each demo page is exported as its own WXR file; pull the page item's

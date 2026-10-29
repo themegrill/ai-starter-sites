@@ -442,7 +442,18 @@
 							"decorative": true,
 							"width": 52,
 							"height": 51,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gift box",
+								"glyph": "#f0b3cd",
+								"size": 21,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ec437a",
+									"size": 52
+								},
+								"background": "#f5f5f5"
+							}
 						},
 						{
 							"id": "021d2018:image.url",
@@ -455,7 +466,18 @@
 							"decorative": true,
 							"width": 57,
 							"height": 54,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "repeat arrows",
+								"glyph": "#ef8dad",
+								"size": 25,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ec467a",
+									"size": 57
+								},
+								"background": "#f5f5f5"
+							}
 						},
 						{
 							"id": "a4af8f17:image.url",
@@ -468,7 +490,18 @@
 							"decorative": true,
 							"width": 54,
 							"height": 59,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin",
+								"glyph": "#f1b3af",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ec427a",
+									"size": 54
+								},
+								"background": "#f5f5f5"
+							}
 						},
 						{
 							"id": "aae0bf9b:image.url",
@@ -481,7 +514,18 @@
 							"decorative": true,
 							"width": 59,
 							"height": 53,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "credit card",
+								"glyph": "#f0b4c6",
+								"size": 23,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ec3a76",
+									"size": 59
+								},
+								"background": "#f5f5f5"
+							}
 						}
 					]
 				},
@@ -1168,7 +1212,19 @@
 							"decorative": true,
 							"width": 96,
 							"height": 96,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "play button",
+								"glyph": "#ffffff",
+								"size": 58,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"fixed": "play-solid",
+								"background": "#b6a28a"
+							}
 						}
 					]
 				},
@@ -1511,6 +1567,165 @@
 			]
 		}
 	],
+	"products": [
+		{
+			"id": 558,
+			"name": "High Heel Shoes \"32\" in stock",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Most Popular",
+				"Women"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-1-1.jpg"
+		},
+		{
+			"id": 559,
+			"name": "Mixing-Carefree Spirit Flower",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Most Popular",
+				"Women",
+				"Men",
+				"Occasions"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-2-1.jpg"
+		},
+		{
+			"id": 560,
+			"name": "Fake Pearl Gold Earring",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Most Popular",
+				"Women",
+				"Occasions",
+				"Accessories"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-3-1.jpg"
+		},
+		{
+			"id": 561,
+			"name": "Eau de Parfum Intense Spray",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Most Popular",
+				"Men",
+				"Occasions"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-4-1.jpg"
+		},
+		{
+			"id": 562,
+			"name": "Jose Polarized Sunglass",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Women",
+				"Occasions",
+				"2020 Best Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-5-1.jpg"
+		},
+		{
+			"id": 563,
+			"name": "Black Leather Purse For Men",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Men",
+				"Occasions",
+				"2020 Best Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-6-1.jpg"
+		},
+		{
+			"id": 564,
+			"name": "Brown Teddy Bear",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Occasions",
+				"Accessories",
+				"2020 Best Collection",
+				"Kids"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-7-1.jpg"
+		},
+		{
+			"id": 565,
+			"name": "Handcraft Painting Art",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Men",
+				"Occasions",
+				"Accessories",
+				"2020 Best Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-8-1.jpg"
+		},
+		{
+			"id": 566,
+			"name": "Moisturizing Lipstick",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Women",
+				"2020 Best Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-9-1.jpg"
+		},
+		{
+			"id": 567,
+			"name": "Yellow Tri-spinner",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Accessories",
+				"Kids",
+				"Special Gifts"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-10-1.jpg"
+		},
+		{
+			"id": 568,
+			"name": "white volkswagen beetle coupe scale model",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Occasions",
+				"Kids",
+				"Special Gifts"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-11-1.jpg"
+		},
+		{
+			"id": 569,
+			"name": "Printed Handcraft Ceramics",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Women",
+				"Accessories",
+				"Special Gifts"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-12-1.jpg"
+		},
+		{
+			"id": 570,
+			"name": "Black Leather Purse-CG",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Women",
+				"Occasions",
+				"Special Gifts"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-13-1.jpg"
+		},
+		{
+			"id": 571,
+			"name": "Wollion Doll",
+			"description": "Utenim ad minim veniam quisnostrud exercitation ullamco laboris nisiut aliquip exea commodo consequat.",
+			"categories": [
+				"Women",
+				"Occasions",
+				"Kids",
+				"Special Gifts"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/159/2024/04/product-14-1.jpg"
+		}
+	],
 	"stats": {
 		"sections": 11,
 		"textSlots": 33,
@@ -1519,5 +1734,5 @@
 		"swappableImages": 8,
 		"words": 177
 	},
-	"builtAt": "2026-10-29T11:52:56.382Z"
+	"builtAt": "2026-10-29T12:52:34.010Z"
 }

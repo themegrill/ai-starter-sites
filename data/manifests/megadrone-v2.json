@@ -451,7 +451,13 @@
 							"decorative": true,
 							"width": 90,
 							"height": 88,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "Chrome browser mark",
+								"glyph": "#e22102",
+								"size": 88,
+								"background": "#f7f7f7"
+							}
 						},
 						{
 							"id": "92604532:background.image.image.url",
@@ -464,7 +470,13 @@
 							"decorative": true,
 							"width": 90,
 							"height": 88,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gear",
+								"glyph": "#e22101",
+								"size": 87,
+								"background": "#f7f7f7"
+							}
 						},
 						{
 							"id": "f1b36771:image.url",
@@ -702,7 +714,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 65,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "video camera",
+								"glyph": "#e12001",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "e5d14472:background.image.image.url",
@@ -715,7 +733,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 65,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "camera",
+								"glyph": "#e12001",
+								"size": 77,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "787d8ee4:background.image.image.url",
@@ -728,7 +752,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 65,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "camera window",
+								"glyph": "#e22103",
+								"size": 77,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "492a220e:background.image.image.url",
@@ -741,7 +771,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 65,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "shopping bag",
+								"glyph": "#e12001",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -949,9 +985,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-7.png",
 							"decorative": true,
+							"displayWidth": 37,
 							"width": 114,
 							"height": 92,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "gallery images",
+								"glyph": "#e12000",
+								"size": 36,
+								"background": "#3f4244"
+							}
 						},
 						{
 							"id": "aa8681e1:image.url",
@@ -962,9 +1005,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-8.png",
 							"decorative": true,
+							"displayWidth": 37,
 							"width": 114,
 							"height": 92,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "battery",
+								"glyph": "#e12000",
+								"size": 36,
+								"background": "#3f4244"
+							}
 						},
 						{
 							"id": "6c775a11:image.url",
@@ -975,9 +1025,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-9.png",
 							"decorative": true,
+							"displayWidth": 37,
 							"width": 114,
 							"height": 92,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "browser camera",
+								"glyph": "#e22000",
+								"size": 36,
+								"background": "#3f4244"
+							}
 						},
 						{
 							"id": "4e2b1648:image.url",
@@ -988,9 +1045,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-10.png",
 							"decorative": true,
+							"displayWidth": 37,
 							"width": 114,
 							"height": 92,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "abstract swoosh shape",
+								"glyph": "#e12000",
+								"size": 36,
+								"background": "#3f4244"
+							}
 						}
 					]
 				},
@@ -1135,6 +1199,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/memb-1.jpg",
 							"decorative": false,
+							"displayWidth": 178,
 							"width": 184,
 							"height": 184,
 							"orientation": "square",
@@ -1164,6 +1229,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/memb-3.jpg",
 							"decorative": false,
+							"displayWidth": 178,
 							"width": 184,
 							"height": 184,
 							"orientation": "square",
@@ -1193,6 +1259,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/memb-2.jpg",
 							"decorative": false,
+							"displayWidth": 178,
 							"width": 184,
 							"height": 184,
 							"orientation": "square",
@@ -1448,9 +1515,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-11-1.png",
 							"decorative": true,
+							"displayWidth": 25,
 							"width": 78,
 							"height": 73,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "image file",
+								"glyph": "#d50006",
+								"size": 24,
+								"background": "#171f33"
+							}
 						},
 						{
 							"id": "a31f2f16:image.url",
@@ -1461,9 +1535,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-11.png",
 							"decorative": true,
+							"displayWidth": 25,
 							"width": 78,
 							"height": 73,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "camera",
+								"glyph": "#e02000",
+								"size": 24,
+								"background": "#171f33"
+							}
 						},
 						{
 							"id": "core-7.1.0.0:@html:img",
@@ -2097,6 +2178,80 @@
 			]
 		}
 	],
+	"products": [
+		{
+			"id": 280,
+			"name": "Shadow",
+			"description": "",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/137/2024/02/product-4.jpg"
+		},
+		{
+			"id": 281,
+			"name": "Reaper",
+			"description": "",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/137/2024/02/product-2.jpg"
+		},
+		{
+			"id": 282,
+			"name": "Pheonix",
+			"description": "",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/137/2024/02/product-3.jpg"
+		},
+		{
+			"id": 283,
+			"name": "Ninja",
+			"description": "",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/137/2024/02/product-6.jpg"
+		},
+		{
+			"id": 284,
+			"name": "Hunter",
+			"description": "",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/137/2024/02/product-12.jpg"
+		},
+		{
+			"id": 285,
+			"name": "Grey Eagle",
+			"description": "",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/137/2024/02/product-11.jpg"
+		},
+		{
+			"id": 286,
+			"name": "Global Hawk",
+			"description": "",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/137/2024/02/product-8.jpg"
+		},
+		{
+			"id": 287,
+			"name": "Bolt",
+			"description": "",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/137/2024/02/product-9.jpg"
+		}
+	],
 	"stats": {
 		"sections": 11,
 		"textSlots": 54,
@@ -2105,5 +2260,5 @@
 		"swappableImages": 15,
 		"words": 296
 	},
-	"builtAt": "2026-10-29T11:52:56.255Z"
+	"builtAt": "2026-10-29T12:52:33.877Z"
 }

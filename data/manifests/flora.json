@@ -508,7 +508,18 @@
 							"decorative": true,
 							"width": 101,
 							"height": 101,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "potted plant",
+								"glyph": "#4c6535",
+								"size": 42,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f4f4f4",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ada053ec:image.url",
@@ -521,7 +532,18 @@
 							"decorative": true,
 							"width": 101,
 							"height": 101,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "shopping cart plus",
+								"glyph": "#4c6534",
+								"size": 44,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f4f4f4",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "fdba7bad:image.url",
@@ -563,7 +585,18 @@
 							"decorative": true,
 							"width": 101,
 							"height": 101,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "delivery truck",
+								"glyph": "#4e6636",
+								"size": 41,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f4f4f4",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "b0e95eab:image.url",
@@ -576,7 +609,18 @@
 							"decorative": true,
 							"width": 101,
 							"height": 101,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "leaf",
+								"glyph": "#4d6535",
+								"size": 42,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f4f4f4",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1284,6 +1328,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/testimonial4.jpg",
 							"decorative": false,
+							"displayWidth": 60,
 							"width": 250,
 							"height": 250,
 							"orientation": "square",
@@ -1326,6 +1371,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/testimonial2.jpg",
 							"decorative": false,
+							"displayWidth": 60,
 							"width": 250,
 							"height": 250,
 							"orientation": "square",
@@ -2280,7 +2326,18 @@
 							"decorative": true,
 							"width": 101,
 							"height": 101,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "potted plant",
+								"glyph": "#4c6535",
+								"size": 42,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f4f4f4",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "83dc6cf9:image.url",
@@ -2293,7 +2350,18 @@
 							"decorative": true,
 							"width": 101,
 							"height": 101,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "shopping cart plus",
+								"glyph": "#4c6534",
+								"size": 44,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f4f4f4",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "91efc935:image.url",
@@ -2306,7 +2374,18 @@
 							"decorative": true,
 							"width": 101,
 							"height": 101,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "delivery truck",
+								"glyph": "#4e6636",
+								"size": 41,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f4f4f4",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c3f3db58:image.url",
@@ -2319,7 +2398,18 @@
 							"decorative": true,
 							"width": 101,
 							"height": 101,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "leaf",
+								"glyph": "#4d6535",
+								"size": 42,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f4f4f4",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				}
@@ -2710,6 +2800,136 @@
 			"groups": []
 		}
 	],
+	"products": [
+		{
+			"id": 229,
+			"name": "Herb Plant",
+			"description": "Vivamus libero consectetuer accumsan pulvinar ultricies diam nostra. Amet donec urna sed maximus quisque pharetra nullam hac. A venenatis dui maecenas dis molestie volutpat duis malesuada integer. Odio ullamcorper mus eleifend bibendum at morbi. Est natoque facilisi potenti ridiculus fringilla at. D",
+			"categories": [
+				"Tabletop Plant",
+				"Tropical Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/03/Herb.jpg"
+		},
+		{
+			"id": 232,
+			"name": "Jade Plant",
+			"description": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Donec rutrum congue leo eget malesuada. Penatibus pretium nostra quis lacus id. Aptent integer mus tellus consectetuer amet senectus tristique egestas risus potenti co",
+			"categories": [
+				"Flowering Plant",
+				"Hanging Plant",
+				"Tropical Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/03/Jade.jpg"
+		},
+		{
+			"id": 236,
+			"name": "Azalea Plant",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Cactus Plant",
+				"Flowering Plant",
+				"Snake Plant",
+				"Tropical Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/03/Azalea.jpg"
+		},
+		{
+			"id": 237,
+			"name": "Cactus Plant",
+			"description": "Metus dictum facilisis dui massa torquent turpis a. Pretium eget ultrices finibus tristique egestas per. Turpis sed tempus praesent nascetur magnis adipiscing taciti. Ipsum senectus vestibulum habitasse vulputate convallis mi pede sit massa. Lectus bibendum fringilla litora ex euismod tellus ornare ",
+			"categories": [
+				"Cactus Plant",
+				"Flowering Plant",
+				"Snake Plant",
+				"Tabletop Plant",
+				"Tropical Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/03/Cactus.jpg"
+		},
+		{
+			"id": 606,
+			"name": "Odio",
+			"description": "Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Luct",
+			"categories": [
+				"Hanging Plant",
+				"Tabletop Plant",
+				"Tropical Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/05/odio.jpg"
+		},
+		{
+			"id": 607,
+			"name": "Morbi",
+			"description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit",
+			"categories": [
+				"Cactus Plant",
+				"Tabletop Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/05/Morbi.jpg"
+		},
+		{
+			"id": 609,
+			"name": "Vivamus",
+			"description": "Tempor egestas turpis platea sem lorem nisl si lacus purus nec. Commodo laoreet sollicitudin maximus dis lacus quis dignissim curabitur. Viverra egestas mauris dictumst porttitor leo. Scelerisque nam rutrum conubia sit platea mauris. Litora pulvinar finibus ad placerat ut mus curabitur mauris. Conse",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/05/Vivamus.jpg"
+		},
+		{
+			"id": 612,
+			"name": "Diam",
+			"description": "Mi augue eros vulputate non tellus. Sit pharetra nisi potenti massa curabitur fames nascetur. Viverra metus phasellus id et potenti a bibendum justo sapien ridiculus nostra. Mus letius montes tempor parturient neque rhoncus potenti dapibus. Facilisis dis mus luctus nullam lobortis id. Sociosqu cubil",
+			"categories": [
+				"Flowering Plant",
+				"Tabletop Plant",
+				"Tropical Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/05/diaum.jpg"
+		},
+		{
+			"id": 713,
+			"name": "Curabitur",
+			"description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Cras ultricies ligula sed magna dictum porta. Curabitur aliquet qu",
+			"categories": [
+				"Cactus Plant",
+				"Tabletop Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/08/tree_bonsai.png"
+		},
+		{
+			"id": 719,
+			"name": "Ultricies",
+			"description": "Proin eget tortor risus. Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus suscipit to",
+			"categories": [
+				"Hanging Plant",
+				"Snake Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/08/Ultricies.jpg"
+		},
+		{
+			"id": 722,
+			"name": "Tempus",
+			"description": "Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Mauris blandit aliquet elit, eget tincidunt nibh p",
+			"categories": [
+				"Cactus Plant",
+				"Flowering Plant",
+				"Tropical Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/08/Tempus.jpg"
+		},
+		{
+			"id": 724,
+			"name": "Pellentesque",
+			"description": "Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curab",
+			"categories": [
+				"Flowering Plant",
+				"Tabletop Plant"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/114/2022/08/Pellentesque.jpg"
+		}
+	],
 	"stats": {
 		"sections": 23,
 		"textSlots": 71,
@@ -2718,5 +2938,5 @@
 		"swappableImages": 22,
 		"words": 684
 	},
-	"builtAt": "2026-10-29T11:52:56.106Z"
+	"builtAt": "2026-10-29T12:52:33.738Z"
 }

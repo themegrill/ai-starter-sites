@@ -474,7 +474,18 @@
 							"decorative": true,
 							"width": 59,
 							"height": 59,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#311084",
+								"size": 28,
+								"shape": {
+									"kind": "circle",
+									"fill": "#e7e6f9",
+									"size": 59
+								},
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "eb1a9fb5:image.url",
@@ -487,7 +498,18 @@
 							"decorative": true,
 							"width": 60,
 							"height": 59,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "person silhouette",
+								"glyph": "#311084",
+								"size": 28,
+								"shape": {
+									"kind": "circle",
+									"fill": "#e6e6f9",
+									"size": 60
+								},
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "30b0eec7:image.url",
@@ -500,7 +522,18 @@
 							"decorative": true,
 							"width": 60,
 							"height": 59,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#311084",
+								"size": 28,
+								"shape": {
+									"kind": "circle",
+									"fill": "#e7e6f9",
+									"size": 60
+								},
+								"background": "#f9f9f9"
+							}
 						}
 					]
 				},
@@ -2036,5 +2069,5 @@
 		"swappableImages": 9,
 		"words": 465
 	},
-	"builtAt": "2026-10-29T11:52:56.090Z"
+	"builtAt": "2026-10-29T12:52:33.722Z"
 }

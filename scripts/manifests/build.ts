@@ -19,10 +19,10 @@ import {
 	SectionFit,
 } from '../../lib/demos/types';
 import { classifyColors, normalizeColor } from './colors';
-import { newColorContext, scanThemeMods } from './contrast';
+import { backdropColor, newColorContext, scanThemeMods } from './contrast';
 import { assignRoles, buildGroups, pageTypeOf, scanPage } from './extract';
-import { describeImage, describePhoto, mapLimit, photoTone, saveImageCache, saveToneCache } from './images';
-import { fetchDemoData, fetchDemoList, fetchPageExport } from './source';
+import { describeImage, describePhoto, iconOf, mapLimit, takesIcon, photoTone, saveImageCache, saveToneCache } from './images';
+import { fetchDemoData, fetchDemoList, fetchPageExport, fetchProducts } from './source';
 import { decodeEntities } from './text';
 
 const ROOT = process.cwd();
@@ -103,6 +103,17 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 			},
 		);
 		assignRoles(scan);
+		// Pictograms become BlockArt icons picked for the new copy. Never logo strips.
+		for (const section of scan.sections.filter((s) => s.role !== 'logos')) {
+			for (const image of section.images.filter((i) => i.decorative && takesIcon(i))) {
+				const icon = iconOf(image);
+				if (!icon) continue;
+				const backdrop = scan.backdrops.get(image.path);
+				const photo = backdrop && 'photo' in backdrop ? (await photoTone(backdrop.photo))?.color : undefined;
+				const background = backdrop && backdropColor(backdrop, photo);
+				image.icon = background ? { ...icon, background } : icon;
+			}
+		}
 
 		scan.colors.forEach((hex) => colorCounts.set(hex, (colorCounts.get(hex) ?? 0) + 1));
 		fonts.push(...scan.fonts);
@@ -161,6 +172,15 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 	});
 	const brandHexes = new Set(colors.filter((c) => c.group === 'brand').map((c) => c.hex));
 
+	let products: Awaited<ReturnType<typeof fetchProducts>> = [];
+	if (data.content && Object.keys(data.plugins ?? {}).some((p) => p.startsWith('woocommerce/'))) {
+		try {
+			products = await fetchProducts(data.content);
+		} catch (error) {
+			warnings.push(`products: could not load ${data.content} (${(error as Error).message})`);
+		}
+	}
+
 	const manifest: DemoManifest = {
 		version: MANIFEST_VERSION,
 		slug: item.slug,
@@ -184,6 +204,7 @@ const buildDemo = async (item: CatalogItem, listing: { title: string; previewIma
 			},
 		},
 		pages,
+		...(products.length ? { products } : {}),
 		stats: {
 			sections: sections.length,
 			textSlots: slots.length,

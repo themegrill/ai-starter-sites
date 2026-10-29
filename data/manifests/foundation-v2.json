@@ -1343,7 +1343,19 @@
 							"decorative": true,
 							"width": 92,
 							"height": 91,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "play button",
+								"glyph": "#cccbca",
+								"size": 70,
+								"shape": {
+									"kind": "circle",
+									"fill": "#fcfcfc",
+									"size": 92
+								},
+								"fixed": "play-solid",
+								"background": "#3a3838"
+							}
 						}
 					]
 				},
@@ -1506,7 +1518,18 @@
 							"decorative": true,
 							"width": 68,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dollar sign",
+								"glyph": "#fffdfd",
+								"size": 56,
+								"shape": {
+									"kind": "square",
+									"fill": "#f06871",
+									"size": 68
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c4151db6:image.url",
@@ -1519,7 +1542,18 @@
 							"decorative": true,
 							"width": 99,
 							"height": 65,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "group of people",
+								"glyph": "#fffefe",
+								"size": 79,
+								"shape": {
+									"kind": "square",
+									"fill": "#f06871",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "83939cec:image.url",
@@ -1532,7 +1566,18 @@
 							"decorative": true,
 							"width": 93,
 							"height": 65,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "book",
+								"glyph": "#fffdfd",
+								"size": 67,
+								"shape": {
+									"kind": "square",
+									"fill": "#f06871",
+									"size": 93
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2963,7 +3008,13 @@
 							"decorative": true,
 							"width": 65,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "book",
+								"glyph": "#ef3c49",
+								"size": 32,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a0f8be65:image.url",
@@ -2976,7 +3027,13 @@
 							"decorative": true,
 							"width": 65,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building",
+								"glyph": "#ef3c49",
+								"size": 34,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "07809bd8:image.url",
@@ -2989,7 +3046,13 @@
 							"decorative": true,
 							"width": 65,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bookmark",
+								"glyph": "#ef3d4a",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ce80f789:image.url",
@@ -3002,7 +3065,13 @@
 							"decorative": true,
 							"width": 65,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "water drop",
+								"glyph": "#ef3d4a",
+								"size": 27,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "14376d0f:image.url",
@@ -3015,7 +3084,13 @@
 							"decorative": true,
 							"width": 65,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "user profile",
+								"glyph": "#ef3d4a",
+								"size": 28,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "2a2a68b2:image.url",
@@ -3028,7 +3103,13 @@
 							"decorative": true,
 							"width": 65,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "house",
+								"glyph": "#ef3c49",
+								"size": 31,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -4187,5 +4268,5 @@
 		"swappableImages": 26,
 		"words": 889
 	},
-	"builtAt": "2026-10-29T11:52:56.339Z"
+	"builtAt": "2026-10-29T12:52:33.964Z"
 }

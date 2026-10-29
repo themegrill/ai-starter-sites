@@ -562,7 +562,18 @@
 							"decorative": true,
 							"width": 60,
 							"height": 80,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "office building",
+								"glyph": "#ffffff",
+								"size": 36,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#ffb716",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "23faf57d:image.url",
@@ -575,7 +586,13 @@
 							"decorative": true,
 							"width": 90,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map",
+								"glyph": "#ffb716",
+								"size": 90,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "96d14fb3:image.url",
@@ -588,7 +605,13 @@
 							"decorative": true,
 							"width": 100,
 							"height": 80,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "gears",
+								"glyph": "#ffb716",
+								"size": 94,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -706,7 +729,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bank building",
+								"glyph": "#ffb716",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "d30c325d:image.url",
@@ -719,7 +748,13 @@
 							"decorative": true,
 							"width": 100,
 							"height": 80,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "delivery truck",
+								"glyph": "#ffb716",
+								"size": 96,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "8af3699e:image.url",
@@ -732,7 +767,13 @@
 							"decorative": true,
 							"width": 90,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "house",
+								"glyph": "#ffb716",
+								"size": 90,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1192,6 +1233,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/25388788904_72d2f5ec6f_z.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 291,
 							"height": 291,
 							"orientation": "square",
@@ -1221,6 +1263,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_4.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 268,
 							"height": 275,
 							"orientation": "square",
@@ -1250,6 +1293,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_2.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 269,
 							"height": 275,
 							"orientation": "square",
@@ -1414,6 +1458,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_3-150x150-1.jpg",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1443,6 +1488,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_3-150x150-1.jpg",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1884,9 +1930,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "33fdff55:image.url",
@@ -1897,9 +1951,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "b0963256:image.url",
@@ -1910,9 +1972,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "f7b5af13:image.url",
@@ -1923,9 +1993,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "f77bc106:image.url",
@@ -1936,9 +2014,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-white.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffb716"
+							}
 						},
 						{
 							"id": "9f43f999:image.url",
@@ -1949,9 +2035,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-white.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffb716"
+							}
 						},
 						{
 							"id": "1be9513b:image.url",
@@ -1962,9 +2056,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-white.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffb716"
+							}
 						},
 						{
 							"id": "7d2c5449:image.url",
@@ -1975,9 +2077,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-white.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffb716"
+							}
 						},
 						{
 							"id": "bb091092:image.url",
@@ -1988,9 +2098,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "32526dbd:image.url",
@@ -2001,9 +2119,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "e01aec97:image.url",
@@ -2014,9 +2140,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "67501808:image.url",
@@ -2027,9 +2161,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2890,6 +3032,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/25388788904_72d2f5ec6f_z.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 291,
 							"height": 291,
 							"orientation": "square",
@@ -2919,6 +3062,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_4.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 268,
 							"height": 275,
 							"orientation": "square",
@@ -2948,6 +3092,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_2.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 269,
 							"height": 275,
 							"orientation": "square",
@@ -3484,6 +3629,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/dozer1.png",
 							"decorative": false,
+							"displayWidth": 300,
 							"width": 680,
 							"height": 439,
 							"orientation": "landscape",
@@ -3513,9 +3659,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c3ddb8a3:image.url",
@@ -3526,9 +3680,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "165ed7a0:image.url",
@@ -3539,9 +3701,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a5c76022:image.url",
@@ -3552,9 +3722,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "782f3b6f:image.url",
@@ -3565,9 +3743,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a9bb4b50:image.url",
@@ -3578,9 +3764,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "1e21dcc5:image.url",
@@ -3591,9 +3785,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "efce5c0f:image.url",
@@ -3604,9 +3806,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "983495e4:image.url",
@@ -3617,9 +3827,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c0493e2c:image.url",
@@ -3630,9 +3848,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 20,
 							"height": 20,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffb815",
+								"size": 16,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				}
@@ -3861,6 +4087,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/25388788904_72d2f5ec6f_z.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 291,
 							"height": 291,
 							"orientation": "square",
@@ -3890,6 +4117,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_4.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 268,
 							"height": 275,
 							"orientation": "square",
@@ -3919,6 +4147,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_2.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 269,
 							"height": 275,
 							"orientation": "square",
@@ -4129,6 +4358,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/25388788904_72d2f5ec6f_z.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 291,
 							"height": 291,
 							"orientation": "square",
@@ -4158,6 +4388,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_4.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 268,
 							"height": 275,
 							"orientation": "square",
@@ -4187,6 +4418,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_2.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 269,
 							"height": 275,
 							"orientation": "square",
@@ -4397,6 +4629,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/25388788904_72d2f5ec6f_z.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 291,
 							"height": 291,
 							"orientation": "square",
@@ -4426,6 +4659,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_4.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 268,
 							"height": 275,
 							"orientation": "square",
@@ -4455,6 +4689,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/team_2.jpg",
 							"decorative": false,
+							"displayWidth": 229,
 							"width": 269,
 							"height": 275,
 							"orientation": "square",
@@ -4538,5 +4773,5 @@
 		"swappableImages": 28,
 		"words": 1239
 	},
-	"builtAt": "2026-10-29T11:52:56.009Z"
+	"builtAt": "2026-10-29T12:52:33.671Z"
 }

@@ -312,6 +312,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Rating.png",
 							"decorative": true,
+							"displayWidth": 94,
 							"width": 200,
 							"height": 34,
 							"orientation": "landscape"
@@ -325,6 +326,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/hero.webp",
 							"decorative": false,
+							"displayWidth": 549,
 							"width": 616,
 							"height": 584,
 							"orientation": "square",
@@ -984,9 +986,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Daily-Eating-Habits.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bowl of food",
+								"glyph": "#005e35",
+								"size": 21,
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-2.1.1.0.0.0:@html:img",
@@ -997,9 +1006,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Health-Goal-Discussion.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "heart with pulse",
+								"glyph": "#005e35",
+								"size": 22,
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-2.1.2.0.0.0:@html:img",
@@ -1010,9 +1026,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Simple-Nutrition-Tips.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "apple",
+								"glyph": "#005e35",
+								"size": 22,
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-2.1.3.0.0.0:@html:img",
@@ -1023,9 +1046,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Quick-Diet-Suggestions.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dumbbell",
+								"glyph": "#005e35",
+								"size": 22,
+								"background": "#e5efeb"
+							}
 						}
 					]
 				},
@@ -1385,6 +1415,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Healthy-Weight-Loss.jpg",
 							"decorative": false,
+							"displayWidth": 160,
 							"width": 556,
 							"height": 417,
 							"orientation": "landscape",
@@ -1414,6 +1445,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/program-2.jpg",
 							"decorative": false,
+							"displayWidth": 160,
 							"width": 556,
 							"height": 417,
 							"orientation": "landscape",
@@ -1443,6 +1475,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/program-3.jpg",
 							"decorative": false,
+							"displayWidth": 160,
 							"width": 556,
 							"height": 417,
 							"orientation": "landscape",
@@ -1550,7 +1583,95 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-4.1.0.0:url",
+							"blockId": "core-4.1.0.0",
+							"path": "4.1.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-1.jpg",
+							"decorative": false,
+							"width": 395,
+							"height": 440,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.26,
+									0.15,
+									0.29,
+									0.24,
+									0.39,
+									0.56,
+									0.1,
+									0.28,
+									0.43
+								],
+								"color": "#554b44",
+								"hue": 56,
+								"vivid": 0.11
+							}
+						},
+						{
+							"id": "core-4.1.1.0:url",
+							"blockId": "core-4.1.1.0",
+							"path": "4.1.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-2.jpg",
+							"decorative": false,
+							"width": 395,
+							"height": 440,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.23,
+									0.2,
+									0.22,
+									0.15,
+									0.23,
+									0.18,
+									0.16,
+									0.19,
+									0.19
+								],
+								"color": "#36312d",
+								"hue": 53,
+								"vivid": 0.06
+							}
+						},
+						{
+							"id": "core-4.1.2.0:url",
+							"blockId": "core-4.1.2.0",
+							"path": "4.1.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-3.jpg",
+							"decorative": false,
+							"width": 592,
+							"height": 660,
+							"orientation": "square",
+							"subject": "person",
+							"description": "Fitness model in sports bra and leggings shown in two outfits",
+							"tone": {
+								"grid": [
+									0.42,
+									0.41,
+									0.41,
+									0.38,
+									0.47,
+									0.43,
+									0.21,
+									0.29,
+									0.31
+								],
+								"color": "#5d5f5c"
+							}
+						}
+					]
 				},
 				{
 					"id": "top-5",
@@ -1602,6 +1723,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/instagram-1.jpg",
 							"decorative": false,
+							"displayWidth": 170,
 							"width": 612,
 							"height": 519,
 							"orientation": "landscape",
@@ -1631,6 +1753,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/blog-4.jpg",
 							"decorative": false,
+							"displayWidth": 170,
 							"width": 700,
 							"height": 467,
 							"orientation": "landscape",
@@ -1660,6 +1783,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/instagram-4.jpg",
 							"decorative": false,
+							"displayWidth": 170,
 							"width": 668,
 							"height": 407,
 							"orientation": "landscape",
@@ -1689,6 +1813,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-3.jpg",
 							"decorative": false,
+							"displayWidth": 170,
 							"width": 592,
 							"height": 660,
 							"orientation": "square",
@@ -1718,6 +1843,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/instagram-5-1.jpg",
 							"decorative": false,
+							"displayWidth": 170,
 							"width": 800,
 							"height": 613,
 							"orientation": "landscape",
@@ -1747,6 +1873,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/blog-3.jpg",
 							"decorative": false,
+							"displayWidth": 170,
 							"width": 700,
 							"height": 463,
 							"orientation": "landscape",
@@ -1988,6 +2115,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/User-3.jpg",
 							"decorative": true,
+							"displayWidth": 42,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -2001,6 +2129,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/User-2.jpg",
 							"decorative": true,
+							"displayWidth": 42,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -2014,6 +2143,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/User-3.jpg",
 							"decorative": true,
+							"displayWidth": 42,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -2027,6 +2157,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Rating.png",
 							"decorative": true,
+							"displayWidth": 86,
 							"width": 200,
 							"height": 34,
 							"orientation": "landscape"
@@ -2040,6 +2171,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Quote.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 56,
 							"height": 56,
 							"orientation": "square"
@@ -2053,6 +2185,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/user-6.jpg",
 							"decorative": true,
+							"displayWidth": 40,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -2066,6 +2199,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Rating.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 200,
 							"height": 34,
 							"orientation": "landscape"
@@ -2079,6 +2213,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Quote.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 56,
 							"height": 56,
 							"orientation": "square"
@@ -2092,6 +2227,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/user-8.jpg",
 							"decorative": true,
+							"displayWidth": 40,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -2105,6 +2241,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Rating.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 200,
 							"height": 34,
 							"orientation": "landscape"
@@ -2118,6 +2255,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Quote.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 56,
 							"height": 56,
 							"orientation": "square"
@@ -2131,6 +2269,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/user-7.jpg",
 							"decorative": true,
+							"displayWidth": 40,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -2144,6 +2283,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Rating.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 200,
 							"height": 34,
 							"orientation": "landscape"
@@ -2473,6 +2613,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/blog-2.jpg",
 							"decorative": false,
+							"displayWidth": 200,
 							"width": 700,
 							"height": 470,
 							"orientation": "landscape",
@@ -2502,6 +2643,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/blog-3.jpg",
 							"decorative": false,
+							"displayWidth": 200,
 							"width": 700,
 							"height": 463,
 							"orientation": "landscape",
@@ -2531,6 +2673,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/blog-4.jpg",
 							"decorative": false,
+							"displayWidth": 200,
 							"width": 700,
 							"height": 467,
 							"orientation": "landscape",
@@ -2633,6 +2776,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-3.jpg",
 							"decorative": false,
+							"displayWidth": 360,
 							"width": 592,
 							"height": 660,
 							"orientation": "square",
@@ -2662,6 +2806,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/instagram-1.jpg",
 							"decorative": false,
+							"displayWidth": 360,
 							"width": 612,
 							"height": 519,
 							"orientation": "landscape",
@@ -3341,9 +3486,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Education-Qualifications.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "graduation cap",
+								"glyph": "#005e35",
+								"size": 19,
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-2.0.0.1.1.0.0.0.0:@html:img",
@@ -3354,9 +3506,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Coaching.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "briefcase",
+								"glyph": "#005e35",
+								"size": 22,
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-2.0.1.0.0.0:@html:img",
@@ -3539,6 +3698,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/User-5.jpg",
 							"decorative": true,
+							"displayWidth": 52,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -3625,6 +3785,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-3.jpg",
 							"decorative": false,
+							"displayWidth": 360,
 							"width": 592,
 							"height": 660,
 							"orientation": "square",
@@ -3654,6 +3815,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/instagram-1.jpg",
 							"decorative": false,
+							"displayWidth": 360,
 							"width": 612,
 							"height": 519,
 							"orientation": "landscape",
@@ -4081,9 +4243,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Daily-Eating-Habits.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bowl of food",
+								"glyph": "#005e35",
+								"size": 21,
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-1.1.1.0.0.0:@html:img",
@@ -4094,9 +4263,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Health-Goal-Discussion.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "heart with pulse",
+								"glyph": "#005e35",
+								"size": 22,
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-1.1.2.0.0.0:@html:img",
@@ -4107,9 +4283,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Simple-Nutrition-Tips.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "apple",
+								"glyph": "#005e35",
+								"size": 22,
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-1.1.3.0.0.0:@html:img",
@@ -4120,9 +4303,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Quick-Diet-Suggestions.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dumbbell",
+								"glyph": "#005e35",
+								"size": 22,
+								"background": "#e5efeb"
+							}
 						}
 					]
 				},
@@ -4251,6 +4441,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/blog-3.jpg",
 							"decorative": false,
+							"displayWidth": 600,
 							"width": 700,
 							"height": 463,
 							"orientation": "landscape",
@@ -4353,6 +4544,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-3.jpg",
 							"decorative": false,
+							"displayWidth": 360,
 							"width": 592,
 							"height": 660,
 							"orientation": "square",
@@ -4382,6 +4574,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/instagram-1.jpg",
 							"decorative": false,
+							"displayWidth": 360,
 							"width": 612,
 							"height": 519,
 							"orientation": "landscape",
@@ -5098,6 +5291,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Healthy-Weight-Loss.jpg",
 							"decorative": false,
+							"displayWidth": 160,
 							"width": 556,
 							"height": 417,
 							"orientation": "landscape",
@@ -5127,6 +5321,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/program-2.jpg",
 							"decorative": false,
+							"displayWidth": 160,
 							"width": 556,
 							"height": 417,
 							"orientation": "landscape",
@@ -5156,6 +5351,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/program-3.jpg",
 							"decorative": false,
+							"displayWidth": 160,
 							"width": 556,
 							"height": 417,
 							"orientation": "landscape",
@@ -5185,6 +5381,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/blog-2.jpg",
 							"decorative": false,
+							"displayWidth": 160,
 							"width": 700,
 							"height": 470,
 							"orientation": "landscape",
@@ -5214,6 +5411,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/apple-coffee-fruit-morning-cup-dish-1026783-pxhere.com_-scaled-1.jpg",
 							"decorative": false,
+							"displayWidth": 160,
 							"width": 700,
 							"height": 467,
 							"orientation": "landscape",
@@ -5243,6 +5441,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/blog-4.jpg",
 							"decorative": false,
+							"displayWidth": 160,
 							"width": 700,
 							"height": 467,
 							"orientation": "landscape",
@@ -5345,6 +5544,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/transform-3.jpg",
 							"decorative": false,
+							"displayWidth": 360,
 							"width": 592,
 							"height": 660,
 							"orientation": "square",
@@ -5374,6 +5574,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/instagram-1.jpg",
 							"decorative": false,
+							"displayWidth": 360,
 							"width": 612,
 							"height": 519,
 							"orientation": "landscape",
@@ -5707,9 +5908,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/check.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#006639",
+								"size": 15,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.0.1.0.0.1.0.0:@html:img",
@@ -5720,9 +5929,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/check.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#006639",
+								"size": 15,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.0.1.0.0.2.0.0:@html:img",
@@ -5733,9 +5950,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/check.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#006639",
+								"size": 15,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.0.1.0.1.0.0.0:@html:img",
@@ -5746,9 +5971,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/check.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#006639",
+								"size": 15,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.0.1.0.1.1.0.0:@html:img",
@@ -5759,9 +5992,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/check.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#006639",
+								"size": 15,
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -5923,9 +6164,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Questions.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "question mark",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#006639",
+									"size": 24
+								},
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-2.1.1.0.0.0.0:@html:img",
@@ -5936,9 +6189,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/message.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "chat bubble check",
+								"glyph": "#006639",
+								"size": 22,
+								"background": "#e5efeb"
+							}
 						},
 						{
 							"id": "core-2.1.2.0.0.0.0:@html:img",
@@ -5949,9 +6209,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Email.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope",
+								"glyph": "#006739",
+								"size": 22,
+								"background": "#e5efeb"
+							}
 						}
 					]
 				},
@@ -6446,9 +6713,9 @@
 		"sections": 26,
 		"textSlots": 264,
 		"editableSlots": 225,
-		"images": 74,
-		"swappableImages": 36,
+		"images": 77,
+		"swappableImages": 39,
 		"words": 1309
 	},
-	"builtAt": "2026-10-29T11:52:56.440Z"
+	"builtAt": "2026-10-29T12:52:34.095Z"
 }

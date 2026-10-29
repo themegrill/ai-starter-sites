@@ -2287,6 +2287,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10045-1.jpg",
 							"decorative": false,
+							"displayWidth": 64,
 							"width": 2048,
 							"height": 2201,
 							"orientation": "square",
@@ -2316,6 +2317,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10046-1.jpg",
 							"decorative": false,
+							"displayWidth": 64,
 							"width": 1707,
 							"height": 1779,
 							"orientation": "square",
@@ -2345,6 +2347,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10044-1.jpg",
 							"decorative": false,
+							"displayWidth": 64,
 							"width": 1440,
 							"height": 1382,
 							"orientation": "square",
@@ -3571,5 +3574,5 @@
 		"swappableImages": 30,
 		"words": 413
 	},
-	"builtAt": "2026-10-29T11:52:56.402Z"
+	"builtAt": "2026-10-29T12:52:34.040Z"
 }

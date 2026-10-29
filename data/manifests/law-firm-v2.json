@@ -463,9 +463,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-1.png",
 							"decorative": true,
+							"displayWidth": 270,
 							"width": 810,
 							"height": 181,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "gavel",
+								"glyph": "#fefefe",
+								"size": 265,
+								"background": "#042726"
+							}
 						},
 						{
 							"id": "f68aa6b8:background.image.image.url",
@@ -478,7 +485,18 @@
 							"decorative": true,
 							"width": 163,
 							"height": 163,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin",
+								"glyph": "#53664d",
+								"size": 59,
+								"shape": {
+									"kind": "circle",
+									"fill": "#b89552",
+									"size": 96
+								},
+								"background": "#042726"
+							}
 						},
 						{
 							"id": "8a81ee15:background.image.image.url",
@@ -491,7 +509,18 @@
 							"decorative": true,
 							"width": 163,
 							"height": 163,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope",
+								"glyph": "#425c4c",
+								"size": 59,
+								"shape": {
+									"kind": "circle",
+									"fill": "#b89552",
+									"size": 96
+								},
+								"background": "#042726"
+							}
 						},
 						{
 							"id": "36edf6c0:background.image.image.url",
@@ -504,7 +533,18 @@
 							"decorative": true,
 							"width": 163,
 							"height": 163,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "phone handset",
+								"glyph": "#53664d",
+								"size": 60,
+								"shape": {
+									"kind": "circle",
+									"fill": "#b79552",
+									"size": 96
+								},
+								"background": "#042726"
+							}
 						}
 					]
 				},
@@ -852,6 +892,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-2.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 359,
 							"height": 88,
 							"orientation": "landscape"
@@ -865,9 +906,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/corporate-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 85,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building with coins",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c6d07913:image.url",
@@ -878,9 +926,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/realstate-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 77,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "documents and house",
+								"glyph": "#fefefd",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "043c8890:image.url",
@@ -891,9 +946,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/healthcare-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 71,
 							"height": 87,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "doctor with stethoscope",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "474efdfb:image.url",
@@ -904,9 +966,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/insurance-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 74,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "scroll with seal",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "5c1f6687:image.url",
@@ -917,9 +986,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/construction-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 88,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "crane and buildings",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "745a9849:image.url",
@@ -930,9 +1006,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/ecommerce-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 97,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "online shopping monitor",
+								"glyph": "#b99452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a2b0a606:image.url",
@@ -943,9 +1026,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/family-law.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 85,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "family with scales",
+								"glyph": "#b89452",
+								"size": 79,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "821c1a79:image.url",
@@ -956,9 +1046,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/bankfinancial-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 90,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "contract with bank",
+								"glyph": "#b99452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "14d48fd7:image.url",
@@ -969,9 +1066,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/divorcelaw-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 95,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "family with broken heart",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1145,9 +1249,29 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-1.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 810,
 							"height": 181,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "gavel",
+								"glyph": "#fefefe",
+								"size": 118,
+								"background": "#052928"
+							}
+						},
+						{
+							"id": "core-2.0.2.1.2:@html:img",
+							"blockId": "core-2.0.2.1.2",
+							"path": "2.0.2.1.2",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/author-img.png",
+							"decorative": true,
+							"width": 70,
+							"height": 70,
+							"orientation": "square"
 						}
 					]
 				},
@@ -1276,9 +1400,23 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-2.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 359,
 							"height": 88,
 							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.1.1.0.1:@html:img",
+							"blockId": "core-3.1.1.0.1",
+							"path": "3.1.1.0.1",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/client.png",
+							"decorative": true,
+							"width": 50,
+							"height": 50,
+							"orientation": "square"
 						}
 					]
 				},
@@ -1758,6 +1896,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-2.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 359,
 							"height": 88,
 							"orientation": "landscape"
@@ -1893,9 +2032,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-1.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 810,
 							"height": 181,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "gavel",
+								"glyph": "#fefefe",
+								"size": 118,
+								"background": "#072a2a"
+							}
 						},
 						{
 							"id": "cda906f1:background.image.image.url",
@@ -1908,7 +2054,18 @@
 							"decorative": true,
 							"width": 98,
 							"height": 99,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "phone handset",
+								"glyph": "#6f9092",
+								"size": 45,
+								"shape": {
+									"kind": "circle",
+									"fill": "#fdfefe",
+									"size": 96
+								},
+								"background": "#072a2a"
+							}
 						},
 						{
 							"id": "7bf71ba8:background.image.image.url",
@@ -1921,7 +2078,18 @@
 							"decorative": true,
 							"width": 98,
 							"height": 99,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope",
+								"glyph": "#c6d3d4",
+								"size": 43,
+								"shape": {
+									"kind": "circle",
+									"fill": "#fefefe",
+									"size": 96
+								},
+								"background": "#072a2a"
+							}
 						}
 					],
 					"dynamicBlocks": [
@@ -1978,6 +2146,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-2.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 359,
 							"height": 88,
 							"orientation": "landscape"
@@ -2554,6 +2723,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-2.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 359,
 							"height": 88,
 							"orientation": "landscape"
@@ -2942,6 +3112,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-2.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 359,
 							"height": 88,
 							"orientation": "landscape"
@@ -3187,6 +3358,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-2.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 359,
 							"height": 88,
 							"orientation": "landscape"
@@ -3827,9 +3999,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/corporate-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 85,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building with coins",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c6d07913:image.url",
@@ -3840,9 +4019,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/realstate-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 77,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "documents and house",
+								"glyph": "#fefefd",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "043c8890:image.url",
@@ -3853,9 +4039,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/healthcare-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 71,
 							"height": 87,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "doctor with stethoscope",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "474efdfb:image.url",
@@ -3866,9 +4059,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/insurance-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 74,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "scroll with seal",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "5c1f6687:image.url",
@@ -3879,9 +4079,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/construction-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 88,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "crane and buildings",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "745a9849:image.url",
@@ -3892,9 +4099,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/ecommerce-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 97,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "online shopping monitor",
+								"glyph": "#b99452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a2b0a606:image.url",
@@ -3905,9 +4119,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/family-law.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 85,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "family with scales",
+								"glyph": "#b89452",
+								"size": 79,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "821c1a79:image.url",
@@ -3918,9 +4139,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/bankfinancial-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 90,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "contract with bank",
+								"glyph": "#b99452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "14d48fd7:image.url",
@@ -3931,9 +4159,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/divorcelaw-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 95,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "family with broken heart",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "1229e962:image.url",
@@ -3944,9 +4179,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/corporate-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 85,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building with coins",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ee2fc352:image.url",
@@ -3957,9 +4199,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/realstate-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 77,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "documents and house",
+								"glyph": "#fefefd",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c88edfa1:image.url",
@@ -3970,9 +4219,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/healthcare-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 71,
 							"height": 87,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "doctor with stethoscope",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "52566397:image.url",
@@ -3983,9 +4239,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/insurance-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 74,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "scroll with seal",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "b0ae0c65:image.url",
@@ -3996,9 +4259,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/construction-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 88,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "crane and buildings",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "03019138:image.url",
@@ -4009,9 +4279,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/ecommerce-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 97,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "online shopping monitor",
+								"glyph": "#b99452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ac41156a:image.url",
@@ -4022,9 +4299,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/family-law.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 85,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "family with scales",
+								"glyph": "#b89452",
+								"size": 79,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "d8f05ca5:image.url",
@@ -4035,9 +4319,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/bankfinancial-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 90,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "contract with bank",
+								"glyph": "#b99452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "d42f5dc8:image.url",
@@ -4048,9 +4339,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/divorcelaw-icon.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 95,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "family with broken heart",
+								"glyph": "#b89452",
+								"size": 85,
+								"background": "#ffffff"
+							}
 						}
 					]
 				}
@@ -4500,9 +4798,9 @@
 		"sections": 16,
 		"textSlots": 179,
 		"editableSlots": 175,
-		"images": 60,
+		"images": 62,
 		"swappableImages": 13,
 		"words": 1754
 	},
-	"builtAt": "2026-10-29T11:52:56.287Z"
+	"builtAt": "2026-10-29T12:52:33.900Z"
 }

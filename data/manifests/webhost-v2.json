@@ -394,6 +394,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/banner-img.png",
 							"decorative": false,
+							"displayWidth": 651,
 							"width": 753,
 							"height": 611,
 							"orientation": "landscape",
@@ -760,7 +761,13 @@
 							"decorative": true,
 							"width": 54,
 							"height": 66,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "database stack",
+								"glyph": "#d02faa",
+								"size": 54,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "d670651d:image.url",
@@ -773,7 +780,13 @@
 							"decorative": true,
 							"width": 136,
 							"height": 60,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "gear and server",
+								"glyph": "#d12fab",
+								"size": 96,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -975,7 +988,18 @@
 							"decorative": true,
 							"width": 100,
 							"height": 109,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "user avatar",
+								"glyph": "#fffeff",
+								"size": 80,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ff50e2",
+									"size": 96
+								},
+								"background": "#8441d0"
+							}
 						},
 						{
 							"id": "7007c761:background.image.image.url",
@@ -1011,7 +1035,18 @@
 							"decorative": true,
 							"width": 100,
 							"height": 109,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "user avatar",
+								"glyph": "#fffeff",
+								"size": 80,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ff50e2",
+									"size": 96
+								},
+								"background": "#8441d0"
+							}
 						}
 					]
 				},
@@ -1448,9 +1483,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
 							"decorative": true,
+							"displayWidth": 19,
 							"width": 72,
 							"height": 74,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "right arrow",
+								"glyph": "#c6b4f3",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#794ee3",
+									"size": 19
+								},
+								"fixed": "arrow-right-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "63979cc8:image.url",
@@ -1461,9 +1509,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
 							"decorative": true,
+							"displayWidth": 19,
 							"width": 72,
 							"height": 74,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "right arrow",
+								"glyph": "#c6b4f3",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#794ee3",
+									"size": 19
+								},
+								"fixed": "arrow-right-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "d0ad1c77:image.url",
@@ -1474,9 +1535,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
 							"decorative": true,
+							"displayWidth": 19,
 							"width": 72,
 							"height": 74,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "right arrow",
+								"glyph": "#c6b4f3",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#794ee3",
+									"size": 19
+								},
+								"fixed": "arrow-right-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "b80fa8e8:image.url",
@@ -1487,9 +1561,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
 							"decorative": true,
+							"displayWidth": 19,
 							"width": 72,
 							"height": 74,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "right arrow",
+								"glyph": "#c6b4f3",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#794ee3",
+									"size": 19
+								},
+								"fixed": "arrow-right-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a93b3874:image.url",
@@ -1500,9 +1587,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
 							"decorative": true,
+							"displayWidth": 19,
 							"width": 72,
 							"height": 74,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "right arrow",
+								"glyph": "#c6b4f3",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#794ee3",
+									"size": 19
+								},
+								"fixed": "arrow-right-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "02fb59d4:image.url",
@@ -1513,9 +1613,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
 							"decorative": true,
+							"displayWidth": 19,
 							"width": 72,
 							"height": 74,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "right arrow",
+								"glyph": "#c6b4f3",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#794ee3",
+									"size": 19
+								},
+								"fixed": "arrow-right-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "fe067b31:image.url",
@@ -1526,9 +1639,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
 							"decorative": true,
+							"displayWidth": 19,
 							"width": 72,
 							"height": 74,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "right arrow",
+								"glyph": "#c6b4f3",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#794ee3",
+									"size": 19
+								},
+								"fixed": "arrow-right-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ed2b1324:image.url",
@@ -1539,9 +1665,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
 							"decorative": true,
+							"displayWidth": 19,
 							"width": 72,
 							"height": 74,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "right arrow",
+								"glyph": "#c6b4f3",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#794ee3",
+									"size": 19
+								},
+								"fixed": "arrow-right-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "757df995:image.url",
@@ -1552,9 +1691,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png",
 							"decorative": true,
+							"displayWidth": 19,
 							"width": 72,
 							"height": 74,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "right arrow",
+								"glyph": "#c6b4f3",
+								"size": 18,
+								"shape": {
+									"kind": "circle",
+									"fill": "#794ee3",
+									"size": 19
+								},
+								"fixed": "arrow-right-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1697,9 +1849,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/child-reaching-solid.png",
 							"decorative": true,
+							"displayWidth": 26,
 							"width": 384,
 							"height": 512,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "person raising arms",
+								"glyph": "#ffffff",
+								"size": 26,
+								"background": "#8c9fc7"
+							}
 						},
 						{
 							"id": "21bc929f:image.url",
@@ -1710,9 +1869,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-like-50.png",
 							"decorative": true,
+							"displayWidth": 35,
 							"width": 50,
 							"height": 50,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "thumbs up",
+								"glyph": "#ffffff",
+								"size": 21,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffffff",
+									"size": 35
+								},
+								"background": "#8c9fc7"
+							}
 						},
 						{
 							"id": "88e1447f:image.url",
@@ -1723,9 +1894,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-building-48.png",
 							"decorative": true,
+							"displayWidth": 35,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building",
+								"glyph": "#ffffff",
+								"size": 21,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffffff",
+									"size": 35
+								},
+								"background": "#8c9fc7"
+							}
 						},
 						{
 							"id": "03c9e0ca:image.url",
@@ -1736,9 +1919,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-coffee-64.png",
 							"decorative": true,
+							"displayWidth": 35,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "coffee cup",
+								"glyph": "#ffffff",
+								"size": 30,
+								"background": "#8c9fc7"
+							}
 						}
 					]
 				},
@@ -1880,9 +2070,15 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-location-48.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin",
+								"glyph": "#794fe3",
+								"size": 19
+							}
 						},
 						{
 							"id": "938cecb5:image.url",
@@ -1893,9 +2089,15 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-telephone-30.png",
 							"decorative": true,
+							"displayWidth": 25,
 							"width": 30,
 							"height": 30,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#794fe4",
+								"size": 19
+							}
 						},
 						{
 							"id": "bad5fc7e:image.url",
@@ -1906,9 +2108,15 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-letter-24.png",
 							"decorative": true,
+							"displayWidth": 23,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope",
+								"glyph": "#794fe4",
+								"size": 19
+							}
 						}
 					],
 					"dynamicBlocks": [
@@ -2470,7 +2678,8 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/team1-1.jpg",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 200
 						},
 						{
 							"id": "f71f6f72:image.url",
@@ -2480,7 +2689,8 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/team-2.jpg",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 200
 						},
 						{
 							"id": "0ddd12b6:image.url",
@@ -2490,7 +2700,8 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/team-3.jpg",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 200
 						}
 					]
 				},
@@ -2613,7 +2824,8 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/child-reaching-solid.png",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 26
 						},
 						{
 							"id": "889e55a8:image.url",
@@ -2623,7 +2835,8 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/icons8-like-50.png",
-							"decorative": true
+							"decorative": true,
+							"displayWidth": 35
 						},
 						{
 							"id": "adef37b6:image.url",
@@ -2633,7 +2846,8 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/icons8-building-48.png",
-							"decorative": true
+							"decorative": true,
+							"displayWidth": 35
 						},
 						{
 							"id": "fb4b371e:image.url",
@@ -2643,7 +2857,8 @@
 							"attr": "image.url",
 							"kind": "image",
 							"url": "https://optimus.qsandbox.com/zqs/qbcj/site/zakra-webhost/wp-content/uploads/2024/03/icons8-coffee-64.png",
-							"decorative": true
+							"decorative": true,
+							"displayWidth": 35
 						}
 					]
 				},
@@ -3133,7 +3348,13 @@
 							"decorative": true,
 							"width": 54,
 							"height": 66,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "database stack",
+								"glyph": "#d02faa",
+								"size": 54,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "e644323a:image.url",
@@ -3146,7 +3367,13 @@
 							"decorative": true,
 							"width": 136,
 							"height": 60,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "gear and server",
+								"glyph": "#d12fab",
+								"size": 96,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a9b1a26c:image.url",
@@ -3159,7 +3386,13 @@
 							"decorative": true,
 							"width": 69,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "monitor with gear",
+								"glyph": "#fffeff",
+								"size": 28,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "f4a708eb:image.url",
@@ -3172,7 +3405,13 @@
 							"decorative": true,
 							"width": 136,
 							"height": 60,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "gear and server",
+								"glyph": "#d12fab",
+								"size": 96,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "5ae61d52:image.url",
@@ -3185,7 +3424,13 @@
 							"decorative": true,
 							"width": 54,
 							"height": 66,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "database stack",
+								"glyph": "#d02faa",
+								"size": 54,
+								"background": "#ffffff"
+							}
 						}
 					]
 				}
@@ -3338,9 +3583,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-location-48.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin",
+								"glyph": "#794fe3",
+								"size": 19,
+								"background": "#fefefe"
+							}
 						},
 						{
 							"id": "00a75e61:image.url",
@@ -3351,9 +3603,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-telephone-30.png",
 							"decorative": true,
+							"displayWidth": 25,
 							"width": 30,
 							"height": 30,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#794fe4",
+								"size": 19,
+								"background": "#fefefe"
+							}
 						},
 						{
 							"id": "ef683eb2:image.url",
@@ -3364,9 +3623,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-letter-24.png",
 							"decorative": true,
+							"displayWidth": 23,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope",
+								"glyph": "#794fe4",
+								"size": 19,
+								"background": "#fefefe"
+							}
 						}
 					],
 					"dynamicBlocks": [
@@ -3400,5 +3666,5 @@
 		"swappableImages": 18,
 		"words": 747
 	},
-	"builtAt": "2026-10-29T11:52:56.302Z"
+	"builtAt": "2026-10-29T12:52:33.914Z"
 }

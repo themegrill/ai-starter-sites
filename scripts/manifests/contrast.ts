@@ -177,3 +177,42 @@ export const scanThemeMods = (mods: Record<string, unknown>, ctx: ColorContext) 
 		if (bg) addPair(ctx, fg, bg, /button|title|heading/.test(key), 'theme');
 	}
 };
+
+// What a block is drawn on: a solid color, or a photo with any overlay laid on it.
+export type Backdrop = { color: string } | { photo: string; overlay?: string };
+
+/**
+ * The backdrop behind each block (not counting its own), by block path as in
+ * the manifest: the nearest ancestor painting a color or a photo.
+ */
+export const backdropsOf = (blocks: Block[]): Map<string, Backdrop> => {
+	const out = new Map<string, Backdrop>();
+	const visitAll = (list: Block[], prefix: string, under: Backdrop) =>
+		list
+			.filter((b) => b.blockName)
+			.forEach((block, index) => {
+				const path = prefix ? `${prefix}.${index}` : String(index);
+				const attrs = (block.attrs ?? {}) as Record<string, unknown>;
+				out.set(path, under);
+				const photo = get(attrs, 'background.image.image.url');
+				const overlay = get(attrs, 'overlayBackground.color');
+				const color = get(attrs, 'background.color') ?? get(attrs, 'style.color.background');
+				let own: Backdrop | undefined;
+				if (typeof photo === 'string' && photo) own = { photo, ...(attrs.overlay && isColor(overlay) ? { overlay } : {}) };
+				else if (isColor(color)) {
+					const hex = resolve(color, 'color' in under ? under.color : null);
+					if (hex) own = { color: hex };
+				}
+				visitAll(block.innerBlocks, path, own ?? under);
+			});
+	visitAll(blocks, '', { color: PAGE_BACKGROUND });
+	return out;
+};
+
+// A backdrop's color; for a photo, its average color under the overlay.
+export const backdropColor = (backdrop: Backdrop, photoColor?: string): string | undefined => {
+	if ('color' in backdrop) return backdrop.color;
+	const overlay = backdrop.overlay && normalizeColor(backdrop.overlay);
+	if (!overlay) return photoColor;
+	return photoColor ? mix(overlay, photoColor, alphaOf(backdrop.overlay!)) : alphaOf(backdrop.overlay!) >= 0.5 ? overlay : undefined;
+};

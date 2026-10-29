@@ -62,8 +62,8 @@
 			"sections": 14,
 			"textSlots": 53,
 			"editableSlots": 51,
-			"images": 13,
-			"swappableImages": 13,
+			"images": 23,
+			"swappableImages": 18,
 			"words": 361
 		},
 		"pageTypes": [
@@ -128,7 +128,7 @@
 			"sections": 13,
 			"textSlots": 107,
 			"editableSlots": 107,
-			"images": 53,
+			"images": 55,
 			"swappableImages": 15,
 			"words": 789
 		},
@@ -195,7 +195,7 @@
 			"sections": 10,
 			"textSlots": 85,
 			"editableSlots": 79,
-			"images": 19,
+			"images": 31,
 			"swappableImages": 11,
 			"words": 462
 		},
@@ -227,7 +227,7 @@
 			"sections": 13,
 			"textSlots": 107,
 			"editableSlots": 107,
-			"images": 53,
+			"images": 55,
 			"swappableImages": 15,
 			"words": 789
 		},
@@ -582,8 +582,8 @@
 			"sections": 31,
 			"textSlots": 27,
 			"editableSlots": 27,
-			"images": 3,
-			"swappableImages": 3,
+			"images": 4,
+			"swappableImages": 4,
 			"words": 933
 		},
 		"pageTypes": [
@@ -788,8 +788,8 @@
 			"sections": 16,
 			"textSlots": 93,
 			"editableSlots": 93,
-			"images": 63,
-			"swappableImages": 25,
+			"images": 70,
+			"swappableImages": 32,
 			"words": 1071
 		},
 		"pageTypes": [
@@ -931,7 +931,7 @@
 			"sections": 7,
 			"textSlots": 24,
 			"editableSlots": 24,
-			"images": 4,
+			"images": 8,
 			"swappableImages": 4,
 			"words": 110
 		},
@@ -963,8 +963,8 @@
 			"sections": 20,
 			"textSlots": 158,
 			"editableSlots": 149,
-			"images": 26,
-			"swappableImages": 15,
+			"images": 31,
+			"swappableImages": 20,
 			"words": 1025
 		},
 		"pageTypes": [
@@ -1030,8 +1030,8 @@
 			"sections": 26,
 			"textSlots": 144,
 			"editableSlots": 133,
-			"images": 67,
-			"swappableImages": 55,
+			"images": 70,
+			"swappableImages": 58,
 			"words": 790
 		},
 		"pageTypes": [
@@ -1065,8 +1065,8 @@
 			"sections": 27,
 			"textSlots": 305,
 			"editableSlots": 250,
-			"images": 32,
-			"swappableImages": 24,
+			"images": 38,
+			"swappableImages": 30,
 			"words": 1882
 		},
 		"pageTypes": [
@@ -1101,8 +1101,8 @@
 			"sections": 17,
 			"textSlots": 116,
 			"editableSlots": 106,
-			"images": 36,
-			"swappableImages": 8,
+			"images": 52,
+			"swappableImages": 24,
 			"words": 784
 		},
 		"pageTypes": [
@@ -1134,7 +1134,7 @@
 			"sections": 16,
 			"textSlots": 179,
 			"editableSlots": 175,
-			"images": 60,
+			"images": 62,
 			"swappableImages": 13,
 			"words": 1754
 		},
@@ -1240,8 +1240,8 @@
 			"sections": 17,
 			"textSlots": 244,
 			"editableSlots": 211,
-			"images": 56,
-			"swappableImages": 40,
+			"images": 64,
+			"swappableImages": 48,
 			"words": 959
 		},
 		"pageTypes": [
@@ -1306,8 +1306,8 @@
 			"sections": 19,
 			"textSlots": 110,
 			"editableSlots": 109,
-			"images": 33,
-			"swappableImages": 29,
+			"images": 48,
+			"swappableImages": 44,
 			"words": 832
 		},
 		"pageTypes": [
@@ -1341,8 +1341,8 @@
 			"sections": 15,
 			"textSlots": 129,
 			"editableSlots": 125,
-			"images": 52,
-			"swappableImages": 5,
+			"images": 62,
+			"swappableImages": 15,
 			"words": 946
 		},
 		"pageTypes": [
@@ -1375,8 +1375,8 @@
 			"sections": 26,
 			"textSlots": 264,
 			"editableSlots": 225,
-			"images": 74,
-			"swappableImages": 36,
+			"images": 77,
+			"swappableImages": 39,
 			"words": 1309
 		},
 		"pageTypes": [
@@ -1505,8 +1505,8 @@
 			"sections": 36,
 			"textSlots": 299,
 			"editableSlots": 277,
-			"images": 87,
-			"swappableImages": 19,
+			"images": 88,
+			"swappableImages": 20,
 			"words": 2011
 		},
 		"pageTypes": [
@@ -1922,8 +1922,8 @@
 			"sections": 7,
 			"textSlots": 30,
 			"editableSlots": 30,
-			"images": 11,
-			"swappableImages": 10,
+			"images": 12,
+			"swappableImages": 11,
 			"words": 690
 		},
 		"pageTypes": [
@@ -2110,8 +2110,8 @@
 			"sections": 25,
 			"textSlots": 172,
 			"editableSlots": 156,
-			"images": 40,
-			"swappableImages": 18,
+			"images": 48,
+			"swappableImages": 26,
 			"words": 1157
 		},
 		"pageTypes": [
@@ -2177,8 +2177,8 @@
 			"sections": 37,
 			"textSlots": 385,
 			"editableSlots": 353,
-			"images": 89,
-			"swappableImages": 30,
+			"images": 92,
+			"swappableImages": 33,
 			"words": 2280
 		},
 		"pageTypes": [
@@ -2244,8 +2244,8 @@
 			"sections": 9,
 			"textSlots": 36,
 			"editableSlots": 36,
-			"images": 10,
-			"swappableImages": 8,
+			"images": 12,
+			"swappableImages": 10,
 			"words": 853
 		},
 		"pageTypes": [

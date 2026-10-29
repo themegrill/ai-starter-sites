@@ -423,9 +423,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/phone-call-e1711874070821.png",
 							"decorative": true,
+							"displayWidth": 30,
 							"width": 512,
 							"height": 512,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#000000",
+								"size": 30,
+								"background": "#ffc40e"
+							}
 						}
 					]
 				},
@@ -510,6 +517,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10006.jpg",
 							"decorative": false,
+							"displayWidth": 479,
 							"width": 500,
 							"height": 480,
 							"orientation": "square",
@@ -539,6 +547,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10005.jpg",
 							"decorative": false,
+							"displayWidth": 479,
 							"width": 500,
 							"height": 480,
 							"orientation": "square",
@@ -775,9 +784,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/Screenshot-2024-03-30-022104.png",
 							"decorative": true,
+							"displayWidth": 38,
 							"width": 153,
 							"height": 142,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "archway building",
+								"glyph": "#ffc40e",
+								"size": 34,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "3c24be00:image.url",
@@ -788,9 +804,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/Screenshot-2024-03-30-022238.png",
 							"decorative": true,
+							"displayWidth": 38,
 							"width": 153,
 							"height": 144,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building",
+								"glyph": "#fffefd",
+								"size": 31,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffc40e",
+									"size": 38
+								},
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "de13b9f5:image.url",
@@ -801,9 +829,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/wrench.png",
 							"decorative": true,
+							"displayWidth": 38,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "wrench",
+								"glyph": "#ffc40e",
+								"size": 38,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "929d451c:image.url",
@@ -814,9 +849,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/home.png",
 							"decorative": true,
+							"displayWidth": 38,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "house",
+								"glyph": "#ffffff",
+								"size": 23,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffc40e",
+									"size": 38
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1054,9 +1101,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/Screenshot-2024-03-30-034345.png",
 							"decorative": true,
+							"displayWidth": 75,
 							"width": 193,
 							"height": 169,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "star",
+								"glyph": "#010000",
+								"size": 55,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffc40e",
+									"size": 75
+								},
+								"fixed": "star-solid",
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "b20f37a8:image.url",
@@ -1067,9 +1127,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-009-Home-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 88,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "person profile",
+								"glyph": "#010000",
+								"size": 49,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffc40e",
+									"size": 80
+								},
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "e46aaa43:image.url",
@@ -1080,9 +1152,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-010-Home-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 93,
 							"height": 83,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "thumbs up",
+								"glyph": "#030300",
+								"size": 47,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffc40e",
+									"size": 80
+								},
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "0928d40e:image.url",
@@ -1093,6 +1177,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10014.jpg",
 							"decorative": false,
+							"displayWidth": 230,
 							"width": 230,
 							"height": 600,
 							"orientation": "portrait",
@@ -1122,6 +1207,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10016.jpg",
 							"decorative": false,
+							"displayWidth": 230,
 							"width": 230,
 							"height": 600,
 							"orientation": "portrait",
@@ -2860,9 +2946,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-001-Services-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 70,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "arch or gateway",
+								"glyph": "#fffffe",
+								"size": 30,
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "5985934b:image.url",
@@ -2873,9 +2966,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-002-Services-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 70,
 							"width": 56,
 							"height": 56,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building",
+								"glyph": "#fffefb",
+								"size": 42,
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "d60ff3d5:image.url",
@@ -2886,9 +2986,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-003-Services-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 70,
 							"width": 80,
 							"height": 79,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "wrench",
+								"glyph": "#fffefd",
+								"size": 27,
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "26e4e2fd:image.url",
@@ -2899,9 +3006,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-004-Services-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 70,
 							"width": 79,
 							"height": 79,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "house",
+								"glyph": "#fffefd",
+								"size": 30,
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "e9f29004:image.url",
@@ -2912,6 +3026,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-005-Services-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 70,
 							"width": 77,
 							"height": 77,
 							"orientation": "square"
@@ -2925,9 +3040,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-002-Services-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 70,
 							"width": 56,
 							"height": 56,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building",
+								"glyph": "#fffefb",
+								"size": 42,
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "e442d0c6:image.url",
@@ -2938,9 +3060,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-006-Services-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 70,
 							"width": 71,
 							"height": 71,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "paintbrush",
+								"glyph": "#fffefe",
+								"size": 30,
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "aac5d737:image.url",
@@ -2951,9 +3080,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-007-Services-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 70,
 							"width": 86,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "flowchart nodes",
+								"glyph": "#fffefc",
+								"size": 30,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffc40e",
+									"size": 70
+								},
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "e7a16cc4:image.url",
@@ -2964,9 +3105,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-008-Services-Zakra-Construction-zakrademos.com_.png",
 							"decorative": true,
+							"displayWidth": 70,
 							"width": 86,
 							"height": 84,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "paint roller",
+								"glyph": "#fffefc",
+								"size": 25,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffc40e",
+									"size": 70
+								},
+								"background": "#ffc40e"
+							}
 						}
 					]
 				}
@@ -3212,9 +3365,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/maps-and-flags.png",
 							"decorative": true,
+							"displayWidth": 50,
 							"width": 512,
 							"height": 512,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin",
+								"glyph": "#000000",
+								"size": 50,
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "539c2082:image.url",
@@ -3225,9 +3385,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/phone-call-e1711874070821.png",
 							"decorative": true,
+							"displayWidth": 50,
 							"width": 512,
 							"height": 512,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#000000",
+								"size": 50,
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "57c965cb:image.url",
@@ -3238,9 +3405,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/email.png",
 							"decorative": true,
+							"displayWidth": 50,
 							"width": 512,
 							"height": 512,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope",
+								"glyph": "#000000",
+								"size": 50,
+								"background": "#ffc40e"
+							}
 						},
 						{
 							"id": "85b83b90:image.url",
@@ -3251,9 +3425,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-011-Contact-Zakra-Construction-zakrademos.com_-e1711885745148.png",
 							"decorative": true,
+							"displayWidth": 50,
 							"width": 56,
 							"height": 55,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "calculator",
+								"glyph": "#010100",
+								"size": 45,
+								"background": "#ffc40e"
+							}
 						}
 					],
 					"dynamicBlocks": [
@@ -3301,5 +3482,5 @@
 		"swappableImages": 14,
 		"words": 866
 	},
-	"builtAt": "2026-10-29T11:52:56.360Z"
+	"builtAt": "2026-10-29T12:52:33.986Z"
 }

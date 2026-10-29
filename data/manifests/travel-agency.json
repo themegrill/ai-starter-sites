@@ -379,6 +379,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/santorini_1.jpg",
 							"decorative": false,
+							"displayWidth": 1920,
 							"width": 387,
 							"height": 580,
 							"orientation": "portrait",
@@ -408,6 +409,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/santorini_2.jpg",
 							"decorative": false,
+							"displayWidth": 1783,
 							"width": 387,
 							"height": 581,
 							"orientation": "portrait",
@@ -630,6 +632,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/asia1.jpg",
 							"decorative": false,
+							"displayWidth": 1068,
 							"width": 500,
 							"height": 500,
 							"orientation": "square",
@@ -659,6 +662,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/indonesia.jpg",
 							"decorative": false,
+							"displayWidth": 1057,
 							"width": 387,
 							"height": 581,
 							"orientation": "portrait",
@@ -688,6 +692,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/switzerlandpng.jpg",
 							"decorative": false,
+							"displayWidth": 1899,
 							"width": 500,
 							"height": 750,
 							"orientation": "portrait",
@@ -717,6 +722,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/slovenia.jpg",
 							"decorative": false,
+							"displayWidth": 1625,
 							"width": 500,
 							"height": 750,
 							"orientation": "portrait",
@@ -877,6 +883,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/hiking.jpg",
 							"decorative": false,
+							"displayWidth": 1920,
 							"width": 500,
 							"height": 750,
 							"orientation": "portrait",
@@ -906,6 +913,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/skiing.jpg",
 							"decorative": false,
+							"displayWidth": 1531,
 							"width": 500,
 							"height": 889,
 							"orientation": "portrait",
@@ -1745,9 +1753,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/icon_1dark.png",
 							"decorative": true,
+							"displayWidth": 40,
 							"width": 112,
 							"height": 115,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "compass",
+								"glyph": "#515251",
+								"size": 36,
+								"shape": {
+									"kind": "circle",
+									"fill": "#fdfdfd",
+									"size": 40
+								},
+								"background": "#090703"
+							}
 						},
 						{
 							"id": "2456be3a:image.url",
@@ -1758,9 +1778,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/icon_2dark.png",
 							"decorative": true,
+							"displayWidth": 40,
 							"width": 117,
 							"height": 115,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin",
+								"glyph": "#fdfdfd",
+								"size": 39,
+								"shape": {
+									"kind": "square",
+									"fill": "#030403",
+									"size": 40
+								},
+								"background": "#090703"
+							}
 						},
 						{
 							"id": "59637a33:image.url",
@@ -1771,9 +1803,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/icon_3dark.png",
 							"decorative": true,
+							"displayWidth": 40,
 							"width": 113,
 							"height": 116,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bookmarked book",
+								"glyph": "#fefefe",
+								"size": 37,
+								"shape": {
+									"kind": "square",
+									"fill": "#030303",
+									"size": 40
+								},
+								"background": "#090703"
+							}
 						}
 					]
 				},
@@ -2847,5 +2891,5 @@
 		"swappableImages": 21,
 		"words": 638
 	},
-	"builtAt": "2026-10-29T11:52:56.042Z"
+	"builtAt": "2026-10-29T12:52:33.690Z"
 }

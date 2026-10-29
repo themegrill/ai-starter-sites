@@ -564,9 +564,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155617.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 312,
 							"height": 314,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "person profile",
+								"glyph": "#b6d3f1",
+								"size": 83,
+								"shape": {
+									"kind": "circle",
+									"fill": "#73abe6",
+									"size": 85
+								},
+								"background": "#f8fbfd"
+							}
 						},
 						{
 							"id": "83637831:image.url",
@@ -577,9 +589,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-26-032329.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 85,
 							"height": 85,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#b5d2f1",
+								"size": 82,
+								"shape": {
+									"kind": "circle",
+									"fill": "#74ace7",
+									"size": 85
+								},
+								"background": "#f8fbfd"
+							}
 						},
 						{
 							"id": "d5b8d4f1:image.url",
@@ -590,9 +614,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-26-032457.png",
 							"decorative": true,
+							"displayWidth": 85,
 							"width": 160,
 							"height": 159,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bank building",
+								"glyph": "#b6d2f1",
+								"size": 83,
+								"shape": {
+									"kind": "circle",
+									"fill": "#73abe6",
+									"size": 85
+								},
+								"background": "#f8fbfd"
+							}
 						}
 					]
 				},
@@ -1281,9 +1317,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155617.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 312,
 							"height": 314,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "person profile",
+								"glyph": "#b6d3f1",
+								"size": 78,
+								"shape": {
+									"kind": "circle",
+									"fill": "#73abe6",
+									"size": 80
+								},
+								"background": "#f8fbfd"
+							}
 						},
 						{
 							"id": "411044dc:image.url",
@@ -1294,9 +1342,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155733.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 309,
 							"height": 311,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "thumbs up",
+								"glyph": "#b5d3f1",
+								"size": 78,
+								"shape": {
+									"kind": "circle",
+									"fill": "#73abe6",
+									"size": 80
+								},
+								"background": "#f8fbfd"
+							}
 						},
 						{
 							"id": "395c006f:image.url",
@@ -1307,9 +1367,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155843.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 311,
 							"height": 310,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "graduation cap",
+								"glyph": "#b4d2f1",
+								"size": 78,
+								"shape": {
+									"kind": "circle",
+									"fill": "#72abe6",
+									"size": 80
+								},
+								"background": "#f8fbfd"
+							}
 						}
 					]
 				},
@@ -1866,5 +1938,5 @@
 		"swappableImages": 8,
 		"words": 567
 	},
-	"builtAt": "2026-10-29T11:52:56.314Z"
+	"builtAt": "2026-10-29T12:52:33.935Z"
 }

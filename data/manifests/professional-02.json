@@ -732,7 +732,18 @@
 							"decorative": true,
 							"width": 83,
 							"height": 71,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "bar chart",
+								"glyph": "#fbfcfc",
+								"size": 62,
+								"shape": {
+									"kind": "square",
+									"fill": "#123458",
+									"size": 83
+								},
+								"background": "#123458"
+							}
 						},
 						{
 							"id": "43903124:image.url",
@@ -745,7 +756,18 @@
 							"decorative": true,
 							"width": 77,
 							"height": 72,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "rocket launch",
+								"glyph": "#fefeff",
+								"size": 66,
+								"shape": {
+									"kind": "square",
+									"fill": "#123458",
+									"size": 77
+								},
+								"background": "#123458"
+							}
 						},
 						{
 							"id": "2ba5ffce:image.url",
@@ -758,7 +780,18 @@
 							"decorative": true,
 							"width": 81,
 							"height": 72,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "puzzle piece",
+								"glyph": "#fefefe",
+								"size": 71,
+								"shape": {
+									"kind": "square",
+									"fill": "#123458",
+									"size": 81
+								},
+								"background": "#123458"
+							}
 						}
 					]
 				},
@@ -3135,5 +3168,5 @@
 		"swappableImages": 6,
 		"words": 720
 	},
-	"builtAt": "2026-10-29T11:52:56.061Z"
+	"builtAt": "2026-10-29T12:52:33.700Z"
 }

@@ -830,7 +830,19 @@
 							"decorative": true,
 							"width": 160,
 							"height": 152,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "quote marks",
+								"glyph": "#030303",
+								"size": 20,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"fixed": "quote-left-solid",
+								"background": "#11100f"
+							}
 						},
 						{
 							"id": "652895c9:image.url",
@@ -885,7 +897,19 @@
 							"decorative": true,
 							"width": 160,
 							"height": 152,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "quote marks",
+								"glyph": "#030303",
+								"size": 20,
+								"shape": {
+									"kind": "square",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"fixed": "quote-left-solid",
+								"background": "#181818"
+							}
 						},
 						{
 							"id": "52697163:image.url",
@@ -2069,7 +2093,13 @@
 							"decorative": true,
 							"width": 66,
 							"height": 66,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin",
+								"glyph": "#6b5c4e",
+								"size": 56,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "d6df7440:image.url",
@@ -2082,7 +2112,13 @@
 							"decorative": true,
 							"width": 54,
 							"height": 66,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#6a5b4d",
+								"size": 45,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "16570769:image.url",
@@ -2095,7 +2131,13 @@
 							"decorative": true,
 							"width": 66,
 							"height": 66,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope",
+								"glyph": "#6b5c4e",
+								"size": 56,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2783,5 +2825,5 @@
 		"swappableImages": 19,
 		"words": 892
 	},
-	"builtAt": "2026-10-29T11:52:56.096Z"
+	"builtAt": "2026-10-29T12:52:33.726Z"
 }

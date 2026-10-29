@@ -197,7 +197,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-0.0.1:url",
+							"blockId": "core-0.0.1",
+							"path": "0.0.1",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-blog/wp-content/uploads/sites/90/2021/02/travel.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1080,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.58,
+									0.64,
+									0.4,
+									0.37,
+									0.46,
+									0.38,
+									0.4,
+									0.66,
+									0.73
+								],
+								"color": "#788687",
+								"hue": 256,
+								"vivid": 0.53
+							}
+						}
+					]
 				},
 				{
 					"id": "top-4",
@@ -594,7 +624,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-8.0.0:url",
+							"blockId": "core-8.0.0",
+							"path": "8.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/travel-blog/wp-content/uploads/sites/90/2021/02/inner-bg.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 720,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.09,
+									0.07,
+									0.07,
+									0.05,
+									0.15,
+									0.09,
+									0.07,
+									0.14,
+									0.11
+								],
+								"color": "#1a1716",
+								"hue": 57,
+								"vivid": 0.02
+							}
+						}
+					]
 				},
 				{
 					"id": "top-10",
@@ -1238,9 +1298,9 @@
 		"sections": 9,
 		"textSlots": 36,
 		"editableSlots": 36,
-		"images": 10,
-		"swappableImages": 8,
+		"images": 12,
+		"swappableImages": 10,
 		"words": 853
 	},
-	"builtAt": "2026-10-29T11:52:56.030Z"
+	"builtAt": "2026-10-29T12:52:33.682Z"
 }

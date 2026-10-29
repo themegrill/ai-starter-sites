@@ -1,0 +1,4439 @@
+{
+	"$comment": "Decorative demo images, keyed by URL. kind \"icon\" marks plain pictograms that a generation swaps for a BlockArt icon picked for the new copy, drawn in \"glyph\" on a \"fill\" circle or tile (shape) at \"scale\" of the image size. Other kinds stay as they are. Written by `pnpm icons` with a vision model; reviewed by hand.",
+	"images": {
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/client.png": {
+			"kind": "icon",
+			"depicts": "trophy cup",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-design.png": {
+			"kind": "icon",
+			"depicts": "pen writing",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-experience.png": {
+			"kind": "icon",
+			"depicts": "sunrise over person",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.88
+		},
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-experts.png": {
+			"kind": "icon",
+			"depicts": "group of people",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.94
+		},
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-idea.png": {
+			"kind": "icon",
+			"depicts": "light bulb",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-pixel-perfect.png": {
+			"kind": "icon",
+			"depicts": "thumbs up hand",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-research.png": {
+			"kind": "icon",
+			"depicts": "magnifying glass",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-seo-friendly.png": {
+			"kind": "icon",
+			"depicts": "rising bar chart",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-support.png": {
+			"kind": "icon",
+			"depicts": "headset with mic",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-trust.png": {
+			"kind": "icon",
+			"depicts": "handshake",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/commet-1.jpg": {
+			"kind": "logo",
+			"depicts": "Blue comet swoosh"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Frame-1.png": {
+			"kind": "icon",
+			"depicts": "Document page",
+			"shape": "none"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Frame-2.png": {
+			"kind": "icon",
+			"depicts": "Eye",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Frame-3.png": {
+			"kind": "icon",
+			"depicts": "Building",
+			"shape": "none"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Frame.png": {
+			"kind": "icon",
+			"depicts": "Duplicate pages",
+			"shape": "none"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-10.png": {
+			"kind": "icon",
+			"depicts": "computer monitor",
+			"shape": "none",
+			"glyph": "#3653fe",
+			"scale": 0.57
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-108-1.png": {
+			"kind": "logo",
+			"depicts": "Apple logo"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-109-1.png": {
+			"kind": "logo",
+			"depicts": "Microsoft logo"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-11.png": {
+			"kind": "icon",
+			"depicts": "sort descending",
+			"shape": "none",
+			"glyph": "#3654fe",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-111-1.png": {
+			"kind": "logo",
+			"depicts": "Android wordmark"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-112-1.png": {
+			"kind": "logo",
+			"depicts": "Slack wordmark"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-12.png": {
+			"kind": "icon",
+			"depicts": "user profile",
+			"shape": "none",
+			"glyph": "#3653fe",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-13.png": {
+			"kind": "icon",
+			"depicts": "lightbulb idea",
+			"shape": "none",
+			"glyph": "#3653fe",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-3.png": {
+			"kind": "icon",
+			"depicts": "magnifying glass",
+			"shape": "square",
+			"glyph": "#ffffff",
+			"fill": "#3653fe",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-4.png": {
+			"kind": "icon",
+			"depicts": "document file",
+			"shape": "none",
+			"glyph": "#3653fe",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-5.png": {
+			"kind": "icon",
+			"depicts": "target bullseye",
+			"shape": "square",
+			"glyph": "#ffffff",
+			"fill": "#3653fe",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-6.png": {
+			"kind": "icon",
+			"depicts": "line chart",
+			"shape": "none",
+			"glyph": "#3653fe",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-626099.png": {
+			"kind": "icon",
+			"depicts": "id card with person",
+			"shape": "none",
+			"glyph": "#6fc3e6",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-626100.png": {
+			"kind": "icon",
+			"depicts": "banknote with coin",
+			"shape": "none",
+			"glyph": "#6fc3e6",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-626101.png": {
+			"kind": "icon",
+			"depicts": "clock",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#6ec2e5",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-626102.png": {
+			"kind": "icon",
+			"depicts": "clipboard",
+			"shape": "none",
+			"glyph": "#6fc2e5",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-7.png": {
+			"kind": "icon",
+			"depicts": "edit pencil",
+			"shape": "rounded",
+			"glyph": "#ffffff",
+			"fill": "#3653fe",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-8.png": {
+			"kind": "icon",
+			"depicts": "bar chart",
+			"shape": "none",
+			"glyph": "#3653fe",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Group-9.png": {
+			"kind": "icon",
+			"depicts": "office building",
+			"shape": "none",
+			"glyph": "#3653fe",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/icon-12.png": {
+			"kind": "icon",
+			"depicts": "Clock",
+			"shape": "none",
+			"glyph": "#3653fe",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/icon-13.png": {
+			"kind": "icon",
+			"depicts": "Life ring",
+			"shape": "none",
+			"glyph": "#3653fe",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/img-2-1.jpg": {
+			"kind": "logo",
+			"depicts": "Four green squares"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/job-d-icon-1.png": {
+			"kind": "icon",
+			"depicts": "briefcase",
+			"shape": "none",
+			"glyph": "#6fc3e6",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/job-d-icon-2.png": {
+			"kind": "icon",
+			"depicts": "graduation cap",
+			"shape": "none",
+			"glyph": "#6fc2e5",
+			"scale": 0.63
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/jobs.png": {
+			"kind": "logo",
+			"depicts": "tech brand logos"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Marvellous-1.jpg": {
+			"kind": "logo",
+			"depicts": "Orange M arrow"
+		},
+		"https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/suprado-1.jpg": {
+			"kind": "logo",
+			"depicts": "Chevron arrows"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2023/10/Line-1.png": {
+			"kind": "ornament",
+			"depicts": "white divider line"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2023/10/Line-2.png": {
+			"kind": "ornament",
+			"depicts": "navy divider line"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/35.png": {
+			"kind": "number",
+			"depicts": "35 digits"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/home-service-2.png": {
+			"kind": "icon",
+			"depicts": "megaphone",
+			"shape": "square",
+			"glyph": "#fffffe",
+			"fill": "#f8af28",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/partner1-1.png": {
+			"kind": "logo",
+			"depicts": "ecocod3 cube logo"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/partner1.png": {
+			"kind": "logo",
+			"depicts": "stacked cubes"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/partner2.png": {
+			"kind": "logo",
+			"depicts": "city skyline building"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/partner3-1.png": {
+			"kind": "logo",
+			"depicts": "diamond geometric shapes"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/partner3.png": {
+			"kind": "logo",
+			"depicts": "diamond geometric shapes"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/partner5.png": {
+			"kind": "logo",
+			"depicts": "interlocking geometric shapes"
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-1.png": {
+			"kind": "icon",
+			"depicts": "shopping cart",
+			"shape": "square",
+			"glyph": "#f8af28",
+			"fill": "#031742",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-10.png": {
+			"kind": "icon",
+			"depicts": "Firefox browser logo",
+			"shape": "square",
+			"glyph": "#041742",
+			"fill": "#f8af28",
+			"scale": 1
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-11.png": {
+			"kind": "icon",
+			"depicts": "Internet Explorer logo",
+			"shape": "square",
+			"glyph": "#041742",
+			"fill": "#f8b028",
+			"scale": 1
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-12.png": {
+			"kind": "icon",
+			"depicts": "grid of tiles",
+			"shape": "square",
+			"glyph": "#041742",
+			"fill": "#f8b028",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-2.png": {
+			"kind": "icon",
+			"depicts": "megaphone",
+			"shape": "square",
+			"glyph": "#f8b028",
+			"fill": "#031742",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-3.png": {
+			"kind": "icon",
+			"depicts": "chrome browser logo",
+			"shape": "square",
+			"glyph": "#041742",
+			"fill": "#f8af28",
+			"scale": 1
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-4.png": {
+			"kind": "icon",
+			"depicts": "won currency sign",
+			"shape": "square",
+			"glyph": "#f8b028",
+			"fill": "#041742",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-5.png": {
+			"kind": "icon",
+			"depicts": "pencil edit",
+			"shape": "square",
+			"glyph": "#f8b028",
+			"fill": "#041742",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-6.png": {
+			"kind": "icon",
+			"depicts": "magnifying glass plus",
+			"shape": "square",
+			"glyph": "#f8b028",
+			"fill": "#041842",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-7.png": {
+			"kind": "icon",
+			"depicts": "shopping basket",
+			"shape": "square",
+			"glyph": "#f8b028",
+			"fill": "#041742",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-8.png": {
+			"kind": "icon",
+			"depicts": "smartphone",
+			"shape": "square",
+			"glyph": "#f9b028",
+			"fill": "#041743",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/bizness-v2/wp-content/uploads/sites/138/2024/01/service-9.png": {
+			"kind": "icon",
+			"depicts": "newspaper",
+			"shape": "square",
+			"glyph": "#041642",
+			"fill": "#f8b028",
+			"scale": 1
+		},
+		"https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/Group-1.png": {
+			"kind": "icon",
+			"depicts": "quote marks",
+			"shape": "square",
+			"glyph": "#030303",
+			"fill": "#ffffff",
+			"scale": 0.21
+		},
+		"https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/testimonial-one.jpg": {
+			"kind": "photo",
+			"depicts": "bearded man portrait"
+		},
+		"https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2021/11/testimonial-two.jpg": {
+			"kind": "photo",
+			"depicts": "woman in hat"
+		},
+		"https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/Location-icon.png": {
+			"kind": "icon",
+			"depicts": "map pin",
+			"shape": "none",
+			"glyph": "#6b5c4e",
+			"scale": 0.85
+		},
+		"https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/Message-icon.png": {
+			"kind": "icon",
+			"depicts": "envelope",
+			"shape": "none",
+			"glyph": "#6b5c4e",
+			"scale": 0.85
+		},
+		"https://zakrademos.com/book-author-02/wp-content/uploads/sites/111/2022/01/Phone-icon.png": {
+			"kind": "icon",
+			"depicts": "telephone handset",
+			"shape": "none",
+			"glyph": "#6a5b4d",
+			"scale": 0.84
+		},
+		"https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-1.png": {
+			"kind": "icon",
+			"depicts": "lightning bolt",
+			"shape": "none",
+			"glyph": "#fefffe",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-2.png": {
+			"kind": "icon",
+			"depicts": "list lines",
+			"shape": "none",
+			"glyph": "#fefeff",
+			"scale": 1
+		},
+		"https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-3.png": {
+			"kind": "logo",
+			"depicts": "letter g wordmark"
+		},
+		"https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-4.png": {
+			"kind": "icon",
+			"depicts": "checkered flag",
+			"shape": "none",
+			"glyph": "#fffefc",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2023/10/Line-1.png": {
+			"kind": "ornament",
+			"depicts": "horizontal divider line"
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2023/10/Line-2.png": {
+			"kind": "ornament",
+			"depicts": "horizontal divider line"
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/35.png": {
+			"kind": "number",
+			"depicts": "35 digits"
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/home-service-2.png": {
+			"kind": "icon",
+			"depicts": "megaphone",
+			"shape": "square",
+			"glyph": "#fffffe",
+			"fill": "#f8af28",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/partner1-1.png": {
+			"kind": "logo",
+			"depicts": "ecocod3 cube wordmark"
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/partner1.png": {
+			"kind": "logo",
+			"depicts": "ecocod3 cube wordmark"
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/partner2.png": {
+			"kind": "logo",
+			"depicts": "fifth flour skyline"
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/partner3-1.png": {
+			"kind": "logo",
+			"depicts": "quest diamond wordmark"
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/partner3.png": {
+			"kind": "logo",
+			"depicts": "quest diamond wordmark"
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/partner5.png": {
+			"kind": "logo",
+			"depicts": "madrin interlocking wordmark"
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-1.png": {
+			"kind": "icon",
+			"depicts": "shopping cart",
+			"shape": "square",
+			"glyph": "#f8af28",
+			"fill": "#031742",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-10.png": {
+			"kind": "icon",
+			"depicts": "Firefox browser",
+			"shape": "square",
+			"glyph": "#041742",
+			"fill": "#f8af28",
+			"scale": 1
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-11.png": {
+			"kind": "icon",
+			"depicts": "Internet Explorer e",
+			"shape": "square",
+			"glyph": "#041742",
+			"fill": "#f8b028",
+			"scale": 1
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-12.png": {
+			"kind": "icon",
+			"depicts": "grid of tiles",
+			"shape": "rounded",
+			"glyph": "#041742",
+			"fill": "#f8b028",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-2.png": {
+			"kind": "icon",
+			"depicts": "megaphone",
+			"shape": "square",
+			"glyph": "#f8b028",
+			"fill": "#031742",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-3.png": {
+			"kind": "icon",
+			"depicts": "chrome-like circular mark",
+			"shape": "square",
+			"glyph": "#041742",
+			"fill": "#f8af28",
+			"scale": 1
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-4.png": {
+			"kind": "icon",
+			"depicts": "won currency sign",
+			"shape": "square",
+			"glyph": "#f8b028",
+			"fill": "#041742",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-5.png": {
+			"kind": "icon",
+			"depicts": "pencil edit",
+			"shape": "rounded",
+			"glyph": "#f8b028",
+			"fill": "#041742",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-6.png": {
+			"kind": "icon",
+			"depicts": "zoom in magnifier",
+			"shape": "square",
+			"glyph": "#f8b028",
+			"fill": "#041842",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-7.png": {
+			"kind": "icon",
+			"depicts": "shopping basket",
+			"shape": "square",
+			"glyph": "#f8b028",
+			"fill": "#041742",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-8.png": {
+			"kind": "icon",
+			"depicts": "mobile phone",
+			"shape": "square",
+			"glyph": "#f9b028",
+			"fill": "#041743",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-9.png": {
+			"kind": "icon",
+			"depicts": "newspaper",
+			"shape": "rounded",
+			"glyph": "#041642",
+			"fill": "#f8b028",
+			"scale": 1
+		},
+		"https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-21-at-13.12.27.png": {
+			"kind": "icon",
+			"depicts": "quote marks",
+			"shape": "none",
+			"glyph": "#232323",
+			"scale": 0.82
+		},
+		"https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-22-at-02.18.45.png": {
+			"kind": "icon",
+			"depicts": "airplane",
+			"shape": "none",
+			"glyph": "#232323",
+			"scale": 0.7
+		},
+		"https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-22-at-02.25.57.png": {
+			"kind": "icon",
+			"depicts": "eye",
+			"shape": "none",
+			"glyph": "#242424",
+			"scale": 0.7
+		},
+		"https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/CleanShot-2024-03-22-at-02.26.26.png": {
+			"kind": "icon",
+			"depicts": "target dot",
+			"shape": "none",
+			"glyph": "#252525",
+			"scale": 0.68
+		},
+		"https://zakrademos.com/care-03/wp-content/uploads/sites/145/2024/03/since-img.jpg": {
+			"kind": "other",
+			"depicts": "We are here since 2012 text"
+		},
+		"https://zakrademos.com/chapel-v2/wp-content/uploads/sites/139/2024/02/87c2d27c80d8b522646d74b7dc77ca66.jpeg": {
+			"kind": "logo",
+			"depicts": "ThemeGrill logo"
+		},
+		"https://zakrademos.com/chapel-v2/wp-content/uploads/sites/139/2024/02/dates.png": {
+			"kind": "number",
+			"depicts": "April 23 date"
+		},
+		"https://zakrademos.com/chapel-v2/wp-content/uploads/sites/139/2024/02/icon-1.png": {
+			"kind": "icon",
+			"depicts": "cross",
+			"shape": "circle",
+			"glyph": "#fce274",
+			"fill": "#facd01",
+			"scale": 1
+		},
+		"https://zakrademos.com/chapel-v2/wp-content/uploads/sites/139/2024/02/icon-5.png": {
+			"kind": "icon",
+			"depicts": "person profile",
+			"shape": "circle",
+			"glyph": "#fbdb50",
+			"fill": "#facd01",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/chapel-v2/wp-content/uploads/sites/139/2024/02/icon-6.png": {
+			"kind": "icon",
+			"depicts": "holy book",
+			"shape": "circle",
+			"glyph": "#fce274",
+			"fill": "#facd01",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/chapel-v2/wp-content/uploads/sites/139/2024/02/icon-7.png": {
+			"kind": "icon",
+			"depicts": "heart",
+			"shape": "circle",
+			"glyph": "#fce68e",
+			"fill": "#facd01",
+			"scale": 1
+		},
+		"https://zakrademos.com/chapel-v2/wp-content/uploads/sites/139/2024/02/icon-8.png": {
+			"kind": "icon",
+			"depicts": "hand holding heart",
+			"shape": "circle",
+			"glyph": "#fce791",
+			"fill": "#facd01",
+			"scale": 1
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-building.png": {
+			"kind": "icon",
+			"depicts": "office building",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#29a469",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-home.png": {
+			"kind": "icon",
+			"depicts": "house",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#29a469",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-office.png": {
+			"kind": "icon",
+			"depicts": "computer monitor",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#29a569",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/icon-vehicle.png": {
+			"kind": "icon",
+			"depicts": "car",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#29a469",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/service-4.png": {
+			"kind": "icon",
+			"depicts": "grid layout",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#29a469",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/service-6.png": {
+			"kind": "icon",
+			"depicts": "window",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#29a469",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/testimonial-image-1.png": {
+			"kind": "photo",
+			"depicts": "smiling woman"
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/09/testimonial-image-2.png": {
+			"kind": "photo",
+			"depicts": "woman portrait"
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/facebook-f.png": {
+			"kind": "social",
+			"depicts": "facebook f"
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/instagram.png": {
+			"kind": "social",
+			"depicts": "instagram camera"
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/linkedin-in.png": {
+			"kind": "social",
+			"depicts": "linkedin in"
+		},
+		"https://zakrademos.com/cleaner-v2/wp-content/uploads/sites/121/2023/10/twitter.png": {
+			"kind": "social",
+			"depicts": "twitter bird"
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/about-3.png": {
+			"kind": "photo",
+			"depicts": "hands holding mugs"
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/about2.png": {
+			"kind": "photo",
+			"depicts": "woman drinking coffee"
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Awesome-Aroma.png": {
+			"kind": "icon",
+			"depicts": "steaming coffee cup",
+			"shape": "circle",
+			"glyph": "#020202",
+			"fill": "#efe8db",
+			"scale": 0.47
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/beans-underline.png": {
+			"kind": "ornament",
+			"depicts": "coffee bean divider"
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Excellent-Gringing.png": {
+			"kind": "icon",
+			"depicts": "coffee grinder",
+			"shape": "circle",
+			"glyph": "#050505",
+			"fill": "#efe8db",
+			"scale": 0.57
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Frame-308.png": {
+			"kind": "icon",
+			"depicts": "medal with star",
+			"shape": "circle",
+			"glyph": "#050504",
+			"fill": "#efe8db",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Free-Delivery.png": {
+			"kind": "icon",
+			"depicts": "delivery truck",
+			"shape": "circle",
+			"glyph": "#010101",
+			"fill": "#ffffff",
+			"scale": 0.59
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/High-qualit.png": {
+			"kind": "icon",
+			"depicts": "star",
+			"shape": "circle",
+			"glyph": "#010101",
+			"fill": "#ffffff",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/High-Quality.png": {
+			"kind": "icon",
+			"depicts": "diamond with ribbon badge",
+			"shape": "circle",
+			"glyph": "#040403",
+			"fill": "#efe8db",
+			"scale": 0.51
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Money-Back-Guarantee.png": {
+			"kind": "icon",
+			"depicts": "dollar price badge",
+			"shape": "circle",
+			"glyph": "#010101",
+			"fill": "#fefefe",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Proper-Roasting.png": {
+			"kind": "icon",
+			"depicts": "roasted coffee beans",
+			"shape": "circle",
+			"glyph": "#030303",
+			"fill": "#efe8db",
+			"scale": 0.49
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Support.png": {
+			"kind": "icon",
+			"depicts": "clock",
+			"shape": "circle",
+			"glyph": "#010101",
+			"fill": "#ffffff",
+			"scale": 0.54
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/03/Wild-assortment.png": {
+			"kind": "icon",
+			"depicts": "check mark",
+			"shape": "circle",
+			"glyph": "#030303",
+			"fill": "#efe8db",
+			"scale": 0.43
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/06/about-4.png": {
+			"kind": "photo",
+			"depicts": "woman using phone"
+		},
+		"https://zakrademos.com/coffee-shop/wp-content/uploads/sites/184/2024/07/profile4.png": {
+			"kind": "photo",
+			"depicts": "smiling woman with coffee"
+		},
+		"https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/Frame-1.png": {
+			"kind": "icon",
+			"depicts": "map",
+			"shape": "none",
+			"glyph": "#ffb716",
+			"scale": 1
+		},
+		"https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/Frame-2.png": {
+			"kind": "icon",
+			"depicts": "gears",
+			"shape": "none",
+			"glyph": "#ffb716",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/Frame-3.png": {
+			"kind": "icon",
+			"depicts": "bank building",
+			"shape": "none",
+			"glyph": "#ffb716",
+			"scale": 1
+		},
+		"https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/Frame-4.png": {
+			"kind": "icon",
+			"depicts": "delivery truck",
+			"shape": "none",
+			"glyph": "#ffb716",
+			"scale": 1
+		},
+		"https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/Frame-5.png": {
+			"kind": "icon",
+			"depicts": "house",
+			"shape": "none",
+			"glyph": "#ffb716",
+			"scale": 1
+		},
+		"https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/10/Frame.png": {
+			"kind": "icon",
+			"depicts": "office building",
+			"shape": "rounded",
+			"glyph": "#ffffff",
+			"fill": "#ffb716",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-white.png": {
+			"kind": "icon",
+			"depicts": "check mark",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/construction-02/wp-content/uploads/sites/129/2023/11/check-yellow.png": {
+			"kind": "icon",
+			"depicts": "check mark",
+			"shape": "none",
+			"glyph": "#ffb815",
+			"scale": 1
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/10002.png": {
+			"kind": "photo",
+			"depicts": "hard hat"
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/email.png": {
+			"kind": "icon",
+			"depicts": "envelope",
+			"shape": "none",
+			"glyph": "#000000",
+			"scale": 1
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-001-Services-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "icon",
+			"depicts": "arch or gateway",
+			"shape": "none",
+			"glyph": "#fffffe",
+			"scale": 0.43
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-002-Services-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "icon",
+			"depicts": "office building",
+			"shape": "none",
+			"glyph": "#fffefb",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-003-Services-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "icon",
+			"depicts": "wrench",
+			"shape": "none",
+			"glyph": "#fffefd",
+			"scale": 0.38
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-004-Services-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "icon",
+			"depicts": "house",
+			"shape": "none",
+			"glyph": "#fffefd",
+			"scale": 0.43
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-005-Services-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "logo",
+			"depicts": "sail or wave shape"
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-006-Services-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "icon",
+			"depicts": "paintbrush",
+			"shape": "none",
+			"glyph": "#fffefe",
+			"scale": 0.43
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-007-Services-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "icon",
+			"depicts": "flowchart nodes",
+			"shape": "square",
+			"glyph": "#fffefc",
+			"fill": "#ffc40e",
+			"scale": 0.43
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-008-Services-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "icon",
+			"depicts": "paint roller",
+			"shape": "square",
+			"glyph": "#fffefc",
+			"fill": "#ffc40e",
+			"scale": 0.35
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-009-Home-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "icon",
+			"depicts": "person profile",
+			"shape": "square",
+			"glyph": "#010000",
+			"fill": "#ffc40e",
+			"scale": 0.61
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-010-Home-Zakra-Construction-zakrademos.com_.png": {
+			"kind": "icon",
+			"depicts": "thumbs up",
+			"shape": "square",
+			"glyph": "#030300",
+			"fill": "#ffc40e",
+			"scale": 0.59
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/FireShot-Pro-Webpage-Capture-011-Contact-Zakra-Construction-zakrademos.com_-e1711885745148.png": {
+			"kind": "icon",
+			"depicts": "calculator",
+			"shape": "none",
+			"glyph": "#010100",
+			"scale": 0.9
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/home.png": {
+			"kind": "icon",
+			"depicts": "house",
+			"shape": "square",
+			"glyph": "#ffffff",
+			"fill": "#ffc40e",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/maps-and-flags.png": {
+			"kind": "icon",
+			"depicts": "map pin",
+			"shape": "none",
+			"glyph": "#000000",
+			"scale": 1
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/phone-call-e1711874070821.png": {
+			"kind": "icon",
+			"depicts": "telephone handset",
+			"shape": "none",
+			"glyph": "#000000",
+			"scale": 1
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/Screenshot-2024-03-30-022104.png": {
+			"kind": "icon",
+			"depicts": "archway building",
+			"shape": "none",
+			"glyph": "#ffc40e",
+			"scale": 0.89
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/Screenshot-2024-03-30-022238.png": {
+			"kind": "icon",
+			"depicts": "office building",
+			"shape": "square",
+			"glyph": "#fffefd",
+			"fill": "#ffc40e",
+			"scale": 0.82
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/Screenshot-2024-03-30-034345.png": {
+			"kind": "icon",
+			"depicts": "star",
+			"shape": "square",
+			"glyph": "#010000",
+			"fill": "#ffc40e",
+			"scale": 0.73
+		},
+		"https://zakrademos.com/construction-v3/wp-content/uploads/sites/155/2024/03/wrench.png": {
+			"kind": "icon",
+			"depicts": "wrench",
+			"shape": "none",
+			"glyph": "#ffc40e",
+			"scale": 1
+		},
+		"https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/2000.png": {
+			"kind": "number",
+			"depicts": "year 2000"
+		},
+		"https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/2006.png": {
+			"kind": "number",
+			"depicts": "year 2006"
+		},
+		"https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/2012.png": {
+			"kind": "number",
+			"depicts": "year 2012"
+		},
+		"https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/certificate.png": {
+			"kind": "icon",
+			"depicts": "award badge",
+			"shape": "circle",
+			"glyph": "#d00e4d",
+			"fill": "#fff5f5",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/emeergency-call.png": {
+			"kind": "icon",
+			"depicts": "phone call",
+			"shape": "circle",
+			"glyph": "#d10e4d",
+			"fill": "#fff5f5",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/proffessional.png": {
+			"kind": "icon",
+			"depicts": "open book",
+			"shape": "circle",
+			"glyph": "#cf0e4c",
+			"fill": "#fff5f5",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator-white.png": {
+			"kind": "ornament",
+			"depicts": "white horizontal bar"
+		},
+		"https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/seperator.png": {
+			"kind": "ornament",
+			"depicts": "pink horizontal bar"
+		},
+		"https://zakrademos.com/counselling-v2/wp-content/uploads/sites/124/2023/10/shield.png": {
+			"kind": "icon",
+			"depicts": "shield with cross",
+			"shape": "circle",
+			"glyph": "#d00d4c",
+			"fill": "#fff5f5",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/cosmetic-restoration-icon.png": {
+			"kind": "icon",
+			"depicts": "tooth with sparkles",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#0058a2",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/endodontics-icon.png": {
+			"kind": "icon",
+			"depicts": "tooth with wifi",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#0058a2",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/maxillo.png": {
+			"kind": "icon",
+			"depicts": "tooth with gear",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#00519e",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/oral-pathalogy-icon.png": {
+			"kind": "icon",
+			"depicts": "sparkling tooth",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#0058a2",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/periodontics-icons.png": {
+			"kind": "icon",
+			"depicts": "tooth with braces",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#0058a2",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/dentico/wp-content/uploads/sites/118/2022/12/stars.png": {
+			"kind": "ornament",
+			"depicts": "five star rating"
+		},
+		"https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/Group-1.png": {
+			"kind": "ornament",
+			"depicts": "five star rating"
+		},
+		"https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-analytics.png": {
+			"kind": "icon",
+			"depicts": "growth line chart",
+			"shape": "circle",
+			"glyph": "#f9f7fd",
+			"fill": "#7963e0",
+			"scale": 0.55
+		},
+		"https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-email.png": {
+			"kind": "icon",
+			"depicts": "envelope with arrows",
+			"shape": "circle",
+			"glyph": "#fcfcfe",
+			"fill": "#7963e0",
+			"scale": 0.55
+		},
+		"https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-rocket.png": {
+			"kind": "icon",
+			"depicts": "rocket",
+			"shape": "circle",
+			"glyph": "#f8f6fd",
+			"fill": "#7963e0",
+			"scale": 0.46
+		},
+		"https://zakrademos.com/digital-marketing-02/wp-content/uploads/sites/106/2021/12/ico-socialmedia.png": {
+			"kind": "icon",
+			"depicts": "megaphone",
+			"shape": "circle",
+			"glyph": "#f7f6fd",
+			"fill": "#7963e0",
+			"scale": 0.49
+		},
+		"https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10002.png": {
+			"kind": "icon",
+			"depicts": "drone",
+			"shape": "none",
+			"glyph": "#f36952",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10003.png": {
+			"kind": "icon",
+			"depicts": "banknotes money",
+			"shape": "none",
+			"glyph": "#f46953",
+			"scale": 0.9
+		},
+		"https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/10004.png": {
+			"kind": "icon",
+			"depicts": "clock speed",
+			"shape": "none",
+			"glyph": "#f46952",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/drone-02/wp-content/uploads/sites/148/2024/04/ultra.png": {
+			"kind": "icon",
+			"depicts": "4k video camera",
+			"shape": "none",
+			"glyph": "#f46953",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/10001.jpg": {
+			"kind": "other",
+			"depicts": "four tiled category panels"
+		},
+		"https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-26-032329.png": {
+			"kind": "icon",
+			"depicts": "open book",
+			"shape": "circle",
+			"glyph": "#b5d2f1",
+			"fill": "#74ace7",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-26-032457.png": {
+			"kind": "icon",
+			"depicts": "bank building",
+			"shape": "circle",
+			"glyph": "#b6d2f1",
+			"fill": "#73abe6",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155617.png": {
+			"kind": "icon",
+			"depicts": "person profile",
+			"shape": "circle",
+			"glyph": "#b6d3f1",
+			"fill": "#73abe6",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155733.png": {
+			"kind": "icon",
+			"depicts": "thumbs up",
+			"shape": "circle",
+			"glyph": "#b5d3f1",
+			"fill": "#73abe6",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/education-02/wp-content/uploads/sites/147/2024/03/Screenshot-2024-03-27-155843.png": {
+			"kind": "icon",
+			"depicts": "graduation cap",
+			"shape": "circle",
+			"glyph": "#b4d2f1",
+			"fill": "#72abe6",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_assignment.png": {
+			"kind": "icon",
+			"depicts": "clipboard with lines",
+			"shape": "rounded",
+			"glyph": "#f32d2d",
+			"fill": "#fcd5d5",
+			"scale": 0.41
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_award.png": {
+			"kind": "icon",
+			"depicts": "trophy cup",
+			"shape": "rounded",
+			"glyph": "#04c4ff",
+			"fill": "#dbf2fb",
+			"scale": 0.36
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_book.png": {
+			"kind": "icon",
+			"depicts": "stacked books",
+			"shape": "rounded",
+			"glyph": "#fdc801",
+			"fill": "#feefcf",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_certificate.png": {
+			"kind": "icon",
+			"depicts": "star bookmark book",
+			"shape": "rounded",
+			"glyph": "#f20693",
+			"fill": "#f9dcee",
+			"scale": 0.42
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_communicate.png": {
+			"kind": "icon",
+			"depicts": "chat speech bubble",
+			"shape": "rounded",
+			"glyph": "#04c4ff",
+			"fill": "#dcf4fb",
+			"scale": 0.42
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_countries.png": {
+			"kind": "icon",
+			"depicts": "globe with continents",
+			"shape": "rounded",
+			"glyph": "#f20492",
+			"fill": "#f9ddee",
+			"scale": 0.42
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_courses.png": {
+			"kind": "icon",
+			"depicts": "bookmark card",
+			"shape": "rounded",
+			"glyph": "#f32c2c",
+			"fill": "#fbd3d3",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_expert.png": {
+			"kind": "icon",
+			"depicts": "graduation cap",
+			"shape": "rounded",
+			"glyph": "#f32b2b",
+			"fill": "#fcd5d5",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_laptop.png": {
+			"kind": "icon",
+			"depicts": "laptop computer",
+			"shape": "rounded",
+			"glyph": "#f20491",
+			"fill": "#f9ddee",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_learners.png": {
+			"kind": "icon",
+			"depicts": "add user",
+			"shape": "rounded",
+			"glyph": "#fdc801",
+			"fill": "#feefcf",
+			"scale": 0.49
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_play.png": {
+			"kind": "icon",
+			"depicts": "play button",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#ffffff",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_quiz.png": {
+			"kind": "icon",
+			"depicts": "award ribbon badge",
+			"shape": "rounded",
+			"glyph": "#05c4ff",
+			"fill": "#dcf4fb",
+			"scale": 0.42
+		},
+		"https://zakrademos.com/eduskill/wp-content/uploads/sites/113/2022/01/icon_quotes.png": {
+			"kind": "icon",
+			"depicts": "quotation marks",
+			"shape": "none",
+			"glyph": "#fdc900",
+			"scale": 0.63
+		},
+		"https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/one.png": {
+			"kind": "number",
+			"depicts": "digit one"
+		},
+		"https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/three.png": {
+			"kind": "number",
+			"depicts": "digit three"
+		},
+		"https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/two.png": {
+			"kind": "number",
+			"depicts": "digit two"
+		},
+		"https://zakrademos.com/event-marketing/wp-content/uploads/sites/120/2023/10/Rating.png": {
+			"kind": "ornament",
+			"depicts": "five star rating"
+		},
+		"https://zakrademos.com/event-marketing/wp-content/uploads/sites/120/2023/12/Partner-image-6.png": {
+			"kind": "logo",
+			"depicts": "Elevate Education wordmark"
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/icon-1.png": {
+			"kind": "icon",
+			"depicts": "dumbbell",
+			"shape": "none",
+			"glyph": "#f67944",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/icon-2.png": {
+			"kind": "icon",
+			"depicts": "food and drink",
+			"shape": "none",
+			"glyph": "#f57944",
+			"scale": 1
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/icon-3.png": {
+			"kind": "icon",
+			"depicts": "cocktail glass",
+			"shape": "none",
+			"glyph": "#f67a44",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/icon-4.png": {
+			"kind": "icon",
+			"depicts": "heart with pulse",
+			"shape": "none",
+			"glyph": "#f67a45",
+			"scale": 0.86
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/tick-icon.png": {
+			"kind": "icon",
+			"depicts": "check mark",
+			"shape": "circle",
+			"glyph": "#fef9f6",
+			"fill": "#f67a45",
+			"scale": 0.39
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/03/Facebook_alt.png": {
+			"kind": "social",
+			"depicts": "facebook f mark"
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/03/linkedin.png": {
+			"kind": "social",
+			"depicts": "linkedin in mark"
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/03/testimonial-1.png": {
+			"kind": "photo",
+			"depicts": "woman in workout clothes"
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/03/testimonial-2.png": {
+			"kind": "photo",
+			"depicts": "woman in gym"
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/03/testimonial-3.png": {
+			"kind": "photo",
+			"depicts": "woman boxing portrait"
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/03/testimonial-4.png": {
+			"kind": "photo",
+			"depicts": "woman posing gym"
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/03/twitter.png": {
+			"kind": "social",
+			"depicts": "twitter bird"
+		},
+		"https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/03/Youtube.png": {
+			"kind": "social",
+			"depicts": "youtube play button"
+		},
+		"https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_decor.png": {
+			"kind": "icon",
+			"depicts": "leaf",
+			"shape": "circle",
+			"glyph": "#4d6535",
+			"fill": "#f4f4f4",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_delivered.png": {
+			"kind": "icon",
+			"depicts": "delivery truck",
+			"shape": "circle",
+			"glyph": "#4e6636",
+			"fill": "#f4f4f4",
+			"scale": 0.43
+		},
+		"https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_order.png": {
+			"kind": "icon",
+			"depicts": "shopping cart plus",
+			"shape": "circle",
+			"glyph": "#4c6534",
+			"fill": "#f4f4f4",
+			"scale": 0.46
+		},
+		"https://zakrademos.com/flora/wp-content/uploads/sites/114/2022/03/icon_plant.png": {
+			"kind": "icon",
+			"depicts": "potted plant",
+			"shape": "circle",
+			"glyph": "#4c6535",
+			"fill": "#f4f4f4",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/charity-header-1.png": {
+			"kind": "logo",
+			"depicts": "charity a path wordmark"
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/CleanShot-2024-04-03-at-17.18.29-1.png": {
+			"kind": "social",
+			"depicts": "LinkedIn in"
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/divider.png": {
+			"kind": "ornament",
+			"depicts": "horizontal rule divider"
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/facebook-follow.png": {
+			"kind": "social",
+			"depicts": "Facebook f"
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/save-a-child.png": {
+			"kind": "logo",
+			"depicts": "save a child wordmark"
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-00-50-47.png": {
+			"kind": "icon",
+			"depicts": "group of people",
+			"shape": "square",
+			"glyph": "#fffefe",
+			"fill": "#f06871",
+			"scale": 0.82
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-00-51-22.png": {
+			"kind": "icon",
+			"depicts": "book",
+			"shape": "square",
+			"glyph": "#fffdfd",
+			"fill": "#f06871",
+			"scale": 0.72
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-00-51-45.png": {
+			"kind": "icon",
+			"depicts": "dollar sign",
+			"shape": "square",
+			"glyph": "#fffdfd",
+			"fill": "#f06871",
+			"scale": 0.83
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-22-29.png": {
+			"kind": "icon",
+			"depicts": "book",
+			"shape": "none",
+			"glyph": "#ef3c49",
+			"scale": 0.49
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-39-00.png": {
+			"kind": "icon",
+			"depicts": "office building",
+			"shape": "none",
+			"glyph": "#ef3c49",
+			"scale": 0.52
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-39-29.png": {
+			"kind": "icon",
+			"depicts": "bookmark",
+			"shape": "none",
+			"glyph": "#ef3d4a",
+			"scale": 0.45
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-40-00.png": {
+			"kind": "icon",
+			"depicts": "water drop",
+			"shape": "none",
+			"glyph": "#ef3d4a",
+			"scale": 0.42
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-40-40.png": {
+			"kind": "icon",
+			"depicts": "user profile",
+			"shape": "none",
+			"glyph": "#ef3d4a",
+			"scale": 0.43
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-15-41-29.png": {
+			"kind": "icon",
+			"depicts": "house",
+			"shape": "none",
+			"glyph": "#ef3c49",
+			"scale": 0.47
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-16-14-49.png": {
+			"kind": "social",
+			"depicts": "Instagram camera"
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/Screenshot-at-Apr-03-17-44-28.png": {
+			"kind": "social",
+			"depicts": "Twitter bird"
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/twitter-follow-1.png": {
+			"kind": "social",
+			"depicts": "LinkedIn in"
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/twitter-follow.png": {
+			"kind": "social",
+			"depicts": "Twitter bird"
+		},
+		"https://zakrademos.com/foundation-v2/wp-content/uploads/sites/152/2024/04/video-play.png": {
+			"kind": "icon",
+			"depicts": "play button",
+			"shape": "circle",
+			"glyph": "#cccbca",
+			"fill": "#fcfcfc",
+			"scale": 0.76
+		},
+		"https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Image-Placeholder-1-1.png": {
+			"kind": "photo",
+			"depicts": "woman in black"
+		},
+		"https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Image-Placeholder-2.png": {
+			"kind": "photo",
+			"depicts": "woman by cars"
+		},
+		"https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Image-Placeholder-3.png": {
+			"kind": "photo",
+			"depicts": "man in suit"
+		},
+		"https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/04/Image-Placeholder.png": {
+			"kind": "photo",
+			"depicts": "man in coat"
+		},
+		"https://zakrademos.com/gamer/wp-content/uploads/sites/185/2024/07/wp2698503.jpg": {
+			"kind": "logo",
+			"depicts": "DOTA 2 wordmark"
+		},
+		"https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10002.png": {
+			"kind": "logo",
+			"depicts": "Smile wordmark"
+		},
+		"https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/10003.png": {
+			"kind": "icon",
+			"depicts": "play button",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#ffffff",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/Screenshot-2024-04-14-125618.png": {
+			"kind": "icon",
+			"depicts": "gift box",
+			"shape": "circle",
+			"glyph": "#f0b3cd",
+			"fill": "#ec437a",
+			"scale": 0.41
+		},
+		"https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/Screenshot-2024-04-14-125648.png": {
+			"kind": "icon",
+			"depicts": "repeat arrows",
+			"shape": "circle",
+			"glyph": "#ef8dad",
+			"fill": "#ec467a",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/Screenshot-2024-04-14-125717.png": {
+			"kind": "icon",
+			"depicts": "map pin",
+			"shape": "circle",
+			"glyph": "#f1b3af",
+			"fill": "#ec427a",
+			"scale": 0.34
+		},
+		"https://zakrademos.com/gift-shop-v2/wp-content/uploads/sites/159/2024/04/Screenshot-2024-04-14-125741.png": {
+			"kind": "icon",
+			"depicts": "credit card",
+			"shape": "circle",
+			"glyph": "#f0b4c6",
+			"fill": "#ec3a76",
+			"scale": 0.39
+		},
+		"https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-apples-1.png": {
+			"kind": "icon",
+			"depicts": "apples",
+			"shape": "none",
+			"glyph": "#f8503b",
+			"scale": 0.78
+		},
+		"https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-equipment.png": {
+			"kind": "icon",
+			"depicts": "dumbbell",
+			"shape": "none",
+			"glyph": "#f8503b",
+			"scale": 0.79
+		},
+		"https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-shower-1.png": {
+			"kind": "icon",
+			"depicts": "shower head",
+			"shape": "none",
+			"glyph": "#f8503b",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/icon-swimming-1.png": {
+			"kind": "icon",
+			"depicts": "swimmer in waves",
+			"shape": "none",
+			"glyph": "#f8503b",
+			"scale": 0.76
+		},
+		"https://zakrademos.com/gym-v2/wp-content/uploads/sites/134/2023/10/Johnson-White.png": {
+			"kind": "logo",
+			"depicts": "Johnson White signature"
+		},
+		"https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/award-badge.png": {
+			"kind": "logo",
+			"depicts": "laurel wreath C"
+		},
+		"https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/award.png": {
+			"kind": "logo",
+			"depicts": "gold laurel wreath C"
+		},
+		"https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/in-practise-icon.png": {
+			"kind": "logo",
+			"depicts": "Google Ads logo"
+		},
+		"https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/phone.png": {
+			"kind": "icon",
+			"depicts": "telephone handset",
+			"shape": "none",
+			"glyph": "#000000",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/user-5-1.jpg": {
+			"kind": "photo",
+			"depicts": "smiling woman"
+		},
+		"https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits-1.png": {
+			"kind": "icon",
+			"depicts": "presentation board",
+			"shape": "rounded",
+			"glyph": "#ea730a",
+			"fill": "#fff0d1",
+			"scale": 0.55
+		},
+		"https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits-4.png": {
+			"kind": "icon",
+			"depicts": "smiling woman",
+			"shape": "rounded",
+			"glyph": "#2fbae4",
+			"fill": "#dfeff4",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits2.png": {
+			"kind": "icon",
+			"depicts": "stacked books",
+			"shape": "rounded",
+			"glyph": "#8b90b8",
+			"fill": "#e8eaf6",
+			"scale": 0.53
+		},
+		"https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits3.png": {
+			"kind": "icon",
+			"depicts": "school building",
+			"shape": "rounded",
+			"glyph": "#dd50a4",
+			"fill": "#f8e1ef",
+			"scale": 0.61
+		},
+		"https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Parents.png": {
+			"kind": "icon",
+			"depicts": "group with heart",
+			"shape": "rounded",
+			"glyph": "#dd50a4",
+			"fill": "#f8e1ef",
+			"scale": 0.58
+		},
+		"https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png": {
+			"kind": "ornament",
+			"depicts": "five star rating"
+		},
+		"https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Seperator.png": {
+			"kind": "ornament",
+			"depicts": "orange horizontal line"
+		},
+		"https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Teachers.png": {
+			"kind": "icon",
+			"depicts": "woman with bun",
+			"shape": "rounded",
+			"glyph": "#ea7309",
+			"fill": "#fff0d1",
+			"scale": 0.67
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/bankfinancial-icon.png": {
+			"kind": "icon",
+			"depicts": "contract with bank",
+			"shape": "none",
+			"glyph": "#b99452",
+			"scale": 1
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/construction-icon.png": {
+			"kind": "icon",
+			"depicts": "crane and buildings",
+			"shape": "none",
+			"glyph": "#b89452",
+			"scale": 1
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/contact-icon-1.png": {
+			"kind": "icon",
+			"depicts": "phone handset",
+			"shape": "circle",
+			"glyph": "#6f9092",
+			"fill": "#fdfefe",
+			"scale": 0.47
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/contact-icon-2.png": {
+			"kind": "icon",
+			"depicts": "envelope",
+			"shape": "circle",
+			"glyph": "#c6d3d4",
+			"fill": "#fefefe",
+			"scale": 0.45
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/corporate-icon.png": {
+			"kind": "icon",
+			"depicts": "office building with coins",
+			"shape": "none",
+			"glyph": "#b89452",
+			"scale": 1
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/divorcelaw-icon.png": {
+			"kind": "icon",
+			"depicts": "family with broken heart",
+			"shape": "none",
+			"glyph": "#b89452",
+			"scale": 1
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/ecommerce-icon.png": {
+			"kind": "icon",
+			"depicts": "online shopping monitor",
+			"shape": "none",
+			"glyph": "#b99452",
+			"scale": 1
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/family-law.png": {
+			"kind": "icon",
+			"depicts": "family with scales",
+			"shape": "none",
+			"glyph": "#b89452",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/healthcare-icon.png": {
+			"kind": "icon",
+			"depicts": "doctor with stethoscope",
+			"shape": "none",
+			"glyph": "#b89452",
+			"scale": 1
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/hero-icon-1.png": {
+			"kind": "icon",
+			"depicts": "map pin",
+			"shape": "circle",
+			"glyph": "#53664d",
+			"fill": "#b89552",
+			"scale": 0.61
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/hero-icon-2.png": {
+			"kind": "icon",
+			"depicts": "envelope",
+			"shape": "circle",
+			"glyph": "#425c4c",
+			"fill": "#b89552",
+			"scale": 0.61
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/hero-icon-3.png": {
+			"kind": "icon",
+			"depicts": "phone handset",
+			"shape": "circle",
+			"glyph": "#53664d",
+			"fill": "#b79552",
+			"scale": 0.63
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/insurance-icon.png": {
+			"kind": "icon",
+			"depicts": "scroll with seal",
+			"shape": "none",
+			"glyph": "#b89452",
+			"scale": 1
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/realstate-icon.png": {
+			"kind": "icon",
+			"depicts": "documents and house",
+			"shape": "none",
+			"glyph": "#fefefd",
+			"scale": 0.94
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-1.png": {
+			"kind": "icon",
+			"depicts": "gavel",
+			"shape": "none",
+			"glyph": "#fefefe",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/law-firm-v2/wp-content/uploads/sites/140/2024/02/separator-2.png": {
+			"kind": "ornament",
+			"depicts": "gavel on divider"
+		},
+		"https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/award-i2.png": {
+			"kind": "logo",
+			"depicts": "ecocode cubes"
+		},
+		"https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/award-i3.png": {
+			"kind": "logo",
+			"depicts": "quest diamond"
+		},
+		"https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/award-i4.png": {
+			"kind": "logo",
+			"depicts": "madrin gd monogram"
+		},
+		"https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/award-l1.png": {
+			"kind": "logo",
+			"depicts": "fifthflour wordmark skyline"
+		},
+		"https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/icon-1.png": {
+			"kind": "icon",
+			"depicts": "briefcase",
+			"shape": "none",
+			"glyph": "#b89b5e",
+			"scale": 1
+		},
+		"https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/icon-2.png": {
+			"kind": "icon",
+			"depicts": "bank building",
+			"shape": "none",
+			"glyph": "#b89b5e",
+			"scale": 1
+		},
+		"https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/icon-3.png": {
+			"kind": "icon",
+			"depicts": "leaf",
+			"shape": "none",
+			"glyph": "#b89b5e",
+			"scale": 1
+		},
+		"https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/icon-4.png": {
+			"kind": "icon",
+			"depicts": "flame",
+			"shape": "none",
+			"glyph": "#b89b5e",
+			"scale": 1
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-1.jpg": {
+			"kind": "icon",
+			"depicts": "Chrome browser mark",
+			"shape": "none",
+			"glyph": "#e22102",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-10.png": {
+			"kind": "icon",
+			"depicts": "abstract swoosh shape",
+			"shape": "none",
+			"glyph": "#e12000",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-11-1.png": {
+			"kind": "icon",
+			"depicts": "image file",
+			"shape": "none",
+			"glyph": "#d50006",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-11.png": {
+			"kind": "icon",
+			"depicts": "camera",
+			"shape": "none",
+			"glyph": "#e02000",
+			"scale": 0.95
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-2.jpg": {
+			"kind": "icon",
+			"depicts": "gear",
+			"shape": "none",
+			"glyph": "#e22101",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-3.jpg": {
+			"kind": "icon",
+			"depicts": "camera",
+			"shape": "none",
+			"glyph": "#e12001",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-4.jpg": {
+			"kind": "icon",
+			"depicts": "video camera",
+			"shape": "none",
+			"glyph": "#e12001",
+			"scale": 1
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-5.jpg": {
+			"kind": "icon",
+			"depicts": "camera window",
+			"shape": "none",
+			"glyph": "#e22103",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-6.jpg": {
+			"kind": "icon",
+			"depicts": "shopping bag",
+			"shape": "none",
+			"glyph": "#e12001",
+			"scale": 1
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-7.png": {
+			"kind": "icon",
+			"depicts": "gallery images",
+			"shape": "none",
+			"glyph": "#e12000",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-8.png": {
+			"kind": "icon",
+			"depicts": "battery",
+			"shape": "none",
+			"glyph": "#e12000",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/megadrone-v2/wp-content/uploads/sites/137/2024/01/icon-9.png": {
+			"kind": "icon",
+			"depicts": "browser camera",
+			"shape": "none",
+			"glyph": "#e22000",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/07/team-9.jpg": {
+			"kind": "photo",
+			"depicts": "smiling woman portrait"
+		},
+		"https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png": {
+			"kind": "icon",
+			"depicts": "padlock",
+			"shape": "none",
+			"glyph": "#f26d22",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock.png": {
+			"kind": "icon",
+			"depicts": "padlock",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/ratings.png": {
+			"kind": "ornament",
+			"depicts": "five star rating"
+		},
+		"https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/facebook-icons.png": {
+			"kind": "social",
+			"depicts": "facebook logo"
+		},
+		"https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/icon_location.png": {
+			"kind": "icon",
+			"depicts": "location pin",
+			"shape": "circle",
+			"glyph": "#868e96",
+			"fill": "#ffffff",
+			"scale": 0.46
+		},
+		"https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/icon_mail.png": {
+			"kind": "icon",
+			"depicts": "envelope",
+			"shape": "circle",
+			"glyph": "#868e96",
+			"fill": "#ffffff",
+			"scale": 0.38
+		},
+		"https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/icon_phone.png": {
+			"kind": "icon",
+			"depicts": "phone handset",
+			"shape": "circle",
+			"glyph": "#868e96",
+			"fill": "#ffffff",
+			"scale": 0.38
+		},
+		"https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/instagram-icon.png": {
+			"kind": "social",
+			"depicts": "instagram camera"
+		},
+		"https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/linkedin-icon.png": {
+			"kind": "social",
+			"depicts": "linkedin logo"
+		},
+		"https://zakrademos.com/minimal-portfolio-02/wp-content/uploads/sites/107/2021/12/twitter-icon.png": {
+			"kind": "social",
+			"depicts": "twitter bird"
+		},
+		"https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/mic.png": {
+			"kind": "icon",
+			"depicts": "microphone",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/arrow.png": {
+			"kind": "icon",
+			"depicts": "right arrow",
+			"shape": "none",
+			"glyph": "#064e41",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/celebrate-health.png": {
+			"kind": "icon",
+			"depicts": "heart",
+			"shape": "circle",
+			"glyph": "#c4cecd",
+			"fill": "#fefefe",
+			"scale": 0.38
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Charlie-Green.png": {
+			"kind": "photo",
+			"depicts": "woman portrait"
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/exercise.png": {
+			"kind": "icon",
+			"depicts": "person cycling",
+			"shape": "circle",
+			"glyph": "#095043",
+			"fill": "#f8f8f8",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/explore-services.png": {
+			"kind": "icon",
+			"depicts": "magnifying glass",
+			"shape": "circle",
+			"glyph": "#738c87",
+			"fill": "#f9fafa",
+			"scale": 0.36
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/get-brief-info.png": {
+			"kind": "icon",
+			"depicts": "open book",
+			"shape": "circle",
+			"glyph": "#a7b6b3",
+			"fill": "#fbfcfb",
+			"scale": 0.36
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/happy-clients.png": {
+			"kind": "icon",
+			"depicts": "grinning face",
+			"shape": "circle",
+			"glyph": "#5c7872",
+			"fill": "#fcfdfd",
+			"scale": 0.4
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/improve-health.png": {
+			"kind": "icon",
+			"depicts": "heart",
+			"shape": "circle",
+			"glyph": "#064e41",
+			"fill": "#f8f8f8",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Kathryn-Murphy.png": {
+			"kind": "photo",
+			"depicts": "smiling woman portrait"
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Marlie-Green.png": {
+			"kind": "photo",
+			"depicts": "woman portrait"
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/nutrition-program.png": {
+			"kind": "icon",
+			"depicts": "bowl of soup",
+			"shape": "circle",
+			"glyph": "#ccd4d2",
+			"fill": "#fefefe",
+			"scale": 0.38
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/nutrition1.png": {
+			"kind": "icon",
+			"depicts": "bowl of soup",
+			"shape": "circle",
+			"glyph": "#074f42",
+			"fill": "#f8f8f8",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/our-history.png": {
+			"kind": "icon",
+			"depicts": "history clock",
+			"shape": "circle",
+			"glyph": "#01493b",
+			"fill": "#ffffff",
+			"scale": 0.38
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/our-mission.png": {
+			"kind": "icon",
+			"depicts": "target",
+			"shape": "circle",
+			"glyph": "#095043",
+			"fill": "#ffffff",
+			"scale": 0.38
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/our-vision.png": {
+			"kind": "icon",
+			"depicts": "heart-eyes smiley",
+			"shape": "circle",
+			"glyph": "#084f42",
+			"fill": "#ffffff",
+			"scale": 0.38
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/Philipp-Wthrich.png": {
+			"kind": "photo",
+			"depicts": "man with glasses"
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/physical-activities.png": {
+			"kind": "icon",
+			"depicts": "standing person",
+			"shape": "circle",
+			"glyph": "#084f42",
+			"fill": "#f8f8f8",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/schedule-meeting.png": {
+			"kind": "icon",
+			"depicts": "calendar heart",
+			"shape": "circle",
+			"glyph": "#a5b5b2",
+			"fill": "#fefefe",
+			"scale": 0.35
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/support.png": {
+			"kind": "icon",
+			"depicts": "smiling face",
+			"shape": "circle",
+			"glyph": "#074f42",
+			"fill": "#f8f8f8",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/verified.png": {
+			"kind": "icon",
+			"depicts": "medal with star",
+			"shape": "circle",
+			"glyph": "#6f8983",
+			"fill": "#fdfdfd",
+			"scale": 0.4
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/workout-sessions.png": {
+			"kind": "icon",
+			"depicts": "running person",
+			"shape": "circle",
+			"glyph": "#abb9b6",
+			"fill": "#fbfcfc",
+			"scale": 0.36
+		},
+		"https://zakrademos.com/nutricoach/wp-content/uploads/sites/116/2022/11/workout.png": {
+			"kind": "icon",
+			"depicts": "dumbbell letter H",
+			"shape": "circle",
+			"glyph": "#095043",
+			"fill": "#f8f8f8",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/check.png": {
+			"kind": "icon",
+			"depicts": "check mark",
+			"shape": "none",
+			"glyph": "#006639",
+			"scale": 0.74
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Coaching.png": {
+			"kind": "icon",
+			"depicts": "briefcase",
+			"shape": "none",
+			"glyph": "#005e35",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Daily-Eating-Habits.png": {
+			"kind": "icon",
+			"depicts": "bowl of food",
+			"shape": "none",
+			"glyph": "#005e35",
+			"scale": 0.86
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Education-Qualifications.png": {
+			"kind": "icon",
+			"depicts": "graduation cap",
+			"shape": "none",
+			"glyph": "#005e35",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Email.png": {
+			"kind": "icon",
+			"depicts": "envelope",
+			"shape": "none",
+			"glyph": "#006739",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Health-Goal-Discussion.png": {
+			"kind": "icon",
+			"depicts": "heart with pulse",
+			"shape": "none",
+			"glyph": "#005e35",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Hero.png": {
+			"kind": "ornament",
+			"depicts": "sparkle stars"
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/message.png": {
+			"kind": "icon",
+			"depicts": "chat bubble check",
+			"shape": "none",
+			"glyph": "#006639",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Questions.png": {
+			"kind": "icon",
+			"depicts": "question mark",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#006639",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Quick-Diet-Suggestions.png": {
+			"kind": "icon",
+			"depicts": "dumbbell",
+			"shape": "none",
+			"glyph": "#005e35",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Quote.png": {
+			"kind": "icon",
+			"depicts": "quotation marks",
+			"shape": "none"
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Rating.png": {
+			"kind": "ornament",
+			"depicts": "five green stars"
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/Simple-Nutrition-Tips.png": {
+			"kind": "icon",
+			"depicts": "apple",
+			"shape": "none",
+			"glyph": "#005e35",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/User-1.jpg": {
+			"kind": "photo",
+			"depicts": "woman in sun hat"
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/User-2.jpg": {
+			"kind": "photo",
+			"depicts": "smiling older man"
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/User-3.jpg": {
+			"kind": "photo",
+			"depicts": "smiling woman portrait"
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/User-5.jpg": {
+			"kind": "photo",
+			"depicts": "smiling woman"
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/user-6.jpg": {
+			"kind": "photo",
+			"depicts": "smiling woman with towel"
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/user-7.jpg": {
+			"kind": "photo",
+			"depicts": "woman in green shirt"
+		},
+		"https://zakrademos.com/nutrition-coach/wp-content/uploads/sites/195/2026/08/user-8.jpg": {
+			"kind": "photo",
+			"depicts": "smiling bearded man"
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/design.png": {
+			"kind": "icon",
+			"depicts": "paintbrush in window",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/focus.png": {
+			"kind": "icon",
+			"depicts": "crosshair",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#000000",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/pattern.png": {
+			"kind": "other",
+			"depicts": "dot grid pattern"
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/quote.png": {
+			"kind": "icon",
+			"depicts": "quote marks",
+			"shape": "none"
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/seo.png": {
+			"kind": "icon",
+			"depicts": "SEO webpage",
+			"shape": "none"
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/social-marketing.png": {
+			"kind": "icon",
+			"depicts": "megaphone, speech bubbles",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/spectacles-bg-1.png": {
+			"kind": "icon",
+			"depicts": "eyeglasses",
+			"shape": "none",
+			"glyph": "#000000",
+			"scale": 0.95
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/support.png": {
+			"kind": "icon",
+			"depicts": "headset support person",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/target-line.png": {
+			"kind": "icon",
+			"depicts": "target with arrow",
+			"shape": "none",
+			"glyph": "#000000",
+			"scale": 1
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/UI.png": {
+			"kind": "icon",
+			"depicts": "ruler and pencil",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/wordpress-1.png": {
+			"kind": "social",
+			"depicts": "WordPress logo"
+		},
+		"https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/brock-austin.png": {
+			"kind": "photo",
+			"depicts": "smiling man"
+		},
+		"https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/instructors.png": {
+			"kind": "icon",
+			"depicts": "person silhouette",
+			"shape": "circle",
+			"glyph": "#311084",
+			"fill": "#e6e6f9",
+			"scale": 0.47
+		},
+		"https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/john-mayer.png": {
+			"kind": "photo",
+			"depicts": "man with arms crossed"
+		},
+		"https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/lifetime-access-1.png": {
+			"kind": "icon",
+			"depicts": "clock",
+			"shape": "circle",
+			"glyph": "#311084",
+			"fill": "#e7e6f9",
+			"scale": 0.47
+		},
+		"https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/online-course-1.png": {
+			"kind": "icon",
+			"depicts": "open book",
+			"shape": "circle",
+			"glyph": "#311084",
+			"fill": "#e7e6f9",
+			"scale": 0.47
+		},
+		"https://zakrademos.com/online-course-02/wp-content/uploads/sites/109/2022/01/tom-watts.png": {
+			"kind": "photo",
+			"depicts": "man with glasses"
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Advanced-Instructors.png": {
+			"kind": "icon",
+			"depicts": "book",
+			"shape": "none",
+			"glyph": "#f77b00",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Business.png": {
+			"kind": "icon",
+			"depicts": "briefcase",
+			"shape": "none",
+			"glyph": "#fe8d00",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Certified-Achievements.png": {
+			"kind": "icon",
+			"depicts": "shield with check",
+			"shape": "none",
+			"glyph": "#ec0404",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Data-Science.png": {
+			"kind": "icon",
+			"depicts": "database",
+			"shape": "none",
+			"glyph": "#28b162",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Design.png": {
+			"kind": "icon",
+			"depicts": "paint palette",
+			"shape": "none",
+			"glyph": "#fd286e",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Development.png": {
+			"kind": "icon",
+			"depicts": "browser window",
+			"shape": "none",
+			"glyph": "#258beb",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Expert-Instructors.png": {
+			"kind": "icon",
+			"depicts": "user group",
+			"shape": "none",
+			"glyph": "#5442ff",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Flexible-Learning-Paths.png": {
+			"kind": "logo",
+			"depicts": "interlinked squares"
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Interactive-Lessons.png": {
+			"kind": "icon",
+			"depicts": "open book",
+			"shape": "none",
+			"glyph": "#f0a521",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Language.png": {
+			"kind": "icon",
+			"depicts": "language translation",
+			"shape": "none",
+			"glyph": "#19bc9c",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Marketing.png": {
+			"kind": "icon",
+			"depicts": "paint palette",
+			"shape": "none",
+			"glyph": "#fd286e",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Music.png": {
+			"kind": "icon",
+			"depicts": "music note",
+			"shape": "none",
+			"glyph": "#9b59b6",
+			"scale": 0.84
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Photography.png": {
+			"kind": "icon",
+			"depicts": "camera",
+			"shape": "none",
+			"glyph": "#f49c12",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Rating_Icon.png": {
+			"kind": "ornament",
+			"depicts": "five star rating"
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Review-User-1.png": {
+			"kind": "photo",
+			"depicts": "smiling man"
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Review-User-2.png": {
+			"kind": "photo",
+			"depicts": "smiling woman"
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Review-User-3.png": {
+			"kind": "photo",
+			"depicts": "woman with glasses"
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Smart-Progress-Tracking.png": {
+			"kind": "icon",
+			"depicts": "bar chart",
+			"shape": "none",
+			"glyph": "#219854",
+			"scale": 0.84
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Students.png": {
+			"kind": "photo",
+			"depicts": "three people portraits"
+		},
+		"https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png": {
+			"kind": "icon",
+			"depicts": "check mark",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#10ba82",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-design.png": {
+			"kind": "icon",
+			"depicts": "marker pen",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-idea.png": {
+			"kind": "icon",
+			"depicts": "light bulb",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-pixel-perfect.png": {
+			"kind": "icon",
+			"depicts": "thumbs up hand",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-research.png": {
+			"kind": "icon",
+			"depicts": "magnifying glass",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-seo-friendly.png": {
+			"kind": "icon",
+			"depicts": "rising bar chart",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-support.png": {
+			"kind": "icon",
+			"depicts": "headset support",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/logo.png": {
+			"kind": "logo",
+			"depicts": "Zakra logo"
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-C.jpg": {
+			"kind": "other",
+			"depicts": "concentric blue rings"
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-D.jpg": {
+			"kind": "other",
+			"depicts": "spiral shell"
+		},
+		"https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/portfolio-E.jpg": {
+			"kind": "photo",
+			"depicts": "dark panel with light"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/accessible-icon.png": {
+			"kind": "icon",
+			"depicts": "key",
+			"shape": "none",
+			"glyph": "#5d49f6",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/assistant-study.png": {
+			"kind": "other",
+			"depicts": "text bar mockup"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/book-open-completion-icon.png": {
+			"kind": "other",
+			"depicts": "faint unclear shape"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/book-open-onlinelms.png": {
+			"kind": "icon",
+			"depicts": "open book",
+			"shape": "none",
+			"glyph": "#5e4af7",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/bubble-tick-icon.png": {
+			"kind": "other",
+			"depicts": "faint unclear shape"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/categories-icon.png": {
+			"kind": "icon",
+			"depicts": "grid layout",
+			"shape": "rounded",
+			"glyph": "#ffffff",
+			"fill": "#5e4af7",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/check-circle-icon.png": {
+			"kind": "icon",
+			"depicts": "check mark",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#5d49f6",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/faqs-icon.png": {
+			"kind": "icon",
+			"depicts": "question mark",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#5d49f6",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/handshake-icon.png": {
+			"kind": "icon",
+			"depicts": "handshake",
+			"shape": "none",
+			"glyph": "#5d49f6",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/infinite-icon.png": {
+			"kind": "icon",
+			"depicts": "infinity symbol",
+			"shape": "none",
+			"glyph": "#5d49f7",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/instructor-icon.png": {
+			"kind": "other",
+			"depicts": "faint unclear shape"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/instructors-icon.png": {
+			"kind": "icon",
+			"depicts": "contact card",
+			"shape": "rounded",
+			"glyph": "#ffffff",
+			"fill": "#5d49f7",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/onlinelms-star-icon.png": {
+			"kind": "icon",
+			"depicts": "orange sparkles",
+			"shape": "none",
+			"glyph": "#f68847",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/path-icon.png": {
+			"kind": "icon",
+			"depicts": "connected nodes",
+			"shape": "none",
+			"glyph": "#5d49f6",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/play-icon.png": {
+			"kind": "icon",
+			"depicts": "play button",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.73
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/pricing-icon.png": {
+			"kind": "icon",
+			"depicts": "dollar coin",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#5d49f6",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/progress-onlinelms.png": {
+			"kind": "icon",
+			"depicts": "line chart",
+			"shape": "none",
+			"glyph": "#5e49f7",
+			"scale": 0.83
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/review-1.png": {
+			"kind": "photo",
+			"depicts": "woman portrait"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/review-2.png": {
+			"kind": "photo",
+			"depicts": "woman portrait"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/reviews-icon.png": {
+			"kind": "ornament",
+			"depicts": "star rating"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/ribbon-certificate-icon.png": {
+			"kind": "icon",
+			"depicts": "award medal",
+			"shape": "none",
+			"glyph": "#5d49f6",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/star-white-icon.png": {
+			"kind": "icon",
+			"depicts": "white sparkles",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/support-icon.png": {
+			"kind": "other",
+			"depicts": "faint outline shape"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/teacher-icons.png": {
+			"kind": "icon",
+			"depicts": "two people",
+			"shape": "none",
+			"glyph": "#5d49f6",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-1-150x150.png": {
+			"kind": "photo",
+			"depicts": "smiling man glasses"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-1.png": {
+			"kind": "photo",
+			"depicts": "smiling man glasses"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-2-150x150.png": {
+			"kind": "photo",
+			"depicts": "woman with long hair"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-2.png": {
+			"kind": "photo",
+			"depicts": "woman with long hair"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-3-150x150.png": {
+			"kind": "photo",
+			"depicts": "smiling woman glasses"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-3.png": {
+			"kind": "photo",
+			"depicts": "smiling woman glasses"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-4-150x150.png": {
+			"kind": "photo",
+			"depicts": "smiling man office"
+		},
+		"https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-4.png": {
+			"kind": "photo",
+			"depicts": "smiling man office"
+		},
+		"https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/credit-card-icon.png": {
+			"kind": "icon",
+			"depicts": "payment card security",
+			"shape": "none",
+			"glyph": "#171717",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/cta-bg-image.png": {
+			"kind": "photo",
+			"depicts": "smartphone product"
+		},
+		"https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/delivery-status-icon.png": {
+			"kind": "icon",
+			"depicts": "package returns",
+			"shape": "none",
+			"glyph": "#171717",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/delivery-truck-icon.png": {
+			"kind": "icon",
+			"depicts": "delivery truck",
+			"shape": "none",
+			"glyph": "#171717",
+			"scale": 1
+		},
+		"https://zakrademos.com/online-shop/wp-content/uploads/sites/158/2024/04/support-icon.png": {
+			"kind": "icon",
+			"depicts": "24-hour phone support",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#171717",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-line-2.png": {
+			"kind": "ornament",
+			"depicts": "white divider lines"
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/about-us-line.png": {
+			"kind": "ornament",
+			"depicts": "yellow divider line"
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/aviator-sunglasses-icon.png": {
+			"kind": "icon",
+			"depicts": "aviator eyeglasses",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/free-delivery-icon.png": {
+			"kind": "icon",
+			"depicts": "zero percent delivery",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/Line.png": {
+			"kind": "ornament",
+			"depicts": "thin horizontal line"
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/member-discount-icon.png": {
+			"kind": "icon",
+			"depicts": "piggy bank discount",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.88
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/money-return-icon.png": {
+			"kind": "icon",
+			"depicts": "hand with money",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.83
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/offers-and-discount-icon.png": {
+			"kind": "icon",
+			"depicts": "gift box discount",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/rectangle-sunglasses-icon.png": {
+			"kind": "icon",
+			"depicts": "cat-eye eyeglasses",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/round-sunglasses-icon.png": {
+			"kind": "icon",
+			"depicts": "round eyeglasses",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/style-line-1.png": {
+			"kind": "ornament",
+			"depicts": "thin horizontal line"
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/style-line.png": {
+			"kind": "ornament",
+			"depicts": "thin horizontal line"
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-1.png": {
+			"kind": "photo",
+			"depicts": "woman portrait"
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-2.png": {
+			"kind": "photo",
+			"depicts": "bearded man portrait"
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-3.png": {
+			"kind": "photo",
+			"depicts": "young man portrait"
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/testimonial-line.png": {
+			"kind": "ornament",
+			"depicts": "thin horizontal line"
+		},
+		"https://zakrademos.com/optigo/wp-content/uploads/sites/174/2024/04/wayfarer-sunglass-1562216-1.png": {
+			"kind": "icon",
+			"depicts": "round eyeglasses",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/client1.png": {
+			"kind": "photo",
+			"depicts": "woman making face"
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/client2.png": {
+			"kind": "photo",
+			"depicts": "smiling woman portrait"
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon1.png": {
+			"kind": "icon",
+			"depicts": "wheelbarrow with soil",
+			"shape": "none",
+			"glyph": "#66bb6a",
+			"scale": 1
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon2.png": {
+			"kind": "icon",
+			"depicts": "shopping bag with bottles",
+			"shape": "none",
+			"glyph": "#66bb6a",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon3.png": {
+			"kind": "icon",
+			"depicts": "eco price tag",
+			"shape": "none",
+			"glyph": "#66bb6a",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon4-oxtqxrntscdzynoy01n8zu16y0yllaf6xgrs5hpzhk.png": {
+			"kind": "icon",
+			"depicts": "water drop",
+			"shape": "none",
+			"glyph": "#65bb69",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon5.png": {
+			"kind": "icon",
+			"depicts": "sprouting seedling",
+			"shape": "none",
+			"glyph": "#66bb6a",
+			"scale": 1
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/icon6.png": {
+			"kind": "icon",
+			"depicts": "garden trowel",
+			"shape": "none",
+			"glyph": "#66bb6a",
+			"scale": 1
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/Mask-Group-3.png": {
+			"kind": "photo",
+			"depicts": "smiling woman portrait"
+		},
+		"https://zakrademos.com/organic-farm-v2/wp-content/uploads/sites/130/2023/11/plant.png": {
+			"kind": "icon",
+			"depicts": "monstera leaf",
+			"shape": "none",
+			"glyph": "#00510f",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/address.png": {
+			"kind": "icon",
+			"depicts": "map pin",
+			"shape": "circle",
+			"glyph": "#fdfeff",
+			"fill": "#5ec7ff",
+			"scale": 0.63
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/best-collection.png": {
+			"kind": "icon",
+			"depicts": "gift box",
+			"shape": "circle",
+			"glyph": "#fffcfc",
+			"fill": "#ff8686",
+			"scale": 0.54
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/collection.png": {
+			"kind": "icon",
+			"depicts": "hourglass",
+			"shape": "circle",
+			"glyph": "#fefdfe",
+			"fill": "#c9aaeb",
+			"scale": 0.47
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/customer-support.png": {
+			"kind": "icon",
+			"depicts": "phone handset",
+			"shape": "circle",
+			"glyph": "#fdfcfe",
+			"fill": "#c9aaeb",
+			"scale": 0.53
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/envelope.png": {
+			"kind": "icon",
+			"depicts": "envelope",
+			"shape": "circle",
+			"glyph": "#fffcfe",
+			"fill": "#ff73cb",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/fast-delivery-1.png": {
+			"kind": "icon",
+			"depicts": "car",
+			"shape": "circle",
+			"glyph": "#fdfeff",
+			"fill": "#5dc7ff",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/fast-delivery.png": {
+			"kind": "icon",
+			"depicts": "car",
+			"shape": "circle",
+			"glyph": "#fdfeff",
+			"fill": "#5dc7ff",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/get-in-touch.png": {
+			"kind": "icon",
+			"depicts": "phone handset",
+			"shape": "circle",
+			"glyph": "#fffbfb",
+			"fill": "#ff8686",
+			"scale": 0.53
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/home.png": {
+			"kind": "icon",
+			"depicts": "house",
+			"shape": "circle",
+			"glyph": "#fffdfe",
+			"fill": "#ff73cb",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/hours.png": {
+			"kind": "icon",
+			"depicts": "clock",
+			"shape": "circle",
+			"glyph": "#fffcfc",
+			"fill": "#ff8686",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-admission.png": {
+			"kind": "icon",
+			"depicts": "list",
+			"shape": "circle",
+			"glyph": "#fefdff",
+			"fill": "#c9aaeb",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-boarding-icon.png": {
+			"kind": "icon",
+			"depicts": "house",
+			"shape": "circle",
+			"glyph": "#fffafd",
+			"fill": "#ff73cb",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-grooming-icon.png": {
+			"kind": "icon",
+			"depicts": "scissors",
+			"shape": "circle",
+			"glyph": "#ecf8ff",
+			"fill": "#5ec7ff",
+			"scale": 0.41
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/pet-taxi-icon.png": {
+			"kind": "icon",
+			"depicts": "car",
+			"shape": "circle",
+			"glyph": "#fdfbff",
+			"fill": "#b26cfe",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/secure-payment.png": {
+			"kind": "icon",
+			"depicts": "credit card",
+			"shape": "circle",
+			"glyph": "#fffcfe",
+			"fill": "#ff73cb",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/petcare/wp-content/uploads/sites/115/2022/03/telephone.png": {
+			"kind": "icon",
+			"depicts": "phone handset",
+			"shape": "circle",
+			"glyph": "#fbaf07",
+			"fill": "#fffefb",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/pictography-v2/wp-content/uploads/sites/136/2024/01/signature.png": {
+			"kind": "logo",
+			"depicts": "Robin Hood script wordmark"
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/CleanShot-2024-03-26-at-01.01.43.png": {
+			"kind": "icon",
+			"depicts": "book",
+			"shape": "square",
+			"glyph": "#fdfeff",
+			"fill": "#4c7dff",
+			"scale": 0.8
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/CleanShot-2024-03-26-at-02.07.07.png": {
+			"kind": "icon",
+			"depicts": "trophy",
+			"shape": "square",
+			"glyph": "#fdfeff",
+			"fill": "#4c7dff",
+			"scale": 0.8
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/CleanShot-2024-03-26-at-02.08.21.png": {
+			"kind": "icon",
+			"depicts": "diamond",
+			"shape": "square",
+			"glyph": "#fafcff",
+			"fill": "#4c7dff",
+			"scale": 0.8
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/CleanShot-2024-03-26-at-02.08.48.png": {
+			"kind": "icon",
+			"depicts": "group of people",
+			"shape": "square",
+			"glyph": "#fdfeff",
+			"fill": "#4c7dff",
+			"scale": 0.84
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/CleanShot-2024-03-26-at-02.36.32.png": {
+			"kind": "icon",
+			"depicts": "bullseye target",
+			"shape": "none",
+			"glyph": "#ef6812",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/quote.png": {
+			"kind": "icon",
+			"depicts": "quotation marks",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.84
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/testimonial-one.jpg": {
+			"kind": "photo",
+			"depicts": "woman portrait"
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/testimonial-two.jpg": {
+			"kind": "photo",
+			"depicts": "woman in straw hat"
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/zakra-plumber-outline-logo.png": {
+			"kind": "icon",
+			"depicts": "pipes",
+			"shape": "none",
+			"glyph": "#f76606",
+			"scale": 0.94
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/zakra-plumber-outline-logo1.png": {
+			"kind": "icon",
+			"depicts": "valve pipe",
+			"shape": "none",
+			"glyph": "#f66606",
+			"scale": 0.8
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/zakra-plumber-outline-logo21.png": {
+			"kind": "icon",
+			"depicts": "shower or faucet with water",
+			"shape": "none",
+			"glyph": "#f66606",
+			"scale": 1
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/zakra-plumber-outline-logo3.png": {
+			"kind": "icon",
+			"depicts": "water tank with drop",
+			"shape": "none",
+			"glyph": "#f76606",
+			"scale": 0.95
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/zakra-plumber-outline-logo4.png": {
+			"kind": "icon",
+			"depicts": "pipe fitting cross",
+			"shape": "none",
+			"glyph": "#f76706",
+			"scale": 0.89
+		},
+		"https://zakrademos.com/plumber-v2/wp-content/uploads/sites/151/2024/03/zakra-plumber-outline-logo5.png": {
+			"kind": "icon",
+			"depicts": "boiler with shield",
+			"shape": "none",
+			"glyph": "#f56606",
+			"scale": 0.95
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/5.png": {
+			"kind": "icon",
+			"depicts": "gear with wrench",
+			"shape": "none",
+			"glyph": "#161960",
+			"scale": 1
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/bathroom-plumbing-img.png": {
+			"kind": "icon",
+			"depicts": "toilet",
+			"shape": "none",
+			"glyph": "#161960",
+			"scale": 1
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/leak-detection.png": {
+			"kind": "icon",
+			"depicts": "radiator with water drop",
+			"shape": "none",
+			"glyph": "#161961",
+			"scale": 1
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/left-bracket.png": {
+			"kind": "ornament",
+			"depicts": "white curved line"
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/quote.png": {
+			"kind": "icon",
+			"depicts": "quotation marks",
+			"shape": "none"
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/right-background.png": {
+			"kind": "ornament",
+			"depicts": "white curved line"
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team1square-1.png": {
+			"kind": "photo",
+			"depicts": "smiling man with glasses"
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team3-square.png": {
+			"kind": "photo",
+			"depicts": "woman with long hair"
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/telephone.png": {
+			"kind": "icon",
+			"depicts": "telephone handset",
+			"shape": "none",
+			"glyph": "#232323",
+			"scale": 0.42
+		},
+		"https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/water-line-repair.png": {
+			"kind": "icon",
+			"depicts": "faucet with water drops",
+			"shape": "none",
+			"glyph": "#161960",
+			"scale": 1
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/avatar.png": {
+			"kind": "photo",
+			"depicts": "person in red jacket"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/behance.png": {
+			"kind": "social",
+			"depicts": "Behance logo"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/client.png": {
+			"kind": "photo",
+			"depicts": "man portrait black and white"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/envelope-regular.png": {
+			"kind": "icon",
+			"depicts": "envelope mail",
+			"shape": "none",
+			"glyph": "#000000",
+			"scale": 1
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/gitlab.png": {
+			"kind": "logo",
+			"depicts": "GitLab fox"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-18.png": {
+			"kind": "other",
+			"depicts": "UI Design text"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-19-1.png": {
+			"kind": "other",
+			"depicts": "UX Design text"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-20.png": {
+			"kind": "other",
+			"depicts": "Interaction Design text"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/Group-22.png": {
+			"kind": "icon",
+			"depicts": "ruler and pencil",
+			"shape": "square",
+			"glyph": "#010102",
+			"fill": "#6f6cf4",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon-1.png": {
+			"kind": "icon",
+			"depicts": "email envelope",
+			"shape": "square",
+			"glyph": "#6e6cf4",
+			"fill": "#000001",
+			"scale": 0.71
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon-2.png": {
+			"kind": "icon",
+			"depicts": "mobile phone",
+			"shape": "square",
+			"glyph": "#000001",
+			"fill": "#6e6cf4",
+			"scale": 0.65
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon.png": {
+			"kind": "icon",
+			"depicts": "map pin location",
+			"shape": "square",
+			"glyph": "#000001",
+			"fill": "#6f6cf4",
+			"scale": 0.69
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon2.png": {
+			"kind": "icon",
+			"depicts": "image gallery frame",
+			"shape": "square",
+			"glyph": "#000001",
+			"fill": "#7171f3",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/icon3.png": {
+			"kind": "icon",
+			"depicts": "phone and desktop",
+			"shape": "square",
+			"glyph": "#000001",
+			"fill": "#7171f3",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/linkedin-in.png": {
+			"kind": "social",
+			"depicts": "LinkedIn logo"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/navigation2.png": {
+			"kind": "other",
+			"depicts": "grid of small icons"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/project-5.png": {
+			"kind": "logo",
+			"depicts": "James and Sons wordmark"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/project-6.png": {
+			"kind": "other",
+			"depicts": "grid of small icons"
+		},
+		"https://zakrademos.com/portfolio-v2/wp-content/uploads/sites/127/2023/10/twitter.png": {
+			"kind": "social",
+			"depicts": "Twitter bird"
+		},
+		"https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/icon_1.png": {
+			"kind": "icon",
+			"depicts": "bar chart",
+			"shape": "square",
+			"glyph": "#fbfcfc",
+			"fill": "#123458",
+			"scale": 0.75
+		},
+		"https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/icon_2.png": {
+			"kind": "icon",
+			"depicts": "rocket launch",
+			"shape": "square",
+			"glyph": "#fefeff",
+			"fill": "#123458",
+			"scale": 0.86
+		},
+		"https://zakrademos.com/professional-02/wp-content/uploads/sites/104/2021/11/icon3.png": {
+			"kind": "icon",
+			"depicts": "puzzle piece",
+			"shape": "square",
+			"glyph": "#fefefe",
+			"fill": "#123458",
+			"scale": 0.88
+		},
+		"https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/87c2d27c80d8b522646d74b7dc77ca66.jpeg": {
+			"kind": "logo",
+			"depicts": "ThemeGrill logo"
+		},
+		"https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/author.png": {
+			"kind": "photo",
+			"depicts": "person portrait"
+		},
+		"https://zakrademos.com/real-estate-v2/wp-content/uploads/sites/142/2024/03/CleanShot-2024-03-20-at-23.15.21.png": {
+			"kind": "icon",
+			"depicts": "quotation marks",
+			"shape": "none",
+			"glyph": "#30826a",
+			"scale": 0.56
+		},
+		"https://zakrademos.com/restaurant-blog/wp-content/uploads/sites/93/2021/02/client1.jpg": {
+			"kind": "photo",
+			"depicts": "smiling man sunglasses"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10001-2.jpg": {
+			"kind": "photo",
+			"depicts": "waffle with berries"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10002-2.jpg": {
+			"kind": "photo",
+			"depicts": "egg on greens"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10003-2.jpg": {
+			"kind": "photo",
+			"depicts": "blueberry tart"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10004-1.jpg": {
+			"kind": "photo",
+			"depicts": "food plate salad"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10004-4.jpg": {
+			"kind": "photo",
+			"depicts": "citrus salad plate"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10005-1.jpg": {
+			"kind": "photo",
+			"depicts": "vegetables platter"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10005-4.jpg": {
+			"kind": "photo",
+			"depicts": "beet salad"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10006-1.jpg": {
+			"kind": "photo",
+			"depicts": "beet salad"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10006-4.jpg": {
+			"kind": "photo",
+			"depicts": "grilled shrimp"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007-2.jpg": {
+			"kind": "photo",
+			"depicts": "burger and fries"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.jpg": {
+			"kind": "photo",
+			"depicts": "poke bowl"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10007.png": {
+			"kind": "ornament",
+			"depicts": "floral divider"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008-2.jpg": {
+			"kind": "photo",
+			"depicts": "fruit and nut board"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.jpg": {
+			"kind": "photo",
+			"depicts": "woman in water"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10008.png": {
+			"kind": "ornament",
+			"depicts": "decorative divider"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10009-1.jpg": {
+			"kind": "photo",
+			"depicts": "berry pies"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10009.jpg": {
+			"kind": "photo",
+			"depicts": "woman in hat"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10010-1.jpg": {
+			"kind": "photo",
+			"depicts": "mac and cheese"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10010.jpg": {
+			"kind": "photo",
+			"depicts": "bearded man"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10011-1.jpg": {
+			"kind": "photo",
+			"depicts": "coffee and dessert"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10012-1.jpg": {
+			"kind": "photo",
+			"depicts": "blueberry pancakes"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10013-1.jpg": {
+			"kind": "photo",
+			"depicts": "cheese and wine plate"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10014-1.jpg": {
+			"kind": "photo",
+			"depicts": "pancakes with berries"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10015.jpg": {
+			"kind": "photo",
+			"depicts": "fried egg breakfast"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10016.jpg": {
+			"kind": "photo",
+			"depicts": "tea and snacks"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10017.jpg": {
+			"kind": "photo",
+			"depicts": "waffles with jam"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10018.jpg": {
+			"kind": "photo",
+			"depicts": "bowl of granola"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10019.jpg": {
+			"kind": "photo",
+			"depicts": "poke bowl"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10020.jpg": {
+			"kind": "photo",
+			"depicts": "burger with salad"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10021.jpg": {
+			"kind": "photo",
+			"depicts": "pasta with vegetables"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10022.jpg": {
+			"kind": "photo",
+			"depicts": "noodle bowl with egg"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10023.jpg": {
+			"kind": "photo",
+			"depicts": "rice and meat dish"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10024.jpg": {
+			"kind": "photo",
+			"depicts": "fish and chips"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10025.jpg": {
+			"kind": "photo",
+			"depicts": "plated fried food garnish"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10026.jpg": {
+			"kind": "photo",
+			"depicts": "cocktail with garnish"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10027.jpg": {
+			"kind": "photo",
+			"depicts": "stout beside beer bottle"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10028.jpg": {
+			"kind": "photo",
+			"depicts": "bottles of beer"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10029.jpg": {
+			"kind": "photo",
+			"depicts": "rows of wine bottles"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10030.jpg": {
+			"kind": "photo",
+			"depicts": "wine being poured"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10031.jpg": {
+			"kind": "photo",
+			"depicts": "bottle and glass of wine"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10032.jpg": {
+			"kind": "photo",
+			"depicts": "wine bottle on table"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/10033.jpg": {
+			"kind": "photo",
+			"depicts": "wine bottle and glass"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/breakfast-blackpasta.jpg": {
+			"kind": "photo",
+			"depicts": "black risotto dish"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1-1.png": {
+			"kind": "ornament",
+			"depicts": "floral divider"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-1.png": {
+			"kind": "ornament",
+			"depicts": "floral divider"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2-1.png": {
+			"kind": "ornament",
+			"depicts": "decorative divider"
+		},
+		"https://zakrademos.com/restaurant-v2/wp-content/uploads/sites/144/2024/03/crown-2.png": {
+			"kind": "ornament",
+			"depicts": "decorative divider"
+		},
+		"https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10002.png": {
+			"kind": "photo",
+			"depicts": "customer avatars with rating"
+		},
+		"https://zakrademos.com/restro-v2/wp-content/uploads/sites/183/2024/05/10004.png": {
+			"kind": "other",
+			"depicts": "stat text with icons"
+		},
+		"https://zakrademos.com/spa-02/wp-content/uploads/sites/108/2021/12/service-img1.png": {
+			"kind": "photo",
+			"depicts": "woman with flower crown"
+		},
+		"https://zakrademos.com/spa-02/wp-content/uploads/sites/108/2021/12/service-img2.png": {
+			"kind": "photo",
+			"depicts": "woman with daisies"
+		},
+		"https://zakrademos.com/spa-02/wp-content/uploads/sites/108/2021/12/service-img3.png": {
+			"kind": "photo",
+			"depicts": "facial massage treatment"
+		},
+		"https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/abt-services-1.png": {
+			"kind": "photo",
+			"depicts": "honey jar with dipper"
+		},
+		"https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/abt-services-2.png": {
+			"kind": "photo",
+			"depicts": "massage treatment"
+		},
+		"https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/abt-services-3.png": {
+			"kind": "photo",
+			"depicts": "dark pebbles"
+		},
+		"https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/abt-services-4.png": {
+			"kind": "photo",
+			"depicts": "smiling woman"
+		},
+		"https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/icon-list.png": {
+			"kind": "other",
+			"depicts": "author and comment count"
+		},
+		"https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-21-32-32.png": {
+			"kind": "ornament",
+			"depicts": "tree sprig divider"
+		},
+		"https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-21-44-01.png": {
+			"kind": "ornament",
+			"depicts": "tree sprig divider"
+		},
+		"https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-21-57-03.png": {
+			"kind": "ornament",
+			"depicts": "tree sprig divider"
+		},
+		"https://zakrademos.com/spa-center-v2/wp-content/uploads/sites/149/2024/04/Screenshot-at-Apr-04-22-30-31.png": {
+			"kind": "ornament",
+			"depicts": "tree sprig divider"
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/client.png": {
+			"kind": "photo",
+			"depicts": "smiling man"
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-1.png": {
+			"kind": "icon",
+			"depicts": "camera",
+			"shape": "none",
+			"glyph": "#1cb5e0",
+			"scale": 1
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-2.png": {
+			"kind": "icon",
+			"depicts": "crop tool",
+			"shape": "none",
+			"glyph": "#1cb6e1",
+			"scale": 1
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-3.png": {
+			"kind": "icon",
+			"depicts": "code brackets",
+			"shape": "none",
+			"glyph": "#1cb6e1",
+			"scale": 1
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-4.png": {
+			"kind": "other",
+			"depicts": "letter A"
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-5.png": {
+			"kind": "icon",
+			"depicts": "pie chart",
+			"shape": "none",
+			"glyph": "#1cb5e1",
+			"scale": 1
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame.png": {
+			"kind": "icon",
+			"depicts": "gear",
+			"shape": "none",
+			"glyph": "#1cb5e0",
+			"scale": 1
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/icon-1.png": {
+			"kind": "icon",
+			"depicts": "smiley face",
+			"shape": "rounded",
+			"glyph": "#11b1de",
+			"fill": "#ffffff",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/icon-2.png": {
+			"kind": "icon",
+			"depicts": "paper plane",
+			"shape": "rounded",
+			"glyph": "#1db5e0",
+			"fill": "#ffffff",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/icon-3.png": {
+			"kind": "icon",
+			"depicts": "line chart",
+			"shape": "rounded",
+			"glyph": "#1bb5e0",
+			"fill": "#ffffff",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/icon-4.png": {
+			"kind": "icon",
+			"depicts": "speech bubble",
+			"shape": "rounded",
+			"glyph": "#1db5e0",
+			"fill": "#ffffff",
+			"scale": 0.5
+		},
+		"https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/11/Vector.png": {
+			"kind": "icon",
+			"depicts": "check mark",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#1cb6e1",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Icon-2.png": {
+			"kind": "icon",
+			"depicts": "trend arrow",
+			"shape": "rounded",
+			"glyph": "#3967d6",
+			"fill": "#f3f6fc",
+			"scale": 0.45
+		},
+		"https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Icon-3.png": {
+			"kind": "icon",
+			"depicts": "bar chart",
+			"shape": "rounded",
+			"glyph": "#92ace8",
+			"fill": "#f2f5fb",
+			"scale": 0.43
+		},
+		"https://zakrademos.com/suffice/wp-content/uploads/sites/189/2025/03/Icon1.png": {
+			"kind": "icon",
+			"depicts": "pie chart",
+			"shape": "rounded",
+			"glyph": "#3867d6",
+			"fill": "#f3f6fc",
+			"scale": 0.45
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/award-icon.png": {
+			"kind": "icon",
+			"depicts": "award ribbon medal",
+			"shape": "none",
+			"glyph": "#c37259",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/book-open-icon.png": {
+			"kind": "icon",
+			"depicts": "open book",
+			"shape": "none",
+			"glyph": "#c27259",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/brain-icon.png": {
+			"kind": "icon",
+			"depicts": "brain",
+			"shape": "none",
+			"glyph": "#c37259",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/calendar-days-icon.png": {
+			"kind": "icon",
+			"depicts": "calendar",
+			"shape": "none",
+			"glyph": "#c27259",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/circle-check-icon.png": {
+			"kind": "icon",
+			"depicts": "check mark",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#c37259",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/clock-icon.png": {
+			"kind": "icon",
+			"depicts": "clock",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#c37259",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/heart-handshake-icon.png": {
+			"kind": "icon",
+			"depicts": "heart with handshake",
+			"shape": "none",
+			"glyph": "#c37259",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/heart-icon.png": {
+			"kind": "icon",
+			"depicts": "heart",
+			"shape": "none",
+			"glyph": "#c27259",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/heart-pulse-icon.png": {
+			"kind": "icon",
+			"depicts": "heart with pulse",
+			"shape": "none",
+			"glyph": "#c37259",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/leaf-icon.png": {
+			"kind": "icon",
+			"depicts": "leaf",
+			"shape": "none",
+			"glyph": "#c37259",
+			"scale": 0.89
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/peni-line-icon.png": {
+			"kind": "icon",
+			"depicts": "pencil",
+			"shape": "none",
+			"glyph": "#c37259",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/shield-check-icon.png": {
+			"kind": "icon",
+			"depicts": "shield with checkmark",
+			"shape": "none",
+			"glyph": "#c27259",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/sparkles-icon.png": {
+			"kind": "icon",
+			"depicts": "sparkle stars",
+			"shape": "none",
+			"glyph": "#c27259",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/sunrise-icon.png": {
+			"kind": "icon",
+			"depicts": "sunrise",
+			"shape": "none",
+			"glyph": "#c27259",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/target-icon.png": {
+			"kind": "icon",
+			"depicts": "target",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#c37259",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/users-icon.png": {
+			"kind": "icon",
+			"depicts": "group of people",
+			"shape": "none",
+			"glyph": "#c37259",
+			"scale": 0.93
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/07/wind-icon.png": {
+			"kind": "icon",
+			"depicts": "wind lines",
+			"shape": "none",
+			"glyph": "#c27259",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/08/therapy-client-1.png": {
+			"kind": "photo",
+			"depicts": "smiling man"
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/08/therapy-client-2.png": {
+			"kind": "photo",
+			"depicts": "man in sweater"
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/08/therapy-client-4.png": {
+			"kind": "photo",
+			"depicts": "smiling woman"
+		},
+		"https://zakrademos.com/therapycoach/wp-content/uploads/sites/194/2026/08/therapy-client-5.png": {
+			"kind": "photo",
+			"depicts": "young woman outdoors"
+		},
+		"https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/icon_1dark.png": {
+			"kind": "icon",
+			"depicts": "compass",
+			"shape": "circle",
+			"glyph": "#515251",
+			"fill": "#fdfdfd",
+			"scale": 0.91
+		},
+		"https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/icon_2dark.png": {
+			"kind": "icon",
+			"depicts": "map pin",
+			"shape": "square",
+			"glyph": "#fdfdfd",
+			"fill": "#030403",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/travel-agency/wp-content/uploads/sites/101/2021/11/icon_3dark.png": {
+			"kind": "icon",
+			"depicts": "bookmarked book",
+			"shape": "square",
+			"glyph": "#fefefe",
+			"fill": "#030303",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/travel-blog/wp-content/uploads/sites/90/2021/02/client02.jpg": {
+			"kind": "photo",
+			"depicts": "smiling man sunglasses"
+		},
+		"https://zakrademos.com/travel-blog/wp-content/uploads/sites/90/2021/02/client03.jpg": {
+			"kind": "photo",
+			"depicts": "bearded man portrait"
+		},
+		"https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-1.png": {
+			"kind": "other",
+			"depicts": "mountains illustration"
+		},
+		"https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-3.png": {
+			"kind": "icon",
+			"depicts": "airplane",
+			"shape": "circle",
+			"glyph": "#ffffff",
+			"fill": "#f39a2d",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-hotel.png": {
+			"kind": "other",
+			"depicts": "office building illustration"
+		},
+		"https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-price.png": {
+			"kind": "icon",
+			"depicts": "dollar chart",
+			"shape": "circle",
+			"glyph": "#f4ae58",
+			"fill": "#f48d10",
+			"scale": 0.83
+		},
+		"https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/aboutpage-sign.png": {
+			"kind": "logo",
+			"depicts": "Michal Jordan signature"
+		},
+		"https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/book-reader.png": {
+			"kind": "icon",
+			"depicts": "open book",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.84
+		},
+		"https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/book.png": {
+			"kind": "icon",
+			"depicts": "document page",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.89
+		},
+		"https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/chalkboard.png": {
+			"kind": "icon",
+			"depicts": "presenter whiteboard",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.84
+		},
+		"https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/graduate1-e1711962829916.png": {
+			"kind": "icon",
+			"depicts": "graduation cap",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/iphone.png": {
+			"kind": "icon",
+			"depicts": "mobile phone",
+			"shape": "none",
+			"glyph": "#000000",
+			"scale": 1
+		},
+		"https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/university-building.png": {
+			"kind": "icon",
+			"depicts": "columned building",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/user.png": {
+			"kind": "icon",
+			"depicts": "user profile",
+			"shape": "none",
+			"glyph": "#fdc800",
+			"scale": 1
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10006.png": {
+			"kind": "icon",
+			"depicts": "server rack",
+			"shape": "none"
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10007.png": {
+			"kind": "icon",
+			"depicts": "database stack",
+			"shape": "none",
+			"glyph": "#d02faa",
+			"scale": 1
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10008.png": {
+			"kind": "ornament",
+			"depicts": "downward triangle"
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/10009.png": {
+			"kind": "icon",
+			"depicts": "user avatar",
+			"shape": "circle",
+			"glyph": "#fffeff",
+			"fill": "#ff50e2",
+			"scale": 0.83
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/child-reaching-solid.png": {
+			"kind": "icon",
+			"depicts": "person raising arms",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 1
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icon1.png": {
+			"kind": "icon",
+			"depicts": "monitor with gear",
+			"shape": "none",
+			"glyph": "#fffeff",
+			"scale": 0.41
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-building-48.png": {
+			"kind": "icon",
+			"depicts": "office building",
+			"shape": "square",
+			"glyph": "#ffffff",
+			"fill": "#ffffff",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-coffee-64.png": {
+			"kind": "icon",
+			"depicts": "coffee cup",
+			"shape": "none",
+			"glyph": "#ffffff",
+			"scale": 0.86
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-letter-24.png": {
+			"kind": "icon",
+			"depicts": "envelope",
+			"shape": "none",
+			"glyph": "#794fe4",
+			"scale": 0.84
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-like-50.png": {
+			"kind": "icon",
+			"depicts": "thumbs up",
+			"shape": "square",
+			"glyph": "#ffffff",
+			"fill": "#ffffff",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-location-48.png": {
+			"kind": "icon",
+			"depicts": "map pin",
+			"shape": "none",
+			"glyph": "#794fe3",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/icons8-telephone-30.png": {
+			"kind": "icon",
+			"depicts": "telephone handset",
+			"shape": "none",
+			"glyph": "#794fe4",
+			"scale": 0.77
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/Screenshot-2024-03-23-160407.png": {
+			"kind": "icon",
+			"depicts": "right arrow",
+			"shape": "circle",
+			"glyph": "#c6b4f3",
+			"fill": "#794ee3",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/webhost-v2/wp-content/uploads/sites/143/2024/03/shared-hositing-icon.png": {
+			"kind": "icon",
+			"depicts": "gear and server",
+			"shape": "none",
+			"glyph": "#d12fab",
+			"scale": 1
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/11/01.png": {
+			"kind": "number",
+			"depicts": "digits 01"
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/11/02.png": {
+			"kind": "number",
+			"depicts": "digits 02"
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/11/03.png": {
+			"kind": "number",
+			"depicts": "03 digits"
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/icon-04.png": {
+			"kind": "icon",
+			"depicts": "map pin location",
+			"shape": "none",
+			"glyph": "#dba08b",
+			"scale": 0.54
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/icon-05.png": {
+			"kind": "icon",
+			"depicts": "telephone handset",
+			"shape": "none",
+			"glyph": "#dba08b",
+			"scale": 0.54
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/icon-06.png": {
+			"kind": "icon",
+			"depicts": "envelope mail",
+			"shape": "rounded",
+			"glyph": "#ffffff",
+			"fill": "#dba08b",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-05-e1640335075537.png": {
+			"kind": "icon",
+			"depicts": "wedding rings",
+			"shape": "none",
+			"glyph": "#e5a791",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-06-e1640582258990.png": {
+			"kind": "icon",
+			"depicts": "birthday cake candle",
+			"shape": "none",
+			"glyph": "#dca18b",
+			"scale": 0.99
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-07-e1640582315173.png": {
+			"kind": "icon",
+			"depicts": "cloche serving dish",
+			"shape": "none",
+			"glyph": "#e5a892",
+			"scale": 0.98
+		},
+		"https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-08-e1640582197907.png": {
+			"kind": "icon",
+			"depicts": "camera",
+			"shape": "none",
+			"glyph": "#dca18b",
+			"scale": 0.96
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/03/Screenshot-at-Apr-01-00-02-46.png": {
+			"kind": "icon",
+			"depicts": "map pin location",
+			"shape": "square",
+			"glyph": "#c14b84",
+			"fill": "#fdfbfc",
+			"scale": 0.4
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/03/Screenshot-at-Apr-01-00-03-24.png": {
+			"kind": "icon",
+			"depicts": "music notes",
+			"shape": "square",
+			"glyph": "#c14b84",
+			"fill": "#fdfbfc",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/03/Screenshot-at-Apr-01-00-03-53.png": {
+			"kind": "icon",
+			"depicts": "cocktail glass",
+			"shape": "square",
+			"glyph": "#c14b84",
+			"fill": "#fdfbfc",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/03/separator.png": {
+			"kind": "ornament",
+			"depicts": "horizontal divider line"
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/04/Screenshot-at-Apr-01-20-27-21.png": {
+			"kind": "icon",
+			"depicts": "camera",
+			"shape": "rounded",
+			"glyph": "#c04a84",
+			"fill": "#ffffff",
+			"scale": 0.48
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/04/Screenshot-at-Apr-01-20-27-43.png": {
+			"kind": "icon",
+			"depicts": "sparkle wand",
+			"shape": "none",
+			"glyph": "#c04a84",
+			"scale": 0.41
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/04/Screenshot-at-Apr-01-22-07-52.png": {
+			"kind": "icon",
+			"depicts": "document file",
+			"shape": "none",
+			"glyph": "#c04983",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/04/Screenshot-at-Apr-01-22-08-12.png": {
+			"kind": "icon",
+			"depicts": "thumbs up",
+			"shape": "none",
+			"glyph": "#c14b84",
+			"scale": 0.42
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/04/Screenshot-at-Apr-01-22-08-33.png": {
+			"kind": "icon",
+			"depicts": "user profile",
+			"shape": "none",
+			"glyph": "#c04a84",
+			"scale": 0.38
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/04/Screenshot-at-Apr-01-22-09-03.png": {
+			"kind": "icon",
+			"depicts": "person celebrating",
+			"shape": "none",
+			"glyph": "#c04b84",
+			"scale": 0.39
+		},
+		"https://zakrademos.com/wedding-v3/wp-content/uploads/sites/156/2024/04/Screenshot-at-Apr-01-22-09-21.png": {
+			"kind": "icon",
+			"depicts": "birthday cake",
+			"shape": "none",
+			"glyph": "#c04b84",
+			"scale": 0.44
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-1.png": {
+			"kind": "icon",
+			"depicts": "delivery truck",
+			"shape": "none",
+			"glyph": "#d14031",
+			"scale": 1
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/01/icon-4.png": {
+			"kind": "icon",
+			"depicts": "open book",
+			"shape": "circle",
+			"glyph": "#fffefe",
+			"fill": "#d14031",
+			"scale": 0.49
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/as.png": {
+			"kind": "logo",
+			"depicts": "app store badge"
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/explore-icon-1.png": {
+			"kind": "icon",
+			"depicts": "paper plane",
+			"shape": "circle",
+			"glyph": "#fdf9f9",
+			"fill": "#d14032",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/explore-icon-2.png": {
+			"kind": "icon",
+			"depicts": "headphones",
+			"shape": "circle",
+			"glyph": "#fefcfb",
+			"fill": "#d14032",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/explore-icon-3.png": {
+			"kind": "icon",
+			"depicts": "zoom magnifier",
+			"shape": "circle",
+			"glyph": "#fefbfb",
+			"fill": "#d14032",
+			"scale": 0.97
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/gp.png": {
+			"kind": "logo",
+			"depicts": "google play badge"
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/icon-2.png": {
+			"kind": "icon",
+			"depicts": "credit card",
+			"shape": "rounded",
+			"glyph": "#ffffff",
+			"fill": "#596d5d",
+			"scale": 0.6
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/icon-3.png": {
+			"kind": "icon",
+			"depicts": "star rating",
+			"shape": "none",
+			"glyph": "#ffae00",
+			"scale": 1
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/partners-1.png": {
+			"kind": "logo",
+			"depicts": "beer badge emblem"
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/partners-2.png": {
+			"kind": "logo",
+			"depicts": "wines quality badge"
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/partners-3.png": {
+			"kind": "logo",
+			"depicts": "premium beer badge"
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/quote-left-solid.png": {
+			"kind": "icon",
+			"depicts": "quote marks",
+			"shape": "none",
+			"glyph": "#d64232",
+			"scale": 1
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/testimonial-1.png": {
+			"kind": "photo",
+			"depicts": "smiling woman portrait"
+		},
+		"https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/testimonial-2.png": {
+			"kind": "photo",
+			"depicts": "smiling bearded man"
+		},
+		"https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/2023/12/diet.png": {
+			"kind": "icon",
+			"depicts": "fried egg",
+			"shape": "none",
+			"glyph": "#704c6a",
+			"scale": 1
+		},
+		"https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/2023/12/instructors.png": {
+			"kind": "icon",
+			"depicts": "raised hand",
+			"shape": "none",
+			"glyph": "#fcf9c5",
+			"scale": 0.92
+		},
+		"https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/2023/12/michael-dam-258165-unsplash.png": {
+			"kind": "photo",
+			"depicts": "smiling woman"
+		},
+		"https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/2023/12/work.png": {
+			"kind": "icon",
+			"depicts": "stopwatch timer",
+			"shape": "none",
+			"glyph": "#704c6b",
+			"scale": 1
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/01.png": {
+			"kind": "number",
+			"depicts": "number 01"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/02.png": {
+			"kind": "number",
+			"depicts": "number 02"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/03.png": {
+			"kind": "number",
+			"depicts": "number 03"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Line-1.png": {
+			"kind": "ornament",
+			"depicts": "horizontal line"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner1.png": {
+			"kind": "logo",
+			"depicts": "GW wordmark"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner2.png": {
+			"kind": "logo",
+			"depicts": "TAAT letters"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner3.png": {
+			"kind": "logo",
+			"depicts": "ABC Homes wordmark"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner4.png": {
+			"kind": "logo",
+			"depicts": "Zakar Design wordmark"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner5.png": {
+			"kind": "logo",
+			"depicts": "Divine wordmark"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner6.png": {
+			"kind": "logo",
+			"depicts": "Elevate Education wordmark"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner7.png": {
+			"kind": "logo",
+			"depicts": "Cier Esparza Logada wordmark"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Partner8.png": {
+			"kind": "logo",
+			"depicts": "AZ signature monogram"
+		},
+		"https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Rating.png": {
+			"kind": "ornament",
+			"depicts": "five star rating"
+		}
+	}
+}

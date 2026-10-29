@@ -770,9 +770,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-1.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "shopping cart",
+								"glyph": "#f8af28",
+								"size": 61,
+								"shape": {
+									"kind": "square",
+									"fill": "#031742",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "cc15c151:image.url",
@@ -783,9 +795,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/home-service-2.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "megaphone",
+								"glyph": "#fffffe",
+								"size": 60,
+								"shape": {
+									"kind": "square",
+									"fill": "#f8af28",
+									"size": 63
+								},
+								"background": "#fdaf27"
+							}
 						},
 						{
 							"id": "acfaaf99:image.url",
@@ -796,9 +820,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-3.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "chrome-like circular mark",
+								"glyph": "#041742",
+								"size": 63,
+								"shape": {
+									"kind": "square",
+									"fill": "#f8af28",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						}
 					]
 				},
@@ -1136,6 +1172,32 @@
 							"width": 150,
 							"height": 263,
 							"orientation": "portrait"
+						},
+						{
+							"id": "core-5.0.1.0.1:@html:img",
+							"blockId": "core-5.0.1.0.1",
+							"path": "5.0.1.0.1",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/testimonial-1.png",
+							"decorative": true,
+							"width": 248,
+							"height": 248,
+							"orientation": "square"
+						},
+						{
+							"id": "core-5.0.1.1.1:@html:img",
+							"blockId": "core-5.0.1.1.1",
+							"path": "5.0.1.1.1",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/testimonial-2.png",
+							"decorative": true,
+							"width": 248,
+							"height": 248,
+							"orientation": "square"
 						}
 					]
 				},
@@ -1230,6 +1292,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/partner1-1.png",
 							"decorative": true,
+							"displayWidth": 115,
 							"width": 108,
 							"height": 115,
 							"orientation": "square"
@@ -2466,9 +2529,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-1.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "shopping cart",
+								"glyph": "#f8af28",
+								"size": 61,
+								"shape": {
+									"kind": "square",
+									"fill": "#031742",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "edff2b18:image.url",
@@ -2479,9 +2554,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-2.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "megaphone",
+								"glyph": "#f8b028",
+								"size": 62,
+								"shape": {
+									"kind": "square",
+									"fill": "#031742",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "69d0ad9f:image.url",
@@ -2492,9 +2579,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-3.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "chrome-like circular mark",
+								"glyph": "#041742",
+								"size": 63,
+								"shape": {
+									"kind": "square",
+									"fill": "#f8af28",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "d65427de:image.url",
@@ -2505,9 +2604,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-4.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "won currency sign",
+								"glyph": "#f8b028",
+								"size": 61,
+								"shape": {
+									"kind": "square",
+									"fill": "#041742",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "678dfd36:image.url",
@@ -2518,9 +2629,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-5.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "pencil edit",
+								"glyph": "#f8b028",
+								"size": 60,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#041742",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "99c35f80:image.url",
@@ -2531,9 +2654,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-6.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "zoom in magnifier",
+								"glyph": "#f8b028",
+								"size": 62,
+								"shape": {
+									"kind": "square",
+									"fill": "#041842",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "6fcdce28:image.url",
@@ -2544,9 +2679,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-7.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "shopping basket",
+								"glyph": "#f8b028",
+								"size": 60,
+								"shape": {
+									"kind": "square",
+									"fill": "#041742",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "e1890051:image.url",
@@ -2557,9 +2704,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-8.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "mobile phone",
+								"glyph": "#f9b028",
+								"size": 62,
+								"shape": {
+									"kind": "square",
+									"fill": "#041743",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "a8050fee:image.url",
@@ -2570,9 +2729,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-9.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "newspaper",
+								"glyph": "#041642",
+								"size": 63,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f8b028",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "2b7c9bb3:image.url",
@@ -2583,9 +2754,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-10.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "Firefox browser",
+								"glyph": "#041742",
+								"size": 63,
+								"shape": {
+									"kind": "square",
+									"fill": "#f8af28",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "97e62540:image.url",
@@ -2596,9 +2779,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-11.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "Internet Explorer e",
+								"glyph": "#041742",
+								"size": 63,
+								"shape": {
+									"kind": "square",
+									"fill": "#f8b028",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						},
 						{
 							"id": "933dda04:image.url",
@@ -2609,9 +2804,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-v3/wp-content/uploads/sites/154/2024/01/service-12.png",
 							"decorative": true,
+							"displayWidth": 63,
 							"width": 182,
 							"height": 153,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "grid of tiles",
+								"glyph": "#041742",
+								"size": 62,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f8b028",
+									"size": 63
+								},
+								"background": "#001842"
+							}
 						}
 					]
 				}
@@ -3274,9 +3481,9 @@
 		"sections": 13,
 		"textSlots": 107,
 		"editableSlots": 107,
-		"images": 53,
+		"images": 55,
 		"swappableImages": 15,
 		"words": 789
 	},
-	"builtAt": "2026-10-29T11:52:56.352Z"
+	"builtAt": "2026-10-29T12:52:33.977Z"
 }

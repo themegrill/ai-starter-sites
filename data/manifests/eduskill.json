@@ -441,7 +441,18 @@
 							"decorative": true,
 							"width": 150,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "stacked books",
+								"glyph": "#fdc801",
+								"size": 42,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#feefcf",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "6610a944:image.url",
@@ -454,7 +465,18 @@
 							"decorative": true,
 							"width": 150,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "graduation cap",
+								"glyph": "#f32b2b",
+								"size": 46,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#fcd5d5",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "1767a263:image.url",
@@ -467,7 +489,18 @@
 							"decorative": true,
 							"width": 150,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "laptop computer",
+								"glyph": "#f20491",
+								"size": 42,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f9ddee",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "0a2137a8:image.url",
@@ -480,7 +513,18 @@
 							"decorative": true,
 							"width": 150,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "award ribbon badge",
+								"glyph": "#05c4ff",
+								"size": 40,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#dcf4fb",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -674,7 +718,18 @@
 							"decorative": true,
 							"width": 150,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "star bookmark book",
+								"glyph": "#f20693",
+								"size": 40,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f9dcee",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "5840e62b:image.url",
@@ -687,7 +742,18 @@
 							"decorative": true,
 							"width": 150,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "chat speech bubble",
+								"glyph": "#04c4ff",
+								"size": 40,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#dcf4fb",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "0615acdb:image.url",
@@ -700,7 +766,18 @@
 							"decorative": true,
 							"width": 150,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clipboard with lines",
+								"glyph": "#f32d2d",
+								"size": 39,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#fcd5d5",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "2875847c:image.url",
@@ -1030,7 +1107,19 @@
 							"decorative": true,
 							"width": 74,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "play button",
+								"glyph": "#ffffff",
+								"size": 44,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ffffff",
+									"size": 74
+								},
+								"fixed": "play-solid",
+								"background": "#4c4e52"
+							}
 						}
 					]
 				},
@@ -1182,7 +1271,18 @@
 							"decorative": true,
 							"width": 151,
 							"height": 150,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "add user",
+								"glyph": "#fdc801",
+								"size": 47,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#feefcf",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "26322e08:image.url",
@@ -1195,7 +1295,18 @@
 							"decorative": true,
 							"width": 151,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bookmark card",
+								"glyph": "#f32c2c",
+								"size": 42,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#fbd3d3",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "2bce7ce8:image.url",
@@ -1208,7 +1319,18 @@
 							"decorative": true,
 							"width": 151,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "globe with continents",
+								"glyph": "#f20492",
+								"size": 40,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f9ddee",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "6571835b:image.url",
@@ -1221,7 +1343,18 @@
 							"decorative": true,
 							"width": 151,
 							"height": 151,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "trophy cup",
+								"glyph": "#04c4ff",
+								"size": 35,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#dbf2fb",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1354,7 +1487,14 @@
 							"decorative": true,
 							"width": 134,
 							"height": 134,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "quotation marks",
+								"glyph": "#fdc900",
+								"size": 60,
+								"fixed": "quote-left-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "341ffe3e:image.url",
@@ -1396,7 +1536,14 @@
 							"decorative": true,
 							"width": 134,
 							"height": 134,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "quotation marks",
+								"glyph": "#fdc900",
+								"size": 60,
+								"fixed": "quote-left-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "4fa32bbb:image.url",
@@ -1873,5 +2020,5 @@
 		"swappableImages": 8,
 		"words": 500
 	},
-	"builtAt": "2026-10-29T11:52:56.016Z"
+	"builtAt": "2026-10-29T12:52:33.675Z"
 }

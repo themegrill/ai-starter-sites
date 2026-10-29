@@ -129,6 +129,11 @@ export const validatePreview = (body: unknown): PreviewRequest => {
 		return invalid('"sections" must be a list of sections.');
 	}
 	const removed = Array.isArray(body.removed) ? body.removed.filter((r): r is string => typeof r === 'string') : [];
+	const products = (Array.isArray(body.products) ? body.products : []).flatMap((p) => {
+		if (!isObject(p) || typeof p.name !== 'string' || !Number.isInteger(p.demoId)) return [];
+		const image = isObject(p.image) && typeof p.image.url === 'string' && /^https:\/\//.test(p.image.url) ? p.image.url : undefined;
+		return [{ demoId: p.demoId as number, name: p.name.slice(0, 60), ...(image ? { image } : {}) }];
+	});
 	return {
 		demoSlug: str(body, 'demoSlug'),
 		page: str(body, 'page'),
@@ -143,5 +148,6 @@ export const validatePreview = (body: unknown): PreviewRequest => {
 			slots: s.slots as PreviewRequest['sections'][number]['slots'],
 		})),
 		removed,
+		products,
 	};
 };

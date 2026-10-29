@@ -521,9 +521,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/target-line.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 60,
 							"height": 51,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "target with arrow",
+								"glyph": "#000000",
+								"size": 60,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "5f773627:image.url",
@@ -534,9 +541,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/spectacles-bg-1.png",
 							"decorative": true,
+							"displayWidth": 51,
 							"width": 51,
 							"height": 51,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "eyeglasses",
+								"glyph": "#000000",
+								"size": 48,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "827930c2:image.url",
@@ -547,9 +561,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/focus.png",
 							"decorative": true,
+							"displayWidth": 51,
 							"width": 51,
 							"height": 51,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "crosshair",
+								"glyph": "#ffffff",
+								"size": 31,
+								"shape": {
+									"kind": "circle",
+									"fill": "#000000",
+									"size": 51
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -662,6 +688,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team-1.jpg",
 							"decorative": false,
+							"displayWidth": 260,
 							"width": 266,
 							"height": 260,
 							"orientation": "square",
@@ -691,6 +718,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team3.jpg",
 							"decorative": false,
+							"displayWidth": 260,
 							"width": 266,
 							"height": 260,
 							"orientation": "square",
@@ -720,6 +748,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team2.jpg",
 							"decorative": false,
+							"displayWidth": 260,
 							"width": 266,
 							"height": 260,
 							"orientation": "square",
@@ -989,6 +1018,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/wordpress-1.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -1002,9 +1032,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/design.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "paintbrush in window",
+								"glyph": "#ffffff",
+								"size": 78,
+								"background": "#5bb5a5"
+							}
 						},
 						{
 							"id": "13c2e840:image.url",
@@ -1015,6 +1052,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/seo.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -1028,9 +1066,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/social-marketing.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "megaphone, speech bubbles",
+								"glyph": "#ffffff",
+								"size": 79,
+								"background": "#5bb5a5"
+							}
 						},
 						{
 							"id": "17ec4275:image.url",
@@ -1041,9 +1086,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/UI.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "ruler and pencil",
+								"glyph": "#ffffff",
+								"size": 78,
+								"background": "#5bb5a5"
+							}
 						},
 						{
 							"id": "a5e9d987:image.url",
@@ -1054,9 +1106,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/support.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "headset support person",
+								"glyph": "#ffffff",
+								"size": 80,
+								"background": "#5bb5a5"
+							}
 						}
 					]
 				},
@@ -1575,6 +1634,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img1.jpg",
 							"decorative": false,
+							"displayWidth": 500,
 							"width": 341,
 							"height": 557,
 							"orientation": "portrait",
@@ -1604,6 +1664,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img8.jpg",
 							"decorative": false,
+							"displayWidth": 500,
 							"width": 341,
 							"height": 557,
 							"orientation": "portrait",
@@ -1633,6 +1694,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img5.jpg",
 							"decorative": false,
+							"displayWidth": 500,
 							"width": 341,
 							"height": 557,
 							"orientation": "portrait",
@@ -1662,6 +1724,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img9.jpg",
 							"decorative": false,
+							"displayWidth": 500,
 							"width": 341,
 							"height": 557,
 							"orientation": "portrait",
@@ -1691,6 +1754,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img8.jpg",
 							"decorative": false,
+							"displayWidth": 500,
 							"width": 341,
 							"height": 557,
 							"orientation": "portrait",
@@ -1720,6 +1784,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/porfolio-img5.jpg",
 							"decorative": false,
+							"displayWidth": 500,
 							"width": 341,
 							"height": 557,
 							"orientation": "portrait",
@@ -1884,6 +1949,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/quote.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 120,
 							"orientation": "landscape"
@@ -1897,6 +1963,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team2.jpg",
 							"decorative": false,
+							"displayWidth": 60,
 							"width": 266,
 							"height": 260,
 							"orientation": "square",
@@ -1926,6 +1993,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/one-page-v3/wp-content/uploads/sites/133/2023/12/team2.jpg",
 							"decorative": false,
+							"displayWidth": 60,
 							"width": 266,
 							"height": 260,
 							"orientation": "square",
@@ -2229,5 +2297,5 @@
 		"swappableImages": 14,
 		"words": 346
 	},
-	"builtAt": "2026-10-29T11:52:56.217Z"
+	"builtAt": "2026-10-29T12:52:33.845Z"
 }

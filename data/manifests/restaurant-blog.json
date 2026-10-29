@@ -734,7 +734,37 @@
 							"placeholder": true
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-3.0.0:url",
+							"blockId": "core-3.0.0",
+							"path": "3.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/restaurant-blog/wp-content/uploads/sites/93/2021/02/inner-background.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 720,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.25,
+									0.26,
+									0.31,
+									0.12,
+									0.14,
+									0.18,
+									0.12,
+									0.13,
+									0.12
+								],
+								"color": "#3d2b1e",
+								"hue": 55,
+								"vivid": 0.21
+							}
+						}
+					]
 				},
 				{
 					"id": "top-5",
@@ -841,6 +871,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-blog/wp-content/uploads/sites/93/2021/02/review01.jpg",
 							"decorative": false,
+							"displayWidth": 75,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -870,6 +901,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/restaurant-blog/wp-content/uploads/sites/93/2021/02/client1.jpg",
 							"decorative": true,
+							"displayWidth": 75,
 							"width": 150,
 							"height": 150,
 							"orientation": "square"
@@ -1152,9 +1184,9 @@
 		"sections": 7,
 		"textSlots": 30,
 		"editableSlots": 30,
-		"images": 11,
-		"swappableImages": 10,
+		"images": 12,
+		"swappableImages": 11,
 		"words": 690
 	},
-	"builtAt": "2026-10-29T11:52:56.034Z"
+	"builtAt": "2026-10-29T12:52:33.685Z"
 }

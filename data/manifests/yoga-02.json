@@ -613,9 +613,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/2023/12/work.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "stopwatch timer",
+								"glyph": "#704c6b",
+								"size": 60,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "0930b95f:image.url",
@@ -626,9 +633,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/2023/12/instructors.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "raised hand",
+								"glyph": "#fcf9c5",
+								"size": 55,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "32c66f20:image.url",
@@ -639,9 +653,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/2023/12/diet.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "fried egg",
+								"glyph": "#704c6a",
+								"size": 60,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "1d5a59e1:image.url",
@@ -652,6 +673,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/2023/12/rawpixel-788417-unsplash.jpg",
 							"decorative": false,
+							"displayWidth": 465,
 							"width": 465,
 							"height": 660,
 							"orientation": "portrait",
@@ -1431,6 +1453,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/yoga-02/wp-content/uploads/sites/131/2023/12/michael-dam-258165-unsplash.png",
 							"decorative": true,
+							"displayWidth": 94,
 							"width": 94,
 							"height": 94,
 							"orientation": "square"
@@ -2227,5 +2250,5 @@
 		"swappableImages": 15,
 		"words": 496
 	},
-	"builtAt": "2026-10-29T11:52:55.962Z"
+	"builtAt": "2026-10-29T12:52:33.634Z"
 }

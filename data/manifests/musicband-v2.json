@@ -675,6 +675,180 @@
 								],
 								"color": "#a6abb7"
 							}
+						},
+						{
+							"id": "core-4.0.1.0.0:url",
+							"blockId": "core-4.0.1.0.0",
+							"path": "4.0.1.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-1.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.14,
+									0.16,
+									0.25,
+									0.25,
+									0.26,
+									0.19,
+									0.11,
+									0.12,
+									0.18
+								],
+								"color": "#392c26",
+								"hue": 48,
+								"vivid": 0.16
+							}
+						},
+						{
+							"id": "core-4.0.1.1.0:url",
+							"blockId": "core-4.0.1.1.0",
+							"path": "4.0.1.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.16,
+									0.22,
+									0.17,
+									0.14,
+									0.35,
+									0.17,
+									0.18,
+									0.22,
+									0.2
+								],
+								"color": "#4f2a38",
+								"hue": 24,
+								"vivid": 0.83
+							}
+						},
+						{
+							"id": "core-4.0.1.2.0:url",
+							"blockId": "core-4.0.1.2.0",
+							"path": "4.0.1.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-3.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.22,
+									0.11,
+									0.45,
+									0.43,
+									0.22,
+									0.21,
+									0.43,
+									0.33,
+									0.4
+								],
+								"color": "#564d52",
+								"hue": 6,
+								"vivid": 0.45
+							}
+						},
+						{
+							"id": "core-4.0.2.0.0:url",
+							"blockId": "core-4.0.2.0.0",
+							"path": "4.0.2.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-4.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.6,
+									0.49,
+									0.22,
+									0.44,
+									0.24,
+									0.34,
+									0.31,
+									0.18,
+									0.41
+								],
+								"color": "#4e5f61",
+								"hue": 205,
+								"vivid": 0.06
+							}
+						},
+						{
+							"id": "core-4.0.2.1.0:url",
+							"blockId": "core-4.0.2.1.0",
+							"path": "4.0.2.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-5.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.14,
+									0.24,
+									0.07,
+									0.11,
+									0.18,
+									0.16,
+									0.09,
+									0.37,
+									0.06
+								],
+								"color": "#382045",
+								"hue": 304,
+								"vivid": 0.7
+							}
+						},
+						{
+							"id": "core-4.0.2.2.0:url",
+							"blockId": "core-4.0.2.2.0",
+							"path": "4.0.2.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-6.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.24,
+									0.25,
+									0.16,
+									0.31,
+									0.36,
+									0.3,
+									0.21,
+									0.13,
+									0.14
+								],
+								"color": "#47364d",
+								"hue": 276,
+								"vivid": 0.69
+							}
 						}
 					]
 				},
@@ -1303,9 +1477,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/mic.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 80,
 							"height": 106,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "microphone",
+								"glyph": "#ffffff",
+								"size": 60,
+								"background": "#852172"
+							}
 						}
 					]
 				}
@@ -2075,9 +2256,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/mic.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 80,
 							"height": 106,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "microphone",
+								"glyph": "#ffffff",
+								"size": 60,
+								"background": "#852172"
+							}
 						}
 					]
 				}
@@ -2479,6 +2667,267 @@
 								],
 								"color": "#a6abb7"
 							}
+						},
+						{
+							"id": "core-0.0.0.0.0:url",
+							"blockId": "core-0.0.0.0.0",
+							"path": "0.0.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-1.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.14,
+									0.16,
+									0.25,
+									0.25,
+									0.26,
+									0.19,
+									0.11,
+									0.12,
+									0.18
+								],
+								"color": "#392c26",
+								"hue": 48,
+								"vivid": 0.16
+							}
+						},
+						{
+							"id": "core-0.0.0.1.0:url",
+							"blockId": "core-0.0.0.1.0",
+							"path": "0.0.0.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-2.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.16,
+									0.22,
+									0.17,
+									0.14,
+									0.35,
+									0.17,
+									0.18,
+									0.22,
+									0.2
+								],
+								"color": "#4f2a38",
+								"hue": 24,
+								"vivid": 0.83
+							}
+						},
+						{
+							"id": "core-0.0.0.2.0:url",
+							"blockId": "core-0.0.0.2.0",
+							"path": "0.0.0.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-3.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.22,
+									0.11,
+									0.45,
+									0.43,
+									0.22,
+									0.21,
+									0.43,
+									0.33,
+									0.4
+								],
+								"color": "#564d52",
+								"hue": 6,
+								"vivid": 0.45
+							}
+						},
+						{
+							"id": "core-0.0.1.0.0:url",
+							"blockId": "core-0.0.1.0.0",
+							"path": "0.0.1.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-4.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.6,
+									0.49,
+									0.22,
+									0.44,
+									0.24,
+									0.34,
+									0.31,
+									0.18,
+									0.41
+								],
+								"color": "#4e5f61",
+								"hue": 205,
+								"vivid": 0.06
+							}
+						},
+						{
+							"id": "core-0.0.1.1.0:url",
+							"blockId": "core-0.0.1.1.0",
+							"path": "0.0.1.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-5.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.14,
+									0.24,
+									0.07,
+									0.11,
+									0.18,
+									0.16,
+									0.09,
+									0.37,
+									0.06
+								],
+								"color": "#382045",
+								"hue": 304,
+								"vivid": 0.7
+							}
+						},
+						{
+							"id": "core-0.0.1.2.0:url",
+							"blockId": "core-0.0.1.2.0",
+							"path": "0.0.1.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/10/album-6.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.24,
+									0.25,
+									0.16,
+									0.31,
+									0.36,
+									0.3,
+									0.21,
+									0.13,
+									0.14
+								],
+								"color": "#47364d",
+								"hue": 276,
+								"vivid": 0.69
+							}
+						},
+						{
+							"id": "core-0.0.2.0.0:url",
+							"blockId": "core-0.0.2.0.0",
+							"path": "0.0.2.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/album-7.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.07,
+									0.23,
+									0.07,
+									0.14,
+									0.23,
+									0.03,
+									0.59,
+									0.69,
+									0.18
+								],
+								"color": "#423f3c",
+								"hue": 79,
+								"vivid": 0.09
+							}
+						},
+						{
+							"id": "core-0.0.2.1.0:url",
+							"blockId": "core-0.0.2.1.0",
+							"path": "0.0.2.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/album-8.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.08,
+									0.16,
+									0.04,
+									0.48,
+									0.56,
+									0.16,
+									0.61,
+									0.37,
+									0.3
+								],
+								"color": "#77462a",
+								"hue": 24,
+								"vivid": 1
+							}
+						},
+						{
+							"id": "core-0.0.2.2.0:url",
+							"blockId": "core-0.0.2.2.0",
+							"path": "0.0.2.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/album-9.jpg",
+							"decorative": false,
+							"width": 370,
+							"height": 394,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.33,
+									0.26,
+									0.1,
+									0.31,
+									0.18,
+									0.23,
+									0.08,
+									0.09,
+									0.21
+								],
+								"color": "#412f2b",
+								"hue": 28,
+								"vivid": 0.3
+							}
 						}
 					]
 				},
@@ -2739,9 +3188,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/mic.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 80,
 							"height": 106,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "microphone",
+								"glyph": "#ffffff",
+								"size": 60,
+								"background": "#852172"
+							}
 						}
 					]
 				}
@@ -3354,9 +3810,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/musicband-v2/wp-content/uploads/sites/135/2023/11/mic.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 80,
 							"height": 106,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "microphone",
+								"glyph": "#ffffff",
+								"size": 60,
+								"background": "#852172"
+							}
 						}
 					]
 				}
@@ -3397,9 +3860,9 @@
 		"sections": 19,
 		"textSlots": 110,
 		"editableSlots": 109,
-		"images": 33,
-		"swappableImages": 29,
+		"images": 48,
+		"swappableImages": 44,
 		"words": 832
 	},
-	"builtAt": "2026-10-29T11:52:56.236Z"
+	"builtAt": "2026-10-29T12:52:33.859Z"
 }

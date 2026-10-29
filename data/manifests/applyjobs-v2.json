@@ -541,7 +541,18 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "magnifying glass",
+								"glyph": "#ffffff",
+								"size": 36,
+								"shape": {
+									"kind": "square",
+									"fill": "#3653fe",
+									"size": 60
+								},
+								"background": "#f7f8fa"
+							}
 						},
 						{
 							"id": "172b3ff9:image.url",
@@ -554,7 +565,18 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "target bullseye",
+								"glyph": "#ffffff",
+								"size": 36,
+								"shape": {
+									"kind": "square",
+									"fill": "#3653fe",
+									"size": 60
+								},
+								"background": "#f7f8fa"
+							}
 						},
 						{
 							"id": "bb2b8a0b:image.url",
@@ -567,7 +589,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "document file",
+								"glyph": "#3653fe",
+								"size": 31,
+								"background": "#f7f8fa"
+							}
 						}
 					]
 				},
@@ -942,7 +970,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "line chart",
+								"glyph": "#3653fe",
+								"size": 31,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "5a3ad454:image.url",
@@ -955,7 +989,18 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "edit pencil",
+								"glyph": "#ffffff",
+								"size": 36,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#3653fe",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "e2f9f4ab:image.url",
@@ -968,7 +1013,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bar chart",
+								"glyph": "#3653fe",
+								"size": 31,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "f61a668a:image.url",
@@ -981,7 +1032,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "office building",
+								"glyph": "#3653fe",
+								"size": 31,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c9db5d9a:image.url",
@@ -994,7 +1051,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "computer monitor",
+								"glyph": "#3653fe",
+								"size": 34,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "804ad701:image.url",
@@ -1007,7 +1070,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "sort descending",
+								"glyph": "#3654fe",
+								"size": 34,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "043528d3:image.url",
@@ -1020,7 +1089,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "user profile",
+								"glyph": "#3653fe",
+								"size": 31,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "b35d5115:image.url",
@@ -1033,7 +1108,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "lightbulb idea",
+								"glyph": "#3653fe",
+								"size": 31,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "75d665d5:image.url",
@@ -1044,6 +1125,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/jobs.png",
 							"decorative": true,
+							"displayWidth": 360,
 							"width": 491,
 							"height": 483,
 							"orientation": "square"
@@ -1441,6 +1523,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/suprado-1.jpg",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 400,
 							"height": 400,
 							"orientation": "square"
@@ -1454,6 +1537,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/img-2-1.jpg",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 400,
 							"height": 400,
 							"orientation": "square"
@@ -1467,6 +1551,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/commet-1.jpg",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 400,
 							"height": 400,
 							"orientation": "square"
@@ -1480,6 +1565,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/img-2-1.jpg",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 400,
 							"height": 400,
 							"orientation": "square"
@@ -1493,6 +1579,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/Marvellous-1.jpg",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 400,
 							"height": 400,
 							"orientation": "square"
@@ -1506,6 +1593,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/suprado-1.jpg",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 400,
 							"height": 400,
 							"orientation": "square"
@@ -2316,7 +2404,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "Clock",
+								"glyph": "#3653fe",
+								"size": 31,
+								"background": "#f7f8fa"
+							}
 						},
 						{
 							"id": "172b3ff9:image.url",
@@ -2329,7 +2423,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "Life ring",
+								"glyph": "#3653fe",
+								"size": 31,
+								"background": "#f7f8fa"
+							}
 						},
 						{
 							"id": "bb2b8a0b:image.url",
@@ -2342,7 +2442,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "computer monitor",
+								"glyph": "#3653fe",
+								"size": 34,
+								"background": "#f7f8fa"
+							}
 						}
 					]
 				},
@@ -2533,7 +2639,13 @@
 							"decorative": true,
 							"width": 45,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "Eye",
+								"glyph": "#ffffff",
+								"size": 45,
+								"background": "#2181c2"
+							}
 						},
 						{
 							"id": "f2372e2d:image.url",
@@ -2738,6 +2850,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/portrait-1.jpg",
 							"decorative": false,
+							"displayWidth": 50,
 							"width": 400,
 							"height": 400,
 							"orientation": "square",
@@ -2767,6 +2880,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/portrait-2.jpg",
 							"decorative": false,
+							"displayWidth": 50,
 							"width": 400,
 							"height": 400,
 							"orientation": "square",
@@ -2796,6 +2910,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/applyjobs-v2/wp-content/uploads/sites/132/2023/11/portrait-3.jpg",
 							"decorative": false,
+							"displayWidth": 50,
 							"width": 400,
 							"height": 400,
 							"orientation": "square",
@@ -4002,7 +4117,18 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clock",
+								"glyph": "#ffffff",
+								"size": 36,
+								"shape": {
+									"kind": "circle",
+									"fill": "#6ec2e5",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "6a8295bf:image.url",
@@ -4015,7 +4141,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "clipboard",
+								"glyph": "#6fc2e5",
+								"size": 30,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "b9bcb790:image.url",
@@ -4028,7 +4160,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "banknote with coin",
+								"glyph": "#6fc3e6",
+								"size": 34,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -4146,7 +4284,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "graduation cap",
+								"glyph": "#6fc2e5",
+								"size": 38,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "959c8c11:image.url",
@@ -4159,7 +4303,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "id card with person",
+								"glyph": "#6fc3e6",
+								"size": 31,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "4d49c269:image.url",
@@ -4172,7 +4322,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 60,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "briefcase",
+								"glyph": "#6fc3e6",
+								"size": 31,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -4915,5 +5071,5 @@
 		"swappableImages": 22,
 		"words": 1148
 	},
-	"builtAt": "2026-10-29T11:52:56.214Z"
+	"builtAt": "2026-10-29T12:52:33.841Z"
 }

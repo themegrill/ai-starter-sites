@@ -478,6 +478,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-1.webp",
 							"decorative": false,
+							"displayWidth": 40,
 							"width": 280,
 							"height": 280,
 							"orientation": "square",
@@ -507,6 +508,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-3.webp",
 							"decorative": false,
+							"displayWidth": 40,
 							"width": 280,
 							"height": 280,
 							"orientation": "square",
@@ -536,6 +538,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-8.webp",
 							"decorative": false,
+							"displayWidth": 40,
 							"width": 280,
 							"height": 280,
 							"orientation": "square",
@@ -565,6 +568,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-5.webp",
 							"decorative": false,
+							"displayWidth": 40,
 							"width": 280,
 							"height": 280,
 							"orientation": "square",
@@ -594,6 +598,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/ratings.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 27,
 							"orientation": "landscape"
@@ -636,6 +641,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/07/team-9.jpg",
 							"decorative": true,
+							"displayWidth": 42,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -1554,6 +1560,35 @@
 					],
 					"images": [
 						{
+							"id": "core-2.1.0.0.0.0:url",
+							"blockId": "core-2.1.0.0.0.0",
+							"path": "2.1.0.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-1.webp",
+							"decorative": false,
+							"width": 1000,
+							"height": 688,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.78,
+									0.61,
+									0.5,
+									0.56,
+									0.5,
+									0.3,
+									0.23,
+									0.34,
+									0.28
+								],
+								"color": "#767567",
+								"hue": 81,
+								"vivid": 0.41
+							}
+						},
+						{
 							"id": "core-2.1.0.0.1.1.0.0:@html:img",
 							"blockId": "core-2.1.0.0.1.1.0.0",
 							"path": "2.1.0.0.1.1.0.0",
@@ -1562,6 +1597,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-1-150x150.webp",
 							"decorative": false,
+							"displayWidth": 38,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1583,6 +1619,35 @@
 							}
 						},
 						{
+							"id": "core-2.1.1.0.0.0:url",
+							"blockId": "core-2.1.1.0.0.0",
+							"path": "2.1.1.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-2.webp",
+							"decorative": false,
+							"width": 1000,
+							"height": 688,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.57,
+									0.59,
+									0.68,
+									0.62,
+									0.61,
+									0.59,
+									0.13,
+									0.14,
+									0.14
+								],
+								"color": "#82715d",
+								"hue": 81,
+								"vivid": 0.19
+							}
+						},
+						{
 							"id": "core-2.1.1.0.0.0.0.0.0:@html:img",
 							"blockId": "core-2.1.1.0.0.0.0.0.0",
 							"path": "2.1.1.0.0.0.0.0.0",
@@ -1591,9 +1656,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock.png",
 							"decorative": true,
+							"displayWidth": 13,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#ffffff",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.1.1.0.1.1.0.0:@html:img",
@@ -1604,6 +1676,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-2-150x150.webp",
 							"decorative": false,
+							"displayWidth": 38,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1625,6 +1698,35 @@
 							}
 						},
 						{
+							"id": "core-2.1.2.0.0.0:url",
+							"blockId": "core-2.1.2.0.0.0",
+							"path": "2.1.2.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-3.webp",
+							"decorative": false,
+							"width": 1000,
+							"height": 688,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.3,
+									0.16,
+									0.12,
+									0.44,
+									0.2,
+									0.17,
+									0.31,
+									0.15,
+									0.12
+								],
+								"color": "#473528",
+								"hue": 56,
+								"vivid": 0.21
+							}
+						},
+						{
 							"id": "core-2.1.2.0.1.1.0.0:@html:img",
 							"blockId": "core-2.1.2.0.1.1.0.0",
 							"path": "2.1.2.0.1.1.0.0",
@@ -1633,6 +1735,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-5-150x150.webp",
 							"decorative": false,
+							"displayWidth": 38,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1654,6 +1757,35 @@
 							}
 						},
 						{
+							"id": "core-2.2.0.0.0.0:url",
+							"blockId": "core-2.2.0.0.0.0",
+							"path": "2.2.0.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-4.webp",
+							"decorative": false,
+							"width": 1000,
+							"height": 688,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.23,
+									0.24,
+									0.28,
+									0.44,
+									0.36,
+									0.31,
+									0.19,
+									0.09,
+									0.1
+								],
+								"color": "#4a3d3f",
+								"hue": 68,
+								"vivid": 0.14
+							}
+						},
+						{
 							"id": "core-2.2.0.0.0.0.0.0.0:@html:img",
 							"blockId": "core-2.2.0.0.0.0.0.0.0",
 							"path": "2.2.0.0.0.0.0.0.0",
@@ -1662,9 +1794,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock.png",
 							"decorative": true,
+							"displayWidth": 13,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#ffffff",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.2.0.0.1.1.0.0:@html:img",
@@ -1675,6 +1814,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-3-150x150.webp",
 							"decorative": false,
+							"displayWidth": 38,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1696,6 +1836,34 @@
 							}
 						},
 						{
+							"id": "core-2.2.1.0.0.0:url",
+							"blockId": "core-2.2.1.0.0.0",
+							"path": "2.2.1.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-5.webp",
+							"decorative": false,
+							"width": 1000,
+							"height": 688,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.38,
+									0.49,
+									0.39,
+									0.5,
+									0.7,
+									0.39,
+									0.15,
+									0.21,
+									0.15
+								],
+								"color": "#5f5f5f",
+								"vivid": 0
+							}
+						},
+						{
 							"id": "core-2.2.1.0.1.1.0.0:@html:img",
 							"blockId": "core-2.2.1.0.1.1.0.0",
 							"path": "2.2.1.0.1.1.0.0",
@@ -1704,6 +1872,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-8-150x150.webp",
 							"decorative": false,
+							"displayWidth": 38,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1725,6 +1894,35 @@
 							}
 						},
 						{
+							"id": "core-2.2.2.0.0.0:url",
+							"blockId": "core-2.2.2.0.0.0",
+							"path": "2.2.2.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-6.webp",
+							"decorative": false,
+							"width": 1000,
+							"height": 688,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.6,
+									0.72,
+									0.53,
+									0.42,
+									0.61,
+									0.4,
+									0.3,
+									0.48,
+									0.26
+								],
+								"color": "#797a7f",
+								"hue": 259,
+								"vivid": 0.2
+							}
+						},
+						{
 							"id": "core-2.2.2.0.0.0.0.0.0:@html:img",
 							"blockId": "core-2.2.2.0.0.0.0.0.0",
 							"path": "2.2.2.0.0.0.0.0.0",
@@ -1733,9 +1931,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock.png",
 							"decorative": true,
+							"displayWidth": 13,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#ffffff",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.2.2.0.1.1.0.0:@html:img",
@@ -1746,6 +1951,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-7-150x150.webp",
 							"decorative": false,
+							"displayWidth": 38,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1977,6 +2183,35 @@
 					],
 					"images": [
 						{
+							"id": "core-3.1.0.0.0:url",
+							"blockId": "core-3.1.0.0.0",
+							"path": "3.1.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/premium-1-1024x768.webp",
+							"decorative": false,
+							"width": 1024,
+							"height": 768,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.09,
+									0.13,
+									0.01,
+									0.11,
+									0.17,
+									0.11,
+									0.19,
+									0.2,
+									0.08
+								],
+								"color": "#291d15",
+								"hue": 53,
+								"vivid": 0.02
+							}
+						},
+						{
 							"id": "core-3.1.0.0.0.0.0.0:@html:img",
 							"blockId": "core-3.1.0.0.0.0.0.0",
 							"path": "3.1.0.0.0.0.0.0",
@@ -1985,9 +2220,45 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock.png",
 							"decorative": true,
+							"displayWidth": 13,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#ffffff",
+								"size": 15,
+								"background": "#ffffff"
+							}
+						},
+						{
+							"id": "core-3.1.1.0.0:url",
+							"blockId": "core-3.1.1.0.0",
+							"path": "3.1.1.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/premium-2-1024x768.webp",
+							"decorative": false,
+							"width": 1024,
+							"height": 768,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.25,
+									0.33,
+									0.33,
+									0.22,
+									0.25,
+									0.44,
+									0.18,
+									0.17,
+									0.2
+								],
+								"color": "#583d3d",
+								"hue": 50,
+								"vivid": 0.34
+							}
 						},
 						{
 							"id": "core-3.1.1.0.0.0.0.0:@html:img",
@@ -1998,9 +2269,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock.png",
 							"decorative": true,
+							"displayWidth": 13,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#ffffff",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2294,6 +2572,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-1-150x150.webp",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2323,6 +2602,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-2-150x150.webp",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2352,6 +2632,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-3-150x150.webp",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2381,6 +2662,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-4-150x150.webp",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2410,6 +2692,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-5-150x150.webp",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2439,6 +2722,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-6-150x150.webp",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2468,6 +2752,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-7-150x150.webp",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2497,6 +2782,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/team-8-150x150.webp",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2770,6 +3056,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/download-1-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2799,9 +3086,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png",
 							"decorative": true,
+							"displayWidth": 12,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#f26d22",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-5.1.1.0.0.0.0:@html:img",
@@ -2812,6 +3106,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/download-2-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2841,9 +3136,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png",
 							"decorative": true,
+							"displayWidth": 12,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#f26d22",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-5.1.2.0.0.0.0:@html:img",
@@ -2854,6 +3156,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/download-3-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2883,9 +3186,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png",
 							"decorative": true,
+							"displayWidth": 12,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#f26d22",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -3941,6 +4251,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/2026/07/download-1-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square"
@@ -3953,7 +4264,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 12
 						},
 						{
 							"id": "core-1.0.1.0.0.0.0:@html:img",
@@ -3964,6 +4276,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/2026/07/download-2-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square"
@@ -3976,7 +4289,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 12
 						},
 						{
 							"id": "core-1.0.2.0.0.0.0:@html:img",
@@ -3987,6 +4301,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/2026/07/download-3-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square"
@@ -3999,7 +4314,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 12
 						},
 						{
 							"id": "core-1.1.0.0.0.0.0:@html:img",
@@ -4010,6 +4326,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/2026/07/premium-1-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square"
@@ -4022,7 +4339,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 12
 						},
 						{
 							"id": "core-1.1.1.0.0.0.0:@html:img",
@@ -4033,6 +4351,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/2026/07/premium-2-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square"
@@ -4045,7 +4364,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 12
 						},
 						{
 							"id": "core-1.1.2.0.0.0.0:@html:img",
@@ -4056,6 +4376,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/2026/07/stories-5-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square"
@@ -4068,7 +4389,8 @@
 							"attr": "@html:img",
 							"kind": "image",
 							"url": "https://terribleday.s2-tastewp.com/wp-content/themes/member-read/assets/images/lock-1.png",
-							"decorative": false
+							"decorative": false,
+							"displayWidth": 12
 						}
 					]
 				},
@@ -5248,6 +5570,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/download-1-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -5277,9 +5600,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png",
 							"decorative": true,
+							"displayWidth": 12,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#f26d22",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.0.1.0.0.0.0:@html:img",
@@ -5290,6 +5620,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/download-2-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -5319,9 +5650,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png",
 							"decorative": true,
+							"displayWidth": 12,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#f26d22",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.0.2.0.0.0.0:@html:img",
@@ -5332,6 +5670,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/download-3-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -5361,9 +5700,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png",
 							"decorative": true,
+							"displayWidth": 12,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#f26d22",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.0.0.0.0.0:@html:img",
@@ -5374,6 +5720,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-1-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -5403,9 +5750,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png",
 							"decorative": true,
+							"displayWidth": 12,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#f26d22",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.1.0.0.0.0:@html:img",
@@ -5416,6 +5770,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-3-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -5445,9 +5800,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png",
 							"decorative": true,
+							"displayWidth": 12,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#f26d22",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.2.0.0.0.0:@html:img",
@@ -5458,6 +5820,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/stories-2-150x150.webp",
 							"decorative": false,
+							"displayWidth": 120,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -5487,9 +5850,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/member-read/wp-content/uploads/sites/196/2026/08/lock-orange.png",
 							"decorative": true,
+							"displayWidth": 12,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "padlock",
+								"glyph": "#f26d22",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -5639,9 +6009,9 @@
 		"sections": 17,
 		"textSlots": 244,
 		"editableSlots": 211,
-		"images": 56,
-		"swappableImages": 40,
+		"images": 64,
+		"swappableImages": 48,
 		"words": 959
 	},
-	"builtAt": "2026-10-29T11:52:56.446Z"
+	"builtAt": "2026-10-29T12:52:34.104Z"
 }

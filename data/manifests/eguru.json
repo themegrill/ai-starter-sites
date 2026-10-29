@@ -852,6 +852,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/eguru/wp-content/uploads/sites/112/2022/01/side-img.png",
 							"decorative": false,
+							"displayWidth": 1920,
 							"width": 681,
 							"height": 706,
 							"orientation": "square",
@@ -1449,5 +1450,5 @@
 		"swappableImages": 3,
 		"words": 319
 	},
-	"builtAt": "2026-10-29T11:52:56.101Z"
+	"builtAt": "2026-10-29T12:52:33.732Z"
 }

@@ -741,9 +741,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/tick-icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 20,
 							"height": 21,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#fef9f6",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f67a45",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "8c6ce0ad:image.url",
@@ -754,9 +767,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/tick-icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 20,
 							"height": 21,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#fef9f6",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f67a45",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "d4785964:image.url",
@@ -767,9 +793,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/tick-icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 20,
 							"height": 21,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#fef9f6",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f67a45",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -949,7 +988,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dumbbell",
+								"glyph": "#f67944",
+								"size": 78,
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "72173244:image.url",
@@ -962,7 +1007,13 @@
 							"decorative": true,
 							"width": 70,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "food and drink",
+								"glyph": "#f57944",
+								"size": 70,
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "cbce5a98:image.url",
@@ -975,7 +1026,13 @@
 							"decorative": true,
 							"width": 70,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "cocktail glass",
+								"glyph": "#f67a44",
+								"size": 64,
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "30f8afa9:image.url",
@@ -988,7 +1045,13 @@
 							"decorative": true,
 							"width": 70,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "heart with pulse",
+								"glyph": "#f67a45",
+								"size": 60,
+								"background": "#f9f9f9"
+							}
 						}
 					]
 				},
@@ -3671,9 +3734,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/tick-icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 20,
 							"height": 21,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#fef9f6",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f67a45",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "e4dbfe0f:image.url",
@@ -3684,9 +3760,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/tick-icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 20,
 							"height": 21,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#fef9f6",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f67a45",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ad3b4d3d:image.url",
@@ -3697,9 +3786,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/fitclub/wp-content/uploads/sites/192/2025/02/tick-icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 20,
 							"height": 21,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#fef9f6",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f67a45",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -3879,7 +3981,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dumbbell",
+								"glyph": "#f67944",
+								"size": 78,
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "72173244:image.url",
@@ -3892,7 +4000,13 @@
 							"decorative": true,
 							"width": 70,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "food and drink",
+								"glyph": "#f57944",
+								"size": 70,
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "cbce5a98:image.url",
@@ -3905,7 +4019,13 @@
 							"decorative": true,
 							"width": 70,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "cocktail glass",
+								"glyph": "#f67a44",
+								"size": 64,
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "30f8afa9:image.url",
@@ -3918,7 +4038,13 @@
 							"decorative": true,
 							"width": 70,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "heart with pulse",
+								"glyph": "#f67a45",
+								"size": 60,
+								"background": "#f9f9f9"
+							}
 						}
 					]
 				},
@@ -5713,5 +5839,5 @@
 		"swappableImages": 34,
 		"words": 1013
 	},
-	"builtAt": "2026-10-29T11:52:55.953Z"
+	"builtAt": "2026-10-29T12:52:33.629Z"
 }

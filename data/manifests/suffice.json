@@ -1400,7 +1400,18 @@
 							"decorative": true,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "pie chart",
+								"glyph": "#3867d6",
+								"size": 22,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f3f6fc",
+									"size": 48
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "2431a2e4:image.url",
@@ -1413,7 +1424,18 @@
 							"decorative": true,
 							"width": 48,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "trend arrow",
+								"glyph": "#3967d6",
+								"size": 22,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f3f6fc",
+									"size": 48
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "8d12b18e:image.url",
@@ -1426,7 +1448,18 @@
 							"decorative": true,
 							"width": 49,
 							"height": 48,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bar chart",
+								"glyph": "#92ace8",
+								"size": 21,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f2f5fb",
+									"size": 49
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "366850f1:image.url",
@@ -1933,5 +1966,5 @@
 		"swappableImages": 21,
 		"words": 273
 	},
-	"builtAt": "2026-10-29T11:52:56.419Z"
+	"builtAt": "2026-10-29T12:52:34.068Z"
 }

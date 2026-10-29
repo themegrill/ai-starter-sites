@@ -61,7 +61,15 @@ export type ImageSlot = {
 	overlays?: Record<string, string>;
 };
 
-export type SlotValue = string | ImageSlot;
+// A pictogram swapped for a BlockArt icon: the icon block's name, colors and sizes.
+export type IconSlot = {
+	icon: string; // BlockArt icon name, e.g. "paw-solid".
+	color: string;
+	size: number; // px
+	shape?: { color: string; radius: number; padding: number }; // radius in %, padding in px
+};
+
+export type SlotValue = string | ImageSlot | IconSlot;
 
 export type Section = {
 	id: string;
@@ -102,6 +110,15 @@ export type GenerationPackage = {
 	importPackage: Record<string, unknown>;
 	// Things the user should know, e.g. a requested page the design lacks.
 	notes?: string[];
+	// The demo's WooCommerce products, renamed and re-photographed for the business.
+	products?: GeneratedProduct[];
+};
+
+export type GeneratedProduct = {
+	demoId: number; // Product post ID in the demo; the importer maps it to the imported product.
+	name: string;
+	description: string;
+	image?: ImageSlot;
 };
 
 export type RegenerateSectionRequest = {
@@ -126,6 +143,7 @@ export type PreviewRequest = {
 	brand: BrandKit;
 	sections: { id: string; slots: Record<string, SlotValue> }[];
 	removed: string[];
+	products: { demoId: number; name: string; image?: string }[];
 };
 
 export type ColorMapRequest = {
@@ -164,3 +182,6 @@ export type AiErrorPayload = {
 
 export const isImageSlot = (value: SlotValue | undefined): value is ImageSlot =>
 	typeof value === 'object' && value !== null && 'url' in value;
+
+export const isIconSlot = (value: SlotValue | undefined): value is IconSlot =>
+	typeof value === 'object' && value !== null && 'icon' in value;

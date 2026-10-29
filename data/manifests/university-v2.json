@@ -954,9 +954,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/iphone.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 512,
 							"height": 512,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "mobile phone",
+								"glyph": "#000000",
+								"size": 60,
+								"background": "#fdc800"
+							}
 						},
 						{
 							"id": "9e6e636c:image.url",
@@ -967,9 +974,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/graduate1-e1711962829916.png",
 							"decorative": true,
+							"displayWidth": 55,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "graduation cap",
+								"glyph": "#ffffff",
+								"size": 55,
+								"background": "#fdc800"
+							}
 						},
 						{
 							"id": "aab29ea5:image.url",
@@ -980,9 +994,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/user.png",
 							"decorative": true,
+							"displayWidth": 55,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "user profile",
+								"glyph": "#fdc800",
+								"size": 55,
+								"background": "#002248"
+							}
 						},
 						{
 							"id": "934e2c51:image.url",
@@ -993,9 +1014,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/book.png",
 							"decorative": true,
+							"displayWidth": 55,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "document page",
+								"glyph": "#ffffff",
+								"size": 49,
+								"background": "#fdc800"
+							}
 						},
 						{
 							"id": "e970e7a7-de09-4227-89eb-1a863d83c16b:image.url",
@@ -1006,9 +1034,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/chalkboard.png",
 							"decorative": true,
+							"displayWidth": 55,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "presenter whiteboard",
+								"glyph": "#ffffff",
+								"size": 46,
+								"background": "#002248"
+							}
 						}
 					]
 				},
@@ -1403,9 +1438,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/book.png",
 							"decorative": true,
+							"displayWidth": 35,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "document page",
+								"glyph": "#ffffff",
+								"size": 31,
+								"background": "#002248"
+							}
 						},
 						{
 							"id": "b9c73c4f:image.url",
@@ -1416,9 +1458,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/book-reader.png",
 							"decorative": true,
+							"displayWidth": 35,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#ffffff",
+								"size": 29,
+								"background": "#002248"
+							}
 						},
 						{
 							"id": "81940cf0:image.url",
@@ -1429,9 +1478,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/university-building.png",
 							"decorative": true,
+							"displayWidth": 35,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "columned building",
+								"glyph": "#ffffff",
+								"size": 35,
+								"background": "#002248"
+							}
 						},
 						{
 							"id": "3deabe48:image.url",
@@ -1442,9 +1498,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/04/chalkboard.png",
 							"decorative": true,
+							"displayWidth": 35,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "presenter whiteboard",
+								"glyph": "#ffffff",
+								"size": 29,
+								"background": "#002248"
+							}
 						}
 					]
 				},
@@ -1851,6 +1914,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10014.jpg",
 							"decorative": false,
+							"displayWidth": 60,
 							"width": 200,
 							"height": 200,
 							"orientation": "square",
@@ -1880,6 +1944,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/university-v2/wp-content/uploads/sites/150/2024/03/10015.jpg",
 							"decorative": false,
+							"displayWidth": 60,
 							"width": 200,
 							"height": 200,
 							"orientation": "square",
@@ -3872,5 +3937,5 @@
 		"swappableImages": 27,
 		"words": 884
 	},
-	"builtAt": "2026-10-29T11:52:56.333Z"
+	"builtAt": "2026-10-29T12:52:33.958Z"
 }

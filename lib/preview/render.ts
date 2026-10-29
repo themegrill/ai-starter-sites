@@ -8,7 +8,8 @@ import { DemoManifest, ManifestSection } from '../demos/types';
 import { buildFontMap } from '../pipeline/brand-kit';
 import { colorMapFor } from '../pipeline/color-map';
 import { getManifest } from '../pipeline/pick-demo';
-import { BrandKit, PreviewRequest } from '../types';
+import { iconDataUri, iconSvg } from '../icons';
+import { BrandKit, IconSlot, isIconSlot, isImageSlot, PreviewRequest } from '../types';
 
 const CACHE_TTL = 60 * 60 * 1000;
 const cache = new Map<string, { html: string; at: number }>();
@@ -133,7 +134,27 @@ export const renderPreview = async (request: PreviewRequest): Promise<string> =>
 
 		for (const image of section.images) {
 			const value = values.get(image.id);
-			if (!value || typeof value !== 'object' || !value.url || value.url === image.url) continue;
+			if (isIconSlot(value)) {
+				// A heading drawing its icon as a background keeps doing so.
+				if (image.kind === 'background') {
+					const uri = iconDataUri(String(value.icon), hex(value.color), px(value.size), value.shape && { color: hex(value.shape.color), radius: px(value.shape.radius), padding: px(value.shape.padding) });
+					if (uri) replaceImage.push([imagePattern(image.url), uri]);
+					continue;
+				}
+				// The shown <img> (lazy-loaded ones keep the URL in data-lazy-src), in the image's own block.
+				const pattern = new RegExp(imagePattern(image.url).source);
+				const block = byClientId(image.blockId, root);
+				const imgs = (block.length ? block : root)
+					.find('img')
+					.filter((_, el) => !used.has(el) && pattern.test(`${$(el).attr('src') ?? ''} ${$(el).attr('data-lazy-src') ?? ''}`));
+				imgs.each((_, el) => {
+					used.add(el);
+					$(el).next('noscript').remove();
+					$(el).replaceWith(iconHtml(value));
+				});
+				continue;
+			}
+			if (!isImageSlot(value) || value.url === image.url) continue;
 			replaceImage.push([imagePattern(image.url), value.url]);
 			// The import darkens or lightens photos unlike the demo's so its text stays readable.
 			const overlay = value.overlays?.[value.url];
@@ -142,6 +163,31 @@ export const renderPreview = async (request: PreviewRequest): Promise<string> =>
 					`.blockart-section-${image.blockId}.blockart-section{background-image:${overlay},url("${encodeURI(value.url)}")!important}`,
 				);
 			}
+		}
+	}
+
+	// Shop products: product blocks show the demo's names and photos, wherever they appear.
+	for (const product of request.products) {
+		const original = demo.products?.find((p) => p.id === product.demoId);
+		if (!original) continue;
+		const want = norm(original.name);
+		content
+			.find(TEXT_TAGS)
+			.filter((_, el) => norm($(el).text()) === want && !$(el).children().toArray().some((c) => norm($(c).text()) === want))
+			.each((_, el) => {
+				$(el).text(product.name);
+			});
+		// "Add to cart: “Name”" labels.
+		replaceImage.push([new RegExp(`“${escapeRegExp(escapeHtml(original.name))}”`, 'g'), `“${escapeHtml(product.name).replace(/\$/g, '$$$$')}”`]);
+		// Alt text, including lazy-load <noscript> copies that cheerio keeps as raw text.
+		replaceImage.push([new RegExp(`alt="${escapeRegExp(escapeHtml(original.name))}"`, 'g'), `alt="${escapeHtml(product.name).replace(/\$/g, '$$$$')}"`]);
+		// Export URLs leave out the demo's subsite folder, so match from the upload path on.
+		const upload = original.image?.match(/\/wp-content\/uploads\/(.+?)(?:-scaled)?(\.[a-z0-9]+)$/i);
+		if (product.image && upload) {
+			replaceImage.push([
+				new RegExp(`(?:https?:)?//[^"'\\s)]*?/wp-content/uploads/${escapeRegExp(upload[1]!)}(?:-\\d+x\\d+)?(?:-scaled)?${escapeRegExp(upload[2]!)}`, 'gi'),
+				product.image,
+			]);
 		}
 	}
 
@@ -168,6 +214,17 @@ export const renderPreview = async (request: PreviewRequest): Promise<string> =>
 	let html = $.html();
 	for (const [pattern, url] of replaceImage) html = html.replace(pattern, url);
 	return html;
+};
+
+// Values come from the request: only hex colors and numbers reach the markup.
+const hex = (value: unknown) => (typeof value === 'string' && /^#[0-9a-f]{6}$/i.test(value) ? value : '#000000');
+const px = (value: unknown) => Math.min(400, Math.max(0, Number(value) || 0));
+
+// The icon block's look, inline: BlockArt's CSS for it is only built on import.
+const iconHtml = ({ icon, color, size, shape }: IconSlot) => {
+	const tile = shape ? `background:${hex(shape.color)};border-radius:${px(shape.radius)}%;padding:${px(shape.padding)}px;` : '';
+	const svg = iconSvg(String(icon), `width:${px(size)}px;height:${px(size)}px;fill:${hex(color)}`);
+	return `<span class="blockart-icon-wrapper" style="display:inline-flex;align-items:center;justify-content:center;line-height:0;${tile}">${svg}</span>`;
 };
 
 const brandHeader = ($: cheerio.CheerioAPI, brand: BrandKit, demo: DemoManifest) => {

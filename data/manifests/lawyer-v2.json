@@ -669,9 +669,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/icon-1.png",
 							"decorative": true,
+							"displayWidth": 140,
 							"width": 54,
 							"height": 50,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "briefcase",
+								"glyph": "#b89b5e",
+								"size": 140,
+								"background": "#191c23"
+							}
 						},
 						{
 							"id": "9628405e:image.url",
@@ -682,9 +689,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/icon-2.png",
 							"decorative": true,
+							"displayWidth": 140,
 							"width": 50,
 							"height": 50,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bank building",
+								"glyph": "#b89b5e",
+								"size": 140,
+								"background": "#191c23"
+							}
 						},
 						{
 							"id": "47a8d7d0:image.url",
@@ -695,9 +709,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/icon-3.png",
 							"decorative": true,
+							"displayWidth": 140,
 							"width": 50,
 							"height": 50,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "leaf",
+								"glyph": "#b89b5e",
+								"size": 140,
+								"background": "#191c23"
+							}
 						},
 						{
 							"id": "fb609b86:image.url",
@@ -708,9 +729,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/lawyer-v2/wp-content/uploads/sites/125/2023/10/icon-4.png",
 							"decorative": true,
+							"displayWidth": 140,
 							"width": 44,
 							"height": 50,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "flame",
+								"glyph": "#b89b5e",
+								"size": 140,
+								"background": "#191c23"
+							}
 						},
 						{
 							"id": "7dc59c4a:image.url",
@@ -4582,5 +4610,5 @@
 		"swappableImages": 15,
 		"words": 1739
 	},
-	"builtAt": "2026-10-29T11:52:55.988Z"
+	"builtAt": "2026-10-29T12:52:33.658Z"
 }

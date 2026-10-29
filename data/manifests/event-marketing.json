@@ -504,7 +504,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-2:@html:img",
+							"blockId": "core-2",
+							"path": "2",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Call-to-action-compressed.jpg",
+							"decorative": false,
+							"width": 881,
+							"height": 405,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.72,
+									0.72,
+									0.74,
+									0.66,
+									0.51,
+									0.56,
+									0.59,
+									0.48,
+									0.51
+								],
+								"color": "#989c9d",
+								"hue": 24,
+								"vivid": 0.06
+							}
+						}
+					]
 				},
 				{
 					"id": "top-3",
@@ -1292,7 +1322,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-6:url",
+							"blockId": "core-6",
+							"path": "6",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/image-1.png",
+							"decorative": false,
+							"width": 1440,
+							"height": 402,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.28,
+									0.27,
+									0.28,
+									0.28,
+									0.28,
+									0.28,
+									0.29,
+									0.29,
+									0.29
+								],
+								"color": "#005b65",
+								"hue": 202,
+								"vivid": 0.92
+							}
+						}
+					]
 				},
 				{
 					"id": "top-7",
@@ -1594,6 +1654,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/paul-150x150.jpg",
 							"decorative": false,
+							"displayWidth": 100,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1636,6 +1697,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/pexels-pixabay-415829-scaled-1-150x150.jpg",
 							"decorative": false,
+							"displayWidth": 100,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -1678,6 +1740,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/pexels-gabriel-lara-3657520-scaled-1-150x150.jpg",
 							"decorative": false,
+							"displayWidth": 100,
 							"width": 150,
 							"height": 150,
 							"orientation": "square",
@@ -2117,6 +2180,93 @@
 							"width": 40,
 							"height": 3,
 							"orientation": "landscape"
+						},
+						{
+							"id": "core-0.1:@html:img",
+							"blockId": "core-0.1",
+							"path": "0.1",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Event-based-strategy.png",
+							"decorative": false,
+							"width": 580,
+							"height": 406,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.75,
+									0.88,
+									0.89,
+									0.8,
+									0.93,
+									0.91,
+									0.78,
+									0.76,
+									0.73
+								],
+								"color": "#d9d2c7",
+								"hue": 81,
+								"vivid": 0.26
+							}
+						},
+						{
+							"id": "core-0.2:@html:img",
+							"blockId": "core-0.2",
+							"path": "0.2",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Event-website.png",
+							"decorative": false,
+							"width": 580,
+							"height": 406,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.85,
+									0.73,
+									0.66,
+									0.71,
+									0.55,
+									0.6,
+									0.73,
+									0.72,
+									0.73
+								],
+								"color": "#b1b2b3",
+								"hue": 234,
+								"vivid": 0.03
+							}
+						},
+						{
+							"id": "core-0.3:@html:img",
+							"blockId": "core-0.3",
+							"path": "0.3",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/Socail-media-marketing.png",
+							"decorative": false,
+							"width": 580,
+							"height": 406,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.37,
+									0.44,
+									0.37,
+									0.57,
+									0.82,
+									0.92,
+									0.91,
+									0.96,
+									0.93
+								],
+								"color": "#aab5a7",
+								"hue": 134,
+								"vivid": 0.23
+							}
 						}
 					]
 				},
@@ -2175,7 +2325,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-1:url",
+							"blockId": "core-1",
+							"path": "1",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/image-1.png",
+							"decorative": false,
+							"width": 1440,
+							"height": 402,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.28,
+									0.27,
+									0.28,
+									0.28,
+									0.28,
+									0.28,
+									0.29,
+									0.29,
+									0.29
+								],
+								"color": "#005b65",
+								"hue": 202,
+								"vivid": 0.92
+							}
+						}
+					]
 				},
 				{
 					"id": "top-2",
@@ -3018,7 +3198,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-2:url",
+							"blockId": "core-2",
+							"path": "2",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/zakra-event-marketing/wp-content/uploads/sites/120/2023/10/image-1.png",
+							"decorative": false,
+							"width": 1440,
+							"height": 402,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.28,
+									0.27,
+									0.28,
+									0.28,
+									0.28,
+									0.28,
+									0.29,
+									0.29,
+									0.29
+								],
+								"color": "#005b65",
+								"hue": 202,
+								"vivid": 0.92
+							}
+						}
+					]
 				},
 				{
 					"id": "top-3",
@@ -3245,9 +3455,9 @@
 		"sections": 16,
 		"textSlots": 93,
 		"editableSlots": 93,
-		"images": 63,
-		"swappableImages": 25,
+		"images": 70,
+		"swappableImages": 32,
 		"words": 1071
 	},
-	"builtAt": "2026-10-29T11:52:56.151Z"
+	"builtAt": "2026-10-29T12:52:33.776Z"
 }

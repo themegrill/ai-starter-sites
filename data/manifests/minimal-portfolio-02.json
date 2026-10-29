@@ -1461,7 +1461,18 @@
 							"decorative": true,
 							"width": 501,
 							"height": 501,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "location pin",
+								"glyph": "#868e96",
+								"size": 44,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"background": "#f2f2f2"
+							}
 						},
 						{
 							"id": "2f142fb9:image.url",
@@ -1474,7 +1485,18 @@
 							"decorative": true,
 							"width": 501,
 							"height": 501,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "phone handset",
+								"glyph": "#868e96",
+								"size": 36,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"background": "#f2f2f2"
+							}
 						},
 						{
 							"id": "6a6cf27f:image.url",
@@ -1487,7 +1509,18 @@
 							"decorative": true,
 							"width": 500,
 							"height": 501,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope",
+								"glyph": "#868e96",
+								"size": 36,
+								"shape": {
+									"kind": "circle",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"background": "#f2f2f2"
+							}
 						}
 					]
 				},
@@ -1543,5 +1576,5 @@
 		"swappableImages": 7,
 		"words": 229
 	},
-	"builtAt": "2026-10-29T11:52:56.080Z"
+	"builtAt": "2026-10-29T12:52:33.717Z"
 }

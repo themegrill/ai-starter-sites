@@ -76,6 +76,22 @@ export type ImageSlot = {
 	subject?: PhotoSubject;
 	description?: string; // e.g. "Smiling man in a white shirt working at a laptop".
 	tone?: Tone; // Photos only; replacements are matched to it.
+	displayWidth?: number; // Width the block shows the image at, when set in px.
+	icon?: ImageIcon;
+};
+
+// A plain pictogram (data/icon-images.json). A generation swaps it for a
+// BlockArt icon that fits the new copy, in the recolored brand color.
+export type ImageIcon = {
+	depicts: string; // What the demo's icon shows, e.g. "telephone handset".
+	glyph: string; // Demo color the symbol is drawn in.
+	// Estimated color behind it: the block's background, or a photo's average under its overlay.
+	background?: string;
+	size: number; // Symbol size in px.
+	// The circle or tile behind the symbol, `size` px across.
+	shape?: { kind: 'circle' | 'square' | 'rounded'; fill: string; size: number };
+	// BlockArt icon for symbols that mean the same in any business (check mark, quote marks).
+	fixed?: string;
 };
 
 export type SectionRole =
@@ -185,6 +201,14 @@ export type ColorOverrides = {
 	roles?: Record<string, 'primary' | 'secondary' | 'accent'>;
 };
 
+export type DemoProduct = {
+	id: number; // Post ID in the demo, mapped to the imported product on import.
+	name: string;
+	description: string; // Short description, plain text.
+	categories: string[];
+	image?: string; // Featured image URL.
+};
+
 export type DemoManifest = {
 	version: number;
 	slug: string;
@@ -208,6 +232,8 @@ export type DemoManifest = {
 		};
 	};
 	pages: ManifestPage[];
+	// WooCommerce products the demo ships (renamed and re-photographed per generation).
+	products?: DemoProduct[];
 	stats: {
 		sections: number;
 		textSlots: number;

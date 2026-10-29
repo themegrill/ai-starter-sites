@@ -484,9 +484,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Advanced-Instructors.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "book",
+								"glyph": "#f77b00",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.0.1.0.0.0:@html:img",
@@ -497,9 +504,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Expert-Instructors.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "user group",
+								"glyph": "#5442ff",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.0.2.0.0.0:@html:img",
@@ -510,9 +524,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Smart-Progress-Tracking.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "bar chart",
+								"glyph": "#219854",
+								"size": 27,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.1.0.0.0.0:@html:img",
@@ -523,6 +544,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Flexible-Learning-Paths.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
 							"orientation": "square"
@@ -536,9 +558,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Interactive-Lessons.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#f0a521",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.1.2.0.0.0:@html:img",
@@ -549,9 +578,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Certified-Achievements.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "shield with check",
+								"glyph": "#ec0404",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1189,9 +1225,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Development.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "browser window",
+								"glyph": "#258beb",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.1.0.1.0.0:@html:img",
@@ -1202,9 +1245,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Business.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "briefcase",
+								"glyph": "#fe8d00",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.1.0.2.0.0:@html:img",
@@ -1215,9 +1265,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Design.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "paint palette",
+								"glyph": "#fd286e",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.1.0.3.0.0:@html:img",
@@ -1228,9 +1285,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Data-Science.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "database",
+								"glyph": "#28b162",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.1.1.0.0.0:@html:img",
@@ -1241,9 +1305,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Marketing.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "paint palette",
+								"glyph": "#fd286e",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.1.1.1.0.0:@html:img",
@@ -1254,9 +1325,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Language.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "language translation",
+								"glyph": "#19bc9c",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.1.1.2.0.0:@html:img",
@@ -1267,9 +1345,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Photography.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "camera",
+								"glyph": "#f49c12",
+								"size": 29,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.1.1.3.0.0:@html:img",
@@ -1280,9 +1365,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Music.png",
 							"decorative": true,
+							"displayWidth": 32,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "music note",
+								"glyph": "#9b59b6",
+								"size": 27,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1337,6 +1429,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-1.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 280,
 							"height": 55,
 							"orientation": "landscape"
@@ -1350,6 +1443,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-2.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 200,
 							"height": 59,
 							"orientation": "landscape"
@@ -1363,6 +1457,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-3.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 200,
 							"height": 41,
 							"orientation": "landscape"
@@ -1376,6 +1471,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-4.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 200,
 							"height": 75,
 							"orientation": "landscape"
@@ -1389,6 +1485,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-5.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 185,
 							"height": 79,
 							"orientation": "landscape"
@@ -1402,6 +1499,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-6.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 200,
 							"height": 75,
 							"orientation": "landscape"
@@ -1750,9 +1848,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-5.1.0.0.1.1.0:@html:img",
@@ -1763,9 +1874,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-5.1.0.0.1.2.0:@html:img",
@@ -1776,9 +1900,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-5.1.0.0.1.3.0:@html:img",
@@ -1789,9 +1926,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-5.1.1.0.1.0.0:@html:img",
@@ -1802,9 +1952,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-5.1.1.0.1.1.0:@html:img",
@@ -1815,9 +1978,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-5.1.1.0.1.2.0:@html:img",
@@ -1828,9 +2004,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-5.1.1.0.1.3.0:@html:img",
@@ -1841,9 +2030,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2097,6 +2299,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Rating_Icon.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 180,
 							"height": 36,
 							"orientation": "landscape"
@@ -2110,6 +2313,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Review-User-1.png",
 							"decorative": true,
+							"displayWidth": 48,
 							"width": 240,
 							"height": 212,
 							"orientation": "square"
@@ -2123,6 +2327,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Rating_Icon.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 180,
 							"height": 36,
 							"orientation": "landscape"
@@ -2136,6 +2341,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Review-User-2.png",
 							"decorative": true,
+							"displayWidth": 48,
 							"width": 240,
 							"height": 212,
 							"orientation": "square"
@@ -2149,6 +2355,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Rating_Icon.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 180,
 							"height": 36,
 							"orientation": "landscape"
@@ -2162,6 +2369,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Review-User-3.png",
 							"decorative": true,
+							"displayWidth": 48,
 							"width": 240,
 							"height": 212,
 							"orientation": "square"
@@ -2175,6 +2383,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Students.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 263,
 							"height": 117,
 							"orientation": "landscape"
@@ -3232,6 +3441,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-1.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 280,
 							"height": 55,
 							"orientation": "landscape"
@@ -3245,6 +3455,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-2.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 200,
 							"height": 59,
 							"orientation": "landscape"
@@ -3258,6 +3469,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-3.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 200,
 							"height": 41,
 							"orientation": "landscape"
@@ -3271,6 +3483,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-4.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 200,
 							"height": 75,
 							"orientation": "landscape"
@@ -3284,6 +3497,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-5.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 185,
 							"height": 79,
 							"orientation": "landscape"
@@ -3297,6 +3511,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Company-logo-6.png",
 							"decorative": true,
+							"displayWidth": 110,
 							"width": 200,
 							"height": 75,
 							"orientation": "landscape"
@@ -4425,9 +4640,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-0.0.0.0.1.1.0:@html:img",
@@ -4438,9 +4666,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-0.0.0.0.1.2.0:@html:img",
@@ -4451,9 +4692,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-0.0.0.0.1.3.0:@html:img",
@@ -4464,9 +4718,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-0.0.1.0.1.0.0:@html:img",
@@ -4477,9 +4744,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.0.1.0.1.1.0:@html:img",
@@ -4490,9 +4770,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.0.1.0.1.2.0:@html:img",
@@ -4503,9 +4796,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.0.1.0.1.3.0:@html:img",
@@ -4516,9 +4822,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -5509,9 +5828,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-1.1.0.0.1.1.0:@html:img",
@@ -5522,9 +5854,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-1.1.0.0.1.2.0:@html:img",
@@ -5535,9 +5880,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-1.1.0.0.1.3.0:@html:img",
@@ -5548,9 +5906,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#f1f9f6"
+							}
 						},
 						{
 							"id": "core-1.1.1.0.1.0.0:@html:img",
@@ -5561,9 +5932,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.1.0.1.1.0:@html:img",
@@ -5574,9 +5958,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.1.0.1.2.0:@html:img",
@@ -5587,9 +5984,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.1.1.0.1.3.0:@html:img",
@@ -5600,9 +6010,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-learning/wp-content/uploads/sites/197/2026/08/Tick_Icon.png",
 							"decorative": true,
+							"displayWidth": 20,
 							"width": 40,
 							"height": 40,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#10ba82",
+									"size": 20
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -5906,5 +6329,5 @@
 		"swappableImages": 26,
 		"words": 1310
 	},
-	"builtAt": "2026-10-29T11:52:56.455Z"
+	"builtAt": "2026-10-29T12:52:34.112Z"
 }

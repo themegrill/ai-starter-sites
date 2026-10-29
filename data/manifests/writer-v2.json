@@ -509,7 +509,13 @@
 							"decorative": true,
 							"width": 63,
 							"height": 50,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "delivery truck",
+								"glyph": "#d14031",
+								"size": 63,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "faec6914:image.url",
@@ -522,7 +528,18 @@
 							"decorative": true,
 							"width": 57,
 							"height": 44,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "credit card",
+								"glyph": "#ffffff",
+								"size": 34,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#596d5d",
+									"size": 57
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "0e0c196b:image.url",
@@ -535,7 +552,14 @@
 							"decorative": true,
 							"width": 57,
 							"height": 50,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "star rating",
+								"glyph": "#ffae00",
+								"size": 57,
+								"fixed": "star-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -855,7 +879,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#fffefe",
+								"size": 39,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14031",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "1f269619:image.url",
@@ -868,7 +903,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#fffefe",
+								"size": 39,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14031",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c948555f:image.url",
@@ -881,7 +927,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#fffefe",
+								"size": 39,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14031",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ec5d1fcc:image.url",
@@ -894,7 +951,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#fffefe",
+								"size": 39,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14031",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "dc147f49:image.url",
@@ -907,7 +975,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#fffefe",
+								"size": 39,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14031",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "1c5fe16b:image.url",
@@ -920,7 +999,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#fffefe",
+								"size": 39,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14031",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "d9e628ec:image.url",
@@ -933,7 +1023,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#fffefe",
+								"size": 39,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14031",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "466c424f:image.url",
@@ -946,7 +1047,18 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#fffefe",
+								"size": 39,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14031",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1103,9 +1215,17 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/quote-left-solid.png",
 							"decorative": true,
+							"displayWidth": 28,
 							"width": 24,
 							"height": 17,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "quote marks",
+								"glyph": "#d64232",
+								"size": 28,
+								"fixed": "quote-left-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c4b3f485:image.url",
@@ -1310,7 +1430,18 @@
 							"decorative": true,
 							"width": 76,
 							"height": 76,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "paper plane",
+								"glyph": "#fdf9f9",
+								"size": 74,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14032",
+									"size": 76
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "66ede907:image.url",
@@ -1323,7 +1454,18 @@
 							"decorative": true,
 							"width": 76,
 							"height": 76,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "headphones",
+								"glyph": "#fefcfb",
+								"size": 74,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14032",
+									"size": 76
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "7f96e158:image.url",
@@ -1336,7 +1478,18 @@
 							"decorative": true,
 							"width": 76,
 							"height": 76,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "zoom magnifier",
+								"glyph": "#fefbfb",
+								"size": 74,
+								"shape": {
+									"kind": "circle",
+									"fill": "#d14032",
+									"size": 76
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "559b23da:image.url",
@@ -1812,6 +1965,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/testimonial-1.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -1825,6 +1979,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/writer-v2/wp-content/uploads/sites/157/2024/02/testimonial-2.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 80,
 							"height": 80,
 							"orientation": "square"
@@ -2397,5 +2552,5 @@
 		"swappableImages": 6,
 		"words": 588
 	},
-	"builtAt": "2026-10-29T11:52:56.373Z"
+	"builtAt": "2026-10-29T12:52:33.997Z"
 }

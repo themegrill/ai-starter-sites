@@ -721,9 +721,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-1.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "lightning bolt",
+								"glyph": "#fefffe",
+								"size": 79,
+								"background": "#4fc99a"
+							}
 						},
 						{
 							"id": "0621995a:image.url",
@@ -734,9 +741,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-2.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "list lines",
+								"glyph": "#fefeff",
+								"size": 80,
+								"background": "#4ac6d6"
+							}
 						},
 						{
 							"id": "ed5f5227:image.url",
@@ -747,6 +761,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-3.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
 							"orientation": "square"
@@ -760,9 +775,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/icon-4.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 160,
 							"height": 160,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "checkered flag",
+								"glyph": "#fffefc",
+								"size": 79,
+								"background": "#ffc035"
+							}
 						}
 					]
 				},
@@ -1448,7 +1470,164 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-3.0.2.0.4:@html:img",
+							"blockId": "core-3.0.2.0.4",
+							"path": "3.0.2.0.4",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-3.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.0.5:@html:img",
+							"blockId": "core-3.0.2.0.5",
+							"path": "3.0.2.0.5",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-3.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.0.6:@html:img",
+							"blockId": "core-3.0.2.0.6",
+							"path": "3.0.2.0.6",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-3.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.0.7:@html:img",
+							"blockId": "core-3.0.2.0.7",
+							"path": "3.0.2.0.7",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-3.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.1.4:@html:img",
+							"blockId": "core-3.0.2.1.4",
+							"path": "3.0.2.1.4",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-4.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.1.5:@html:img",
+							"blockId": "core-3.0.2.1.5",
+							"path": "3.0.2.1.5",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-4.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.1.6:@html:img",
+							"blockId": "core-3.0.2.1.6",
+							"path": "3.0.2.1.6",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-4.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.1.7:@html:img",
+							"blockId": "core-3.0.2.1.7",
+							"path": "3.0.2.1.7",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-4.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.2.4:@html:img",
+							"blockId": "core-3.0.2.2.4",
+							"path": "3.0.2.2.4",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-3.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.2.5:@html:img",
+							"blockId": "core-3.0.2.2.5",
+							"path": "3.0.2.2.5",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-3.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.2.6:@html:img",
+							"blockId": "core-3.0.2.2.6",
+							"path": "3.0.2.2.6",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-3.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-3.0.2.2.7:@html:img",
+							"blockId": "core-3.0.2.2.7",
+							"path": "3.0.2.2.7",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/check-icon-3.png",
+							"decorative": true,
+							"width": 100,
+							"height": 49,
+							"orientation": "landscape"
+						}
+					]
 				},
 				{
 					"id": "f8fcabfd",
@@ -2069,6 +2248,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-3.jpg",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 400,
 							"height": 400,
 							"orientation": "square",
@@ -2098,6 +2278,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-1.jpg",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 400,
 							"height": 400,
 							"orientation": "square",
@@ -2127,6 +2308,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/business-firm-v2/wp-content/uploads/sites/126/2023/10/our-team-3.jpg",
 							"decorative": false,
+							"displayWidth": 70,
 							"width": 400,
 							"height": 400,
 							"orientation": "square",
@@ -2497,13 +2679,114 @@
 			]
 		}
 	],
+	"products": [
+		{
+			"id": 185,
+			"name": "Sunglasses men’s orange",
+			"description": "Chupa chups dragée liquorice topping. Lollipop cupcake carrot cake chocolate. Cheesecake carrot cake chocolate bar liquorice topping. Toffee oat cake dessert lollipop. Gingerbread soufflé caramels cookie liquorice biscuit tart dessert. Cookie jelly-o sweet macaroon jelly beans sugar plum pastry dani",
+			"categories": [
+				"Sunglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/sunglasses-178151_640.jpg"
+		},
+		{
+			"id": 187,
+			"name": "Sunglasses for women",
+			"description": "Cake fruitcake pastry. Fruitcake cake dessert toffee sesame snaps. Soufflé icing bear claw muffin lollipop unerdwear.com chocolate lollipop fruitcake. Liquorice pie candy donut. Jujubes candy halvah cotton candy liquorice cheesecake sweet roll marshmallow liquorice. Cheesecake dragée apple pie toots",
+			"categories": [
+				"Sunglasses"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/sunglasses-178153_640.jpg"
+		},
+		{
+			"id": 188,
+			"name": "Sports Shoe",
+			"description": "Bonbon cheesecake sweet roll. Gummi bears gummi bears cake chocolate cake icing apple pie. Caramels donut biscuit. Wafer donut gummies cupcake sugar plum pie. Marshmallow halvah liquorice bear claw unerdwear.com bear claw. Cake oat cake chocolate cake candy tart. Cotton candy applicake halvah candy ",
+			"categories": [
+				"Shoes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/sports-shoes-115149_640.jpg"
+		},
+		{
+			"id": 190,
+			"name": "Sport Shoe Black",
+			"description": "Pie tootsie roll tootsie roll jelly-o. Sesame snaps dessert soufflé. Pie pastry pastry biscuit bonbon cupcake. Cake bear claw oat cake chocolate bar dragée. Cheesecake chocolate bar gingerbread soufflé candy apple pie muffin. Cotton candy cheesecake chocolate bar chupa chups lemon drops bear claw un",
+			"categories": [
+				"Shoes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/shoes-115102_640.jpg"
+		},
+		{
+			"id": 192,
+			"name": "Male Quartz Watch",
+			"description": "Sugar plum gummi bears danish liquorice. Gingerbread sesame snaps macaroon marzipan marshmallow marshmallow. Candy cupcake gingerbread gummi bears. Candy sesame snaps wafer topping ice cream jelly-o sesame snaps. Dessert toffee topping wafer liquorice cake bear claw oat cake apple pie. Jelly beans w",
+			"categories": [
+				"Watch"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/male-watch-144648_640.jpg"
+		},
+		{
+			"id": 194,
+			"name": "Leather Cowboy Hat",
+			"description": "Candy canes chocolate cake tootsie roll cake jelly toffee danish. Marshmallow topping marshmallow sugar plum topping sesame snaps sesame snaps jujubes candy. Macaroon cake lollipop ice cream chupa chups pudding applicake donut brownie. Croissant cotton candy dragée chocolate bar fruitcake muffin. Mu",
+			"categories": [
+				"Clothes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/hat-316399_640.jpg"
+		},
+		{
+			"id": 196,
+			"name": "Golf Casual Shirt Red",
+			"description": "Fruitcake cookie chocolate cake cookie cupcake pudding. Pudding powder oat cake jujubes dragée. Topping chocolate cake topping liquorice applicake candy canes donut. Danish chocolate cake toffee unerdwear.com brownie candy canes jelly. Caramels icing chocolate powder carrot cake carrot cake. Carrot ",
+			"categories": [
+				"Clothes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/apparel-162192_6401.png"
+		},
+		{
+			"id": 198,
+			"name": "Golf Casual Shirt Blue",
+			"description": "Pastry chocolate pudding jelly sugar plum marshmallow liquorice pudding. Pastry oat cake cookie. Jelly cupcake cupcake unerdwear.com powder. Chocolate cake gingerbread cheesecake topping fruitcake. Croissant icing cotton candy muffin jelly beans chupa chups sesame snaps. Chocolate cake chocolate swe",
+			"categories": [
+				"Clothes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/apparel-162180_640.png"
+		},
+		{
+			"id": 200,
+			"name": "Diamond Dior Male Watch",
+			"description": "Cotton candy jelly beans cotton candy applicake donut croissant chocolate halvah tootsie roll. Carrot cake donut ice cream. Sweet roll sugar plum unerdwear.com carrot cake jelly-o powder liquorice bear claw icing. Apple pie sweet bonbon toffee cookie powder. Brownie bonbon pudding powder sesame snap",
+			"categories": [
+				"Watch"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/wrist-watch-183143_640.jpg"
+		},
+		{
+			"id": 202,
+			"name": "Converse",
+			"description": "Lemon drops soufflé liquorice dessert jelly gummies halvah. Tiramisu fruitcake applicake sweet roll tootsie roll applicake cheesecake fruitcake. Caramels cotton candy powder. Dessert chocolate bar donut macaroon liquorice. Pastry fruitcake cupcake lollipop ice cream cake donut. Ice cream candy canes",
+			"categories": [
+				"Shoes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/chucks-153310_640.png"
+		},
+		{
+			"id": 204,
+			"name": "Black Rock Shirt",
+			"description": "Bonbon tootsie roll marzipan caramels. Lollipop caramels soufflé halvah brownie macaroon candy canes pastry halvah. Pudding oat cake biscuit. Toffee pie lollipop cookie marshmallow. Ice cream bonbon applicake caramels pudding chocolate brownie marshmallow brownie. Brownie chocolate bear claw chocola",
+			"categories": [
+				"Clothes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/126/2023/10/music-41884_640.png"
+		}
+	],
 	"stats": {
 		"sections": 10,
 		"textSlots": 85,
 		"editableSlots": 79,
-		"images": 19,
+		"images": 31,
 		"swappableImages": 11,
 		"words": 462
 	},
-	"builtAt": "2026-10-29T11:52:56.182Z"
+	"builtAt": "2026-10-29T12:52:33.809Z"
 }

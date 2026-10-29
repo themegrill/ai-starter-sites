@@ -511,6 +511,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-1.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 108,
 							"height": 97,
 							"orientation": "square"
@@ -524,9 +525,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-price.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 96,
 							"height": 97,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dollar chart",
+								"glyph": "#f4ae58",
+								"size": 83,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f48d10",
+									"size": 100
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "96e9eea5:image.url",
@@ -537,9 +550,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-3.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 98,
 							"height": 96,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "airplane",
+								"glyph": "#ffffff",
+								"size": 60,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f39a2d",
+									"size": 100
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ffb4fee7:image.url",
@@ -550,6 +575,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-hotel.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 108,
 							"height": 96,
 							"orientation": "square"
@@ -3450,6 +3476,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-1.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 108,
 							"height": 97,
 							"orientation": "square"
@@ -3463,9 +3490,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-price.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 96,
 							"height": 97,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dollar chart",
+								"glyph": "#f4ae58",
+								"size": 83,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f48d10",
+									"size": 100
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "96e9eea5:image.url",
@@ -3476,9 +3515,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/package-3.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 98,
 							"height": 96,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "airplane",
+								"glyph": "#ffffff",
+								"size": 60,
+								"shape": {
+									"kind": "circle",
+									"fill": "#f39a2d",
+									"size": 100
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ffb4fee7:image.url",
@@ -3489,6 +3540,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/travel-v2/wp-content/uploads/sites/123/2023/09/service-hotel.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 108,
 							"height": 96,
 							"orientation": "square"
@@ -4205,5 +4257,5 @@
 		"swappableImages": 39,
 		"words": 1059
 	},
-	"builtAt": "2026-10-29T11:52:56.165Z"
+	"builtAt": "2026-10-29T12:52:33.793Z"
 }

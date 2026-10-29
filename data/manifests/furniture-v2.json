@@ -580,6 +580,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/2024/01/farhad-fallahzad-VtQMBG_Ljc0-unsplash-scaled-1-pde2fbgt0zmawzwx2vczbb81k91s4dp73p5alsx85k.jpg",
 							"decorative": false,
+							"displayWidth": 1000,
 							"width": 400,
 							"height": 500,
 							"orientation": "portrait",
@@ -599,6 +600,58 @@
 								],
 								"color": "#aeb0af"
 							}
+						},
+						{
+							"id": "core-1.1.3.0.0:@html:img",
+							"blockId": "core-1.1.3.0.0",
+							"path": "1.1.3.0.0",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/2024/01/trophy.png",
+							"decorative": true,
+							"width": 161,
+							"height": 161,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.1.3.0.1:@html:img",
+							"blockId": "core-1.1.3.0.1",
+							"path": "1.1.3.0.1",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/2024/01/guarantee.png",
+							"decorative": true,
+							"width": 161,
+							"height": 161,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.1.3.1.0:@html:img",
+							"blockId": "core-1.1.3.1.0",
+							"path": "1.1.3.1.0",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/2024/01/shipping.png",
+							"decorative": true,
+							"width": 161,
+							"height": 161,
+							"orientation": "square"
+						},
+						{
+							"id": "core-1.1.3.1.1:@html:img",
+							"blockId": "core-1.1.3.1.1",
+							"path": "1.1.3.1.1",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/furniture-v2/wp-content/uploads/sites/146/2024/01/customer-support.png",
+							"decorative": true,
+							"width": 161,
+							"height": 161,
+							"orientation": "square"
 						}
 					]
 				},
@@ -1004,13 +1057,144 @@
 			]
 		}
 	],
+	"products": [
+		{
+			"id": 225,
+			"name": "Plain Chair",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Bed",
+				"New Products",
+				"Sofa"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/chair-1.jpg"
+		},
+		{
+			"id": 226,
+			"name": "Cozy Chair",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Bed",
+				"New Products",
+				"Sofa"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/small-chair.jpg"
+		},
+		{
+			"id": 227,
+			"name": "naïve Sofa",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Bed",
+				"New Products",
+				"Sofa"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/stephanie-harvey-PPA6wsuedeM-unsplash.jpg"
+		},
+		{
+			"id": 228,
+			"name": "Beds With Storage",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Bed",
+				"New Products",
+				"Sofa"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/visualsofdana-VoYzj_ITdog-unsplash-scaled-1.jpg"
+		},
+		{
+			"id": 229,
+			"name": "Big Sofa",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Bed",
+				"Sofa",
+				"Most Viewed Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/40.jpg"
+		},
+		{
+			"id": 230,
+			"name": "Box Bed",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Bed",
+				"Sofa",
+				"Most Viewed Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/Box-Bed.jpg"
+		},
+		{
+			"id": 231,
+			"name": "Chesterfield",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Cupboard",
+				"Selling Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/inside-weather-Uxqlfigh6oE-unsplash-scaled-1.jpg"
+		},
+		{
+			"id": 232,
+			"name": "Comfortable Bed",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Bed",
+				"Sofa",
+				"Most Viewed Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/comfortable-bed.jpg"
+		},
+		{
+			"id": 233,
+			"name": "Flexible Sofa",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Bed",
+				"Sofa",
+				"Most Viewed Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/22.jpg"
+		},
+		{
+			"id": 234,
+			"name": "Lawson-style Sofa",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Bed",
+				"Sofa",
+				"Selling Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/bernard-hermant-c4Ccpa8sMlI-unsplash-scaled-2.jpg"
+		},
+		{
+			"id": 235,
+			"name": "Seating",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Selling Product",
+				"Seating"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/samuel-sosina-F3zYeRzxOsM-unsplash-1.jpg"
+		},
+		{
+			"id": 236,
+			"name": "Sectional Sofa",
+			"description": "With our easy pull-up, easy pull-down hydraulic mechanism, you can use ALL the space under the bed to store your stuff. The king-sized bed comes with 840 litres of storage, while the queen-sized variant comes with 700 litres. We use high-strength clamps and joinery techniques specially designed for ",
+			"categories": [
+				"Sofa",
+				"Selling Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/146/2024/04/nathan-oakley-ueJ2oJeEK-U-unsplash-scaled-1.jpg"
+		}
+	],
 	"stats": {
 		"sections": 7,
 		"textSlots": 24,
 		"editableSlots": 24,
-		"images": 4,
+		"images": 8,
 		"swappableImages": 4,
 		"words": 110
 	},
-	"builtAt": "2026-10-29T11:52:56.311Z"
+	"builtAt": "2026-10-29T12:52:33.931Z"
 }

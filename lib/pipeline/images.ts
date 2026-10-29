@@ -347,3 +347,26 @@ const withDemoFallback = (primary: ImageProvider): ImageProvider => ({
 
 export const getImageProvider = (): ImageProvider =>
 	config.pixabayApiKey ? withDemoFallback(createPixabayProvider(config.pixabayApiKey)) : demoImageProvider;
+
+// Product photos look like catalog shots: square first, then any shape.
+const PRODUCT_SHAPES: Orientation[] = ['square', 'landscape', 'portrait'];
+
+/**
+ * One stock photo per product search, no photo used twice. Undefined where
+ * Pixabay has nothing (or isn't configured): that product keeps its demo photo.
+ */
+export const productPhotos = async (searches: { query: string; alt: string }[]): Promise<(ImageSlot | undefined)[]> => {
+	if (!config.pixabayApiKey) return searches.map(() => undefined);
+	const results = await mapLimit(searches, SEARCH_CONCURRENCY, ({ query }) =>
+		searchPixabay(config.pixabayApiKey, { query }).catch(() => [] as Photo[]),
+	);
+	const used = new Set<string>();
+	return searches.map(({ alt }, i) => {
+		const photos = (results[i] ?? []).filter((p) => !used.has(p.url));
+		const ranked = PRODUCT_SHAPES.flatMap((shape) => photos.filter((p) => p.orientation === shape));
+		const [pick, ...rest] = ranked;
+		if (!pick) return undefined;
+		used.add(pick.url);
+		return { url: pick.url, alt, credit: `Photo by ${pick.user} on Pixabay`, alternatives: rest.slice(0, MAX_ALTERNATIVES).map((p) => p.url) };
+	});
+};

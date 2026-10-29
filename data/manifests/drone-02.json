@@ -566,7 +566,13 @@
 							"decorative": true,
 							"width": 120,
 							"height": 70,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "drone",
+								"glyph": "#f36952",
+								"size": 95,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "0436641a:image.url",
@@ -579,7 +585,13 @@
 							"decorative": true,
 							"width": 120,
 							"height": 70,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "4k video camera",
+								"glyph": "#f46953",
+								"size": 93,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ccef956e:image.url",
@@ -592,7 +604,13 @@
 							"decorative": true,
 							"width": 120,
 							"height": 70,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "banknotes money",
+								"glyph": "#f46953",
+								"size": 86,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "2f74dece:image.url",
@@ -605,7 +623,13 @@
 							"decorative": true,
 							"width": 120,
 							"height": 70,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "clock speed",
+								"glyph": "#f46952",
+								"size": 88,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1943,7 +1967,13 @@
 							"decorative": true,
 							"width": 120,
 							"height": 70,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "drone",
+								"glyph": "#f36952",
+								"size": 95,
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "52f9b1d4:image.url",
@@ -1956,7 +1986,13 @@
 							"decorative": true,
 							"width": 120,
 							"height": 70,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "4k video camera",
+								"glyph": "#f46953",
+								"size": 93,
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "c1fd225a:image.url",
@@ -1969,7 +2005,13 @@
 							"decorative": true,
 							"width": 120,
 							"height": 70,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "banknotes money",
+								"glyph": "#f46953",
+								"size": 86,
+								"background": "#f9f9f9"
+							}
 						},
 						{
 							"id": "1e26c279:image.url",
@@ -1982,7 +2024,13 @@
 							"decorative": true,
 							"width": 120,
 							"height": 70,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "clock speed",
+								"glyph": "#f46952",
+								"size": 88,
+								"background": "#f9f9f9"
+							}
 						}
 					]
 				}
@@ -2027,5 +2075,5 @@
 		"swappableImages": 13,
 		"words": 785
 	},
-	"builtAt": "2026-10-29T11:52:56.318Z"
+	"builtAt": "2026-10-29T12:52:33.939Z"
 }

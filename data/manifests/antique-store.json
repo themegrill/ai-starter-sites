@@ -236,7 +236,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-0.0:url",
+							"blockId": "core-0.0",
+							"path": "0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/BannerImage.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 976,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0,
+									0.01,
+									0.05,
+									0,
+									0.03,
+									0.13,
+									0,
+									0,
+									0.05
+								],
+								"color": "#06080d",
+								"hue": 266,
+								"vivid": 0.06
+							}
+						}
+					]
 				},
 				{
 					"id": "top-1",
@@ -383,7 +413,21 @@
 							"placeholder": false
 						}
 					],
-					"images": [],
+					"images": [
+						{
+							"id": "core-2:url",
+							"blockId": "core-2",
+							"path": "2",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/Background-7.png",
+							"decorative": true,
+							"width": 223,
+							"height": 52,
+							"orientation": "landscape"
+						}
+					],
 					"dynamicBlocks": [
 						"woocommerce/product-new"
 					]
@@ -443,7 +487,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-3.0:@html:img",
+							"blockId": "core-3.0",
+							"path": "3.0",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/100yearsold.png",
+							"decorative": false,
+							"width": 500,
+							"height": 622,
+							"orientation": "portrait",
+							"tone": {
+								"grid": [
+									0,
+									0.12,
+									0.04,
+									0,
+									0.15,
+									0.01,
+									0,
+									0.05,
+									0.03
+								],
+								"color": "#140a01",
+								"hue": 56,
+								"vivid": 0.18
+							}
+						}
+					]
 				},
 				{
 					"id": "top-4",
@@ -485,7 +559,21 @@
 							"placeholder": false
 						}
 					],
-					"images": [],
+					"images": [
+						{
+							"id": "core-4:url",
+							"blockId": "core-4",
+							"path": "4",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/Background-7.png",
+							"decorative": true,
+							"width": 223,
+							"height": 52,
+							"orientation": "landscape"
+						}
+					],
 					"dynamicBlocks": [
 						"woocommerce/handpicked-products"
 					]
@@ -545,7 +633,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-5:url",
+							"blockId": "core-5",
+							"path": "5",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/musical-instrument.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 768,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.2,
+									0.4,
+									0.24,
+									0.1,
+									0.17,
+									0.12,
+									0.06,
+									0.11,
+									0.15
+								],
+								"color": "#372a1e",
+								"hue": 56,
+								"vivid": 0.2
+							}
+						}
+					]
 				},
 				{
 					"id": "top-6",
@@ -833,7 +951,21 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-0:url",
+							"blockId": "core-0",
+							"path": "0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/Background-7.png",
+							"decorative": true,
+							"width": 223,
+							"height": 52,
+							"orientation": "landscape"
+						}
+					]
 				},
 				{
 					"id": "top-1",
@@ -966,7 +1098,79 @@
 							"placeholder": true
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-1:url",
+							"blockId": "core-1",
+							"path": "1",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/Background-7.png",
+							"decorative": true,
+							"width": 223,
+							"height": 52,
+							"orientation": "landscape"
+						},
+						{
+							"id": "core-1.0.0:@html:img",
+							"blockId": "core-1.0.0",
+							"path": "1.0.0",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/about1.jpg",
+							"decorative": false,
+							"width": 570,
+							"height": 500,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.05,
+									0.05,
+									0.06,
+									0.13,
+									0.14,
+									0.12,
+									0.38,
+									0.14,
+									0.19
+								],
+								"color": "#2b231b",
+								"hue": 49,
+								"vivid": 0.12
+							}
+						},
+						{
+							"id": "core-1.0.2:@html:img",
+							"blockId": "core-1.0.2",
+							"path": "1.0.2",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/about2.jpg",
+							"decorative": false,
+							"width": 570,
+							"height": 500,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.26,
+									0.43,
+									0.44,
+									0.32,
+									0.37,
+									0.57,
+									0.26,
+									0.34,
+									0.36
+								],
+								"color": "#625e5e",
+								"hue": 242,
+								"vivid": 0.03
+							}
+						}
+					]
 				},
 				{
 					"id": "top-2",
@@ -1300,6 +1504,19 @@
 						}
 					],
 					"images": [
+						{
+							"id": "core-0:url",
+							"blockId": "core-0",
+							"path": "0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/antique-store/wp-content/uploads/sites/117/2022/12/Background-7.png",
+							"decorative": true,
+							"width": 223,
+							"height": 52,
+							"orientation": "landscape"
+						},
 						{
 							"id": "core-0.0.0.1.0:@html:img",
 							"blockId": "core-0.0.0.1.0",
@@ -1791,13 +2008,169 @@
 			]
 		}
 	],
+	"products": [
+		{
+			"id": 250,
+			"name": "Old Bronze Nepali Vajrasattva Statue",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/buddha6.png"
+		},
+		{
+			"id": 373,
+			"name": "Radiant Hand Carved White Marble",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/whitebuddha.png"
+		},
+		{
+			"id": 374,
+			"name": "Blue Brass Style Buddha Head Statue",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/bluebuddha.png"
+		},
+		{
+			"id": 375,
+			"name": "Andesite stone statue of Dewi Tara",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/buddha2.png"
+		},
+		{
+			"id": 376,
+			"name": "15-16th Thai Lanna Buddha Statue",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/buddha5.png"
+		},
+		{
+			"id": 378,
+			"name": "Shiva Goddess Diety",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/murti.png"
+		},
+		{
+			"id": 382,
+			"name": "Wooden Buddha Statue",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/buddhastatue.png"
+		},
+		{
+			"id": 383,
+			"name": "Gold Buddha Statue",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/Buddha.png"
+		},
+		{
+			"id": 384,
+			"name": "Thai Chiang Saen Style Buddha",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/thaibuddha.png"
+		},
+		{
+			"id": 385,
+			"name": "Antique Burmese Buddha Statue",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/buddha4.png"
+		},
+		{
+			"id": 386,
+			"name": "Antique Treasures Ganesh",
+			"description": "Molestie nisi vitae ligula sapien ac lobortis pellentesque. Nostra fringilla ad parturient si nascetur curae sed pede convallis orci. Vestibulum finibus turpis aliquam erat cubilia velit elementum semper euismod sit. Ipsum potenti nam tempor sapien risus. Nunc commodo elit tempor lobortis lacus turp",
+			"categories": [
+				"Antique Buddha",
+				"Coin",
+				"Mirror",
+				"Painting",
+				"Pottery",
+				"Sculpture"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/117/2022/12/ganesh.png"
+		}
+	],
 	"stats": {
 		"sections": 14,
 		"textSlots": 53,
 		"editableSlots": 51,
-		"images": 13,
-		"swappableImages": 13,
+		"images": 23,
+		"swappableImages": 18,
 		"words": 361
 	},
-	"builtAt": "2026-10-29T11:52:56.125Z"
+	"builtAt": "2026-10-29T12:52:33.757Z"
 }

@@ -764,9 +764,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-idea.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 64,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "light bulb",
+								"glyph": "#ffffff",
+								"size": 65,
+								"background": "#118b57"
+							}
 						},
 						{
 							"id": "core-2.0.1.0.0:@html:img",
@@ -777,9 +784,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-research.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 65,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "magnifying glass",
+								"glyph": "#ffffff",
+								"size": 64,
+								"background": "#118b57"
+							}
 						},
 						{
 							"id": "core-2.0.2.0.0:@html:img",
@@ -790,9 +804,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-pixel-perfect.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 66,
 							"height": 67,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "thumbs up hand",
+								"glyph": "#ffffff",
+								"size": 65,
+								"background": "#118b57"
+							}
 						},
 						{
 							"id": "core-2.0.3.0.0:@html:img",
@@ -803,9 +824,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-seo-friendly.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 64,
 							"height": 66,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "rising bar chart",
+								"glyph": "#ffffff",
+								"size": 65,
+								"background": "#118b57"
+							}
 						},
 						{
 							"id": "core-2.0.4.0.0:@html:img",
@@ -816,9 +844,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-design.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 67,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "marker pen",
+								"glyph": "#ffffff",
+								"size": 63,
+								"background": "#118b57"
+							}
 						},
 						{
 							"id": "core-2.0.5.0.0:@html:img",
@@ -829,9 +864,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/icon-support.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 66,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "headset support",
+								"glyph": "#ffffff",
+								"size": 65,
+								"background": "#118b57"
+							}
 						}
 					]
 				},
@@ -2063,6 +2105,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/team-D.jpg",
 							"decorative": false,
+							"displayWidth": 48,
 							"width": 800,
 							"height": 963,
 							"orientation": "portrait",
@@ -2092,6 +2135,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/themes/zakra/assets/img/starter/team-C.jpg",
 							"decorative": false,
+							"displayWidth": 48,
 							"width": 800,
 							"height": 963,
 							"orientation": "portrait",
@@ -3307,7 +3351,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "orange sparkles",
+								"glyph": "#f68847",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-0.4.0:@html:img",
@@ -3347,6 +3397,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/bubble-tick-icon.png",
 							"decorative": true,
+							"displayWidth": 25,
 							"width": 24,
 							"height": 24,
 							"orientation": "square"
@@ -3360,6 +3411,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/instructor-icon.png",
 							"decorative": true,
+							"displayWidth": 25,
 							"width": 18,
 							"height": 24,
 							"orientation": "portrait"
@@ -3373,6 +3425,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/book-open-completion-icon.png",
 							"decorative": true,
+							"displayWidth": 25,
 							"width": 24,
 							"height": 24,
 							"orientation": "square"
@@ -3386,6 +3439,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/support-icon.png",
 							"decorative": true,
+							"displayWidth": 25,
 							"width": 24,
 							"height": 24,
 							"orientation": "square"
@@ -3627,9 +3681,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/check-circle-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5d49f6",
+									"size": 16
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.2.0.0.0.0:@html:img",
@@ -3642,7 +3709,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "white sparkles",
+								"glyph": "#ffffff",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.2.0.3:@html:img",
@@ -3653,6 +3726,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/assistant-study.png",
 							"decorative": true,
+							"displayWidth": 380,
 							"width": 758,
 							"height": 262,
 							"orientation": "landscape"
@@ -3668,7 +3742,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "two people",
+								"glyph": "#5d49f6",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.2.1.0.1.0.0.0:@html:img",
@@ -3681,7 +3761,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "line chart",
+								"glyph": "#5e49f7",
+								"size": 20,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.2.1.1.0.0.0.0:@html:img",
@@ -3694,7 +3780,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "connected nodes",
+								"glyph": "#5d49f6",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.2.1.1.1.0.0.0:@html:img",
@@ -3707,7 +3799,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "award medal",
+								"glyph": "#5d49f6",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -3791,9 +3889,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/book-open-onlinelms.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#5e4af7",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						}
 					],
 					"dynamicBlocks": [
@@ -3850,6 +3955,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/handshake-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
 							"orientation": "square"
@@ -4209,9 +4315,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/categories-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "grid layout",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#5e4af7",
+									"size": 16
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -4583,9 +4701,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/pricing-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dollar coin",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5d49f6",
+									"size": 16
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -4807,9 +4937,39 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/reviews-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
 							"orientation": "square"
+						},
+						{
+							"id": "core-6.2.0.0:url",
+							"blockId": "core-6.2.0.0",
+							"path": "6.2.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/review-testimonial-image.png",
+							"decorative": false,
+							"width": 420,
+							"height": 392,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.75,
+									0.56,
+									0.71,
+									0.67,
+									0.58,
+									0.54,
+									0.51,
+									0.8,
+									0.63
+								],
+								"color": "#a4a3a3",
+								"hue": 55,
+								"vivid": 0.05
+							}
 						},
 						{
 							"id": "core-6.2.0.0.0.0.0:@html:img",
@@ -4822,7 +4982,14 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "play button",
+								"glyph": "#ffffff",
+								"size": 18,
+								"fixed": "play-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-6.2.1.0.1.0:@html:img",
@@ -4977,9 +5144,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/instructors-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "contact card",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#5d49f7",
+									"size": 16
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-7.0.1.0.0.0:@html:img",
@@ -4990,6 +5169,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-1.png",
 							"decorative": true,
+							"displayWidth": 297,
 							"width": 260,
 							"height": 240,
 							"orientation": "square"
@@ -5003,6 +5183,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-2.png",
 							"decorative": true,
+							"displayWidth": 297,
 							"width": 260,
 							"height": 240,
 							"orientation": "square"
@@ -5016,6 +5197,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-3.png",
 							"decorative": true,
+							"displayWidth": 297,
 							"width": 259,
 							"height": 251,
 							"orientation": "square"
@@ -5029,6 +5211,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-4.png",
 							"decorative": true,
+							"displayWidth": 297,
 							"width": 259,
 							"height": 251,
 							"orientation": "square"
@@ -5296,9 +5479,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/faqs-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "question mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5d49f6",
+									"size": 16
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-8.0.0.3.2.0.0.0:@html:img",
@@ -5564,9 +5759,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/onlinelms-star-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "orange sparkles",
+								"glyph": "#f68847",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -5892,9 +6094,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/book-open-onlinelms.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "open book",
+								"glyph": "#5e4af7",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -6134,9 +6343,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/check-circle-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5d49f6",
+									"size": 16
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.2.0.0.0.0:@html:img",
@@ -6149,7 +6371,19 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5d49f6",
+									"size": 24
+								},
+								"fixed": "check-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.2.1.0.0.0:@html:img",
@@ -6162,7 +6396,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "line chart",
+								"glyph": "#5e49f7",
+								"size": 20,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.2.2.0.0.0:@html:img",
@@ -6175,7 +6415,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "contact card",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#5d49f7",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.3.0.0.0.0:@html:img",
@@ -6188,7 +6439,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "key",
+								"glyph": "#5d49f6",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.3.1.0.0.0:@html:img",
@@ -6201,7 +6458,18 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "dollar coin",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#5d49f6",
+									"size": 24
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.3.2.0.0.0:@html:img",
@@ -6214,7 +6482,13 @@
 							"decorative": true,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "infinity symbol",
+								"glyph": "#5d49f7",
+								"size": 22,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -6328,9 +6602,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/instructors-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "contact card",
+								"glyph": "#ffffff",
+								"size": 12,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#5d49f7",
+									"size": 16
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-4.0.1.0.0.0:@html:img",
@@ -6341,6 +6627,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-1.png",
 							"decorative": true,
+							"displayWidth": 297,
 							"width": 260,
 							"height": 240,
 							"orientation": "square"
@@ -6354,6 +6641,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-2.png",
 							"decorative": true,
+							"displayWidth": 297,
 							"width": 260,
 							"height": 240,
 							"orientation": "square"
@@ -6367,6 +6655,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-3.png",
 							"decorative": true,
+							"displayWidth": 297,
 							"width": 259,
 							"height": 251,
 							"orientation": "square"
@@ -6380,6 +6669,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/tutor-4.png",
 							"decorative": true,
+							"displayWidth": 297,
 							"width": 259,
 							"height": 251,
 							"orientation": "square"
@@ -6436,6 +6726,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/handshake-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
 							"orientation": "square"
@@ -6758,9 +7049,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/online-lms/wp-content/uploads/sites/198/2026/08/handshake-icon.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "handshake",
+								"glyph": "#5d49f6",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -7319,9 +7617,9 @@
 		"sections": 36,
 		"textSlots": 299,
 		"editableSlots": 277,
-		"images": 87,
-		"swappableImages": 19,
+		"images": 88,
+		"swappableImages": 20,
 		"words": 2011
 	},
-	"builtAt": "2026-10-29T11:52:56.463Z"
+	"builtAt": "2026-10-29T12:52:34.121Z"
 }

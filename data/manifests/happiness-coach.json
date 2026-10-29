@@ -605,6 +605,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/award-badge.png",
 							"decorative": true,
+							"displayWidth": 74,
 							"width": 248,
 							"height": 228,
 							"orientation": "square"
@@ -1131,9 +1132,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/phone.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#000000",
+								"size": 15,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1860,6 +1868,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/process-1024x768.webp",
 							"decorative": false,
+							"displayWidth": 544,
 							"width": 1024,
 							"height": 768,
 							"orientation": "landscape",
@@ -2335,6 +2344,93 @@
 					],
 					"images": [
 						{
+							"id": "core-6.3.0.0.0:url",
+							"blockId": "core-6.3.0.0.0",
+							"path": "6.3.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/foundations--1024x683.webp",
+							"decorative": false,
+							"width": 1024,
+							"height": 683,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.79,
+									0.87,
+									0.84,
+									0.79,
+									0.7,
+									0.86,
+									0.42,
+									0.49,
+									0.41
+								],
+								"color": "#c2ab9a",
+								"hue": 58,
+								"vivid": 0.31
+							}
+						},
+						{
+							"id": "core-6.3.1.0.0:url",
+							"blockId": "core-6.3.1.0.0",
+							"path": "6.3.1.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/the-reset-1024x683.webp",
+							"decorative": false,
+							"width": 1024,
+							"height": 683,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.78,
+									0.75,
+									0.57,
+									0.75,
+									0.66,
+									0.52,
+									0.57,
+									0.58,
+									0.65
+								],
+								"color": "#b8a284",
+								"hue": 63,
+								"vivid": 0.48
+							}
+						},
+						{
+							"id": "core-6.3.2.0.0:url",
+							"blockId": "core-6.3.2.0.0",
+							"path": "6.3.2.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/the-quiet-season-1024x710.webp",
+							"decorative": false,
+							"width": 1024,
+							"height": 710,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.73,
+									0.57,
+									0.45,
+									0.68,
+									0.6,
+									0.55,
+									0.5,
+									0.49,
+									0.47
+								],
+								"color": "#ab8b64",
+								"hue": 61,
+								"vivid": 0.67
+							}
+						},
+						{
 							"id": "core-6.4.0.0:@html:img",
 							"blockId": "core-6.4.0.0",
 							"path": "6.4.0.0",
@@ -2401,9 +2497,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/phone.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#000000",
+								"size": 15,
+								"background": "#f7efee"
+							}
 						}
 					]
 				},
@@ -4686,6 +4789,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/award.png",
 							"decorative": true,
+							"displayWidth": 74,
 							"width": 88,
 							"height": 64,
 							"orientation": "landscape"
@@ -5282,6 +5386,93 @@
 					],
 					"images": [
 						{
+							"id": "core-0.3.0.0.0:url",
+							"blockId": "core-0.3.0.0.0",
+							"path": "0.3.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/foundations--1024x683.webp",
+							"decorative": false,
+							"width": 1024,
+							"height": 683,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.79,
+									0.87,
+									0.84,
+									0.79,
+									0.7,
+									0.86,
+									0.42,
+									0.49,
+									0.41
+								],
+								"color": "#c2ab9a",
+								"hue": 58,
+								"vivid": 0.31
+							}
+						},
+						{
+							"id": "core-0.3.1.0.0:url",
+							"blockId": "core-0.3.1.0.0",
+							"path": "0.3.1.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/the-reset-1024x683.webp",
+							"decorative": false,
+							"width": 1024,
+							"height": 683,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.78,
+									0.75,
+									0.57,
+									0.75,
+									0.66,
+									0.52,
+									0.57,
+									0.58,
+									0.65
+								],
+								"color": "#b8a284",
+								"hue": 63,
+								"vivid": 0.48
+							}
+						},
+						{
+							"id": "core-0.3.2.0.0:url",
+							"blockId": "core-0.3.2.0.0",
+							"path": "0.3.2.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/the-quiet-season-1024x710.webp",
+							"decorative": false,
+							"width": 1024,
+							"height": 710,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.73,
+									0.57,
+									0.45,
+									0.68,
+									0.6,
+									0.55,
+									0.5,
+									0.49,
+									0.47
+								],
+								"color": "#ab8b64",
+								"hue": 61,
+								"vivid": 0.67
+							}
+						},
+						{
 							"id": "core-0.4.0.0:@html:img",
 							"blockId": "core-0.4.0.0",
 							"path": "0.4.0.0",
@@ -5348,9 +5539,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/phone.png",
 							"decorative": true,
+							"displayWidth": 16,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#000000",
+								"size": 15,
+								"background": "#f7efee"
+							}
 						}
 					]
 				},
@@ -6259,6 +6457,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/happiness-coach/wp-content/uploads/sites/199/2026/08/user-4.webp",
 							"decorative": false,
+							"displayWidth": 560,
 							"width": 280,
 							"height": 280,
 							"orientation": "square",
@@ -6432,9 +6631,9 @@
 		"sections": 27,
 		"textSlots": 305,
 		"editableSlots": 250,
-		"images": 32,
-		"swappableImages": 24,
+		"images": 38,
+		"swappableImages": 30,
 		"words": 1882
 	},
-	"builtAt": "2026-10-29T11:52:56.471Z"
+	"builtAt": "2026-10-29T12:52:34.128Z"
 }

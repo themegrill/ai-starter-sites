@@ -553,9 +553,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-idea.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 64,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "light bulb",
+								"glyph": "#ffffff",
+								"size": 65,
+								"background": "#17965f"
+							}
 						},
 						{
 							"id": "4b27d419:image.url",
@@ -566,9 +573,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-research.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 65,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "magnifying glass",
+								"glyph": "#ffffff",
+								"size": 64,
+								"background": "#17965f"
+							}
 						},
 						{
 							"id": "1db335ff:image.url",
@@ -579,9 +593,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-pixel-perfect.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 66,
 							"height": 67,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "thumbs up hand",
+								"glyph": "#ffffff",
+								"size": 65,
+								"background": "#17965f"
+							}
 						},
 						{
 							"id": "1460ab37:image.url",
@@ -592,9 +613,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-seo-friendly.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 64,
 							"height": 66,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "rising bar chart",
+								"glyph": "#ffffff",
+								"size": 65,
+								"background": "#17965f"
+							}
 						},
 						{
 							"id": "fe57d899:image.url",
@@ -605,9 +633,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-design.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 67,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "pen writing",
+								"glyph": "#ffffff",
+								"size": 63,
+								"background": "#17965f"
+							}
 						},
 						{
 							"id": "1886d445:image.url",
@@ -618,9 +653,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-support.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 66,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "headset with mic",
+								"glyph": "#ffffff",
+								"size": 65,
+								"background": "#17965f"
+							}
 						}
 					]
 				},
@@ -2159,9 +2201,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-trust.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "handshake",
+								"glyph": "#ffffff",
+								"size": 60,
+								"background": "#128d57"
+							}
 						},
 						{
 							"id": "47c0a3ed:image.url",
@@ -2172,9 +2221,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-experts.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "group of people",
+								"glyph": "#ffffff",
+								"size": 61,
+								"background": "#128d57"
+							}
 						},
 						{
 							"id": "0193bab7:image.url",
@@ -2185,9 +2241,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/icon-experience.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "sunrise over person",
+								"glyph": "#ffffff",
+								"size": 57,
+								"background": "#128d57"
+							}
 						},
 						{
 							"id": "b6e6c89a:image.url",
@@ -2198,9 +2261,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/client.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 64,
 							"height": 64,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "trophy cup",
+								"glyph": "#ffffff",
+								"size": 60,
+								"background": "#128d57"
+							}
 						}
 					]
 				},
@@ -2632,6 +2702,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-wegmans-d.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -2645,6 +2716,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-warehouse-c.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -2658,6 +2730,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-neuhaus-e.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -2671,6 +2744,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-kiehls-f.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -2684,6 +2758,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-coast-b.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -3636,6 +3711,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-wegmans-d.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -3649,6 +3725,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-warehouse-c.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -3662,6 +3739,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-neuhaus-e.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -3675,6 +3753,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-kiehls-f.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -3688,6 +3767,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/agency-03/wp-content/uploads/sites/102/2021/12/logo-coast-b.png",
 							"decorative": true,
+							"displayWidth": 200,
 							"width": 200,
 							"height": 135,
 							"orientation": "landscape"
@@ -4340,6 +4420,107 @@
 			"groups": []
 		}
 	],
+	"products": [
+		{
+			"id": 848,
+			"name": "Branded Converse",
+			"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarr",
+			"categories": [
+				"Shoes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-c-300x300-1.jpg"
+		},
+		{
+			"id": 854,
+			"name": "Canon Antique Camera",
+			"description": "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the wor",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-g.jpg"
+		},
+		{
+			"id": 858,
+			"name": "Converse",
+			"description": "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the wor",
+			"categories": [
+				"Shoes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-i-300x300-1.jpg"
+		},
+		{
+			"id": 867,
+			"name": "Headphone",
+			"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarr",
+			"categories": [
+				"Accessories"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-b-300x300-1.jpg"
+		},
+		{
+			"id": 868,
+			"name": "Ladies Jeans",
+			"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarr",
+			"categories": [
+				"Clothes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-3-300x300-2.jpg"
+		},
+		{
+			"id": 869,
+			"name": "Mini Speaker",
+			"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarr",
+			"categories": [
+				"Accessories"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-a-300x300-1.jpg"
+		},
+		{
+			"id": 870,
+			"name": "Printed Skirt",
+			"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarr",
+			"categories": [
+				"Clothes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-e-300x300-1.jpg"
+		},
+		{
+			"id": 871,
+			"name": "Suits",
+			"description": "t has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word",
+			"categories": [
+				"Clothes"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-f-300x300-1.jpg"
+		},
+		{
+			"id": 872,
+			"name": "Toys",
+			"description": "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the wor",
+			"categories": [
+				"Toys"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-h-300x300-1.jpg"
+		},
+		{
+			"id": 873,
+			"name": "Watch",
+			"description": "Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and g",
+			"categories": [
+				"Watch"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-j-300x300-1.jpg"
+		},
+		{
+			"id": 876,
+			"name": "Zurich Watch",
+			"description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,",
+			"categories": [
+				"Watch"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/102/2021/12/product-k-300x300-1.jpg"
+		}
+	],
 	"stats": {
 		"sections": 32,
 		"textSlots": 131,
@@ -4348,5 +4529,5 @@
 		"swappableImages": 26,
 		"words": 933
 	},
-	"builtAt": "2026-10-29T11:52:55.978Z"
+	"builtAt": "2026-10-29T12:52:33.650Z"
 }

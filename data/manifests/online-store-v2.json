@@ -1294,6 +1294,323 @@
 			]
 		}
 	],
+	"products": [
+		{
+			"id": 516,
+			"name": "Shirt &amp; Skirt",
+			"description": "",
+			"categories": [
+				"New Product",
+				"Trendy"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/shirt-skirt-1.jpg"
+		},
+		{
+			"id": 517,
+			"name": "Golden Indya",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"New Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/golden-indya-1.jpg"
+		},
+		{
+			"id": 518,
+			"name": "Melang Pants",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"New Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/melang-pants-1.jpg"
+		},
+		{
+			"id": 519,
+			"name": "Purple Highheel",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"New Product"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/perple-highheel-1.jpg"
+		},
+		{
+			"id": 520,
+			"name": "Fujifilm Camera",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/camera-1.jpg"
+		},
+		{
+			"id": 521,
+			"name": "Jeans",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/jeans-1.jpg"
+		},
+		{
+			"id": 522,
+			"name": "Glasses",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/glasses-1.jpg"
+		},
+		{
+			"id": 523,
+			"name": "Headphone",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/headphone-1-1.jpg"
+		},
+		{
+			"id": 524,
+			"name": "Wrist Watch",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/wrist-watch-1.jpg"
+		},
+		{
+			"id": 525,
+			"name": "Acoustic Blue Guitar",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Collection"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/blue-guitar-1.jpg"
+		},
+		{
+			"id": 526,
+			"name": "Fancy Coat",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Collection",
+				"Top Rated"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/fancy-coat-1-1.jpg"
+		},
+		{
+			"id": 527,
+			"name": "AKA Shoes",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Collection",
+				"Top Rated"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/aka-shoes-1-1.jpg"
+		},
+		{
+			"id": 528,
+			"name": "Mens Shirt",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Best Seller"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/menshirt-1-1.jpg"
+		},
+		{
+			"id": 529,
+			"name": "Ring",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Best Seller"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/ring-2.jpg"
+		},
+		{
+			"id": 530,
+			"name": "Bag Pack",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Best Seller"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/backpack-1.png"
+		},
+		{
+			"id": 531,
+			"name": "Masks",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/mask-1.jpg"
+		},
+		{
+			"id": 532,
+			"name": "Hand Gloves",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/gloves-1.png"
+		},
+		{
+			"id": 533,
+			"name": "Thermometer",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Uncategorized"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/thermometer-1.jpg"
+		},
+		{
+			"id": 534,
+			"name": "Converse",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Top Rated"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/converse-1.jpg"
+		},
+		{
+			"id": 535,
+			"name": "Game Controller",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Top Rated"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/gamecontroller-1.jpg"
+		},
+		{
+			"id": 536,
+			"name": "Ladys Bag",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/ladys-bag-1-1.jpg"
+		},
+		{
+			"id": 537,
+			"name": "Yellow Wallet",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Top Rated",
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/yellow-wallet-1-1.jpg"
+		},
+		{
+			"id": 538,
+			"name": "Lighter",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Top Rated",
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/lighter-1.jpg"
+		},
+		{
+			"id": 539,
+			"name": "Tie",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/tie-1.jpg"
+		},
+		{
+			"id": 540,
+			"name": "Decoration",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/decoration-1.jpg"
+		},
+		{
+			"id": 541,
+			"name": "Ring",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/ring-1-1.jpg"
+		},
+		{
+			"id": 542,
+			"name": "Spectacles",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/spectacles-1.jpg"
+		},
+		{
+			"id": 543,
+			"name": "Necklace",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/necklace-1.jpg"
+		},
+		{
+			"id": 544,
+			"name": "Umbrella",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/umberlla-1.jpg"
+		},
+		{
+			"id": 545,
+			"name": "Bangles",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/bangles-1.jpg"
+		},
+		{
+			"id": 563,
+			"name": "Earrings",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/earrings-1.jpg"
+		},
+		{
+			"id": 564,
+			"name": "Hat",
+			"description": "\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui",
+			"categories": [
+				"Trendy",
+				"Accessories",
+				"Featured"
+			],
+			"image": "https://zakrademos.com/wp-content/uploads/sites/160/2024/04/hat-1.jpg"
+		}
+	],
 	"stats": {
 		"sections": 4,
 		"textSlots": 40,
@@ -1302,5 +1619,5 @@
 		"swappableImages": 9,
 		"words": 113
 	},
-	"builtAt": "2026-10-29T11:52:56.386Z"
+	"builtAt": "2026-10-29T12:52:34.017Z"
 }

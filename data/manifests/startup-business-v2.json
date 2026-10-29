@@ -513,7 +513,18 @@
 							"decorative": true,
 							"width": 128,
 							"height": 128,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "smiley face",
+								"glyph": "#11b1de",
+								"size": 48,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "cc0b5ef6:image.url",
@@ -526,7 +537,18 @@
 							"decorative": true,
 							"width": 128,
 							"height": 128,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "paper plane",
+								"glyph": "#1db5e0",
+								"size": 48,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ea3f7405:image.url",
@@ -539,7 +561,18 @@
 							"decorative": true,
 							"width": 128,
 							"height": 128,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "line chart",
+								"glyph": "#1bb5e0",
+								"size": 48,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "ed4bfced:image.url",
@@ -552,7 +585,18 @@
 							"decorative": true,
 							"width": 128,
 							"height": 128,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "speech bubble",
+								"glyph": "#1db5e0",
+								"size": 48,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#ffffff",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -695,9 +739,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/11/Vector.png",
 							"decorative": true,
+							"displayWidth": 42,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 25,
+								"shape": {
+									"kind": "circle",
+									"fill": "#1cb6e1",
+									"size": 42
+								},
+								"fixed": "check-solid",
+								"background": "#f4fbfd"
+							}
 						},
 						{
 							"id": "642e7634:image.url",
@@ -708,9 +765,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/11/Vector.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#1cb6e1",
+									"size": 24
+								},
+								"fixed": "check-solid",
+								"background": "#f4fbfd"
+							}
 						},
 						{
 							"id": "a58c825f:image.url",
@@ -721,9 +791,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/11/Vector.png",
 							"decorative": true,
+							"displayWidth": 24,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 14,
+								"shape": {
+									"kind": "circle",
+									"fill": "#1cb6e1",
+									"size": 24
+								},
+								"fixed": "check-solid",
+								"background": "#f4fbfd"
+							}
 						},
 						{
 							"id": "36521950:image.url",
@@ -734,9 +817,22 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/11/Vector.png",
 							"decorative": true,
+							"displayWidth": 42,
 							"width": 24,
 							"height": 24,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "check mark",
+								"glyph": "#ffffff",
+								"size": 25,
+								"shape": {
+									"kind": "circle",
+									"fill": "#1cb6e1",
+									"size": 42
+								},
+								"fixed": "check-solid",
+								"background": "#f4fbfd"
+							}
 						}
 					]
 				},
@@ -745,7 +841,7 @@
 					"index": 3,
 					"path": "3",
 					"group": "32b97c2a",
-					"role": "content",
+					"role": "gallery",
 					"title": "Our Amazing Portfolio",
 					"slots": [
 						{
@@ -908,7 +1004,239 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-3.0.2.0.0:url",
+							"blockId": "core-3.0.2.0.0",
+							"path": "3.0.2.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-1.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.82,
+									0.74,
+									0.69,
+									0.83,
+									0.68,
+									0.73,
+									0.82,
+									0.54,
+									0.7
+								],
+								"color": "#bdb7c8",
+								"hue": 356,
+								"vivid": 0.17
+							}
+						},
+						{
+							"id": "core-3.0.2.1.0:url",
+							"blockId": "core-3.0.2.1.0",
+							"path": "3.0.2.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-2.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.12,
+									0.2,
+									0.54,
+									0.16,
+									0.41,
+									0.27,
+									0.19,
+									0.1,
+									0.24
+								],
+								"color": "#453e38",
+								"hue": 62,
+								"vivid": 0.1
+							}
+						},
+						{
+							"id": "core-3.0.2.2.0:url",
+							"blockId": "core-3.0.2.2.0",
+							"path": "3.0.2.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-3.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.24,
+									0.26,
+									0.28,
+									0.28,
+									0.29,
+									0.27,
+									0.23,
+									0.23,
+									0.21
+								],
+								"color": "#423f48",
+								"hue": 267,
+								"vivid": 0.51
+							}
+						},
+						{
+							"id": "core-3.0.2.3.0:url",
+							"blockId": "core-3.0.2.3.0",
+							"path": "3.0.2.3.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-4.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.61,
+									0.42,
+									0.33,
+									0.67,
+									0.47,
+									0.32,
+									0.66,
+									0.34,
+									0.52
+								],
+								"color": "#887871",
+								"hue": 53,
+								"vivid": 0.23
+							}
+						},
+						{
+							"id": "core-3.0.3.0.0:url",
+							"blockId": "core-3.0.3.0.0",
+							"path": "3.0.3.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-5.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.85,
+									0.85,
+									0.92,
+									0.63,
+									0.69,
+									0.67,
+									0.71,
+									0.9,
+									0.65
+								],
+								"color": "#c6c2c0",
+								"hue": 48,
+								"vivid": 0.04
+							}
+						},
+						{
+							"id": "core-3.0.3.1.0:url",
+							"blockId": "core-3.0.3.1.0",
+							"path": "3.0.3.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-6.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.28,
+									0.23,
+									0.11,
+									0.25,
+									0.28,
+									0.28,
+									0.26,
+									0.17,
+									0.19
+								],
+								"color": "#3a3a3a",
+								"vivid": 0
+							}
+						},
+						{
+							"id": "core-3.0.3.2.0:url",
+							"blockId": "core-3.0.3.2.0",
+							"path": "3.0.3.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-7.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.35,
+									0.4,
+									0.36,
+									0.38,
+									0.38,
+									0.41,
+									0.68,
+									0.55,
+									0.57
+								],
+								"color": "#79736a",
+								"hue": 24,
+								"vivid": 0.21
+							}
+						},
+						{
+							"id": "core-3.0.3.3.0:url",
+							"blockId": "core-3.0.3.3.0",
+							"path": "3.0.3.3.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/gallery-8.png",
+							"decorative": false,
+							"width": 468,
+							"height": 468,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.75,
+									0.62,
+									0.89,
+									0.41,
+									0.24,
+									0.37,
+									0.13,
+									0.18,
+									0.35
+								],
+								"color": "#6c716b",
+								"hue": 51,
+								"vivid": 0.14
+							}
+						}
+					]
 				},
 				{
 					"id": "0a1426f1",
@@ -2413,7 +2741,7 @@
 				},
 				{
 					"id": "32b97c2a",
-					"role": "content",
+					"role": "gallery",
 					"title": "Our Amazing Portfolio",
 					"sectionIds": [
 						"32b97c2a"
@@ -2422,7 +2750,10 @@
 						"3"
 					],
 					"fit": {
-						"kind": "core"
+						"kind": "conditional",
+						"requires": [
+							"portfolio"
+						]
 					}
 				},
 				{
@@ -2972,6 +3303,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/adeolu-eletu-unRkg2jH1j0-unsplash-2.png",
 							"decorative": false,
+							"displayWidth": 533,
 							"width": 500,
 							"height": 616,
 							"orientation": "portrait",
@@ -3072,6 +3404,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/NoPath-Copy-49.png",
 							"decorative": false,
+							"displayWidth": 535,
 							"width": 500,
 							"height": 616,
 							"orientation": "portrait",
@@ -3579,9 +3912,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 65,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gear",
+								"glyph": "#1cb5e0",
+								"size": 65,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "2f74acc8:image.url",
@@ -3592,9 +3932,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-1.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 65,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "camera",
+								"glyph": "#1cb5e0",
+								"size": 65,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "0ee9c040:image.url",
@@ -3605,9 +3952,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-2.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 65,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "crop tool",
+								"glyph": "#1cb6e1",
+								"size": 65,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "878224bd:image.url",
@@ -3618,9 +3972,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-3.png",
 							"decorative": true,
+							"displayWidth": 65,
 							"width": 82,
 							"height": 65,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "code brackets",
+								"glyph": "#1cb6e1",
+								"size": 65,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "30388b8d:image.url",
@@ -3631,6 +3992,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-4.png",
 							"decorative": true,
+							"displayWidth": 44,
 							"width": 57,
 							"height": 65,
 							"orientation": "square"
@@ -3644,9 +4006,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/startup-business-v2/wp-content/uploads/sites/128/2023/10/Frame-5.png",
 							"decorative": true,
+							"displayWidth": 58,
 							"width": 74,
 							"height": 65,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "pie chart",
+								"glyph": "#1cb5e1",
+								"size": 58,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -4426,9 +4795,9 @@
 		"sections": 25,
 		"textSlots": 172,
 		"editableSlots": 156,
-		"images": 40,
-		"swappableImages": 18,
+		"images": 48,
+		"swappableImages": 26,
 		"words": 1157
 	},
-	"builtAt": "2026-10-29T11:52:56.200Z"
+	"builtAt": "2026-10-29T12:52:33.823Z"
 }

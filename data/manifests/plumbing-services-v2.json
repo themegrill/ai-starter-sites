@@ -491,7 +491,13 @@
 							"decorative": true,
 							"width": 96,
 							"height": 96,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#232323",
+								"size": 40,
+								"background": "#ececec"
+							}
 						},
 						{
 							"id": "c1dfbaf0:background.image.image.url",
@@ -1132,7 +1138,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 60,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "radiator with water drop",
+								"glyph": "#161961",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "5e9629db:image.url",
@@ -1145,7 +1157,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 87,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "faucet with water drops",
+								"glyph": "#161960",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "9631216e:image.url",
@@ -1158,7 +1176,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 96,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "toilet",
+								"glyph": "#161960",
+								"size": 60,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "4f86ba10:image.url",
@@ -1171,7 +1195,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gear with wrench",
+								"glyph": "#161960",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "4c5953b9:image.url",
@@ -1184,7 +1214,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 60,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "radiator with water drop",
+								"glyph": "#161961",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "55033fa4:image.url",
@@ -1197,7 +1233,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gear with wrench",
+								"glyph": "#161960",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1375,6 +1417,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team3-square.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 274,
 							"height": 274,
 							"orientation": "square"
@@ -1401,6 +1444,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/plumbing-services-v2/wp-content/uploads/sites/153/2024/04/team1square-1.png",
 							"decorative": true,
+							"displayWidth": 100,
 							"width": 274,
 							"height": 274,
 							"orientation": "square"
@@ -3182,7 +3226,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 60,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "radiator with water drop",
+								"glyph": "#161961",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "01c6ab02:image.url",
@@ -3195,7 +3245,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 87,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "faucet with water drops",
+								"glyph": "#161960",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "21bedd60:image.url",
@@ -3208,7 +3264,13 @@
 							"decorative": true,
 							"width": 60,
 							"height": 96,
-							"orientation": "portrait"
+							"orientation": "portrait",
+							"icon": {
+								"depicts": "toilet",
+								"glyph": "#161960",
+								"size": 60,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "cdea74f3:image.url",
@@ -3221,7 +3283,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gear with wrench",
+								"glyph": "#161960",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "8d06de74:image.url",
@@ -3234,7 +3302,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 60,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "radiator with water drop",
+								"glyph": "#161961",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "6f05c479:image.url",
@@ -3247,7 +3321,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 80,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "gear with wrench",
+								"glyph": "#161960",
+								"size": 80,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -3690,5 +3770,5 @@
 		"swappableImages": 24,
 		"words": 1577
 	},
-	"builtAt": "2026-10-29T11:52:56.347Z"
+	"builtAt": "2026-10-29T12:52:33.971Z"
 }

@@ -1837,9 +1837,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/icon-04.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 625,
 							"height": 626,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "map pin location",
+								"glyph": "#dba08b",
+								"size": 43,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "0dd1eaa8:image.url",
@@ -1850,9 +1857,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/icon-05.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 626,
 							"height": 626,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "telephone handset",
+								"glyph": "#dba08b",
+								"size": 43,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "5f1cde54:image.url",
@@ -1863,9 +1877,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/icon-06.png",
 							"decorative": true,
+							"displayWidth": 80,
 							"width": 626,
 							"height": 626,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "envelope mail",
+								"glyph": "#ffffff",
+								"size": 48,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#dba08b",
+									"size": 80
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2523,9 +2549,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-05-e1640335075537.png",
 							"decorative": true,
+							"displayWidth": 45,
 							"width": 411,
 							"height": 305,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "wedding rings",
+								"glyph": "#e5a791",
+								"size": 44,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "4cdab099:image.url",
@@ -2536,9 +2569,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-08-e1640582197907.png",
 							"decorative": true,
+							"displayWidth": 45,
 							"width": 427,
 							"height": 325,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "camera",
+								"glyph": "#dca18b",
+								"size": 43,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "03c080e2:image.url",
@@ -2549,9 +2589,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-06-e1640582258990.png",
 							"decorative": true,
+							"displayWidth": 45,
 							"width": 323,
 							"height": 316,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "birthday cake candle",
+								"glyph": "#dca18b",
+								"size": 45,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "2f5cd7eb:image.url",
@@ -2562,9 +2609,16 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/wedding-02/wp-content/uploads/sites/105/2021/12/wedding-icon-07-e1640582315173.png",
 							"decorative": true,
+							"displayWidth": 45,
 							"width": 413,
 							"height": 317,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "cloche serving dish",
+								"glyph": "#e5a892",
+								"size": 44,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -3369,5 +3423,5 @@
 		"swappableImages": 35,
 		"words": 977
 	},
-	"builtAt": "2026-10-29T11:52:56.067Z"
+	"builtAt": "2026-10-29T12:52:33.707Z"
 }

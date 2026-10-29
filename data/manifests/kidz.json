@@ -450,7 +450,36 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-1:url",
+							"blockId": "core-1",
+							"path": "1",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Counter-Section-Background.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 732,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.98,
+									0.98,
+									0.98
+								],
+								"color": "#fcf8f5",
+								"vivid": 0
+							}
+						}
+					]
 				},
 				{
 					"id": "top-2",
@@ -586,6 +615,63 @@
 					],
 					"images": [
 						{
+							"id": "core-2:url",
+							"blockId": "core-2",
+							"path": "2",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/why-choose-us-background.png",
+							"decorative": false,
+							"width": 1921,
+							"height": 847,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									1,
+									1,
+									1,
+									1,
+									1,
+									1,
+									0.99,
+									0.99,
+									0.99
+								],
+								"color": "#fffefe",
+								"vivid": 0
+							}
+						},
+						{
+							"id": "core-2.0.0:@html:img",
+							"blockId": "core-2.0.0",
+							"path": "2.0.0",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Kids-Playing-ball-1008x1024.jpg",
+							"decorative": false,
+							"width": 1008,
+							"height": 1024,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.83,
+									0.82,
+									0.81,
+									0.67,
+									0.67,
+									0.56,
+									0.57,
+									0.61,
+									0.56
+								],
+								"color": "#b3aca5",
+								"hue": 39,
+								"vivid": 0.15
+							}
+						},
+						{
 							"id": "core-2.0.0.3:@html:img",
 							"blockId": "core-2.0.0.3",
 							"path": "2.0.0.3",
@@ -609,7 +695,18 @@
 							"decorative": true,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "woman with bun",
+								"glyph": "#ea7309",
+								"size": 64,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#fff0d1",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.0.0.6.0.0:@html:img",
@@ -622,7 +719,18 @@
 							"decorative": true,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "group with heart",
+								"glyph": "#dd50a4",
+								"size": 56,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f8e1ef",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -867,6 +975,34 @@
 					],
 					"images": [
 						{
+							"id": "core-3:url",
+							"blockId": "core-3",
+							"path": "3",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Our-advantage-background.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 684,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97
+								],
+								"color": "#fbf7f4",
+								"vivid": 0
+							}
+						},
+						{
 							"id": "core-3.0.2:@html:img",
 							"blockId": "core-3.0.2",
 							"path": "3.0.2",
@@ -890,7 +1026,18 @@
 							"decorative": true,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "presentation board",
+								"glyph": "#ea730a",
+								"size": 53,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#fff0d1",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.0.4.1.0.0.0:@html:img",
@@ -903,7 +1050,18 @@
 							"decorative": true,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "stacked books",
+								"glyph": "#8b90b8",
+								"size": 51,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#e8eaf6",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.0.4.2.0.0.0:@html:img",
@@ -916,7 +1074,18 @@
 							"decorative": true,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "school building",
+								"glyph": "#dd50a4",
+								"size": 59,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f8e1ef",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-3.0.4.3.0.0.0:@html:img",
@@ -929,7 +1098,18 @@
 							"decorative": true,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "smiling woman",
+								"glyph": "#2fbae4",
+								"size": 54,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#dfeff4",
+									"size": 96
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -1097,6 +1277,34 @@
 						}
 					],
 					"images": [
+						{
+							"id": "core-4:url",
+							"blockId": "core-4",
+							"path": "4",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/testimonial-background.png",
+							"decorative": false,
+							"width": 1921,
+							"height": 641,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.97,
+									0.97,
+									0.97,
+									0.98,
+									0.98,
+									0.98,
+									1,
+									1,
+									1
+								],
+								"color": "#fdfbf9",
+								"vivid": 0
+							}
+						},
 						{
 							"id": "core-4.0.0.0.2:@html:img",
 							"blockId": "core-4.0.0.0.2",
@@ -1295,6 +1503,34 @@
 					],
 					"images": [
 						{
+							"id": "core-6:url",
+							"blockId": "core-6",
+							"path": "6",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Upcoming-background.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 879,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97
+								],
+								"color": "#fbf7f4",
+								"vivid": 0
+							}
+						},
+						{
 							"id": "core-6.0.0.0.2:@html:img",
 							"blockId": "core-6.0.0.0.2",
 							"path": "6.0.0.0.2",
@@ -1415,6 +1651,35 @@
 					],
 					"images": [
 						{
+							"id": "core-7.0.0.0:url",
+							"blockId": "core-7.0.0.0",
+							"path": "7.0.0.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Cute-Kid-1024x533.jpg",
+							"decorative": false,
+							"width": 1024,
+							"height": 533,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.83,
+									0.74,
+									0.88,
+									0.72,
+									0.69,
+									0.88,
+									0.87,
+									0.55,
+									0.76
+								],
+								"color": "#cac3b9",
+								"hue": 55,
+								"vivid": 0.09
+							}
+						},
+						{
 							"id": "core-7.0.1.1:@html:img",
 							"blockId": "core-7.0.1.1",
 							"path": "7.0.1.1",
@@ -1428,6 +1693,35 @@
 							"orientation": "landscape"
 						},
 						{
+							"id": "core-7.0.2.0:url",
+							"blockId": "core-7.0.2.0",
+							"path": "7.0.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Toys.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 1000,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.79,
+									0.77,
+									0.85,
+									0.88,
+									0.8,
+									0.9,
+									0.87,
+									0.88,
+									0.91
+								],
+								"color": "#dbd8d2",
+								"hue": 116,
+								"vivid": 0.04
+							}
+						},
+						{
 							"id": "core-7.1.0.1:@html:img",
 							"blockId": "core-7.1.0.1",
 							"path": "7.1.0.1",
@@ -1439,6 +1733,64 @@
 							"width": 40,
 							"height": 2,
 							"orientation": "landscape"
+						},
+						{
+							"id": "core-7.1.1.0:url",
+							"blockId": "core-7.1.1.0",
+							"path": "7.1.1.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Toy.jpg",
+							"decorative": false,
+							"width": 960,
+							"height": 1000,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.93,
+									0.94,
+									0.94,
+									0.95,
+									0.95,
+									0.94,
+									0.91,
+									0.83,
+									0.91
+								],
+								"color": "#eeebe2",
+								"hue": 97,
+								"vivid": 0.12
+							}
+						},
+						{
+							"id": "core-7.1.2.0:url",
+							"blockId": "core-7.1.2.0",
+							"path": "7.1.2.0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Kids-Playing.jpg",
+							"decorative": false,
+							"width": 1920,
+							"height": 1000,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.76,
+									0.88,
+									0.75,
+									0.61,
+									0.76,
+									0.57,
+									0.53,
+									0.81,
+									0.75
+								],
+								"color": "#c5b2a9",
+								"hue": 23,
+								"vivid": 0.3
+							}
 						}
 					]
 				}
@@ -1747,7 +2099,36 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-0:url",
+							"blockId": "core-0",
+							"path": "0",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Counter-Section-Background.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 732,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.98,
+									0.98,
+									0.98
+								],
+								"color": "#fcf8f5",
+								"vivid": 0
+							}
+						}
+					]
 				},
 				{
 					"id": "top-1",
@@ -1883,6 +2264,63 @@
 					],
 					"images": [
 						{
+							"id": "core-1:url",
+							"blockId": "core-1",
+							"path": "1",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/why-choose-us-background.png",
+							"decorative": false,
+							"width": 1921,
+							"height": 847,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									1,
+									1,
+									1,
+									1,
+									1,
+									1,
+									0.99,
+									0.99,
+									0.99
+								],
+								"color": "#fffefe",
+								"vivid": 0
+							}
+						},
+						{
+							"id": "core-1.0.0:@html:img",
+							"blockId": "core-1.0.0",
+							"path": "1.0.0",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Kids-Playing-ball-1008x1024.jpg",
+							"decorative": false,
+							"width": 1008,
+							"height": 1024,
+							"orientation": "square",
+							"tone": {
+								"grid": [
+									0.83,
+									0.82,
+									0.81,
+									0.67,
+									0.67,
+									0.56,
+									0.57,
+									0.61,
+									0.56
+								],
+								"color": "#b3aca5",
+								"hue": 39,
+								"vivid": 0.15
+							}
+						},
+						{
 							"id": "core-1.0.0.3:@html:img",
 							"blockId": "core-1.0.0.3",
 							"path": "1.0.0.3",
@@ -1904,9 +2342,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Teachers.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "woman with bun",
+								"glyph": "#ea7309",
+								"size": 40,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#fff0d1",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-1.0.0.6.0.0:@html:img",
@@ -1917,9 +2367,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Parents.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "group with heart",
+								"glyph": "#dd50a4",
+								"size": 35,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f8e1ef",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2164,6 +2626,34 @@
 					],
 					"images": [
 						{
+							"id": "core-2:url",
+							"blockId": "core-2",
+							"path": "2",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Our-advantage-background.png",
+							"decorative": false,
+							"width": 1920,
+							"height": 684,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97,
+									0.97
+								],
+								"color": "#fbf7f4",
+								"vivid": 0
+							}
+						},
+						{
 							"id": "core-2.0.2:@html:img",
 							"blockId": "core-2.0.2",
 							"path": "2.0.2",
@@ -2185,9 +2675,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits-1.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "presentation board",
+								"glyph": "#ea730a",
+								"size": 33,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#fff0d1",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.0.4.1.0.0.0:@html:img",
@@ -2198,9 +2700,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits2.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "stacked books",
+								"glyph": "#8b90b8",
+								"size": 32,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#e8eaf6",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.0.4.2.0.0.0:@html:img",
@@ -2211,9 +2725,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits3.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "school building",
+								"glyph": "#dd50a4",
+								"size": 37,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#f8e1ef",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "core-2.0.4.3.0.0.0:@html:img",
@@ -2224,9 +2750,21 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Benifits-4.png",
 							"decorative": true,
+							"displayWidth": 60,
 							"width": 120,
 							"height": 120,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "smiling woman",
+								"glyph": "#2fbae4",
+								"size": 34,
+								"shape": {
+									"kind": "rounded",
+									"fill": "#dfeff4",
+									"size": 60
+								},
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2395,6 +2933,34 @@
 					],
 					"images": [
 						{
+							"id": "core-3:url",
+							"blockId": "core-3",
+							"path": "3",
+							"block": "core/cover",
+							"attr": "url",
+							"kind": "background",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/testimonial-background.png",
+							"decorative": false,
+							"width": 1921,
+							"height": 641,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.97,
+									0.97,
+									0.97,
+									0.98,
+									0.98,
+									0.98,
+									1,
+									1,
+									1
+								],
+								"color": "#fdfbf9",
+								"vivid": 0
+							}
+						},
+						{
 							"id": "core-3.0.0.0.2:@html:img",
 							"blockId": "core-3.0.0.0.2",
 							"path": "3.0.0.0.2",
@@ -2416,6 +2982,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 240,
 							"height": 48,
 							"orientation": "landscape"
@@ -2429,6 +2996,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 240,
 							"height": 48,
 							"orientation": "landscape"
@@ -2442,6 +3010,7 @@
 							"kind": "image",
 							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/rating.png",
 							"decorative": true,
+							"displayWidth": 120,
 							"width": 240,
 							"height": 48,
 							"orientation": "landscape"
@@ -2718,7 +3287,37 @@
 							"placeholder": false
 						}
 					],
-					"images": []
+					"images": [
+						{
+							"id": "core-2.0.0:@html:img",
+							"blockId": "core-2.0.0",
+							"path": "2.0.0",
+							"block": "core/media-text",
+							"attr": "@html:img",
+							"kind": "image",
+							"url": "https://zakrademos.com/kidz/wp-content/uploads/sites/119/2023/04/Where-are-we-1024x625.jpg",
+							"decorative": false,
+							"width": 1024,
+							"height": 625,
+							"orientation": "landscape",
+							"tone": {
+								"grid": [
+									0.49,
+									0.48,
+									0.54,
+									0.58,
+									0.67,
+									0.74,
+									0.65,
+									0.68,
+									0.58
+								],
+								"color": "#9f9a7f",
+								"hue": 84,
+								"vivid": 0.29
+							}
+						}
+					]
 				}
 			],
 			"groups": [
@@ -3106,9 +3705,9 @@
 		"sections": 17,
 		"textSlots": 116,
 		"editableSlots": 106,
-		"images": 36,
-		"swappableImages": 8,
+		"images": 52,
+		"swappableImages": 24,
 		"words": 784
 	},
-	"builtAt": "2026-10-29T11:52:56.141Z"
+	"builtAt": "2026-10-29T12:52:33.769Z"
 }

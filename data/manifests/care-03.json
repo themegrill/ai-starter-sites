@@ -1204,7 +1204,14 @@
 							"decorative": true,
 							"width": 37,
 							"height": 31,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "quote marks",
+								"glyph": "#232323",
+								"size": 30,
+								"fixed": "quote-left-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "3f0c14cb:image.url",
@@ -1217,7 +1224,14 @@
 							"decorative": true,
 							"width": 37,
 							"height": 31,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "quote marks",
+								"glyph": "#232323",
+								"size": 30,
+								"fixed": "quote-left-solid",
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "c3553b12:image.url",
@@ -1230,7 +1244,14 @@
 							"decorative": true,
 							"width": 37,
 							"height": 31,
-							"orientation": "landscape"
+							"orientation": "landscape",
+							"icon": {
+								"depicts": "quote marks",
+								"glyph": "#232323",
+								"size": 30,
+								"fixed": "quote-left-solid",
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -2042,7 +2063,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "airplane",
+								"glyph": "#232323",
+								"size": 56,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "a058a7da:image.url",
@@ -2055,7 +2082,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "eye",
+								"glyph": "#242424",
+								"size": 56,
+								"background": "#ffffff"
+							}
 						},
 						{
 							"id": "7e04e428:image.url",
@@ -2068,7 +2101,13 @@
 							"decorative": true,
 							"width": 80,
 							"height": 70,
-							"orientation": "square"
+							"orientation": "square",
+							"icon": {
+								"depicts": "target dot",
+								"glyph": "#252525",
+								"size": 54,
+								"background": "#ffffff"
+							}
 						}
 					]
 				},
@@ -4328,5 +4367,5 @@
 		"swappableImages": 25,
 		"words": 1654
 	},
-	"builtAt": "2026-10-29T11:52:56.308Z"
+	"builtAt": "2026-10-29T12:52:33.923Z"
 }
