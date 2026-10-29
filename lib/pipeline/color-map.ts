@@ -1,7 +1,7 @@
 // Demo color -> brand color map, from one primary color. The only
 // implementation: the package carries one for the generated brand, and POST
 // /api/color-map rebuilds it when the user changes the color before importing.
-import { contrast, fromOklch, Oklch, toOklch } from '../colors';
+import { contrast, fromOklch, hueDistance, Oklch, toOklch } from '../colors';
 import { ContrastPair, DemoManifest } from '../demos/types';
 
 const STEP = 0.02;
@@ -97,8 +97,9 @@ const CLASH_HUE = 30;
 // an orange) follows it.
 const TINT_CHROMA = 0.006;
 const TINT_HUE = 30;
-
-const hueDistance = (a: number, b: number) => Math.min(Math.abs(a - b), 360 - Math.abs(a - b));
+// A following color this light is a wash of the brand color (a pale band
+// behind a section): it takes the new primary's hue exactly, not its old offset.
+const WASH_LIGHTNESS = 0.85;
 
 // The demo's own primary: the base of its primary hue cluster.
 export const demoPrimary = (demo: DemoManifest): string | undefined =>
@@ -115,7 +116,7 @@ const carryLightness = (l: number, from: number, to: number) =>
  * - the primary cluster takes the new primary exactly, its tints and shades
  *   as far from it as they were from the old one;
  * - secondary and accents near the old primary's hue turn with it, never
- *   more vivid than in the demo; distant ones stay, except a secondary the
+ *   more vivid than in the demo (pale washes take its hue exactly); distant ones stay, except a secondary the
  *   new primary lands on, which becomes the old primary (two-tone stays two-tone);
  * - neutrals tinted toward the old primary turn with it; plain greys stay.
  * Designer-locked colors (catalog overrides) keep their demo values.
@@ -128,6 +129,7 @@ const recolor = (demo: DemoManifest, primary: string): Record<string, string> =>
 	// A grey on either side has no hue to turn from or to: only the primary cluster changes.
 	const grey = from.c < GREY_CHROMA || to.c < GREY_CHROMA;
 	const turn = (h: number) => (h + to.h - from.h + 360) % 360;
+	const follow = (shade: Oklch) => (shade.l >= WASH_LIGHTNESS ? to.h : turn(shade.h));
 	const ratio = from.c > 0 ? to.c / from.c : 1;
 
 	const map: Record<string, string> = {};
@@ -145,12 +147,12 @@ const recolor = (demo: DemoManifest, primary: string): Record<string, string> =>
 		} else if (grey) {
 			continue;
 		} else if (color.group === 'brand' && hueDistance(hue, from.h) <= FOLLOW_HUE) {
-			next = { l: shade.l, c: shade.c * Math.min(1, ratio), h: turn(shade.h) };
+			next = { l: shade.l, c: shade.c * Math.min(1, ratio), h: follow(shade) };
 		} else if (color.group === 'brand' && color.role === 'secondary' && hueDistance(hue, to.h) <= CLASH_HUE) {
 			// Its shades sit around the old primary as they sat around their own base.
 			next = { l: from.l + shade.l - base.l, c: base.c > 0 ? from.c * (shade.c / base.c) : from.c, h: from.h };
 		} else if (color.group === 'neutral' && shade.c >= TINT_CHROMA && hueDistance(shade.h, from.h) <= TINT_HUE) {
-			next = { ...shade, h: turn(shade.h) };
+			next = { ...shade, h: follow(shade) };
 		}
 		if (next) map[color.hex] = color.hex === old ? primary : fromOklch(next);
 	}
