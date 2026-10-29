@@ -102,9 +102,16 @@ const words = (photo: Photo) => photo.tags.flatMap((t) => t.split(' '));
 const showsAdult = (photo: Photo) => words(photo).some((w) => PERSON_TAGS.has(w)) && !words(photo).some((w) => CHILD_TAGS.has(w));
 // Whole tags only: "baker" matches "baker" and "bakers", not "baker street".
 const hasTag = (photo: Photo, tags: string[]) => photo.tags.some((t) => tags.some((tag) => t === tag || t === `${tag}s`));
-// Signs and lettering fight the heading laid over a hero. Not "text": Pixabay's
-// "text space" tag means room for text, which is what a hero wants.
-const LETTERING_TAGS = new Set('neon sign signs signage signboard lettering typography logo billboard inscription letters font quote'.split(' '));
+// Signs, lettering and screens of code fight the heading laid over a hero. Not
+// "text": Pixabay's "text space" tag means room for text, which is what a hero wants.
+const LETTERING_TAGS = new Set(
+	[
+		'neon sign signs signage signboard lettering typography logo billboard inscription letters font quote',
+		'code codes coding programming programmer html css javascript jquery php script scripting binary hacker hacking newspaper',
+	]
+		.join(' ')
+		.split(' '),
+);
 const showsLettering = (photo: Photo) => words(photo).some((w) => LETTERING_TAGS.has(w));
 
 const orientationOf = (width: number, height: number): Orientation => {

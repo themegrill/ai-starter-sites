@@ -9,6 +9,11 @@ export { normalizeColor, toHsl };
 const GREY_CHROMA = 0.03;
 const isNeutral = (hex: string, { l }: { l: number }) => toOklch(hex).c < GREY_CHROMA || l > 0.96 || l < 0.06;
 
+// Zakra's and BlockArt's own default blues. A demo that shows them left a
+// setting at its default (link color, theme primary) rather than choosing them,
+// so they never make a design's primary and they follow the primary cluster.
+const STOCK_COLORS = new Set(['#027abb', '#015ea0', '#1e7ba6', '#2563eb', '#2664eb']);
+
 const hueDistance = (a: number, b: number) => {
 	const d = Math.abs(a - b) % 360;
 	return d > 180 ? 360 - d : d;
@@ -34,11 +39,16 @@ export const classifyColors = (
 	const entries = [...counts.entries()].sort((a, b) => (blockCounts.get(b[0]) ?? 0) - (blockCounts.get(a[0]) ?? 0) || b[1] - a[1]);
 	const colors: DemoColor[] = [];
 	const clusters: { base: string; hue: number; total: number; members: string[] }[] = [];
+	const declared = themePrimary && !STOCK_COLORS.has(themePrimary) ? themePrimary : undefined;
+	const designed = entries.filter(([hex]) => !STOCK_COLORS.has(hex));
+	// Only a demo built entirely on the defaults takes them as its own colors.
+	const stockIsDesign = !designed.some(([hex]) => hex === declared || !isNeutral(hex, toHsl(hex)));
+	const stock = stockIsDesign ? [] : entries.filter(([hex]) => STOCK_COLORS.has(hex)).map(([hex]) => hex);
 
-	for (const [hex, count] of entries) {
+	for (const [hex, count] of stockIsDesign ? entries : designed) {
 		const hsl = toHsl(hex);
 		// The theme's declared primary is the brand color even when near-black or grey.
-		if (hex !== themePrimary && isNeutral(hex, hsl)) {
+		if (hex !== declared && isNeutral(hex, hsl)) {
 			const role: ColorRole = hsl.l >= 0.9 ? 'background' : hsl.l <= 0.3 ? 'text' : 'muted';
 			colors.push({ hex, count, group: 'neutral', role });
 			continue;
@@ -56,12 +66,11 @@ export const classifyColors = (
 	}
 
 	clusters.sort((a, b) => b.total - a.total);
-	const primaryIndex = themePrimary
-		? clusters.findIndex((c) => c.total > 0 && c.members.includes(themePrimary))
-		: -1;
+	const primaryIndex = declared ? clusters.findIndex((c) => c.total > 0 && c.members.includes(declared)) : -1;
 	if (primaryIndex > 0) {
 		clusters.unshift(...clusters.splice(primaryIndex, 1));
 	}
+	clusters[0]?.members.push(...stock);
 
 	const listed = (hexes: string[] | undefined, cluster: { members: string[] }) =>
 		(hexes ?? []).some((hex) => cluster.members.includes(normalizeColor(hex) ?? ''));
