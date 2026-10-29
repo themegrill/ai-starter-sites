@@ -115,6 +115,7 @@ Then in the Vercel dashboard, Project -> Settings -> Environment Variables:
 | `SITE_TOKENS` | A long random string (or several, comma-separated) |
 | `ALLOWED_ORIGINS` | `*` while testing, later the real site origins |
 | `GROQ_API_KEY` | Later, when the live pipeline lands |
+| `ANTHROPIC_API_KEY` | Instead of Groq, to run the pipeline on Claude (`LLM_PROVIDER=2`) |
 | `PEXELS_API_KEY` | Later, for image search |
 
 Env var changes only apply to new deployments, so run `npx vercel --prod`

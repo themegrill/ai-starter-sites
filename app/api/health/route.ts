@@ -7,7 +7,7 @@ export async function GET(request: Request) {
 	return json(request, {
 		ok: true,
 		mode: config.mock ? 'mock' : 'live',
-		model: config.mock ? null : config.groqModel,
+		model: config.mock ? null : config.model,
 		tokenRequired: config.siteTokens.length > 0,
 	});
 }

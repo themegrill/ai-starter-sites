@@ -1,6 +1,5 @@
 // Provider-neutral LLM interface. The pipeline only asks for JSON matching a
-// schema, so swapping Groq for another OpenAI-compatible provider (or a
-// bigger model) means writing one more implementation of this.
+// schema; Groq, Claude and the offline fake each implement it.
 
 export type JsonSchema = Record<string, unknown>;
 

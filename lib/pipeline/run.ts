@@ -2,7 +2,7 @@
 // package, reporting progress after each step.
 import { randomUUID } from 'node:crypto';
 import { ApiError } from '../errors';
-import { LlmUsage } from '../llm';
+import { getLlm, LlmUsage } from '../llm';
 import { AiPageSlug, DesignsResponse, GenerateRequest, GenerationPackage, GenerationProgress, Section } from '../types';
 import { assemblePackage, buildSection, selectPages } from './assemble';
 import { brandKitFor } from './brand-kit';
@@ -17,7 +17,7 @@ import { getBrief, getGeneration, saveBrief, saveGeneration } from './store';
 export type RunOptions = { onProgress?: (p: GenerationProgress) => void; signal?: AbortSignal };
 
 const log = (id: string, label: string, usage: LlmUsage, extra = '') =>
-	console.log(`[generate] ${id} ${label}: ${usage.inputTokens} in / ${usage.outputTokens} out tokens, ${usage.ms}ms${extra}`);
+	console.log(`[generate] ${id} ${label} (${getLlm().model}): ${usage.inputTokens} in / ${usage.outputTokens} out tokens, ${usage.ms}ms${extra}`);
 
 const buildFromDemo = async (
 	id: string,
