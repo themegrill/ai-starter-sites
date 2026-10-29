@@ -80,7 +80,13 @@ const buildFromDemo = async (
 
 	onProgress?.({ step: 'finding_images', progress: 0.85 });
 	const provider = getImageProvider();
-	const images = await provider.imagesFor(demo, brief, { request, pages: pages.map((p) => p.page), copy, signal });
+	const images = await provider.imagesFor(demo, brief, {
+		request,
+		pages: pages.map((p) => p.page),
+		copy,
+		primary: brand.palette.primary,
+		signal,
+	});
 
 	onProgress?.({ step: 'assembling', progress: 0.95 });
 	const pkg = assemblePackage({

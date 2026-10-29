@@ -55,7 +55,9 @@ export type Orientation = 'landscape' | 'portrait' | 'square';
 export type PhotoSubject = 'person' | 'group' | 'place' | 'object';
 
 // Brightness (0-1) of a photo in a 3x3 grid, row by row, and its average color.
-export type Tone = { grid: number[]; color: string };
+// `hue` and `vivid` (0..1, how colorful) describe the photo's dominant color; set
+// for stock candidates, so photos can be matched to the brand color.
+export type Tone = { grid: number[]; color: string; hue?: number; vivid?: number };
 
 export type ImageSlot = {
 	id: string;

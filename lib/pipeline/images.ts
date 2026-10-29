@@ -5,14 +5,21 @@
 // offered as swaps.
 import { config } from '../config';
 import { DemoManifest, ImageSlot as ManifestImage, ManifestPage, ManifestSection, Orientation, Tone } from '../demos/types';
-import { overlayFor, toneDistance, toneOf } from '../images/tone';
+import { colorClash, overlayFor, toneDistance, toneOf } from '../images/tone';
 import { GenerateRequest, ImageSlot } from '../types';
 import { Brief } from './brief';
 import { CopyResult } from './copy';
 import { fallbackQuery, isBanner, PhotoGroup, photoGroups, planPhotoQueries, PhotoQuery } from './image-queries';
 
 // The pages being built and their new copy, so photos can follow each section's heading.
-export type ImageContext = { request: GenerateRequest; pages: ManifestPage[]; copy: CopyResult; signal?: AbortSignal };
+// `primary`: the site's brand color, which photos are picked to go with.
+export type ImageContext = {
+	request: GenerateRequest;
+	pages: ManifestPage[];
+	copy: CopyResult;
+	primary?: string;
+	signal?: AbortSignal;
+};
 
 export interface ImageProvider {
 	readonly name: string;
@@ -64,13 +71,15 @@ const SEARCH_CONCURRENCY = 4;
 const TONE_CONCURRENCY = 12;
 // Wide photos with text on top (heroes, backgrounds) are searched with these.
 const WIDE_MIN_WIDTH = 1920;
-// Relevance decides; tone only reorders the top few. Each place down the
-// ranking costs RANK_STEP, and tone distance (0 = same, ~0.6 = opposite) is
-// weighted so it can lift a photo by about three places at most.
-const TONE_CANDIDATES = 5;
+// Relevance decides; tone and color only reorder the top few. Each place down
+// the ranking costs RANK_STEP. Tone distance (0 = same, ~0.6 = opposite) can
+// lift a photo about three places; a full clash with the brand color (a vivid
+// yellow photo on an indigo site) costs about six.
+const RERANK_CANDIDATES = 8;
 const RANK_STEP = 0.1;
 const TONE_WEIGHT = 0.5;
 const NO_TONE_DISTANCE = 0.6;
+const COLOR_WEIGHT = 0.6;
 
 type PixabayHit = {
 	largeImageURL: string;
@@ -170,21 +179,23 @@ const mapLimit = async <T, R>(items: T[], limit: number, fn: (item: T) => Promis
 };
 
 // `ranked` is already best first (tagged, right shape, editors' choice, most
-// popular). Tone only reorders the top few: a dark photo of the wrong thing
-// must not beat a bright photo of the right one. Readability on backgrounds
-// is the overlay's job (overlayFor).
-const rankByTone = (image: ManifestImage, ranked: Photo[], tones: Map<string, Tone | undefined>) => {
-	if (!image.tone) return ranked;
+// popular). Tone and the brand color only reorder the top few: a dark photo of
+// the wrong thing must not beat a bright photo of the right one. Readability on
+// backgrounds is the overlay's job (overlayFor).
+const rerank = (image: ManifestImage, ranked: Photo[], tones: Map<string, Tone | undefined>, primary?: string) => {
+	if (!image.tone && !primary) return ranked;
 	const score = (photo: Photo, place: number) => {
 		const tone = tones.get(photo.url);
-		return place * RANK_STEP + TONE_WEIGHT * (tone ? toneDistance(image.tone!, tone) : NO_TONE_DISTANCE);
+		const toneScore = image.tone ? TONE_WEIGHT * (tone ? toneDistance(image.tone, tone) : NO_TONE_DISTANCE) : 0;
+		const colorScore = primary && tone ? COLOR_WEIGHT * colorClash(tone, primary) : 0;
+		return place * RANK_STEP + toneScore + colorScore;
 	};
 	const top = ranked
-		.slice(0, TONE_CANDIDATES)
+		.slice(0, RERANK_CANDIDATES)
 		.map((photo, place) => ({ photo, score: score(photo, place) }))
 		.sort((a, b) => a.score - b.score)
 		.map((s) => s.photo);
-	return [...top, ...ranked.slice(TONE_CANDIDATES)];
+	return [...top, ...ranked.slice(RERANK_CANDIDATES)];
 };
 
 export const createPixabayProvider = (apiKey: string): ImageProvider => ({
@@ -244,7 +255,8 @@ export const createPixabayProvider = (apiKey: string): ImageProvider => ({
 		const tones = new Map<string, Tone | undefined>();
 		const toMeasure = groups.flatMap((group, i) => {
 			const { tagged = [], untagged = [] } = pools[i] ?? {};
-			return group.images.some((image) => image.tone) ? [...tagged, ...untagged].slice(0, 2 * TONE_CANDIDATES + group.images.length) : [];
+			const ranks = context?.primary || group.images.some((image) => image.tone);
+			return ranks ? [...tagged, ...untagged].slice(0, 2 * RERANK_CANDIDATES + group.images.length) : [];
 		});
 		const unique = [...new Map(toMeasure.map((p) => [p.url, p])).values()];
 		await mapLimit(unique, TONE_CONCURRENCY, async (photo) => tones.set(photo.url, await photoTone(photo)));
@@ -271,7 +283,7 @@ export const createPixabayProvider = (apiKey: string): ImageProvider => ({
 				];
 				// Out of fresh photos: repeat one, except people (the same face twice in a team looks broken).
 				const fallback = ranked.length || needsPerson ? ranked : [...tagged, ...untagged];
-				const [pick, ...rest] = rankByTone(image, fallback, tones);
+				const [pick, ...rest] = rerank(image, fallback, tones, context?.primary);
 				if (!pick) continue;
 
 				used.add(pick.url);

@@ -61,6 +61,14 @@ const linearRgb = (hex: string) => {
 
 export const toOklch = (hex: string): Oklch => {
 	const [r, g, b] = linearRgb(hex);
+	return linearToOklch(r, g, b);
+};
+
+// For pixels: 0..255 channels.
+export const rgbToOklch = (r: number, g: number, b: number): Oklch =>
+	linearToOklch(toLinear(r / 255), toLinear(g / 255), toLinear(b / 255));
+
+const linearToOklch = (r: number, g: number, b: number): Oklch => {
 	const l = Math.cbrt(0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b);
 	const m = Math.cbrt(0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b);
 	const s = Math.cbrt(0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b);
@@ -102,6 +110,8 @@ export const fromOklch = (color: Oklch): string => {
 	}
 	return '#' + rgb.map((v) => hex2(fromLinear(clamp(v)) * 255)).join('');
 };
+
+export const hueDistance = (a: number, b: number) => Math.min(Math.abs(a - b), 360 - Math.abs(a - b));
 
 // ---- WCAG contrast ----
 
