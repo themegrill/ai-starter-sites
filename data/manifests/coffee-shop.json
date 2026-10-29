@@ -159,20 +159,20 @@
 				"role": "text"
 			},
 			{
+				"hex": "#027abb",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#61493e",
+				"lightnessDelta": 0.059
+			},
+			{
 				"hex": "#2fc8d6",
 				"count": 1,
 				"group": "brand",
 				"role": "accent",
 				"base": "#2fc8d6",
 				"lightnessDelta": 0
-			},
-			{
-				"hex": "#027abb",
-				"count": 1,
-				"group": "brand",
-				"role": "accent",
-				"base": "#2fc8d6",
-				"lightnessDelta": -0.141
 			}
 		],
 		"contrastPairs": [
@@ -2949,5 +2949,5 @@
 		"swappableImages": 22,
 		"words": 808
 	},
-	"builtAt": "2026-10-29T09:32:50.261Z"
+	"builtAt": "2026-10-29T11:52:56.408Z"
 }

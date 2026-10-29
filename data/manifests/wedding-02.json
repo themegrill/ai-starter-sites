@@ -101,9 +101,9 @@
 				"hex": "#027abb",
 				"count": 3,
 				"group": "brand",
-				"role": "accent",
-				"base": "#073674",
-				"lightnessDelta": 0.129
+				"role": "primary",
+				"base": "#dba08b",
+				"lightnessDelta": -0.331
 			},
 			{
 				"hex": "#d4d4d8",
@@ -120,6 +120,14 @@
 				"lightnessDelta": -0.049
 			},
 			{
+				"hex": "#2563eb",
+				"count": 1,
+				"group": "brand",
+				"role": "primary",
+				"base": "#dba08b",
+				"lightnessDelta": -0.169
+			},
+			{
 				"hex": "#073674",
 				"count": 1,
 				"group": "brand",
@@ -129,14 +137,6 @@
 				"usage": {
 					"background": 1
 				}
-			},
-			{
-				"hex": "#2563eb",
-				"count": 1,
-				"group": "brand",
-				"role": "accent",
-				"base": "#073674",
-				"lightnessDelta": 0.292
 			}
 		],
 		"contrastPairs": [
@@ -3369,5 +3369,5 @@
 		"swappableImages": 35,
 		"words": 977
 	},
-	"builtAt": "2026-10-29T09:32:49.933Z"
+	"builtAt": "2026-10-29T11:52:56.067Z"
 }

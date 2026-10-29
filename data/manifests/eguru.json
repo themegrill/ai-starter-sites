@@ -127,9 +127,9 @@
 				"hex": "#027abb",
 				"count": 2,
 				"group": "brand",
-				"role": "secondary",
-				"base": "#021e41",
-				"lightnessDelta": 0.239
+				"role": "primary",
+				"base": "#03b97c",
+				"lightnessDelta": 0.002
 			},
 			{
 				"hex": "#16181a",
@@ -1449,5 +1449,5 @@
 		"swappableImages": 3,
 		"words": 319
 	},
-	"builtAt": "2026-10-29T09:32:49.966Z"
+	"builtAt": "2026-10-29T11:52:56.101Z"
 }

@@ -173,9 +173,9 @@
 				"hex": "#027abb",
 				"count": 1,
 				"group": "brand",
-				"role": "accent",
-				"base": "#027abb",
-				"lightnessDelta": 0
+				"role": "primary",
+				"base": "#242f65",
+				"lightnessDelta": 0.102
 			}
 		],
 		"contrastPairs": [
@@ -3243,5 +3243,5 @@
 		"swappableImages": 15,
 		"words": 838
 	},
-	"builtAt": "2026-10-29T09:32:49.942Z"
+	"builtAt": "2026-10-29T11:52:56.076Z"
 }
