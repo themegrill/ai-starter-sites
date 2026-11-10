@@ -8,6 +8,6 @@ export async function GET(request: Request) {
 		ok: true,
 		mode: config.mock ? 'mock' : 'live',
 		model: config.mock ? null : config.model,
-		tokenRequired: config.siteTokens.length > 0,
+		tokenRequired: config.siteTokens.length > 0 || config.requireSiteToken,
 	});
 }

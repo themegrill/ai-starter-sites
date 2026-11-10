@@ -1,4 +1,5 @@
 import { ApiError } from './errors';
+import { cleanUserText } from './pipeline/user-input';
 import {
 	AiPageSlug,
 	AiTone,
@@ -46,10 +47,11 @@ const hexColor = (body: Record<string, unknown>, key: string, label = key): stri
 export const validateGenerate = (body: unknown): GenerateRequest => {
 	if (!isObject(body)) return invalid('Request body must be an object.');
 
-	const brandName = str(body, 'brandName');
+	const brandName = cleanUserText(str(body, 'brandName'), true);
+	if (!brandName) invalid('"brandName" is required.');
 	if (brandName.length > BRAND_NAME_MAX) invalid(`"brandName" must be at most ${BRAND_NAME_MAX} characters.`);
 
-	const description = str(body, 'description');
+	const description = cleanUserText(str(body, 'description'));
 	if (description.length < DESCRIPTION_MIN) invalid(`"description" must be at least ${DESCRIPTION_MIN} characters.`);
 	if (description.length > DESCRIPTION_MAX) invalid(`"description" must be at most ${DESCRIPTION_MAX} characters.`);
 
@@ -77,7 +79,7 @@ export const validateGenerate = (body: unknown): GenerateRequest => {
 
 export const validateRegenerate = (body: unknown): RegenerateSectionRequest => {
 	if (!isObject(body)) return invalid('Request body must be an object.');
-	const instruction = str(body, 'instruction', false);
+	const instruction = cleanUserText(str(body, 'instruction', false), true);
 	if (instruction.length > INSTRUCTION_MAX) invalid(`"instruction" must be at most ${INSTRUCTION_MAX} characters.`);
 
 	return {

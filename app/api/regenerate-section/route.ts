@@ -6,4 +6,6 @@ export const maxDuration = 30;
 
 export const OPTIONS = preflight;
 
-export const POST = postRoute(validateRegenerate, (body) => getGenerator().regenerateSection(body));
+export const POST = postRoute(validateRegenerate, (body) => getGenerator().regenerateSection(body), {
+	limit: 'regenerate',
+});

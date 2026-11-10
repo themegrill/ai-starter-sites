@@ -6,4 +6,4 @@ export const maxDuration = 60;
 
 export const OPTIONS = preflight;
 
-export const POST = postRoute(validateSwitchDemo, (body) => getGenerator().switchDemo(body));
+export const POST = postRoute(validateSwitchDemo, (body) => getGenerator().switchDemo(body), { limit: 'ai' });
