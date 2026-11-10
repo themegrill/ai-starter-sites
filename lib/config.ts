@@ -17,8 +17,10 @@ export const config = {
 		const ms = Number(process.env.MOCK_DELAY_MS ?? 1500);
 		return Number.isFinite(ms) && ms >= 0 ? ms : 1500;
 	},
-	get siteTokens() {
-		return list(process.env.SITE_TOKENS);
+	// Requests per IP per minute across the API. 0 turns the limit off.
+	get rateLimitPerMinute() {
+		const limit = Number(process.env.RATE_LIMIT_PER_MINUTE ?? 60);
+		return Number.isFinite(limit) && limit >= 0 ? Math.floor(limit) : 60;
 	},
 	get allowedOrigins() {
 		const origins = list(process.env.ALLOWED_ORIGINS);

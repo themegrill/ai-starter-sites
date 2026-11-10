@@ -11,7 +11,7 @@ It currently runs in **mock mode**: responses come from fixtures in
 
 | Method | Path | Purpose |
 |---|---|---|
-| GET | `/api/health` | Mode check: `{ ok, mode, model, tokenRequired }` |
+| GET | `/api/health` | Mode check: `{ ok, mode, model, rateLimitPerMinute }` |
 | POST | `/api/generate` | Prompt -> Generation Package |
 | POST | `/api/regenerate-section` | Rewrite one section's copy |
 | POST | `/api/switch-demo` | Rebuild the package on another demo |
@@ -112,7 +112,7 @@ Then in the Vercel dashboard, Project -> Settings -> Environment Variables:
 | Variable | Value |
 |---|---|
 | `MOCK` | `true` for now |
-| `SITE_TOKENS` | A long random string (or several, comma-separated) |
+| `RATE_LIMIT_PER_MINUTE` | Requests per IP per minute, default `60` (`0` = off) |
 | `ALLOWED_ORIGINS` | `*` while testing, later the real site origins |
 | `GROQ_API_KEY` | Later, when the live pipeline lands |
 | `ANTHROPIC_API_KEY` | Instead of Groq, to run the pipeline on Claude (`LLM_PROVIDER=2`) |
@@ -125,7 +125,8 @@ again after editing them.
 
 ```
 app/api/...          Route handlers (thin: validate -> generator -> JSON)
-lib/http.ts          CORS, X-Site-Token check, error shaping
+lib/http.ts          CORS, rate limit, error shaping
+lib/rateLimit.ts     Basic per-IP limit (in memory, per instance)
 lib/validate.ts      Request validation (limits match the plugin form)
 lib/generator/       Generator interface; mock.ts now, live pipeline next
 lib/fixtures/        Fixture packages, shared shape with the plugin mock

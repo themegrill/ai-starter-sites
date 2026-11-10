@@ -1,5 +1,6 @@
 import { config } from './config';
 import { ApiError } from './errors';
+import { rateLimit } from './rateLimit';
 import { AiErrorPayload } from './types';
 
 // The plugin calls this API from the browser in wp-admin, so every response
@@ -12,7 +13,7 @@ const corsHeaders = (request: Request): Record<string, string> => {
 	return {
 		...(allowOrigin ? { 'Access-Control-Allow-Origin': allowOrigin } : {}),
 		'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-		'Access-Control-Allow-Headers': 'Content-Type, X-Site-Token',
+		'Access-Control-Allow-Headers': 'Content-Type',
 		'Access-Control-Max-Age': '86400',
 		Vary: 'Origin',
 	};
@@ -38,17 +39,6 @@ const errorResponse = (request: Request, error: ApiError) => {
 	return json(request, payload, error.status, extra);
 };
 
-const authorize = (request: Request) => {
-	const tokens = config.siteTokens;
-	if (!tokens.length) {
-		return;
-	}
-	const token = request.headers.get('x-site-token') ?? '';
-	if (!tokens.includes(token)) {
-		throw new ApiError('UNAUTHORIZED', 'This site is not authorized to use AI generation.');
-	}
-};
-
 const readBody = async (request: Request): Promise<unknown> => {
 	try {
 		return await request.json();
@@ -59,12 +49,12 @@ const readBody = async (request: Request): Promise<unknown> => {
 
 type Handler<T> = (body: T, request: Request) => Promise<unknown>;
 
-// Wraps a POST route: auth, JSON parsing, validation, CORS and error shaping.
+// Wraps a POST route: rate limit, JSON parsing, validation, CORS and error shaping.
 export const postRoute =
 	<T>(validate: (body: unknown) => T, handler: Handler<T>) =>
 	async (request: Request) => {
 		try {
-			authorize(request);
+			rateLimit(request);
 			const body = validate(await readBody(request));
 			return json(request, await handler(body, request));
 		} catch (error) {
@@ -91,7 +81,7 @@ const toApiError = (error: unknown) => {
  * POST route that can stream progress. With `Accept: application/x-ndjson`
  * the response is one JSON event per line: progress events, then a final
  * `result` or `error` event. Without it, it behaves like postRoute.
- * Auth and validation errors are returned before streaming starts, as
+ * Rate limit and validation errors are returned before streaming starts, as
  * normal JSON errors with their HTTP status.
  */
 export const streamingPostRoute =
@@ -102,7 +92,7 @@ export const streamingPostRoute =
 	async (request: Request) => {
 		let body: T;
 		try {
-			authorize(request);
+			rateLimit(request);
 			body = validate(await readBody(request));
 		} catch (error) {
 			return errorResponse(request, toApiError(error));
@@ -155,7 +145,7 @@ export const getRoute =
 	<C>(handler: (request: Request, context: C) => Promise<unknown>) =>
 	async (request: Request, context: C) => {
 		try {
-			authorize(request);
+			rateLimit(request);
 			return json(request, await handler(request, context));
 		} catch (error) {
 			if (error instanceof ApiError) {
