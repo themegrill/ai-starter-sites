@@ -9,4 +9,5 @@ export const OPTIONS = preflight;
 
 export const POST = streamingPostRoute(validateGenerate, (body, emit, signal) =>
 	getGenerator().generate(body, { onProgress: emit, signal }),
+	{ limit: 'ai' },
 );

@@ -12,4 +12,4 @@ export const POST = postRoute(validateColorMap, async ({ demoSlug, primaryColor 
 	if (!demo) throw new ApiError('INVALID_INPUT', 'That design is not available.');
 	const { map, themeMap } = colorMapFor(demo, primaryColor);
 	return { colorMap: map, themeColorMap: themeMap };
-});
+}, { limit: 'light' });

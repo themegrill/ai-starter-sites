@@ -5,6 +5,7 @@ import { getLlm, LlmUsage } from '../llm';
 import { GenerateRequest } from '../types';
 import { Brief } from './brief';
 import { languageName } from './language';
+import { USER_INPUT_RULES, userInput } from './user-input';
 
 export type CopyContext = { request: GenerateRequest; brief: Brief; demo: DemoManifest };
 
@@ -45,7 +46,9 @@ Rules:
 - Keep the slots of a section coherent: the heading leads, the text supports it, the button follows from it.
 - Never use lorem ipsum, placeholders, brackets, emojis, quotation marks around whole values, or markdown.
 - Do not invent prices, phone numbers, emails, addresses, awards, years or statistics.
-- "Template text" shows the length and shape of the original slot; it belongs to a different business, so do not copy its facts.`;
+- "Template text" shows the length and shape of the original slot; it belongs to a different business, so do not copy its facts.
+
+${USER_INPUT_RULES}`;
 
 const businessBlock = ({ request, brief }: CopyContext) =>
 	[
@@ -54,7 +57,7 @@ const businessBlock = ({ request, brief }: CopyContext) =>
 		brief.location ? `Location: ${brief.location}` : '',
 		`Offerings: ${brief.offerings.join('; ')}`,
 		`Tagline: ${brief.tagline}`,
-		`Owner's description: "${request.description}"`,
+		`Owner's description: ${userInput('owner_description', request.description)}`,
 	]
 		.filter(Boolean)
 		.join('\n');
@@ -88,7 +91,7 @@ const buildPrompt = (ctx: CopyContext, jobs: Job[], keys: Map<TextSlot, string>,
 		}
 		lines.push('');
 	});
-	if (instruction) lines.push(`Extra instruction from the site owner: ${instruction}`);
+	if (instruction) lines.push(`Extra instruction from the site owner: ${userInput('owner_instruction', instruction)}`);
 	return lines.join('\n');
 };
 

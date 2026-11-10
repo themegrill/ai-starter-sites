@@ -1,5 +1,7 @@
+import { timingSafeEqual } from 'node:crypto';
 import { config } from './config';
 import { ApiError } from './errors';
+import { enforceRateLimit, LimitName } from './rate-limit';
 import { AiErrorPayload } from './types';
 
 // The plugin calls this API from the browser in wp-admin, so every response
@@ -38,20 +40,51 @@ const errorResponse = (request: Request, error: ApiError) => {
 	return json(request, payload, error.status, extra);
 };
 
+// Constant-time compare so the token can't be guessed byte by byte from timings.
+const sameToken = (a: string, b: string) => {
+	const left = Buffer.from(a);
+	const right = Buffer.from(b);
+	return left.length === right.length && timingSafeEqual(left, right);
+};
+
 const authorize = (request: Request) => {
 	const tokens = config.siteTokens;
 	if (!tokens.length) {
+		if (config.requireSiteToken) {
+			console.error('SITE_TOKENS is empty on production; rejecting request. Set SITE_TOKENS (or ALLOW_ANONYMOUS=true).');
+			throw new ApiError('UNAUTHORIZED', 'AI generation is not available right now.');
+		}
 		return;
 	}
 	const token = request.headers.get('x-site-token') ?? '';
-	if (!tokens.includes(token)) {
+	if (!tokens.some((t) => sameToken(t, token))) {
 		throw new ApiError('UNAUTHORIZED', 'This site is not authorized to use AI generation.');
 	}
 };
 
+// Auth first, so unauthorized traffic can't use up a real client's quota.
+const guard = async (request: Request, limit?: LimitName) => {
+	authorize(request);
+	if (limit) await enforceRateLimit(request, limit);
+};
+
 const readBody = async (request: Request): Promise<unknown> => {
+	const max = config.maxBodyBytes;
+	const declared = Number(request.headers.get('content-length'));
+	if (Number.isFinite(declared) && declared > max) {
+		throw new ApiError('INVALID_INPUT', 'Request body is too large.');
+	}
+	let text: string;
 	try {
-		return await request.json();
+		text = await request.text();
+	} catch {
+		throw new ApiError('INVALID_INPUT', 'Request body could not be read.');
+	}
+	if (Buffer.byteLength(text) > max) {
+		throw new ApiError('INVALID_INPUT', 'Request body is too large.');
+	}
+	try {
+		return JSON.parse(text);
 	} catch {
 		throw new ApiError('INVALID_INPUT', 'Request body must be valid JSON.');
 	}
@@ -59,12 +92,14 @@ const readBody = async (request: Request): Promise<unknown> => {
 
 type Handler<T> = (body: T, request: Request) => Promise<unknown>;
 
-// Wraps a POST route: auth, JSON parsing, validation, CORS and error shaping.
+export type RouteOptions = { limit?: LimitName };
+
+// Wraps a POST route: auth, rate limit, JSON parsing, validation, CORS and error shaping.
 export const postRoute =
-	<T>(validate: (body: unknown) => T, handler: Handler<T>) =>
+	<T>(validate: (body: unknown) => T, handler: Handler<T>, options: RouteOptions = {}) =>
 	async (request: Request) => {
 		try {
-			authorize(request);
+			await guard(request, options.limit);
 			const body = validate(await readBody(request));
 			return json(request, await handler(body, request));
 		} catch (error) {
@@ -98,11 +133,12 @@ export const streamingPostRoute =
 	<T>(
 		validate: (body: unknown) => T,
 		handler: (body: T, emit: (event: { step: string; progress: number }) => void, signal: AbortSignal) => Promise<unknown>,
+		options: RouteOptions = {},
 	) =>
 	async (request: Request) => {
 		let body: T;
 		try {
-			authorize(request);
+			await guard(request, options.limit);
 			body = validate(await readBody(request));
 		} catch (error) {
 			return errorResponse(request, toApiError(error));
@@ -152,10 +188,10 @@ export const streamingPostRoute =
 	};
 
 export const getRoute =
-	<C>(handler: (request: Request, context: C) => Promise<unknown>) =>
+	<C>(handler: (request: Request, context: C) => Promise<unknown>, options: RouteOptions = {}) =>
 	async (request: Request, context: C) => {
 		try {
-			authorize(request);
+			await guard(request, options.limit);
 			return json(request, await handler(request, context));
 		} catch (error) {
 			if (error instanceof ApiError) {

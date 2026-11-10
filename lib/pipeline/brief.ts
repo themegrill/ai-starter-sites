@@ -5,6 +5,7 @@ import { Capability } from '../demos/types';
 import { getLlm, LlmUsage } from '../llm';
 import { GenerateRequest } from '../types';
 import { languageName } from './language';
+import { USER_INPUT_RULES, userInput } from './user-input';
 
 export type Brief = {
 	businessType: string; // e.g. "family bakery"
@@ -71,15 +72,17 @@ Extract only what the description states or clearly implies. Never invent names,
 - offerings: 3-6 short items the business provides (inferred from the type of business if not listed).
 - tagline: a short, memorable site tagline (max 7 words) in the requested language and tone.
 - imageKeywords: 4-6 concrete English photo search terms (subjects you could photograph).
-- capabilities: for each item, true only if a business of this type plausibly has it, false if it clearly does not, null if it could go either way. Most local businesses have staff, so team is usually true. Examples: a camera shop: products true, team true, pricing_plans false, portfolio false, client_logos false. A marketing agency: pricing_plans true, portfolio true, client_logos true, team true, blog true.`;
+- capabilities: for each item, true only if a business of this type plausibly has it, false if it clearly does not, null if it could go either way. Most local businesses have staff, so team is usually true. Examples: a camera shop: products true, team true, pricing_plans false, portfolio false, client_logos false. A marketing agency: pricing_plans true, portfolio true, client_logos true, team true, blog true.
+
+${USER_INPUT_RULES}`;
 
 export const parseBrief = async (request: GenerateRequest, signal?: AbortSignal): Promise<{ brief: Brief; usage: LlmUsage }> => {
 	const { data, usage } = await getLlm().json<Brief>({
 		name: 'site_brief',
 		system: SYSTEM,
 		user: [
-			`Brand name: ${request.brandName}`,
-			`Description: ${request.description}`,
+			`Brand name: ${userInput('brand_name', request.brandName)}`,
+			`Description: ${userInput('description', request.description)}`,
 			request.niche !== 'auto' ? `The user selected the niche: ${request.niche}` : '',
 			`Tone: ${request.tone}`,
 			`Site language: ${languageName(request.language)}`,

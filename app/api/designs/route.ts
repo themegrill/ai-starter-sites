@@ -7,4 +7,4 @@ export const maxDuration = 30;
 
 export const OPTIONS = preflight;
 
-export const POST = postRoute(validateGenerate, (body) => getGenerator().designs(body));
+export const POST = postRoute(validateGenerate, (body) => getGenerator().designs(body), { limit: 'ai' });
